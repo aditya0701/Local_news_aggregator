@@ -1,0 +1,5 @@
+queries:
+  - name: Trending this week
+    search: "created:>{date} sort:stars-desc"
+  - name: AI/ML topic
+    search: "topic:machine-learning sort:stars-desc"
