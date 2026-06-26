@@ -1,36 +1,117 @@
-# Hindi Newspaper
+# TechDrishti (Techदृष्टि) 🪔
 
-A scraper that pulls content from GitHub (trending repos, releases, discussions) and RSS feeds, then translates and curates it into Hindi and other Indian regional languages — aiming to deliver good intellectual/tech content to Indian readers in their own language.
+**हिंदी में प्रीमियम साइंस और टेक्नोलॉजी जर्नल**
 
-## How it works
+> *दृष्टि — वह नज़र जो जानकारी को ज्ञान में बदल दे।*
 
-1. **Collectors** (`collectors/`) pull raw items:
-   - `github_collector.py` — trending repos / topics via the GitHub REST API
-   - `rss_collector.py` — articles from configured RSS feeds
-2. **Translator** (`translator/translate.py`) converts collected English content into Hindi (and optionally other Indian languages) via a translation API.
-3. **Pipeline** (`pipeline.py`) ties collection → translation → output (JSON/Markdown digest) together.
+TechDrishti एक AI-संचालित (AI-driven) न्यूज़ एग्रीगेटर है, जो दुनिया की सबसे अच्छी साइंस, टेक्नोलॉजी, AI, गेम डेवलपमेंट और स्पेस से जुड़ी ख़बरों को भारतीय पाठकों तक उन्हीं की भाषा — हिंदी — में, एक प्रीमियम पढ़ने के अनुभव (reading experience) के साथ पहुँचाता है।
 
-## Setup
+---
+
+## 🎯 विज़न (Vision)
+
+भारतीय छात्रों और पाठकों के लिए इंटरनेट पर उच्च-गुणवत्ता वाले साइंस और टेक कंटेंट की भारी कमी है — ख़ासकर हिंदी में। ज़्यादातर अच्छी जानकारी अंग्रेज़ी स्रोतों (TechCrunch, NASA, Space.com आदि) तक सीमित रह जाती है।
+
+TechDrishti इस गैप को भरने की कोशिश है। यह न सिर्फ़ अनुवाद करता है, बल्कि अंग्रेज़ी लेखों से **वैज्ञानिक तथ्यों (hard facts)** को निकालकर, एक ओपन-सोर्स AI मॉडल की मदद से उन तथ्यों पर आधारित एक **बिल्कुल नया और ओरिजिनल हिंदी आर्टिकल** लिखता है — जिससे कॉपीराइट का उल्लंघन नहीं होता, और पाठक को formal, भरोसेमंद हिंदी में जानकारी मिलती है।
+
+> ध्यान देने योग्य बात: यह स्ट्रैटेजी इसे कॉपीराइट जोखिम से पूरी तरह मुक्त नहीं करती — स्रोत लेखों के क्रेडिट/लिंक और तथ्य-सत्यापन (fact-checking) की प्रक्रिया को पारदर्शी रखना ज़रूरी है।
+
+### फ़िलहाल का स्कोप (Current Phase)
+
+प्रोजेक्ट को चरणों (phases) में बढ़ाया जा रहा है:
+
+1. **Phase 1 (अभी)** — AI और कंप्यूटर/टेक्नोलॉजी से जुड़ी ख़बरें। उद्देश्य: AI से जुड़ा नया ज्ञान आम लोगों तक पहुँचाना, जिसे लेखक स्वयं भी उपयोग में ला सके।
+2. **Phase 2** — गेम डेवलपमेंट (Unity, Unreal Engine) और VR से जुड़ा कंटेंट।
+3. **Phase 3** — स्पेस (Space) से जुड़ी ख़बरें और खोजें।
+
+हर फ़ेज़ पिछले फ़ेज़ की नींव पर बनेगा ताकि पाइपलाइन और UI स्थिर रहें, और स्कोप धीरे-धीरे चौड़ा हो।
+
+---
+
+## 🏗️ आर्किटेक्चर (Zero-Cost Architecture)
+
+प्रोजेक्ट पूरी तरह **फ्री / ज़ीरो-कॉस्ट** infrastructure पर डिज़ाइन किया गया है:
+
+```
+RSS / GitHub  ──▶  scraper.py (GitHub Actions, दिन में 2 बार)
+                         │
+                         ▼
+               pending_articles.json (English facts)
+                         │
+                         ▼
+       colab_translator.py (Google Colab + Qwen 2.5 / Llama 3)
+                         │  तथ्य निकालकर मूल हिंदी लेख लिखता है
+                         ▼
+                hindi_articles.json  ──▶  GitHub push
+                         │
+                         ▼
+              Frontend (HTML + Tailwind + Vanilla JS)
+```
+
+### Phase 1 — Ingestion
+- **`scraper.py`** + **GitHub Actions** (cron, दिन में दो बार)
+- RSS feeds पढ़ता है, इंग्लिश न्यूज़ को `pending_articles.json` में सेव करता है
+
+### Phase 2 — Translation / Writing
+- **`colab_translator.py`** Google Colab पर चलता है
+- GitHub से pending articles खींचता है, ओपन-सोर्स LLM (Qwen 2.5 / Llama 3) से तथ्यों के आधार पर मूल हिंदी आर्टिकल लिखवाता है
+- नतीजा `hindi_articles.json` के रूप में वापस GitHub पर push होता है
+
+### Frontend
+- Single-file **HTML**, **Tailwind CSS**, **Vanilla JavaScript** — कोई बिल्ड स्टेप नहीं, GitHub Pages पर सीधे डिप्लॉय करने योग्य
+
+---
+
+## 🎨 डिज़ाइन भाषा (Aesthetic)
+
+**थीम: "Temple × Medium.org"** — एक टिपिकल भीड़-भाड़ वाली न्यूज़ साइट नहीं, बल्कि Medium जैसा शांत, प्रीमियम पढ़ने का अनुभव।
+
+| एलिमेंट | विवरण |
+|---|---|
+| **रंग और टेक्सचर** | सैंडस्टोन (Sandstone), गेरू/टेराकोटा (Temple Red), पीतल (Aged Brass) — प्राचीन भारतीय कला से प्रेरित। बैकग्राउंड में हल्का पेपर/स्टोन noise टेक्सचर। |
+| **टाइपोग्राफ़ी** | हिंदी टेक्स्ट के लिए **Martel (Serif)** फॉन्ट — एक प्रीमियम जर्नल जैसा फील। |
+| **सिग्नेचर एलिमेंट** | राइट-बॉटम कॉर्नर में **कोणार्क का सूर्य चक्र** — स्क्रॉल करने पर घूमता है, समय और भारतीय वैज्ञानिक धरोहर का प्रतीक। |
+
+### AI Integrations (UI में)
+
+- **🔹 त्वरित सारांश (AI Summary)** — एक क्लिक में पूरे आर्टिकल का 3-बुलेट-पॉइंट सारांश
+- **🔹 जिज्ञासा (Ask AI)** — इन-बिल्ट चैट मॉडल जहाँ पाठक उस आर्टिकल से जुड़े वैज्ञानिक सवाल हिंदी में पूछ सकता है (Gemini API से इंटीग्रेटेड)
+
+---
+
+## ⚙️ सेटअप (Setup)
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env   # fill in API keys
+cp .env.example .env   # GitHub token, LLM/Gemini API keys भरें
 ```
 
-## Run
+### चलाना (Run)
 
 ```bash
-python pipeline.py
+# Phase 1 — Ingestion (आमतौर पर GitHub Actions cron से चलता है)
+python scraper.py
+
+# Phase 2 — Translation/Writing (Google Colab नोटबुक में चलाएँ)
+python colab_translator.py
 ```
 
-## Configuration
+### कॉन्फ़िगरेशन
 
-- `config/feeds.yaml` — list of RSS feed URLs to pull from.
-- `config/github.yaml` — GitHub search/trending queries.
-- `.env` — secrets (GitHub token, translation API key).
+- `config/feeds.yaml` — RSS feed स्रोतों की सूची
+- `config/github.yaml` — GitHub trending/search queries
+- `.env` — सीक्रेट्स (GitHub token, Gemini/LLM API keys)
 
-## Status
+---
 
-Early scaffold — collectors and translator are stubbed out and ready to be filled in.
+## 📌 स्टेटस
+
+🟡 **Phase 1 शुरुआती चरण में** — AI/कंप्यूटर न्यूज़ कलेक्शन और हिंदी अनुवाद पाइपलाइन पर काम जारी। गेम डेवलपमेंट (Unity/Unreal/VR) और स्पेस सेक्शन आगे के फ़ेज़ में जोड़े जाएंगे।
+
+---
+
+## 🙏 क्रेडिट
+
+स्रोत लेखों (TechCrunch, Space.com, NASA, आदि) के तथ्यों पर आधारित मूल हिंदी लेखन। हर आर्टिकल में मूल स्रोत का लिंक/क्रेडिट देना इस प्रोजेक्ट की पारदर्शिता और भरोसे की नींव है।
