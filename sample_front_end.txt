@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDrishti | Premium Science Journal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@300;400;700;900&family=Mukta:wght@300;400;600&family=Yatra+One&family=Rozha+One&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Mukta', 'sans-serif'],
+                        serif: ['Martel', 'serif'],
+                        display: ['Rozha One', 'serif'],
+                        logo: ['Yatra One', 'cursive'],
+                    },
+                    colors: {
+                        kalamkari: {
+                            cotton: '#F3E8C9',    
+                            red: '#8B2626',       
+                            indigo: '#1A3644',    
+                            mustard: '#D49A36',   
+                            charcoal: '#3A2E2A',  
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #F3E8C9;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
+            color: #3A2E2A;
+        }
+
+        /* Here we use your exact clean image for the intricate design */
+        .elephant-banner {
+            width: 100%;
+            height: 140px; /* Adjust height based on how much of the pattern you want to show */
+            background-color: #8B2626; /* Fallback color */
+            
+            /* THIS CALLS YOUR EXACT IMAGE. Ensure wmremove-transformed.jpeg is in the same folder as this HTML file */
+            background-image: url('wmremove-transformed.jpeg'); 
+            
+            background-repeat: repeat-x; /* Repeats horizontally to make a continuous border */
+            background-position: center;
+            background-size: auto 100%; /* Scales the pattern nicely without distorting */
+            border-bottom: 4px solid #D49A36;
+        }
+
+        .footer-banner {
+            width: 100%;
+            height: 140px;
+            background-color: #8B2626;
+            background-image: url('wmremove-transformed.jpeg');
+            background-repeat: repeat-x;
+            background-position: center;
+            background-size: auto 100%;
+            border-top: 4px solid #D49A36;
+        }
+
+        .carpet-frame {
+            position: relative;
+            padding: 12px;
+            background-color: #F3E8C9;
+            border: 2px solid #8B2626;
+        }
+        .carpet-frame::before, .carpet-frame::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='%238B2626'%3E%3Cpath d='M0 0h40v4H4v36H0V0zm8 8h24v4H12v20H8V8zm8 8h8v4h-8v-4z'/%3E%3C/svg%3E");
+        }
+        .carpet-frame::before { top: 0; left: 0; }
+        .carpet-frame::after { bottom: 0; right: 0; transform: rotate(180deg); }
+
+        ::selection { background: #8B2626; color: #F3E8C9; }
+        
+        .premium-link {
+            text-decoration-color: #D49A36;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            transition: all 0.3s ease;
+        }
+        .premium-link:hover { text-decoration-color: #8B2626; }
+    </style>
+</head>
+<body class="font-sans antialiased min-h-screen flex flex-col">
+
+    <!-- TOP BORDER WITH YOUR INTRICATE DESIGN -->
+    <div class="elephant-banner shadow-md relative z-20"></div>
+
+    <!-- Header / Navigation -->
+    <header class="w-full bg-kalamkari-cotton py-6 relative z-10 shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center gap-6 font-sans text-sm tracking-widest text-kalamkari-red font-bold uppercase">
+                <button class="hover:text-kalamkari-mustard transition-colors flex items-center gap-2">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M4.9 19.1L19.1 4.9"/></svg>
+                    <span class="hidden sm:inline">मेनू (Menu)</span>
+                </button>
+            </div>
+
+            <!-- Logo -->
+            <div class="absolute left-1/2 -translate-x-1/2 text-center">
+                <a href="#" class="font-logo text-4xl md:text-5xl text-kalamkari-red tracking-wide flex flex-col items-center">
+                    Techदृष्टि
+                    <span class="font-sans text-[0.6rem] tracking-[0.3em] text-kalamkari-charcoal mt-1 uppercase font-bold">विज्ञान एवं प्रज्ञान</span>
+                </a>
+            </div>
+
+            <div class="flex items-center gap-4 font-sans text-sm">
+                <button class="hidden sm:block border-2 border-kalamkari-red text-kalamkari-red font-bold hover:bg-kalamkari-red hover:text-kalamkari-cotton px-6 py-2 rounded-sm transition-colors">
+                    सदस्य बनें
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 w-full">
+        
+        <article class="mb-20 group cursor-pointer">
+            <div class="carpet-frame mb-10 w-full">
+                <div class="relative w-full h-[50vh] md:h-[60vh] overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="SpaceX Launch" class="w-full h-full object-cover filter contrast-125 sepia-[.50] hue-rotate-[-10deg] transition-transform duration-1000 group-hover:scale-105 group-hover:sepia-0">
+                    <div class="absolute inset-2 border border-white/30 pointer-events-none"></div>
+                </div>
+            </div>
+
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="font-sans text-kalamkari-red tracking-[0.2em] text-sm uppercase font-bold mb-4 flex items-center justify-center gap-3">
+                    <span class="w-2 h-2 rotate-45 bg-kalamkari-mustard"></span>
+                    अंतरिक्ष अनुसंधान (Space)
+                    <span class="w-2 h-2 rotate-45 bg-kalamkari-mustard"></span>
+                </div>
+                
+                <h1 class="font-display text-4xl md:text-6xl font-bold text-kalamkari-red leading-tight mb-6 group-hover:text-kalamkari-charcoal transition-colors">
+                    स्पेसएक्स का नया सैटेलाइट लॉन्च: <br>ब्लू ओशन विस्फोट का पूरा सच
+                </h1>
+                
+                <p class="font-serif text-lg md:text-xl text-kalamkari-charcoal/90 leading-relaxed mb-8">
+                    एलोन मस्क की कंपनी ने एक बार फिर इतिहास रचा है। जानिए कैसे यह नया लॉन्च भारत और दुनिया के लिए इंटरनेट की दुनिया को बदल सकता है।
+                </p>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-kalamkari-cotton text-kalamkari-charcoal mt-16 relative">
+        <!-- BOTTOM BORDER WITH YOUR INTRICATE DESIGN -->
+        <div class="footer-banner shadow-inner"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 py-12 text-center relative z-10">
+            <h2 class="font-logo text-4xl text-kalamkari-red mb-4">Techदृष्टि</h2>
+            <p class="font-serif text-kalamkari-charcoal/70 max-w-md mx-auto mb-8 leading-relaxed text-sm">
+                विज्ञान और प्रौद्योगिकी का प्रीमियम हिंदी जर्नल। ज्ञान का वह प्रकाश जो सीमाओं को पार करता है।
+            </p>
+            
+            <div class="w-32 h-px bg-kalamkari-red mx-auto mb-6"></div>
+            
+            <div class="font-sans text-xs text-kalamkari-red tracking-widest uppercase font-bold">
+                &copy; २०२६ Techदृष्टि. सर्वाधिकार सुरक्षित.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
