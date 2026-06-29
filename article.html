@@ -554,6 +554,7 @@
     function sourceLabel(value) {
       if (value === 'rss') return 'आरएसएस';
       if (value === 'github') return 'गिटहब';
+      if (value === 'synthesized') return 'मूल लेख (एआई)';
       return 'स्रोत';
     }
 
@@ -595,13 +596,13 @@
 
     async function init() {
       const params = new URLSearchParams(window.location.search);
-      const id = Number(params.get('id') || '0');
+      const id = params.get('id') || '';
 
       try {
-        const response = await fetch('output/digest_hindi.json', { cache: 'no-store' });
+        const response = await fetch('output/articles_hindi.json', { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const items = await response.json();
-        const item = Array.isArray(items) ? items[id] : null;
+        const item = Array.isArray(items) ? items.find((it) => it.id === id) : null;
 
         if (!item) {
           articleShell.hidden = true;
@@ -615,10 +616,14 @@
           <span>${escapeHtml(hostOf(item))}</span>
         `;
         articleTitle.textContent = item.title || 'शीर्षक उपलब्ध नहीं है';
-        articleLede.textContent = 'यह स्रोत लेख का मशीन-अनुवादित सारांश है — पूरा लेख पढ़ने के लिए मूल स्रोत खोलें.';
+
+        const sources = Array.isArray(item.sources) && item.sources.length ? item.sources : [item.url].filter(Boolean);
+        articleLede.textContent = sources.length > 1
+          ? `यह ${sources.length} स्रोतों के तथ्यों पर आधारित एक मूल हिंदी लेख है — मूल स्रोत पढ़ने के लिए नीचे लिंक देखें.`
+          : 'यह स्रोत लेख का मशीन-अनुवादित सारांश है — पूरा लेख पढ़ने के लिए मूल स्रोत खोलें.';
         articleBody.innerHTML = buildBody(item);
         articleActions.innerHTML = `
-          <a href="${escapeHtml(item.url || '#')}" target="_blank" rel="noreferrer">मूल स्रोत खोलें</a>
+          ${sources.map((url, i) => `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">मूल स्रोत${sources.length > 1 ? ` ${i + 1}` : ''} खोलें</a>`).join('')}
           <a href="index.html">वापस सूची में जाएँ</a>
         `;
 

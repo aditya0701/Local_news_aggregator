@@ -774,6 +774,37 @@
       return 'स्रोत';
     }
 
+    const PAGE_SIZE = 12;
+    let allItems = [];
+    let shownCount = 0;
+
+    function cardHtml(item) {
+      return `
+        <a class="card" href="article.html?id=${encodeURIComponent(item.id)}" aria-label="लेख खोलें: ${escapeHtml(item.title || 'शीर्षक उपलब्ध नहीं है')}">
+          <div class="card-art" aria-hidden="true"></div>
+          <div class="meta">
+            <span>${escapeHtml(sourceLabel(item.source))}</span>
+            <span>${escapeHtml(item.language === 'hindi' ? 'हिंदी' : 'अन्य')}</span>
+          </div>
+          <h3>${escapeHtml(item.title || 'शीर्षक उपलब्ध नहीं है')}</h3>
+          <p class="summary">${escapeHtml(stripHtml(item.summary) || 'सारांश उपलब्ध नहीं है.')}</p>
+          <span class="source-link">लेख पढ़ें</span>
+        </a>
+      `;
+    }
+
+    function renderNextPage() {
+      const nextBatch = allItems.slice(shownCount, shownCount + PAGE_SIZE);
+      const cardGrid = grid.querySelector('.card-grid');
+      cardGrid.insertAdjacentHTML('beforeend', nextBatch.map(cardHtml).join(''));
+      shownCount += nextBatch.length;
+
+      const loadMoreButton = grid.querySelector('#loadMoreButton');
+      if (shownCount >= allItems.length) {
+        loadMoreButton?.remove();
+      }
+    }
+
     function renderArticles(items) {
       countValue.textContent = String(items.length);
       if (!items.length) {
@@ -781,11 +812,14 @@
         return;
       }
 
+      allItems = items;
       const featured = items[0];
-      const rest = items.slice(1, 7);
+      shownCount = 1;
+      const firstBatch = items.slice(1, 1 + PAGE_SIZE);
+      shownCount += firstBatch.length;
 
       grid.innerHTML = `
-        <a class="featured card" href="article.html?id=0" aria-label="लेख खोलें: ${escapeHtml(featured.title || 'शीर्षक उपलब्ध नहीं है')}">
+        <a class="featured card" href="article.html?id=${encodeURIComponent(featured.id)}" aria-label="लेख खोलें: ${escapeHtml(featured.title || 'शीर्षक उपलब्ध नहीं है')}">
           <div class="featured-art" aria-hidden="true"></div>
           <div class="featured-copy">
             <div class="label-row">
@@ -799,26 +833,18 @@
         </a>
 
         <div class="card-grid">
-          ${rest.map((item, index) => `
-            <a class="card" href="article.html?id=${index + 1}" aria-label="लेख खोलें: ${escapeHtml(item.title || 'शीर्षक उपलब्ध नहीं है')}">
-              <div class="card-art" aria-hidden="true"></div>
-              <div class="meta">
-                <span>${escapeHtml(sourceLabel(item.source))}</span>
-                <span>${escapeHtml(item.language === 'hindi' ? 'हिंदी' : 'अन्य')}</span>
-              </div>
-              <h3>${escapeHtml(item.title || 'शीर्षक उपलब्ध नहीं है')}</h3>
-              <p class="summary">${escapeHtml(stripHtml(item.summary) || 'सारांश उपलब्ध नहीं है.')}</p>
-              <span class="source-link">लेख पढ़ें</span>
-            </a>
-          `).join('')}
+          ${firstBatch.map(cardHtml).join('')}
         </div>
+        ${shownCount < items.length ? '<button class="refresh" id="loadMoreButton" type="button">और लेख देखें</button>' : ''}
       `;
+
+      grid.querySelector('#loadMoreButton')?.addEventListener('click', renderNextPage);
     }
 
     async function loadPreview() {
       statusValue.textContent = 'लोड हो रहा है…';
       try {
-        const response = await fetch('output/digest_hindi.json', { cache: 'no-store' });
+        const response = await fetch('output/articles_hindi.json', { cache: 'no-store' });
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`);
         }
@@ -828,7 +854,7 @@
         renderArticles(Array.isArray(items) ? items : []);
       } catch (error) {
         statusValue.textContent = 'अभी नहीं';
-        renderEmpty('`output/digest_hindi.json` फ़ाइल नहीं मिली. पहले कार्यक्रम चलाकर संकलन बनाएँ.');
+        renderEmpty('`output/articles_hindi.json` फ़ाइल नहीं मिली. पहले कार्यक्रम चलाकर संकलन बनाएँ.');
       }
     }
 

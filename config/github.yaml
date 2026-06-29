@@ -1,5 +1,17 @@
 queries:
-  - name: Trending this week
-    search: "created:>{date} sort:stars-desc"
-  - name: AI/ML topic
-    search: "topic:machine-learning sort:stars-desc"
+  - name: Large language models
+    search: "topic:llm created:>{date} sort:stars-desc"
+  - name: Large language models (broader tag)
+    search: "topic:large-language-model created:>{date} sort:stars-desc"
+  - name: AI agents
+    search: "topic:ai-agents created:>{date} sort:stars-desc"
+  - name: Machine learning
+    search: "topic:machine-learning created:>{date} sort:stars-desc"
+  - name: Developer tools
+    search: "topic:developer-tools created:>{date} sort:stars-desc"
+  - name: Coding assistants
+    search: "topic:coding-assistant created:>{date} sort:stars-desc"
+  - name: Computer vision
+    search: "topic:computer-vision created:>{date} sort:stars-desc"
+  - name: NLP
+    search: "topic:nlp created:>{date} sort:stars-desc"

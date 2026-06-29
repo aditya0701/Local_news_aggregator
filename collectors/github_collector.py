@@ -5,6 +5,16 @@ import requests
 
 GITHUB_API = "https://api.github.com/search/repositories"
 
+# Repos matching these terms are excluded even if they carry a trusted topic
+# tag — piracy/abuse tooling isn't appropriate to summarize for a general
+# news audience, regardless of how relevant the underlying tech is.
+DENYLIST = {"exploit", "cheat", "jailbreak", "crack", "nsfw"}
+
+
+def _is_denied(item: dict) -> bool:
+    blob = f"{item.get('full_name', '')} {item.get('description') or ''}".lower()
+    return any(term in blob for term in DENYLIST)
+
 
 def fetch_trending(query: str, per_page: int = 10) -> list[dict]:
     if "{date}" in query:
@@ -32,4 +42,5 @@ def fetch_trending(query: str, per_page: int = 10) -> list[dict]:
             "source": "github",
         }
         for item in items
+        if not _is_denied(item)
     ]
