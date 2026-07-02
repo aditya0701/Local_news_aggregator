@@ -1,0 +1,20 @@
+{
+  "llama 4 scout": {
+    "canonical_name": "Llama 4 Scout",
+    "entity_type": "ai_model",
+    "summary": "# Llama 4 Scout. Llama 4 Scout is a key offering within Meta's Llama 4 family of models, released on April 5, 2025. As a general-purpose model, Llama 4 Scout exhibits native multimodality, proficiently processing both text and image inputs. Its applications encompass a wide array of tasks, including",
+    "last_updated": "2026-07-01"
+  },
+  "meta": {
+    "canonical_name": "Meta",
+    "entity_type": "company",
+    "summary": "# Meta. Meta is a digital services provider best known for its flagship social media platform, Facebook, which boasts over two billion active users. Founded by Mark Zuckerberg, Facebook began as a networking site for Harvard students but rapidly expanded to include all individuals over the age of th",
+    "last_updated": "2026-07-01"
+  },
+  "gpt4o": {
+    "canonical_name": "GPT-4o",
+    "entity_type": "ai_model",
+    "summary": "GPT-4o is a multimodal and multilingual generative pretrained transformer model released in May 2024 by artificial intelligence (AI) developer OpenAI. It is the flagship large language model (LLM) in the GPT-4 family of AI models, which also includes GPT-4o mini, GPT-4 Turbo and the original GPT-4.",
+    "last_updated": "2026-07-01"
+  }
+}

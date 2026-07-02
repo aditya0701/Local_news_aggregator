@@ -26,13 +26,17 @@ def fetch_trending(query: str, per_page: int = 10) -> list[dict]:
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    response = requests.get(
-        GITHUB_API,
-        params={"q": query, "per_page": per_page},
-        headers=headers,
-        timeout=15,
-    )
-    response.raise_for_status()
+    try:
+        response = requests.get(
+            GITHUB_API,
+            params={"q": query, "per_page": per_page},
+            headers=headers,
+            timeout=15,
+        )
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"[github] skipping query '{query}': {exc}")
+        return []
     items = response.json().get("items", [])
     return [
         {

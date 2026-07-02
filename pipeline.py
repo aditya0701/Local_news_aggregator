@@ -57,7 +57,7 @@ def run(language: str = "hindi") -> None:
     now = datetime.now(timezone.utc).isoformat()
     translated = []
     for cluster in group_by_topic(deduped):
-        synthesized = synthesize_article(cluster, language) if len(cluster) >= 2 else None
+        synthesized = synthesize_article(cluster, language)
         if synthesized is not None:
             article_id = _article_id("|".join(sorted(synthesized["sources"])))
             synthesized["id"] = article_id

@@ -1,0 +1,44 @@
+name: Daily Pipeline
+
+on:
+  schedule:
+    - cron: '30 2 * * *'   # 8:00 AM IST (02:30 UTC)
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write           # needed to commit updated JSON back to repo
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+          SARVAM_MODEL: sarvam-30b
+          SARVAM_MODEL_QUALITY: sarvam-105b
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          PYTHONIOENCODING: utf-8
+        run: python pipeline.py
+
+      - name: Commit updated articles and cache
+        run: |
+          git config user.name "TechDrishti Bot"
+          git config user.email "bot@techdrishti.github.io"
+          git add output/articles_hindi.json data/entity_cache.json
+          git diff --cached --quiet && echo "Nothing to commit" || git commit -m "chore: daily pipeline run $(date -u +%Y-%m-%d)"
+          git push

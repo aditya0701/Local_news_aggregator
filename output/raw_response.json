@@ -1,0 +1,7 @@
+{
+  "error": {
+    "message": "Invalid or missing authentication credentials",
+    "code": "invalid_api_key_error",
+    "request_id": "20260701_84c98b55-ae5f-4203-9b60-c2a26499a4d4"
+  }
+}

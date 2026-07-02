@@ -195,16 +195,6 @@
       border: 1px solid rgba(58, 46, 42, 0.12);
     }
 
-    .article-visual::after {
-      content: "✦";
-      position: absolute;
-      inset: 50% auto auto 50%;
-      transform: translate(-50%, -50%);
-      color: var(--red);
-      font-size: 4rem;
-      text-shadow: 0 6px 24px rgba(139, 38, 38, 0.12);
-    }
-
     .article-copy {
       padding: 30px;
       display: grid;
@@ -435,6 +425,31 @@
       color: var(--red);
     }
 
+    .concept-box {
+      padding: 16px 20px;
+      background: rgba(26, 54, 68, 0.055);
+      border: 1px solid rgba(26, 54, 68, 0.15);
+      border-left: 4px solid var(--indigo);
+      display: grid;
+      gap: 6px;
+    }
+
+    .concept-box-label {
+      font-family: "Yatra One", serif;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 0.72rem;
+      color: var(--indigo);
+    }
+
+    .concept-box-text {
+      margin: 0;
+      font-family: "Martel Sans", "Mukta", sans-serif;
+      font-size: 0.97rem;
+      line-height: 1.85;
+      color: rgba(58, 46, 42, 0.9);
+    }
+
     .empty-state {
       padding: 28px;
       border: 1px dashed rgba(58, 46, 42, 0.24);
@@ -494,16 +509,27 @@
           <div class="article-copy">
             <div class="article-meta" id="articleMeta"></div>
             <h1 id="articleTitle"></h1>
+            <div class="concept-box" id="conceptBox" hidden></div>
             <p class="lede" id="articleLede"></p>
             <div class="article-visual" id="articleVisual" aria-hidden="true"></div>
             <div class="content-card">
-              <p class="section-title">संपादकीय परिचय</p>
-              <p class="article-body" id="articleBody"></p>
+              <p class="section-title" id="bodyLabel">संपादकीय परिचय</p>
+              <div class="article-body" id="articleBody"></div>
               <div class="actions" id="articleActions"></div>
             </div>
           </div>
 
           <div class="story-grid">
+            <section class="story-panel" id="analysisPanel" hidden>
+              <h2>रणनीतिक विश्लेषण</h2>
+              <p id="analysisBody"></p>
+            </section>
+
+            <section class="story-panel" id="conclusionPanel" hidden>
+              <h2>निष्कर्ष एवं महत्व</h2>
+              <p id="conclusionBody"></p>
+            </section>
+
             <section class="story-panel" id="articleQuotePanel" hidden>
               <h2>संपादकीय अंश</h2>
               <div class="quote-box" id="articleQuote"></div>
@@ -538,9 +564,15 @@
     const articleMeta = document.getElementById('articleMeta');
     const articleVisual = document.getElementById('articleVisual');
     const articleTitle = document.getElementById('articleTitle');
+    const conceptBox = document.getElementById('conceptBox');
     const articleLede = document.getElementById('articleLede');
+    const bodyLabel = document.getElementById('bodyLabel');
     const articleBody = document.getElementById('articleBody');
     const articleActions = document.getElementById('articleActions');
+    const analysisPanel = document.getElementById('analysisPanel');
+    const analysisBody = document.getElementById('analysisBody');
+    const conclusionPanel = document.getElementById('conclusionPanel');
+    const conclusionBody = document.getElementById('conclusionBody');
     const articleQuotePanel = document.getElementById('articleQuotePanel');
     const articleQuote = document.getElementById('articleQuote');
     const articleNotes = document.getElementById('articleNotes');
@@ -574,15 +606,17 @@
       }
     }
 
-    // Splits the translated summary into sentences for paragraph/quote use;
-    // there is no separate "body" text from the pipeline, only this summary.
+    function isSarvamArticle(item) {
+      return !!(item.introduction_lede && item.deep_dive_and_context);
+    }
+
     function summarySentences(item) {
       const text = stripHtml(item.summary || '').trim();
       if (!text) return [];
       return text.split(/(?<=[।.!?])\s+/).filter(Boolean);
     }
 
-    function buildBody(item) {
+    function buildLegacyBody(item) {
       const sentences = summarySentences(item);
       if (!sentences.length) {
         return `<p>इस लेख के लिए स्रोत से कोई सारांश उपलब्ध नहीं था. कृपया नीचे दिए गए लिंक से मूल रिपोर्ट पढ़ें.</p>`;
@@ -591,6 +625,7 @@
     }
 
     function buildNotes(item) {
+      const isSarvam = isSarvamArticle(item);
       const notes = [
         { label: 'स्रोत', text: sourceLabel(item.source) },
         { label: 'वेबसाइट', text: hostOf(item) },
@@ -598,7 +633,7 @@
       if (item.published) {
         notes.push({ label: 'प्रकाशित', text: item.published });
       }
-      notes.push({ label: 'भाषा', text: item.language === 'hindi' ? 'हिंदी (अनुवादित)' : 'अन्य' });
+      notes.push({ label: 'भाषा', text: item.language === 'hindi' ? (isSarvam ? 'हिंदी (मूल)' : 'हिंदी (अनुवादित)') : 'अन्य' });
       return notes;
     }
 
@@ -607,7 +642,7 @@
       const id = params.get('id') || '';
 
       try {
-        const response = await fetch('output/articles_hindi.json', { cache: 'no-store' });
+        const response = await fetch('../output/articles_hindi.json', { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const items = await response.json();
         const item = Array.isArray(items) ? items.find((it) => it.id === id) : null;
@@ -617,6 +652,8 @@
           emptyState.hidden = false;
           return;
         }
+
+        const sources = Array.isArray(item.sources) && item.sources.length ? item.sources : [item.url].filter(Boolean);
 
         articleMeta.innerHTML = `
           <span class="pill">${escapeHtml(sourceLabel(item.source))}</span>
@@ -628,23 +665,51 @@
           ? `<img src="${escapeHtml(item.image)}" alt="" loading="lazy" onerror="this.remove()">`
           : '';
 
-        const sources = Array.isArray(item.sources) && item.sources.length ? item.sources : [item.url].filter(Boolean);
-        articleLede.textContent = sources.length > 1
-          ? `यह ${sources.length} स्रोतों के तथ्यों पर आधारित एक मूल हिंदी लेख है — मूल स्रोत पढ़ने के लिए नीचे लिंक देखें.`
-          : 'यह स्रोत लेख का मशीन-अनुवादित सारांश है — पूरा लेख पढ़ने के लिए मूल स्रोत खोलें.';
-        articleBody.innerHTML = buildBody(item);
+        if (isSarvamArticle(item)) {
+          // --- Sarvam-generated article: show all rich sections ---
+          if (item.concept_box) {
+            conceptBox.innerHTML = `<span class="concept-box-label">मुख्य अवधारणा</span><p class="concept-box-text">${escapeHtml(item.concept_box)}</p>`;
+            conceptBox.hidden = false;
+          }
+
+          articleLede.textContent = item.introduction_lede;
+
+          bodyLabel.textContent = 'गहन विश्लेषण एवं संदर्भ';
+          articleBody.innerHTML = `<p>${escapeHtml(item.deep_dive_and_context)}</p>`;
+
+          if (item.strategic_analysis) {
+            analysisBody.textContent = item.strategic_analysis;
+            analysisPanel.hidden = false;
+          }
+
+          if (item.conclusion_and_significance) {
+            conclusionBody.textContent = item.conclusion_and_significance;
+            conclusionPanel.hidden = false;
+          }
+
+          const ledeSentence = item.introduction_lede.split(/(?<=[।.!?])\s+/)[0];
+          if (ledeSentence) {
+            articleQuote.textContent = ledeSentence;
+            articleQuotePanel.hidden = false;
+          }
+        } else {
+          // --- Legacy article: summary only ---
+          articleLede.textContent = sources.length > 1
+            ? `यह ${sources.length} स्रोतों के तथ्यों पर आधारित एक मूल हिंदी लेख है — मूल स्रोत पढ़ने के लिए नीचे लिंक देखें.`
+            : 'यह स्रोत लेख का मशीन-अनुवादित सारांश है — पूरा लेख पढ़ने के लिए मूल स्रोत खोलें.';
+          articleBody.innerHTML = buildLegacyBody(item);
+
+          const sentences = summarySentences(item);
+          if (sentences.length) {
+            articleQuote.textContent = sentences[0];
+            articleQuotePanel.hidden = false;
+          }
+        }
+
         articleActions.innerHTML = `
           ${sources.map((url, i) => `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">मूल स्रोत${sources.length > 1 ? ` ${i + 1}` : ''} खोलें</a>`).join('')}
           <a href="index.html">वापस सूची में जाएँ</a>
         `;
-
-        const sentences = summarySentences(item);
-        if (sentences.length) {
-          articleQuote.textContent = sentences[0];
-          articleQuotePanel.hidden = false;
-        } else {
-          articleQuotePanel.hidden = true;
-        }
 
         const notes = buildNotes(item);
         articleNotes.innerHTML = notes.map((note) => `

@@ -4,7 +4,9 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 
-MIN_SUMMARY_LENGTH = 40
+MIN_SUMMARY_LENGTH = 100
+FETCH_TIMEOUT = 15
+FETCH_RETRIES = 2
 
 
 def _clean_text(html: str) -> str:
@@ -15,16 +17,20 @@ def _clean_text(html: str) -> str:
 def _fetch_page(url: str):
     if not url:
         return None
-    try:
-        response = requests.get(
-            url,
-            timeout=8,
-            headers={"User-Agent": "Mozilla/5.0 (TechDrishti digest bot)"},
-        )
-        response.raise_for_status()
-    except requests.RequestException:
-        return None
-    return BeautifulSoup(response.text, "html.parser")
+    for attempt in range(FETCH_RETRIES):
+        try:
+            response = requests.get(
+                url,
+                timeout=FETCH_TIMEOUT,
+                headers={"User-Agent": "Mozilla/5.0 (TechDrishti digest bot)"},
+            )
+            response.raise_for_status()
+        except requests.RequestException:
+            if attempt + 1 == FETCH_RETRIES:
+                return None
+            continue
+        return BeautifulSoup(response.text, "html.parser")
+    return None
 
 
 def _description_from_page(soup) -> str:
@@ -73,6 +79,9 @@ def fetch_feed(url: str, limit: int = 10) -> list[dict]:
                     summary = _description_from_page(soup)
                 if not image:
                     image = _image_from_page(soup)
+
+        if len(summary) < MIN_SUMMARY_LENGTH:
+            continue
 
         items.append(
             {
