@@ -16,5 +16,713 @@
     "entity_type": "ai_model",
     "summary": "GPT-4o is a multimodal and multilingual generative pretrained transformer model released in May 2024 by artificial intelligence (AI) developer OpenAI. It is the flagship large language model (LLM) in the GPT-4 family of AI models, which also includes GPT-4o mini, GPT-4 Turbo and the original GPT-4.",
     "last_updated": "2026-07-01"
+  },
+  "linux 69": {
+    "canonical_name": "Linux 6.9",
+    "entity_type": "technology",
+    "summary": "Linux 6.9 was released on Sunday, 12 of May 2024. Summary: This release includes suppor for x86 FRED, which is a new way of transitioning between CPU ring privileves; it also includes support for creating pidfds for threads; support for BPF arenas, which is a sparse shared memory region between the",
+    "last_updated": "2026-07-02"
+  },
+  "luks": {
+    "canonical_name": "LUKS",
+    "entity_type": "technology",
+    "summary": "LUKS (Linux Unified Key Setup) is a disk encryption specification for Linux. It provides a standard for encrypting entire storage devices, including hard The **Linux Unified Key Setup** (**LUKS**) is a disk encryption specification created by Clemens Fruhwirth in 2004 and originally intended for Lin",
+    "last_updated": "2026-07-02"
+  },
+  "diskencryption keys": {
+    "canonical_name": "disk-encryption keys",
+    "entity_type": "technology",
+    "summary": "Disk encryption is a technology that protects your data by scrambling it and making it unreadable by humans. It uses special software or a hardware device in Disk encryption uses disk encryption software or hardware to encrypt every bit of data that goes on a disk or disk volume \"Volume (computing)\"",
+    "last_updated": "2026-07-02"
+  },
+  "memory": {
+    "canonical_name": "memory",
+    "entity_type": "technology",
+    "summary": "Memory Technology refers to the type of dynamic random access memory (DRAM) attached to a processor, such as Double Data Rate Synchronous DRAM (DDR). The document discusses various memory technologies, including Static RAM (SRAM), Dynamic RAM (DRAM), Read Only Memory (ROM), and their subtypes like P",
+    "last_updated": "2026-07-02"
+  },
+  "peertube": {
+    "canonical_name": "PeerTube",
+    "entity_type": "product",
+    "summary": "# **An alternative to Big Tech's video platforms**. PeerTube is a tool for sharing online videos developed by Framasoft, a french non-profit. ### **PeerTube allows you to create your own video platform,** in complete independence. PeerTube allows platforms to be connected to each other, creating a *",
+    "last_updated": "2026-07-02"
+  },
+  "framasoft": {
+    "canonical_name": "Framasoft",
+    "entity_type": "company",
+    "summary": "Overview:\nFramasoft est une association d’éducation populaire aux enjeux du numérique et aux communs culturels qui mène, poursuit et participe à de nombreuses actions visant à faciliter l’émancipation par le numérique. Les projets menés par l’association sont animés par une volonté de promouvoir les",
+    "last_updated": "2026-07-02"
+  },
+  "activitypub": {
+    "canonical_name": "ActivityPub",
+    "entity_type": "protocol",
+    "summary": "| The image depicts a infographic of the basic functionality of ActivityPub. It shows a person (known as an Actor in ActivityPub terminology) reading incoming messages ( An infographic of the core functionality of ActivityPub |. **ActivityPub** is a protocol and open standard for decentralized socia",
+    "last_updated": "2026-07-02"
+  },
+  "youtube": {
+    "canonical_name": "YouTube",
+    "entity_type": "technology",
+    "summary": "Get all-round big picture of a specific technology, programming languages, frameworks, and even SDKs. ...more. Get all-round big picture of a specific YouTube uses Real Time Streaming Protocol (RTSP), which uses a UDP packet. This is much different than the way that Netflix operates using the TCP pr",
+    "last_updated": "2026-07-02"
+  },
+  "dailymotion": {
+    "canonical_name": "Dailymotion",
+    "entity_type": "technology",
+    "summary": "Dailymotion is a global video streaming and adtech service built on algorithms to deliver sports, music, entertainment and news videos. # Dailymotion. | Type of site | Online video platform |. **Dailymotion** is a French online video sharing platform owned by Canal+. In early May 2013, the French go",
+    "last_updated": "2026-07-02"
+  },
+  "vimeo": {
+    "canonical_name": "Vimeo",
+    "entity_type": "technology",
+    "summary": "# Vimeo. | Type of site | Video hosting service, Software as a service |. Vimeo focuses on the delivery of high-definition video across a range of devices and operates on a software as a service (SaaS) business model. As of December 2021, the site has 260 million users, with around 1.6 million subsc",
+    "last_updated": "2026-07-02"
+  },
+  "android developer verification": {
+    "canonical_name": "Android Developer Verification",
+    "entity_type": "technology",
+    "summary": "## Elevating Android security to keep it open and safe. By making Android safer, we're protecting the open environment that allows developers and. users to confidently create and connect. Android's new developer verification is an extra. layer of security that deters bad actors and makes it harder f",
+    "last_updated": "2026-07-02"
+  },
+  "android 8 or higher": {
+    "canonical_name": "Android 8 or higher",
+    "entity_type": "technology",
+    "summary": "# Android 8 Oreo. Android 8 Oreo enhances user experience with notable features. **Analysis of Technical Requirements:** Android 8 Oreo is designed for a broad spectrum of mobile hardware, from entry-level devices with its \"Go edition\" to more powerful smartphones. **Analysis of Overall Support & Co",
+    "last_updated": "2026-07-02"
+  },
+  "android developer verifier": {
+    "senses": [
+      {
+        "sense_label": "The specific process name being impersonated, which is a security feature in Android development, but in this context refers to a malicious process",
+        "summary": "Android developer verification\nAndroid Developers\n1430000 subscribers\n171 likes\n12052 views\n30 Sep 2025\nTo protect users from malware and scams, Android is launching a new layer of security: developer verification. While this is nothing new for Google Play, Android is extending this to the entire An",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "trojan horse": {
+    "canonical_name": "trojan horse",
+    "entity_type": "technology",
+    "summary": "Abstract—Trojan horse is one of the common means of network attack, which is characterized by a wide range of attacks, strong concealment and great harm. # Trojan horse (computing). |  | **A request that this article title be changed to *Trojan (computer security)&redirect=no)Trojan (computer securi",
+    "last_updated": "2026-07-02"
+  },
+  "play protect": {
+    "canonical_name": "Play Protect",
+    "entity_type": "technology",
+    "summary": "A place for developers, OEMs, and users to understand how Google Play Protect works. ## Google Play Protect. Security starts at the application layer with Google Play Protect's built-in malware defense. Every day, Google Play Protect automatically scans all of the apps on Android phones and works to",
+    "last_updated": "2026-07-02"
+  },
+  "root privileges": {
+    "canonical_name": "root privileges",
+    "entity_type": "technology",
+    "summary": "Root permission is the highest level of access on a system, granting the user full control over all aspects of the operating system. AI generated definition # What Is Root Access/Root Privilege? Root access, often referred to as root privilege, is the highest level of access permissions given on a c",
+    "last_updated": "2026-07-02"
+  },
+  "4 billion android handsets and tablets": {
+    "canonical_name": "4 billion Android handsets and tablets",
+    "entity_type": "material",
+    "summary": "Our smartphones contain dozens of composites, compounds, and metals that include almost 75% of the elements from the periodic table. # Android (operating system). **Android** is an open-source operating system developed by Google. Android is based on a modified version of the Linux kernel and other",
+    "last_updated": "2026-07-02"
+  },
+  "podman": {
+    "canonical_name": "Podman",
+    "entity_type": "technology",
+    "summary": "# Podman. **Podman** (*pod manager*) is an open source Open Container Initiative (OCI)-compliant container \"Containerization (computing)\") management tool created by Red Hat used for handling containers, images, volumes \"Volume (computing)\"), and pods on the Linux operating system, with support for",
+    "last_updated": "2026-07-02"
+  },
+  "v600": {
+    "senses": [
+      {
+        "sense_label": "version number of the Podman technology",
+        "summary": "Description: New settings for Bot Persona and reply style let you create a more personalized and engaging chatbot. Applicable editions: Qianwen 0.0 release is dedicated to the STM32MP1 series, the STM32MP23x lines and the STM32MP25x lines . It is a major release, based on new community components Co",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "github": {
+    "canonical_name": "GitHub",
+    "entity_type": "organization",
+    "summary": "Organization profiles can now display custom content visible only to members of the organization. How can we better bring internal resources to their attention at a glance?” Now you can, with an organization README where you can share relevant and important information only to members of your organi",
+    "last_updated": "2026-07-02"
+  },
+  "package managers": {
+    "senses": [
+      {
+        "sense_label": "tools for software distribution and dependency management",
+        "summary": "Package managers are essential tools in modern software development, making it easier to manage, install, and maintain software libraries and dependencies. As projects grow in complexity, developers often rely on a variety of third-party packages to save time, improve code quality, and leverage the",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "mohan boddu": {
+    "senses": [
+      {
+        "sense_label": "author of the article about Podman",
+        "summary": "Mohan Boddu, CCNA & JNCIA-Certified Network Engineer | Specialist in Routing, Switching, and Troubleshooting | Optimizing Scalable and Secure Network Solutions. Mohan Boddu, Red Hat's lead Fedora and CentOS release engineer, is the primary industry mentor who works with the capstone group. Funding f",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "john boepple": {
+    "canonical_name": "John Boepple",
+    "entity_type": "person",
+    "summary": "John Boepple was a master craftsman in Hamburg, Germany. He was skilled at making buttons from animal horn and hooves, bone and seashells. John had heard about the fresh-water mussels in the Mississippi River. He was convinced there was a fortune to be earned in making buttons from these shells with",
+    "last_updated": "2026-07-02"
+  },
+  "pearl buttons": {
+    "canonical_name": "pearl buttons",
+    "entity_type": "product",
+    "summary": "These polyester buttons have a beautiful pearlescent shine, mimicking natural pearl. They are flat and hanve an etched rim. These buttons feature four holes Shop Buttonology Inc. for exquisite flower shaped pearl buttons. Perfect for enhancing garments and DIY projects with a touch of elegance and s",
+    "last_updated": "2026-07-02"
+  },
+  "freshwater mussel shells": {
+    "canonical_name": "freshwater mussel shells",
+    "entity_type": "material",
+    "summary": "The unique morphological features of all mussels (Mollusca: Bivalvia) is the presence of two symmetrical calcareous valves, constituting the shells, connected by a calcified leathery hinge.1,2 The toughest calcareous shells of the mussels vary extensively in shape, size, colour and biomass.3 While c",
+    "last_updated": "2026-07-02"
+  },
+  "muscatine iowa": {
+    "senses": [
+      {
+        "sense_label": "This refers to the city where Boepple settled and produced buttons, which is a location/organization",
+        "summary": "Overview:\nLocated in East Central Iowa along the picturesque banks of the Mississippi, Muscatine is a city rich with history and business sense. We are located just 15 miles south of the nation’s only East/West transcontinental interstate highway, Interstate 80, and astride U.S. 61, a major North/So",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "ottensen germany": {
+    "senses": [
+      {
+        "sense_label": "This refers to the town where Boepple's button shop was located, which is a location/organization",
+        "summary": "Ottensen is a former town located in Hamburg, Germany in the Altona borough on the northern bank of the Elbe river. It is a now one of the 104 quarters of . OttensenOttensen is a district that has had to reinvent itself again and again: from a farming village on the outskirts of Altona to a center o",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "illinois river": {
+    "senses": [
+      {
+        "sense_label": "This refers to a specific river where shells may have been harvested, which is a location/material",
+        "summary": "1 EVALUATION OF SEDIMENT REMOVAL OPTIONS AND BENEFICIAL USE OF DREDGED MATERIAL FOR ILLINOIS RIVER RESTORATION: PRELIMINARY REPORT By John C. Marlin, PhD.1 ABSTRACT The overall habitat quality of the Illinois River is significantly degraded by over 100 years of sediment accumulation. Once-deep backw",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "mississippi": {
+    "senses": [
+      {
+        "sense_label": "This refers to the Mississippi River, which is a location/material where shells may have been harvested",
+        "summary": "5 EXTERIOR WALLS. Wood frame wood grade, and species. Corner bracing. Builder paper or felt. Sheathing thickness width solid spaced. o.c.. Siding grade type. Overview:\nEstablished in 1927, MMC Materials is the leading supplier of concrete solutions throughout Mississippi, Alabama, Florida, West Tenn",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "smithsonian": {
+    "canonical_name": "Smithsonian",
+    "entity_type": "organization",
+    "summary": "Facilities Management Finance & Accounting Human Resources Information Technology Investments Planning, Design, & Construction Planning, Mgmt. SMITHSONIAN INSTITUTION MAY 2025 Deputy Secretary and Chief Operating Officer Under Secretary for Finance and Administration/Chief Financial Officer Anacosti",
+    "last_updated": "2026-07-02"
+  },
+  "ellen wexler": {
+    "canonical_name": "Ellen Wexler",
+    "entity_type": "person",
+    "summary": "Ellen Wexler is a journalist based in Washington, D.C. Since 2022, she has been the assistant digital editor, humanities at Smithsonian Magazine. Before that, she was the managing editor at Moment Magazine. Smithsonian MagazineJane Austen’s Letters Are the Closest We Can Get to Her. What Do They Rev",
+    "last_updated": "2026-07-02"
+  },
+  "palantir technologies": {
+    "canonical_name": "Palantir Technologies",
+    "entity_type": "company",
+    "summary": "# Palantir Technologies Inc: Overview. * Artificial Intelligence: Leading Disruptive Technology Companies in the World. * Top 10 Application Software Companies in the World by Market Capitalization. * Top 10 IT Software Companies in the World by Market Capitalization. * Cybersecurity: Leading Techno",
+    "last_updated": "2026-07-02"
+  },
+  "spanish government": {
+    "canonical_name": "Spanish government",
+    "entity_type": "organization",
+    "summary": "# State Organisation. Key aspects of the powers and territorial organisation of the Spanish State. ## Head of the Spanish State. The Monarch is the Head of State and all their acts must be countersigned by the Government, in accordance with the provisions of Title II of the Constitution, which is de",
+    "last_updated": "2026-07-02"
+  },
+  "sepi": {
+    "senses": [
+      {
+        "sense_label": "SEPI stands for State Society of Industrial Participations, a Spanish state-owned holding company that manages investments in various companies. In this context, it refers to the specific entity that was instructed to blacklist Palantir.",
+        "summary": "Overview:\nThe Society for the Exploration of Psychotherapy Integration (SEPI) is an international, interdisciplinary organization whose aim is to promote the exploration and development of approaches to psychotherapy that integrate across theoretical orientations, clinical practices, and diverse met",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "telefónica": {
+    "canonical_name": "Telefónica",
+    "entity_type": "company",
+    "summary": "Overview:\nTelefónica is today one of the largest telecommunications companies in the world in terms of market capitalisation and number of customers. We have the best infrastructure, as well as an innovative range of digital and data services; therefore, we are favorably positioned to meet the needs",
+    "last_updated": "2026-07-02"
+  },
+  "indra": {
+    "canonical_name": "Indra",
+    "entity_type": "company",
+    "summary": "Overview:\nIndra Group USA is driving transformation across strategic domains such as defense, air traffic, space, and mobility, delivering resilient, efficient, and intelligent solutions that shape the future of infrastructure and operations in the United States and worldwide. Our technological solu",
+    "last_updated": "2026-07-02"
+  },
+  "navantia": {
+    "canonical_name": "Navantia",
+    "entity_type": "company",
+    "summary": "# Navantia. *(Learn how and when to remove these messages)* |  |  | | --- | --- | | icon | This article **needs additional citations for verification**. *Find sources:* \"Navantia\" – news **·** newspapers **·** books **·** scholar **·** JSTOR *(September 2014)* *(Learn how and when to remove this mes",
+    "last_updated": "2026-07-02"
+  },
+  "moncloa": {
+    "senses": [
+      {
+        "sense_label": "Moncloa refers to the Moncloa Palace in Madrid, which houses the Spanish government's office. In this context, it represents the Spanish government's office that issued the directive to blacklist Palantir.",
+        "summary": "# State Organisation. Key aspects of the powers and territorial organisation of the Spanish State. ## Head of the Spanish State. The Monarch is the Head of State and all their acts must be countersigned by the Government, in accordance with the provisions of Title II of the Constitution, which is de",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "rafalqaslopo": {
+    "canonical_name": "rafal-qa/slopo",
+    "entity_type": "person_project",
+    "summary": "rafal-qa has 6 repositories available. Follow their code on GitHub. Rafal Karp provides mentorship in Augmented Reality, Virtual Reality, Computer Graphics, Computer Vision, Deep Learning, Visual Synthetic Today we're talking with one of our favorite engineers, Rafal Wilinski. Rafal has been on the",
+    "last_updated": "2026-07-02"
+  },
+  "slopodev": {
+    "senses": [
+      {
+        "sense_label": "A website/domain for the project, which provides high-level description of the problem",
+        "summary": "##### Dev Technology delivers advanced IT solutions to meet the mission-critical needs of the government. We accomplish this by exceeding our clients’ expectations through partnership, a commitment to teamwork, collaboration, and valuing our employees. Dev Technology inspires people through vision a",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "embeddingbased code duplication detector": {
+    "canonical_name": "Embedding-based code duplication detector",
+    "entity_type": "ai_model",
+    "summary": "Embedding models are neural net models. Embeddings are able to detect more than small edits, but still they need similarity in code structure. Definition: Code embeddings are vector representations of source code produced by machine learning models. These representations capture both the semantic an",
+    "last_updated": "2026-07-02"
+  },
+  "cli tool": {
+    "canonical_name": "CLI tool",
+    "entity_type": "technology",
+    "summary": "# CLI tools. CLI (Command Line Interface) tools are programs that are run from a text-based interface, as opposed to a graphical user interface (GUI). They allow users to interact with a computer or application by typing commands. Find 638 organizations using CLI tools on Sumble →. ## What other tec",
+    "last_updated": "2026-07-02"
+  },
+  "python typescript javascript java kotlin c go rust": {
+    "canonical_name": "Python, TypeScript, JavaScript, Java, Kotlin, C#, Go, Rust",
+    "entity_type": "technology",
+    "summary": "The best programming language to learn first depends on what you want to build. Python is one of the strongest first choices for beginners because it is readable, versatile, and widely used in automation, data science, artificial intelligence, machine learning, and back-end development. JavaScript i",
+    "last_updated": "2026-07-02"
+  },
+  "lean six sigma": {
+    "canonical_name": "Lean Six Sigma",
+    "entity_type": "protocol",
+    "summary": "Six Sigma Certification and Training | Lean Six Sigma Six Sigma Certification and Training | Lean Six Sigma Six Sigma Certification and Training | Lean Six Sigma. Six Sigma is a data-driven process improvement methodology focused on reducing variation and defects to improve quality and performance.",
+    "last_updated": "2026-07-02"
+  },
+  "business process management bpm": {
+    "canonical_name": "Business Process Management (BPM)",
+    "entity_type": "protocol",
+    "summary": "# What is business process management? The beginner’s guide to business process management (BPM) article banner image. ## What is business process management (BPM)? Business process management, or BPM, is the practice of analyzing and improving business processes. A business process is a sequence of",
+    "last_updated": "2026-07-02"
+  },
+  "ai": {
+    "canonical_name": "AI",
+    "entity_type": "technology",
+    "summary": "## What is AI? AI is not a single technology but a collection of technologies that include machine learning (ML), natural language processing (NLP), robotics, and computer vision. At its core, artificial intelligence (AI) refers to systems and machines capable of performing tasks that would traditio",
+    "last_updated": "2026-07-02"
+  },
+  "teleperformance": {
+    "canonical_name": "Teleperformance",
+    "entity_type": "company",
+    "summary": "Learn how great cultures are built. # Teleperformance. Employees say this is a great place to work. ## Company Overview. ### About The Company. Teleperformance is a global leader in digital business services which blends the best of advanced technology with human empathy to deliver enhanced customer",
+    "last_updated": "2026-07-02"
+  },
+  "woodside energy": {
+    "canonical_name": "Woodside Energy",
+    "entity_type": "organization",
+    "summary": "Overview:\nWe aim to thrive through the global energy transition with a low-cost, lower-carbon, profitable, resilient and diversified portfolio. Our recently expanded global portfolio includes quality oil and gas assets and interests in Australia, the Gulf of Mexico, Trinidad and Tobago, Senegal, Tim",
+    "last_updated": "2026-07-02"
+  },
+  "infosys": {
+    "canonical_name": "Infosys",
+    "entity_type": "company",
+    "summary": "Overview:\nInfosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clien",
+    "last_updated": "2026-07-02"
+  },
+  "andrew melouney": {
+    "canonical_name": "Andrew Melouney",
+    "entity_type": "person",
+    "summary": "As energy companies push AI deeper into industrial operations, success increasingly depends on governance, trusted data, and systems designed to augment human expertise, says Andrew Melouney, vice president for digital at Woodside Energy. With its sprawling industrial systems and constant stream of",
+    "last_updated": "2026-07-02"
+  },
+  "industrial operations": {
+    "canonical_name": "Industrial operations",
+    "entity_type": "technology",
+    "summary": "Operational technology (OT) includes hardware and software for monitoring and controlling industrial systems in industries like manufacturing, energy, and utilities, ensuring safety. Unite people, processes, and systems with AI-powered products for all your workflows. Take action with autonomous AI",
+    "last_updated": "2026-07-02"
+  },
+  "springboards": {
+    "canonical_name": "Springboards",
+    "entity_type": "startup",
+    "summary": "Overview:\nA creative tool to inspire, not give you the answers. built for agencies and inhouse teams we help spark better ideas in the creative advertising process\n\nWebsite: https://springboards.ai/\nCrunchbase Url: https://www.crunchbase.com/organization/springboards?utm_source=linkedin&utm_medium=r",
+    "last_updated": "2026-07-02"
+  },
+  "llm": {
+    "canonical_name": "LLM",
+    "entity_type": "technology",
+    "summary": "# LL.M. in Technology Law & Policy. The Technology Law & Policy Program offers the LL.M. in Technology Law & Policy, a master’s degree designed both for recent law school graduates interested in entering technology-related fields, and for mid-career lawyers and policymakers seeking to hone their exp",
+    "last_updated": "2026-07-02"
+  },
+  "claude": {
+    "canonical_name": "Claude",
+    "entity_type": "ai_model",
+    "summary": "What is Anthropic’s Claude model? Anthropic’s Claude is a large language model (LLM) designed to perform tasks like text generation, analysis, and problem-solving. Developed by the AI research company Anthropic, Claude is built to prioritize safety, accuracy, and usability. For example, if asked to",
+    "last_updated": "2026-07-02"
+  },
+  "chatgpt": {
+    "canonical_name": "ChatGPT",
+    "entity_type": "ai_model",
+    "summary": "For articles published under an open access Creative Common CC BY license, any part of the article may be reused without permission provided that the original article is clearly cited. Feature papers represent the most advanced research with significant potential for high impact in the field. A Feat",
+    "last_updated": "2026-07-02"
+  },
+  "gemini": {
+    "canonical_name": "Gemini",
+    "entity_type": "ai_model",
+    "summary": "# Google Gemini Explained: Overview of Gemini AI Models. *Since its launch in December 2023, Google Gemini has evolved from a single AI model into a comprehensive ecosystem that is deeply integrated into Android, Workspace and Chrome, and, since early 2026, into Apple’s iOS and Siri as well. With th",
+    "last_updated": "2026-07-02"
+  },
+  "california": {
+    "canonical_name": "California",
+    "entity_type": "organization",
+    "summary": "Overview:\nCalifornians deserve a government that works for them and with them. One that will work to ensure opportunity and justice. We are building a California not for the few, but for all — including those who have historically been left out. We are doing the work to make our state a place for ev",
+    "last_updated": "2026-07-02"
+  },
+  "carbon manure": {
+    "canonical_name": "carbon manure",
+    "entity_type": "technology",
+    "summary": "They reduce emissions by capturing GHGs (such as methane and nitrous oxide) released from animal manure, preventing them from entering the Carbon Control Technology (CCT®). CCT® is a patented economical process for developing carbon-carried plant nutrient fertilizers from biomass sources. by X Huang",
+    "last_updated": "2026-07-02"
+  },
+  "cattle farmers": {
+    "canonical_name": "cattle farmers",
+    "entity_type": "organization",
+    "summary": "25-26312-nov-dg-digital-150-1380x90.gif. 25-26312-nov-sc-digital-150-320x50-v3.gif. 25-26312-nov-sc-paidsocial-150-320x600.gif. # Working every day to fight for your rights. NCBA advocates for policy on your behalf, protecting the economic, political and social interests of the U.S. cattle industry.",
+    "last_updated": "2026-07-02"
+  },
+  "dairy sector": {
+    "canonical_name": "dairy sector",
+    "entity_type": "organization",
+    "summary": "The dairy industry refers to the sector involved in the production and processing of milk and its derivatives, which is underpinned by significant advancements This paper is the first volume of a study on the impacts of global dairy trade on developing countries, giving an overview of global dairy p",
+    "last_updated": "2026-07-02"
+  },
+  "methane": {
+    "canonical_name": "methane",
+    "entity_type": "material",
+    "summary": "Methane is the most abundant hydrocarbon in the atmosphere. It plays important roles in atmospheric chemistry and the radiative balance of the Earth. # Methane. Hydrocarbon compound (CH4) in natural gas. | It has been suggested that *Methane (data page) \"Methane (data page)\")* be **merged** into thi",
+    "last_updated": "2026-07-02"
+  },
+  "natural gas": {
+    "canonical_name": "natural gas",
+    "entity_type": "material",
+    "summary": "Natural gas is a vital component of the world’s supply of energy. It is one of the cleanest, safest, and most useful of all energy sources. However, the gasoline that goes into your vehicle, while a fossil fuel itself, is very different from natural gas. The ‘gas’ in the common barbecue is actually",
+    "last_updated": "2026-07-02"
+  },
+  "subsidies": {
+    "canonical_name": "subsidies",
+    "entity_type": "regulation",
+    "summary": "This briefing note has been written to assist companies active in the EU in receipt of aid from non-EU countries in determining whether they fall within the Foreign Subsidies Regulations (the “**FSR**”), the circumstances in which they may be required to make a notification and what to expect from t",
+    "last_updated": "2026-07-02"
+  },
+  "climate policies": {
+    "canonical_name": "climate policies",
+    "entity_type": "regulation",
+    "summary": "This video is a broad overview of policies that are needed to tackle climate change. Effective climate action requires transformation in key Emission regulation policies address the use of mandatory government programs to address greenhouse gas emissions (“GHG emissions” or. “emissions”) that # Clim",
+    "last_updated": "2026-07-02"
+  },
+  "logos router": {
+    "canonical_name": "Logos Router",
+    "entity_type": "product",
+    "summary": "# All Routers Products. The comprehensive portfolio of Cisco routers can help you create a more intelligent, responsive, and integrated network. ### Branch Routers. ##### Overview: Branch Routers. ### Cloud Connectors. ##### Overview: Cloud Connectors. ### Cloud Edge. ##### Overview: Cloud Edge. ###",
+    "last_updated": "2026-07-02"
+  },
+  "mythicmcpproxy": {
+    "canonical_name": "Mythic-MCP-Proxy",
+    "entity_type": "product",
+    "summary": "C2 logo with stylized orange letter and arrow symbol on a white background. MAVENIR logo with stylized text and underline on the letter M in black on white background. An MCP Proxy serves as an intelligent intermediary layer that sits between MCP clients (AI applications) and MCP servers (data sourc",
+    "last_updated": "2026-07-02"
+  },
+  "claude opus 48": {
+    "canonical_name": "Claude Opus 4.8",
+    "entity_type": "ai_model",
+    "summary": "# Claude Opus 4.8. Anthropic — Claude Opus 4.8. Claude Opus 4.8 is an Anthropic Opus model optimized for coding, agents, and deeper reasoning in enterprise workflows. Audio | Red circle with white X icon indicating error, cancel, or close action. Embedding | Red circle with white X icon indicating e",
+    "last_updated": "2026-07-02"
+  },
+  "logos": {
+    "canonical_name": "Logos",
+    "entity_type": "ambiguous",
+    "summary": "The goal for this project is to create an ambiguous logo using form, based on a historical figure and a restaurant type. This memo discusses the factors that influence a brand's success, focusing on the balance between logo ambiguity and descriptiveness. Mergers and acquisitions (M&As) are drivers o",
+    "last_updated": "2026-07-02"
+  },
+  "blueeagle ai gateway": {
+    "canonical_name": "BlueEagle AI Gateway",
+    "entity_type": "technology",
+    "summary": "An AI gateway is a specialized middleware platform that facilitates the integration, deployment and management of artificial intelligence (AI) tools, including large language models (LLMs) and other AI services, in an enterprise environment. Whether AI services are proprietary tools built in-house o",
+    "last_updated": "2026-07-02"
+  },
+  "openai gpt": {
+    "canonical_name": "OpenAI GPT",
+    "entity_type": "ai_model",
+    "summary": "*   [Overview](https://developers.openai.com/api/docs). *   [Models](https://developers.openai.com/api/docs/models). *   [Agents SDK](https://developers.openai.com/api/docs/guides/agents). *   [Latest: GPT-5.5](https://developers.openai.com/api/docs/guides/latest-model). *   [Using tools](https://de",
+    "last_updated": "2026-07-02"
+  },
+  "anthropic claude": {
+    "canonical_name": "Anthropic Claude",
+    "entity_type": "ai_model",
+    "summary": "What is Anthropic’s Claude model? Anthropic’s Claude is a large language model (LLM) designed to perform tasks like text generation, analysis, and problem-solving. Developed by the AI research company Anthropic, Claude is built to prioritize safety, accuracy, and usability. For example, if asked to",
+    "last_updated": "2026-07-02"
+  },
+  "google gemini": {
+    "canonical_name": "Google Gemini",
+    "entity_type": "ai_model",
+    "summary": "# Google Gemini Explained: Overview of Gemini AI Models. *Since its launch in December 2023, Google Gemini has evolved from a single AI model into a comprehensive ecosystem that is deeply integrated into Android, Workspace and Chrome, and, since early 2026, into Apple’s iOS and Siri as well. With th",
+    "last_updated": "2026-07-02"
+  },
+  "ahgcodes": {
+    "canonical_name": "ahg.codes",
+    "entity_type": "organization",
+    "summary": "The AHG Code of Ethics (Revised 2022) expands on the formerly established Code of Ethics, addressing ethics in education, symposium presentation, and mentorship ## The American Heritage Girls Program enables a girl to grow in her FAITH, cultivate a heart for SERVICE, and have more FUN than she can i",
+    "last_updated": "2026-07-02"
+  },
+  "blueeagle": {
+    "canonical_name": "BlueEagle",
+    "entity_type": "company",
+    "summary": "Overview:\nBlue Eagle Consulting (BEC) assists Payer and Provider organizations to succeed in achieving mission critical deliverables around their enterprise system needs. Founded in 2004, the company provides highly experienced resources for a variety of Healthcare IT projects, providing veteran con",
+    "last_updated": "2026-07-02"
+  },
+  "techdrishti": {
+    "canonical_name": "TechDrishti",
+    "entity_type": "organization",
+    "summary": "Overview:\nDrishti’s mission is to extend human capabilities in an increasingly automated world. Our AI-powered video analytics and video traceability provides visibility and insights that transform the pace and impact of manual assembly line improvement. Manufacturers use Drishti to anchor true digi",
+    "last_updated": "2026-07-02"
+  },
+  "askexpertconsultmcp": {
+    "canonical_name": "ask-expert-consult-mcp",
+    "entity_type": "technology",
+    "summary": "# Exploring MCP: How Model Context Protocol supports the future of agentic healthcare. * Agentic AI in healthcare requires integration with trusted clinical intelligence to improve outcomes and efficiency. * Model Context Protocol (MCP) standardizes AI agent integration, enabling faster deployment,",
+    "last_updated": "2026-07-02"
+  },
+  "cursor 2026": {
+    "canonical_name": "Cursor 2026",
+    "entity_type": "technology",
+    "summary": "The Complete Guide to the AI-Native IDE (2026). Cursor AI is a VS Code-based AI code editor with Claude, GPT & Gemini built in. Cursor AI IDE showing AI-powered code suggestions and chat panel with the tagline The IDE That Codes With You. Cursor AI is an AI-first code editor based on VS Code, built",
+    "last_updated": "2026-07-02"
+  },
+  "wisdom cascade platform": {
+    "canonical_name": "Wisdom Cascade Platform",
+    "entity_type": "product",
+    "summary": "Cascade is the first strategy to execution platform. It gives you an overview of all your objectives so that you can quickly manage and update them in a few Return to PR Newswire homepage. ## News Releases Overview. ## Multimedia Gallery Overview. ## Auto & Transportation Overview. ## View All Auto",
+    "last_updated": "2026-07-02"
+  },
+  "junior developers": {
+    "senses": [
+      {
+        "sense_label": "In this context, 'Junior Developers' refers to a specific group of developers at the beginning of their career, not just a generic person type.",
+        "summary": "a junior developer is someone who hasn't been stuck enough yet. Someone who can drive the tools, evaluate output, ship products, and iterate What is a junior developer · That you can code simple solutions to simple problems. · That you will listen. · That you are keen no matter the technology. Compa",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "senior developers": {
+    "senses": [
+      {
+        "sense_label": "In this context, 'Senior Developers' refers to experienced developers with deep contextual knowledge, not just a generic person type.",
+        "summary": "A senior software developer is an individual who has had a significant amount of experience in software development. This software development Has time to explain and cares that you understand · Does not disparage other people's work · Listens and learns from others · Wants to help, not The most imp",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "entityname": {
+    "canonical_name": "<EntityName>",
+    "entity_type": "<type>",
+    "summary": "Entities include a set of attributes that represent the data that can be included within each record. The metadata for attributes describes the valid operations and behaviors of different types of attributes. You need to be aware of the operations that are valid for the attributes you work with. | I",
+    "last_updated": "2026-07-02"
+  },
+  "marionette": {
+    "canonical_name": "Marionette",
+    "entity_type": "product",
+    "summary": "# Products. ## Products. ## **Marionette** Product Lineup. ###### Explore our curated collection of high-quality products, meticulously crafted to meet your unique needs. #### Polyester Staple Fiber. ###### Staple fibers. Marionette Company is a leading supplier of chemical fibers…. #### Nylon 6/66",
+    "last_updated": "2026-07-02"
+  },
+  "frontier models": {
+    "canonical_name": "frontier models",
+    "entity_type": "ai_model",
+    "summary": "[![Image 1: Education Disrupted: Teaching and Learning in An AI World](https://substackcdn.com/image/fetch/$s_!zesV!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10cf77d-430e-4692-b739-098d80600354_1024x1024.png)](ht",
+    "last_updated": "2026-07-02"
+  },
+  "openweights models": {
+    "canonical_name": "open-weights models",
+    "entity_type": "ai_model",
+    "summary": "# Open-weights Model. An open-weights model is a Large Language Model (LLM)\") whose parameters (or \"weights\") are publicly accessible and can be used and modified without restriction. Unlike closed or Proprietary Models, open-weights models are often shared within the AI community for research, educ",
+    "last_updated": "2026-07-02"
+  },
+  "codegraphaware retrieval": {
+    "canonical_name": "CodeGraph-aware retrieval",
+    "entity_type": "technology",
+    "summary": "This article introduces our codebase‑aware indexing system. It combines a server‑side vector database with a code graph and a pre‑indexed # Code-Graph-RAG. **This is an exact mirror of the Code-Graph-RAG project, hosted at . SourceForge is not affiliated with Code-Graph-RAG.**. #### Get an email whe",
+    "last_updated": "2026-07-02"
+  },
+  "puppetmaster": {
+    "canonical_name": "Puppetmaster",
+    "entity_type": "technology",
+    "summary": "The main purpose of PuppetMaster is to make the Puppet ragdoll physically follow the motion and animation of the animated Target character. Short overview of the features of PuppetMaster (Beta), an advanced character physics tool for Unity. PuppetMaster is **an intuitive animation app** for kids, wh",
+    "last_updated": "2026-07-02"
+  },
+  "stdlibonly backend": {
+    "canonical_name": "stdlib-only backend",
+    "entity_type": "technology",
+    "summary": "## Use saved searches to filter your results more quickly. # stdlib-js/stdlib. We believe in a future in which the web is a preferred environment for numerical computation. stdlib (/ˈstændərd lɪb/ \"standard lib\") is a standard library with an emphasis on numerical and scientific computation, written",
+    "last_updated": "2026-07-02"
+  },
+  "sse": {
+    "canonical_name": "SSE",
+    "entity_type": "technology",
+    "summary": "Palo Alto Networks Prisma AccessCisco UmbrellaNetskopeZscalerSoftware Defined WAN (SD-WAN)SASECiscoPalo Alto NetworksNetworkingSecurity. # Security Service Edge (SSE) Overview. Security Service Edge (SSE) is one of the main building blocks under the Secure Access Service Edge (SASE) architecture. SS",
+    "last_updated": "2026-07-02"
+  },
+  "qwen3coder30b": {
+    "canonical_name": "qwen3-coder-30b",
+    "entity_type": "ai_model",
+    "summary": "## Qwen3 Coder 30B. A powerful 30B MoE coding model from Alibaba Qwen, joining its larger 480B counterpart. Updated on August 2bylmmy's profile picture. Specialized coding model with native support for 256K context length. MoE model with 3.3B activated weights out of 30.5B total parameters, 128 expe",
+    "last_updated": "2026-07-02"
+  },
+  "kestrel": {
+    "canonical_name": "Kestrel",
+    "entity_type": "product",
+    "summary": "Home » Kestrel launches brand new Product Overview. # Kestrel launches brand new Product Overview. UPVC fascia, cladding and soffit brand Kestrel has launched its latest brochure, and it’s packed with more products, pictures, and information than ever. The latest Kestrel Product Overview showcases t",
+    "last_updated": "2026-07-02"
+  },
+  "openclaw": {
+    "canonical_name": "OpenClaw",
+    "entity_type": "technology",
+    "summary": "OpenClaw (formerly known as Moltbot and Clawdbot) is an open-source AI agent that runs on your machine, connects through the messaging apps you already use (WhatsApp, Telegram, Slack, Signal, and others), and takes action on your behalf — shell commands, browser automation, email, calendar, and file",
+    "last_updated": "2026-07-02"
+  },
+  "claude code": {
+    "canonical_name": "Claude Code",
+    "entity_type": "ai_model",
+    "summary": "# Understanding How Claude Code Works: A Deep Dive into LLM-Powered Developer Tools. If you're a developer exploring AI coding assistants, you might have encountered Claude Code and wondered how it actually works under the hood. What's the relationship between the command-line tool you install and t",
+    "last_updated": "2026-07-02"
+  },
+  "devops": {
+    "canonical_name": "DevOps",
+    "entity_type": "technology",
+    "summary": "Integration of software development and operations. DevOps is at the intersection of Development (Software Engineering), Technology Operations and Quality Assurance (QA). **DevOps** is the integration and automation of software development and information technology operations. DevOps encompasses th",
+    "last_updated": "2026-07-02"
+  },
+  "cesm": {
+    "canonical_name": "CESM",
+    "entity_type": "technology",
+    "summary": "Xmodel = 𝛼(Xmet – Xmodel) • Default SD configuration is to nudge the model fields to MERRA-2 reanalysis up to ~50 km • Assumption is that middle-upper atmosphere variability is controlled by dynamics in the troposphere-stratosphere • Useful for simulating specific time periods and/or comparing to ob",
+    "last_updated": "2026-07-02"
+  },
+  "convnextv2tiny": {
+    "canonical_name": "ConvNeXtV2-tiny",
+    "entity_type": "ai_model",
+    "summary": "ConvNeXt V2 is a pure convolutional model (ConvNet) that introduces a fully convolutional masked autoencoder framework (FCMAE) and a new Global Response # ConvNeXt V2¶. This co-design of self-supervised learning techniques and architectural improvement results in a new model family called ConvNeXt V",
+    "last_updated": "2026-07-02"
+  },
+  "cddcesm dataset": {
+    "canonical_name": "CDD-CESM dataset",
+    "entity_type": "material",
+    "summary": "This dataset is a collection of 2,006 high-resolution Contrast-enhanced spectral mammography (CESM) images with annotations and medical reports. Acquisition This study utilized the CDD-CESM dataset comprising mammogram images from 326 female individuals. Each subject typically had 8 images, includin",
+    "last_updated": "2026-07-02"
+  },
+  "walidghorbel": {
+    "canonical_name": "WalidGhorbel",
+    "entity_type": "person",
+    "summary": "View the profiles of people named Walid Ghorbel. Join Facebook to connect with Walid Ghorbel and others you may know. Facebook gives people the power to View the profiles of professionals named \"Walid Ghorbel\" on LinkedIn. There are 10+ professionals named \"Walid Ghorbel\", who use LinkedIn to exchan",
+    "last_updated": "2026-07-02"
+  },
+  "scientific data": {
+    "canonical_name": "Scientific Data",
+    "entity_type": "organization",
+    "summary": "Data organization is the practice of sorting data by category to make raw data understandable. Techniques for data organization include: ##### Home > Resources > What Is a Scientific Data Management System? # What Is a Scientific Data Management System? An SDMS, or Scientific Data Management System,",
+    "last_updated": "2026-07-02"
+  },
+  "uvaishmohd307sketch": {
+    "senses": [
+      {
+        "sense_label": "GitHub username/repository name, likely referring to the project owner",
+        "summary": "Sketch is exploding in 2024 thanks to his \"Madden'' game streams and infectious personality. everything about his life is sunshine and Sketch, whose real name is Kylie Cox, is an American Twitch streamer, YouTuber, and internet personality born in 1998 or 1999 in Dallas, Texas. 17, 18 year old sligh",
+        "last_updated": "2026-07-02"
+      }
+    ]
+  },
+  "gesturex": {
+    "canonical_name": "GestureX",
+    "entity_type": "product",
+    "summary": "GestureX is an OpenCV-based hand motion sensing system for intuitive, efficient user control.This project aims to investigate the potential of creating a vision The product supports standard touch gestures on Windows, MacOS, and Linux systems. Please refer to the following for all gesture features.",
+    "last_updated": "2026-07-02"
+  },
+  "python": {
+    "canonical_name": "Python",
+    "entity_type": "technology",
+    "summary": "# Python®. ### the language of today and tomorrow. Python is the gift that keeps on giving. The more you understand Python, the more you can do in the 21st Century. Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It’s used everywhere –",
+    "last_updated": "2026-07-02"
+  },
+  "opencv": {
+    "canonical_name": "OpenCV",
+    "entity_type": "technology",
+    "summary": "By using OpenCV, one can process images and videos to identify objects, faces, or even the handwriting of a human. When it is integrated with OpenCV is an open-source library that includes several hundreds of computer vision algorithms. OpenCV has a modular structure, A library for image processing.",
+    "last_updated": "2026-07-02"
+  },
+  "mediapipe": {
+    "canonical_name": "MediaPipe",
+    "entity_type": "technology",
+    "summary": "# MediaPipe. | Website | ai.google.dev/edge/mediapipe/solutions/guide |. **MediaPipe** is an open source framework with many libraries \"Library (computing)\") developed by Google for several artificial intelligence and machine learning solutions. These solutions range from generative artificial intel",
+    "last_updated": "2026-07-02"
+  },
+  "moht uvaish": {
+    "canonical_name": "Moht Uvaish",
+    "entity_type": "person",
+    "summary": "Mohammad Uvaish belongs to a very small village of Fatehgarh, Bhopal. His family was into farming and along with his mother, he supported his father throughout. Mohammad Uvaish\nProgram Coordinator | NABH, Quality Council of India (Ministry of Commerce and Industry) | MBA (HHM), JMI '24 | Swachh Surv",
+    "last_updated": "2026-07-02"
+  },
+  "mit license": {
+    "canonical_name": "MIT License",
+    "entity_type": "regulation",
+    "summary": "**The MIT License** is widely adopted because it **provides a straightforward framework with minimal restrictions**, allowing free use, modification, and distribution. Tools that generate a **software bill of materials (SBOM)** and **conduct** **software composition analysis** (like Wiz Code) play a",
+    "last_updated": "2026-07-02"
+  },
+  "kokilamariyayiparsifyai": {
+    "canonical_name": "kokilamariyayi/parsify-ai",
+    "entity_type": "organization",
+    "summary": "Beyond resumes. We create contextually rich profiles that reveal who you really are. The most advanced AI recruitment platform with 15K+ candidates Overview:\nAt Scalifi Ai, we believe that AI should be accessible by everyone, regardless of their technical skills or resources. That's why we have deve",
+    "last_updated": "2026-07-02"
+  },
+  "parsify ai": {
+    "canonical_name": "Parsify AI",
+    "entity_type": "product",
+    "summary": "Products. Parsify. Next generation notepad-based calculator, built with extensibility and privacy in mind. Welding Toolbox 2. Mobile app with tools for Parsify is a next generation, notepad-based calculator, built with extendibility and privacy in mind. It supports advances math, variables, Beyond r",
+    "last_updated": "2026-07-02"
+  },
+  "apple intelligence": {
+    "canonical_name": "Apple Intelligence",
+    "entity_type": "technology",
+    "summary": "# Apple Intelligence. | Apple Intelligence running on MacBook Pro, iPhone, and iPad | |. **Apple Intelligence** is a collection of artificial intelligence features developed by Apple Inc. Relying on a combination of on-device and server processing, it was announced on June 10, 2024, at the 2024 Worl",
+    "last_updated": "2026-07-02"
+  },
+  "groqs llama3": {
+    "canonical_name": "Groq's LLaMA-3",
+    "entity_type": "ai_model",
+    "summary": "# Beginner's Guide to Groq API with Llama 3. The Groq API, combined with the powerful capabilities of Llama 3, offers an innovative approach to building and deploying machine learning models. Llama 3, a state-of-the-art language model, leverages these capabilities to deliver robust natural language",
+    "last_updated": "2026-07-02"
+  },
+  "whisper models": {
+    "canonical_name": "Whisper models",
+    "entity_type": "ai_model",
+    "summary": "The Whisper model is a speech-to-text model from OpenAI that you can use to transcribe audio files in English or translate audio from other languages into English. In Azure Speech (batch transcription), Whisper is just one of several models that you can use for speech-to-text. * Whisper quickstart v",
+    "last_updated": "2026-07-02"
+  },
+  "kokila m": {
+    "canonical_name": "Kokila M",
+    "entity_type": "person",
+    "summary": "Kokila m\nSoftware Engineer\nBengaluru, Karnataka, India\n205 connections, 210 followers\n\n\nAbout\nExperienced Software Engineer with a demonstrated history of working in the computer…\n\n\nExperience\nSoftware Developer\n[Sen-Sei Technologies](N/A)  \nApr 2014 - Oct 2017\nBengaluru Area, India\n\n\n\nEducation\nVis",
+    "last_updated": "2026-07-02"
   }
 }
