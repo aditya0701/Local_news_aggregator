@@ -1,78 +1,86 @@
 [
   {
-    "title": "रॉकेटलैब ने इरिडियम (Iridium) का अधिग्रहण किया",
-    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
-    "summary": "",
-    "published": "Mon, 29 Jun 2026 14:09:24 +0000",
-    "source": "rss",
-    "language": "hindi",
-    "id": "6fa2a7a62fe5",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
-  },
-  {
     "title": "क्वेन 3.6 27बी स्थानीय विकास के लिए मधुर स्थान है",
     "url": "https://quesma.com/blog/qwen-36-is-awesome/",
     "summary": "Qwen 3.6 27B अंततः एक स्मार्ट मॉडल है जिसका उपयोग हम Macbook या Nvidia RTX पर कोडिंग के लिए कर सकते हैं - llama.cpp और OpenCode के साथ।",
+    "image": "https://quesma.com/_astro/thermal_master_p3_macbook.DJG2GL38.jpg",
     "published": "Mon, 29 Jun 2026 17:05:16 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "9335a20eabec",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
+  },
+  {
+    "title": ".self: स्व-होस्टिंग का समर्थन करने के लिए डिज़ाइन किया गया एक नया शीर्ष-स्तरीय डोमेन",
+    "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+    "summary": "इंटरनेट (Internet) अब तक बनाया गया सबसे शक्तिशाली संचार उपकरण है, फिर भी तकनीकी उद्योग द्वारा हमारे डेटा को निकालने और हमारा ध्यान आकर्षित करने के लिए इसके बुनियादी ढांचे का लाभ उठाया गया है। मानव-केंद्रित कंप्यूटिंग फाउंडेशन वेब के लिए एक वैकल्पिक आर्किटेक्चर बनाकर इस गतिशीलता को बदलना चाहता है। आईसीएएनएन के आवेदक सहायता कार्यक्रम (Applicant Support Program) (एएसपी) (ASP) में एक अनुमोदित भागीदार के रूप में, हम पूरी तरह से नैतिक, मानव-केंद्रित प्रौद्योगिकी के लिए समर्पित एक नए शीर्ष-स्तरीय डोमेन (टीएलडी) (TLD) को सुरक्षित करने के लिए आधिकारिक तौर पर अपना अभियान शुरू कर रहे हैं।",
+    "image": "",
+    "published": "Mon, 29 Jun 2026 19:49:28 +0000",
+    "source": "rss",
+    "language": "hindi",
+    "id": "2f7538f98a3e",
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
+  },
+  {
+    "title": "रॉकेटलैब ने इरिडियम (Iridium) का अधिग्रहण किया",
+    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+    "summary": "टिप्पणियाँ",
+    "image": "",
+    "published": "Mon, 29 Jun 2026 14:09:24 +0000",
+    "source": "rss",
+    "language": "hindi",
+    "id": "6fa2a7a62fe5",
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "ऑर्निथ-1.0: एजेंटिक कोडिंग के लिए स्व-सुधार ओपन-सोर्स मॉडल",
     "url": "https://github.com/deepreinforce-ai/Ornith-1",
     "summary": "GitHub पर एक खाता बनाकर Deepreinforce-ai/Ornith-1 विकास में योगदान करें।",
+    "image": "https://opengraph.githubassets.com/57a610efb594bfdee6c12eb1a514dee201a24e7b15e6b135b9168be104c3ac97/deepreinforce-ai/Ornith-1",
     "published": "Mon, 29 Jun 2026 17:16:17 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "54f2380bc124",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "जंपसर्वर: (JumpServer) ओपन-सोर्स प्रिविलेज्ड एक्सेस मैनेजमेंट (Open-Source Privileged Access Management)",
     "url": "https://github.com/jumpserver/jumpserver",
     "summary": "जंपसर्वर (JumpServer) एक ओपन-सोर्स प्रिविलेज्ड एक्सेस मैनेजमेंट (पीएएम) (PAM) प्लेटफॉर्म है जो डेवऑप्स और आईटी टीमों को एसएसएच, (SSH) आरडीपी, (RDP) कुबेरनेट्स, (Kubernetes) डेटाबेस (Database) और रिमोटएप एंडपॉइंट्स तक ऑन-डिमांड और सुरक्षित पहुंच प्रदान करता है...",
+    "image": "https://opengraph.githubassets.com/ab0b3d7e535748c6ac6c1f7b15d9606ed69a9157cdefb78f371de716a21453f3/jumpserver/jumpserver",
     "published": "Mon, 29 Jun 2026 19:06:17 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "2d09bf73e786",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "SSH के लिए एक देशी ग्राफिकल शेल",
     "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
     "summary": "मार्कस लुईस (Marcus Lewis)",
+    "image": "https://probablymarcus.com/images/2026-06-28-outer-shell.png",
     "published": "Mon, 29 Jun 2026 15:42:17 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "574b33a39010",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "WATaBoy: JIT-Ing गेम बॉय निर्देश WASM को एक मूल दुभाषिया (Native Interpreter) को मात देता है",
     "url": "https://humphri.es/blog/WATaBoy/",
     "summary": "एक गेम बॉय एमुलेटर जो SM83 को WebAssembly में गतिशील रूप से पुन: संकलित करके एक देशी दुभाषिया की तुलना में तेज़ चलता है, जिससे iOS पर JIT को प्रभावी ढंग से संभव बनाया जा सकता है।",
+    "image": "",
     "published": "Mon, 29 Jun 2026 15:02:00 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "e645a64c3397",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
-    "title": "वालेस 6 इंच एफ/2.8 टेलीस्कोप, इसका निर्माण, और इसके साथ लंबी पैदल यात्रा",
-    "url": "https://lucassifoni.info/blog/hiking-with-wallace/",
-    "summary": "वालेस (Wallace) के साथ लंबी पैदल यात्रा, मेरा 6\" f/2.8 सही डब्सोनियन।",
-    "published": "Fri, 26 Jun 2026 07:29:17 +0000",
-    "source": "rss",
-    "language": "hindi",
-    "id": "34e52944727f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
-  },
-  {
-    "title": "तकनीकी सीमा पर एजेंट की आधिकारिकता: AI के मूद्रा क्षेत्र में उत्परिवर्तन",
+    "title": "तकनीकी सफेदियों पर रियासत की भावना",
     "url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models",
-    "summary": "2026 को संगणकीय संसाधनों के लिए एक \"इनफल्शन वर्ष\" माना जाएगा। उद्यमियों को AI पروजेक्टों को कूटनीतिके अधिकारों से सहमत करने की आवश्यकता होगी। Gartner का विश्लेषण, एजेंट इंटलigेन्स प्रभावी फाइनेंशियल असले सुरक्षित करने में मदद कर सकता है। vLLM Semantic Router एक मामले-आधारित माइक्रो-एजेंट रनटाइम बनाने में सहायता पाएगी, जो क्सर्ट फॉरं्स, रेव्यू, रिमोएम्बेडिंग, फुज़न और नौकरी प्रक्रियाओं के साथ मुद्दे हल करता है।",
+    "summary": "2026 के लिए Gartner ने अंकित किया है कि कंपनियों को AI अभियान्त्रिकी सहायकों को उद्देश्यों के मुख्य पहलुओं के साथ समर्थित करने की आवश्यकता होगी। व्यवसाय के लाभों की माप-परिणामी गणनाओं को प्रदर्शित करने के दबाव के उतार से, अगेंट AI को लाभकारी AI मॉडल का हस्तक्षेप देने की इच्छा बढ़ रही है। vLLM Semantic Router ऐसा एक संरचना है जो AI मॉडल को साथ-साथ काम प्रणालियों के लिए रियासत, मूल्याक्तरण, ReMoM, संयुक्तियों, कार्यप्रवाहों और नीति-सूचना पर भी सहयोग करने में बदलता है।",
+    "image": "https://vllm.ai/blog-assets/figures/2026-06-29-micro-agent-frontier-models/looper-micro-agents.png",
     "published": "Mon, 29 Jun 2026 18:03:26 +0000",
     "source": "synthesized",
     "language": "hindi",
@@ -81,82 +89,90 @@
       "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/"
     ],
     "id": "d36204b7e734",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
+  },
+  {
+    "title": "वालेस 6 इंच एफ/2.8 टेलीस्कोप, इसका निर्माण, और इसके साथ लंबी पैदल यात्रा",
+    "url": "https://lucassifoni.info/blog/hiking-with-wallace/",
+    "summary": "वालेस (Wallace) के साथ लंबी पैदल यात्रा, मेरा 6\" f/2.8 सही डब्सोनियन।",
+    "image": "",
+    "published": "Fri, 26 Jun 2026 07:29:17 +0000",
+    "source": "rss",
+    "language": "hindi",
+    "id": "34e52944727f",
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "अमेरिकी सुप्रीम कोर्ट (US Supreme Court) का नियम है कि जियोफेंस वारंट के लिए संवैधानिक सुरक्षा की आवश्यकता होती है",
     "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
     "summary": "स्मार्टफोन स्थान डेटा को व्यापक बनाने वाले वारंट के कानून प्रवर्तन के उपयोग के लिए गोपनीयता सुरक्षा, अदालत के नियमों की आवश्यकता होती है",
+    "image": "https://i.guim.co.uk/img/media/ddb87e813bdb11401cf5abac3654ec9ff5b15d85/328_0_5001_4002/master/5001.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4dde1080bea475527e46e854344cca12",
     "published": "Mon, 29 Jun 2026 15:54:24 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "f28964b731e8",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
-  },
-  {
-    "title": "जब आप CUDA कर्नेल चलाते हैं तो क्या होता है?",
-    "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
-    "summary": "एनवीसीसी से नीचे तक इसे निष्पादित करने वाले वॉर्प्स तक एक वेक्टर-ऐड कर्नेल का पता लगाना।",
-    "published": "Mon, 29 Jun 2026 13:11:08 +0000",
-    "source": "rss",
-    "language": "hindi",
-    "id": "daac527d95c3",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "एआई एजेंट आपके \"सहकर्मी\" नहीं हैं",
     "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
     "summary": "यह कहानी मूल रूप से एआई पर हमारे साप्ताहिक समाचार पत्र द एल्गोरिथम में छपी थी। इस तरह की कहानियाँ सबसे पहले अपने इनबॉक्स में पाने के लिए, यहाँ साइन अप करें। कल्पना कीजिए कि आप काम पर आकर यह सीखते हैं कि एक नया अधीनस्थ आपको रिपोर्ट करेगा। कार्यकर्ता एक व्यक्ति नहीं बल्कि एक एआई उपकरण है - जिसे आपकी कंपनी फिर भी एलेक्स (Alex) कहती है, और...",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260625_AIAgents.jpg?resize=1200,600",
     "published": "Mon, 29 Jun 2026 18:00:00 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "457b06c6dfee",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "डाउनलोड: मीट्रिक कमजोरियां और एआई हाथी चेतावनियां",
     "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/",
     "summary": "यह द डाउनलोड का आज का संस्करण है, हमारा कार्यदिवस समाचार पत्र जो प्रौद्योगिकी की दुनिया में क्या हो रहा है उसकी दैनिक खुराक प्रदान करता है। मेट्रिक्स की अपरिहार्य कमज़ोरी बहुत सारी उपयोगी चीज़ें हैं जो एक मेट्रिक प्रकट कर सकती है। और भी बहुत कुछ है जो इसे अस्पष्ट या भ्रष्ट कर सकता है। जैसे बहुत से लोगों को काटा गया...",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/Sisyphus_MIT.jpg?resize=1200,600",
     "published": "Mon, 29 Jun 2026 12:10:00 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "45b0010e4dff",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "डाउनलोड: दिमाग पिघला देने वाली गर्मी की लहरें और अभूतपूर्व ओपनएआई (OpenAI) प्रतिबंध",
     "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
     "summary": "यह द डाउनलोड का आज का संस्करण है, हमारा कार्यदिवस समाचार पत्र जो प्रौद्योगिकी की दुनिया में क्या हो रहा है उसकी दैनिक खुराक प्रदान करता है। गर्मी की लहरें आपके मस्तिष्क को नुकसान पहुंचाती हैं। वैज्ञानिक इसका कारण जानने का प्रयास कर रहे हैं। -जेसिका हैमज़ेलोउ इस सप्ताह लंदन (London) में गर्मी रही। वास्तव में गर्म। पश्चिमी देशों में खतरनाक लू चल रही है...",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260623_checkup_hotbrains.jpg?resize=1200,600",
     "published": "Fri, 26 Jun 2026 12:10:00 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "bc8b1042fa90",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "गर्मी की लहरें आपके मस्तिष्क को नुकसान पहुंचाती हैं। वैज्ञानिक इसका कारण जानने का प्रयास कर रहे हैं।",
     "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
     "summary": "इस सप्ताह लंदन (London) में गर्मी रही। वास्तव में गर्म। पश्चिमी यूरोप (Western Europe) में खतरनाक गर्मी की लहर चल रही है। कल, यूके (UK) में जून (June) का अब तक का सबसे अधिक तापमान 36.1 डिग्री सेल्सियस (लगभग 97 डिग्री फ़ारेनहाइट) दर्ज किया गया। लेकिन जैसे ही मेरे फोन पर मौसम ऐप ने पुष्टि की, यह 39 डिग्री सेल्सियस जैसा महसूस हुआ। यह भयावह है कि हम ऐसे तापमान देख रहे हैं...",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260623_checkup_hotbrains.jpg?resize=1200,600",
     "published": "Fri, 26 Jun 2026 09:00:00 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "04909339402d",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "एआई युग के लिए रिटेल को पुनः स्थापित करना",
     "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
     "summary": "आर्टिफिशियल इंटेलिजेंस तेजी से रिटेल को नया आकार दे रहा है, लेकिन उस तरह से नहीं जिस तरह उपभोक्ता तुरंत नोटिस कर सकते हैं। सबसे बड़ा परिवर्तन आकर्षक वर्चुअल ट्राई-ऑन या चैटबॉट शॉपिंग असिस्टेंट नहीं हो सकता है, लेकिन पर्दे के पीछे निर्णय कैसे लिए जाते हैं: खोज परिणामों में उत्पाद कैसे सामने आते हैं, आपूर्ति श्रृंखलाओं के माध्यम से इन्वेंट्री कैसे चलती है, इंजीनियर तेजी से कोड कैसे भेजते हैं, और…",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/MITTRIInfosysMacys-social-1200px.png?resize=1200,600",
     "published": "Thu, 25 Jun 2026 14:22:59 +0000",
     "source": "rss",
     "language": "hindi",
     "id": "e1257961d483",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
-    "title": "यूरोप की गर्मी, पावर नेटवर्क को कठिनाई दे रही है",
+    "title": "यूरोप की संतापवारी विद्युत पहलवान को आग्रसर कर रही है",
     "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
-    "summary": "यूरोप में रिकॉर्ड से अधिक गर्मी का प्रभाव लगना शुरू हो रहा है, जिसमें कई शिक्षापदानल और संस्थाएँ बंद कर दी गई हैं। ये माहमुखी भावना आई, जब लंदन में गर्मी पर ध्यान का सत्र की घोषणा की गई थी। दौरान हवा-कड़वा और फैंसियों का उपयोग जल्दी ही बढ़ाने पर, इसमें सुरक्षा की पहल गतिविधियाँ मरम्मत कर रही हैं। फ्रान्स ने 23 जून को अपनी ऐतिहासिक सर्दियों से गुजरने वाली सबसे गर्म रोशनी का रिकॉर्ड बना।",
+    "summary": "यूरोप में अदभुत संतापवारी चल रही है जिसमें विद्युत पहलवान का लक्ष्य हो रहा है। फ्रांस में 23 जून की तारीख पर इस संतापवारी के वजह से दिलचस्प सबसे गर्म दिन रिकॉर्ड किया गया। हालांकि, इंबाईट मशीन का प्रोटाइप चип जो एक अंगूर की नौकर के आकार के दुबारा 100 बिलियन ट्रांसजेटर्स पर इम्प्लांट है, गोल्डर्स्लीव के न्यूमोर को और भी दिशा में बढ़ावा दे सकता है।",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260623_Powerplantsheat.jpg?resize=1200,600",
     "published": "Thu, 25 Jun 2026 12:10:00 +0000",
     "source": "synthesized",
     "language": "hindi",
@@ -167,48 +183,53 @@
       "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/"
     ],
     "id": "9f076acc6049",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "बेंचफ्लो-एआई/विस्मयकारी-इवल्स",
     "url": "https://github.com/benchflow-ai/awesome-evals",
     "summary": "एआई एजेंटों के निर्माण और मूल्यांकन के लिए सर्वोत्तम संसाधनों की एक क्यूरेटेड, गैर-बीएस लाइब्रेरी - कागजात, ब्लॉग, वार्ता, उपकरण, बेंचमार्क। बेंचफ्लो (BenchFlow) द्वारा बनाए रखा गया।",
+    "image": "https://opengraph.githubassets.com/1/benchflow-ai/awesome-evals",
     "source": "github",
     "language": "hindi",
     "id": "018f030d8873",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "एली-लैब्ज़/गॉडकोडर",
     "url": "https://github.com/eli-labz/Godcoder",
     "summary": "आपके डेस्कटॉप के लिए एक स्थानीय-प्रथम, ओपन-सोर्स कोडिंग एजेंट। अपनी स्वयं की एलएलएम (LLM) कुंजी लाएँ; आपका कोड आपकी मशीन पर रहता है और केवल मॉडल प्रदाता के पास ही जाता है। एआई एजेंट (AI Agent) अपना स्वयं का हार्नेस बनाता है।",
+    "image": "https://opengraph.githubassets.com/1/eli-labz/Godcoder",
     "source": "github",
     "language": "hindi",
     "id": "9590ac846680",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "लाइटबियरको/ट्यूपर",
     "url": "https://github.com/lightbearco/tupper",
     "summary": "एआई एजेंटों के लिए ओपन-सोर्स सैंडबॉक्स - अपनी मशीन पर अविश्वसनीय, एआई-जनरेटेड कोड सुरक्षित रूप से चलाएं।",
+    "image": "https://opengraph.githubassets.com/1/lightbearco/tupper",
     "source": "github",
     "language": "hindi",
     "id": "47b410b79c3a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "रेयज़ोटर/हैलो-एजेंट्स",
     "url": "https://github.com/Reyzowter/Hello-Agents",
     "summary": "🤖 स्क्रैच से एआई एजेंट सिस्टम का निर्माण (Building AI Agent Systems) - बुनियादी बातों से लेकर उत्पादन-ग्रेड मल्टी-एजेंट अनुप्रयोगों तक एक व्यापक, व्यावहारिक ट्यूटोरियल",
+    "image": "https://opengraph.githubassets.com/1/Reyzowter/Hello-Agents",
     "source": "github",
     "language": "hindi",
     "id": "cf322ecfd9c2",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
-    "title": "अंबर 2.0 का नई पीढ़ी के सmarत ऐसीआइ लाय!",
+    "title": "अगले जनरेशन की संविद्याओं के लिए हाइपरफ़ॉर्म कोन्वर्झेशन ग्राफ मेक्सिन",
     "url": "https://github.com/Aliu-AiRobot/ESEILANE",
-    "summary": "तेक्स्ट में दिखाया गया, एलएसएलडब्ल्यू और ग्राफरेज से बनाए गए हाइपरफर्मेंट कोन्डेन्शन ग्राफ इंजन, अंबर 2.0, नई पीढ़िया समझ-करते ऐसीआइ अप्रैक्टिकल्स के लिए डिजाइन किया गया है। यह नवीन पीढ़िया समझ-देख तकनीकों के उपयोग के लिए अत्यधिक कार्यक्षम है।",
+    "summary": "ESEILANE ने एक आंतरिक ज्ञान ग्राफ इंजन की रिलीज़ की, जो AI, और LLMs (लॉगिस्टिक लैंबडा मॉडेल) के साथ ग्राफ राइटिंग एर्जिड प्रदान करता है। यह भविष्य की व्यवसायिक और मानव सेवाओं में सुधार के लिए तैयार किया गया है।",
+    "image": "https://opengraph.githubassets.com/1/Aliu-AiRobot/ESEILANE",
     "source": "synthesized",
     "language": "hindi",
     "sources": [
@@ -216,111 +237,123 @@
       "https://github.com/Simpl3x3/ESEILANE"
     ],
     "id": "05267c2ac651",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "GraeLefix/GITVERSE",
     "url": "https://github.com/GraeLefix/GITVERSE",
     "summary": "🔍 किसी भी कोडबेस को बिल्ड प्रॉम्प्ट में रिवर्स (Reverse) इंजीनियर करें - आर्किटेक्चर ब्रेकडाउन, एएससीआईआई (ASCII) ब्लूप्रिंट, और एआई-रेडी पुनर्निर्माण प्रॉम्प्ट",
+    "image": "https://opengraph.githubassets.com/1/GraeLefix/GITVERSE",
     "source": "github",
     "language": "hindi",
     "id": "647eb221b2da",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "केविन333353/जॉब्समिथ",
     "url": "https://github.com/kevin333353/jobsmith",
     "summary": "針對台灣求職市場的開源多代理 AI 求職सह पायलट: सह-पायलट अधिक पढ़ें क्लाउड कोड／कोडेक्स सीएलआई और एपीआई (API) कुंजी，也可自備金鑰接 OpenAI 相容模型。",
+    "image": "https://opengraph.githubassets.com/1/kevin333353/jobsmith",
     "source": "github",
     "language": "hindi",
     "id": "75434f6d24f5",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "sums001/डीपसीक-एपीआई",
     "url": "https://github.com/sums001/Deepseek-API",
     "summary": "इंजीनियर्ड डीपसीक चैट को ओपनएआई (OpenAI) संगत एपीआई (API) में रिवर्स करें। एपीआई कुंजी या बिलिंग के बिना एक सरल REST इंटरफ़ेस के माध्यम से V4 और R1 मॉडल तक पहुंचें।",
+    "image": "https://opengraph.githubassets.com/1/sums001/Deepseek-API",
     "source": "github",
     "language": "hindi",
     "id": "f0b2fefd853f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "स्पार्कीवेन/क्यूक्यू",
     "url": "https://github.com/SparkyWen/qcue",
     "summary": "आपका दूसरा मस्तिष्क - अपने दिमाग पर कब्ज़ा करें",
+    "image": "https://opengraph.githubassets.com/1/SparkyWen/qcue",
     "source": "github",
     "language": "hindi",
     "id": "9334d6a84b79",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "AarambhDevHub/aarambh-ai",
     "url": "https://github.com/AarambhDevHub/aarambh-ai",
     "summary": "🦀 केवल डिकोडर एलएलएम को कैंडल का उपयोग करके शुद्ध रस्ट में स्क्रैच से बनाया गया - कोई पायथन नहीं, कोई पायटोरच (PyTorch) नहीं। थिंकिंग इंजन, INT4/GGUF क्वांटाइजेशन, LoRA/QLoRA फाइन-ट्यूनिंग, GRPO अलाइनमेंट और सेल्फ-लर्निंग लूप। स्केल: छोटे (25M) से बड़े (1.3B)।",
+    "image": "https://opengraph.githubassets.com/1/AarambhDevHub/aarambh-ai",
     "source": "github",
     "language": "hindi",
     "id": "ad699ca4957b",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "नेदा-खीरखाह/परमेड",
     "url": "https://github.com/neda-kheirkhah/PerMed",
     "summary": "बहुभाषी स्वास्थ्य देखभाल एआई अनुसंधान के लिए मेडिट्रॉन (Meditron) पर आधारित फ़ारसी मेडिकल लार्ज लैंग्वेज मॉडल।",
+    "image": "https://opengraph.githubassets.com/1/neda-kheirkhah/PerMed",
     "source": "github",
     "language": "hindi",
     "id": "68ba9191ac66",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "ब्लूप्रोज/तियांची-बाई-फाइनेंस-एलएलएम",
     "url": "https://github.com/blueproj/tianchi-baai-finance-llm",
     "summary": "बीएएआई उद्योग डेटा एप्लीकेशन एलएलएम चैलेंज के लिए प्रथम स्थान समाधान - वित्त (Finance) और अर्थशास्त्र ट्रैक (Economics Track) (तियान्ची)",
+    "image": "https://opengraph.githubassets.com/1/blueproj/tianchi-baai-finance-llm",
     "source": "github",
     "language": "hindi",
     "id": "b7aa533333a0",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "einouqo/llm-हैंडबुक",
     "url": "https://github.com/einouqo/llm-handbook",
     "summary": "व्यावहारिक एलएलएम (LLM) इंजीनियरिंग नोट्स, अनुमान और मॉडल वेरिएंट को कवर करने वाली एक जीवित पुस्तिका।",
+    "image": "https://opengraph.githubassets.com/1/einouqo/llm-handbook",
     "source": "github",
     "language": "hindi",
     "id": "37ab199be72f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "winznx/theleeven",
     "url": "https://github.com/winsznx/theeleven",
     "summary": "ग्यारह स्वायत्त एआई एजेंट एक्स लेयर पर लाइव फुटबॉल प्रोप बाजार खोलते हैं - कस्टम यूनिस्वैप (Uniswap) वी4 हुक, गैस रहित यूएसडीटी0 स्टेकिंग।",
+    "image": "https://opengraph.githubassets.com/1/winsznx/theeleven",
     "source": "github",
     "language": "hindi",
     "id": "531526114c36",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "ampliftq/opentag",
     "url": "https://github.com/amplifthq/opentag",
     "summary": "ओपन-सोर्स @एजेंट स्लैक और गिटहब का उल्लेख करता है। ओपनटैग (OpenTag) मार्ग कोडेक्स, क्लाउड कोड (Claude Code) के लिए टैग किए गए अनुरोधों को रूट करता है, फिर थ्रेड में परिणाम लौटाता है।",
+    "image": "https://opengraph.githubassets.com/1/amplifthq/opentag",
     "source": "github",
     "language": "hindi",
     "id": "2357d6fbd7eb",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "लाइकोर्प-जेपी/सिम-उपयोग",
     "url": "https://github.com/lycorp-jp/sim-use",
     "summary": "अपने एआई एजेंट को आईओएस सिम्युलेटर (Simulator) और एंड्रॉइड (Android) एमुलेटर/डिवाइस पर ध्यान दें।",
+    "image": "https://opengraph.githubassets.com/1/lycorp-jp/sim-use",
     "source": "github",
     "language": "hindi",
     "id": "53231e4eff16",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
-    "title": "गेम डिव्हलपमेंट के कैंडिडेटों के लिए अवसान करने वाली कौशल सूची",
+    "title": "एआई कैडेवर्स के लिए सक्रिय अज्ञात कौशल",
     "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
-    "summary": "आजकल के AI कैंडिडेटों को गेम डिव्हलपमेंट में उपयोग करने के लिए 66 विशिष्ट कौशल सूची प्रदान की जा रही है, जो Godot, Unity, Unreal, और वेब में भी लगभग सभी इंजनों के लिए उपलब्ध है। यह SKILL.md प्रकार का मोबाइल रूप दिखाता है, जिसमें एक मास्टर रूटर संतुलन वाली कौशल भर पहचानता है।",
+    "summary": "गेम डिवेलपमेंट के लिए एक पोर्टेबल SKILL.md फॉर्मेट में 66 संस्करण-विनिर्देशित कौशल (जिसमें मास्टर रूटर पन्डित भी है) का उपयोग, Claude Code, Cursor, Codex, Copilot, Gemini CLI और अधिक इत्यादि इंजिनों और कार्य में सक्रिय है। यह एक सुरक्षित गणितीय उपकरण है जो डेवलपर द्वारा बनाई गई अंशों को आसानी से लोड करता है।",
+    "image": "https://opengraph.githubassets.com/1/gamedev-skills/awesome-gamedev-agent-skills",
     "source": "synthesized",
     "language": "hindi",
     "sources": [
@@ -328,393 +361,436 @@
       "https://github.com/Ezeafk/awesome-agent-skills"
     ],
     "id": "d7754c610f9f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "अर्धइकोसिस्टम/सिनैप्स",
     "url": "https://github.com/ardhaecosystem/synapse",
     "summary": "सिनैप्स - एआई एजेंटों के लिए अस्थायी ज्ञान ग्राफ मेमोरी। हिप्पोकैम्पस-लेयर मेमोरी प्रबंधन के साथ स्व-होस्टेड FalkorDB + ग्राफिटी। (Graphiti)",
+    "image": "https://opengraph.githubassets.com/1/ardhaecosystem/synapse",
     "source": "github",
     "language": "hindi",
     "id": "3412f34ed583",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "बेन्लामिरो/शिपजेनएआई",
     "url": "https://github.com/benlamiro/ShipGenAI",
-    "summary": "🚀 50 production-ready Generative AI SaaS apps — brand them, ship them, keep 100% of the revenue. स्ट्राइप बिलिंग · Google OAuth · Vercel परिनियोजन · MIT लाइसेंस प्राप्त",
+    "summary": "🚀 50 उत्पादन-तैयार जेनरेटिव एआई सास ऐप्स - उन्हें ब्रांड करें, उन्हें शिप करें, 100% राजस्व रखें। स्ट्राइप बिलिंग · Google OAuth · Vercel परिनियोजन · MIT लाइसेंस प्राप्त",
+    "image": "https://opengraph.githubassets.com/1/benlamiro/ShipGenAI",
     "source": "github",
     "language": "hindi",
     "id": "fcb08deef6d4",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "ईवो-डिज़ाइन/प्रोटो-टूल्स",
     "url": "https://github.com/evo-design/proto-tools",
     "summary": "जनरेटिव बायोलॉजी के लिए एक सार्वभौमिक बुनियादी ढांचा परत",
+    "image": "https://opengraph.githubassets.com/1/evo-design/proto-tools",
     "source": "github",
     "language": "hindi",
     "id": "5568d8b86a8d",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "वानशुईयिन/ऑटोरसर्च-विरोधी",
     "url": "https://github.com/wanshuiyin/Anti-Autoresearch",
     "summary": "किसी ऑटोरिसर्च पेपर पर अंकित मूल्य पर भरोसा न करें। समीक्षक-पक्ष अखंडता फोरेंसिक्स (आत्म-स्थिरता + निर्माण), नियतात्मक निर्णय। 61 सिग्नल: 46 अखंडता हैक-पैटर्न (परिवार ए-एच, निर्णय-असर) + 13 शून्य-भार एआई लेखन-शैली इंप्रेशन (एआईएस) (AIS) + 2 सलाह। एक अपारदर्शी एआई-टेक्स्ट क्लासिफायरियर नहीं। एआरआईएस का दोहरा।",
+    "image": "https://opengraph.githubassets.com/1/wanshuiyin/Anti-Autoresearch",
     "source": "github",
     "language": "hindi",
     "id": "c3c4f3a4a40f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "ओवोहाओ/ऑटो-पेपर-कलेक्टर",
     "url": "https://github.com/OvOhao/auto-paper-collecter",
     "summary": "📚🔭 आपका (Your) व्यक्तिगत अनुसंधान रडार - एक एलएलएम-संचालित (LLM-powered) उपकरण जो आपके कीवर्ड के लिए arXiv / क्रॉसरेफ (Crossref) / सिमेंटिक स्कॉलर / गिटहब / आरएसएस (RSS) में नवीनतम पेपर को स्वचालित रूप से एकत्र करता है।",
+    "image": "https://opengraph.githubassets.com/1/OvOhao/auto-paper-collecter",
     "source": "github",
     "language": "hindi",
     "id": "857b1d13c7b7",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "CmsChase/cf-कठिनाई-भविष्यवाणी",
     "url": "https://github.com/CmsChase/cf-difficulty-prediction",
     "summary": "कोडफोर्स (Codeforces) कठिनाई भविष्यवाणी, हल-गिनती एक्सपोज़र प्रभाव, कोल्ड-स्टार्ट सीमाएं और अस्थायी सत्यापन का एक प्रतिलिपि प्रस्तुत करने योग्य एमएल (ML) अध्ययन।",
+    "image": "https://opengraph.githubassets.com/1/CmsChase/cf-difficulty-prediction",
     "source": "github",
     "language": "hindi",
     "id": "f4176007739a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "किहोंगरुआन/स्टैनफोर्ड-सीएस336-नोट्स",
     "url": "https://github.com/QihongRuan/stanford-cs336-notes",
     "summary": "स्टैनफोर्ड सीएस336 (स्प्रिंग 2025) के लिए व्यापक सचित्र नोट्स - स्क्रैच से भाषा मॉडलिंग। (Language Modeling) लाइव: qihongruan.github.io/cs336/",
+    "image": "https://opengraph.githubassets.com/1/QihongRuan/stanford-cs336-notes",
     "source": "github",
     "language": "hindi",
     "id": "959a01cfb46b",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "एम्मीमल/संदर्भ-ग्राफ़-बेंचमार्क",
     "url": "https://github.com/Emmimal/context-graph-benchmark",
     "summary": "मल्टी-एजेंट एलएलएम (LLM) सिस्टम के लिए एक शुद्ध-पायथन संरचित मेमोरी बेंचमार्क - संदर्भ ग्राफ बनाम वेक्टर आरएजी बनाम कच्चा इतिहास डंप, पांच परिदृश्य, 18 वर्गीकृत प्रश्न, शून्य एपीआई (API) कॉल।",
+    "image": "https://opengraph.githubassets.com/1/Emmimal/context-graph-benchmark",
     "source": "github",
     "language": "hindi",
     "id": "97e704e160f1",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "हिकारिमिंग/जीथूब-रोस्ट",
     "url": "https://github.com/hikariming/github-roast",
     "summary": "सैवेज गिटहब रोस्ट (Savage GitHub Roast) · एक हैंडल गिराएं, 0-100 मूल्य प्राप्त करें और 30 के दशक में विश्वास स्कोर और एक क्रूर ईमानदार रोस्ट प्राप्त करें। पीआर किसानों, एआई बॉट और कांटा जमाखोरों को बेनकाब करता है। नियतात्मक स्कोरिंग, स्व-मेज़बान।",
+    "image": "https://opengraph.githubassets.com/1/hikariming/github-roast",
     "source": "github",
     "language": "hindi",
     "id": "5a3226587494",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "इलिंडैनियल/पोनीटेल-लाइट",
     "url": "https://github.com/ilindaniel/ponytail-lite",
     "summary": "एजेंटों को अति-इंजीनियरिंग करने से रोकें। पोनीटेल से प्रेरित, लेकिन प्लगइन पागलपन के बिना।",
+    "image": "https://opengraph.githubassets.com/1/ilindaniel/ponytail-lite",
     "source": "github",
     "language": "hindi",
     "id": "78a999617c17",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "कोडरटेस्ला/एआई-कोडिंग-सौदे",
     "url": "https://github.com/codertesla/ai-coding-deals",
     "summary": "एआई कोडिंग टूल के लिए पैसे बचाने वाली मार्गदर्शिका: निःशुल्क टियर, छूट, रेफरल क्रेडिट और ओपन-सोर्स विकल्प। 省钱指南。",
+    "image": "https://opengraph.githubassets.com/1/codertesla/ai-coding-deals",
     "source": "github",
     "language": "hindi",
     "id": "927a74523a59",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "नोकुओ/नोकुओ",
     "url": "https://github.com/nokuoo/nokuo",
     "summary": "एपीआई (API) कुंजी, टोकन, एसएसएच (SSH) कुंजी, डेटाबेस क्रेडेंशियल और डेवलपर कॉन्फ़िगरेशन के लिए स्थानीय-पहला एन्क्रिप्टेड वॉल्ट।        नोकुओ ने कहा कि एपीआई के बारे में जानने के लिए नोकुओ ने एक और तस्वीर साझा की है।",
+    "image": "https://opengraph.githubassets.com/1/nokuoo/nokuo",
     "source": "github",
     "language": "hindi",
     "id": "4d7a13fe1b3a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "नगोक्वांग/सत्य का स्रोत",
     "url": "https://github.com/ngocquang/source-of-truth",
     "summary": "अपने कोडिंग एजेंट को एक सतत स्मृति दें। सोर्स-ऑफ़-ट्रूथ क्या मौजूद है, क्यों है, और कौन से नियम लागू होते हैं, इसका एक जीवंत दस्तावेज़/कैटलॉग रखता है - इसलिए एआई उन चीज़ों का पुनर्निर्माण, हटाना और तोड़ना बंद कर देता है जिनके बारे में उसे कभी पता नहीं था। क्लाउड, (Claude) कोडेक्स, कर्सर, (Cursor) जेमिनी, कोपायलट और अन्य के साथ काम करता है।",
+    "image": "https://opengraph.githubassets.com/1/ngocquang/source-of-truth",
     "source": "github",
     "language": "hindi",
     "id": "da6dee30248b",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "एलिया अल्बर्टी/डीकोड-एजेंट-किट",
     "url": "https://github.com/EliaAlberti/dcode-agent-kit",
     "summary": "एक क्लाउड कोड (Claude Code) कौशल जो रेडी-टू-रन लैंगचेन डीप एजेंटों और किसी भी प्रोजेक्ट में सीएलआई (CLI) एजेंटों को डीकोड करता है।",
+    "image": "https://opengraph.githubassets.com/1/EliaAlberti/dcode-agent-kit",
     "source": "github",
     "language": "hindi",
     "id": "61f55c1be407",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "jimbon25/मिनी-Cpanel",
     "url": "https://github.com/jimbon25/mini-Cpanel",
     "summary": "व्यक्तिगत वेब अनुप्रयोगों और पृष्ठभूमि सेवाओं को तैनात करने, प्रबंधित करने और निगरानी करने के लिए डिज़ाइन किया गया एक न्यूनतम, स्व-होस्टेड सर्वर ऑर्केस्ट्रेशन डैशबोर्ड।",
+    "image": "https://opengraph.githubassets.com/1/jimbon25/mini-Cpanel",
     "source": "github",
     "language": "hindi",
     "id": "520840a79171",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "कोडग्राफथ्योरी/हर्मीस-प्रोफ़ाइल-टेम्पलेट",
     "url": "https://github.com/codegraphtheory/hermes-profile-template",
     "summary": "एक-वाक्य पीढ़ी, डेमो संपत्ति, आरेख और इंस्टॉल करने योग्य हर्मीस एजेंट (Hermes Agent) प्रोफ़ाइल वितरण के साथ प्रॉम्प्ट-टू-रेपो संलेखन प्रणाली।",
+    "image": "https://opengraph.githubassets.com/1/codegraphtheory/hermes-profile-template",
     "source": "github",
     "language": "hindi",
     "id": "a0fcc06d1a7a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "क्रूप्लेनई/क्रूप्लेन",
     "url": "https://github.com/crewplaneai/crewplane",
     "summary": "पुन: प्रारंभ करने योग्य कोडिंग-एजेंट वर्कफ़्लो के लिए एक नियंत्रण विमान।",
+    "image": "https://opengraph.githubassets.com/1/crewplaneai/crewplane",
     "source": "github",
     "language": "hindi",
     "id": "18ddf2796317",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "नोवासप्लेस/ओपनकोड-क्रॉस-सेशन-मेमोरी",
     "url": "https://github.com/NovasPlace/opencode-Cross-Session-Memory",
     "summary": "ओपनकोड (OpenCode) के लिए क्रॉस-सेशन मेमोरी प्लगइन। पीजीवेक्टर के साथ PostgreSQL का उपयोग करके ओपनकोड सत्रों में यादें, चौकियां और संदर्भ कायम रहता है। कोडिंग सत्रों के बीच सच्ची निरंतरता सक्षम करता है।",
+    "image": "https://opengraph.githubassets.com/1/NovasPlace/opencode-Cross-Session-Memory",
     "source": "github",
     "language": "hindi",
     "id": "59906e31c573",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "47वांटेककॉर्नर/रेकोड्स_ऑर्निथ_1.0",
     "url": "https://github.com/47thtechcorner/RayCodes_Ornith_1.0",
     "summary": "🦤 ऑर्निथ (Ornith) 1.0: स्ट्रीमलिट, ओलामा (Ollama) और पायथन के साथ निर्मित एक अल्ट्रा-लाइटवेट, स्थानीय एजेंटिक कोड जनरेटर और सेल्फ-रिपेयर लूप।",
+    "image": "https://opengraph.githubassets.com/1/47thtechcorner/RayCodes_Ornith_1.0",
     "source": "github",
     "language": "hindi",
     "id": "d3e4e545f183",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "गेडवोलमेन/विधर्मी",
     "url": "https://github.com/gedwolmen/heretic",
     "summary": "गो में लिखा गया एक शक्तिशाली टर्मिनल-प्रथम एआई कोडिंग सहायक।",
+    "image": "https://opengraph.githubassets.com/1/gedwolmen/heretic",
     "source": "github",
     "language": "hindi",
     "id": "db86fc1b2a89",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "adtn0810/ट्रूस्टैक",
     "url": "https://github.com/adtn0810/truestack",
     "summary": "क्लाउड कोड (Claude Code) के लिए ईमानदारी-पहला कोडिंग कौशल सेट - एक लागू गवर्नेंस गेट, एक कोड↔मेमोरी टैली और ऑटो-रिसर्च के साथ एक ऑर्केस्ट्रेट राउटर के पीछे 21 कौशल। स्व-होस्टेड कार्य के लिए निर्मित।",
+    "image": "https://opengraph.githubassets.com/1/adtn0810/truestack",
     "source": "github",
     "language": "hindi",
     "id": "6383e1b0a6ce",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "हारून966/ओर्का",
     "url": "https://github.com/Haroon966/Orca",
     "summary": "क्लाउड कोड (Claude Code) के लिए ओर्का एक हल्का लेकिन शक्तिशाली इंटरफ़ेस है। इसे अपने ब्राउज़र में चलाएं या अपनी मशीन पर स्वयं-होस्ट करें - प्रोजेक्ट प्रबंधित करें, सत्र चलाएं, फ़ाइलें संपादित करें, टर्मिनल का उपयोग करें, एमसीपी (MCP) सर्वर कनेक्ट करें, और इसे प्लगइन्स के साथ विस्तारित करें। उन डेवलपर्स के लिए बनाया गया है जो केवल सीएलआई (CLI) नहीं, बल्कि वास्तविक कार्यक्षेत्र के साथ क्लाउड कोड चाहते हैं।",
+    "image": "https://opengraph.githubassets.com/1/Haroon966/Orca",
     "source": "github",
     "language": "hindi",
     "id": "d39bed552c87",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "सिमोनबी79/मेमोरी-इंजन-एमसीपी",
     "url": "https://github.com/SimoneB79/memory-engine-mcp",
     "summary": "एआई सहायकों के लिए सजीव स्मृति प्रणाली - क्षय, सीखने और ज्ञान ग्राफ के साथ SQLite + MCP",
+    "image": "https://opengraph.githubassets.com/1/SimoneB79/memory-engine-mcp",
     "source": "github",
     "language": "hindi",
     "id": "29b85f0da50c",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
+  },
+  {
+    "title": "थेवसेप्रोड/एआई-स्टेटस-लाइट",
+    "url": "https://github.com/thevseprod/ai-status-light",
+    "summary": "🚦 आपके एआई कोडिंग एजेंट के लिए टेलीग्राम (Telegram) ट्रैफिक-लाइट स्थिति - काम कर रहा है, प्रतीक्षा कर रहा है, या हो गया। क्लाउड कोड (Claude Code) के लिए तैयार एकीकरण, आसानी से किसी भी एजेंट (कोडेक्स, कर्सर, (Cursor) एडर...) के लिए अनुकूलित।",
+    "image": "https://opengraph.githubassets.com/1/thevseprod/ai-status-light",
+    "source": "github",
+    "language": "hindi",
+    "id": "58d36fa0d326",
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "जैमिन-प्रजापति-डीएस/गिटलैब-डुओ-फ्री-ट्रायल-गाइड",
     "url": "https://github.com/Jaimin-prajapati-ds/gitlab-duo-free-trial-guide",
     "summary": "?? GitLab Duo CLI के माध्यम से 30 दिनों के लिए क्लाउड ओपस 4.8 मुफ़्त प्राप्त करें | आर्किटेक्चर आरेख, मॉडल तुलना और समस्या निवारण के साथ पूर्ण सेटअप गाइड",
+    "image": "https://opengraph.githubassets.com/1/Jaimin-prajapati-ds/gitlab-duo-free-trial-guide",
     "source": "github",
     "language": "hindi",
     "id": "76ac21e2fd8d",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
-  },
-  {
-    "title": "shdra06/ai-माइंड-मैप",
-    "url": "https://github.com/shdra06/ai-mind-map",
-    "summary": "🧠 एमसीपी सर्वर (MCP Server) जो एआई कोडिंग एजेंट टोकन के उपयोग को 80-99% तक कम कर देता है। क्लाउड, (Claude) कर्सर, (Cursor) कोपायलट और किसी भी एमसीपी-संगत (MCP-compatible) एजेंट के लिए ज्ञान ग्राफ + लगातार मेमोरी + स्मार्ट संपीड़न।",
-    "source": "github",
-    "language": "hindi",
-    "id": "f9c8c4cdcc9c",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "रेजाहसपुत्र/वाइजफेस",
     "url": "https://github.com/rezahsaputra/WiseFace",
     "summary": "फेस++ कंपेयर एपीआई के लिए स्व-होस्टेड ड्रॉप-इन प्रतिस्थापन - डीपफेस/फेसनेट512 द्वारा संचालित",
+    "image": "https://opengraph.githubassets.com/1/rezahsaputra/WiseFace",
     "source": "github",
     "language": "hindi",
     "id": "c179eed95248",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "शेनझेंग2000/WarpI2I",
     "url": "https://github.com/ShenZheng2000/WarpI2I",
     "summary": "[ईसीसीवी 2026] WarpI2I: इमेज-टू-इमेज ट्रांसलेशन के लिए इमेज वॉरपिंग।",
+    "image": "https://opengraph.githubassets.com/1/ShenZheng2000/WarpI2I",
     "source": "github",
     "language": "hindi",
     "id": "3f62129cba1a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "962753401-क्लाउड/क्ववेन3-वीएल-एनोटेशन",
     "url": "https://github.com/962753401-cloud/qwen3-vl-annotation",
     "summary": "基于 Qwen3-VL-Flash 视觉语言模型的 Web 端自动化图像标注平台, 支持 2D 物体检测, 3D 9-डीओएफ के बारे में अधिक जानें, सीओसीओ / पास्कल वीओसी (Pascal VOC) के बारे में जानें।",
+    "image": "https://opengraph.githubassets.com/1/962753401-cloud/qwen3-vl-annotation",
     "source": "github",
     "language": "hindi",
     "id": "cd278001407f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "लॉस्टपिजनराथ/फोर्टनाइट-एआईएम-न्यूएराएआई-असिस्ट",
     "url": "https://github.com/LostPigeonWrath/Fortnite-Aim-NewEraAI-Assist",
     "summary": "Fortnite वातावरण के लिए उन्नत कंप्यूटर विज़न (Advanced Computer Vision) और इनपुट ऑप्टिमाइज़ेशन फ्रेमवर्क",
+    "image": "https://opengraph.githubassets.com/1/LostPigeonWrath/Fortnite-Aim-NewEraAI-Assist",
     "source": "github",
     "language": "hindi",
     "id": "b7b20895ade0",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "नादिरअलीआधिकारिक/गणित-दृष्टि",
     "url": "https://github.com/NadirAliOfficial/math-vision",
     "summary": "अपनी उंगली से हवा में गणित के भाव बनाएं। लिखें = और उत्तर तुरंत प्रकट हो जाता है। ग्रोक एआई + मीडियापाइप (MediaPipe) द्वारा संचालित।",
+    "image": "https://opengraph.githubassets.com/1/NadirAliOfficial/math-vision",
     "source": "github",
     "language": "hindi",
     "id": "54ce8e3ffd76",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "0मारिल्डो/इमागो",
     "url": "https://github.com/0marildo/imago",
     "summary": "स्थानीय छवि इंटेलिजेंस इंजन - सिमेंटिक सर्च, डुप्लिकेट डिटेक्शन, मेटाडेटा, सुरक्षित ट्रैश, सब कुछ आपकी मशीन पर।",
+    "image": "https://opengraph.githubassets.com/1/0marildo/imago",
     "source": "github",
     "language": "hindi",
     "id": "a133c7942ba6",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "मैन्ज़िकेविन/पायथन-कंप्यूटर-विज़न-प्रोजेक्ट्स",
     "url": "https://github.com/Manzikevin/python-computer-vision-projects",
     "summary": "कंप्यूटर विज़न (सीवी) (CV) परियोजनाओं का एक संग्रह मानव-कंप्यूटर इंटरैक्शन (एचसीआई), (HCI) वास्तविक समय वस्तु का पता लगाना, और पाइथॉन, ओपनसीवी, (OpenCV) मीडियापाइप (MediaPipe) और योलो (YOLO) का उपयोग करके एआई-संचालित स्वचालन की खोज करता है।",
+    "image": "https://opengraph.githubassets.com/1/Manzikevin/python-computer-vision-projects",
     "source": "github",
     "language": "hindi",
     "id": "69253455ef7f",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "रस्टेडबाइट्स/असीमित-ओसीआर-सर्वर",
     "url": "https://github.com/RustedBytes/unlimited-ocr-server",
     "summary": "अनलिमिटेड-ओसीआर मॉडल के लिए एक अनुमान सर्वर",
+    "image": "https://opengraph.githubassets.com/1/RustedBytes/unlimited-ocr-server",
     "source": "github",
     "language": "hindi",
     "id": "1cd42edb724d",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "डिडुला-गेमेज99x/एयर-ड्राइंग-डैशबोर्ड",
     "url": "https://github.com/Didula-Gamage99x/Air-Drawing-Dashboard",
     "summary": "एक आधुनिक वेब-आधारित एयर ड्राइंग डैशबोर्ड जो उपयोगकर्ताओं को एक इंटरैक्टिव और उत्तरदायी इंटरफ़ेस के साथ हाथ के इशारों का उपयोग करके चित्र बनाने की अनुमति देता है।",
+    "image": "https://opengraph.githubassets.com/1/Didula-Gamage99x/Air-Drawing-Dashboard",
     "source": "github",
     "language": "hindi",
     "id": "9da49e6948ae",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "botAGI/AGmind-ML",
     "url": "https://github.com/botAGI/AGmind-ML",
     "summary": "सुव्यवस्थित स्थानीय आरएजी मॉडल। पहला: एग्माइंड-रैग-स्प्लिटर-आरयू - एक रूसी (Russian) संदर्भ-जागरूक दस्तावेज़ स्प्लिटर (टी-लाइट-इट-2.1 लोआरए, डिस्टिलेशन, जीजीयूएफ, (GGUF) एएमडी वल्कन)। (AMD Vulkan) 100% वैध JSON / सीमा-F1@±1 0.821।",
+    "image": "https://opengraph.githubassets.com/1/botAGI/AGmind-ML",
     "source": "github",
     "language": "hindi",
     "id": "63aa57d2d36a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "Jayden-X-L/cn-news-tts-बेंच",
     "url": "https://github.com/Jayden-X-L/cn-news-tts-bench",
     "summary": "कच्चे-इनपुट चीनी (Chinese) समाचार टीटीएस उच्चारण सटीकता के लिए लक्ष्य-स्तरीय स्वचालित बेंचमार्क",
+    "image": "https://opengraph.githubassets.com/1/Jayden-X-L/cn-news-tts-bench",
     "source": "github",
     "language": "hindi",
     "id": "b674afb3ea62",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "मैथियासनॉर्डविग/पीडीएफ-स्ट्रक्चर-चंकर",
     "url": "https://github.com/matthiasnordwig/pdf-struct-chunker",
     "summary": "आरएजी पाइपलाइनों के लिए एलएलएम-मुक्त, लेआउट-जागरूक पीडीएफ (PDF) चंकिंग। रेगेक्स और फ़ॉन्ट अनुमान के माध्यम से दस्तावेज़ संरचना को संरक्षित करता है। शुद्ध रस्ट में लिखा गया.",
+    "image": "https://opengraph.githubassets.com/1/matthiasnordwig/pdf-struct-chunker",
     "source": "github",
     "language": "hindi",
     "id": "66601d00b94a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "अज़ीज़ामारी/यूआइएक्ट",
     "url": "https://github.com/azizamari/euaiact",
     "summary": "ईयू एआई अधिनियम (EU AI Act) (विनियमन (Regulation) (ईयू) 2024/1689) को पार्स और नेविगेट करने के लिए शून्य-निर्भरता पायथन एसडीके। (Zero-dependency Python SDK)",
+    "image": "https://opengraph.githubassets.com/1/azizamari/euaiact",
     "source": "github",
     "language": "hindi",
     "id": "a79d2e64c6c3",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "एमिलरिसर्च/आरएजीलेस",
     "url": "https://github.com/EmilResearch/RAGless",
     "summary": "RAGless एक सिमेंटिक पुनर्प्राप्ति प्रणाली है जो रनटाइम पर LLM का उपयोग किए बिना, आपके दस्तावेज़ के बारे में प्रश्नों का उत्तर देती है।",
+    "image": "https://opengraph.githubassets.com/1/EmilResearch/RAGless",
     "source": "github",
     "language": "hindi",
     "id": "ea2ed1ed6b6b",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "mehaksharma2949/भारत_रन_डेटा_और_एआई_चैलेंज",
     "url": "https://github.com/mehaksharma2949/India_runs_data_and_ai_challenge",
     "summary": "सेंटेंस ट्रांसफॉर्मर, सिमेंटिक सर्च और व्यवहारिक स्कोरिंग का उपयोग करके एआई-संचालित उम्मीदवार रैंकिंग प्रणाली।",
+    "image": "https://opengraph.githubassets.com/1/mehaksharma2949/India_runs_data_and_ai_challenge",
     "source": "github",
     "language": "hindi",
     "id": "185fbf9de21a",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "गैब्रिएल06-लोकल/लोकलमाइंड",
     "url": "https://github.com/Gabriele06-local/LocalMind",
     "summary": "रस्ट में स्थानीय सिमेंटिक सर्च इंजन: BERT एम्बेडिंग, बाइनरी इंडेक्स, SIMD सर्च, पोलिंग मॉनिटर, TUI",
+    "image": "https://opengraph.githubassets.com/1/Gabriele06-local/LocalMind",
     "source": "github",
     "language": "hindi",
     "id": "18c7569922a3",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "Nek1yZakhar/MIB-OSINT-एग्रीगेटर",
     "url": "https://github.com/Nek1yZakhar/MIB-OSINT-Aggregator",
     "summary": "Автоматизированная OSINT-система мониторинга Международной Информационной Безопасности (МИБ). Сбор из 219 источников, гибридный AI-пайплайн (E5 एम्बेडिंग + LLM) और публикация टेलीग्राम (Telegram) पर डाउनलोड करें।",
+    "image": "https://opengraph.githubassets.com/1/Nek1yZakhar/MIB-OSINT-Aggregator",
     "source": "github",
     "language": "hindi",
     "id": "69482e38d3f6",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   },
   {
     "title": "जानवीचौहान1639-स्रोत/फर्जी-समाचार-पहचान-उपयोग-एनएलपी",
     "url": "https://github.com/janvichauhan1639-source/fake-news-detection-using-nlp",
     "summary": "एनएलपी, (NLP) टीएफ-आईडीएफ, रैंडम फॉरेस्ट और स्ट्रीमलाइट (Streamlit) का उपयोग करके मशीन लर्निंग आधारित फर्जी समाचार का पता लगाना। (Fake News Detection)",
+    "image": "https://opengraph.githubassets.com/1/janvichauhan1639-source/fake-news-detection-using-nlp",
     "source": "github",
     "language": "hindi",
     "id": "7d5ac64eb95d",
-    "first_seen": "2026-06-29T21:11:21.423173+00:00"
+    "first_seen": "2026-06-29T21:53:32.420209+00:00"
   }
 ]

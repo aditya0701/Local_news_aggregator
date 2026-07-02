@@ -181,6 +181,13 @@
       overflow: hidden;
     }
 
+    .article-visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
     .article-visual::before {
       content: "";
       position: absolute;
@@ -488,7 +495,7 @@
             <div class="article-meta" id="articleMeta"></div>
             <h1 id="articleTitle"></h1>
             <p class="lede" id="articleLede"></p>
-            <div class="article-visual" aria-hidden="true"></div>
+            <div class="article-visual" id="articleVisual" aria-hidden="true"></div>
             <div class="content-card">
               <p class="section-title">संपादकीय परिचय</p>
               <p class="article-body" id="articleBody"></p>
@@ -529,6 +536,7 @@
     const articleShell = document.getElementById('articleShell');
     const emptyState = document.getElementById('emptyState');
     const articleMeta = document.getElementById('articleMeta');
+    const articleVisual = document.getElementById('articleVisual');
     const articleTitle = document.getElementById('articleTitle');
     const articleLede = document.getElementById('articleLede');
     const articleBody = document.getElementById('articleBody');
@@ -616,6 +624,9 @@
           <span>${escapeHtml(hostOf(item))}</span>
         `;
         articleTitle.textContent = item.title || 'शीर्षक उपलब्ध नहीं है';
+        articleVisual.innerHTML = item.image
+          ? `<img src="${escapeHtml(item.image)}" alt="" loading="lazy" onerror="this.remove()">`
+          : '';
 
         const sources = Array.isArray(item.sources) && item.sources.length ? item.sources : [item.url].filter(Boolean);
         articleLede.textContent = sources.length > 1

@@ -39,6 +39,7 @@ def fetch_trending(query: str, per_page: int = 10) -> list[dict]:
             "title": item["full_name"],
             "url": item["html_url"],
             "summary": item.get("description") or "",
+            "image": f"https://opengraph.githubassets.com/1/{item['full_name']}",
             "source": "github",
         }
         for item in items
