@@ -485,6 +485,8 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         "deep_dive_and_context": article_fields["deep_dive_and_context"],
         "strategic_analysis": article_fields["strategic_analysis"],
         "conclusion_and_significance": article_fields["conclusion_and_significance"],
+        "category": strategy.get("category", "general"),
+        "tags": [e.get("name", "") for e in entities if e.get("name")][:5],
         "sources": [item["url"] for item in cluster if item.get("url")],
     }
 

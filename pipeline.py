@@ -10,6 +10,7 @@ from collectors.github_collector import fetch_trending
 from collectors.rss_collector import fetch_feed
 from translator.translate import translate_item
 from writer.cluster import group_by_topic
+from writer.entity_cache import load_cache
 from writer.synthesize import get_run_traces, synthesize_article
 
 load_dotenv()
@@ -80,6 +81,11 @@ def run(language: str = "hindi") -> None:
         trace_path = OUTPUT_DIR / "pipeline_trace.json"
         trace_path.write_text(json.dumps(traces, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"Pipeline trace saved to {trace_path} ({len(traces)} articles traced)")
+
+    cache = load_cache()
+    added = sum(1 for t in traces if t.get("cache_updates"))
+    new_entities = sum(len(t.get("cache_updates", [])) for t in traces)
+    print(f"[cache] {len(cache)} total entities | {new_entities} new entities added this run")
 
 
 if __name__ == "__main__":

@@ -662,6 +662,54 @@
       -webkit-line-clamp: 6;
     }
 
+    .filter-bar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 0 0 22px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .filter-btn {
+      padding: 7px 14px;
+      border: 1.5px solid var(--line);
+      background: transparent;
+      color: var(--charcoal);
+      font-family: "Yatra One", serif;
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+
+    .filter-btn:hover { border-color: var(--red); color: var(--red); }
+
+    .filter-btn.active {
+      border-color: var(--red);
+      background: var(--red);
+      color: var(--cotton);
+    }
+
+    .card-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 2px;
+    }
+
+    .tag-chip {
+      padding: 3px 8px;
+      border: 1px solid var(--line);
+      background: rgba(26, 54, 68, 0.05);
+      color: var(--indigo);
+      font-family: "Mukta", sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border-radius: 2px;
+      letter-spacing: 0.04em;
+    }
+
     .empty {
       grid-column: 1 / -1;
       padding: 24px;
@@ -825,6 +873,15 @@
       <button class="refresh" id="refreshButton" type="button">फिर से लोड करें</button>
     </div>
 
+    <div class="filter-bar" id="filterBar" hidden>
+      <button class="filter-btn active" data-filter="all">सभी</button>
+      <button class="filter-btn" data-filter="general">सामान्य</button>
+      <button class="filter-btn" data-filter="model_release">मॉडल रिलीज</button>
+      <button class="filter-btn" data-filter="acquisition">अधिग्रहण</button>
+      <button class="filter-btn" data-filter="ban_regulation">नियमन</button>
+      <button class="filter-btn" data-filter="repo_analysis">रेपो</button>
+    </div>
+
     <section class="layout" id="grid"></section>
   </main>
 
@@ -845,6 +902,15 @@
     const statusValue = document.getElementById('statusValue');
     const countValue = document.getElementById('countValue');
     const refreshButton = document.getElementById('refreshButton');
+    const filterBar = document.getElementById('filterBar');
+
+    const CATEGORY_LABELS = {
+      general: 'सामान्य', model_release: 'मॉडल रिलीज',
+      acquisition: 'अधिग्रहण', ban_regulation: 'नियमन', repo_analysis: 'रेपो',
+    };
+
+    let activeFilter = 'all';
+    let allArticles = [];
 
     function escapeHtml(value) {
       return String(value)
@@ -887,42 +953,86 @@
       return `<span class="cluster-tag">मूल लेख · ${sources.length} स्रोत</span>`;
     }
 
+    function tagsHtml(item) {
+      const tags = Array.isArray(item.tags) ? item.tags.slice(0, 3) : [];
+      if (!tags.length) return '';
+      return `<div class="card-tags">${tags.map(t => `<span class="tag-chip">${escapeHtml(t)}</span>`).join('')}</div>`;
+    }
+
+    function categoryPill(item) {
+      const cat = item.category;
+      if (!cat || cat === 'general') return '';
+      const label = CATEGORY_LABELS[cat] || cat;
+      return `<span class="pill">${escapeHtml(label)}</span>`;
+    }
+
     function cardHtml(item) {
       return `
         <a class="card" href="article.html?id=${encodeURIComponent(item.id)}" aria-label="लेख खोलें: ${escapeHtml(item.title || 'शीर्षक उपलब्ध नहीं है')}">
           <div class="card-art" aria-hidden="true">${artHtml(item)}${clusterTagHtml(item)}</div>
           <div class="meta">
             <span>${escapeHtml(sourceLabel(item.source))}</span>
-            <span>${escapeHtml(item.language === 'hindi' ? 'हिंदी' : 'अन्य')}</span>
+            ${categoryPill(item)}
           </div>
           <h3>${escapeHtml(item.title || 'शीर्षक उपलब्ध नहीं है')}</h3>
           <p class="summary">${escapeHtml(stripHtml(item.summary) || 'सारांश उपलब्ध नहीं है.')}</p>
+          ${tagsHtml(item)}
           <span class="source-link">लेख पढ़ें</span>
         </a>
       `;
     }
 
+    function filteredItems() {
+      if (activeFilter === 'all') return allArticles;
+      return allArticles.filter(item => (item.category || 'general') === activeFilter);
+    }
+
     function renderNextPage() {
-      const nextBatch = allItems.slice(shownCount, shownCount + PAGE_SIZE);
+      const items = filteredItems();
+      const nextBatch = items.slice(shownCount, shownCount + PAGE_SIZE);
       const cardGrid = grid.querySelector('.card-grid');
       cardGrid.insertAdjacentHTML('beforeend', nextBatch.map(cardHtml).join(''));
       shownCount += nextBatch.length;
-
-      const loadMoreButton = grid.querySelector('#loadMoreButton');
-      if (shownCount >= allItems.length) {
-        loadMoreButton?.remove();
-      }
+      if (shownCount >= items.length) grid.querySelector('#loadMoreButton')?.remove();
     }
 
     function renderArticles(items) {
-      countValue.textContent = String(items.length);
       if (!items.length) {
+        filterBar.hidden = true;
+        countValue.textContent = '0';
         renderEmpty('संकलन फ़ाइल मौजूद है, लेकिन अभी कोई लेख नहीं है. एपीआई कुंजियाँ या स्रोत सूची सेट करने के बाद कार्यक्रम चलाएँ.');
         return;
       }
 
-      allItems = items;
+      allArticles = items;
+      filterBar.hidden = false;
+
+      // Show only filter buttons for categories that actually exist in the data
+      const existingCats = new Set(items.map(i => i.category || 'general'));
+      filterBar.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+        const f = btn.dataset.filter;
+        btn.hidden = f !== 'all' && !existingCats.has(f);
+      });
+
+      applyFilter(activeFilter);
+    }
+
+    function applyFilter(filter) {
+      activeFilter = filter;
+      filterBar.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+      });
+
+      const items = filteredItems();
+      countValue.textContent = String(items.length);
+
+      if (!items.length) {
+        renderEmpty('इस श्रेणी में कोई लेख नहीं है.');
+        return;
+      }
+
       const featured = items[0];
+      allItems = items;
       shownCount = 1;
       const firstBatch = items.slice(1, 1 + PAGE_SIZE);
       shownCount += firstBatch.length;
@@ -933,10 +1043,11 @@
           <div class="featured-copy">
             <div class="label-row">
               <span class="pill">${escapeHtml(sourceLabel(featured.source))}</span>
-              <span>${escapeHtml(featured.language === 'hindi' ? 'हिंदी' : 'अन्य')}</span>
+              ${categoryPill(featured)}
             </div>
             <h2>${escapeHtml(featured.title || 'शीर्षक उपलब्ध नहीं है')}</h2>
             <p class="summary">${escapeHtml(stripHtml(featured.summary) || 'सारांश उपलब्ध नहीं है.')}</p>
+            ${tagsHtml(featured)}
             <span class="source-link">लेख पढ़ें</span>
           </div>
         </a>
@@ -950,19 +1061,23 @@
       grid.querySelector('#loadMoreButton')?.addEventListener('click', renderNextPage);
     }
 
+    filterBar.addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (btn) applyFilter(btn.dataset.filter);
+    });
+
     async function loadPreview() {
       statusValue.textContent = 'लोड हो रहा है…';
+      activeFilter = 'all';
       try {
         const response = await fetch('../output/articles_hindi.json', { cache: 'no-store' });
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const items = await response.json();
         statusValue.textContent = 'सजीव';
         renderArticles(Array.isArray(items) ? items : []);
       } catch (error) {
         statusValue.textContent = 'अभी नहीं';
+        filterBar.hidden = true;
         renderEmpty('`output/articles_hindi.json` फ़ाइल नहीं मिली. पहले कार्यक्रम चलाकर संकलन बनाएँ.');
       }
     }
