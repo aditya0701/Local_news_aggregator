@@ -515,21 +515,10 @@
             <div class="content-card">
               <p class="section-title" id="bodyLabel">संपादकीय परिचय</p>
               <div class="article-body" id="articleBody"></div>
-              <div class="actions" id="articleActions"></div>
             </div>
           </div>
 
           <div class="story-grid">
-            <section class="story-panel" id="analysisPanel" hidden>
-              <h2>रणनीतिक विश्लेषण</h2>
-              <p id="analysisBody"></p>
-            </section>
-
-            <section class="story-panel" id="conclusionPanel" hidden>
-              <h2>निष्कर्ष एवं महत्व</h2>
-              <p id="conclusionBody"></p>
-            </section>
-
             <section class="story-panel" id="articleQuotePanel" hidden>
               <h2>संपादकीय अंश</h2>
               <div class="quote-box" id="articleQuote"></div>
@@ -538,6 +527,7 @@
             <section class="story-panel">
               <h2>स्रोत विवरण</h2>
               <div class="story-notes" id="articleNotes"></div>
+              <div class="actions" id="articleActions" style="margin-top:8px"></div>
             </section>
           </div>
         </article>
@@ -569,10 +559,6 @@
     const bodyLabel = document.getElementById('bodyLabel');
     const articleBody = document.getElementById('articleBody');
     const articleActions = document.getElementById('articleActions');
-    const analysisPanel = document.getElementById('analysisPanel');
-    const analysisBody = document.getElementById('analysisBody');
-    const conclusionPanel = document.getElementById('conclusionPanel');
-    const conclusionBody = document.getElementById('conclusionBody');
     const articleQuotePanel = document.getElementById('articleQuotePanel');
     const articleQuote = document.getElementById('articleQuote');
     const articleNotes = document.getElementById('articleNotes');
@@ -666,7 +652,7 @@
           : '';
 
         if (isSarvamArticle(item)) {
-          // --- Sarvam-generated article: show all rich sections ---
+          // --- Sarvam-generated article: one flowing article body ---
           if (item.concept_box) {
             conceptBox.innerHTML = `<span class="concept-box-label">मुख्य अवधारणा</span><p class="concept-box-text">${escapeHtml(item.concept_box)}</p>`;
             conceptBox.hidden = false;
@@ -674,18 +660,20 @@
 
           articleLede.textContent = item.introduction_lede;
 
-          bodyLabel.textContent = 'गहन विश्लेषण एवं संदर्भ';
-          articleBody.innerHTML = `<p>${escapeHtml(item.deep_dive_and_context)}</p>`;
+          bodyLabel.textContent = 'लेख';
 
+          // Build one flowing body: deep dive + strategic analysis + conclusion
+          let bodyHtml = '';
+          if (item.deep_dive_and_context) {
+            bodyHtml += `<p>${escapeHtml(item.deep_dive_and_context)}</p>`;
+          }
           if (item.strategic_analysis) {
-            analysisBody.textContent = item.strategic_analysis;
-            analysisPanel.hidden = false;
+            bodyHtml += `<p class="subhead">रणनीतिक दृष्टिकोण</p><p>${escapeHtml(item.strategic_analysis)}</p>`;
           }
-
           if (item.conclusion_and_significance) {
-            conclusionBody.textContent = item.conclusion_and_significance;
-            conclusionPanel.hidden = false;
+            bodyHtml += `<p class="subhead">निष्कर्ष</p><p>${escapeHtml(item.conclusion_and_significance)}</p>`;
           }
+          articleBody.innerHTML = bodyHtml;
 
           const ledeSentence = item.introduction_lede.split(/(?<=[।.!?])\s+/)[0];
           if (ledeSentence) {

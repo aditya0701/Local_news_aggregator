@@ -10,7 +10,7 @@ from collectors.github_collector import fetch_trending
 from collectors.rss_collector import fetch_feed
 from translator.translate import translate_item
 from writer.cluster import group_by_topic
-from writer.synthesize import synthesize_article
+from writer.synthesize import get_run_traces, synthesize_article
 
 load_dotenv()
 
@@ -74,6 +74,12 @@ def run(language: str = "hindi") -> None:
     combined = translated + store
     out_path.write_text(json.dumps(combined, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(translated)} new items ({len(combined)} total) to {out_path}")
+
+    traces = get_run_traces()
+    if traces:
+        trace_path = OUTPUT_DIR / "pipeline_trace.json"
+        trace_path.write_text(json.dumps(traces, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Pipeline trace saved to {trace_path} ({len(traces)} articles traced)")
 
 
 if __name__ == "__main__":

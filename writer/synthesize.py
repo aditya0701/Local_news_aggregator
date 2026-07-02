@@ -41,14 +41,21 @@ _CATEGORY_FRAMING = {
 # ---------------------------------------------------------------------------
 
 _STAGE1_PROMPT = """Research assistant for TechDrishti (Hindi tech publication).
-Extract entities and search queries from the article below.
+Evaluate relevance and extract entities + search queries from the article below.
 
 Title: {title}
 Summary: {summary}
 Source: {source_text}
 
 Output ONLY this JSON (no explanation):
-{{"search_queries":["<comparison or context query>","<why-now query>"],"entities":[{{"name":"<EntityName>","type":"<type>"}}]}}
+{{"skip":false,"search_queries":["<comparison or context query>","<why-now query>"],"entities":[{{"name":"<EntityName>","type":"<type>"}}]}}
+
+Set "skip":true (omit other fields) when the article is NOT tech news — e.g.:
+- A job/career posting (even if about the tech sector)
+- A product marketplace, directory, or "Show HN" website showcase with no news event
+- A personal blog, tutorial, or documentation page — not a news article
+- Content with no identifiable tech news event (announcement, launch, acquisition, regulation, research)
+Do NOT skip: articles ABOUT job market trends, hiring booms/crises, or industry-level employment analysis.
 
 Types: company | startup | ai_model | product | person | researcher | technology | protocol | regulation | event | organization | material
 For ambiguous names add: "ambiguous":true, "resolved_sense":"which meaning applies here and why"
@@ -294,8 +301,14 @@ def _stage3_write_article(
 
 
 # ---------------------------------------------------------------------------
-# Sarvam orchestrator
+# Sarvam orchestrator  +  per-run trace
 # ---------------------------------------------------------------------------
+
+_run_traces: list[dict] = []
+
+
+def get_run_traces() -> list[dict]:
+    return _run_traces
 
 
 def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
@@ -304,83 +317,163 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     summary = primary.get("summary", "")
     source_url = primary.get("url", "")
 
-    # Stage 0: scrape source article
-    source_text = scrape_source(source_url)
-    print(f"[synthesize] stage0 scraped {len(source_text)} chars from {source_url[:60]}")
+    SEP = "=" * 64
+    print(f"\n{SEP}")
+    print(f"[ARTICLE] {title[:70]}")
+    print(f"          {source_url[:70]}")
+    print(SEP)
 
-    # Stage 1: extract search queries + entities (30B, fast + cheap)
+    trace: dict = {"url": source_url, "title": title, "outcome": "pending"}
+
+    # ------------------------------------------------------------------
+    # Stage 0: scrape source article
+    # ------------------------------------------------------------------
+    source_text = scrape_source(source_url)
+    trace["stage0"] = {
+        "scraped_chars": len(source_text),
+        "source_preview": source_text[:400],
+    }
+    print(f"\n[STAGE 0 - scrape]")
+    print(f"  result : {len(source_text)} chars scraped")
+
+    if len(source_text) + len(summary) < 250:
+        msg = f"too little source material ({len(source_text)} scrape + {len(summary)} summary chars)"
+        print(f"  SKIP   : {msg}")
+        trace["outcome"] = "skipped_no_content"
+        _run_traces.append(trace)
+        return None
+
+    # ------------------------------------------------------------------
+    # Stage 1: entity extraction + relevance check (sarvam-30b)
+    # ------------------------------------------------------------------
+    print(f"\n[STAGE 1 - {_MODEL_FAST} entity extraction + relevance]")
     stage1 = _stage1_extract_queries(title, summary, source_text, api_key) or {}
+    trace["stage1"] = stage1
+
+    if stage1.get("skip"):
+        print(f"  SKIP   : model flagged as not tech news")
+        trace["outcome"] = "skipped_not_tech_news"
+        _run_traces.append(trace)
+        return None
+
     search_queries = stage1.get("search_queries", [])
     entities = stage1.get("entities", [])
-    print(f"[synthesize] stage1 -> {len(search_queries)} queries, {len(entities)} entities")
+    entity_labels = ", ".join(f"{e.get('name')} ({e.get('type')})" for e in entities) or "none"
+    print(f"  entities : {entity_labels}")
+    print(f"  queries  : {search_queries}")
 
-    # Entity cache check — collect misses for identity queries
+    # ------------------------------------------------------------------
+    # Cache check
+    # ------------------------------------------------------------------
+    print(f"\n[CACHE CHECK]")
     cache = load_cache()
     entity_context_parts: list[str] = []
     entities_needing_search: list[dict] = []
+    cache_hits: list[dict] = []
+    cache_misses: list[dict] = []
 
     for entity in entities:
         name = entity.get("name", "")
         is_ambiguous = entity.get("ambiguous", False)
         resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
-
         record = get_entity(cache, name, resolved_sense=resolved_sense)
         if record:
             sense_label = record.get("sense_label", "")
             label = f"{name} ({sense_label})" if sense_label else name
+            preview = record["summary"][:80]
             entity_context_parts.append(f"{label}: {record['summary']}")
+            cache_hits.append({"name": name, "preview": preview})
+            print(f"  HIT  : {name} -> \"{preview}...\"")
         else:
             entities_needing_search.append(entity)
+            cache_misses.append({"name": name, "type": entity.get("type")})
+            print(f"  MISS : {name} ({entity.get('type')})")
 
-    # Build entity identity queries from code (NOT from model output)
+    trace["cache"] = {"hits": cache_hits, "misses": cache_misses}
+
+    # ------------------------------------------------------------------
+    # Web search
+    # ------------------------------------------------------------------
     identity_queries = [
         f'"{e["name"]}" {e.get("type", "unknown")} overview'
         for e in entities_needing_search
     ]
-
-    # Model queries are context/comparison/"why now" only (already capped at 3 by prompt)
     model_queries = search_queries[:3]
     all_queries = identity_queries + model_queries
 
+    print(f"\n[SEARCH - {len(all_queries)} queries: {len(identity_queries)} identity + {len(model_queries)} context]")
     search_results: dict[str, str] = {}
     if all_queries:
         search_results = search_web(all_queries)
         for q, text in search_results.items():
+            tag = "[identity]" if q in identity_queries else "[context] "
+            chars = len(text)
+            print(f"  {tag} {q[:55]:<55} -> {chars} chars")
             if text:
                 entity_context_parts.append(f"[{q}]:\n{text[:600]}")
-    print(
-        f"[synthesize] search returned {len(search_results)} results "
-        f"({len(identity_queries)} identity, {len(model_queries)} context)"
-    )
 
-    # Store search results to cache keyed by identity query
+    trace["search"] = {
+        "identity_queries": identity_queries,
+        "context_queries": model_queries,
+        "results": {q: text[:400] for q, text in search_results.items()},
+    }
+
+    # ------------------------------------------------------------------
+    # Cache update
+    # ------------------------------------------------------------------
+    cache_updates: list[dict] = []
     for entity in entities_needing_search:
         name = entity.get("name", "")
         entity_type = entity.get("type", "unknown")
         is_ambiguous = entity.get("ambiguous", False)
         resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
-
         identity_q = f'"{name}" {entity_type} overview'
         text = search_results.get(identity_q, "")
         if text:
             set_entity(cache, name, entity_type, text[:300].strip(), resolved_sense=resolved_sense)
+            cache_updates.append({"name": name, "type": entity_type, "chars_stored": min(300, len(text))})
     save_cache(cache)
 
-    entity_context = "\n\n".join(entity_context_parts) or "No additional context available."
+    if cache_updates:
+        print(f"\n[CACHE UPDATE - {len(cache_updates)} new entities stored]")
+        for u in cache_updates:
+            print(f"  {u['name']} ({u['type']}) -> {u['chars_stored']} chars")
+    trace["cache_updates"] = cache_updates
 
-    # Stage 2: editorial strategy (105B, quality)
+    entity_context = "\n\n".join(entity_context_parts) or "No additional context available."
+    trace["entity_context_preview"] = entity_context[:600]
+    print(f"\n[ENTITY CONTEXT] {len(entity_context)} chars assembled for Stage 2+3")
+
+    # ------------------------------------------------------------------
+    # Stage 2: editorial strategy (sarvam-105b)
+    # ------------------------------------------------------------------
+    print(f"\n[STAGE 2 - {_MODEL_QUALITY} editorial strategy]")
     strategy = _stage2_editorial_strategy(title, summary, source_text, entity_context, api_key)
     if not strategy:
-        print("[synthesize] stage2 failed")
+        print("  FAILED")
+        trace["outcome"] = "stage2_failed"
+        _run_traces.append(trace)
         return None
-    print(f"[synthesize] stage2 -> category={strategy.get('category')}")
+    trace["stage2"] = strategy
+    print(f"  category       : {strategy.get('category')}")
+    print(f"  core_narrative : {str(strategy.get('core_narrative', ''))[:80]}...")
+    print(f"  planned_length : {strategy.get('planned_length')}")
 
-    # Stage 3: write Hindi article (105B, labeled text output)
+    # ------------------------------------------------------------------
+    # Stage 3: write Hindi article (sarvam-105b)
+    # ------------------------------------------------------------------
+    print(f"\n[STAGE 3 - {_MODEL_QUALITY} writing Hindi article]")
     article_fields = _stage3_write_article(title, source_text, entity_context, strategy, api_key)
     if not article_fields:
-        print("[synthesize] stage3 failed")
+        print("  FAILED")
+        trace["outcome"] = "stage3_failed"
+        _run_traces.append(trace)
         return None
-    print("[synthesize] stage3 done")
+    trace["stage3"] = article_fields
+
+    total_chars = sum(len(v) for v in article_fields.values() if isinstance(v, str))
+    print(f"  chars written  : {total_chars}")
+    print(f"  final title    : {article_fields.get('title', '')[:70]}")
 
     result = {
         **primary,
@@ -398,6 +491,9 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     if len(cluster) > 1:
         result["source"] = "synthesized"
 
+    trace["outcome"] = "published"
+    _run_traces.append(trace)
+    print(f"\n[DONE] article published")
     return result
 
 
