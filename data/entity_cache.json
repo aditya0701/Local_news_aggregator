@@ -724,5 +724,1484 @@
     "entity_type": "person",
     "summary": "Kokila m\nSoftware Engineer\nBengaluru, Karnataka, India\n205 connections, 210 followers\n\n\nAbout\nExperienced Software Engineer with a demonstrated history of working in the computer…\n\n\nExperience\nSoftware Developer\n[Sen-Sei Technologies](N/A)  \nApr 2014 - Oct 2017\nBengaluru Area, India\n\n\n\nEducation\nVis",
     "last_updated": "2026-07-02"
+  },
+  "virginia": {
+    "canonical_name": "Virginia",
+    "entity_type": "organization",
+    "summary": "Virginia Organizing is a non-partisan statewide grassroots organization dedicated to challenging injustice by empowering people in local communities. DKG Virginia Delta Kappa Gamma is an organization dedicated to empowering women educators through leadership, scholarship, and community support. Virg",
+    "last_updated": "2026-07-03"
+  },
+  "abigail spanberger": {
+    "canonical_name": "Abigail Spanberger",
+    "entity_type": "person",
+    "summary": "Search Historical Highlights of the House. Search the People of the House. ### The People’s House. Mace of the U.S. House of Represen- tatives. SPANBERGER, Abigail, a Representative from Virginia; born in Red Bank, Monmouth County, N.J., August 7, 1979; graduated from J.R. Tucker High School, Henric",
+    "last_updated": "2026-07-03"
+  },
+  "sb 388": {
+    "canonical_name": "S.B. 388",
+    "entity_type": "regulation",
+    "summary": "SB 388 modifies Section 39.9044 of the Texas Utilities Code to establish new state goals for electric generation capacity in the ERCOT power region. 2025 TX SB388 (Summary) Relating to the legislature's goals for electric generation capacity in this state. CRIME/PUNISHMENT: Creates the crime of unla",
+    "last_updated": "2026-07-03"
+  },
+  "virginia consumer data protection act": {
+    "canonical_name": "Virginia Consumer Data Protection Act",
+    "entity_type": "regulation",
+    "summary": "[VCDPA](/regulatory-compliance/virginia-consumer-data-protection-act-vcdpa). The [Virginia Consumer Data Protection Act](https://www.oag.state.va.us/consumer-protection/files/tips-and-info/Virginia-Consumer-Data-Protection-Act-Summary-2-2-23.pdf) (VCDPA), signed into law on March 2, 2021, and effect",
+    "last_updated": "2026-07-03"
+  },
+  "geolocation data": {
+    "canonical_name": "geolocation data",
+    "entity_type": "technology",
+    "summary": "# Geolocation—The Risk and Benefits of a Trending Technology. Geolocation is a technology that uses data acquired from an individual’s computer or mobile device to identify or describe the user’s actual physical location.1 Two types of data can be collected—active user/device-based information and p",
+    "last_updated": "2026-07-03"
+  },
+  "maryland": {
+    "canonical_name": "Maryland",
+    "entity_type": "organization",
+    "summary": "# Strengthening Organizations for Greater Quality of Life and Equity. Join a network of changemakers dedicated to advancing equity and quality of life. ##### No matter where you are in your nonprofit journey, we’re here to support you. Gain access to expert guidance, powerful connections, and the re",
+    "last_updated": "2026-07-03"
+  },
+  "oregon": {
+    "canonical_name": "Oregon",
+    "entity_type": "organization",
+    "summary": "STATE OF OREGON -- ORGANIZATION CHART The People of Oregon Judicial Branch Executive Branch Legislative Branch Chief Justice of Supreme Court Judicial Department Senate House of Representatives Secretary of State Attorney General Governor Superintendent of Public Instruction Labor Commissioner Treas",
+    "last_updated": "2026-07-03"
+  },
+  "massachusetts": {
+    "canonical_name": "Massachusetts",
+    "entity_type": "organization",
+    "summary": "# Commonwealth of Massachusetts. ## Executive. ##### Executive Office of Technology Services and Security. ### Governor [State agencies report to the Governor.]. ### Treasurer and Receiver General. ### Secretary of the Commonwealth. #### Administration and Finance. ##### Executive Office for Adminis",
+    "last_updated": "2026-07-03"
+  },
+  "manticore": {
+    "canonical_name": "Manticore",
+    "entity_type": "company",
+    "summary": "## About Manticore Projects¶. * A Consulting Company for Financial Valuation, Reporting and Credit Risk Management with clients in various regions of the world. * Comprises a team of passionate senior consultants in the fields of Risk Management, Financial Accounting and Quantitative Modeling. * Pro",
+    "last_updated": "2026-07-03"
+  },
+  "manticore search": {
+    "canonical_name": "Manticore Search",
+    "entity_type": "product",
+    "summary": "Manticore Search is a high-performance, multi-storage database purpose-built for search and analytics, offering lightning-fast full-text search, real-time indexing, and advanced features like vector search and columnar storage for efficient data analysis. Manticore Search is a modern, fast, and ligh",
+    "last_updated": "2026-07-03"
+  },
+  "onnx": {
+    "canonical_name": "ONNX",
+    "entity_type": "protocol",
+    "summary": "# Overview of ONNX and operators. This article provides an overview of… | by David Cochard | ailia Tech BLOG (EN) | Medium. This article provides an overview of the ONNX format and its operators, which are widely used in machine learning model inference. ONNX stands for _Open Neural Network Exchange",
+    "last_updated": "2026-07-03"
+  },
+  "sentencetransformers": {
+    "canonical_name": "SentenceTransformers",
+    "entity_type": "ai_model",
+    "summary": "*   [Image & Text Models](https://sbert.net/docs/sentence_transformer/pretrained_models.html#image-text-models). *   [Training Overview](https://sbert.net/docs/sentence_transformer/training_overview.html). *   [Why Finetune?](https://sbert.net/docs/sentence_transformer/training_overview.html#why-fin",
+    "last_updated": "2026-07-03"
+  },
+  "candle": {
+    "canonical_name": "Candle",
+    "entity_type": "technology",
+    "summary": "A candle is a light source made of wax, tallow, or similar slow-burning material, commonly in cylindrical form but made in many fanciful designs, There are many different types of candle and many different ways to manufacture them, ranging from traditional manual methods to highly automated producti",
+    "last_updated": "2026-07-03"
+  },
+  "minilm": {
+    "canonical_name": "MiniLM",
+    "entity_type": "ai_model",
+    "summary": "* MiniLM is a family of compact transformer models that distill self-attention relations from larger pretrained models to offer high efficiency and accuracy. MiniLM is a family of compact transformer models for natural language processing, developed via task-agnostic distillation of self-attention r",
+    "last_updated": "2026-07-03"
+  },
+  "bge": {
+    "canonical_name": "BGE",
+    "entity_type": "ai_model",
+    "summary": "# BGE AI Models 2025: Ultimate Guide to BAAI General Embedding & Multilingual Semantic Search. # BGE AI: The Complete Guide to Embedding Excellence. These models have revolutionized how we approach semantic similarity, information retrieval, and text understanding by creating dense vector representa",
+    "last_updated": "2026-07-03"
+  },
+  "e5": {
+    "canonical_name": "E5",
+    "entity_type": "ai_model",
+    "summary": "Reference(s): • e5-large-unsupervised Hugging Face Model Architecture: • Architecture Type: Transformer • Network Architecture: MiniLM Input: • Input Type(s): Text • Input Format(s): String • Input Parameters: 1D Output: • Output Type(s): Embedding vectors • Output Format: Vector • Output Parameters",
+    "last_updated": "2026-07-03"
+  },
+  "exapunks": {
+    "canonical_name": "Exapunks",
+    "entity_type": "product",
+    "summary": "Get the Steam Mobile App. All trademarks are property of their respective owners in the US and other countries. Link to the Steam Homepage. Overwhelmingly Positive  (1,360)   - 96% of the 1,360 user reviews for this game are positive. Sign in to add this item to your wishlist, follow it, or mark it",
+    "last_updated": "2026-07-03"
+  },
+  "steam": {
+    "canonical_name": "Steam",
+    "entity_type": "product",
+    "summary": "+ 5.4 Steamworks on PlayStation 3. + 6.1 Users and revenue. + 6.2 Sales and distribution. | The Steam storefront as of November 2025 |. **Steam** is a digital distribution platform for PC games by the American video game studio Valve. It was launched as a software client in September 2003 to provide",
+    "last_updated": "2026-07-03"
+  },
+  "gog": {
+    "canonical_name": "GOG",
+    "entity_type": "product",
+    "summary": "# GOG.com. | Type of site | Digital distribution |. **GOG.com** (formerly **Good Old Games**) is a digital distribution platform for video games and films. GOG.com delivers DRM-free video games through its digital platform for Windows, macOS and Linux. CD Projekt was founded by Marcin Iwiński and Mi",
+    "last_updated": "2026-07-03"
+  },
+  "itchio": {
+    "canonical_name": "Itch.io",
+    "entity_type": "product",
+    "summary": "# itch.io Review. Trained exclusively on our massive library of expert buying advice,. * 4.5 - Outstanding: Best in class, acts as a benchmark for measuring competitors. * 3.0 - Average: Does what the product should do, and sits in the middle of the pack. Itch.io is an excellent gaming marketplace t",
+    "last_updated": "2026-07-03"
+  },
+  "lulu": {
+    "canonical_name": "Lulu",
+    "entity_type": "material",
+    "summary": "Nulu Fabric · Made of 81% nylon and 19% lycra elastane · Provides a nearly nude sensation and buttery soft feel · Ideal for yoga and low- Your hair dryer is gross—here's how to clean your hot tools:strip_exif():no_upscale():format(webp):quality(1)/1779799229003/cleaninghairstylingtoolshero.jpg). Bes",
+    "last_updated": "2026-07-03"
+  },
+  "llms": {
+    "canonical_name": "LLMs",
+    "entity_type": "technology",
+    "summary": "# What are large language models (LLMs)? Large language models (LLMs) are advanced AI systems that understand and generate natural language, or human-like text, using the data they’ve been trained on through machine learning techniques. LLMs can automatically generate text-based content, which can b",
+    "last_updated": "2026-07-03"
+  },
+  "the download": {
+    "canonical_name": "The Download",
+    "entity_type": "product",
+    "summary": "Powering Their Digital Stores with Easy Digital Downloads. Get Easy Digital Downloads Now. Documentation, Reference Materials, and Tutorials for Easy Digital Downloads. # Creating Products in Easy Digital Downloads. Your products are the core of your Easy Digital Downloads/WordPress store. It also e",
+    "last_updated": "2026-07-03"
+  },
+  "claude science": {
+    "canonical_name": "Claude Science",
+    "entity_type": "product",
+    "summary": "# Claude Science beta. ## Your research partner for rigorous science. The Claude Science app runs analyses, searches databases, and traces every step from data wrangling to publication, so you can spend time on science. ## Built for scientific research. View proteins, structures, and molecules nativ",
+    "last_updated": "2026-07-03"
+  },
+  "anthropic": {
+    "canonical_name": "Anthropic",
+    "entity_type": "company",
+    "summary": "Overview:\nWe're an AI research company that builds reliable, interpretable, and steerable AI systems. Our first product is Claude, an AI assistant for tasks at any scale. Our research interests span multiple areas including natural language, human feedback, scaling laws, reinforcement learning, code",
+    "last_updated": "2026-07-03"
+  },
+  "scientific research": {
+    "canonical_name": "Scientific research",
+    "entity_type": "technology",
+    "summary": "# Science and Technology. RAND experts have often been among the pioneers of key scientific research, including computer analysis, satellite development, military technology, and the foundations of the Internet. RAND's research has also resulted in the development of new methodologies and ways of an",
+    "last_updated": "2026-07-03"
+  },
+  "pharmaceutical executives": {
+    "canonical_name": "Pharmaceutical executives",
+    "entity_type": "person",
+    "summary": "Overview:\nPharmaceutical Executive provides its audience of pharmaceutical and biopharmaceutical executives with the analysis of business, strategy, and government regulations. We go beyond the news and provide in-depth analysis to help executives navigate through the maze of policy and business cha",
+    "last_updated": "2026-07-03"
+  },
+  "biotech founders": {
+    "canonical_name": "Biotech founders",
+    "entity_type": "person",
+    "summary": "How This Biotech Entrepreneur Built A Multibillion-Dollar Company At Age 51\nForbes\n2150000 subscribers\n68 likes\n2110 views\n31 Jul 2025\nDrug developer Suma Krishnan was 51 when she had the idea for a topical gene therapy to treat a rare and terrible skin disorder, called dystrophic epidermolysis bull",
+    "last_updated": "2026-07-03"
+  },
+  "researchers": {
+    "canonical_name": "Researchers",
+    "entity_type": "person",
+    "summary": "# Researcher Overview. # What Does A Researcher Do? ###### Get Researcher Jobs Emailed to You. By signing up, you agree to the terms of use  and privacy policy. ## Researcher Jobs. ### Core Facility Research Specialist, Cytometry and Imaging ... ### Core Research Facility Technician III (CRFT III) -",
+    "last_updated": "2026-07-03"
+  },
+  "ai agents": {
+    "canonical_name": "AI agents",
+    "entity_type": "technology",
+    "summary": "*   [Welcome](https://www.ibm.com/think/ai-agents#605511093). *   [Overview](https://www.ibm.com/think/topics/ai-agents#7281535). *   [What is agentic AI?](https://www.ibm.com/think/topics/agentic-ai#2095054954). *   [Overview](https://www.ibm.com/think/topics/ai-agent-development#1083937704). *   [",
+    "last_updated": "2026-07-03"
+  },
+  "emma wiles": {
+    "canonical_name": "Emma Wiles",
+    "entity_type": "researcher",
+    "summary": "# Emma Wiles Awarded the Isabel Anderson Career Development Professorship. Emma Wiles, Boston University Questrom School of Business, Assistant Professor of Information Systems, has been appointed to the Isabel Anderson Career Development Professorship, endowed by the estates of Isabel and Larz Ande",
+    "last_updated": "2026-07-03"
+  },
+  "boston university": {
+    "canonical_name": "Boston University",
+    "entity_type": "organization",
+    "summary": "Here’s a sampling of just some of our campus organizations. For a complete list and contact information, visit our Student Leadership & Impact Center website. Most of BU’s Schools and Colleges offer their students membership in one or more professional organizations. See the Student Leadership & Imp",
+    "last_updated": "2026-07-03"
+  },
+  "ai employee": {
+    "senses": [
+      {
+        "sense_label": "This refers to a specific implementation of AI with a title and responsibilities in the workplace, as mentioned in the article",
+        "summary": "https://store-images.s-microsoft.com/image/apps.21897.a8b1219e-905a-4eb9-bfc3-8c44ad7337ca.ade797ca-9a55-4f64-ae2e-51da82eee86b.f59e6706-9d4b-4140-a80a-5c51a0de6a47. ## AI employee streamlines the automation of cognitive business tasks using reasoning LLM and AI agents. **AI Employee: Your Intellige",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "reltio": {
+    "canonical_name": "Reltio",
+    "entity_type": "company",
+    "summary": "Overview:\nAt Reltio, we believe data should fuel your success in the enterprise AI era. Reltio Data Cloud is the context intelligence platform providing trusted business understanding so AI agents and systems can act with human-level judgment at enterprise scale. Reltio’s cloud-native SaaS platform",
+    "last_updated": "2026-07-03"
+  },
+  "agriculture": {
+    "canonical_name": "Agriculture",
+    "entity_type": "organization",
+    "summary": "The Food and Agriculture Organization (FAO) is the principal United Nations' specialized agency whose mandate covers all aspects of food production, storage, Food and Agriculture Organization of the United Nations. About FAO In action Media Main topics Resources Member countries Get involved. العربي",
+    "last_updated": "2026-07-03"
+  },
+  "predictive models": {
+    "canonical_name": "Predictive models",
+    "entity_type": "ai_model",
+    "summary": "Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. You can try signing in or changing directories. # Overview of the prediction model. Prediction models learn to associate those patterns with outcomes. Then, we use the power of AI to detect l",
+    "last_updated": "2026-07-03"
+  },
+  "fertilizer": {
+    "canonical_name": "Fertilizer",
+    "entity_type": "material",
+    "summary": "# Fertilizer. Fertilizer use in kg per hectare of arable land. A **fertilizer** or **fertiliser** is any material of natural or synthetic origin that is applied to soil or to plant tissues to supply plant nutrients. Fertilizers may be distinct from liming materials \"Liming (soil)\") or other non-nutr",
+    "last_updated": "2026-07-03"
+  },
+  "weather": {
+    "canonical_name": "Weather",
+    "entity_type": "material",
+    "summary": "{'location': {'name': 'Current', 'region': 'Harbour Island', 'country': 'Bahamas', 'lat': 25.4333, 'lon': -76.7833, 'tz_id': 'America/Nassau', 'localtime_epoch': 1783059298, 'localtime': '2026-07-03 02:14'}, 'current': {'last_updated_epoch': 1783058400, 'last_updated': '2026-07-03 02:00', 'temp_c':",
+    "last_updated": "2026-07-03"
+  },
+  "water": {
+    "canonical_name": "Water",
+    "entity_type": "material",
+    "summary": "A collection of 12 different Water Materials (plus 8 cheaper variations) covering everything from Oceans and Rivers to Waterfalls, Swimming Pools and Pixel art. In this micro-course, Paul Neale covers a simple transparent water material to simulate a flowing water surface. We will explore the use of",
+    "last_updated": "2026-07-03"
+  },
+  "chemical usage": {
+    "canonical_name": "Chemical usage",
+    "entity_type": "material",
+    "summary": "This blog provides a comprehensive overview of chemical material, including examples of chemical substances and the distinction between Safe chemical use includes minimizing exposure to chemicals, proper training, understanding chemical hazards, proper labeling, proper storage and segregation, * Che",
+    "last_updated": "2026-07-03"
+  },
+  "godcoder": {
+    "canonical_name": "Godcoder",
+    "entity_type": "technology",
+    "summary": "High Grade computer software engineering to music to arts to mathematical formulation, everything can be achieved by providing free business solution or We harness the latest advancements in AI technology to deliver unparalleled insights and automation tailored to your business needs. Video Producti",
+    "last_updated": "2026-07-03"
+  },
+  "elilabz": {
+    "senses": [
+      {
+        "sense_label": "appears to be a company/organization developing the Godcoder product",
+        "summary": "Overview:\nThe ELI Group increases the impact of leaders through year-long Leadership Labs. Our programs provide high-potential leadership development emphasizing shared perspectives and different experiences. We deliver accountability for behavior change, integration with the organization, and peer",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "harness mode": {
+    "senses": [
+      {
+        "sense_label": "a feature of Godcoder that allows building and improving its own agent harness",
+        "summary": "Effective in 2026, to align with our trunk stable development model and ensure platform stability for the ecosystem, we will publish source code to AOSP in Q2 and Q4. For building and contributing to AOSP, use `android-latest-release`. Test Harness Mode is a feature added in Android 10 for. to autom",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "cowork mode": {
+    "senses": [
+      {
+        "sense_label": "a feature of Godcoder that enables GUI/OS automation for executing human-action tasks",
+        "summary": "Field notes/Research/Claude Cowork: Architecture, Capabilities, and Usage Overview. # Claude Cowork: Architecture, Capabilities, and Usage Overview. Claude Cowork is an agentic task execution mode allowing Claude to plan and complete multi-step work on your behalf. This led to the introduction of Cl",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "open cowork": {
+    "senses": [
+      {
+        "sense_label": "the desktop application that Godcoder drives and improves",
+        "summary": "[Skip to main content](https://www.anthropic.com/product/claude-cowork#main-content)[Skip to footer](https://www.anthropic.com/product/claude-cowork#footer). [Explore Claude Cowork](https://claude.com/product/cowork). At Anthropic, non-technical teams like Marketing and Data started bypassing Claude",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "hermex": {
+    "canonical_name": "Hermex",
+    "entity_type": "product",
+    "summary": "#### We are specialized in product development. Discover our wide range of services including professional websites,. e-commerce solutions, and custom web applications. We provide innovative solutions tailored to meet your specific needs. Our expertise lies in product development, where we specializ",
+    "last_updated": "2026-07-03"
+  },
+  "iphone": {
+    "canonical_name": "iPhone",
+    "entity_type": "technology",
+    "summary": "The iPhone, introduced by Apple in 2007, revolutionized the smartphone market and established new industry standards for mobile devices. Initially designed as a combination phone, web browser, and iPod, the iPhone featured a glass touchscreen, multitouch capability, and an innovative design that app",
+    "last_updated": "2026-07-03"
+  },
+  "hermeswebui": {
+    "canonical_name": "hermes-webui",
+    "entity_type": "technology",
+    "summary": "# Deploy Hermes WebUI in one click installation. Full-stack Hermes deployment that pairs the Hermes AI agent with a fast self-hosted web chat UI. ## Choose a VPS plan for Hermes WebUI. ## What you can build with Hermes WebUI. Hermes WebUI is a lightweight open-source web app that brings the Hermes A",
+    "last_updated": "2026-07-03"
+  },
+  "selfhosted": {
+    "senses": [
+      {
+        "sense_label": "in the context of AI agents, this refers to running the agent on hardware controlled by the user rather than a third-party service",
+        "summary": "Integrate all of your enterprise data on a single secure platform. What is Self-Hosted Software | An Overview with Pros and Cons. Self-hosted software is also called on-premises software and refers to an open-source application installed and maintained by a person or an enterprise employing their pr",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "ai agent": {
+    "canonical_name": "AI agent",
+    "entity_type": "technology",
+    "summary": "*   [Welcome](https://www.ibm.com/think/ai-agents#605511093). *   [Overview](https://www.ibm.com/think/topics/ai-agents#7281535). *   [What is agentic AI?](https://www.ibm.com/think/topics/agentic-ai#2095054954). *   [Overview](https://www.ibm.com/think/topics/ai-agent-development#1083937704). *   [",
+    "last_updated": "2026-07-03"
+  },
+  "orchestralflow": {
+    "canonical_name": "OrchestralFlow",
+    "entity_type": "technology",
+    "summary": "Use Flow Orchestration to create advanced approval processes, task lists for groups, or any other processes that require multiple interrelated steps. Flow Orchestration is Salesforce's “director” for multi-step, multi-user business processes. Instead of stuffing every handoff and wait into Explore t",
+    "last_updated": "2026-07-03"
+  },
+  "agent workflows": {
+    "canonical_name": "Agent workflows",
+    "entity_type": "technology",
+    "summary": "An AI agent workflow is a structured sequence of tasks where one or more AI agents autonomously execute steps, make decisions, use tools, and # AI Agent Workflows: Everything You Need to Know. As Senior Content Writer at GoodData.AI, Tom brings more than 20 years of experience in writing and editing",
+    "last_updated": "2026-07-03"
+  },
+  "dynamicworkflowsclaudecode": {
+    "canonical_name": "dynamic-workflows-claude-code",
+    "entity_type": "ambiguous",
+    "summary": "[Sitemap](https://medium.com/sitemap/sitemap.xml). [Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=post_page---top_nav_layout_nav-----------------------------------------). [Sign in](https://medium.com/m/signin?operation=login&r",
+    "last_updated": "2026-07-03"
+  },
+  "synaptic confluence engine": {
+    "canonical_name": "Synaptic Confluence Engine",
+    "entity_type": "technology",
+    "summary": "# EXPERIENCE INNOVATION. From our imagination to your experience: Since our founding, innovation has been a cornerstone of the Synaptics mission. That focus on innovation has fostered ingenuity and spawned an expansive portfolio of patented human interface solutions, enriching users' technology expe",
+    "last_updated": "2026-07-03"
+  },
+  "reddit": {
+    "canonical_name": "Reddit",
+    "entity_type": "technology",
+    "summary": "r/technology: Subreddit dedicated to the news and discussions about the creation and use of technology and its surrounding issues. [![Image 1](https://cdn.prod.website-files.com/685eb01de588fa3e7e23b7c0/68c92bab4024a0af69c4d6f4_reddit%20nav%20logo.svg) ![Image 2](https://cdn.prod.website-files.com/6",
+    "last_updated": "2026-07-03"
+  },
+  "multimodel thought arena": {
+    "canonical_name": "multi-model thought arena",
+    "entity_type": "technology",
+    "summary": "We read every piece of feedback, and take your input very seriously. ## Use saved searches to filter your results more quickly. # OpenGVLab/Multi-Modality-Arena. ### Multi-Modality Arena 🚀. **Multi-Modality Arena** is an evaluation platform for large multi-modality models. We release the **Demo** an",
+    "last_updated": "2026-07-03"
+  },
+  "opusflow": {
+    "canonical_name": "OpusFlow",
+    "entity_type": "product",
+    "summary": "Overview:\nRunning a growing installation business shouldn’t mean juggling spreadsheets, disconnected tools and endless manual work. OpusFlow gives sustainable installers one powerful platform to manage every project, every workflow and every team without the chaos. Built specifically for solar, heat",
+    "last_updated": "2026-07-03"
+  },
+  "tenbin": {
+    "senses": [
+      {
+        "sense_label": "Tenbin appears to be both an architectural concept and a company/product, with the text suggesting it's a design philosophy that inspired OpusFlow",
+        "summary": "Overview:\nBittenbin is a decentralized and permissionless agentic society where agent identities are economically costly and socially valuable. The protocol is built on Ethereum L1 based on the Pythagorean market maker and a proof-of-proximity mechanism for $TBN token rewards. Tenbin Inc. is a front",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "mythos router": {
+    "canonical_name": "Mythos Router",
+    "entity_type": "technology",
+    "summary": "**mythos-router** is a local CLI power tool built around **Strict Write Discipline (SWD)**: a verification layer that checks every file operation an AI agent *claims* to perform against the actual filesystem using SHA-256 snapshots. That makes SWD model-agnostic: it ships with a built-in Claude Opus",
+    "last_updated": "2026-07-03"
+  },
+  "agustipuigserveropuspromptarchitect": {
+    "canonical_name": "AgustiPuigserver/opus-prompt-architect",
+    "entity_type": "product",
+    "summary": "# AI-Generated Content with the OPUS Prompt Engineering Framework. The OPUS Framework enables the creation of high-quality, relevant AI-generated content through a structured approach to crafting effective prompts from initial observations. By carefully designing prompts that encapsulate the desired",
+    "last_updated": "2026-07-03"
+  },
+  "mythoscraft": {
+    "canonical_name": "MythosCraft",
+    "entity_type": "product",
+    "summary": "MythosCraft is a greek mythology inspired minecraft server multiplayer experience where you play as the children of the gods and gain cool abilities. Welcome to MythosCraft, a mod pack that gives you an experience like never before! With an almost complete overhaul of most of the things you #### Gam",
+    "last_updated": "2026-07-03"
+  },
+  "blueeagleapigateway": {
+    "canonical_name": "BlueEagle-API-Gateway",
+    "entity_type": "product",
+    "summary": "API Gateway provides a comprehensive platform for managing, delivering, and securing APIs. It provides integration, acceleration, governance, and security. # Optimal Blue Digital Marketplace API Products. The Business Intelligence APIs make available the different data tools and products created by",
+    "last_updated": "2026-07-03"
+  },
+  "api gateway": {
+    "canonical_name": "API Gateway",
+    "entity_type": "technology",
+    "summary": "# What is an API gateway? #### An API gateway is a software layer that presents a single entry point for clients (such as web or mobile applications) to access multiple backend services, while simultaneously managing client/server interactions. An application programming interface (API) is a set of",
+    "last_updated": "2026-07-03"
+  },
+  "qwen257binstruct": {
+    "canonical_name": "Qwen2.5-7B-Instruct",
+    "entity_type": "ai_model",
+    "summary": "Qwen2.5-7B-Instruct is an instruction-tuned large language model with 7B parameters that balances efficiency and versatility by leveraging Qwen2.5-VL-7B-Instruct is a vision-language model that processes images, text, and video, supporting structured outputs and visual localization. # Qwen / Qwen2.5",
+    "last_updated": "2026-07-03"
+  },
+  "lora": {
+    "canonical_name": "LoRA",
+    "entity_type": "technology",
+    "summary": "### LoRa Overview. ### Applications Overview. With an ever-increasing number of IoT vertical applications, LoRa devices and the LoRaWAN standard is creating business efficiencies and improving lives around the world. ### Ecosystem Overview. LoRa is bolstered by a diverse global ecosystem of hardware",
+    "last_updated": "2026-07-03"
+  },
+  "tianchi": {
+    "canonical_name": "Tianchi",
+    "entity_type": "event",
+    "summary": "A powerful eruption at Tianchi about a thousand years ago (herein called the Millennium Eruption) produced one of the two largest known volcanic explosive The QXZ event is a key eruption in NE China/Japan as it apparently records a world-wide geomagnetic field excursion within its lava and welded On",
+    "last_updated": "2026-07-03"
+  },
+  "baai": {
+    "senses": [
+      {
+        "sense_label": "Beijing AI Research, an AI research institute",
+        "summary": "BAAI is a non-profit research institute dedicated to promoting collaboration among academia and industries, as well as fostering top talents. _Founded in 2018, BAAI (stands for Beijing Institute of Artificial Intelligence) is a non-profit organization supported by the Ministry of Science and Technol",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "fundamental research labs": {
+    "canonical_name": "Fundamental Research Labs",
+    "entity_type": "organization",
+    "summary": "Overview:\nWe're an applied research company building autonomous, collaborative, and socially intelligent agents. Our latest product is shortcut.ai, the first superhuman AI Excel agent. Our small team includes computational neuroscientists, AI researchers, engineers, and builders from MIT EECS, Stanf",
+    "last_updated": "2026-07-03"
+  },
+  "fundamentalava": {
+    "canonical_name": "Fundamental-Ava",
+    "entity_type": "technology",
+    "summary": "Overview:\nAVA Technology is a global engineering and software solutions company delivering innovative, result-driven services in product design, automation, and digital transformation. We combine precision engineering with cutting-edge technology to solve complex challenges and enhance business perf",
+    "last_updated": "2026-07-03"
+  },
+  "ava": {
+    "canonical_name": "Ava",
+    "entity_type": "ai_model",
+    "summary": "This overview shows the available standard AI models for use in Ava AI. Refer to as AI models we have a collection of algorithms and mathematical structures. Ava is an “AI-powered family operating system” designed to manage the logistics of family life by anticipating needs and automating tasks. ari",
+    "last_updated": "2026-07-03"
+  },
+  "autonomous agents": {
+    "canonical_name": "autonomous agents",
+    "entity_type": "technology",
+    "summary": "# What Are Autonomous Agents? Autonomous agents are emerging as a core capability in modern AI systems. They power software that can set goals, plan multi-step tasks, use tools, and adapt to changing conditions with minimal human intervention. This overview explains what autonomous agents are, how t",
+    "last_updated": "2026-07-03"
+  },
+  "echotether": {
+    "canonical_name": "EchoTether",
+    "entity_type": "technology",
+    "summary": "## News Releases Overview. ## View All Auto & Transportation. ## Business Technology Overview. ## View All Business Technology. ## View All Financial Services & Investing. ## Business Technology. ## General Business Overview. ## View All General Business. ## Consumer Technology Overview. ## View All",
+    "last_updated": "2026-07-03"
+  },
+  "ai agent toolkit": {
+    "canonical_name": "AI Agent Toolkit",
+    "entity_type": "technology",
+    "summary": "Python and TypeScript-based AI agent frameworks, CrewAI, LangChain, Agno, and Vercel AI SDK allow developers to build AI applications with multiple agents to act as Computer-Using Agents, or Deep Research Agents to automate browser tasks like clicking, scrolling, ordering products on the web and per",
+    "last_updated": "2026-07-03"
+  },
+  "cli for autonomous device orchestration": {
+    "canonical_name": "CLI for Autonomous Device Orchestration",
+    "entity_type": "technology",
+    "summary": "# Introducing CLI Agent Orchestrator: Transforming Developer CLI Tools into a Multi-Agent Powerhouse. Today we are introducing **CLI Agent Orchestrator (CAO, pronounced “kay-oh”)**, an open source, multi-agent orchestration framework that transforms how developers work with AI-powered CLI tools such",
+    "last_updated": "2026-07-03"
+  },
+  "humanintheloop telemetry": {
+    "canonical_name": "Human-in-the-Loop Telemetry",
+    "entity_type": "technology",
+    "summary": "# What is Human-in-the-Loop (HITL)? Teams get the most value when human review is reserved for high-impact, uncertain or regulated decisions. The real value of HITL comes when feedback is captured, governed and used to improve agent behavior over time, not left in disconnected review workflows. Huma",
+    "last_updated": "2026-07-03"
+  },
+  "agentdevice bridges": {
+    "senses": [
+      {
+        "sense_label": "This refers to a technical concept rather than a specific entity, so it's classified as technology",
+        "summary": "# Revolutionizing Bridge Operation and Maintenance with LLM-based Agents: An Overview of Applications and Insights. The construction of LLM-based agents is considered to be. LLM-based agents, as a kind of human-like. intelligent entities with the ability of perception, planning, decision-making, and",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "multiagent ecosystem": {
+    "senses": [
+      {
+        "sense_label": "This is a technical architecture concept, classified as technology",
+        "summary": "A multi-agent ecosystem is a network of specialized AI agents that each handle a defined domain — and communicate with each other through # The Rise of Multi-Agent Ecosystems: How AI Teams Are Replacing Solo Models. While most people are still marveling at what a single large language model can do,",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "telemetry loops": {
+    "senses": [
+      {
+        "sense_label": "This refers to a technical data flow concept, classified as technology",
+        "summary": "Lead Compound Search & Pharma Analysis. # Telemetry-Based Feedback Loops: Design and Functionality. ## Telemetry Feedback Loop Technology Background and Objectives. ## Market Demand Analysis for Telemetry-Based Control Systems. ## Current State and Challenges in Telemetry Feedback Implementation. ##",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "quorumalphadash": {
+    "canonical_name": "Quorum-alpha-dash",
+    "entity_type": "technology",
+    "summary": "Overview. Imagine a courtroom of silicon judges, each with distinct temperaments, training, and temperaments—now picture them arguing over dashAlpha is an advanced software defined networking platform with a focus on intelligent, seamless, resilient and secure network access. It works by choosing a",
+    "last_updated": "2026-07-03"
+  },
+  "sentient quorum": {
+    "canonical_name": "Sentient Quorum",
+    "entity_type": "technology",
+    "summary": "**Sentient Technologies** was an American artificial intelligence technology company based in San Francisco. Sentient was founded in 2007 and received over $143 million in funding at different points after its inception. As of 2016, Sentient was the world's most well-funded AI company. The company w",
+    "last_updated": "2026-07-03"
+  },
+  "wti crude oil": {
+    "canonical_name": "WTI crude oil",
+    "entity_type": "material",
+    "summary": "West Texas Intermediate (WTI) is a high-quality crude oil benchmark, primarily sourced from Texas and traded on the NYMEX. WTI, known for its low sulfur, Overview of the most important. West Texas Intermediate - Crude Oil Mix (WTI) (Lecture 063) Typical Products of Petroleum Refinery - Section *   [",
+    "last_updated": "2026-07-03"
+  },
+  "claude sonnet": {
+    "canonical_name": "Claude Sonnet",
+    "entity_type": "ai_model",
+    "summary": "[Skip to main content](https://www.anthropic.com/news/claude-3-5-sonnet#main-content)[Skip to footer](https://www.anthropic.com/news/claude-3-5-sonnet#footer). ![Image 2: Claude model family](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%",
+    "last_updated": "2026-07-03"
+  },
+  "grok 420": {
+    "canonical_name": "Grok 4.20",
+    "entity_type": "ai_model",
+    "summary": "# xAI Grok 4.20. The xAI Grok 4.20 offers reasoning and non-reasoning variants with industry-leading speed and agentic tool-calling support. Learn about Grok 4.20. ## Regions for this Model. For supported regions, endpoint types (on-demand or dedicated AI clusters), and hosting (OCI Generative AI or",
+    "last_updated": "2026-07-03"
+  },
+  "opuslevel judge": {
+    "canonical_name": "Opus-level judge",
+    "entity_type": "technology",
+    "summary": "Opus was 22% faster but produced code that both judges — including itself — rated lower. The shortcuts that saved 6 minutes created patterns # The **intelligent legal solution** platform that gives your law firm every advantage. ## Trusted by the most successful law firms. Regardless of role, our ad",
+    "last_updated": "2026-07-03"
+  },
+  "certifier": {
+    "canonical_name": "Certifier",
+    "entity_type": "product",
+    "summary": "# Product certification. **Product certification** or **product qualification** is the process of certifying that a certain product has passed performance tests \"Performance test (assessment)\") and quality assurance tests, and meets qualification criteria stipulated in contracts, regulations, or spe",
+    "last_updated": "2026-07-03"
+  },
+  "auditedchangegate": {
+    "senses": [
+      {
+        "sense_label": "The repository name for the project, representing a technology system for change management.",
+        "summary": "This article outlines some key areas where technology will change today's audit paradigm. Understanding the capabilities, opportunities and risks of these # Change Management Audits: Key Factors You Need to Know. It is a key driver for the cost of operations, which tends to be a vital component of o",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "aiops": {
+    "canonical_name": "AIOps",
+    "entity_type": "technology",
+    "summary": "# What is AIOps? Artificial intelligence for IT operations (AIOps) is a process where you use artificial intelligence (AI) techniques maintain IT infrastructure. AIOps technologies use modern machine learning (ML), natural language processing (NLP), and other advanced AI methodologies to improve IT",
+    "last_updated": "2026-07-03"
+  },
+  "christoansek": {
+    "canonical_name": "ChristoAnsek",
+    "entity_type": "person",
+    "summary": "Christiansen is a Fellow of the American Occupational Therapy Association and a past Vice President and Treasurer of that organization. He is | Citations \"This is the number of citations to all publications. The second column has the \\\"recent\\\" version of this metric which is the number of new citat",
+    "last_updated": "2026-07-03"
+  },
+  "intune": {
+    "canonical_name": "Intune",
+    "entity_type": "product",
+    "summary": "Microsoft Intune is a cloud-based enterprise mobility management (EMM) solution that enables you to securely manage devices, apps, and data for your business. With Intune cloud, you can enroll and manage devices from anywhere and protect corporate data on those devices. Intune also provides a means",
+    "last_updated": "2026-07-03"
+  },
+  "kubernetes": {
+    "canonical_name": "Kubernetes",
+    "entity_type": "technology",
+    "summary": "*   - [x] [Concepts](https://kubernetes.io/docs/concepts/). *   - [x] [Overview](https://kubernetes.io/docs/concepts/overview/). *   - [x] [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/). *   - [x] [Objects In Kubernetes](https://kubernetes.io/docs/concepts/overview",
+    "last_updated": "2026-07-03"
+  },
+  "realmforge": {
+    "canonical_name": "RealmForge",
+    "entity_type": "technology",
+    "summary": "Build worlds. Shape heroes. Run campaigns. RealmForge is the RPG platform for game masters and players. ###### AI RPGs with great narrative. # Live inside stories you love. # Secure your spot now. Onboarding users on a rolling basis. ## Experience true agency without breaking the narrative. ###### Y",
+    "last_updated": "2026-07-03"
+  },
+  "agentosstyle frameworks": {
+    "canonical_name": "AgentOS-style frameworks",
+    "entity_type": "technology",
+    "summary": "# Microsoft Agent Framework. The framework also provides foundational building blocks, including model clients (chat completions and responses), an agent session for state management, context providers for agent memory, middleware for intercepting agent actions, and MCP clients for tool integration.",
+    "last_updated": "2026-07-03"
+  },
+  "miragecortex": {
+    "canonical_name": "Mirage-Cortex",
+    "entity_type": "technology",
+    "summary": "It looks into how electrical stimulation of the cerebral cortex works, the types of electrodes used, how artificial visual and tactile Man-made, optical metamaterials have been touted for more than a decade for their ability to manipulate light in extraordinary ways. Mirage is a group theory-based m",
+    "last_updated": "2026-07-03"
+  },
+  "abhinesh2004": {
+    "canonical_name": "Abhinesh2004",
+    "entity_type": "person",
+    "summary": "Abhinesh Maharshi is an Indian politician from the Ratangarh Assembly constituency in Rajasthan. He is a member of the 15th Assembly of Rajasthan as a Abhinesh Gupta\nCOO, Business, Risk, Resiliency & Crisis Management\nHong Kong, Hong Kong SAR\n500 connections, 2479 followers\n\n\nAbout\nA Senior Executiv",
+    "last_updated": "2026-07-03"
+  },
+  "a generative agent swarm for persistent narrativelycoherent simulated worlds": {
+    "canonical_name": "A Generative Agent Swarm for Persistent, Narratively-Coherent Simulated Worlds",
+    "entity_type": "technology",
+    "summary": "[Skip to main content](https://www.reddit.com/r/MachineLearning/comments/12hluz1/r_generative_agents_interactive_simulacra_of#main-content)[R] Generative Agents: Interactive Simulacra of Human Behavior - Joon Sung Park et al Stanford University 2023 : r/MachineLearning. •[3y ago](https://www.reddit.",
+    "last_updated": "2026-07-03"
+  },
+  "solcex exchange": {
+    "canonical_name": "SolCex Exchange",
+    "entity_type": "organization",
+    "summary": "# SolCex Exchange Set to Launch Between May 20th and 30th, Earns CoinMarketCap Listing as Top Centralized Exchange (CEX) Token. *SolCex Exchange, approved by Jupiter and set to launch between May 20th and 30th, offers exclusive benefits to token holders, positioning itself as the premier platform fo",
+    "last_updated": "2026-07-03"
+  },
+  "echochain": {
+    "canonical_name": "EchoChain",
+    "entity_type": "product",
+    "summary": "Ecochain is a product footprinting software company that helps businesses deliver product carbon footprints based on Life Cycle Assessment (LCA) methodology. EchoChain uses scenario-driven, multi-turn conversations in which users provide context-grounded interruptions during responses, dynamically E",
+    "last_updated": "2026-07-03"
+  },
+  "ai bd agent": {
+    "canonical_name": "AI BD Agent",
+    "entity_type": "technology",
+    "summary": "*   [Welcome](https://www.ibm.com/think/ai-agents#605511093). *   [Overview](https://www.ibm.com/think/topics/ai-agents#7281535). *   [What is agentic AI?](https://www.ibm.com/think/topics/agentic-ai#2095054954). *   [Overview](https://www.ibm.com/think/topics/ai-agent-development#1083937704). *   [",
+    "last_updated": "2026-07-03"
+  },
+  "blockchain analytics": {
+    "canonical_name": "blockchain analytics",
+    "entity_type": "technology",
+    "summary": "Blockchain analytics companies identify, analyze, and cluster the data available on the public blockchain to evaluate financial risks, detect illicit activities, investigate crypto crimes, and track stolen crypto amongst other things. Crypto businesses leverage blockchain analytics technology to sta",
+    "last_updated": "2026-07-03"
+  },
+  "solcex": {
+    "senses": [
+      {
+        "sense_label": "Refers to SolCex Exchange, the platform that inspired EchoChain",
+        "summary": "# SolCex (SOLCEX) Price, Charts & News. An image of SolCex (SOLCEX) Asset. ## SolCex (SOLCEX) Price Conversion Calculator. ## SolCex (SOLCEX) Price Chart Today. ## About SolCex. SolCex is the first centralized cryptocurrency exchange launched on the Solana blockchain, offering users a seamless, secu",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "x402 micropayments": {
+    "canonical_name": "x402 micropayments",
+    "entity_type": "protocol",
+    "summary": "x402 is a new open payment protocol developed by Coinbase that enables instant, automatic stablecoin payments directly over HTTP. By reviving the HTTP 402 Exploring the x402 Protocol for Internet-Native Payments. Dive into the x402 protocol's mechanics, its role in enabling micropayments for AI agen",
+    "last_updated": "2026-07-03"
+  },
+  "chronos engine": {
+    "canonical_name": "Chronos Engine",
+    "entity_type": "technology",
+    "summary": "## Navigation Menu. We read every piece of feedback, and take your input very seriously. # Saved searches. ## Use saved searches to filter your results more quickly. To see all available qualifiers, see our documentation. ## Folders and files. | Latest commit   History120 Commits   120 Commits | | |",
+    "last_updated": "2026-07-03"
+  },
+  "temporal graph network tgn": {
+    "senses": [
+      {
+        "sense_label": "This is a specific technical architecture mentioned as the core technology of Chronos Engine, so it's not ambiguous but rather a specific component of the system.",
+        "summary": "The **temporal\\_graph\\_networks (TGNs)** are a type of graph neural network. of machine learning tasks on graphs, such as link prediction, node. *Hamilton et al.*, and recently a new method that introduces the **attention. The module consists of the following features as introduced by Rossi et. This",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "pravin6688churntriadinsights": {
+    "canonical_name": "pravin6688/churn-triad-insights",
+    "entity_type": "project",
+    "summary": "1. Introduction & Objectives. Details, explanations, and code snippets for this section would be developed in the notebook. 2. Load Libraries & Dataset. Details Project Overview. The Customer Churn Prediction and Analysis project is a comprehensive machine learning (ML) initiative aimed at predictin",
+    "last_updated": "2026-07-03"
+  },
+  "llmpowered churn risk analyzer": {
+    "canonical_name": "LLM-powered churn risk analyzer",
+    "entity_type": "technology",
+    "summary": "In this project, I explored an LLM-powered approach for churn detection and explainability: 🔹 How it works: Loads customer churn dataset with Pandas Uses LangChain and Groq’s Llama 3.1 (8B instant) for inference First, the LLM predicts whether a customer is likely to churn (Yes/No) Then, it provides",
+    "last_updated": "2026-07-03"
+  },
+  "cognitive churn decoder": {
+    "canonical_name": "Cognitive Churn Decoder",
+    "entity_type": "product",
+    "summary": "The Cognitive Churn Decoder is a next-generation analytics engine that doesn't just calculate churn probability — it interprets the narrative hidden inside your ... product value perception. Decoding Churn: Enhancing Retention in High-Growth Businesses. @OtteraiNo likes42 views10 months ago more. Cu",
+    "last_updated": "2026-07-03"
+  },
+  "large language model reasoning with classical risk metrics": {
+    "canonical_name": "Large Language Model reasoning with classical risk metrics",
+    "entity_type": "technology",
+    "summary": "Large language models (LLMs) are a category of [deep learning](https://www.ibm.com/think/topics/deep-learning) models trained on immense amounts of data, making them capable of understanding and generating natural language and other types of content to perform a wide range of tasks. LLMs can have bi",
+    "last_updated": "2026-07-03"
+  },
+  "qlearning": {
+    "canonical_name": "Q-Learning",
+    "entity_type": "ai_model",
+    "summary": "Q-learning is a model-free reinforcement learning algorithm that learns the optimal Q-values of an MDP for all state action pairs. # Q-learning. Model-free reinforcement learning algorithm. ***Q*-learning** is a reinforcement learning algorithm that trains an agent to assign values to its possible a",
+    "last_updated": "2026-07-03"
+  },
+  "swarm foraging": {
+    "canonical_name": "Swarm Foraging",
+    "entity_type": "technology",
+    "summary": "by SO Obute · 2022 · Cited by 12 — Swarm foraging is a common test case application for multi-robot systems. In this paper RepAtt algorithm is used for improving coordination Swarm robotics is a new approach to the coordination of multi-robot systems which consist of large numbers of mostly simple p",
+    "last_updated": "2026-07-03"
+  },
+  "multiagent rl": {
+    "canonical_name": "Multi-Agent RL",
+    "entity_type": "technology",
+    "summary": "by L Buşoniu · Cited by 1259 — Abstract Multi-agent systems can be used to address problems in a variety of do- mains, including robotics, distributed control, telecommunications, Multi-agent reinforcement learning (MARL) systems involve multiple autonomous agents learning to make decisions in a sha",
+    "last_updated": "2026-07-03"
+  },
+  "synaptic harmony": {
+    "canonical_name": "Synaptic Harmony",
+    "entity_type": "ambiguous",
+    "summary": "The cerebral cortex, responsible for higher cognitive processes, works in harmony with the cerebellum, coordinating movement and balance. The spinal cord We first provide an overview of the keystone neuroscience concepts of synaptic communication and of synaptic pruning; we discuss the popular A **.",
+    "last_updated": "2026-07-03"
+  },
+  "synaptic colosseum": {
+    "canonical_name": "Synaptic Colosseum",
+    "entity_type": "ai_model",
+    "summary": "#### Powering Edge AI at Scale: Synaptics® Astra™ SRW1500 Series Single-Chip AI MCU. # A New Era for Edge AI Development. The Astra SL2610 product line brings transformer-capable AI, industry-leading efficiency, and secure, scalable compute — redefining what’s possible at the intelligent IoT edge. #",
+    "last_updated": "2026-07-03"
+  },
+  "ai paradigms": {
+    "canonical_name": "AI paradigms",
+    "entity_type": "technology",
+    "summary": "# Learning paradigms in AI – Understanding how AI learns. As part of our Demystifying AI series, we have created three short articles that cover the 37 top terms you need to know, with each article focusing on a key AI domain area: learning paradigms, how to build and deploy AI, and gen AI specifics",
+    "last_updated": "2026-07-03"
+  },
+  "machine learning": {
+    "canonical_name": "Machine learning",
+    "entity_type": "technology",
+    "summary": "Machine Learning Technology is defined as a system that optimizes performance by using statistical methods to infer conclusions from data and computer science *   [Overview](https://www.ibm.com/think/topics/machine-learning#7281535). *   [Data leakage](https://www.ibm.com/think/topics/data-leakage-m",
+    "last_updated": "2026-07-03"
+  },
+  "neural networks": {
+    "canonical_name": "Neural networks",
+    "entity_type": "technology",
+    "summary": "A neural network is an artificial intelligence technique that instructs computers to process data like the human brain. # What is a neural network? A neural network is a machine learning model that stacks simple \"neurons\" in layers and learns pattern-recognizing weights and biases from data to map i",
+    "last_updated": "2026-07-03"
+  },
+  "browserbased simulation": {
+    "canonical_name": "Browser-based simulation",
+    "entity_type": "technology",
+    "summary": "# Web-based simulation. **Web-based simulation** (**WBS**) is the invocation of computer simulation services over the World Wide Web, specifically through a web browser. Web-based simulation can take place either on the server side or on the client side. In *server-side simulation*, the numerical ca",
+    "last_updated": "2026-07-03"
+  },
+  "certiswap": {
+    "canonical_name": "CertiSwap",
+    "entity_type": "product",
+    "summary": "+ Learn more about the business software category you need. TOP SOFTWARE CATEGORIES   ACCOUNTING CONTENT MANAGEMENT ERP HUMAN RESOURCES CRM CONTRACT MANAGEMENT View all categories A-Z. ### Contract Management. # Icertis Contract Management: An Exclusive Product Review. Icertis outshines many of its",
+    "last_updated": "2026-07-03"
+  },
+  "blockchain": {
+    "canonical_name": "blockchain",
+    "entity_type": "technology",
+    "summary": "An official website of the United States government. A **.gov** website belongs to an official government organization in the United States. Image 9: Close Search  Image 10: Search. # Blockchain technology and application: an overview. For attribution, the original author(s), title, publication sour",
+    "last_updated": "2026-07-03"
+  },
+  "ai image cleaning": {
+    "canonical_name": "AI image cleaning",
+    "entity_type": "technology",
+    "summary": "# Guide to AI image cleaning. ## How to denoise images with AI. AI image cleaning is changing the way we restore and preserve photos. Using machine learning, AI can automatically clean up old or damaged images, removing unwanted noise while preserving delicate details. One example of AI image cleani",
+    "last_updated": "2026-07-03"
+  },
+  "photoweaver": {
+    "canonical_name": "PhotoWeaver",
+    "entity_type": "product",
+    "summary": "CUSTOM WOVEN BLANKETS MADE FROM YOUR PHOTOS. ## FROM PHOTO TO WOVEN THROW BLANKET. Choose your size and orientation, then check our **photo guide** for the best weaving results. Our textile mill weaves your photo using over 8 miles of 100% cotton thread. The throw is packaged, shipped, and on it's w",
+    "last_updated": "2026-07-03"
+  },
+  "ai object remover": {
+    "canonical_name": "AI Object Remover",
+    "entity_type": "technology",
+    "summary": "# A Detailed and Comprehensive Review of Object Remover. Have you ever taken a stunning photo only to be distracted by an unwanted object in the frame? Our in-depth review of Object Remover will show you how this remarkable tool can salvage your favorite shots.We will explore its unique features, se",
+    "last_updated": "2026-07-03"
+  },
+  "generative inpainting": {
+    "canonical_name": "generative inpainting",
+    "entity_type": "ai_model",
+    "summary": "We will dive into the first generative model for image inpainting in the literature (ie the first GAN-based inpainting algorithm, Context Encoders). # RESEARCH GUIDES. # Artificial Intelligence for Image Research. A guide on how to use Generative AI for image generation, editing, concept creation an",
+    "last_updated": "2026-07-03"
+  },
+  "contextaware": {
+    "canonical_name": "context-aware",
+    "entity_type": "technology",
+    "summary": "Context-aware computing refers to an application's capability to adjust and react based on the specific circumstances and environment in which it is used. - 1 - Introduction to This Special Issue on Context-Aware Computing Thomas P. observe that there have been numerous context-aware efforts, which",
+    "last_updated": "2026-07-03"
+  },
+  "photobomber": {
+    "canonical_name": "photobomber",
+    "entity_type": "material",
+    "summary": "This calico cutie is from Forever Friends Animal Rescue and she is a little darling! Artwork Ingredients: Painted polystyrene, plastic straws, You might be looking for one of these cards: Battlegrounds/Photobomber (golden). Photobomber is a Tavern Tier 5 minion in Battlegrounds. ## Contents. # Photo",
+    "last_updated": "2026-07-03"
+  },
+  "utility wires": {
+    "canonical_name": "utility wires",
+    "entity_type": "material",
+    "summary": "# Different Materials for Electrical Wire: Properties and Applications. The materials used to construct these wires directly impact their performance, safety, and suitability for different applications. Close-up view of different electrical wires made from copper, aluminum, and stranded materials ar",
+    "last_updated": "2026-07-03"
+  },
+  "blemishes": {
+    "canonical_name": "blemishes",
+    "entity_type": "material",
+    "summary": "# Blemishes. ### Visible sensor defects. **Blemishes** are visible spots or marks in the image, caused by sensor defects or by dust in front of the sensor (typically separated by the Bayer, anti-aliasing, and infrared (IR) filters). They are extremely important in manufacturing. They are measured by",
+    "last_updated": "2026-07-03"
+  },
+  "voynich manuscript": {
+    "canonical_name": "Voynich Manuscript",
+    "entity_type": "material",
+    "summary": "The Voynich Manuscript downloaded from www.holybooks.com: http://www.holybooks.com/voynich-manuscript-codex-serahinianus-pd/ www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks.com www.holybooks",
+    "last_updated": "2026-07-03"
+  },
+  "linguacryptum": {
+    "senses": [
+      {
+        "sense_label": "A phonetic reconstruction engine that treats symbols as vocal gestures rather than letters",
+        "summary": "Language technologies are information technologies that are specialized for dealing with the most complex information medium in our world: human language. Language technology is about “getting computers to do useful things with human language, whether in spoken or written form”. This page focuses ma",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "elusinhala": {
+    "canonical_name": "Elu-Sinhala",
+    "entity_type": "technology",
+    "summary": "Elu functions as the primary ancestral language to Sinhala, with both sharing key innovations such as the loss of aspiration in plosive consonants, 3rd century BCE Sri Lankan language; ancestor of Sinhalese and Dhivehi. **Eḷa**, also **Elu**, **Hela** or **Helu Prakrit**, was a Middle Indo-Aryan lan",
+    "last_updated": "2026-07-03"
+  },
+  "agent symphony": {
+    "canonical_name": "Agent Symphony",
+    "entity_type": "technology",
+    "summary": "Symphony is a sophisticated multi-agent software development framework designed to orchestrate AI agents in a structured, efficient workflow. Inspired by the coordination of a musical orchestra, Symphony enables specialized AI agents to collaborate on complex software projects through well-defined r",
+    "last_updated": "2026-07-03"
+  },
+  "skillmaxxing": {
+    "senses": [
+      {
+        "sense_label": "Company name for the multi-agent AI platform",
+        "summary": "# Raymond Gross. # Skill Maxxing 101. ### Why Two Weeks of “Nothing’s Clicking” Is Exactly How Your Brain Levels-Up. Most of us quit a new skill right before the wiring finishes. It takes roughly 14–21 days for those cells to grow dendritic spines, plug themselves into surrounding circuits, and star",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "multiagent ai systems": {
+    "canonical_name": "multi-agent AI systems",
+    "entity_type": "technology",
+    "summary": "2. Data and AI title Data and AI Services | Cognizant. Exploring Multi-agent AI Systems. # Exploring multi-agent AI systems for enterprise application. ### What is a multi-agent AI system? A multi-agent system is a network of AI agents that collaborate with each other and the user to support human d",
+    "last_updated": "2026-07-03"
+  },
+  "virtual ecosystem": {
+    "canonical_name": "virtual ecosystem",
+    "entity_type": "technology",
+    "summary": "# Welcome to the Virtual Ecosystem#. The Virtual Ecosystem is a project to develop a simulation of all of the major processes involved in a real ecosystem including the:. * growth and demographic processes of the primary producers within the forest,. * microclimatic processes within and around the e",
+    "last_updated": "2026-07-03"
+  },
+  "synapse cost compass": {
+    "canonical_name": "Synapse Cost Compass",
+    "entity_type": "product",
+    "summary": "Sunrise Compass is our series on all things Dynamics 365 and Power Platform! Azure Synapse combines multiple tools and products into a # Azure Synapse Pricing: A Complete Cost & Savings Guide. As a cloud cost optimization expert, I’ve seen firsthand how data analytics costs can spiral out of control",
+    "last_updated": "2026-07-03"
+  },
+  "ai api": {
+    "canonical_name": "AI API",
+    "entity_type": "technology",
+    "summary": "3. A comprehensive view of all AI APIs in 2026. *In today's rapidly evolving technological sphere, a multitude of AI APIs are available, each offering a diverse array of capabilities such as* *natural language processing**,* *computer vision**,* *speech recognition**, among others. The objective of",
+    "last_updated": "2026-07-03"
+  },
+  "token": {
+    "canonical_name": "Token",
+    "entity_type": "ai_model",
+    "summary": "# Tokens in AI Models. Tokens are the basic units of text that AI models, like those from OpenAI, use to process and generate language. Knowing what tokens are, how they are counted, and why they matter can help you manage costs and stay within model limits. Currently, I’m building a private **AI co",
+    "last_updated": "2026-07-03"
+  },
+  "menu bar": {
+    "canonical_name": "Menu bar",
+    "entity_type": "material",
+    "summary": "# Menus. Menus display a list of choices on a temporary surface. * Use a **menu** to show a temporary set of actions. The split button opens a menu to give people more options related to an action. * **Context menus** provide actions for a specific element, like an image or highlighted text, and usu",
+    "last_updated": "2026-07-03"
+  },
+  "synthweave protocol": {
+    "canonical_name": "SynthWeave Protocol",
+    "entity_type": "protocol",
+    "summary": "**Synthweave** is a type of currency in *Destiny 2*, introduced in *Season of the Splicer* as a part of the Armor Synthesis\") system. According to Ada-1, synthweave is programmable matter more sophisticated than Glimmer and developed by the Clovis Bray \"Clovis Bray (corporation)\") corporation. Ada-1",
+    "last_updated": "2026-07-03"
+  },
+  "pev framework": {
+    "canonical_name": "PEV Framework",
+    "entity_type": "framework",
+    "summary": "Robust policy should motivate PEV manufacturers through policy reforms, like a reformulated electric vehicle consumer tax credit. It should also The discussion highlights the opportunity to leverage federal investments in grid renovation and electric vehicle introduction to create system-wide value",
+    "last_updated": "2026-07-03"
+  },
+  "electrical harness design": {
+    "canonical_name": "electrical harness design",
+    "entity_type": "technology",
+    "summary": "In point of fact, the overall design of the harness is directly proportional to the durability and efficiency of the machine the harness is installed in. A wiring harness is a collection of wires, cables, and connectors that are bundled together in a specific arrangement to transmit electrical power",
+    "last_updated": "2026-07-03"
+  },
+  "embedded hardware architects": {
+    "canonical_name": "embedded hardware architects",
+    "entity_type": "person",
+    "summary": "#### Get Your Proof of Concept to Market in No Time. Hire embedded software architects from India who offer end-to-end solutions for software and hardware applications with flexible firmware and hardware. VE’s embedded specialists have hands-on experience in all aspects of embedded design. With acco",
+    "last_updated": "2026-07-03"
+  },
+  "productionline engineers": {
+    "canonical_name": "production-line engineers",
+    "entity_type": "person",
+    "summary": "Illuminating Engineering Society: The Lighting Authority. # Production Engineer Overview. # What Does A Production Engineer Do? ###### Get Production Engineer Jobs Emailed to You. By signing up, you agree to the terms of use  and privacy policy. ## Production Engineer Jobs. ### Electrical Project En",
+    "last_updated": "2026-07-03"
+  },
+  "exoharnessaipipeline": {
+    "canonical_name": "exo-harness-ai-pipeline",
+    "entity_type": "product",
+    "summary": "# Overview of Harness AI. The Harness Platform leverages Harness AI to revolutionize software delivery processes. By combining AI capabilities with robust DevOps tools, features, and practices, the Harness platform streamlines and accelerates the software delivery lifecycle, and it empowers teams to",
+    "last_updated": "2026-07-03"
+  },
+  "zeroconfiguration decision engine": {
+    "canonical_name": "zero-configuration decision engine",
+    "entity_type": "technology",
+    "summary": "Decisioning engines sit at the center of how modern businesses manage risk, approve customers, and act on data at scale. The manual processes they replace, whether in credit underwriting, fraud review, or customer segmentation, are slower, more error-prone, and harder to adapt as conditions change.",
+    "last_updated": "2026-07-03"
+  },
+  "ripplesight": {
+    "canonical_name": "RippleSight",
+    "entity_type": "product",
+    "summary": "Financial institutions-from small banks to large institutions- use Rippleshot's fraud tools to reduce and manage fraud risk proactively. ## Rippleshot helps financial institutions with fraud detection by identifying data breaches, high-risk merchants, and compromised cards. [Learn More](/use-cases/f",
+    "last_updated": "2026-07-03"
+  },
+  "ios": {
+    "canonical_name": "iOS",
+    "entity_type": "technology",
+    "summary": "iOS is a mobile operating system developed and distributed by Apple Inc. that runs on iPad, iPhone, and iPod touch devices. Mobile operating system by Apple. | iOS 27 home screen on an iPhone 17 Pro |. **iOS** (formerly **iPhone OS**) is a mobile operating system created and developed by Apple for i",
+    "last_updated": "2026-07-03"
+  },
+  "android": {
+    "canonical_name": "Android",
+    "entity_type": "technology",
+    "summary": "Android is an open-source operating system for mobile devices. It was developed by Google and includes features like an SDK for app development, multi-touch Android is an open source and Linux-based **Operating System** for mobile devices such as smartphones and tablet computers. Android offers a un",
+    "last_updated": "2026-07-03"
+  },
+  "simulator": {
+    "canonical_name": "simulator",
+    "entity_type": "technology",
+    "summary": "This eBook provides an overview of driving simulator technology and its use by automotive constructors. automotive-digital-designSimulation, in one form or another, has been part of the vehicle design and development process since the earliest days of the automotive industry. It is a shift in how au",
+    "last_updated": "2026-07-03"
+  },
+  "browser": {
+    "canonical_name": "browser",
+    "entity_type": "technology",
+    "summary": "# Web Browsers¶. A web browser is a software application which enables a user to display and. interact with text, images, videos, music, and other information that could be. Text and images on a web page can contain hyperlinks to other web. Web browsers allow a user to quickly. and easily access inf",
+    "last_updated": "2026-07-03"
+  },
+  "cloud": {
+    "canonical_name": "cloud",
+    "entity_type": "technology",
+    "summary": "Move your apps, data security, and IT support into our fully managed, all-in-one platform. One secure login for every app your firm uses. Keep your firm data safe with enhanced cybersecurity tools. Securely access and work in your QuickBooks files anytime, anywhere. Get secure, remote access to acco",
+    "last_updated": "2026-07-03"
+  },
+  "middleman": {
+    "canonical_name": "middleman",
+    "entity_type": "technology",
+    "summary": "Overview:\nVisit us at www.middleman.tv for more information.\n\nWebsite: https://www.middleman.tv/\nCrunchbase Url: N/A\nLinkedin Url: N/A\n\nIndustry:\nInformation Technology & Services\n\nCompany size:\n2-10 employees\n6 associated members (LinkedIn members who’ve listed Middleman Software, Inc. as their cur",
+    "last_updated": "2026-07-03"
+  },
+  "infrastructureagnostic": {
+    "canonical_name": "infrastructure-agnostic",
+    "entity_type": "technology",
+    "summary": "Our approach to infrastructure ensures compatibility with a wide range of environments, whether cloud-based or on-premises. A cloud-agnostic approach requires thoughtful consideration of the ways in which your infrastructure interacts with different cloud services. A cloud-agnostic infrastructure al",
+    "last_updated": "2026-07-03"
+  },
+  "private simulation streaming server": {
+    "canonical_name": "private simulation streaming server",
+    "entity_type": "technology",
+    "summary": "http://www.irphouse.com 530 Construction of a client-server scenario for the simulation of interactive video streaming services Wilmar Yesid Campo_Muñoz1, Gabriel Elías Chanchí Golondrino2 and Isabel Cristina Baos Prado3 1 Ph.D., Facultad de Ingeniería, Programa de Ingeniería Electrónica, Universida",
+    "last_updated": "2026-07-03"
+  },
+  "remote debugging": {
+    "canonical_name": "remote debugging",
+    "entity_type": "technology",
+    "summary": "Remote debugging is the process of debugging an application running on a machine that is not the developer's local environment, often over a Remote debugging is an application for the purpose of debugging by means of connecting the development environment with the application which has to be # Remot",
+    "last_updated": "2026-07-03"
+  },
+  "presentation walkthroughs": {
+    "canonical_name": "presentation walkthroughs",
+    "entity_type": "technology",
+    "summary": "Presentation technology refers to a wide range of applications that enable instructors to display information during a lecture. We'll explore a variety of software options like Microsoft PowerPoint, real-time essential hardware selections, and strategies for engaging your audience. ... help you succ",
+    "last_updated": "2026-07-03"
+  },
+  "collaborative testing": {
+    "canonical_name": "collaborative testing",
+    "entity_type": "technology",
+    "summary": "Overview:\nFounded in 1971, Collaborative Testing Services (CTS) is a leading proficiency testing provider that serves the evolving quality assurance needs of several industries with innovative interlaboratory proficiency testing. With worldwide clients in both the public and private sectors, we aim",
+    "last_updated": "2026-07-03"
+  },
+  "commercial relay services": {
+    "canonical_name": "commercial relay services",
+    "entity_type": "technology",
+    "summary": "### Solutions Overview. ### Space Services Overview. ### Network & Technology Overview. ### Insights Overview. ### News Overview. ### Company Overview. Reston, Va., 5 June 2024 – SES Space & Defense, a wholly-owned subsidiary of SES, today announced the successful demonstration of the first multi-or",
+    "last_updated": "2026-07-03"
+  },
+  "proprietary orchestrators": {
+    "canonical_name": "proprietary orchestrators",
+    "entity_type": "technology",
+    "summary": "What is a task runner? # What Is an Orchestrator? An orchestrator coordinates parts into a whole. In tech, it automates workflows across systems — data pipelines, infrastructure, AI, containers. An orchestrator is a person or system that coordinates multiple parts into a coherent whole. In music, an",
+    "last_updated": "2026-07-03"
+  },
+  "private network": {
+    "canonical_name": "private network",
+    "entity_type": "technology",
+    "summary": "Introduction. Private networks are wireless communication systems specifically designed to serve the exclusive needs of a particular organization or industry, A private network is a dedicated network that utilizes cellular connectivity (either 4G LTE or 5G standalone) within a defined geographic are",
+    "last_updated": "2026-07-03"
+  },
+  "latency": {
+    "canonical_name": "latency",
+    "entity_type": "technology",
+    "summary": "Latency is the delay between a request for data and its corresponding response, crucial in technology for efficient system performance and user **Latency** is the time it takes for a packet of data to travel from source to a destination. This article explains what latency is, how it impacts performa",
+    "last_updated": "2026-07-03"
+  },
+  "data": {
+    "canonical_name": "data",
+    "entity_type": "technology",
+    "summary": "Technology Data refers to the deep connection between the data produced and the technology used to create, collect, manage, access, and utilize it in the field Data are the core of every digital application and used in every form of human activity. They promote research in all sciences, contribute t",
+    "last_updated": "2026-07-03"
+  },
+  "github copilot": {
+    "canonical_name": "GitHub Copilot",
+    "entity_type": "ai_model",
+    "summary": "# Supported AI models in GitHub Copilot. Learn about the supported AI models in GitHub Copilot. * Supported AI models in Copilot. * Supported AI models in Auto model selection. The models available to you depend on your Copilot plan and where you're using Copilot, such as GitHub.com or an IDE. For a",
+    "last_updated": "2026-07-03"
+  },
+  "copilottunnelproxy": {
+    "canonical_name": "copilot-tunnel-proxy",
+    "entity_type": "technology",
+    "summary": "# CoPilot Proxy Servers. Use the CoPilot > Settings > Configuration > Private Mode > Settings page for CoPilot proxy server management. You configure the HTTP or HTTPS proxy fields when you want to run CoPilot only on internal IPs, and use a proxy to pass updates back to those IPs. In Private Mode,",
+    "last_updated": "2026-07-03"
+  },
+  "api translation and routing layer": {
+    "canonical_name": "API translation and routing layer",
+    "entity_type": "protocol",
+    "summary": "It uses JSON-RPC as the communication layer between an agent and any API. The translation happens at a point that receives the JSON-RPC requests ## API Routing Layers in financial services. Every end customer facing financial services product is built on a stack of vendors. An emergent strategy I’ve",
+    "last_updated": "2026-07-03"
+  },
+  "local ai api bridge": {
+    "canonical_name": "local AI API Bridge",
+    "entity_type": "technology",
+    "summary": "We read every piece of feedback, and take your input very seriously. ## Use saved searches to filter your results more quickly. ## Latest commit. ## Repository files navigation. # localAI. LocalAI is designed to bridge the gap where traditional tools fall short—offering access to web content, local",
+    "last_updated": "2026-07-03"
+  },
+  "taskmesh": {
+    "canonical_name": "TaskMesh",
+    "entity_type": "product",
+    "summary": "Sytas Office Chair Ergonomic Desk Chair Computer Task Mesh Chair Review, Comfy, and cool ... Go to channel Mike Healy Product Reviews · Sytas The mesh back task chair features a premium mesh material which has a unique woven technology that combines two critical elements – monofilament and This Cont",
+    "last_updated": "2026-07-03"
+  },
+  "htmlcss": {
+    "canonical_name": "HTML/CSS",
+    "entity_type": "technology",
+    "summary": "Recruiting Innovation > Resources > Front End Engineering > Intro to Front End Technologies: HTML, CSS, & JavaScript. # Intro to Front End Technologies: HTML, CSS, & JavaScript. In the world of software development, what’s built falls into two categories: everything that’s seen by the user and the p",
+    "last_updated": "2026-07-03"
+  },
+  "treeroot": {
+    "canonical_name": "TreeRoot",
+    "entity_type": "technology",
+    "summary": "Overview:\nWe are a non-profit dedicated to transforming digital deserts by bringing hackathon events directly to aspiring software engineers, innovative entrepreneurs, and digital creatives! Our multi-disciplined international team of tech enthusiasts is dedicated to uplifting underserved and overlo",
+    "last_updated": "2026-07-03"
+  },
+  "splashdown": {
+    "canonical_name": "splashdown",
+    "entity_type": "technology",
+    "summary": "Method of landing a spacecraft by parachute in a body of water. Locations of Pacific Ocean splashdowns of American spacecraft prior to the 21st century. **Splashdown** is the method of landing a spacecraft or launch vehicle in a body of water, usually by parachute. This has been the primary recovery",
+    "last_updated": "2026-07-03"
+  },
+  "git worktree": {
+    "canonical_name": "Git worktree",
+    "entity_type": "technology",
+    "summary": "# A Gentle Introduction to Git Worktree. That's why I decided to write a short tutorial/introduction on this awesome feature that is baked right into the very git you are already using. I hope this can help people discover worktrees and be a gentle introduction on how to get started using them. ## W",
+    "last_updated": "2026-07-03"
+  },
+  "multistage development environments": {
+    "canonical_name": "multi-stage development environments",
+    "entity_type": "technology",
+    "summary": "An **environment**, in the context of creating and deploying software, is the subset of infrastructure resources used to execute a program under specific constraints. Throughout the various stages of development, different environments are used to handle the requirements of the Development and Opera",
+    "last_updated": "2026-07-03"
+  },
+  "dataforge studio": {
+    "canonical_name": "DataForge Studio",
+    "entity_type": "company",
+    "summary": "DataForge, the Declarative Data Management platform, automates data transformation, orchestration, and observability. Dataforge Technologies is in the industry of: Business Services, Software Testing, Project Management How do I contact Dataforge Technologies? Dataforge A **12-week experiential prog",
+    "last_updated": "2026-07-03"
+  },
+  "ai developer tools": {
+    "canonical_name": "AI Developer Tools",
+    "entity_type": "technology",
+    "summary": "* How to Post to DZone. Join **DZone’s live Trend Talk** on **July 9** to explore how leading teams are preparing for what’s next. 4. A Complete Guide to Modern AI Developer Tools. Based on my previous articles exploring AI, machine learning, and generative AI, many developers have reached out to un",
+    "last_updated": "2026-07-03"
+  },
+  "caplet1989brokiesaifoundry": {
+    "senses": [
+      {
+        "sense_label": "This appears to be a repository or project name, making it ambiguous between a specific product and a general technology category",
+        "summary": "Top Free AI Developer Tools for 2026. Contribute to Caplet1989/Brokies-AI-Foundry development by creating an account on GitHub. # Azure AI Foundry. ## Lifecycle Support for your AI Solution. AI isn’t a single cloud service, it’s a collection of different technological components used to build intell",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "truestack": {
+    "canonical_name": "truestack",
+    "entity_type": "product",
+    "summary": "### TrueStack. 2. What’s new in TrueStack 2.0. * How to Add Computers and Connect Them. 6. Using TrueStack to manage Windows Active Directory computers. The TrueStack Server is a versatile VPN Self-hosted server solution designed to facilitate seamless VPN 2-way connections between Windows, Mac, or",
+    "last_updated": "2026-07-03"
+  },
+  "truestackorchestrate": {
+    "canonical_name": "truestack-orchestrate",
+    "entity_type": "technology",
+    "summary": "Our goal is to make it less expensive and easy for Admins and MSP to managed end-user devices by hosting their own TrueStack servers in their cloud and save on the cost of online services. Because our software runs in YOUR cloud. As an end-user, you have no access to their cloud so you can’t control",
+    "last_updated": "2026-07-03"
+  },
+  "mcp integration": {
+    "canonical_name": "MCP integration",
+    "entity_type": "protocol",
+    "summary": "**Model Context Protocol (MCP)** is an open standard that bridges AI models with external data and services, allowing Large Language Models (LLMs) to make structured API calls in a consistent, secure way. This post will introduce MCP, explain why it’s valuable for connecting AI systems, compare it t",
+    "last_updated": "2026-07-03"
+  },
+  "express": {
+    "canonical_name": "Express",
+    "entity_type": "technology",
+    "summary": "Overview. PCI Express* technology is the industry standard I/O interconnect expected to provide local I/O connectivity across desktop,. PCl Express® , short for Peripheral Component Interconnect Express, is a high-performance and high-bandwidth serial communication interconnect standard. First propo",
+    "last_updated": "2026-07-03"
+  },
+  "react": {
+    "canonical_name": "React",
+    "entity_type": "technology",
+    "summary": "# Understanding the Technology Behind React. In this article, I’ll give you a quick yet insightful introduction to React, breaking down its core technologies and explaining how it achieves its incredible speed and efficiency. React introduced the **Virtual DOM**, which made UI updates much faster by",
+    "last_updated": "2026-07-03"
+  },
+  "kestrelopenclaw": {
+    "canonical_name": "Kestrel-Openclaw",
+    "entity_type": "technology",
+    "summary": "What Is OpenClaw? - Explained for Beginners\nMetics Media\n632000 subscribers\n3059 likes\n205230 views\n6 Feb 2026\nSo, what is OpenClaw? How does it even work? In this beginner-friendly OpenClaw explained video, you’ll learn how OpenClaw works, why it’s useful, and how to get started.\n➡️ OpenClaw Setup",
+    "last_updated": "2026-07-03"
+  },
+  "personal devops": {
+    "canonical_name": "Personal DevOps",
+    "entity_type": "technology",
+    "summary": "DevOps practices enable software development (dev) and operations (ops) teams to accelerate delivery through automation, collaboration, fast feedback, and iterative improvement. By empowering all teams – Development, Operations, IT, Security, and Business – to collaboratively plan, build, secure, an",
+    "last_updated": "2026-07-03"
+  },
+  "coding ai": {
+    "canonical_name": "Coding AI",
+    "entity_type": "ai_model",
+    "summary": "**Try Gemini 3**, our best model for reasoning, coding, and multimodal understanding in Gemini Enterprise Agent Platform. # AI code generation. ## AI coding and code generation tools. Generate code snippets, functions, and algorithms in popular languages and frameworks like Python, JavaScript, and R",
+    "last_updated": "2026-07-03"
+  },
+  "selfextending agent": {
+    "canonical_name": "Self-extending agent",
+    "entity_type": "technology",
+    "summary": "What changes is who creates agents. Today, engineers do it at build time. In Genesis Mode, the system proposes agents at runtime. Humans approve SelfExtendingAgent is a full-stack agentic application built on Google's Agent Development Kit (ADK) that demonstrates a groundbreaking concept: an AI agen",
+    "last_updated": "2026-07-03"
+  },
+  "ai coding studio": {
+    "canonical_name": "AI coding studio",
+    "entity_type": "technology",
+    "summary": "Introducing the new full-stack vibe coding experience in Google AI Studio. [\"What's new in Android 17?\", \"What is the Google Home Speaker?\", \"How can I learn new AI skills?\"]. Start building real apps for the modern web with the Antigravity coding agent along with Firebase backend integrations, now",
+    "last_updated": "2026-07-03"
+  },
+  "boltnew": {
+    "canonical_name": "Bolt.new",
+    "entity_type": "product",
+    "summary": "# Bolt.new Review 2026: The AI App Builder That Thinks Like a Developer. Bolt.new is a no-code AI app builder that's less beginner-friendly than competitors, but still approachable and packed with features. * All About Cookies makes money when you click the links on our site to some of the products",
+    "last_updated": "2026-07-03"
+  },
+  "openrouter": {
+    "canonical_name": "OpenRouter",
+    "entity_type": "technology",
+    "summary": "For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page. # Principles. Core principles and values of OpenRouter. OpenRouter helps developers source and optimize AI usage. ## Why",
+    "last_updated": "2026-07-03"
+  },
+  "openai": {
+    "canonical_name": "OpenAI",
+    "entity_type": "technology",
+    "summary": "# What is OpenAI? Dive into the world of OpenAI and explore its features, benefits, and applications. This article provides an overview of OpenAI and its significance in the current landscape of the rapidly changing world of generative AI. ## Overview of OpenAI and its significance. OpenAI began as",
+    "last_updated": "2026-07-03"
+  },
+  "groq": {
+    "canonical_name": "Groq",
+    "entity_type": "technology",
+    "summary": "The architecture was originally introduced as a Tensor Streaming Processor (TSP) but was later rebranded as a Language Processing Unit (LPU) following the widespread adoption of large language models after the breakthrough of ChatGPT. In December 2025, Nvidia and Groq announced an agreement reported",
+    "last_updated": "2026-07-03"
+  },
+  "ollama": {
+    "canonical_name": "Ollama",
+    "entity_type": "technology",
+    "summary": "# Ollama Technology Overview and Insights. ## Uploaded by. AI-enhanced title and description. The document provides a comprehensive overview of the technology behind Ollama, detailing its architecture, key technologies, and use cases across various industries. It discusses the advantages and limitat",
+    "last_updated": "2026-07-03"
+  },
+  "vs code": {
+    "canonical_name": "VS Code",
+    "entity_type": "product",
+    "summary": "Visual Studio IDE   Visual Studio for Mac   Visual Studio Code. Visual Studio Products2025-12-08T11:44:56-08:00. Configure your ideal development environment with the Visual Studio family of products. Create 5-star apps in your favorite language, and deliver them to any platform. ## Products. #### V",
+    "last_updated": "2026-07-03"
+  },
+  "xtermjs": {
+    "canonical_name": "xterm.js",
+    "entity_type": "technology",
+    "summary": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. * **Terminal apps just work**: Xterm.js works with most terminal apps such as `bash`, `vim`, and `tmux`, including support for curses-based apps and mouse even",
+    "last_updated": "2026-07-03"
+  },
+  "yolov8": {
+    "canonical_name": "YOLOv8",
+    "entity_type": "ai_model",
+    "summary": "YOLOv8 is a robust machine learning algorithm with significant improvements. YOLOv8 is the newest model in the YOLO algorithm series – the most well-known family of object detection and classification models in the Computer Vision (CV) field. With the latest version, the YOLO legacy lives on by prov",
+    "last_updated": "2026-07-03"
+  },
+  "vehiclespeedestimation": {
+    "canonical_name": "Vehicle-Speed-Estimation",
+    "entity_type": "technology",
+    "summary": "Speed Estimation & Vehicle Tracking | Computer Vision | Open Source\nRoboflow\n69500 subscribers\n2555 likes\n88781 views\n10 Jan 2024\nLearn how to track and estimate the speed of vehicles using YOLO, ByteTrack, and Roboflow Inference. This comprehensive tutorial covers object detection, multi-object tra",
+    "last_updated": "2026-07-03"
+  },
+  "ahmedalquwaie": {
+    "canonical_name": "Ahmed-Alquwaie",
+    "entity_type": "person",
+    "summary": "Human Resources Manager at ADES SAUDI LIMITED - Advanced Energy Systems - CIPD ... Ahmed Alquwaie. Student at Faculty of Computer science and Artificial Ahmad Al-Quwaie\nThe Saudi National Bank - SNB\nAl Khobar, Eastern, Saudi Arabia\n500 connections, 757 followers\n\n\nAbout\nSenior corporate relationship",
+    "last_updated": "2026-07-03"
+  },
+  "vidaemmovimento": {
+    "canonical_name": "VidaEmMovimento",
+    "entity_type": "product",
+    "summary": "### Vida em Movimento. “Vida em Movimento” é um documentário longa metragem que discute o estilo de vida pós-moderno adotado por inúmeras sociedades em todas as grandes metrópoles mundiais. O filme trata das complicações decorrentes da falta de movimento cotidiano que, pela primeira vez na história",
+    "last_updated": "2026-07-03"
+  },
+  "pyside6": {
+    "canonical_name": "PySide6",
+    "entity_type": "technology",
+    "summary": "We use cookies to understand how people use this site. Next: Jul 13Rio de Janeiro icon. Organizers: Douglas +2São Paulo icon. Next: Jul 30Ribeirão Preto icon. Organizers: Rodrigo Silva +2Curitiba icon. # PySide6. PySide6 is the official Python library from The Qt Company, delivering direct access to",
+    "last_updated": "2026-07-03"
+  },
+  "interação humanocomputador": {
+    "senses": [
+      {
+        "sense_label": "Refers to the academic field and course where this project was developed",
+        "summary": "# Human–computer interaction. A computer monitor provides a visual interface between the machine and the user. **Human–computer interaction** (**HCI**) is the process through which people operate and engage with computer systems. Research in HCI covers the design and the use of computer technology,",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "geovanblasius": {
+    "canonical_name": "GeovanBlasius",
+    "entity_type": "person",
+    "summary": "Blasius relied on logic in order to solve this problem and to enable the application of mathematics in dealing with natural philosophy problems. Jörg Blasius (born 1957) is a German sociologist, and Professor at the Institute of Political Science and Sociology of the University of Bonn. In this hist",
+    "last_updated": "2026-07-03"
+  },
+  "ai face mask detection": {
+    "canonical_name": "AI Face Mask Detection",
+    "entity_type": "technology",
+    "summary": "Face mask detection is an Artificial Intelligence (AI) analytic solution that leverages algorithms and deep learning technology to recognize the difference. 5. Real-Time Face Mask Detection: Real-time face mask detection systems have been developed to process video streams in real-time and provide 1",
+    "last_updated": "2026-07-03"
+  },
+  "tensorflow": {
+    "canonical_name": "TensorFlow",
+    "entity_type": "technology",
+    "summary": "TensorFlow is an open-source platform designed for deep learning and machine learning, enabling users to train models for tasks like image recognition and digit classification. Key features include flexibility, quick debugging, and support for both CPU and GPU training, while components such as tens",
+    "last_updated": "2026-07-03"
+  },
+  "convolutional neural network": {
+    "canonical_name": "Convolutional Neural Network",
+    "entity_type": "technology",
+    "summary": "Convolutional neural network is the most widely used deep learning model in feature learning for large-scale image classification and recognition. # Convolutional Neural Network. A convolutional neural network (CNN or ConvNet) is a network architecture for deep learning that learns directly from dat",
+    "last_updated": "2026-07-03"
+  },
+  "sai keerthi": {
+    "canonical_name": "Sai Keerthi",
+    "entity_type": "person",
+    "summary": "Sai Keerthi brings with her web development experience from various companies and experience in database technology where she worked for Cognizant that is based Sai Keerthi Vadnala\nDeloitte\nCincinnati, Ohio, United States\n500 connections, 1261 followers\n\n\nAbout\nI’m a results-driven Data Professional",
+    "last_updated": "2026-07-03"
+  },
+  "apilshrestha": {
+    "canonical_name": "Apil-Shrestha",
+    "entity_type": "researcher",
+    "summary": "## Quick Links menu. ## Quick Links. on campus, but also in his homeland Nepal where he volunteers in various activities. in training researchers and students in weed science research and education and agricultural. Since arriving on campus in 2008, Shrestha has shared his knowledge with Fresno Stat",
+    "last_updated": "2026-07-03"
+  },
+  "echolingua": {
+    "senses": [
+      {
+        "sense_label": "A rigorous, open-source framework that quantifies token-to-meaning ratio across languages",
+        "summary": "# Echo AI. A generative AI-native Conversation Intelligence platform that transforms customer conversations into actionable insights to drive business growth. Echo AI is the first generative AI-native Conversation Intelligence platform designed to analyze every customer interaction across various ch",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "tokenefficiencylex": {
+    "senses": [
+      {
+        "sense_label": "A living benchmark repository for measuring token efficiency across languages",
+        "summary": "# What Is Token Efficiency? This guide breaks down where AI teams lose the most money and how to get ahead of it. Most teams I have worked with had no idea what their AI features actually cost to run until the bill showed up and made it very clear. And most of that spending is invisible until it is",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "english": {
+    "senses": [
+      {
+        "sense_label": "English language used as a reference for token cost parity analysis",
+        "summary": "ABSTRACT. The aim of this work is to discuss some aspects related to the use of new technologies in the teaching and learning of English. In this chapter, we will explore some of the educational technologies in ELT, with a focus on the latest developments in CALL and AI that have implications for In",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "japanese": {
+    "senses": [
+      {
+        "sense_label": "Japanese language used as a reference for token cost parity analysis",
+        "summary": "Japan is a technologically advanced nation known for its contributions to electronics, robotics, and transportation. The country has a rich history of * Japanese Technology: How it shaped the world. Japan is a country that’s historically been closely identified with technology. We are so accustomed",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "chinese": {
+    "senses": [
+      {
+        "sense_label": "Chinese language used as a reference for token cost parity analysis",
+        "summary": "epic.org EPIC-19-09-11-NSCAI-FOIA-20200331-3rd-Production-pt9 000534 Chinese Tech Landscape Overview NSCAI Presentation E P , c -,,,,_ ,,,_ ,,,,,, May 2019 epic.org EPIC-19-09-11-NSCAI-FOIA-20200331-3rd-Production-pt9 000535 \"Core tech\" vs. EPIC-2019-001-000603 epic.org EPIC-19-09-11-NSCAI-FOIA-2020",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "tokentomeaning ratio": {
+    "senses": [
+      {
+        "sense_label": "Metric measuring the ratio of tokens to semantic payload in multilingual LLMs",
+        "summary": "# Return on Token. Every era of business has had a denominator. The metric that mattered was never just the profit on top. It was always profit *divided by the scarce thing underneath* — the input that was hard to get, expensive to hold, and dangerous to waste. For a century, that denominator was **",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "ragless": {
+    "canonical_name": "RAGless",
+    "entity_type": "technology",
+    "summary": "# RAGless AI for Customer Support: A New Standard for Accuracy, Safety, and Scale. The failure of Retrieval-Augmented Generation (RAG) in enterprise support has become too costly to ignore. In 2024 alone, over $2.3B was spent on RAG implementations - yet more than 87% failed to achieve meaningful re",
+    "last_updated": "2026-07-03"
+  },
+  "qa pairs": {
+    "canonical_name": "Q&A pairs",
+    "entity_type": "technology",
+    "summary": "Abstract - This paper presents a novel approach to creating a personalized Question and Answer (Q&A) generator using Natural Language Processing (NLP) and LangChain, a framework designed for integrating large language models (LLMs) into web applications. The study focuses on how NLP techniques and t",
+    "last_updated": "2026-07-03"
+  },
+  "semantic retrieval system": {
+    "canonical_name": "semantic retrieval system",
+    "entity_type": "technology",
+    "summary": "# Semantic Retrieval. **Semantic Retrieval is a framework designed for enterprises to connect data to LLMs in a safe and systematic way.**. It provides a scalable approach to Retrieval Augmented Generation (RAG) that works over both structured and unstructured data, and propagates role-based access",
+    "last_updated": "2026-07-03"
+  },
+  "eu ai act": {
+    "canonical_name": "EU AI Act",
+    "entity_type": "regulation",
+    "summary": "# Artificial Intelligence Act. | European Union regulation \"Regulation (European Union)\") |. The **Artificial Intelligence Act** (**AI Act**) is a European Union regulation \"Regulation (European Union)\") concerning artificial intelligence (AI). It establishes a common regulatory and legal framework",
+    "last_updated": "2026-07-03"
+  },
+  "eurlex": {
+    "canonical_name": "EUR-Lex",
+    "entity_type": "protocol",
+    "summary": "Chronological overview · Legal acts · Consolidated texts · International agreements ... Protocol (No 1) on the role of National Parliaments in the European Union. Official website of EU Law and documents. | Eur-Lex logo Access to European Union law |. | Available in | Official languages of the EU |.",
+    "last_updated": "2026-07-03"
+  },
+  "azizamarieuaiact": {
+    "canonical_name": "azizamari/euaiact",
+    "entity_type": "company",
+    "summary": "# AI Solutions. Transforming Business Operations with Custom AI Systems, Advanced Machine Learning, and Scalable Intelligence Solutions. Developed onboard-AI systems for celestial navigation and efficient star tracking with optimized inference for spacecraft positioning. Developed a B2B solution for",
+    "last_updated": "2026-07-03"
+  },
+  "localmind": {
+    "canonical_name": "LocalMind",
+    "entity_type": "product",
+    "summary": "Localmind is a location-based information platform providing real-time answers for destination-related queries. Acquired by. Airbnb # LocalMind: Offline AI Talk. On-device private chat & voice. Your AI, your device, your privacy. Enjoy instant chat & voice AI offline with powerful on-device LLMs. Lo",
+    "last_updated": "2026-07-03"
+  },
+  "bert": {
+    "canonical_name": "BERT",
+    "entity_type": "ai_model",
+    "summary": "Transformer models and BERT model: Overview\nGoogle Cloud Tech\n1390000 subscribers\n2834 likes\n167747 views\n5 Jun 2023\nWatch this video to learn about the Transformer architecture and the Bidirectional Encoder Representations from Transformers (BERT) model. You learn about the main components of the T",
+    "last_updated": "2026-07-03"
+  },
+  "allminilml6v2": {
+    "senses": [
+      {
+        "sense_label": "This refers to the specific BERT model variant used in LocalMind, which is a lightweight version of BERT designed for efficient semantic search. In the context of LocalMind, it's the specific model that's used to embed documents into vectors for semantic search.",
+        "summary": "## Level Up Coding. # ALL-MiniLM‑L6‑v2 Explained: The Lightweight Transformer That Delivers BERT‑Level Accuracy in Milliseconds. ## Built on Microsoft’s MiniLM, Fine-Tuned by Hugging Face, Perfect for Vector Databases and Fast Embeddings. In the fast-evolving world of Natural Language Processing (NL",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "rust": {
+    "canonical_name": "Rust",
+    "entity_type": "technology",
+    "summary": "Rust Tutorial #1 - Introduction To Rust Programming\nTech With Tim\n2040000 subscribers\n11415 likes\n602637 views\n9 May 2022\nWelcome to a brand new series on my channel! I'm super excited about this series because I am going to be covering the Rust programming language! Rust is a great programming lang",
+    "last_updated": "2026-07-03"
+  },
+  "pinecone": {
+    "senses": [
+      {
+        "sense_label": "In this context, Pinecone refers to a cloud-based vector database service. It's mentioned as a comparison point for LocalMind, which is a local alternative that doesn't require external services.",
+        "summary": "With a 99.95% uptime SLA, Pinecone is trusted by leading startups and enterprises for their production AI applications.### Secure. Data is encrypted at rest and in transit. Control access to your data with SSO, RBAC, Private Endpoints, Customer-managed encryption keys, and more. Dense IndexDense ind",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "qdrant": {
+    "senses": [
+      {
+        "sense_label": "Qdrant is another cloud-based vector database service. Like Pinecone, it's mentioned as an alternative to LocalMind's local approach.",
+        "summary": "* Understanding Vector Search in Qdrant. * Relevance Feedback Retrieval in Qdrant. * Build a Semantic Search API. * Build a Hybrid Search API. Whether you’re getting started with Qdrant Open-Source or Cloud, this brief primer will help you with understanding an overview of the platform. **It’s highl",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "weaviate": {
+    "senses": [
+      {
+        "sense_label": "Weaviate is an open-source vector database. It's mentioned as one of the cloud-based alternatives to LocalMind's local approach.",
+        "summary": "Discover production-ready agents, integrations, and tools to build faster with Weaviate. ### Introducing Weaviate Agents. Query, improve, and augment your data with agentic workflows. ## AI Database. Weaviate’s **open source AI database** can be self-hosted or run as a managed service in Weaviate Cl",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "pgvector": {
+    "senses": [
+      {
+        "sense_label": "pgvector is an extension for PostgreSQL that adds vector support. It's mentioned as a cloud-based alternative to LocalMind's local approach.",
+        "summary": "A PostgreSQL extension for storing and searching vector embeddings natively within your existing database. * pgvector is a PostgreSQL extension that enables vector storage and similarity search directly within Postgres, eliminating the need for a separate vector database for most AI use cases like s",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "simd": {
+    "canonical_name": "SIMD",
+    "entity_type": "technology",
+    "summary": "SIMD is a microarchitecture technique used in processors to enhance performance by executing a single instruction on multiple data elements simultaneously. # Single instruction, multiple data. **Single instruction, multiple data** (**SIMD**) is a type of parallel computing (processing) in Flynn's ta",
+    "last_updated": "2026-07-03"
+  },
+  "tui": {
+    "canonical_name": "TUI",
+    "entity_type": "technology",
+    "summary": "Overview:\nTui Technology is a factory automation specialist providing production solutions and knowledge to customers across a broad range of industries throughout Australasia. We are at the forefront of technology and its applications, with world-class capability in machine intelligence.\n\nWebsite:",
+    "last_updated": "2026-07-03"
+  },
+  "fake news detection": {
+    "canonical_name": "Fake News Detection",
+    "entity_type": "technology",
+    "summary": "# An overview of fake news detection: From a new perspective. •This survey summarizes three intrinsic characteristics of fake news by analyzing its entire diffusion process, namely intentional creation, heteromorphic transmission, and controversial reception, which provides a new perspective to over",
+    "last_updated": "2026-07-03"
+  },
+  "nlp": {
+    "canonical_name": "NLP",
+    "entity_type": "technology",
+    "summary": "Natural language processing (NLP) is a subfield of computer science and [artificial intelligence (AI)](https://www.ibm.com/think/topics/artificial-intelligence) that uses [machine learning](https://www.ibm.com/think/topics/machine-learning) to enable computers to understand and communicate with huma",
+    "last_updated": "2026-07-03"
+  },
+  "tfidf": {
+    "canonical_name": "TF-IDF",
+    "entity_type": "technology",
+    "summary": "# An Introduction to TF-IDF: What It Is & How to Use It. TF-IDF is a statistical method commonly used in information retrieval and natural language processing. It’s an important concept for understanding how search engines analyze web content and identify key terms that can be associated with search",
+    "last_updated": "2026-07-03"
+  },
+  "random forest": {
+    "canonical_name": "Random Forest",
+    "entity_type": "technology",
+    "summary": "A random forest is a machine learning model utilized in classification and forecasting. To train machine learning algorithms and artificial intelligence models, A random forest is an artificial intelligence algorithm based on machine learning , which can be applied across the board to turn disparate",
+    "last_updated": "2026-07-03"
+  },
+  "streamlit": {
+    "canonical_name": "Streamlit",
+    "entity_type": "technology",
+    "summary": "## Who We Are. We are a UK consultancy who specialise in Data, Analytics, AI, and Cloud Native App Dev on Microsoft Fabric, Databricks & Azure. ## What We Do. We help small teams achieve big things! Whether a global brand, or an ambitious scale-up, we help the small teams who power them, to achieve",
+    "last_updated": "2026-07-03"
+  },
+  "janvi chauhan": {
+    "canonical_name": "Janvi Chauhan",
+    "entity_type": "person",
+    "summary": "Jahnvi Chauhan is an accomplished Indian actress known for her work in Gujarati cinema and theatre. Born in Pune, she completed her schooling at Modern High Jahnvi Chauhan is an actor who is best known for Dhan Dhatuti Patuti (2021). Filmography (4). Behadd. 20 Feb, 2026, Gujarati. Bachu Ni Benpani.",
+    "last_updated": "2026-07-03"
+  },
+  "linkedin": {
+    "canonical_name": "LinkedIn",
+    "entity_type": "organization",
+    "summary": "# LinkedIn Corp - Company Profile. All the sales intelligence you need on LinkedIn Corp in one solution. * Understand how LinkedIn Corp fits into your total. when and how to engage with LinkedIn Corp. # LinkedIn Corp: Overview. LinkedIn Corp (LinkedIn), a subsidiary of Microsoft Corp, is an online p",
+    "last_updated": "2026-07-03"
   }
 }
