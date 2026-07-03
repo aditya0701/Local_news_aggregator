@@ -194,6 +194,28 @@ def _parse_json_response(raw: str | None) -> dict | None:
     return None
 
 
+_META_COMMENTARY = re.compile(
+    r"^(let me|here'?s?\b|i'?ll\b|i will\b|i need\b|let'?s\b|note:|"
+    r"here is|here are|revised|rewriting|rewrite|one more time|"
+    r"please note|this is|above is)",
+    re.IGNORECASE,
+)
+
+
+def _is_meta_line(line: str) -> bool:
+    """Return True if the line looks like model self-commentary, not article text."""
+    stripped = line.strip()
+    if not stripped:
+        return False
+    # Lines that are mostly ASCII in a Hindi article are likely meta-commentary
+    hindi_chars = sum(1 for c in stripped if "ऀ" <= c <= "ॿ")
+    ascii_chars = sum(1 for c in stripped if c.isascii() and c.isalpha())
+    if ascii_chars > 6 and hindi_chars == 0:
+        if _META_COMMENTARY.match(stripped):
+            return True
+    return False
+
+
 def _parse_labeled_text(raw: str | None) -> dict | None:
     """Parse Stage 3 labeled-text output into a dict of article fields."""
     if not raw:
@@ -210,10 +232,19 @@ def _parse_labeled_text(raw: str | None) -> dict | None:
                 break
         if not matched and current:
             stripped = line.strip()
-            if stripped:
+            if stripped and not _is_meta_line(stripped):
                 fields[current].append(stripped)
 
-    result = {k: " ".join(v).strip() for k, v in fields.items()}
+    def _trim_to_last_sentence(text: str) -> str:
+        """If text ends mid-sentence (no terminal punctuation), trim to last complete sentence."""
+        if not text or text[-1] in "।.!?":
+            return text
+        for punct in reversed(range(len(text))):
+            if text[punct] in "।.!?":
+                return text[:punct + 1].strip()
+        return text
+
+    result = {k: _trim_to_last_sentence(" ".join(v).strip()) for k, v in fields.items()}
     if not result.get("TITLE") or not result.get("LEDE"):
         return None
 
