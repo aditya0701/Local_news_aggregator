@@ -129,13 +129,10 @@
     "last_updated": "2026-07-02"
   },
   "v600": {
-    "senses": [
-      {
-        "sense_label": "version number of the Podman technology",
-        "summary": "Description: New settings for Bot Persona and reply style let you create a more personalized and engaging chatbot. Applicable editions: Qianwen 0.0 release is dedicated to the STM32MP1 series, the STM32MP23x lines and the STM32MP25x lines . It is a major release, based on new community components Co",
-        "last_updated": "2026-07-02"
-      }
-    ]
+    "canonical_name": "v6.0.0",
+    "entity_type": "version",
+    "summary": "The Kamailio SIP Server Project. # Kamailio v6.0.0 Release Notes. ***January 29, 2025**: **Kamailio SIP Server v6.0.0** has been released – this is a major release, meaning that it is introducing a consistent number of new features as well as improvements to existing components. The increment of the",
+    "last_updated": "2026-07-03"
   },
   "github": {
     "canonical_name": "GitHub",
@@ -2203,5 +2200,95 @@
     "entity_type": "organization",
     "summary": "# LinkedIn Corp - Company Profile. All the sales intelligence you need on LinkedIn Corp in one solution. * Understand how LinkedIn Corp fits into your total. when and how to engage with LinkedIn Corp. # LinkedIn Corp: Overview. LinkedIn Corp (LinkedIn), a subsidiary of Microsoft Corp, is an online p",
     "last_updated": "2026-07-03"
+  },
+  "safari mcp server": {
+    "canonical_name": "Safari MCP server",
+    "entity_type": "technology",
+    "summary": "# MCP Safari Server. Allows execution of JavaScript code within the current page context in Safari, as well as monitoring JavaScript errors, console logs, and interacting with DOM elements through JavaScript. Provides programmatic control of Safari browser on macOS, enabling navigation, JavaScript e",
+    "last_updated": "2026-07-03"
+  },
+  "safari technology preview 247": {
+    "canonical_name": "Safari Technology Preview 247",
+    "entity_type": "product",
+    "summary": "# Release Notes for Safari Technology Preview 247. Safari Technology Preview Release 247 is now available for download for macOS Golden Gate and macOS Tahoe. * Fixed VoiceOver jumping to the top of the page when navigating to an element that immediately becomes accessibility-ignored via JavaScript.",
+    "last_updated": "2026-07-03"
+  },
+  "web developers": {
+    "canonical_name": "Web developers",
+    "entity_type": "person",
+    "summary": "Web developers: The masterminds behind the internet! They're the brains behind how websites look, feel, and function. Learn more about web developers' critical role in the tech industry and how you can get started creating layouts, understanding color theory, and using web design software. A web dev",
+    "last_updated": "2026-07-03"
+  },
+  "model context protocol": {
+    "canonical_name": "Model Context Protocol",
+    "entity_type": "protocol",
+    "summary": "*   [Specification](https://modelcontextprotocol.io/specification/2025-06-18). *   [Architecture](https://modelcontextprotocol.io/specification/2025-06-18/architecture). *   [Overview](https://modelcontextprotocol.io/specification/2025-06-18/basic). *   [Authorization](https://modelcontextprotocol.i",
+    "last_updated": "2026-07-03"
+  },
+  "dom": {
+    "canonical_name": "DOM",
+    "entity_type": "technology",
+    "summary": "# Digital Optical Monitoring: Out in the Field, It’s All About the Optics. ***Digital Optical Monitoring (DOM) is a technology that allows technicians to monitor the health of individual optical transceivers in real time. It’s basically a tool for system-wide optical monitoring that can also recomme",
+    "last_updated": "2026-07-03"
+  },
+  "network requests": {
+    "canonical_name": "network requests",
+    "entity_type": "technology",
+    "summary": "# Understanding & Debugging Network Requests | by Kait Hoehne | Medium. # Understanding & Debugging Network Requests. When something went wrong with a network request, I quickly ran out of tools in my debugging tool kit. I wasn’t sure how to understand or explore network request issues in the applic",
+    "last_updated": "2026-07-03"
+  },
+  "screenshots": {
+    "canonical_name": "screenshots",
+    "entity_type": "material",
+    "summary": "Better banking operations start with confident employees. Reduce training and escalations with better knowledge. Empower expert employees with Knowledge Ops. Train and onboard faster with Find & Follow. Learn the behaviors, tools, and teams of a Knowledge Operations Strategy. See how teams are thriv",
+    "last_updated": "2026-07-03"
+  },
+  "console output": {
+    "canonical_name": "console output",
+    "entity_type": "material",
+    "summary": "Console output serves as a window into the execution flow of a program. In complex systems, understanding how different components interact and Console Output#. To make development a more pleasurable experience, structlog comes with the structlog.dev module. The highlight is structlog.dev. Console.O",
+    "last_updated": "2026-07-03"
+  },
+  "contributors": {
+    "senses": [
+      {
+        "sense_label": "In this context, contributors refers to the people who helped make the Podman v6.0.0 release possible, not necessarily specific individuals or organizations",
+        "summary": "### From commitment to connection: 200,000 grants in the scholarly record. Funding is one of the key enablers of the research lifecycle, but has been one of the hardest parts of the scholarly record to identify, describe and connect. This is slowly changing as we have recently reached a very excitin",
+        "last_updated": "2026-07-03"
+      }
+    ]
+  },
+  "mythosharness": {
+    "canonical_name": "Mythos-Harness",
+    "entity_type": "product",
+    "summary": "## Mozilla Mythos Harness: AI Bug Hunting Without The Slop. Inside the agentic loop Mozilla wrapped around Mythos to surface 271 Firefox bugs, and why the harness mattered more than the model. **TL;DR:** Mozilla wrapped Claude Mythos Preview in an agentic harness with one win condition: trip the san",
+    "last_updated": "2026-07-03"
+  },
+  "claude opus 47": {
+    "canonical_name": "Claude Opus 4.7",
+    "entity_type": "ai_model",
+    "summary": "# Claude Opus 4.7 Review: What Actually Changed and What Got Worse. Opus 4.7 fixes agentic persistence and boosts coding benchmarks but regresses on web research and costs more due to a new tokenizer. Claude Opus 4.7 is a meaningful step forward for agentic coding workflows. It fixes a persistent is",
+    "last_updated": "2026-07-03"
+  },
+  "cicd pipeline": {
+    "canonical_name": "CI/CD pipeline",
+    "entity_type": "technology",
+    "summary": "A fast and reliable CI/CD pipeline is crucial for doing that sustainably over time. A CI/CD pipeline is an automated process that allows teams to quickly develop, test, and deploy applications. It integrates **continuous integration (CI)**—where developers frequently merge and test code changes in a",
+    "last_updated": "2026-07-03"
+  },
+  "belialberu4ossexoharnessaipipeline": {
+    "canonical_name": "belialberu4-oss/exo-harness-ai-pipeline",
+    "entity_type": "organization",
+    "summary": "We read every piece of feedback, and take your input very seriously. ## Repository files navigation. **SynthWeave Protocol** reimagines the harness development lifecycle as a single, self-validating, AI-augmented stream. Built as a zero-configuration decision engine for both embedded hardware archit",
+    "last_updated": "2026-07-03"
+  },
+  "synthweave": {
+    "senses": [
+      {
+        "sense_label": "Company behind the SynthWeave Protocol solution, not to be confused with the protocol itself",
+        "summary": "SynthWeave builds context infrastructure for AI-native teams. We help high-value service firms, from strategy consultancies to creative agencies, **Synthweave** is a type of currency in *Destiny 2*, introduced in *Season of the Splicer* as a part of the Armor Synthesis\") system. According to Ada-1,",
+        "last_updated": "2026-07-03"
+      }
+    ]
   }
 }
