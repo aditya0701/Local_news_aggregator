@@ -2290,5 +2290,35 @@
         "last_updated": "2026-07-03"
       }
     ]
+  },
+  "power automate": {
+    "canonical_name": "Power Automate",
+    "entity_type": "product",
+    "summary": "Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. # Plan and prepare for Power Automate in 2025 release wave 1. The 2025 release wave 1 plan covers all new functionalities planned to be delivered to market from April 2025 to September 2025.",
+    "last_updated": "2026-07-03"
+  },
+  "microsoft": {
+    "canonical_name": "Microsoft",
+    "entity_type": "company",
+    "summary": "Microsoft   About     Overview Facts News Office Locations Procurement Legal Contact Us   Overview Board of directors Senior Leadership Stories Alumni Network   Overview innovation Diversity & Inclusion Corporate Social Responsibility AI Trustworthy Computing  Careers     Microsoft 365 Office Azure",
+    "last_updated": "2026-07-03"
+  },
+  "accessibility": {
+    "canonical_name": "Accessibility",
+    "entity_type": "technology",
+    "summary": "“Assistive technology” is a term that describes electronic solutions that enable people with disabilities to live independently. People experiencing blindness can hear computer-screen text, for example, and people with visual impairments can enlarge text, in order to enable independent reading. Ther",
+    "last_updated": "2026-07-03"
+  },
+  "blind client": {
+    "canonical_name": "blind client",
+    "entity_type": "person",
+    "summary": "A blind person is defined as an individual who lacks the ability to see, typically requiring alternative means such as text-to-speech or Braille to access Consider interaction: • Face and address the patient directly. OUTPATIENT CARE TEAM Caring for Patients Who are Blind or Visually Impaired Consid",
+    "last_updated": "2026-07-03"
+  },
+  "inhouse accessibility specialist": {
+    "canonical_name": "in-house accessibility specialist",
+    "entity_type": "person",
+    "summary": "A work from home digital accessibility specialist is a professional who ensures that websites, applications, and digital content are accessible to peop. # Unraveling the Diversity of Digital Accessibility Job Titles. Digital accessibility is an immense subject, and jobs within the accessibility spac",
+    "last_updated": "2026-07-03"
   }
 }
