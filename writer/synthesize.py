@@ -112,9 +112,13 @@ DEEP_DIVE_AND_CONTEXT: <core of the article — mechanics, numbers, who said wha
 STRATEGIC_ANALYSIS: <connect to the broader ecosystem per the instruction above>
 CONCLUSION_AND_SIGNIFICANCE: <what this means for the reader or developer; end with a strong closing line>
 
-Rules:
-- लेख पूरी तरह हिंदी में लिखें। (Write the entire article in Hindi — every word of every section.)
-- Transliterate technical terms: हिंदी (English) — e.g. ओपन सोर्स (Open Source)
+Language rules (CRITICAL — violations make the article unpublishable):
+- हर वाक्य हिंदी में लिखें — क्रिया, संयोजन, विशेषण सब हिंदी में। English ONLY in parentheses for proper nouns and technical terms with no Hindi equivalent.
+- CORRECT: "स्वायत्त एजेंट (Autonomous Agent) एक सरल निर्णय-चक्र पर काम करते हैं।"
+- WRONG: "Individual agents बहुत simple हैं और एक perceive-deliberate-act loop follow करते हैं।"
+- WRONG: "यह एक emerging field है जो complex behaviors को explore करती है।"
+- Technical terms: write Devanagari transliteration first, English in brackets — e.g. मेमोरी स्टोर (Memory Store), गवर्नेंस सिस्टम (Governance System)
+- Never write raw English words mid-sentence as if they were Hindi words
 - Never translate or closely paraphrase source sentences — write fresh Hindi sentences from the facts
 - Do not add any fact not present in the provided sources
 - Hedge all predictions: हो सकता है, संभावना है — never state predictions as fact
