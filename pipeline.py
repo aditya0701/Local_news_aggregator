@@ -11,7 +11,7 @@ from collectors.rss_collector import fetch_feed
 from translator.translate import translate_item
 from writer.cluster import group_by_topic
 from writer.entity_cache import load_cache
-from writer.synthesize import get_run_traces, synthesize_article
+from writer.synthesize import SKIP, get_run_traces, synthesize_article
 
 load_dotenv()
 
@@ -59,6 +59,8 @@ def run(language: str = "hindi") -> None:
     translated = []
     for cluster in group_by_topic(deduped):
         synthesized = synthesize_article(cluster, language)
+        if synthesized is SKIP:
+            continue  # actively rejected — do not fall back to translation
         if synthesized is not None:
             article_id = _article_id("|".join(sorted(synthesized["sources"])))
             synthesized["id"] = article_id

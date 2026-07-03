@@ -339,6 +339,10 @@ def _stage3_write_article(
 # Sarvam orchestrator  +  per-run trace
 # ---------------------------------------------------------------------------
 
+# Sentinel: article was actively rejected (not a processing failure).
+# Pipeline must NOT fall back to machine translation for these.
+SKIP = object()
+
 _run_traces: list[dict] = []
 
 
@@ -376,7 +380,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         print(f"  SKIP   : {msg}")
         trace["outcome"] = "skipped_no_content"
         _run_traces.append(trace)
-        return None
+        return SKIP
 
     # ------------------------------------------------------------------
     # Stage 1: entity extraction + relevance check (sarvam-30b)
@@ -389,7 +393,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         print(f"  SKIP   : model flagged as not tech news")
         trace["outcome"] = "skipped_not_tech_news"
         _run_traces.append(trace)
-        return None
+        return SKIP
 
     search_queries = stage1.get("search_queries", [])
     entities = stage1.get("entities", [])
@@ -613,6 +617,7 @@ def synthesize_article(cluster: list[dict], language: str = "hindi") -> dict | N
 
     api_key = os.environ.get("SARVAM_API_KEY", "").strip()
     if api_key:
-        return _synthesize_sarvam(cluster, api_key)
+        result = _synthesize_sarvam(cluster, api_key)
+        return result  # may be SKIP, dict, or None
 
     return _synthesize_ollama(cluster, language)
