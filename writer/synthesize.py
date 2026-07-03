@@ -75,54 +75,60 @@ Source Text:
 Research Context (entity knowledge + web search results):
 {entity_context}
 
-Build an editorial strategy for the Hindi article. Output ONLY valid JSON with exactly these keys:
+Build an editorial strategy AND a detailed writing plan for the Hindi article.
+Output ONLY valid JSON with exactly these keys:
 {{
-  "core_narrative": "the real story and underlying tension, one paragraph",
-  "key_facts_and_quotes": "the facts/figures/statements that must appear in the article",
-  "disambiguation_targets": "which terms need inline explanation and how to handle them",
+  "core_narrative": "the real story and underlying tension, one sentence",
+  "key_facts_and_quotes": "the facts/figures/statements that must appear",
+  "disambiguation_targets": "which terms need inline Hindi explanation",
   "category": "acquisition|model_release|ban_regulation|repo_analysis|general",
-  "planned_length": "e.g. 4 paragraphs, moderate complexity"
+  "paragraph_plan": [
+    "Para 1: <exact instruction — what to say, which facts to use, tone>",
+    "Para 2: <exact instruction>",
+    "Para 3: <exact instruction>",
+    "Para 4: <exact instruction — optional>"
+  ]
 }}
 
-Keep every field short — this is a planning step, not a writing step."""
+paragraph_plan rules:
+- 3-4 paragraphs total
+- Each instruction must be specific enough that the writer needs zero additional thinking
+- Include which facts/entities/numbers belong in that paragraph
+- Keep each instruction to 1-2 sentences"""
 
-_STAGE3_PROMPT = """You are writing for टेकदृष्टि (TechDrishti), a calm, clear, trustworthy Hindi science and technology publication.
+_STAGE3_PROMPT = """You are a Hindi writer for टेकदृष्टि. The editorial team has done all the planning — your ONLY job is to execute the writing plan below exactly as instructed.
 
-Readers: educated, curious Hindi-speaking tech enthusiasts.
-Voice: शांत, स्पष्ट, भरोसेमंद — no hype, no clickbait.
-Goal: make the READER feel smarter. Clean, modern, direct Hindi — no heavy tatsam vocabulary.
+DO NOT re-plan, re-think, or restructure. Write each paragraph exactly as the plan specifies, using the source facts and entity definitions provided.
 
-Editorial Strategy:
-{strategy}
+--- WRITING PLAN (follow precisely) ---
+Title idea: {title}
+Paragraph plan:
+{paragraph_plan}
 
-Source Material — Title: {title}
+Category framing for STRATEGIC_ANALYSIS paragraph: {category_framing}
+
+--- SOURCE FACTS (use these, do not invent) ---
 {source_text_block}
 
-Research Context:
+--- ENTITY DEFINITIONS ---
 {entity_context}
 
-STRATEGIC_ANALYSIS instruction: {category_framing}
+Now write the article using this EXACT labeled format:
 
-Write the article now using this EXACT labeled format (each label on its own line, content follows the colon on the same line):
+TITLE: <one sharp Hindi headline based on the title idea>
+CONCEPT_BOX: <2 sentences max — explain the ONE hardest concept for a newcomer, in simple Hindi>
+LEDE: <execute Para 1 from the plan>
+DEEP_DIVE_AND_CONTEXT: <execute Para 2 and Para 3 from the plan, combined>
+STRATEGIC_ANALYSIS: <execute the final paragraph from the plan using the category framing>
+CONCLUSION_AND_SIGNIFICANCE: <one strong closing paragraph — what this means for the reader>
 
-TITLE: <one-line insightful Hindi headline>
-CONCEPT_BOX: <1-3 sentences explaining the single hardest concept or name for a newcomer>
-LEDE: <opening paragraph — break the news, set tone, introduce key entities>
-DEEP_DIVE_AND_CONTEXT: <core of the article — mechanics, numbers, who said what, woven into narrative prose>
-STRATEGIC_ANALYSIS: <connect to the broader ecosystem per the instruction above>
-CONCLUSION_AND_SIGNIFICANCE: <what this means for the reader or developer; end with a strong closing line>
-
-Language rules (CRITICAL — violations make the article unpublishable):
-- हर वाक्य हिंदी में लिखें — क्रिया, संयोजन, विशेषण सब हिंदी में। English ONLY in parentheses for proper nouns and technical terms with no Hindi equivalent.
+Language rules (CRITICAL):
+- हर वाक्य हिंदी में — क्रिया, संयोजन, विशेषण सब हिंदी में
 - CORRECT: "स्वायत्त एजेंट (Autonomous Agent) एक सरल निर्णय-चक्र पर काम करते हैं।"
-- WRONG: "Individual agents बहुत simple हैं और एक perceive-deliberate-act loop follow करते हैं।"
-- WRONG: "यह एक emerging field है जो complex behaviors को explore करती है।"
-- Technical terms: write Devanagari transliteration first, English in brackets — e.g. मेमोरी स्टोर (Memory Store), गवर्नेंस सिस्टम (Governance System)
-- Never write raw English words mid-sentence as if they were Hindi words
-- Never translate or closely paraphrase source sentences — write fresh Hindi sentences from the facts
-- Do not add any fact not present in the provided sources
-- Hedge all predictions: हो सकता है, संभावना है — never state predictions as fact
-- 3-6 well-developed paragraphs total"""
+- WRONG: "Individual agents बहुत simple हैं और एक loop follow करते हैं।"
+- Technical terms: देवनागरी पहले, English parentheses में — मेमोरी स्टोर (Memory Store)
+- कोई भी fact जो source में नहीं है वो मत लिखो
+- Predictions hedge करो: हो सकता है, संभावना है"""
 
 _LABELED_SECTIONS = [
     "TITLE",
@@ -316,14 +322,20 @@ def _stage3_write_article(
     category = strategy.get("category", "general")
     category = _HINDI_CATEGORY_MAP.get(category, category)
     category_framing = _CATEGORY_FRAMING.get(category, _CATEGORY_FRAMING["general"])
-    source_text_block = (
-        f"Source Text:\n{source_text[:2500]}" if source_text else ""
-    )
+    source_text_block = source_text[:2500] if source_text else "(not available)"
+
+    # Format paragraph plan from Stage 2
+    raw_plan = strategy.get("paragraph_plan", [])
+    if isinstance(raw_plan, list):
+        paragraph_plan = "\n".join(f"{i+1}. {p}" for i, p in enumerate(raw_plan))
+    else:
+        paragraph_plan = str(raw_plan)
+
     prompt = _STAGE3_PROMPT.format(
-        strategy=json.dumps(strategy, ensure_ascii=False, indent=2),
         title=title,
+        paragraph_plan=paragraph_plan,
         source_text_block=source_text_block,
-        entity_context=entity_context[:2500],
+        entity_context=entity_context[:2000],
         category_framing=category_framing,
     )
     raw = _call_sarvam(
