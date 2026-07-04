@@ -2290,5 +2290,158 @@
         "last_updated": "2026-07-03"
       }
     ]
+  },
+  "power automate": {
+    "canonical_name": "Power Automate",
+    "entity_type": "product",
+    "summary": "Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. # Plan and prepare for Power Automate in 2025 release wave 1. The 2025 release wave 1 plan covers all new functionalities planned to be delivered to market from April 2025 to September 2025.",
+    "last_updated": "2026-07-03"
+  },
+  "microsoft": {
+    "canonical_name": "Microsoft",
+    "entity_type": "company",
+    "summary": "Microsoft   About     Overview Facts News Office Locations Procurement Legal Contact Us   Overview Board of directors Senior Leadership Stories Alumni Network   Overview innovation Diversity & Inclusion Corporate Social Responsibility AI Trustworthy Computing  Careers     Microsoft 365 Office Azure",
+    "last_updated": "2026-07-03"
+  },
+  "accessibility": {
+    "canonical_name": "Accessibility",
+    "entity_type": "technology",
+    "summary": "“Assistive technology” is a term that describes electronic solutions that enable people with disabilities to live independently. People experiencing blindness can hear computer-screen text, for example, and people with visual impairments can enlarge text, in order to enable independent reading. Ther",
+    "last_updated": "2026-07-03"
+  },
+  "blind client": {
+    "canonical_name": "blind client",
+    "entity_type": "person",
+    "summary": "A blind person is defined as an individual who lacks the ability to see, typically requiring alternative means such as text-to-speech or Braille to access Consider interaction: • Face and address the patient directly. OUTPATIENT CARE TEAM Caring for Patients Who are Blind or Visually Impaired Consid",
+    "last_updated": "2026-07-03"
+  },
+  "inhouse accessibility specialist": {
+    "canonical_name": "in-house accessibility specialist",
+    "entity_type": "person",
+    "summary": "A work from home digital accessibility specialist is a professional who ensures that websites, applications, and digital content are accessible to peop. # Unraveling the Diversity of Digital Accessibility Job Titles. Digital accessibility is an immense subject, and jobs within the accessibility spac",
+    "last_updated": "2026-07-03"
+  },
+  "codex": {
+    "senses": [
+      {
+        "sense_label": "Codex refers to the AI coding assistant mentioned in the debugging context",
+        "summary": "From routine pull requests to your hardest problems, Codex reliably completes tasks end to end, like building features, complex refactors, migrations, and more, powered by OpenAI’s frontier coding … A coding agent that helps you build and ship with AI—powered by ChatGPT. Available on macOS and Windo",
+        "last_updated": "2026-07-04"
+      }
+    ]
+  },
+  "ui interaction bug": {
+    "canonical_name": "UI interaction bug",
+    "entity_type": "technology",
+    "summary": "UniFi is rethinking IT with industry-leading products for … Community-made library of free and customizable UI … Most UI elements aren’t hard to build, they’re just time-consuming enough that you don’t feel like doing it again. Motion user interface (UI) isn't just decorative anymore. It's become a",
+    "last_updated": "2026-07-04"
+  },
+  "university of exeter": {
+    "canonical_name": "University of Exeter",
+    "entity_type": "organization",
+    "summary": "100% online American University. At BIU, your journey to a successful professional future begins today. Study at an American university, project yourself internationally, achieve your educational goals and … 100% online American University. At BIU, your journey to a successful professional future be",
+    "last_updated": "2026-07-04"
+  },
+  "science": {
+    "canonical_name": "Science",
+    "entity_type": "journal",
+    "summary": "The strength of Science and its online journal sites rests with the strengths of its community of authors, who provide cutting-edge research, … 2 days ago · Science is a leading outlet for scientific news, commentary, and cutting-edge research. Through its print and online … Science encompasses this",
+    "last_updated": "2026-07-04"
+  },
+  "putnambench": {
+    "canonical_name": "PutnamBench",
+    "entity_type": "benchmark",
+    "summary": "We present PutnamBench, a new multilingual benchmark for evaluating the ability of neural theorem-provers to solve competition … We present PutnamBench, a new multilingual benchmark for evaluating the ability of neural theorem-provers to solve competition mathematics problems. PutnamBench consists o",
+    "last_updated": "2026-07-04"
+  },
+  "fatex": {
+    "canonical_name": "FATE-X",
+    "entity_type": "metric",
+    "summary": "Fate series is a TYPE-MOON media collective that follows various events called Holy Grail Wars that involve Masters, generally accomplished magi, summoning Servants, Heroic Spirits, and battling … 4 days ago · fate, destiny, lot, portion, doom mean a predetermined state or end. fate implies an inevi",
+    "last_updated": "2026-07-04"
+  },
+  "talos network": {
+    "canonical_name": "Talos network",
+    "entity_type": "technology",
+    "summary": "Cisco Talos Intelligence Group is one of the largest commercial threat intelligence teams in the world. Comprised of world-class cyber … Under Attack? For reputation or categorization inquiries, visit the Talos Support site . For emergency DDoS mitigation assistance, please contact the Cisco Secure",
+    "last_updated": "2026-07-04"
+  },
+  "websocket": {
+    "canonical_name": "WebSocket",
+    "entity_type": "technology",
+    "summary": "The WebSocket protocol enables full-duplex interaction between a web browser (or other client application) and a web server with … WebSocket is a computer communications protocol , providing a bidirectional communication channel over a single Transmission Control Protocol (TCP) connection. The proto",
+    "last_updated": "2026-07-04"
+  },
+  "cc switch": {
+    "canonical_name": "CC Switch",
+    "entity_type": "product",
+    "summary": "Whether through our CC Certificate courses, tailored facilitation, or legal office hours, we support organizations working to expand the global commons. Learn, collaborate, and lead with openness at … \" Black soul singer Isaac Hayes performs at the International Amphitheater in Chicago... \" by John",
+    "last_updated": "2026-07-04"
+  },
+  "tokens": {
+    "canonical_name": "tokens",
+    "entity_type": "technology",
+    "summary": "Mar 19, 2026 · Tokens are small units of data — words, sub-words, characters, or pixel patches — that AI models process during training and inference. Roughly 1,000 tokens equal about 750 English words; for … 2026-03-19 Tokens, LLM, generative AI – artistic impression. Image credit: Nvidia Tokens ar",
+    "last_updated": "2026-07-04"
+  },
+  "code": {
+    "canonical_name": "code",
+    "entity_type": "technology",
+    "summary": "Use your creativity and problem solving skills to explore and build underwater worlds with code! Let's use code to join Anna and Elsa as they explore the magic and beauty of ice. Try the basics of … Your browser is not supported. Please upgrade your browser to one of our supported browsers . You can",
+    "last_updated": "2026-07-04"
+  },
+  "outerstellarhqvla": {
+    "senses": [
+      {
+        "sense_label": "This appears to be a specific tool/project rather than a general technology category, making it ambiguous whether it refers to the specific implementation or the general concept of similar tools.",
+        "summary": "2 days ago · RUT | A complete Russell 2000 Index … Find the latest information on Russell 2000 Index … We are experiencing some temporary issues. The market data on this page is currently delayed. <= -3 -2 -1 0 1 2 >= 3 Sign in to access your portfolio Error in retrieving data Error in retrieving da",
+        "last_updated": "2026-07-04"
+      }
+    ]
+  },
+  "very large array": {
+    "canonical_name": "Very Large Array",
+    "entity_type": "technology",
+    "summary": "An Instalment Plan is a payment option on the Very Pay account that allows you to spread the cost by paying in monthly instalments over a fixed period. Instalment Plans are subject to offer and your … 5 days ago · The meaning of VERY is to a high degree : exceedingly. How to use very in a sentence.",
+    "last_updated": "2026-07-04"
+  },
+  "raspberry pi": {
+    "canonical_name": "Raspberry Pi",
+    "entity_type": "technology",
+    "summary": "From industries large and small, to the kitchen table tinkerer, to the classroom coder, we make computing accessible and affordable for … A raspberry is an aggregate fruit, developing from the numerous distinct carpels of a single flower. [4] Each carpel then grows into individual …  The raspberry i",
+    "last_updated": "2026-07-04"
+  },
+  "computer vision": {
+    "canonical_name": "computer vision",
+    "entity_type": "technology",
+    "summary": "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation). Modern digital electronic computers can perform generic sets of …  A computer is a machine that can be programmed to automatically carry out sequences of arithmetic",
+    "last_updated": "2026-07-04"
+  },
+  "haptic feedback": {
+    "canonical_name": "haptic feedback",
+    "entity_type": "technology",
+    "summary": "The word haptic, from the Ancient Greek: ἁπτικός (haptikos), means \"tactile, pertaining to the sense of touch\". Simple haptic devices are common in the form of game controllers, joysticks, and steering … Haptic technology (also kinaesthetic communication or 3D touch ) [ 1 ] [ 2 ] is technology that",
+    "last_updated": "2026-07-04"
+  },
+  "agent skill": {
+    "canonical_name": "Agent Skill",
+    "entity_type": "technology",
+    "summary": "Jul 1, 2012 · The meaning of AGENT is one that acts or exerts power. How to use agent in a sentence. Middle English, \"force capable of acting on matter,\" borrowed from Medieval Latin agent-, agens \"something capable of producing an effect, person authorized to act for another,\" going back to Latin,",
+    "last_updated": "2026-07-04"
+  },
+  "tota": {
+    "senses": [
+      {
+        "sense_label": "The core technology/product, likely a company based on the description",
+        "summary": "Tota Started a Massive Egg Fight in the CLOVER HOUSE! 106K views • 1 month ago 44:36 Jul 5, 2005 · Tota Mc Instagram Star Birthday July 5, 2005 Birth Sign Cancer Birthplace Rio de Janeiro, Brazil Age 20 years old Instagram Star Birthday July 5 , 2005 Birth Sign Cancer Birthplace Rio de Janeiro , Bra",
+        "last_updated": "2026-07-04"
+      }
+    ]
+  },
+  "telegram whatsapp discord": {
+    "canonical_name": "Telegram, WhatsApp, Discord",
+    "entity_type": "technology",
+    "summary": "Get Telegram for Windows x64 Portable version Get Telegram for macOS Mac App Store Get Telegram for Linux x64 Flatpak … Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. a new era of messaging The official Telegram on Telegram. Much recursion. Very Telegr",
+    "last_updated": "2026-07-04"
   }
 }
