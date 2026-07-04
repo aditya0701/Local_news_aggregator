@@ -30,7 +30,6 @@ jobs:
           SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
           SARVAM_MODEL: sarvam-30b
           SARVAM_MODEL_QUALITY: sarvam-105b
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           PYTHONIOENCODING: utf-8
         run: python pipeline.py

@@ -7,8 +7,8 @@ queries:
     search: "topic:ai-agents created:>{date} sort:stars-desc"
   - name: Machine learning
     search: "topic:machine-learning created:>{date} sort:stars-desc"
-  - name: Developer tools
-    search: "topic:developer-tools created:>{date} sort:stars-desc"
+  - name: Retrieval-augmented generation
+    search: "topic:rag created:>{date} sort:stars-desc"
   - name: Coding assistants
     search: "topic:coding-assistant created:>{date} sort:stars-desc"
   - name: Computer vision

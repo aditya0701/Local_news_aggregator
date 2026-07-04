@@ -1,5 +1,6 @@
 import hashlib
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,6 +12,7 @@ from collectors.rss_collector import fetch_feed
 from translator.translate import translate_item
 from writer.cluster import group_by_topic
 from writer.entity_cache import load_cache
+from writer.github_gate import filter_notable_repos
 from writer.synthesize import SKIP, get_run_traces, synthesize_article
 
 load_dotenv()
@@ -26,10 +28,21 @@ def collect() -> list[dict]:
     for feed in feeds["feeds"]:
         items.extend(fetch_feed(feed["url"]))
 
+    github_items = []
     queries = yaml.safe_load((CONFIG_DIR / "github.yaml").read_text())
     for query in queries["queries"]:
-        items.extend(fetch_trending(query["search"]))
+        github_items.extend(fetch_trending(query["search"]))
 
+    # The same repo often matches multiple topic queries above — dedupe by URL
+    # before the judgment gate so it isn't scored twice (and can't get two
+    # different verdicts for the same repo in one run).
+    github_items = list({item["url"]: item for item in github_items}.values())
+
+    api_key = os.environ.get("SARVAM_API_KEY", "").strip()
+    if api_key and github_items:
+        github_items = filter_notable_repos(github_items, api_key)
+
+    items.extend(github_items)
     return items
 
 
@@ -48,6 +61,10 @@ def run(language: str = "hindi") -> None:
     out_path = OUTPUT_DIR / f"articles_{language}.json"
     store = _load_store(out_path)
     seen_ids = {item["id"] for item in store}
+    for item in store:
+        for source_url in item.get("sources", [item.get("url")]):
+            if source_url:
+                seen_ids.add(_article_id(source_url))
 
     new_items = [item for item in collect() if item.get("url") and _article_id(item["url"]) not in seen_ids]
 

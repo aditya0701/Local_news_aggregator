@@ -5,7 +5,7 @@ import re
 import requests
 
 from writer.entity_cache import get_entity, load_cache, save_cache, set_entity
-from writer.search import search_web
+from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, search_web
 from writer.web_context import scrape_source
 
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
@@ -40,29 +40,128 @@ _CATEGORY_FRAMING = {
 # Prompt templates
 # ---------------------------------------------------------------------------
 
-_STAGE1_PROMPT = """Research assistant for TechDrishti (Hindi tech publication).
-Evaluate relevance and extract entities + search queries from the article below.
+# Stage 1 is three separate calls, not one. Tried as a single combined call
+# first (skip + entities + queries all at once) — that call would
+# intermittently burn its whole token budget on hidden reasoning and return
+# nothing at all (confirmed: 3 identical runs, 3 different outcomes). Splitting
+# into 3 focused calls, each with reasoning_effort=None and a format designed
+# to make the model "reason" via the visible output order (not a hidden
+# channel), fixed every failure mode found — see stage1-design.md for the full
+# test history and rejected alternatives.
+
+# Step 1 — skip gate. REASON is asked for before SKIP deliberately: with
+# reasoning off, the model writes strictly in the order requested, so asking
+# for the verdict first meant it committed to an answer before it had any
+# reasoning to base it on (tested: 0/5 correct on a real article this way,
+# with the model's own stated reason contradicting its verdict). Reversing
+# the order fixed it completely (10/10 correct across 2 real cases).
+_STAGE1_SKIP_PROMPT = """Research assistant for टेकदृष्टि (TechDrishti), a Hindi tech publication.
+Decide if the article below is genuine tech news suitable for publication, or should be skipped.
 
 Title: {title}
 Summary: {summary}
 Source: {source_text}
 
-Output ONLY this JSON (no explanation):
-{{"skip":false,"search_queries":["<comparison or context query>","<why-now query>"],"entities":[{{"name":"<EntityName>","type":"<type>"}}]}}
-
-Set "skip":true (omit other fields) when the article is NOT tech news — e.g.:
+Skip ONLY if this is:
 - A job/career posting (even if about the tech sector)
 - A product marketplace, directory, or "Show HN" website showcase with no news event
 - A personal blog, tutorial, or documentation page — not a news article
 - Content with no identifiable tech news event (announcement, launch, acquisition, regulation, research)
-Do NOT skip: articles ABOUT job market trends, hiring booms/crises, or industry-level employment analysis.
+Do NOT skip articles ABOUT job market trends, hiring booms/crises, or industry-level employment analysis — those are real news.
 
-Types: company | startup | ai_model | product | person | researcher | technology | protocol | regulation | event | organization | material
-For ambiguous names add: "ambiguous":true, "resolved_sense":"which meaning applies here and why"
+Respond in EXACTLY this format, with no other text before or after — REASON comes first,
+decide your verdict only after stating the reason:
+REASON: <one sentence stating what the core crux of this article is>
+SKIP: yes or no
 
-Query rules (max 3, English only):
-- ONLY comparisons, market context, "why now" — NOT "what is X" identity lookups
-- Good: "Rocket Lab vs SpaceX revenue 2025" | Bad: "what is Rocket Lab" """
+"SKIP: yes" means discard this article. "SKIP: no" means keep it, it is genuine news."""
+
+_SKIP_RE = re.compile(r"SKIP:\s*(yes|no)", re.IGNORECASE)
+
+
+# Step 2 — entity + gap analysis. Only runs if Step 1 kept the article.
+# Structured as TYPE -> CHECKLIST -> COVERAGE CHECK -> GAP1/2/3, mirroring the
+# reason-before-verdict trick: forcing the model to commit to a story TYPE
+# first gives it a category-specific checklist to check the article against,
+# rather than open-endedly guessing what might be missing (the "chicken and
+# egg" problem — the model can't know the finished narrative in advance, but
+# it CAN check a fixed checklist against what the article already states).
+#
+# GAP1/GAP2/GAP3 are fixed, numbered slots, not an open list — this was a
+# second, separate bug from the reasoning-starvation one: even with reasoning
+# off, an earlier open-ended "QUERIES:" list caused the model to fall into a
+# runaway repetition loop (one run produced 300+ near-identical lines before
+# hitting the token cap). Numbered slots plus max_tokens=600 (below) bound
+# this: tested across 4 real, diverse articles (an acquisition, a macro
+# investment story, a dense AI-model release, a GitHub repo) — the repetition
+# bug still recurred once out of 12 runs on the densest article, so the
+# max_tokens cap is a required backstop, not just the prompt wording.
+_STAGE1_ANALYSIS_PROMPT = """You are a researcher supporting a narrative editor at टेकदृष्टि (TechDrishti), a
+Hindi tech publication. This article has already been confirmed as genuine tech news. Your job
+is to find what's MISSING that the editor will need -- not to write the analysis yourself.
+
+Think in this order:
+
+1. TYPE -- classify what kind of tech story this is:
+   - model_release: a new AI model, product, hardware, or tech launch
+   - acquisition: M&A, funding, business deal, partnership
+   - ban_regulation: policy/export/regulatory action
+   - repo_analysis: an open-source project/tool/framework
+   - general: none of the above
+
+2. CHECKLIST -- based on that type, here is what a good analysis piece needs:
+   - model_release: how the new tech's claims compare to existing competitors/alternatives;
+     what is genuinely novel vs incremental; pricing/cost if relevant; what the underlying
+     technology/domain even IS if it's specialized or unfamiliar to a general reader; who it's for
+   - acquisition: competitive landscape of the space; what problem/gap this deal fills;
+     background on the companies involved
+   - ban_regulation: immediate vs long-term implications; who is directly affected
+   - repo_analysis: comparison to existing tools/frameworks; real-world impact
+   - general: no special checklist beyond entities
+
+3. COVERAGE CHECK -- for each checklist item for this TYPE, decide: does the article ALREADY
+   cover it, or is it a GAP the editor will need filled in from elsewhere?
+
+4. QUERIES -- GAP1/GAP2/GAP3 are a MAXIMUM of 3 slots, NOT a required minimum and NOT a target
+   to hit. Only fill a slot if there is a genuine, real gap for that specific article. If the
+   article already covers everything the checklist calls for, leave ALL slots as "none" -- do
+   not invent a question just to fill a slot. It is normal and expected for some or all slots
+   to be "none".
+
+Respond in EXACTLY this format, in this order, with no other text before or after:
+TYPE: <model_release, acquisition, ban_regulation, repo_analysis, or general>
+ENTITIES: <comma-separated NAMED entities only, format "Name (type)". Types: company, startup,
+ai_model, product, person, researcher, technology, protocol, regulation, event, organization.
+If an entity name is ambiguous on its own, append " [ambiguous: <which sense applies here>]".>
+GAP1: <query for first real gap, or "none">
+GAP2: <query for second real gap, or "none">
+GAP3: <query for third real gap, or "none">
+
+Title: {title}
+Summary: {summary}
+Source: {source_text}"""
+
+_STAGE1_ANALYSIS_MAX_TOKENS = 600
+
+
+# Step 3 — transcribe Step 2's analysis into strict JSON. Reasoning off, same
+# as everywhere else in this pipeline: no judgment left to make here.
+_STAGE1_EXTRACTION_PROMPT = """Below is a researcher's structured write-up about a news article already confirmed as genuine
+tech news. Your only job is to transcribe it into JSON -- do not re-analyze, do not invent
+anything not already in the write-up.
+
+Researcher write-up:
+{analysis}
+
+Build the JSON like this:
+- "search_queries": for each GAP line that is NOT "none", add its text as a string in this
+  array. Skip any GAP line that says "none" -- do not include it, do not invent a placeholder
+  for it. If all three GAP lines say "none", this array must be empty: [].
+- "entities": for each item listed after ENTITIES:, add one object
+  {{"name": <name, without the type>, "type": <the type>}}. If marked "[ambiguous: ...]", also
+  add "ambiguous": true and "resolved_sense": <the text after "ambiguous:">.
+
+Output ONLY the JSON object, nothing else."""
 
 _STAGE2_PROMPT = """You are the editorial director of टेकदृष्टि (TechDrishti), a Hindi science and technology publication.
 
@@ -98,9 +197,17 @@ paragraph_plan rules:
 
 _STAGE3_PROMPT = """You are a Hindi writer for टेकदृष्टि. The editorial team has done all the planning — your ONLY job is to execute the writing plan below exactly as instructed.
 
-DO NOT re-plan, re-think, or restructure. Write each paragraph exactly as the plan specifies, using the source facts and entity definitions provided.
+DO NOT re-plan, re-think, or restructure. Follow each paragraph instruction below, but NEVER copy the
+instruction's own wording into the article — the plan tells you WHAT to cover, not what to literally
+write. Turn each instruction into actual flowing Hindi prose that DOES what it says, using the source
+facts and entity definitions provided.
 
---- WRITING PLAN (follow precisely) ---
+CRITICAL — instruction vs. content, do not confuse the two:
+WRONG (copies the instruction itself, explains nothing): "उपकरण के पीछे की तकनीक की व्याख्या करें। वर्णन करें कि यह कैसे काम करता है।"
+CORRECT (actually executes it): "यह उपकरण परफ्यूजन तकनीक का उपयोग करता है, जो आंख की धमनी के माध्यम से ऑक्सीजन युक्त तरल पहुँचाता है।"
+If a sentence you're about to write contains a verb like "करें"/"दें" telling the reader what to do (व्याख्या करें, वर्णन करें, उल्लेख करें, शामिल करें), you are copying the instruction, not writing the article — rewrite it as a direct statement of fact instead.
+
+--- WRITING PLAN (describes what each paragraph must cover — an instruction to you, not text to reproduce) ---
 Title idea: {title}
 Paragraph plan:
 {paragraph_plan}
@@ -113,14 +220,15 @@ Category framing for STRATEGIC_ANALYSIS paragraph: {category_framing}
 --- ENTITY DEFINITIONS ---
 {entity_context}
 
-Now write the article using this EXACT labeled format:
-
-TITLE: <one sharp Hindi headline based on the title idea>
-CONCEPT_BOX: <2 sentences max — explain the ONE hardest concept for a newcomer, in simple Hindi>
-LEDE: <execute Para 1 from the plan>
-DEEP_DIVE_AND_CONTEXT: <execute Para 2 and Para 3 from the plan, combined>
-STRATEGIC_ANALYSIS: <execute the final paragraph from the plan using the category framing>
-CONCLUSION_AND_SIGNIFICANCE: <one strong closing paragraph — what this means for the reader>
+Output ONLY valid JSON with exactly these keys (no markdown, no preamble, no code fences):
+{{
+  "title": "<one sharp Hindi headline based on the title idea>",
+  "concept_box": "<2 sentences max — explain the ONE hardest concept for a newcomer, in simple Hindi>",
+  "introduction_lede": "<actual prose fulfilling Para 1's instruction, not the instruction itself>",
+  "deep_dive_and_context": "<actual prose fulfilling Para 2 and Para 3's instructions combined, not the instructions themselves>",
+  "strategic_analysis": "<actual prose fulfilling the final paragraph's instruction using the category framing>",
+  "conclusion_and_significance": "<one strong closing paragraph — what this means for the reader>"
+}}
 
 Language rules (CRITICAL):
 - हर वाक्य हिंदी में — क्रिया, संयोजन, विशेषण सब हिंदी में
@@ -128,7 +236,28 @@ Language rules (CRITICAL):
 - WRONG: "Individual agents बहुत simple हैं और एक loop follow करते हैं।"
 - Technical terms: देवनागरी पहले, English parentheses में — मेमोरी स्टोर (Memory Store)
 - कोई भी fact जो source में नहीं है वो मत लिखो
-- Predictions hedge करो: हो सकता है, संभावना है"""
+- Predictions hedge करो: हो सकता है, संभावना है
+- The JSON keys themselves must stay exactly as given in English — only the values are Hindi text"""
+
+_SYNTHESIS_PROMPT = """You are a research assistant distilling raw web search material into clean, direct answers for an editorial team writing a tech news article.
+
+For each ENTITY item below, write a short general-purpose overview of that entity (2-3 sentences), using ONLY the material given. This overview will be reused for OTHER future articles too, so do not shape it around today's story or mention today's news event.
+
+For each QUESTION item below, directly answer the specific question asked (2-3 sentences), using ONLY the material given.
+
+If the material given for an item doesn't actually contain a usable answer, say so plainly (e.g. "material did not address this") instead of guessing or inventing facts.
+
+ENTITIES:
+{identity_block}
+
+QUESTIONS:
+{context_block}
+
+Output ONLY valid JSON in this exact shape, one entry per item listed above (same order, do not skip any):
+{{
+  "identity": [{{"query": "<exact ENTITY query as given>", "answer": "<synthesized overview>"}}],
+  "context": [{{"query": "<exact QUESTION as given>", "answer": "<synthesized answer>"}}]
+}}"""
 
 _LABELED_SECTIONS = [
     "TITLE",
@@ -139,18 +268,72 @@ _LABELED_SECTIONS = [
     "CONCLUSION_AND_SIGNIFICANCE",
 ]
 
+# The model is asked for the English labels above but routinely drifts into
+# translating them (and/or wrapping them in markdown emphasis) — observed on
+# real articles even though the prompt says "EXACT labeled format". Map every
+# variant seen in practice back to its canonical field so a formatting slip
+# doesn't throw away an otherwise-good article.
+_LABEL_SYNONYMS = {
+    "TITLE": ["TITLE", "शीर्षक"],
+    "CONCEPT_BOX": ["CONCEPT_BOX", "कॉन्सेप्ट बॉक्स", "अवधारणा बॉक्स", "कांसेप्ट बॉक्स"],
+    "LEDE": ["LEDE", "लेड", "लीड"],
+    "DEEP_DIVE_AND_CONTEXT": [
+        "DEEP_DIVE_AND_CONTEXT", "डीप डाइव एंड कॉन्टेक्स्ट", "डीप डाइव और संदर्भ",
+        "गहन विश्लेषण और संदर्भ", "गहन विश्लेषण",
+    ],
+    "STRATEGIC_ANALYSIS": ["STRATEGIC_ANALYSIS", "रणनीतिक विश्लेषण", "रणनीतिक दृष्टिकोण"],
+    "CONCLUSION_AND_SIGNIFICANCE": [
+        "CONCLUSION_AND_SIGNIFICANCE", "निष्कर्ष और महत्व", "निष्कर्ष",
+    ],
+}
+_LABEL_LOOKUP = {
+    synonym.casefold(): canonical
+    for canonical, synonyms in _LABEL_SYNONYMS.items()
+    for synonym in synonyms
+}
+_MARKUP_CHARS = "*_#​"
+
+
+def _match_label(line: str) -> tuple[str, str] | None:
+    """Return (canonical_label, rest_of_line) if `line` opens a labeled section."""
+    stripped = line.strip().lstrip(_MARKUP_CHARS).strip()
+    colon = None
+    for ch in (":", "："):
+        idx = stripped.find(ch)
+        if idx != -1 and (colon is None or idx < colon):
+            colon = idx
+    if colon is None:
+        return None
+    candidate = stripped[:colon].strip().strip(_MARKUP_CHARS).strip()
+    canonical = _LABEL_LOOKUP.get(candidate.casefold())
+    if not canonical:
+        return None
+    rest = stripped[colon + 1:].lstrip(_MARKUP_CHARS).strip()
+    return canonical, rest
+
 # ---------------------------------------------------------------------------
 # Sarvam API helpers
 # ---------------------------------------------------------------------------
 
 
+_UNSET = object()
+
+
 def _call_sarvam(
-    prompt: str, api_key: str, model: str, system: str | None = None
+    prompt: str,
+    api_key: str,
+    model: str,
+    system: str | None = None,
+    reasoning_effort=_UNSET,
+    max_tokens: int = 4096,
 ) -> str | None:
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
     messages.append({"role": "user", "content": prompt})
+    payload = {"model": model, "messages": messages, "max_tokens": max_tokens}
+    if reasoning_effort is not _UNSET:
+        payload["reasoning_effort"] = reasoning_effort
     try:
         response = requests.post(
             SARVAM_URL,
@@ -158,7 +341,7 @@ def _call_sarvam(
                 "api-subscription-key": api_key,
                 "Content-Type": "application/json",
             },
-            json={"model": model, "messages": messages, "max_tokens": 4096},
+            json=payload,
             timeout=120,
         )
         response.raise_for_status()
@@ -226,33 +409,56 @@ def _is_meta_line(line: str) -> bool:
     return False
 
 
+def _is_sentence_end(text: str, i: int) -> bool:
+    if text[i] != ".":
+        return True
+    # A "." between two digits is a decimal point (GLM-5.2, 32.8%), not a
+    # sentence boundary — treating it as one truncates the rest of the text.
+    before = text[i - 1] if i > 0 else ""
+    after = text[i + 1] if i + 1 < len(text) else ""
+    return not (before.isdigit() and after.isdigit())
+
+
+def _trim_to_last_sentence(text: str) -> str:
+    """If text ends mid-sentence (no terminal punctuation), trim to last complete sentence."""
+    if not text or (text[-1] in "।!?" or (text[-1] == "." and _is_sentence_end(text, len(text) - 1))):
+        return text
+    for punct in reversed(range(len(text))):
+        if text[punct] in "।!?" or (text[punct] == "." and _is_sentence_end(text, punct)):
+            return text[:punct + 1].strip()
+    return text
+
+
+def _clean_field_text(text: str) -> str:
+    """Strip stray meta-commentary lines and trim to the last complete sentence."""
+    if not text:
+        return ""
+    lines = [ln.strip() for ln in text.splitlines()]
+    lines = [ln for ln in lines if ln and not _is_meta_line(ln)]
+    return _trim_to_last_sentence(" ".join(lines).strip())
+
+
+_STAGE3_FIELDS = [
+    "title", "concept_box", "introduction_lede",
+    "deep_dive_and_context", "strategic_analysis", "conclusion_and_significance",
+]
+
+
 def _parse_labeled_text(raw: str | None) -> dict | None:
-    """Parse Stage 3 labeled-text output into a dict of article fields."""
+    """Parse Stage 3 legacy labeled-text output into a dict of article fields."""
     if not raw:
         return None
     fields: dict[str, list[str]] = {}
     current: str | None = None
     for line in raw.splitlines():
-        matched = False
-        for label in _LABELED_SECTIONS:
-            if line.startswith(f"{label}:"):
-                current = label
-                fields[current] = [line[len(label) + 1:].strip()]
-                matched = True
-                break
-        if not matched and current:
+        match = _match_label(line)
+        if match:
+            current, rest = match
+            fields[current] = [rest] if rest else []
+        elif current:
             stripped = line.strip()
             if stripped and not _is_meta_line(stripped):
                 fields[current].append(stripped)
-
-    def _trim_to_last_sentence(text: str) -> str:
-        """If text ends mid-sentence (no terminal punctuation), trim to last complete sentence."""
-        if not text or text[-1] in "।.!?":
-            return text
-        for punct in reversed(range(len(text))):
-            if text[punct] in "।.!?":
-                return text[:punct + 1].strip()
-        return text
 
     result = {k: _trim_to_last_sentence(" ".join(v).strip()) for k, v in fields.items()}
     if not result.get("TITLE") or not result.get("LEDE"):
@@ -268,6 +474,17 @@ def _parse_labeled_text(raw: str | None) -> dict | None:
     }
 
 
+def _parse_stage3_output(raw: str | None) -> dict | None:
+    """Parse Stage 3 output: JSON is the primary format; legacy labeled-text
+    is kept as a fallback in case the model ignores the JSON instruction."""
+    if not raw:
+        return None
+    parsed = _parse_json_response(raw)
+    if parsed and all(isinstance(parsed.get(k), str) and parsed.get(k) for k in ("title", "introduction_lede")):
+        return {k: _clean_field_text(parsed.get(k, "")) for k in _STAGE3_FIELDS}
+    return _parse_labeled_text(raw)
+
+
 # ---------------------------------------------------------------------------
 # Pipeline stages
 # ---------------------------------------------------------------------------
@@ -276,18 +493,43 @@ def _parse_labeled_text(raw: str | None) -> dict | None:
 def _stage1_extract_queries(
     title: str, summary: str, source_text: str, api_key: str
 ) -> dict | None:
-    prompt = _STAGE1_PROMPT.format(
-        title=title,
-        summary=summary[:500],
-        source_text=source_text[:800] if source_text else "(not available)",
+    """Three-step Stage 1: a dedicated skip gate, then (if kept) entity/gap
+    analysis, then JSON extraction. All three use sarvam-30b with
+    reasoning_effort=None — see the prompt definitions above for why each
+    step is shaped the way it is, and stage1-design.md for the full test
+    history this design is based on."""
+    truncated_source = source_text[:800] if source_text else "(not available)"
+
+    skip_prompt = _STAGE1_SKIP_PROMPT.format(title=title, summary=summary[:500], source_text=truncated_source)
+    skip_raw = _call_sarvam(skip_prompt, api_key, _MODEL_FAST, reasoning_effort=None)
+    if not skip_raw:
+        return None
+    skip_match = _SKIP_RE.search(skip_raw)
+    if not skip_match:
+        return None
+    if skip_match.group(1).lower() == "yes":
+        return {"skip": True}
+
+    analysis_prompt = _STAGE1_ANALYSIS_PROMPT.format(title=title, summary=summary[:500], source_text=truncated_source)
+    analysis = _call_sarvam(
+        analysis_prompt, api_key, _MODEL_FAST,
+        reasoning_effort=None, max_tokens=_STAGE1_ANALYSIS_MAX_TOKENS,
     )
+    if not analysis:
+        return None
+
+    extraction_prompt = _STAGE1_EXTRACTION_PROMPT.format(analysis=analysis[:2000])
     raw = _call_sarvam(
-        prompt,
+        extraction_prompt,
         api_key,
         _MODEL_FAST,
-        system="/no_think Be direct. Output JSON only.",
+        system="/no_think Output JSON only.",
+        reasoning_effort=None,
     )
-    return _parse_json_response(raw)
+    result = _parse_json_response(raw)
+    if result is not None:
+        result["skip"] = False
+    return result
 
 
 def _stage2_editorial_strategy(
@@ -342,9 +584,78 @@ def _stage3_write_article(
         prompt,
         api_key,
         _MODEL_QUALITY,
-        system="/no_think Write the article directly using the labeled format. No preamble.",
+        system="/no_think Output JSON only. No preamble.",
+        reasoning_effort=None,
     )
-    return _parse_labeled_text(raw)
+    return _parse_stage3_output(raw)
+
+
+def _synthesize_search_results(
+    identity_results: dict[str, str],
+    context_results: dict[str, str],
+    api_key: str,
+) -> dict[str, str]:
+    """Distill raw search snippets into direct answers via one batched call
+    to sarvam-30b (reasoning_effort=None — same fix as Stage 1 Call B and
+    Stage 3: a straightforward extraction task doesn't need reasoning, and
+    turning it off guarantees the full token budget goes to writing every
+    item's answer instead of risking content=None on a multi-item response).
+
+    Batched into a single call rather than one call per query — a run can
+    have several identity queries (one per cache-miss entity) plus up to 3
+    context queries, and a call per query would add several sequential
+    round-trips to the pipeline for no real benefit.
+
+    Falls back to the raw (truncated) snippet per-query if the call fails or
+    a query's answer is missing from the parsed response, mirroring the
+    fallback pattern used everywhere else in this pipeline (Stage 1 Call A/B,
+    Stage 3 JSON-then-labeled-text) — a nice-to-have step degrading gracefully
+    rather than losing material outright.
+    """
+    identity_items = [(q, t) for q, t in identity_results.items() if t]
+    context_items = [(q, t) for q, t in context_results.items() if t]
+    if not identity_items and not context_items:
+        return {}
+
+    identity_block = "\n\n".join(
+        f"ENTITY QUERY: {q}\nMATERIAL: {t[:800]}" for q, t in identity_items
+    ) or "(none)"
+    context_block = "\n\n".join(
+        f"QUESTION: {q}\nMATERIAL: {t[:800]}" for q, t in context_items
+    ) or "(none)"
+
+    prompt = _SYNTHESIS_PROMPT.format(identity_block=identity_block, context_block=context_block)
+    raw = _call_sarvam(
+        prompt,
+        api_key,
+        _MODEL_FAST,
+        system="/no_think Output JSON only.",
+        reasoning_effort=None,
+    )
+    parsed = _parse_json_response(raw) or {}
+
+    # Matched positionally, not by the model's echoed "query" text — confirmed
+    # live that the model normalizes the query when echoing it back (e.g.
+    # drops the surrounding quotes: '"Rocket Lab" company overview' ->
+    # 'Rocket Lab company overview'), which silently broke an exact-string
+    # dict lookup and would have made every identity answer fall back to its
+    # raw unsynthesized snippet. The "query" field is still requested for
+    # trace readability but isn't relied on for correctness.
+    synthesized: dict[str, str] = {}
+    for items, answers in (
+        (identity_items, parsed.get("identity")),
+        (context_items, parsed.get("context")),
+    ):
+        if not isinstance(answers, list):
+            continue
+        for (q, _), item in zip(items, answers):
+            if isinstance(item, dict) and item.get("answer"):
+                synthesized[q] = item["answer"]
+
+    for q, t in identity_items + context_items:
+        synthesized.setdefault(q, t)
+
+    return synthesized
 
 
 # ---------------------------------------------------------------------------
@@ -443,25 +754,26 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     trace["cache"] = {"hits": cache_hits, "misses": cache_misses}
 
     # ------------------------------------------------------------------
-    # Web search
+    # Web search — identity queries ("what is X") and context queries
+    # ("why now"/comparison) go through different free tiers, since they need
+    # different kinds of sources: Wikipedia has stable definitions but no
+    # news, so identity queries try Wikipedia first; context queries need
+    # recent material Wikipedia can't give, so those try Google News RSS
+    # first. Both fall back to DDG. See writer/search.py for details.
     # ------------------------------------------------------------------
     identity_queries = [
         f'"{e["name"]}" {e.get("type", "unknown")} overview'
         for e in entities_needing_search
     ]
     model_queries = search_queries[:3]
-    all_queries = identity_queries + model_queries
 
-    print(f"\n[SEARCH - {len(all_queries)} queries: {len(identity_queries)} identity + {len(model_queries)} context]")
-    search_results: dict[str, str] = {}
-    if all_queries:
-        search_results = search_web(all_queries)
-        for q, text in search_results.items():
-            tag = "[identity]" if q in identity_queries else "[context] "
-            chars = len(text)
-            print(f"  {tag} {q[:55]:<55} -> {chars} chars")
-            if text:
-                entity_context_parts.append(f"[{q}]:\n{text[:600]}")
+    print(f"\n[SEARCH - {len(identity_queries)} identity + {len(model_queries)} context queries]")
+    identity_results = search_web(identity_queries, IDENTITY_TIERS) if identity_queries else {}
+    context_results = search_web(model_queries, CONTEXT_TIERS) if model_queries else {}
+    search_results = {**identity_results, **context_results}
+    for q, text in search_results.items():
+        tag = "[identity]" if q in identity_results else "[context] "
+        print(f"  {tag} {q[:55]:<55} -> {len(text)} chars")
 
     trace["search"] = {
         "identity_queries": identity_queries,
@@ -470,7 +782,23 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     }
 
     # ------------------------------------------------------------------
-    # Cache update
+    # Synthesis — distill each query's raw material into a direct answer
+    # (sarvam-30b, reasoning off) instead of dumping raw snippet soup into
+    # entity_context, where Stage 2 would have to guess which part matters.
+    # ------------------------------------------------------------------
+    print(f"\n[SYNTHESIS - {_MODEL_FAST}]")
+    synthesized_results = _synthesize_search_results(identity_results, context_results, api_key)
+    for q, answer in synthesized_results.items():
+        print(f"  {q[:55]:<55} -> \"{answer[:80]}\"")
+    trace["synthesis"] = {q: a[:400] for q, a in synthesized_results.items()}
+
+    for q in model_queries:
+        answer = synthesized_results.get(q, "")
+        if answer:
+            entity_context_parts.append(f"[{q}]:\n{answer}")
+
+    # ------------------------------------------------------------------
+    # Cache update — store the synthesized (not raw) identity answer
     # ------------------------------------------------------------------
     cache_updates: list[dict] = []
     for entity in entities_needing_search:
@@ -479,10 +807,11 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         is_ambiguous = entity.get("ambiguous", False)
         resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
         identity_q = f'"{name}" {entity_type} overview'
-        text = search_results.get(identity_q, "")
-        if text:
-            set_entity(cache, name, entity_type, text[:300].strip(), resolved_sense=resolved_sense)
-            cache_updates.append({"name": name, "type": entity_type, "chars_stored": min(300, len(text))})
+        answer = synthesized_results.get(identity_q, "")
+        if answer:
+            entity_context_parts.append(f"{name}: {answer}")
+            set_entity(cache, name, entity_type, answer[:300].strip(), resolved_sense=resolved_sense)
+            cache_updates.append({"name": name, "type": entity_type, "chars_stored": min(300, len(answer))})
     save_cache(cache)
 
     if cache_updates:

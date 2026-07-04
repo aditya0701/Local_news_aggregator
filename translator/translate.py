@@ -146,7 +146,7 @@ def _annotate_proper_nouns(original: str, translated: str, translator: GoogleTra
 
 def translate_item(item: dict, language: str = "hindi") -> dict:
     lang_code = LANGUAGES.get(language, "hi")
-    translator = GoogleTranslator(source="en", target=lang_code)
+    translator = GoogleTranslator(source="auto", target=lang_code)
 
     title = _safe_translate(translator, item["title"])
     summary = _safe_translate(translator, item["summary"])
