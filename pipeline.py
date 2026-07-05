@@ -26,7 +26,10 @@ def collect() -> list[dict]:
 
     feeds = yaml.safe_load((CONFIG_DIR / "feeds.yaml").read_text())
     for feed in feeds["feeds"]:
-        items.extend(fetch_feed(feed["url"]))
+        feed_items = fetch_feed(feed["url"])
+        for item in feed_items:
+            item["feed_name"] = feed["name"]
+        items.extend(feed_items)
 
     github_items = []
     queries = yaml.safe_load((CONFIG_DIR / "github.yaml").read_text())

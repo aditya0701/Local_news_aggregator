@@ -3,6 +3,8 @@ import os
 import re
 
 import requests
+from deep_translator import GoogleTranslator
+from langdetect import LangDetectException, detect
 
 from writer.entity_cache import get_entity, load_cache, save_cache, set_entity
 from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, search_web
@@ -128,6 +130,45 @@ Think in this order:
    not invent a question just to fill a slot. It is normal and expected for some or all slots
    to be "none".
 
+   CRITICAL -- a GAP query is a SEARCH QUERY, not an analysis question. A search engine can only
+   return something that already exists published somewhere (a number, a spec, a date, a price, a
+   quote) -- it cannot return a judgment, an opinion, or a prediction that nobody has written
+   down. Before writing a GAP query, ask yourself: "could a search realistically return one
+   specific fact that answers this?" If the honest answer is no -- if answering it requires
+   forming an opinion or predicting the future -- rewrite it as a request for the underlying
+   fact(s) instead, and let the editor draw the conclusion from those facts. This applies whether
+   the gap is about a single entity (e.g. one product's price) or about comparing two entities --
+   either way, ask for the fact(s), not the verdict.
+
+   WRONG (asks for a judgment nobody has published -- a search will never satisfy this):
+   "What is the strategic significance of Z.ai's open-source release in the context of the US ban
+   on Anthropic, and what are the likely long-term implications for the global AI model market?"
+   CORRECT (asks for a fact that lets the editor reach that judgment):
+   "Chinese AI model adoption by US companies after Anthropic export ban"
+
+   WRONG (speculative, no source could ever answer this):
+   "What are the potential cultural integration challenges between Persistent Systems and Nagarro,
+   and how might this affect the post-merger performance of the combined entity?"
+   CORRECT (plain background facts about the two companies -- lets the editor make the point):
+   "Nagarro headquarters employee count history"
+
+   CORRECT (a single entity's own fact -- fine on its own, no comparison needed):
+   "Leanstral 1.5 API pricing"
+   CORRECT (a comparison is fine too, AS LONG AS it is still asking for a fact, e.g. published
+   benchmark numbers, not an opinion about what those numbers mean):
+   "GLM-5.2 GPT-5.5 benchmark score comparison"
+
+   HARD RULE, no exceptions: every named competitor/model/company that appears in a GAP query
+   MUST already be present, character-for-character, in the ENTITIES list you just wrote above
+   in this same response, or in the Source text below. Before finalizing any GAP line, re-check
+   it against your own ENTITIES line: if a name in the query is not in that list, delete that
+   name from the query -- do not substitute a different name from memory, even one you are
+   confident is a real, currently-relevant product, and even one in the same category. You do
+   not have live knowledge of which product is still the current or correct point of comparison
+   today. If, after removing any unlisted name, the query would have nothing left to compare
+   against, do not name any competitor at all -- ask about the article's own entity alone, or
+   set that slot to "none" if there is nothing left to ask.
+
 Respond in EXACTLY this format, in this order, with no other text before or after:
 TYPE: <model_release, acquisition, ban_regulation, repo_analysis, or general>
 ENTITIES: <comma-separated NAMED entities only, format "Name (type)". Types: company, startup,
@@ -142,6 +183,127 @@ Summary: {summary}
 Source: {source_text}"""
 
 _STAGE1_ANALYSIS_MAX_TOKENS = 600
+
+_MAX_GAP_SLOTS = 3
+_GAP_LINE_RE = re.compile(r"^GAP(\d+):", re.MULTILINE)
+
+
+def _cap_gap_lines(analysis: str, max_gaps: int = _MAX_GAP_SLOTS) -> str:
+    """Hard code-level cap on GAP slots — a backstop, not just prompt wording.
+
+    The prompt already asks for GAP1/GAP2/GAP3 as a maximum, and `max_tokens`
+    already bounds the worst case, but the model has still been observed
+    (documented in prompt-design-thought-process.md) to occasionally ignore
+    the 3-slot instruction and keep generating GAP4, GAP5, GAP6... in a
+    runaway repetition loop (300+ lines in one test run, 15 queries generated
+    instead of ≤3 in the first live production run). Rather than trust the
+    prompt or token cap alone, this truncates the raw analysis text the
+    instant a GAP line beyond `max_gaps` appears — Step 3 (JSON extraction)
+    never even sees the runaway tail, so it can't accidentally transcribe
+    GAP4/GAP5/... as if they were legitimate. The existing downstream
+    `search_queries[:3]` truncation in `_synthesize_sarvam` is a second,
+    independent safety net at the query-usage level; this one acts earlier,
+    at the analysis-text level, before Step 3 even runs.
+    """
+    matches = list(_GAP_LINE_RE.finditer(analysis))
+    over_limit = [m for m in matches if int(m.group(1)) > max_gaps]
+    if not over_limit:
+        return analysis
+    return analysis[: over_limit[0].start()].rstrip()
+
+
+# Hard code-level backstop for a second, distinct hallucination bug — a
+# comparison-shaped GAP query naming a competitor the article never actually
+# mentioned. Prompt wording alone was tried twice and failed both times,
+# confirmed live: the model repeatedly named "GPT-4 Turbo"/"Claude 3 Opus" as
+# comparison targets for Leanstral 1.5 (a 2026 model) even when explicitly
+# told not to invent unlisted names — the exact same "prompt wording isn't
+# enough" lesson _cap_gap_lines() above already exists for. This filter
+# doesn't try to guess which names are hallucinated (that's not generally
+# knowable); it only checks whether a comparison query's named entities
+# already appear somewhere in the article's own material, mirroring the
+# existing "do not invent anything not already in the write-up" principle
+# used elsewhere in this pipeline, enforced here in code instead of trusted
+# to the model's compliance.
+_COMPARISON_MARKER_RE = re.compile(r"\bvs\.?\b|\bversus\b|\bcompared? to\b|\bcomparison\b", re.IGNORECASE)
+_CONNECTOR_WORDS = {
+    "a", "an", "the", "of", "on", "in", "for", "with", "and", "or", "to", "by",
+    "from", "at", "per", "beyond", "other", "existing", "some", "similarly-named",
+}
+# Generic analysis-noun vocabulary that's often the sentence-initial word of
+# a GAP query ("Comparison of...", "Details on...") — capitalized only
+# because it starts the sentence, not because it names a real product/company.
+# Confirmed live this caused a false positive (a fine, non-hallucinating query
+# — "Comparison of Leanstral's performance on PutnamBench versus other
+# state-of-the-art models" — got dropped for no reason other than its first
+# word being capitalized).
+_GENERIC_ANALYSIS_WORDS = {
+    "comparison", "comparisons", "details", "detail", "impact", "impacts",
+    "analysis", "overview", "explanation", "discussion", "review",
+    "differences", "similarities", "significance", "implications",
+    "advantages", "disadvantages",
+}
+
+
+def _extract_candidate_names(query: str) -> list[str]:
+    """Chunk consecutive proper-noun-ish tokens (capitalized, or containing a
+    digit — to catch version numbers like "5.2") into candidate name phrases."""
+    phrases = []
+    current: list[str] = []
+    for word in query.split():
+        stripped = word.strip(",.;:()")
+        # Strip a trailing possessive ("Leanstral's" -> "Leanstral") -- without
+        # this, the article's own entity name in possessive form fails the
+        # known-entity substring match (confirmed live: "Leanstral's" doesn't
+        # contain, and isn't contained in, "Leanstral 1.5", causing a false
+        # positive that dropped an otherwise-fine query).
+        stripped = re.sub(r"['’]s$", "", stripped)
+        is_candidate = bool(stripped) and (
+            stripped[0].isupper() or any(c.isdigit() for c in stripped)
+        ) and stripped.lower() not in _CONNECTOR_WORDS and stripped.lower() not in _GENERIC_ANALYSIS_WORDS
+        if is_candidate:
+            current.append(stripped)
+        else:
+            if current:
+                phrases.append(" ".join(current))
+                current = []
+    if current:
+        phrases.append(" ".join(current))
+    return phrases
+
+
+def _query_names_unlisted_competitor(query: str, entity_names: list[str], source_text: str) -> bool:
+    """True if `query` is comparison-shaped AND names something not found
+    anywhere in this article's own entities/source text — see module-level
+    comment above for why this exists as a code check, not just a prompt rule."""
+    if not _COMPARISON_MARKER_RE.search(query):
+        return False
+    known_lower = {n.lower() for n in entity_names}
+    source_lower = (source_text or "").lower()
+    for phrase in _extract_candidate_names(query):
+        phrase_lower = phrase.lower()
+        if len(phrase) < 4:
+            continue
+        if any(phrase_lower in k or k in phrase_lower for k in known_lower):
+            continue
+        if phrase_lower in source_lower:
+            continue
+        return True
+    return False
+
+
+def _drop_hallucinated_comparisons(queries: list[str], entities: list[dict], source_text: str) -> list[str]:
+    """Drop any GAP query naming a comparison target the article never
+    mentioned, rather than send it to search at all — confirmed live this
+    happens even after prompt-only fixes (see comment above)."""
+    entity_names = [e.get("name", "") for e in entities if e.get("name")]
+    kept = []
+    for q in queries:
+        if _query_names_unlisted_competitor(q, entity_names, source_text):
+            print(f"[stage1] dropping hallucinated-comparison query: {q}")
+            continue
+        kept.append(q)
+    return kept
 
 
 # Step 3 — transcribe Step 2's analysis into strict JSON. Reasoning off, same
@@ -185,15 +347,22 @@ Output ONLY valid JSON with exactly these keys:
     "Para 1: <exact instruction — what to say, which facts to use, tone>",
     "Para 2: <exact instruction>",
     "Para 3: <exact instruction>",
-    "Para 4: <exact instruction — optional>"
+    "Para 4: <exact instruction>",
+    "Para 5: <exact instruction — optional>",
+    "Para 6: <exact instruction — optional>"
   ]
 }}
 
 paragraph_plan rules:
-- 3-4 paragraphs total
+- 4-6 paragraphs total — use as many as the story genuinely has substance for (this is a
+  maximum driven by real content, not a target to hit; a thin story with only 4 paragraphs'
+  worth of real material should stay at 4, don't pad with restated facts to reach 6)
 - Each instruction must be specific enough that the writer needs zero additional thinking
-- Include which facts/entities/numbers belong in that paragraph
-- Keep each instruction to 1-2 sentences"""
+- Include which facts/entities/numbers belong in that paragraph, in enough detail that the
+  writer can produce a full, substantial paragraph (3-5 sentences) from it — not just a topic
+  label. List out the specific facts, figures, comparisons, and quotes to use, not just the
+  general theme
+- Each instruction itself can be 2-4 sentences — richer instructions produce richer articles"""
 
 _STAGE3_PROMPT = """You are a Hindi writer for टेकदृष्टि. The editorial team has done all the planning — your ONLY job is to execute the writing plan below exactly as instructed.
 
@@ -201,6 +370,13 @@ DO NOT re-plan, re-think, or restructure. Follow each paragraph instruction belo
 instruction's own wording into the article — the plan tells you WHAT to cover, not what to literally
 write. Turn each instruction into actual flowing Hindi prose that DOES what it says, using the source
 facts and entity definitions provided.
+
+Write a COMPREHENSIVE, substantial article, not a short summary — you have a generous token budget for
+this, use it. Every body paragraph (introduction_lede, deep_dive_and_context, strategic_analysis,
+conclusion_and_significance) should be full, multi-sentence Hindi prose that genuinely explains
+mechanism, context, background, and implications from the plan and source facts — not a one-line
+gist of the paragraph's topic. deep_dive_and_context in particular is the main body of the article:
+it should be the longest section, covering every middle paragraph from the plan in real depth.
 
 CRITICAL — instruction vs. content, do not confuse the two:
 WRONG (copies the instruction itself, explains nothing): "उपकरण के पीछे की तकनीक की व्याख्या करें। वर्णन करें कि यह कैसे काम करता है।"
@@ -220,14 +396,20 @@ Category framing for STRATEGIC_ANALYSIS paragraph: {category_framing}
 --- ENTITY DEFINITIONS ---
 {entity_context}
 
+Mapping the plan's paragraphs (there may be 4-6) onto the JSON fields below:
+- The FIRST paragraph in the plan -> introduction_lede
+- EVERY paragraph BETWEEN the first and the last (Para 2 through the second-to-last, however
+  many that is) -> deep_dive_and_context, combined into one thorough, multi-paragraph-worth section
+- The LAST paragraph in the plan -> strategic_analysis, using the category framing
+
 Output ONLY valid JSON with exactly these keys (no markdown, no preamble, no code fences):
 {{
   "title": "<one sharp Hindi headline based on the title idea>",
-  "concept_box": "<2 sentences max — explain the ONE hardest concept for a newcomer, in simple Hindi>",
-  "introduction_lede": "<actual prose fulfilling Para 1's instruction, not the instruction itself>",
-  "deep_dive_and_context": "<actual prose fulfilling Para 2 and Para 3's instructions combined, not the instructions themselves>",
-  "strategic_analysis": "<actual prose fulfilling the final paragraph's instruction using the category framing>",
-  "conclusion_and_significance": "<one strong closing paragraph — what this means for the reader>"
+  "concept_box": "<2-3 sentences — explain the ONE hardest concept for a newcomer, in simple Hindi>",
+  "introduction_lede": "<actual prose fulfilling Para 1's instruction, not the instruction itself — 3-5 substantial sentences>",
+  "deep_dive_and_context": "<actual prose combining every middle paragraph's instruction in full depth, not the instructions themselves — this is the main body, cover every fact/comparison/quote from those instructions, several sentences per paragraph covered>",
+  "strategic_analysis": "<actual prose fulfilling the final paragraph's instruction using the category framing — 3-5 substantial sentences>",
+  "conclusion_and_significance": "<one strong closing paragraph — 3-4 sentences on what this means for the reader>"
 }}
 
 Language rules (CRITICAL):
@@ -498,7 +680,14 @@ def _stage1_extract_queries(
     reasoning_effort=None — see the prompt definitions above for why each
     step is shaped the way it is, and stage1-design.md for the full test
     history this design is based on."""
-    truncated_source = source_text[:800] if source_text else "(not available)"
+    # 2000 chars, matching Stage 2's window — 800 was found to frequently cut off
+    # before an article's actual named entities appear (confirmed on a real case:
+    # the article's device/researcher/institution names all sat past char 800,
+    # in what was still generic scene-setting text at that point), forcing entity
+    # extraction to fall back to generic nouns ("device", "researchers") since the
+    # real names were never in view. Stage 2 uses 2000 chars and reliably finds
+    # the real names on the same articles, which is why that's the target here too.
+    truncated_source = source_text[:2000] if source_text else "(not available)"
 
     skip_prompt = _STAGE1_SKIP_PROMPT.format(title=title, summary=summary[:500], source_text=truncated_source)
     skip_raw = _call_sarvam(skip_prompt, api_key, _MODEL_FAST, reasoning_effort=None)
@@ -517,6 +706,7 @@ def _stage1_extract_queries(
     )
     if not analysis:
         return None
+    analysis = _cap_gap_lines(analysis)
 
     extraction_prompt = _STAGE1_EXTRACTION_PROMPT.format(analysis=analysis[:2000])
     raw = _call_sarvam(
@@ -529,6 +719,9 @@ def _stage1_extract_queries(
     result = _parse_json_response(raw)
     if result is not None:
         result["skip"] = False
+        result["search_queries"] = _drop_hallucinated_comparisons(
+            result.get("search_queries", []), result.get("entities", []), source_text
+        )
     return result
 
 
@@ -659,6 +852,50 @@ def _synthesize_search_results(
 
 
 # ---------------------------------------------------------------------------
+# Input language normalization — translate non-English source text to
+# English before it ever reaches Stage 1-3. Previously the only place
+# Google Translate ran was the FALLBACK path (translate_item, used when
+# Sarvam synthesis fails entirely, output language is Hindi) — a Chinese-
+# or other-non-English-sourced article that Sarvam *successfully*
+# synthesized from went straight into Stage 1-3 prompts in its original
+# language, untested and undocumented as a real scenario.
+# ---------------------------------------------------------------------------
+
+
+def _detect_language(text: str) -> str | None:
+    """Best-effort language detection on a sample of text.
+
+    Returns None (not "en") on detection failure — e.g. text too short or
+    too ambiguous (langdetect raises on these) — so the caller treats an
+    undetectable sample the same as English: proceed unchanged rather than
+    force a translation call on a guess.
+    """
+    sample = (text or "").strip()[:500]
+    if not sample:
+        return None
+    try:
+        return detect(sample)
+    except LangDetectException:
+        return None
+
+
+def _translate_to_english(text: str) -> str:
+    """Best-effort translate non-English text to English.
+
+    Falls back to the original text on any failure — same graceful-
+    degradation pattern as `translator/translate.py`'s `_safe_translate`:
+    a failed translation should degrade quality, not crash the run.
+    """
+    if not text:
+        return text
+    try:
+        return GoogleTranslator(source="auto", target="en").translate(text)
+    except Exception as e:
+        print(f"[language] translate-to-English failed: {e}")
+        return text
+
+
+# ---------------------------------------------------------------------------
 # Sarvam orchestrator  +  per-run trace
 # ---------------------------------------------------------------------------
 
@@ -704,6 +941,23 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         trace["outcome"] = "skipped_no_content"
         _run_traces.append(trace)
         return SKIP
+
+    # ------------------------------------------------------------------
+    # Language normalization: detect non-English source content and
+    # translate title/summary/source_text to English before Stage 1 ever
+    # sees them. Detection runs on source_text (falling back to summary if
+    # source_text is empty) since it's the largest, most reliable sample.
+    # ------------------------------------------------------------------
+    detected_lang = _detect_language(source_text or summary)
+    translated_input = False
+    if detected_lang and detected_lang != "en":
+        print(f"\n[LANGUAGE] detected '{detected_lang}' — translating to English before Stage 1")
+        title = _translate_to_english(title)
+        summary = _translate_to_english(summary)
+        source_text = _translate_to_english(source_text)
+        translated_input = True
+    trace["stage0"]["detected_language"] = detected_lang
+    trace["stage0"]["translated_to_english"] = translated_input
 
     # ------------------------------------------------------------------
     # Stage 1: entity extraction + relevance check (sarvam-30b)

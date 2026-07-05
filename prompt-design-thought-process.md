@@ -290,7 +290,7 @@ hundred wasted tokens in this one call, not extra downstream API calls or search
 
 ```mermaid
 flowchart TD
-    A["Raw item: title, summary,\nfirst ~800 chars of scraped source"] --> B["Step 1: Crux Skip Gate\n(sarvam-30b, reasoning_effort=None,\nREASON before SKIP)"]
+    A["Raw item: title, summary,\nfirst ~2000 chars of scraped source"] --> B["Step 1: Crux Skip Gate\n(sarvam-30b, reasoning_effort=None,\nREASON before SKIP)"]
     B -->|"SKIP: yes"| Z["Discard.\nNo further Sarvam calls made\nfor this item."]
     B -->|"SKIP: no"| C["Step 2: Entity + Gap Analysis\n(sarvam-30b, reasoning_effort=None,\nTYPE -> CHECKLIST -> GAP1/2/3,\nmax_tokens=600 backstop)"]
     C --> D["Step 3: JSON Extraction\n(sarvam-30b, reasoning_effort=None)"]
@@ -301,13 +301,80 @@ flowchart TD
 All three steps live in `writer/synthesize.py`: `_STAGE1_SKIP_PROMPT`, `_STAGE1_ANALYSIS_PROMPT`,
 `_STAGE1_EXTRACTION_PROMPT`, orchestrated by `_stage1_extract_queries()`.
 
+## Part 5 — Production follow-up: the source-text truncation bug
+
+This design was validated on 4 diverse test cases and wired into production (Part 4). Running
+it against further real, live articles surfaced a fifth failure mode that none of those 4 test
+cases happened to expose: **Steps 1 and 2 were only shown `source_text[:800]`**, and on some
+articles the actual named entities simply don't appear that early.
+
+### The case that exposed it
+
+A real article about an eye-perfusion device opens with several sentences of generic
+scene-setting — "it's not easy to transplant a whole human eye... the surgery is difficult...
+the eyes themselves start to degenerate..." — before ever naming the device, the researcher, or
+the institution behind it. Checked directly against the scraped text: the device's name
+(`Eye-in-a-Care-Box` / `ECaBox`) first appears at character 1223, the institution
+(`Barcelona Institute of Science and Technology`) at 1103, the researcher (`Tessier`) at 876 —
+all past the 800-character cutoff Steps 1-2 were working with. Step 1/2 had no choice but to
+extract what was actually in front of them: generic nouns like `"device"`, `"perfusion"`,
+`"researchers"` instead of the real names.
+
+### Why this wasn't caught by the earlier 4-case validation
+
+None of those 4 test articles happened to bury their key names past 800 characters — the
+validation was real, but it wasn't testing this specific dimension (how deep into an article
+the first named-entity mention sits), so it couldn't have caught this. Worth stating plainly:
+a validation set that's diverse in *topic* isn't automatically diverse in every dimension a bug
+could hide along.
+
+### Confirming the cause before touching anything
+
+Stage 2 (a separate call, downstream of Stage 1) uses `source_text[:2000]` and reliably found
+the real names on this exact article — `Pia Cosma`, `Shannon Tessier`, `Centre for Genomic
+Regulation`, `Massachusetts General Hospital`, `Barcelona Institute of Science and Technology`,
+`ECaBox` all came through correctly in Stage 2's own `key_facts_and_quotes` field. That
+side-by-side comparison (same article, same underlying model family, different truncation
+length, different outcome) is what confirmed this was a truncation problem, not a prompt-wording
+or judgment problem — the kind of problem Part 2 and Part 3 spent most of their effort on.
+
+### The fix and the verification
+
+Raised Steps 1-2's truncation from `source_text[:800]` to `source_text[:2000]`, matching Stage
+2. Reran Stage 1 on the identical article 3 times:
+
+| Run | Entities extracted |
+|---|---|
+| 1 (before fix) | `device`, `researchers`, `perfusion` — every run |
+| 1 (after fix) | `Shannon Tessier`, `Pia Cosma`, `Centre for Genomic Regulation`, `Massachusetts General Hospital`, `Barcelona Institute of Science and Technology`, `pig`, `ECaBox` |
+| 2 (after fix) | same real names, plus correct `"ambiguous"` flags on `pig`/`ECaBox` |
+| 3 (after fix) | same real names again |
+
+0 of 3 generic-noun extractions after the fix, versus every run before it.
+
+### What this fix did NOT touch — reported honestly, not glossed over
+
+The same 3 runs surfaced two *separate* problems, pre-existing and unrelated to truncation:
+
+- **Query-count variance**: run 1 generated 9 search queries, run 2 generated 3, run 3 generated
+  0 — all on the identical input. This is the same run-to-run judgment inconsistency documented
+  in Part 3/Part 4's residual issues, not something the truncation fix touches one way or the
+  other. Downstream `search_queries[:3]` truncation still bounds the practical cost.
+- **Entity-type mistakes**: run 3 typed `Massachusetts General Hospital` as `person` instead of
+  `organization`, and flagged nearly every entity `"ambiguous": true` without a coherent reason
+  (`resolved_sense` values like `"person"`/`"organization"` that just restate the type field
+  rather than disambiguating anything). This is the entity-typing/ambiguity problem already
+  named as unsolved in residual issue 3 below — the truncation fix gave Stage 1 the *right
+  names* to work with, it didn't make its judgment about those names any more consistent.
+
 ## Known, honestly-stated residual issues
 
 1. **The gap-generation repetition bug is reduced, not eliminated.** It recurred once in 12 test
    runs (on the densest article) and once in the first live production run after this design was
-   wired in. The `max_tokens=600` cap contains the blast radius but doesn't prevent the model
-   from starting the loop. Downstream `search_queries[:3]` truncation limits the practical damage
-   to wasted generation tokens, not extra search cost.
+   wired in, and again (9 queries instead of ≤3) during the truncation-fix verification above.
+   The `max_tokens=600` cap contains the blast radius but doesn't prevent the model from starting
+   the loop. Downstream `search_queries[:3]` truncation limits the practical damage to wasted
+   generation tokens, not extra search cost.
 2. **The skip decision's underlying judgment is still run-to-run inconsistent on genuinely
    ambiguous cases** — the reason-before-verdict fix solved the *format*/token-starvation
    failure modes, not the model occasionally disagreeing with itself on a hard call. This is a
@@ -315,3 +382,9 @@ All three steps live in `writer/synthesize.py`: `_STAGE1_SKIP_PROMPT`, `_STAGE1_
 3. **Entity typing and ambiguity resolution still rely entirely on the LLM.** A hybrid approach
    (a deterministic NLP/POS-based candidate extractor feeding a small LLM call for typing and
    ambiguity only) was discussed as a future option for speed/cost, not yet built or tested.
+   Confirmed still relevant by the entity-mistyping and ambiguity-over-flagging seen in Part 5.
+4. **Source-text truncation depth (800 -> 2000 chars) — fixed, but the underlying assumption
+   (2000 chars is "enough") hasn't itself been stress-tested the way the original 4-case
+   validation stress-tested the query-generation design.** A sufficiently long preamble could in
+   principle still push key names past 2000 characters; this hasn't been observed live yet, but
+   it's the same class of bug as the one Part 5 just fixed, and worth watching for.

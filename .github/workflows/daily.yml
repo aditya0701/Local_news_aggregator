@@ -25,6 +25,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Caches the ~420MB all-mpnet-base-v2 embedding model (writer/cluster.py)
+      # so it's downloaded from Hugging Face once, not on every daily run.
+      # Fixed key (no requirements.txt hash) since the model itself doesn't
+      # change when unrelated deps do; a daily cron run keeps this cache's
+      # 7-day inactivity clock from ever expiring it. Well within GitHub's
+      # 10GB-per-repo cache allowance at this size.
+      - name: Cache sentence-transformers model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-model-all-mpnet-base-v2-v1
+          restore-keys: |
+            hf-model-all-mpnet-base-v2-
+
       - name: Run pipeline
         env:
           SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
@@ -32,6 +46,12 @@ jobs:
           SARVAM_MODEL_QUALITY: sarvam-105b
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           PYTHONIOENCODING: utf-8
+          # Disables Hugging Face's newer "xet" transfer backend. Confirmed
+          # directly during development: xet repeatedly hit connection
+          # timeouts against huggingface.co and stalled the model download
+          # for 10+ minutes before ever falling back; the plain HTTP
+          # downloader (this flag) fetched the same file in under a minute.
+          HF_HUB_DISABLE_XET: "1"
         run: python pipeline.py
 
       - name: Commit updated articles and cache
