@@ -2322,13 +2322,10 @@
     "last_updated": "2026-07-03"
   },
   "codex": {
-    "senses": [
-      {
-        "sense_label": "Codex refers to the AI coding assistant mentioned in the debugging context",
-        "summary": "From routine pull requests to your hardest problems, Codex reliably completes tasks end to end, like building features, complex refactors, migrations, and more, powered by OpenAI’s frontier coding … A coding agent that helps you build and ship with AI—powered by ChatGPT. Available on macOS and Windo",
-        "last_updated": "2026-07-04"
-      }
-    ]
+    "canonical_name": "Codex",
+    "entity_type": "technology",
+    "summary": "Codex Technology is presented as a service that helps E-Commerce and service-based brands scale using AI automation, paid ads, SEO, and design. The company focuses on data-driven digital marketing strategies to increase brand awareness and conversions, driven by principles of quality and innovation.",
+    "last_updated": "2026-07-05"
   },
   "ui interaction bug": {
     "canonical_name": "UI interaction bug",
@@ -2443,5 +2440,557 @@
     "entity_type": "technology",
     "summary": "Get Telegram for Windows x64 Portable version Get Telegram for macOS Mac App Store Get Telegram for Linux x64 Flatpak … Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. a new era of messaging The official Telegram on Telegram. Much recursion. Very Telegr",
     "last_updated": "2026-07-04"
+  },
+  "ea": {
+    "canonical_name": "EA",
+    "entity_type": "company",
+    "summary": "Electronic Arts Inc. (EA) is a company that develops, markets, and distributes games, content, and services for various platforms including game consoles, PCs, and mobile devices. The company was established in 1982 and is headquartered in Redwood City, California.",
+    "last_updated": "2026-07-05"
+  },
+  "generalsx": {
+    "canonical_name": "GeneralsX",
+    "entity_type": "project",
+    "summary": "GeneralsX is a community-driven, cross-platform port of Command & Conquer: Generals and Zero Hour, built on a single modern codebase. It replaces the original Windows-only DirectX 8 and Miles Sound System stack with portable open-source equivalents like SDL3, DXVK, and OpenAL to run on Linux, macOS,",
+    "last_updated": "2026-07-05"
+  },
+  "fbraz3": {
+    "canonical_name": "fbraz3",
+    "entity_type": "person",
+    "summary": "fbraz3 is a user on GitHub who has created a first-person shooter concept built purely with JavaScript, HTML, and CSS. The user's profile also includes a repository overview for a project called 'lnmp' and other related repositories.",
+    "last_updated": "2026-07-05"
+  },
+  "zero hour": {
+    "canonical_name": "Zero Hour",
+    "entity_type": "product",
+    "summary": "Zero Hour is a tactical first-person shooter with online team-based gameplay set in Bangladesh, featuring cooperative missions and AI squad mates. It also includes a line of military-inspired apparel and a software platform for retailers to manage workforce.",
+    "last_updated": "2026-07-05"
+  },
+  "ea gpl v3": {
+    "canonical_name": "EA GPL v3",
+    "entity_type": "regulation",
+    "summary": "Material did not address this.",
+    "last_updated": "2026-07-05"
+  },
+  "directx 8": {
+    "canonical_name": "DirectX 8",
+    "entity_type": "technology",
+    "summary": "DirectX 8, released by Microsoft in 2000, introduced Shader Model 1.0, which included Vertex and Pixel Shaders. This allowed developers to manipulate vertices and control pixel colors, giving them more direct control over the GPU and enabling more advanced game rendering.",
+    "last_updated": "2026-07-05"
+  },
+  "dxvk": {
+    "canonical_name": "DXVK",
+    "entity_type": "technology",
+    "summary": "DXVK is a technology that translates Direct3D 9/10/11 calls to Vulkan, providing near-native performance for Linux gaming. It enables Windows titles to run on Linux by replacing the DirectX stack with a Vulkan-based translation layer, allowing for high-performance gaming on Linux platforms.",
+    "last_updated": "2026-07-05"
+  },
+  "moltenvk": {
+    "canonical_name": "MoltenVK",
+    "entity_type": "technology",
+    "summary": "MoltenVK is a Vulkan portability implementation that layers a subset of the Vulkan graphics and compute API over Apple's Metal framework. This allows Vulkan applications to run on macOS, iOS, and tvOS by providing a high-performance, cross-platform graphics solution.",
+    "last_updated": "2026-07-05"
+  },
+  "metal": {
+    "canonical_name": "Metal",
+    "entity_type": "technology",
+    "summary": "The material did not address this.",
+    "last_updated": "2026-07-05"
+  },
+  "apple silicon": {
+    "canonical_name": "Apple Silicon",
+    "entity_type": "technology",
+    "summary": "Material did not address this.",
+    "last_updated": "2026-07-05"
+  },
+  "hic mouse": {
+    "canonical_name": "HIC Mouse",
+    "entity_type": "product",
+    "summary": "HIC Mouse is an AI agent file-editing tool that uses coordinate-based editing to allow agents to stage and refine edits in a dialog box before writing to disk. It provides six declarative operations—INSERT, DELETE, REPLACE, REPLACE_RANGE, FOR_LINES, and ADJUST—to help AI agents select the right tool",
+    "last_updated": "2026-07-05"
+  },
+  "ai coding agents": {
+    "canonical_name": "AI coding agents",
+    "entity_type": "technology",
+    "summary": "AI coding agents are local-first tools designed for senior developers, offering transparency and data sovereignty to avoid the technical debt from high-velocity code generation. These agents provide declarative operations like INSERT, DELETE, and REPLACE to help AI agents stage and refine edits, add",
+    "last_updated": "2026-07-05"
+  },
+  "coordinatebased editing": {
+    "canonical_name": "coordinate-based editing",
+    "entity_type": "technology",
+    "summary": "Coordinate-based editing allows AI agents to stage edits in a dialog box and place them by exact coordinates before writing to disk. HIC Mouse's technology provides six declarative operations—INSERT, DELETE, REPLACE, REPLACE_RANGE, FOR_LINES, and ADJUST—to help agents select the right tool for each",
+    "last_updated": "2026-07-05"
+  },
+  "gpt55": {
+    "canonical_name": "GPT-5.5",
+    "entity_type": "ai_model",
+    "summary": "GPT-5.5 is described as the smartest model yet, designed for complex tasks like coding, research, and data analysis. It is built to understand user intent faster and can carry more of the work itself, excelling at writing and debugging code, researching, and operating software.",
+    "last_updated": "2026-07-05"
+  },
+  "google books": {
+    "canonical_name": "Google Books",
+    "entity_type": "company",
+    "summary": "Google Books is a service that provides access to the world's most comprehensive index of full-text books, allowing users to search and view content. It also includes the Ngram Viewer, which charts the frequency of terms used in books over time, and offers advanced search features like collocates an",
+    "last_updated": "2026-07-05"
+  },
+  "adguardmailcom": {
+    "canonical_name": "adguard-mail.com",
+    "entity_type": "company",
+    "summary": "AdGuard Mail is a service that provides email forwarding, disposable email addresses, and aliases to protect a user's real email address. Users can create aliases for newsletters or sign-ups, and the service forwards emails to the user's actual inbox without revealing their primary email.",
+    "last_updated": "2026-07-05"
+  },
+  "matrix": {
+    "canonical_name": "Matrix",
+    "entity_type": "technology",
+    "summary": "Matrix Technologies is a 100% employee-owned company that delivers integrated engineering, construction, automation, and information solutions. The company provides full lifecycle solutions across various industries and is committed to aligning its project approach with a client's specific operation",
+    "last_updated": "2026-07-05"
+  },
+  "university of chicago": {
+    "canonical_name": "University of Chicago",
+    "entity_type": "organization",
+    "summary": "One of the world’s leading research universities, the University of Chicago inspires scholars to pursue field-defining research, while providing a transformative education for students. UChicago's academic and administrative leaders. Find a person at UChicago or its affiliates through our online dir",
+    "last_updated": "2026-07-05"
+  },
+  "marine biological laboratory": {
+    "canonical_name": "Marine Biological Laboratory",
+    "entity_type": "organization",
+    "summary": "The Marine Biological Laboratory (MBL) is dedicated to scientific discovery and improving the human condition through research and education in biology, biomedicine, and environmental science. It is an established educational organization of biology and natural history with an internationally renown",
+    "last_updated": "2026-07-05"
+  },
+  "evelyn houliston": {
+    "canonical_name": "Evelyn Houliston",
+    "entity_type": "person",
+    "summary": "Evelyn Houliston is an academic researcher from University of Paris. The author has contributed to research in topics: Biology & Microtubule. The author has an hindex of 37, co-authored 86 publications. Evelyn Houliston is a Senior Researcher at Sorbonne Universités in Paris, France. The material al",
+    "last_updated": "2026-07-05"
+  },
+  "clytia hemisphaerica": {
+    "canonical_name": "Clytia hemisphaerica",
+    "entity_type": "species",
+    "summary": "Clytia hemisphaerica is a marine invertebrate model, specifically a hydrozoan–group cnidarian with both a colonial polyp stage and free-living, sexual medusae. The scientific motivation to develop Clytia in the early 2000s came from a group investigating embryo polarity development, and it is used a",
+    "last_updated": "2026-07-05"
+  },
+  "jocelyn malamy": {
+    "canonical_name": "Jocelyn Malamy",
+    "entity_type": "person",
+    "summary": "Jocelyn Malamy is an Associate Professor and Senior Researcher at Sorbonne Universités in Paris, France. She runs a research lab focused on expanding into and publishing in new directions, specifically jellyfish, and is interested in their regenerative capacity. Her work includes developing methods",
+    "last_updated": "2026-07-05"
+  },
+  "marine observatoire": {
+    "canonical_name": "Marine Observatoire",
+    "entity_type": "organization",
+    "summary": "The material did not address this entity. The query 'Marine Observatoire' did not match any of the provided material, which instead contained information about JOGMEC, a Japan-based organization for metals and energy security, and the Scilit organization profile.",
+    "last_updated": "2026-07-05"
+  },
+  "database": {
+    "canonical_name": "database",
+    "entity_type": "repo_analysis",
+    "summary": "A fresh approach to OS analysis highlights the best open source databases in 2020 by new and active contributors, growth, retention, etc. There are 176 active database repos with non-zero contributor activity in 2020, and we will consider them further.",
+    "last_updated": "2026-07-05"
+  },
+  "query planner": {
+    "canonical_name": "query planner",
+    "entity_type": "repo_analysis",
+    "summary": "Enables or disables the query planner's optimization which analyses the query tree and replaces self joins with semantically equivalent single scans. Takes into consideration only plain tables. The default is on. These configuration parameters provide a crude method of influencing the query plans ch",
+    "last_updated": "2026-07-05"
+  },
+  "ai context": {
+    "canonical_name": "AI context",
+    "entity_type": "repo_analysis",
+    "summary": "The Recursive Repository Context Engine (R2CE) is an AI-native developer tool designed to solve the \"Context Wall\" in AI-assisted development. While standard LLMs struggle with large codebases due to token limits, R2CE creates a Bottom-Up Recursive Summary of any Git repository. It transforms raw co",
+    "last_updated": "2026-07-05"
+  },
+  "app": {
+    "canonical_name": "app",
+    "entity_type": "repo_analysis",
+    "summary": "Download Repo Analyzer by Bismark Kessie on the App Store. See screenshots, ratings and reviews, user tips and more games like Repo Analyzer. Code insights and improvement Free · Designed for iPad. Not verified for macOS. Powerful GitHub repository analyzer that visualizes file structure and provide",
+    "last_updated": "2026-07-05"
+  },
+  "tenant": {
+    "canonical_name": "tenant",
+    "entity_type": "repo_analysis",
+    "summary": "This API is used to query the list of all repositories that occupy resources under a tenant. You can debug this API through automatic authentication in API Explorer or use the SDK sample code generated by API Explorer. Each account root user has all the permissions required to call all APIs, but IAM",
+    "last_updated": "2026-07-05"
+  },
+  "model": {
+    "canonical_name": "model",
+    "entity_type": "repo_analysis",
+    "summary": "A model repository is defined as a professional infrastructure where scientists can publish their model code, which is curated for validity and reproducibility, and provides persistent identifiers for long-term access and citation. Comparison and analysis of AI models and API hosting providers. Inde",
+    "last_updated": "2026-07-05"
+  },
+  "open memory protocol": {
+    "canonical_name": "Open Memory Protocol",
+    "entity_type": "protocol",
+    "summary": "The Open Memory Protocol (OMP) is an open, vendor-neutral specification designed to make AI memory portable across different applications and devices. It is a universal standard for owning, backing up, and migrating AI conversations across platforms like ChatGPT, Claude, and Gemini. The protocol aim",
+    "last_updated": "2026-07-05"
+  },
+  "marketfish": {
+    "canonical_name": "MarketFish",
+    "entity_type": "product",
+    "summary": "Marketfish has developed a platform for agencies, marketers, list owners and businesses of all size to enhance, deploy and track the performance of their opt-in email marketing campaigns. It is included in 1 Expert Collection, including Ad Tech.",
+    "last_updated": "2026-07-05"
+  },
+  "deepseek": {
+    "canonical_name": "DeepSeek",
+    "entity_type": "company",
+    "summary": "DeepSeek focuses on the development of artificial general intelligence within the technology sector. It offers a platform that facilitates application programming interface calls for integrating AI capabilities and a chat interface for exploring AGI applications. It was founded in 2023 and is based",
+    "last_updated": "2026-07-05"
+  },
+  "qwen": {
+    "canonical_name": "Qwen",
+    "entity_type": "company",
+    "summary": "Qwen-AgentWorld is a native language world model that simulates 7 agent environments (MCP, Search, Terminal, SWE, Web, OS, Android) within a single model. Environment modeling is the training objective from day one, not a post-hoc adaptation.",
+    "last_updated": "2026-07-05"
+  },
+  "doubao": {
+    "canonical_name": "Doubao",
+    "entity_type": "company",
+    "summary": "Doubao is a sophisticated multimodal AI assistant that integrates natural language processing, content generation, and image creation capabilities. Launched in August 2023, the platform operates internationally under the name 'Cici' and supports 18 languages, including English, Russian, Arabic, Fren",
+    "last_updated": "2026-07-05"
+  },
+  "zhipu": {
+    "canonical_name": "Zhipu",
+    "entity_type": "company",
+    "summary": "Zhipu AI is an artificial intelligence company that offers a large model platform providing API services and a range of smart applications, including the AMiner analysis engine and AI cognitive tools like CodeGeeX and CogView, to help users automate digital tasks and minimize manual effort.",
+    "last_updated": "2026-07-05"
+  },
+  "baidu": {
+    "canonical_name": "Baidu",
+    "entity_type": "company",
+    "summary": "Baidu, Inc. engages in the provision of internet search and online marketing solutions. The firm's products and services include Baidu App, Baidu Search, Baidu Feed, Haokan, Quanmin. We are a leading AI company with a strong internet foundation. We have been consistently investing in AI since 2010 t",
+    "last_updated": "2026-07-05"
+  },
+  "hunyuan": {
+    "canonical_name": "Hunyuan",
+    "entity_type": "company",
+    "summary": "Tencent Hunyuan is an AI model developed by Tencent Holdings Ltd., a publicly traded Chinese technology conglomerate founded in 1998. Unlike a venture-backed startup, Hunyuan's financial stability is not tied to specific funding rounds but to the overall health and strategic priorities of Tencent, o",
+    "last_updated": "2026-07-05"
+  },
+  "google": {
+    "canonical_name": "Google",
+    "entity_type": "company",
+    "summary": "Google is an American search engine company, founded in 1998 by Sergey Brin and Larry Page. Since 2015, Google has been a subsidiary of the holding company Alphabet, Inc. We are a leading AI company with a strong internet foundation. We have been consistently investing in AI since 2010 to advance ou",
+    "last_updated": "2026-07-05"
+  },
+  "mistral": {
+    "canonical_name": "Mistral",
+    "entity_type": "company",
+    "summary": "Mistral's mission is to make frontier AI open to all, and together solve the world's hardest problems. We partner with organizations in high-stakes industries like finance, manufacturing, defense, energy, and the public sector to co-create tailored AI systems to solve their hardest, most high-value",
+    "last_updated": "2026-07-05"
+  },
+  "oxbshwagentspan": {
+    "canonical_name": "oxbshw/Agent-Span",
+    "entity_type": "project",
+    "summary": "oxbshw / Agent-Span is a public project that provides a namespaced key/value scratchpad for AI agents to persist small state across requests. It also serves as a Web Access Gateway, offering AI agents persistent, scalable, cached access to 52 internet platforms through a REST API, an SSE event strea",
+    "last_updated": "2026-07-05"
+  },
+  "mcp": {
+    "canonical_name": "MCP",
+    "entity_type": "technology",
+    "summary": "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems. It operates at the application context layer to define how to structure, persist, and exchange context between AI agents and external systems, potentially using protocols like HTTP or gRPC for",
+    "last_updated": "2026-07-05"
+  },
+  "fafaaidatalab": {
+    "canonical_name": "fafa-ai-data-lab",
+    "entity_type": "organization",
+    "summary": "fafa-ai-data-lab is an organization that builds software on GitHub. It provides a methodology for creating a trustworthy, traceable, self-growing AI data-analyst agent, which includes metrics-first, independent read-only validation, and a self-growing rule library. The organization also offers a sin",
+    "last_updated": "2026-07-05"
+  },
+  "aidataanalystagent": {
+    "canonical_name": "ai-data-analyst-agent",
+    "entity_type": "product",
+    "summary": "An AI Data Analyst Agent is an intelligent, command-line-based assistant powered by open-source models like Qwen. It allows users to chat contextually with an AI to analyze, visualize, and animate complex data through a chat-based interface without requiring coding knowledge. The agent is designed t",
+    "last_updated": "2026-07-05"
+  },
+  "cursor": {
+    "canonical_name": "Cursor",
+    "entity_type": "product",
+    "summary": "Cursor is a tool that plans, writes, and reviews code using AI agents that understand the entire codebase. It is available across multiple platforms, including Desktop, CLI, Web, and Mobile, and features a grid view of open windows for quick selection. The project is developed by a group of research",
+    "last_updated": "2026-07-05"
+  },
+  "system prompt": {
+    "canonical_name": "system prompt",
+    "entity_type": "technology",
+    "summary": "A system prompt is an invisible instruction that defines the rules of engagement for an AI conversation. It dictates how the AI should behave, such as whether it sounds formal or casual, how it handles sensitive topics, and how it reasons through complex problems. Understanding this script is key to",
+    "last_updated": "2026-07-05"
+  },
+  "skill": {
+    "canonical_name": "skill",
+    "entity_type": "technology",
+    "summary": "Skill standards benefit industry, students, educators, and government by making AI a business skill rather than just a technology skill. AI is rapidly becoming part of how work gets done, with activities accounting for up to 30% of current work hours potentially automated by 2030. The bigger challen",
+    "last_updated": "2026-07-05"
+  },
+  "oomollab": {
+    "canonical_name": "oomol-lab",
+    "entity_type": "organization",
+    "summary": "OOMOL Lab is an organization that develops open-source projects, including an auth gateway for AI agents and a TypeScript client for the OOMOL Connector gateway. They have 54 repositories available on GitHub and offer a CLI toolkit for integration.",
+    "last_updated": "2026-07-05"
+  },
+  "openconnector": {
+    "canonical_name": "OpenConnector",
+    "entity_type": "product",
+    "summary": "OpenConnector is a Nextcloud application designed for seamless data synchronization between various sources and targets. It helps integrate a Nextcloud environment with external systems and the Open Register, allowing users to configure data sources, consumers, and transformation rules.",
+    "last_updated": "2026-07-05"
+  },
+  "composio": {
+    "canonical_name": "Composio",
+    "entity_type": "product",
+    "summary": "Composio is a developer-focused platform that simplifies how AI agents and LLMs interface with external tools and APIs. It provides a unified framework for integrating diverse tools, managing authentication, and orchestrating complex workflows, enabling the rapid development of production-ready AI s",
+    "last_updated": "2026-07-05"
+  },
+  "agent": {
+    "canonical_name": "agent",
+    "entity_type": "technology",
+    "summary": "Agent technology in AI is transitioning from experimental to production, simulating intelligent behavior to handle dynamic tasks like automated decision-making. Unlike simple chatbots, agents perceive external changes, plan actions, and continuously learn, forming a complete interaction loop suitabl",
+    "last_updated": "2026-07-05"
+  },
+  "saas": {
+    "canonical_name": "SaaS",
+    "entity_type": "technology",
+    "summary": "SaaS is a cloud-based software delivery model where applications are hosted by a provider and accessed over the internet via a subscription. This model eliminates the need for local installation, offering ease of access, scalability, and reduced IT infrastructure needs, with users typically logging",
+    "last_updated": "2026-07-05"
+  },
+  "auth": {
+    "canonical_name": "auth",
+    "entity_type": "technology",
+    "summary": "Auth, short for authentication and/or authorization, refers to technologies and processes used to verify the identity of a user, device, or system. It is used to grant or deny access to specific resources based on their verified identity, with common uses including password verification, multi-facto",
+    "last_updated": "2026-07-05"
+  },
+  "sdk": {
+    "canonical_name": "SDK",
+    "entity_type": "technology",
+    "summary": "An SDK, or software development kit, is a collection of tools, libraries, and sample apps that developers can download and incorporate into their applications. SDKs implement language-agnostic REST APIs in a specific language, such as Java or C++, and are often used together with APIs, though they a",
+    "last_updated": "2026-07-05"
+  },
+  "cli": {
+    "canonical_name": "CLI",
+    "entity_type": "technology",
+    "summary": "CLI stands for Command-Line Interface, a text-based interface for operating a computer or executing commands. While the provided material focuses on CLI Technologies, a company that develops production processes for the glass and photovoltaics industry, the general concept of a CLI is a non-graphica",
+    "last_updated": "2026-07-05"
+  },
+  "http": {
+    "canonical_name": "HTTP",
+    "entity_type": "technology",
+    "summary": "HTTP is a client-server protocol that serves as the foundation for data exchange on the Web. It is used for fetching resources like HTML documents, where clients and servers communicate by exchanging individual messages called requests and responses.",
+    "last_updated": "2026-07-05"
+  },
+  "openapi": {
+    "canonical_name": "OpenAPI",
+    "entity_type": "technology",
+    "summary": "OpenAPI provides a formal standard for describing HTTP APIs, allowing people to understand how an API works and how a sequence of APIs work together. This standard enables the generation of client code, creation of tests, and the application of design standards, among other benefits.",
+    "last_updated": "2026-07-05"
+  },
+  "web console": {
+    "canonical_name": "Web Console",
+    "entity_type": "technology",
+    "summary": "Google Web Console, formerly known as Google Search Console, is a tool that allows website owners to monitor, maintain, and troubleshoot their site's presence in Google Search results. It provides insights into site performance, potential issues, and actionable data for business leaders, marketers,",
+    "last_updated": "2026-07-05"
+  },
+  "cloudflare": {
+    "canonical_name": "Cloudflare",
+    "entity_type": "organization",
+    "summary": "Cloudflare's global cloud platform provides network services to businesses, making them more secure while enhancing the performance and reliability of their Internet properties. The company aims to build a better Internet by delivering Zero Trust security, simplifying unified SSE or SASE, and provid",
+    "last_updated": "2026-07-05"
+  },
+  "claudemegabrain": {
+    "senses": [
+      {
+        "sense_label": "specific project/tool",
+        "summary": "claude-mega-brain is a feature that injects a project's exact schema at SessionStart, enabling real agentic sessions with 100% accuracy. It allows the system to load a specific knowledge base, skipping the need for general training data guesses and reducing token usage.",
+        "last_updated": "2026-07-05"
+      }
+    ]
+  },
+  "okf": {
+    "senses": [
+      {
+        "sense_label": "specific technology/framework",
+        "summary": "OKF, or Open Knowledge Format, is a technology used in a hybrid architecture to make AI agents more reliable. When combined with RAG, it routes critical questions to curated, version-controlled markdown files, which can reduce AI hallucinations from 52% to near-zero.",
+        "last_updated": "2026-07-05"
+      }
+    ]
+  },
+  "obsidianmcp": {
+    "senses": [
+      {
+        "sense_label": "specific technology/framework",
+        "summary": "Obsidian+MCP is a server that connects AI assistants to the popular markdown-based knowledge management application, Obsidian. It uses the Model Context Protocol to enable AI to understand a user's knowledge base, though the implementation is noted as fragmented and requires multiple setups.",
+        "last_updated": "2026-07-05"
+      }
+    ]
+  },
+  "beefiker": {
+    "canonical_name": "beefiker",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable overview for the entity 'beefiker'.",
+    "last_updated": "2026-07-05"
+  },
+  "superloopy": {
+    "canonical_name": "superloopy",
+    "entity_type": "ai_model",
+    "summary": "The material provided does not contain a usable overview for the entity 'superloopy'.",
+    "last_updated": "2026-07-05"
+  },
+  "loopy": {
+    "canonical_name": "loopy",
+    "entity_type": "technology",
+    "summary": "LOOPY is a free, open-source software tool that is part of the Explorable Explanations movement. It allows users to create interactive simulations by drawing and connecting circles and arrows to ask 'what if' questions, fostering active learning and systems-thinking.",
+    "last_updated": "2026-07-05"
+  },
+  "fable": {
+    "canonical_name": "Fable",
+    "entity_type": "product",
+    "summary": "Claude Fable 5 is our most capable model for ambitious coding projects, including large migrations, complex implementations, and multi-day autonomous sessions. It can write its own tests to check its work, implement designs with high fidelity, and use vision to check outputs against goals. It is the",
+    "last_updated": "2026-07-05"
+  },
+  "souschef": {
+    "canonical_name": "sous-chef",
+    "entity_type": "product",
+    "summary": "As a sous chef, you'll need to stay organized and manage multiple tasks simultaneously, including coordinating food preparation, monitoring inventory, and ensuring dishes are served on time. Sous chefs report to the executive chef, manage the entire operation in their absence, and oversee kitchen st",
+    "last_updated": "2026-07-05"
+  },
+  "glm": {
+    "canonical_name": "GLM",
+    "entity_type": "ai_model",
+    "summary": "GLM-5.2 is our latest flagship model for coding and long-horizon tasks, marking a substantial leap in capability over its predecessor. It delivers this on a solid 1M-token context and is pure open with an MIT open-source license, meaning there are no regional limits or technical access restrictions.",
+    "last_updated": "2026-07-05"
+  },
+  "helmorxhelmoragent": {
+    "canonical_name": "helmorx/helmoragent",
+    "entity_type": "model_release",
+    "summary": "Agent watcher for AI-assisted product development. Latest version: 0.1.6, last published: 14 minutes ago. Start using @helmoragent/helmor in your project by running `npm i @helmoragent/helmor`. There are 1 other projects in the npm registry using @helmoragent/helmor. Scoped npm alias for the HELMOR",
+    "last_updated": "2026-07-05"
+  },
+  "helmor": {
+    "canonical_name": "HELMOR",
+    "entity_type": "model_release",
+    "summary": "Open-source local workbench for multi-agent software development. - Releases · dohooo/helmor.Use configured third-party models alongside official Claude Code models in the composer and default model picker. There was an error while loading. Please reload this page . There was an error while loading.",
+    "last_updated": "2026-07-05"
+  },
+  "windsurf": {
+    "canonical_name": "Windsurf",
+    "entity_type": "model_release",
+    "summary": "The launch of Windsurf’s in-house AI models may come as a shock to some, given that OpenAI has reportedly closed a $3 billion deal to acquire Windsurf.The startup describes SWE-1 as its “initial proof of concept,” suggesting it may release more AI models in the future. On Thursday, Windsurf, a start",
+    "last_updated": "2026-07-05"
+  },
+  "skills": {
+    "canonical_name": "skills",
+    "entity_type": "model_release",
+    "summary": "Agent Skills are modular capabilities that extend Claude's functionality. Each Skill packages instructions, metadata, and optional resources (scripts, templates) that Claude uses automatically when relevant. This feature is not eligible for Zero Data Retention (ZDR) . Data is retained according to t",
+    "last_updated": "2026-07-05"
+  },
+  "token usage": {
+    "canonical_name": "token usage",
+    "entity_type": "model_release",
+    "summary": "GitHub[150K]Overview Usage Models.Explore 21 Anthropic models used in OpenCode including Claude Sonnet 5, Claude Fable 5, and Claude Opus 4.8. Compare recent token usage, context windows, release dates, and model data. Tokens processedPending. Explore 21 Anthropic models used in OpenCode including C",
+    "last_updated": "2026-07-05"
+  },
+  "context": {
+    "canonical_name": "context",
+    "entity_type": "model_release",
+    "summary": "Whether you're building an AI-powered IDE, enhancing a chat interface, or creating custom AI workflows, MCP provides a standardized way to connect LLMs with the context they need. There was an error while loading. Please reload this page . There was an error while loading. Please reload this page .",
+    "last_updated": "2026-07-05"
+  },
+  "drift": {
+    "canonical_name": "drift",
+    "entity_type": "model_release",
+    "summary": "Model drift e data drift fazem os modelos de ML perderem precisão com o tempo. Conheça os principais tipos, algoritmos de detecção e um exemplo prático em Python. Curso Curso Curso The text provides an overview of four simple forecasting models for time series data: average forecast, naive forecasti",
+    "last_updated": "2026-07-05"
+  },
+  "hallucinations": {
+    "canonical_name": "hallucinations",
+    "entity_type": "model_release",
+    "summary": "Hughlings Jackson (1932) suggested that hallucinations occur when the usual inhibitory influences of the uppermost level are impeded, thus leading to release of middle-level activity, which takes the form of hallucinations. This model is known as disinhibition model. Penfield et al. Address for corr",
+    "last_updated": "2026-07-05"
+  },
+  "unsafe actions": {
+    "canonical_name": "unsafe actions",
+    "entity_type": "model_release",
+    "summary": "workers’ unsafe actions, considering a heights working environment, based on an improved Faster. Regions with CNN features (Faster R-CNN) algorithm. It provides examples of unsafe acts and conditions, along with preventative measures to enhance safety, such as proper task planning and equipment insp",
+    "last_updated": "2026-07-05"
+  },
+  "projectaware control layer": {
+    "canonical_name": "project-aware control layer",
+    "entity_type": "model_release",
+    "summary": "Apr 7, 2026 · We’ve released GLM-4.7, our foundation model with significant improvements in coding, reasoning, and agentic capabilities. It delivers more reliable code generation, stronger long-context understanding, and improved end-to-end task execution across real-world development workflows. Fol",
+    "last_updated": "2026-07-05"
+  },
+  "yeetsrc": {
+    "canonical_name": "yeet-src",
+    "entity_type": "organization",
+    "summary": "yeet-src is an organization with no public members, and its commit activity for the past year could not be loaded. The organization is described as a Linux runtime for building custom tools, where each tool is a .js file running on a yeet daemon.",
+    "last_updated": "2026-07-05"
+  },
+  "agentlock": {
+    "senses": [
+      {
+        "sense_label": "could be a project or a specific tool",
+        "summary": "Agent Lock is a product available for download from the Google Play Store that allows users to design a custom screen lock. It offers features like choosing a name, icon, and locking sound, with various styles, patterns, and themes for personalization.",
+        "last_updated": "2026-07-05"
+      }
+    ]
+  },
+  "haxiv": {
+    "canonical_name": "Haxiv",
+    "entity_type": "repo",
+    "summary": "Haxiv.com is a dynamic domain name, brimming with potential for startups in the tech industry. The name itself is short, only five letters and two syllables, allowing for easy recognition and memorization. It can be interpreted as a combination of 'hack' and 'innovative,' conveying a sense of creati",
+    "last_updated": "2026-07-05"
+  },
+  "haxe": {
+    "canonical_name": "Haxe",
+    "entity_type": "language",
+    "summary": "Haxe is an open-source, high-level, strictly-typed programming language with a fast optimizing cross-compiler. It can build cross-platform applications targeting JavaScript, C++, C#, Java, JVM, Python, Lua, PHP, and Flash, and allows access to each platform's native capabilities. Haxe is useful in a",
+    "last_updated": "2026-07-05"
+  },
+  "pytorch": {
+    "canonical_name": "PyTorch",
+    "entity_type": "technology",
+    "summary": "PyTorch is an open-source deep learning framework and ecosystem, serving as the community home for the PyTorch Foundation. As a member, you can collaborate on training, events, developer tooling, and academic research, and access resources for stable, secure, and long-lasting codebases. The framewor",
+    "last_updated": "2026-07-05"
+  },
+  "gguf": {
+    "canonical_name": "GGUF",
+    "entity_type": "technology",
+    "summary": "GGUF, or GPT-Generated Unified Format, is a single-file model format invented by the llama.cpp project to bundle weights, tokenizer, architecture metadata, and chat templates. It is designed to make local large language models practical by using quantization, which stores numbers using fewer bits wh",
+    "last_updated": "2026-07-05"
+  },
+  "apple mlx": {
+    "canonical_name": "Apple MLX",
+    "entity_type": "technology",
+    "summary": "Apple MLX is an array framework for machine learning on Apple silicon, inspired by frameworks like NumPy, PyTorch, and Jax. It is designed by machine learning researchers for machine learning researchers and features a Python API closely aligned with NumPy for user familiarity. MLX is designed to be",
+    "last_updated": "2026-07-05"
+  },
+  "cuda": {
+    "canonical_name": "CUDA",
+    "entity_type": "technology",
+    "summary": "CUDA is a parallel computing platform and programming model created by NVIDIA that makes using a GPU for general-purpose computing simple. It helps developers speed up their applications by harnessing the power of GPU accelerators and has been widely adopted across consumer and industrial ecosystems",
+    "last_updated": "2026-07-05"
+  },
+  "llamacpp": {
+    "canonical_name": "llama.cpp",
+    "entity_type": "technology",
+    "summary": "llama.cpp is a high-performance C++ implementation for running all kinds of models on consumer hardware, including CPUs and single GPUs. It offers exceptional performance and flexibility for local inference but does not support tensor parallelism, making it unsuitable for multi-GPU setups. It is aim",
+    "last_updated": "2026-07-05"
+  },
+  "flashattention": {
+    "canonical_name": "FlashAttention",
+    "entity_type": "technology",
+    "summary": "FlashAttention is an optimized algorithm for computing attention in transformer models that reduces memory usage and speeds up training. It achieves this by avoiding large intermediate matrices, enabling efficient processing of long sequences on modern GPUs. The technology is provided by a dedicated",
+    "last_updated": "2026-07-05"
+  },
+  "tensor parallel": {
+    "canonical_name": "tensor parallel",
+    "entity_type": "technology",
+    "summary": "Tensor Parallel (TP) is an efficient model parallelism technique to train large-scale Transformer models, originally proposed in the Megatron-LM paper. It was designed to train large Transformer-like models across hundreds to thousands of GPUs by sharding the model on the tensor dimension. This tech",
+    "last_updated": "2026-07-05"
+  },
+  "int4 quant": {
+    "canonical_name": "INT4 quant",
+    "entity_type": "technology",
+    "summary": "INT4 quantization maps real values to 4-bit integers with a scale, reducing the numerical precision of weights and activations to lower memory use and often speed up inference. In post-training quantization (PTQ), model weights are stored in 4-bit signed integers and activations are dynamically quan",
+    "last_updated": "2026-07-05"
+  },
+  "ir": {
+    "canonical_name": "IR",
+    "entity_type": "technology",
+    "summary": "Infrared (IR) technology is a field that can be explored through an online, on-demand course designed for prospective, new, and established users. The course provides a broad and foundational understanding of IR applications and systems, taught by industry experts. It is ideal for those exploring a",
+    "last_updated": "2026-07-05"
   }
 }
