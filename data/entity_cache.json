@@ -2992,5 +2992,1058 @@
     "entity_type": "technology",
     "summary": "Infrared (IR) technology is a field that can be explored through an online, on-demand course designed for prospective, new, and established users. The course provides a broad and foundational understanding of IR applications and systems, taught by industry experts. It is ideal for those exploring a",
     "last_updated": "2026-07-05"
+  },
+  "organic maps": {
+    "canonical_name": "Organic Maps",
+    "entity_type": "app",
+    "summary": "Organic Maps is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. It is powered by OpenStreetMap data and is completely free with no ads or tracking. The app supports 100% of its features without an active internet connection.",
+    "last_updated": "2026-07-06"
+  },
+  "mapswithme": {
+    "canonical_name": "MapsWithMe",
+    "entity_type": "app",
+    "summary": "MapsWithMe (also known as MAPS.ME) provides free, detailed, and entirely offline maps of the world. It offers turn-by-turn navigation for driving, walking, and cycling, and includes travel guides and route planning.",
+    "last_updated": "2026-07-06"
+  },
+  "mapsme": {
+    "canonical_name": "Maps.Me",
+    "entity_type": "app",
+    "summary": "Maps.me is a free offline and online navigation app for travelers, covering routes from roads to the smallest hiking trails. It is designed for use when traveling out of the country or in areas with no cell service, and is available on Android and iOS devices.",
+    "last_updated": "2026-07-06"
+  },
+  "openstreetmap": {
+    "canonical_name": "OpenStreetMap",
+    "entity_type": "data",
+    "summary": "OpenStreetMap is a free, community-driven, and editable map of the world. It is a potential alternative to Google Maps and is used to power navigation apps, search for nearby places, and improve map data through community contributions.",
+    "last_updated": "2026-07-06"
+  },
+  "apache license 20": {
+    "canonical_name": "Apache License 2.0",
+    "entity_type": "license",
+    "summary": "Apache License 2.0 is a permissive license that requires preservation of copyright and license notices. It allows contributors to grant patent rights and permits distribution of modified works under different terms, sometimes without source code.",
+    "last_updated": "2026-07-06"
+  },
+  "arxivlabs": {
+    "senses": [
+      {
+        "sense_label": "software framework",
+        "summary": "arXivLabs is a project where volunteers can contribute to the arXiv codebase. The team is experimenting with new projects that add value for stakeholders and advance research, and interested parties can submit proposals through a support portal.",
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  "coursera": {
+    "canonical_name": "Coursera",
+    "entity_type": "organization",
+    "summary": "Coursera is an online learning platform that offers courses, specializations, and degrees from top universities and companies. It provides a flexible way for individuals to learn new skills and advance their careers through a wide range of educational content.",
+    "last_updated": "2026-07-06"
+  },
+  "mr baby paint": {
+    "canonical_name": "Mr. Baby Paint",
+    "entity_type": "product",
+    "summary": "Mr. Baby Paint is a co-op drawing app for toddlers that was built with a focus on simplicity. The development process also involved discovering a flood-fill cellular automata and developing pixel-fattening algorithms for bitmap fonts.",
+    "last_updated": "2026-07-06"
+  },
+  "glyph drawing club": {
+    "canonical_name": "Glyph Drawing Club",
+    "entity_type": "organization",
+    "summary": "GlyphDrawing.club is a free, contemporary text art and modular design editor that supports any font and glyph. It is inspired by old-school ASCII art editors, featuring a keyboard-heavy workflow and a uniform grid to make the creative process more fun and versatile.",
+    "last_updated": "2026-07-06"
+  },
+  "flipper zero": {
+    "senses": [
+      {
+        "sense_label": "hardware device, firmware, open-source project",
+        "summary": "The Flipper Zero is a handheld multi-tool built around an STM32WB55 dual-core Cortex-M4/M0+ processor. It combines sub-GHz RF, 13.56 MHz NFC, 125 kHz LF RFID, infrared, iButton, BLE 5.0, USB-C, and a 1.4-inch monochrome LCD into a compact 100x40x25mm housing with a 2000 mAh battery.",
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  "agility robotics": {
+    "canonical_name": "Agility Robotics",
+    "entity_type": "company",
+    "summary": "Agility's humanoid robots are deployed today in manufacturing, distribution, and logistics. Proven automation for industrial environments. Announcement Agility Robotics to go public through merger with Churchill Capital Corp XI.",
+    "last_updated": "2026-07-06"
+  },
+  "churchill capital corp xi": {
+    "canonical_name": "Churchill Capital Corp XI",
+    "entity_type": "company",
+    "summary": "Churchill Capital Corp XI operates as a blank check company. The Company aims to acquire one and more businesses and assets, via a merger, capital stock exchange, asset acquisition, stock purchase.",
+    "last_updated": "2026-07-06"
+  },
+  "ai2 robotics": {
+    "canonical_name": "AI2 Robotics",
+    "entity_type": "company",
+    "summary": "Shenzhen-based AI2 Robotics is a global leader in the research, development and manufacture of general-purpose intelligent robots. The company builds both the hardware and the frontier vision-language-action models that operate the machines.",
+    "last_updated": "2026-07-06"
+  },
+  "apptronik": {
+    "canonical_name": "Apptronik",
+    "entity_type": "company",
+    "summary": "Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our humanoid robot, Apollo, is designed to collaborate thoughtfully with humans—initially in critical industries such as manufacturing and logistics, with future applications in he",
+    "last_updated": "2026-07-06"
+  },
+  "figure ai": {
+    "canonical_name": "Figure AI",
+    "entity_type": "company",
+    "summary": "Figure AI — Complete Profile & Analysis 2026. The fastest-moving humanoid startup in history. From founding to $2.6B valuation in under three years, with the most credible industrial humanoid deployment in the US.",
+    "last_updated": "2026-07-06"
+  },
+  "peggy johnson": {
+    "canonical_name": "Peggy Johnson",
+    "entity_type": "person",
+    "summary": "Peggy Johnson (born 1960 or 1961) is an American businesswoman who is the chief executive officer of Agility Robotics appointed in March 2024. Peggy Johnson is a seasoned executive with extensive experience in technology and business development.",
+    "last_updated": "2026-07-06"
+  },
+  "michael klein": {
+    "canonical_name": "Michael Klein",
+    "entity_type": "person",
+    "summary": "Michael Klein is an American painter born in 1960 or 1961. He is known for his expertise in floral still lifes, portraits, and landscapes, and won the portrait prize at the 2016 Portrait Society of America’s International Portrait Competition.",
+    "last_updated": "2026-07-06"
+  },
+  "oregon state university": {
+    "canonical_name": "Oregon State University",
+    "entity_type": "organization",
+    "summary": "Oregon State University delivers exceptional, accessible education and problem-solving innovation as Oregon's largest and statewide public research university. Oregon State University was founded more than 150 years ago as a land grant institution, building on the idea that everybody deserves an ext",
+    "last_updated": "2026-07-06"
+  },
+  "uber": {
+    "canonical_name": "Uber",
+    "entity_type": "company",
+    "summary": "Uber is an international transportation network company offering peer-to-peer ridesharing, ride service hailing, food delivery, and a bicycle-sharing system. It was founded in 2009 and has an estimated revenue of $10B+.",
+    "last_updated": "2026-07-06"
+  },
+  "delivery hero": {
+    "canonical_name": "Delivery Hero",
+    "entity_type": "company",
+    "summary": "Delivery Hero is a holding company with over 40,000 employees present in around 65 countries. Headquartered in Berlin, it operates online food ordering portals and develops platforms that provide users with information on local restaurants and their delivery services.",
+    "last_updated": "2026-07-06"
+  },
+  "financial times": {
+    "canonical_name": "Financial Times",
+    "entity_type": "organization",
+    "summary": "The Financial Times is a news organization that reduced application review time by 80% with Jotform Enterprise. It also covers tech news, such as the NHTSA's plans to ease rules for autonomous vehicles, which were championed by Musk.",
+    "last_updated": "2026-07-06"
+  },
+  "finland": {
+    "canonical_name": "Finland",
+    "entity_type": "country",
+    "summary": "Finland is a north European country that has been a trendsetter since independence in 1917. It scores well on international ratings for stability, freedom, and social progress, and its parliament was the first to adopt full gender equality in 1906.",
+    "last_updated": "2026-07-06"
+  },
+  "denmark": {
+    "canonical_name": "Denmark",
+    "entity_type": "country",
+    "summary": "Denmark is a country in Northern Europe and North America with 5,480,000 residents. Despite its small size, it has punched above its weight internationally, with a history of Viking raids and a Union of Kalmar that united Scandinavia under Danish leadership.",
+    "last_updated": "2026-07-06"
+  },
+  "austria": {
+    "canonical_name": "Austria",
+    "entity_type": "country",
+    "summary": "Austria is a country known for its Gemutlichkeit, a relaxed and happy approach to life. Austrians are committed to hard work, value cleanliness and order, and have a deep regard for the environment and cultural arts.",
+    "last_updated": "2026-07-06"
+  },
+  "norway": {
+    "canonical_name": "Norway",
+    "entity_type": "country",
+    "summary": "Norway is Europe's northernmost country, famed for its mountains and spectacular fjord coastline. It enjoys a high standard of living due to offshore oil and gas discoveries and has deposited its surplus wealth into the world's largest sovereign wealth fund.",
+    "last_updated": "2026-07-06"
+  },
+  "greece": {
+    "canonical_name": "Greece",
+    "entity_type": "country",
+    "summary": "Greece is a southeast European country with a rich historical and cultural heritage that continues to resonate in modern Western world. It combines towering mountains with over 1,400 islands and has a major economy driven by tourism and shipping, though it was affected by the 2000s financial crisis.",
+    "last_updated": "2026-07-06"
+  },
+  "nansen": {
+    "canonical_name": "Nansen",
+    "entity_type": "general",
+    "summary": "Nansen is a trading tool for onchain investors that analyzes wallet flows, tracks key metrics, and allows users to execute trades with confidence. It provides data on top-performing wallets, signals from labeled wallets, and tools to monitor and track positions for portfolios.",
+    "last_updated": "2026-07-06"
+  },
+  "trump": {
+    "canonical_name": "$TRUMP",
+    "entity_type": "general",
+    "summary": "Donald Trump declared an 'America First' approach to foreign policy, which is an isolationist strand that had been marginalized in national affairs since World War II. This approach was prominent in the 1930s, when right-wing activists sympathetic to Nazi Germany and fascism rallied against American",
+    "last_updated": "2026-07-06"
+  },
+  "world liberty financial": {
+    "canonical_name": "World Liberty Financial",
+    "entity_type": "general",
+    "summary": "World Liberty Financial is designing the core products of tomorrow's financial system, including the USD1 stablecoin, an AgentPay SDK for AI agents, and an app for using crypto via wallet or bank account. It provides a fully reserved, dollar-pegged stablecoin deployed across multiple blockchains and",
+    "last_updated": "2026-07-06"
+  },
+  "securities and exchange commission": {
+    "canonical_name": "Securities and Exchange Commission",
+    "entity_type": "general",
+    "summary": "The Securities and Exchange Commission (SEC) was established by the Securities Exchange Act in 1934 and has primary oversight of U.S. securities markets. Its mission is to protect investors and maintain fair, orderly, and efficient markets by overseeing key players, ensuring public companies disclos",
+    "last_updated": "2026-07-06"
+  },
+  "white house": {
+    "canonical_name": "White House",
+    "entity_type": "general",
+    "summary": "The White House was a prime target for China during the Great War, where it was leveled and completely destroyed by bombs, leaving a radioactive crater. The building was also the 'White House of the Confederacy,' where Jefferson Davis resided between 1861 and 1865, and it is depicted in historical p",
+    "last_updated": "2026-07-06"
+  },
+  "odistar": {
+    "canonical_name": "Odistar",
+    "entity_type": "product",
+    "summary": "The ODISTAR Desktop Vacuum Cleaner is a mini table dust sweeper designed for use on keyboards, homes, schools, and offices. It features a cordless, 360º rotatable design and offers high endurance, with a battery life of up to 90 minutes, though the product summary mentions up to 400 minutes.",
+    "last_updated": "2026-07-06"
+  },
+  "ember mug 2": {
+    "canonical_name": "Ember Mug 2",
+    "entity_type": "product",
+    "summary": "The Ember Travel Mug 2 is a smart heated travel mug that keeps drinks hot for up to 3 hours. It allows users to set an exact drinking temperature and is compatible with the Apple Find My network to locate the mug on a map.",
+    "last_updated": "2026-07-06"
+  },
+  "amazon echo dot": {
+    "canonical_name": "Amazon Echo Dot",
+    "entity_type": "product",
+    "summary": "The Amazon Echo Dot is a compact smart speaker that works with the Alexa voice service to function as a personal assistant. It can be used to ask for the weather, order food, play music, and set an alarm clock, and it has a nine-hour battery life.",
+    "last_updated": "2026-07-06"
+  },
+  "govee glide hexa light panels": {
+    "canonical_name": "Govee Glide Hexa Light Panels",
+    "entity_type": "product",
+    "summary": "The Govee Glide Hexa Light Panels are modular light panels that can be arranged into various shapes, such as clusters, lines, or letters. The system includes a one-year limited warranty and can be expanded with additional panels, with the Govee Home App providing layout inspiration and templates.",
+    "last_updated": "2026-07-06"
+  },
+  "bending spoons": {
+    "canonical_name": "Bending Spoons",
+    "entity_type": "company",
+    "summary": "Bending Spoons is a company with over 1 billion registered users and 400 million monthly active users. Since 2014, the company has been acquiring digital products to own and operate for the long term, aiming to speed up innovation and benefit customers.",
+    "last_updated": "2026-07-06"
+  },
+  "aol": {
+    "canonical_name": "AOL",
+    "entity_type": "company",
+    "summary": "AOL Inc. is a global Web services company with a range of brands and offerings and a global audience. The company's business spans online content, products, and services offered to consumers, publishers, and advertisers.",
+    "last_updated": "2026-07-06"
+  },
+  "nasdaq": {
+    "canonical_name": "Nasdaq",
+    "entity_type": "organization",
+    "summary": "Nasdaq is the second-largest stock exchange where traders process transactions electronically instead of visiting a physical location. It operates through dealers and attracts more technically involved investors compared to the New York Stock Exchange, which has a live trading floor.",
+    "last_updated": "2026-07-06"
+  },
+  "meetup": {
+    "canonical_name": "Meetup",
+    "entity_type": "product",
+    "summary": "Meetup is a platform focused on fostering community and connection, operating within the social networking industry. It facilitates the organization of local and online events, enabling individuals with shared interests to connect and engage in various activities.",
+    "last_updated": "2026-07-06"
+  },
+  "eventbrite": {
+    "canonical_name": "Eventbrite",
+    "entity_type": "product",
+    "summary": "Eventbrite is an event management software product. The product profile is currently unclaimed, and the official vendor does not yet manage it on the SaaSworthy platform.",
+    "last_updated": "2026-07-06"
+  },
+  "wetransfer": {
+    "canonical_name": "WeTransfer",
+    "entity_type": "product",
+    "summary": "WeTransfer is an advanced collaboration tool that lets users simplify their creative workflow with secure file sharing options. The product profile is currently unclaimed, and the official vendor does not yet manage it on the SaaSworthy platform.",
+    "last_updated": "2026-07-06"
+  },
+  "evernote": {
+    "canonical_name": "Evernote",
+    "entity_type": "product",
+    "summary": "Evernote is a productivity tool that allows users to capture, organize, and access notes, tasks, and schedules in one place. It offers features like ready-made note structures, real-time collaboration, and AI-powered search to help users get further faster.",
+    "last_updated": "2026-07-06"
+  },
+  "joe hyrkin": {
+    "canonical_name": "Joe Hyrkin",
+    "entity_type": "person",
+    "summary": "Joe Hyrkin is a seasoned entrepreneur with more than 20 years of experience. He was previously the CEO of Reverb and SingleFeed, and has a background in leading product and company growth.",
+    "last_updated": "2026-07-06"
+  },
+  "issuu": {
+    "canonical_name": "Issuu",
+    "entity_type": "company",
+    "summary": "Issuu is a California-based company that has built a reputation as a powerful digital publishing platform since its launch in 2006. It allows users to create, publish, and monetize PDF-based digital flipbooks with interactive elements.",
+    "last_updated": "2026-07-06"
+  },
+  "midjourney": {
+    "canonical_name": "Midjourney",
+    "entity_type": "ban_regulation",
+    "summary": "Midjourney is an AI company that has banned its competitor Stability AI after accusing one of its employees of scraping huge amounts of data. The company is seeking to compel other studios to reveal their own AI training practices in a copyright battle.",
+    "last_updated": "2026-07-06"
+  },
+  "disney": {
+    "canonical_name": "Disney",
+    "entity_type": "ban_regulation",
+    "summary": "The material does not contain a usable answer for a ban_regulation overview of Disney. It mentions a tour guide being banned from Disneyland and rumors about mandatory tipping on rides, but does not provide an overview of Disney's regulatory issues.",
+    "last_updated": "2026-07-06"
+  },
+  "universal": {
+    "canonical_name": "Universal",
+    "entity_type": "ban_regulation",
+    "summary": "The material does not contain a usable answer for a ban_regulation overview of Universal. It references a 2012 video about closed attractions and mentions a PFAS proposal, but does not provide an overview of Universal's regulatory issues.",
+    "last_updated": "2026-07-06"
+  },
+  "warner bros": {
+    "canonical_name": "Warner Bros.",
+    "entity_type": "ban_regulation",
+    "summary": "Warner Bros. Discovery shareholders have approved the company's $111bn takeover by Paramount in a deal that could drastically alter the media landscape. The deal would see Paramount Skydance take control of all of Warner Bros' titles and channels, which include Harry Potter, Game of Thrones and the",
+    "last_updated": "2026-07-06"
+  },
+  "david singer": {
+    "canonical_name": "David Singer",
+    "entity_type": "ban_regulation",
+    "summary": "The material does not contain a usable answer for a ban_regulation overview of David Singer. It describes him as an associate professor of political science at MIT who studies international finance and the politics of national currencies, but does not mention any ban_regulation context.",
+    "last_updated": "2026-07-06"
+  },
+  "ai tutor": {
+    "canonical_name": "AI tutor",
+    "entity_type": "general",
+    "summary": "An AI tutor is an artificial intelligence system that provides personalized learning support. It models a student's knowledge, gives step-by-step feedback, and adapts practice in real time to offer targeted hints and explanations.",
+    "last_updated": "2026-07-06"
+  },
+  "interactive projectbased workshops": {
+    "canonical_name": "interactive project-based workshops",
+    "entity_type": "general",
+    "summary": "Interactive project-based workshops are dynamic and flexible learning experiences delivered online. They are designed to help individuals develop new skills and knowledge in a more engaging way than traditional courses.",
+    "last_updated": "2026-07-06"
+  },
+  "alpha school": {
+    "canonical_name": "Alpha School",
+    "entity_type": "general",
+    "summary": "Alpha School is an educational institution where students complete only two hours of academic work per day for a high tuition cost. The school's model focuses on developing 'life skills' through activities like building a sailboat or managing an AirBnB.",
+    "last_updated": "2026-07-06"
+  },
+  "forge prep": {
+    "canonical_name": "Forge Prep",
+    "entity_type": "general",
+    "summary": "Forge Prep is a school network for students in grades 5-12 that emphasizes learning by building real businesses. Students graduate with a $200,000 investment in their business and receive 1:1 coaching from accomplished professionals.",
+    "last_updated": "2026-07-06"
+  },
+  "shaun johnson": {
+    "canonical_name": "Shaun Johnson",
+    "entity_type": "general",
+    "summary": "Shaun Johnson is an experienced entrepreneur with a history in technology acceleration, early-stage investment, and ecosystem development. He is a polymath with strong skills in business development, venture capital, and strategy.",
+    "last_updated": "2026-07-06"
+  },
+  "mackenzie price": {
+    "canonical_name": "MacKenzie Price",
+    "entity_type": "general",
+    "summary": "MacKenzie Price is the co-founder of Alpha School and the creator of the 2 Hour Learning model. She is a Stanford graduate in Psychology who aimed to revolutionize K-12 education by freeing up students' time for passions and life skills.",
+    "last_updated": "2026-07-06"
+  },
+  "silicon valley": {
+    "canonical_name": "Silicon Valley",
+    "entity_type": "general",
+    "summary": "Silicon Valley is a region known for its concentration of technology companies and startups. It is a hub for innovation and wealth creation, creating a volatile environment that affects society in unique ways.",
+    "last_updated": "2026-07-06"
+  },
+  "rockstar": {
+    "senses": [
+      {
+        "sense_label": "entertainment company vs game development studio",
+        "summary": "Rockstar is a multinational video game development and publishing company. Its product portfolio includes groundbreaking and commercially successful games.",
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  "king arthur flour": {
+    "canonical_name": "King Arthur flour",
+    "entity_type": "company",
+    "summary": "The King Arthur Baking Company, formerly the King Arthur Flour Company, is an American supplier of flour, ingredients, baking mixes, cookbooks, and baked goods. It also runs two baking schools, one at its Norwich, Vermont bakery and the other in Burlington, Washington. Founded in 1790, it is the old",
+    "last_updated": "2026-07-06"
+  },
+  "firstbuild": {
+    "canonical_name": "FirstBuild",
+    "entity_type": "company",
+    "summary": "At FirstBuild, the company invents what's next for the home through co-creation with its global community and in its free Louisville, KY makerspace. It invites people to co-create an invention, submit their own idea, or shop FirstBuild’s latest innovations, and it also offers a space for prototyping",
+    "last_updated": "2026-07-06"
+  },
+  "keurig": {
+    "canonical_name": "Keurig",
+    "entity_type": "general",
+    "summary": "Keurig is a single-serve coffee machine and pod brand. It is noted for having more pod flavors, lower overall costs, and easier-to-recycle pods compared to its main competitor, Nespresso. Keurig also has significantly higher popularity in the United States, with 61% of single-serve machine owners us",
+    "last_updated": "2026-07-06"
+  },
+  "kcup": {
+    "canonical_name": "K-Cup",
+    "entity_type": "general",
+    "summary": "A K-Cup is a single-serve capsule or pod used by Keurig coffee makers to brew coffee, tea, and other beverages. The pods are filled with ground coffee and are designed for convenience, allowing users to quickly enjoy a fresh-brewed cup. Dunkin' K-Cup pods are compatible with any Keurig K-Cup single-",
+    "last_updated": "2026-07-06"
+  },
+  "david pierce": {
+    "canonical_name": "David Pierce",
+    "entity_type": "general",
+    "summary": "David Pierce is an author, English professor, and former Division I head coach with over 45 years of experience in the medical field. He is a family medicine physician in Portland, OR, and graduated from Northwestern University in 1978. He is affiliated with Adventist Health Portland and Legacy Good",
+    "last_updated": "2026-07-06"
+  },
+  "morgan eckroth": {
+    "canonical_name": "Morgan Eckroth",
+    "entity_type": "general",
+    "summary": "Morgan Eckroth is an American online content creator and barista, also known as MorganDrinksCoffee. She is a social media creator with nearly 7 million combined followers across TikTok, YouTube, and Instagram. She is also the U.S. Barista Champion and began her journey in the coffee world as a teena",
+    "last_updated": "2026-07-06"
+  },
+  "melissa mccart": {
+    "canonical_name": "Melissa McCart",
+    "entity_type": "general",
+    "summary": "Melissa McCart is the lead editor of the Northeast region with over 20 years of experience as a reporter, critic, editor, and cookbook author. She has worked for Mark Bittman’s Substack, the Pittsburgh Post-Gazette, and has freelanced for the Washington Post, Bon Appétit, and Wall Street Journal. Sh",
+    "last_updated": "2026-07-06"
+  },
+  "version history": {
+    "canonical_name": "Version History",
+    "entity_type": "general",
+    "summary": "The version history feature allows users to track updates of content over time, including a description, timestamp, and relevant metadata. The latest release for the Service Management Connector is v3.5.23179.1, released in June 2023. The history includes multiple versions, from v3.5.2128.2 down to",
+    "last_updated": "2026-07-06"
+  },
+  "harmony remote": {
+    "canonical_name": "Harmony remote",
+    "entity_type": "general",
+    "summary": "Logitech Harmony remotes are easy to set up and use, supporting over 270,000 devices from 6,000+ brands. They allow users to create personalized one-touch Activities for home entertainment and include a Harmony Hub to control devices hidden behind walls or cabinets. The package includes the remote,",
+    "last_updated": "2026-07-06"
+  },
+  "roomba vacuum": {
+    "canonical_name": "Roomba vacuum",
+    "entity_type": "general",
+    "summary": "The Roomba is a smart robot vacuum cleaner, one of the most famous models in the category. The comparison with Shark highlights that the choice between models often depends on specific features needed. After extensive testing, the author is ready to declare a winner based on which model performs bet",
+    "last_updated": "2026-07-06"
+  },
+  "nest thermostat": {
+    "canonical_name": "Nest thermostat",
+    "entity_type": "general",
+    "summary": "The Nest Learning Thermostat is compatible with 95% of heating and cooling systems and can be installed by most people in 30 minutes or less. It can be controlled remotely via the Nest app, and users can check their energy history to see usage patterns. The Nest Leaf appears when a temperature that",
+    "last_updated": "2026-07-06"
+  },
+  "vizio": {
+    "canonical_name": "Vizio",
+    "entity_type": "company",
+    "summary": "VIZIO Holding Corp. is a public company founded in 2002 and headquartered in Irvine, California. The company's mission is to deliver immersive entertainment and lifestyle enhancements, focusing on its integrated platform of Smart TVs and the SmartCast operating system.",
+    "last_updated": "2026-07-06"
+  },
+  "walmart": {
+    "canonical_name": "Walmart",
+    "entity_type": "company",
+    "summary": "Walmart Inc. is a tech-powered, omnichannel retailer that helps people save money and live better. The company operates in stores, online, and through mobile devices, serving approximately 270 million customers weekly across more than 10,750 stores in 19 countries.",
+    "last_updated": "2026-07-06"
+  },
+  "mini led quantum": {
+    "canonical_name": "Mini LED Quantum",
+    "entity_type": "product",
+    "summary": "The VIZIO Mini LED Quantum Smart TV features up to 3x the brightness, up to 100x more contrast, and over a billion vibrant colors using QLED technology. It includes a 4K AI processor, Q-Symphony Sound, and AI Soccer Mode for an enhanced viewing experience.",
+    "last_updated": "2026-07-06"
+  },
+  "quantumdot": {
+    "canonical_name": "quantum-dot",
+    "entity_type": "technology",
+    "summary": "Quantum dot technology uses nanoscale semiconductor particles to produce highly pure and precise colors in displays. It enhances color accuracy, brightness, and energy efficiency, with televisions being the most prominent application, delivering premium 4K and 8K viewing experiences.",
+    "last_updated": "2026-07-06"
+  },
+  "nasa": {
+    "canonical_name": "NASA",
+    "entity_type": "organization",
+    "summary": "NASA is America's civil space program and the global leader in space exploration. The agency's organization comprises a workforce of thousands of civil servants, and works with many more U.S. contractors, academia, and international and commercial partners to explore, discover, and expand knowledge",
+    "last_updated": "2026-07-06"
+  },
+  "swift observatory": {
+    "canonical_name": "Swift Observatory",
+    "entity_type": "technology",
+    "summary": "The Neil Gehrels Swift Observatory is a rapid-response mission designed to detect and follow-up Gamma-Ray Bursts (GRBs). It is hosted at the University of Leicester and is equipped with three telescopes: the Burst Alert Telescope (BAT), the X-ray Telescope (XRT), and the UV/Optical Telescope.",
+    "last_updated": "2026-07-06"
+  },
+  "katalyst space technologies": {
+    "canonical_name": "Katalyst Space Technologies",
+    "entity_type": "company",
+    "summary": "Katalyst Space Technologies is an R&D team focused on next-gen satellite and mission designs. Their goal is to fundamentally shake up how the satellite industry works by breaking through long cycle times, rigid architectures, and inflexibility in mission planning.",
+    "last_updated": "2026-07-06"
+  },
+  "link spacecraft": {
+    "canonical_name": "Link spacecraft",
+    "entity_type": "product",
+    "summary": "A robotic servicing spacecraft called LINK, built by Katalyst Space, will launch on a Northrop Grumman Pegasus XL rocket. The mission is a first-of-its-kind to raise the orbit of NASA's Neil Gehrels Swift Observatory.",
+    "last_updated": "2026-07-06"
+  },
+  "us department of energy": {
+    "canonical_name": "US Department of Energy",
+    "entity_type": "ban_regulation",
+    "summary": "The U.S. Department of Energy (DOE) is an executive division of the U.S. federal government responsible for administering national energy policy. Established in 1977, it promotes energy efficiency and the use of renewable energy.",
+    "last_updated": "2026-07-06"
+  },
+  "zohran mamdani": {
+    "canonical_name": "Zohran Mamdani",
+    "entity_type": "person",
+    "summary": "Zohran Mamdani is a 33-year-old state assemblyman and the Democratic candidate for New York City Mayor. He is set to be the first Muslim nominee for the position and leads former governor Andrew Cuomo in the Democratic primary.",
+    "last_updated": "2026-07-06"
+  },
+  "ted cruz": {
+    "canonical_name": "Ted Cruz",
+    "entity_type": "person",
+    "summary": "Senator Ted Cruz of Texas has been a leading fighter for Texas for over a decade, with priorities including creating jobs, defending freedom, and ensuring security. He has a proven record of standing up to politicians and special interest groups.",
+    "last_updated": "2026-07-06"
+  },
+  "nikki haley": {
+    "canonical_name": "Nikki Haley",
+    "entity_type": "person",
+    "summary": "Nikki Haley is a former South Carolina governor and former U.S. Ambassador to the United Nations. She has had three past jobs and is currently running in the Republican primaries, though she has little momentum in the race.",
+    "last_updated": "2026-07-06"
+  },
+  "nancy mace": {
+    "canonical_name": "Nancy Mace",
+    "entity_type": "person",
+    "summary": "South Carolina Rep. Nancy Mace is a member of the House and announced she would enter the Republican primary for the open governorship. She is described as a self-described 'proud transphobe' and the first woman to graduate as a cadet from the Citadel.",
+    "last_updated": "2026-07-06"
+  },
+  "greg abbott": {
+    "canonical_name": "Greg Abbott",
+    "entity_type": "person",
+    "summary": "Greg Abbott is the governor of Texas. The material describes him as exercising power in a way that is not previously seen, with a ranch in Eagle Pass where freight trains are scanned for migrants.",
+    "last_updated": "2026-07-06"
+  },
+  "internet archive": {
+    "canonical_name": "Internet Archive",
+    "entity_type": "organization",
+    "summary": "The Internet Archive is a 501(c)(3) non-profit building a digital library of Internet sites and cultural artifacts. It provides free access to researchers, historians, scholars, and the general public, with a mission to provide Universal Access to All Knowledge.",
+    "last_updated": "2026-07-06"
+  },
+  "chemical safety board csb": {
+    "canonical_name": "Chemical Safety Board (CSB)",
+    "entity_type": "ban_regulation",
+    "summary": "The U.S. Chemical Safety Board (CSB) is an independent federal agency charged with investigating industrial chemical accidents. Headquartered in Washington, DC, the agency's board members are appointed by the President and confirmed by the Senate.",
+    "last_updated": "2026-07-06"
+  },
+  "public employees for environmental responsibility": {
+    "canonical_name": "Public Employees for Environmental Responsibility",
+    "entity_type": "ban_regulation",
+    "summary": "Public Employees for Environmental Responsibility (PEER) is a national, non-profit organization that brings together local, state, and federal resource professionals. This includes scientists, land managers, and law professionals who provide support to employees who report violations of environmenta",
+    "last_updated": "2026-07-06"
+  },
+  "trump administration": {
+    "canonical_name": "Trump administration",
+    "entity_type": "ban_regulation",
+    "summary": "The Trump administration is going ahead with plans to ban two popular Chinese social media apps. The administration has also given 36 countries, most of them in Africa, a Wednesday deadline to commit to improving vetting or face a ban on their citizens visiting the United States.",
+    "last_updated": "2026-07-06"
+  },
+  "ronald koopman": {
+    "canonical_name": "Ronald Koopman",
+    "entity_type": "ban_regulation",
+    "summary": "Ronald Koopman is a professional with expertise in organization development and customer- and result-oriented organizing. There are 50+ professionals named Ronald Koopman on LinkedIn, and he is also possibly known as Ronald R Koopman Jr.",
+    "last_updated": "2026-07-06"
+  },
+  "hydrofluoric acid": {
+    "canonical_name": "hydrofluoric acid",
+    "entity_type": "ban_regulation",
+    "summary": "Activists and Rep. Maxine Waters have renewed calls to ban hydrofluoric acid at SoCal refineries. There is a non-threatening alternative available, and the team has been able to persuade changes at two of the three refineries near Salt Lake City.",
+    "last_updated": "2026-07-06"
+  },
+  "teflon": {
+    "canonical_name": "Teflon",
+    "entity_type": "ban_regulation",
+    "summary": "Teflon, commonly associated with PTFE, is not globally banned. While there are concerns about the potential release of toxic fumes from PTFE, it continues to be widely used in various products, especially cookware. Regulations surrounding Teflon vary among countries.",
+    "last_updated": "2026-07-06"
+  },
+  "us government": {
+    "canonical_name": "US government",
+    "entity_type": "ban_regulation",
+    "summary": "The sudden U.S. government shutdown of Anthropic’s most advanced artificial intelligence models, Claude Fable 5 and Claude Mythos 5, originated from an unexpected source: its own major investor, Amazon. Discussions between federal officials and Amazon Chief Executive Officer Andy Jassy triggered an",
+    "last_updated": "2026-07-06"
+  },
+  "railway": {
+    "canonical_name": "Railway",
+    "entity_type": "company",
+    "summary": "Railway is a company focused on providing integrated logistics and supply chain solutions, particularly for businesses in manufacturing and distribution. The company leverages its rail-ready locations and recognition of safety excellence to offer compliance and risk mitigation solutions. With revenu",
+    "last_updated": "2026-07-06"
+  },
+  "tq ventures": {
+    "canonical_name": "TQ Ventures",
+    "entity_type": "company",
+    "summary": "TQ Ventures is a venture capital firm based in New York City, led by Schuster Tanger and Andrew Marks. The firm is a $2B venture firm that treats founders like people and has backed companies including Railway, Linq, and Lawhive since its founding in 2018.",
+    "last_updated": "2026-07-06"
+  },
+  "fpv ventures": {
+    "canonical_name": "FPV Ventures",
+    "entity_type": "company",
+    "summary": "FPV Ventures actively invests in innovative early-stage companies across diverse sectors such as finance, AI, healthcare, and enterprise technology. The firm has recently raised multi-million dollar Series B funding rounds for companies like Monarch Money and Aily Labs, indicating a healthy investme",
+    "last_updated": "2026-07-06"
+  },
+  "redpoint": {
+    "canonical_name": "Redpoint",
+    "entity_type": "company",
+    "summary": "Redpoint Venture focuses on investing in early-stage technology companies. Its primary competitors include Sequoia Capital, Benchmark, Accel, and 13 more. Redpoint is a customer data platform (CDP) and customer experience management company that helps enterprises unify customer data.",
+    "last_updated": "2026-07-06"
+  },
+  "unusual ventures": {
+    "canonical_name": "Unusual Ventures",
+    "entity_type": "company",
+    "summary": "Unusual Ventures leads seed rounds in enterprise AI software startups and helps technical founders find product-market fit. The firm has a hands-on engagement model and has backed companies like Theia and Miravoice. It has 38 employees and focuses on the enterprise AI space.",
+    "last_updated": "2026-07-06"
+  },
+  "goose": {
+    "canonical_name": "Goose",
+    "entity_type": "product",
+    "summary": "Goose is an AI agent designed as a 'coworker' for Go-To-Market (GTM) teams. It functions as an autonomous entity with its own virtual computer, memory, and email access, integrating into communication channels like Slack and email to act as a seamless business extension.",
+    "last_updated": "2026-07-06"
+  },
+  "block": {
+    "canonical_name": "Block",
+    "entity_type": "company",
+    "summary": "Block is a financial technology company that builds products for electronic payments and commerce. It provides a seller-focused ecosystem with point-of-sale hardware, payment processing, and lending, as well as a consumer platform for payments and investing, and was originally founded as Square.",
+    "last_updated": "2026-07-06"
+  },
+  "listen labs": {
+    "canonical_name": "Listen Labs",
+    "entity_type": "startup",
+    "summary": "Listen is an autonomous market researcher that makes research simple and fast. Share your business question, and our AI handles everything - designing the studies, finding the right participants, moderating interviews, and analyzing responses. Whether you're testing products or exploring new markets",
+    "last_updated": "2026-07-06"
+  },
+  "mark zuckerberg": {
+    "canonical_name": "Mark Zuckerberg",
+    "entity_type": "person",
+    "summary": "Mark Zuckerberg is the millennial CEO of Meta, credited with creating a social network that has more monthly active users than any single country in the world. He has weathered success and controversy over 19 years, and his majority voting rights give him complete control of the company, which has a",
+    "last_updated": "2026-07-06"
+  },
+  "69m": {
+    "canonical_name": "$69M",
+    "entity_type": "money",
+    "summary": "The material did not address this question.",
+    "last_updated": "2026-07-06"
+  },
+  "ai tokens": {
+    "canonical_name": "AI tokens",
+    "entity_type": "technology",
+    "summary": "AI tokens are tiny units of data that come from breaking down bigger chunks of information. AI models process tokens to learn the relationships between them and unlock capabilities including prediction, generation and reasoning.",
+    "last_updated": "2026-07-06"
+  },
+  "coding challenge": {
+    "canonical_name": "coding challenge",
+    "entity_type": "event",
+    "summary": "The Trailblazing Women Coding Challenge is an online contest powered by the HackerRank coding platform. This challenge requires participants to solve three coding problems of varying complexities in 90 minutes and is an empowering virtual contest for experienced women coders.",
+    "last_updated": "2026-07-06"
+  },
+  "berghain": {
+    "canonical_name": "Berghain",
+    "entity_type": "organization",
+    "summary": "Berghain is a dance studio that provides art training, merchandise retailing, and awareness programs. It is also known for its Panorama Bar and is located in Berlin, Germany.",
+    "last_updated": "2026-07-06"
+  },
+  "salesforce": {
+    "canonical_name": "Salesforce",
+    "entity_type": "company",
+    "summary": "Salesforce is the #1 AI CRM where humans with agents drive customer success together with AI, data, and Customer 360 apps on one platform. The company has 84,999 employees and is headquartered in San Francisco, California, with additional offices in Staines, Switzerland, Singapore, Munich, and Londo",
+    "last_updated": "2026-07-06"
+  },
+  "slack": {
+    "canonical_name": "Slack",
+    "entity_type": "company",
+    "summary": "Slack Technologies, Inc. is an international software company founded in 2009 in Vancouver, British Columbia, Canada. It is a software company with 1K-5K employees and an estimated revenue of $250M-$500M.",
+    "last_updated": "2026-07-06"
+  },
+  "slackbot": {
+    "canonical_name": "Slackbot",
+    "entity_type": "product",
+    "summary": "A Slack bot is an automated software application that lives inside a Slack workspace, listening for events and responding with actions. It can create reminders using natural language, powered by Large Language Models (LLMs) to understand intent and learn from interactions, or operate with simple IF-",
+    "last_updated": "2026-07-06"
+  },
+  "agentic ai": {
+    "canonical_name": "agentic AI",
+    "entity_type": "technology",
+    "summary": "Agentic AI represents the third wave of AI development, where systems are designed to autonomously plan, execute, and adapt to make decisions based on their environment. Unlike passive AI, agentic AI can perform goal-oriented problem-solving and take actions within its operational scope without cons",
+    "last_updated": "2026-07-06"
+  },
+  "nous research": {
+    "canonical_name": "Nous Research",
+    "entity_type": "company",
+    "summary": "Nous Research is a leader in the American open source AI movement, training world-class open source language models. They build infrastructure to coordinate distributed, unbiased training and are described as an AI accelerator company.",
+    "last_updated": "2026-07-06"
+  },
+  "paradigm": {
+    "canonical_name": "Paradigm",
+    "entity_type": "company",
+    "summary": "Paradigm is an online research and data collection company founded in 2009. It provides real-time market research and access to hard-to-reach consumer groups, helping companies with business and marketing decisions.",
+    "last_updated": "2026-07-06"
+  },
+  "nvidia": {
+    "canonical_name": "Nvidia",
+    "entity_type": "company",
+    "summary": "Nvidia Corporation is an American technology company based in Santa Clara, California. It is a designer and developer of graphics processing units, central processing units, and systems.",
+    "last_updated": "2026-07-06"
+  },
+  "genebenchpro": {
+    "canonical_name": "GeneBench-Pro",
+    "entity_type": "benchmark",
+    "summary": "GeneBench-Pro is a new research-level benchmark for testing AI performance in genomics, biology, and scientific research. It uses complex, real-world datasets to measure how AI agents navigate ambiguity and make consequential judgments in computational biology.",
+    "last_updated": "2026-07-06"
+  },
+  "genebench": {
+    "canonical_name": "GeneBench",
+    "entity_type": "benchmark",
+    "summary": "GeneBench is a text benchmark that evaluates large language models on reasoning, science, and agents tasks. It focuses on multi-stage scientific data analysis in genetics and quantitative biology, requiring models to reason about ambiguous data and implement statistical methods.",
+    "last_updated": "2026-07-06"
+  },
+  "rockset": {
+    "canonical_name": "Rockset",
+    "entity_type": "company",
+    "summary": "Rockset is a company that provides a cloud-native database platform, offering services for real-time data ingestion, storage, and querying. The company is described as having a presence in physical offices, with employees working from these locations. It is also noted that the company has a presence",
+    "last_updated": "2026-07-06"
+  },
+  "eu": {
+    "canonical_name": "EU",
+    "entity_type": "organization",
+    "summary": "The European Union (EU) is a federation of 28 European countries that originated from the 1952 European Coal and Steel Community. It has achieved integration in areas like taxation, customs, economic policies, and the Euro currency.",
+    "last_updated": "2026-07-06"
+  },
+  "esco": {
+    "canonical_name": "ESCO",
+    "entity_type": "technology",
+    "summary": "The material did not address this question. It only provided information about ESCO Technologies' dividend and stock data, not a general-purpose overview of the company as an organization.",
+    "last_updated": "2026-07-06"
+  },
+  "eurostat": {
+    "canonical_name": "Eurostat",
+    "entity_type": "organization",
+    "summary": "Eurostat is the statistical office of the European Union, responsible for publishing high-quality, harmonized statistics and indicators for Europe. Its mission is to enable comparisons between countries and regions by developing common definitions and methodologies.",
+    "last_updated": "2026-07-06"
+  },
+  "luxembourg": {
+    "canonical_name": "Luxembourg",
+    "entity_type": "organization",
+    "summary": "Luxembourg is a landlocked nation in Western Europe, located at the intersection of Belgium, France, and Germany. It is a Grand Duchy with a tricolor flag, uses the euro as its currency, and follows the metric system.",
+    "last_updated": "2026-07-06"
+  },
+  "sweden": {
+    "canonical_name": "Sweden",
+    "entity_type": "organization",
+    "summary": "Sweden is a country that has participated in the Worldvision Song Contest and is associated with organizations like Dox Sweden AB and the Association of Holocaust Survivors in Sweden. The country also has a presence in international cooperation and compensation programs.",
+    "last_updated": "2026-07-06"
+  },
+  "netherlands": {
+    "canonical_name": "Netherlands",
+    "entity_type": "organization",
+    "summary": "The Netherlands is associated with organizations like Nuffic, which focuses on international cooperation in higher education, and TNO, which creates innovations for sustainable societal prosperity. The material also mentions a 2009 overview of Nuffic.",
+    "last_updated": "2026-07-06"
+  },
+  "germany": {
+    "canonical_name": "Germany",
+    "entity_type": "organization",
+    "summary": "The material did not address this question. It only provided information about the GNTB's organization chart and management board, not a general-purpose overview of Germany as an entity.",
+    "last_updated": "2026-07-06"
+  },
+  "hp inc": {
+    "canonical_name": "HP Inc.",
+    "entity_type": "company",
+    "summary": "HP Inc. is a world leader in the design, manufacturing, and marketing of computers and printing equipment. The company's net sales are broken down by product family, with computers and operating systems accounting for 69.8% of revenue, which includes laptops, desktops, tablets, and workstations. HP",
+    "last_updated": "2026-07-06"
+  },
+  "gpt56": {
+    "canonical_name": "GPT-5.6",
+    "entity_type": "ai_model",
+    "summary": "OpenAI's GPT-5.6 introduces the Sol, Terra, and Luna models. The models are part of a new family that can natively process up to 1.5 million tokens of context and are being stress-tested for autonomous 'computer use' failures.",
+    "last_updated": "2026-07-06"
+  },
+  "gpt56 sol": {
+    "canonical_name": "GPT-5.6 Sol",
+    "entity_type": "product",
+    "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack. It is the flagship model in the GPT-5.6 series, which also includes the balanced Terra and the affordable Luna models.",
+    "last_updated": "2026-07-06"
+  },
+  "terra": {
+    "canonical_name": "Terra",
+    "entity_type": "product",
+    "summary": "iRobot has unveiled the Terra robot lawn mower, a lightweight gel-cream designed to stabilize how hair behaves. It is a foundational leave-in product that supports consistency, softness, and natural movement across hair styles and textures.",
+    "last_updated": "2026-07-06"
+  },
+  "luna": {
+    "canonical_name": "Luna",
+    "entity_type": "product",
+    "summary": "Luna.ai is an all-in-one B2B AI outbound sales platform that provides quality leads from a database of over 265 million verified contacts. It is also described as a brand-new all-in-one AI-powered Twitter automation app that leverages X (Twitter) to grow followers and drive traffic.",
+    "last_updated": "2026-07-06"
+  },
+  "cyber executive order": {
+    "canonical_name": "cyber Executive Order",
+    "entity_type": "regulation",
+    "summary": "A forthcoming White House order is meant to improve the government’s ability to detect, coordinate, respond to and investigate cybersecurity incidents. It would require companies that do business with the federal government to meet software security standards and report cyber incidents to a new enti",
+    "last_updated": "2026-07-06"
+  },
+  "broadcom": {
+    "canonical_name": "Broadcom",
+    "entity_type": "company",
+    "summary": "Broadcom, Inc. is a global technology company that designs, develops, and supplies a broad range of semiconductor and infrastructure software solutions. It is described as a technology leader with deep expertise in design, engineering, and manufacturing, powering the future of AI infrastructure and",
+    "last_updated": "2026-07-06"
+  },
+  "jalapeño": {
+    "canonical_name": "Jalapeño",
+    "entity_type": "ai_model",
+    "summary": "Jalapeño is a custom-built artificial intelligence (AI) chip designed by OpenAI in partnership with Broadcom to power the next generation of AI models. It is engineered to support both current and future AI models, with engineering samples already running machine-learning workloads like GPT-5.3-Code",
+    "last_updated": "2026-07-06"
+  },
+  "sam altman": {
+    "canonical_name": "Sam Altman",
+    "entity_type": "person",
+    "summary": "Sam Altman is the CEO of OpenAI, the company behind GPT-4, ChatGPT, DALL-E, Codex, and many other state-of-the-art AI technologies. He is ranked with 2.3% share of voice across 5 AI assistants and is known for his pivotal role in advancing artificial intelligence.",
+    "last_updated": "2026-07-06"
+  },
+  "greg brockman": {
+    "canonical_name": "Greg Brockman",
+    "entity_type": "person",
+    "summary": "Greg Brockman is an American entrepreneur, investor, and software engineer, and a co-founder and president of OpenAI. He is a self-taught machine learning practitioner whose career blends technical expertise, entrepreneurial vision, and a commitment to democratizing AI for societal benefit.",
+    "last_updated": "2026-07-06"
+  },
+  "charlie kawwas": {
+    "canonical_name": "Charlie Kawwas",
+    "entity_type": "person",
+    "summary": "Charlie Kawwas is the President of the Semiconductor Solutions Group at Broadcom, responsible for the company’s 15 Semiconductor Divisions. He is also the Chief Operating Officer at Broadcom, an international technology leader, responsible for Global Operations which includes worldwide manufacturing",
+    "last_updated": "2026-07-06"
+  },
+  "celestica": {
+    "canonical_name": "Celestica",
+    "entity_type": "organization",
+    "summary": "Celestica is a technology leader with deep expertise in design, engineering, and manufacturing, driving customer success and market advancements across high-growth markets. It engineers, designs, and manufactures the backbone of AI and cloud technology, partnering with leading brands to solve their",
+    "last_updated": "2026-07-06"
+  },
+  "gpt53codexspark": {
+    "canonical_name": "GPT-5.3-Codex-Spark",
+    "entity_type": "ai_model",
+    "summary": "GPT-5.3-Codex-Spark is a smaller, real-time coding model and the first model designed specifically for working with Codex in real-time. It is optimized to feel near-instant when served on ultra-low latency hardware, delivering more than 1000 tokens per second while remaining highly capable for real-",
+    "last_updated": "2026-07-06"
+  },
+  "nano banana 2 lite": {
+    "canonical_name": "Nano Banana 2 Lite",
+    "entity_type": "ai_model",
+    "summary": "Nano Banana 2 Lite is described as Google's fastest and most cost-efficient Gemini Image model. It is designed to make it easier for developers to experiment and scale their ideas with rapid image generation.",
+    "last_updated": "2026-07-06"
+  },
+  "gemini omni flash": {
+    "canonical_name": "Gemini Omni Flash",
+    "entity_type": "ai_model",
+    "summary": "Gemini Omni Flash is a model trained using Google's Tensor Processing Units (TPUs) and is designed to create and edit anything from any input. It combines Gemini's intelligence with generative media models to advance world understanding and multimodality.",
+    "last_updated": "2026-07-06"
+  },
+  "google deepmind": {
+    "canonical_name": "Google DeepMind",
+    "entity_type": "general",
+    "summary": "Google DeepMind is a research organization focused on building AI responsibly to benefit humanity. It develops next-generation AI systems, including the Gemini Image model and advanced audio models, and serves as a collaborative AI research partner for scientific discovery.",
+    "last_updated": "2026-07-06"
+  },
+  "uk government": {
+    "canonical_name": "UK government",
+    "entity_type": "general",
+    "summary": "The UK government generally spends more than it raises in tax, so it borrows money to fill the gap, which must be paid back with interest. In April 2026, government borrowing was £24.3bn, the highest for April since 2020, and the government gets most of its income from taxes like income tax, Nationa",
+    "last_updated": "2026-07-06"
+  },
+  "national partnerships for ai": {
+    "canonical_name": "National Partnerships for AI",
+    "entity_type": "general",
+    "summary": "The National Partnerships for AI is a global initiative that partners with governments to turn AI's potential into real progress. It is guided by five principles and aims to support governments in serving their people through frontier AI, broadening access to research and technologies to meet nation",
+    "last_updated": "2026-07-06"
+  },
+  "iai": {
+    "canonical_name": "i.AI",
+    "entity_type": "general",
+    "summary": "i.AI, previously known as Google SGE, is Google's generative AI-powered search result that provides a quick summary of the topic being searched. It is a new way to search that builds on generative AI to give users a fast, summarized answer at the top of the search results page.",
+    "last_updated": "2026-07-06"
+  },
+  "google cloud": {
+    "canonical_name": "Google Cloud",
+    "entity_type": "general",
+    "summary": "Google Cloud offers an easy-to-use platform with tools and APIs for starting proof of concepts, pre-built solution templates, and core infrastructure, data analytics, and machine learning. New customers can get $300 in free credits, and all customers can use 25+ products for free up to monthly usage",
+    "last_updated": "2026-07-06"
+  },
+  "faculty": {
+    "canonical_name": "Faculty",
+    "entity_type": "general",
+    "summary": "The Faculty of Architecture and Landscape Sciences in Germany offers degree programs in architecture, urban planning, and landscape architecture. The Faculty Senate serves as the elected and representative body for shared governance at the university.",
+    "last_updated": "2026-07-06"
+  },
+  "barnet": {
+    "canonical_name": "Barnet",
+    "entity_type": "general",
+    "summary": "Barnet General Hospital is a district general hospital in Barnet, North London, managed by the Royal Free London NHS Foundation Trust. It provides services including abortion, and its latest inspection in August 2021 rated it as 'Requires improvement' overall.",
+    "last_updated": "2026-07-06"
+  },
+  "dorset": {
+    "canonical_name": "Dorset",
+    "entity_type": "general",
+    "summary": "Dorset is a green and beautiful county in south-west England, known for its unspoiled customs and cultural nuances. It is a popular seaside destination with many Victorian-era tourist towns, though the coastal areas can be very busy during the summer season.",
+    "last_updated": "2026-07-06"
+  },
+  "camden": {
+    "canonical_name": "Camden",
+    "entity_type": "general",
+    "summary": "Camden General Hospital is located in Camden, Tennessee, and is managed by the Council. The 2026/27 budget overview indicates the Council will need to fund inflationary and demographic pressures, and the Camden General Cemetery, established in the late 1800s, is located on Crown Lands and managed by",
+    "last_updated": "2026-07-06"
+  },
+  "diffusiongemma": {
+    "canonical_name": "DiffusionGemma",
+    "entity_type": "ai_model",
+    "summary": "DiffusionGemma is a generative model built by Google DeepMind that uses an encoder-decoder architecture optimized for inference speed. It is a multimodal, open-weights model based on a Mixture-of-Experts (MoE) architecture, designed to handle text, image, and video inputs. The model is engineered to",
+    "last_updated": "2026-07-06"
+  },
+  "gemma 4": {
+    "canonical_name": "Gemma 4",
+    "entity_type": "ai_model",
+    "summary": "Gemma 4 is the fourth generation of Google DeepMind's family of open models, built from the same research and technology behind Gemini. It is designed to be lightweight, fast, and capable, running on a variety of hardware from laptops to the cloud. A key feature is the introduction of Thinking varia",
+    "last_updated": "2026-07-06"
+  },
+  "gemini diffusion": {
+    "canonical_name": "Gemini Diffusion",
+    "entity_type": "technology",
+    "summary": "Gemini Diffusion is an experimental text diffusion model unveiled by Google DeepMind in May 2025. It leverages diffusion techniques, previously used for image and video generation, to produce coherent text and code by iteratively refining random noise. The model is presented as a state-of-the-art re",
+    "last_updated": "2026-07-06"
+  },
+  "unsloth": {
+    "canonical_name": "Unsloth",
+    "entity_type": "person/organization",
+    "summary": "Unsloth is an open-source framework for running and training large language models (LLMs) on local hardware. It provides a no-code UI to train and run models, allowing users to customize behavior and optimize for specific tasks. Unsloth aims to make AI more accessible by enabling users to run and tr",
+    "last_updated": "2026-07-06"
+  },
+  "sudoku": {
+    "canonical_name": "Sudoku",
+    "entity_type": "task",
+    "summary": "Sudoku is a logic puzzle that can be solved using pure logic and visual deduction, without requiring advanced math. The game involves filling a grid with numbers so that each row, column, and 3x3 box contains all digits from 1 to 9 without repetition. Effective strategies include looking for 'naked",
+    "last_updated": "2026-07-06"
+  },
+  "schmidt sciences": {
+    "canonical_name": "Schmidt Sciences",
+    "entity_type": "general",
+    "summary": "Schmidt Sciences is a philanthropic organization founded in 2024 by Eric and Wendy Schmidt. It aims to work toward a healthy, resilient, and secure world for all by supporting scientific research through various centers and programs.",
+    "last_updated": "2026-07-06"
+  },
+  "the cooperative ai foundation": {
+    "canonical_name": "the Cooperative AI Foundation",
+    "entity_type": "general",
+    "summary": "The Cooperative AI Foundation (CAIF) is a new charitable entity backed by a $15 million philanthropic commitment from Macroscopic Ventures. Its mission is to support research that will improve the cooperative intelligence of advanced AI for the benefit of all.",
+    "last_updated": "2026-07-06"
+  },
+  "aria": {
+    "canonical_name": "ARIA",
+    "entity_type": "general",
+    "summary": "ARIA (WAI-ARIA) is a set of attributes that can be added to HTML elements to communicate role, state, and property semantics to assistive technologies. These attributes help improve web accessibility by providing more context to screen readers and other tools.",
+    "last_updated": "2026-07-06"
+  },
+  "googleorg": {
+    "canonical_name": "Google.org",
+    "entity_type": "general",
+    "summary": "Google.org connects nonprofits to funding and additional resources through its philanthropy program. It focuses on aiding underserved communities, reducing traffic, increasing AI skilling, and supporting various social and economic initiatives.",
+    "last_updated": "2026-07-06"
+  },
+  "google ai studio": {
+    "canonical_name": "Google AI Studio",
+    "entity_type": "model_release",
+    "summary": "Google AI Studio is the fastest way to start building with Gemini, our next generation family of multimodal generative AI models. It is a customizable environment where you can experiment with Google’s newest and most advanced AI models for free. Fifteen unique models are currently available on the",
+    "last_updated": "2026-07-06"
+  },
+  "google translate": {
+    "canonical_name": "Google Translate",
+    "entity_type": "model_release",
+    "summary": "Google has released Gemini 3.5 Live Translate for real-time speech-to-speech translation in more than 70 languages. The new audio model is aimed at making it easier to have conversations in different languages without having to wait for the translation to happen. It is built to translate conversatio",
+    "last_updated": "2026-07-06"
+  },
+  "google meet": {
+    "canonical_name": "Google Meet",
+    "entity_type": "model_release",
+    "summary": "Google Meet is part of the Google Workspace application package, which simplifies collaboration and increases user efficiency in companies of any size. It is included with other services like Gmail, Drive, and Calendar, and is designed for real-time collaboration from any device with always up-to-da",
+    "last_updated": "2026-07-06"
+  },
+  "gemini 35 live translate": {
+    "canonical_name": "Gemini 3.5 Live Translate",
+    "entity_type": "model_release",
+    "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet. It is Google's latest audio model for live speech-to-speech translation, delivering near real-time translation in over 70 languages.",
+    "last_updated": "2026-07-06"
+  },
+  "glm52": {
+    "canonical_name": "GLM-5.2",
+    "entity_type": "model_release",
+    "summary": "GLM-5.2 is a flagship model built for the era of long-horizon tasks. It can turn the model architecture, loss functions, data pipelines, and training/inference scripts described in a paper into runnable code. The model is designed for project-level codebase takeover, long-horizon refactoring, and en",
+    "last_updated": "2026-07-06"
+  },
+  "gemma": {
+    "canonical_name": "Gemma",
+    "entity_type": "ai_model",
+    "summary": "Gemma is a family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models. Developed by Google DeepMind and other teams across Google, Gemma is named after the Latin gemma, meaning precious stone, and its model weights are supported b",
+    "last_updated": "2026-07-06"
+  },
+  "12b": {
+    "canonical_name": "12B",
+    "entity_type": "ai_model",
+    "summary": "Gemma is a family of generative artificial intelligence models that can be used in a wide variety of generation tasks, including question answering, summarization, and reasoning. The models are provided with open weights and permit responsible commercial use, allowing users to tune and deploy them i",
+    "last_updated": "2026-07-06"
+  },
+  "26b": {
+    "canonical_name": "26B",
+    "entity_type": "ai_model",
+    "summary": "Gemma is a family of generative artificial intelligence models that can be used in a wide variety of generation tasks, including question answering, summarization, and reasoning. The models are provided with open weights and permit responsible commercial use, allowing users to tune and deploy them i",
+    "last_updated": "2026-07-06"
+  },
+  "mixture of experts": {
+    "canonical_name": "Mixture of Experts",
+    "entity_type": "technology",
+    "summary": "Mixture of Experts (MoE) is a technique that makes AI models more efficient, specialized, and scalable by using multiple smaller expert models instead of one big neural network. A 'gate' decides which experts to activate for each input, similar to how a company sends a problem to the right departmen",
+    "last_updated": "2026-07-06"
+  },
+  "e4b": {
+    "canonical_name": "E4B",
+    "entity_type": "ai_model",
+    "summary": "The models are available in four distinct sizes: E2B, E4B, 26B A4B, and 31B, making them deployable in environments ranging from high-end phones to laptops and servers. Model Garden, an AI/ML model library, provides a consistent deployment pattern and helps users discover, test, customize, and deplo",
+    "last_updated": "2026-07-06"
+  },
+  "syntheticsciencesopenscience": {
+    "canonical_name": "synthetic-sciences/openscience",
+    "entity_type": "repo_analysis",
+    "summary": "Atlas is Synthetic Sciences' managed platform. Project config lives in openscience.json or a .openscience/ directory at the repo root (schema). Custom agents, commands, tools, plugins, and themes load from those directories. It reads literature, writes and runs code, runs experiments, and writes up",
+    "last_updated": "2026-07-06"
+  },
+  "atlas openscience": {
+    "canonical_name": "Atlas OpenScience",
+    "entity_type": "repo_analysis",
+    "summary": "OpenScience works with Atlas but never requires it. Project config lives in openscience.json or a .openscience/ directory at the repo root (schema). It reads literature, writes and runs code, runs experiments on real compute, and queries major scientific databases. Please reload this page if there w",
+    "last_updated": "2026-07-06"
+  },
+  "ultracodex": {
+    "canonical_name": "ultracodex",
+    "entity_type": "technology",
+    "summary": "ultracodex is a compatible runtime for scripts that routes each agent() call to Codex instead of transpiling them. It allows running Claude Code workflow scripts, unmodified, on the OpenAI Codex CLI. The pattern it exists for: fable plans, codex executes, fab",
+    "last_updated": "2026-07-06"
+  },
+  "openai codex": {
+    "canonical_name": "OpenAI Codex",
+    "entity_type": "technology",
+    "summary": "Codex powers GitHub Copilot, which OpenAI built and launched in partnership with GitHub. Codex can interpret simple commands in natural language and create and execute code. It is a new application to Natural Language Understanding (NLU) and is considered a first foray into a new field.",
+    "last_updated": "2026-07-06"
+  },
+  "parallel": {
+    "canonical_name": "parallel()",
+    "entity_type": "function",
+    "summary": "You are asked to implement an async function helper, parallel(), which works like Promise.all(). Different from sequence(), the async function doesn't wait for each other, rather they are all triggered together. All async functions have a following interface.",
+    "last_updated": "2026-07-06"
+  },
+  "pipeline": {
+    "canonical_name": "pipeline()",
+    "entity_type": "function",
+    "summary": "The _.pipeline() method takes a list of functions, either as an array or as arguments, and returns a function that takes some value as its argument and runs it through a pipeline of the original functions. It returns a function and requires the underscore.js contrib library to be installed.",
+    "last_updated": "2026-07-06"
+  },
+  "loops": {
+    "canonical_name": "loops",
+    "entity_type": "function",
+    "summary": "For loops are used to iterate over a sequence such as a list, tuple, string or range. It executes a block of code once for each item in the sequence. While loops repeatedly execute a block of code as long as the given condition remains true.",
+    "last_updated": "2026-07-06"
+  },
+  "es module": {
+    "canonical_name": "ES module",
+    "entity_type": "technology",
+    "summary": "ES modules bring an official, standardized module system to JavaScript. It took nearly 10 years of standardization work, but all major browsers will support ES modules with the release of Firefox 60. The Node modules working group is also working on adding ES module support to Node.js.",
+    "last_updated": "2026-07-06"
+  },
+  "json schema": {
+    "canonical_name": "JSON Schema",
+    "entity_type": "technology",
+    "summary": "JSON Schema enables the confident and reliable use of the JSON data format. It is the vocabulary that enables JSON data consistency, validity, and interoperability at scale. It allows you to define constraints for your data structures to catch and prevent errors and inconsistencies.",
+    "last_updated": "2026-07-06"
+  },
+  "worktree": {
+    "canonical_name": "worktree",
+    "entity_type": "technology",
+    "summary": "When one tech company acquires another, a deep technical audit is required. Understanding Worktrees and Best-of-N: A Technical Overview. What Are Git Worktrees? When one tech company acquires another, a deep technical audit is required. I’ll explain why a target company’s approach to this specific p",
+    "last_updated": "2026-07-06"
+  },
+  "oxbshwwatchskill": {
+    "canonical_name": "oxbshw/watch-skill",
+    "entity_type": "model_release",
+    "summary": "Watch Skill turns any video—a URL from 1800+ sites, a live HLS/DASH stream, a local file, or a recording of the agent's own output—into a persistent, searchable index of frames, on-screen text, and transcript. Agents can ask questions in seconds, receive answers with auditable confidence and timesta",
+    "last_updated": "2026-07-06"
   }
 }
