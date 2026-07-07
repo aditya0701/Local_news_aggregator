@@ -1,37 +1,24 @@
+import re
 from urllib.parse import quote
 
 import feedparser
-import requests
-from bs4 import BeautifulSoup
 
-_HEADERS = {
-    "User-Agent": "TechDrishti-Crawler/1.0 (+https://github.com/aditya0701/Local_news_aggregator)"
-}
-_PAGE_TIMEOUT = 8
+from writer.web_context import EXCLUDED_DOMAINS, fetch_page
+
 _MAX_PAGE_CHARS = 1200
 _MAX_RESULT_CHARS = 2000
 
-# When "article p, main p" finds nothing, _scrape_page falls back to every <p>
-# on the page — which, on sites like Yahoo Finance / Oracle Blogs, pulls in
-# the cookie-consent banner text ("Accept all", "Reject all", ...) ahead of
-# any real content. Confirmed live via Google News RSS-linked articles.
-_BOILERPLATE_MARKERS = (
-    "cookie", "accept all", "reject all",
-    "subscribe to continue", "sign in to continue",
-)
-
 
 def _scrape_page(url: str) -> str:
-    try:
-        resp = requests.get(url, timeout=_PAGE_TIMEOUT, headers=_HEADERS)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        paras = soup.select("article p, main p") or soup.find_all("p")
-        texts = [p.get_text(" ", strip=True) for p in paras[:15]]
-        texts = [t for t in texts if not any(m in t.lower() for m in _BOILERPLATE_MARKERS)]
-        return " ".join(texts)[:_MAX_PAGE_CHARS]
-    except Exception:
-        return ""
+    """Thin string-only wrapper around the shared fetch_page — DDG result
+    scraping doesn't need to distinguish failure reasons, just "got usable
+    text or not". fetch_page already applies the same boilerplate/excluded-
+    domain filtering as the Stage 0 article scrape, so this and
+    writer/web_context.py's scrape_source() no longer maintain two separate
+    copies of that logic.
+    """
+    page = fetch_page(url, _MAX_PAGE_CHARS)
+    return page if isinstance(page, str) else ""
 
 
 def _google_news_rss(query: str) -> str:
@@ -60,9 +47,6 @@ def _google_news_rss(query: str) -> str:
         return ""
 
 
-_EXCLUDED_DOMAINS = ("wikipedia.org", "wikimedia.org", "wiktionary.org", "wikidata.org")
-
-
 def _ddg_search(query: str) -> str:
     """Universal last-resort tier — also scrapes top result page for richer text.
 
@@ -85,7 +69,7 @@ def _ddg_search(query: str) -> str:
             parts: list[str] = []
             for hit in ddgs.text(query, max_results=6):
                 href = hit.get("href", "")
-                if href and any(d in href.lower() for d in _EXCLUDED_DOMAINS):
+                if href and any(d in href.lower() for d in EXCLUDED_DOMAINS):
                     continue
                 body = hit.get("body", "")
                 if body:
@@ -103,6 +87,54 @@ def _ddg_search(query: str) -> str:
     except Exception as e:
         print(f"[search] DDG query '{query}' failed: {e}")
         return ""
+
+
+_NEGATIVE_KEYWORD_STOPWORDS = {
+    "the", "a", "an", "of", "for", "in", "on", "and", "or", "to", "not", "is", "was", "it",
+}
+
+
+def _negative_keywords(resolved_sense: str) -> list[str]:
+    """Pull exclusion terms out of a "not the X" style disambiguation hint.
+
+    Stage 1's resolved_sense often names the WRONG sense explicitly (e.g.
+    "AI-generated image name, not the Indian sweet") — DDG's `-term` operator
+    lets that wrong sense be actively pushed out of results instead of just
+    hoping the added context outweighs it in ranking.
+    """
+    match = re.search(r"\bnot\b(?:\s+the)?\s+(.+)", resolved_sense, re.IGNORECASE)
+    if not match:
+        return []
+    words = re.findall(r"[A-Za-z]+", match.group(1))
+    seen: list[str] = []
+    for w in words:
+        lw = w.lower()
+        if lw not in _NEGATIVE_KEYWORD_STOPWORDS and lw not in seen:
+            seen.append(lw)
+        if len(seen) >= 3:
+            break
+    return seen
+
+
+def build_identity_query(name: str, entity_type: str, resolved_sense: str | None = None) -> str:
+    """Build an identity/overview search query for an entity.
+
+    Previously this was just `'"{name}" {type} overview'`, discarding the
+    disambiguation hint (resolved_sense) Stage 1 already extracts for
+    ambiguous entities (e.g. "GitHub project reference, not the Harry Potter
+    character") — so a search for a project literally named "Tom Riddle"
+    had nothing steering it away from the fandom character it shares a name
+    with. Folding resolved_sense in as extra context keywords, plus negative
+    keywords for whatever sense it explicitly rules out, lets the search
+    engine itself disambiguate instead of leaving that entirely to whatever
+    the raw name+type happens to rank for.
+    """
+    query = f'"{name}" {entity_type} overview'
+    if resolved_sense:
+        query += f" {resolved_sense}"
+        for term in _negative_keywords(resolved_sense):
+            query += f" -{term}"
+    return query
 
 
 # Identity/overview queries ("what is X") — DDG only. Wikipedia was tried and

@@ -8,7 +8,7 @@ from langdetect import LangDetectException, detect
 
 from writer.entity_cache import get_entity, load_cache, save_cache, set_entity
 from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, build_identity_query, search_web
-from writer.web_context import scrape_source
+from writer.web_context import fetch_page
 
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
 _MODEL_FAST = os.environ.get("SARVAM_MODEL", "sarvam-30b")
@@ -405,12 +405,59 @@ WRONG (copies the instruction itself, explains nothing): "उपकरण के
 CORRECT (actually executes it): "यह उपकरण परफ्यूजन तकनीक का उपयोग करता है, जो आंख की धमनी के माध्यम से ऑक्सीजन युक्त तरल पहुँचाता है।"
 If a sentence you're about to write contains a verb like "करें"/"दें" telling the reader what to do (व्याख्या करें, वर्णन करें, उल्लेख करें, शामिल करें), you are copying the instruction, not writing the article — rewrite it as a direct statement of fact instead.
 
+## Editorial Quality (Very Important)
+
+Write like a senior technology journalist editing for an elite Hindi technology newspaper. Do
+NOT merely summarize the plan and source facts — produce a polished, publication-ready news
+article that reads as one coherent piece, not a plan stapled to a fact list.
+
+Follow these editorial principles:
+- Report facts first; interpretation second.
+- Maintain a neutral, evidence-based tone.
+- Attribute opinions and judgments to their source (e.g., "कंपनी के अनुसार...", "शोधकर्ताओं का
+  कहना है...", "विश्लेषकों के मुताबिक..."). Do not present opinions or predictions as settled fact.
+- Never exaggerate capabilities or significance beyond what SOURCE FACTS/ENTITY DEFINITIONS
+  actually support.
+- Preserve important nuances. If the source material mentions limitations, human involvement,
+  uncertainty, or caveats, include them — do not smooth them away for a cleaner narrative.
+- Prefer precise statements over dramatic language.
+- If the source material's own certainty is hedged ("according to," "researchers believe,"
+  "appears to," "may," "suggests"), preserve that same level of certainty in Hindi — do not
+  strengthen a hedge into a fact. This is in addition to, not a replacement for, the existing
+  हो सकता है / संभावना है hedging rule below.
+
+Writing style:
+- Read like a professionally edited newspaper article, not an AI summary or technical
+  documentation.
+- Use varied sentence structures and natural transitions.
+- Avoid repetitive constructions such as "इसके बाद... इसके बाद... इसके बाद..."
+- Avoid filler adjectives like "बहुत ही", "बेहद", "चौंकाने वाला", "क्रांतिकारी", unless directly
+  supported by the source material.
+- Show significance through facts rather than emotional wording.
+
+Paragraph quality:
+- Every paragraph should introduce a new idea — if two paragraphs communicate the same idea,
+  keep only the stronger one.
+- Remove redundant explanations; if a paragraph does not improve the reader's understanding,
+  omit it rather than padding for length.
+- Every paragraph must answer at least one of: what happened, how it happened, why it matters,
+  or what the reader should understand from it.
+
+Technical writing:
+- Explain technical concepts only when necessary for understanding the news.
+- Do not overload the article with implementation details.
+- Retain only details that help explain how something worked or why it matters.
+
+Before finalizing, silently verify: no factual exaggeration; no unsupported conclusions; proper
+attribution for all opinions; no repeated ideas; professional newspaper tone throughout; no
+uncertainty converted into certainty. Think like an editor, not a researcher — the goal is not
+to include every fact available, but to publish the article an experienced technology editor
+would approve.
+
 --- WRITING PLAN (describes what each paragraph must cover — an instruction to you, not text to reproduce) ---
 Title idea: {title}
 Paragraph plan:
 {paragraph_plan}
-
-Category framing for STRATEGIC_ANALYSIS paragraph: {category_framing}
 
 --- SOURCE FACTS (use these, do not invent) ---
 {source_text_block}
@@ -418,32 +465,52 @@ Category framing for STRATEGIC_ANALYSIS paragraph: {category_framing}
 --- ENTITY DEFINITIONS ---
 {entity_context}
 
-Mapping the plan's paragraphs (there may be 4-6) onto the JSON fields below:
-- The FIRST paragraph in the plan -> introduction_lede
-- The MIDDLE paragraphs in the plan -> deep_dive_and_context (add as many middle paragraphs as the plan has, in order each having their own paragraph number and content)
-- The LAST paragraph in the plan -> strategic_analysis, using the category framing
+Mapping the plan's paragraphs (there may be 4-6) onto the sections below:
+- The FIRST paragraph in the plan -> परिचय (Intro)
+- The MIDDLE paragraphs in the plan -> मुख्य लेख (Main Article) — add as many middle
+  paragraphs as the plan has, each as its own separate paragraph
+- The LAST paragraph in the plan -> विश्लेषण (Analysis), using the category framing
 
-deep_dive_and_context MUST keep each middle plan-paragraph as its own separate paragraph in
-the output — put a literal blank line (the two characters \\n\\n) between them in the JSON
-string value. Do NOT merge them into one run-on block of text; a reader needs to see where one
-paragraph ends and the next begins. If the plan has 3 middle paragraphs, your
-deep_dive_and_context value MUST contain exactly 2 occurrences of \\n\\n (never zero).
+## Article Length and Section Structure
 
-WRONG (3 middle paragraphs merged into one continuous block, no \\n\\n anywhere):
-"deep_dive_and_context": "पहली बात यह है कि X हुआ। दूसरी बात यह है कि Y हुआ। तीसरी बात यह है कि Z हुआ।"
+The final output must be a publication-ready technology news article, not a research report or
+a JSON object — plain Hindi text with a heading before each section, written the way a human
+reporter would type it: real paragraph breaks (a blank line between paragraphs), not one
+run-on block and not escaped characters.
 
-CORRECT (same 3 middle paragraphs, each kept separate with \\n\\n between them):
-"deep_dive_and_context": "पहली बात यह है कि X हुआ।\\n\\nदूसरी बात यह है कि Y हुआ।\\n\\nतीसरी बात यह है कि Z हुआ।"
+Output ONLY the following, in exactly this order, nothing else before or after (no preamble,
+no markdown, no code fences, no meta-commentary):
 
-Output ONLY valid JSON with exactly these keys (no markdown, no preamble, no code fences):
-{{
-  "title": "<one sharp Hindi headline based on the title idea>",
-  "concept_box": "<2-3 sentences — explain the ONE hardest concept for a newcomer, in simple Hindi>",
-  "introduction_lede": "<actual prose fulfilling Para 1's instruction, not the instruction itself — 3-5 substantial sentences>",
-  "deep_dive_and_context": "<Para A text...\\n\\nPara B text...\\n\\nPara C text... — one \\n\\n-separated paragraph per middle plan-paragraph, actual prose not the instructions themselves, covering every fact/comparison/quote from those instructions, each paragraph 5-7+ substantial sentences, not a short gist>",
-  "strategic_analysis": "<actual prose fulfilling the final paragraph's instruction using the category framing — 3-5 substantial sentences>",
-  "conclusion_and_significance": "<one strong closing paragraph — 3-4 sentences on what this means for the reader>"
-}}
+शीर्षक: <one sharp Hindi headline based on the title idea>
+
+मुख्य अवधारणा: <40-60 words — quick explanation of the central news point and why the reader
+should care; do not repeat the intro>
+
+परिचय: <80-120 words — establish the news immediately: what happened, who reported it, why it's
+significant; no deep technical details here>
+
+मुख्य लेख: <500-700 words — the primary reporting section, covering every middle paragraph
+from the plan in real depth. This is the longest section. Cover: the core discovery/
+announcement, the technical details needed to understand it, how it happened, evidence
+supporting the claims, important caveats/limitations, and why it matters. Write each distinct
+middle plan-paragraph as its own paragraph, separated by a blank line — do NOT merge them into
+one continuous block. Avoid unnecessary implementation detail that doesn't improve reader
+understanding.>
+
+विश्लेषण: <200-350 words — editorial value, not a repeat of मुख्य लेख. Clearly separate analysis
+from reported fact. Cover broader industry implications, whether this is a genuine shift or an
+incremental change, limitations of the technology, and likely future impact, using the category
+framing below. Never state speculation as fact — use phrasing like "यह संकेत देता है...",
+"विशेषज्ञों के अनुसार...", "इसका संभावित प्रभाव..." for anything not already confirmed.>
+
+निष्कर्ष: <50-80 words — the key takeaway and broader significance; do not repeat the intro>
+
+Target total length across all sections: 900-1200 words (maximum 1400). If you run long, cut
+secondary background, repeated explanations, and low-value technical detail first — never cut
+core facts, caveats, or important context. A shorter, carefully-chosen article beats a longer
+one stuffed with every available detail.
+
+Category framing for विश्लेषण: {category_framing}
 
 Language rules (CRITICAL):
 - हर वाक्य हिंदी में — क्रिया, संयोजन, विशेषण सब हिंदी में
@@ -452,7 +519,10 @@ Language rules (CRITICAL):
 - Technical terms: देवनागरी पहले, English parentheses में — मेमोरी स्टोर (Memory Store)
 - कोई भी fact जो source में नहीं है वो मत लिखो
 - Predictions hedge करो: हो सकता है, संभावना है
-- The JSON keys themselves must stay exactly as given in English — only the values are Hindi text"""
+- Opinions/judgments को उनके स्रोत से attribute करो (जैसे "कंपनी के अनुसार", "शोधकर्ताओं का कहना है")
+- The six section headings above (शीर्षक/मुख्य अवधारणा/परिचय/मुख्य लेख/विश्लेषण/निष्कर्ष) must
+  appear exactly as given, each on its own line followed by a colon — only the content after
+  each colon is free-form Hindi text"""
 
 _SYNTHESIS_PROMPT = """You are a research assistant distilling raw web search material into clean, direct answers for an editorial team writing a tech news article.
 
@@ -490,13 +560,17 @@ _LABELED_SECTIONS = [
 # doesn't throw away an otherwise-good article.
 _LABEL_SYNONYMS = {
     "TITLE": ["TITLE", "शीर्षक"],
-    "CONCEPT_BOX": ["CONCEPT_BOX", "कॉन्सेप्ट बॉक्स", "अवधारणा बॉक्स", "कांसेप्ट बॉक्स"],
-    "LEDE": ["LEDE", "लेड", "लीड"],
+    "CONCEPT_BOX": [
+        "CONCEPT_BOX", "कॉन्सेप्ट बॉक्स", "अवधारणा बॉक्स", "कांसेप्ट बॉक्स", "मुख्य अवधारणा",
+    ],
+    "LEDE": ["LEDE", "लेड", "लीड", "परिचय", "इंट्रो"],
     "DEEP_DIVE_AND_CONTEXT": [
         "DEEP_DIVE_AND_CONTEXT", "डीप डाइव एंड कॉन्टेक्स्ट", "डीप डाइव और संदर्भ",
-        "गहन विश्लेषण और संदर्भ", "गहन विश्लेषण",
+        "गहन विश्लेषण और संदर्भ", "गहन विश्लेषण", "मुख्य लेख", "मुख्य आलेख",
     ],
-    "STRATEGIC_ANALYSIS": ["STRATEGIC_ANALYSIS", "रणनीतिक विश्लेषण", "रणनीतिक दृष्टिकोण"],
+    "STRATEGIC_ANALYSIS": [
+        "STRATEGIC_ANALYSIS", "रणनीतिक विश्लेषण", "रणनीतिक दृष्टिकोण", "विश्लेषण",
+    ],
     "CONCLUSION_AND_SIGNIFICANCE": [
         "CONCLUSION_AND_SIGNIFICANCE", "निष्कर्ष और महत्व", "निष्कर्ष",
     ],
@@ -681,7 +755,14 @@ _STAGE3_FIELDS = [
 
 
 def _parse_labeled_text(raw: str | None) -> dict | None:
-    """Parse Stage 3 legacy labeled-text output into a dict of article fields."""
+    """Parse Stage 3 labeled plain-text output into a dict of article fields.
+
+    Blank lines within a section are kept (not dropped) so that natural paragraph
+    breaks the model writes survive into `fields` — DEEP_DIVE_AND_CONTEXT then
+    reuses those breaks via _clean_deep_dive_text instead of needing an escaped
+    "\\n\\n" the model has to remember to type, which is what the old JSON-only
+    format required and which the model reliably skipped in practice.
+    """
     if not raw:
         return None
     fields: dict[str, list[str]] = {}
@@ -691,12 +772,18 @@ def _parse_labeled_text(raw: str | None) -> dict | None:
         if match:
             current, rest = match
             fields[current] = [rest] if rest else []
-        elif current:
+        elif current is not None:
             stripped = line.strip()
-            if stripped and not _is_meta_line(stripped):
-                fields[current].append(stripped)
+            if stripped and _is_meta_line(stripped):
+                continue
+            fields[current].append(stripped)
 
-    result = {k: _trim_to_last_sentence(" ".join(v).strip()) for k, v in fields.items()}
+    result = {
+        k: (_clean_deep_dive_text if k == "DEEP_DIVE_AND_CONTEXT" else _clean_field_text)(
+            "\n".join(v).strip()
+        )
+        for k, v in fields.items()
+    }
     if not result.get("TITLE") or not result.get("LEDE"):
         return None
 
@@ -711,18 +798,22 @@ def _parse_labeled_text(raw: str | None) -> dict | None:
 
 
 def _parse_stage3_output(raw: str | None) -> dict | None:
-    """Parse Stage 3 output: JSON is the primary format; legacy labeled-text
-    is kept as a fallback in case the model ignores the JSON instruction."""
+    """Parse Stage 3 output: labeled plain text is the primary format (see
+    _STAGE3_PROMPT); JSON is kept as a fallback in case the model reverts to
+    the old JSON habit despite the prompt no longer asking for it."""
     if not raw:
         return None
-    parsed = _parse_json_response(raw)
-    if parsed and all(isinstance(parsed.get(k), str) and parsed.get(k) for k in ("title", "introduction_lede")):
+    parsed = _parse_labeled_text(raw)
+    if parsed:
+        return parsed
+    parsed_json = _parse_json_response(raw)
+    if parsed_json and all(isinstance(parsed_json.get(k), str) and parsed_json.get(k) for k in ("title", "introduction_lede")):
         return {
-            k: _clean_deep_dive_text(parsed.get(k, "")) if k == "deep_dive_and_context"
-            else _clean_field_text(parsed.get(k, ""))
+            k: _clean_deep_dive_text(parsed_json.get(k, "")) if k == "deep_dive_and_context"
+            else _clean_field_text(parsed_json.get(k, ""))
             for k in _STAGE3_FIELDS
         }
-    return _parse_labeled_text(raw)
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -863,7 +954,7 @@ def _stage3_write_article(
         prompt,
         api_key,
         _MODEL_QUALITY,
-        system="/no_think Output JSON only. No preamble.",
+        system="/no_think Output the labeled Hindi sections only. No preamble, no JSON, no markdown.",
         reasoning_effort=None,
     )
     return _parse_stage3_output(raw)
@@ -1036,13 +1127,20 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     # ------------------------------------------------------------------
     # Stage 0: scrape source article
     # ------------------------------------------------------------------
-    source_text = scrape_source(source_url)
+    page = fetch_page(source_url)
+    if isinstance(page, dict):
+        source_text = ""
+        scrape_error = page.get("error")
+    else:
+        source_text = page
+        scrape_error = None
     trace["stage0"] = {
         "scraped_chars": len(source_text),
         "source_preview": source_text[:400],
+        "scrape_error": scrape_error,
     }
     print(f"\n[STAGE 0 - scrape]")
-    print(f"  result : {len(source_text)} chars scraped")
+    print(f"  result : {len(source_text)} chars scraped" + (f" (error: {scrape_error})" if scrape_error else ""))
 
     if len(source_text) + len(summary) < 250:
         msg = f"too little source material ({len(source_text)} scrape + {len(summary)} summary chars)"
@@ -1050,6 +1148,23 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         trace["outcome"] = "skipped_no_content"
         _run_traces.append(trace)
         return SKIP
+
+    # Scraping can fail for reasons unrelated to the story's own substance
+    # (dead link, JS-rendered page, timeout, WAF block) — fetch_page reports
+    # that as an error dict rather than silently returning "". When that
+    # happens but the RSS/collector summary is itself substantial (the
+    # length check above already guarantees that if source_text is empty),
+    # use the summary as source_text instead of starving Stage 1-3 of every
+    # fact that isn't already baked into the much shorter title/summary.
+    # Confirmed live: without this fallback, a real article's failed scrape
+    # caused Stage 2 to drop the story's most important fact entirely and
+    # mistranslate the source's own company name from thin context.
+    used_summary_fallback = False
+    if not source_text and summary:
+        source_text = summary
+        used_summary_fallback = True
+        print(f"  fallback: scrape returned nothing usable — using RSS summary as source text instead")
+    trace["stage0"]["used_summary_fallback"] = used_summary_fallback
 
     # ------------------------------------------------------------------
     # Language normalization: detect non-English source content and

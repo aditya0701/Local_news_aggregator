@@ -6,3 +6,10 @@ __pycache__/
 CLAUDE.md
 node_modules/
 package-lock.json
+
+# output/ holds pipeline artifacts committed by daily.yml (articles_hindi.json,
+# pipeline_trace.json) alongside scratch/test-run dumps that shouldn't be
+# tracked — ignore everything else in the folder.
+output/*
+!output/articles_hindi.json
+!output/pipeline_trace.json

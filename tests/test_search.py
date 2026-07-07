@@ -2,37 +2,22 @@ import sys
 import types
 
 import writer.search as search_mod
-from writer.search import _ddg_search, _scrape_page, search_web
-
-
-class FakeResponse:
-    def __init__(self, text):
-        self.text = text
-
-    def raise_for_status(self):
-        pass
+from writer.search import _ddg_search, _negative_keywords, _scrape_page, build_identity_query, search_web
 
 
 class TestScrapePage:
-    def test_filters_boilerplate_paragraphs(self, monkeypatch):
-        html = (
-            "<html><body>"
-            "<p>Please accept all cookies to continue</p>"
-            "<p>This is the real article content that matters.</p>"
-            "</body></html>"
-        )
+    """_scrape_page is now a thin str-only wrapper around the shared
+    writer.web_context.fetch_page — boilerplate-filtering/failure-handling
+    behavior itself is covered by tests/test_web_context.py."""
+
+    def test_returns_text_on_success(self, monkeypatch):
+        monkeypatch.setattr(search_mod, "fetch_page", lambda url, max_chars: "real article content")
+        assert _scrape_page("https://example.com/article") == "real article content"
+
+    def test_returns_empty_string_when_fetch_page_errors(self, monkeypatch):
         monkeypatch.setattr(
-            search_mod.requests, "get", lambda *a, **k: FakeResponse(html)
+            search_mod, "fetch_page", lambda url, max_chars: {"error": "boom", "url": url}
         )
-        result = _scrape_page("https://example.com/article")
-        assert "cookie" not in result.lower()
-        assert "real article content" in result
-
-    def test_returns_empty_on_request_failure(self, monkeypatch):
-        def raise_err(*a, **k):
-            raise search_mod.requests.RequestException("boom")
-
-        monkeypatch.setattr(search_mod.requests, "get", raise_err)
         assert _scrape_page("https://example.com/broken") == ""
 
 
@@ -66,6 +51,45 @@ class TestDdgSearch:
     def test_empty_hits_returns_empty_string(self, monkeypatch):
         self._install_fake_ddgs(monkeypatch, [])
         assert _ddg_search("nonexistent query xyz") == ""
+
+
+class TestNegativeKeywords:
+    def test_extracts_terms_after_not(self):
+        assert _negative_keywords("AI-generated image name, not the Indian sweet") == ["indian", "sweet"]
+
+    def test_no_not_clause_returns_empty(self):
+        assert _negative_keywords("GitHub project for automating diary entries") == []
+
+    def test_drops_stopwords_and_dedupes(self):
+        result = _negative_keywords("not the of and Harry Harry Potter")
+        assert result == ["harry", "potter"]
+
+    def test_caps_at_three_terms(self):
+        result = _negative_keywords("not the Fictional British Wizarding School Character Name")
+        assert len(result) <= 3
+
+
+class TestBuildIdentityQuery:
+    def test_no_resolved_sense_matches_old_bare_query(self):
+        assert build_identity_query("Rocket Lab", "company") == '"Rocket Lab" company overview'
+
+    def test_appends_resolved_sense_as_context(self):
+        query = build_identity_query(
+            "Tom Riddle", "product", "GitHub project reference, not the Harry Potter character"
+        )
+        assert '"Tom Riddle" product overview' in query
+        assert "GitHub project reference" in query
+
+    def test_appends_negative_keywords_from_resolved_sense(self):
+        query = build_identity_query(
+            "Ladoo", "ai_model", "AI-generated image name, not the Indian sweet"
+        )
+        assert "-indian" in query
+        assert "-sweet" in query
+
+    def test_none_resolved_sense_adds_nothing_extra(self):
+        query = build_identity_query("xovi", "product", None)
+        assert query == '"xovi" product overview'
 
 
 class TestSearchWeb:
