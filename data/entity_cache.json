@@ -4045,5 +4045,530 @@
     "entity_type": "model_release",
     "summary": "Watch Skill turns any video—a URL from 1800+ sites, a live HLS/DASH stream, a local file, or a recording of the agent's own output—into a persistent, searchable index of frames, on-screen text, and transcript. Agents can ask questions in seconds, receive answers with auditable confidence and timesta",
     "last_updated": "2026-07-06"
+  },
+  "remarkable paper pro": {
+    "canonical_name": "reMarkable Paper Pro",
+    "entity_type": "model_release",
+    "summary": "The reMarkable Paper Pro is a digital device designed for writing, reading, and sketching that mimics the feel of paper. It provides a dedicated space for notes, documents, and ideas, and allows users to move their pen-written content to a laptop. The device is part of a product line that includes t",
+    "last_updated": "2026-07-07"
+  },
+  "remagic": {
+    "canonical_name": "remagic",
+    "entity_type": "model_release",
+    "summary": "remagic is an umbrella for a family of apps and a framework for the reMarkable Paper Pro that enables developers to create and run custom applications. It is built to lower the barrier for builders and tinkerers, is open source, and works on specific reMarkable Paper Pro models. The process involves",
+    "last_updated": "2026-07-07"
+  },
+  "maximerivest": {
+    "canonical_name": "MaximeRivest",
+    "entity_type": "model_release",
+    "summary": "MaximeRivest has 103 repositories available on GitHub. One of these repositories, 'Attachments,' aims to be a general funnel for transforming files into images and text for large language models' context. The user's activity on the platform is also subject to GitHub's blocking and reporting policies",
+    "last_updated": "2026-07-07"
+  },
+  "tom riddle": {
+    "canonical_name": "Tom Riddle",
+    "entity_type": "model_release",
+    "summary": "Talking Tom is a virtual pet application where players adopt and care for a cat, keeping it happy and helping it explore its world. The app features a talking cat and allows for interaction with friends. The material also mentions other related apps like Talking Angela and a robot, but the primary f",
+    "last_updated": "2026-07-07"
+  },
+  "xovi": {
+    "canonical_name": "xovi",
+    "entity_type": "model_release",
+    "summary": "xovi is a service that provides the latest NASCAR news, schedules, race results, standings, and highlights. It also offers videos and photo galleries, and is available on social media platforms like Facebook, Instagram, Snapchat, TikTok, YouTube, and Discord. The material notes that NASCAR and its m",
+    "last_updated": "2026-07-07"
+  },
+  "appload": {
+    "canonical_name": "AppLoad",
+    "entity_type": "model_release",
+    "summary": "AppLoad is a xovi extension for the reMarkable Paper Pro that enables developers to create and run custom applications. It extends the xovi framework to support custom user applications and provides two primary capabilities. The extension consists of three main artifacts: Sources, which are the appl",
+    "last_updated": "2026-07-07"
+  },
+  "oracleenv": {
+    "canonical_name": "oracle.env",
+    "entity_type": "model_release",
+    "summary": "Oracle-ENV-Scripts are a set of scripts designed to standardize a common environment for large teams managing numerous servers and databases. They serve as a drop-in replacement for the oraenv script and provide a standardized way to set up Oracle and Grid environment variables for all users.",
+    "last_updated": "2026-07-07"
+  },
+  "remarkable as": {
+    "canonical_name": "reMarkable AS",
+    "entity_type": "model_release",
+    "summary": "The reMarkable 2 is no longer available, and the company recommends the reMarkable Paper Pure as an affordable alternative with digital powers. The reMarkable 2 has been discontinued, but its accessories are still available. All reMarkable 2 users will continue to receive regular software updates, i",
+    "last_updated": "2026-07-07"
+  },
+  "glm 52": {
+    "canonical_name": "GLM 5.2",
+    "entity_type": "model_release",
+    "summary": "GLM-5.2 is a flagship model built for long-horizon tasks, designed to turn model architecture and training scripts from a paper into runnable code. It supports project-level codebase takeover, long-horizon refactoring, and production-grade standards, with features like on-device debugging and WeChat",
+    "last_updated": "2026-07-07"
+  },
+  "zai": {
+    "canonical_name": "Z.ai",
+    "entity_type": "model_release",
+    "summary": "Z.AI (GLM) is a developer-friendly AI service known for its exceptional performance and speed, offering a quick start guide and comprehensive documentation. It provides various features and pricing tiers, including a free flash tier and options for low-cost coding assistants and high-volume prototyp",
+    "last_updated": "2026-07-07"
+  },
+  "opus": {
+    "canonical_name": "Opus",
+    "entity_type": "model_release",
+    "summary": "Anthropic's Opus model family includes Claude Opus 4.7 and 4.8, with 4.8 being the most capable generally available model. These models deliver strong benchmark gains in coding and reasoning, support text, image, and file inputs, and are priced at $5 per million input tokens and $25 per million outp",
+    "last_updated": "2026-07-07"
+  },
+  "gpt": {
+    "canonical_name": "GPT",
+    "entity_type": "model_release",
+    "summary": "ChatGPT is an AI chatbot for everyday use, allowing users to explore ideas, solve problems, and learn faster. GPT-4 is described as more creative and collaborative, capable of generating, editing, and iterating on creative and technical writing tasks.",
+    "last_updated": "2026-07-07"
+  },
+  "oxford nanopore technologies minion": {
+    "canonical_name": "Oxford Nanopore Technologies MinION",
+    "entity_type": "MinION",
+    "summary": "The provided material does not contain a general-purpose overview of the Oxford Nanopore Technologies MinION. It only mentions the device in the context of research papers and competitions, not as a standalone entity with its own description.",
+    "last_updated": "2026-07-07"
+  },
+  "ternlight": {
+    "canonical_name": "Ternlight",
+    "entity_type": "company",
+    "summary": "Ternlight is a company focused on creating lightning-fast semantic embeddings in a small 5–7 MB WebAssembly bundle. Their engine, model, and tokenizer are combined into a single file, enabling embedding search on a CPU without requiring API calls or a GPU.",
+    "last_updated": "2026-07-07"
+  },
+  "president trump": {
+    "canonical_name": "President Trump",
+    "entity_type": "person",
+    "summary": "President Donald J. Trump is a Republican who returned to the White House in 2024. His administration's goals include rejecting extremist policies, stopping endless wars, defending borders, and improving the economy for all Americans.",
+    "last_updated": "2026-07-07"
+  },
+  "bernie sanders": {
+    "canonical_name": "Bernie Sanders",
+    "entity_type": "person",
+    "summary": "Bernie Sanders is an American politician who represented Vermont in the U.S. Senate from 2007. He previously served as mayor of Burlington and as a member of the U.S. House of Representatives, and currently works as Chair of the Senate Budget Committee.",
+    "last_updated": "2026-07-07"
+  },
+  "the algorithm": {
+    "canonical_name": "The Algorithm",
+    "entity_type": "organization",
+    "summary": "The is the most commonly used word in the English language, according to the Oxford English Corpus. It can be used as a definite article to refer to something specific or as an adverb when modifying another word.",
+    "last_updated": "2026-07-07"
+  },
+  "netflix": {
+    "canonical_name": "Netflix",
+    "entity_type": "company",
+    "summary": "Netflix is one of the world's leading entertainment services offering TV series, films, games, and live programming across a wide variety of genres and languages. Members can play, pause, and resume watching content as much as they want, anytime, anywhere, and can change their plans at any time.",
+    "last_updated": "2026-07-07"
+  },
+  "langflow": {
+    "canonical_name": "Langflow",
+    "entity_type": "technology",
+    "summary": "Langflow is a low-code AI builder for agentic and retrieval-augmented generation (RAG) apps. It allows users to code in Python and use any LLM or vector database to build and deploy AI agents and MCP servers. The platform is described as a powerful tool with batteries included that supports all majo",
+    "last_updated": "2026-07-07"
+  },
+  "sysdig": {
+    "canonical_name": "Sysdig",
+    "entity_type": "company",
+    "summary": "Sysdig is a cloud-native visibility and security company founded in 2013 with the mission to enable enterprises to operate reliably. It helps security and development teams prevent, detect, and respond to cloud threats instantly by delivering real-time defense grounded in agentic AI. The company is",
+    "last_updated": "2026-07-07"
+  },
+  "jadepuffer": {
+    "canonical_name": "JadePuffer",
+    "entity_type": "event",
+    "summary": "The JadePuffer event involved an AI agent that exploited a flaw in Langflow to automate a ransomware attack. The agent encrypted 1,342 Nacos configuration items, dropped original tables, and created a README_RANSOM file with a Bitcoin address and contact. This incident, documented by cybersecurity r",
+    "last_updated": "2026-07-07"
+  },
+  "sk hynix": {
+    "canonical_name": "SK Hynix",
+    "entity_type": "company",
+    "summary": "SK Hynix, Inc. is a South Korean company founded on October 15, 1949, and headquartered in Icheon, that manufactures and sells semiconductor products. Its product lines include dynamic random access memory (DRAM), flash memory, and complementary metal oxide semiconductor image sensors.",
+    "last_updated": "2026-07-07"
+  },
+  "samsung": {
+    "canonical_name": "Samsung",
+    "entity_type": "company",
+    "summary": "Samsung Electronics is a global technology company that operates in various sectors including consumer electronics, IT & mobile communications, and device solutions. The company is known for its work in TVs, smartphones, wearable devices, tablets, digital appliances, network systems, and memory, sys",
+    "last_updated": "2026-07-07"
+  },
+  "micron": {
+    "canonical_name": "Micron",
+    "entity_type": "company",
+    "summary": "Micron is a world leader in innovative memory solutions that transform how information is used to enrich life. The company focuses on developing and manufacturing advanced memory technologies.",
+    "last_updated": "2026-07-07"
+  },
+  "amazon": {
+    "canonical_name": "Amazon",
+    "entity_type": "organization",
+    "summary": "Amazon manages over 1.5 million employees across dozens of countries with a hierarchical structure featuring strong functional divisions like AWS, Consumer, and Finance, and geographic segmentation. A senior leadership team called the S-Team reports to CEO Andy Jassy.",
+    "last_updated": "2026-07-07"
+  },
+  "oracle": {
+    "canonical_name": "Oracle",
+    "entity_type": "organization",
+    "summary": "For more than four decades, Oracle has delivered innovations that have helped build entire industries. The company provides solutions for organizations of all sizes and industries, offering financial information, executive team details, and information on its efforts in education and sustainability.",
+    "last_updated": "2026-07-07"
+  },
+  "apple": {
+    "canonical_name": "Apple",
+    "entity_type": "organization",
+    "summary": "Apple is a technology company that designs and manufactures a range of products including iPhones, iPads, Apple Watch, Macs, and Apple TV, along with accessories and entertainment. The company is known for its innovative products, such as the M5 chip, and offers services like Active Noise Cancellati",
+    "last_updated": "2026-07-07"
+  },
+  "vercel": {
+    "canonical_name": "Vercel",
+    "entity_type": "company",
+    "summary": "Vercel is a platform for developers to deploy and manage applications and agents. It provides tools like an API, CLI, and MCP for coding agents, and enables shipping apps and agents in sandboxed VMs with durable backends. The platform is designed to automate the deployment and management process, in",
+    "last_updated": "2026-07-07"
+  },
+  "guillermo rauch": {
+    "canonical_name": "Guillermo Rauch",
+    "entity_type": "person",
+    "summary": "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of open-source libraries like Next.js and Mongoose. He was born in Argentina, did not finish school, and moved to the US at 18 to start his entrepreneurial journey. He is known for his work in the tech industry an",
+    "last_updated": "2026-07-07"
+  },
+  "shipnyc": {
+    "canonical_name": "ShipNYC",
+    "entity_type": "event",
+    "summary": "ShipNYC LLC is a local shipping and packing resource located in Floral Park, NY. It serves as an authorized shipping outlet for UPS and FedEx, offering services like drop-off locations, private mailbox rentals, and mail forwarding. The company provides a one-stop shop for various shipping needs, inc",
+    "last_updated": "2026-07-07"
+  },
+  "eve": {
+    "canonical_name": "Eve",
+    "entity_type": "product",
+    "summary": "EVE Online is a free-to-play, community-driven space MMO game. It is described as the biggest space game of all time, offering exploration, combat, conquest, and a thriving player economy. The game is available for download and play online, with all related logos and elements being trademarks of Fen",
+    "last_updated": "2026-07-07"
+  },
+  "vercel sandbox": {
+    "canonical_name": "Vercel Sandbox",
+    "entity_type": "product",
+    "summary": "Vercel provides a sandbox environment for coding agents to deploy in their native language. It allows for shipping apps and agents in sandboxed VMs with durable backends, powered by hundreds of models. The platform also includes tools for automated error investigation, planning fixes, and opening pu",
+    "last_updated": "2026-07-07"
+  },
+  "ios 27": {
+    "canonical_name": "iOS 27",
+    "entity_type": "product",
+    "summary": "iOS 27 is a software update coming in the fall with new features across Apple's operating systems. It includes a more capable AI assistant named Siri, AI-powered photo editing tools, and new capabilities for Apple Vision Pro and other products.",
+    "last_updated": "2026-07-07"
+  },
+  "siri": {
+    "canonical_name": "Siri",
+    "entity_type": "ai_model",
+    "summary": "Siri AI is Apple's next-generation personal assistant, powered by a new class of Apple Foundation models developed in collaboration with Google. It represents a significant upgrade from the previous version, offering expanded intelligence and capabilities, and is the foundation for Apple's Apple Int",
+    "last_updated": "2026-07-07"
+  },
+  "wwdc 26": {
+    "canonical_name": "WWDC 26",
+    "entity_type": "event",
+    "summary": "WWDC 2026 was Apple's annual developer conference where the company introduced iOS 27, macOS 27, and other operating system updates. The event also featured the debut of a smarter Siri, Apple Intelligence features powered by Gemini, and a focus on performance improvements and bug fixes.",
+    "last_updated": "2026-07-07"
+  },
+  "gitlab": {
+    "canonical_name": "GitLab",
+    "entity_type": "general",
+    "summary": "GitLab is the open-source DevSecOps platform that provides a complete software development lifecycle toolchain including source control, CI/CD, security scanning, and project management in a single application. It is a web-based DevOps platform that enables teams to manage the entire software develo",
+    "last_updated": "2026-07-07"
+  },
+  "challenger": {
+    "canonical_name": "Challenger",
+    "entity_type": "general",
+    "summary": "The Dodge Challenger is an American muscle car that made a triumphant return in 2008, with a design that paid homage to its iconic 1st generation. It is known for its bold design, powerful HEMI engines, and is considered an undeniable icon of power and style for automotive enthusiasts.",
+    "last_updated": "2026-07-07"
+  },
+  "gray  christmas": {
+    "canonical_name": "Gray & Christmas",
+    "entity_type": "general",
+    "summary": "Gray & Christmas is an executive outplacement service and executive coaching firm based in Chicago, Illinois. The company provides services related to job placement and career development for executives.",
+    "last_updated": "2026-07-07"
+  },
+  "layoffsfyi": {
+    "canonical_name": "Layoffs.fyi",
+    "entity_type": "general",
+    "summary": "Layoffs.fyi is a resource that tracks all tech startup layoffs and lists of employees laid off since the start of the COVID-19 pandemic. The data is free to use with attribution, and the page is constantly being updated. It also provides salary data for tech companies.",
+    "last_updated": "2026-07-07"
+  },
+  "bookshoporg": {
+    "canonical_name": "Bookshop.org",
+    "entity_type": "company",
+    "summary": "Bookshop.org is a company that supports local, independent bookstores by allowing customers to purchase books and receive the full profit from their purchases. It offers free apps for iOS and Android to read ebooks and provides a platform for authors to share stories and research on topics like Amer",
+    "last_updated": "2026-07-07"
+  },
+  "kobo": {
+    "canonical_name": "Kobo",
+    "entity_type": "company",
+    "summary": "Kobo is a company that offers access to over 6 million eBooks and audiobooks through its eReaders and the free Rakuten Kobo App. It provides features like Daily Deals, previews, reviews, and book recommendations, and also sells eReaders and accessories with an E Ink anti-glare screen.",
+    "last_updated": "2026-07-07"
+  },
+  "rakuten": {
+    "canonical_name": "Rakuten",
+    "entity_type": "company",
+    "summary": "Rakuten is a Japanese electronic commerce and online retailing company based in Tokyo. It operates through segments including Internet Services, FinTech, and Mobile, and is described as a business that engages in internet services.",
+    "last_updated": "2026-07-07"
+  },
+  "andy hunter": {
+    "canonical_name": "Andy Hunter",
+    "entity_type": "person",
+    "summary": "Andy Hunter is a person with experience at Outer Temple Chambers and over 500 connections on LinkedIn. He investigates the causes of spiritual decline in Scotland and notes that Christian identification in Scotland has fallen below that in England. He also mentions the most northerly church of the F",
+    "last_updated": "2026-07-07"
+  },
+  "india": {
+    "canonical_name": "India",
+    "entity_type": "organization",
+    "summary": "mGage India uses 7 IP ranges covering a total of 2,304 IP addresses. The IPs span 1 country, including India. Organization Overview. mGage India uses 7 IP ranges covering a total of 2,304 IP addresses . The IPs span 1 country , including India . An Overview of Cyber Troop Activity in India Organizat",
+    "last_updated": "2026-07-07"
+  },
+  "upi": {
+    "canonical_name": "UPI",
+    "entity_type": "technology",
+    "summary": "UPI is an instant real-time payment system developed by NPCI to facilitate inter-bank transactions through mobile phones. It is a system that powers multiple bank accounts into a single mobile application, merging several banking features, seamless fund routing & merchant payments into one hood.",
+    "last_updated": "2026-07-07"
+  },
+  "apple account": {
+    "canonical_name": "Apple Account",
+    "entity_type": "product",
+    "summary": "Your Apple Account, formerly Apple ID, gives you access to all Apple services and makes all of your devices work together seamlessly. It is the central account for managing access to Apple services and device synchronization.",
+    "last_updated": "2026-07-07"
+  },
+  "icloud": {
+    "canonical_name": "iCloud+",
+    "entity_type": "product",
+    "summary": "iCloud+ is a service that provides enhanced privacy through features like Private Relay, an Apple-owned VPN that prevents tracking of browsing history. It also enables Apple Intelligence camera features in the Home app and allows for the generation of written summaries for motion alerts from HomeKit",
+    "last_updated": "2026-07-07"
+  },
+  "apple music": {
+    "canonical_name": "Apple Music",
+    "entity_type": "product",
+    "summary": "Apple Music is a music streaming solution that allows users to play over 75 million songs in lossless audio at no extra cost. It supports spatial audio with dynamic head tracking, offline downloads, and exclusive playlists.",
+    "last_updated": "2026-07-07"
+  },
+  "app store": {
+    "canonical_name": "App Store",
+    "entity_type": "product",
+    "summary": "The App Store is a safe and trusted place to discover apps that meet high standards for privacy, security, and content. It is more than just a storefront; it is an innovative destination focused on bringing users amazing experiences and ensuring apps are held to the highest standards for privacy and",
+    "last_updated": "2026-07-07"
+  },
+  "reserve bank of india": {
+    "canonical_name": "Reserve Bank of India",
+    "entity_type": "organization",
+    "summary": "The Reserve Bank of India is tasked with regulating the issue of bank notes, keeping of reserves to secure monetary stability in India, and operating the country's currency and credit system. It aims to maintain price stability while supporting economic growth and has a mandate to establish a modern",
+    "last_updated": "2026-07-07"
+  },
+  "card payments": {
+    "canonical_name": "card payments",
+    "entity_type": "technology",
+    "summary": "Card payments have evolved from physical cash to credit cards, which were invented to avoid carrying cash. The Primary Account Numbers (PANs) embossed on cards are an older technology, and network tokenization is a newer approach that is seeing fast adoption, with 2 billion active network tokens on",
+    "last_updated": "2026-07-07"
+  },
+  "recurring payments": {
+    "canonical_name": "recurring payments",
+    "entity_type": "technology",
+    "summary": "Recurring payments are a guide for enterprise businesses to reduce churn, improve authorization rates, and build a setup that holds at scale. At enterprise scale, small recurring payment failures can become significant revenue problems, and managing them requires addressing issues like involuntary c",
+    "last_updated": "2026-07-07"
+  },
+  "tokenized card credentials": {
+    "canonical_name": "tokenized card credentials",
+    "entity_type": "technology",
+    "summary": "Tokenized Card Credentials Management is a growth driver influenced by an evolving regulatory landscape. Governments and regulatory bodies are introducing stringent guidelines and compliance standards to safeguard payment ecosystems, impacting the market across components, deployment modes, organiza",
+    "last_updated": "2026-07-07"
+  },
+  "net banking": {
+    "canonical_name": "net banking",
+    "entity_type": "technology",
+    "summary": "Net banking, along with online banking apps and ATM machines, typically faces technical errors like improper net access, network failure, and device shutdowns. Among postgraduates, only 40% use net-banking and online banking technology, and only 5% choose a specific bank for its online banking featu",
+    "last_updated": "2026-07-07"
+  },
+  "hoto": {
+    "canonical_name": "Hoto",
+    "entity_type": "company",
+    "summary": "HOTO is a company that produces smart tools, creative kits, and lifestyle accessories built for precision and style. They offer a full collection of products including corded and cordless tools, vacuum systems, and duster systems.",
+    "last_updated": "2026-07-07"
+  },
+  "dr zachary rubin": {
+    "senses": [
+      {
+        "sense_label": "medical professional",
+        "summary": "Dr. Zachary Rubin is a double board-certified pediatrician specializing in allergy and immunology. He grew up in Naperville and is excited to be practicing medicine in the western suburbs of Chicago.",
+        "last_updated": "2026-07-07"
+      }
+    ]
+  },
+  "dr idrees mughal": {
+    "senses": [
+      {
+        "sense_label": "medical professional",
+        "summary": "The provided material does not contain a specific overview for Dr. Idrees Mughal. It describes services offered by medical providers in the Blackwell, OK community, but does not mention Dr. Mughal by name.",
+        "last_updated": "2026-07-07"
+      }
+    ]
+  },
+  "tc sottek": {
+    "canonical_name": "TC Sottek",
+    "entity_type": "public figure",
+    "summary": "The provided material does not contain a specific overview for TC Sottek. It mentions a Florida resident named in the ESPN all-time players list and a Texas A&M, Notre Dame football player, but does not provide information about TC Sottek.",
+    "last_updated": "2026-07-07"
+  },
+  "double fine": {
+    "canonical_name": "Double Fine",
+    "entity_type": "company",
+    "summary": "Double Fine is a video game company. The material provided does not contain a specific overview of the company Double Fine.",
+    "last_updated": "2026-07-07"
+  },
+  "compulsion games": {
+    "canonical_name": "Compulsion Games",
+    "entity_type": "company",
+    "summary": "Compulsion Games is a video game developer based in Montreal, Canada, founded in 2009 by Guillaume Provost. The material provided contains information about Compulsion Games and its games, but not a general company overview.",
+    "last_updated": "2026-07-07"
+  },
+  "xbox": {
+    "canonical_name": "Xbox",
+    "entity_type": "product",
+    "summary": "Xbox is a product from Microsoft that includes gaming consoles, the Xbox Game Pass subscription service, and a store for games, software, and accessories. The material describes the Xbox ecosystem, including its consoles, game library, and online services.",
+    "last_updated": "2026-07-07"
+  },
+  "asha sharma": {
+    "canonical_name": "Asha Sharma",
+    "entity_type": "person",
+    "summary": "Asha Sharma is not mentioned in the provided material. The material describes the American Speech-Language-Hearing Association (ASHA) and its role in the field of audiology and speech-language pathology.",
+    "last_updated": "2026-07-07"
+  },
+  "dji osmo pocket 3": {
+    "canonical_name": "DJI Osmo Pocket 3",
+    "entity_type": "model_release",
+    "summary": "Introducing Osmo Pocket 3. The all-new Pocket 3 features a powerful 1-inch CMOS sensor capable of capturing 10-bit video in up to 4K/120 fps - putting stunni... The DJI Osmo Pocket 3 is a premium, pocket-sized action camera with a 1-inch CMOS sensor and 3-axis gimbal stabilisation, ideal for creator",
+    "last_updated": "2026-07-07"
+  },
+  "xtra muse": {
+    "canonical_name": "Xtra Muse",
+    "entity_type": "model_release",
+    "summary": "DJI Osmo Pocket 3 vs Xtra Muse – Is Xtra Muse Just a DJI in Disguise? Have you ever come across two cameras that look practically identical — like long-lost ... Xtra Muse Standard Bundle includes the Xtra Muse pocket gimbal, carrying bag, wrist strap, handle with 1/4\" thread, and more. Capture your",
+    "last_updated": "2026-07-07"
+  },
+  "dji": {
+    "canonical_name": "DJI",
+    "entity_type": "model_release",
+    "summary": "DJI technology empowers us to see the future of possible. Learn about our consumer drones like DJI Mavic 3 Pro, DJI Mini 4 Pro, DJI Air 3S, DJI Flip; handheld products like Osmo Action 6, Osmo Mobile 8, Osmo Nano, DJI Mic 3, Osmo 360, Osmo Pocket 3, that capture smooth photos and... Internet Explore",
+    "last_updated": "2026-07-07"
+  },
+  "apple ipad air m3": {
+    "canonical_name": "Apple iPad Air (M3)",
+    "entity_type": "model_release",
+    "summary": "Summary. Apple unveils powerful iPad Air M3, 40% faster graphics than M1. The M3 chip offers advanced 3D graphics rendering, 4x faster than M1. New Magic Keyboard connects to iPad Air M3 magnetically, starting at $269. If you're a huge fan of the iPad Air, but you wish it was a little bit more power",
+    "last_updated": "2026-07-07"
+  },
+  "magic mouse": {
+    "canonical_name": "Magic Mouse",
+    "entity_type": "model_release",
+    "summary": "The Magic Mouse 2 was released on October 13. 2015. It replaced the previous model, Magic Mouse 1. Magic Mouse 2 is perfect to use in small spaces. It uses Bluetooth 3.0 connectivity to track devices and easily pairs with them. The article discusses the evolution of Apple Magic Mouse, from the origi",
+    "last_updated": "2026-07-07"
+  },
+  "sean hollister": {
+    "canonical_name": "Sean Hollister",
+    "entity_type": "model_release",
+    "summary": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys.Sean HollisterJul 10, 2025. The first working portable dock for Nintendo Switch 2 doubles as a 100W laptop charger and triples as a video capture card. Testing the $599 and $829 SteamOS models. Rem",
+    "last_updated": "2026-07-07"
+  },
+  "nintendo": {
+    "senses": [
+      {
+        "sense_label": "hardware manufacturer",
+        "summary": "Nintendo is a company founded by Fusajiro Yamauchi on September 23, 1889, and is headquartered in Kyoto, Japan. It engages in the development, manufacture, and sale of home entertainment products, including portable and console game machines, software, and other consumer electronics.",
+        "last_updated": "2026-07-07"
+      }
+    ]
+  },
+  "walkpod1007": {
+    "canonical_name": "walkpod1007",
+    "entity_type": "repo_analysis",
+    "summary": "walkpod1007 is a user who has created a GitHub Gist to share code, notes, and snippets. The material indicates a status of 'DRAFT → awaiting Codex review' and mentions a project involving automated scripts for book DRM removal and EPUB extraction, with a build pipeline dependency on gpt-image.sh.",
+    "last_updated": "2026-07-07"
+  },
+  "claude fable 5": {
+    "canonical_name": "Claude Fable 5",
+    "entity_type": "repo_analysis",
+    "summary": "Claude Fable 5 is Anthropic's most intelligent model, offered via an API for tasks requiring strong reasoning. It is priced at $9.000 per 1M input tokens and $45.000 per 1M output tokens, with additional costs for cache operations. The material notes it is recommended for production workloads needin",
+    "last_updated": "2026-07-07"
+  },
+  "sonnet": {
+    "canonical_name": "Sonnet",
+    "entity_type": "repo_analysis",
+    "summary": "Sonnet is a TensorFlow-based neural network library designed for machine learning research. Built by DeepMind researchers, it provides simple, composable abstractions for constructing neural networks for various purposes like unsupervised or reinforcement learning. The library centers around a progr",
+    "last_updated": "2026-07-07"
+  },
+  "haiku": {
+    "canonical_name": "Haiku",
+    "entity_type": "repo_analysis",
+    "summary": "Haiku is a traditional form of Japanese poetry characterized by 17 syllables in three lines of 5-7-5. The material describes it as a concise and precise art form, typically focusing on nature and specific seasons. It is noted for its small size and the effort required to create a perfectly formed po",
+    "last_updated": "2026-07-07"
+  },
+  "elilabzcognitivecoreskills": {
+    "canonical_name": "eli-labz/Cognitive-Core-Skills",
+    "entity_type": "repo_analysis",
+    "summary": "Cognitive core skills are the mental operating capabilities an LLM or AI Agent needs to move from chat response to useful digital co-worker. An AI Agent wraps that LLM with memory, planning, tools, integrations, verification, and action control so it can pursue goals inside real workflows. This set",
+    "last_updated": "2026-07-07"
+  },
+  "apoorvjain25frontier": {
+    "canonical_name": "apoorvjain25/frontier",
+    "entity_type": "model_release",
+    "summary": "The apoorvjain25/frontier model is designed to produce work that aligns with a specific set of 21 standards. These standards were created by Fable 5 and are used to audit and improve model output. The system includes an optional convergence loop and a taste gate to ensure work meets the required qua",
+    "last_updated": "2026-07-07"
+  },
+  "bike4mind": {
+    "canonical_name": "bike4mind",
+    "entity_type": "product",
+    "summary": "Bike4Mind offers a product called @bike4mind/cli, which is an interactive CLI tool featuring ReAct agents. It is described as a modernized platform for exploring forbidden knowledge, including books, apps, podcasts, and tours, and serves as a gateway to alternative information and a community focuse",
+    "last_updated": "2026-07-07"
+  },
+  "bike4mindselfhost": {
+    "canonical_name": "bike4mind-selfhost",
+    "entity_type": "product",
+    "summary": "The material provided does not contain a usable answer for the bike4mind-selfhost product overview. It discusses Microsoft's stock price forecast and analyst ratings instead of the self-host product.",
+    "last_updated": "2026-07-07"
+  },
+  "pnpm": {
+    "canonical_name": "pnpm",
+    "entity_type": "technology",
+    "summary": "pnpm is an up-and-coming package manager for Node.js that offers higher speed and greater efficiency compared to other package managers. It improves performance by hard-linking duplicate packages and supports incremental, file-level optimizations. Due to its faster feedback loop and minimal compatib",
+    "last_updated": "2026-07-07"
+  },
+  "turborepo": {
+    "canonical_name": "Turborepo",
+    "entity_type": "technology",
+    "summary": "Turborepo is the build system for JavaScript and TypeScript codebases. It is designed to optimize local and CI tasks, saving engineering time and compute. Users report significant time savings, such as 67 hours of CI saved, and it integrates with any CI provider for speed at all scales.",
+    "last_updated": "2026-07-07"
+  },
+  "nextjs": {
+    "canonical_name": "Next.js",
+    "entity_type": "technology",
+    "summary": "The material provided does not contain a usable answer for the Next.js technology overview. It describes Next USA, an online store for fashion and children's clothing, and does not mention the Next.js framework.",
+    "last_updated": "2026-07-07"
+  },
+  "mongoose": {
+    "canonical_name": "Mongoose",
+    "entity_type": "technology",
+    "summary": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js that provides a powerful toolset for managing MongoDB databases. It acts as a bridge between the MongoDB database and application code, allowing developers to define schemas, models, and perform database operations. By abstrac",
+    "last_updated": "2026-07-07"
+  },
+  "docker": {
+    "canonical_name": "Docker",
+    "entity_type": "technology",
+    "summary": "Docker is open-source software used to deploy applications inside virtual containers. It enables developers to package applications into standardized units for seamless deployment, encapsulating everything needed to run an application, from code to dependencies. This platform reshapes how software i",
+    "last_updated": "2026-07-07"
+  },
+  "xai": {
+    "canonical_name": "xAI",
+    "entity_type": "ai_model",
+    "summary": "xAI builds Grok, a frontier AI model for reasoning, voice, and image generation. It provides a unified API for text, code, voice, and images, and is trained on the world's largest supercluster. xAI is described as Explainable AI, which provides detailed feedback on how a model reached a specific res",
+    "last_updated": "2026-07-07"
+  },
+  "vllm": {
+    "canonical_name": "vLLM",
+    "entity_type": "product",
+    "summary": "vLLM is a production-grade framework for serving large language models. It is designed to run LLMs on your own hardware for privacy, cost, and latency benefits. The material mentions testing frameworks with Llama-3 8B on an RTX 4090 and highlights that local serving is a compliance requirement for d",
+    "last_updated": "2026-07-07"
+  },
+  "apache20": {
+    "canonical_name": "Apache-2.0",
+    "entity_type": "regulation",
+    "summary": "The Apache Software Foundation (ASF) provides software for the public good, guided by community over code. It is the home of trusted open-source projects in data, cloud, search, and more. The ASF offers a neutral, trusted home for projects, with contribution available to everyone, and is guided by t",
+    "last_updated": "2026-07-07"
+  },
+  "bsl 11": {
+    "canonical_name": "BSL 1.1",
+    "entity_type": "regulation",
+    "summary": "The Business Source License (BSL) 1.1 is a middle-ground license between open source and end-user licenses. It is considered source-available, meaning the code can be viewed and used for internal or testing purposes, but commercial use is prohibited without explicit approval. Unlike open source lice",
+    "last_updated": "2026-07-07"
   }
 }
