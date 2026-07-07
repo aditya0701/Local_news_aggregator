@@ -325,7 +325,7 @@ Build the JSON like this:
 
 Output ONLY the JSON object, nothing else."""
 
-_STAGE2_PROMPT = """You are the editorial director of टेकदृष्टि (TechDrishti), a Hindi science and technology publication.
+_STAGE2_ANALYSIS_PROMPT = """You are the editorial director of टेकदृष्टि (TechDrishti), a Hindi science and technology publication.
 
 Article Title: {title}
 Summary: {summary}
@@ -336,33 +336,42 @@ Source Text:
 Research Context (entity knowledge + web search results):
 {entity_context}
 
-Build an editorial strategy AND a detailed writing plan for the Hindi article.
+Think through the editorial strategy for this Hindi article and write out your analysis in
+plain text (not JSON yet — that comes later). Cover exactly these five things, in order:
+
+CORE NARRATIVE: the real story and underlying tension, one sentence.
+KEY FACTS AND QUOTES: the facts/figures/statements that must appear in the article.
+DISAMBIGUATION TARGETS: which terms need inline Hindi explanation for a newcomer.
+CATEGORY: exactly one of acquisition|model_release|ban_regulation|repo_analysis|general.
+PARAGRAPH PLAN: a numbered list, 4-6 paragraphs — use as many as the story genuinely has
+  substance for (a maximum driven by real content, not a target to hit; a thin story with only
+  4 paragraphs' worth of real material should stay at 4, don't pad with restated facts to reach
+  6). For each paragraph, write 2-4 sentences specifying exactly what to say, which
+  facts/entities/numbers belong in it, and the tone — enough detail that a writer needs zero
+  additional thinking to produce a full 3-5 sentence paragraph from it. List out the specific
+  facts, figures, comparisons, and quotes to use, not just the general theme."""
+
+_STAGE2_EXTRACTION_PROMPT = """Below is a टेकदृष्टि editorial director's finalized analysis for a Hindi tech news article.
+Transcribe it into JSON exactly as written — do not re-analyze, re-plan, or invent anything not
+already present in the analysis below.
+
+ANALYSIS:
+{analysis}
+
 Output ONLY valid JSON with exactly these keys:
 {{
-  "core_narrative": "the real story and underlying tension, one sentence",
-  "key_facts_and_quotes": "the facts/figures/statements that must appear",
-  "disambiguation_targets": "which terms need inline Hindi explanation",
-  "category": "acquisition|model_release|ban_regulation|repo_analysis|general",
+  "core_narrative": "<from CORE NARRATIVE above>",
+  "key_facts_and_quotes": "<from KEY FACTS AND QUOTES above>",
+  "disambiguation_targets": "<from DISAMBIGUATION TARGETS above>",
+  "category": "<from CATEGORY above — acquisition|model_release|ban_regulation|repo_analysis|general>",
   "paragraph_plan": [
-    "Para 1: <exact instruction — what to say, which facts to use, tone>",
-    "Para 2: <exact instruction>",
-    "Para 3: <exact instruction>",
-    "Para 4: <exact instruction>",
-    "Para 5: <exact instruction — optional>",
-    "Para 6: <exact instruction — optional>"
+    "Para 1: <first paragraph's instruction from PARAGRAPH PLAN above>",
+    "Para 2: <second paragraph's instruction>"
   ]
 }}
 
-paragraph_plan rules:
-- 4-6 paragraphs total — use as many as the story genuinely has substance for (this is a
-  maximum driven by real content, not a target to hit; a thin story with only 4 paragraphs'
-  worth of real material should stay at 4, don't pad with restated facts to reach 6)
-- Each instruction must be specific enough that the writer needs zero additional thinking
-- Include which facts/entities/numbers belong in that paragraph, in enough detail that the
-  writer can produce a full, substantial paragraph (3-5 sentences) from it — not just a topic
-  label. List out the specific facts, figures, comparisons, and quotes to use, not just the
-  general theme
-- Each instruction itself can be 2-4 sentences — richer instructions produce richer articles"""
+Include exactly as many paragraph_plan entries as the PARAGRAPH PLAN section above lists (4-6) —
+no more, no fewer, no invented paragraphs."""
 
 _STAGE3_PROMPT = """You are a Hindi writer for टेकदृष्टि. The editorial team has done all the planning — your ONLY job is to execute the writing plan below exactly as instructed.
 
@@ -732,13 +741,41 @@ def _stage2_editorial_strategy(
     entity_context: str,
     api_key: str,
 ) -> dict | None:
-    prompt = _STAGE2_PROMPT.format(
+    """Two-step Stage 2: an analysis call that does the real editorial thinking as
+    visible plain text, then a JSON-extraction call that transcribes it.
+
+    The original single-call version left reasoning_effort unset (Stage 2's editorial
+    judgment benefits from real reasoning, unlike Stage 1's extraction tasks) — but
+    reasoning and output share the same token budget, and reasoning has no separate
+    allowance. Confirmed live: a real Stage 2 call hit the 4096-token cap with only
+    594 chars of visible content, i.e. most of the budget went to reasoning before the
+    JSON was cut off mid-object, which then failed to parse and fell through to the
+    translate fallback. Splitting into an analysis call (reasoning off, but the model's
+    thinking IS the visible output, so it isn't fighting anything for budget) and a
+    separate reasoning-off transcription call mirrors the fix already proven for Stage 1
+    (_stage1_extract_queries) — same failure mode, same cure.
+    """
+    analysis_prompt = _STAGE2_ANALYSIS_PROMPT.format(
         title=title,
         summary=summary[:500],
         source_text=source_text[:2000] if source_text else "(not available)",
         entity_context=entity_context[:3000],
     )
-    raw = _call_sarvam(prompt, api_key, _MODEL_QUALITY)
+    analysis = _call_sarvam(
+        analysis_prompt, api_key, _MODEL_QUALITY,
+        reasoning_effort=None, max_tokens=1500,
+    )
+    if not analysis:
+        return None
+
+    extraction_prompt = _STAGE2_EXTRACTION_PROMPT.format(analysis=analysis[:3000])
+    raw = _call_sarvam(
+        extraction_prompt,
+        api_key,
+        _MODEL_QUALITY,
+        system="/no_think Output JSON only.",
+        reasoning_effort=None,
+    )
     return _parse_json_response(raw)
 
 
