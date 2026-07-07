@@ -14,6 +14,7 @@ from writer.synthesize import (
     _parse_labeled_text,
     _parse_stage3_output,
     _query_names_unlisted_competitor,
+    _stage3_write_article_with_retry,
     _translate_to_english,
     _trim_to_last_sentence,
 )
@@ -297,6 +298,55 @@ class TestDropHallucinatedComparisons:
         queries = ["Leanstral 1.5 PutnamBench score"]
         result = _drop_hallucinated_comparisons(queries, [{}], self.SOURCE_TEXT)
         assert result == queries
+
+
+class TestStage3WriteArticleWithRetry:
+    """Built from a real production incident: a real TechCrunch article
+    (humanoid-robotics/Agility Robotics) fell back to the sparse
+    translate-only view because Stage 3 failed once — re-running the exact
+    same inputs succeeded immediately, twice, confirming a one-off transient
+    API hiccup rather than a deterministic content/prompt problem. This
+    retry is the fix; these tests cover the retry control flow itself
+    (the underlying Sarvam call is mocked, not re-tested here)."""
+
+    ARGS = ("title", "source text", "entity context", {"category": "general", "paragraph_plan": []}, "fake-api-key")
+
+    def test_succeeds_first_try_no_retry_needed(self, monkeypatch):
+        calls = []
+
+        def fake_stage3(*args):
+            calls.append(args)
+            return {"title": "ok"}
+
+        monkeypatch.setattr(synthesize_mod, "_stage3_write_article", fake_stage3)
+        result = _stage3_write_article_with_retry(*self.ARGS)
+        assert result == {"title": "ok"}
+        assert len(calls) == 1
+
+    def test_fails_once_then_succeeds_on_retry(self, monkeypatch):
+        responses = [None, {"title": "ok on retry"}]
+
+        def fake_stage3(*args):
+            return responses.pop(0)
+
+        monkeypatch.setattr(synthesize_mod, "_stage3_write_article", fake_stage3)
+        result = _stage3_write_article_with_retry(*self.ARGS)
+        assert result == {"title": "ok on retry"}
+
+    def test_fails_both_times_returns_none(self, monkeypatch):
+        monkeypatch.setattr(synthesize_mod, "_stage3_write_article", lambda *args: None)
+        assert _stage3_write_article_with_retry(*self.ARGS) is None
+
+    def test_retries_at_most_once_not_in_a_loop(self, monkeypatch):
+        calls = []
+
+        def fake_stage3(*args):
+            calls.append(args)
+            return None
+
+        monkeypatch.setattr(synthesize_mod, "_stage3_write_article", fake_stage3)
+        _stage3_write_article_with_retry(*self.ARGS)
+        assert len(calls) == 2
 
 
 class TestDetectLanguage:

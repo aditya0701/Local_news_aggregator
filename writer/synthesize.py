@@ -783,6 +783,29 @@ def _stage3_write_article(
     return _parse_stage3_output(raw)
 
 
+def _stage3_write_article_with_retry(
+    title: str,
+    source_text: str,
+    entity_context: str,
+    strategy: dict,
+    api_key: str,
+) -> dict | None:
+    """One retry before giving up on Stage 3. Confirmed live on a real failed
+    article (a TechCrunch humanoid-robotics story): Stage 3 failed once in
+    production, but re-running the *exact same* inputs succeeded immediately,
+    twice — pointing to a one-off transient API hiccup (network blip /
+    momentary Sarvam instability), not a deterministic problem with that
+    article's content or the prompt. A single retry is cheap (only fires on
+    failure, not on the common success path) and would have upgraded that
+    article from the sparse translate-fallback view to a full Sarvam-written
+    one."""
+    article_fields = _stage3_write_article(title, source_text, entity_context, strategy, api_key)
+    if article_fields:
+        return article_fields
+    print("  FAILED — retrying once")
+    return _stage3_write_article(title, source_text, entity_context, strategy, api_key)
+
+
 def _synthesize_search_results(
     identity_results: dict[str, str],
     context_results: dict[str, str],
@@ -1097,9 +1120,9 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     # Stage 3: write Hindi article (sarvam-105b)
     # ------------------------------------------------------------------
     print(f"\n[STAGE 3 - {_MODEL_QUALITY} writing Hindi article]")
-    article_fields = _stage3_write_article(title, source_text, entity_context, strategy, api_key)
+    article_fields = _stage3_write_article_with_retry(title, source_text, entity_context, strategy, api_key)
     if not article_fields:
-        print("  FAILED")
+        print("  FAILED (retry also failed)")
         trace["outcome"] = "stage3_failed"
         _run_traces.append(trace)
         return None

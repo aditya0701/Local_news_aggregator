@@ -58,6 +58,6 @@ jobs:
         run: |
           git config user.name "TechDrishti Bot"
           git config user.email "bot@techdrishti.github.io"
-          git add output/articles_hindi.json data/entity_cache.json
+          git add output/articles_hindi.json data/entity_cache.json output/pipeline_trace.json
           git diff --cached --quiet && echo "Nothing to commit" || git commit -m "chore: daily pipeline run $(date -u +%Y-%m-%d)"
           git push

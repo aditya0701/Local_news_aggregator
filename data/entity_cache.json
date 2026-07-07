@@ -4570,5 +4570,11 @@
     "entity_type": "regulation",
     "summary": "The Business Source License (BSL) 1.1 is a middle-ground license between open source and end-user licenses. It is considered source-available, meaning the code can be viewed and used for internal or testing purposes, but commercial use is prohibited without explicit approval. Unlike open source lice",
     "last_updated": "2026-07-07"
+  },
+  "vision llm": {
+    "canonical_name": "vision LLM",
+    "entity_type": "model_release",
+    "summary": "VisionLLM v2 is a generalist multimodal large language model designed to support hundreds of vision-language tasks. It covers visual understanding, perception, and generation in a single end-to-end model.",
+    "last_updated": "2026-07-07"
   }
 }

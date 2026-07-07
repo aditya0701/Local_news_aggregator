@@ -1,0 +1,2170 @@
+Home
+Writing
+Long-Form Generation: Outline, Hierarchy, and Coherence
+Data, Analytics & AI
+Software Engineering
+Machine Learning
+Language AI Handbook
+Master long-form text generation with outline-based planning, hierarchical decomposition, entity tracking, and coherence evaluation for document-scale NLP tasks.
+Reading Level
+Choose your expertise level to adjust how many terms are explained. Beginners see more tooltips, experts see fewer to maintain reading flow. Hover over
+underlined terms
+for instant definitions.
+Beginner
+Maximum help
+Intermediate
+Medium help
+Expert
+Minimal help
+Hide All
+No tooltips
+Long-Form Generation
+Link Copied
+Generating a coherent paragraph is easy. Generating a coherent document is hard. When you ask a language model to write a sentence, it draws on a tight window of context and makes a single focused prediction. But when you ask it to write a research report, a short story, or a technical tutorial, something more complex is required: the model must maintain a consistent topic, remember what it said several pages ago, avoid contradicting itself, and bring the piece to a satisfying conclusion. These are the challenges of
+long-form generation
+, and they sit at the boundary of what current language models handle well.
+Long-form generation
+is not just about producing more tokens. It requires structural thinking, narrative
+coherence
+, and the ability to manage information across scales simultaneously. A well-written 5,000-word article has a macro-structure (introduction, body, conclusion), a meso-structure (section ordering, transitions between topics), and a micro-structure (sentence flow, paragraph cohesion). Failing at any of these levels produces text that feels disjointed, repetitive, or incomplete, even if each individual sentence reads well.
+Think about the difference between reading a tweet and reading a technical tutorial. The tweet succeeds or fails on the strength of a single idea expressed in a handful of words. The tutorial, on the other hand, must carry the reader from confusion to understanding over ten, twenty, or fifty pages. It must introduce concepts in the right order, revisit earlier ideas when they become relevant again, and build toward conclusions that feel earned rather than arbitrary. Achieving this with a language model is significantly harder than achieving it with a human writer who holds the entire document in mind.
+This chapter examines the core techniques researchers and practitioners use to address these challenges. We will cover
+outline-based generation
+, which provides skeletal structure before filling in content;
+hierarchical generation
+, which decomposes long documents into nested subtasks;
+coherence
+maintenance, which ensures generated text holds together as a unified whole; and evaluation methods, which measure whether long-form text actually succeeds at its goals. As we saw in earlier chapters on attention mechanisms and sequence-to-sequence models, language models are powerful but bounded by their context windows.
+Long-form generation
+is fundamentally the engineering discipline of working within those bounds while transcending them through structure.
+Advertisement
+The Challenge of Length
+Link Copied
+Before diving into solutions, it helps to understand precisely why length creates difficulty. Three core problems arise as documents grow longer:
+context window
+exhaustion,
+topic drift
+, and factual inconsistency. Each of these is distinctive and requires different countermeasures.
+Context Window Limitations
+Link Copied
+Transformer
+models operate over fixed-length context windows.
+GPT-3
+used 2,048 tokens;
+GPT-4
+extended to 128,000 tokens; but even the largest windows eventually fill up. When a document exceeds the
+context window
+, the model loses access to its own earlier output. It cannot know what it wrote in section 2 when it is generating section 7. The result is repetition (restating points already made), contradiction (reversing claims from earlier), and incoherence (losing the thread of an argument).
+Even within the
+context window
+, attention is not uniform. Research on long-context transformers has shown a "
+lost in the middle
+" effect: models tend to recall information near the beginning and end of context more reliably than information in the middle. Liu et al. (2023) demonstrated this empirically by inserting key facts at different positions within long contexts and measuring retrieval accuracy. Facts placed in the middle of the context were retrieved significantly less reliably than facts at the start or end, even when the full context was technically within the model's window. For long documents, critical structural information (the
+outline
+, the main thesis, earlier examples) can fall into this middle zone and become effectively invisible to later generation.
+This has a practical implication: the most important structural information should be positioned at the start of each generation prompt, not buried in the middle of a
+long context
+dump. Outlines,
+entity
+registries, and high-level plans should come first, before the content they are meant to guide.
+Out
+[
+3
+]:
+Visualization
+Simulated retrieval accuracy as a function of fact position within a long context window, illustrating the lost-in-the-middle effect. Accuracy is highest when key facts appear near the start or end of the context, and drops sharply for facts placed in the middle third (shaded region). This pattern motivates placing outlines and structural anchors at the beginning of generation prompts.
+Drift and Topic Wandering
+Link Copied
+Without explicit structural anchors, language models drift. They tend to follow the most locally plausible continuation, which does not necessarily align with the globally intended direction of the document. A model generating an essay on climate change might gradually shift to discussing energy policy, then to geopolitics, then to economic theory, without any individual transition seeming wrong. Each sentence follows naturally from the last, but the document as a whole has abandoned its original focus.
+This is partly a property of how language models are trained. The objective of next-token prediction rewards local
+coherence
+. The model learns to make the next sentence sound natural, not to maintain a document-level theme. The training signal for "this paragraph is on topic with respect to a document that started three thousand tokens ago" is weak or absent in standard language modeling. Fine-tuning on human-written long-form text helps, but does not fully solve the problem, because the model is still optimizing locally at generation time.
+Topic drift
+is particularly insidious because it is invisible unless you read the document as a whole. Individual sections can each be well-written and internally coherent while the document collectively wanders far from where it started. Automated detection of drift requires comparing each section against a stable representation of the document's intended scope, which is exactly what outlines and plans provide.
+Advertisement
+Factual Consistency
+Link Copied
+In long documents, models frequently contradict themselves. A character's age changes between chapters. A technical claim stated in one section is reversed in another. A model generates "there are three main approaches" and then lists four. These consistency failures are harder to catch in long text because the contradicting sentences may be thousands of tokens apart.
+Factual inconsistency is distinct from factual inaccuracy. A model can hallucinate consistently (always wrong about the same facts) or hallucinate inconsistently (giving different wrong answers in different sections).
+Long-form generation
+makes inconsistent
+hallucination
+more likely, because the model generates section content somewhat independently. Without a mechanism to track what was said earlier, later sections can freely contradict earlier ones.
+The three challenges are interrelated. A model that runs out of
+context window
+cannot check its own earlier claims. A model that has drifted from its original topic may introduce facts relevant to the new topic that conflict with facts relevant to the original. And a model without a consistent structural plan may redraw the same
+entity
+with different properties each time it appears. Effective
+long-form generation
+must address all three problems together.
+Advertisement
+Outline-Based Generation
+Link Copied
+The most intuitive approach to
+long-form generation
+mirrors how human writers work: plan first, then write.
+Outline-based generation
+separates the task into two stages. In the first stage, the model generates an
+outline
+or plan. In the second stage, it generates the actual content, using the
+outline
+as a fixed structural guide.
+This two-stage approach was explored systematically in systems like ROME (Rashkin et al., 2020) and later in commercial applications of
+instruction-tuned
+models. The core finding is consistent: models with an explicit plan produce significantly more coherent long-form text than models that generate free-form without structural constraints. The plan does not need to be perfect; even a rough
+outline
+improves the consistency and completeness of the final document.
+Why Outlines Help
+Link Copied
+An
+outline
+is a persistent representation of document structure that the model can reference throughout generation. Rather than holding the full structure implicitly in its weights and context, the model has an explicit, compact summary of what the document contains and where it is going. This provides several benefits.
+First, outlines prevent drift. If the
+outline
+specifies that section 3 covers "model
+evaluation metrics
+," the model cannot easily wander into discussing deployment infrastructure, because the next section header provides a constant anchor. The anchor does not need to be elaborate; even a simple list of section titles significantly constrains where the model can go.
+Second, outlines enable better global planning. A model that knows the full document structure can use early sections to set up content that pays off later, creating callbacks and building toward a conclusion. Without an
+outline
+, the model cannot see far enough ahead to make strategic choices about what to introduce early versus what to save for later.
+Third, outlines make generation controllable. Users can inspect and edit the
+outline
+before content generation begins, catching structural problems early. If the model proposes six sections but the user needs eight, or if the proposed order does not match the intended argument, these are easy to fix at the
+outline
+stage. They are much harder to fix after 5,000 words have been generated.
+Fourth, outlines provide a natural chunking mechanism. Rather than asking a model to generate an entire document in one pass (which it cannot do reliably), the
+outline
+breaks the task into section-sized units, each of which is within the model's comfortable generation range.
+Outline Generation
+Link Copied
+Generating good outlines is itself a challenging task. A well-formed
+outline
+should be:
+Comprehensive
+: covering all major topics the document needs to address
+Non-redundant
+: avoiding sections that overlap substantially in content
+Logically ordered
+: following a sequence that builds understanding progressively
+Appropriately granular
+: neither too broad (useless) nor too detailed (constraining)
+The tension between granularity and flexibility is real. An
+outline
+that specifies ten subsections per section leaves the model little room to follow the natural contours of the topic. An
+outline
+that specifies only top-level section titles may not provide enough guidance to prevent drift within sections. A useful rule of thumb is to specify outlines at the level that identifies the purpose of each section, not the content of each paragraph.
+In practice,
+outline
+generation is prompted differently than content generation. The model is given the topic, the target audience, and the intended length, and asked to produce a hierarchical structure before any actual content. Here is a simple example of how such a call is structured:
+In
+[
+6
+]:
+Code
+import
+openai
+client
+=
+openai.OpenAI()
+def
+generate_outline
+(
+topic
+:
+str
+,
+target_length
+:
+str
+,
+audience
+:
+str
+) ->
+str
+:
+"""Generate a hierarchical outline for a long-form document."""
+prompt
+=
+f
+"""You are a professional writer and content strategist.
+Topic:
+{
+topic
+}
+Target length:
+{
+target_length
+}
+Audience:
+{
+audience
+}
+Generate a detailed hierarchical outline for this document. Include:
+- A clear introduction section
+- 4-6 main sections covering the key aspects
+- 2-4 subsections per main section where appropriate
+- A conclusion section
+Format as a numbered outline with indented subsections."""
+response
+=
+client.chat.completions.create(
+model
+=
+"gpt-4o-mini"
+,
+messages
+=
+[{
+"role"
+:
+"user"
+,
+"content"
+: prompt}],
+temperature
+=
+0.7
+,
+max_tokens
+=
+1000
+,
+)
+return
+response.choices[
+0
+].message.content
+Calling
+generate_outline("Long-Form Generation in NLP", "5,000 words", "CS students")
+produces a structured plan like the following:
+Out
+[
+4
+]:
+Console
+1. Introduction: Why Long-Form Generation Matters
+   1.1 The gap between sentences and documents
+   1.2 Current model capabilities and limitations
+   1.3 Chapter overview
+
+2. Context Window Constraints
+   2.1 Fixed-length attention windows
+   2.2 The lost-in-the-middle phenomenon
+   2.3 Strategies for working within limits
+
+3. Outline-Based Generation
+   3.1 Separating planning from writing
+   3.2 Generating effective outlines
+   3.3 Conditional content generation from outlines
+
+4. Hierarchical Generation
+   4.1 Decomposing documents into subtasks
+   4.2 Top-down vs. bottom-up approaches
+   4.3 Maintaining consistency across levels
+
+5. Coherence Maintenance
+   5.1 Local vs. global coherence
+   5.2 Entity tracking
+   5.3 Consistency checking
+
+6. Evaluation
+   6.1 Reference-based metrics
+   6.2 Coherence scoring
+   6.3 Human evaluation protocols
+
+7. Conclusion
+   7.1 Summary of key techniques
+   7.2 Open challenges
+A well-structured
+outline
+like this gives the content generation phase clear targets for each section. Notice that the
+outline
+itself is compact: roughly 200 tokens, which is negligible compared to the full document. This compactness matters. The
+outline
+can be included in every section's generation prompt without consuming significant context budget.
+Advertisement
+Conditional Generation from Outlines
+Link Copied
+Once an
+outline
+exists, content is generated section by section, with each section prompt including:
+The full
+outline
+(for global context)
+The specific section being generated
+The previously generated sections (for local context and continuity)
+This approach ensures the model always knows both where the document is going and what has already been written. The prompt structure deliberately places the
+outline
+first, exploiting the observation that models recall information near the beginning of context more reliably.
+The function for generating a single section looks like this:
+In
+[
+10
+]:
+Code
+def
+generate_section
+(
+outline
+:
+str
+,
+section_title
+:
+str
+,
+section_index
+:
+int
+,
+previous_sections
+:
+list
+,
+words_per_section
+:
+int
+=
+400
+,
+) ->
+str
+:
+"""Generate a single section, conditioned on the full outline and prior sections."""
+# Build context from previous sections (truncate if needed)
+prior_context
+=
+"
+\n\n
+"
+.join(previous_sections[
+-
+2
+:])
+# Last 2 sections
+prompt
+=
+f
+"""You are writing a long-form document. Here is the full outline:
+{
+outline
+}
+Here is the content written so far (last 2 sections):
+{
+prior_context
+}
+Now write the content for section
+{
+section_index
+}
+: "
+{
+section_title
+}
+"
+Requirements:
+- Approximately
+{
+words_per_section
+}
+words
+- Connect naturally to what was written before
+- Use the outline to guide what this section should cover
+- Do not repeat information from previous sections"""
+response
+=
+client.chat.completions.create(
+model
+=
+"gpt-4o-mini"
+,
+messages
+=
+[{
+"role"
+:
+"user"
+,
+"content"
+: prompt}],
+temperature
+=
+0.7
+,
+max_tokens
+=
+600
+,
+)
+return
+response.choices[
+0
+].message.content
+Out
+[
+5
+]:
+Console
+Section generation parameters:
+  section_title: Context Window Constraints
+  section_index: 2
+  words_per_section: 400
+  prior_context_sections: 2
+
+The model receives:
+  - Full outline (compact, ~200 tokens)
+  - Last 2 generated sections (continuity context)
+  - Target section title and length
+  - Constraint: no repetition from prior sections
+By conditioning on the
+outline
+throughout, the model maintains document-level
+coherence
+even as it generates section by section. An important detail is the choice to include only the last two sections of prior context, rather than all prior sections. Including all prior content would quickly exhaust the
+context window
+; including only recent sections provides enough continuity for local
+coherence
+without sacrificing token budget.
+Advertisement
+Recursive Outline Expansion
+Link Copied
+For very long documents, outlines can themselves be expanded hierarchically. A top-level
+outline
+of 6 sections might be expanded into a more detailed
+outline
+for each section, which is then expanded into paragraph-level plans before content generation begins. This multi-level planning reduces the cognitive burden on each generation step, since each step has clear, narrow scope.
+The expansion process works recursively. Given a section title and its purpose (from the top-level
+outline
+), the model generates a subsection-level
+outline
+for that section. Then, given a subsection title, it generates paragraph-level summaries. By the time actual prose generation begins, every paragraph has a well-defined purpose, and the prose generation step is reduced to the narrow task of expressing a known idea in fluent language.
+This mirrors how skilled human writers work. Professional authors often produce detailed synopses before writing a single word of prose, precisely because planning and writing are cognitively different tasks that interfere with each other when done simultaneously.
+Advertisement
+Hierarchical Generation
+Link Copied
+Hierarchical generation
+generalizes the
+outline
+-based approach by decomposing the generation task into nested levels of abstraction. Rather than a flat
+outline
+followed by flat content,
+hierarchical generation
+operates at multiple granularities simultaneously. The key insight is that a document is not just a sequence of paragraphs; it is a tree of decisions, where high-level choices (what to cover) constrain mid-level choices (how to structure each section) which constrain low-level choices (what each paragraph says).
+The Hierarchical Decomposition Idea
+Link Copied
+Consider generating a 10,000-word technical report. A hierarchical approach might decompose this as follows. At the highest level, the model generates a document-level plan: what the report covers and its main claims. At the next level, it generates section-level plans: what each of the six sections contains and argues. At the paragraph level, it generates summaries of each paragraph's content. Only at the lowest level does it generate actual prose.
+This top-down decomposition has a crucial property: decisions made at higher levels constrain and guide decisions at lower levels. A section-level plan that says "this section demonstrates that method A outperforms method B on three benchmarks" makes it very clear what the paragraphs within that section need to accomplish. The model does not need to figure out the purpose of each paragraph from scratch; that decision was already made at a higher level.
+The decomposition also has a nice property at generation time: each generation call has a clear, bounded scope. Rather than asking "write me a 10,000-word report on X," the system asks a sequence of narrow questions: "given the document purpose, what sections should it have?" then "given this section's purpose, what subsections?" then "given this subsection, what paragraphs?" then "given this paragraph's purpose, write the prose." Each individual call is well within the model's comfortable competence.
+Implementation: A Three-Level Hierarchy
+Link Copied
+We can implement a simple three-level hierarchy in plain Python: document plan, section summaries, and final prose. The
+DocumentPlan
+class stores the hierarchical structure and can serialize itself as context for any generation call:
+In
+[
+6
+]:
+Code
+from
+dataclasses
+import
+dataclass, field
+@dataclass
+class
+DocumentPlan
+:
+"""Represents the hierarchical plan for a long-form document."""
+topic:
+str
+thesis:
+str
+sections:
+list
+=
+field(
+default_factory
+=
+list
+)
+def
+add_section
+(
+self
+,
+title
+:
+str
+,
+purpose
+:
+str
+,
+key_points
+:
+list
+):
+self
+.sections.append(
+{
+"title"
+: title,
+"purpose"
+: purpose,
+"key_points"
+: key_points,
+"paragraphs"
+: [],
+}
+)
+def
+add_paragraph_plan
+(
+self
+,
+section_idx
+:
+int
+,
+paragraph_summary
+:
+str
+):
+self
+.sections[section_idx][
+"paragraphs"
+].append(paragraph_summary)
+def
+to_prompt_context
+(
+self
+) ->
+str
+:
+"""Format the document plan as a prompt-ready context string."""
+lines
+=
+[
+f
+"Document Topic:
+{
+self
+.topic
+}
+"
+,
+f
+"Main Thesis:
+{
+self
+.thesis
+}
+"
+,
+""
+,
+]
+for
+i, section
+in
+enumerate
+(
+self
+.sections):
+lines.append(
+f
+"Section
+{
+i
++
+1}
+:
+{
+section[
+'title'
+]
+}
+"
+)
+lines.append(
+f
+"  Purpose:
+{
+section[
+'purpose'
+]
+}
+"
+)
+lines.append(
+f
+"  Key points:
+{
+', '
+.join(section[
+'key_points'
+])
+}
+"
+)
+return
+"
+\n
+"
+.join(lines)
+Out
+[
+7
+]:
+Console
+Document Plan (as context for generation):
+==================================================
+Document Topic: Transformer Architecture for NLP
+Main Thesis: Transformers outperform RNNs by replacing sequential computation with parallel attention.
+
+Section 1: From RNNs to Transformers
+  Purpose: Motivate why attention was needed
+  Key points: RNN vanishing gradient, sequential bottleneck, attention as solution
+Section 2: The Attention Mechanism
+  Purpose: Explain how self-attention works
+  Key points: queries, keys, values, scaled dot-product, multi-head attention
+Section 3: Training and Results
+  Purpose: Show empirical benefits
+  Key points: BLEU score improvements, training speed, scalability
+The
+to_prompt_context()
+method produces a compact representation of the full document plan that can be prepended to any generation prompt without consuming excessive tokens. A three-section plan like this uses roughly 80 tokens, leaving ample budget for section content. Even a 20-section plan would use at most 400-500 tokens, making it practical to include the full plan in every generation call.
+Advertisement
+Paragraph-Level Planning
+Link Copied
+Once section-level plans exist, each section can be further decomposed into paragraph plans before any prose is generated. The generation call for paragraph planning is similar to
+outline
+generation, but narrower in scope:
+In
+[
+16
+]:
+Code
+def
+generate_paragraph_plans
+(
+document_plan
+: DocumentPlan,
+section_idx
+:
+int
+,
+num_paragraphs
+:
+int
+=
+4
+) ->
+list
+:
+"""Generate paragraph-level summaries for a section."""
+section
+=
+document_plan.sections[section_idx]
+prompt
+=
+f
+"""Given this document plan:
+{
+document_plan.to_prompt_context()
+}
+For Section
+{
+section_idx
++
+1}
+(
+{
+section[
+"title"
+]
+}
+):
+Purpose:
+{
+section[
+"purpose"
+]
+}
+Key points to cover:
+{
+", "
+.join(section[
+"key_points"
+])
+}
+Generate
+{
+num_paragraphs
+}
+paragraph-level summaries. Each summary should be
+1-2 sentences describing what that specific paragraph will argue or explain.
+The paragraphs should flow logically and collectively fulfill the section's purpose."""
+response
+=
+client.chat.completions.create(
+model
+=
+"gpt-4o-mini"
+,
+messages
+=
+[{
+"role"
+:
+"user"
+,
+"content"
+: prompt}],
+temperature
+=
+0.7
+,
+max_tokens
+=
+400
+,
+)
+# Parse response into individual paragraph summaries
+content
+=
+response.choices[
+0
+].message.content
+paragraphs
+=
+[p.strip()
+for
+p
+in
+content.split(
+"
+\n
+"
+)
+if
+p.strip()]
+return
+paragraphs[:num_paragraphs]
+Out
+[
+8
+]:
+Console
+Paragraph plans for 'From RNNs to Transformers':
+
+1. Introduce the key limitation of RNNs: sequential computation prevents parallelization and creates vanishing gradient problems for long sequences.
+
+2. Explain how the attention mechanism was first proposed as a solution to the information bottleneck in encoder-decoder models (Bahdanau et al., 2015).
+
+3. Describe the conceptual leap of 'Attention is All You Need': removing recurrence entirely and building a model entirely from attention layers.
+
+4. Summarize the performance advantages observed in the original paper, setting up the technical deep dive in the next section.
+With paragraph plans in hand, generating each paragraph becomes a tightly scoped task. The model knows the exact purpose of each paragraph, what came before, and what needs to come next. This is similar to how an actor performs better when they understand their character's motivation in a scene, rather than just reading lines in isolation.
+The paragraph planning step also catches structural problems early. If four planned paragraphs do not collectively fulfill the section's stated purpose, that is visible at the planning stage, before any prose has been written. Revising a four-sentence paragraph plan is far less expensive than revising four fully-written paragraphs.
+Advertisement
+Coherence Maintenance
+Link Copied
+Even with careful planning, generated text can lose
+coherence
+.
+Coherence
+in writing operates at multiple levels, and maintaining it requires active effort during generation. Planning establishes the structure;
+coherence
+maintenance ensures the structure holds together as actual sentences and paragraphs fill in.
+Types of Coherence
+Link Copied
+Writing researchers identify several types of
+coherence
+that a document must maintain simultaneously.
+Entity coherence
+refers to consistent reference to the same entities throughout the text. If a document introduces "the
+transformer
+model" and later refers to it as "the architecture," "the system," and "the approach" interchangeably, readers can follow this. But if the model changes an
+entity
+'s properties (giving a character a different job, changing a model's architecture) across sections, the text becomes confusing or internally contradictory.
+Entity coherence
+failures are among the most jarring for readers, because they directly contradict the reader's internal model of the document's world.
+Relational coherence
+refers to logical connections between sentences and paragraphs. Each sentence should be grounded in what came before it, connected through explicit discourse relations like causation, elaboration, contrast, or exemplification. Texts that jump between unconnected statements feel choppy even if each statement is individually true.
+Relational coherence
+is largely a local phenomenon: it primarily concerns connections between adjacent or nearby sentences.
+Topical coherence
+refers to maintaining a consistent topic focus across sections of text. A paragraph that starts discussing attention mechanisms should end on attention mechanisms, not have drifted to a discussion of training infrastructure by its final sentence. Unlike
+relational coherence
+,
+topical coherence
+is a global property, connecting the content of the current passage to the document's overall subject.
+Temporal coherence
+is a fourth type relevant for narrative and instructional text. Events described in a story or tutorial should follow a consistent timeline, and procedural steps should appear in the order they need to be executed. Language models generating instructional text occasionally produce steps out of sequence, creating instructions that are confusing or incorrect to follow.
+Entity Tracking
+Link Copied
+One practical approach to
+entity coherence
+is explicit
+entity tracking
+. The generator maintains a registry of named entities introduced in the document and their key attributes. Before generating each new section, this registry is serialized and injected into the prompt. The registry is a
+persistent memory
+that compensates for the model's inability to remember earlier content reliably.
+In
+[
+9
+]:
+Code
+@dataclass
+class
+Entity
+:
+"""Tracks a named entity and its attributes throughout a document."""
+name:
+str
+entity_type:
+str
+# person, concept, model, dataset, etc.
+aliases:
+list
+=
+field(
+default_factory
+=
+list
+)
+attributes:
+dict
+=
+field(
+default_factory
+=
+dict
+)
+first_mentioned: Optional[
+int
+]
+=
+None
+# Section index
+@dataclass
+class
+EntityRegistry
+:
+"""Maintains consistent tracking of all entities in a document."""
+entities:
+dict
+=
+field(
+default_factory
+=
+dict
+)
+def
+register
+(
+self
+,
+name
+:
+str
+,
+entity_type
+:
+str
+,
+section_idx
+:
+int
+,
+**
+attributes
+):
+if
+name
+not
+in
+self
+.entities:
+self
+.entities[name]
+=
+Entity(
+name
+=
+name,
+entity_type
+=
+entity_type,
+attributes
+=
+attributes,
+first_mentioned
+=
+section_idx,
+)
+else
+:
+# Update attributes for existing entity
+self
+.entities[name].attributes.update(attributes)
+def
+add_alias
+(
+self
+,
+canonical_name
+:
+str
+,
+alias
+:
+str
+):
+if
+canonical_name
+in
+self
+.entities:
+self
+.entities[canonical_name].aliases.append(alias)
+def
+to_context_string
+(
+self
+) ->
+str
+:
+"""Format entity registry for prompt injection."""
+lines
+=
+[
+"Key entities in this document:"
+]
+for
+name, entity
+in
+self
+.entities.items():
+attrs
+=
+", "
+.join(
+f
+"
+{
+k
+}
+:
+{
+v
+}
+"
+for
+k, v
+in
+entity.attributes.items())
+aliases
+=
+(
+f
+" (also:
+{
+', '
+.join(entity.aliases)
+}
+)"
+if
+entity.aliases
+else
+""
+)
+lines.append(
+f
+"  -
+{
+name
+}{
+aliases
+}
+[
+{
+entity.entity_type
+}
+]:
+{
+attrs
+}
+"
+)
+return
+"
+\n
+"
+.join(lines)
+Out
+[
+10
+]:
+Console
+Key entities in this document:
+  - BERT (also: the encoder model) [model]: type: encoder-only transformer, year: 2018, developers: Google Brain
+  - GPT-3 (also: the 175-billion parameter model) [model]: type: decoder-only transformer, parameters: 175B, developers: OpenAI
+
+Entity registry contains 2 entities
+This context is injected before each new section to prevent inconsistency
+By injecting the
+entity
+registry into each section's generation prompt, the model can avoid introducing contradictory attributes for entities it described earlier. If
+GPT-3
+was described as having 175 billion parameters in section 1, the registry ensures that all subsequent sections see that fact before generating any text that might reference GPT-3's size.
+The registry also handles aliases, which is important for natural writing style. Good writing avoids repeating the same noun phrase in every sentence. The model might refer to "
+BERT
+," "the encoder model," or "the model" in different sentences while meaning the same thing. The registry tracks these aliases so that when a later section uses "the encoder model," the generation system knows this is BERT and applies the correct attributes.
+Advertisement
+Consistency Checking
+Link Copied
+Even with proactive measures,
+long-form generation
+can produce inconsistencies. A post-hoc consistency check extracts factual claims from the generated text and verifies them against each other. This is a quality gate before the document is finalized.
+In
+[
+11
+]:
+Code
+import
+re
+def
+check_numerical_consistency
+(
+text
+:
+str
+) ->
+list
+:
+"""
+Extract numerical claims from text and flag potential inconsistencies.
+Returns list of (claim, numbers) tuples that need review.
+"""
+# Patterns to find sentences with numerical claims
+patterns
+=
+[
+r
+"
+\b(\d
++
+(?:
+\.
+\d
++
+)
+?
+)\s
+*
+(?:
+percent
+|
+%
+|
+billion
+|
+million
+|
+parameters
+)\b
+"
+,
+r
+"
+\b
+there
+(?:
+are
+|
+were
+|
+is
+|
+was
+)\s
++
+(\d
++
+)\s
++
+\w
++
+"
+,
+r
+"
+\b(\d
++
+(?:
+\.
+\d
++
+)
+?
+)\s
+*
+(?:
+times
+|
+x
+)\s
++
+(?:
+faster
+|
+slower
+|
+better
+|
+worse
+)
+"
+,
+]
+claims
+=
+[]
+sentences
+=
+text.split(
+". "
+)
+for
+sent
+in
+sentences:
+for
+pattern
+in
+patterns:
+matches
+=
+re.findall(pattern, sent, re.
+IGNORECASE
+)
+if
+matches:
+claims.append((sent.strip(), matches))
+return
+claims
+Out
+[
+12
+]:
+Console
+Numerical claims extracted:
+  Numbers ['175'] in: 'GPT-3 has 175 billion parameters and was released in 2020'
+  Numbers ['3'] in: 'There are 3 main approaches to fine-tuning'
+  Numbers ['170'] in: 'GPT-3's 170 billion parameters make it one of the largest models'
+  Numbers ['4'] in: 'There are 4 main approaches to fine-tuning.'
+
+Detected issues:
+  - GPT-3's parameter count changed from 175B to 170B
+  - 'Main approaches' count changed from 3 to 4
+A consistency checker flags these sentences for human review.
+More sophisticated consistency checking uses a language model to extract all factual claims from the document, then checks each claim against every other claim to detect contradictions. This can be implemented as a separate verification pass after the full document is generated. The checker generates pairs of claims and asks the model: "do these two statements contradict each other?" This approach catches semantic contradictions that simple pattern matching cannot detect, such as claiming a model was "released in early 2020" in one section and "made available in late 2019" in another.
+Advertisement
+Transition Generation
+Link Copied
+Coherence
+also requires smooth transitions between sections. When generating section-by-section, the boundaries between sections can feel abrupt. A reader working through the document experiences a jarring jump when one section ends and another begins without any bridging language. This is partly an artifact of the generation process itself: each section is generated independently, and the final sentence of section N is optimized without knowledge of what section N+1 will say.
+A useful technique is to generate explicit transition sentences that bridge each pair of adjacent sections:
+In
+[
+25
+]:
+Code
+def
+generate_transition
+(
+previous_section_last_paragraph
+:
+str
+,
+next_section_title
+:
+str
+,
+next_section_purpose
+:
+str
+,
+) ->
+str
+:
+"""Generate a bridging transition between two sections."""
+prompt
+=
+f
+"""You are editing a long-form document. The previous section just ended with:
+"
+{
+previous_section_last_paragraph
+}
+"
+The next section is titled: "
+{
+next_section_title
+}
+"
+Its purpose is:
+{
+next_section_purpose
+}
+Write a single transition sentence (1-2 sentences) that smoothly connects these two sections.
+The transition should make the logical connection explicit and give readers a reason to continue."""
+response
+=
+client.chat.completions.create(
+model
+=
+"gpt-4o-mini"
+,
+messages
+=
+[{
+"role"
+:
+"user"
+,
+"content"
+: prompt}],
+temperature
+=
+0.6
+,
+max_tokens
+=
+100
+,
+)
+return
+response.choices[
+0
+].message.content
+Out
+[
+13
+]:
+Console
+Transition generation example:
+  Previous section ends: '...the outline provides the skeleton that makes long-form generation tractable.'
+  Next section: 'Hierarchical Generation'
+
+Generated transition:
+  'Building on this idea of structural planning, we can extend the outline approach to multiple levels of abstraction, creating a hierarchy that guides generation from the document level all the way down to the paragraph level.'
+Transition generation is one of the highest-value post-processing steps for long-form text. A single sentence that explicitly connects two sections can transform a document that feels like a collection of disconnected essays into one that reads like a coherent argument building toward a conclusion.
+Advertisement
+Evaluation of Long-Form Text
+Link Copied
+Evaluating
+long-form generation
+is substantially harder than evaluating short-form generation. Standard metrics like
+BLEU
+and
+ROUGE
+, designed for sentence or paragraph comparison, break down at document scale. We need evaluation methods that capture structure,
+coherence
+, and factual accuracy across the full document.
+The evaluation challenge reflects a deeper problem: long-form text quality is multidimensional. A document can be fluent but incoherent, coherent but incomplete, complete but factually wrong. No single metric captures all these dimensions, and the dimensions can be partially independent. A system that maximizes
+ROUGE
+scores might sacrifice
+coherence
+; a system optimized for
+coherence
+might produce coherent-but-wrong content. Comprehensive evaluation requires multiple complementary metrics.
+Reference-Based Metrics at Document Scale
+Link Copied
+ROUGE
+(Recall-Oriented Understudy for Gisting Evaluation) measures
+n-gram
+overlap between generated and reference text. For
+long-form generation
+, several problems arise.
+First, reference texts are rare. Unlike translation datasets where many correct translations exist,
+long-form generation
+tasks often have only one reference document per prompt, and that reference reflects just one of many valid ways to structure the content. Second,
+ROUGE
+does not measure structure. A document with the right words in the wrong order can score well on
+ROUGE
+while being incoherent. Third,
+ROUGE
+does not scale linearly with document quality. A document that nails the first three sections and completely fails the last three might score identically to one that mediocrely covers all six sections.
+The solution is to compute
+ROUGE
+at the section level rather than the document level. Section-level
+ROUGE
+reveals which parts of a document succeeded and which failed, giving diagnostic value that document-level aggregates cannot.
+In
+[
+14
+]:
+Code
+## uv pip install rouge-score
+from
+rouge_score
+import
+rouge_scorer
+def
+evaluate_long_form_rouge
+(
+generated_sections
+:
+list
+,
+reference_sections
+:
+list
+) ->
+dict
+:
+"""
+Compute ROUGE scores at the section level for long-form documents.
+Returns per-section and aggregate scores.
+"""
+scorer
+=
+rouge_scorer.RougeScorer(
+[
+"rouge1"
+,
+"rouge2"
+,
+"rougeL"
+],
+use_stemmer
+=
+True
+)
+section_scores
+=
+[]
+for
+gen, ref
+in
+zip
+(generated_sections, reference_sections):
+scores
+=
+scorer.score(ref, gen)
+section_scores.append(
+{
+metric: scores[metric].fmeasure
+for
+metric
+in
+[
+"rouge1"
+,
+"rouge2"
+,
+"rougeL"
+]
+}
+)
+# Aggregate across sections
+aggregate
+=
+{}
+for
+metric
+in
+[
+"rouge1"
+,
+"rouge2"
+,
+"rougeL"
+]:
+values
+=
+[s[metric]
+for
+s
+in
+section_scores]
+aggregate[metric]
+=
+{
+"mean"
+:
+sum
+(values)
+/
+len
+(values),
+"min"
+:
+min
+(values),
+"max"
+:
+max
+(values),
+}
+return
+{
+"per_section"
+: section_scores,
+"aggregate"
+: aggregate}
+Out
+[
+15
+]:
+Console
+Simulated ROUGE scores for a 4-section document:
+
+Section    ROUGE-1      ROUGE-2     
+----------------------------------
+Section 1   0.680        0.410
+Section 2   0.710        0.380
+Section 3   0.450        0.220
+Section 4   0.620        0.350
+
+Mean ROUGE-1: 0.615
+Mean ROUGE-2: 0.340
+
+Section 3 has notably lower scores (0.45 / 0.22),
+suggesting it diverged most from the reference content.
+Section-level scoring immediately highlights problems that would be hidden in a document-level average. In this example, Section 3's
+ROUGE
+-2 score of 0.22 is roughly half the score of Section 2 (0.38). A document-level average of 0.34 would obscure this gap and suggest uniformly mediocre performance across all sections.
+Out
+[
+16
+]:
+Visualization
+Per-section ROUGE-1 and ROUGE-2 scores for a simulated four-section document. Section 3 stands out with notably lower scores (0.45 and 0.22), indicating it diverged most from the reference text. Document-level averaging (dashed lines) would mask this section-level variation, showing why section-level evaluation provides more diagnostic value than aggregate scores.
+Coherence Scoring
+Link Copied
+Coherence
+scoring measures how well a document holds together as a unified text, independent of any reference document. This is particularly valuable when reference texts are unavailable, as is common in practice.
+The
+entity grid model
+, developed by Barzilay and Lapata (2008), represents each document as a grid where rows are sentences and columns are entities, with cells indicating whether an
+entity
+appears as the grammatical subject, object, or not at all in each sentence. Coherent documents tend to have entities appearing in consistent grammatical roles across adjacent sentences, while incoherent documents show erratic patterns. A coherent
+entity
+chain might look like: subject, subject, object, not-present, not-present, subject. An incoherent chain might look like: subject, not-present, object, subject, not-present, object with no discernible pattern.
+More recently, neural
+coherence
+models fine-tune language models on the task of distinguishing coherent documents from artificially scrambled versions. A model trained on this task can assign
+coherence
+scores to generated documents without requiring reference texts. The training data is cheap to produce: any existing document provides both a coherent version (the original) and an incoherent version (sentences in random order).
+In
+[
+17
+]:
+Code
+def
+compute_entity_transition_score
+(
+text
+:
+str
+) ->
+float
+:
+"""
+Simplified entity transition coherence scoring.
+Measures the proportion of sentence pairs that share at least one entity,
+as a proxy for local coherence.
+"""
+sentences
+=
+[s.strip()
+for
+s
+in
+text.split(
+"."
+)
+if
+s.strip()]
+def
+extract_entities
+(
+sentence
+:
+str
+) ->
+set
+:
+# Simplified: extract capitalized words as proxy for named entities
+words
+=
+sentence.split()
+return
+{w.lower()
+for
+w
+in
+words
+if
+w[
+0
+].isupper()
+and
+len
+(w)
+>
+2
+}
+if
+len
+(sentences)
+<
+2
+:
+return
+0.0
+shared_entity_pairs
+=
+0
+for
+i
+in
+range
+(
+len
+(sentences)
+-
+1
+):
+entities_a
+=
+extract_entities(sentences[i])
+entities_b
+=
+extract_entities(sentences[i
++
+1
+])
+if
+entities_a
+&
+entities_b:
+# Non-empty intersection
+shared_entity_pairs
++=
+1
+return
+shared_entity_pairs
+/
+(
+len
+(sentences)
+-
+1
+)
+Out
+[
+18
+]:
+Console
+Entity Transition Coherence Scores:
+  Coherent text:   0.667
+  Incoherent text: 0.000
+
+Higher score = more adjacent sentence pairs share entities
+Coherent text shows consistent entity chains across sentences;
+incoherent text introduces unrelated entities at each step.
+The simplified
+entity transition score
+separates the two texts clearly. In the coherent text, adjacent sentences share
+entity
+references (
+transformer
+, attention, NLP), signaling topical continuity. In the incoherent text, each sentence introduces entirely new entities with no connection to the previous sentence.
+Out
+[
+19
+]:
+Visualization
+Entity transition coherence scores for documents with varying levels of topic continuity. Scores range from near-zero for randomly shuffled or topic-jumping text to above 0.8 for tightly focused text. Documents generated without structural plans tend to score in the mid-range (0.3-0.5), while outline-guided documents achieve scores above 0.6, showing that planning directly improves measurable coherence.
+Advertisement
+Coverage and Completeness
+Link Copied
+For documents generated from a given topic or prompt, we also want to measure
+coverage
+: does the document actually address what it was supposed to address?
+Coverage
+metrics compare the set of topics or subtopics in the generated document against a predefined set of required topics.
+Coverage
+evaluation is particularly useful in applied settings where the required content is known in advance, such as generating a report on a fixed set of questions or a tutorial covering a specified list of concepts. The metric is less useful for creative or open-ended generation, where the required content is not predefined.
+In
+[
+20
+]:
+Code
+def
+compute_topic_coverage
+(
+generated_text
+:
+str
+,
+required_topics
+:
+list
+,
+threshold
+:
+float
+=
+0.6
+) ->
+dict
+:
+"""
+Measure what fraction of required topics are covered in the generated text.
+Uses keyword matching as a proxy for topic coverage.
+"""
+generated_lower
+=
+generated_text.lower()
+topic_coverage
+=
+{}
+for
+topic
+in
+required_topics:
+# Topic is "covered" if majority of its words appear in the text
+topic_words
+=
+topic.lower().split()
+words_found
+=
+sum
+(
+1
+for
+w
+in
+topic_words
+if
+w
+in
+generated_lower)
+coverage_ratio
+=
+words_found
+/
+len
+(topic_words)
+topic_coverage[topic]
+=
+coverage_ratio
+>=
+threshold
+covered_count
+=
+sum
+(topic_coverage.values())
+total
+=
+len
+(required_topics)
+return
+{
+"topics"
+: topic_coverage,
+"coverage_ratio"
+: covered_count
+/
+total,
+"covered"
+: covered_count,
+"total"
+: total,
+"missing"
+: [t
+for
+t, v
+in
+topic_coverage.items()
+if
+not
+v],
+}
+Out
+[
+21
+]:
+Console
+Topic Coverage Analysis:
+  Overall coverage: 75.0% (6/8 topics)
+
+  Per-topic coverage:
+    COVERED  outline generation
+    COVERED  hierarchical decomposition
+    COVERED  entity tracking
+    COVERED  coherence scoring
+    COVERED  ROUGE evaluation
+    COVERED  context window limitations
+    MISSING  transition generation
+    MISSING  factual consistency
+
+  Topics needing more coverage: transition generation, factual consistency
+Coverage
+analysis lets writers and systems identify gaps before finalizing a document. In the example above, "transition generation" and "
+factual consistency
+" are flagged as uncovered, prompting the generator to either add sections on those topics or revise existing sections to address them more explicitly.
+Out
+[
+22
+]:
+Visualization
+Per-topic coverage scores comparing three generation strategies: free-form (no plan), outline-guided, and outline with entity tracking. Free-form generation covers high-level topics reliably but misses specialized subtopics such as transition generation and factual consistency. Adding an outline raises coverage across all topics, and combining the outline with entity tracking closes most remaining gaps.
+Advertisement
+Human Evaluation Protocols
+Link Copied
+Automatic metrics, while useful, cannot fully capture document quality.
+Human evaluation
+remains the gold standard for
+long-form generation
+. Standard human evaluation protocols for long-form text ask evaluators to rate documents on several dimensions.
+The key dimensions typically assessed include:
+Coherence
+: Does the document flow logically from beginning to end? Do sections connect naturally?
+Relevance
+: Does the document stay on topic and address what was asked?
+Factual accuracy
+: Are the claims in the document true and self-consistent?
+Fluency
+: Is the writing grammatically correct and readable at the sentence level?
+Completeness
+: Does the document fully address the topic, or are important aspects missing?
+Human evaluation is expensive, slow, and subject to annotator disagreement, but it remains the most reliable way to assess whether a long-form document actually serves its intended purpose.
+Inter-annotator agreement
+for long-form text quality is typically lower than for shorter tasks, partly because different evaluators weight the dimensions differently. A researcher might prioritize factual accuracy; a general reader might prioritize fluency; an editor might prioritize structural
+coherence
+. This variability makes standardized
+human evaluation
+protocols important for ensuring comparability across studies.
+Recent work has explored using large language models (LLMs) as evaluators, asking them to rate generated text on the same dimensions that human annotators assess. LLM-based evaluation can be faster and cheaper than human evaluation while showing moderate correlation with human judgments, but it inherits the models' biases, including a well-documented tendency to prefer longer and more verbose text regardless of actual quality.
+Advertisement
+Putting It All Together: A Complete Pipeline
+Link Copied
+Combining
+outline
+generation,
+hierarchical decomposition
+,
+entity tracking
+, and post-hoc consistency checking yields a complete
+long-form generation
+pipeline. The following shows how these components fit together:
+In
+[
+43
+]:
+Code
+def
+long_form_generation_pipeline
+(
+topic
+:
+str
+,
+audience
+:
+str
+,
+required_topics
+:
+list
+,
+words_per_section
+:
+int
+=
+500
+,
+) ->
+dict
+:
+"""
+Full long-form generation pipeline:
+1. Generate outline
+2. Initialize entity registry
+3. Generate each section with outline + prior context
+4. Add transitions between sections
+5. Evaluate coverage and coherence
+Returns structured document with metadata.
+"""
+# Stage 1: Generate outline
+outline
+=
+generate_outline(
+topic,
+f
+"
+{
+len
+(required_topics)
+*
+words_per_section
+}
+words"
+, audience
+)
+# Stage 2: Initialize tracking structures
+document_plan
+=
+DocumentPlan(
+topic
+=
+topic,
+thesis
+=
+f
+"Comprehensive coverage of
+{
+topic
+}
+"
+)
+registry
+=
+EntityRegistry()
+# Stage 3: Generate sections
+generated_sections
+=
+[]
+previous_sections
+=
+[]
+for
+i, section_title
+in
+enumerate
+(required_topics):
+section_content
+=
+generate_section(
+outline
+=
+outline,
+section_title
+=
+section_title,
+section_index
+=
+i
++
+1
+,
+previous_sections
+=
+previous_sections,
+words_per_section
+=
+words_per_section,
+)
+# Add transition if not first section
+if
+i
+>
+0
+and
+previous_sections:
+last_paragraph
+=
+previous_sections[
+-
+1
+].split(
+"
+\n
+"
+)[
+-
+1
+]
+transition
+=
+generate_transition(
+last_paragraph, section_title,
+f
+"Cover
+{
+section_title
+}
+"
+)
+section_content
+=
+transition
++
+"
+\n\n
+"
++
+section_content
+generated_sections.append(section_content)
+previous_sections.append(section_content)
+# Stage 4: Assemble and evaluate
+full_text
+=
+"
+\n\n
+"
+.join(generated_sections)
+coverage
+=
+compute_topic_coverage(full_text, required_topics)
+coherence
+=
+compute_entity_transition_score(full_text)
+consistency_issues
+=
+check_numerical_consistency(full_text)
+return
+{
+"text"
+: full_text,
+"sections"
+: generated_sections,
+"coverage"
+: coverage,
+"coherence_score"
+: coherence,
+"consistency_issues"
+:
+len
+(consistency_issues),
+"word_count"
+:
+len
+(full_text.split()),
+}
+Out
+[
+23
+]:
+Console
+Long-Form Generation Pipeline:
+
+  Stage 1: Outline generation
+    -> ~200 tokens of document structure created
+
+  Stage 2: Document plan + entity registry init
+    -> Hierarchical plan and entity tracking structures initialized
+
+  Stage 3: Section generation
+    -> Each section generated with outline + last 2 sections as context
+
+  Stage 4: Transition generation
+    -> Bridging sentences added at each section boundary
+
+  Stage 5: Coverage evaluation
+    -> Topic coverage ratio computed against required topic list
+
+  Stage 6: Coherence scoring
+    -> Entity transition score computed over full document
+
+  Stage 7: Consistency check
+    -> Numerical claims extracted and flagged for review
+This pipeline makes the generation process systematic and auditable. At each stage, intermediate outputs can be inspected and corrected before proceeding to the next stage.
+Key Parameters
+Link Copied
+The key parameters controlling the pipeline behavior are:
+words_per_section
+: Target word count per section. Higher values produce more detailed sections but consume more
+context window
+budget.
+prior_context_sections
+: Number of previously generated sections included as context. More context improves continuity but reduces token budget for new content.
+temperature
+: Controls generation randomness. Lower values (0.5-0.6) produce more consistent, predictable text; higher values (0.7-0.9) produce more creative variation.
+threshold
+(
+coverage
+): Minimum keyword match ratio to count a topic as covered. A threshold of 0.6 means at least 60% of topic words must appear in the generated text.
+Advertisement
+Limitations and Open Challenges
+Link Copied
+Long-form generation
+has advanced considerably, but significant challenges remain unsolved. Understanding these limitations helps set realistic expectations and guides where research energy should be directed.
+Hallucination at Scale
+Link Copied
+Language models hallucinate in short-form generation, but
+long-form generation
+amplifies this problem. Over thousands of tokens, a model has many opportunities to introduce false claims, and errors in early sections can propagate as the model treats its own incorrect output as valid context. A model that incorrectly states a paper was published in 2019 might later generate consistent-but-false citations based on that wrong date.
+This
+error propagation
+mechanism makes long-form hallucinations particularly damaging. In short-form generation, a hallucinated fact sits in isolation. In
+long-form generation
+, it becomes part of the context that shapes everything generated after it, potentially spawning a cascade of consistent-but-wrong claims. A single early error can corrupt dozens of downstream passages.
+Retrieval-augmented generation
+partially addresses this by grounding each section's generation in retrieved documents. But retrieval introduces its own challenges: the retrieved documents may be conflicting, outdated, or insufficiently comprehensive for the topic at hand. For highly specialized topics, the retrieval corpus may not contain sufficient relevant material, and the model will fall back to parametric generation, reintroducing
+hallucination
+risk.
+Planning Without Understanding
+Link Copied
+Current
+outline
+-based approaches treat outlines as textual artifacts that the model follows token-by-token. The model does not truly "understand" the
+outline
+in the sense of maintaining an internal symbolic representation of document structure. It may follow the
+outline
+in early sections and drift from it later, or produce sections that technically match
+outline
+titles but fail to fulfill the outlined purpose.
+True
+hierarchical generation
+, where the model maintains genuine structural representations and reasons about document-level goals, remains an open research challenge. Systems like RecurrentGPT (Yang et al., 2023) attempt to address this by maintaining explicit working memory and episodic memory for
+long-form generation
+, but these systems still struggle with complex, highly structured documents. The fundamental issue is that current
+transformer
+architectures process all context as a flat sequence of tokens; they lack the tree-structured internal representations that would naturally support hierarchical reasoning.
+Advertisement
+Evaluation Gap
+Link Copied
+Perhaps the most pressing limitation is evaluation. The automatic metrics described in this chapter are imperfect proxies for quality.
+Entity
+transition scores can be gamed by repeating
+entity
+names without meaningful connection.
+ROUGE
+rewards surface-level similarity over semantic accuracy.
+Coverage
+analysis based on keyword matching misses nuanced
+coverage
+failures (a document can mention a topic briefly without actually explaining it).
+Human evaluation
+is expensive and hard to scale.
+The field lacks a robust automatic evaluation framework for
+long-form generation
+that captures all the dimensions that matter:
+coherence
+, accuracy, completeness, and utility. Until such a framework exists, progress is harder to measure and faster iteration is more difficult. This evaluation gap is one reason why
+long-form generation
+benchmarks are less established than benchmarks for classification, translation, or summarization.
+Despite these limitations, the techniques in this chapter represent significant practical advances.
+Outline-based generation
+,
+hierarchical decomposition
+, and
+coherence
+maintenance together make it possible to generate documents of genuine quality that would have been out of reach for earlier systems. The next chapter examines how these same principles apply to the specific domain of dialogue and multi-turn conversation, where
+coherence
+must be maintained across a different kind of long-form structure: an extended conversation.
+Advertisement
+Summary
+Link Copied
+Long-form generation
+extends language model capabilities to document-scale tasks. The core challenges are
+context window
+limits,
+topic drift
+, and
+factual consistency
+. The main techniques to address these challenges are:
+Outline-based generation
+: Separate planning from writing. Generate an
+outline
+first, then use it as a structural anchor during section-by-section content generation.
+Hierarchical generation
+: Decompose documents into nested levels (document plan, section plans, paragraph plans, prose) to give each generation step clear, narrow scope.
+Entity tracking
+: Maintain a registry of key entities and their attributes, injecting it into each section's prompt to prevent inconsistencies.
+Transition generation
+: Generate explicit bridging sentences between sections to improve local
+coherence
+at section boundaries.
+Coherence scoring
+: Use
+entity
+grid models or neural
+coherence
+models to automatically assess whether a generated document holds together.
+Coverage evaluation
+: Check that the generated document actually addresses the required topics by comparing keyword presence against a predefined topic list.
+Consistency checking
+: Extract numerical and factual claims from generated text and flag potential contradictions for human review.
+Combining these techniques allows generation of documents that maintain coherent structure, consistent facts, and comprehensive
+coverage
+across thousands of tokens. The main insight is that
+long-form generation
+is fundamentally a planning problem: models that write without a plan drift, contradict themselves, and lose their way. Models that plan first, then write, can produce documents that genuinely serve their intended purpose.
+Quiz
+Link Copied
+Ready to test your understanding? Take this quick quiz to
+reinforce
+what you've learned about
+long-form generation
+.
+Long-Form Generation Quiz
+Question
+1
+of
+8
+0
+of
+8
+completed
+What does the 'lost in the middle' effect describe in long-context transformers?
+Models generate repetitive text in the middle of documents
+Models retrieve information placed near the start and end of context more reliably than information in the middle
+Models lose track of grammar rules after processing long contexts
+Models produce shorter outputs when the context window is more than half full
+Reference
+BIBTEX
+Academic
+Copy
+@misc{brenndoerfer2026longform,
+  author = {Michael Brenndoerfer},
+  title = {Long-Form Generation: Outline, Hierarchy, and Coherence},
+  year = {2026},
+  url = {https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation},
+  organization = {mbrenndoerfer.com},
+  note = {Accessed: 2026-07-06}
+}
+Show other formats
+(APA, MLA, Chicago, Harvard, Simple)
+APA
+Academic
+Copy
+Michael Brenndoerfer (2026). Long-Form Generation: Outline, Hierarchy, and Coherence. Retrieved from https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation
+MLA
+Academic
+Copy
+Michael Brenndoerfer. "Long-Form Generation: Outline, Hierarchy, and Coherence." 2026. Web. July 6, 2026. <https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation>.
+CHICAGO
+Academic
+Copy
+Michael Brenndoerfer. "Long-Form Generation: Outline, Hierarchy, and Coherence." Accessed July 6, 2026. https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation.
+HARVARD
+Academic
+Copy
+Michael Brenndoerfer (2026) 'Long-Form Generation: Outline, Hierarchy, and Coherence'. Available at: https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation (Accessed: July 6, 2026).
+Simple
+Basic
+Copy
+Michael Brenndoerfer (2026). Long-Form Generation: Outline, Hierarchy, and Coherence. https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation
+DIRECT LINK
+URL
+Copy
+https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation
+Advertisement
+Newsletter
+Stay up to date.
+Get articles, book updates, and news delivered to your inbox.
+No spam, unsubscribe anytime.
+or
+Join the community.
+Sign in to remove popups, track your reading progress, and join the discussion.
+Join the community
+Join the community
