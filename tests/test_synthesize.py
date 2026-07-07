@@ -4,6 +4,7 @@ import writer.synthesize as synthesize_mod
 from writer.synthesize import (
     _SKIP_RE,
     _cap_gap_lines,
+    _clean_deep_dive_text,
     _clean_field_text,
     _detect_language,
     _drop_hallucinated_comparisons,
@@ -127,6 +128,36 @@ class TestCleanFieldText:
     def test_empty_input(self):
         assert _clean_field_text("") == ""
         assert _clean_field_text(None) == ""
+
+
+class TestCleanDeepDiveText:
+    def test_preserves_paragraph_breaks(self):
+        raw = "पहला पैराग्राफ।\n\nदूसरा पैराग्राफ।\n\nतीसरा पैराग्राफ।"
+        result = _clean_deep_dive_text(raw)
+        assert result == "पहला पैराग्राफ।\n\nदूसरा पैराग्राफ।\n\nतीसरा पैराग्राफ।"
+
+    def test_strips_meta_lines_within_a_paragraph(self):
+        raw = "Let me write this.\nपहला पैराग्राफ।\n\nदूसरा पैराग्राफ।"
+        result = _clean_deep_dive_text(raw)
+        assert "Let me" not in result
+        assert result == "पहला पैराग्राफ।\n\nदूसरा पैराग्राफ।"
+
+    def test_trims_only_last_paragraph_to_last_sentence(self):
+        raw = "पहला पैराग्राफ।\n\nदूसरा वाक्य। अधूरा"
+        result = _clean_deep_dive_text(raw)
+        assert result == "पहला पैराग्राफ।\n\nदूसरा वाक्य।"
+
+    def test_drops_empty_paragraphs(self):
+        raw = "पहला पैराग्राफ।\n\n\n\nदूसरा पैराग्राफ।"
+        result = _clean_deep_dive_text(raw)
+        assert result == "पहला पैराग्राफ।\n\nदूसरा पैराग्राफ।"
+
+    def test_single_paragraph_unchanged(self):
+        assert _clean_deep_dive_text("एक ही पैराग्राफ।") == "एक ही पैराग्राफ।"
+
+    def test_empty_input(self):
+        assert _clean_deep_dive_text("") == ""
+        assert _clean_deep_dive_text(None) == ""
 
 
 class TestMatchLabel:

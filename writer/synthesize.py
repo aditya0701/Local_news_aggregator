@@ -7,7 +7,7 @@ from deep_translator import GoogleTranslator
 from langdetect import LangDetectException, detect
 
 from writer.entity_cache import get_entity, load_cache, save_cache, set_entity
-from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, search_web
+from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, build_identity_query, search_web
 from writer.web_context import scrape_source
 
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
@@ -337,7 +337,7 @@ Research Context (entity knowledge + web search results):
 {entity_context}
 
 Think through the editorial strategy for this Hindi article and write out your analysis in
-plain text (not JSON yet — that comes later). Cover exactly these five things, in order:
+plain text (not JSON). Cover exactly these five things, in order:
 
 CORE NARRATIVE: the real story and underlying tension, one sentence.
 KEY FACTS AND QUOTES: the facts/figures/statements that must appear in the article.
@@ -346,9 +346,9 @@ CATEGORY: exactly one of acquisition|model_release|ban_regulation|repo_analysis|
 PARAGRAPH PLAN: a numbered list, 4-6 paragraphs — use as many as the story genuinely has
   substance for (a maximum driven by real content, not a target to hit; a thin story with only
   4 paragraphs' worth of real material should stay at 4, don't pad with restated facts to reach
-  6). For each paragraph, write 2-4 sentences specifying exactly what to say, which
+  6). For each paragraph, write sentences specifying exactly what to say, which
   facts/entities/numbers belong in it, and the tone — enough detail that a writer needs zero
-  additional thinking to produce a full 3-5 sentence paragraph from it. List out the specific
+  additional thinking to produce a full sentence paragraph from it. List out the specific
   facts, figures, comparisons, and quotes to use, not just the general theme."""
 
 _STAGE2_EXTRACTION_PROMPT = """Below is a टेकदृष्टि editorial director's finalized analysis for a Hindi tech news article.
@@ -367,6 +367,7 @@ Output ONLY valid JSON with exactly these keys:
   "paragraph_plan": [
     "Para 1: <first paragraph's instruction from PARAGRAPH PLAN above>",
     "Para 2: <second paragraph's instruction>"
+    ...
   ]
 }}
 
@@ -380,12 +381,24 @@ instruction's own wording into the article — the plan tells you WHAT to cover,
 write. Turn each instruction into actual flowing Hindi prose that DOES what it says, using the source
 facts and entity definitions provided.
 
+You are writing for टेकदृष्टि, a premium Hindi tech publication — readers expect the same depth
+and unhurried pacing they'd get from a serious print newspaper, not a quick blog summary. Take
+the time each paragraph actually needs; do not rush to wrap a paragraph up in 2 sentences just
+because the plan's instruction itself was short. A short instruction still deserves a fully
+developed paragraph once you bring in the source facts, entity context, and real-world
+implications around it.
+
 Write a COMPREHENSIVE, substantial article, not a short summary — you have a generous token budget for
-this, use it. Every body paragraph (introduction_lede, deep_dive_and_context, strategic_analysis,
-conclusion_and_significance) should be full, multi-sentence Hindi prose that genuinely explains
-mechanism, context, background, and implications from the plan and source facts — not a one-line
-gist of the paragraph's topic. deep_dive_and_context in particular is the main body of the article:
+this, use it. Every body paragraph should be full, multi-sentence Hindi prose that genuinely builds up on
+the plan and source facts — not a one-line gist of the paragraph's topic. deep_dive_and_context in particular is the main body of the article:
 it should be the longest section, covering every middle paragraph from the plan in real depth.
+
+Each individual middle paragraph inside deep_dive_and_context must be at least 5-7 substantial
+sentences on its own — not 2-3. Do not treat the plan's one-line instruction as a cap on length;
+expand it: bring in the specific facts/figures/quotes from SOURCE FACTS and ENTITY DEFINITIONS
+that support that paragraph's point, explain the mechanism or reasoning behind it, and spell out
+why it matters, before moving to the next paragraph. A paragraph that only restates the plan's
+instruction in one or two sentences is unacceptably thin for this publication.
 
 CRITICAL — instruction vs. content, do not confuse the two:
 WRONG (copies the instruction itself, explains nothing): "उपकरण के पीछे की तकनीक की व्याख्या करें। वर्णन करें कि यह कैसे काम करता है।"
@@ -407,16 +420,27 @@ Category framing for STRATEGIC_ANALYSIS paragraph: {category_framing}
 
 Mapping the plan's paragraphs (there may be 4-6) onto the JSON fields below:
 - The FIRST paragraph in the plan -> introduction_lede
-- EVERY paragraph BETWEEN the first and the last (Para 2 through the second-to-last, however
-  many that is) -> deep_dive_and_context, combined into one thorough, multi-paragraph-worth section
+- The MIDDLE paragraphs in the plan -> deep_dive_and_context (add as many middle paragraphs as the plan has, in order each having their own paragraph number and content)
 - The LAST paragraph in the plan -> strategic_analysis, using the category framing
+
+deep_dive_and_context MUST keep each middle plan-paragraph as its own separate paragraph in
+the output — put a literal blank line (the two characters \\n\\n) between them in the JSON
+string value. Do NOT merge them into one run-on block of text; a reader needs to see where one
+paragraph ends and the next begins. If the plan has 3 middle paragraphs, your
+deep_dive_and_context value MUST contain exactly 2 occurrences of \\n\\n (never zero).
+
+WRONG (3 middle paragraphs merged into one continuous block, no \\n\\n anywhere):
+"deep_dive_and_context": "पहली बात यह है कि X हुआ। दूसरी बात यह है कि Y हुआ। तीसरी बात यह है कि Z हुआ।"
+
+CORRECT (same 3 middle paragraphs, each kept separate with \\n\\n between them):
+"deep_dive_and_context": "पहली बात यह है कि X हुआ।\\n\\nदूसरी बात यह है कि Y हुआ।\\n\\nतीसरी बात यह है कि Z हुआ।"
 
 Output ONLY valid JSON with exactly these keys (no markdown, no preamble, no code fences):
 {{
   "title": "<one sharp Hindi headline based on the title idea>",
   "concept_box": "<2-3 sentences — explain the ONE hardest concept for a newcomer, in simple Hindi>",
   "introduction_lede": "<actual prose fulfilling Para 1's instruction, not the instruction itself — 3-5 substantial sentences>",
-  "deep_dive_and_context": "<actual prose combining every middle paragraph's instruction in full depth, not the instructions themselves — this is the main body, cover every fact/comparison/quote from those instructions, several sentences per paragraph covered>",
+  "deep_dive_and_context": "<Para A text...\\n\\nPara B text...\\n\\nPara C text... — one \\n\\n-separated paragraph per middle plan-paragraph, actual prose not the instructions themselves, covering every fact/comparison/quote from those instructions, each paragraph 5-7+ substantial sentences, not a short gist>",
   "strategic_analysis": "<actual prose fulfilling the final paragraph's instruction using the category framing — 3-5 substantial sentences>",
   "conclusion_and_significance": "<one strong closing paragraph — 3-4 sentences on what this means for the reader>"
 }}
@@ -629,6 +653,27 @@ def _clean_field_text(text: str) -> str:
     return _trim_to_last_sentence(" ".join(lines).strip())
 
 
+def _clean_deep_dive_text(text: str) -> str:
+    """Like _clean_field_text, but preserves the model's blank-line paragraph
+    breaks instead of collapsing deep_dive_and_context into one run-on block —
+    see CLAUDE.md "next line" investigation for why this field needs its own
+    cleaner: the frontend renders it as a single <p>, splitting on \\n\\n."""
+    if not text:
+        return ""
+    paragraphs = re.split(r"\n\s*\n", text.strip())
+    cleaned = []
+    for para in paragraphs:
+        lines = [ln.strip() for ln in para.splitlines()]
+        lines = [ln for ln in lines if ln and not _is_meta_line(ln)]
+        joined = " ".join(lines).strip()
+        if joined:
+            cleaned.append(joined)
+    if not cleaned:
+        return ""
+    cleaned[-1] = _trim_to_last_sentence(cleaned[-1])
+    return "\n\n".join(cleaned)
+
+
 _STAGE3_FIELDS = [
     "title", "concept_box", "introduction_lede",
     "deep_dive_and_context", "strategic_analysis", "conclusion_and_significance",
@@ -672,7 +717,11 @@ def _parse_stage3_output(raw: str | None) -> dict | None:
         return None
     parsed = _parse_json_response(raw)
     if parsed and all(isinstance(parsed.get(k), str) and parsed.get(k) for k in ("title", "introduction_lede")):
-        return {k: _clean_field_text(parsed.get(k, "")) for k in _STAGE3_FIELDS}
+        return {
+            k: _clean_deep_dive_text(parsed.get(k, "")) if k == "deep_dive_and_context"
+            else _clean_field_text(parsed.get(k, ""))
+            for k in _STAGE3_FIELDS
+        }
     return _parse_labeled_text(raw)
 
 
@@ -1070,13 +1119,17 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     # ------------------------------------------------------------------
     # Web search — identity queries ("what is X") and context queries
     # ("why now"/comparison) go through different free tiers, since they need
-    # different kinds of sources: Wikipedia has stable definitions but no
-    # news, so identity queries try Wikipedia first; context queries need
-    # recent material Wikipedia can't give, so those try Google News RSS
-    # first. Both fall back to DDG. See writer/search.py for details.
+    # different kinds of sources: identity queries go straight to DDG
+    # (Wikipedia was tried and deliberately removed as a source entirely —
+    # see CLAUDE.md), context queries need recent coverage so those try
+    # Google News RSS first and fall back to DDG. See writer/search.py.
     # ------------------------------------------------------------------
     identity_queries = [
-        f'"{e["name"]}" {e.get("type", "unknown")} overview'
+        build_identity_query(
+            e["name"],
+            e.get("type", "unknown"),
+            e.get("resolved_sense") if e.get("ambiguous") else None,
+        )
         for e in entities_needing_search
     ]
     model_queries = search_queries[:3]
@@ -1120,7 +1173,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         entity_type = entity.get("type", "unknown")
         is_ambiguous = entity.get("ambiguous", False)
         resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
-        identity_q = f'"{name}" {entity_type} overview'
+        identity_q = build_identity_query(name, entity_type, resolved_sense)
         answer = synthesized_results.get(identity_q, "")
         if answer:
             entity_context_parts.append(f"{name}: {answer}")

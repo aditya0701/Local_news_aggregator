@@ -665,7 +665,8 @@
           // Build one flowing body: deep dive + strategic analysis + conclusion
           let bodyHtml = '';
           if (item.deep_dive_and_context) {
-            bodyHtml += `<p>${escapeHtml(item.deep_dive_and_context)}</p>`;
+            const paras = item.deep_dive_and_context.split(/\n\s*\n/).filter(p => p.trim());
+            bodyHtml += paras.map(p => `<p>${escapeHtml(p.trim())}</p>`).join('');
           }
           if (item.strategic_analysis) {
             bodyHtml += `<p class="subhead">रणनीतिक दृष्टिकोण</p><p>${escapeHtml(item.strategic_analysis)}</p>`;
