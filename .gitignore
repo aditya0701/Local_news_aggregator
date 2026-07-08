@@ -13,3 +13,7 @@ package-lock.json
 output/*
 !output/articles_hindi.json
 !output/pipeline_trace.json
+
+# experiments/ is a scratch/exploration workspace (provider comparisons, search
+# test-case dumps, one-off live-run outputs) -- not part of the pipeline.
+experiments/
