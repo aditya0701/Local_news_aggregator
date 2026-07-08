@@ -8,12 +8,15 @@ from writer.synthesize import (
     _clean_field_text,
     _detect_language,
     _drop_hallucinated_comparisons,
+    _entity_referenced_in_query,
     _is_meta_line,
     _is_sentence_end,
     _match_label,
     _parse_json_response,
     _parse_labeled_text,
     _parse_stage3_output,
+    _prepare_context_queries,
+    _query_has_dangling_reference,
     _query_names_unlisted_competitor,
     _stage3_write_article_with_retry,
     _translate_to_english,
@@ -446,3 +449,283 @@ class TestSkipRegex:
 
     def test_no_match_when_absent(self):
         assert _SKIP_RE.search("no skip field here") is None
+
+
+class TestQueryHasDanglingReference:
+    """Grammar-rule check for the dangling-reference bug (see CLAUDE.md,
+    2026-07-08): a GAP query that points back at its subject with a
+    demonstrative ("this vulnerability", "that attack") instead of naming it
+    only makes sense within one conversation, but each GAP query is
+    dispatched to the search backend as an independent standalone question.
+    `test_real_gitlost_gap_queries_from_a_live_run` below is the actual real
+    example this was built from — the two other tests here just isolate the
+    rule with clean synthetic cases."""
+
+    ENTITY_NAMES = ["GitLost", "GitHub", "Agentic Workflows"]
+
+    def test_flags_demonstrative_with_no_named_entity(self):
+        query = (
+            "What are the specific technical details of the vulnerability, such as the exact "
+            "payload or the sequence of actions the agent takes, and how does this differ from "
+            "a standard repository access control bypass?"
+        )
+        assert _query_has_dangling_reference(query, self.ENTITY_NAMES) is True
+
+    def test_does_not_flag_when_subject_is_named_explicitly(self):
+        query = "How does the GitLost vulnerability compare to previously disclosed supply-chain attacks?"
+        assert _query_has_dangling_reference(query, self.ENTITY_NAMES) is False
+
+    def test_does_not_flag_query_with_no_demonstrative_at_all(self):
+        query = "What is GitLost and why is it considered a critical vulnerability?"
+        assert _query_has_dangling_reference(query, self.ENTITY_NAMES) is False
+
+    def test_real_gitlost_gap_queries_from_a_live_run(self):
+        """These three exact strings are what a real production Stage 1 run
+        generated for a real Hacker News article ("GitLost: We Tricked
+        GitHub's AI Agent into Leaking Private Repos", captured in
+        experiments/search_test_cases_20260708T113409Z.json) — not
+        hand-written examples. GAP1 named GitLost explicitly; GAP2 is the bug
+        this whole fix is for (it never repeats "GitLost" or any other named
+        entity); GAP3 stays clean because "Agentic Workflows" is itself
+        named."""
+        gap1 = (
+            "How does the GitLost vulnerability's attack vector and impact compare to other "
+            "known prompt injection attacks against AI agents, and what does this reveal about "
+            "the security of the underlying Agentic Workflows technology?"
+        )
+        gap2 = (
+            "What are the specific technical details of the vulnerability, such as the exact "
+            "payload or the sequence of actions the agent takes, and how does this differ from "
+            "a standard repository access control bypass?"
+        )
+        gap3 = (
+            "Beyond the immediate data leakage, what are the long-term implications for "
+            "organizations using GitHub Agentic Workflows, and what specific mitigation "
+            "strategies or security best practices should they adopt to prevent similar attacks?"
+        )
+        assert _query_has_dangling_reference(gap1, self.ENTITY_NAMES) is False
+        assert _query_has_dangling_reference(gap2, self.ENTITY_NAMES) is True
+        assert _query_has_dangling_reference(gap3, self.ENTITY_NAMES) is False
+
+    def test_abbreviated_multiword_entity_reference_is_not_a_false_positive(self):
+        """Real false positive caught by the live test (tests/test_live_gap_queries.py): a query
+        referred to the entity "GitHub Agentic Workflows" as just "the Agentic Workflows
+        architecture" — dropping the "GitHub" prefix is normal English, not a dangling
+        reference, and should not be flagged."""
+        query = (
+            "What is the underlying technical mechanism of the Agentic Workflows architecture "
+            "that allows a public issue to trigger an action on private repositories, and how "
+            "does this design choice create the vulnerability?"
+        )
+        assert _query_has_dangling_reference(query, ["GitHub Agentic Workflows"]) is False
+
+
+class TestEntityReferencedInQuery:
+    def test_exact_single_word_match(self):
+        assert _entity_referenced_in_query("GitLost", "what is gitlost about?") is True
+
+    def test_single_word_no_match(self):
+        assert _entity_referenced_in_query("GitLost", "what is the vulnerability about?") is False
+
+    def test_abbreviated_multiword_reference_counts(self):
+        assert _entity_referenced_in_query("GitHub Agentic Workflows", "the agentic workflows architecture") is True
+
+    def test_single_shared_generic_word_is_not_enough(self):
+        assert _entity_referenced_in_query("GitHub Agentic Workflows", "other automation workflows exist") is False
+
+    def test_unrelated_text_no_match(self):
+        assert _entity_referenced_in_query("GitHub Agentic Workflows", "completely unrelated text") is False
+
+    def test_two_word_entity_name_requires_both_words_not_just_one(self):
+        """Found via tests/test_gap_context_fixtures.py replaying real captured Stage 1 output:
+        with "half the words rounded up", a 2-word name's threshold rounds down to 1, so a
+        single shared generic word was enough to count as a match. A real GAP query about
+        GitLost contained the plain English word "actions" ("...the sequence of actions the
+        agent takes...") which alone satisfied the 2-word entity name "GitHub Actions" -- a
+        false match on a coincidental generic word, not an actual reference to that entity."""
+        query = "how does this differ, given the sequence of actions the agent takes?"
+        assert _entity_referenced_in_query("GitHub Actions", query) is False
+
+    def test_two_word_entity_name_matches_when_both_words_present(self):
+        query = "how does this compare to other github actions workflows?"
+        assert _entity_referenced_in_query("GitHub Actions", query) is True
+
+
+class TestPrepareContextQueries:
+    """Added 2026-07-08 after a live test (tests/test_live_gap_queries.py) confirmed the
+    prompt-only fix in _STAGE1_ANALYSIS_PROMPT does not reliably prevent dangling references —
+    same lesson already learned for hallucinated comparisons (TestDropHallucinatedComparisons
+    above). Instead of dropping a dangling query outright, this attaches the first GAP query as
+    background context to it (Stage 1's checklist ordering reliably puts the article's central
+    "what is X" question first), only dropping as a last resort if it's still dangling even with
+    that context attached."""
+
+    ENTITIES = [{"name": "GitLost", "type": "product"}, {"name": "GitHub Agentic Workflows", "type": "technology"}]
+
+    def test_first_query_is_always_kept_unchanged(self):
+        first = "What is GitLost and why is it considered a critical vulnerability?"
+        result = _prepare_context_queries([first], self.ENTITIES)
+        assert result == [(first, first)]
+
+    def test_dangling_later_query_gets_gap1_attached_as_context(self):
+        first = "What is GitLost and why is it considered a critical vulnerability?"
+        dangling = (
+            "What are the specific technical details of the vulnerability, that allow it to be "
+            "triggered by a public issue?"
+        )
+        result = _prepare_context_queries([first, dangling], self.ENTITIES)
+        assert result[0] == (first, first)
+        orig, dispatch_text = result[1]
+        assert orig == dangling
+        assert dispatch_text != dangling
+        assert first in dispatch_text
+        assert dangling in dispatch_text
+
+    def test_non_dangling_later_query_is_kept_unchanged(self):
+        first = "What is GitLost and why is it considered a critical vulnerability?"
+        clean = "How does the Agentic Workflows architecture allow this to be triggered?"
+        result = _prepare_context_queries([first, clean], self.ENTITIES)
+        assert result[1] == (clean, clean)
+
+    def test_dropped_only_if_still_dangling_with_context_attached(self):
+        # Neither query names any entity at all -- attaching the first as context to the
+        # second doesn't help, so both are dropped rather than sent dangling. (The first query
+        # gets no special exemption from the final filter -- if GAP1 itself dangles with no
+        # entity to name, there's nothing earlier to rescue it either.)
+        first = "What does this reveal about the security of AI-powered automation in general?"
+        dangling = "How does this compare to other known attacks against it?"
+        result = _prepare_context_queries([first, dangling], self.ENTITIES)
+        assert result == []
+
+    def test_first_query_kept_when_it_does_not_dangle_even_with_no_entity_match(self):
+        # A first query with no pointing word at all should never be dropped, regardless of
+        # whether it happens to name an entity.
+        first = "What are the industry-standard mitigations for prompt injection attacks?"
+        result = _prepare_context_queries([first], self.ENTITIES)
+        assert result == [(first, first)]
+
+    def test_empty_queries_returns_empty(self):
+        assert _prepare_context_queries([], self.ENTITIES) == []
+
+    def test_real_gitlost_gap_queries_from_a_live_run(self):
+        """Same real captured queries used in TestQueryHasDanglingReference — GAP2 is the actual
+        bug this fix is for."""
+        gap1 = (
+            "How does the GitLost vulnerability's attack vector and impact compare to other "
+            "known prompt injection attacks against AI agents, and what does this reveal about "
+            "the security of the underlying Agentic Workflows technology?"
+        )
+        gap2 = (
+            "What are the specific technical details of the vulnerability, such as the exact "
+            "payload or the sequence of actions the agent takes, and how does this differ from "
+            "a standard repository access control bypass?"
+        )
+        gap3 = (
+            "Beyond the immediate data leakage, what are the long-term implications for "
+            "organizations using GitHub Agentic Workflows, and what specific mitigation "
+            "strategies or security best practices should they adopt to prevent similar attacks?"
+        )
+        result = _prepare_context_queries([gap1, gap2, gap3], self.ENTITIES)
+        origs = [orig for orig, _ in result]
+        assert origs == [gap1, gap2, gap3]
+        dispatch_by_orig = dict(result)
+        assert dispatch_by_orig[gap1] == gap1
+        assert dispatch_by_orig[gap2] != gap2 and gap1 in dispatch_by_orig[gap2]
+        assert dispatch_by_orig[gap3] == gap3
+
+
+class TestSearchRoutingByAmbiguity:
+    """Covers the 2026-07-08 change: unambiguous entities are cheap "what is
+    X" lookups and should always go to the free DDG tier, never the
+    research agent (/api/concise) — that's reserved for ambiguous entities
+    (need real disambiguation) and GAP/context queries (need real
+    reasoning). Drives the real _synthesize_sarvam() function end-to-end
+    with every I/O dependency mocked, so this exercises the actual routing
+    logic in writer/synthesize.py rather than a reimplementation of it."""
+
+    CLUSTER = [{"title": "some headline", "summary": "s" * 300, "url": "http://example.com/a"}]
+
+    STAGE1_RESULT = {
+        "skip": False,
+        "search_queries": ["a context question"],
+        "entities": [
+            {"name": "PlainCo", "type": "company"},
+            {
+                "name": "Ambico",
+                "type": "product",
+                "ambiguous": True,
+                "resolved_sense": "the software, not the mascot",
+            },
+        ],
+    }
+
+    def _install_common_mocks(self, monkeypatch, use_concise, search_web_calls, ask_concise_calls):
+        monkeypatch.setattr(synthesize_mod, "fetch_page", lambda url: "x" * 300)
+        monkeypatch.setattr(synthesize_mod, "_detect_language", lambda text: "en")
+        monkeypatch.setattr(synthesize_mod, "_stage1_extract_queries", lambda *a, **k: dict(self.STAGE1_RESULT))
+        monkeypatch.setattr(synthesize_mod, "load_cache", lambda: {})
+        monkeypatch.setattr(synthesize_mod, "get_entity", lambda cache, name, resolved_sense=None: None)
+        monkeypatch.setattr(synthesize_mod, "set_entity", lambda *a, **k: None)
+        monkeypatch.setattr(synthesize_mod, "save_cache", lambda cache: None)
+        monkeypatch.setattr(synthesize_mod, "concise_configured", lambda: use_concise)
+        # Short-circuit right after the search block — Stage 2/3 aren't what's
+        # under test here, and returning None just makes _synthesize_sarvam
+        # bail out cleanly once the assertions-relevant work is done.
+        monkeypatch.setattr(synthesize_mod, "_stage2_editorial_strategy", lambda *a, **k: None)
+
+        def fake_search_web(queries, tiers):
+            search_web_calls.append(list(queries))
+            return {q: f"raw:{q}" for q in queries}
+
+        def fake_ask_concise(q):
+            ask_concise_calls.append(q)
+            return f"concise answer: {q}"
+
+        def fake_synthesize(identity_results, context_results, api_key):
+            return {**identity_results, **context_results}
+
+        monkeypatch.setattr(synthesize_mod, "search_web", fake_search_web)
+        monkeypatch.setattr(synthesize_mod, "ask_concise", fake_ask_concise)
+        monkeypatch.setattr(synthesize_mod, "_synthesize_search_results", fake_synthesize)
+
+    def test_unambiguous_entity_always_routed_to_ddg_even_when_concise_configured(self, monkeypatch):
+        search_web_calls, ask_concise_calls = [], []
+        self._install_common_mocks(monkeypatch, True, search_web_calls, ask_concise_calls)
+
+        synthesize_mod._synthesize_sarvam(self.CLUSTER, "fake-api-key")
+
+        ddg_queries = [q for call in search_web_calls for q in call]
+        assert any("PlainCo" in q for q in ddg_queries)
+        assert not any("PlainCo" in q for q in ask_concise_calls)
+
+    def test_ambiguous_entity_routed_to_concise_when_configured(self, monkeypatch):
+        search_web_calls, ask_concise_calls = [], []
+        self._install_common_mocks(monkeypatch, True, search_web_calls, ask_concise_calls)
+
+        synthesize_mod._synthesize_sarvam(self.CLUSTER, "fake-api-key")
+
+        ddg_queries = [q for call in search_web_calls for q in call]
+        assert any("Ambico" in q for q in ask_concise_calls)
+        assert not any("Ambico" in q for q in ddg_queries)
+
+    def test_context_query_routed_to_concise_when_configured(self, monkeypatch):
+        search_web_calls, ask_concise_calls = [], []
+        self._install_common_mocks(monkeypatch, True, search_web_calls, ask_concise_calls)
+
+        synthesize_mod._synthesize_sarvam(self.CLUSTER, "fake-api-key")
+
+        ddg_queries = [q for call in search_web_calls for q in call]
+        assert "a context question" in ask_concise_calls
+        assert "a context question" not in ddg_queries
+
+    def test_ambiguous_entity_and_context_fall_back_to_ddg_when_concise_not_configured(self, monkeypatch):
+        search_web_calls, ask_concise_calls = [], []
+        self._install_common_mocks(monkeypatch, False, search_web_calls, ask_concise_calls)
+
+        synthesize_mod._synthesize_sarvam(self.CLUSTER, "fake-api-key")
+
+        ddg_queries = [q for call in search_web_calls for q in call]
+        assert any("PlainCo" in q for q in ddg_queries)
+        assert any("Ambico" in q for q in ddg_queries)
+        assert "a context question" in ddg_queries
+        assert ask_concise_calls == []

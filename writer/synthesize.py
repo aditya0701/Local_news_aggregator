@@ -80,6 +80,7 @@ SKIP: yes or no
 "SKIP: yes" means discard this article. "SKIP: no" means keep it, it is genuine news."""
 
 _SKIP_RE = re.compile(r"SKIP:\s*(yes|no)", re.IGNORECASE)
+_SKIP_REASON_RE = re.compile(r"REASON:\s*(.+)", re.IGNORECASE)
 
 
 # Step 2 — entity + gap analysis. Only runs if Step 1 kept the article.
@@ -151,6 +152,21 @@ Think in this order:
    "What is Langflow, and why has CVE-2025-3248 been considered a serious vulnerability in it?"
    STILL AVOID (unknowable prediction, not even a real researcher could answer this):
    "Will AI-driven ransomware attacks become the dominant form of cybercrime by 2028?"
+
+   HARD RULE, no exceptions: each GAP query is sent to the research agent completely on its own,
+   as a fresh standalone question -- it does NOT see this article, does NOT see the other GAP
+   queries, and has no memory of anything you wrote above. Never refer to "this vulnerability",
+   "this model", "this attack", "the tool", "it", or any other pronoun/vague reference that only
+   makes sense to someone who already read GAP1 or the article -- a reader (or research agent)
+   seeing ONLY that one query, with nothing else, must be able to tell exactly what it's about.
+   Always spell out the actual name every time, even if that means repeating a name already used
+   in an earlier GAP line.
+   WRONG (GAP2 only makes sense if you already know GAP1's subject):
+   GAP1: "What is GitLost and why is it considered a critical vulnerability?"
+   GAP2: "How does this vulnerability compare to previously disclosed supply-chain attacks?"
+   CORRECT (each line names its subject on its own):
+   GAP1: "What is GitLost and why is it considered a critical vulnerability?"
+   GAP2: "How does the GitLost vulnerability compare to previously disclosed supply-chain attacks?"
 
    HARD RULE, no exceptions: every named competitor/model/company that appears in a GAP query
    MUST already be present, character-for-character, in the ENTITIES list you just wrote above
@@ -310,6 +326,115 @@ def _drop_hallucinated_comparisons(queries: list[str], entities: list[dict], sou
             print(f"[stage1] dropping hallucinated-comparison query: {q}")
             continue
         kept.append(q)
+    return kept
+
+
+# Dangling-reference bug (found 2026-07-08, see CLAUDE.md): a GAP query using a pointing word
+# ("this", "that", "it" — grammatically these are demonstrative/anaphoric pronouns, the class of
+# words that stand in for a noun already named elsewhere rather than naming it again) only makes
+# sense within one conversation — but each GAP query is dispatched to the search/research
+# backend as an independent, standalone question with no memory of any other GAP query or the
+# article (see the HARD RULE added to _STAGE1_ANALYSIS_PROMPT above). Confirmed live on a real
+# article ("GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos"): GAP1 named
+# GitLost explicitly, but GAP2 said "the vulnerability" and "...how does this differ from a
+# standard repository access control bypass?" without ever repeating "GitLost" (or any other
+# named entity) anywhere in the query text — so a backend answering GAP2 alone has nothing in
+# the query itself for "this"/"the vulnerability" to resolve to.
+#
+# Deliberately NOT scoped to "pointing word immediately followed by a generic noun" (e.g. "this
+# vulnerability") — the real GAP2 case above shows the pointing word can stand alone ("how does
+# this differ") with the generic noun phrase ("the vulnerability") appearing separately in the
+# same query. What actually distinguishes a fine same-query "this" (referring to something named
+# earlier in that SAME query, which is normal English) from a dangling cross-query one is simply
+# whether any of this article's own named entities appear ANYWHERE in the query at all.
+_POINTING_WORD_RE = re.compile(r"\b(this|that|these|those|it)\b", re.IGNORECASE)
+
+
+def _entity_referenced_in_query(name: str, query_lower: str) -> bool:
+    """True if `query_lower` names `name`, allowing an abbreviated reference to a multi-word
+    entity name — not just an exact full-string match.
+
+    Confirmed live this matters: a real GAP query referred to the entity "GitHub Agentic
+    Workflows" as just "the Agentic Workflows architecture" — dropping the "GitHub" prefix is a
+    completely normal way to refer back to an already-established compound proper noun, not a
+    dangling reference, but a naive exact-substring check flagged it as one anyway (a false
+    positive caught by the live test in tests/test_live_gap_queries.py, not hypothetical).
+    Requires at least half (rounded up) of the name's words to appear together, so a single
+    generic word shared with a multi-word name ("Workflows" alone) still isn't enough on its own.
+
+    Floored at 2 words even for a 2-word name (not "half rounded up", which would be 1) — found
+    and fixed via tests/test_gap_context_fixtures.py replaying real captured Stage 1 output: a
+    real GAP query about "GitHub" contained the plain English word "actions" ("...the sequence
+    of actions the agent takes...") which, with the naive half-rounded-up rule, alone satisfied
+    the 2-word entity name "GitHub Actions" — a false match on a generic word coincidentally
+    overlapping one word of an unrelated compound name, not an actual reference to that entity.
+    """
+    words = name.lower().split()
+    if len(words) <= 1:
+        return name.lower() in query_lower if name else False
+    min_len = max(2, (len(words) + 1) // 2)
+    for length in range(len(words), min_len - 1, -1):
+        for start in range(len(words) - length + 1):
+            if " ".join(words[start : start + length]) in query_lower:
+                return True
+    return False
+
+
+def _query_has_dangling_reference(query: str, entity_names: list[str]) -> bool:
+    """True if `query` uses a pointing word ("this", "that", "it", ...) and none of this
+    article's own named entities appear anywhere in the query text — meaning the pointing word
+    has nothing in the query itself to resolve to once it's sent to a backend with no memory of
+    the other GAP lines or the article.
+
+    Prompt-only fix (the HARD RULE in _STAGE1_ANALYSIS_PROMPT) is not yet backed by dropping
+    matches here in production the way _drop_hallucinated_comparisons does for its bug — this
+    function exists so the prompt fix can be checked with a live test first (see
+    tests/test_live_gap_queries.py) before deciding whether a code-level drop is warranted too.
+    """
+    if not _POINTING_WORD_RE.search(query):
+        return False
+    query_lower = query.lower()
+    return not any(_entity_referenced_in_query(name, query_lower) for name in entity_names if name)
+
+
+def _prepare_context_queries(queries: list[str], entities: list[dict]) -> list[tuple[str, str]]:
+    """Returns (original_query, text_to_dispatch) pairs for GAP/context queries.
+
+    Added 2026-07-08 after a live test (tests/test_live_gap_queries.py) confirmed the prompt-only
+    HARD RULE fix in _STAGE1_ANALYSIS_PROMPT does not reliably prevent dangling references — a
+    fresh live run reproduced the exact same bug class within minutes of the prompt fix landing
+    (a query asking "...that allow it to be triggered by a public issue?" with no named entity
+    anywhere in it). An earlier version of this function just dropped such queries outright
+    (same fix `_drop_hallucinated_comparisons` above uses for its bug) — but unlike a
+    hallucinated name, a dangling "this"/"it" isn't a fabrication to remove, it's a real,
+    editorially useful question that's just missing its own antecedent. Stage 1's own checklist
+    ordering reliably puts the article's central "what is X" question first (see
+    _STAGE1_ANALYSIS_PROMPT), so re-attaching that first query as background context to every
+    later dangling one usually supplies the missing name without needing to guess which entity
+    it is, and without losing the question. Dropping is now only the last resort, for a query
+    that's STILL dangling even with that context attached (i.e. neither it nor the first query
+    names any of the article's own entities) — there's no reliable name left to attach at that
+    point, and inventing one would be fabricating content, not fixing it.
+    """
+    if not queries:
+        return []
+    entity_names = [e.get("name", "") for e in entities if e.get("name")]
+    first = queries[0]
+    pairs: list[tuple[str, str]] = [(first, first)]
+    for q in queries[1:]:
+        dispatch_text = q
+        if _query_has_dangling_reference(q, entity_names):
+            dispatch_text = f"Background context: {first}\n\nQuestion: {q}"
+        pairs.append((q, dispatch_text))
+
+    kept = []
+    for orig, dispatch_text in pairs:
+        if _query_has_dangling_reference(dispatch_text, entity_names):
+            print(f"[stage1] dropping dangling-reference query (no usable context to attach): {orig}")
+            continue
+        if dispatch_text != orig:
+            print(f"[stage1] attached GAP1 as context to dangling-reference query: {orig}")
+        kept.append((orig, dispatch_text))
     return kept
 
 
@@ -852,8 +977,10 @@ def _stage1_extract_queries(
     skip_match = _SKIP_RE.search(skip_raw)
     if not skip_match:
         return None
+    reason_match = _SKIP_REASON_RE.search(skip_raw)
+    skip_reason = reason_match.group(1).strip() if reason_match else None
     if skip_match.group(1).lower() == "yes":
-        return {"skip": True}
+        return {"skip": True, "skip_reason": skip_reason}
 
     analysis_prompt = _STAGE1_ANALYSIS_PROMPT.format(title=title, summary=summary[:500], source_text=truncated_source)
     analysis = _call_sarvam(
@@ -875,9 +1002,14 @@ def _stage1_extract_queries(
     result = _parse_json_response(raw)
     if result is not None:
         result["skip"] = False
+        result["skip_reason"] = skip_reason
         result["search_queries"] = _drop_hallucinated_comparisons(
             result.get("search_queries", []), result.get("entities", []), source_text
         )
+        # Dangling-reference handling (pointing words like "this"/"it" with no named entity)
+        # happens later, at dispatch time in _synthesize_sarvam via _prepare_context_queries —
+        # that's where GAP1 can be attached as context to a later dangling query instead of
+        # just dropping it, which needs this list to still be in its original GAP order.
     return result
 
 
@@ -1198,7 +1330,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     trace["stage1"] = stage1
 
     if stage1.get("skip"):
-        print(f"  SKIP   : model flagged as not tech news")
+        print(f"  SKIP   : {stage1.get('skip_reason') or 'model flagged as not tech news (no reason captured)'}")
         trace["outcome"] = "skipped_not_tech_news"
         _run_traces.append(trace)
         return SKIP
@@ -1206,6 +1338,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     search_queries = stage1.get("search_queries", [])
     entities = stage1.get("entities", [])
     entity_labels = ", ".join(f"{e.get('name')} ({e.get('type')})" for e in entities) or "none"
+    print(f"  reason   : {stage1.get('skip_reason') or 'none captured'}")
     print(f"  entities : {entity_labels}")
     print(f"  queries  : {search_queries}")
 
@@ -1239,92 +1372,111 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     trace["cache"] = {"hits": cache_hits, "misses": cache_misses}
 
     # ------------------------------------------------------------------
-    # Web search — identity queries ("what is X") and GAP/context queries
-    # both go through the external research agent (/api/concise) when
-    # configured: it genuinely investigates a question — reads multiple
-    # sources, reasons about them — instead of keyword-matching a snippet,
-    # and its answer is already a direct response, so no separate synthesis
-    # call is needed for these (see writer/concise_search.py). Falls back to
-    # the old DDG/Google-News-RSS tiers + a dedicated synthesis call
-    # (writer/search.py) when CONCISE_API_URL/CONCISE_API_KEY aren't set —
-    # e.g. local dev without the external agent configured.
+    # Web search — split by how much judgment the query actually needs.
+    # Plain (unambiguous) entity lookups are cheap "what is X" fact checks —
+    # always routed to the free DDG tier, never the research agent, so the
+    # high-throughput/paid-feeling API isn't spent on low-level work it
+    # doesn't need. Ambiguous entities (need real disambiguation) and
+    # GAP/context queries (comparison/why-now, need real reasoning) go to the
+    # external research agent (/api/concise) when configured — see
+    # writer/concise_search.py. Both fall back to DDG/Google-News-RSS tiers +
+    # a dedicated synthesis call (writer/search.py) when
+    # CONCISE_API_URL/CONCISE_API_KEY aren't set, e.g. local dev.
     # ------------------------------------------------------------------
-    identity_queries = [
-        build_identity_query(
-            e["name"],
-            e.get("type", "unknown"),
-            e.get("resolved_sense") if e.get("ambiguous") else None,
-        )
-        for e in entities_needing_search
-    ]
-    model_queries = search_queries[:3]
+    plain_entities = [e for e in entities_needing_search if not e.get("ambiguous")]
+    ambiguous_entities = [e for e in entities_needing_search if e.get("ambiguous")]
+    # _prepare_context_queries attaches GAP1 as background context to any later query that
+    # dangles on a pointing word ("this"/"it") with no named entity of its own — see that
+    # function's docstring. This can drop a query outright (only if still dangling even with
+    # context attached), so model_queries is reassigned to whatever survives.
+    context_query_pairs = _prepare_context_queries(search_queries[:3], entities)
+    model_queries = [orig for orig, _ in context_query_pairs]
+    dispatch_text_by_query = dict(context_query_pairs)
     use_concise = concise_configured()
 
     print(
-        f"\n[SEARCH - {len(identity_queries)} identity + {len(model_queries)} context queries"
-        f"{' via /api/concise' if use_concise else ' via DDG/Google News'}]"
+        f"\n[SEARCH - {len(plain_entities)} entity via DDG, "
+        f"{len(ambiguous_entities)} ambiguous entity + {len(model_queries)} context via "
+        f"{'/api/concise' if use_concise else 'DDG/Google News'}]"
     )
 
     identity_answers: dict[str, str] = {}
     identity_not_found: dict[str, bool] = {}
     context_answers: dict[str, str] = {}
 
+    # Plain entities always go through DDG. Ambiguous entities and context
+    # queries only fall through to DDG when the research agent isn't configured.
+    identity_ddg_queries: dict[str, str] = {
+        e["name"]: build_identity_query(e["name"], e.get("type", "unknown")) for e in plain_entities
+    }
+    if not use_concise:
+        for e in ambiguous_entities:
+            identity_ddg_queries[e["name"]] = build_identity_query(
+                e["name"], e.get("type", "unknown"), e.get("resolved_sense")
+            )
+
+    identity_ddg_results = (
+        search_web(list(identity_ddg_queries.values()), IDENTITY_TIERS) if identity_ddg_queries else {}
+    )
+    # Dispatch whatever text _prepare_context_queries decided to send (the bare query, or the
+    # query with GAP1 attached as background) — then remap the results back to the original
+    # query text so downstream trace/entity-context assembly doesn't need to know about this.
+    context_ddg_results_raw = (
+        search_web([dispatch_text_by_query[q] for q in model_queries], CONTEXT_TIERS)
+        if (model_queries and not use_concise)
+        else {}
+    )
+    context_ddg_results = {q: context_ddg_results_raw.get(dispatch_text_by_query[q], "") for q in model_queries}
+    for q, text in {**identity_ddg_results, **context_ddg_results}.items():
+        tag = "[identity/ddg]" if q in identity_ddg_results else "[context/ddg] "
+        print(f"  {tag} {q[:50]:<50} -> {len(text)} chars")
+
+    synthesized_ddg: dict[str, str] = {}
+    if identity_ddg_results or context_ddg_results:
+        print(f"\n[SYNTHESIS - {_MODEL_FAST}]")
+        synthesized_ddg = _synthesize_search_results(identity_ddg_results, context_ddg_results, api_key)
+        for q, answer in synthesized_ddg.items():
+            print(f"  {q[:55]:<55} -> \"{answer[:80]}\"")
+
+    for name, q in identity_ddg_queries.items():
+        identity_answers[name] = synthesized_ddg.get(q, "")
+        identity_not_found[name] = False
+    if not use_concise:
+        for q in model_queries:
+            context_answers[q] = synthesized_ddg.get(q, "")
+
     if use_concise:
-        for entity in entities_needing_search:
+        for entity in ambiguous_entities:
             name = entity.get("name", "")
             entity_type = entity.get("type", "unknown")
-            resolved_sense = entity.get("resolved_sense") if entity.get("ambiguous") else None
+            resolved_sense = entity.get("resolved_sense")
             question = build_identity_question(name, entity_type, resolved_sense)
             answer = ask_concise(question)
             identity_answers[name] = answer
             identity_not_found[name] = bool(answer) and looks_like_not_found(answer)
             flag = " (not found)" if identity_not_found[name] else ""
-            print(f"  [identity] {name[:45]:<45} -> {len(answer)} chars{flag}")
+            print(f"  [identity/api] {name[:40]:<40} -> {len(answer)} chars{flag}")
 
         for q in model_queries:
-            answer = ask_concise(q)
+            answer = ask_concise(dispatch_text_by_query[q])
             context_answers[q] = answer
-            print(f"  [context ] {q[:45]:<45} -> {len(answer)} chars")
+            print(f"  [context/api ] {q[:40]:<40} -> {len(answer)} chars")
 
-        trace["search"] = {
-            "backend": "concise",
-            "identity_queries": identity_queries,
-            "context_queries": model_queries,
-            "results": {
-                **{n: a[:400] for n, a in identity_answers.items()},
-                **{q: a[:400] for q, a in context_answers.items()},
-            },
-        }
-    else:
-        identity_results = search_web(identity_queries, IDENTITY_TIERS) if identity_queries else {}
-        context_results = search_web(model_queries, CONTEXT_TIERS) if model_queries else {}
-        search_results = {**identity_results, **context_results}
-        for q, text in search_results.items():
-            tag = "[identity]" if q in identity_results else "[context] "
-            print(f"  {tag} {q[:55]:<55} -> {len(text)} chars")
-
-        trace["search"] = {
-            "backend": "ddg",
-            "identity_queries": identity_queries,
-            "context_queries": model_queries,
-            "results": {q: text[:400] for q, text in search_results.items()},
-        }
-
-        print(f"\n[SYNTHESIS - {_MODEL_FAST}]")
-        synthesized_results = _synthesize_search_results(identity_results, context_results, api_key)
-        for q, answer in synthesized_results.items():
-            print(f"  {q[:55]:<55} -> \"{answer[:80]}\"")
-        trace["synthesis"] = {q: a[:400] for q, a in synthesized_results.items()}
-
-        for entity in entities_needing_search:
-            name = entity.get("name", "")
-            entity_type = entity.get("type", "unknown")
-            resolved_sense = entity.get("resolved_sense") if entity.get("ambiguous") else None
-            identity_q = build_identity_query(name, entity_type, resolved_sense)
-            identity_answers[name] = synthesized_results.get(identity_q, "")
-            identity_not_found[name] = False
-        for q in model_queries:
-            context_answers[q] = synthesized_results.get(q, "")
+    trace["search"] = {
+        "backend": "hybrid" if use_concise else "ddg",
+        "identity_queries": list(identity_ddg_queries.values())
+        + [e["name"] for e in ambiguous_entities if use_concise],
+        "context_queries": model_queries,
+        "context_queries_with_gap1_attached": [
+            q for q in model_queries if dispatch_text_by_query[q] != q
+        ],
+        "results": {
+            **{n: a[:400] for n, a in identity_answers.items()},
+            **{q: a[:400] for q, a in context_answers.items()},
+        },
+    }
+    if synthesized_ddg:
+        trace["synthesis"] = {q: a[:400] for q, a in synthesized_ddg.items()}
 
     for q in model_queries:
         answer = context_answers.get(q, "")
