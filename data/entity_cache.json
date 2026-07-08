@@ -4588,5 +4588,404 @@
     "entity_type": "organization",
     "summary": "Alibaba Nacos is a dynamic service discovery, configuration management, and coordination platform for distributed applications. It is designed to help manage and scale microservices architectures by providing centralized configuration and service discovery capabilities.",
     "last_updated": "2026-07-07"
+  },
+  "mit opencourseware": {
+    "canonical_name": "MIT OpenCourseWare",
+    "entity_type": "general",
+    "summary": "MIT OpenCourseWare publishes materials from more than 2,500 MIT courses, spanning undergraduate and graduate programs. It offers course content and materials related to a wide range of collections, including topics like Africana Studies, Energy, and Introductory Programming.",
+    "last_updated": "2026-07-08"
+  },
+  "hal abelson": {
+    "canonical_name": "Hal Abelson",
+    "entity_type": "general",
+    "summary": "Hal Abelson is the Class of 1922 Professor of Electrical Engineering and Computer Science at MIT and a principal investigator at CSAIL. His research focuses on democratizing computing, making information technology a tool for everyone, and he has been at the forefront of computer science education.",
+    "last_updated": "2026-07-08"
+  },
+  "gerald jay sussman": {
+    "canonical_name": "Gerald Jay Sussman",
+    "entity_type": "general",
+    "summary": "Gerald Jay Sussman is the Panasonic Professor of Electrical Engineering at MIT and a professor of computer science and engineering. He received his S.B. and Ph.D. degrees in mathematics from MIT in 1968 and 1973, and has worked in Artificial Intelligence research at MIT since 1964.",
+    "last_updated": "2026-07-08"
+  },
+  "hewlettpackard": {
+    "canonical_name": "Hewlett-Packard",
+    "entity_type": "general",
+    "summary": "Hewlett-Packard Company (HP) is an American information technology company founded in 1939 by William Redington Hewlett and David Packard. It provides products, technologies, software, solutions, and services to consumers, small- and medium-sized businesses, and large enterprises.",
+    "last_updated": "2026-07-08"
+  },
+  "structure and interpretation of computer programs": {
+    "canonical_name": "Structure and Interpretation of Computer Programs",
+    "entity_type": "general",
+    "summary": "Structure and Interpretation of Computer Programs is a book by Harold Abelson and Gerald Jay Sussman, with a foreword by Alan J. Perlis. The book is based on a course taught by Abelson and Sussman at MIT and covers topics such as data abstraction, procedures, and hierarchical data structures.",
+    "last_updated": "2026-07-08"
+  },
+  "kokoro": {
+    "canonical_name": "Kokoro",
+    "entity_type": "ai_model",
+    "summary": "Kokoro is an open-weight text-to-speech (TTS) model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from productio",
+    "last_updated": "2026-07-08"
+  },
+  "local llm": {
+    "canonical_name": "Local LLM",
+    "entity_type": "technology",
+    "summary": "A Local LLM is a machine learning model deployed and executed on local hardware, rather than relying on external cloud services. Concerns about privacy, latency, and control have led many to explore local deployment of LLMs. The material does not provide details on the best options, their requiremen",
+    "last_updated": "2026-07-08"
+  },
+  "gtx 1080 ti": {
+    "canonical_name": "GTX 1080 Ti",
+    "entity_type": "product",
+    "summary": "The GTX 1080 Ti is a video card with 11GB GDDR5X 352-bit memory and a 7-phase dualFET power supply. It features a core clock boost of 1582 MHz and is built with 6 graphics processing clusters containing 28 SMs, 88 ROPs, and 224 TMUs. The GPU is comprised of 12 billion transistors and was released by",
+    "last_updated": "2026-07-08"
+  },
+  "soxsfnet": {
+    "canonical_name": "sox.sf.net",
+    "entity_type": "website",
+    "summary": "SoX 14.3.0 is a release of the SoX audio processing tool, which includes new filter effects like 'sinc', 'fir', and 'biquad', as well as other effects such as 'stats' and 'vad'. The release also features a new audio device handler for OpenBSD and fixes problems with temporary files on Windows. Sourc",
+    "last_updated": "2026-07-08"
+  },
+  "regulation eu 20211232": {
+    "canonical_name": "Regulation (EU) 2021/1232",
+    "entity_type": "regulation",
+    "summary": "Regulation (EU) 2021/1232 is a temporary derogation from the e-Privacy Directive that allows online communications services providers to voluntarily detect, report, and remove child sexual abuse material online until August 3, 2024. The regulation is in effect from August 2, 2021, until April 3, 202",
+    "last_updated": "2026-07-08"
+  },
+  "parliament": {
+    "canonical_name": "Parliament",
+    "entity_type": "organization",
+    "summary": "A parliament is a type of legislature, or law-making body, of a state that serves three main functions: representing the electorate, making laws, and overseeing the executive government. In the UK, Parliament consists of the House of Commons and the House of Lords, which together examine government",
+    "last_updated": "2026-07-08"
+  },
+  "council": {
+    "canonical_name": "Council",
+    "entity_type": "organization",
+    "summary": "The Council on Foreign Relations (CFR) is an independent, nonpartisan organization, think tank, and publisher that analyzes and explains global issues and challenges. For two-and-a-half centuries, the CFR has examined U.S. foreign policy decisions and provided analysis on international affairs.",
+    "last_updated": "2026-07-08"
+  },
+  "cisa": {
+    "canonical_name": "CISA",
+    "entity_type": "organization",
+    "summary": "CISA is the National Coordinator for Critical Infrastructure Security and Resilience. It works with partners at all levels to identify and manage risk to the cyber and physical infrastructure that Americans rely on daily. CISA's mission is to defend against current threats and collaborate to build a",
+    "last_updated": "2026-07-08"
+  },
+  "the un": {
+    "senses": [
+      {
+        "sense_label": "United Nations as a political/regulatory body",
+        "summary": "The United Nations is an international organization founded in 1945, currently made up of 193 Member States. Its work is guided by the purposes and principles in its founding Charter, and it serves as a place where the world's nations can gather to discuss common problems and find shared solutions.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "startup battlefield australia": {
+    "senses": [
+      {
+        "sense_label": "the specific program/competition",
+        "summary": "Startup Battlefield is the original startup pitch competition that has found companies like Dropbox, Trello, Cloudflare, and Discord before they were widely known. The program brings together 200 early-stage startups to showcase at Disrupt, competing for a $100K equity-free prize and investor attent",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "blackbird ventures": {
+    "senses": [
+      {
+        "sense_label": "the venture capital firm",
+        "summary": "Blackbird is an Australasian investment firm that invests in ambitious companies from Australia and New Zealand. The firm has a portfolio of over 100 companies valued at over $10B and focuses on backing wild ideas with the biggest ambitions.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "airtree ventures": {
+    "senses": [
+      {
+        "sense_label": "the venture capital firm",
+        "summary": "Airtree is an early-stage venture capital firm that backs founders in Australia and New Zealand building future technology companies. The firm provides personalized support and strategic advice, embedding itself in the ecosystem to give portfolio companies an unfair advantage.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "startmate": {
+    "senses": [
+      {
+        "sense_label": "the venture capital firm",
+        "summary": "Startmate is a community that surrounds founders with a supportive 'village' of mentors, investors, and peers. For 15 years, it has invested in and supercharged promising startups in the ANZ region, serving as a launchpad for world-class companies.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "techstars": {
+    "senses": [
+      {
+        "sense_label": "the venture capital firm or its accelerator network",
+        "summary": "Techstars is a leading pre-seed venture capital firm and accelerator network that has supported founders since 2007. It provides a 3-month, mentorship-driven accelerator program, capital investment, and access to its global network, having invested in companies like SendGrid and DigitalOcean.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "sosv": {
+    "senses": [
+      {
+        "sense_label": "the venture capital firm",
+        "summary": "SOSV is the world's most active deep tech, pre-seed venture capital firm, funding amazing founders at the very beginning of their journey. The firm's General Partners work side-by-side with founders to help them build companies with a profound impact on human and planetary health, offering deeply re",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "techcrunch": {
+    "senses": [
+      {
+        "sense_label": "the publication or its events",
+        "summary": "TechCrunch is a publication and events platform that brings together 1,000+ founders and VCs for scaling insights and connections. It hosts events like the TechCrunch Founder Summit and provides real-world insights on industry trends and challenges.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "startup battlefield 200": {
+    "senses": [
+      {
+        "sense_label": "the competition or its program",
+        "summary": "Startup Battlefield is the original startup pitch competition that has launched companies like Dropbox and Trello. It brings together 200 of the world's most promising early-stage startups to compete for a $100K equity-free prize and investor attention at Disrupt.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "meta superintelligence labs": {
+    "canonical_name": "Meta Superintelligence Labs",
+    "entity_type": "organization",
+    "summary": "Meta Superintelligence Labs (MSL) is Meta’s AI division, which brings together its Llama model development and AI research teams to deliver superintelligence — AI that surpasses human intelligence in every way. The division is on a mission to develop AI that surpasses human intelligence entirely and",
+    "last_updated": "2026-07-08"
+  },
+  "meta ai": {
+    "canonical_name": "Meta AI",
+    "entity_type": "product",
+    "summary": "Meta AI’s biggest leap yet arrives just days into 2026. On April 8, 2026, Meta officially unveiled Muse Spark (also referred to as Muse Spark MSL), the inaugural model from its new Muse family developed by Meta Superintelligence Labs (MSL). Positioned as the foundation for 'personal superintelligenc",
+    "last_updated": "2026-07-08"
+  },
+  "whatsapp": {
+    "canonical_name": "WhatsApp",
+    "entity_type": "product",
+    "summary": "WhatsApp is a free, secure, and reliable messaging and calling app available on phones worldwide. It supports sending and receiving text, photos, videos, documents, and location, as well as voice calls, and is used by more than 3 billion people in over 180 countries.",
+    "last_updated": "2026-07-08"
+  },
+  "facebook marketplace": {
+    "canonical_name": "Facebook Marketplace",
+    "entity_type": "product",
+    "summary": "Facebook Marketplace is a platform for buying and selling new and used items, both locally and from businesses. It allows users to find great deals on new items shipped from stores and provides a way to buy or sell items easily.",
+    "last_updated": "2026-07-08"
+  },
+  "discord": {
+    "canonical_name": "Discord",
+    "entity_type": "company",
+    "summary": "Discord is a communications platform built to solve the problem of how to talk with friends while gaming together. It enables users to build meaningful connections around the joy of playing games through voice, video, and text features.",
+    "last_updated": "2026-07-08"
+  },
+  "figma": {
+    "canonical_name": "Figma",
+    "entity_type": "company",
+    "summary": "Figma is a design platform where teams create and build digital products. Founded in 2012, it provides an intelligent canvas that integrates design, code, and AI to take ideas from concept to a shipped product in one place.",
+    "last_updated": "2026-07-08"
+  },
+  "bud": {
+    "canonical_name": "Bud",
+    "entity_type": "product",
+    "summary": "Bud is a beer brand known for its simple, iconic 4-ingredient recipe. The material focuses on the brand's marketing message of making life easier to enjoy and its engagement with customers, but does not provide a product overview.",
+    "last_updated": "2026-07-08"
+  },
+  "orchids": {
+    "canonical_name": "Orchids",
+    "entity_type": "product",
+    "summary": "Orchids are plants that are sold as elegant gifts and home decor. The material describes the company's offerings, including orchid care tips, 3D-printed pots, and potting media, but does not provide a product overview.",
+    "last_updated": "2026-07-08"
+  },
+  "kevin lu": {
+    "canonical_name": "Kevin Lu",
+    "entity_type": "person",
+    "summary": "Kevin Lu is the CEO and Co-Founder of Atrium, an artificial intelligence startup. He previously worked at M0 as a Board Observer and attended the University of Sydney, where he was awarded an Elite Athlete Scholarship Program.",
+    "last_updated": "2026-07-08"
+  },
+  "figma make": {
+    "canonical_name": "Figma Make",
+    "entity_type": "product",
+    "summary": "Figma Make is a product that provides AI-powered design tools to help users generate, iterate, and build faster. It allows users to build in any codebase and ship directly to production, with design context that is code-backed and visually editable.",
+    "last_updated": "2026-07-08"
+  },
+  "department of government efficiency": {
+    "canonical_name": "Department of Government Efficiency",
+    "entity_type": "organization",
+    "summary": "The Department of Government Efficiency (DOGE) was a U.S. federal department formerly called the United States Digital Service. On January 20, 2025, U.S. Pres. Donald Trump issued an executive order that reorganized the organization and changed its name to the United States DOGE Service. The order a",
+    "last_updated": "2026-07-08"
+  },
+  "social security administration": {
+    "canonical_name": "Social Security Administration",
+    "entity_type": "organization",
+    "summary": "The Social Security Administration is a federal agency tasked with managing the nation's Social Security program. The material provided does not contain a general-purpose overview of the organization's mission, structure, or history, but rather references legal documents and API access information.",
+    "last_updated": "2026-07-08"
+  },
+  "doge": {
+    "canonical_name": "DOGE",
+    "entity_type": "organization",
+    "summary": "The Department of Government Efficiency (DOGE) is a temporary organization within a federal executive branch agency tasked with implementing the President’s DOGE Agenda. It was established by an executive order issued on January 20, 2025, and is led by Elon Musk and Vivek Ramaswamy. The DOGE would l",
+    "last_updated": "2026-07-08"
+  },
+  "claude cowork": {
+    "canonical_name": "Claude Cowork",
+    "entity_type": "model_release",
+    "summary": "Claude Cowork is a feature that allows users to start tasks at their desk, check in from their phone, and receive a polished output like a deck, document, or spreadsheet. It connects to user data, schedules tasks with various cadences, and can operate unattended while the user is away. The service i",
+    "last_updated": "2026-07-08"
+  },
+  "meta glasses": {
+    "canonical_name": "Meta Glasses",
+    "entity_type": "product",
+    "summary": "AI glasses with a built-in display, camera, and AI you can talk to. Ray-Ban Meta and Oakley Meta, designed for everyday life. Starting at $299. Seamlessly interact across devices Pair your Ray-Ban Meta or Oakley Meta glasses with your smartphone and other compatible devices using the Meta AI app. Re",
+    "last_updated": "2026-07-08"
+  },
+  "rayban": {
+    "canonical_name": "Ray-Ban",
+    "entity_type": "organization",
+    "summary": "Ray-Ban is an Italian-owned brand of luxury sunglasses and standard glasses created in 1936 by American company Bausch & Lomb. The brand is most notable for its Wayfarer and Aviator lines of sunglasses.",
+    "last_updated": "2026-07-08"
+  },
+  "alex himel": {
+    "canonical_name": "Alex Himel",
+    "entity_type": "person",
+    "summary": "Alex Himel is a seasoned leader in the field of augmented reality and wearables, currently serving as the Vice President of Wearables and Augmented Reality at Meta (formerly Facebook). He is a VP, Wearables at Meta, based in Menlo Park, with over 500 connections on LinkedIn.",
+    "last_updated": "2026-07-08"
+  },
+  "instagram": {
+    "canonical_name": "Instagram",
+    "entity_type": "product",
+    "summary": "Instagram makes it easy to capture, create and share what you love. Discover more about our features and commitment to community, safety and well-being. Discover all the features available on Instagram, from the latest releases to tips & tricks for Reels, DMs, Stories, Shopping & more! Share what yo",
+    "last_updated": "2026-07-08"
+  },
+  "tiktok": {
+    "canonical_name": "TikTok",
+    "entity_type": "product",
+    "summary": "TikTok, released in September 2016, is a popular social media app that allows users to create, watch, and share short videos shot on mobile devices or webcams. TikTok is a short-form video platform where users create, share, discover, and interact with vertical videos designed primarily for mobile v",
+    "last_updated": "2026-07-08"
+  },
+  "amble": {
+    "senses": [
+      {
+        "sense_label": "the company",
+        "summary": "Amble is a startup that has designed a cute electric buggy for resorts and low-speed city street use. The company is a direct-to-consumer telehealth platform that connects women with licensed prescribers for GLP-1-based weight loss treatment.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "lisbon": {
+    "senses": [
+      {
+        "sense_label": "the city, used as a location",
+        "summary": "Lisbon is the capital city of Portugal and its principal political, economic, and cultural center. Located in western Portugal on the estuary of the Tagus River, it is the westernmost capital city in continental Europe and serves as the country’s chief port.",
+        "last_updated": "2026-07-08"
+      }
+    ]
+  },
+  "abc": {
+    "canonical_name": "ABC",
+    "entity_type": "company",
+    "summary": "ABC (American Broadcasting Company) is a commercial broadcast television network that offers news, TV series, game shows, and sports. ABC Studios is a key content provider for the ABC Entertainment Group, producing hits like 'Grey's Anatomy' and 'The Good Doctor'.",
+    "last_updated": "2026-07-08"
+  },
+  "the view": {
+    "canonical_name": "The View",
+    "entity_type": "product",
+    "summary": "The View is a collection of stylish merchandise like tees, blankets, and mugs offered through shopping links on TheView.tv. The e-commerce sites are operated under different terms and privacy policies, and The View may receive a commission for purchases made through these links.",
+    "last_updated": "2026-07-08"
+  },
+  "brendan carr": {
+    "canonical_name": "Brendan Carr",
+    "entity_type": "person",
+    "summary": "Brendan Carr is the Chairman of the Federal Communications Commission and has served as a Commissioner and the agency's General Counsel. He was nominated by both President Trump and President Biden and has been confirmed unanimously by the Senate three times.",
+    "last_updated": "2026-07-08"
+  },
+  "james talarico": {
+    "canonical_name": "James Talarico",
+    "entity_type": "person",
+    "summary": "James Talarico is running for the U.S. Senate in Texas, focusing on fighting corruption and billionaire mega-donors. He is an eighth-generation Texan, former middle school teacher, and Presbyterian seminarian who previously served as a state representative.",
+    "last_updated": "2026-07-08"
+  },
+  "the wrap": {
+    "canonical_name": "The Wrap",
+    "entity_type": "organization",
+    "summary": "TheWrap is an independently owned Hollywood trade publication founded in 2009 by Sharon Waxman. It serves as a reliable source for breaking news, investigative reporting, and awards season coverage in the entertainment and media business.",
+    "last_updated": "2026-07-08"
+  },
+  "pixel 11": {
+    "canonical_name": "Pixel 11",
+    "entity_type": "product",
+    "summary": "Google's upcoming Pixel 11 is expected to be a flagship Android phone arriving later in 2026. It is positioned as a competitive alternative to the iPhone, following a mixed set of upgrades from the previous Pixel 10 series.",
+    "last_updated": "2026-07-08"
+  },
+  "pixel 10": {
+    "canonical_name": "Pixel 10",
+    "entity_type": "product",
+    "summary": "The unlocked Pixel 10 is a phone that can be used with any carrier, allowing users to choose their preferred service plan. It features the latest Google AI, an award-winning camera, and all-day battery life.",
+    "last_updated": "2026-07-08"
+  },
+  "pixel 10 pro": {
+    "canonical_name": "Pixel 10 Pro",
+    "entity_type": "product",
+    "summary": "The unlocked Pixel 10 Pro offers Pro Res Zoom with up to 100x zoom and uses a next-gen chip for peak AI performance. It can take the highest quality photos and videos and is available in an unlocked variant.",
+    "last_updated": "2026-07-08"
+  },
+  "jimmy fallon": {
+    "canonical_name": "Jimmy Fallon",
+    "entity_type": "person",
+    "summary": "Jimmy Fallon is a 51-year-old American comedian, actor, singer, and TV host. He has been the host of The Tonight Show Starring Jimmy Fallon since 2014 and has an estimated net worth of $70 million.",
+    "last_updated": "2026-07-08"
+  },
+  "microsoftxbox": {
+    "canonical_name": "Microsoft/XBOX",
+    "entity_type": "general",
+    "summary": "Microsoft's Xbox is the video game and digital entertainment division of the American multinational corporation Microsoft. Since its debut in 2001, the Xbox has become a cornerstone in the gaming industry, quickly coming to rival and challenge the market dominance of the Sony PlayStation and Nintend",
+    "last_updated": "2026-07-08"
+  },
+  "zenimax": {
+    "canonical_name": "ZeniMax",
+    "entity_type": "general",
+    "summary": "ZeniMax creates and publishes original interactive entertainment content for consoles, the PC, and mobile devices. Its Bethesda Softworks division, founded in 1986, has a long history of success as a publisher of award-winning video games. ZeniMax Media is a video game publisher, managed by an exper",
+    "last_updated": "2026-07-08"
+  },
+  "jason schreier": {
+    "canonical_name": "Jason Schreier",
+    "entity_type": "general",
+    "summary": "Jason Schreier is an author and journalist who mostly writes about video games. He is the co-host of the Triple Click podcast and has written books such as Blood, Sweat, and Pixels and Press Reset. He also maintains a personal newsletter and has a presence on Twitter.",
+    "last_updated": "2026-07-08"
+  },
+  "bloomberg": {
+    "canonical_name": "Bloomberg",
+    "entity_type": "general",
+    "summary": "Bloomberg is a high-tech, market-moving, data-driven, cross-platform information company designed to solve global problems. Bloomberg L.P. provides economic, financial, and computerized information, as well as legal, regulatory, and compliance news and research. It is an American privately held fina",
+    "last_updated": "2026-07-08"
+  },
+  "chatgpt enterprise": {
+    "canonical_name": "ChatGPT Enterprise",
+    "entity_type": "ai_model",
+    "summary": "ChatGPT Enterprise offers enterprise-grade security and privacy, unlimited higher-speed GPT-4 access, longer context windows, advanced data analysis capabilities, and customization options. It is designed to assist and elevate working lives, making teams more creative and productive.",
+    "last_updated": "2026-07-08"
+  },
+  "agentchief": {
+    "canonical_name": "agent-chief",
+    "entity_type": "product",
+    "summary": "agent-chief is an engineering specification for an AI coding agent named 'chief'. It outlines a rule of execution where one step equals one commit, and it suggests potential repository names like agent-chief, chiefd, or cortexd. The spec details how chief functions as the central point for all agent",
+    "last_updated": "2026-07-08"
+  },
+  "olemeyerrocketplaneio": {
+    "canonical_name": "olemeyer/rocketplaneIO",
+    "entity_type": "ai_model",
+    "summary": "olemeyer/rocketplaneIO is a self-hosted, air-gapped capable AI model that brings your own LLM. It is developed against minikube and uses named, reversible action pipelines to change a cluster, with no shell or YAML to prevent hallucination. The system provides risk-graded actions and requires explic",
+    "last_updated": "2026-07-08"
+  },
+  "ebpf": {
+    "canonical_name": "eBPF",
+    "entity_type": "technology",
+    "summary": "eBPF is a revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context, such as the operating system kernel. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel m",
+    "last_updated": "2026-07-08"
+  },
+  "minikube": {
+    "canonical_name": "minikube",
+    "entity_type": "product",
+    "summary": "minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. It is designed to help application developers and new Kubernetes users by deploying as a VM, a container, or on bare-metal. The latest release is v1.38.1, and the project includes a survey to gather user feedback for f",
+    "last_updated": "2026-07-08"
   }
 }
