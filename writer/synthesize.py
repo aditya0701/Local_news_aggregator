@@ -6,6 +6,7 @@ import requests
 from deep_translator import GoogleTranslator
 from langdetect import LangDetectException, detect
 
+from writer.concise_search import ask_concise, build_identity_question, concise_configured, looks_like_not_found
 from writer.entity_cache import get_entity, load_cache, save_cache, set_entity
 from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, build_identity_query, search_web
 from writer.web_context import fetch_page
@@ -130,33 +131,26 @@ Think in this order:
    not invent a question just to fill a slot. It is normal and expected for some or all slots
    to be "none".
 
-   CRITICAL -- a GAP query is a SEARCH QUERY, not an analysis question. A search engine can only
-   return something that already exists published somewhere (a number, a spec, a date, a price, a
-   quote) -- it cannot return a judgment, an opinion, or a prediction that nobody has written
-   down. Before writing a GAP query, ask yourself: "could a search realistically return one
-   specific fact that answers this?" If the honest answer is no -- if answering it requires
-   forming an opinion or predicting the future -- rewrite it as a request for the underlying
-   fact(s) instead, and let the editor draw the conclusion from those facts. This applies whether
-   the gap is about a single entity (e.g. one product's price) or about comparing two entities --
-   either way, ask for the fact(s), not the verdict.
+   These queries go to a real autonomous research agent that can genuinely investigate a
+   question -- read multiple sources, compare claims, and reason about them -- not just
+   keyword-match a snippet the way an old-style search engine would. So a GAP query does NOT
+   need to be watered down into a bare fact-lookup: an interpretive, comparative, or "why does
+   this matter" question is fine. Ask for whatever the editor actually needs to know, in its
+   sharpest, most useful form.
 
-   WRONG (asks for a judgment nobody has published -- a search will never satisfy this):
-   "What is the strategic significance of Z.ai's open-source release in the context of the US ban
-   on Anthropic, and what are the likely long-term implications for the global AI model market?"
-   CORRECT (asks for a fact that lets the editor reach that judgment):
-   "Chinese AI model adoption by US companies after Anthropic export ban"
+   The only thing still off-limits is pure future speculation that nobody -- not even a real
+   researcher -- could answer today (e.g. "what will happen to this company next year", "will
+   this technology replace X"). If a gap is genuinely that kind of unknowable prediction, either
+   rephrase it to ask for the present-day facts/context that inform such a prediction, or leave
+   the slot "none".
 
-   WRONG (speculative, no source could ever answer this):
-   "What are the potential cultural integration challenges between Persistent Systems and Nagarro,
-   and how might this affect the post-merger performance of the combined entity?"
-   CORRECT (plain background facts about the two companies -- lets the editor make the point):
-   "Nagarro headquarters employee count history"
-
-   CORRECT (a single entity's own fact -- fine on its own, no comparison needed):
-   "Leanstral 1.5 API pricing"
-   CORRECT (a comparison is fine too, AS LONG AS it is still asking for a fact, e.g. published
-   benchmark numbers, not an opinion about what those numbers mean):
-   "GLM-5.2 GPT-5.5 benchmark score comparison"
+   GOOD (interpretive/comparative -- fine for a real research agent):
+   "How does this attack's automation compare to previously documented AI-assisted cyberattacks,
+   and what does that suggest about the state of autonomous cybercrime?"
+   GOOD (a single entity's own background, still useful):
+   "What is Langflow, and why has CVE-2025-3248 been considered a serious vulnerability in it?"
+   STILL AVOID (unknowable prediction, not even a real researcher could answer this):
+   "Will AI-driven ransomware attacks become the dominant form of cybercrime by 2028?"
 
    HARD RULE, no exceptions: every named competitor/model/company that appears in a GAP query
    MUST already be present, character-for-character, in the ENTITIES list you just wrote above
@@ -244,6 +238,18 @@ _GENERIC_ANALYSIS_WORDS = {
     "advantages", "disadvantages",
 }
 
+# Hyphenated generic-modifier compounds ("AI-assisted", "cloud-based") read as
+# a candidate proper noun purely from being capitalized mid-sentence, the same
+# false-positive class _GENERIC_ANALYSIS_WORDS exists for. Confirmed live in
+# the relaxed-query experiment (see CLAUDE.md): a legitimate, non-hallucinating
+# GAP query — "...compare to previously documented AI-assisted cyberattacks" —
+# got dropped because "AI-assisted" doesn't literally appear in the article's
+# entities/source text, even though it names no specific competitor at all.
+_GENERIC_SUFFIX_RE = re.compile(
+    r"^[A-Za-z]+-(assisted|based|driven|powered|enabled|related|style|like|type|specific)$",
+    re.IGNORECASE,
+)
+
 
 def _extract_candidate_names(query: str) -> list[str]:
     """Chunk consecutive proper-noun-ish tokens (capitalized, or containing a
@@ -260,7 +266,8 @@ def _extract_candidate_names(query: str) -> list[str]:
         stripped = re.sub(r"['’]s$", "", stripped)
         is_candidate = bool(stripped) and (
             stripped[0].isupper() or any(c.isdigit() for c in stripped)
-        ) and stripped.lower() not in _CONNECTOR_WORDS and stripped.lower() not in _GENERIC_ANALYSIS_WORDS
+        ) and stripped.lower() not in _CONNECTOR_WORDS and stripped.lower() not in _GENERIC_ANALYSIS_WORDS \
+            and not _GENERIC_SUFFIX_RE.match(stripped)
         if is_candidate:
             current.append(stripped)
         else:
@@ -1232,12 +1239,15 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     trace["cache"] = {"hits": cache_hits, "misses": cache_misses}
 
     # ------------------------------------------------------------------
-    # Web search — identity queries ("what is X") and context queries
-    # ("why now"/comparison) go through different free tiers, since they need
-    # different kinds of sources: identity queries go straight to DDG
-    # (Wikipedia was tried and deliberately removed as a source entirely —
-    # see CLAUDE.md), context queries need recent coverage so those try
-    # Google News RSS first and fall back to DDG. See writer/search.py.
+    # Web search — identity queries ("what is X") and GAP/context queries
+    # both go through the external research agent (/api/concise) when
+    # configured: it genuinely investigates a question — reads multiple
+    # sources, reasons about them — instead of keyword-matching a snippet,
+    # and its answer is already a direct response, so no separate synthesis
+    # call is needed for these (see writer/concise_search.py). Falls back to
+    # the old DDG/Google-News-RSS tiers + a dedicated synthesis call
+    # (writer/search.py) when CONCISE_API_URL/CONCISE_API_KEY aren't set —
+    # e.g. local dev without the external agent configured.
     # ------------------------------------------------------------------
     identity_queries = [
         build_identity_query(
@@ -1248,39 +1258,85 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         for e in entities_needing_search
     ]
     model_queries = search_queries[:3]
+    use_concise = concise_configured()
 
-    print(f"\n[SEARCH - {len(identity_queries)} identity + {len(model_queries)} context queries]")
-    identity_results = search_web(identity_queries, IDENTITY_TIERS) if identity_queries else {}
-    context_results = search_web(model_queries, CONTEXT_TIERS) if model_queries else {}
-    search_results = {**identity_results, **context_results}
-    for q, text in search_results.items():
-        tag = "[identity]" if q in identity_results else "[context] "
-        print(f"  {tag} {q[:55]:<55} -> {len(text)} chars")
+    print(
+        f"\n[SEARCH - {len(identity_queries)} identity + {len(model_queries)} context queries"
+        f"{' via /api/concise' if use_concise else ' via DDG/Google News'}]"
+    )
 
-    trace["search"] = {
-        "identity_queries": identity_queries,
-        "context_queries": model_queries,
-        "results": {q: text[:400] for q, text in search_results.items()},
-    }
+    identity_answers: dict[str, str] = {}
+    identity_not_found: dict[str, bool] = {}
+    context_answers: dict[str, str] = {}
 
-    # ------------------------------------------------------------------
-    # Synthesis — distill each query's raw material into a direct answer
-    # (sarvam-30b, reasoning off) instead of dumping raw snippet soup into
-    # entity_context, where Stage 2 would have to guess which part matters.
-    # ------------------------------------------------------------------
-    print(f"\n[SYNTHESIS - {_MODEL_FAST}]")
-    synthesized_results = _synthesize_search_results(identity_results, context_results, api_key)
-    for q, answer in synthesized_results.items():
-        print(f"  {q[:55]:<55} -> \"{answer[:80]}\"")
-    trace["synthesis"] = {q: a[:400] for q, a in synthesized_results.items()}
+    if use_concise:
+        for entity in entities_needing_search:
+            name = entity.get("name", "")
+            entity_type = entity.get("type", "unknown")
+            resolved_sense = entity.get("resolved_sense") if entity.get("ambiguous") else None
+            question = build_identity_question(name, entity_type, resolved_sense)
+            answer = ask_concise(question)
+            identity_answers[name] = answer
+            identity_not_found[name] = bool(answer) and looks_like_not_found(answer)
+            flag = " (not found)" if identity_not_found[name] else ""
+            print(f"  [identity] {name[:45]:<45} -> {len(answer)} chars{flag}")
+
+        for q in model_queries:
+            answer = ask_concise(q)
+            context_answers[q] = answer
+            print(f"  [context ] {q[:45]:<45} -> {len(answer)} chars")
+
+        trace["search"] = {
+            "backend": "concise",
+            "identity_queries": identity_queries,
+            "context_queries": model_queries,
+            "results": {
+                **{n: a[:400] for n, a in identity_answers.items()},
+                **{q: a[:400] for q, a in context_answers.items()},
+            },
+        }
+    else:
+        identity_results = search_web(identity_queries, IDENTITY_TIERS) if identity_queries else {}
+        context_results = search_web(model_queries, CONTEXT_TIERS) if model_queries else {}
+        search_results = {**identity_results, **context_results}
+        for q, text in search_results.items():
+            tag = "[identity]" if q in identity_results else "[context] "
+            print(f"  {tag} {q[:55]:<55} -> {len(text)} chars")
+
+        trace["search"] = {
+            "backend": "ddg",
+            "identity_queries": identity_queries,
+            "context_queries": model_queries,
+            "results": {q: text[:400] for q, text in search_results.items()},
+        }
+
+        print(f"\n[SYNTHESIS - {_MODEL_FAST}]")
+        synthesized_results = _synthesize_search_results(identity_results, context_results, api_key)
+        for q, answer in synthesized_results.items():
+            print(f"  {q[:55]:<55} -> \"{answer[:80]}\"")
+        trace["synthesis"] = {q: a[:400] for q, a in synthesized_results.items()}
+
+        for entity in entities_needing_search:
+            name = entity.get("name", "")
+            entity_type = entity.get("type", "unknown")
+            resolved_sense = entity.get("resolved_sense") if entity.get("ambiguous") else None
+            identity_q = build_identity_query(name, entity_type, resolved_sense)
+            identity_answers[name] = synthesized_results.get(identity_q, "")
+            identity_not_found[name] = False
+        for q in model_queries:
+            context_answers[q] = synthesized_results.get(q, "")
 
     for q in model_queries:
-        answer = synthesized_results.get(q, "")
+        answer = context_answers.get(q, "")
         if answer:
             entity_context_parts.append(f"[{q}]:\n{answer}")
 
     # ------------------------------------------------------------------
-    # Cache update — store the synthesized (not raw) identity answer
+    # Cache update — store the identity answer, unless the research agent
+    # honestly reported it couldn't find anything (see concise_search.py's
+    # _NOT_FOUND_MARKERS). Caching a confident "not found" for the full
+    # 45-day TTL would be worse than a plain cache miss, since a miss just
+    # retries the search on the next article that mentions the same name.
     # ------------------------------------------------------------------
     cache_updates: list[dict] = []
     for entity in entities_needing_search:
@@ -1288,12 +1344,15 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         entity_type = entity.get("type", "unknown")
         is_ambiguous = entity.get("ambiguous", False)
         resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
-        identity_q = build_identity_query(name, entity_type, resolved_sense)
-        answer = synthesized_results.get(identity_q, "")
-        if answer:
-            entity_context_parts.append(f"{name}: {answer}")
-            set_entity(cache, name, entity_type, answer[:300].strip(), resolved_sense=resolved_sense)
-            cache_updates.append({"name": name, "type": entity_type, "chars_stored": min(300, len(answer))})
+        answer = identity_answers.get(name, "")
+        if not answer:
+            continue
+        entity_context_parts.append(f"{name}: {answer}")
+        if identity_not_found.get(name):
+            print(f"  [cache] skipping store for {name} — agent reported no matching material found")
+            continue
+        set_entity(cache, name, entity_type, answer[:300].strip(), resolved_sense=resolved_sense)
+        cache_updates.append({"name": name, "type": entity_type, "chars_stored": min(300, len(answer))})
     save_cache(cache)
 
     if cache_updates:

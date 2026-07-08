@@ -4576,5 +4576,17 @@
     "entity_type": "model_release",
     "summary": "VisionLLM v2 is a generalist multimodal large language model designed to support hundreds of vision-language tasks. It covers visual understanding, perception, and generation in a single end-to-end model.",
     "last_updated": "2026-07-07"
+  },
+  "cve20253248": {
+    "canonical_name": "CVE-2025-3248",
+    "entity_type": "regulation",
+    "summary": "CVE-2025-3248 is a critical unauthenticated remote code execution (RCE) vulnerability that has been identified in Langflow versions prior to 1.3.0. An active campaign is exploiting this flaw to deploy the Flodrix botnet, which enables threat actors to achieve full system compromise, initiate DDoS at",
+    "last_updated": "2026-07-07"
+  },
+  "alibaba nacos": {
+    "canonical_name": "Alibaba Nacos",
+    "entity_type": "organization",
+    "summary": "Alibaba Nacos is a dynamic service discovery, configuration management, and coordination platform for distributed applications. It is designed to help manage and scale microservices architectures by providing centralized configuration and service discovery capabilities.",
+    "last_updated": "2026-07-07"
   }
 }

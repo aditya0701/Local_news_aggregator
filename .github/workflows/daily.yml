@@ -45,6 +45,8 @@ jobs:
           SARVAM_MODEL: sarvam-30b
           SARVAM_MODEL_QUALITY: sarvam-105b
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          CONCISE_API_URL: ${{ secrets.CONCISE_API_URL }}
+          CONCISE_API_KEY: ${{ secrets.CONCISE_API_KEY }}
           PYTHONIOENCODING: utf-8
           # Disables Hugging Face's newer "xet" transfer backend. Confirmed
           # directly during development: xet repeatedly hit connection
