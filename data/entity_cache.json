@@ -5083,5 +5083,47 @@
     "entity_type": "ai_model",
     "summary": "FableCut is not mentioned in the provided material. The material discusses Anthropic's AI models, Fable 5 and Mythos 5, but does not contain any information about FableCut.",
     "last_updated": "2026-07-09"
+  },
+  "pocketmage": {
+    "canonical_name": "PocketMage",
+    "entity_type": "model_release",
+    "summary": "PocketMage is a personal digital assistant designed to reclaim the utility of pocketable computing. All hardware, software, and documentation is currently released under the Apache-2.0 Open Source Hardware license. The project uses an ESP32-S3 microcontroller and is funded through a crowdfunding cam",
+    "last_updated": "2026-07-09"
+  },
+  "talisman design": {
+    "canonical_name": "Talisman Design",
+    "entity_type": "company",
+    "summary": "Talisman Design specializes in innovative kitchen gadgets, including unique items like the Adjustable Pie Shield and the Bacon Bin. Their products appeal to a diverse clientele, from novice bakers to experienced home cooks, and are known for functional kitchen gadgets.",
+    "last_updated": "2026-07-09"
+  },
+  "esp32s3": {
+    "canonical_name": "ESP32-S3",
+    "entity_type": "technology",
+    "summary": "ESP32-S3 is a dual-core XTensa LX7 MCU capable of running at 240 MHz. It features 512 KB of internal SRAM, integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) connectivity, and 45 programmable GPIOs. The platform supports a rich set of peripherals and is known for its AI acceleration and reliable security",
+    "last_updated": "2026-07-09"
+  },
+  "crowd supply": {
+    "canonical_name": "Crowd Supply",
+    "entity_type": "organization",
+    "summary": "Crowd Supply is a crowdfunding platform focused on new product development projects, particularly for independent and open-source hardware creators. It offers access to a niche but highly engaged community of developers and provides a platform for sales opportunities for related electronics and hard",
+    "last_updated": "2026-07-09"
+  },
+  "sony": {
+    "canonical_name": "Sony",
+    "entity_type": "company",
+    "summary": "Sony is a major Japanese manufacturer of consumer electronics with diverse activities including films, music, and financial services. Its U.S. headquarters, Sony Corporation of America, is located in New York, and its principal U.S. businesses include Sony Electronics, Sony Interactive Entertainment",
+    "last_updated": "2026-07-09"
+  },
+  "rx10 v": {
+    "canonical_name": "RX10 V",
+    "entity_type": "product",
+    "summary": "The material did not address this question. The provided text mentions the RX10 V as a new budget-friendly camera from Sony but does not provide specific details about its performance benchmarks or sensor comparisons.",
+    "last_updated": "2026-07-09"
+  },
+  "rx10 iv": {
+    "canonical_name": "RX10 IV",
+    "entity_type": "product",
+    "summary": "The Sony Cyber-shot DSC-RX10 IV is an enthusiast long zoom camera that improves on its predecessor with a new image processor, a hybrid AF system with 325 phase-detect points, and a 20MP 1-inch stacked CMOS sensor. It offers a versatile bridge experience with a 24-600mm equivalent zoom lens and is d",
+    "last_updated": "2026-07-09"
   }
 }

@@ -1,272 +1,5 @@
 [
   {
-    "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
-    "title": "The Glass Backbone: Why the Army's Logistics Will Break in the Next War",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Jonathan Buckland | 06.03.26 The United States Army spent the last two decades optimizing sustainment for permissive environments defined by uncontested supply lines, contractor support, and static forward operating bases. As the National Defense Strategy shifts toward strategic competition and multidomain operations, however, this efficiency-driven model has become a liability. In large-scale com",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "United States Army",
-          "type": "general"
-        },
-        {
-          "name": "National Defense Strategy",
-          "type": "general"
-        },
-        {
-          "name": "Operation Barbarossa",
-          "type": "general"
-        },
-        {
-          "name": "Wehrmacht",
-          "type": "general"
-        },
-        {
-          "name": "Soviet Union",
-          "type": "general"
-        },
-        {
-          "name": "Panzer groups",
-          "type": "general"
-        },
-        {
-          "name": "Red Army",
-          "type": "general"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article analyzes how the U.S. Army's logistics model, optimized for past conflicts, is inadequate for future strategic competition, using historical examples to argue that sustainment is the critical factor for victory."
-    },
-    "cache": {
-      "hits": [],
-      "misses": [
-        {
-          "name": "United States Army",
-          "type": "general"
-        },
-        {
-          "name": "National Defense Strategy",
-          "type": "general"
-        },
-        {
-          "name": "Operation Barbarossa",
-          "type": "general"
-        },
-        {
-          "name": "Wehrmacht",
-          "type": "general"
-        },
-        {
-          "name": "Soviet Union",
-          "type": "general"
-        },
-        {
-          "name": "Panzer groups",
-          "type": "general"
-        },
-        {
-          "name": "Red Army",
-          "type": "general"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"United States Army\" general overview",
-        "\"National Defense Strategy\" general overview",
-        "\"Operation Barbarossa\" general overview",
-        "\"Wehrmacht\" general overview",
-        "\"Soviet Union\" general overview",
-        "\"Panzer groups\" general overview",
-        "\"Red Army\" general overview"
-      ],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "United States Army": "",
-        "National Defense Strategy": "The US National Defense Strategy (NDS) calls for an urgent need for allies to do their part, with the US incentivizing and enabling them to mature as defense actors. This approach requires a change in tone and style from the past and uses a pragmatic approach grounded in military necessity. Unlike the National Security Strategy, the NDS does not seek to morally reform Europe.",
-        "Operation Barbarossa": "Operation Barbarossa was the code name for the Wehrmacht's invasion of the Soviet Union, launched on June 22, 1941. It was the largest invasion in recorded history, with the Wehrmacht's objective being the complete defeat of the USSR. The study focuses on the period from June 22, 1941, to December 31, 1941.",
-        "Wehrmacht": "The Wehrmacht was the unified armed forces of Nazi Germany from 1935 to 1945, consisting of the Heer (army), Luftwaffe (air force), and Kriegsmarine (navy). It was a well-trained, equipped, and disciplined fighting machine that conquered most of Western Europe and the coast of North Africa during World War II before being destroyed in 1945.",
-        "Soviet Union": "",
-        "Panzer groups": "For Operation Barbarossa, the Germans organized their mobile armored divisions into panzer groups 1 through 4. These groups had headquarters that functioned similarly to conventional armies, and they were comprised almost entirely of panzer divisions.",
-        "Red Army": "The Red Army is the Soviet army, created by the Communist government after the Bolshevik Revolution of 1917. Political advisers called commissars were attached to all army units to watch over the reliability of officers and to carry out political propaganda."
-      }
-    },
-    "synthesis": {
-      "\"National Defense Strategy\" general overview": "The US National Defense Strategy (NDS) calls for an urgent need for allies to do their part, with the US incentivizing and enabling them to mature as defense actors. This approach requires a change in tone and style from the past and uses a pragmatic approach grounded in military necessity. Unlike the National Security Strategy, the NDS does not seek to morally reform Europe.",
-      "\"Operation Barbarossa\" general overview": "Operation Barbarossa was the code name for the Wehrmacht's invasion of the Soviet Union, launched on June 22, 1941. It was the largest invasion in recorded history, with the Wehrmacht's objective being the complete defeat of the USSR. The study focuses on the period from June 22, 1941, to December 31, 1941.",
-      "\"Wehrmacht\" general overview": "The Wehrmacht was the unified armed forces of Nazi Germany from 1935 to 1945, consisting of the Heer (army), Luftwaffe (air force), and Kriegsmarine (navy). It was a well-trained, equipped, and disciplined fighting machine that conquered most of Western Europe and the coast of North Africa during World War II before being destroyed in 1945.",
-      "\"Panzer groups\" general overview": "For Operation Barbarossa, the Germans organized their mobile armored divisions into panzer groups 1 through 4. These groups had headquarters that functioned similarly to conventional armies, and they were comprised almost entirely of panzer divisions.",
-      "\"Red Army\" general overview": "The Red Army is the Soviet army, created by the Communist government after the Bolshevik Revolution of 1917. Political advisers called commissars were attached to all army units to watch over the reliability of officers and to carry out political propaganda."
-    },
-    "cache_updates": [
-      {
-        "name": "National Defense Strategy",
-        "type": "general",
-        "chars_stored": 300
-      },
-      {
-        "name": "Operation Barbarossa",
-        "type": "general",
-        "chars_stored": 300
-      },
-      {
-        "name": "Wehrmacht",
-        "type": "general",
-        "chars_stored": 300
-      },
-      {
-        "name": "Panzer groups",
-        "type": "general",
-        "chars_stored": 251
-      },
-      {
-        "name": "Red Army",
-        "type": "general",
-        "chars_stored": 258
-      }
-    ],
-    "entity_context_preview": "National Defense Strategy: The US National Defense Strategy (NDS) calls for an urgent need for allies to do their part, with the US incentivizing and enabling them to mature as defense actors. This approach requires a change in tone and style from the past and uses a pragmatic approach grounded in military necessity. Unlike the National Security Strategy, the NDS does not seek to morally reform Europe.\n\nOperation Barbarossa: Operation Barbarossa was the code name for the Wehrmacht's invasion of the Soviet Union, launched on June 22, 1941. It was the largest invasion in recorded history, with t",
-    "stage2": {
-      "core_narrative": "The US Army's focus on efficiency in stable environments has created a logistical vulnerability that will be fatal in the high-stakes, contested environments of future warfare.",
-      "key_facts_and_quotes": [
-        "The US Army optimized its sustainment model for the last two decades for permissive environments with uncontested supply lines, contractor support, and static bases.",
-        "The National Defense Strategy now emphasizes strategic competition and multidomain operations.",
-        "In large-scale combat, victory will depend on sustaining combat power under persistent attack, not just on advanced weapons.",
-        "A lethal maneuver force without a survivable logistical backbone is a stationary target.",
-        "Operation Barbarossa (1941) is a key historical example where German forces outran their logistics.",
-        "The German campaign failed due to immense distances, lack of paved roads, and railway gauge mismatches.",
-        "The halt before Moscow in winter 1941 was a systemic failure in sustainment, not just a tactical defeat.",
-        "The Wehrmacht's operational brilliance was nullified by its lack of strategic endurance.",
-        "The core lesson is that operational reach is strictly dictated by logistical and sustainment capacity."
-      ],
-      "disambiguation_targets": [
-        "National Defense Strategy: इसे अमेरिकी रक्षा रणनीति के रूप में समझाएं, जो अब रणनीतिक प्रतिस्पर्धा और मल्टी-डोमेन ऑपरेशंस पर जोर देती है।",
-        "Operation Barbarossa: इसे 1941 में सोवियत संघ पर जर्मनी के आक्रमण के रूप में समझाएं, जो इतिहास का सबसे बड़ा आक्रमण था।",
-        "Wehrmacht: इसे नाजी जर्मनी की एकीकृत सशस्त्र सेना (थल, वायु और नौसेना) के रूप में समझाएं।",
-        "Panzer groups: इसे जर्मनी के मोबाइल आर्मर्ड डिवीजनों के समूहों के रूप में समझाएं, जो ऑपरेशन बारबारोसा में महत्वपूर्ण थे।",
-        "Red Army: इसे सोवियत संघ की सेना के रूप में समझाएं, जो बोल्शेविक क्रांति के बाद बनी थी।"
-      ],
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Introduction: The US Army's logistical model, optimized for two decades in stable environments, is now a liability as the National Defense Strategy shifts toward strategic competition and multidomain operations. The article will argue that in future large-scale combat, the ability to sustain combat power under attack will be more decisive than technological superiority.",
-        "Para 2: Historical Precedent: The article will use Operation Barbarossa as a stark historical warning, explaining how the German Wehrmacht's initial battlefield successes were nullified by logistical failures. Key details to include are the immense distances, lack of paved roads, and railway gauge mismatches that prevented German trains from using Soviet rail lines.",
-        "Para 3: The Lesson of Barbarossa: The article will emphasize that the famous halt before Moscow in winter 1941 was a systemic failure in sustainment, not just a tactical defeat. This demonstrates that operational reach is strictly dictated by logistical and sustainment capacity, and that a lethal maneuver force without a survivable logistical backbone is a stationary target.",
-        "Para 4: Modern Implications: The article will conclude"
-      ]
-    },
-    "stage3": {
-      "title": "कांच की रीढ़: क्यों सेना की रसद व्यवस्था अगली जंग में टूट जाएगी",
-      "concept_box": "अमेरिकी सेना की रसद प्रणाली, जो दो दशकों से स्थिर वातावरण के लिए अनुकूलित थी, अब रणनीतिक प्रतिस्पर्धा के दौर में एक दायित्व बन गई है। भविष्य के बड़े पैमाने के युद्धों में, निरंतर हमले के बावजूद युद्ध शक्ति को बनाए रखने की क्षमता तकनीकी श्रेष्ठता से अधिक निर्णायक होगी।",
-      "introduction_lede": "अमेरिकी सेना ने पिछले दो दशकों में एक ऐसी रसद प्रणाली को अनुकूलित किया है जो स्थिर वातावरण, निर्बाध आपूर्ति लाइनों और स्थिर अग्रिम परिचालन ठिकानों के लिए उपयुक्त थी। लेकिन जैसे-जैसे राष्ट्रीय रक्षा रणनीति रणनीतिक प्रतिस्पर्धा और बहु-डोमेन संचालन की ओर बढ़ रही है, यह दक्षता-संचालित मॉडल अब एक दायित्व बन गया है। बड़े पैमाने के युद्ध अभियानों में, जीत इस बात पर कम निर्भर करेगी कि किस सेना के पास सबसे उन्नत हथियार हैं, और इस पर अधिक कि कौन सी सेना निरंतर हमले के बावजूद युद्ध शक्ति को बनाए रख सकती है। एक घातक पैंतरेबाज़ी बल (maneuver force) जिसके पास एक जीवित रहने योग्य रसद रीढ़ नहीं है, वह केवल एक स्थिर लक्ष्य है जो अपने चरम पर पहुँचने की प्रतीक्षा कर रहा है।",
-      "deep_dive_and_context": "इतिहास ऐसे कठोर और आवर्ती चेतावनियाँ प्रदान करता है जो युद्ध के दांतों के बजाय रसद पूंछ (sustainment tail) की उपेक्षा करने के विरुद्ध हैं। इसका एक प्रमुख उदाहरण 1941 में सोवियत संघ पर जर्मन आक्रमण, 'ऑपरेशन बारब्रोसा' में मिलता है। जर्मन मशीनीकृत संरचनाओं ने सोवियत रक्षा को चकनाचूर कर दिया और हफ्तों के भीतर सैकड़ों मील आगे बढ़ गए। फिर भी वे तेजी से अपने रसद नेटवर्क से आगे निकल गए। जर्मन उच्च कमान ने एक छोटे, निर्णायक अभियान की योजना बनाई थी। उन्होंने विशाल दूरी, पक्की सड़कों की कमी और रेलवे गेज के बेमेल होने का हिसाब लगाने में विफलता की, जिसने जर्मन ट्रेनों को व्यापक संशोधन के बिना सोवियत रेलवे लाइनों का उपयोग करने से रोक दिया। अभूतपूर्व प्रारंभिक युद्धक्षेत्र की सफलताओं के बावजूद, अभियान अनिवार्य रूप से लड़खड़ा गया। ईंधन, गोला-बारूद, सर्दियों के कपड़े और प्रतिस्थापन पुर्जे आगे बढ़ते पैंजर समूहों के साथ तालमेल नहीं बिठा सके। 1941 की सर्दियों में मॉस्को से पहले प्रसिद्ध ठहराव मुख्य रूप से रेड आर्मी द्वारा दी गई सामरिक हार नहीं थी; यह रसद प्रबंधन में एक प्रणालीगत विफलता थी। वेहरमाच (Wehrmacht) की परिचालन प्रतिभा पूरी तरह से उसकी रणनीतिक सहनशक्ति की कमी के कारण निष्प्रभावी हो गई। यहाँ सबक स्पष्ट है: परिचालन पहुँच कड़ाई से रसद और प्रबंधन क्षमता द्वारा निर्धारित होती है। आधुनिक सेनाएँ, जो अपने मशीनीकृत और विमानन संपत्तियों की गति और घातकता पर केंद्रित हैं, इस सटीक त्रुटि को दोहराने का जोखिम उठाती हैं यदि वे मान लेती हैं कि आपूर्ति पैंतरेबाज़ी बल के साथ तालमेल बनाए रखेगी। इसके अलावा, सेना को 'डेजर्ट स्टॉर्म' और 'इराकी फ्रीडम' के अभियानों से प्राप्त रसद पाठों को भूलना होगा। 1991 में, अमेरिकी सेना ने सऊदी अरब में आपूर्ति का एक विशाल \"आयरन माउंटेन\" बनाने में छह महीने बिताए, जो इराकी हस्तक्षेप से पूरी तरह अछूता था। 2003 में, हालांकि आपूर्ति लाइनें खिंची हुई थीं, अमेरिकी सेनाओं के पास अभी भी पूर्ण हवाई और विद्युत चुंबकीय श्रेष्ठता थी। एक ऐसे भविष्य में जहाँ विरोधियों के पास उन्नत एंटी-एक्सेस/एरिया-डिनायल (A2/AD) क्षमताएं हैं, यह मॉडल अब व्यवहार्य नहीं है। सेना की वर्तमान रसद प्रणाली, जो दक्षता और पूर्वानुमेयता के लिए बनाई गई है, लचीलेपन और उत्तरजीविता के लिए नहीं बनाई गई है। यह एक ऐसी प्रणाली है जो स्थिरता के लिए अनुकूलित है, न कि उस अराजकता के लिए जो बड़े पैमाने के संघर्ष में होगी।",
-      "strategic_analysis": "यह विश्लेषण अमेरिकी सेना की रसद प्रणाली के सामने आने वाली चुनौतियों के व्यापक निहितार्थों की पड़ताल करता है। यह बदलाव केवल एक तकनीकी उन्नयन नहीं है, बल्कि सेना के परिचालन दर्शन में एक मौलिक परिवर्तन है। यह संकेत देता है कि भविष्य के युद्धों में, रसद प्रबंधन की क्षमता किसी भी व्यक्तिगत हथियार प्रणाली की तुलना में अधिक महत्वपूर्ण होगी। विशेषज्ञों के अनुसार, यह सेना को अपनी आपूर्ति श्रृंखलाओं को अधिक लचीला और वितरित बनाने के लिए मजबूर करेगा, जिससे विफलता के एकल बिंदुओं (single points of failure) को कम किया जा सके। इसका संभावित प्रभाव यह है कि सेना को अपनी रसद संरचना पर पुनर्विचार करने की आवश्यकता होगी, जिसमें अधिक स्वायत्त आपूर्ति प्रणालियों और उन्नत भविष्य कहनेवाला विश्लेषण (predictive analytics) को शामिल किया जाएगा। हालांकि, इस परिवर्तन की अपनी सीमाएं भी हैं। नई प्रणालियों को विकसित करने और लागू करने में समय और संसाधन लगेंगे, और इस संक्रमण काल के दौरान सेना अपनी रसद कमजोरियों के प्रति संवेदनशील बनी रहेगी। यह एक क्रमिक परिवर्तन है, न कि कोई क्रांतिकारी छलांग, और इसकी सफलता सेना की अनुकूलन और नवाचार करने की क्षमता पर निर्भर करेगी।",
-      "conclusion_and_significance": "अमेरिकी सेना की रसद प्रणाली, जो दो दशकों से स्थिर वातावरण के लिए अनुकूलित थी, अब रणनीतिक प्रतिस्पर्धा के दौर में एक दायित्व बन गई है। भविष्य के बड़े पैमाने के युद्धों में, निरंतर हमले के बावजूद युद्ध शक्ति को बनाए रखने की क्षमता तकनीकी श्रेष्ठता से अधिक निर्णायक होगी। इतिहास, विशेष रूप से ऑपरेशन बारब्रोसा, इस सबक को स्पष्ट रूप से सिखाता है कि परिचालन पहुँच कड़ाई से रसद और प्रबंधन क्षमता द्वारा निर्धारित होती है। सेना को अपनी रसद संरचना पर पुनर्विचार करने की आवश्यकता होगी, जिसमें अधिक स्वायत्त आपूर्ति प्रणालियों और उन्नत भविष्य कहनेवाला विश्लेषण को शामिल किया जाएगा। यह एक क्रमिक परिवर्तन है, और इसकी सफलता सेना की अनुकूलन और नवाचार करने की क्षमता पर निर्भर करेगी।"
-    }
-  },
-  {
-    "url": "https://github.com/ronak-create/FableCut",
-    "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "A browser video editor that AI agents can drive. FableCut is a Premiere-style non-linear video editor that runs entirely in your\nbrowser — and exposes its whole timeline as one JSON document. Edit it by hand,\nfrom the UI, or let an AI agent (Claude Code, Claude Desktop, or anything that\nspeaks MCP/REST) cut your video for you while you watch the timeline update\nlive. Zero npm dependencies. One nod",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [
-        "Pricing model for FableCut, including any subscription tiers or one-time costs, and how it compares to traditional video editing tools"
-      ],
-      "entities": [
-        {
-          "name": "FableCut",
-          "type": "ai_model"
-        },
-        {
-          "name": "ronak-create",
-          "type": "organization"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article describes FableCut, a novel browser-based video editor that exposes its entire timeline as a JSON document, allowing AI agents to drive the editing process, which represents a significant technical innovation in the video editing space."
-    },
-    "cache": {
-      "hits": [],
-      "misses": [
-        {
-          "name": "FableCut",
-          "type": "ai_model"
-        },
-        {
-          "name": "ronak-create",
-          "type": "organization"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"FableCut\" ai_model overview",
-        "\"ronak-create\" organization overview"
-      ],
-      "context_queries": [
-        "Pricing model for FableCut, including any subscription tiers or one-time costs, and how it compares to traditional video editing tools"
-      ],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "FableCut": "FableCut is not mentioned in the provided material. The material discusses Anthropic's AI models, Fable 5 and Mythos 5, but does not contain any information about FableCut.",
-        "ronak-create": "",
-        "Pricing model for FableCut, including any subscription tiers or one-time costs, and how it compares to traditional video editing tools": "material did not address this"
-      }
-    },
-    "synthesis": {
-      "\"FableCut\" ai_model overview": "FableCut is not mentioned in the provided material. The material discusses Anthropic's AI models, Fable 5 and Mythos 5, but does not contain any information about FableCut.",
-      "Pricing model for FableCut, including any subscription tiers or one-time costs, and how it compares to traditional video editing tools": "material did not address this"
-    },
-    "cache_updates": [
-      {
-        "name": "FableCut",
-        "type": "ai_model",
-        "chars_stored": 172
-      }
-    ],
-    "entity_context_preview": "[Pricing model for FableCut, including any subscription tiers or one-time costs, and how it compares to traditional video editing tools]:\nmaterial did not address this\n\nFableCut: FableCut is not mentioned in the provided material. The material discusses Anthropic's AI models, Fable 5 and Mythos 5, but does not contain any information about FableCut.",
-    "stage2": {
-      "core_narrative": "FableCut is a revolutionary browser-based video editor that treats the project file itself as the primary interface, allowing both humans and AI agents to collaborate on video timelines through a simple JSON document.",
-      "key_facts_and_quotes": "*   FableCut is a \"Premiere-style non-linear video editor that runs entirely in your browser.\"\n*   It exposes its entire timeline as a single JSON document.\n*   It has \"Zero npm dependencies. One node server.js . That's it.\"\n*   The project file is the interface: \"project.json describes media, clips, tracks, effects, keyframes and transitions.\"\n*   The UI hot-reloads within \"~150 ms via server-sent events.\"\n*   A human and an AI agent can work on the same timeline simultaneously.\n*   It offers three control surfaces: MCP (for Claude Code/Claude Desktop), REST, and direct JSON editing.\n*   The MCP server is \"token-efficient by design,\" using small operations like `fablecut_patch_project` instead of sending the whole document.\n*   Requirements: \"Node 18+ and a Chromium-based browser.\"\n*   \"ffmpeg on PATH is optional but recommended (fast export + upload remuxing).\"\n*   AI background removal \"fetches its model from a CDN on first use.\"\n*   All necessary information for an AI is in the `CLAUDE.md` file.",
-      "disambiguation_targets": "*   **Non-linear video editor (NLE):** A type of video editing software that allows the editor to access any frame in a video clip regardless of the current playhead position.\n*   **JSON (JavaScript Object Notation):** A lightweight, text-based format for storing and exchanging data, which FableCut uses to represent the entire video project.\n*   **MCP (Model Context Protocol):** A protocol that allows AI models to interact with external tools and data sources, which FableCut uses for agent control.\n*   **Server-sent events (SSE):** A standard that allows a server to push real-time updates to a client over a single HTTP connection, enabling the live-reloading UI.\n*   **ffmpeg:** A powerful, open-source command-line tool for handling video and audio files, used here for fast exporting.",
-      "category": "repo_analysis",
-      "paragraph_plan": [
-        "Para 1: Introduce FableCut as a groundbreaking browser video editor that runs without any external dependencies. State its main innovation: the entire project is a single JSON file, making it uniquely accessible to both humans and AI. Quote the key line: \"Zero npm dependencies. One node server.js . That's it.\"",
-        "Para 2: Explain how FableCut is designed for AI agents, contrasting it with other \"AI video\" tools. Describe the project file as the interface and mention the live-reloading UI that updates in ~150 ms. Quote: \"FableCut flips that: the project file is the interface.\"",
-        "Para 3: Detail the technical setup, mentioning the need for Node 18+ and a Chromium browser, and the optional but recommended ffmpeg for fast exports. Highlight the three control surfaces: MCP (for Claude Code/Claude Desktop), REST, and direct JSON editing.",
-        "Para 4: Describe the MCP server's token-efficient design and how it enables simultaneous human and AI collaboration on the same timeline. Mention that all necessary information for an AI is in the `CLAUDE.md` file.",
-        "Para 5: Conclude with the AI background removal feature, which fetches its model from a CDN on first use, and reiterate the core concept of FableCut as a tool that bridges human and AI video editing workflows through a simple, accessible JSON project file."
-      ]
-    },
-    "stage3": {
-      "title": "FableCut: एक JSON फाइल में ब्राउज़र-आधारित वीडियो एडिटर, जो AI एजेंटों को संचालित करने के लिए तैयार",
-      "concept_box": "FableCut एक क्रांतिकारी ब्राउज़र वीडियो एडिटर है जो पूरी तरह से एक एकल JSON फाइल पर चलता है। यह AI एजेंटों को वीडियो एडिटिंग के लिए एक सरल इंटरफ़ेस प्रदान करता है, जिससे जटिल सॉफ्टवेयर की आवश्यकता समाप्त हो जाती है।",
-      "introduction_lede": "FableCut ने वीडियो एडिटिंग के क्षेत्र में एक नई क्रांति ला दी है। यह एक ऐसा ब्राउज़र-आधारित वीडियो एडिटर है जो किसी भी बाहरी निर्भरता के बिना चलता है। इसकी सबसे बड़ी विशेषता यह है कि पूरा प्रोजेक्ट एक एकल JSON फाइल में समाहित है। जैसा कि इसके निर्माता कहते हैं, \"Zero npm dependencies. One node server.js . That's it.\" यह टूल विशेष रूप से AI एजेंटों के लिए डिज़ाइन किया गया है, जो इसे पारंपरिक वीडियो एडिटिंग टूल्स से अलग बनाता है।",
-      "deep_dive_and_context": "FableCut एक प्रीमियर-स्टाइल नॉन-लीनियर वीडियो एडिटर है जो पूरी तरह से आपके ब्राउज़र में चलता है। यह अपने पूरे टाइमलाइन को एक JSON दस्तावेज़ के रूप में प्रस्तुत करता है, जिसे आप स्वयं संपादित कर सकते हैं, UI से बदल सकते हैं, या किसी AI एजेंट को सौंप सकते हैं। यह AI एजेंट, जैसे कि Claude Code या Claude Desktop, आपके वीडियो को काट सकता है जबकि आप टाइमलाइन को लाइव अपडेट होते हुए देख सकते हैं। इसका तकनीकी सेटअप सरल है: इसके लिए Node 18+ और एक Chromium-आधारित ब्राउज़र की आवश्यकता होती है। तेज़ एक्सपोर्ट के लिए ffmpeg की सिफारिश की जाती है, हालांकि यह वैकल्पिक है। FableCut तीन मुख्य कंट्रोल सरफेस प्रदान करता है: MCP, REST API, और प्रत्यक्ष JSON एडिटिंग। MCP सर्वर विशेष रूप से टोकन-कुशल होने के लिए डिज़ाइन किया गया है, जिससे एजेंट पूरे दस्तावेज़ को बार-बार भेजने के बजाय छोटे ऑपरेशंस के माध्यम से टाइमलाइन को पैच कर सकते हैं। यह डिज़ाइन एक साथ मानव और AI के सहयोग को सक्षम बनाता है। सभी आवश्यक जानकारी `CLAUDE.md` फाइल में उपलब्ध है, जिसमें पूर्ण स्कीमा, सिमेंटिक्स और रेसिपी शामिल हैं। उपयोगकर्ता मीडिया को विंडो में ड्रॉप कर सकते हैं, क्लिप्स को टाइमलाइन पर ड्रैग कर सकते हैं, और उन्हें संपादित कर सकते हैं। एक उदाहरण के तौर पर, कोई Claude Code से कह सकता है, \"इन छह क्लिप्स को बीट मार्कर्स के अनुसार काटें, एक टील-ऑरेंज ग्रेड जोड़ें, और हर कट पर एक हूश (whoosh) साउंड लगाएँ,\" और देख सकता है कि टाइमलाइन खुद को पुनर्गठित कर रही है। AI बैकग्राउंड रिमूवल फीचर पहली बार उपयोग करने पर CDN से अपना मॉडल प्राप्त करता है।",
-      "strategic_analysis": "FableCut का तकनीकी तंत्र एक सरल JSON प्रोजेक्ट फाइल पर आधारित है, जो एक मास्टर ब्लूप्रिंट की तरह कार्य करता है। यह एक ऐसा प्रतिमान बदलाव (paradigm shift) है जहाँ एडिटिंग का लॉजिक एक सुलभ डेटा संरचना में समाहित है। यह पारंपरिक वीडियो एडिटिंग सॉफ्टवेयर के विपरीत है, जहाँ एडिटिंग की प्रक्रिया एक जटिल और अपारदर्शी इंटरफ़ेस के पीछे छिपी होती है। FableCut इस जटिलता को एक सरल, मशीन-पठनीय प्रारूप में बदल देता है। इसका संभावित प्रभाव डेवलपर्स और कंटेंट क्रिएटर्स के लिए बहुत बड़ा है, क्योंकि यह AI-संचालित वीडियो निर्माण के द्वार खोलता है। हालांकि, इसकी सफलता इस बात पर निर्भर करती है कि AI एजेंट कितनी सटीकता से JSON संरचना को समझ सकते हैं और रचनात्मक निर्णय ले सकते हैं। यह एक महत्वपूर्ण कदम है, लेकिन वीडियो एडिटिंग के क्षेत्र में अभी भी कई चुनौतियाँ शेष हैं।",
-      "conclusion_and_significance": "FableCut वीडियो एडिटिंग के क्षेत्र में एक नया क्षितिज खोलता है, जहाँ एक एकल JSON फाइल पूरी एडिटिंग प्रक्रिया को नियंत्रित करती है। यह न केवल तकनीकी रूप से अभिनव है, बल्कि AI एजेंटों और मानव क्रिएटर्स के बीच सहयोग को भी सरल बनाता है।"
-    }
-  },
-  {
     "url": "https://news.ycombinator.com/item?id=48844517",
     "title": "TrueBiz (YC S22) – Senior Software Engineer – Remote (US) – Full-Time",
     "outcome": "skipped_not_tech_news",
@@ -280,310 +13,7 @@
     },
     "stage1": {
       "skip": true,
-      "skip_reason": "The article is a job posting for a Senior Software Engineer at TrueBiz, describing the company's technology and hiring needs."
-    }
-  },
-  {
-    "url": "https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom",
-    "title": "How Version Control Will Evolve for the Agent Boom",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "JULY 06, 2026 · Thomas Dohmke It's been over twenty years since developers started adopting Git. It's by far the most popular version control system today. And, it will be around for another 20 years to come. The question is not if Git survives through the sheer weight of its ecosystem lock-in. The question is how we can expand, rewire, and evolve Git hosting for a world where AI agents are the pr",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "Thomas Dohmke",
-          "type": "CEO of GitHub",
-          "ambiguous": true,
-          "resolved_sense": "CEO of GitHub"
-        },
-        {
-          "name": "Git",
-          "type": "version control system",
-          "ambiguous": true,
-          "resolved_sense": "version control system"
-        },
-        {
-          "name": "GitHub",
-          "type": "Git hosting platform",
-          "ambiguous": true,
-          "resolved_sense": "Git hosting platform"
-        },
-        {
-          "name": "AI agents",
-          "type": "software entities",
-          "ambiguous": true,
-          "resolved_sense": "software entities"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article discusses a hypothetical evolution of version control systems like Git to accommodate the rise of AI agents, focusing on the need for a semantic memory layer and decentralized hosting."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "GitHub",
-          "preview": "Organization profiles can now display custom content visible only to members of "
-        },
-        {
-          "name": "AI agents",
-          "preview": "*   [Welcome](https://www.ibm.com/think/ai-agents#605511093). *   [Overview](htt"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Thomas Dohmke",
-          "type": "CEO of GitHub"
-        },
-        {
-          "name": "Git",
-          "type": "version control system"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Thomas Dohmke\" CEO of GitHub overview CEO of GitHub",
-        "\"Git\" version control system overview version control system"
-      ],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Thomas Dohmke": "",
-        "Git": ""
-      }
-    },
-    "cache_updates": [],
-    "entity_context_preview": "GitHub: Organization profiles can now display custom content visible only to members of the organization. How can we better bring internal resources to their attention at a glance?” Now you can, with an organization README where you can share relevant and important information only to members of your organi\n\nAI agents: *   [Welcome](https://www.ibm.com/think/ai-agents#605511093). *   [Overview](https://www.ibm.com/think/topics/ai-agents#7281535). *   [What is agentic AI?](https://www.ibm.com/think/topics/agentic-ai#2095054954). *   [Overview](https://www.ibm.com/think/topics/ai-agent-developme",
-    "stage2": {
-      "core_narrative": "The agent boom is forcing Git hosting to evolve from a centralized model back to its original decentralized promise to manage the new complexity of AI-generated code and its crucial context.",
-      "key_facts_and_quotes": "*   Git has been in use for over twenty years and is expected to remain dominant for another 20.\n*   The core problem is that Git only stores code, but AI agents generate vast amounts of code where the \"why\" (the context) is now as important as the \"what.\"\n*   The proposed solution is to store \"session logs\" (prompts, tool calls, decisions) alongside the code as a \"semantic memory layer.\"\n*   This semantic layer would allow agents to learn from past mistakes, increasing accuracy and productivity while decreasing token costs.\n*   For humans, this layer provides a \"provenance layer\" for faster and more effective code reviews.\n*   The author's hypothesis: \"session logs are now the most important artifact in software development.\"\n*   Git was originally designed to be a decentralized, distributed network where every clone is a full copy.\n*   In practice, Git hosting has become centralized, a model that is unsustainable for the speed and scale of agent-driven development.",
-      "disambiguation_targets": "*   **Version Control System (VCS):** समझाएं कि यह एक ऐसा system है जो समय के साथ code में होने वाले बदलावों को track करता है, जैसे कि code के लिए एक \"save history\" feature.\n*   **Git:** दुनिया का सबसे popular version control system, जिसे developers code manage करने के लिए use करते हैं।\n*   **AI Agents:** यहाँ इसका मतलब उन intelligent programs से है जो अपने आप code लिख सकते हैं, न कि सिर्फ chat assistants.\n*   **Distributed Network:** एक ऐसा system जहाँ data एक central server पर नहीं, बल्कि कई computers (hosts) पर मौजूद होता है।\n*   **Session Logs:** AI agent के काम करने का पूरा record, जिसमें उसके prompts, decisions और tool calls शामिल हैं।\n*   **Semantic Memory Layer:** एक concept जहाँ code के साथ-साथ उसके पीछे की \"क्यों\" (context) को भी store किया जाता है।\n*   **Provenance Layer:** एक layer जो यह बताती है कि code कैसे और क्यों बनाया गया, जिससे review करना आसान हो जाता है।\n*   **Token Spend:** AI models को use करने की cost, जो context बढ़ने से कम हो सकती है।",
-      "category": "repo_analysis",
-      "paragraph_plan": [
-        "Para 1: Start by establishing Git's long-standing dominance and introduce the new challenge posed by AI agents. State that the current centralized hosting model is inadequate for the future of development.",
-        "Para 2: Explain the core issue: Git tracks code changes but not the intent behind them. Introduce the concept of \"session logs\" as the new critical artifact and quote the hypothesis that they are now the most important part of development.",
-        "Para 3: Detail the proposed solution of adding a \"semantic memory layer\" to repositories. Explain how this layer would benefit both AI agents (learning, accuracy, lower costs) and humans (faster rev",
-        "Para 4: Conclude by contrasting Git's original decentralized design with its current centralized hosting reality, arguing that the latter is unsustainable for the speed and scale of agent-driven development and that a return to decentralization is necessary."
-      ]
-    },
-    "stage3": {
-      "title": "एजेंट बूम के लिए वर्जन कंट्रोल का विकास: गिट (Git) के भविष्य की चुनौती",
-      "concept_box": "गिट (Git) के प्रभुत्व को एआई (AI) एजेंटों की नई वास्तविकता से चुनौती मिल रही है। वर्तमान केंद्रीकृत होस्टिंग मॉडल एजेंट-संचालित विकास की गति और पैमाने के लिए अपर्याप्त है, जिसके लिए सिमेंटिक मेमोरी लेयर और विकेंद्रीकृत होस्टिंग की ओर बदलाव की आवश्यकता है।",
-      "introduction_lede": "गिट (Git) ने बीस वर्षों से अधिक समय से वर्जन कंट्रोल सिस्टम के रूप में अपना दबदबा बनाए रखा है, लेकिन एआई एजेंटों के उदय के साथ इसकी वर्तमान संरचना को एक नई चुनौती का सामना करना पड़ रहा है। गिटहब (GitHub) के सीईओ थॉमस डोहमके का कहना है कि जैसे-जैसे एआई एजेंट कोड के प्राथमिक उत्पादक बन रहे हैं, गिट होस्टिंग को विकसित होना चाहिए। वर्तमान मॉडल, जो केवल कोड परिवर्तनों को ट्रैक करता है, एजेंटों के पीछे के 'उद्देश्य' (intent) को पकड़ने में विफल रहता है। यह लेख गिट के भविष्य के लिए आवश्यक तकनीकी और संरचनात्मक बदलावों का अन्वेषण करता है।",
-      "deep_dive_and_context": "गिट (Git) का मूल डिजाइन विकेंद्रीकृत था, जहाँ प्रत्येक क्लोन में रिपॉजिटरी और उसके इतिहास की पूरी प्रति होती थी। हालाँकि, व्यवहार में, गिट होस्टिंग प्लेटफॉर्म ने डेवलपर्स को केंद्रीकृत प्रणालियों की ओर मोड़ दिया है। यह मॉडल तब तक टिकाऊ था जब तक एजेंटों का आगमन नहीं हुआ। एजेंटों की अविश्वसनीय गति और समानांतर कोडिंग के साथ, केंद्रीकृत प्लेटफॉर्म दर सीमा (rate limiting), आउटेज और धीमी एजेंटों का कारण बनेंगे। गिट होस्टिंग को अपने मूल वादे पर वापस लौटना चाहिए: कई होस्ट्स का एक वितरित नेटवर्क। रिपॉजिटरी को कई स्थानों पर मौजूद होना चाहिए ताकि उच्च उपलब्धता, लचीलापन और समानांतर विकास संभव हो सके।\n\nमुख्य समस्या यह है कि गिट कोड परिवर्तनों को ट्रैक करता है, लेकिन उनके पीछे के 'कारण' को नहीं। जैसे-जैसे एजेंटों द्वारा कोड की प्रचुरता बढ़ती है, संदर्भ—एजेंट सत्र, प्रॉम्प्ट, टूल कॉल और निर्णय—जो डेवलपर के उद्देश्य को प्रकट करते हैं, महत्वपूर्ण हो जाते हैं। परिकल्पना यह है कि सत्र लॉग (session logs) अब सॉफ्टवेयर विकास में सबसे महत्वपूर्ण कलाकृति हैं और उन्हें कोड के साथ रिपॉजिटरी में संग्रहीत किया जाना चाहिए। यह सिमेंटिक मेमोरी लेयर एजेंटों को गलतियों को दोहराने से रोकती है, जिससे सटीकता बढ़ती है, उत्पादकता बढ़ती है और टोकन खर्च कम होता है। मनुष्यों के लिए, यह एक 'प्रोवेनेंस लेयर' (provenance layer) प्रदान करता है, जिससे समीक्षा अवधि बहुत तेज हो जाती है। इस नई सिमेंटिक लेयर के साथ, मनुष्य और एजेंट समूह बिना ओवरराइट किए या समझ खोए समानांतर रूप से सहयोग कर सकते हैं।\n\nप्रस्तावित समाधान रिपॉजिटरी में एक \"सिमेंटिक मेमोरी लेयर\" जोड़ना है। यह लेयर एजेंट सत्रों, प्रॉम्प्ट और निर्णयों को संग्रहीत करेगी, जिससे विकास प्रक्रिया का एक पूर्ण रिकॉर्ड बनेगा। एजेंट इस मेमोरी से सीख सकते हैं, जिससे उनकी सटीकता और उत्पादकता में सुधार होगा। मनुष्यों के लिए, यह लेयर सॉफ्टवेयर निर्माण की प्रक्रिया को समझने और सत्यापित करने में मदद करेगी। यह लेयर एजेंटों को गलतियों को दोहराने से रोकती है, जिससे उच्च सटीकता, बढ़ी हुई उत्पादकता और कम टोकन खर्च संभव होता है। यह एक प्रोवेनेंस लेयर प्रदान करता है जो समीक्षा अवधि को तेज करती है।",
-      "strategic_analysis": "यह बदलाव एक साधारण अपग्रेड नहीं बल्कि गिट के दर्शन का मौलिक पुनर्गठन है। केंद्रीकृत से विकेंद्रीकृत होस्टिंग की ओर बढ़ना इंटरनेट के शुरुआती दिनों की याद दिलाता है, जहाँ एकल सर्वर पर निर्भरता के कारण आउटेज और बाधाएं आती थीं। एजेंट-संचालित विकास की गति और पैमाने के लिए एक वितरित नेटवर्क आवश्यक है। यह संकेत देता है कि भविष्य में सॉफ्टवेयर विकास केवल कोड के बारे में नहीं, बल्कि उस संदर्भ और उद्देश्य के बारे में भी होगा जिसने उसे उत्पन्न किया।",
-      "conclusion_and_significance": "गिट (Git) का भविष्य उसके विकेंद्रीकृत मूल सिद्धांतों को अपनाने में निहित है। एआई एजेंटों के युग में, सिमेंटिक मेमोरी लेयर और वितरित होस्टिंग केवल विकल्प नहीं, बल्कि आवश्यकताएं हैं। यह विकास प्रक्रिया को अधिक पारदर्शी, कुशल और लचीला बनाएगा।"
-    }
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
-    "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Plus: NATO is building a network to stop Russian attackers in their tracks. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —Casey Crownhart I was really looking forward to July 4, and not just because I love a poolside barbecue. This year the American holiday also marked a big symbolic deadline for US nucle",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "The Download",
-          "type": "newsletter"
-        },
-        {
-          "name": "NATO",
-          "type": "government"
-        },
-        {
-          "name": "US",
-          "type": "government"
-        },
-        {
-          "name": "China",
-          "type": "government"
-        },
-        {
-          "name": "Nvidia",
-          "type": "company"
-        },
-        {
-          "name": "H200",
-          "type": "product"
-        },
-        {
-          "name": "Alibaba",
-          "type": "company"
-        },
-        {
-          "name": "ByteDance",
-          "type": "company"
-        },
-        {
-          "name": "DeepSeek",
-          "type": "company"
-        },
-        {
-          "name": "Reuters",
-          "type": "organization"
-        },
-        {
-          "name": "Business Insider",
-          "type": "organization"
-        },
-        {
-          "name": "Economist",
-          "type": "organization"
-        },
-        {
-          "name": "Ars Technica",
-          "type": "organization"
-        },
-        {
-          "name": "Wired",
-          "type": "organization"
-        },
-        {
-          "name": "Iran",
-          "type": "country"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article is a newsletter summary from TechDrishti that discusses a significant milestone in US nuclear power and several other tech-related news items, including AI chip approvals in China and NATO's defense network."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "The Download",
-          "preview": "Powering Their Digital Stores with Easy Digital Downloads. Get Easy Digital Down"
-        },
-        {
-          "name": "Nvidia",
-          "preview": "Nvidia Corporation is an American technology company based in Santa Clara, Calif"
-        },
-        {
-          "name": "DeepSeek",
-          "preview": "DeepSeek focuses on the development of artificial general intelligence within th"
-        }
-      ],
-      "misses": [
-        {
-          "name": "NATO",
-          "type": "government"
-        },
-        {
-          "name": "US",
-          "type": "government"
-        },
-        {
-          "name": "China",
-          "type": "government"
-        },
-        {
-          "name": "H200",
-          "type": "product"
-        },
-        {
-          "name": "Alibaba",
-          "type": "company"
-        },
-        {
-          "name": "ByteDance",
-          "type": "company"
-        },
-        {
-          "name": "Reuters",
-          "type": "organization"
-        },
-        {
-          "name": "Business Insider",
-          "type": "organization"
-        },
-        {
-          "name": "Economist",
-          "type": "organization"
-        },
-        {
-          "name": "Ars Technica",
-          "type": "organization"
-        },
-        {
-          "name": "Wired",
-          "type": "organization"
-        },
-        {
-          "name": "Iran",
-          "type": "country"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"NATO\" government overview",
-        "\"US\" government overview",
-        "\"China\" government overview",
-        "\"H200\" product overview",
-        "\"Alibaba\" company overview",
-        "\"ByteDance\" company overview",
-        "\"Reuters\" organization overview",
-        "\"Business Insider\" organization overview",
-        "\"Economist\" organization overview",
-        "\"Ars Technica\" organization overview",
-        "\"Wired\" organization overview",
-        "\"Iran\" country overview"
-      ],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "NATO": "",
-        "US": "",
-        "China": "",
-        "H200": "",
-        "Alibaba": "",
-        "ByteDance": "",
-        "Reuters": "",
-        "Business Insider": "",
-        "Economist": "",
-        "Ars Technica": "",
-        "Wired": "",
-        "Iran": ""
-      }
-    },
-    "cache_updates": [],
-    "entity_context_preview": "The Download: Powering Their Digital Stores with Easy Digital Downloads. Get Easy Digital Downloads Now. Documentation, Reference Materials, and Tutorials for Easy Digital Downloads. # Creating Products in Easy Digital Downloads. Your products are the core of your Easy Digital Downloads/WordPress store. It also e\n\nNvidia: Nvidia Corporation is an American technology company based in Santa Clara, California. It is a designer and developer of graphics processing units, central processing units, and systems.\n\nDeepSeek: DeepSeek focuses on the development of artificial general intelligence within ",
-    "stage2": {
-      "core_narrative": "While the US celebrates a nuclear milestone with four new microreactors achieving criticality, China is simultaneously advancing its AI ambitions by securing access to crucial Nvidia chips, highlighting a dual-track race in clean energy and artificial intelligence.",
-      "key_facts_and_quotes": "Four new microreactors in the US achieved criticality by July 4th, surpassing the Trump administration's goal of three. Criticality is the technical milestone where a reactor can sustain a chain reaction, but it does not mean the reactor is ready to generate electricity for the grid. This milestone is a positive sign for nuclear power as a source of emissions-free energy. China has approved its top AI firms, including Alibaba, ByteDance, and DeepSeek, to purchase Nvidia H200 chips. This approval comes after China had previously withheld permission despite US authorization. NATO is building a network using sensors, drones, satellites, and AI to detect Russian attackers.",
-      "disambiguation_targets": "Criticality (क्रिटिकलिटी): This technical term needs a simple Hindi explanation. It means the point at which a nuclear reactor's chain reaction becomes self-sustaining. Microreactor (माइक्रो-रिएक्टर): A small, factory-built nuclear reactor that can generate a smaller amount of power than traditional large-scale plants. Nvidia H200 chips (Nvidia H200 चिप्स): These are high-performance graphics processing units (GPUs) essential for training and running advanced artificial intelligence models. DeepSeek (DeepSeek): A Chinese artificial intelligence company focused on developing AGI (Artificial General Intelligence).",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Start with the US nuclear news. State that four microreactors achieved criticality by July 4th, exceeding the goal of three. Explain that this is a significant step for nuclear energy as a clean power source. Use the term \"criticality\" and provide its Hindi explanation.",
-        "Para 2: Clarify the milestone's limitations. Emphasize that achieving criticality does not mean the reactors are ready to supply electricity to the grid. Mention that this is the first step for the four companies involved and they must now work on connecting to the power grid.",
-        "Para 3: Transition to the China-Nvidia story. Report that China has approved its leading AI companies, including Alibaba, ByteDance, and DeepSeek, to buy Nvidia H200 chips. Note that this approval was previously withheld, making it a significant development.",
-        "Para 4: Provide context for the Nvidia chips. Explain that these H200 chips are critical for developing and running powerful AI models, which are central to the global AI competition. This highlights China's strategic push to advance its AI capabilities.",
-        "Para 5: Briefly mention the NATO story as a third key tech development. Describe how NATO is creating a network using senso"
-      ]
-    },
-    "stage3": {
-      "title": "द डाउनलोड: एक परमाणु मील का पत्थर, और चीन की नजरें एनवीडिया चिप्स पर",
-      "concept_box": "अमेरिका में चार माइक्रो-रिएक्टरों ने 'क्रिटिकलिटी' हासिल की, जो परमाणु ऊर्जा के लिए एक महत्वपूर्ण कदम है। साथ ही, चीन ने एनवीडिया के H200 चिप्स खरीदने के लिए अपने शीर्ष AI फर्मों को अनुमति दी है, जो वैश्विक AI प्रतिस्पर्धा में एक रणनीतिक बदलाव का संकेत है।",
-      "introduction_lede": "4 जुलाई को, अमेरिका में परमाणु ऊर्जा के लिए एक महत्वपूर्ण उपलब्धि दर्ज की गई। चार माइक्रो-रिएक्टरों ने 'क्रिटिकलिटी' की स्थिति प्राप्त कर ली, जो एक ऐसी तकनीकी उपलब्धि है जो यह दर्शाती है कि रिएक्टर एक निरंतर श्रृंखला प्रतिक्रिया (chain reaction) को बनाए रख सकता है। यह लक्ष्य मूल रूप से तीन रिएक्टरों के लिए निर्धारित था, लेकिन चार ने इसे पार कर लिया। यह घटना अमेरिका की 250वीं वर्षगांठ के अवसर पर आई, जो स्वच्छ और उत्सर्जन-मुक्त ऊर्जा की बढ़ती मांग के बीच परमाणु तकनीक के लिए एक सकारात्मक संकेत है। हालांकि, यह समझना महत्वपूर्ण है कि क्रिटिकलिटी प्राप्त करना बिजली ग्रिड को आपूर्ति शुरू करने के लिए पर्याप्त नहीं है।",
-      "deep_dive_and_context": "यह उपलब्धि अमेरिकी ऊर्जा विभाग के 'ऑफिस ऑफ न्यू न्यूक्लियर एनर्जी' द्वारा समर्थित चार अलग-अलग कंपनियों द्वारा हासिल की गई। क्रिटिकलिटी वह बिंदु है जहाँ परमाणु विखंडन (fission) की श्रृंखला प्रतिक्रिया आत्मनिर्भर हो जाती है, जिसका अर्थ है कि रिएक्टर स्वयं को नियंत्रित करने के लिए पर्याप्त गर्मी पैदा कर रहा है। यह किसी भी परमाणु रिएक्टर के संचालन के लिए एक मौलिक पूर्व-शर्त है। इस मील के पत्थर को प्राप्त करके, ये कंपनियां परमाणु ऊर्जा को एक आधुनिक और विश्वसनीय ऊर्जा स्रोत के रूप में विकसित करने की दिशा में एक महत्वपूर्ण कदम आगे बढ़ गई हैं। यह विकास ऐसे समय में आया है जब दुनिया भर में बिजली की मांग बढ़ रही है और जलवायु परिवर्तन से निपटने के लिए कार्बन-मुक्त ऊर्जा स्रोतों की आवश्यकता तीव्र हो गई है।\n\nहालांकि, क्रिटिकलिटी प्राप्त करने और बिजली उत्पादन के बीच एक बड़ा अंतर है। क्रिटिकलिटी केवल यह पुष्टि करती है कि रिएक्टर का भौतिक विज्ञान (physics) सही है। अब इन कंपनियों को इंजीनियरिंग और नियामक चुनौतियों की एक श्रृंखला का सामना करना होगा। उन्हें रिएक्टर को पावर ग्रिड से जोड़ने के लिए आवश्यक बुनियादी ढांचे का निर्माण करना होगा, जिसमें टर्बाइन, जनरेटर और ट्रांसमिशन लाइनें शामिल हैं। इसके अलावा, उन्हें संघीय और राज्य नियामकों से लाइसेंस प्राप्त करना होगा, जो एक लंबी और जटिल प्रक्रिया है। ये कंपनियां अब इस तकनीकी उपलब्धि को व्यावसायिक रूप से व्यवहार्य बिजली उत्पादन में बदलने की दिशा में काम करेंगी।\n\nचीन की ओर से, एक अलग लेकिन समान रूप से महत्वपूर्ण तकनीकी घटनाक्रम सामने आया है। चीन ने अपने अग्रणी AI कंपनियों, जिनमें अलीबाबा, बाइटडांस और डीपसीक शामिल हैं, को एनवीडिया के H200 चिप्स खरीदने की अनुमति दे दी है। यह अनुमोदन पहले रोक दिया गया था, जिससे यह एक महत्वपूर्ण बदलाव बन गया है। H200 चिप्स AI मॉडल के विकास और संचालन के लिए अत्यंत महत्वपूर्ण हैं, जो वैश्विक AI प्रतिस्पर्धा के केंद्र में हैं।\n\nये H200 चिप्स 'हेलीओस' (Helios) सुपरकंप्यूटर जैसे उन्नत AI सिस्टम के लिए आवश्यक कंप्यूटेशनल शक्ति प्रदान करते हैं। चीन का यह कदम अपनी AI क्षमताओं को मजबूत करने की उसकी रणनीतिक प्रतिबद्धता को दर्शाता है। इन शक्तिशाली चिप्स तक पहुंच प्राप्त करके, चीनी कंपनियां अत्याधुनिक AI मॉडल विकसित करने और तैनात करने में बेहतर स्थिति में होंगी। यह विकास वैश्विक AI परिदृश्य में एक महत्वपूर्ण घटनाक्रम है, जो तकनीकी नेतृत्व के लिए चल रही प्रतिस्पर्धा को रेखांकित करता है।",
-      "strategic_analysis": "परमाणु ऊर्जा में क्रिटिकलिटी की उपलब्धि एक सकारात्मक संकेत है, लेकिन यह कोई तत्काल समाधान नहीं है। यह एक लंबी और महंगी प्रक्रिया की शुरुआत है। इन कंपनियों की सफलता न केवल तकनीकी क्षमताओं पर, बल्कि नियामक ढांचे और बाजार की स्थितियों पर भी निर्भर करेगी। AI चिप्स पर चीन का निर्णय एक रणनीतिक कदम है, लेकिन यह अमेरिका के साथ तकनीकी प्रतिस्पर्धा को समाप्त नहीं करता है। यह वैश्विक AI दौड़ में एक नया अध्याय है, जहाँ हार्डवेयर तक पहुंच एक महत्वपूर्ण कारक बनी हुई है।",
-      "conclusion_and_significance": "अमेरिका में परमाणु ऊर्जा का यह मील का पत्थर और चीन द्वारा AI चिप्स की खरीद, दोनों ही वैश्विक तकनीकी परिदृश्य में महत्वपूर्ण बदलावों का संकेत देते हैं। परमाणु ऊर्जा के लिए यह एक लंबी यात्रा की शुरुआत है, जबकि AI के क्षेत्र में प्रतिस्पर्धा तेज हो गई है। ये घटनाक्रम भविष्य की ऊर्जा और प्रौद्योगिकी नीतियों को आकार देंगे।"
+      "skip_reason": "The article is a job posting for a Senior Software Engineer at a tech company, which falls under the category of a job/career posting."
     }
   },
   {
@@ -600,16 +30,16 @@
     },
     "stage1": {
       "skip": true,
-      "skip_reason": "The article is a jumbled collection of unrelated topics and contains no coherent tech news event."
+      "skip_reason": "The article is a jumbled collection of unrelated tech-related snippets and announcements rather than a coherent news story about a specific event."
     }
   },
   {
-    "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-    "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+    "url": "https://www.theverge.com/tech/963281/pocketmage-pda-e-paper-oled-clamshell-crowd-supply",
+    "title": "The PocketMage resurrects the PDA with an e-paper screen",
     "outcome": "published",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The popular open source AI tool Ollama has raised a $65 million Series B, led by Theory Ventures, founder and CEO Jeff Morgan tells TechCrunch. This round follows a previous $15 million Series A led by Benchmark’s Peter Fenton. All told, the company has now raised $88 million. Ollama, which launched in 2023, helps devs run open-weight AI models on their PCs, getting them up and running in minutes.",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The device pairs a compact keyboard with two screens to create a pocketable distraction-free smar",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -617,495 +47,129 @@
     },
     "stage1": {
       "search_queries": [
-        "What are the specific performance benchmarks or metrics that Ollama uses to compare its speed and efficiency against other AI developer tools?",
-        "What is the technical architecture of Ollama's neocloud, and how does it handle model hosting and GPU time tracking?"
+        "What is the technical architecture of the PocketMage's software, and how does it handle multitasking or background processes given the limited hardware resources?"
       ],
       "entities": [
         {
-          "name": "Ollama",
+          "name": "PocketMage",
+          "type": "model_release"
+        },
+        {
+          "name": "Talisman Design",
+          "type": "company"
+        },
+        {
+          "name": "ESP32-S3",
           "type": "technology"
         },
         {
-          "name": "Theory Ventures",
-          "type": "company"
-        },
-        {
-          "name": "Jeff Morgan",
-          "type": "person"
-        },
-        {
-          "name": "Michael Chiang",
-          "type": "person"
-        },
-        {
-          "name": "Docker",
-          "type": "company"
-        },
-        {
-          "name": "Kitematic",
-          "type": "company"
-        },
-        {
-          "name": "Benchmark",
-          "type": "company"
-        },
-        {
-          "name": "Peter Fenton",
-          "type": "person"
-        },
-        {
-          "name": "Fortune 500",
+          "name": "Crowd Supply",
           "type": "organization"
         }
       ],
       "skip": false,
-      "skip_reason": "The article reports on a significant funding round and user growth for the open-source AI developer tool Ollama, which constitutes a clear tech news event."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "Ollama",
-          "preview": "# Ollama Technology Overview and Insights. ## Uploaded by. AI-enhanced title and"
-        },
-        {
-          "name": "Docker",
-          "preview": "Docker is open-source software used to deploy applications inside virtual contai"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Theory Ventures",
-          "type": "company"
-        },
-        {
-          "name": "Jeff Morgan",
-          "type": "person"
-        },
-        {
-          "name": "Michael Chiang",
-          "type": "person"
-        },
-        {
-          "name": "Kitematic",
-          "type": "company"
-        },
-        {
-          "name": "Benchmark",
-          "type": "company"
-        },
-        {
-          "name": "Peter Fenton",
-          "type": "person"
-        },
-        {
-          "name": "Fortune 500",
-          "type": "organization"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Theory Ventures\" company overview",
-        "\"Jeff Morgan\" person overview",
-        "\"Michael Chiang\" person overview",
-        "\"Kitematic\" company overview",
-        "\"Benchmark\" company overview",
-        "\"Peter Fenton\" person overview",
-        "\"Fortune 500\" organization overview"
-      ],
-      "context_queries": [
-        "What are the specific performance benchmarks or metrics that Ollama uses to compare its speed and efficiency against other AI developer tools?",
-        "What is the technical architecture of Ollama's neocloud, and how does it handle model hosting and GPU time tracking?"
-      ],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Theory Ventures": "",
-        "Jeff Morgan": "",
-        "Michael Chiang": "",
-        "Kitematic": "",
-        "Benchmark": "",
-        "Peter Fenton": "",
-        "Fortune 500": "",
-        "What are the specific performance benchmarks or metrics that Ollama uses to compare its speed and efficiency against other AI developer tools?": "The provided material does not contain any information about the specific performance benchmarks or metrics used by Ollama to compare its speed and efficiency against other AI developer tools.",
-        "What is the technical architecture of Ollama's neocloud, and how does it handle model hosting and GPU time tracking?": "The provided material does not contain any information about the technical architecture of Ollama's neocloud, how it handles model hosting, or its GPU time tracking capabilities."
-      }
-    },
-    "synthesis": {
-      "What are the specific performance benchmarks or metrics that Ollama uses to compare its speed and efficiency against other AI developer tools?": "The provided material does not contain any information about the specific performance benchmarks or metrics used by Ollama to compare its speed and efficiency against other AI developer tools.",
-      "What is the technical architecture of Ollama's neocloud, and how does it handle model hosting and GPU time tracking?": "The provided material does not contain any information about the technical architecture of Ollama's neocloud, how it handles model hosting, or its GPU time tracking capabilities."
-    },
-    "cache_updates": [],
-    "entity_context_preview": "Ollama: # Ollama Technology Overview and Insights. ## Uploaded by. AI-enhanced title and description. The document provides a comprehensive overview of the technology behind Ollama, detailing its architecture, key technologies, and use cases across various industries. It discusses the advantages and limitat\n\nDocker: Docker is open-source software used to deploy applications inside virtual containers. It enables developers to package applications into standardized units for seamless deployment, encapsulating everything needed to run an application, from code to dependencies. This platform resha",
-    "stage2": {
-      "core_narrative": "A tool that made running AI models as easy for developers as Docker did for cloud apps has now raised $65 million in funding and built a massive base of 9 million users.",
-      "key_facts_and_quotes": [
-        "Ollama has raised $65 million in Series B funding, led by Theory Ventures.",
-        "The company previously raised $15 million in Series A funding, led by Benchmark's Peter Fenton.",
-        "In total, the company has raised $88 million in funding.",
-        "Ollama was launched in 2023.",
-        "It helps developers run open-weight AI models on their PCs.",
-        "It has 176,000 stars and around 17,000 forks on GitHub.",
-        "It is used by over 8.9 million developers per month.",
-        "It is present in 85% of Fortune 500 companies.",
-        "The company has only 14 employees.",
-        "Jeff Morgan, the CEO, previously helped build Docker Desktop.",
-        "He says, \"Open models started to emerge in 2023, but they were very hard to use. They were built for researchers, not programmers.\"",
-        "Peter Fenton (Benchmark) says, \"The ability to build a product that is ubiquitous for developers, like what Jeff and Michael built with Docker, which is used by 10 million developers a day, is a huge thing.\""
-      ],
-      "disambiguation_targets": [
-        "**Ollama:** To be explained as an open-source AI tool that facilitates running AI models locally on PCs.",
-        "**Open-weight AI models:** To be explained as AI models whose architecture and weights are openly available for developers to modify.",
-        "**Neocloud:** To be explained as a cloud service that hosts large, complex AI models and provides access on a subscription basis.",
-        "**GPU time tracking:** To be explained as a billing method where users are charged based on the amount of GPU time used to run their AI models, rather than per token."
-      ],
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Open with Ollama's success story, highlighting its $65 million Series B funding, 8.9 million users, and presence in 85% of Fortune 500 companies. Tone: Surprising and informative.",
-        "Para 2: Explain what Ollama does and why it matters, using Jeff Morgan's quote about the difficulty of using open models. Connect it to Docker to illustrate how it simplified AI for developers. Tone: Informative and solution-oriented.",
-        "Para 3: Discuss the community and growth, mentioning the 176,000 stars and 17,000 forks on GitHub. Also, touch on its business model, which includes free to $100/month subscription tiers and GPU time tracking. Tone: Growth and community-focused.",
-        "Para 4: Talk about the team and vision, focusing on Jeff Morgan and Michael Chiang's background with Docker. Include Peter Fenton's quote about their ability to build developer-centric products. Tone: Visionary and team-focused."
-      ]
-    },
-    "stage3": {
-      "title": "लोकप्रिय ओपन सोर्स AI डेवलपर टूल ओलामा (Ollama) ने 65 मिलियन डॉलर जुटाए, 9 मिलियन उपयोगकर्ताओं तक पहुंच बनाई",
-      "concept_box": "ओलामा ने 65 मिलियन डॉलर का सीरीज B फंडिंग राउंड पूरा किया है, जिससे इसका कुल फंडिंग 88 मिलियन डॉलर हो गया है। यह टूल डेवलपर्स को अपने PCs पर ओपन-वेट AI मॉडल्स को आसानी से चलाने की सुविधा देता है, जिससे यह 8.9 मिलियन मासिक उपयोगकर्ताओं और 85% फॉर्च्यून 500 कंपनियों के बीच लोकप्रिय हो गया है।",
-      "introduction_lede": "लोकप्रिय ओपन सोर्स AI टूल ओलामा ने 65 मिलियन डॉलर का सीरीज B फंडिंग राउंड पूरा किया है, जिसका नेतृत्व थ्योरी वेंचर्स (Theory Ventures) ने किया है। कंपनी के CEO जेफ मॉर्गन ने टेकक्रंच (TechCrunch) को इसकी पुष्टि की है। यह राउंड पिछले साल बेंचमार्क (Benchmark) के पीटर फेंटन द्वारा नेतृत्व किए गए 15 मिलियन डॉलर के सीरीज A के बाद आया है। ओलामा, जिसे 2023 में लॉन्च किया गया था, डेवलपर्स को उनके PCs पर ओपन-वेट AI मॉडल्स को मिनटों में चलाने में मदद करता है। इसने GitHub पर 176,000 स्टार्स और लगभग 17,000 फोर्क्स (forks) प्राप्त किए हैं, और यह 8.9 मिलियन डेवलपर्स द्वारा मासिक रूप से उपयोग किया जा रहा है, जो 85% फॉर्च्यून 500 कंपनियों में मौजूद है।",
-      "deep_dive_and_context": "ओलामा का सफर एक सरल लेकिन शक्तिशाली विचार पर आधारित है: AI मॉडल्स को डेवलपर्स के लिए सुलभ बनाना। जेफ मॉर्गन के अनुसार, 2023 में जब ओपन मॉडल्स आने शुरू हुए, तो वे शोधकर्ताओं के लिए डिज़ाइन किए गए थे, प्रोग्रामर्स के लिए नहीं, जिससे उन्हें चलाना बहुत कठिन था। मॉर्गन और उनके सह-संस्थापक माइकल चियांग ने पहले डॉकर (Docker) डेस्कटॉप बनाने में मदद की थी, जो कंटेनराइजेशन के माध्यम से क्लाउड ऐप्स को विभिन्न वातावरणों में आसानी से चलाने की सुविधा देता है। ओलामा ने AI के लिए वही काम किया जो डॉकर ने क्लाउड के लिए किया था। यह डेवलपर्स को उनके स्थानीय मशीनों पर AI मॉडल्स को जल्दी से सेटअप करने की अनुमति देता है, जिससे महंगे क्लाउड इंफ्रास्ट्रक्चर पर निर्भरता कम हो जाती है।\n\nकंपनी का बिजनेस मॉडल मुफ्त से लेकर 100 डॉलर प्रति माह तक के विभिन्न सब्सक्रिप्शन स्तर प्रदान करता है, जिसमें GPU समय के आधार पर उपयोग की ट्रैकिंग की जाती है, न कि टोकन सीमाओं के आधार पर। यह दृष्टिकोण डेवलपर्स को लचीलापन प्रदान करता है और यह सुनिश्चित करता है कि वे केवल उसी के लिए भुगतान करें जिसका वे उपयोग करते हैं। जनवरी में ओपनक्ला (OpenClaw) के उदय के बाद से, जब बड़े ओपन मॉडल्स कोडिंग जैसे एजेंटिक कार्य करने में सक्षम हुए, ओलामा का उपयोग तेजी से बढ़ा है। इस विकास ने कंपनी को 14 कर्मचारियों के साथ भी 8.9 मिलियन उपयोगकर्ताओं तक पहुँचाने में मदद की है।\n\nओलामा के पीछे की टीम की विशेषज्ञता इसके विकास में महत्वपूर्ण रही है। डॉकर में मॉर्गन और चियांग के अनुभव ने उन्हें डेवलपर-केंद्रित उत्पाद बनाने की गहरी समझ दी। बेंचमार्क के पीटर फेंटन ने इस क्षमता को पहचानते हुए न केवल अपने फंड से बल्कि बोर्ड में शामिल होकर भी समर्थन किया। फेंटन का मानना है कि जेफ और माइकल में वह रचनात्मक शक्ति है जो डेवलपर्स के लिए सर्वव्यापी उत्पाद बना सकती है, जो एक दुर्लभ गुण है। यह विशेषज्ञता और विजन ओलामा को AI विकास के क्षेत्र में एक मजबूत स्थिति में रखता है।",
-      "strategic_analysis": "ओलामा की सफलता AI विकास के क्षेत्र में एक महत्वपूर्ण बदलाव का संकेत देती है। स्थानीय मशीनों पर ओपन-वेट मॉडल्स को सुलभ बनाकर, ओलामा ने AI विकास का लोकतंत्रीकरण किया है, जिससे डेवलपर्स महंगे क्लाउड संसाधनों पर निर्भर हुए बिना प्रयोग कर सकते हैं। यह प्रवृत्ति AI विकास को अधिक वितरित और सुलभ बना सकती है, जिससे नवाचार को बढ़ावा मिलेगा। हालांकि, स्थानीय मशीनों पर बड़े मॉडल्स चलाने की सीमाएं भी हैं, जैसे हार्डवेयर की आवश्यकताएं और स्केलेबिलिटी की चुनौतियां। ओलामा का बिजनेस मॉडल, जो GPU समय पर आधारित है, एक व्यावहारिक दृष्टिकोण है, लेकिन यह देखना बाकी है कि यह मॉडल बड़े पैमाने पर कितना टिकाऊ रहेगा।",
-      "conclusion_and_significance": "ओलामा की 65 मिलियन डॉलर की फंडिंग और 9 मिलियन उपयोगकर्ताओं तक की पहुंच AI विकास के क्षेत्र में एक महत्वपूर्ण उपलब्धि है। कंपनी ने सफलतापूर्वक AI मॉडल्स को डेवलपर्स के लिए सुलभ बनाया है, जिससे नवाचार को बढ़ावा मिला है। टीम की विशेषज्ञता और व्यावहारिक बिजनेस मॉडल इसे AI विकास के भविष्य में एक मजबूत स्थिति प्रदान करते हैं।"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
-    "title": "Character.AI enters the microdrama arena with its own productions, but there’s a twist",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Microdramas are such a rage these days that nearly every kind of company in the attention economy space — be they dedicated microdrama apps , social media giants (TikTok and Instagram) or streaming services ( Peacock , Amazon Prime , and India’s JioHotstar ) — is building a product to tap the opportunity. Character.AI, which lets people chat with customized AI avatars, is also tapping this budding",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [
-        "Character.AI's pricing for its new c.ai Series and c.ai FM tools",
-        "The technical details of the AI production tools used to create the microdramas, such as the underlying model or workflow"
-      ],
-      "entities": [
-        {
-          "name": "Character.AI",
-          "type": "company"
-        },
-        {
-          "name": "Lorebook",
-          "type": "product"
-        },
-        {
-          "name": "Books",
-          "type": "product"
-        },
-        {
-          "name": "c.ai Series",
-          "type": "product"
-        },
-        {
-          "name": "c.ai FM",
-          "type": "product"
-        },
-        {
-          "name": "Last Summer",
-          "type": "product"
-        },
-        {
-          "name": "The Nighttime Game",
-          "type": "product"
-        },
-        {
-          "name": "Eden Fall",
-          "type": "product"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article reports on Character.AI's launch of its own microdramas, a new product feature, and its strategic direction in the entertainment space."
+      "skip_reason": "The article is a news report about a specific product, the PocketMage PDA, and its crowdfunding campaign, which constitutes a tech news event."
     },
     "cache": {
       "hits": [],
       "misses": [
         {
-          "name": "Character.AI",
+          "name": "PocketMage",
+          "type": "model_release"
+        },
+        {
+          "name": "Talisman Design",
           "type": "company"
         },
         {
-          "name": "Lorebook",
-          "type": "product"
+          "name": "ESP32-S3",
+          "type": "technology"
         },
         {
-          "name": "Books",
-          "type": "product"
-        },
-        {
-          "name": "c.ai Series",
-          "type": "product"
-        },
-        {
-          "name": "c.ai FM",
-          "type": "product"
-        },
-        {
-          "name": "Last Summer",
-          "type": "product"
-        },
-        {
-          "name": "The Nighttime Game",
-          "type": "product"
-        },
-        {
-          "name": "Eden Fall",
-          "type": "product"
+          "name": "Crowd Supply",
+          "type": "organization"
         }
       ]
     },
     "search": {
       "backend": "ddg",
       "identity_queries": [
-        "\"Character.AI\" company overview",
-        "\"Lorebook\" product overview",
-        "\"Books\" product overview",
-        "\"c.ai Series\" product overview",
-        "\"c.ai FM\" product overview",
-        "\"Last Summer\" product overview",
-        "\"The Nighttime Game\" product overview",
-        "\"Eden Fall\" product overview"
+        "\"PocketMage\" model_release overview",
+        "\"Talisman Design\" company overview",
+        "\"ESP32-S3\" technology overview",
+        "\"Crowd Supply\" organization overview"
       ],
       "context_queries": [
-        "Character.AI's pricing for its new c.ai Series and c.ai FM tools",
-        "The technical details of the AI production tools used to create the microdramas, such as the underlying model or workflow"
+        "What is the technical architecture of the PocketMage's software, and how does it handle multitasking or background processes given the limited hardware resources?"
       ],
       "context_queries_with_gap1_attached": [],
       "results": {
-        "Character.AI": "",
-        "Lorebook": "",
-        "Books": "",
-        "c.ai Series": "",
-        "c.ai FM": "",
-        "Last Summer": "",
-        "The Nighttime Game": "",
-        "Eden Fall": "",
-        "Character.AI's pricing for its new c.ai Series and c.ai FM tools": "material did not address this",
-        "The technical details of the AI production tools used to create the microdramas, such as the underlying model or workflow": "material did not address this"
+        "PocketMage": "PocketMage is a personal digital assistant designed to reclaim the utility of pocketable computing. All hardware, software, and documentation is currently released under the Apache-2.0 Open Source Hardware license. The project uses an ESP32-S3 microcontroller and is funded through a crowdfunding campaign.",
+        "Talisman Design": "Talisman Design specializes in innovative kitchen gadgets, including unique items like the Adjustable Pie Shield and the Bacon Bin. Their products appeal to a diverse clientele, from novice bakers to experienced home cooks, and are known for functional kitchen gadgets.",
+        "ESP32-S3": "ESP32-S3 is a dual-core XTensa LX7 MCU capable of running at 240 MHz. It features 512 KB of internal SRAM, integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) connectivity, and 45 programmable GPIOs. The platform supports a rich set of peripherals and is known for its AI acceleration and reliable security features.",
+        "Crowd Supply": "Crowd Supply is a crowdfunding platform focused on new product development projects, particularly for independent and open-source hardware creators. It offers access to a niche but highly engaged community of developers and provides a platform for sales opportunities for related electronics and hardware components.",
+        "What is the technical architecture of the PocketMage's software, and how does it handle multitasking or background processes given the limited hardware resources?": "The material does not address the technical architecture of the PocketMage's software or how it handles multitasking or background processes. It only mentions that PocketMage utilizes an ESP32-S3 for a high-performance, low-power platform."
       }
     },
     "synthesis": {
-      "Character.AI's pricing for its new c.ai Series and c.ai FM tools": "material did not address this",
-      "The technical details of the AI production tools used to create the microdramas, such as the underlying model or workflow": "material did not address this"
+      "\"PocketMage\" model_release overview": "PocketMage is a personal digital assistant designed to reclaim the utility of pocketable computing. All hardware, software, and documentation is currently released under the Apache-2.0 Open Source Hardware license. The project uses an ESP32-S3 microcontroller and is funded through a crowdfunding campaign.",
+      "\"Talisman Design\" company overview": "Talisman Design specializes in innovative kitchen gadgets, including unique items like the Adjustable Pie Shield and the Bacon Bin. Their products appeal to a diverse clientele, from novice bakers to experienced home cooks, and are known for functional kitchen gadgets.",
+      "\"ESP32-S3\" technology overview": "ESP32-S3 is a dual-core XTensa LX7 MCU capable of running at 240 MHz. It features 512 KB of internal SRAM, integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) connectivity, and 45 programmable GPIOs. The platform supports a rich set of peripherals and is known for its AI acceleration and reliable security features.",
+      "\"Crowd Supply\" organization overview": "Crowd Supply is a crowdfunding platform focused on new product development projects, particularly for independent and open-source hardware creators. It offers access to a niche but highly engaged community of developers and provides a platform for sales opportunities for related electronics and hardware components.",
+      "What is the technical architecture of the PocketMage's software, and how does it handle multitasking or background processes given the limited hardware resources?": "The material does not address the technical architecture of the PocketMage's software or how it handles multitasking or background processes. It only mentions that PocketMage utilizes an ESP32-S3 for a high-performance, low-power platform."
     },
-    "cache_updates": [],
-    "entity_context_preview": "[Character.AI's pricing for its new c.ai Series and c.ai FM tools]:\nmaterial did not address this\n\n[The technical details of the AI production tools used to create the microdramas, such as the underlying model or workflow]:\nmaterial did not address this",
-    "stage2": {
-      "core_narrative": "Character.AI is leveraging its core chat technology to create interactive microdramas, blurring the line between passive viewing and active user participation.",
-      "key_facts_and_quotes": "*   Character.AI is launching its own microdramas, starting with three series: \"Last Summer\" (romance), \"The Nighttime Game\" (horror), and \"Eden Fall\" (survival).\n*   Users over 18 can interact with the characters from these shows by chatting, asking questions, and roleplaying new storylines.\n*   The dramas were created using the company's own AI production tools.\n*   The long-term goal is to provide creator tools for users to build their own characters and series.\n*   Quote: \"Starting with a studio-led model, c.ai Series lets our production team develop the format, refine the workflow, and understand what audiences want from Character-native Microdrama entertainment. Over time, the goal is to turn those learnings and workflows into creator tools, enabling users to make their own series from original Characters and share them with a global audience.\" - Character.AI spokesperson.\n*   This move follows other entertainment features like Lorebook (for world-building) and Books (for literary roleplay).\n*   The company is also testing a feature called c.ai FM for creating audio series.",
-      "disambiguation_targets": "*   **Character.AI:** (कैरेक्टर.एआई) - The platform that allows users to chat with AI-powered characters.\n*   **Microdrama:** (माइक्रोड्रामा) - A very short-form video or interactive story, typically lasting only a few minutes.\n*   **c.ai Series:** (सी.ए.आई सीरीज) - Character.AI's new line of AI-generated microdramas.\n*   **Lorebook:** (लोरबुक) - A tool for users to create detailed world-building information that AI characters can reference.\n*   **c.ai FM:** (सी.ए.आई एफ.एम.) - A new feature being tested that allows users to create their own audio series.",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Introduce Character.AI's entry into the microdrama market with its new c.ai Series, mentioning the three initial shows (\"Last Summer,\" \"The Nighttime Game,\" \"Eden Fall\") and the core twist of user interaction. The tone should be informative and highlight the novelty of the concept.",
-        "Para 2: Detail the key feature that sets this apart: users over 18 can chat with, question, and roleplay with the show's characters. Explain how this leverages the company's core product and creates a new form of entertainment. The tone should be explanatory, focusing on the user experience.",
-        "Para 3: Discuss Character.AI's long-term plan, starting with a studio-led model to refine the format before releasing creator tools for users. Include the quote from the company spokesperson about developing the workflow and enabling users to create their own series. The tone should be analytical, explaining the business strategy.",
-        "Para 4: Place this new feature"
-      ]
-    },
-    "stage3": {
-      "title": "Character.",
-      "concept_box": "Character.AI ने अपने प्लेटफॉर्म पर तीन AI-जनरेटेड माइक्रो-ड्रामा लॉन्च किए हैं, जो दर्शकों को 18 वर्ष से अधिक आयु के उपयोगकर्ताओं को किरदारों के साथ चैट करने और रोलप्ले करने की अनुमति देते हैं। यह कदम मनोरंजन के क्षेत्र में कंपनी की रणनीति को दर्शाता है।",
-      "introduction_lede": "Character.AI, जो AI अवतारों के साथ चैट करने के लिए जाना जाता है, अब माइक्रो-ड्रामा के क्षेत्र में प्रवेश कर चुका है। कंपनी ने तीन सीरीज लॉन्च की हैं: \"लास्ट समर\" (रोमांस), \"द नाइटटाइम गेम\" (हॉरर), और \"ईडन फॉल\" (सर्वाइवल ड्रामा)। इन सीरीज की खासियत यह है कि 18 वर्ष से अधिक के उपयोगकर्ता इन किरदारों के साथ संवाद कर सकते हैं, प्रश्न पूछ सकते हैं और विभिन्न परिदृश्यों में रोलप्ले कर सकते हैं। यह कदम कंपनी के मनोरंजन-केंद्रित फीचर्स की दिशा में एक महत्वपूर्ण कदम है।",
-      "deep_dive_and_context": "Character.AI ने अपने प्लेटफॉर्म पर तीन AI-जनरेटेड माइक्रो-ड्रामा लॉन्च किए हैं, जो दर्शकों को किरदारों के साथ इंटरएक्ट करने का अवसर देते हैं। \"लास्ट समर\" एक रोमांस सीरीज है, \"द नाइटटाइम गेम\" एक हॉरर शो है, और \"ईडन फॉल\" एक सर्वाइवल ड्रामा है। इन सीरीज को AI प्रोडक्शन टूल्स का उपयोग करके बनाया गया है। कंपनी का कहना है कि ये ड्रामा दर्शकों को एक नया अनुभव प्रदान करेंगे।\n\nइस प्लेटफॉर्म की मुख्य विशेषता यह है कि 18 वर्ष से अधिक के उपयोगकर्ता इन किरदारों के साथ चैट कर सकते हैं, उनसे प्रश्न पूछ सकते हैं और रोलप्ले कर सकते हैं। यह फीचर Character.AI के मुख्य उत्पाद का लाभ उठाता है, जिससे उपयोगकर्ता किरदारों के साथ व्यक्तिगत रूप से जुड़ सकते हैं। यह एक नया मनोरंजन प्रारूप है जो दर्शकों को सक्रिय रूप से शामिल करता है।\n\nCharacter.AI की दीर्घकालिक योजना एक स्टूडियो-नेतृत्व वाले मॉडल से शुरू करने की है। कंपनी का लक्ष्य इस प्रारूप को परिष्कृत करना और दर्शकों की पसंद को समझना है। एक प्रवक्ता ने बताया कि \"c.ai सीरीज हमारे प्रोडक्शन टीम को प्रारूप विकसित करने और वर्कफ़्लो को समझने की अनुमति देती है। समय के साथ, हम इन सीखों को क्रिएटर टूल्स में बदल देंगे ताकि उपयोगकर्ता अपनी खुद की सीरीज बना सकें।\"\n\nकंपनी ने हाल ही में अन्य फीचर्स भी लॉन्च किए हैं, जैसे Lorebook, जो किरदारों के लिए वर्ल्ड-बिल्डिंग जानकारी बनाने में मदद करता है। इसके अलावा, c.ai FM नामक फीचर का परीक्षण किया जा रहा है, जो उपयोगकर्ताओं को ऑडियो सीरीज बनाने की अनुमति देगा। ये सभी फीचर्स कंपनी की मनोरंजन रणनीति का हिस्सा हैं।",
-      "strategic_analysis": "Character.AI का माइक्रो-ड्रामा में प्रवेश एक रणनीतिक कदम है। यह कंपनी को अन्य स्ट्रीमिंग सेवाओं और सोशल मीडिया प्लेटफॉर्म के साथ प्रतिस्पर्धा में खड़ा करता है। हालांकि, इस तकनीक की सफलता दर्शकों की स्वीकृति पर निर्भर करेगी। यह देखना दिलचस्प होगा कि क्या उपयोगकर्ता AI किरदारों के साथ इंटरएक्ट करने में रुचि दिखाते हैं।",
-      "conclusion_and_significance": "Character.AI का यह कदम AI-आधारित मनोरंजन के क्षेत्र में एक नया प्रयोग है। यदि यह सफल रहा, तो यह भविष्य में अन्य कंपनियों के लिए भी एक मॉडल बन सकता है।"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
-    "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Nandan Nilekani, co-founder of Indian IT services giant Infosys, will no longer serve as a general partner at Fundamentum Partnership , the venture capital firm he co-founded nearly a decade ago. Nilekani (pictured above) will be stepping down from his role as Fundamentum launches its third fund, targeting to raise about $200 million. He will be the fund’s anchor investor, and continue advising th",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "Nandan Nilekani",
-          "type": "person"
-        },
-        {
-          "name": "Fundamentum",
-          "type": "organization"
-        },
-        {
-          "name": "GP",
-          "type": "title"
-        },
-        {
-          "name": "Sanjeev Aggarwal",
-          "type": "person"
-        },
-        {
-          "name": "Infosys",
-          "type": "organization"
-        },
-        {
-          "name": "Spinny",
-          "type": "product"
-        },
-        {
-          "name": "PharmEasy",
-          "type": "product"
-        },
-        {
-          "name": "Kuku FM",
-          "type": "product"
-        },
-        {
-          "name": "AppsForBharat",
-          "type": "organization"
-        },
-        {
-          "name": "Series B",
-          "type": "type"
-        },
-        {
-          "name": "Series II",
-          "type": "type"
-        },
-        {
-          "name": "Series III",
-          "type": "type"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article reports on a leadership change at a venture capital firm, Fundamentum, and the launch of its third fund, which is a significant event in the tech investment landscape."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "Infosys",
-          "preview": "Overview:\nInfosys is a global leader in next-generation digital services and con"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Nandan Nilekani",
-          "type": "person"
-        },
-        {
-          "name": "Fundamentum",
-          "type": "organization"
-        },
-        {
-          "name": "GP",
-          "type": "title"
-        },
-        {
-          "name": "Sanjeev Aggarwal",
-          "type": "person"
-        },
-        {
-          "name": "Spinny",
-          "type": "product"
-        },
-        {
-          "name": "PharmEasy",
-          "type": "product"
-        },
-        {
-          "name": "Kuku FM",
-          "type": "product"
-        },
-        {
-          "name": "AppsForBharat",
-          "type": "organization"
-        },
-        {
-          "name": "Series B",
-          "type": "type"
-        },
-        {
-          "name": "Series II",
-          "type": "type"
-        },
-        {
-          "name": "Series III",
-          "type": "type"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Nandan Nilekani\" person overview",
-        "\"Fundamentum\" organization overview",
-        "\"GP\" title overview",
-        "\"Sanjeev Aggarwal\" person overview",
-        "\"Spinny\" product overview",
-        "\"PharmEasy\" product overview",
-        "\"Kuku FM\" product overview",
-        "\"AppsForBharat\" organization overview",
-        "\"Series B\" type overview",
-        "\"Series II\" type overview",
-        "\"Series III\" type overview"
-      ],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Nandan Nilekani": "",
-        "Fundamentum": "",
-        "GP": "",
-        "Sanjeev Aggarwal": "",
-        "Spinny": "",
-        "PharmEasy": "",
-        "Kuku FM": "",
-        "AppsForBharat": "",
-        "Series B": "",
-        "Series II": "",
-        "Series III": ""
+    "cache_updates": [
+      {
+        "name": "PocketMage",
+        "type": "model_release",
+        "chars_stored": 300
+      },
+      {
+        "name": "Talisman Design",
+        "type": "company",
+        "chars_stored": 269
+      },
+      {
+        "name": "ESP32-S3",
+        "type": "technology",
+        "chars_stored": 300
+      },
+      {
+        "name": "Crowd Supply",
+        "type": "organization",
+        "chars_stored": 300
       }
-    },
-    "cache_updates": [],
-    "entity_context_preview": "Infosys: Overview:\nInfosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clien",
+    ],
+    "entity_context_preview": "[What is the technical architecture of the PocketMage's software, and how does it handle multitasking or background processes given the limited hardware resources?]:\nThe material does not address the technical architecture of the PocketMage's software or how it handles multitasking or background processes. It only mentions that PocketMage utilizes an ESP32-S3 for a high-performance, low-power platform.\n\nPocketMage: PocketMage is a personal digital assistant designed to reclaim the utility of pocketable computing. All hardware, software, and documentation is currently released under the Apache-",
     "stage2": {
-      "core_narrative": "Nandan Nilekani is transitioning from an active leadership role to a strategic advisory position at Fundamentum as the firm launches its $200M third fund, focusing on AI and fintech in India.",
-      "key_facts_and_quotes": "*   Nandan Nilekani is stepping down as a general partner at Fundamentum Partnership.\n*   This change coincides with the launch of Fundamentum's third fund, targeting about $200 million.\n*   Nilekani will remain the fund's anchor investor.\n*   He will continue to advise the firm and mentor portfolio company founders.\n*   Co-founder Sanjeev Aggarwal described the shift as \"just a title thing.\"\n*   Aggarwal stated, \"He is an integral part of our firm. The one thing that he enjoys the most is mentoring the teams that we back, and he will continue to do so in Fund III.\"\n*   Nilekani is 71 years old.\n*   He co-founded Infosys, led the creation of Aadhaar, and championed UPI and ONDC.\n*   Fundamentum was founded in 2017 by Nilekani and Aggarwal.\n*   The firm backs Indian startups at the Series B stage and later.\n*   The fund's portfolio includes Spinny, PharmEasy, Kuku FM, and AppsForBharat.\n*   Fundamentum's senior investment team for Fund III will be led by Aggarwal, Prateek Jain, Mayank Kachhwaha, and others.",
-      "disambiguation_targets": "*   **Fundamentum Partnership:** समझाएं कि यह एक वेंचर कैपिटल फर्म है।\n*   **General Partner (GP):** समझाएं कि यह वेंचर कैपिटल फर्म में एक वरिष्ठ नेतृत्व की भूमिका है।\n*   **Anchor Investor:** समझाएं कि यह वह निवेशक है जो फंड के लिए शुरुआती पूंजी की गारंटी देता है।\n*   **Series B stage:** समझाएं कि यह एक स्टार्टअप के विकास का चरण है।\n*   **Aadhaar:** समझाएं कि यह भारत का बायोमेट्रिक पहचान प्रणाली है।\n*   **Unified Payments Interface (UPI):** समझाएं कि यह एक रीयल-टाइम भुगतान नेटवर्क है।\n*   **Open Network for Digital Commerce (ONDC):** समझाएं कि यह ई-कॉमर्स को अधिक खुला और इंटरऑपरेबल बनाने की पहल है।",
+      "core_narrative": "The PocketMage resurrects the classic PDA by blending nostalgic tactile design with modern open-source technology to create a distraction-free productivity tool for a niche audience.",
+      "key_facts_and_quotes": "- The PocketMage is a clamshell PDA from Talisman Design, combining a tactile keyboard with e-paper and OLED displays.\n- It is being crowdfunded on Crowd Supply with preorder options at $235 (fully assembled) and $185 (DIY kit).\n- The device is powered by an ESP32-S3 microcontroller with 2MB RAM and 16MB storage (expandable via microSD).\n- It comes with open-source apps including a calendar, journal, dictionary, and Markdown text editor.\n- Orders are expected to ship no earlier than March 2027.\n- The device is released under the Apache-2.0 Open Source Hardware license.",
+      "disambiguation_targets": "- PDA (Personal Digital Assistant): Explain as a pocket-sized computer from the 90s/2000s, like the Palm Pilot, used for tasks like calendars and notes before smartphones.\n- e-paper screen: Describe as a display technology similar to Kindle screens that only uses power when the image changes, making it easy to read in sunlight.\n- ESP32-S3: Mention as a modern, low-power microcontroller chip that provides the device's computing power.\n- Crowdfunding: Explain as a method where people pre-order products to help fund their development, often through platforms like Crowd Supply.",
       "category": "general",
       "paragraph_plan": [
-        "Para 1: Announce the main news: Nandan Nilekani is stepping down as a general partner at Fundamentum as it launches its third fund. Mention the fund size of $200 million and that Nilekani will remain the anchor investor. The tone should be direct and factual, like a headline lead.",
-        "Para 2: Provide context from co-founder Sanjeev Aggarwal, who downplayed the change as a \"title thing.\" Include his quote about Nilekani being an integral part of the firm and his focus on mentoring portfolio companies. The tone should be reassuring and emphasize continuity.",
-        "Para 3: Detail Nilekani's extensive background and influence in India's tech landscape. Mention his age (71), his role in co-founding Infosys, and his leadership in creating Aadhaar, UPI, and championing ONDC. The tone should be informative and highlight his stature.",
-        "Para 4: Describe Fundamentum's investment strategy and portfolio. State that it was founded in 2017 by Nilekani and Aggarwal, focuses on Series B and later-stage startups, and list"
+        "Para 1: Introduce the PocketMage as a modern revival of the classic PDA, drawing a parallel to Canon's nostalgic camera revival. Mention its key features: clamshell design, tactile keyboard, and dual screens (e-paper and OLED).",
+        "Para 2: Detail the crowdfunding campaign on Crowd Supply, including the two preorder options ($235 assembled, $185 DIY), color choices (parchment/gray, royal purple), and the long shipping timeline (March 2027).",
+        "Para 3: Explain the technical specifications, focusing on the ESP32-S3 microcontroller, its limited RAM/storage, and the open-source nature of the device and its software.",
+        "Para 4: Describe the device's intended use for simple productivity tasks and list the included apps (calendar, journal, dictionary, Markdown editor).",
+        "Para 5: Conclude by emphasizing the PocketMage's appeal to those seeking a distraction-free, tactile alternative to smartphones, highlighting its open-source ethos and niche positioning in the market."
       ]
     },
     "stage3": {
-      "title": "नंदन निलेकणी फंडामेंटम में जनरल पार्टनर पद से हटे, 200 मिलियन डॉलर का तीसरा फंड लॉन्च",
-      "concept_box": "फंडामेंटम पार्टनरशिप के सह-संस्थापक नंदन निलेकणी ने जनरल पार्टनर के पद से हटने का निर्णय लिया है। यह कदम तब आया है जब फर्म ने अपना तीसरा फंड लॉन्च किया है, जिसका लक्ष्य 200 मिलियन डॉलर जुटाना है। निलेकणी इस फंड के मुख्य निवेशक बने रहेंगे और पोर्टफोलियो कंपनियों को सलाह देना जारी रखेंगे।",
-      "introduction_lede": "फंडामेंटम पार्टनरशिप, वह वेंचर कैपिटल फर्म जिसे नंदन निलेकणी ने लगभग एक दशक पहले सह-स्थापित किया था, ने अपने तीसरे फंड के लॉन्च के साथ एक महत्वपूर्ण नेतृत्व परिवर्तन की घोषणा की है। निलेकणी, जो भारतीय आईटी दिग्गज इंफोसिस के सह-संस्थापक और भारत के डिजिटल इंफ्रास्ट्रक्चर के प्रमुख वास्तुकार हैं, अब जनरल पार्टनर के रूप में कार्य नहीं करेंगे। हालांकि, वे फंड के मुख्य निवेशक के रूप में बने रहेंगे और फर्म तथा उसके पोर्टफोलियो कंपनियों को रणनीतिक मार्गदर्शन प्रदान करना जारी रखेंगे। यह परिवर्तन फर्म के परिचालन ढांचे में एक बदलाव का प्रतीक है, जबकि निलेकणी की गहरी भागीदारी और प्रभाव को बनाए रखता है।",
-      "deep_dive_and_context": "फंडामेंटम पार्टनरशिप ने अपने तीसरे फंड के लॉन्च के साथ एक महत्वपूर्ण नेतृत्व परिवर्तन की घोषणा की है, जिसका लक्ष्य लगभग 200 मिलियन डॉलर जुटाना है। इस फंड के लॉन्च के साथ ही, नंदन निलेकणी जनरल पार्टनर के पद से हट जाएंगे। हालांकि, वे फंड के मुख्य निवेशक के रूप में बने रहेंगे और फर्म तथा उसके पोर्टफोलियो कंपनियों को रणनीतिक मार्गदर्शन प्रदान करना जारी रखेंगे। निलेकणी के सह-संस्थापक সঞ্জীব अग्रवाल ने इस बदलाव को \"सिर्फ एक पद का बदलाव\" बताया है। उन्होंने कहा, \"वह हमारी फर्म का एक अभिन्न अंग हैं। उन्हें सबसे ज्यादा आनंद टीमों को मेंटर करने में आता है, और वे फंड III में भी ऐसा करना जारी रखेंगे।\" अग्रवाल ने जोर देकर कहा कि निलेकणी फर्म को सलाह देना, पोर्टफोलियो कंपनी के संस्थापकों को मेंटर करना और रणनीतिक मार्गदर्शन प्रदान करना जारी रखेंगे।\n\nनंदन निलेकणी, 71 वर्ष की आयु में, भारत के सबसे प्रमुख प्रौद्योगिकी नेताओं में से एक हैं। इंफोसिस के सह-संस्थापक होने के अलावा, उन्होंने भारत की बायोमेट्रिक पहचान प्रणाली, आधार के निर्माण का नेतृत्व किया है। वे देश के डिजिटल सार्वजनिक बुनियादी ढांचे के प्रमुख समर्थक रहे हैं, जिसमें रीयल-टाइम भुगतान नेटवर्क यूनिफाइड पेमेंट्स इंटरफेस (UPI) शामिल है, जिसका उपयोग करोड़ों भारतीय करते हैं। उन्होंने ओपन नेटवर्क फॉर डिजिटल कॉमर्स (ONDC) की भी वकालत की है, जो देश में ई-कॉमर्स को अधिक खुला और परस्पर संचालित बनाने के उद्देश्य से एक पहल है।\n\nफंडामेंटम की स्थापना 2017 में निलेकणी और সঞ্জীব अग्रवाल द्वारा की गई थी, जो पहले हेलियन वेंचर पार्टनर्स बनाने में मदद कर चुके थे। फर्म भारतीय स्टार्टअप्स को सीरीज B चरण और उसके बाद के चरणों में समर्थन देती है। इसके पोर्टफोलियो में उपयोग की गई कारों का मार्केटप्लेस स्पिननी, ऑनलाइन फार्मेसी PharmEasy, ऑडियो स्टोरीटेलिंग प्लेटफॉर्म कुकू एफएम और ऐप्स फॉर भारत शामिल हैं, जो श्री मंदिर भक्ति ऐप के डेवलपर हैं। फंडामेंटम का तीसरा फंड आठ से दस शुरुआती चरण के स्टार्टअप्स का समर्थन करने का लक्ष्य रखता है, जो उपभोक्ता तकनीक, फिनटेक और एआई उत्पाद बना रहे हैं, और प्रत्येक को लगभग 100 करोड़ रुपये (लगभग 10.5 मिलियन डॉलर) की प्रारंभिक राशि प्रदान करेगा।",
-      "strategic_analysis": "यह नेतृत्व परिवर्तन भारतीय वेंचर कैपिटल परिदृश्य में एक महत्वपूर्ण बदलाव का प्रतिनिधित्व करता है। निलेकणी का जनरल पार्टनर पद से हटना, जबकि मुख्य निवेशक के रूप में बने रहना, एक रणनीतिक बदलाव का संकेत देता है। यह कदम फर्म को अपने परिचालन ढांचे को अनुकूलित करने की अनुमति दे सकता है, जिससे निलेकणी की दैनिक प्रबंधन जिम्मेदारियों को कम करते हुए उनकी रणनीतिक दृष्टि का लाभ उठाया जा सके। यह परिवर्तन फंडामेंटम की निवेश रणनीति में किसी मौलिक बदलाव का संकेत नहीं देता है, बल्कि यह एक अधिक परिपक्व और संरचित दृष्टिकोण को दर्शाता है। इस बदलाव का व्यापक उद्योग प्रभाव यह है कि यह अन्य हाई-प्रोफाइल संस्थापकों और निवेशकों के लिए एक मिसाल कायम कर सकता है। यह दर्शाता है कि कैसे अनुभवी नेता अपनी दैनिक परिचालन भूमिकाओं को कम करते हुए अपने पोर्टफोलियो कंपनियों को मेंटर करने और रणनीतिक मार्गदर्शन प्रदान करने पर ध्यान केंद्रित कर सकते हैं। यह दृष्टिकोण विशेष रूप से भारतीय स्टार्टअप पारिस्थितिकी तंत्र में प्रासंगिक है, जहाँ अनुभवी संस्थापकों और निवेशकों का मार्गदर्शन विकास और नवाचार के लिए महत्वपूर्ण है।",
-      "conclusion_and_significance": "नंदन निलेकणी का फंडामेंटम में जनरल पार्टनर पद से हटना, जबकि मुख्य निवेशक के रूप में बने रहना, फर्म के लिए एक रणनीतिक विकास का प्रतीक है। यह परिवर्तन निलेकणी की निरंतर प्रतिबद्धता और प्रभाव को बनाए रखता है, जबकि फर्म के परिचालन ढांचे को अनुकूलित करता है। यह कदम भारतीय वेंचर कैपिटल परिदृश्य में एक महत्वपूर्ण घटना है, जो अनुभवी नेताओं के लिए अपनी दैनिक परिचालन जिम्मेदारियों को कम करते हुए अपनी रणनीतिक दृष्टि का लाभ उठाने के लिए एक मॉडल पेश करता है।"
+      "title": "पॉकेटमैज: ई-पेपर डिस्प्ले के साथ आधुनिक युग में पीडीए का पुनरुत्थान",
+      "concept_box": "पॉकेटमैज एक क्राउडफंडेड डिवाइस है जो क्लासिक पीडीए के स्पर्श अनुभव को आधुनिक तकनीक के साथ जोड़ता है। यह उन उपयोगकर्ताओं के लिए एक केंद्रित और उत्पादकता-उन्मुख विकल्प प्रदान करता है जो स्मार्टफोन की जटिलता से दूर रहना चाहते हैं।",
+      "introduction_lede": "व्यक्तिगत डिजिटल सहायकों (पीडीए) का युग, जिसे पाम पायलट (Palm Pilot) जैसे उपकरणों ने परिभाषित किया था, स्मार्टफोन के आगमन के साथ समाप्त होता प्रतीत हुआ था। लेकिन अब, कैनन (Canon) द्वारा पुराने डिजिटल कैमरों को पुनर्जीवित करने की रणनीति की तरह, एक नया उपकरण इस विधा को पुनर्जीवित कर रहा है। टैलिस्मैन डिज़ाइन (Talisman Design) ने 'पॉकेटमैज' (PocketMage) नामक एक क्लैमशेल पीडीए के लिए क्राउडफंडिंग अभियान शुरू किया है, जो स्पर्शनीय कीबोर्ड और दोहरे डिस्प्ले (ई-पेपर और ओएलईडी) को एक पॉकेट-फ्रेंडली पैकेज में जोड़ता है। यह उपकरण उन लोगों के लिए है जो डिजिटल विकर्षणों के बिना उत्पादकता चाहते हैं।",
+      "deep_dive_and_context": "पॉकेटमैज का डिज़ाइन इसके आकर्षण का केंद्र है, जो आधुनिक इंजीनियरिंग के साथ क्लासिक पीडीए के स्वरूप को पुनर्जीवित करता है। यह उपकरण एक क्लैमशेल डिज़ाइन में आता है जिसमें एक कॉम्पैक्ट QWERTY कीबोर्ड है, जो टाइपिंग का एक संतोषजनक स्पर्श अनुभव प्रदान करता है। इसके डिस्प्ले की जोड़ी विशेष रूप से उल्लेखनीय है: मुख्य 3.1-इंच, 320x240 पिक्सेल का ई-पेपर स्क्रीन बिना टचस्क्रीन के है, जो बैटरी की खपत को कम करता है और आंखों के लिए आरामदायक है। इसके बजाय, इसमें एक कैपेसिटिव टच बार है जिसका उपयोग स्क्रॉलिंग के लिए किया जाता है। कीबोर्ड के ऊपर एक छोटा 1.8-इंच, 256x32 पिक्सेल का ओएलईडी स्क्रीन स्थित है, जो मेनू और अन्य कार्यों के लिए उच्च रिफ्रेश रेट प्रदान करता है। यह संयोजन ई-पेपर की कम बिजली खपत और ओएलईडी की गतिशील डिस्प्ले क्षमता का लाभ उठाता है।\n\nपॉकेटमैज की उपलब्धता क्राउड सप्लाई (Crowd Supply) प्लेटफॉर्म पर क्राउडफंडिंग के माध्यम से है। इसके दो प्री-ऑर्डर विकल्प उपलब्ध हैं: पूरी तरह से असेंबल किया गया मॉडल 235 डॉलर में और खुद बनाने वाला (DIY) किट 185 डॉलर में। DIY संस्करण के लिए केवल एक पेचकश (screwdriver) की आवश्यकता है, जिससे सोल्डरिंग के अनुभव के बिना भी इसे जोड़ना आसान हो जाता है, हालांकि इसके लिए धैर्य की आवश्यकता होगी। ग्राहक दो रंग विकल्पों में से चुन सकते हैं: पार्चमेंट (ग्रे) या रॉयल पर्पल। हालांकि, डिलीवरी का समय काफी लंबा है, और ऑर्डर मार्च 2027 से पहले शिप होने की उम्मीद नहीं है।\n\nतकनीकी रूप से, पॉकेटमैज को एक शक्तिशाली लेकिन कम बिजली खपत वाले प्लेटफॉर्म पर बनाया गया है। यह ESP32-S3 माइक्रो-कंट्रोलर द्वारा संचालित है, जो 240 MHz पर चलने वाला एक डुअल-कोर XTensa LX7 MCU है। यह प्लेटफॉर्म 512 KB की आंतरिक SRAM और 45 प्रोग्रामेबल GPIOs के साथ आता है, जो वाई-फाई और ब्लूटूथ 5 (LE) कनेक्टिविटी भी प्रदान करता है। हालांकि, हार्डवेयर संसाधन सीमित हैं, जिसमें केवल 2MB RAM और 16MB स्टोरेज है, जिसे माइक्रोएसडी कार्ड के माध्यम से बढ़ाया जा सकता है। यह डिवाइस पूरी तरह से ओपन-सोर्स है, जिसका अर्थ है कि इसका हार्डवेयर, सॉफ्टवेयर और दस्तावेज़ीकरण अपाचे-2.0 ओपन सोर्स हार्डवेयर लाइसेंस के तहत जारी किया गया है। यह पारदर्शिता डेवलपर्स और शौकीनों को डिवाइस को संशोधित करने और सुधारने की अनुमति देती है।\n\nपॉकेटमैज का उद्देश्य जटिल कार्यों के बजाय सरल उत्पादकता कार्यों के लिए है। यह उन उपयोगकर्ताओं के लिए डिज़ाइन किया गया है जो कैलेंडर, जर्नल, डिक्शनरी और मार्कडाउन टेक्स्ट एडिटर जैसे ऐप्स के साथ एक केंद्रित उपकरण चाहते हैं। कैलकुलेटर, ई-बुक रीडर और वेब ब्राउज़र जैसे अतिरिक्त ऐप्स पहले से ही उपलब्ध हैं। यह डिवाइस उन लोगों के लिए एक आदर्श विकल्प है जो स्मार्टफोन की सूचनाओं और विकर्षणों से मुक्त होकर नोट्स लिखना, कार्यों की योजना बनाना या केवल एक सरल डिजिटल नोटबुक का उपयोग करना चाहते हैं।",
+      "strategic_analysis": "पॉकेटमैज का आगमन एक विशिष्ट बाजार खंड को लक्षित करता है जो डिजिटल विकर्षणों से थक चुका है। यह एक तकनीकी बदलाव के बजाय एक विशिष्ट उत्पादकता उपकरण के रूप में एक रणनीतिक स्थिति है। इसकी ओपन-सोर्स प्रकृति और DIY विकल्प तकनीकी समुदाय को आकर्षित करते हैं, जो नवाचार और अनुकूलन को बढ़ावा देते हैं। हालांकि, इसकी सीमित हार्डवेयर क्षमताएं और लंबा डिलीवरी समय इसे एक विशिष्ट उत्पाद बनाए रखते हैं। यह संकेत देता है कि उपभोक्ता इलेक्ट्रॉनिक्स बाजार में उन उपकरणों के लिए जगह है जो जटिलता के बजाय सादगी और केंद्रित कार्यक्षमता को प्राथमिकता देते हैं।",
+      "conclusion_and_significance": "पॉकेटमैज केवल एक गैजेट नहीं है, बल्कि एक बयान है कि डिजिटल दुनिया में उत्पादकता और फोकस का क्या अर्थ है। यह उन उपयोगकर्ताओं के लिए एक ठोस और स्पर्शनीय विकल्प प्रदान करता है जो स्मार्टफोन की निरंतर कनेक्टिविटी से दूर रहना चाहते हैं।"
     }
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
-    "title": "Say hello to Claude Wrapped",
+    "url": "https://www.theverge.com/tech/962439/sony-rx10v-superzoom-camera-price-specs-hands-on",
+    "title": "Sony brings back the superzoom RX10 with a stacked sensor and a high price",
     "outcome": "published",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Anthropic Or, as Anthropic calls it, a ‘reflection dashboard.’ Posts from this author will be added to your",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The RX10 V gets features from its bigger Sony Alpha brethren, but its lens is from 2016. The RX10",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1113,76 +177,396 @@
     },
     "stage1": {
       "search_queries": [
-        "What are the specific technical details of the \"reflection dashboard\" feature, such as the exact metrics it tracks, the data retention period, and the underlying technology used for the analysis?",
-        "What is the pricing model or cost for accessing the \"reflection dashboard\" feature, and is it included in the standard Claude subscription or available as a paid add-on?"
+        "What are the specific performance benchmarks for the stacked 1-inch sensor compared to the previous generation's sensor?",
+        "How does the RX10 V's pricing of $2,299.99 compare to the inflation-adjusted price of the RX10 IV's $1,700 launch price?",
+        "What specific features from the Alpha mirrorless camera line are included in the RX10 V's body design and electronic viewfinder?"
       ],
       "entities": [
         {
-          "name": "Anthropic",
-          "type": "ai_model"
+          "name": "Sony",
+          "type": "company"
         },
         {
-          "name": "Claude",
-          "type": "ai_model"
+          "name": "RX10 V",
+          "type": "product"
+        },
+        {
+          "name": "RX10 IV",
+          "type": "product"
+        },
+        {
+          "name": "Zeiss",
+          "type": "organization"
+        },
+        {
+          "name": "Alpha",
+          "type": "product line",
+          "ambiguous": true,
+          "resolved_sense": "product line"
         }
       ],
       "skip": false,
-      "skip_reason": "The article reports on a new feature launch by Anthropic for its Claude AI chatbot, which is a significant product development in the tech sector."
+      "skip_reason": "The article is a news report about a specific product announcement and its features, which is a core event in the tech news cycle."
+    },
+    "cache": {
+      "hits": [],
+      "misses": [
+        {
+          "name": "Sony",
+          "type": "company"
+        },
+        {
+          "name": "RX10 V",
+          "type": "product"
+        },
+        {
+          "name": "RX10 IV",
+          "type": "product"
+        },
+        {
+          "name": "Zeiss",
+          "type": "organization"
+        },
+        {
+          "name": "Alpha",
+          "type": "product line"
+        }
+      ]
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [
+        "\"Sony\" company overview",
+        "\"RX10 V\" product overview",
+        "\"RX10 IV\" product overview",
+        "\"Zeiss\" organization overview",
+        "\"Alpha\" product line overview product line"
+      ],
+      "context_queries": [
+        "What are the specific performance benchmarks for the stacked 1-inch sensor compared to the previous generation's sensor?",
+        "How does the RX10 V's pricing of $2,299.99 compare to the inflation-adjusted price of the RX10 IV's $1,700 launch price?",
+        "What specific features from the Alpha mirrorless camera line are included in the RX10 V's body design and electronic viewfinder?"
+      ],
+      "context_queries_with_gap1_attached": [],
+      "results": {
+        "Sony": "Sony is a major Japanese manufacturer of consumer electronics with diverse activities including films, music, and financial services. Its U.S. headquarters, Sony Corporation of America, is located in New York, and its principal U.S. businesses include Sony Electronics, Sony Interactive Entertainment, and Sony Music Entertainment.",
+        "RX10 V": "The material did not address this question. The provided text mentions the RX10 V as a new budget-friendly camera from Sony but does not provide specific details about its performance benchmarks or sensor comparisons.",
+        "RX10 IV": "The Sony Cyber-shot DSC-RX10 IV is an enthusiast long zoom camera that improves on its predecessor with a new image processor, a hybrid AF system with 325 phase-detect points, and a 20MP 1-inch stacked CMOS sensor. It offers a versatile bridge experience with a 24-600mm equivalent zoom lens and is designed for both stills and video, balancing speed, zoom range, and image quality.",
+        "Zeiss": "",
+        "Alpha": "",
+        "What are the specific performance benchmarks for the stacked 1-inch sensor compared to the previous generation's sensor?": "material did not address this",
+        "How does the RX10 V's pricing of $2,299.99 compare to the inflation-adjusted price of the RX10 IV's $1,700 launch price?": "",
+        "What specific features from the Alpha mirrorless camera line are included in the RX10 V's body design and electronic viewfinder?": "material did not address this"
+      }
+    },
+    "synthesis": {
+      "\"Sony\" company overview": "Sony is a major Japanese manufacturer of consumer electronics with diverse activities including films, music, and financial services. Its U.S. headquarters, Sony Corporation of America, is located in New York, and its principal U.S. businesses include Sony Electronics, Sony Interactive Entertainment, and Sony Music Entertainment.",
+      "\"RX10 V\" product overview": "The material did not address this question. The provided text mentions the RX10 V as a new budget-friendly camera from Sony but does not provide specific details about its performance benchmarks or sensor comparisons.",
+      "\"RX10 IV\" product overview": "The Sony Cyber-shot DSC-RX10 IV is an enthusiast long zoom camera that improves on its predecessor with a new image processor, a hybrid AF system with 325 phase-detect points, and a 20MP 1-inch stacked CMOS sensor. It offers a versatile bridge experience with a 24-600mm equivalent zoom lens and is designed for both stills and video, balancing speed, zoom range, and image quality.",
+      "What are the specific performance benchmarks for the stacked 1-inch sensor compared to the previous generation's sensor?": "material did not address this",
+      "What specific features from the Alpha mirrorless camera line are included in the RX10 V's body design and electronic viewfinder?": "material did not address this"
+    },
+    "cache_updates": [
+      {
+        "name": "Sony",
+        "type": "company",
+        "chars_stored": 300
+      },
+      {
+        "name": "RX10 V",
+        "type": "product",
+        "chars_stored": 217
+      },
+      {
+        "name": "RX10 IV",
+        "type": "product",
+        "chars_stored": 300
+      }
+    ],
+    "entity_context_preview": "[What are the specific performance benchmarks for the stacked 1-inch sensor compared to the previous generation's sensor?]:\nmaterial did not address this\n\n[What specific features from the Alpha mirrorless camera line are included in the RX10 V's body design and electronic viewfinder?]:\nmaterial did not address this\n\nSony: Sony is a major Japanese manufacturer of consumer electronics with diverse activities including films, music, and financial services. Its U.S. headquarters, Sony Corporation of America, is located in New York, and its principal U.S. businesses include Sony Electronics, Sony I",
+    "stage2": {
+      "core_narrative": "Sony has refreshed its long-running superzoom camera with a modern stacked sensor and Alpha-series features, but the significant price hike raises questions about its value proposition.",
+      "key_facts_and_quotes": "- The new Sony Cyber-shot DSC-RX10 V is the successor to the RX10 IV, released after a nearly nine-year gap.\n- It features the same 24-600mm equivalent f/2.4-4 Zeiss Vario-Sonnar 25x zoom lens as its predecessors.\n- The camera is equipped with a new 20.1-megapixel 1-inch-type stacked sensor.\n- This sensor enables up to 30fps continuous burst shooting without blackout, an increase from the previous 24fps.\n- The RX10 V will be priced at $2,299.99 upon its launch in early August.\n- For comparison, the RX10 IV was launched at $1,700 in 2017.\n- The body has been redesigned to resemble Sony's larger Alpha mirrorless cameras.\n- It uses the NP-FZ100 battery, offering over 50 percent more capacity than the previous model.\n- It includes an OLED electronic viewfinder, 4K 60p full-width video recording, and 4K 120p when cropped.\n- It also features S-Log3 and S-Cinetone color options for video.",
+      "disambiguation_targets": "- Superzoom camera (सुपरज़ूम कैमरा): A type of bridge camera with a powerful, built-in zoom lens, offering a versatile range from wide-angle to telephoto in a single body.\n- Stacked sensor (स्टैक्ड सेंसर): A modern image sensor design where the memory layer is stacked on top of the pixel layer, enabling much faster readout speeds for high-speed continuous shooting without blackout.\n- Alpha mirrorless cameras (अल्फा मिररलेस कैमरे): Sony's line of professional and enthusiast interchangeable lens cameras, known for their advanced features and performance.\n- S-Log3 and S-Cinetone (S-Log3 और S-Cinetone): Professional color profiles used in video production to capture a wider dynamic range, allowing for greater flexibility in color grading during post-production.",
+      "category": "model_release",
+      "paragraph_plan": [
+        "Para 1: Announce the launch of the Sony RX10 V, highlighting it as the successor to the RX10 IV after a long gap. Mention the core selling point: the same powerful 24-600mm Zeiss lens combined with a major internal upgrade in the form of a new stacked sensor.",
+        "Para 2: Detail the key hardware improvements, focusing on the new 20.1-megapixel 1-inch stacked sensor. Explain that this allows for a faster 30fps burst shooting speed without blackout, a significant upgrade for action photography. Also, mention the redesigned body that now feels like a Sony Alpha camera and the switch to the larger NP-FZ100 battery.",
+        "Para 3: Address the most critical point for potential buyers: the price. State the new launch price of $2,299.99 and directly compare it to the $1,700 launch price of the RX10 IV in 2017. Acknowledge that while inflation plays a role, the price increase is substantial.",
+        "Para 4: Discuss the video capabilities, which are inherited from the Alpha series. Mention the OLED electronic viewfinder, 4K 60p full-frame video recording, and the 4K 120p option"
+      ]
+    },
+    "stage3": {
+      "title": "सोनी ने स्टैक्ड सेंसर और भारी कीमत के साथ सुपरज़ूम RX10 को वापस लाया",
+      "concept_box": "सोनी ने लगभग नौ साल के अंतराल के बाद अपने लोकप्रिय सुपरज़ूम कैमरे, RX10 श्रृंखला के उत्तराधिकारी RX10 V को लॉन्च किया है। इस नए मॉडल में वही शक्तिशाली 24-600mm ज़ीस लेंस बरकरार है, लेकिन इसमें 1-इंच स्टैक्ड सेंसर और अल्फा मिररलेस कैमरों से प्रेरित बॉडी डिज़ाइन जैसे महत्वपूर्ण अपग्रेड दिए गए हैं।",
+      "introduction_lede": "सोनी ने अपने लंबे समय से चले आ रहे सुपरज़ूम कैमरे, RX10 श्रृंखला के चौथे संस्करण, RX10 V की घोषणा की है। यह मॉडल पिछले संस्करण RX10 IV के लगभग नौ साल बाद आया है। हालांकि इसमें वही प्रसिद्ध 24-600mm ज़ीस लेंस दिया गया है, लेकिन कंपनी ने इसके आंतरिक तंत्र में बड़े बदलाव किए हैं, जिसमें नया स्टैक्ड सेंसर और अल्फा श्रृंखला से प्रेरित बॉडी डिज़ाइन शामिल है। यह उन फोटोग्राफरों के लिए एक महत्वपूर्ण अपग्रेड है जो लंबी दूरी की फोटोग्राफी के लिए एक ही कैमरे का उपयोग करना चाहते हैं।",
+      "deep_dive_and_context": "कैमरे की ऑटोफोकस प्रणाली भी अल्फा श्रृंखला से ली गई है और इसे बहुत उन्नत बनाया गया है। इसमें 575 ऑटोफोकस बिंदु हैं और यह मानव रूप, चेहरे और आंखों का पता लगाने में सक्षम है। यह प्रणाली तेज़ गति के दौरान भी विषय को सटीक रूप से ट्रैक करती है, जो वन्यजीव और खेल फोटोग्राफी के लिए अत्यंत महत्वपूर्ण है। इसके अलावा, इसमें 'स्पीड बूस्ट' फंक्शन भी है, जो प्रो A9 III कैमरे में पहली बार देखा गया था। यह फंक्शन उपयोगकर्ता को थोड़े समय के लिए और भी तेज़ बर्स्ट दर पर शूटिंग करने की अनुमति देता है।",
+      "strategic_analysis": "RX10 V की लॉन्चिंग कैमरा बाजार में एक दिलचस्प स्थिति पैदा करती है। एक ओर, यह एक विशिष्ट वर्ग को लक्षित करता है—वे फोटोग्राफर जिन्हें एक ही कैमरे में अत्यधिक ज़ूम रेंज और उच्च प्रदर्शन की आवश्यकता होती है। स्टैक्ड सेंसर और अल्फा-व्युत्पन्न विशेषताएं इस वर्ग के लिए एक मजबूत मूल्य प्रस्ताव हैं। हालांकि, $2,299.99 की कीमत इसे एक प्रीमियम उत्पाद बनाती है, जो कई उपयोगकर्ताओं को इसके विकल्पों पर विचार करने के लिए मजबूर कर सकती है। तकनीकी दृष्टिकोण से, स्टैक्ड सेंसर और उन्नत ऑटोफोकस प्रणाली इस कैमरे के मुख्य आकर्षण हैं। 30fps बर्स्ट स्पीड और बेहतर बैटरी लाइफ जैसे सुधार उपयोगकर्ता अनुभव को काफी बेहतर बनाते हैं। हालांकि, यह ध्यान रखना महत्वपूर्ण है कि मुख्य ऑप्टिकल तत्व, यानी 24-600mm लेंस, 2016 के मॉडल से लिया गया है। इसका मतलब है कि हालांकि प्रोसेसिंग पावर बढ़ गई है, लेकिन लेंस की ऑप्टिकल गुणवत्ता पिछले संस्करण के समान ही है। भविष्य के संदर्भ में, RX10 V की सफलता सोनी के लिए एक संकेतक होगी कि क्या बाजार अभी भी समर्पित सुपरज़ूम कैमरों की मांग करता है। स्मार्टफोन कैमरों के बढ़ते प्रभुत्व के युग में, यह उत्पाद उन पेशेवरों और शौकिया फोटोग्राफरों के लिए एक विकल्प बना हुआ है जो विशिष्ट प्रदर्शन की तलाश में हैं। इसकी कीमत और विशेषताएं यह तय करेंगी कि यह अपने लक्षित दर्शकों को आकर्षित करने में कितना सफल होता है।",
+      "conclusion_and_significance": "सोनी का RX10 V एक महत्वपूर्ण तकनीकी अपग्रेड है जो अपने पूर्ववर्ती की विरासत को आगे बढ़ाता है। स्टैक्ड सेंसर, बेहतर ऑटोफोकस और अल्फा-प्रेरित डिज़ाइन इसे एक शक्तिशाली उपकरण बनाते हैं। हालांकि, इसकी उच्च कीमत कई संभावित खरीदारों के लिए एक बाधा हो सकती है। यह कैमरा उन लोगों के लिए एक उत्कृष्ट विकल्प है जो एक ही उपकरण में बहुमुखी प्रतिभा और उच्च प्रदर्शन की तलाश में हैं।"
+    }
+  },
+  {
+    "url": "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband",
+    "title": "Comcast is breaking up with NBCU. Why did it ever buy it in the first place?",
+    "outcome": "published",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Podcasts Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Business Insider’s Peter Kafka on the Comcast split, and why the dream of content p",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {
+      "search_queries": [
+        "Why did Comcast acquire NBCUniversal in the first place?",
+        "What is the strategic rationale behind Comcast's decision to split into two separate companies?",
+        "How does the NBCUniversal spin-off affect the media landscape and competition?"
+      ],
+      "entities": [
+        {
+          "name": "Comcast",
+          "type": "company"
+        },
+        {
+          "name": "NBCUniversal",
+          "type": "company"
+        },
+        {
+          "name": "NBC",
+          "type": "organization"
+        },
+        {
+          "name": "Versant",
+          "type": "company"
+        },
+        {
+          "name": "PMX",
+          "type": "organization"
+        },
+        {
+          "name": "Vox Media",
+          "type": "company"
+        },
+        {
+          "name": "Penske Media Corporation",
+          "type": "company"
+        }
+      ],
+      "skip": false,
+      "skip_reason": "The article discusses a significant corporate restructuring by Comcast, separating its broadband and entertainment divisions, which is a major business and tech news event."
+    },
+    "cache": {
+      "hits": [],
+      "misses": [
+        {
+          "name": "Comcast",
+          "type": "company"
+        },
+        {
+          "name": "NBCUniversal",
+          "type": "company"
+        },
+        {
+          "name": "NBC",
+          "type": "organization"
+        },
+        {
+          "name": "Versant",
+          "type": "company"
+        },
+        {
+          "name": "PMX",
+          "type": "organization"
+        },
+        {
+          "name": "Vox Media",
+          "type": "company"
+        },
+        {
+          "name": "Penske Media Corporation",
+          "type": "company"
+        }
+      ]
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [
+        "\"Comcast\" company overview",
+        "\"NBCUniversal\" company overview",
+        "\"NBC\" organization overview",
+        "\"Versant\" company overview",
+        "\"PMX\" organization overview",
+        "\"Vox Media\" company overview",
+        "\"Penske Media Corporation\" company overview"
+      ],
+      "context_queries": [
+        "Why did Comcast acquire NBCUniversal in the first place?",
+        "What is the strategic rationale behind Comcast's decision to split into two separate companies?",
+        "How does the NBCUniversal spin-off affect the media landscape and competition?"
+      ],
+      "context_queries_with_gap1_attached": [],
+      "results": {
+        "Comcast": "",
+        "NBCUniversal": "",
+        "NBC": "",
+        "Versant": "",
+        "PMX": "",
+        "Vox Media": "",
+        "Penske Media Corporation": "",
+        "Why did Comcast acquire NBCUniversal in the first place?": "The provided material does not contain information about why Comcast acquired NBCUniversal. It focuses on the potential spin-off of NBCUniversal and Sky into separate companies, the implications of this split, and related media and technology business separations.",
+        "What is the strategic rationale behind Comcast's decision to split into two separate companies?": "The material does not explicitly state the strategic rationale for the split. It mentions that the spin-off could raise hope for more deals and that breaking up Comcast is difficult, but it does not detail the specific strategic reasons for the separation.",
+        "How does the NBCUniversal spin-off affect the media landscape and competition?": "The spin-off is described as a major media shake-up that could reshape the landscape. It notes that the deal may consolidate Britain's streaming landscape and that the separation could lead to more acquisitions, but it does not provide a detailed analysis of the competitive effects."
+      }
+    },
+    "synthesis": {
+      "Why did Comcast acquire NBCUniversal in the first place?": "The provided material does not contain information about why Comcast acquired NBCUniversal. It focuses on the potential spin-off of NBCUniversal and Sky into separate companies, the implications of this split, and related media and technology business separations.",
+      "What is the strategic rationale behind Comcast's decision to split into two separate companies?": "The material does not explicitly state the strategic rationale for the split. It mentions that the spin-off could raise hope for more deals and that breaking up Comcast is difficult, but it does not detail the specific strategic reasons for the separation.",
+      "How does the NBCUniversal spin-off affect the media landscape and competition?": "The spin-off is described as a major media shake-up that could reshape the landscape. It notes that the deal may consolidate Britain's streaming landscape and that the separation could lead to more acquisitions, but it does not provide a detailed analysis of the competitive effects."
+    },
+    "cache_updates": [],
+    "entity_context_preview": "[Why did Comcast acquire NBCUniversal in the first place?]:\nThe provided material does not contain information about why Comcast acquired NBCUniversal. It focuses on the potential spin-off of NBCUniversal and Sky into separate companies, the implications of this split, and related media and technology business separations.\n\n[What is the strategic rationale behind Comcast's decision to split into two separate companies?]:\nThe material does not explicitly state the strategic rationale for the split. It mentions that the spin-off could raise hope for more deals and that breaking up Comcast is dif",
+    "stage2": {
+      "core_narrative": "The core story is that Comcast's grand experiment of combining content creation with distribution infrastructure is failing, forcing a breakup that reflects the deep-seated conflicts in the modern media industry.",
+      "key_facts_and_quotes": "- Comcast is splitting into two companies: one for broadband (Comcast) and one for entertainment (NBCUniversal).\n- This follows the earlier spin-off of cable assets like CNBC and MSNBC into a new company called Versant.\n- The split is a major media shake-up that could reshape the competitive landscape.\n- Peter Kafka, chief correspondent at Business Insider and host of the \"Channels\" podcast, is the key source explaining this development.\n- The deal involves the potential spin-off of NBCUniversal and Sky into separate companies.\n- Comcast NBCUniversal was previously an investor in Vox Media (the parent company of The Verge), but this investment has ended with the Versant spin-off.",
+      "disambiguation_targets": "- NBCUniversal: समझाएं कि यह एक बड़ी मनोरंजन कंपनी है जिसमें टीवी चैनल (जैसे CNBC, MSNBC), फिल्में और थीम पार्क शामिल हैं।\n- Comcast: समझाएं कि यह अमेरिका की सबसे बड़ी इंटरनेट और केबल कंपनी है, जो घरों तक इंटरनेट पहुँचाने का काम करती है।\n- Versant: समझाएं कि यह एक नई कंपनी है जिसमें Comcast के केबल चैनल और अन्य संपत्तियां हैं।\n- Decoder: समझाएं कि यह The Verge का एक पॉडकास्ट है जहाँ इस तरह की बड़ी तकनीकी और मीडिया खबरों पर चर्चा होती है।",
+      "category": "general",
+      "paragraph_plan": [
+        "इस अनुच्छेद में Comcast के बड़े फैसले की जानकारी देनी चाहिए। बताएं कि कंपनी अब दो हिस्सों में बंटने जा रही है - एक हिस्सा इंटरनेट (broadband) के लिए और दूसरा हिस्सा मनोरंजन (NBCUniversal) के लिए। Peter Kafka का नाम और उनके पॉडकास्ट 'Channels' का जिक्र करें।",
+        "बताएं कि यह पहली बार नहीं है जब Comcast ने ऐसा कदम उठाया है। पहले भी CNBC और MSNBC जैसे चैनल एक नई कंपनी 'Versant' में भेजे जा चुके हैं। इससे पता चलता है कि कंपनी लंबे समय से इस दिशा में सोच रही थी।",
+        "इस फैसले के पीछे की वजह समझाएं। Peter Kafka के मुताबिक, 'content plus pipes' का सपना अब काम नहीं कर रहा है। यानी, जो कंपनी खुद कंटेंट बनाती है और उसे लोगों तक पहुँचाती भी है, उनके बीच हमेशा टकराव होता है।",
+        "इस फैसले का असर पूरे मीडिया जगत पर पड़ेगा। यह एक बड़ा बदलाव है जिससे नई कंपनियां बनेंगी और शायद भविष्य में और भी सौदे (acquisitions) हो सकते हैं। इससे प्रतिस्पर्धा का माहौल बदलेगा।",
+        "अंत में, एक छोटा सा नोट जोड़ें कि कैसे इस बदलाव से The Verge जैसी मीडिया कंपनियों से जुड़े निवेश भी बदल गए हैं, लेकिन इससे उनकी रिपोर्टिंग पर कोई असर नहीं पड़ेगा।"
+      ]
+    },
+    "stage3": {
+      "title": "कॉमकास्ट का बड़ा फैसला: NBCU से नाता तोड़ना क्यों ज़रूरी हो गया?",
+      "concept_box": "मीडिया दिग्गज कॉमकास्ट ने अपने ब्रॉडबैंड और मनोरंजन व्यवसायों को अलग करने का फैसला किया है। यह कदम 'कंटेंट प्लस पाइप्स' के उस मॉडल की विफलता को दर्शाता है, जहाँ एक ही कंपनी कंटेंट बनाती और वितरित करती है। यह विभाजन मीडिया जगत में प्रतिस्पर्धा और भविष्य के सौदों के लिए नए रास्ते खोल सकता है।",
+      "introduction_lede": "मीडिया जगत में एक बड़ा बदलाव आया है। कॉमकास्ट, जो अमेरिका की सबसे बड़ी मीडिया कंपनी है, ने अपने ब्रॉडबैंड और NBCUniversal (NBCU) मनोरंजन व्यवसाय को दो अलग-अलग कंपनियों में बांटने का ऐलान किया है। यह फैसला बिजनेस इनसाइडर के वरिष्ठ पत्रकार पीटर काफ्का ने अपने पॉडकास्ट 'चैनल्स' में साझा किया। यह कदम न केवल कॉमकास्ट के लिए, बल्कि पूरे मीडिया उद्योग के लिए एक ऐतिहासिक मोड़ है, जो लंबे समय से कंटेंट और वितरण के एक ही छत के नीचे रहने के मॉडल पर चल रहा था।",
+      "deep_dive_and_context": "कॉमकास्ट का यह विभाजन कोई अचानक लिया गया फैसला नहीं है। पीटर काफ्का के अनुसार, कंपनी ने पहले ही CNBC और MSNBC जैसे चैनलों को एक नई कंपनी 'वर्सेंट' (Versant) में भेजकर इस दिशा में पहला कदम उठा लिया था। यह संकेत देता है कि कॉमकास्ट लंबे समय से इस संरचनात्मक बदलाव पर विचार कर रही थी। अब ब्रॉडबैंड और NBCU को अलग करने का फैसला इस प्रक्रिया का अगला चरण है। इस विभाजन के पीछे मुख्य कारण 'कंटेंट प्लस पाइप्स' मॉडल की विफलता है। जब एक ही कंपनी कंटेंट बनाती है और उसे दर्शकों तक पहुँचाने का काम भी करती है, तो हितों का टकराव होना स्वाभाविक है। ब्रॉडबैंड कंपनी के रूप में कॉमकास्ट को अपने सभी ग्राहकों को निष्पक्ष सेवा देनी होती है, लेकिन NBCU के कंटेंट को बढ़ावा देने के चक्कर में वह अपने प्रतिस्पर्धियों के साथ भेदभाव कर सकती है। इस विभाजन से यह समस्या समाप्त हो जाएगी। NBCU अब एक स्वतंत्र कंपनी होगी, जो अपनी सामग्री को किसी भी प्लेटफॉर्म पर बेच सकेगी, चाहे वह कॉमकास्ट का अपना हो या किसी प्रतिद्वंद्वी का। इससे प्रतिस्पर्धा बढ़ेगी और उपभोक्ताओं को अधिक विकल्प मिलेंगे। इस विभाजन का प्रभाव पूरे मीडिया जगत पर पड़ेगा। यह एक बड़ा बदलाव है जिससे नई कंपनियां बनेंगी और शायद भविष्य में और भी सौदे (acquisitions) हो सकते हैं। इससे प्रतिस्पर्धा का माहौल बदलेगा और अन्य बड़ी मीडिया कंपनियों को भी अपने बिजनेस मॉडल पर पुनर्विचार करने के लिए मजबूर कर सकता है। यह कदम न केवल कॉमकास्ट के लिए, बल्कि पूरे उद्योग के लिए एक नई शुरुआत है।",
+      "strategic_analysis": "कॉमकास्ट का यह विभाजन मीडिया उद्योग के लिए एक महत्वपूर्ण मोड़ है। यह उस पुराने मॉडल की विफलता को दर्शाता है जहाँ कंटेंट और वितरण एक ही कंपनी के पास थे। विशेषज्ञों के अनुसार, यह कदम प्रतिस्पर्धा को बढ़ावा देगा और उपभोक्ताओं को बेहतर विकल्प प्रदान करेगा। हालांकि, यह विभाजन जितना दिखता है, उससे कहीं अधिक जटिल है। कॉमकास्ट और NBCU के बीच का यह अलगाव न केवल इन दो कंपनियों को प्रभावित करेगा, बल्कि पूरे मीडिया पारिस्थितिकी तंत्र पर इसका असर पड़ेगा। यह संकेत देता है कि भविष्य में मीडिया जगत में और भी बड़े बदलाव देखने को मिल सकते हैं।",
+      "conclusion_and_significance": "कॉमकास्ट का NBCU से नाता तोड़ना एक ऐतिहासिक फैसला है, जो मीडिया उद्योग के बदलते स्वरूप को दर्शाता है। यह कदम प्रतिस्पर्धा को बढ़ावा देगा और उपभोक्ताओं को अधिक विकल्प प्रदान करेगा। यह विभाजन न केवल कॉमकास्ट के लिए, बल्कि पूरे मीडिया जगत के लिए एक नई शुरुआत है।"
+    }
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+    "title": "Meta says its new AI model is ready to compete on coding",
+    "outcome": "published",
+    "stage0": {
+      "scraped_chars": 2981,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Muse Spark 1.1 is available to US developers through a public API preview. Muse Spark 1.1 is available",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {
+      "search_queries": [
+        "How does the pricing of the Meta Model API compare to the pricing of OpenAI's API, Google's API, and Anthropic's API?",
+        "What are the specific technical details of the \"step-change\" improvements mentioned, such as the new architecture or training data?"
+      ],
+      "entities": [
+        {
+          "name": "Meta",
+          "type": "company"
+        },
+        {
+          "name": "Muse Spark",
+          "type": "ai_model"
+        },
+        {
+          "name": "OpenAI",
+          "type": "company"
+        },
+        {
+          "name": "Google",
+          "type": "company"
+        },
+        {
+          "name": "Anthropic",
+          "type": "company"
+        }
+      ],
+      "skip": false,
+      "skip_reason": "The article reports on a specific product announcement from Meta regarding a new AI model, which is a clear tech news event."
     },
     "cache": {
       "hits": [
+        {
+          "name": "Meta",
+          "preview": "# Meta. Meta is a digital services provider best known for its flagship social m"
+        },
+        {
+          "name": "OpenAI",
+          "preview": "# What is OpenAI? Dive into the world of OpenAI and explore its features, benefi"
+        },
+        {
+          "name": "Google",
+          "preview": "Google is an American search engine company, founded in 1998 by Sergey Brin and "
+        },
         {
           "name": "Anthropic",
           "preview": "Overview:\nWe're an AI research company that builds reliable, interpretable, and "
-        },
-        {
-          "name": "Claude",
-          "preview": "What is Anthropic’s Claude model? Anthropic’s Claude is a large language model ("
         }
       ],
-      "misses": []
+      "misses": [
+        {
+          "name": "Muse Spark",
+          "type": "ai_model"
+        }
+      ]
     },
     "search": {
       "backend": "ddg",
-      "identity_queries": [],
+      "identity_queries": [
+        "\"Muse Spark\" ai_model overview"
+      ],
       "context_queries": [
-        "What is the pricing model or cost for accessing the \"reflection dashboard\" feature, and is it included in the standard Claude subscription or available as a paid add-on?"
+        "How does the pricing of the Meta Model API compare to the pricing of OpenAI's API, Google's API, and Anthropic's API?",
+        "What are the specific technical details of the \"step-change\" improvements mentioned, such as the new architecture or training data?"
       ],
       "context_queries_with_gap1_attached": [],
       "results": {
-        "What is the pricing model or cost for accessing the \"reflection dashboard\" feature, and is it included in the standard Claude subscription or available as a paid add-on?": ""
+        "Muse Spark": "",
+        "How does the pricing of the Meta Model API compare to the pricing of OpenAI's API, Google's API, and Anthropic's API?": "The provided material does not contain specific pricing information for the Meta Model API or its comparison to the pricing of OpenAI's, Google's, or Anthropic's APIs.",
+        "What are the specific technical details of the \"step-change\" improvements mentioned, such as the new architecture or training data?": "The material does not provide specific technical details about the 'step-change' improvements, including any new architecture or training data, for the entities mentioned in the queries."
       }
     },
+    "synthesis": {
+      "How does the pricing of the Meta Model API compare to the pricing of OpenAI's API, Google's API, and Anthropic's API?": "The provided material does not contain specific pricing information for the Meta Model API or its comparison to the pricing of OpenAI's, Google's, or Anthropic's APIs.",
+      "What are the specific technical details of the \"step-change\" improvements mentioned, such as the new architecture or training data?": "The material does not provide specific technical details about the 'step-change' improvements, including any new architecture or training data, for the entities mentioned in the queries."
+    },
     "cache_updates": [],
-    "entity_context_preview": "Anthropic: Overview:\nWe're an AI research company that builds reliable, interpretable, and steerable AI systems. Our first product is Claude, an AI assistant for tasks at any scale. Our research interests span multiple areas including natural language, human feedback, scaling laws, reinforcement learning, code\n\nClaude: What is Anthropic’s Claude model? Anthropic’s Claude is a large language model (LLM) designed to perform tasks like text generation, analysis, and problem-solving. Developed by the AI research company Anthropic, Claude is built to prioritize safety, accuracy, and usability. For ",
+    "entity_context_preview": "Meta: # Meta. Meta is a digital services provider best known for its flagship social media platform, Facebook, which boasts over two billion active users. Founded by Mark Zuckerberg, Facebook began as a networking site for Harvard students but rapidly expanded to include all individuals over the age of th\n\nOpenAI: # What is OpenAI? Dive into the world of OpenAI and explore its features, benefits, and applications. This article provides an overview of OpenAI and its significance in the current landscape of the rapidly changing world of generative AI. ## Overview of OpenAI and its significance. ",
     "stage2": {
-      "core_narrative": "AI users can now get a personalized \"year in review\" of their interactions with the Claude chatbot, mirroring the popular \"Wrapped\" feature from Spotify.",
-      "key_facts_and_quotes": "*   Anthropic announced a new \"reflect\" feature for its Claude chatbot.\n*   The feature is described by Anthropic as a \"reflection dashboard.\"\n*   It provides an analysis of a user's usage data over the past month, three months, six months, or a full year.\n*   The dashboard summarizes key topics discussed, types of tasks delegated, and usage patterns like peak times.\n*   Users can set \"quiet hours\" or break reminders.\n*   Anthropic states the dashboard is a way to \"see your patterns and shape them.\"\n*   A metric for total time spent using Claude is coming soon.",
-      "disambiguation_targets": "*   **Claude:** Explain it is an AI chatbot or assistant developed by the company Anthropic.\n*   **Anthropic:** Briefly identify it as an AI research company that created Claude.\n*   **Spotify Wrapped:** Describe it as a popular annual feature that shows users a summary of their listening habits over the year.",
-      "category": "general",
+      "core_narrative": "Meta is aggressively re-entering the competitive AI landscape by upgrading its in-house coding model and making it accessible to developers, signaling its intent to challenge established leaders like OpenAI and Google.",
+      "key_facts_and_quotes": "- Meta's new model is called Muse Spark 1.1.\n- It is an upgrade from the first-generation Muse Spark model launched in April.\n- Meta describes the upgrade as a \"step-change\" based on developer feedback.\n- The model is available to US developers through a public API preview.\n- It can perform advanced coding tasks like detecting and fixing complex bugs.\n- It supports end-to-end agentic workflows and multi-agent systems.\n- It has native multimodal perception for images, videos, and documents.\n- The model is available in \"Thinking mode\" through the Meta AI app and website.\n- The launch follows the controversial Muse Image model.\n- Meta is competing with companies like OpenAI, Google, and Anthropic.\n- The new Meta Model API is available for US developers.\n- Meta is including $20 in its offering (the text cuts off, but this is a key fact).",
+      "disambiguation_targets": "- Muse Spark 1.1: Explain this is Meta's latest AI model for coding.\n- Meta Model API: Explain this is the gateway for developers to use Meta's AI models.\n- Agentic workflows: Explain this refers to AI systems that can act autonomously to achieve goals.\n- Multimodal perception: Explain this means the AI can understand and process different types of information like text, images, and video.\n- OpenAI, Google, Anthropic: Briefly identify these as major competitors in the AI field.",
+      "category": "model_release",
       "paragraph_plan": [
-        "Para 1: Introduce the new \"reflect\" feature for Claude, immediately drawing a parallel to the well-known Spotify Wrapped to establish context for the reader. State that Anthropic, the company behind Claude, has launched this \"reflection dashboard\" to analyze user interactions over different time periods.",
-        "Para 2: Detail what the reflection dashboard actually shows the user, citing the specific data points mentioned in the source text. Include the quote from Anthropic about \"seeing your patterns and shaping them\" to explain the feature's purpose.",
-        "Para 3: Explain the interactive and user-control aspects of the feature, such as setting \"quiet hours\" and break reminders. Mention that a total usage time metric is planned for a future update to show the feature is still evolving.",
-        "Para 4: Conclude by framing this development within the broader tech trend of \"lookback\" features, noting that it's part of a wider movement seen on other apps like YouTube and Uber to provide users with a summary of their annual activity."
+        "Para 1: Meta has launched Muse Spark 1.1, an upgraded AI model for coding, and is making it available to US developers via a new public API. The company claims this version represents a \"step-change\" from the original, incorporating feedback to improve its capabilities. The tone should be declarative and focus on the announcement.",
+        "Para 2: The new model boasts significant enhancements, including the ability to detect and fix complex bugs, support advanced agentic workflows across multiple applications, and process information from various sources like images, videos, and documents. The tone should be informative, detailing the specific new features.",
+        "Para 3: This release is part of Meta's broader strategy to compete in the intense AI race against established players such as OpenAI, Google, and Anthropic. The company is trying to justify its massive investments in AI and catch up to its rivals. The tone should be analytical, providing context for Meta's move.",
+        "Para 4: The launch of Muse Spark 1.1 comes shortly after the controversial release of Meta's Muse Image model, which faced criticism for using Instagram content without permission. This highlights Meta's aggressive push to establish itself in the generative AI space. The tone should be cautionary, noting the recent controversy.",
+        "Para 5: Developers can access Muse Spark 1.1 immediately in \"Thi"
       ]
     },
     "stage3": {
-      "title": "क्लाउड रैप्ड: एंथ्रोपिक ने पेश किया 'रिफ्लेक्ट' फीचर, स्पॉटिफाई रैप्ड की तर्ज पर",
-      "concept_box": "एंथ्रोपिक ने अपने एआई असिस्टेंट क्लाउड के लिए 'रिफ्लेक्ट' फीचर लॉन्च किया है, जो स्पॉटिफाई रैप्ड की तरह उपयोगकर्ताओं को उनके उपयोग के पैटर्न का विश्लेषण प्रदान करता है। यह डैशबोर्ड उपयोगकर्ताओं को उनके विषयों, कार्यों और उपयोग के समय का विवरण दिखाता है, जिससे वे अपने एआई उपयोग को बेहतर ढंग से समझ सकें।",
-      "introduction_lede": "एंथ्रोपिक ने गुरुवार को अपने क्लाउड चैटबॉट के लिए एक नया 'रिफ्लेक्ट' फीचर पेश किया है, जो स्पॉटिफाई रैप्ड की लोकप्रियता से प्रेरित है। यह फीचर उपयोगकर्ताओं को पिछले एक महीने, तीन महीने, छह महीने या एक साल के दौरान उनके क्लाउड उपयोग का विस्तृत विश्लेषण प्रदान करता है। कंपनी का कहना है कि यह डैशबोर्ड उपयोगकर्ताओं को उनके पैटर्न देखने और उन्हें आकार देने में मदद करेगा, जिससे एआई के साथ उनके संबंधों की गहरी समझ विकसित होगी।",
-      "deep_dive_and_context": "एंथ्रोपिक ने अपने क्लाउड चैटबॉट के लिए 'रिफ्लेक्ट' फीचर की घोषणा की है, जो उपयोगकर्ताओं को उनके उपयोग के डेटा का विश्लेषण प्रदान करता है। यह फीचर पिछले एक महीने, तीन महीने, छह महीने या एक साल के दौरान उपयोगकर्ता के क्लाउड उपयोग का सारांश प्रस्तुत करता है। इसमें उपयोगकर्ता के मुख्य विषयों, उनके द्वारा सौंपे गए कार्यों के प्रकार और उनके उपयोग के पैटर्न, जैसे कि पीक यूसेज टाइम्स (अधिकतम उपयोग के समय) शामिल हैं। एंथ्रोपिक ने अपने ब्लॉग पोस्ट में लिखा है कि यह रिफ्लेक्शन डैशबोर्ड \"आपके पैटर्न देखने और उन्हें आकार देने\" का एक तरीका है। उपयोगकर्ता अपने स्वयं के \"शांत घंटे\" (क्वाइट आवर्स) सेट कर सकते हैं या कुछ समय के बाद ब्रेक रिमाइंडर प्राप्त कर सकते हैं। एंथ्रोपिक ने यह भी कहा है कि क्लाउड पर बिताए गए कुल समय का विश्लेषण, जैसे कि उपयोग के कुल घंटे, जल्द ही आने वाला है। यह फीचर उपयोगकर्ताओं को यह ट्रैक करने और देखने की अनुमति देता है कि वे क्लाउड का उपयोग कैसे करते हैं और यह तय करने में मदद करता है कि क्या वह समय उनके लक्ष्यों के अनुरूप है। यह रिफ्लेक्शन उपयोगकर्ताओं को पीछे हटने और उनके जीवन में क्लाउड की भूमिका की जांच करने के लिए भी प्रेरित करता है। यह समय-समय पर ऐसे प्रश्न उठाता है जैसे, \"ऐसी कौन सी एक चीज़ है जिसे आप स्वयं करना जारी रखना चाहते हैं, भले ही क्लाउड उसे तेजी से कर सके?\" एंथ्रोपिक ने लिखा है। विडंबना यह है कि जब कोई उपयोगकर्ता ऐसे प्रश्न का उत्तर देता है, तो कंपनी ने कहा कि डैशबोर्ड फिर उन्हें \"क्लाउड के साथ उस पर चर्चा करने का अवसर\" देगा।",
-      "strategic_analysis": "एंथ्रोपिक का 'रिफ्लेक्ट' फीचर एआई उद्योग में एक महत्वपूर्ण रुझान का हिस्सा है, जहाँ कंपनियां उपयोगकर्ताओं को उनके डिजिटल व्यवहार की अंतर्दृष्टि प्रदान करने पर ध्यान केंद्रित कर रही हैं। स्पॉटिफाई रैप्ड की सफलता ने अन्य प्लेटफार्मों को भी इसी तरह के \"लुकबैक\" फीचर्स अपनाने के लिए प्रेरित किया है। यह कदम न केवल उपयोगकर्ता जुड़ाव को बढ़ाता है, बल्कि उपयोगकर्ताओं को उनके एआई उपयोग के प्रति अधिक जागरूक भी बनाता है। हालांकि, यह फीचर अभी भी विकास के चरण में है, क्योंकि कुल उपयोग समय का मीट्रिक अभी आने वाला है। यह संकेत देता है कि एंथ्रोपिक उपयोगकर्ता फीडबैक के आधार पर इस फीचर को और अधिक परिष्कृत करने की योजना बना रहा है।",
-      "conclusion_and_significance": "एंथ्रोपिक का 'रिफ्लेक्ट' फीचर एआई के साथ उपयोगकर्ता के संबंधों को अधिक पारदर्शी और व्यक्तिगत बनाने की दिशा में एक कदम है। यह न केवल उपयोगकर्ताओं को उनके उपयोग के पैटर्न को समझने में मदद करेगा, बल्कि उन्हें अपने एआई उपयोग को अधिक सचेत रूप से प्रबंधित करने के लिए भी प्रोत्साहित करेगा।"
+      "title": "मेटा ने कोडिंग के लिए नया AI मॉडल Muse Spark 1.1 लॉन्च किया, OpenAI और गूगल से प्रतिस्पर्धा की तैयारी",
+      "concept_box": "मेटा ने अपने नए AI कोडिंग मॉडल Muse Spark 1.1 को अमेरिकी डेवलपर्स के लिए सार्वजनिक API के माध्यम से उपलब्ध कराया है। कंपनी का दावा है कि यह मॉडल कोडिंग में जटिल बग्स को पहचानने और ठीक करने में सक्षम है और मल्टीमॉडल डेटा को प्रोसेस कर सकता है।",
+      "introduction_lede": "मेटा ने अपने नए AI कोडिंग मॉडल Muse Spark 1.1 को लॉन्च किया है, जो OpenAI, गूगल और एंथ्रोपिक जैसी कंपनियों के साथ प्रतिस्पर्धा करने के लिए कंपनी की रणनीति का हिस्सा है। यह मॉडल अब अमेरिकी डेवलपर्स के लिए सार्वजनिक API के माध्यम से उपलब्ध है, जिसमें प्रति नए खाते पर 20 डॉलर के मुफ्त क्रेडिट शामिल हैं।",
+      "deep_dive_and_context": "मेटा ने अपने नए AI कोडिंग मॉडल Muse Spark 1.1 को लॉन्च किया है, जो OpenAI, गूगल और एंथ्रोपिक जैसी कंपनियों के साथ प्रतिस्पर्धा करने के लिए कंपनी की रणनीति का हिस्सा है। यह मॉडल अब अमेरिकी डेवलपर्स के लिए सार्वजनिक API के माध्यम से उपलब्ध है, जिसमें प्रति नए खाते पर 20 डॉलर के मुफ्त क्रेडिट शामिल हैं। कंपनी का कहना है कि यह मॉडल पिछले संस्करण की तुलना में \"स्टेप-चेंज\" (बड़ा बदलाव) है, जिसमें डेवलपर्स की प्रतिक्रिया के आधार पर सुधार किए गए हैं।\n\nMuse Spark 1.1 में कई महत्वपूर्ण सुधार किए गए हैं। यह मॉडल जटिल बग्स को पहचानने और ठीक करने में सक्षम है, जो कोडिंग की सटीकता को बढ़ाता है। इसके अलावा, यह एंड-टू-एंड एजेंटिक वर्कफ़्लो का बेहतर समर्थन करता है, जिसमें मल्टी-एजेंट सिस्टम भी शामिल हैं। सबसे महत्वपूर्ण बात यह है कि इस मॉडल में छवियों, वीडियो और दस्तावेजों जैसे विभिन्न स्रोतों से जानकारी को प्रोसेस करने की क्षमता है, जिसे 'नेटिव मल्टीमॉडल परसेप्शन' कहा जाता है।\n\nमेटा का यह कदम AI की तीव्र प्रतिस्पर्धा में अपनी स्थिति मजबूत करने के लिए है। कंपनी ने AI क्षेत्र में अरबों डॉलर का निवेश किया है और वह OpenAI, गूगल और एंथ्रोपिक के साथ बराबरी करने की कोशिश कर रही है। पिछले साल कंपनी ने कई हाई-प्रोफाइल नियुक्तियां की थीं और अपने संगठन का पुनर्गठन भी किया था, जो इस प्रतिस्पर्धा को दर्शाता है।\n\nहालांकि, यह लॉन्च ऐसे समय में आया है जब मेटा के पिछले मॉडल Muse Image को लेकर विवाद हुआ था। उस मॉडल पर आरोप लगे थे कि उसने बिना अनुमति के इंस्टाग्राम के कंटेंट का उपयोग किया है। यह विवाद मेटा की आक्रामक रणनीति को उजागर करता है, लेकिन साथ ही डेटा उपयोग और गोपनीयता के मुद्दों पर भी सवाल उठाता है।\n\nमेटा ने बताया है कि Muse Spark 1.1 अब 'थिंकिंग मोड' के माध्यम से Meta AI ऐप और वेबसाइट पर उपलब्ध है। डेवलपर्स इसे नए Meta Model API के माध्यम से भी एक्सेस कर सकते हैं। कंपनी ने इस मॉडल को पहले सीधे Meta AI के माध्यम से उपलब्ध कराया था, और बाद में इसे इंस्टाग्राम, व्हाट्सएप के चैटबॉट्स और मेटा स्मार्ट ग्लासेस में भी एकीकृत किया गया था।",
+      "strategic_analysis": "मेटा का Muse Spark 1.1 लॉन्च एक महत्वपूर्ण कदम है, लेकिन यह OpenAI और गूगल जैसे स्थापित खिलाड़ियों के सामने एक बड़ी चुनौती भी है। हालांकि मेटा का दावा है कि यह मॉडल \"स्टेप-चेंज\" है, लेकिन वास्तविक प्रदर्शन और बाजार में इसकी स्वीकार्यता ही इसकी सफलता तय करेगी। मल्टीमॉडल क्षमताओं का होना एक सकारात्मक पक्ष है, लेकिन डेटा गोपनीयता के मुद्दे कंपनी के लिए चिंता का विषय बने हुए हैं। विशेषज्ञों के अनुसार, मेटा की यह रणनीति अपने विशाल उपयोगकर्ता आधार का लाभ उठाने की कोशिश है। हालांकि, कोडिंग जैसे तकनीकी क्षेत्र में प्रतिस्पर्धा करना आसान नहीं है, क्योंकि वहां सटीकता और विश्वसनीयता सबसे महत्वपूर्ण होती है। यदि मेटा इस मॉडल को प्रभावी ढंग से लागू कर पाती है, तो यह डेवलपर्स के लिए एक अच्छा विकल्प साबित हो सकता है।",
+      "conclusion_and_significance": "मेटा का Muse Spark 1.1 लॉन्च AI कोडिंग क्षेत्र में एक नया अध्याय है। हालांकि यह मॉडल तकनीकी रूप से उन्नत प्रतीत होता है, लेकिन इसकी सफलता वास्तविक दुनिया के प्रदर्शन और डेवलपर्स की प्रतिक्रिया पर निर्भर करेगी। मेटा की यह पहल AI की दौड़ में उसकी प्रतिबद्धता को दर्शाती है, लेकिन उसे डेटा गोपनीयता और प्रतिस्पर्धा की चुनौतियों का भी सामना करना होगा।"
     }
   },
   {
-    "url": "https://www.theverge.com/news/963196/spacex-is-on-track-for-record-setting-starlink-deployments",
-    "title": "SpaceX is on track for record-setting Starlink deployments",
+    "url": "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech",
+    "title": "ICE agents are making house calls for online critics",
     "outcome": "published",
     "stage0": {
-      "scraped_chars": 2391,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech It’s currently 100 satellites ahead of 2025’s deployment record. It’s currently 100 satellites ah",
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech DHS is accusing people of ‘doxing’ federal agents — and, a new lawsuit claims, trying to chill d",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1190,101 +574,92 @@
     },
     "stage1": {
       "search_queries": [
-        "SpaceX's reusable Falcon 9 rocket deployment rate compared to other launch providers",
-        "The technical specifications and capabilities of Starlink's satellite constellation",
-        "The business model and revenue impact of Starlink's deployment record on SpaceX's overall finances"
+        "What specific legal authority or regulation empowers the DHS OPR to issue a \"WARNING NOTICE\" to a private citizen?",
+        "What is the official process for an ICE agent to conduct a home visit and interview a non-citizen upon their return to the US, and what are the legal requirements for this action?",
+        "What are the specific criminal statutes under which the lawsuit claims the DHS is accusing people of 'doxing' federal agents?"
       ],
       "entities": [
         {
-          "name": "SpaceX",
-          "type": "company"
+          "name": "Department of Homeland Security",
+          "type": "ban_regulation"
         },
         {
-          "name": "Starlink",
-          "type": "product"
+          "name": "ICE",
+          "type": "ban_regulation"
         },
         {
-          "name": "Amazon",
-          "type": "company"
-        },
-        {
-          "name": "Leo",
-          "type": "product"
+          "name": "Office of Professional Responsibility",
+          "type": "ban_regulation"
         }
       ],
       "skip": false,
-      "skip_reason": "The article reports on SpaceX's current Starlink deployment pace, which is a factual, time-sensitive news event involving a major tech company's performance."
+      "skip_reason": "The article describes a lawsuit and alleged ICE actions against a private citizen for online criticism, which is a significant news event involving government conduct and free speech."
     },
     "cache": {
-      "hits": [
-        {
-          "name": "Amazon",
-          "preview": "Amazon manages over 1.5 million employees across dozens of countries with a hier"
-        }
-      ],
+      "hits": [],
       "misses": [
         {
-          "name": "SpaceX",
-          "type": "company"
+          "name": "Department of Homeland Security",
+          "type": "ban_regulation"
         },
         {
-          "name": "Starlink",
-          "type": "product"
+          "name": "ICE",
+          "type": "ban_regulation"
         },
         {
-          "name": "Leo",
-          "type": "product"
+          "name": "Office of Professional Responsibility",
+          "type": "ban_regulation"
         }
       ]
     },
     "search": {
       "backend": "ddg",
       "identity_queries": [
-        "\"SpaceX\" company overview",
-        "\"Starlink\" product overview",
-        "\"Leo\" product overview"
+        "\"Department of Homeland Security\" ban_regulation overview",
+        "\"ICE\" ban_regulation overview",
+        "\"Office of Professional Responsibility\" ban_regulation overview"
       ],
       "context_queries": [
-        "SpaceX's reusable Falcon 9 rocket deployment rate compared to other launch providers",
-        "The technical specifications and capabilities of Starlink's satellite constellation",
-        "The business model and revenue impact of Starlink's deployment record on SpaceX's overall finances"
+        "What specific legal authority or regulation empowers the DHS OPR to issue a \"WARNING NOTICE\" to a private citizen?",
+        "What is the official process for an ICE agent to conduct a home visit and interview a non-citizen upon their return to the US, and what are the legal requirements for this action?",
+        "What are the specific criminal statutes under which the lawsuit claims the DHS is accusing people of 'doxing' federal agents?"
       ],
       "context_queries_with_gap1_attached": [],
       "results": {
-        "SpaceX": "",
-        "Starlink": "",
-        "Leo": "",
-        "SpaceX's reusable Falcon 9 rocket deployment rate compared to other launch providers": "material did not address this",
-        "The technical specifications and capabilities of Starlink's satellite constellation": "material did not address this",
-        "The business model and revenue impact of Starlink's deployment record on SpaceX's overall finances": "material did not address this"
+        "Department of Homeland Security": "",
+        "ICE": "",
+        "Office of Professional Responsibility": "",
+        "What specific legal authority or regulation empowers the DHS OPR to issue a \"WARNING NOTICE\" to a private citizen?": "",
+        "What is the official process for an ICE agent to conduct a home visit and interview a non-citizen upon their return to the US, and what are the legal requirements for this action?": "The provided material does not contain information on the official process for ICE agents to conduct home visits or the legal requirements for such actions. The sources focus on broader immigration policy, detention experiences, and legal challenges, but do not detail the specific procedural steps or legal standards for home visits.",
+        "What are the specific criminal statutes under which the lawsuit claims the DHS is accusing people of 'doxing' federal agents?": "The material does not specify the exact criminal statutes under which the lawsuit claims the DHS is accusing people of 'doxing' federal agents. The sources discuss allegations of doxing and privacy violations in the context of ICE and activists, but do not provide a list of specific criminal statutes involved in the lawsuit."
       }
     },
     "synthesis": {
-      "SpaceX's reusable Falcon 9 rocket deployment rate compared to other launch providers": "material did not address this",
-      "The technical specifications and capabilities of Starlink's satellite constellation": "material did not address this",
-      "The business model and revenue impact of Starlink's deployment record on SpaceX's overall finances": "material did not address this"
+      "What is the official process for an ICE agent to conduct a home visit and interview a non-citizen upon their return to the US, and what are the legal requirements for this action?": "The provided material does not contain information on the official process for ICE agents to conduct home visits or the legal requirements for such actions. The sources focus on broader immigration policy, detention experiences, and legal challenges, but do not detail the specific procedural steps or legal standards for home visits.",
+      "What are the specific criminal statutes under which the lawsuit claims the DHS is accusing people of 'doxing' federal agents?": "The material does not specify the exact criminal statutes under which the lawsuit claims the DHS is accusing people of 'doxing' federal agents. The sources discuss allegations of doxing and privacy violations in the context of ICE and activists, but do not provide a list of specific criminal statutes involved in the lawsuit."
     },
     "cache_updates": [],
-    "entity_context_preview": "Amazon: Amazon manages over 1.5 million employees across dozens of countries with a hierarchical structure featuring strong functional divisions like AWS, Consumer, and Finance, and geographic segmentation. A senior leadership team called the S-Team reports to CEO Andy Jassy.\n\n[SpaceX's reusable Falcon 9 rocket deployment rate compared to other launch providers]:\nmaterial did not address this\n\n[The technical specifications and capabilities of Starlink's satellite constellation]:\nmaterial did not address this\n\n[The business model and revenue impact of Starlink's deployment record on SpaceX's ov",
+    "entity_context_preview": "[What is the official process for an ICE agent to conduct a home visit and interview a non-citizen upon their return to the US, and what are the legal requirements for this action?]:\nThe provided material does not contain information on the official process for ICE agents to conduct home visits or the legal requirements for such actions. The sources focus on broader immigration policy, detention experiences, and legal challenges, but do not detail the specific procedural steps or legal standards for home visits.\n\n[What are the specific criminal statutes under which the lawsuit claims the DHS i",
     "stage2": {
-      "core_narrative": "SpaceX is not just breaking its own records but is creating an insurmountable technological and logistical gap in the global satellite internet market, leaving competitors like Amazon far behind.",
-      "key_facts_and_quotes": "*   SpaceX launched 1,589 Starlink satellites in the first half of 2026.\n*   This is 100 more than the 1,489 satellites deployed in the same period in 2025.\n*   2025 was a record year with 3,180 total Starlink satellites deployed.\n*   Since inception, SpaceX has launched over 12,400 Starlink satellites, with nearly 11,000 still functioning.\n*   Amazon's Project Kuiper (Leo service) has deployed about 400 satellites in 15 months.\n*   Amazon's planned constellation is 3,232 satellites.\n*   SpaceX's Falcon 9 rocket can deploy one Amazon-sized constellation per year.\n*   Data source: Jonathan McDowell's satellite tracker.",
-      "disambiguation_targets": "*   **Starlink:** इसे एक सैटेलाइट इंटरनेट कॉन्स्टेलेशन के रूप में समझाया जाना चाहिए जो SpaceX द्वारा संचालित है।\n*   **Low-Earth Orbit (LEO):** इसे पृथ्वी से करीब की कक्षा के रूप में समझाया जाना चाहिए जहाँ Starlink के सैटेलाइट्स काम करते हैं।\n*   **Reusable Falcon 9 rocket:** इसे एक रॉकेट के रूप में समझाया जाना चाहिए जिसे दोबारा इस्तेमाल किया जा सकता है, जिससे लॉन्च की लागत कम होती है।\n*   **Project Kuiper (Leo service):** इसे Amazon के सैटेलाइट इंटरनेट प्रोजेक्ट के रूप में समझाया जाना चाहिए।",
+      "core_narrative": "The U.S. government is allegedly using intimidation tactics, including home visits and threats of prosecution, to silence online critics of immigration enforcement agencies.",
+      "key_facts_and_quotes": "- David Streever, a U.S. citizen, was visited at his home in Rochester by DHS agents while he was on vacation in Finland.\n- The agents left a \"WARNING NOTICE\" stating that the ICE Office of Professional Responsibility (OPR) enforces crimes against the U.S., including \"threats made against ICE personnel.\"\n- Upon his return to New York City, another agent tracked Streever down at his hotel.\n- Streever has filed a lawsuit in federal court in Washington, DC, claiming these actions are an attempt to chill his dissenting speech.\n- The Department of Homeland Security (DHS) is accused of accusing people of 'doxing' federal agents.",
+      "disambiguation_targets": "- ICE (Immigration and Customs Enforcement): This is a U.S. federal law enforcement agency under the Department of Homeland Security.\n- DHS (Department of Homeland Security): The U.S. department responsible for public security, analogous to India's Ministry of Home Affairs.\n- OPR (Office of Professional Responsibility): The internal affairs division of ICE responsible for investigating misconduct.\n- Doxing: The act of researching and publishing private information about an individual on the internet, often with malicious intent.",
       "category": "general",
       "paragraph_plan": [
-        "Para 1: Start with the main news: SpaceX is ahead of its own 2025 record for Starlink satellite deployments. State the specific numbers: 1,589 satellites launched in the first half of 2026 compared to 1,489 in the same period of 2025. Mention that 2025 was already a record year with 3,180 total satellites deployed. The tone should be factual and reportorial, establishing the core achievement.",
-        "Para 2: Provide context on the scale of SpaceX's Starlink constellation. State that over 12,400 satellites have been launched since the project began, with nearly 11,000 still operational. This paragraph should emphasize the sheer size and maturity of the network, using the numbers to illustrate the massive infrastructure already in place. The tone is one of scale and established dominance.",
-        "Para 3: Introduce the key competitor, Amazon, and highlight the stark contrast in deployment speed. State that Amazon's Project Kuiper has only deployed about 400 satellites in 15 months, with a planned total of 3,232. This paragraph sets up the central tension of the story by showing the gap between the market leader and a major new entrant. The tone is comparative and analytical.",
-        "Para 4: Deliver the powerful concluding comparison that frames SpaceX's advantage. Explain that SpaceX's reusable Falcon 9 rocket is capable of deploying an entire Amazon-sized constellation in just one year. This final point should leave the reader with a clear understanding of the technological and logistical lead SpaceX holds."
+        "Para 1: Begin by introducing the central incident: David Streever, a U.S. citizen, was visited at his home by DHS agents while he was abroad. Mention that this action is part of a broader pattern of alleged intimidation against critics of immigration enforcement.",
+        "Para 2: Detail the \"WARNING NOTICE\" left by the agents, explaining its contents about the OPR's role in enforcing crimes against the U.S., including threats against ICE personnel. This establishes the official justification for their actions.",
+        "Para 3: Describe the second encounter at Streever's hotel in New York City, highlighting the immediacy and persistence of the agents' actions upon his return. This demonstrates the direct and personal nature of the alleged intimidation.",
+        "Para 4: Introduce the lawsuit filed by Streever in federal court in Washington, DC, which claims these actions are an unconstitutional attempt to chill his free speech and dissent. This frames the incident as a legal and constitutional issue.",
+        "Para 5: Conclude by explaining the broader context of the lawsuit, which accuses the DHS of retaliating against critics by accusing them of 'doxing' federal agents. This connects the specific case to the larger controversy surrounding government overreach and the suppression of dissent."
       ]
     },
     "stage3": {
-      "title": "स्पेसएक्स स्टारलिंक पर तैनाती में रिकॉर्ड तोड़ रहा है, अमेज़न से आगे निकल गया",
-      "concept_box": "स्पेसएक्स ने 2026 की पहली छमाही में 1,589 स्टारलिंक उपग्रहों को प्रक्षेपित करके अपने पिछले रिकॉर्ड को पीछे छोड़ दिया है। यह अमेज़न के प्रोजेक्ट कुइपर की तुलना में बहुत तेज़ गति है, जो स्पेसएक्स की तकनीकी और परिचालन श्रेष्ठता को दर्शाता है।",
-      "introduction_lede": "स्पेसएक्स ने 2026 की पहली छमाही में 1,589 स्टारलिंक उपग्रहों को प्रक्षेपित करके एक नया रिकॉर्ड बनाया है। यह संख्या 2025 की इसी अवधि के 1,489 उपग्रहों से 100 अधिक है। 2025 में स्पेसएक्स ने कुल 3,180 उपग्रहों को तैनात करके एक रिकॉर्ड वर्ष दर्ज किया था। यह उपलब्धि स्पेसएक्स की स्टारलिंक परियोजना की तीव्र गति और अमेज़न के प्रोजेक्ट कुइपर के साथ प्रतिस्पर्धा में इसकी बढ़त को दर्शाती है।",
-      "deep_dive_and_context": "स्पेसएक्स ने 2026 की पहली छमाही में 1,589 स्टारलिंक उपग्रहों को प्रक्षेपित करके एक नया रिकॉर्ड बनाया है। यह संख्या 2025 की इसी अवधि के 1,489 उपग्रहों से 100 अधिक है। 2025 में स्पेसएक्स ने कुल 3,180 उपग्रहों को तैनात करके एक रिकॉर्ड वर्ष दर्ज किया था। स्पेसएक्स ने स्टारलिंक परियोजना की शुरुआत से अब तक 12,400 से अधिक उपग्रहों को प्रक्षेपित किया है, जिनमें से लगभग 11,000 अभी भी कार्यात्मक हैं। यह विशाल नेटवर्क वैश्विक इंटरनेट कवरेज प्रदान करने के लिए तैयार है। इसके विपरीत, अमेज़न का प्रोजेक्ट कुइपर, जो स्टारलिंक का मुख्य प्रतिस्पर्धी है, पिछले 15 महीनों में केवल 400 उपग्रहों को ही तैनात कर पाया है। अमेज़न की योजना कुल 3,232 उपग्रहों का एक नक्षत्र (constellation) बनाने की है। स्पेसएक्स की इस तीव्र तैनाती की क्षमता का कारण उसका पुन: प्रयोज्य (reusable) फाल्कन 9 रॉकेट है। विश्लेषकों के अनुसार, यह रॉकेट एक वर्ष में ही अमेज़न के पूरे प्रोजेक्ट कुइपर के बराबर उपग्रहों को प्रक्षेपित कर सकता है। यह स्पेसएक्स की तकनीकी और परिचालन श्रेष्ठता को स्पष्ट करता है।",
-      "strategic_analysis": "स्पेसएक्स की यह उपलब्धि न केवल एक रिकॉर्ड है, बल्कि वैश्विक इंटरनेट बाजार में उसकी स्थिति को और मजबूत करती है। अमेज़न जैसे बड़े निगम के बावजूद, स्पेसएक्स की गति और दक्षता उसे प्रतिस्पर्धा में आगे रखती है। यह दर्शाता है कि रॉकेट तकनीक में पुन: प्रयोज्यता (reusability) का कितना महत्व है। हालांकि, यह भी ध्यान देने योग्य है कि स्टारलिंक का नेटवर्क अभी भी विस्तार के चरण में है और वैश्विक स्तर पर पूर्ण कवरेज अभी शेष है। भविष्य में, जब दोनों परियोजनाएं पूरी तरह से कार्यात्मक हो जाएंगी, तब प्रतिस्पर्धा का वास्तविक स्वरूप सामने आएगा।",
-      "conclusion_and_significance": "स्पेसएक्स की स्टारलिंक तैनाती की गति अमेज़न के प्रोजेक्ट कुइपर को पीछे छोड़ रही है, जो स्पेसएक्स की तकनीकी बढ़त को दर्शाता है। यह न केवल एक रिकॉर्ड है, बल्कि वैश्विक इंटरनेट बाजार में स्पेसएक्स की प्रभुत्वशाली स्थिति को भी पुख्ता करता है।"
+      "title": "ICE एजेंट ऑनलाइन आलोचकों के घर पहुँच रहे हैं",
+      "concept_box": "एक नए मुकदमे में आरोप लगाया गया है कि अमेरिकी गृह सुरक्षा विभाग (DHS) के एजेंट डेविड स्ट्रीवर जैसे आलोचकों को डराने-धमकाने के लिए घर-घर जाकर जाँच कर रहे हैं। यह मामला सरकारी एजेंसियों द्वारा असहमति को दबाने के लिए 'डोजिंग' (doxing) के आरोपों के उपयोग की एक व्यापक रणनीति की ओर संकेत करता है।",
+      "introduction_lede": "डेविड स्ट्रीवर, जो एक अमेरिकी नागरिक हैं, फिनलैंड में छुट्टियां मनाकर लौटे तो उन्हें पता चला कि उनके रोचेस्टर स्थित घर पर गृह सुरक्षा विभाग (DHS) के एजेंटों ने उनसे मुलाकात की थी। यह घटना एक संघीय मुकदमे का हिस्सा है जिसमें DHS पर आलोचकों को चुप कराने के लिए डराने-धमकाने की रणनीति अपनाने का आरोप लगाया गया है। यह मामला सरकारी एजेंसियों द्वारा असहमति को दबाने के लिए 'डोजिंग' के आरोपों के उपयोग की एक व्यापक रणनीति की ओर संकेत करता है।",
+      "deep_dive_and_context": "स्ट्रीवर ने बताया कि जब वे विदेश में थे, तब एजेंटों ने उनके घर पर एक \"चेतावनी नोटिस\" छोड़ा था, जिसमें कहा गया था कि ICE का व्यावसायिक उत्तरदायित्व कार्यालय (OPR) \"संयुक्त राज्य अमेरिका के विरुद्ध अपराधों को लागू करने के लिए जिम्मेदार है,\" जिसमें \"ICE कर्मियों के विरुद्ध की गई धमकियां\" भी शामिल हैं। यह नोटिस एजेंटों की कार्रवाई के लिए आधिकारिक औचित्य प्रदान करता है। न्यूयॉर्क शहर के एक होटल में चेक-इन करने के कुछ ही घंटों बाद, स्ट्रीवर को फ्रंट डेस्क से एक कॉल आया कि कोई उनसे मिलने आया है। जब वे लौटे, तो एक अन्य एजेंट ने उनसे संपर्क किया, जो उनकी वापसी के तुरंत बाद एजेंटों की कार्रवाई की तात्कालिकता और निरंतरता को दर्शाता है। संघीय अदालत में दायर मुकदमे में स्ट्रीवर का दावा है कि ये कार्रवाइयां उनके मुक्त भाषण और असहमति को दबाने का एक असंवैधानिक प्रयास हैं। मुकदमे में कहा गया है कि एजेंटों की कार्रवाई उनके ऑनलाइन बयानों के प्रतिशोध में थी, जिसमें उन्होंने तत्कालीन ICE निदेशक टॉड ल्योन को ईमेल भेजकर उनकी आलोचना की थी और उन्हें \"अमेरिका के रेइनहार्ड हेड्रिच\" कहा था। यह संदेश ल्योन को उनके \"पतन\" की चेतावनी देता था और उनकी \"दयनीय कमजोरी\" के लिए उनकी निंदा करता था। एजेंटों ने इन बयानों को संघीय एजेंटों के विरुद्ध धमकियों के रूप में व्याख्यायित किया, जिससे DHS ने उन पर 'डोजिंग' का आरोप लगाया। मुकदमे में तर्क दिया गया है कि यह प्रतिशोध का एक रूप है, क्योंकि स्ट्रीवर ने किसी भी संघीय एजेंट की व्यक्तिगत जानकारी सार्वजनिक नहीं की थी। यह मामला DHS के भीतर एक व्यापक पैटर्न को उजागर करता है, जहाँ आलोचकों को लक्षित करने के लिए 'डोजिंग' के आरोपों का उपयोग किया जा रहा है।",
+      "strategic_analysis": "यह घटना सरकारी एजेंसियों द्वारा असहमति को दबाने के लिए 'डोजिंग' के आरोपों के उपयोग की एक चिंताजनक प्रवृत्ति को दर्शाती है। आलोचकों के घरों पर एजेंटों को भेजकर, DHS एक डराने वाला माहौल बनाने की कोशिश कर रहा है, जो अभिव्यक्ति की स्वतंत्रता पर प्रतिकूल प्रभाव डाल सकता है। यह रणनीति न केवल व्यक्तिगत आलोचकों को लक्षित करती है, बल्कि अन्य संभावित असहमति रखने वालों को भी संदेश देती है। कानूनी चुनौती यह स्पष्ट करेगी कि क्या सरकार की यह कार्रवाई असंवैधानिक है। इसका संभावित प्रभाव सरकारी जवाबदेही और नागरिकों के अपने विचार व्यक्त करने के अधिकार पर पड़ सकता है।",
+      "conclusion_and_significance": "डेविड स्ट्रीवर का मामला सरकारी अतिरेक और असहमति को दबाने के लिए 'डोजिंग' के आरोपों के उपयोग के खिलाफ एक महत्वपूर्ण कानूनी चुनौती पेश करता है। यह मामला अभिव्यक्ति की स्वतंत्रता और सरकारी जवाबदेही के महत्वपूर्ण मुद्दों को उजागर करता है।"
     }
   }
 ]
