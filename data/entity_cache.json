@@ -4987,5 +4987,65 @@
     "entity_type": "product",
     "summary": "minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. It is designed to help application developers and new Kubernetes users by deploying as a VM, a container, or on bare-metal. The latest release is v1.38.1, and the project includes a survey to gather user feedback for f",
     "last_updated": "2026-07-08"
+  },
+  "john deere": {
+    "canonical_name": "John Deere",
+    "entity_type": "company",
+    "summary": "John Deere is a major American brand and manufacturer of farm machinery and industrial equipment, headquartered in Moline, Illinois. The company, founded in 1837, manufactures and distributes equipment used in agriculture, construction, forestry, and turf care through its Agriculture and Turf, Const",
+    "last_updated": "2026-07-09"
+  },
+  "federal trade commission": {
+    "canonical_name": "Federal Trade Commission",
+    "entity_type": "organization",
+    "summary": "The FTC is a bipartisan federal agency that protects American consumers from deceptive and unfair business practices. It enforces various antitrust laws, implements trade regulation rules, and monitors compliance to ensure a free and competitive marketplace.",
+    "last_updated": "2026-07-09"
+  },
+  "illinois": {
+    "canonical_name": "Illinois",
+    "entity_type": "state",
+    "summary": "Illinois is a constituent state of the United States, with Springfield as its capital and Chicago as its largest city. Founded in 1857, the state is home to Illinois State University, a top-ranked public university, and is politically divided between the Chicago area and 'downstate'.",
+    "last_updated": "2026-07-09"
+  },
+  "arizona": {
+    "canonical_name": "Arizona",
+    "entity_type": "state",
+    "summary": "Arizona is a constituent state of the U.S., admitted in 1912 as the last of the 48 conterminous states. Arizona State University is recognized as the nation's most innovative school and ranks top in sustainability and global impact, with a history of evolution and innovation.",
+    "last_updated": "2026-07-09"
+  },
+  "michigan": {
+    "canonical_name": "Michigan",
+    "entity_type": "state",
+    "summary": "Michigan is a constituent state of the U.S., split into two land segments: the sparsely populated Upper Peninsula and the larger Lower Peninsula. Michigan State University, a public institution founded in 1855, is ranked No. #64 in National Universities and is part of the state's higher education la",
+    "last_updated": "2026-07-09"
+  },
+  "minnesota": {
+    "canonical_name": "Minnesota",
+    "entity_type": "state",
+    "summary": "Minnesota is a constituent state of the U.S., admitted in 1858 as the 32nd state, and is known as the Land of 10,000 Lakes. It consists of extensive woodlands, fertile prairies, and numerous lakes, with St. Paul as its capital and a population of over 5.7 million.",
+    "last_updated": "2026-07-09"
+  },
+  "wisconsin": {
+    "canonical_name": "Wisconsin",
+    "entity_type": "state",
+    "summary": "Wisconsin is a constituent state of the U.S., admitted in 1848 as the 30th state, and is bounded by Lake Superior, Lake Michigan, and Illinois. It is known for dairy farming, cheesemaking, and its political identity, with residents called Wisconsinites and Cheeseheads.",
+    "last_updated": "2026-07-09"
+  },
+  "roost": {
+    "canonical_name": "Roost",
+    "entity_type": "product",
+    "summary": "Roost is a line of modern home furnishings and accessories that capture the thrill of livable design. Their products, which include home accessories, furniture, holiday decor, and jewelry, are made with authentic, natural materials and feature modern lines and well-crafted details for home, retail,",
+    "last_updated": "2026-07-09"
+  },
+  "galaxy z fold": {
+    "canonical_name": "Galaxy Z Fold",
+    "entity_type": "product",
+    "summary": "The Galaxy Z Fold is a foldable phone with a 200MP camera, an immersive screen for multitasking and editing, powerful Galaxy AI, and an all-day battery for work or play.",
+    "last_updated": "2026-07-09"
+  },
+  "twelve south": {
+    "canonical_name": "Twelve South",
+    "entity_type": "company",
+    "summary": "Twelve South is a company that creates unique and innovative accessories for Mac, iPad, and iPhone users. The company targets dedicated Apple device owners seeking stylish, functional solutions and offers opportunities for bundled packages and corporate gifting. With distribution in over 50 countrie",
+    "last_updated": "2026-07-09"
   }
 }
