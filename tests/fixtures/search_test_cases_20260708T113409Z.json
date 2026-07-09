@@ -1,0 +1,533 @@
+[
+  {
+    "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+    "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+    "feed_name": "Hacker News",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "The article describes a newly discovered critical security vulnerability (GitLost) in GitHub's Agentic Workflows that allows for data leakage, which is a significant tech news event.",
+    "entities": [
+      {
+        "name": "Noma Labs",
+        "type": "model_release"
+      },
+      {
+        "name": "GitHub",
+        "type": "model_release"
+      },
+      {
+        "name": "Agentic Workflows",
+        "type": "model_release"
+      },
+      {
+        "name": "GitHub Actions",
+        "type": "model_release"
+      },
+      {
+        "name": "Claude",
+        "type": "model_release"
+      },
+      {
+        "name": "GitHub Copilot",
+        "type": "model_release"
+      },
+      {
+        "name": "GitLost",
+        "type": "model_release"
+      }
+    ],
+    "gap_queries_raw": [
+      "How does the GitLost vulnerability's attack vector and impact compare to other known prompt injection attacks against AI agents, and what does this reveal about the security of the underlying Agentic Workflows technology?",
+      "What are the specific technical details of the vulnerability, such as the exact payload or the sequence of actions the agent takes, and how does this differ from a standard repository access control bypass?",
+      "Beyond the immediate data leakage, what are the long-term implications for organizations using GitHub Agentic Workflows, and what specific mitigation strategies or security best practices should they adopt to prevent similar attacks?"
+    ],
+    "identity_test_cases": [
+      {
+        "entity_name": "Noma Labs",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Noma Labs\" model_release overview",
+        "concise_question": "What is \"Noma Labs\" (a model_release)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "GitHub",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"GitHub\" model_release overview",
+        "concise_question": "What is \"GitHub\" (a model_release)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Agentic Workflows",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Agentic Workflows\" model_release overview",
+        "concise_question": "What is \"Agentic Workflows\" (a model_release)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "GitHub Actions",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"GitHub Actions\" model_release overview",
+        "concise_question": "What is \"GitHub Actions\" (a model_release)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Claude",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Claude\" model_release overview",
+        "concise_question": "What is \"Claude\" (a model_release)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "GitHub Copilot",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"GitHub Copilot\" model_release overview",
+        "concise_question": "What is \"GitHub Copilot\" (a model_release)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "GitLost",
+        "entity_type": "model_release",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"GitLost\" model_release overview",
+        "concise_question": "What is \"GitLost\" (a model_release)? Give a factual, general-purpose overview."
+      }
+    ],
+    "context_test_cases": [
+      {
+        "query": "How does the GitLost vulnerability's attack vector and impact compare to other known prompt injection attacks against AI agents, and what does this reveal about the security of the underlying Agentic Workflows technology?",
+        "ddg_query": "How does the GitLost vulnerability's attack vector and impact compare to other known prompt injection attacks against AI agents, and what does this reveal about the security of the underlying Agentic Workflows technology?",
+        "google_news_query": "How does the GitLost vulnerability's attack vector and impact compare to other known prompt injection attacks against AI agents, and what does this reveal about the security of the underlying Agentic Workflows technology?",
+        "concise_question": "How does the GitLost vulnerability's attack vector and impact compare to other known prompt injection attacks against AI agents, and what does this reveal about the security of the underlying Agentic Workflows technology?"
+      },
+      {
+        "query": "What are the specific technical details of the vulnerability, such as the exact payload or the sequence of actions the agent takes, and how does this differ from a standard repository access control bypass?",
+        "ddg_query": "What are the specific technical details of the vulnerability, such as the exact payload or the sequence of actions the agent takes, and how does this differ from a standard repository access control bypass?",
+        "google_news_query": "What are the specific technical details of the vulnerability, such as the exact payload or the sequence of actions the agent takes, and how does this differ from a standard repository access control bypass?",
+        "concise_question": "What are the specific technical details of the vulnerability, such as the exact payload or the sequence of actions the agent takes, and how does this differ from a standard repository access control bypass?"
+      },
+      {
+        "query": "Beyond the immediate data leakage, what are the long-term implications for organizations using GitHub Agentic Workflows, and what specific mitigation strategies or security best practices should they adopt to prevent similar attacks?",
+        "ddg_query": "Beyond the immediate data leakage, what are the long-term implications for organizations using GitHub Agentic Workflows, and what specific mitigation strategies or security best practices should they adopt to prevent similar attacks?",
+        "google_news_query": "Beyond the immediate data leakage, what are the long-term implications for organizations using GitHub Agentic Workflows, and what specific mitigation strategies or security best practices should they adopt to prevent similar attacks?",
+        "concise_question": "Beyond the immediate data leakage, what are the long-term implications for organizations using GitHub Agentic Workflows, and what specific mitigation strategies or security best practices should they adopt to prevent similar attacks?"
+      }
+    ]
+  },
+  {
+    "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+    "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+    "feed_name": "Hacker News",
+    "detected_language": "en",
+    "stage1_skip": true,
+    "stage1_skip_reason": "The article is a technical tutorial on how to build a specific type of network-attached storage (NAS) using ZFS, which is a practical guide rather than a news event.",
+    "entities": [],
+    "gap_queries_raw": [],
+    "identity_test_cases": [],
+    "context_test_cases": []
+  },
+  {
+    "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+    "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+    "feed_name": "MIT Technology Review",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "The article discusses a proposal for a government stake in OpenAI and a Treasury report warning about the AI market, both of which are significant tech news events.",
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "ai_model"
+      },
+      {
+        "name": "Sam Altman",
+        "type": "person"
+      },
+      {
+        "name": "US Treasury",
+        "type": "organization"
+      },
+      {
+        "name": "US government",
+        "type": "organization"
+      },
+      {
+        "name": "CISA",
+        "type": "organization"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company"
+      }
+    ],
+    "gap_queries_raw": [],
+    "identity_test_cases": [
+      {
+        "entity_name": "OpenAI",
+        "entity_type": "ai_model",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"OpenAI\" ai_model overview",
+        "concise_question": "What is \"OpenAI\" (a ai_model)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Sam Altman",
+        "entity_type": "person",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Sam Altman\" person overview",
+        "concise_question": "What is \"Sam Altman\" (a person)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "US Treasury",
+        "entity_type": "organization",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"US Treasury\" organization overview",
+        "concise_question": "What is \"US Treasury\" (a organization)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "US government",
+        "entity_type": "organization",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"US government\" organization overview",
+        "concise_question": "What is \"US government\" (a organization)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "CISA",
+        "entity_type": "organization",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"CISA\" organization overview",
+        "concise_question": "What is \"CISA\" (a organization)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Anthropic",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Anthropic\" company overview",
+        "concise_question": "What is \"Anthropic\" (a company)? Give a factual, general-purpose overview."
+      }
+    ],
+    "context_test_cases": []
+  },
+  {
+    "title": "The foundational elements of AI architecture that IT leaders need to scale",
+    "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+    "feed_name": "MIT Technology Review",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "This article discusses the foundational elements of AI architecture, such as data quality and governance, which are critical for IT leaders to scale AI technologies.",
+    "entities": [
+      {
+        "name": "Elastic",
+        "type": "company",
+        "ambiguous": true,
+        "resolved_sense": "company"
+      }
+    ],
+    "gap_queries_raw": [],
+    "identity_test_cases": [
+      {
+        "entity_name": "Elastic",
+        "entity_type": "company",
+        "ambiguous": true,
+        "resolved_sense": "company",
+        "ddg_query": "\"Elastic\" company overview company",
+        "concise_question": "What is \"Elastic\" (a company)? Note: this specifically refers to company. Give a factual, general-purpose overview — do not confuse it with any other entity of the same name."
+      }
+    ],
+    "context_test_cases": []
+  },
+  {
+    "title": "Why worms (and microbes) are catching on as a manure pollution solution",
+    "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
+    "feed_name": "MIT Technology Review",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "The article describes a real-world application of biotechnology (biofiltration using worms) to solve a specific environmental problem (manure pollution) in the dairy industry, which constitutes a genuine tech news story about innovation and environmental technology.",
+    "entities": [
+      {
+        "name": "BioFiltro",
+        "type": "company",
+        "ambiguous": true,
+        "resolved_sense": "company"
+      }
+    ],
+    "gap_queries_raw": [],
+    "identity_test_cases": [
+      {
+        "entity_name": "BioFiltro",
+        "entity_type": "company",
+        "ambiguous": true,
+        "resolved_sense": "company",
+        "ddg_query": "\"BioFiltro\" company overview company",
+        "concise_question": "What is \"BioFiltro\" (a company)? Note: this specifically refers to company. Give a factual, general-purpose overview — do not confuse it with any other entity of the same name."
+      }
+    ],
+    "context_test_cases": []
+  },
+  {
+    "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+    "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+    "feed_name": "TechCrunch",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "The article is a news report about a French AI startup, ZML, releasing a new software product to optimize AI inference across various hardware chips, which is a significant technological and market development.",
+    "entities": [
+      {
+        "name": "ZML",
+        "type": "ai_model"
+      },
+      {
+        "name": "Steeve Morin",
+        "type": "person"
+      },
+      {
+        "name": "Yann LeCun",
+        "type": "person"
+      },
+      {
+        "name": "Nvidia",
+        "type": "company"
+      },
+      {
+        "name": "AMD",
+        "type": "company"
+      },
+      {
+        "name": "Google",
+        "type": "company"
+      },
+      {
+        "name": "Apple",
+        "type": "company"
+      },
+      {
+        "name": "Intel",
+        "type": "company"
+      },
+      {
+        "name": "ZML/LLMD",
+        "type": "product"
+      },
+      {
+        "name": "ZML",
+        "type": "product"
+      }
+    ],
+    "gap_queries_raw": [
+      "What are the technical details of ZML's approach to cross-chip compatibility? Specifically, how does it handle differences in memory architectures, instruction sets, and compute units between NVIDIA's CUDA, AMD's ROCm, Google's TPU, Apple's Metal, and Intel's Arc, and what are the overheads or limitations of this abstraction layer?",
+      "Beyond the stated goal of breaking vendor lock-in, what are the potential business and technical risks for ZML? For instance, how does it manage the challenge of maintaining performance parity across rapidly evolving hardware, and what is its strategy for competing with the deeply integrated, proprietary solutions from the major chip and cloud providers?"
+    ],
+    "identity_test_cases": [
+      {
+        "entity_name": "ZML",
+        "entity_type": "ai_model",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"ZML\" ai_model overview",
+        "concise_question": "What is \"ZML\" (a ai_model)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Steeve Morin",
+        "entity_type": "person",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Steeve Morin\" person overview",
+        "concise_question": "What is \"Steeve Morin\" (a person)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Yann LeCun",
+        "entity_type": "person",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Yann LeCun\" person overview",
+        "concise_question": "What is \"Yann LeCun\" (a person)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Nvidia",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Nvidia\" company overview",
+        "concise_question": "What is \"Nvidia\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "AMD",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"AMD\" company overview",
+        "concise_question": "What is \"AMD\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Google",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Google\" company overview",
+        "concise_question": "What is \"Google\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Apple",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Apple\" company overview",
+        "concise_question": "What is \"Apple\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Intel",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Intel\" company overview",
+        "concise_question": "What is \"Intel\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "ZML/LLMD",
+        "entity_type": "product",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"ZML/LLMD\" product overview",
+        "concise_question": "What is \"ZML/LLMD\" (a product)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "ZML",
+        "entity_type": "product",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"ZML\" product overview",
+        "concise_question": "What is \"ZML\" (a product)? Give a factual, general-purpose overview."
+      }
+    ],
+    "context_test_cases": [
+      {
+        "query": "What are the technical details of ZML's approach to cross-chip compatibility? Specifically, how does it handle differences in memory architectures, instruction sets, and compute units between NVIDIA's CUDA, AMD's ROCm, Google's TPU, Apple's Metal, and Intel's Arc, and what are the overheads or limitations of this abstraction layer?",
+        "ddg_query": "What are the technical details of ZML's approach to cross-chip compatibility? Specifically, how does it handle differences in memory architectures, instruction sets, and compute units between NVIDIA's CUDA, AMD's ROCm, Google's TPU, Apple's Metal, and Intel's Arc, and what are the overheads or limitations of this abstraction layer?",
+        "google_news_query": "What are the technical details of ZML's approach to cross-chip compatibility? Specifically, how does it handle differences in memory architectures, instruction sets, and compute units between NVIDIA's CUDA, AMD's ROCm, Google's TPU, Apple's Metal, and Intel's Arc, and what are the overheads or limitations of this abstraction layer?",
+        "concise_question": "What are the technical details of ZML's approach to cross-chip compatibility? Specifically, how does it handle differences in memory architectures, instruction sets, and compute units between NVIDIA's CUDA, AMD's ROCm, Google's TPU, Apple's Metal, and Intel's Arc, and what are the overheads or limitations of this abstraction layer?"
+      },
+      {
+        "query": "Beyond the stated goal of breaking vendor lock-in, what are the potential business and technical risks for ZML? For instance, how does it manage the challenge of maintaining performance parity across rapidly evolving hardware, and what is its strategy for competing with the deeply integrated, proprietary solutions from the major chip and cloud providers?",
+        "ddg_query": "Beyond the stated goal of breaking vendor lock-in, what are the potential business and technical risks for ZML? For instance, how does it manage the challenge of maintaining performance parity across rapidly evolving hardware, and what is its strategy for competing with the deeply integrated, proprietary solutions from the major chip and cloud providers?",
+        "google_news_query": "Beyond the stated goal of breaking vendor lock-in, what are the potential business and technical risks for ZML? For instance, how does it manage the challenge of maintaining performance parity across rapidly evolving hardware, and what is its strategy for competing with the deeply integrated, proprietary solutions from the major chip and cloud providers?",
+        "concise_question": "Beyond the stated goal of breaking vendor lock-in, what are the potential business and technical risks for ZML? For instance, how does it manage the challenge of maintaining performance parity across rapidly evolving hardware, and what is its strategy for competing with the deeply integrated, proprietary solutions from the major chip and cloud providers?"
+      }
+    ]
+  },
+  {
+    "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+    "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+    "feed_name": "TechCrunch",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "The article reports on a significant funding round and strategic developments for a specific AI chip company, SambaNova, including details on valuation, investors, and partnerships.",
+    "entities": [
+      {
+        "name": "SambaNova Systems",
+        "type": "company"
+      },
+      {
+        "name": "General Atlantic",
+        "type": "company"
+      },
+      {
+        "name": "Intel",
+        "type": "company"
+      },
+      {
+        "name": "JPMorganChase",
+        "type": "organization"
+      }
+    ],
+    "gap_queries_raw": [
+      "What are the specific terms and strategic implications of SambaNova's partnership with Intel, and how does it differ from their previous collaboration?",
+      "What is the current status of the rumored acquisition by Intel, and what factors would determine if SambaNova remains independent or goes public?"
+    ],
+    "identity_test_cases": [
+      {
+        "entity_name": "SambaNova Systems",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"SambaNova Systems\" company overview",
+        "concise_question": "What is \"SambaNova Systems\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "General Atlantic",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"General Atlantic\" company overview",
+        "concise_question": "What is \"General Atlantic\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "Intel",
+        "entity_type": "company",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"Intel\" company overview",
+        "concise_question": "What is \"Intel\" (a company)? Give a factual, general-purpose overview."
+      },
+      {
+        "entity_name": "JPMorganChase",
+        "entity_type": "organization",
+        "ambiguous": false,
+        "resolved_sense": null,
+        "ddg_query": "\"JPMorganChase\" organization overview",
+        "concise_question": "What is \"JPMorganChase\" (a organization)? Give a factual, general-purpose overview."
+      }
+    ],
+    "context_test_cases": [
+      {
+        "query": "What are the specific terms and strategic implications of SambaNova's partnership with Intel, and how does it differ from their previous collaboration?",
+        "ddg_query": "What are the specific terms and strategic implications of SambaNova's partnership with Intel, and how does it differ from their previous collaboration?",
+        "google_news_query": "What are the specific terms and strategic implications of SambaNova's partnership with Intel, and how does it differ from their previous collaboration?",
+        "concise_question": "What are the specific terms and strategic implications of SambaNova's partnership with Intel, and how does it differ from their previous collaboration?"
+      },
+      {
+        "query": "What is the current status of the rumored acquisition by Intel, and what factors would determine if SambaNova remains independent or goes public?",
+        "ddg_query": "What is the current status of the rumored acquisition by Intel, and what factors would determine if SambaNova remains independent or goes public?",
+        "google_news_query": "What is the current status of the rumored acquisition by Intel, and what factors would determine if SambaNova remains independent or goes public?",
+        "concise_question": "What is the current status of the rumored acquisition by Intel, and what factors would determine if SambaNova remains independent or goes public?"
+      }
+    ]
+  },
+  {
+    "title": "Final extension: Startup Battlefield Australia applications now close July 20",
+    "url": "https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/",
+    "feed_name": "TechCrunch",
+    "detected_language": "en",
+    "stage1_skip": false,
+    "stage1_skip_reason": "The article is a press-style announcement about an application extension for a startup competition, which is a common event in the tech industry.",
+    "entities": [
+      {
+        "name": "Startup Battlefield Australia",
+        "type": "general",
+        "ambiguous": true,
+        "resolved_sense": "the specific program/competition"
+      }
+    ],
+    "gap_queries_raw": [],
+    "identity_test_cases": [
+      {
+        "entity_name": "Startup Battlefield Australia",
+        "entity_type": "general",
+        "ambiguous": true,
+        "resolved_sense": "the specific program/competition",
+        "ddg_query": "\"Startup Battlefield Australia\" general overview the specific program/competition",
+        "concise_question": "What is \"Startup Battlefield Australia\" (a general)? Note: this specifically refers to the specific program/competition. Give a factual, general-purpose overview — do not confuse it with any other entity of the same name."
+      }
+    ],
+    "context_test_cases": []
+  }
+]
