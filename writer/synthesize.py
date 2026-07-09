@@ -15,6 +15,13 @@ SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
 _MODEL_FAST = os.environ.get("SARVAM_MODEL", "sarvam-30b")
 _MODEL_QUALITY = os.environ.get("SARVAM_MODEL_QUALITY", "sarvam-105b")
 
+# The /api/concise external research agent (writer/concise_search.py) is kept fully wired up
+# but forced off — it made identity/GAP search genuinely smarter, but on real runs it pushed a
+# full pipeline run from ~21 minutes to 1.5+ hours, which isn't worth the trade for a daily-cron
+# pipeline. Everything routes through the free DDG/Google-News-RSS tiers instead. Set this to
+# False (or set CONCISE_API_URL/CONCISE_API_KEY and flip it) to re-enable the research agent.
+_FORCE_DDG_ONLY = True
+
 # Ollama fallback config (used when SARVAM_API_KEY is not set)
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:7b-instruct-q4_K_M"
@@ -132,26 +139,36 @@ Think in this order:
    not invent a question just to fill a slot. It is normal and expected for some or all slots
    to be "none".
 
-   These queries go to a real autonomous research agent that can genuinely investigate a
-   question -- read multiple sources, compare claims, and reason about them -- not just
-   keyword-match a snippet the way an old-style search engine would. So a GAP query does NOT
-   need to be watered down into a bare fact-lookup: an interpretive, comparative, or "why does
-   this matter" question is fine. Ask for whatever the editor actually needs to know, in its
-   sharpest, most useful form.
+   CRITICAL -- a GAP query is a SEARCH QUERY, not an analysis question. A search engine can only
+   return something that already exists published somewhere (a number, a spec, a date, a price, a
+   quote) -- it cannot return a judgment, an opinion, or a prediction that nobody has written
+   down. Before writing a GAP query, ask yourself: "could a search realistically return one
+   specific fact that answers this?" If the honest answer is no -- if answering it requires
+   forming an opinion or predicting the future -- rewrite it as a request for the underlying
+   fact(s) instead, and let the editor draw the conclusion from those facts. This applies whether
+   the gap is about a single entity (e.g. one product's price) or about comparing two entities --
+   either way, ask for the fact(s), not the verdict. Factual comparisons (pricing, published
+   benchmark/performance numbers, spec-for-spec comparisons) are fine -- it's the analytical
+   "what does this mean" / "why does this matter" framing that is off-limits, not comparisons
+   themselves.
 
-   The only thing still off-limits is pure future speculation that nobody -- not even a real
-   researcher -- could answer today (e.g. "what will happen to this company next year", "will
-   this technology replace X"). If a gap is genuinely that kind of unknowable prediction, either
-   rephrase it to ask for the present-day facts/context that inform such a prediction, or leave
-   the slot "none".
+   WRONG (asks for a judgment nobody has published -- a search will never satisfy this):
+   "What is the strategic significance of Z.ai's open-source release in the context of the US ban
+   on Anthropic, and what are the likely long-term implications for the global AI model market?"
+   CORRECT (asks for a fact that lets the editor reach that judgment):
+   "Chinese AI model adoption by US companies after Anthropic export ban"
 
-   GOOD (interpretive/comparative -- fine for a real research agent):
-   "How does this attack's automation compare to previously documented AI-assisted cyberattacks,
-   and what does that suggest about the state of autonomous cybercrime?"
-   GOOD (a single entity's own background, still useful):
-   "What is Langflow, and why has CVE-2025-3248 been considered a serious vulnerability in it?"
-   STILL AVOID (unknowable prediction, not even a real researcher could answer this):
-   "Will AI-driven ransomware attacks become the dominant form of cybercrime by 2028?"
+   WRONG (speculative, no source could ever answer this):
+   "What are the potential cultural integration challenges between Persistent Systems and Nagarro,
+   and how might this affect the post-merger performance of the combined entity?"
+   CORRECT (plain background facts about the two companies -- lets the editor make the point):
+   "Nagarro headquarters employee count history"
+
+   CORRECT (a single entity's own fact -- fine on its own, no comparison needed):
+   "Leanstral 1.5 API pricing"
+   CORRECT (a factual comparison is fine too, AS LONG AS it is still asking for a fact, e.g.
+   published benchmark numbers or pricing, not an opinion about what those numbers mean):
+   "GLM-5.2 GPT-5.5 benchmark score comparison"
 
    HARD RULE, no exceptions: each GAP query is sent to the research agent completely on its own,
    as a fresh standalone question -- it does NOT see this article, does NOT see the other GAP
@@ -1372,16 +1389,16 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     trace["cache"] = {"hits": cache_hits, "misses": cache_misses}
 
     # ------------------------------------------------------------------
-    # Web search — split by how much judgment the query actually needs.
-    # Plain (unambiguous) entity lookups are cheap "what is X" fact checks —
-    # always routed to the free DDG tier, never the research agent, so the
-    # high-throughput/paid-feeling API isn't spent on low-level work it
-    # doesn't need. Ambiguous entities (need real disambiguation) and
-    # GAP/context queries (comparison/why-now, need real reasoning) go to the
-    # external research agent (/api/concise) when configured — see
-    # writer/concise_search.py. Both fall back to DDG/Google-News-RSS tiers +
-    # a dedicated synthesis call (writer/search.py) when
-    # CONCISE_API_URL/CONCISE_API_KEY aren't set, e.g. local dev.
+    # Web search — everything goes through the free DDG/Google-News-RSS tiers
+    # now. The external research agent (/api/concise, writer/concise_search.py)
+    # is kept in the codebase and still fully wired up below, but is forced
+    # off (`use_concise = False`) rather than routed to automatically: it was
+    # genuinely more capable but slow enough in practice to push a full
+    # pipeline run from ~21 minutes to 1.5+ hours, which isn't worth the
+    # quality gain for a daily-cron pipeline. Flip `_FORCE_DDG_ONLY` off (or
+    # just delete the `and not _FORCE_DDG_ONLY` clause) to re-enable it later
+    # for ambiguous entities and GAP/context queries when CONCISE_API_URL/
+    # CONCISE_API_KEY are configured.
     # ------------------------------------------------------------------
     plain_entities = [e for e in entities_needing_search if not e.get("ambiguous")]
     ambiguous_entities = [e for e in entities_needing_search if e.get("ambiguous")]
@@ -1392,7 +1409,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     context_query_pairs = _prepare_context_queries(search_queries[:3], entities)
     model_queries = [orig for orig, _ in context_query_pairs]
     dispatch_text_by_query = dict(context_query_pairs)
-    use_concise = concise_configured()
+    use_concise = concise_configured() and not _FORCE_DDG_ONLY
 
     print(
         f"\n[SEARCH - {len(plain_entities)} entity via DDG, "

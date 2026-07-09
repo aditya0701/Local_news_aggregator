@@ -635,13 +635,15 @@ class TestPrepareContextQueries:
 
 
 class TestSearchRoutingByAmbiguity:
-    """Covers the 2026-07-08 change: unambiguous entities are cheap "what is
-    X" lookups and should always go to the free DDG tier, never the
-    research agent (/api/concise) — that's reserved for ambiguous entities
-    (need real disambiguation) and GAP/context queries (need real
-    reasoning). Drives the real _synthesize_sarvam() function end-to-end
-    with every I/O dependency mocked, so this exercises the actual routing
-    logic in writer/synthesize.py rather than a reimplementation of it."""
+    """Covers search routing in writer/synthesize.py: the /api/concise research
+    agent integration (2026-07-08) is still fully wired up in code, but
+    _FORCE_DDG_ONLY (added 2026-07-09, after real runs went from ~21 minutes to
+    1.5+ hours with it enabled) forces everything — unambiguous entities,
+    ambiguous entities, and GAP/context queries alike — through the free DDG
+    tier regardless of whether CONCISE_API_URL/CONCISE_API_KEY are configured.
+    Drives the real _synthesize_sarvam() function end-to-end with every I/O
+    dependency mocked, so this exercises the actual routing logic rather than a
+    reimplementation of it."""
 
     CLUSTER = [{"title": "some headline", "summary": "s" * 300, "url": "http://example.com/a"}]
 
@@ -698,25 +700,29 @@ class TestSearchRoutingByAmbiguity:
         assert any("PlainCo" in q for q in ddg_queries)
         assert not any("PlainCo" in q for q in ask_concise_calls)
 
-    def test_ambiguous_entity_routed_to_concise_when_configured(self, monkeypatch):
+    def test_ambiguous_entity_routed_to_ddg_even_when_concise_configured(self, monkeypatch):
+        """/api/concise is forced off (_FORCE_DDG_ONLY) regardless of whether it's
+        configured — see writer/synthesize.py's _FORCE_DDG_ONLY comment: it was kept
+        wired up but disabled because it pushed a full pipeline run from ~21 minutes
+        to 1.5+ hours."""
         search_web_calls, ask_concise_calls = [], []
         self._install_common_mocks(monkeypatch, True, search_web_calls, ask_concise_calls)
 
         synthesize_mod._synthesize_sarvam(self.CLUSTER, "fake-api-key")
 
         ddg_queries = [q for call in search_web_calls for q in call]
-        assert any("Ambico" in q for q in ask_concise_calls)
-        assert not any("Ambico" in q for q in ddg_queries)
+        assert any("Ambico" in q for q in ddg_queries)
+        assert ask_concise_calls == []
 
-    def test_context_query_routed_to_concise_when_configured(self, monkeypatch):
+    def test_context_query_routed_to_ddg_even_when_concise_configured(self, monkeypatch):
         search_web_calls, ask_concise_calls = [], []
         self._install_common_mocks(monkeypatch, True, search_web_calls, ask_concise_calls)
 
         synthesize_mod._synthesize_sarvam(self.CLUSTER, "fake-api-key")
 
         ddg_queries = [q for call in search_web_calls for q in call]
-        assert "a context question" in ask_concise_calls
-        assert "a context question" not in ddg_queries
+        assert "a context question" in ddg_queries
+        assert ask_concise_calls == []
 
     def test_ambiguous_entity_and_context_fall_back_to_ddg_when_concise_not_configured(self, monkeypatch):
         search_web_calls, ask_concise_calls = [], []

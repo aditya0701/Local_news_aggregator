@@ -51,6 +51,7 @@ _ARTICLE_SUMMARY = (
 )
 
 
+@pytest.mark.skip(reason="disabled to avoid burning real Sarvam API tokens on local/CI test runs — uncomment to re-enable manually")
 @pytest.mark.skipif(not _API_KEY, reason="SARVAM_API_KEY not set — skipping live API test")
 def test_gitlost_article_gap_queries_have_no_dangling_reference():
     source_text = scrape_source(_ARTICLE_URL)
