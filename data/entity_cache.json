@@ -5047,5 +5047,41 @@
     "entity_type": "company",
     "summary": "Twelve South is a company that creates unique and innovative accessories for Mac, iPad, and iPhone users. The company targets dedicated Apple device owners seeking stylish, functional solutions and offers opportunities for bundled packages and corporate gifting. With distribution in over 50 countrie",
     "last_updated": "2026-07-09"
+  },
+  "national defense strategy": {
+    "canonical_name": "National Defense Strategy",
+    "entity_type": "general",
+    "summary": "The US National Defense Strategy (NDS) calls for an urgent need for allies to do their part, with the US incentivizing and enabling them to mature as defense actors. This approach requires a change in tone and style from the past and uses a pragmatic approach grounded in military necessity. Unlike t",
+    "last_updated": "2026-07-09"
+  },
+  "operation barbarossa": {
+    "canonical_name": "Operation Barbarossa",
+    "entity_type": "general",
+    "summary": "Operation Barbarossa was the code name for the Wehrmacht's invasion of the Soviet Union, launched on June 22, 1941. It was the largest invasion in recorded history, with the Wehrmacht's objective being the complete defeat of the USSR. The study focuses on the period from June 22, 1941, to December 3",
+    "last_updated": "2026-07-09"
+  },
+  "wehrmacht": {
+    "canonical_name": "Wehrmacht",
+    "entity_type": "general",
+    "summary": "The Wehrmacht was the unified armed forces of Nazi Germany from 1935 to 1945, consisting of the Heer (army), Luftwaffe (air force), and Kriegsmarine (navy). It was a well-trained, equipped, and disciplined fighting machine that conquered most of Western Europe and the coast of North Africa during Wo",
+    "last_updated": "2026-07-09"
+  },
+  "panzer groups": {
+    "canonical_name": "Panzer groups",
+    "entity_type": "general",
+    "summary": "For Operation Barbarossa, the Germans organized their mobile armored divisions into panzer groups 1 through 4. These groups had headquarters that functioned similarly to conventional armies, and they were comprised almost entirely of panzer divisions.",
+    "last_updated": "2026-07-09"
+  },
+  "red army": {
+    "canonical_name": "Red Army",
+    "entity_type": "general",
+    "summary": "The Red Army is the Soviet army, created by the Communist government after the Bolshevik Revolution of 1917. Political advisers called commissars were attached to all army units to watch over the reliability of officers and to carry out political propaganda.",
+    "last_updated": "2026-07-09"
+  },
+  "fablecut": {
+    "canonical_name": "FableCut",
+    "entity_type": "ai_model",
+    "summary": "FableCut is not mentioned in the provided material. The material discusses Anthropic's AI models, Fable 5 and Mythos 5, but does not contain any information about FableCut.",
+    "last_updated": "2026-07-09"
   }
 }
