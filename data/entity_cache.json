@@ -4731,13 +4731,10 @@
     ]
   },
   "techcrunch": {
-    "senses": [
-      {
-        "sense_label": "the publication or its events",
-        "summary": "TechCrunch is a publication and events platform that brings together 1,000+ founders and VCs for scaling insights and connections. It hosts events like the TechCrunch Founder Summit and provides real-world insights on industry trends and challenges.",
-        "last_updated": "2026-07-08"
-      }
-    ]
+    "canonical_name": "TechCrunch",
+    "entity_type": "organization",
+    "summary": "TechCrunch is an online magazine reporting on technology opinions, news, and analysis. Founded in 2005, it provides breaking technology news, opinions, and analysis on tech companies worldwide, covering publicly traded tech companies to emerging startups and venture capital funding rounds.",
+    "last_updated": "2026-07-11"
   },
   "startup battlefield 200": {
     "senses": [
@@ -5443,5 +5440,599 @@
     "entity_type": "repo_analysis",
     "summary": "TraceDetective is a site for exploring communities for various technologies. It mentions Stack Overflow for Teams, now called Stack Internal, which is designed to bring human thought and AI automation together at work.",
     "last_updated": "2026-07-10"
+  },
+  "einstein": {
+    "canonical_name": "Einstein",
+    "entity_type": "person",
+    "summary": "Albert Einstein was a renowned German scientist and physicist known for his discoveries in relativity, quantum mechanics, and the formula E=mc². He was a Nobel laureate and one of the most recognized personalities in history.",
+    "last_updated": "2026-07-11"
+  },
+  "relativity": {
+    "canonical_name": "relativity",
+    "entity_type": "technology",
+    "summary": "Relativity is a leading legal data intelligence company that builds technology to help users organize data, discover the truth, and act on it. It is a software platform widely used in the legal industry for e-discovery, helping teams organize, review, and analyze large volumes of electronic data.",
+    "last_updated": "2026-07-11"
+  },
+  "triple bond": {
+    "canonical_name": "triple bond",
+    "entity_type": "technology",
+    "summary": "Triple Bond Complex is a technology that rebuilds all three types of bonds in hair, resulting in stronger, smoother, and shinier hair. It is designed to repair bonds broken by styling and coloring, offering a more effective solution than current bond builders.",
+    "last_updated": "2026-07-11"
+  },
+  "heavy elements": {
+    "canonical_name": "heavy elements",
+    "entity_type": "technology",
+    "summary": "Heavy elements, such as transition metals, lanthanides, and actinides, require specialized computational methods to study their chemistry. Relativistic effects, spin-orbit coupling, and f-orbital covalency are critical factors that must be accounted for in accurate modeling of these compounds.",
+    "last_updated": "2026-07-11"
+  },
+  "carbon": {
+    "canonical_name": "carbon",
+    "entity_type": "element",
+    "summary": "Carbon is an element with an atomic number of 6, constituting a small percentage of Earth's crust but forming more compounds than any other element. It is unique in its ability to form strongly bonded chains and is essential for life and many materials.",
+    "last_updated": "2026-07-11"
+  },
+  "bismuth": {
+    "canonical_name": "bismuth",
+    "entity_type": "element",
+    "summary": "Bismuth is a high-density, silvery metal with a pinkish tinge. It is a post-transition metal that is less toxic than many other heavy metals and has applications in alloys, pharmaceuticals, and cosmetics.",
+    "last_updated": "2026-07-11"
+  },
+  "photoelectron spectroscopy": {
+    "canonical_name": "photoelectron spectroscopy",
+    "entity_type": "technology",
+    "summary": "Photoelectron spectroscopy is an experimental technique based on the photoelectric effect, used to study the electronic structure of materials. It provides insights into chemical bonding and is applied using various experimental methods like transmission electron microscopy and X-ray diffraction.",
+    "last_updated": "2026-07-11"
+  },
+  "brown university": {
+    "canonical_name": "Brown University",
+    "entity_type": "organization",
+    "summary": "Brown University is a leading research institution known for its innovative undergraduate education and rigorous scholarship. Following a campus violence incident, the university community is focused on healing and recovery while maintaining its reputation for academic excellence.",
+    "last_updated": "2026-07-11"
+  },
+  "laisheng wang": {
+    "canonical_name": "Lai-Sheng Wang",
+    "entity_type": "person",
+    "summary": "Professor Lai-Sheng Wang is an internationally renowned chemist at Brown University, known for his pioneering work on photoelectron spectroscopy of mass-selected molecular anions. He has made significant contributions to the field, including the discovery of gold atom clusters as metallic equivalent",
+    "last_updated": "2026-07-11"
+  },
+  "quadrf": {
+    "canonical_name": "QuadRF",
+    "entity_type": "technology",
+    "summary": "QuadRF is a 4x4 MIMO software-defined radio (SDR) tile with an open antenna architecture. It is an accessible education and development kit that uses four coherent antennas to measure differences in signal arrival and perform real-time RF imaging.",
+    "last_updated": "2026-07-11"
+  },
+  "martin mccormick": {
+    "canonical_name": "Martin McCormick",
+    "entity_type": "person",
+    "summary": "Martin McCormick is a senior engineer for SpaceX with a background in engineering. He attended Stanford University, where he earned a BS in 2010, and previously spent time with friends at the Morrow Plots aiming a telescope at Saturn and the Seven Sisters.",
+    "last_updated": "2026-07-11"
+  },
+  "dishy": {
+    "canonical_name": "Dishy",
+    "entity_type": "product",
+    "summary": "Dishy is a product that includes a soft office chair and sofa, designed as a stylish solution for corporate environments. It is also described as a link-in-bio tool for recipe creators and food content makers to connect with their audience.",
+    "last_updated": "2026-07-11"
+  },
+  "hackaday": {
+    "canonical_name": "Hackaday",
+    "entity_type": "organization",
+    "summary": "Hackaday is an organization that serves up 'Fresh Hacks Every Day' from around the Internet, focusing on entertainment for engineers and engineering enthusiasts. It uses technologies like DNSSEC, Google Maps, and Apache, and has a history of acquiring consumer electronics companies.",
+    "last_updated": "2026-07-11"
+  },
+  "chang liu": {
+    "canonical_name": "Chang Liu",
+    "entity_type": "general",
+    "summary": "Chang Liu is a therapist in Atlanta, CA, specializing in anxiety, panic disorders, and depression, and also works with pediatric patients. The professional is currently a researcher at Microsoft Research Asia, focusing on Bayesian inference, generative modeling, and causal machine learning.",
+    "last_updated": "2026-07-11"
+  },
+  "tang tan": {
+    "canonical_name": "Tang Tan",
+    "entity_type": "general",
+    "summary": "There are over 100 professionals named Tang Tan on LinkedIn, with one notable individual being a General Manager at Boutique Cam Thanh Resort in Vietnam. Another Tang Tan is mentioned as a former Apple designer who left the company to join Amou, and there is also a reference to a Tang Tan associated",
+    "last_updated": "2026-07-11"
+  },
+  "jony ive": {
+    "canonical_name": "Jony Ive",
+    "entity_type": "general",
+    "summary": "Jony Ive's design philosophy emphasized simplicity, elegance, and the balance between form and function. He revolutionized industrial design at Apple, making it a core part of the product experience, and mentored a generation of designers across various industries.",
+    "last_updated": "2026-07-11"
+  },
+  "io products": {
+    "canonical_name": "io Products",
+    "entity_type": "general",
+    "summary": "io Products is a US-based startup developing AI-enabled smart gadgets and has reportedly received a $500 million acquisition offer from Microsoft. The company was co-founded by Jony Ive and Sam Altman and includes former Apple designers like Tang Tan and Evans Hankey on its team.",
+    "last_updated": "2026-07-11"
+  },
+  "scott cannon": {
+    "canonical_name": "Scott Cannon",
+    "entity_type": "general",
+    "summary": "Scott Cannon is the CEO of BigRentz and a Director of Analytics and Personalization at Rightpoint. He is based in Draper, UT, and has spoken about the future of construction and work, with BigRentz announcing growth benchmarks and new partnerships in February 2024.",
+    "last_updated": "2026-07-11"
+  },
+  "evans hankey": {
+    "canonical_name": "Evans Hankey",
+    "entity_type": "general",
+    "summary": "Evans Hankey is the vice president of Industrial Design at Apple, a role she took over after Jony Ive's departure. She is responsible for hardware design and will remain with the company for six months to manage the transition, though Apple has not yet named a replacement.",
+    "last_updated": "2026-07-11"
+  },
+  "iroh": {
+    "canonical_name": "iroh",
+    "entity_type": "technology",
+    "summary": "Iroh is a distributed file storage and content delivery system designed as an evolution of decentralized systems like IPFS. It aims to improve upon IPFS by removing limitations such as the lack of a maximum block size and providing a syncing mechanism for data. The project's roadmap includes bringin",
+    "last_updated": "2026-07-11"
+  },
+  "esp32": {
+    "canonical_name": "ESP32",
+    "entity_type": "technology",
+    "summary": "ESP32 is a feature-rich System on a Chip (SoC) with integrated Wi-Fi and Bluetooth connectivity for a wide range of IoT applications. It is capable of functioning reliably in industrial environments with an operating temperature ranging from –40°C to +125°C and is engineered for mobile devices, wear",
+    "last_updated": "2026-07-11"
+  },
+  "webassembly": {
+    "canonical_name": "WebAssembly",
+    "entity_type": "technology",
+    "summary": "WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine designed as a portable compilation target for programming languages. It aims to execute at native speed by leveraging common hardware capabilities and provides a memory-safe, sandboxed execution environment that can",
+    "last_updated": "2026-07-11"
+  },
+  "m5stickcplus2": {
+    "canonical_name": "M5StickC-Plus2",
+    "entity_type": "product",
+    "summary": "The M5StickC PLUS2 is an ESP32-powered IoT development kit designed for makers, developers, and students. It features a 1.14-inch display, a range of sensors, a 200mAh battery, and supports expansion through HAT and Unit modules. The kit is described as compact, versatile, and beginner-friendly, sup",
+    "last_updated": "2026-07-11"
+  },
+  "serveresp32psram": {
+    "canonical_name": "server-esp32-psram",
+    "entity_type": "product",
+    "summary": "The server-esp32-psram is a component used for the ESP32 binary in a project. It is part of an end-to-end example that uses an ESP32 to measure temperature and control a fan, with no cloud component. The setup is designed to be accessed from anywhere in the world using a browser that supports WebAss",
+    "last_updated": "2026-07-11"
+  },
+  "client": {
+    "canonical_name": "client",
+    "entity_type": "product",
+    "summary": "The client is an all-in-one platform built to supercharge the hiring process, offering faster fill rates and enhanced scheduling visibility. It includes features like timesheet approval and is available as a downloadable application, such as the SonicWall Global VPN Client (GVC), for secure network",
+    "last_updated": "2026-07-11"
+  },
+  "serversmartfan": {
+    "canonical_name": "server-smart-fan",
+    "entity_type": "product",
+    "summary": "The server-smart-fan is a project that puts iroh on a bare ESP32 to build a temperature-driven smart fan. It is a simple end-to-end example that uses an ESP32 to measure temperature and control a fan, with no cloud component. The setup is designed to be accessed from anywhere in the world using a br",
+    "last_updated": "2026-07-11"
+  },
+  "smartfancli": {
+    "canonical_name": "smart-fan-cli",
+    "entity_type": "product",
+    "summary": "The smart-fan-cli is a command-line client for the smart fan example, which involves renaming the server-esp32-psram to server-smart-fan. It is part of a project that uses an ESP32 to measure temperature and control a fan, with no cloud component. The setup is designed to be accessed from anywhere i",
+    "last_updated": "2026-07-11"
+  },
+  "lwn": {
+    "canonical_name": "LWN",
+    "entity_type": "general",
+    "summary": "LWN is the IATA code for the airport in Leninakan, which is located in the city of Gyumri in Armenia. The airport offers an online flight board that provides real-time information on flight status, departure and arrival times, and gate numbers. The city of Gyumri is in the GMT+4 time zone, which is",
+    "last_updated": "2026-07-11"
+  },
+  "ilm": {
+    "canonical_name": "ILM",
+    "entity_type": "organization",
+    "summary": "ILM is a professional membership body that accredits leadership and management training providers. Identity Lifecycle Management (ILM) is the overarching process of managing user identities throughout their entire lifecycle in an organization, aiming to achieve identity-centric cybersecurity, gain v",
+    "last_updated": "2026-07-11"
+  },
+  "james cameron": {
+    "canonical_name": "James Cameron",
+    "entity_type": "person",
+    "summary": "James Cameron is a legendary director known for blockbuster films such as Avatar, Titanic, and the Terminator franchise. He made a historic solo dive to the bottom of the Mariana Trench in 2012 and is currently working on a book focusing on 'observation' for digital artists.",
+    "last_updated": "2026-07-11"
+  },
+  "dennis muren": {
+    "canonical_name": "Dennis Muren",
+    "entity_type": "person",
+    "summary": "Dennis Muren is a visual effects artist who became the first to receive a Star on the Hollywood Walk of Fame in 1999. As Creative Director of Industrial Light & Magic, he is a key member of the company's leadership team and has been honored with the Lifetime Achievement Award from the Visual Effects",
+    "last_updated": "2026-07-11"
+  },
+  "terminator 2 judgment day": {
+    "canonical_name": "Terminator 2: Judgment Day",
+    "entity_type": "product",
+    "summary": "Terminator 2: Judgment Day is a film set in a bleak future where Sarah and her son John face threats from a new, more lethal Terminator sent from the future. The film's appeal has held up over 30 years, and it is noted for its groundbreaking effects, including the liquid metal T-1000.",
+    "last_updated": "2026-07-11"
+  },
+  "t1000": {
+    "canonical_name": "T-1000",
+    "entity_type": "character",
+    "summary": "The T-1000 is the antagonist of the film Terminator 2: Judgment Day and an advanced prototype android assassin sent by Skynet to kill John Connor. It is composed of liquid metal, which enables it to fully control its body's molecular and anatomical structure and shapeshift.",
+    "last_updated": "2026-07-11"
+  },
+  "the abyss": {
+    "canonical_name": "The Abyss",
+    "entity_type": "product",
+    "summary": "The Abyss is a 2004 DVD product described as simple and understated but poignant, making a philosophical statement. It is a drama film directed by James Cameron, shot inside a flooded abandoned power plant, and is available in spectacular 4K quality.",
+    "last_updated": "2026-07-11"
+  },
+  "alias": {
+    "canonical_name": "Alias",
+    "entity_type": "product",
+    "summary": "ALIAS is an autosampler for ÄKTA pure™ and ÄKTA avant chromatography systems that enables fast, unattended autosampling of samples from 1 µL up to 10 mL. It is a product from cytiva.com, which offers over 1 million PDF manuals and guides.",
+    "last_updated": "2026-07-11"
+  },
+  "vfxblog": {
+    "canonical_name": "vfxblog",
+    "entity_type": "organization",
+    "summary": "vfxblog is an organization that covers visual effects, as seen in a 2017 article about the creatures in 'Men in Black' and the development of CG technology for films like Terminator 2: Judgment Day.",
+    "last_updated": "2026-07-11"
+  },
+  "gpt 56": {
+    "canonical_name": "GPT 5.6",
+    "entity_type": "general",
+    "summary": "GPT-5.6 is a model designed for complex work across coding, knowledge work, research, cybersecurity, science, computer use, and design. It is gradually rolling out to eligible ChatGPT plans and is available in GPT-5.6 Sol and GPT-5.6 Sol Pro for different levels of reasoning and Pro features.",
+    "last_updated": "2026-07-11"
+  },
+  "tencent": {
+    "canonical_name": "Tencent",
+    "entity_type": "general",
+    "summary": "Founded in 1998, Tencent is an Internet-based platform company that uses technology to enrich the lives of users and assist the digital upgrade of enterprises. The company is involved in various initiatives, including carbon removal, hydrogen production, and global art exhibitions.",
+    "last_updated": "2026-07-11"
+  },
+  "european fertility group": {
+    "canonical_name": "European fertility group",
+    "entity_type": "general",
+    "summary": "The material provided does not contain a general overview of a European fertility group. It only lists articles, including one titled 'Sperm donors need limits, says a European fertility group,' but does not provide any details about the group itself.",
+    "last_updated": "2026-07-11"
+  },
+  "gitguardian": {
+    "canonical_name": "GitGuardian",
+    "entity_type": "company",
+    "summary": "GitGuardian is a cybersecurity company specializing in secrets detection and remediation for the software development lifecycle. The material provided does not contain details on its funding, key investors, leadership, or competitors.",
+    "last_updated": "2026-07-11"
+  },
+  "phia": {
+    "canonical_name": "Phia",
+    "entity_type": "company",
+    "summary": "Phia provides a personal shopping assistant within the fashion industry. It specializes in artificial intelligence (AI)-powered personal shopping solutions, helping users build wardrobes, compare prices, and discover clothing items across retailers and resale marketplaces. The company was formerly k",
+    "last_updated": "2026-07-11"
+  },
+  "phoebe": {
+    "canonical_name": "Phoebe",
+    "entity_type": "person",
+    "summary": "The material did not address this question. It contains information about multiple individuals named Phoebe, including a Head of New Products, a character from Friends, and a professor, but does not provide a single, coherent overview for a person named Phoebe.",
+    "last_updated": "2026-07-11"
+  },
+  "sophia kianni": {
+    "canonical_name": "Sophia Kianni",
+    "entity_type": "person",
+    "summary": "Sophia Kianni is a United Nations climate advisor and the founder of Climate Cardinals, a nonprofit that aims to make climate resources more accessible to people who don't speak English. She is also a TED Speaker.",
+    "last_updated": "2026-07-11"
+  },
+  "khloé kardashian": {
+    "canonical_name": "Khloé Kardashian",
+    "entity_type": "person",
+    "summary": "Khloé Alexandra Kardashian is an American media personality, socialite, and model who rose to fame with the reality television series Keeping Up with the Kardashians. She has also starred in spin-offs and Hulu's The Kardashians, and was previously married to basketball player Lamar Odom.",
+    "last_updated": "2026-07-11"
+  },
+  "hailey bieber": {
+    "canonical_name": "Hailey Bieber",
+    "entity_type": "person",
+    "summary": "Hailey Bieber is described as a confident, bold dreamer who eagerly takes charge of social situations and shares their thoughts on every matter. According to a DISC personality test, they may be best suited to start new projects and then get help finishing them from others.",
+    "last_updated": "2026-07-11"
+  },
+  "wirecutter": {
+    "canonical_name": "Wirecutter",
+    "entity_type": "organization",
+    "summary": "Wirecutter is an online magazine that conducts hands-on testing and comparison of products to evaluate performance, durability, and usability. It provides technology news and analysis with a focus on founders and startup teams, covering publicly traded tech companies to emerging startups and venture",
+    "last_updated": "2026-07-11"
+  },
+  "muse image": {
+    "canonical_name": "Muse Image",
+    "entity_type": "product",
+    "summary": "Muse Image is Meta's most advanced image generation model, functioning as an AI agent that searches, reasons, and refines to create high-quality visuals. It allows users to upload JPG, PNG, or WEBP images and provides iterative refinement and open-ended brainstorming capabilities.",
+    "last_updated": "2026-07-11"
+  },
+  "bluesky": {
+    "canonical_name": "Bluesky",
+    "entity_type": "technology",
+    "summary": "Bluesky technology is available as an integrated feature within SyncServer S650 and TimeProvider 4100 servers or as a dedicated BlueSky GNSS firewall. It is also described as an app touted as an alternative to the platform formerly known as Twitter, with a userbase that has recently jumped to over 2",
+    "last_updated": "2026-07-11"
+  },
+  "jay graber": {
+    "canonical_name": "Jay Graber",
+    "entity_type": "person",
+    "summary": "Jay Graber is the CEO of Bluesky Social. She is described as a 33-year-old leader who is disrupting social media by building a competing platform to take on Elon Musk's X. The material also notes she was born Lantian 'Jay' Graber in Tulsa, Oklahoma, to a multicultural household.",
+    "last_updated": "2026-07-11"
+  },
+  "toni schneider": {
+    "canonical_name": "Toni Schneider",
+    "entity_type": "person",
+    "summary": "Toni Schneider is a Partner at True Ventures, a leading early-stage venture capital firm founded in 2005. Her focus at True includes investing in a broad range of sectors such as software, connected devices, and climate tech, and she partners with founders who are passionate and driven.",
+    "last_updated": "2026-07-11"
+  },
+  "automattic": {
+    "canonical_name": "Automattic",
+    "entity_type": "company",
+    "summary": "Automattic is a Silicon Valley company that offers a successful product for free and has been doing so for 20 years. It is described as prioritizing and protecting customers' freedom to use tools of the open web, including those it doesn't make itself, and is noted for its commitment to privacy and",
+    "last_updated": "2026-07-11"
+  },
+  "true ventures": {
+    "canonical_name": "True Ventures",
+    "entity_type": "organization",
+    "summary": "True Ventures is a Silicon Valley venture capital firm founded in 2005 that invests in brilliant founders at the earliest stages. The firm manages $4 billion in committed capital across over 450 teams in areas like AI, software, hardware, and cybersecurity, and has made notable investments in compan",
+    "last_updated": "2026-07-11"
+  },
+  "at protocol": {
+    "canonical_name": "AT Protocol",
+    "entity_type": "technology",
+    "summary": "The AT Protocol, or Authenticated Transfer Protocol, is a decentralized protocol for large-scale social web applications. It provides users with permanent decentralized identifiers (DIDs) and a configurable domain name, and exchanges user data in signed data repositories.",
+    "last_updated": "2026-07-11"
+  },
+  "x": {
+    "canonical_name": "X",
+    "entity_type": "technology",
+    "summary": "X-Road® is a centrally managed distributed data exchange layer that ensures confidentiality, integrity, and interoperability between data exchange parties. It provides a standardized and secure way to produce and consume services, supporting features like address management, message routing, and acc",
+    "last_updated": "2026-07-11"
+  },
+  "maveron": {
+    "canonical_name": "Maveron",
+    "entity_type": "company",
+    "summary": "Maveron is a consumer-centric venture capital firm founded in 1998 that focuses on early partnerships with non-normal entrepreneurs building consumer brands. The firm specializes in identifying changes in consumer behavior and invests in companies disrupting archaic industries. Maveron believes that",
+    "last_updated": "2026-07-11"
+  },
+  "sidechat": {
+    "canonical_name": "Sidechat",
+    "entity_type": "company",
+    "summary": "Sidechat is a company that provides an Agent Operating System (AOS) learning model to help users operate at unrestrained speed. Its agent handles CRM, research, scheduling, communications, and document management, and it connects to various tools like Slack, email, and WhatsApp. Sidechat audits oper",
+    "last_updated": "2026-07-11"
+  },
+  "fizz": {
+    "canonical_name": "Fizz",
+    "entity_type": "company",
+    "summary": "Fizz is a company expanding its community-based social platform into colleges across the US, with a focus on verified university email addresses. This strategy creates opportunities for businesses to engage with authentic student audiences and supports platform adoption. The company's advanced tech",
+    "last_updated": "2026-07-11"
+  },
+  "flower ave inc": {
+    "canonical_name": "Flower Ave Inc.",
+    "entity_type": "company",
+    "summary": "Flower Ave Inc. is a company with a profile page that includes stock price, company news, executives, board members, and contact information. The company owns a trademark and is located at 228 Park Ave S PMB 46091 in New York, NY. The material also mentions that Yik Yak's company details are related",
+    "last_updated": "2026-07-11"
+  },
+  "yik yak": {
+    "canonical_name": "Yik Yak",
+    "entity_type": "company",
+    "summary": "Yik Yak is a social media application that emerged in the 2010s, allowing users to anonymously share posts, known as 'yaks,' visible to others within a five-mile radius. The app was designed by college students Tyler Droll and Brooks Buffington and is particularly popular among high school and colle",
+    "last_updated": "2026-07-11"
+  },
+  "skhyv": {
+    "canonical_name": "SKHYV",
+    "entity_type": "ticker",
+    "summary": "SKHYV is a newly listed ticker on Nasdaq effective July 10, 2026. The market data for this symbol is currently delayed and not available.",
+    "last_updated": "2026-07-11"
+  },
+  "skhy": {
+    "canonical_name": "SKHY",
+    "entity_type": "ticker",
+    "summary": "SKHY is the ticker for SK Hynix, a company heading to Nasdaq. The company is aiming to raise $29 billion in what would be the largest ADR listing in history.",
+    "last_updated": "2026-07-11"
+  },
+  "hbm": {
+    "canonical_name": "HBM",
+    "entity_type": "technology",
+    "summary": "High Bandwidth Memory (HBM) is a next-generation DRAM technology that uses a 3D stacking structure to achieve ultra-high-speed data transfer. This vertical stacking of DRAM chips allows for significantly higher bandwidth compared to traditional memory solutions.",
+    "last_updated": "2026-07-11"
+  },
+  "hypertexting": {
+    "canonical_name": "HyperTexting",
+    "entity_type": "product",
+    "summary": "HyperTexting is a social news feed powered by the open social web. It allows users to follow various feeds, including news outlets, journalists, and content creators, and to post content with features like hyperlinks, @mentions, and hashtags.",
+    "last_updated": "2026-07-11"
+  },
+  "caleb hailey": {
+    "canonical_name": "Caleb Hailey",
+    "entity_type": "person",
+    "summary": "Caleb Hailey is the co-founder and CEO of Sensu, where he helps businesses with monitoring challenges. He also has a past role as Co-Founder and CEO at Sensu and is associated with Algorithmic rank and DevOps insights.",
+    "last_updated": "2026-07-11"
+  },
+  "business insider": {
+    "canonical_name": "Business Insider",
+    "entity_type": "organization",
+    "summary": "Business Insider is a global media organization that publishes stories on technology, finance, the stock market, media, economy, lifestyle, real estate, AI, and innovation. It organizes its content into primary coverage areas centered on business, technology, and markets.",
+    "last_updated": "2026-07-11"
+  },
+  "adam smith": {
+    "canonical_name": "Adam Smith",
+    "entity_type": "person",
+    "summary": "Adam Smith was the son of Adam Smith, the comptroller of customs, and Margaret Douglas, a substantial landowner's daughter. His contributions include ideas on the division of labor, self-interest, and free trade, and he wrote 'The Theory of Moral Sentiments' which explores sympathy and justice.",
+    "last_updated": "2026-07-11"
+  },
+  "tubi": {
+    "canonical_name": "Tubi",
+    "entity_type": "organization",
+    "summary": "Tubi is the world's largest ad-supported video on demand (VOD) service, offering free, ad-supported streaming of movies, TV shows, and original content to over 80 million monthly viewers in the U.S., Canada, and beyond. It is available on Connected TV devices, mobile, and the web.",
+    "last_updated": "2026-07-11"
+  },
+  "amazon prime": {
+    "canonical_name": "Amazon Prime",
+    "entity_type": "organization",
+    "summary": "Amazon Prime focuses on personal and household needs, with Prime Business benefits catering to business needs by providing insights into organization spend and advanced analytics. The service was launched in 2005 to boost Amazon's delivery service for loyal customers, following the creation of Amazo",
+    "last_updated": "2026-07-11"
+  },
+  "apple tv": {
+    "canonical_name": "Apple TV+",
+    "entity_type": "organization",
+    "summary": "Apple TV+ is Apple's streaming service, launched officially on November 1, 2019, as part of the company's strategy to enter the streaming market. It is described as the pop culture side of Apple, featuring original productions and content from the iPhone, Mac, and AirPods ecosystem.",
+    "last_updated": "2026-07-11"
+  },
+  "paramount": {
+    "canonical_name": "Paramount+",
+    "entity_type": "organization",
+    "summary": "Paramount+ is a popular streaming service available in approximately 29 countries across the Americas, Europe, and the Asia-Pacific region. It offers 40,000+ episodes, movies, live sports, and 30+ live TV channels, with two subscription plans: the Essential Plan and the Premium Plan.",
+    "last_updated": "2026-07-11"
+  },
+  "neilson": {
+    "canonical_name": "Neilson",
+    "entity_type": "organization",
+    "summary": "Neilson is a multi-award-winning tour operator with over 40 years of experience in the travel industry, offering ski holidays that include return flights, resort transfers, and accommodation. It also provides beach clubs and various travel opportunities, emphasizing a strong work ethic and positive",
+    "last_updated": "2026-07-11"
+  },
+  "fcc": {
+    "canonical_name": "FCC",
+    "entity_type": "ban_regulation",
+    "summary": "The Federal Communications Commission (FCC) enacted a sweeping ban on March 24, 2026, prohibiting the authorization of new consumer-grade routers and modems from foreign manufacturers deemed a national security risk. The landscape for drone operations in the United States just underwent a seismic sh",
+    "last_updated": "2026-07-11"
+  },
+  "xtra": {
+    "canonical_name": "Xtra",
+    "entity_type": "ban_regulation",
+    "summary": "Xtra is being blocked on Facebook and Instagram for Canadians as part of Meta’s response to Bill C18. Stay connected, and tell a friend. All people who have had more than three sexual partners in the past three months will be banned from donation Credit: Florent Bardos/Abacapress.com Austria has bec",
+    "last_updated": "2026-07-11"
+  },
+  "skyrover": {
+    "canonical_name": "Skyrover",
+    "entity_type": "ban_regulation",
+    "summary": "Security researcher Kevin Finisterre, working with peer experts, has now linked the SkyRover X1—the drone reviewed recently by Shawn of Air. Check out the Best Deals on Amazon for DJI Drones today! Security researcher Kevin Finisterre, working with peer experts, has now linked the SkyRover X1 —the d",
+    "last_updated": "2026-07-11"
+  },
+  "cogito tech": {
+    "canonical_name": "Cogito Tech",
+    "entity_type": "ban_regulation",
+    "summary": "Delivering high-quality AI training data solutions for AI and ML models. Cogito Tech empowers process automation across industries. Cogito Tech is a global managed service provider specializing in scalable data development tailored for AI model development. With over a decade of experience, we deliv",
+    "last_updated": "2026-07-11"
+  },
+  "lyno dynamics": {
+    "canonical_name": "Lyno Dynamics",
+    "entity_type": "ban_regulation",
+    "summary": "EB Proposes a Penalty of $25,000 Against Lyno Dynamics LLC.The Enforcement Bureau proposes a penalty of $25,000 against Lyno Dynamics LLC for apparently willfully failing to respond to the Bureau's Letter of Inquiry (LOI) as directed. Explore Lyno Dynamics agricultural drones built for spraying, spr",
+    "last_updated": "2026-07-11"
+  },
+  "spatial hover": {
+    "canonical_name": "Spatial Hover",
+    "entity_type": "ban_regulation",
+    "summary": "Spatial Hovers thermal camera features a 640 × 512 resolution and supports both point and area temperature measurement. With high-temperature alerts, customizable color palettes, and isotherms, you can quickly locate targets and make informed decisions. Specs Models Features Operation D200 Contact U",
+    "last_updated": "2026-07-11"
+  },
+  "sz knowact": {
+    "canonical_name": "SZ Knowact",
+    "entity_type": "ban_regulation",
+    "summary": "Full Title: In the Matter of SZ Knowact Robot Technology Co., Ltd. sz_knowact_robot_technology_co-ltd. Addresses. Room C3-A081, Building C, Kexing Science Park, No.15, Kevuan Road, Science Park Community, Yuehai Street, Nanshan District. This login method has been cancelled. Please contact us in cas",
+    "last_updated": "2026-07-11"
+  },
+  "wavego tech": {
+    "canonical_name": "WaveGo Tech",
+    "entity_type": "ban_regulation",
+    "summary": "The Enforcement Bureau proposes a penalty of $25,000 against WaveGo Tech LLC for apparently willfully failing to respond to the Bureau's Letter of Inquiry (LOI) as directed. WaveGo Tech and SZ Knowact have been associated with the Skyrover drone brand, while Xtra Technology has sold action cameras t",
+    "last_updated": "2026-07-11"
+  },
+  "niantic": {
+    "canonical_name": "Niantic",
+    "entity_type": "general",
+    "summary": "Niantic is a developer of an augmented reality platform designed to enrich mobile gaming experiences. The company focuses on creating location-based AR games that encourage players to explore the real world.",
+    "last_updated": "2026-07-11"
+  },
+  "department of homeland security": {
+    "senses": [
+      {
+        "sense_label": "agency",
+        "summary": "The U.S. Department of Homeland Security (DHS) works to improve the security of the United States. Its work includes customs, border, and immigration enforcement, emergency response to natural and manmade disasters, antiterrorism work, and cybersecurity.",
+        "last_updated": "2026-07-11"
+      }
+    ]
+  },
+  "ice": {
+    "senses": [
+      {
+        "sense_label": "agency",
+        "summary": "The policies broadly seek to restrict ICE agents from city property and parks and, in some cases, direct local police to monitor the activities of federal agents. An upstate New York resident sued US Immigration and Customs Enforcement (ICE) for sending federal officers to his house with a warning o",
+        "last_updated": "2026-07-11"
+      }
+    ]
+  },
+  "customs and border protection": {
+    "senses": [
+      {
+        "sense_label": "agency",
+        "summary": "Customs and Border Protection (CBP) prevents people from entering the country illegally or bringing anything harmful or illegal into the United States. The agency has issued warnings to travelers following a one-month trip, leading to over 1,000 upvotes on Reddit and hundreds of comments due to tigh",
+        "last_updated": "2026-07-11"
+      }
+    ]
+  },
+  "counterpoint": {
+    "senses": [
+      {
+        "sense_label": "market research firm",
+        "summary": "Counterpoint is a global technology market research firm in the TMT industry. Our detailed analysis of report helps you to make better business decisions.",
+        "last_updated": "2026-07-11"
+      }
+    ]
+  },
+  "spotify": {
+    "canonical_name": "Spotify",
+    "entity_type": "company",
+    "summary": "Spotify is a global audio streaming service that transformed music listening when it launched in Sweden in 2008. The company focuses on building the best experience for users, offering over 70 million tracks for free or through a premium subscription with features like offline mode and ad-free liste",
+    "last_updated": "2026-07-11"
+  },
+  "anker": {
+    "canonical_name": "Anker",
+    "entity_type": "company",
+    "summary": "Anker is a company that offers a wide range of charging and power solutions, including chargers, batteries, hubs, docks, and portable power stations. They have been pioneering charging technology for 14 years and serve over 200 million customers globally.",
+    "last_updated": "2026-07-11"
+  },
+  "trump mobile": {
+    "senses": [
+      {
+        "sense_label": "company",
+        "summary": "Trump Mobile is a new cellular service company launched by President Trump's oldest sons. It offers service through AT&T, Verizon, and T-Mobile, and provides a single phone plan and a smartphone made in the US.",
+        "last_updated": "2026-07-11"
+      }
+    ]
+  },
+  "t1": {
+    "senses": [
+      {
+        "sense_label": "product",
+        "summary": "Product Overview. Manage projects, automate workflows, and build solutions at scale with Smartsheet. Learn more. The Smartsheet AI-powered platform revolutionizes how you manage projects, portfolios, and processes, empowering organizations to innovate, collaborate, and achieve results at scale with",
+        "last_updated": "2026-07-11"
+      }
+    ]
+  },
+  "deutsche telekom": {
+    "canonical_name": "Deutsche Telekom",
+    "entity_type": "organization",
+    "summary": "Deutsche Telekom is one of the world’s largest integrated telecommunications groups. It also holds a majority ownership stake in separately listed T-Mobile US.",
+    "last_updated": "2026-07-11"
+  },
+  "jonathan abrahamson": {
+    "canonical_name": "Jonathan Abrahamson",
+    "entity_type": "person",
+    "summary": "Jonathan Abrahamson is Chief Product and Digital Officer (CPO) at Deutsche Telekom, leading the group’s product, digital, and AI agenda, including GenAI… Jonathan Abrahamson is Chief Product and Digital Officer (CPO) at Deutsche Telekom, leading the group’s product, digital, and AI agenda, including",
+    "last_updated": "2026-07-11"
+  },
+  "fablemethod": {
+    "canonical_name": "fable-method",
+    "entity_type": "technology",
+    "summary": "The fable-method is a three-skill philosophy for model reasoning: think (fable-method), act (fable-loop), and prove (fable-judge). It provides a structured, ordered process for models to follow, including classifying the ask, defining done, gathering evidence, and reporting outcomes with caveats. Th",
+    "last_updated": "2026-07-11"
+  },
+  "fableloop": {
+    "canonical_name": "fable-loop",
+    "entity_type": "technology",
+    "summary": "The fable-loop is the 'act' skill in the fable-method, representing the action phase of the model's reasoning process. It is one of three skills—alongside think and prove—that were distilled into a set of skills for any model to run. The fable-loop is part of a larger philosophy that breaks down pro",
+    "last_updated": "2026-07-11"
+  },
+  "fablejudge": {
+    "canonical_name": "fable-judge",
+    "entity_type": "technology",
+    "summary": "The fable-judge is the 'prove' skill in the fable-method, serving as the verification or proof phase of the model's reasoning. It is designed to keep the process honest by evaluating the outcome against a named verification. This skill is crucial for ensuring the model's actions are correct before r",
+    "last_updated": "2026-07-11"
+  },
+  "cozytabfable5mode": {
+    "canonical_name": "cozytab/fable5-mode",
+    "entity_type": "general",
+    "summary": "cozytab / fable5-mode is a work-discipline protocol designed to improve the output quality of non-frontier models like Opus 4.8. It operates by combining a Claude Code skill with guard hooks, based on the premise that output quality is a function of model capability and work discipline.",
+    "last_updated": "2026-07-11"
+  },
+  "inclusionai": {
+    "canonical_name": "inclusionAI",
+    "entity_type": "organization",
+    "summary": "InclusionAI is an AI research organization focused on developing inclusive and accessible AI technologies. As of mid-2026, its Hugging Face organization page lists more than 130 model artifacts and 20 datasets. The organization contains the series of open-source projects from Ant Group with dedicate",
+    "last_updated": "2026-07-11"
+  },
+  "avernet": {
+    "canonical_name": "Avernet",
+    "entity_type": "technology",
+    "summary": "Avernet Overview. Relevant source files.Avernet is open-source infrastructure designed for multi-agent collaboration. inclusionAI/Avernet Avernet is open-source infrastructure designed for multi-agent collaboration . It addresses the coordination-layer challenges that arise when complex tasks requir",
+    "last_updated": "2026-07-11"
   }
 }
