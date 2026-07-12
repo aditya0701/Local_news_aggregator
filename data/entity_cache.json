@@ -4461,13 +4461,10 @@
     "last_updated": "2026-07-07"
   },
   "nintendo": {
-    "senses": [
-      {
-        "sense_label": "hardware manufacturer",
-        "summary": "Nintendo is a company founded by Fusajiro Yamauchi on September 23, 1889, and is headquartered in Kyoto, Japan. It engages in the development, manufacture, and sale of home entertainment products, including portable and console game machines, software, and other consumer electronics.",
-        "last_updated": "2026-07-07"
-      }
-    ]
+    "canonical_name": "Nintendo",
+    "entity_type": "company",
+    "summary": "Nintendo is a company founded by Fusajiro Yamauchi on September 23, 1889, and is headquartered in Kyoto, Japan. It engages in the development, manufacture, and sale of home entertainment products, including portable and console game machines, software, and other consumer electronics.",
+    "last_updated": "2026-07-12"
   },
   "walkpod1007": {
     "canonical_name": "walkpod1007",
@@ -6034,5 +6031,350 @@
     "entity_type": "technology",
     "summary": "Avernet Overview. Relevant source files.Avernet is open-source infrastructure designed for multi-agent collaboration. inclusionAI/Avernet Avernet is open-source infrastructure designed for multi-agent collaboration . It addresses the coordination-layer challenges that arise when complex tasks requir",
     "last_updated": "2026-07-11"
+  },
+  "thamires lima": {
+    "canonical_name": "Thamires Lima",
+    "entity_type": "research professor, chemical engineering, Drexel University",
+    "summary": "Thamires Lima is a research professor and member of the Alvarez Lab at Drexel University's Department of Chemical and Biological Engineering. Her research focuses on the development, enhancement of mechanical properties, and physicochemical investigation of materials, with recent projects including",
+    "last_updated": "2026-07-12"
+  },
+  "arnold mathijssen": {
+    "canonical_name": "Arnold Mathijssen",
+    "entity_type": "fluid physicist, University of Pennsylvania",
+    "summary": "Arnold Mathijssen is an Assistant Professor in the Department of Physics & Astronomy at the University of Pennsylvania. He enjoys exploring the physics of life and has a background in theoretical physics and bioengineering, having completed his PhD at Oxford and postdoc at Stanford. He has received",
+    "last_updated": "2026-07-12"
+  },
+  "nicolas j alvarez": {
+    "canonical_name": "Nicolas J. Alvarez",
+    "entity_type": "professor of chemical engineering, Drexel University",
+    "summary": "Nicolas J. Alvarez is a Professor of Chemical and Biological Engineering at Drexel University. He received his PhD from Carnegie Mellon University, specializing in surfactant transport phenomena, and previously studied polymer physics at the Technical University of Denmark, where he developed the fi",
+    "last_updated": "2026-07-12"
+  },
+  "mesh llm": {
+    "canonical_name": "Mesh LLM",
+    "entity_type": "ai_model",
+    "summary": "Mesh LLM is a distributed AI/LLM designed to pool GPUs and memory across multiple machines. It exposes the combined resources as a single, OpenAI-compatible API, allowing users to start with one node and add more later, with the mesh deciding how to route or split models.",
+    "last_updated": "2026-07-12"
+  },
+  "grok": {
+    "canonical_name": "Grok",
+    "entity_type": "ai_model",
+    "summary": "Grok-3 is a new AI model introduced by Elon Musk’s xAI that is designed to rival major players like OpenAI’s GPT-4 and DeepSeek’s V3. It is powered by the Colossus data center, which houses approximately 200,000 GPUs, and features a 'Think' mode for deeper reasoning and a 'Big Brain' mode for handli",
+    "last_updated": "2026-07-12"
+  },
+  "grokbuildcli": {
+    "canonical_name": "grok-build-cli",
+    "entity_type": "product",
+    "summary": "Grok Build is a new coding agent and CLI for professional software engineering, available in early beta for SuperGrok and X Premium Plus subscribers. It supports deep worktree integrations, allows launching subagents in their own worktrees, and provides a headless mode for running agents inside scri",
+    "last_updated": "2026-07-12"
+  },
+  "riscboy": {
+    "canonical_name": "RISCBoy",
+    "entity_type": "technology",
+    "summary": "RISCBoy is an open-source portable games console designed from scratch, featuring a RISC-V compatible CPU and a raster graphics pipeline. The project is hosted on GitHub and has been shared on Hacker News, where it has garnered attention. Based on common mentions, potential alternatives to RISCBoy i",
+    "last_updated": "2026-07-12"
+  },
+  "ice40hx8k": {
+    "canonical_name": "iCE40-HX8k",
+    "entity_type": "technology",
+    "summary": "The iCE40HX8K-BG121 is a Lattice Semiconductor FPGA component with 960 LABs/CLBs and 7680 logic elements. It is a 93 I/O, 1.14V to 1.26V, surface-mount device with 131072 total RAM bits. The product is active and requires verification of its specifications from the data sheet.",
+    "last_updated": "2026-07-12"
+  },
+  "icestorm": {
+    "canonical_name": "Icestorm",
+    "entity_type": "organization",
+    "summary": "Icestorm is a high-efficiency microarchitecture used by the four E-cores in the Apple M1 CPU. The documentation is based on black-box reverse engineering and may contain mistakes, as it is not formally verified.",
+    "last_updated": "2026-07-12"
+  },
+  "riscv": {
+    "canonical_name": "RISC-V",
+    "entity_type": "technology",
+    "summary": "RISC-V is an open-source instruction set architecture (ISA) used to develop custom processors for a variety of applications, from embedded designs to supercomputers. Unlike proprietary architectures, it is open-source and was originally developed at the University of California, Berkeley.",
+    "last_updated": "2026-07-12"
+  },
+  "rv32imc": {
+    "canonical_name": "RV32IMC",
+    "entity_type": "technology",
+    "summary": "The MIV_RV32IMC is a processor core designed to implement the RISC-V instruction set for use in Microchip. The design is documented in a handbook with revision history and an introduction, and the core is part of the RISC-V ecosystem.",
+    "last_updated": "2026-07-12"
+  },
+  "rv32i": {
+    "canonical_name": "RV32I",
+    "entity_type": "technology",
+    "summary": "RV32I is a load-store architecture with a 32-bit address space that is byte-addressed. It provides 40 unique instructions and was designed to be sufficient for a compiler target and modern operating system environments, while reducing hardware requirements for a minimal implementation.",
+    "last_updated": "2026-07-12"
+  },
+  "rv32ionly": {
+    "canonical_name": "RV32I-only",
+    "entity_type": "technology",
+    "summary": "The material does not provide a general-purpose overview of RV32I-only technology. It only mentions a specific instruction, RDTIMEH, which reads bits 63–32 of a real-time counter, and references other related instructions like RDINSTRET and RDINSTRETH.",
+    "last_updated": "2026-07-12"
+  },
+  "riscvformal verification suite": {
+    "canonical_name": "riscv-formal verification suite",
+    "entity_type": "technology",
+    "summary": "The riscv-formal verification suite is a framework for the formal verification of RISC-V processor designs. It is built around the RISC-V Formal Interface (RVFI) and uses SystemVerilog Assertions (SVA) to verify behavior and prove functional correctness.",
+    "last_updated": "2026-07-12"
+  },
+  "mmode csrs": {
+    "canonical_name": "M-mode CSRs",
+    "entity_type": "technology",
+    "summary": "The material does not contain a general-purpose overview of M-mode CSRs. It only states that M-mode is required by all RISC-V implementations and that there are 49 M-mode CSRs listed in tables, with no indication of which are optional.",
+    "last_updated": "2026-07-12"
+  },
+  "exceptions": {
+    "canonical_name": "exceptions",
+    "entity_type": "technology",
+    "summary": "The material does not provide a general-purpose overview of exceptions technology. It discusses business exceptions at Technological University Dublin, focusing on IT policies and security, but does not cover the broader technology of exceptions.",
+    "last_updated": "2026-07-12"
+  },
+  "vectored external interrupts": {
+    "canonical_name": "vectored external interrupts",
+    "entity_type": "technology",
+    "summary": "The 80C51 family of microcontrollers is equipped with up to two inputs that can be used as general-purpose interrupts, providing a total of 5 interrupt sources. Timer 0 and Timer 1 generate vectored interrupts, as does the Serial Port, and applications requiring more sources can use these.",
+    "last_updated": "2026-07-12"
+  },
+  "formal property checks": {
+    "canonical_name": "formal property checks",
+    "entity_type": "technology",
+    "summary": "The material does not provide a general-purpose overview of formal property checks. It lists job vacancies in India and mentions skills like formal verification, VC Formal, and formal methodologies, but does not explain the technology itself.",
+    "last_updated": "2026-07-12"
+  },
+  "submodules": {
+    "canonical_name": "submodules",
+    "entity_type": "technology",
+    "summary": "Git submodules allow a git repository to be kept as a subdirectory of another repository, enabling a way to keep all commits in a different way. They are useful for projects that need to use another project from within their own, and the main purpose is to reference another repository.",
+    "last_updated": "2026-07-12"
+  },
+  "hdl": {
+    "canonical_name": "HDL",
+    "entity_type": "technology",
+    "summary": "High Density Interconnect (HDI) technology is built on microvias, blind vias, and buried vias, enabling compact, high-speed electronics. It is used in consumer gadgets, automotive radar, and aerospace systems to fit more functionality into smaller footprints without compromising speed or reliability",
+    "last_updated": "2026-07-12"
+  },
+  "tests": {
+    "canonical_name": "tests",
+    "entity_type": "technology",
+    "summary": "The material does not provide a general-purpose overview of tests technology. It mentions the need for automated technical tests in software delivery organizations and references a career test, but does not detail the technology of testing itself.",
+    "last_updated": "2026-07-12"
+  },
+  "gnu toolchain": {
+    "canonical_name": "GNU Toolchain",
+    "entity_type": "technology",
+    "summary": "The GNU toolchain is a broad collection of programming tools produced by the GNU Project, forming a suite of tools used in a serial manner for developing software applications and operating systems. It is a foundational technology for software development.",
+    "last_updated": "2026-07-12"
+  },
+  "multilib": {
+    "canonical_name": "multilib",
+    "entity_type": "technology",
+    "summary": "Multilib is a feature for CPUs capable of it, which may be necessary depending on the circumstance. It allows for cross-compiling for different architectures, such as x86-64, and may involve installing specific packages like gcc-multilib and g++-multilib.",
+    "last_updated": "2026-07-12"
+  },
+  "coreweave": {
+    "canonical_name": "CoreWeave",
+    "entity_type": "company",
+    "summary": "CoreWeave is an American artificial intelligence (AI) cloud-computing company based in Livingston, New Jersey. It specializes in providing cloud-based graphics processing unit (GPU) infrastructure to AI developers and enterprises, and also develops its own chip management software.",
+    "last_updated": "2026-07-12"
+  },
+  "nebius": {
+    "canonical_name": "Nebius",
+    "entity_type": "company",
+    "summary": "Nebius is an AI cloud company based in Amsterdam that delivers a unified platform spanning the complete AI journey. It provides a strong engineering culture rooted in designing and operating large-scale platforms that run reliably at global scale, serving AI builders and enterprises.",
+    "last_updated": "2026-07-12"
+  },
+  "nscale": {
+    "canonical_name": "Nscale",
+    "entity_type": "company",
+    "summary": "Nscale is a global AI infrastructure company that provides full-stack AI infrastructure, including inference endpoints and fine-tuning workflows. The company is supported by Fortum and plans to establish a data center in Harjavalta, Finland, with a focus on infrastructure designed for scale, resilie",
+    "last_updated": "2026-07-12"
+  },
+  "reed jobs": {
+    "canonical_name": "Reed Jobs",
+    "entity_type": "person",
+    "summary": "Reed Jobs is the son of Apple founder Steve Jobs and Laurene Powell Jobs. He is known for gaining publicity due to his celebrity family background and has chosen a career path focused on curing cancer, the illness that killed his father.",
+    "last_updated": "2026-07-12"
+  },
+  "yosemite": {
+    "canonical_name": "Yosemite",
+    "entity_type": "organization",
+    "summary": "Yosemite is an investment management company with assets of $52,152,134 and revenue of $29,066,430. The company is described as being passionate about supporting projects that preserve and protect, and it is associated with the national park service administration.",
+    "last_updated": "2026-07-12"
+  },
+  "azalea": {
+    "canonical_name": "Azalea",
+    "entity_type": "product",
+    "summary": "Azalea™ is a programme to launch a multi-sensor, multi-role satellite system with Radio Frequency (RF) capabilities. Additionally, exosome derived from Azalea is a product, and it has value and demand in the game Animal Crossing: New Horizons.",
+    "last_updated": "2026-07-12"
+  },
+  "quarry": {
+    "canonical_name": "Quarry",
+    "entity_type": "product",
+    "summary": "Quarry is an advanced analysis and reporting platform for wireless device developers and test labs. It is used to import measured and simulated data from various sources for analysis and reporting, and it includes features for automated compliance reports.",
+    "last_updated": "2026-07-12"
+  },
+  "jennifer doudna": {
+    "canonical_name": "Jennifer Doudna",
+    "entity_type": "person",
+    "summary": "Jennifer Doudna is a biochemist and professor at the University of California, Berkeley. She is the co-author of 'A Crack in Creation' and is known for her groundbreaking development of CRISPR-Cas9, a genome engineering technology that earned her the 2020 Nobel Prize in Chemistry.",
+    "last_updated": "2026-07-12"
+  },
+  "craig crews": {
+    "canonical_name": "Craig Crews",
+    "entity_type": "person",
+    "summary": "Dr. Craig M. Crews is the John C. Malone Professor of Molecular, Cellular, and Developmental Biology and holds joint appointments in Chemistry and Pharmacology at Yale University. He is the Executive Director of the Yale Center for Molecular Discovery and graduated from the University of Virginia wi",
+    "last_updated": "2026-07-12"
+  },
+  "ninja": {
+    "senses": [
+      {
+        "sense_label": "person vs company",
+        "summary": "Ninja is a brand that produces indoor grills and kitchen appliances. The material compares specific Ninja indoor grill models, such as the Foodi Indoor Grill and the Sizzle GR101 Smokeless Indoor Grill, to other brands like George Foreman.",
+        "last_updated": "2026-07-12"
+      }
+    ]
+  },
+  "even realities": {
+    "canonical_name": "Even Realities",
+    "entity_type": "company",
+    "summary": "Even Realities is a company that provides technology for retail, specifically for store operations. It is described as a G2 and R1 store retail technology company. The company's purpose is to help users stay organized and sharp through various professional activities like interviews, negotiations, a",
+    "last_updated": "2026-07-12"
+  },
+  "g2": {
+    "canonical_name": "G2",
+    "entity_type": "product",
+    "summary": "The G2 product is a device described as an ICON® G2 ratchet, engineered in the USA with split-pawl technology for strength. It is praised for its ease of use and visibility into SaaS applications, which simplifies license management and helps identify unused subscriptions. The product's intuitive in",
+    "last_updated": "2026-07-12"
+  },
+  "g1": {
+    "canonical_name": "G1",
+    "entity_type": "product",
+    "summary": "The G1 is a robot divided into upper and lower bodies, each with multiple degrees of freedom. The single arm has five degrees of freedom, and the single leg has six. The waist includes one degree of freedom. The G1 basic version is mentioned, but the specific details of its features or price are not",
+    "last_updated": "2026-07-12"
+  },
+  "martin grieco": {
+    "canonical_name": "Martin Grieco",
+    "entity_type": "person",
+    "summary": "Martin Grieco is a person who is on Facebook and can be found in America, specifically in State College. The material indicates this is a very unique name in the US, with one person currently living there and no criminal records found.",
+    "last_updated": "2026-07-12"
+  },
+  "rocío gal": {
+    "canonical_name": "Rocío Gal",
+    "entity_type": "person",
+    "summary": "Rocío Gal is a composer and artist from Argentina. The material mentions she is creating a synth concept called Nopia and has released a video for a song titled 'Arriba', which is described as a fusion of rioplatense elements and electronic experimental music.",
+    "last_updated": "2026-07-12"
+  },
+  "nopia": {
+    "canonical_name": "Nopia",
+    "entity_type": "product",
+    "summary": "Nopia is a synth concept from Argentina that has been completed and is now in extensive testing. It is described as a prototype that has become a finished product, featuring a semi-modular MIDI chord generator and a multitimbral sound engine with virtual analogue synthesis and samples.",
+    "last_updated": "2026-07-12"
+  },
+  "musicradar": {
+    "canonical_name": "MusicRadar",
+    "entity_type": "organization",
+    "summary": "MusicRadar is a British online publication for musicians, launched in 2007 by Future plc. It covers music gear, production tools, and related content, providing news, product reviews, tutorials, and artist interviews for guitarists, drummers, keyboard players, and producers.",
+    "last_updated": "2026-07-12"
+  },
+  "dan rayfield": {
+    "canonical_name": "Dan Rayfield",
+    "entity_type": "person",
+    "summary": "Dan Rayfield is running to be Oregon’s next Attorney General to focus on keeping communities safe and ensuring every Oregonian has the opportunity to succeed and thrive. As Oregon’s Speaker of the House, a legislator, and an attorney, he has worked for a safer, healthier, and more just future for Or",
+    "last_updated": "2026-07-12"
+  },
+  "oregon attorney general": {
+    "canonical_name": "Oregon Attorney General",
+    "entity_type": "organization",
+    "summary": "Dan Rayfield, as Oregon’s Attorney General, has made progress in fighting for community safety, protecting working families, seniors, and consumers, and upholding Oregon’s values. He has also filed a lawsuit with other attorneys general to stop the U.S. Department of Education from terminating schoo",
+    "last_updated": "2026-07-12"
+  },
+  "warner bros discovery": {
+    "canonical_name": "Warner Bros. Discovery",
+    "entity_type": "company",
+    "summary": "Warner Bros. Discovery is a premier global media and entertainment company that offers a differentiated portfolio of content, brands, and franchises across television, film, streaming, and gaming. The company recently rejected a $108 billion hostile bid from Paramount, citing significant risks, and",
+    "last_updated": "2026-07-12"
+  },
+  "david and larry ellison": {
+    "canonical_name": "David and Larry Ellison",
+    "entity_type": "person",
+    "summary": "David and Larry Ellison are individuals associated with media and political issues, including the appointment of Bari Weiss as editor-in-chief of Network Ten and CBS. Their involvement in media ownership and political funding has been noted in various news contexts, though specific details about the",
+    "last_updated": "2026-07-12"
+  },
+  "s": {
+    "canonical_name": "S.",
+    "entity_type": "person",
+    "summary": "The material did not address this query. It mentions RBC Royal Bank's personal banking services, Myers and Briggs personality types, and a personality test, but does not provide an overview of a person named 'S.'",
+    "last_updated": "2026-07-12"
+  },
+  "talking flower": {
+    "canonical_name": "Talking Flower",
+    "entity_type": "product",
+    "summary": "The Talking Flower is a Nintendo product that provides words of encouragement and quips throughout the day. It can announce the hour, comment on the time and temperature, and play background music, and it supports multiple languages.",
+    "last_updated": "2026-07-12"
+  },
+  "avi loeb": {
+    "canonical_name": "Avi Loeb",
+    "entity_type": "person",
+    "summary": "Avi Loeb is a keynote speaker and industry expert who speaks on a wide range of topics such as Technology, Science, Space, Earth Science, Research & Exploration and TED. Fee ranges listed on this website are intended to serve as a guideline and indicate that their fee falls within that range.",
+    "last_updated": "2026-07-12"
+  },
+  "uap science advisory council": {
+    "canonical_name": "UAP Science Advisory Council",
+    "entity_type": "organization",
+    "summary": "The UAP Science Advisory Council is a new council assembled by the White House, the Pentagon’s All Domain Anomaly Resolution Office (AARO), the Office of the Director of National Intelligence (ODNI), the FBI, and the Intelligence Community. The frequency of the council’s meetings is yet to be decide",
+    "last_updated": "2026-07-12"
+  },
+  "pentagon": {
+    "canonical_name": "Pentagon",
+    "entity_type": "organization",
+    "summary": "The Pentagon is the primary administrative nerve center for the United States military, coordinating the operations of the Army, Navy, Marine Corps, and Air Force. It is a five-sided structure in Arlington, Virginia, that serves as a global emblem of American strategic power and was completed in 194",
+    "last_updated": "2026-07-12"
+  },
+  "office of the director of national intelligence": {
+    "canonical_name": "Office of the Director of National Intelligence",
+    "entity_type": "organization",
+    "summary": "The mission of the ODNI is to lead and support IC integration, delivering insights and investing in the future. The ODNI is staffed by officers from across the IC and is organized into directorates, centers, and oversight offices that support the DNI’s role as head of the IC and manager of the Natio",
+    "last_updated": "2026-07-12"
+  },
+  "fbi": {
+    "canonical_name": "FBI",
+    "entity_type": "organization",
+    "summary": "The FBI was first established on July 26, 1908, and was initially named the Bureau of Investigation. It is the largest 1811 agency in the United States with National Security, Counterterrorism & Major Fraud responsibilities and is the largest 1811 special agent agency.",
+    "last_updated": "2026-07-12"
+  },
+  "intelligence community": {
+    "canonical_name": "intelligence community",
+    "entity_type": "organization",
+    "summary": "The U.S. Intelligence Community is a large, complex structure organized and operated pursuant to a multitude of laws, executive orders, policies, and directives. The purpose of the discussion is to provide an overall, admittedly simplistic, picture of the Community and how it functions.",
+    "last_updated": "2026-07-12"
+  },
+  "skeptic magazine": {
+    "canonical_name": "Skeptic magazine",
+    "entity_type": "organization",
+    "summary": "Since 1992, the Skeptics Society has published Skeptic magazine, a quarterly journal that examines a wide variety of social, scientific, and pseudoscientific controversies. The organization is a 501(c)(3) educational and research nonprofit dedicated to promoting science and reason by applying rigoro",
+    "last_updated": "2026-07-12"
+  },
+  "hottap go": {
+    "canonical_name": "Hottap Go",
+    "entity_type": "product",
+    "summary": "The HOTTAP Go is an all-in-one hot shower kit that includes a 12L tank, built-in pump, and gas burner. It is a portable, self-contained system that recirculates water to a user-selected temperature, delivering hot water without wasting cold water or requiring external plumbing. The unit is compact,",
+    "last_updated": "2026-07-12"
+  },
+  "joolca": {
+    "canonical_name": "Joolca",
+    "entity_type": "company",
+    "summary": "Joolca is a company that designs outdoor gear to solve common problems like cold showers, lack of privacy, and complicated equipment. The company focuses on creating products that allow people to go further, stay longer, and enjoy the outdoors more comfortably. They are described as engineers who th",
+    "last_updated": "2026-07-12"
+  },
+  "flock safety": {
+    "canonical_name": "Flock Safety",
+    "entity_type": "company",
+    "summary": "Flock Safety is an Atlanta-based security technology company founded in 2017. It specializes in automated license plate recognition (ALPR) cameras, surveillance software, and video and gunshot detection systems.",
+    "last_updated": "2026-07-12"
+  },
+  "loopjs": {
+    "canonical_name": "loop-js",
+    "entity_type": "technology",
+    "summary": "Loop.js is a small, powerful utility for looping over array-like objects. It enables functional patterns like map, filter, and find with a single operation and can break out of the loop early.",
+    "last_updated": "2026-07-12"
   }
 }
