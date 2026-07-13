@@ -6376,5 +6376,272 @@
     "entity_type": "technology",
     "summary": "Loop.js is a small, powerful utility for looping over array-like objects. It enables functional patterns like map, filter, and find with a single operation and can break out of the loop early.",
     "last_updated": "2026-07-12"
+  },
+  "beavisultrasound": {
+    "canonical_name": "BeavisUltrasound",
+    "entity_type": "product",
+    "summary": "The BeavisUltrasound is a product training series for the M-Turbo® portable ultrasound system, consisting of four videos: System Overview, Screen Layout, and How to Perform and Exam. The material provided for this entity is incomplete and does not contain a usable overview.",
+    "last_updated": "2026-07-13"
+  },
+  "gravis ultrasound": {
+    "canonical_name": "Gravis Ultrasound",
+    "entity_type": "product",
+    "summary": "The Gravis UltraSound (GUS) is a sound card for the IBM PC compatible system platform, made by Canada-based Advanced Gravis Computer Technology Ltd. It was very popular in the demoscene and utilized the AMD InterWave technology.",
+    "last_updated": "2026-07-13"
+  },
+  "schlae": {
+    "canonical_name": "schlae",
+    "entity_type": "person",
+    "summary": "schlae is a user on GitHub focused on mostly hardware, vintage computing, and cathode ray tubes. The material provided for this entity is incomplete and does not contain a usable overview.",
+    "last_updated": "2026-07-13"
+  },
+  "amd interwave": {
+    "canonical_name": "AMD InterWave",
+    "entity_type": "organization",
+    "summary": "AMD InterWave is a technology used in sound cards, specifically mentioned in the context of the Gravis UltraSound Plug & Play and other compatible devices. The material provided for this entity is incomplete and does not contain a usable overview.",
+    "last_updated": "2026-07-13"
+  },
+  "jrc5532": {
+    "canonical_name": "JRC5532",
+    "entity_type": "ai_model",
+    "summary": "The JRC5532 is a high-performance, low-noise dual operational amplifier with a part number of JRC5532. It is manufactured by New Japan Radio and is available as a 239Kbyte PDF datasheet.",
+    "last_updated": "2026-07-13"
+  },
+  "lm833": {
+    "canonical_name": "LM833",
+    "entity_type": "ai_model",
+    "summary": "The LM833 is a dual operational amplifier with a differential input topology similar to the Op Amp LM741 and a second stage like the Op Amp LM833. The material provided for this entity is incomplete and does not contain a usable overview.",
+    "last_updated": "2026-07-13"
+  },
+  "iw78c21m1": {
+    "canonical_name": "IW78C21M1",
+    "entity_type": "ai_model",
+    "summary": "The material provided for this entity is incomplete and does not contain a usable overview. The query appears to be related to the Gemma 4 model family, but the provided text does not address the IW78C21M1 specifically.",
+    "last_updated": "2026-07-13"
+  },
+  "93c66": {
+    "canonical_name": "93C66",
+    "entity_type": "ai_model",
+    "summary": "The 93C66 is a 4Kbit serial EEPROM with 1 million erase/write cycles and 40-year data retention. It is a 4Kb 5V Microwire (3-wire) Serial EEPROM with a 16-Bit Organization and is compatible with devices like the 93AA66A/B/C, 93LC66A/B/C, and 93C66A/B/C.",
+    "last_updated": "2026-07-13"
+  },
+  "u80": {
+    "canonical_name": "U80",
+    "entity_type": "product",
+    "summary": "The U80 is a custom-designed keyboard board from Rama Works, featuring per-switch RGB LEDs, USB-C connectivity, and an elegant layout with all necessary keys. It represents a re-engineered aesthetic with function and design as paramount, designed to dominate any desk.",
+    "last_updated": "2026-07-13"
+  },
+  "vega": {
+    "canonical_name": "VEGA",
+    "entity_type": "person",
+    "summary": "Vega (Paranoid Cosmologist) is a supporting character in Jackpot Crash Course. Vega appears as a young masculine figure with blue eyes and short blonde hair with strands of light pink. Overview. Experience. Ratings.",
+    "last_updated": "2026-07-13"
+  },
+  "kernelctf": {
+    "canonical_name": "kernelCTF",
+    "entity_type": "event",
+    "summary": "kernelCTF is a part of the Google VRP and is focused on making exploiting Linux kernel vulnerabilities harder by inviting security researchers to demonstrate their exploitation techniques on... [!WARNING]\nThese rules apply from 2026-04-30, you can find the previous version of the rules on Github . k",
+    "last_updated": "2026-07-13"
+  },
+  "ask hn": {
+    "canonical_name": "Ask HN",
+    "entity_type": "organization",
+    "summary": "Ask HN is a thread on Hacker News where users ask questions and others provide answers. The material provided does not contain an overview of the Ask HN organization itself.",
+    "last_updated": "2026-07-13"
+  },
+  "cyberpunk comics": {
+    "canonical_name": "Cyberpunk Comics",
+    "entity_type": "general",
+    "summary": "Cyberpunk is a genre that has seen a resurgence in comics, manga, and graphic novels, blurring the line between fiction and reality. In 2026, elements like neural interfaces and brain-computer interfaces are becoming mainstream, making cyberpunk themes more relevant than ever. The genre is now consi",
+    "last_updated": "2026-07-13"
+  },
+  "manga": {
+    "canonical_name": "Manga",
+    "entity_type": "general",
+    "summary": "Japanese manga is a distinctive form of visual storytelling rooted in Japanese culture, reflecting its society, values, and creative spirit. It is a significant media form that captivates global audiences with its rich narratives and unique art styles. Manga encompasses a wide variety of genres and",
+    "last_updated": "2026-07-13"
+  },
+  "graphic novels": {
+    "canonical_name": "Graphic Novels",
+    "entity_type": "general",
+    "summary": "Graphic novels are a significant media form that goes beyond traditional comics, reflecting society and creative spirit. They offer a rich narrative experience and have potential applications in fields like language teaching. The creation of graphic novels can be facilitated by tools like NotebookLM",
+    "last_updated": "2026-07-13"
+  },
+  "national highway traffic safety administration administrator jonathan morrison": {
+    "canonical_name": "National Highway Traffic Safety Administration administrator Jonathan Morrison",
+    "entity_type": "general",
+    "summary": "Jonathan Morrison is the Administrator of the National Highway Traffic Safety Administration (NHTSA), a U.S. agency tasked with establishing and enforcing vehicle safety standards and educating Americans on safe driving, riding, and walking. He was confirmed as the Administrator of the NHTSA by the",
+    "last_updated": "2026-07-13"
+  },
+  "waymo": {
+    "canonical_name": "Waymo",
+    "entity_type": "general",
+    "summary": "Waymo, formerly the Google self-driving car project, is a company creating safe, autonomous driving technology. It aims to offer freedom of movement and create a sustainable, efficient transportation ecosystem by holding safety to a higher standard.",
+    "last_updated": "2026-07-13"
+  },
+  "nhtsa": {
+    "canonical_name": "NHTSA",
+    "entity_type": "general",
+    "summary": "The National Highway Traffic Safety Administration (NHTSA) is dedicated to achieving the highest standards of excellence in motor vehicle and highway safety. It works to prevent crashes, investigates safety defects, sets fuel economy standards, and promotes the use of safety belts, child safety seat",
+    "last_updated": "2026-07-13"
+  },
+  "department of transportation": {
+    "canonical_name": "Department of Transportation",
+    "entity_type": "general",
+    "summary": "The Department of Transportation (DOT) was established by an act of Congress in 1966 and is responsible for planning and coordinating federal transportation projects. It also sets safety regulations for all major modes of transportation and works to keep traveling Americans safe.",
+    "last_updated": "2026-07-13"
+  },
+  "autonomous vehicle developers": {
+    "canonical_name": "autonomous vehicle developers",
+    "entity_type": "general",
+    "summary": "Autonomous vehicle developers must improve security measures and stay ahead of potential threats. Baidu, through its Apollo project, is a leading company in the autonomous vehicle market, alongside others like Tesla and Waymo, which are creating vehicles that can navigate without human intervention.",
+    "last_updated": "2026-07-13"
+  },
+  "lorde": {
+    "canonical_name": "Lorde",
+    "entity_type": "person",
+    "summary": "Ella Yelich-O'Connor, known by her stage name Lorde, is a New Zealand singer-songwriter who was born on November 7, 1996. Her stage name was chosen because she was fascinated by royalty and lists of long-gone kings and queens. Her parents, a poet and an engineer, encouraged her and her siblings to b",
+    "last_updated": "2026-07-13"
+  },
+  "real cool festival": {
+    "canonical_name": "Real Cool Festival",
+    "entity_type": "event",
+    "summary": "The Real Cool Festival, also known as Mad Cool, is a three-day music event that has grown significantly since its inaugural edition. It attracted 135,000 attendees in 2017 and scaled up to 240,000 attendees in 2018, positioning itself as a major European music event.",
+    "last_updated": "2026-07-13"
+  },
+  "blackpink": {
+    "canonical_name": "Blackpink",
+    "entity_type": "organization",
+    "summary": "BLACKPINK is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Lisa, and Rose. The group debuted on August 8, 2016, with their single Square One, which spawned 'Whistle,' their first number-one song.",
+    "last_updated": "2026-07-13"
+  },
+  "matmos": {
+    "canonical_name": "Matmos",
+    "entity_type": "person",
+    "summary": "Matmos is a Baltimore duo of Drew Daniel and Martin Schmidt, widely respected for their sonic adventures at the vanguard of electronic music. They are known for sampling strange and corporeal sounds, and their process is described as highly collectivist, where the duo works as a collective model rat",
+    "last_updated": "2026-07-13"
+  },
+  "drew daniel": {
+    "canonical_name": "Drew Daniel",
+    "entity_type": "person",
+    "summary": "Drew Daniel is an associate professor of English at Johns Hopkins University and the author of several books, including 'Twenty Jazz Funk Greats' and 'The Melancholy Assemblage.' He is also a member of the experimental electronic duo Matmos and has a background in tennis, as evidenced by his 2008-09",
+    "last_updated": "2026-07-13"
+  },
+  "bjork": {
+    "canonical_name": "Bjork",
+    "entity_type": "person",
+    "summary": "Bjork is a singer, artist, DJ, record producer, songwriter, and composer from Iceland, described as very likely the most famous Icelandic person ever. Iceland is also known for being a shooting spot for famous movies, and some of these locations have become popular enough to be nicknamed after them,",
+    "last_updated": "2026-07-13"
+  },
+  "the soft pink truth": {
+    "canonical_name": "The Soft Pink Truth",
+    "entity_type": "person",
+    "summary": "The Soft Pink Truth is a solo project of Drew Daniel, who is also the half of the experimental electronic duo Matmos. The project showcases his production skills and focuses on dance music, with each album's style shifting nearly as much as Matmos's.",
+    "last_updated": "2026-07-13"
+  },
+  "terrence obrien": {
+    "canonical_name": "Terrence O'Brien",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable overview for Terrence O'Brien. It lists several professionals and one professor with that name on LinkedIn, but does not provide a specific, synthesized overview of a single individual named Terrence O'Brien.",
+    "last_updated": "2026-07-13"
+  },
+  "mark gurman": {
+    "canonical_name": "Mark Gurman",
+    "entity_type": "person",
+    "summary": "Mark Gurman is the managing editor of the consumer technology team for Bloomberg News and chief correspondent for Apple and consumer hardware companies. He is the global leader in news about Apple and has been a news-breaker on Apple stories since high school, including breaking the development of t",
+    "last_updated": "2026-07-13"
+  },
+  "neural engine": {
+    "canonical_name": "Neural Engine",
+    "entity_type": "technology",
+    "summary": "The Neural Engine is a specialized hardware designed to accelerate the processing of artificial neural networks, marking a significant leap towards mimicking the human brain's capabilities. Its development raises ethical considerations, particularly regarding data privacy and security, as it require",
+    "last_updated": "2026-07-13"
+  },
+  "a11 bionic": {
+    "canonical_name": "A11 Bionic",
+    "entity_type": "product",
+    "summary": "The A11 Bionic chip uses 64-bit ARM cores that use the ARM v8-A instruction set. It is compared to the UNISOC T612 processor, with the A11 Bionic having an average rating of 3.6 stars and the UNISOC T612 having an average rating of 3.9 stars.",
+    "last_updated": "2026-07-13"
+  },
+  "mseries chips": {
+    "canonical_name": "M-series chips",
+    "entity_type": "product",
+    "summary": "The M-series chips, including the M1 Pro, M1 Max, M2, and their variants, have demonstrated unparalleled performance and efficiency, signaling a paradigm shift in the computing landscape. Apple's M-series chips are compared against Intel and AMD CPUs using benchmarks like Geekbench, PassMark, and Ci",
+    "last_updated": "2026-07-13"
+  },
+  "m6 chip": {
+    "canonical_name": "M6 chip",
+    "entity_type": "product",
+    "summary": "The Apple M6 chip is the next generation of Apple Silicon, succeeding the M5 family. It is rumored to move to a new manufacturing node: TSMC’s 3nm process. The M6 is expected to power new products, including a rumored MacBook Ultra with a touchscreen, OLED, and Dynamic Island.",
+    "last_updated": "2026-07-13"
+  },
+  "steelseries arctis nova pro wireless": {
+    "canonical_name": "SteelSeries Arctis Nova Pro Wireless",
+    "entity_type": "general",
+    "summary": "The SteelSeries Arctis Nova Pro Wireless is a full-size wireless headset that supports both Bluetooth and 2.4 GHz radio frequency connectivity. It features active noise canceling and is compatible with Nintendo Switch, Sony PlayStation 4, and Sony PlayStation 5 systems.",
+    "last_updated": "2026-07-13"
+  },
+  "philips hue": {
+    "canonical_name": "Philips Hue",
+    "entity_type": "product",
+    "summary": "Philips Hue is a brand of smart home products that includes LED lights, security cameras, and sensors. The products can be used to create starter kits, set the mood in various rooms, and provide effective security lighting. The Hue app and Zigbee technology allow the lights, sensors, and cameras to",
+    "last_updated": "2026-07-13"
+  },
+  "oura ring 5": {
+    "canonical_name": "Oura Ring 5",
+    "entity_type": "general",
+    "summary": "The Oura Ring 5 is a smart ring that is 40% smaller and features a titanium design. It provides up to 9 days of battery life and tracks over 50 health metrics related to sleep, activity, stress, and heart health.",
+    "last_updated": "2026-07-13"
+  },
+  "frenzymath": {
+    "canonical_name": "frenzymath",
+    "entity_type": "organization",
+    "summary": "FrenzyMath is an organization focused on text generation and AI-assisted Lean project automation, with a dataset of 8B parameters updated in July. The organization has no public members and its profile page encountered loading errors.",
+    "last_updated": "2026-07-13"
+  },
+  "danus": {
+    "canonical_name": "Danus",
+    "entity_type": "product",
+    "summary": "Danus LLC is an authorized distributor of Amada Band Saw Machines and Blades, specializing in cutting and machining solutions for metal. Their product range includes band saw machines, blades, and hydraulic power tools, and they also supply low GWP refrigerant products and reclaimed refrigerant.",
+    "last_updated": "2026-07-13"
+  },
+  "rethlas": {
+    "canonical_name": "Rethlas",
+    "entity_type": "ai_model",
+    "summary": "Rethlas is a natural-language reasoning system for mathematics built around two Codex agents. The generation agent reads a math problem from a markdown file and writes an informal proof blueprint, with an intended deployment order involving the generation and planning agents.",
+    "last_updated": "2026-07-13"
+  },
+  "clodex": {
+    "canonical_name": "Clodex",
+    "entity_type": "technology",
+    "summary": "Clodex is an open-source agentic development environment that combines persistent AI tasks, code, terminal, browser, Git, models, memory, and controlled execution in one Electron workspace. It is built around the principle that model output is untrusted input, with authority coming from explicit pol",
+    "last_updated": "2026-07-13"
+  },
+  "dontsleeponai": {
+    "senses": [
+      {
+        "sense_label": "person",
+        "summary": "The provided material does not contain a usable answer for this person overview.",
+        "last_updated": "2026-07-13"
+      }
+    ]
+  },
+  "doriandarko": {
+    "canonical_name": "Doriandarko",
+    "entity_type": "person",
+    "summary": "Doriandarko is a passionate AI engineer focused on democratizing AI tools. He is the founder of MagicPath (magicpath.ai) and has 65 repositories with 0 projects.",
+    "last_updated": "2026-07-13"
+  },
+  "textstotransformer": {
+    "canonical_name": "texts-to-transformer",
+    "entity_type": "technology",
+    "summary": "Texts to Transformer. Train a tiny language model from scratch on your iMessage history, entirely on your Mac. This repository contains the complete pipeline: safe Messages database snapshotting, text extraction and pseudonymization, leakage-resistant dataset splits, tokenizer training... Train a ti",
+    "last_updated": "2026-07-13"
+  },
+  "youxiandechilunguido": {
+    "canonical_name": "youxiandechilun/Guido",
+    "entity_type": "technology",
+    "summary": "Guangxi Youxi Technology Co., Ltd. is a company that produces products such as pergolas, canopies, louvers, and carports. Shenzhen Gui Yi Technology Co., Ltd. manufactures sensor modules, display modules, power modules, wireless modules, and PCBs. The Information Technology Industry Council (ITI) is",
+    "last_updated": "2026-07-13"
   }
 }
