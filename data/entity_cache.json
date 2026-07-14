@@ -5946,13 +5946,10 @@
     ]
   },
   "counterpoint": {
-    "senses": [
-      {
-        "sense_label": "market research firm",
-        "summary": "Counterpoint is a global technology market research firm in the TMT industry. Our detailed analysis of report helps you to make better business decisions.",
-        "last_updated": "2026-07-11"
-      }
-    ]
+    "canonical_name": "Counterpoint",
+    "entity_type": "general",
+    "summary": "In counterpoint, we pay attention to the harmonic intervals formed between the different melodies, and there are many “rules” that govern how the intervals are to be used and mixed. COUNTERPOINT - BASIC OVERVIEW “In its most general aspect, counterpoint involves the writing of musical lines that sou",
+    "last_updated": "2026-07-14"
   },
   "spotify": {
     "canonical_name": "Spotify",
@@ -6643,5 +6640,476 @@
     "entity_type": "technology",
     "summary": "Guangxi Youxi Technology Co., Ltd. is a company that produces products such as pergolas, canopies, louvers, and carports. Shenzhen Gui Yi Technology Co., Ltd. manufactures sensor modules, display modules, power modules, wireless modules, and PCBs. The Information Technology Industry Council (ITI) is",
     "last_updated": "2026-07-13"
+  },
+  "japan": {
+    "canonical_name": "Japan",
+    "entity_type": "organization",
+    "summary": "The Japan Student Services Organization provides loan guarantee programs for scholarship loans. The Japan National Tourism Organization serves as a guide for tourists visiting Tokyo, Kyoto, Osaka, and other locations in Japan.",
+    "last_updated": "2026-07-14"
+  },
+  "ev": {
+    "canonical_name": "EV",
+    "entity_type": "technology",
+    "summary": "Electric vehicles (EVs) are presented as a solution to ecological issues from conventional vehicles. The overview covers advancements in battery technology, environmental impact, charging infrastructure, and vehicle design.",
+    "last_updated": "2026-07-14"
+  },
+  "lithium": {
+    "canonical_name": "lithium",
+    "entity_type": "technology",
+    "summary": "Lithium-ion batteries have high energy densities, up to 330 Wh/kg, and are the predominant commercial rechargeable battery. They are widely used in portable electronics and electrified transportation, unlike other battery technologies like lead-acid.",
+    "last_updated": "2026-07-14"
+  },
+  "black mass": {
+    "canonical_name": "black mass",
+    "entity_type": "technology",
+    "summary": "Black mass is the shredded, mixed-metal powder recovered from end-of-life lithium-ion batteries. It is processed into separated, battery-grade nickel, cobalt, lithium, manganese, and graphite using specialized media and refining units.",
+    "last_updated": "2026-07-14"
+  },
+  "nhk world": {
+    "canonical_name": "NHK World",
+    "entity_type": "organization",
+    "summary": "NHK WORLD-JAPAN is the international service of Japan's public media organization, NHK. It provides information on Japan and Asia to a global audience through television, radio, and online platforms.",
+    "last_updated": "2026-07-14"
+  },
+  "git": {
+    "canonical_name": "git",
+    "entity_type": "technology",
+    "summary": "Git is a mature, actively maintained open source revision control system used by thousands of developers. It is used for tasks like setting up a repository, saving changes, inspecting a repository, undoing changes, rewriting history, and collaborating workflows.",
+    "last_updated": "2026-07-14"
+  },
+  "jj": {
+    "canonical_name": "jj",
+    "entity_type": "technology",
+    "summary": "J&J Technologies, Inc. is a provider of full-service electronic manufacturing services, specializing in printed circuit board assemblies. The company partners with industrial, commercial, and military clients to deliver solutions.",
+    "last_updated": "2026-07-14"
+  },
+  "jetbrains": {
+    "senses": [
+      {
+        "sense_label": "company/product",
+        "summary": "JetBrains is a global software company that creates intelligent tools for software developers. It specializes in creating development tools, including the IntelliJ IDEA Java IDE and the Kotlin programming language.",
+        "last_updated": "2026-07-14"
+      }
+    ]
+  },
+  "speechanalyzer": {
+    "canonical_name": "SpeechAnalyzer",
+    "entity_type": "product",
+    "summary": "SpeechAnalyzer is a new on-device speech recognition API within Apple's Speech framework for iOS 26. It operates entirely locally, processing audio without sending data to the cloud, which ensures user privacy and eliminates per-call API fees for developers.",
+    "last_updated": "2026-07-14"
+  },
+  "sfspeechrecognizer": {
+    "canonical_name": "SFSpeechRecognizer",
+    "entity_type": "product",
+    "summary": "SFSpeechRecognizer is the central object for managing the speech recognizer process in Apple's framework. It is used to request authorization, specify the language, and initiate new speech recognition tasks, forming the basis for speech-to-text functionality in modern iOS apps.",
+    "last_updated": "2026-07-14"
+  },
+  "whisper": {
+    "canonical_name": "Whisper",
+    "entity_type": "ai_model",
+    "summary": "Whisper is a general-purpose speech recognition model trained on a large dataset of diverse audio. It is a multitasking model capable of performing multilingual speech recognition, speech translation, and language identification.",
+    "last_updated": "2026-07-14"
+  },
+  "librispeech": {
+    "canonical_name": "LibriSpeech",
+    "entity_type": "technology",
+    "summary": "LibriSpeech is a corpus of approximately 1000 hours of read English speech with a 16 kHz sampling rate, prepared for speech recognition tasks. It is used as a benchmark for evaluating speech recognition models, such as the one trained on the librispeech-asr benchmark.",
+    "last_updated": "2026-07-14"
+  },
+  "inscribe": {
+    "canonical_name": "Inscribe",
+    "entity_type": "product",
+    "summary": "Inscribe is an agentic document fraud detection platform built for financial services. It analyzes submitted documents like bank statements and pay stubs using multiple layers of AI to identify manipulation, fabrication, and fraud.",
+    "last_updated": "2026-07-14"
+  },
+  "will douglas heaven": {
+    "canonical_name": "Will Douglas Heaven",
+    "entity_type": "person",
+    "summary": "Will Douglas Heaven is the senior editor for AI at MIT Technology Review, where he covers emerging trends and the people behind the tech. Previously, he was founding editor at the BBC tech-meets-geopolitics website Future Now and chief technology editor at New Scientist magazine. He has a PhD in com",
+    "last_updated": "2026-07-14"
+  },
+  "dario amodei": {
+    "canonical_name": "Dario Amodei",
+    "entity_type": "person",
+    "summary": "Dario Amodei is the co-founder and CEO of Anthropic, an AI safety company. He cofounded the company in 2021 with former OpenAI employees and has a PhD in computer science from Imperial College London. His work focuses on building large-scale artificial intelligence systems and exploring AI safety.",
+    "last_updated": "2026-07-14"
+  },
+  "tom blomfield": {
+    "canonical_name": "Tom Blomfield",
+    "entity_type": "person",
+    "summary": "Tom Blomfield is a person with a profile on LinkedIn, a professional community of 1 billion members. He is based in San Francisco, California, and has 30K followers and 500+ connections. His specialties are in start-ups, technology, and business consulting.",
+    "last_updated": "2026-07-14"
+  },
+  "gocardless": {
+    "canonical_name": "GoCardless",
+    "entity_type": "company",
+    "summary": "GoCardless believes bank payments are the best way to pay and get paid. The company is making it easy to use bank payments and bank account data for businesses to make better, faster decisions. They aim to collect payments domestically or internationally without chasing, stress, or expensive fees.",
+    "last_updated": "2026-07-14"
+  },
+  "monzo": {
+    "canonical_name": "Monzo",
+    "entity_type": "company",
+    "summary": "Monzo is a smart bank built on a smartphone, founded in 2015 by a team led by Tom Blomfield. The company reported its first annual profit of £15.4 million for the year ending March 2024 and has over 15 million personal and business customers. Monzo is building a bank of the future and has opened an",
+    "last_updated": "2026-07-14"
+  },
+  "y combinator": {
+    "canonical_name": "Y Combinator",
+    "entity_type": "organization",
+    "summary": "Y Combinator is a US-based seed accelerator started in March 2005 by Paul Graham, Jessica Livingston, Trevor Blackwell, and Robert Tappan Morris. It pioneered a new model for funding startups, including funding companies in batches, giving standardized terms, and having weekly dinners that culminate",
+    "last_updated": "2026-07-14"
+  },
+  "mike krieger": {
+    "canonical_name": "Mike Krieger",
+    "entity_type": "person",
+    "summary": "Mike Krieger is the current Chief Product Officer of Anthropic and previously worked as Chief Technology Officer at Artifact. He was chosen for the selective Mayfield Fellows Program in 2007 and received a Webby Breakout Award in 2012. Krieger is a co-founder of Instagram and now shares insights on",
+    "last_updated": "2026-07-14"
+  },
+  "andrej karpathy": {
+    "canonical_name": "Andrej Karpathy",
+    "entity_type": "person",
+    "summary": "Andrej Karpathy is an AI researcher and educator and a founding member of OpenAI. He later served as the Director of AI at Tesla, where he led the computer vision team of the Autopilot. He is described as a Ti-dominant, openness-maximized researcher who does his best work building systems from first",
+    "last_updated": "2026-07-14"
+  },
+  "eureka labs": {
+    "canonical_name": "Eureka Labs",
+    "entity_type": "company",
+    "summary": "Eureka Labs is a technology and mobile app development company headquartered in Recife, Brazil. The company is described as having a strong client satisfaction profile with a high net promoter score, indicating reliability in delivering outcomes and staying aligned with client goals.",
+    "last_updated": "2026-07-14"
+  },
+  "chamath palihapitiya": {
+    "canonical_name": "Chamath Palihapitiya",
+    "entity_type": "person",
+    "summary": "Chamath Palihapitiya is a Co-Founder and CEO at 8090 Solutions and the Founder of Social Capital. He is married to Nathalie Dompe, who is the second wife of the venture capitalist and entrepreneur. The TOI Lifestyle Desk is a dynamic team of journalists who curate lifestyle news for The Times of Ind",
+    "last_updated": "2026-07-14"
+  },
+  "8090 labs": {
+    "canonical_name": "8090 Labs",
+    "entity_type": "company",
+    "summary": "8090 Labs is an AI startup founded by Chamath Palihapitiya that focuses on creating advanced AI tools for large enterprises. The company develops Software Factory, an AI system designed to help corporate teams build reliable software with proper controls and audit features, addressing the challenges",
+    "last_updated": "2026-07-14"
+  },
+  "salesforce ventures": {
+    "canonical_name": "Salesforce Ventures",
+    "entity_type": "organization",
+    "summary": "Salesforce Ventures helps founders build companies that reinvent the way the world works. Since 2009, the firm has invested in and partnered with more than 400 enterprise software companies, providing patient capital, community, and access to resources. They have invested in over 630 startups, deplo",
+    "last_updated": "2026-07-14"
+  },
+  "pixverse": {
+    "canonical_name": "PixVerse",
+    "entity_type": "company",
+    "summary": "PixVerse is a company focused on AI video generation, building a global video ecosystem to unlock creativity. It makes its benefits accessible to professionals and enthusiasts by allowing users to upload images or input prompts to generate dynamic, high-fidelity videos. The company is advancing the",
+    "last_updated": "2026-07-14"
+  },
+  "alibaba": {
+    "canonical_name": "Alibaba",
+    "entity_type": "company",
+    "summary": "Alibaba Group Holding Limited is a multinational technology company primarily engaged in e-commerce, cloud computing, digital media, and logistics services. It provides technology infrastructure and marketing reach to help merchants, brands, and retailers. The company also offers a comprehensive sco",
+    "last_updated": "2026-07-14"
+  },
+  "lollapalooza capital": {
+    "canonical_name": "Lollapalooza Capital",
+    "entity_type": "company",
+    "summary": "Lollapalooza Capital is an investment firm that backs exceptional founders across LLM, AI infrastructure, 2C/2B AI applications, intelligent hardware, and robotics & embodied AI. It uses research-driven venture capital with operator empathy and long-horizon judgment to invest in early and growth-sta",
+    "last_updated": "2026-07-14"
+  },
+  "ivy capital": {
+    "canonical_name": "Ivy Capital",
+    "entity_type": "company",
+    "summary": "Ivy Capital focuses on investing in early- or growth-stage enterprises in emerging industries such as Cloud Computing, Big Data, Video & Video Streaming, Robotics, and Artificial Intelligence. Its specialties include Financial Services, Private Equity, Growth Equity, Hedge Fund, and Venture Capital.",
+    "last_updated": "2026-07-14"
+  },
+  "grand mount capital": {
+    "canonical_name": "Grand Mount Capital",
+    "entity_type": "company",
+    "summary": "Grand Mount Capital (GMC) is a dedicated healthcare venture capital firm established in 2019 by state-owned capital and investment professionals. It is based in Jingan, China, and provides equity funding to early-stage companies in biopharmaceuticals, medical devices, and diagnostics. GMC functions",
+    "last_updated": "2026-07-14"
+  },
+  "eastern bell capital": {
+    "canonical_name": "Eastern Bell Capital",
+    "entity_type": "company",
+    "summary": "Eastern Bell Capital is a China-based venture capital and private equity firm established in 2010. It is an ecosystem-based fund focused on improving industry efficiency with supply chain as its core competence, investing in early-stage and growth-stage companies in supply chain, logistics, retail,",
+    "last_updated": "2026-07-14"
+  },
+  "mirae asset": {
+    "canonical_name": "Mirae Asset",
+    "entity_type": "company",
+    "summary": "Mirae Asset is an unfunded company based in Hong Kong, founded in 2004, that operates as an online platform for investments in mutual funds and ETFs. It is the first Asian asset manager to bring Global X ETFs onchain, with initial tokenized ETFs in sectors like AI, robotics, and defense. The company",
+    "last_updated": "2026-07-14"
+  },
+  "bluefocus": {
+    "canonical_name": "BlueFocus",
+    "entity_type": "company",
+    "summary": "BlueFocus is a marketing technology company dedicated to empowering enterprises in intelligent operations. Its core businesses include global outbound marketing, performance advertising, and digital marketing services. The company operates under a strategic positioning in Marketing Intelligence, Glo",
+    "last_updated": "2026-07-14"
+  },
+  "cloudalpha": {
+    "canonical_name": "CloudAlpha",
+    "entity_type": "company",
+    "summary": "CloudAlpha manages a long/short equity fund focused on the global technology sector. The firm has made 2 investments, with its latest being in Horizon Robotics as part of a Series C-II round on January 07, 2021. The company's activities are disclosed in its 13F filings.",
+    "last_updated": "2026-07-14"
+  },
+  "iglobe partners": {
+    "canonical_name": "iGlobe Partners",
+    "entity_type": "company",
+    "summary": "iGlobe Partners was established in 1999 by Soo Boon Koh in Silicon Valley and headquartered in Singapore in 2009. It pioneered Singapore's venture capital scene as the country's first female-led VC firm and has since become a premier global VC with a strong track record. The firm was founded to set",
+    "last_updated": "2026-07-14"
+  },
+  "ocbcs lion x ventures": {
+    "canonical_name": "OCBC’s Lion X Ventures",
+    "entity_type": "company",
+    "summary": "OCBC’s Lion X Ventures is a Singapore-based investment entity. The material provided does not contain a usable answer for a company overview of Lion X Ventures.",
+    "last_updated": "2026-07-14"
+  },
+  "bytedance": {
+    "canonical_name": "ByteDance",
+    "entity_type": "company",
+    "summary": "ByteDance is a global incubator of platforms at the cutting edge of commerce, content, entertainment, and enterprise services, with over 2.5 billion people interacting with its products. It is a global platform company focused on creation, with its products built to help imaginations thrive. The com",
+    "last_updated": "2026-07-14"
+  },
+  "lighthouse capital": {
+    "canonical_name": "Lighthouse Capital",
+    "entity_type": "company",
+    "summary": "Lighthouse Capital is a multi-manager, multi-strategy hedge fund focused on digital assets, delivering risk-adjusted returns with institutional discipline. The firm is shaped by cycles, not headlines, and is grounded in experience, defined by discipline, and built to operate through volatility. Its",
+    "last_updated": "2026-07-14"
+  },
+  "robot ventures": {
+    "canonical_name": "Robot Ventures",
+    "entity_type": "company",
+    "summary": "Robot Ventures is a (pre-)seed investor in exceptional fintech and blockchain companies led by founders with big ambitions and contrarian worldviews. The firm has a diverse portfolio of over 190 companies and focuses on venture capital in North America, with an AUM of $75M.",
+    "last_updated": "2026-07-14"
+  },
+  "usv": {
+    "canonical_name": "USV",
+    "entity_type": "company",
+    "summary": "USV is a key player in healthcare, known for brands like Glycomet and Ecosprin, and has been in business since 1963. The family-run company, based in Mumbai, India, had FY24 revenues of Rs 4,840 crore and aims to strengthen its position despite challenges.",
+    "last_updated": "2026-07-14"
+  },
+  "jeffrey quesnelle": {
+    "canonical_name": "Jeffrey Quesnelle",
+    "entity_type": "person",
+    "summary": "Jeffrey Quesnelle is the co-founder and CTO of Nous Research, known for his work on decentralized AI training systems and earlier research into Zcash's privacy limits. He holds an M.S. in Computer Science and previously worked in automotive software engineering before moving into blockchain and AI.",
+    "last_updated": "2026-07-14"
+  },
+  "karan malhotra": {
+    "canonical_name": "Karan Malhotra",
+    "entity_type": "person",
+    "summary": "Karan Malhotra is a professional with 2K followers and 500+ connections, serving as President of Toastmasters and Co-founder of UMD Chapter of Phi Gamma Nu. He is also the Director of Finance at Offshore Accounting and Taxation Services Pvt. Ltd., a firm specializing in multi-state SaaS tax complian",
+    "last_updated": "2026-07-14"
+  },
+  "ryan teknium": {
+    "canonical_name": "Ryan Teknium",
+    "entity_type": "person",
+    "summary": "Ryan Teknium is the Co-founder and Head of Post-Training at Nous Research, an open-source AI lab focused on advancing foundational models. He is regarded as the most outspoken and enigmatic co-founder of the company and is building the future of AI through open research.",
+    "last_updated": "2026-07-14"
+  },
+  "shivani mitra": {
+    "canonical_name": "Shivani Mitra",
+    "entity_type": "person",
+    "summary": "Shivani Mitra is a visionary leader and entrepreneur at the intersection of AI, blockchain, and art, co-founding Nous Research and the Museum of Crypto Art. She is a Researcher at Nous Research, an Investor at Shiro San Fund, and a Co-Founder at the Museum of Crypto Art.",
+    "last_updated": "2026-07-14"
+  },
+  "opensource": {
+    "canonical_name": "Open-source",
+    "entity_type": "technology",
+    "summary": "Open Source Technology is defined as software that allows users to access, study, modify, and distribute its human-readable source code freely. It is a decentralized development model that distributes source code publicly for open collaboration, contrasting with proprietary software like Microsoft W",
+    "last_updated": "2026-07-14"
+  },
+  "hermes": {
+    "canonical_name": "Hermes",
+    "entity_type": "product",
+    "summary": "Hermes is a renowned luxury goods company founded in Paris in 1837, known for its timeless designs, exceptional craftsmanship, and commitment to quality. The company has carved a niche in the luxury market with iconic products like the Birkin and Kelly bags, and its competitive advantage is attribut",
+    "last_updated": "2026-07-14"
+  },
+  "telegram": {
+    "canonical_name": "Telegram",
+    "entity_type": "product",
+    "summary": "Telegram is a cloud-based instant messaging service famous for its lightning speed and tight security protocols. It has evolved into a powerful communication tool, surpassing the limitations of standard text messaging apps, and offers features like AI bots, bot-to-bot chats, and custom AI styles.",
+    "last_updated": "2026-07-14"
+  },
+  "starship": {
+    "canonical_name": "Starship",
+    "entity_type": "technology",
+    "summary": "Starship is an innovative, cloud-based management platform for Cisco UCS and HyperFlex systems. It is designed to help users try out the platform through a Tech Preview.",
+    "last_updated": "2026-07-14"
+  },
+  "starlink": {
+    "canonical_name": "Starlink",
+    "entity_type": "technology",
+    "summary": "Starlink is a satellite constellation system that aims to deliver global internet coverage. It uses a constellation of low Earth orbit (LEO) satellites to provide high-speed internet services, particularly for rural and geographically isolated areas.",
+    "last_updated": "2026-07-14"
+  },
+  "oneplus": {
+    "canonical_name": "OnePlus",
+    "entity_type": "company",
+    "summary": "OnePlus is a company with 5 employees across 2 locations. It is described as an internet-first brand offering multi-category consumer electronics, with a product portfolio that includes smartphones, wireless earbuds, wearable devices, and fast chargers.",
+    "last_updated": "2026-07-14"
+  },
+  "oppo": {
+    "canonical_name": "Oppo",
+    "entity_type": "company",
+    "summary": "OPPO is a privately-owned Chinese consumer electronics manufacturer founded in 2004 and headquartered in Shenzhen, Guangdong. The company has a global presence and offers a product portfolio that includes smartphones, TWS earbuds, and smartwatches.",
+    "last_updated": "2026-07-14"
+  },
+  "dji mic 3": {
+    "canonical_name": "DJI Mic 3",
+    "entity_type": "model_release",
+    "summary": "The material compares the DJI Mic 3 with the Hollyland Lark Max 2, highlighting both as compact, feature-packed wireless microphone systems for creators. It positions the comparison as a head-to-head analysis for users like photographers and videographers who need professional-quality audio for cont",
+    "last_updated": "2026-07-14"
+  },
+  "best buy": {
+    "canonical_name": "Best Buy",
+    "entity_type": "model_release",
+    "summary": "The material describes Best Buy's services, including the Best Buy Membership, Protection, and Business programs. It also lists various deals and promotions, such as a $50 bonus discount for pre-orders, savings on Surface Laptops, and discounts on select Samsung phones, headphones, and speakers.",
+    "last_updated": "2026-07-14"
+  },
+  "bh photo": {
+    "canonical_name": "B&H Photo",
+    "entity_type": "model_release",
+    "summary": "The material provides information about B&H Photo-Video, noting that it has a large number of verified reviews on ConsumerAffairs. It also mentions a specific deal: a $300 discount on 12-inch MacBook models and highlights a guide for new iOS 26 features.",
+    "last_updated": "2026-07-14"
+  },
+  "shokz openrun pro": {
+    "canonical_name": "Shokz OpenRun Pro",
+    "entity_type": "product",
+    "summary": "The Shokz OpenRun Pro is a bone conduction headphone with an open ear design, featuring enhanced bass, all-day comfort, and IP55 water resistance. It is designed for runners and athletes and is available in a new lunar white color. The product includes a carrying case, USB-C charging cable, user gui",
+    "last_updated": "2026-07-14"
+  },
+  "google pixel 11": {
+    "canonical_name": "Google Pixel 11",
+    "entity_type": "model_release",
+    "summary": "The material compares the Google Pixel 11 and Google Pixel 10A, noting the Pixel 11's specs and features against the 10A. It mentions the current lowest price for the Pixel 11 is $849 and that the Pixel 11 series appeared on the FCC's website, suggesting an imminent launch.",
+    "last_updated": "2026-07-14"
+  },
+  "google pixel 11 pro": {
+    "canonical_name": "Google Pixel 11 Pro",
+    "entity_type": "model_release",
+    "summary": "The material compares the Google Pixel 11 Pro against the Nothing Phone (4a) Pro, listing their specs and features. It states the current lowest price for the Pixel 11 Pro is ₹1,11,999 and that Google has officially confirmed its next flagship phone.",
+    "last_updated": "2026-07-14"
+  },
+  "google pixel 11 pro fold": {
+    "canonical_name": "Google Pixel 11 Pro Fold",
+    "entity_type": "model_release",
+    "summary": "The material provides an expected specifications overview for the Google Pixel 11 Pro Fold, including a 5050 mah battery and a triple rear camera setup with 48MP sensors. It notes the design is virtually unchanged from its predecessor and that images from a leak show the device.",
+    "last_updated": "2026-07-14"
+  },
+  "google pixel tag": {
+    "canonical_name": "Google Pixel Tag",
+    "entity_type": "model_release",
+    "summary": "The material describes the Google Pixel Tag as a next-generation device, with alleged renders showing it in three different color finishes. It indicates the images are from placeholder listings on Amazon and that Google is not planning a major visual revamp for the base Pixel 11 this year.",
+    "last_updated": "2026-07-14"
+  },
+  "9to5google": {
+    "canonical_name": "9to5Google",
+    "entity_type": "company",
+    "summary": "9to5Google is a technology news site that chronicles new developments and explains their significance. It is committed to covering Google's impact on Search, Assistant, Android, Chrome, Pixel, and Nest hardware, and aims to be a top influencer in the tech community.",
+    "last_updated": "2026-07-14"
+  },
+  "emma roth": {
+    "canonical_name": "Emma Roth",
+    "entity_type": "person",
+    "summary": "Emma Roth is a news writer at The Verge who covers the tech industry, with a focus on the streaming industry, artificial intelligence, and the relationship between government and Big Tech. Her work has been featured in publications like MakeUseOf, TechWiki, and Times Observer.",
+    "last_updated": "2026-07-14"
+  },
+  "siri ai": {
+    "canonical_name": "Siri AI",
+    "entity_type": "ai_model",
+    "summary": "Next-generation Apple Intelligence and Siri AI bring helpful features to iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, and visionOS 27. New Apple Intelligence features are coming this fall, with Siri AI coming in English later this year. The next generation of Apple Intelligence and Siri is desc",
+    "last_updated": "2026-07-14"
+  },
+  "watchos 27": {
+    "canonical_name": "watchOS 27",
+    "entity_type": "technology",
+    "summary": "watchOS 27 with all-new Siri powered by Apple Intelligence and new features for a more responsive and delightful experience. watchOS 27 is coming this fall, and it includes a dedicated Siri app, a dynamic app grid, and a new single tap gesture for the Smart Stack widget. The Health app's Cycle Track",
+    "last_updated": "2026-07-14"
+  },
+  "feynman": {
+    "canonical_name": "Feynman",
+    "entity_type": "person",
+    "summary": "Richard Feynman was an American theoretical physicist, born in 1918, who was considered the most brilliant and influential figure in his field after World War II. He attended MIT for his undergraduate studies and earned his Ph.D. from Princeton University.",
+    "last_updated": "2026-07-14"
+  },
+  "mach": {
+    "canonical_name": "Mach",
+    "entity_type": "person",
+    "summary": "Mach refers to the personality trait of Machiavellianism, which was first empirically addressed in the 1970 book 'Studies in Machiavellianism' by Christie and Geis. The MACH-IV scale, developed by the authors, is the standard self-assessment tool for this trait, and the book reviews studies on Machi",
+    "last_updated": "2026-07-14"
+  },
+  "feynmans experiment": {
+    "canonical_name": "Feynman's experiment",
+    "entity_type": "experiment",
+    "summary": "Feynman's experiment involves shooting particles like electrons through slits to measure distribution patterns, which reveals wave-like behavior in matter. This methodology consistently shows interference patterns, confirming the principle of wave-particle duality.",
+    "last_updated": "2026-07-14"
+  },
+  "reverse sprinkler problem": {
+    "canonical_name": "reverse sprinkler problem",
+    "entity_type": "problem",
+    "summary": "The reverse sprinkler problem is a long-standing physics puzzle about how a sprinkler would work if water flowed into it instead of out of it. For decades, scientists have studied this mystery, and recent research has finally provided a solution by analyzing the behavior of 'silly sprinklers' in rev",
+    "last_updated": "2026-07-14"
+  },
+  "omdia": {
+    "canonical_name": "Omdia",
+    "entity_type": "general",
+    "summary": "To learn more, visit www.omdia.com. Omdia was formed in 2020 following the merger of IHS Markit, Tractica, Ovum and Heavy Reading. View all 595 employees Omdia, part of Informa TechTarget, Inc. (Nasdaq: TTGT), is a technology research and advisory group. Our deep knowledge of tech markets grounded i",
+    "last_updated": "2026-07-14"
+  },
+  "alisa0808voxdirector": {
+    "canonical_name": "Alisa0808/vox-director",
+    "entity_type": "general",
+    "summary": "Alisa0808/vox-director is an agent skill that automates the creation of a Vox-style paper-collage explainer video. It takes a one-line topic and generates a finished video with torn-paper collage posters, voice-over, music, and captions, running on an Atlas Cloud API key and local ffmpeg.",
+    "last_updated": "2026-07-14"
+  },
+  "jacobian lens": {
+    "canonical_name": "Jacobian Lens",
+    "entity_type": "technology",
+    "summary": "The Jacobian lens is a technology that reads out what an internal activation is disposed to make a model say. It linearly transports a residual-stream vector at any layer and position into the final-layer basis, then decodes it with the model's own unembedding into a ranked list of vocabulary tokens",
+    "last_updated": "2026-07-14"
+  },
+  "hugging face": {
+    "canonical_name": "Hugging Face",
+    "entity_type": "organization",
+    "summary": "Hugging Face is an organization that ranks #8 with 32 mentions by AI models and holds a 12.9% share of voice across 4 AI assistants. It provides tools like Hugging Face Fundamentals, a learning track on DataCamp, and offers a community platform for building and sharing machine learning models.",
+    "last_updated": "2026-07-14"
+  },
+  "jwash": {
+    "canonical_name": "J-Wash",
+    "entity_type": "product",
+    "summary": "J-Wash is a local studio for exploring and editing the identity and behavior of Hugging Face decoder LLMs. It allows users to edit token directions to reshape a model's identity, such as changing 'I am a large language model' to 'I am a large language fish', and export the result as a standalone mod",
+    "last_updated": "2026-07-14"
+  },
+  "herry2059projectosforcodex": {
+    "canonical_name": "herry2059/project-os-for-codex",
+    "entity_type": "repo_analysis",
+    "summary": "A pre-configured task executes silently when the user opens the repository folder in the IDE, triggering platform-specific loaders that decode embedded payloads on Linux, macOS, and Windows. Since at least 2022, North Korea-aligned threat actors have made a concerted effort to target developers usin",
+    "last_updated": "2026-07-14"
+  },
+  "coder_eval": {
+    "canonical_name": "coder_eval",
+    "entity_type": "technology",
+    "summary": "coder_eval is a framework for evaluating AI coding agents and their skills, built for CLI and skill builders. It provides sandboxing, reproducibility, and data-driven analysis to measure how effective CLI and skills are when used by coding agents.",
+    "last_updated": "2026-07-14"
+  },
+  "uipath": {
+    "canonical_name": "UiPath",
+    "entity_type": "organization",
+    "summary": "UiPath develops AI technology that mirrors human intelligence to transform how businesses operate and innovate. The company focuses on security, accuracy, and resiliency to shape a world where AI enhances human potential and revolutionizes industries.",
+    "last_updated": "2026-07-14"
+  },
+  "google antigravity": {
+    "canonical_name": "Google Antigravity",
+    "entity_type": "ai_model",
+    "summary": "Google Antigravity is a platform powered by the Gemini 3 AI model that allows developers to orchestrate autonomous AI agents. These agents can plan tasks, write code, run tests, and interact with web browsers, with all actions recorded in logs, plans, and screenshots.",
+    "last_updated": "2026-07-14"
+  },
+  "quazi07": {
+    "canonical_name": "Quazi-07",
+    "entity_type": "ai_model",
+    "summary": "Quazi-07 is a user with a Ph.D. in big data analysis via machine learning, interested in data analysis, visualization, and deep learning. They are looking to collaborate on data science and can be reached via email.",
+    "last_updated": "2026-07-14"
+  },
+  "nih": {
+    "canonical_name": "NIH",
+    "entity_type": "organization",
+    "summary": "The National Institutes of Health (NIH) is composed of 27 Institutes and Centers, each with a specific research agenda. Most components are funded by Congress and have their own budgets, with the Office of the Director setting policy and coordinating activities.",
+    "last_updated": "2026-07-14"
   }
 }
