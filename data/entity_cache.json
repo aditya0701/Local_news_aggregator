@@ -7111,5 +7111,131 @@
     "entity_type": "organization",
     "summary": "The National Institutes of Health (NIH) is composed of 27 Institutes and Centers, each with a specific research agenda. Most components are funded by Congress and have their own budgets, with the Office of the Director setting policy and coordinating activities.",
     "last_updated": "2026-07-14"
+  },
+  "jurassic park": {
+    "canonical_name": "Jurassic Park",
+    "entity_type": "movie",
+    "summary": "Jurassic Park is a film series that grapples with the consequences of reintroducing dinosaurs in the present day through laboratory cloning. The plot involves a wealthy industrialist who creates a theme park populated with cloned dinosaurs on a remote island, Isla Nublar, facing skepticism from inve",
+    "last_updated": "2026-07-15"
+  },
+  "tailscale": {
+    "canonical_name": "Tailscale",
+    "entity_type": "company",
+    "summary": "Tailscale is a company that provides a Zero Trust identity-based connectivity platform. This platform is designed to replace legacy VPN, SASE, and PAM solutions, enabling secure connections for remote teams, multi-cloud environments, CI/CD pipelines, Edge & IoT devices, and AI workloads.",
+    "last_updated": "2026-07-15"
+  },
+  "qwen36": {
+    "canonical_name": "Qwen3.6",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.6 is the latest model in the Qwen family, building on the breakthroughs of Qwen3.5. It is designed to prioritize stability and real-world utility, offering developers a more intuitive and productive coding experience based on community feedback.",
+    "last_updated": "2026-07-15"
+  },
+  "bonsai": {
+    "canonical_name": "Bonsai",
+    "entity_type": "company",
+    "summary": "Bonsai is an AI platform that allows enterprises to build and deploy intelligent systems by automating the management of complex machine learning libraries. It provides an accessible and explainable platform for creating autonomous control systems and business processes, and has strong industry part",
+    "last_updated": "2026-07-15"
+  },
+  "lean 4": {
+    "canonical_name": "Lean 4",
+    "entity_type": "repo_analysis",
+    "summary": "The repository for Lean 4 is described as a platform for algorithmic trading, but the material provided is corrupted with repeated error messages and does not contain a usable overview.",
+    "last_updated": "2026-07-15"
+  },
+  "lean": {
+    "canonical_name": "Lean",
+    "entity_type": "repo_analysis",
+    "summary": "LEAN is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. It offers out-of-the-box alternative data and live-trading support, and its CLI is a command-line interface tool for int.",
+    "last_updated": "2026-07-15"
+  },
+  "erdos problems": {
+    "canonical_name": "Erdos Problems",
+    "entity_type": "repo_analysis",
+    "summary": "erdos-problems is a CLI for working with Paul Erdos problems. It bundles problem records, local dossiers, workspace scaffolding, and pack-specific views for the problems that already have more structure in this repo.",
+    "last_updated": "2026-07-15"
+  },
+  "colin snyder": {
+    "canonical_name": "Colin Snyder",
+    "entity_type": "repo_analysis",
+    "summary": "Colin Snyder is a financial advisor with Vestia Personal Wealth Advisors in Fort Wayne, IN, holding Series 63 and Series 65 licenses and having two years of industry experience. Prior to joining Vestia, he worked at Fifth Third Securities and Fifth Third Bank.",
+    "last_updated": "2026-07-15"
+  },
+  "mike kim": {
+    "canonical_name": "Mike Kim",
+    "entity_type": "repo_analysis",
+    "summary": "mkim has 18 repositories available on GitHub. The material provided is an error message and does not contain a usable overview of the user or their repositories.",
+    "last_updated": "2026-07-15"
+  },
+  "ignis": {
+    "canonical_name": "Ignis",
+    "entity_type": "repo_analysis",
+    "summary": "Ignis has 3 repositories available on GitHub. The material provided is an error message and does not contain a usable overview of the user or their repositories.",
+    "last_updated": "2026-07-15"
+  },
+  "new turing institute": {
+    "canonical_name": "New Turing Institute",
+    "entity_type": "repo_analysis",
+    "summary": "The material describes a public facing repository for knowledge sharing activities at the Research Engineering Group, such as REG Tech Talks. It mentions training material on version control, analysis testing, and open and transparent communication, and building on Turing Institute case studies and",
+    "last_updated": "2026-07-15"
+  },
+  "quantum computer": {
+    "canonical_name": "quantum computer",
+    "entity_type": "technology",
+    "summary": "Quantum computing is an emerging technology that explores how electrons and light behave as both particles and waves. The clock frequency of current computer processor systems may reach about 40 GHz within the next 10 years, potentially allowing one atom to represent one bit. This field is part of t",
+    "last_updated": "2026-07-15"
+  },
+  "miles wang": {
+    "canonical_name": "Miles Wang",
+    "entity_type": "person",
+    "summary": "Miles Wang is a researcher at OpenAI who joined in March 2024. He is on the RL team and his interests span alignment, evaluations, reasoning, and science. He previously studied Computer Science at Harvard University.",
+    "last_updated": "2026-07-15"
+  },
+  "othersideai": {
+    "canonical_name": "OthersideAI",
+    "entity_type": "company",
+    "summary": "OthersideAI, Inc. is a privately-held company founded in 2020 by Jason Kuperberg, Matt Shumer, and Miles Feldstein. Headquartered in Melville, New York, the company develops AI-based technology designed to write emails.",
+    "last_updated": "2026-07-15"
+  },
+  "hyperwrite": {
+    "canonical_name": "HyperWrite",
+    "entity_type": "product",
+    "summary": "HyperWrite is an AI writing assistant that uses powerful artificial intelligence to help users work faster and smarter. It offers hundreds of AI tools for writing, communication, and research, featuring autocomplete, web search, and citations to transform text and improve productivity.",
+    "last_updated": "2026-07-15"
+  },
+  "firstmark capital": {
+    "canonical_name": "FirstMark Capital",
+    "entity_type": "company",
+    "summary": "FirstMark Capital is an early-stage venture capital firm based in New York City that focuses on supporting founders in the technology sector. The firm provides funding and a network to exceptional founders making their mark on the world. It operates as an active, early-stage venture capital firm.",
+    "last_updated": "2026-07-15"
+  },
+  "hachette": {
+    "canonical_name": "Hachette",
+    "entity_type": "organization",
+    "summary": "Hachette Livre is an organization that offers partworks collections, which are serialized publications sold in multiple parts and available in 16 languages and 38 countries. In January 2025, Hodder Education officially rebranded as Hachette Learning, marking a significant evolution for private schoo",
+    "last_updated": "2026-07-15"
+  },
+  "spacexai": {
+    "canonical_name": "SpaceXAI",
+    "entity_type": "company",
+    "summary": "SpaceXAI is a privately held company with 1,001-5,000 employees focused on building AI systems to help humanity understand the world better. The company is described as a team of AI technologists and business leaders on a mission to build AI systems that can help humanity understand the world better",
+    "last_updated": "2026-07-15"
+  },
+  "nintendo switch 2": {
+    "canonical_name": "Nintendo Switch 2",
+    "entity_type": "general",
+    "summary": "Nintendo Switch 2 enhances social gaming with GameChat, vibrant graphics, fast processing, and improved controllers, bringing friends together for an immersive experience. The system features a vivid, 7.9-inch 1080p screen that showcases powerful processing and graphics performance. This is the firs",
+    "last_updated": "2026-07-15"
+  },
+  "spot": {
+    "canonical_name": "Spot",
+    "entity_type": "ai_model, robot",
+    "summary": "Spot is a robot from Boston Dynamics that can be controlled using natural language. An AI upgrade allows people to engage with the robot without needing to input lines of code.",
+    "last_updated": "2026-07-15"
+  },
+  "williamlustackflawless": {
+    "canonical_name": "William-Lu-stack/Flawless",
+    "entity_type": "model_release",
+    "summary": "Flawless is the open engineering foundation of the COSCOAI SRE platform: an AI-native SRE control plane for Kubernetes and cloud infrastructure. It connects alerts, evidence, topology, human approval, controlled remediation, and recovery verification in one auditable AgenticOps loop.",
+    "last_updated": "2026-07-15"
   }
 }
