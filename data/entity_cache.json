@@ -7813,5 +7813,560 @@
     "entity_type": "model_release",
     "summary": "The material does not contain a usable answer. It consists of repeated error messages and a question about running x86_64 Docker images on arm32 computers, but provides no information about performance benchmarks or system requirements.",
     "last_updated": "2026-07-16"
+  },
+  "kimi": {
+    "canonical_name": "Kimi",
+    "entity_type": "company",
+    "summary": "Kimi is a company that provides AI services and models, with its K3 model achieving #1 in the Frontend Code Arena. The company is associated with Moonshot AI and has a presence on its website, app, and API.",
+    "last_updated": "2026-07-17"
+  },
+  "kimi k3": {
+    "canonical_name": "Kimi K3",
+    "entity_type": "ai_model",
+    "summary": "Kimi K3 is an AI model built on Kimi Delta Attention (KDA) and has a 1M-token context window. It is noted as the world's first open-source model in the 3-trillion-parameter category and scores 57 on the Artificial Analysis Intelligence Index.",
+    "last_updated": "2026-07-17"
+  },
+  "kimi delta attention": {
+    "canonical_name": "Kimi Delta Attention",
+    "entity_type": "technology",
+    "summary": "Kimi Delta Attention (KDA) is a family of attention mechanisms developed for efficient long-context, multimodal, and hardware-optimized transformer networks. It is designed to achieve linear scaling in memory and computation while maintaining state-of-the-art retrieval accuracy over extreme context",
+    "last_updated": "2026-07-17"
+  },
+  "attention residuals": {
+    "canonical_name": "Attention Residuals",
+    "entity_type": "technology",
+    "summary": "Attention Residuals (AttnRes) is a proposed method that replaces fixed accumulation of layer outputs with a more controlled approach. It aims to prevent uncontrolled hidden-state growth with depth, which can dilute each layer's contribution, by using residual connections similar to those in RNNs.",
+    "last_updated": "2026-07-17"
+  },
+  "moe sparsity": {
+    "canonical_name": "MoE sparsity",
+    "entity_type": "technology",
+    "summary": "Sparse Mixtures of Experts (MoEs) are typically trained to operate at a fixed sparsity level, which determines an operating point on the accuracy/latency curve. This practice complicates serving and increases costs, as multiple models may be needed to meet different efficiency targets.",
+    "last_updated": "2026-07-17"
+  },
+  "stable latentmoe": {
+    "canonical_name": "Stable LatentMoE",
+    "entity_type": "technology",
+    "summary": "The LatentMoE architecture projects tokens into a latent space to cut MoE inference cost. This approach was published in a 2026 paper and was used to power the Nemotron 3 Ultra model, which achieved up to 5x faster inference and roughly 30% lower cost on agentic tasks.",
+    "last_updated": "2026-07-17"
+  },
+  "gpt 56 sol": {
+    "canonical_name": "GPT 5.6 Sol",
+    "entity_type": "ai_model",
+    "summary": "GPT-5.6 Sol is OpenAI's flagship GPT-5.6 model for difficult professional, coding, research, and tool-heavy work. It has a 1.05M-token context window, a 128K max output, and standard short-context pricing.",
+    "last_updated": "2026-07-17"
+  },
+  "microsoft comic chat": {
+    "canonical_name": "Microsoft Comic Chat",
+    "entity_type": "product",
+    "summary": "Microsoft Comic Chat is a graphical IRC client developed by Microsoft that uses cartoon avatars to represent users and creates a visual comic strip conversation. It was released in 1996 as part of Internet Explorer 3.0 and is no longer supported.",
+    "last_updated": "2026-07-17"
+  },
+  "internet relay chat": {
+    "canonical_name": "Internet Relay Chat",
+    "entity_type": "technology",
+    "summary": "Internet Relay Chat (IRC) is a protocol for real-time text messaging, created in 1988 by Jarkko Oikarinen to facilitate communication within a university's network. It was designed to allow users to join specific chat channels and communicate in real-time, and it remains a part of the internet's inf",
+    "last_updated": "2026-07-17"
+  },
+  "comic sans": {
+    "canonical_name": "Comic Sans",
+    "entity_type": "technology",
+    "summary": "Comic Sans was designed in 1994 by a typographic engineer at Microsoft, Vincent Connare, for a program called Microsoft Bob. It was intended to be a friendly, informal font for on-screen text, but it has since become one of the most controversial and widely criticized fonts on the internet.",
+    "last_updated": "2026-07-17"
+  },
+  "microsoft research virtual worlds group": {
+    "canonical_name": "Microsoft Research Virtual Worlds Group",
+    "entity_type": "organization",
+    "summary": "The Microsoft Research Virtual Worlds Group is a division within Microsoft Research that conceived the idea for Microsoft Comic Chat. David Kurlander, a member of this group, started developing the software in 1995, and it was officially released in 1996.",
+    "last_updated": "2026-07-17"
+  },
+  "grapheneos": {
+    "canonical_name": "GrapheneOS",
+    "entity_type": "technology",
+    "summary": "GrapheneOS is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project. It's focused on the research and development of privacy and security technology including substantial improvements to sandboxing, exploit mitigations and the permissio",
+    "last_updated": "2026-07-17"
+  },
+  "privacypros": {
+    "canonical_name": "PrivacyPros",
+    "entity_type": "organization",
+    "summary": "PrivacyPros is a service that removes your data from the internet and data brokers, operating in the field of personal data protection since 2024. It provides tailored Data Protection and DPO services to help organizations build effective and compliant data governance frameworks.",
+    "last_updated": "2026-07-17"
+  },
+  "decoy font": {
+    "canonical_name": "Decoy Font",
+    "entity_type": "ai_model",
+    "summary": "Decoy Font is a specialized TrueType Font (TTF) designed to protect text privacy against AI vision systems. By utilizing spatial frequency manipulation, the font displays two different characters in the same space: a thin-outline decoy for close-up pixel analysis and a blurred, low-frequency mass fo",
+    "last_updated": "2026-07-17"
+  },
+  "san francisco mayor daniel lurie": {
+    "canonical_name": "San Francisco mayor Daniel Lurie",
+    "entity_type": "general",
+    "summary": "Daniel Lurie is the mayor of San Francisco, elected in November. He took office with the knowledge of facing significant challenges, including homelessness, addiction, and a struggling downtown economy.",
+    "last_updated": "2026-07-17"
+  },
+  "state regulators": {
+    "canonical_name": "state regulators",
+    "entity_type": "general",
+    "summary": "State regulators play a secondary role in the regulation of insurers and money transmitters. They use various powers like licensing, rulemaking, and enforcement to regulate financial institutions, markets, and products.",
+    "last_updated": "2026-07-17"
+  },
+  "california department of transportation": {
+    "canonical_name": "California Department of Transportation",
+    "entity_type": "general",
+    "summary": "The California Department of Transportation is an executive department of the US state of California. It is responsible for the state's transportation infrastructure and is headquartered in Los Angeles.",
+    "last_updated": "2026-07-17"
+  },
+  "san francisco chronicle": {
+    "canonical_name": "San Francisco Chronicle",
+    "entity_type": "general",
+    "summary": "The San Francisco Chronicle is a newspaper serving primarily the San Francisco Bay Area. It was founded in 1865 and is known for its world-class journalism, award-winning reporters, and in-depth analysis.",
+    "last_updated": "2026-07-17"
+  },
+  "golden gate bridge": {
+    "canonical_name": "Golden Gate Bridge",
+    "entity_type": "general",
+    "summary": "The Golden Gate Bridge and Highway District was authorized by the California Legislature in 1928 to design, construct, and finance the bridge. It was created to manage the project's funding, which included bond issuance to investors repaid from toll receipts.",
+    "last_updated": "2026-07-17"
+  },
+  "super heavy": {
+    "canonical_name": "Super Heavy",
+    "entity_type": "technology",
+    "summary": "Panasonic Super Heavy Duty is a value-battery option that uses carbon zinc cells without specified toxic substances. It combines advanced engineering with high quality at a low cost, replacing mercury, lead, and cadmium with green alternatives to maintain performance.",
+    "last_updated": "2026-07-17"
+  },
+  "faa": {
+    "canonical_name": "FAA",
+    "entity_type": "organization",
+    "summary": "The various regional offices of the FAA contribute to the agency's effectiveness by addressing local aviation needs, ensuring compliance with federal regulations... Overview-1 Overview-5 Overview-6. Section 2. -- BUDGET SUMMARY TABLES.Reorganization Proposal-6. FAA Organization Chart (Proposed). A B",
+    "last_updated": "2026-07-17"
+  },
+  "cocacola": {
+    "canonical_name": "Coca-Cola",
+    "entity_type": "company",
+    "summary": "The Coca-Cola Company is one of the most globally-recognized brands, with a portfolio of more than 200 beverages. It has grown from its roots at a local Atlanta pharmacy to a company with over 59,000 employees.",
+    "last_updated": "2026-07-17"
+  },
+  "fairlife": {
+    "canonical_name": "Fairlife",
+    "entity_type": "organization",
+    "summary": "Fairlife is a health and wellness dairy company and a subsidiary of Coca-Cola. It is known for producing high-protein, low-sugar milk products and operates within the dairy industry.",
+    "last_updated": "2026-07-17"
+  },
+  "ransomware": {
+    "canonical_name": "ransomware",
+    "entity_type": "technology",
+    "summary": "Ransomware is a type of malware that holds a victim's data or device hostage until a ransom is paid. It is a common form of malicious software that can cause significant financial and operational damage to organizations.",
+    "last_updated": "2026-07-17"
+  },
+  "founders fund": {
+    "canonical_name": "Founders Fund",
+    "entity_type": "organization",
+    "summary": "Founders Fund is an organization that actively backs innovative startups and growth-stage companies across various industries and funding rounds. It provides co-investments, views co-investors, and offers information on funding stages, sectors, and founders.",
+    "last_updated": "2026-07-17"
+  },
+  "ryan beiermeister": {
+    "canonical_name": "Ryan Beiermeister",
+    "entity_type": "person",
+    "summary": "Ryan Beiermeister is a person with 500+ connections on LinkedIn and a professional profile on the platform. The material also mentions his work in systems and methods for identifying and compiling information relating to an entity for investigative analysis.",
+    "last_updated": "2026-07-17"
+  },
+  "palmer luckey": {
+    "canonical_name": "Palmer Luckey",
+    "entity_type": "person",
+    "summary": "Palmer Luckey is the CEO and Founder of Anduril and the former creator of the Oculus Rift. He began creating VR headset prototypes at age 14 and sold Oculus to Facebook, later discussing his journey and innovations in tech and gaming.",
+    "last_updated": "2026-07-17"
+  },
+  "dylan field": {
+    "canonical_name": "Dylan Field",
+    "entity_type": "person",
+    "summary": "Dylan Field is an American technology executive and co-founder of Figma, a web-based vector graphics editing software company. He is the co-founder and CEO of Figma, which went public in July 2025, and is noted as a Thiel Fellow.",
+    "last_updated": "2026-07-17"
+  },
+  "ryan petersen": {
+    "canonical_name": "Ryan Petersen",
+    "entity_type": "person",
+    "summary": "Ryan Petersen is the founder and CEO of Flexport, a modern freight forwarder that uses technology to simplify global logistics. Since its founding in 2013, Flexport has grown to serve over 10,000 customers in more than 100 countries, offering a full range of supply chain services.",
+    "last_updated": "2026-07-17"
+  },
+  "trae stephens": {
+    "canonical_name": "Trae Stephens",
+    "entity_type": "person",
+    "summary": "Trae Stephens is a partner at Founders Fund and co-founder of Anduril. He helped build a $30.5B defense-tech company focused on AI and autonomy, and is listed on Forbes' 2026 The Midas List of Top Tech Investors.",
+    "last_updated": "2026-07-17"
+  },
+  "mike solana": {
+    "canonical_name": "Mike Solana",
+    "entity_type": "person",
+    "summary": "Mike Solana is a billionaire media tycoon, former mayor of San Francisco, and a disinformation researcher. He is ranked #493 on the Digg Tech 2K and serves as CMO at Founders Fund and editor-in-chief at PirateWires.",
+    "last_updated": "2026-07-17"
+  },
+  "palantir": {
+    "canonical_name": "Palantir",
+    "entity_type": "organization",
+    "summary": "Palantir builds agile solutions for data-driven operations and decision-making. Its technology serves as the connective tissue between an organization’s data, its analytics capabilities, and operational execution by bringing the right data to the people who need it.",
+    "last_updated": "2026-07-17"
+  },
+  "founders fund youtube series mafia": {
+    "canonical_name": "Founders Fund YouTube series \"Mafia\"",
+    "entity_type": "product",
+    "summary": "The material mentions Ryan Beiermeister, who demonstrated cool analysis in the Founders Fund YouTube series \"Mafia,\" and has since joined the firm as a partner. She was previously VP of Product Policy at OpenAI and was reportedly fired after objecting to a planned ChatGPT feature.",
+    "last_updated": "2026-07-17"
+  },
+  "anduril": {
+    "canonical_name": "Anduril",
+    "entity_type": "organization",
+    "summary": "Anduril Industries builds advanced autonomous systems and defense technology to protect US and allied forces. The company is in a rapid growth phase, deploying technology in diverse locations and developing path-making products that will change defense.",
+    "last_updated": "2026-07-17"
+  },
+  "flexport": {
+    "canonical_name": "Flexport",
+    "entity_type": "organization",
+    "summary": "Flexport offers supply chain and logistics solutions to make global trade easier, centered around a platform built for importers and exporters. It uses machine learning, large language models, and AI agents to drive cost savings in global logistics.",
+    "last_updated": "2026-07-17"
+  },
+  "google vids": {
+    "canonical_name": "Google Vids",
+    "entity_type": "model_release",
+    "summary": "Google Vids helps scale your message through video storytelling. Vids recording studio helps educate customers and teams at scale, providing them with the information they need through easy screen sharing. Tell more engaging stories at work through easy-to-use, collaborative video creation with Gemi",
+    "last_updated": "2026-07-17"
+  },
+  "gemini omni": {
+    "canonical_name": "Gemini Omni",
+    "entity_type": "model_release",
+    "summary": "Gemini Omni is where Gemini’s ability to reason meets the ability to create. It delivers a leap in world understanding, multimodality, and editing. Gemini Omni Flash delivers exceptional results in Video Editing, Text to Video, Image to Video, and Reference to Video.",
+    "last_updated": "2026-07-17"
+  },
+  "heygen": {
+    "canonical_name": "HeyGen",
+    "entity_type": "model_release",
+    "summary": "HeyGen’s June updates include new HyperFrames skills, advanced avatar tools, live avatar APIs, Speech Cleanup, cloud rendering, and deeper integrations across developer workflows. Explore the biggest HeyGen updates from May 2026, including HyperFrames, Avatar V, LiveAvatar, Android, and integrations",
+    "last_updated": "2026-07-17"
+  },
+  "synthesia": {
+    "canonical_name": "Synthesia",
+    "entity_type": "model_release",
+    "summary": "Synthesia just released its newest AI model, powering Expressive Avatars. Here's mine 👇 Expressive avatars enable a whole new set enterprise use cases. From empathetic customer support, to excited sales pitches, the technology is now ready for customer-facing videos.",
+    "last_updated": "2026-07-17"
+  },
+  "cap t ions": {
+    "canonical_name": "Cap t ions",
+    "entity_type": "model_release",
+    "summary": "In addition, Google said it’s bringing its multi-modal AI model Gemini Omni to Vids, letting you create videos using a combination of a written prompt and reference images you upload. Omni then mixes those inputs together to create the AI video you want. Google said it’s bringing its multi-modal AI",
+    "last_updated": "2026-07-17"
+  },
+  "did": {
+    "canonical_name": "D-ID",
+    "entity_type": "model_release",
+    "summary": "D-ID is an advanced AI-generated video creation platform that offers a variety of products that allow for creative, interactive and engaging digital user experiences. With its Natural User Interface (NUI), it aims to transform how people... D-ID specializes in AI-generated video content featuring di",
+    "last_updated": "2026-07-17"
+  },
+  "sundar pichai": {
+    "canonical_name": "Sundar Pichai",
+    "entity_type": "model_release",
+    "summary": "Google has officially unveiled Gemini 3.5 Flash, the first model in Gemini 3.5 series. During the I/O keynote, Sundar Pichai said the company has been focused on improving Gemini around agentic coding, long-horizon tasks and real-world workflows.",
+    "last_updated": "2026-07-17"
+  },
+  "synthid": {
+    "canonical_name": "SynthID",
+    "entity_type": "model_release",
+    "summary": "SynthID is a tool to watermark and identify AI-generated content, helping to foster transparency and trust in generative AI. SynthID embeds digital watermarks directly into AI-generated images, audio, text or video. The watermarks are embedded across Google’s generative AI consumer products, and are",
+    "last_updated": "2026-07-17"
+  },
+  "bp ventures": {
+    "canonical_name": "BP Ventures",
+    "entity_type": "organization",
+    "summary": "BP Ventures is the venturing arm of bp, backing innovative technologies and visionary founders to help revolutionize the energy sector. It empowers fintechs, banks, and payment innovators to launch branded, non-custodial digital wallets and serves as an official Stellar blockchain integration partne",
+    "last_updated": "2026-07-17"
+  },
+  "verdane": {
+    "canonical_name": "Verdane",
+    "entity_type": "organization",
+    "summary": "Verdane is a private equity firm based in Oslo, Norway, established in 1985. It is a specialist growth equity investment firm that partners with sustainable, tech-enabled businesses based out of Northern Europe to help them reach the next stage of international growth.",
+    "last_updated": "2026-07-17"
+  },
+  "prosus": {
+    "canonical_name": "Prosus",
+    "entity_type": "company",
+    "summary": "Prosus is a global consumer internet group and one of the largest technology investment companies in the world. Headquartered in Amsterdam, Netherlands, it operates and invests across a broad range of internet sectors including online classifieds, food delivery, payments and fintech, edtech, and soc",
+    "last_updated": "2026-07-17"
+  },
+  "ssw partners": {
+    "canonical_name": "SSW Partners",
+    "entity_type": "organization",
+    "summary": "SSW Partners is an organization that invests in high-quality businesses and collaborates with partners to create enduring value. Founded in 2021, it operates from New York, US, and specializes in making strategic investments by closely collaborating with partners to identify market opportunities.",
+    "last_updated": "2026-07-17"
+  },
+  "dara khosrowshahi": {
+    "canonical_name": "Dara Khosrowshahi",
+    "entity_type": "person",
+    "summary": "Dara Khosrowshahi was born the youngest of three children to a wealthy family in Tehran, Iran. He is the current CEO of Uber, a position he achieved after overcoming adversity and crossing geographic and class divides to achieve success in the tech industry.",
+    "last_updated": "2026-07-17"
+  },
+  "grok ai": {
+    "senses": [
+      {
+        "sense_label": "model",
+        "summary": "Grok AI offers a range of models for multiple use cases and modalities. Its flagship model, Grok 4.5, is designed for code and general use, featuring agentic tool calling, minimal hallucinations, and configurable reasoning. The company provides dedicated models and APIs for audio, image, and video c",
+        "last_updated": "2026-07-17"
+      }
+    ]
+  },
+  "nikita bier": {
+    "senses": [
+      {
+        "sense_label": "CEO",
+        "summary": "Nikita Bier is the CEO of X, formerly known for selling his previous company, tbh, to Facebook for $100 million. He started a new company called Gas, a high school polling app, and was later hired by Elon Musk to become the new head of product at X. Under his leadership, X has seen rapid growth, wit",
+        "last_updated": "2026-07-17"
+      }
+    ]
+  },
+  "epic games": {
+    "canonical_name": "Epic Games",
+    "entity_type": "company",
+    "summary": "Epic Games is an American interactive entertainment company founded in 1991 by CEO Tim Sweeney. Headquartered in Cary, North Carolina, it is a leading provider of 3D engine technology and is recognized as a top-ranked company within its industry.",
+    "last_updated": "2026-07-17"
+  },
+  "fortnite": {
+    "canonical_name": "Fortnite",
+    "entity_type": "product",
+    "summary": "Fortnite is a free-to-play, multi-faceted platform developed by Epic Games that evolved beyond its battle royale roots. It combines competitive gameplay with social experiences and creative expression, featuring accessible shooting mechanics and strategic building elements.",
+    "last_updated": "2026-07-17"
+  },
+  "agent jonesy": {
+    "canonical_name": "Agent Jonesy",
+    "entity_type": "character",
+    "summary": "Agent Jonesy is a central character in Fortnite, created by Epic Games, who functions as a multiverse character with multiple identities. He is the protagonist of the game's epic narrative and is one of the most popular characters in the game.",
+    "last_updated": "2026-07-17"
+  },
+  "peely": {
+    "canonical_name": "Peely",
+    "entity_type": "character",
+    "summary": "Peely is a young banana from the Peely tribe, one of Jones' best friends, and a key member of The Resistance. He later becomes the superhero 'Peelverine' of The Underground and is noted for his deep Fortnite lore involvement.",
+    "last_updated": "2026-07-17"
+  },
+  "fishstick": {
+    "canonical_name": "Fishstick",
+    "entity_type": "character",
+    "summary": "Fishstick is one of the most iconic Fortnite characters, introduced during Chapter 2: Season 5. His design and meme culture have contributed significantly to Fortnite's popularity, and he is featured in various skin variations and guides.",
+    "last_updated": "2026-07-17"
+  },
+  "cuddle team leader": {
+    "canonical_name": "Cuddle Team Leader",
+    "entity_type": "character",
+    "summary": "Cuddle Team Leader is a Fortnite character described as bubbly and energetic but also bloodthirsty and stalkerish. She is a yandere character who tries to keep her dark nature a secret while engaging in gameplay.",
+    "last_updated": "2026-07-17"
+  },
+  "james earl jones": {
+    "canonical_name": "James Earl Jones",
+    "entity_type": "person",
+    "summary": "James Earl Jones is an African-American, Native American, and Irish-American actor born in 1931, known for his deep, rolling voice. He is most famous for voicing Darth Vader in the original Star Wars trilogy and has also worked as a news voice for CNN.",
+    "last_updated": "2026-07-17"
+  },
+  "frame": {
+    "canonical_name": "Frame",
+    "entity_type": "product",
+    "summary": "The Samsung Frame Pro is a premium art TV featuring a Neo QLED (Mini-LED) display, a 144Hz refresh rate, and a Wireless One Connect Box. It is positioned as one of the most compelling art TVs of 2025, though its limited sizes and mixed preliminary testing results are noted.",
+    "last_updated": "2026-07-17"
+  },
+  "cd": {
+    "canonical_name": "CD",
+    "entity_type": "technology",
+    "summary": "Our proprietary chlorine dioxide technology, Pure CD, is a fundamental breakthrough in sterilization science. It is presented as an alternative to EO, E-beam, x-ray, or gamma irradiation, offering safety, speed, and material compatibility for modern healthcare devices.",
+    "last_updated": "2026-07-17"
+  },
+  "kalshi": {
+    "canonical_name": "Kalshi",
+    "entity_type": "product",
+    "summary": "Kalshi is a regulated exchange and prediction market where users can trade on the outcome of real-world events by buying and selling Event Contracts. It also offers Kalshi Pro, a trading workstation that consolidates live markets, books, and orders on a single screen.",
+    "last_updated": "2026-07-17"
+  },
+  "gabriel perez": {
+    "canonical_name": "Gabriel Perez",
+    "entity_type": "person",
+    "summary": "Gabriel Perez is a White House technical aide and teleprompter operator for President Donald Trump who is under federal investigation for allegedly using insider knowledge to place profitable bets on the president's speeches. He was placed on paid administrative leave, and Trump was briefed on the m",
+    "last_updated": "2026-07-17"
+  },
+  "abc news": {
+    "canonical_name": "ABC News",
+    "entity_type": "organization",
+    "summary": "ABC News provides around-the-clock news coverage of events in Australia and abroad, offering exclusive videos, free episodes, and live streaming of its shows and updates without requiring a sign-in.",
+    "last_updated": "2026-07-17"
+  },
+  "commodity futures trading commission": {
+    "canonical_name": "Commodity Futures Trading Commission",
+    "entity_type": "organization",
+    "summary": "The CFTC is an agency overseen by Commissioners and the Office of the Chairman, with operating units and advisory committees created to provide input and make recommendations on regulatory and market issues.",
+    "last_updated": "2026-07-17"
+  },
+  "new york state": {
+    "canonical_name": "New York (state)",
+    "entity_type": "state",
+    "summary": "The State of New York provides information on its government agencies, programs, and services. It supports a trained workforce, administers health and insurance programs for employees and retirees, and promotes a distraction-free learning environment for students and families.",
+    "last_updated": "2026-07-17"
+  },
+  "governor kathy hochul": {
+    "canonical_name": "Governor Kathy Hochul",
+    "entity_type": "person",
+    "summary": "Governor Kathy Hochul began her public service career on her local Town Board before serving as Erie County Clerk and as a member of Congress. She is currently the governor of New York and has announced a moratorium on new hyperscale data centers to address concerns about the market's growth.",
+    "last_updated": "2026-07-17"
+  },
+  "bloombergs odd lots podcast": {
+    "canonical_name": "Bloomberg's Odd Lots podcast",
+    "entity_type": "organization",
+    "summary": "Bloomberg's Odd Lots is a podcast hosted by Joe Weisenthal and Tracy Alloway that explores topics in finance, markets, and economics. The show discusses recent trends, such as the private credit market, and features insights from academic papers on related subjects.",
+    "last_updated": "2026-07-17"
+  },
+  "ai technology": {
+    "canonical_name": "AI (technology)",
+    "entity_type": "technology",
+    "summary": "Artificial intelligence is the ability of a computer to perform tasks that typically require human intellectual processes, such as reasoning. While current AIs can perform specific tasks as well as humans, they lack the full flexibility of human intelligence. AI and machine learning are related but",
+    "last_updated": "2026-07-17"
+  },
+  "ecovacs deebot x11": {
+    "canonical_name": "Ecovacs Deebot X11",
+    "entity_type": "general",
+    "summary": "The ECOVACS DEEBOT X11 PRO is a robot vacuum and mop that includes the OZMO Roller 2.0 for instant self-washing. It features a 75°C hot wash, 1000m² coverage, and 19500Pa suction. The device is powered by an AI Agent named YIKO and is designed for self-cleaning on carpets and pet hair.",
+    "last_updated": "2026-07-17"
+  },
+  "notebooklm": {
+    "canonical_name": "NotebookLM",
+    "entity_type": "product",
+    "summary": "NotebookLM is a product that allows users to upload source files like product specs and market research to create AI-generated meeting plans and executive summaries. It can turn documents into listenable overviews with one click and provides Audio Overviews for on-the-go learning, all grounded in tr",
+    "last_updated": "2026-07-17"
+  },
+  "google search": {
+    "canonical_name": "Google Search",
+    "entity_type": "product",
+    "summary": "Google Search has introduced an AI Mode experiment, featuring an AI Mode and an AI Overviews upgrade with Gemini 2.0. These AI features are designed to help users with more complex questions, with AI Overviews being used by over a billion people and continuing to be improved.",
+    "last_updated": "2026-07-17"
+  },
+  "ai mode": {
+    "senses": [
+      {
+        "sense_label": "AI Mode",
+        "summary": "AI Mode uses Gemini 3's next-generation intelligence, featuring advanced reasoning, thinking, and multimodal understanding to answer complex questions. It intelligently organizes information and provides links to explore topics further, allowing users to ask questions with all the details they care",
+        "last_updated": "2026-07-17"
+      }
+    ]
+  },
+  "isomorphic labs": {
+    "canonical_name": "Isomorphic Labs",
+    "entity_type": "company",
+    "summary": "Isomorphic Labs is a biotechnology research company focused on advancing human health by building on the Nobel-winning AlphaFold system. The company has developed a unified drug design engine to transform how new drugs are designed and how medicine helps people. Their mission is to one day solve all",
+    "last_updated": "2026-07-17"
+  },
+  "cybersunil": {
+    "canonical_name": "CyberSunil",
+    "entity_type": "person",
+    "summary": "CyberSunil is a person who can be tagged by players to receive an Expert Access Key. The card associated with CyberSunil is a themed SVG that can be exported to PNG in-browser without any external dependencies.",
+    "last_updated": "2026-07-17"
+  },
+  "giannisannipulsar": {
+    "canonical_name": "giannisanni/pulsar",
+    "entity_type": "model_release",
+    "summary": "Pulsar is a Rust + CUDA inference engine for running massive Mixture-of-Experts (MoE) models on consumer GPUs. It supports models like Hy3 295B and GLM-5.2 743B, enabling expert streaming from NVMe and automatic multi-GPU setup. This engine is designed for researchers and enthusiasts to run large Mo",
+    "last_updated": "2026-07-17"
+  },
+  "neutronstar": {
+    "canonical_name": "NeutronStar",
+    "entity_type": "model_release",
+    "summary": "NeutronStar is a model release overview for the HGNeuStar-25 Airsoft Rifle, which uses a .25 Caliber air rifle with a 2-magazine system. The document details a Supernova de novo assembly pipeline for 10X linked-reads, built with Nextflow, which processes data to produce assembly graphs and statistic",
+    "last_updated": "2026-07-17"
+  },
+  "hy3": {
+    "canonical_name": "Hy3",
+    "entity_type": "model_release",
+    "summary": "Hy3 is a 295B-parameter Mixture-of-Experts (MoE) language model from Tencent, released in July 2026. It features 21B active parameters and a 3.8B MTP layer, developed by the Tencent Hy Team. The model is designed for high-performance reasoning and is currently in a preview phase, with API access exp",
+    "last_updated": "2026-07-17"
+  },
+  "kimi k27": {
+    "canonical_name": "Kimi K2.7",
+    "entity_type": "model_release",
+    "summary": "Kimi K2.7 Code is an open-source, coding-focused agentic model developed by Moonshot AI. It offers improved long-horizon coding, stronger agent capabilities, and 30% lower thinking-token usage compared to K2.6. The model is designed for complex software engineering workflows and provides higher end-",
+    "last_updated": "2026-07-17"
+  },
+  "minimax m3": {
+    "canonical_name": "MiniMax M3",
+    "entity_type": "model_release",
+    "summary": "MiniMax M3 is an open-weight model that achieves frontier-level performance on coding and agentic tasks with a 1M context window. It is the first open-weight model to combine three capabilities: coding, agentic, and native multimodality. Powered by the proprietary MSA architecture, M3 supports auton",
+    "last_updated": "2026-07-17"
+  },
+  "tml inkling": {
+    "canonical_name": "TML Inkling",
+    "entity_type": "model_release",
+    "summary": "TML Inkling is a Mixture-of-Experts model that reasons natively over text, image, and audio input. It is deployed on a dedicated dev runtime image (sglang-runtime:1.4.0-inkling-dev.1) and is currently in a Day-0 recipe state, not yet promoted to a release. The model is quantized using NVFP4 and uses",
+    "last_updated": "2026-07-17"
+  },
+  "qwen3235ba22b": {
+    "canonical_name": "Qwen3-235B-A22B",
+    "entity_type": "model_release",
+    "summary": "Qwen3-235B-A22B is a flagship large language model from Alibaba Cloud's Qwen3 series, released on April 29, 2025. It uses a Mixture-of-Experts (MoE) architecture to balance high-performance reasoning and low-latency inference. The model offers both 'thinking' and 'non-thinking' operational modes to",
+    "last_updated": "2026-07-17"
+  },
+  "deepseekv4flash": {
+    "canonical_name": "DeepSeek-V4-Flash",
+    "entity_type": "model_release",
+    "summary": "DeepSeek-V4-Flash is a Mixture-of-Experts (MoE) language model from deepseek-ai, part of the DeepSeek-V4 series. It supports a context length of one million tokens and offers three reasoning effort modes. The model is available for use with various libraries, inference providers, and local applicati",
+    "last_updated": "2026-07-17"
+  },
+  "qwen3635ba3b": {
+    "canonical_name": "Qwen3.6-35B-A3B",
+    "entity_type": "model_release",
+    "summary": "Qwen3.6-35B-A3B is an open-weight variant of the Qwen3.6 series, built on direct feedback from the community. It is compatible with Hugging Face Transformers, vLLM, SGLang, and other frameworks. The model is post-trained and available in the Hugging Face Transformers format, supporting tensor parall",
+    "last_updated": "2026-07-17"
+  },
+  "rtx 5060 ti": {
+    "canonical_name": "RTX 5060 Ti",
+    "entity_type": "model_release",
+    "summary": "The NVIDIA GeForce RTX 5060 Ti is a mid-range GPU launched as part of the new Blackwell lineup. It features next-gen capabilities like DLSS 4 and GDDR7 memory, aiming to deliver serious 1080p and light 1440p gaming performance. It is positioned as a successor to the RTX 4060 series, offering improve",
+    "last_updated": "2026-07-17"
+  },
+  "rtx 4060 ti": {
+    "canonical_name": "RTX 4060 Ti",
+    "entity_type": "model_release",
+    "summary": "The NVIDIA GeForce RTX 4060 Ti is a mid-range GPU built on the ultra-efficient NVIDIA Ada Lovelace architecture. It is designed for gaming, content creation, and AI tasks, with features like AI-enhanced voice and video, optimized AI factories, and high-performance gaming. The GPU is part of a broade",
+    "last_updated": "2026-07-17"
+  },
+  "ryzen 9900x": {
+    "canonical_name": "Ryzen 9900X",
+    "entity_type": "model_release",
+    "summary": "The AMD Ryzen 9 9900X is a 12-core, 16-thread processor from AMD's Zen 5 series, priced at $459. It is positioned as a content creation-focused CPU, offering significant improvements in content creation performance over previous models. The review notes that while it may not exceed the top-tier gami",
+    "last_updated": "2026-07-17"
+  },
+  "gen5 nvme": {
+    "canonical_name": "Gen5 NVMe",
+    "entity_type": "model_release",
+    "summary": "The NVMe interface is a fast, widespread standard for modern SSDs, typically using the M.2 form factor and PCI Express bandwidth. NVMe slots on motherboards use four lanes of PCIe bandwidth (PCIe x4), and the speed can vary significantly between generations. The article compares NVMe generations to",
+    "last_updated": "2026-07-17"
+  },
+  "surajsinghmmlexecutablemalwaredetector": {
+    "canonical_name": "surajsinghm/ML-Executable-Malware-Detector",
+    "entity_type": "repo_analysis",
+    "summary": "The engine relies on extracting static features directly from the raw binary via the lief parsing library. These features are then passed through a pre-trained LightGBM gradient-boosting tree model to produce a confidence score. It is an offline static malware detection engine for Windows Portable E",
+    "last_updated": "2026-07-17"
+  },
+  "lief": {
+    "canonical_name": "lief",
+    "entity_type": "none",
+    "summary": "lief is a library for parsing and manipulating binary files. It provides functions to disassemble instructions at a given virtual address and to load shared caches from files or directories.",
+    "last_updated": "2026-07-17"
+  },
+  "lightgbm": {
+    "canonical_name": "LightGBM",
+    "entity_type": "none",
+    "summary": "LightGBM is a gradient boosting framework that uses tree-based learning algorithms. It is designed to be distributed and efficient, offering faster training speed, lower memory usage, better accuracy, and support for parallel, distributed, and GPU learning.",
+    "last_updated": "2026-07-17"
+  },
+  "ember dataset": {
+    "canonical_name": "EMBER dataset",
+    "entity_type": "none",
+    "summary": "The Ember Dataset is a large-scale instruction-style dataset for training language models focused on creative writing and storytelling. It combines several open instruction datasets into a unified format with instruction and response fields, released by SparrowAISolutions.",
+    "last_updated": "2026-07-17"
+  },
+  "stix 21": {
+    "canonical_name": "STIX 2.1",
+    "entity_type": "none",
+    "summary": "STIX 2.1 is an OASIS CTI TC Standard for sharing and modeling cyber observables and STIX Domain Objects. It defines a graph-based model and concepts for expressing cyber threat and observable information.",
+    "last_updated": "2026-07-17"
   }
 }
