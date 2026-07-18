@@ -8368,5 +8368,644 @@
     "entity_type": "none",
     "summary": "STIX 2.1 is an OASIS CTI TC Standard for sharing and modeling cyber observables and STIX Domain Objects. It defines a graph-based model and concepts for expressing cyber threat and observable information.",
     "last_updated": "2026-07-17"
+  },
+  "kaiser permanente": {
+    "canonical_name": "Kaiser Permanente",
+    "entity_type": "organization",
+    "summary": "Kaiser Permanente is one of the nation's largest not-for-profit health plans, serving 12.9 million members. The Permanente Medical Groups provide care for these members and continuously develop and refine medical practices to ensure care is delivered efficiently and effectively.",
+    "last_updated": "2026-07-18"
+  },
+  "california nurses association": {
+    "canonical_name": "California Nurses Association",
+    "entity_type": "organization",
+    "summary": "The California Nurses Association/National Nurses Organizing Committee/AFL-CIO is a premiere organization of registered nurses and one of the nation’s fastest growing labor and professional organizations. Founded in 1903, it has more than 100,000 members in hospitals, clinics, and home health agenci",
+    "last_updated": "2026-07-18"
+  },
+  "calmatters": {
+    "canonical_name": "CalMatters",
+    "entity_type": "organization",
+    "summary": "CalMatters is a leading nonprofit, nonpartisan newsroom committed to explaining California politics and policy. Founded in 2015, it provides explanatory and investigative journalism about California and has become a significant entity in the state's media landscape.",
+    "last_updated": "2026-07-18"
+  },
+  "recurse center": {
+    "canonical_name": "Recurse Center",
+    "entity_type": "organization",
+    "summary": "The Recurse Center is a self-directed educational retreat for people who want to get better at programming. It is a chance to step back from daily distractions and focus deeply on programming in a group setting. The center operates in batches, which are groups of programmers who attend for six or tw",
+    "last_updated": "2026-07-18"
+  },
+  "zilog": {
+    "canonical_name": "Zilog",
+    "entity_type": "company",
+    "summary": "Zilog is a trusted supplier of application specific, embedded system-on-chip (SoC) solutions for industrial and consumer markets. The company has evolved from its roots as an award-winning architect in the microprocessor and microcontroller industry to include SoCs, single board computers, and devel",
+    "last_updated": "2026-07-18"
+  },
+  "z80": {
+    "canonical_name": "Z80",
+    "entity_type": "ai_model",
+    "summary": "Z80-μLM is a 'conversational AI' that generates short character-by-character sequences and runs on a Z80 processor with 64kb of RAM. The project demonstrates that a 40kb binary, including inference and weights, can run on a 4MHz processor from 1976.",
+    "last_updated": "2026-07-18"
+  },
+  "cpm": {
+    "canonical_name": "CP/M",
+    "entity_type": "technology",
+    "summary": "CP/M is a standardized operating system for early microcomputers, envisioned by Gary Kildall to create a foundation for a thriving microcomputer ecosystem. It emerged in 1974 to address the lack of a standardized OS, which was hindering software development and usability.",
+    "last_updated": "2026-07-18"
+  },
+  "sharp": {
+    "canonical_name": "Sharp",
+    "entity_type": "organization",
+    "summary": "Sharp is engaged in the manufacture and sale of electric telecommunication, electric, and electronic equipment. The organization uses 2 IP ranges covering a total of 768 IP addresses in one country, United States.",
+    "last_updated": "2026-07-18"
+  },
+  "gameboy": {
+    "canonical_name": "GameBoy",
+    "entity_type": "product",
+    "summary": "The GameBoy was one of the most popular game consoles of all time, created by Gunpei Yokoi, a toy designer at Nintendo. Yokoi's innovative designs, like the Ultra Hand, led to his creation of the GameBoy, which impacted the gaming industry.",
+    "last_updated": "2026-07-18"
+  },
+  "ez80": {
+    "canonical_name": "eZ80",
+    "entity_type": "product",
+    "summary": "The eZ80 for RC is a CPU Module designed for the RCBus and RC2014™ backplanes. It was designed by Dino Boards in Australia and is intended for use with specific backplanes.",
+    "last_updated": "2026-07-18"
+  },
+  "dr collin cherubim": {
+    "canonical_name": "Dr Collin Cherubim",
+    "entity_type": "person",
+    "summary": "Dr. Collin Cherubim is a researcher who authored a study on the qualities of an exoplanet that could potentially sustain life. He described the planet as the first actually observationally confirmed atmosphere on a rocky planet in the habitable zone outside of our solar system.",
+    "last_updated": "2026-07-18"
+  },
+  "harvard university": {
+    "canonical_name": "Harvard University",
+    "entity_type": "organization",
+    "summary": "Harvard University is the oldest corporation in the Western Hemisphere and is led by President Alan M. Garber. Its community comprises students, faculty, staff, and alumni worldwide who pursue truth, knowledge, and a better world.",
+    "last_updated": "2026-07-18"
+  },
+  "dr david charbonneau": {
+    "canonical_name": "Dr David Charbonneau",
+    "entity_type": "person",
+    "summary": "Dr. David Charbonneau is a dentist at the forefront of advances in dental care, practicing restorative and aesthetic bio-compatible dentistry. This practice uses bio-compatible materials and focuses on their influence on the whole body.",
+    "last_updated": "2026-07-18"
+  },
+  "tools": {
+    "canonical_name": "tools",
+    "entity_type": "general",
+    "summary": "The U.S. General Services Administration provides various tools to engage in transactions or processes across its services. These tools are designed to help users achieve their goals in an efficient and cost-effective way, though some may require a username and password. Users are also advised to co",
+    "last_updated": "2026-07-18"
+  },
+  "writing": {
+    "canonical_name": "writing",
+    "entity_type": "general",
+    "summary": "The provided material references FAQs about writing from the OWL at Purdue University. It notes that the entries are based on frequently asked questions sent to a former team and includes a legal notice regarding copyright and terms of use.",
+    "last_updated": "2026-07-18"
+  },
+  "tplink systems inc": {
+    "canonical_name": "TP-Link Systems Inc.",
+    "entity_type": "Kasa",
+    "summary": "TP-Link Systems Inc. is a company that provides information, products, and reviews for Kasa smart home devices. The Kasa product line includes smart plugs, dimmers, and outdoor plugs that are compatible with the Matter smart home standard and can be controlled via a mobile app or voice commands.",
+    "last_updated": "2026-07-18"
+  },
+  "kasa spot ec71": {
+    "canonical_name": "Kasa Spot EC71",
+    "entity_type": "Kasa",
+    "summary": "The Kasa Spot EC71 is a smart camera that provides a 360-degree rotational view of a space. It is designed to be used in apartments, dorms, or homes to monitor surroundings, and its operation is controlled through the Kasa Smart app.",
+    "last_updated": "2026-07-18"
+  },
+  "ch341a programmer": {
+    "canonical_name": "CH341A programmer",
+    "entity_type": "CH341A programmer",
+    "summary": "The CH341A is a high-speed programming board designed for reading, writing, and erasing various types of EEPROM and flash memory chips. It is commonly used in the development and production of IoT devices, embedded systems, and other electronic products, supporting a wide range of chip series.",
+    "last_updated": "2026-07-18"
+  },
+  "cve20269770": {
+    "canonical_name": "CVE-2026-9770",
+    "entity_type": "CVE-2026-9770",
+    "summary": "CVE-2026-9770 is a vulnerability in the firmware of TP-Link Kasa EC70 and EC71 v4 devices. The issue involves a static cryptographic private key stored on a read-only filesystem, which can be extracted from the firmware image and used to decrypt inbound traffic or perform a man-in-the-middle attack,",
+    "last_updated": "2026-07-18"
+  },
+  "cve202613230": {
+    "canonical_name": "CVE-2026-13230",
+    "entity_type": "CVE-2026-13230",
+    "summary": "CVE-2026-13230 is an information disclosure vulnerability affecting TP-Link Kasa EC70 v4 and EC71 v4 devices. It exposes sensitive geolocation information without requiring authentication, allowing an attacker on the same local network to retrieve this data through crafted responses, impacting only",
+    "last_updated": "2026-07-18"
+  },
+  "rsaiam": {
+    "canonical_name": "RSA/IAM",
+    "entity_type": "RSA/IAM",
+    "summary": "RSA/IAM is a cloud identity and access management (IAM) solution that helps organizations create faster, safer, and more efficient operations. It focuses on reliable and consistent access to cloud resources, offering high availability and interoperability-certified technology integrations to prevent",
+    "last_updated": "2026-07-18"
+  },
+  "md5": {
+    "canonical_name": "MD5",
+    "entity_type": "MD5",
+    "summary": "MD5 is a cryptographic hash function that produces a 128-bit hash value. It is dependent on all message bits and is considered a precursor to more secure algorithms like SHA-1. The MD5 hash is used for data integrity verification and is often found in password checking tools.",
+    "last_updated": "2026-07-18"
+  },
+  "openstrike": {
+    "canonical_name": "OpenStrike",
+    "entity_type": "ai_model",
+    "summary": "OpenStrike is an open-source alternative to proprietary software, offering services like consultancy. It is also a game for the Sony PSP, featuring classic BSP maps, bots, tracers, and a Solid JSX HUD that maintains a locked 60 FPS on the console's hardware. The project also includes a field guide f",
+    "last_updated": "2026-07-18"
+  },
+  "pocket runtime": {
+    "canonical_name": "Pocket runtime",
+    "entity_type": "technology",
+    "summary": "The Pocket runtime family provides voice technology that rivals commercial APIs without the cost or privacy concerns. It supports Python 3.10 through 3.14, requires PyTorch 2.5+, and includes both a Python API and a command-line interface. The technology challenges the traditional dichotomy between",
+    "last_updated": "2026-07-18"
+  },
+  "pocketjs": {
+    "canonical_name": "PocketJS",
+    "entity_type": "technology",
+    "summary": "PocketJS is a tool for building Solid or Vue Vapor interfaces for the Sony PSP and PS Vita. It compiles class strings and font glyphs at build time, then renders real flexbox, sub-pixel text, and native animation through a compact no_std Rust core. The application manifest resolves into target-speci",
+    "last_updated": "2026-07-18"
+  },
+  "sony psp": {
+    "canonical_name": "Sony PSP",
+    "entity_type": "product",
+    "summary": "The Sony PSP, or PlayStation Portable, is a handheld gaming and multimedia console released in 2004 in Japan and 2005 in the U.S. It features a 4.3-inch TFT LCD screen, built-in speakers, Wi-Fi connectivity, and impressive graphics processing power for its time, surpassing the Nintendo DS. While not",
+    "last_updated": "2026-07-18"
+  },
+  "javascript": {
+    "canonical_name": "JavaScript",
+    "entity_type": "technology",
+    "summary": "JavaScript is a high-level, interpreted programming language developed for web development, similar to Java but with a focus on building dynamic and responsive user experiences. It is widely used and supported, with a rich ecosystem of libraries and frameworks like React and Angular. Its small learn",
+    "last_updated": "2026-07-18"
+  },
+  "typescript": {
+    "canonical_name": "TypeScript",
+    "entity_type": "technology",
+    "summary": "TypeScript is a strongly typed language that builds on JavaScript by adding optional static types, interfaces, generics, and modern tooling. It compiles to plain JavaScript, improving correctness and maintainability without changing the runtime environment. TypeScript catches bugs at compile time, m",
+    "last_updated": "2026-07-18"
+  },
+  "quickjs": {
+    "canonical_name": "QuickJS",
+    "entity_type": "technology",
+    "summary": "QuickJS is a small and embeddable JavaScript engine that supports the ES2025 specification. It is fast with a low startup time, running the ECMAScript Test Suite in about two minutes, and has almost complete ES2025 support. The engine is small, easily embeddable with no external dependencies, and ca",
+    "last_updated": "2026-07-18"
+  },
+  "china": {
+    "canonical_name": "China",
+    "entity_type": "country",
+    "summary": "China is the largest country in East Asia, occupying nearly the entire East Asian landmass and covering about one-fourteenth of Earth's land area. It has a population of 1.41 billion, a GDP of $18.74 trillion, and its capital is Beijing.",
+    "last_updated": "2026-07-18"
+  },
+  "us": {
+    "canonical_name": "US",
+    "entity_type": "country",
+    "summary": "The material did not address this question.",
+    "last_updated": "2026-07-18"
+  },
+  "xi jinping": {
+    "canonical_name": "Xi Jinping",
+    "entity_type": "person",
+    "summary": "Xi Jinping is a Chinese politician who has served as the general secretary of the Chinese Communist Party since 2012 and as the president of the People’s Republic of China since 2013. He is the paramount leader of China and has introduced far-ranging measures to enshrine his authority.",
+    "last_updated": "2026-07-18"
+  },
+  "trump media": {
+    "canonical_name": "Trump Media",
+    "entity_type": "company",
+    "summary": "Trump Media & Technology Group Corp. is a social media and streaming services company in the United States. It operates Truth Social, a social media platform, and Truth+, a streaming platform, and offers financial services and a digital asset strategy.",
+    "last_updated": "2026-07-18"
+  },
+  "reuters": {
+    "canonical_name": "Reuters",
+    "entity_type": "organization",
+    "summary": "Reuters is a global news organization that has documented major events, such as the US Capitol riots, and launched a Fact Check unit to combat misinformation. It has partnered with platforms like Facebook to deliver live video news content.",
+    "last_updated": "2026-07-18"
+  },
+  "gizmodo": {
+    "canonical_name": "Gizmodo",
+    "entity_type": "organization",
+    "summary": "Gizmodo is an online magazine that provides information and articles related to technology, design, and social trends. It is a style, engineering, science, and science fiction site that was initially launched as a member of the Gawker Media network.",
+    "last_updated": "2026-07-18"
+  },
+  "scmp": {
+    "canonical_name": "SCMP",
+    "entity_type": "organization",
+    "summary": "SCMP is a media organization that delivers news, information, and entertainment across many platforms. It is listed in the World's most authoritative dictionary of abbreviations and acronyms and requires personal data from subscribers and website visitors.",
+    "last_updated": "2026-07-18"
+  },
+  "cnbc": {
+    "canonical_name": "CNBC",
+    "entity_type": "organization",
+    "summary": "CNBC is a multi-platform media organization that delivers business news, financial analysis, and market insights through television, digital platforms, and live events. It is classified as an instance of a company and organization in the news and journalism industries.",
+    "last_updated": "2026-07-18"
+  },
+  "mit technology review": {
+    "canonical_name": "MIT Technology Review",
+    "entity_type": "organization",
+    "summary": "MIT Technology Review affirms a commitment to protect and nurture the mental and physical well-being of its community. It is committed to diversity, which connotes an awareness and acceptance of the value and strength derived from having a workplace that encompasses multiple cultures, races, and oth",
+    "last_updated": "2026-07-18"
+  },
+  "prediction markets": {
+    "canonical_name": "Prediction markets",
+    "entity_type": "general",
+    "summary": "As their name implies, crypto prediction markets allow you to make money by betting on future outcomes of various crypto events. In general, prediction markets are divided into two types: sports and non-sports (crypto falls into the category of non-sports-related prediction markets). Discover and tr",
+    "last_updated": "2026-07-18"
+  },
+  "ai forecasting": {
+    "canonical_name": "AI forecasting",
+    "entity_type": "general",
+    "summary": "Traditional forecasting uses numerical weather prediction, which is based on physics equations and run on supercomputers. In contrast, Artificial Intelligence (AI) weather models use a vast amount of training data to identify patterns and develop accurate weather forecasts. Both traditional forecast",
+    "last_updated": "2026-07-18"
+  },
+  "weather research and forecasting model": {
+    "canonical_name": "Weather Research and Forecasting model",
+    "entity_type": "general",
+    "summary": "The Weather Research and Forecasting (WRF) Model is an atmospheric model designed for both research and numerical weather prediction (NWP). Julianne Sansa-Otim, Lecturer and IT Specialist, Makerere University, Uganda. The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale nu",
+    "last_updated": "2026-07-18"
+  },
+  "european centre for mediumrange weather forecast ecmwf integrated forecasting system": {
+    "canonical_name": "European Centre for Medium-Range Weather Forecast (ECMWF) Integrated Forecasting System",
+    "entity_type": "general",
+    "summary": "Jesper Dramsch — Scientist for Machine Learning at the European Centre for Medium-Range Weather Forecasts (ECMWF), where they work on AIFS (Artificial Intelligence Forecasting System), ECMWF's data-driven weather prediction model. Prediction markets and a move toward AI forecasting are starting to p",
+    "last_updated": "2026-07-18"
+  },
+  "weather stations": {
+    "canonical_name": "weather stations",
+    "entity_type": "general",
+    "summary": "The concept of weather stations evolved when racers began to realize that the performance of their vehicle was dependent on the atmospheric conditions they were racing in. The atmospheric condition I",
+    "last_updated": "2026-07-18"
+  },
+  "index ventures": {
+    "canonical_name": "Index Ventures",
+    "entity_type": "venture capital firm",
+    "summary": "Index Ventures is a venture capital and private equity firm that partners with exceptional entrepreneurs to help them turn their bold ideas into global businesses. The firm has a team of experienced investors, strategists, and a global network built over three decades of startup investing.",
+    "last_updated": "2026-07-18"
+  },
+  "neil rimer": {
+    "senses": [
+      {
+        "sense_label": "venture capitalist",
+        "summary": "Neil Rimer is a retired partner at Index Ventures who co-founded the firm in 1996 and served as a partner for more than 25 years. He has played a seminal role in nurturing the tech ecosystem in Europe and beyond and continues to manage his portion of the portfolio and support his partners.",
+        "last_updated": "2026-07-18"
+      }
+    ]
+  },
+  "wiz": {
+    "canonical_name": "Wiz",
+    "entity_type": "company",
+    "summary": "Wiz is a company that provides security teams with insights to mitigate risks and unlock innovation across their business. The company, now part of Google Cloud, aims to help organizations create secure cloud and AI environments by creating a normalizing layer between cloud environments.",
+    "last_updated": "2026-07-18"
+  },
+  "endeavor greece": {
+    "canonical_name": "Endeavor Greece",
+    "entity_type": "organization",
+    "summary": "Endeavor Greece is at the epicenter of the Greek Innovation Ecosystem, helping innovative founders enter emerging markets. The organization has a portfolio of 174 companies, has created 992 jobs, and has generated $3.97B in revenues.",
+    "last_updated": "2026-07-18"
+  },
+  "human rights watch": {
+    "canonical_name": "Human Rights Watch",
+    "entity_type": "organization",
+    "summary": "Human Rights Watch defends the rights of people in close to 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice. The organization's researchers work in the field to uncover facts, and they meet with governments and corporations to see that policy is changed and justice",
+    "last_updated": "2026-07-18"
+  },
+  "mcgill university": {
+    "canonical_name": "McGill University",
+    "entity_type": "organization",
+    "summary": "McGill University is one of Canada's best-known institutions of higher learning and one of the country's leading research-intensive universities. The university provides health and wellness programs, including access to fitness facilities and mental health resources.",
+    "last_updated": "2026-07-18"
+  },
+  "warren buffett": {
+    "canonical_name": "Warren Buffett",
+    "entity_type": "person",
+    "summary": "Warren Buffett is an American businessman and philanthropist, widely considered one of the most successful investors of the 20th and early 21st centuries. He is known as the 'Oracle of Omaha' and currently serves as chairman and CEO of Berkshire Hathaway, which owns dozens of companies.",
+    "last_updated": "2026-07-18"
+  },
+  "bill gates": {
+    "canonical_name": "Bill Gates",
+    "entity_type": "person",
+    "summary": "William Henry Gates III, known as Bill Gates, is an American billionaire software mogul and philanthropist who co-founded Microsoft Corporation. He is one of the best-known entrepreneurs of the personal computer revolution and attended Harvard University but left without graduating.",
+    "last_updated": "2026-07-18"
+  },
+  "stripe": {
+    "canonical_name": "Stripe",
+    "entity_type": "general",
+    "summary": "Stripe is a technology company that builds economic infrastructure for the internet. Businesses of every size use Stripe's software to accept payments and manage their online operations.",
+    "last_updated": "2026-07-18"
+  },
+  "startup battlefield": {
+    "canonical_name": "Startup Battlefield",
+    "entity_type": "general",
+    "summary": "Startup Battlefield is TechCrunch's flagship startup pitch competition, which has been used to launch companies like Dropbox, Trello, and Discord. It brings together 200 selected companies to showcase at Disrupt and compete for a $100K equity-free prize and investor attention.",
+    "last_updated": "2026-07-18"
+  },
+  "techcrunch disrupt": {
+    "canonical_name": "TechCrunch Disrupt",
+    "entity_type": "general",
+    "summary": "TechCrunch Disrupt 2026 is a startup event taking place at Moscone West in San Francisco from October 13-15, 2026. It is described as the startup epicenter for tech and VC leaders, offering resources, connections, and expert insights for founders and investors.",
+    "last_updated": "2026-07-18"
+  },
+  "dropbox": {
+    "canonical_name": "Dropbox",
+    "entity_type": "general",
+    "summary": "Dropbox is a cloud-based file hosting software. It is presented as a major competitor to Google Drive, with a focus on cloud storage, privacy, and business plans.",
+    "last_updated": "2026-07-18"
+  },
+  "trello": {
+    "canonical_name": "Trello",
+    "entity_type": "general",
+    "summary": "Trello is a visual work management tool that helps teams organize, plan, and manage their work. It is described as a simple, intuitive way for teams to collaborate and standardize their processes.",
+    "last_updated": "2026-07-18"
+  },
+  "zoom": {
+    "canonical_name": "Zoom",
+    "entity_type": "company",
+    "summary": "Zoom is the leader in modern enterprise video communications, offering an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. It was founded in 2011 and has an estimated revenue between $500M and $1B with 1K-5K employees.",
+    "last_updated": "2026-07-18"
+  },
+  "granola": {
+    "canonical_name": "Granola",
+    "entity_type": "app",
+    "summary": "Granola is an app that turns conversations into a rich, searchable memory. It syncs with your calendar, notes, actions, and memory, and uses your computer's audio without inviting a bot. The app is available for macOS, Windows, iOS, and Android, and works with Zoom, Google Meet, Teams, and other mee",
+    "last_updated": "2026-07-18"
+  },
+  "wall street journal": {
+    "canonical_name": "Wall Street Journal",
+    "entity_type": "organization",
+    "summary": "The Wall Street Journal is a unique national business daily publication. It provides business news and is described as a source of knowledge, with a specific letter from a 'Dear Reader' that shares a story about two young men returning to their college for a 25th reunion.",
+    "last_updated": "2026-07-18"
+  },
+  "counterpoint research": {
+    "canonical_name": "Counterpoint Research",
+    "entity_type": "general",
+    "summary": "Counterpoint Research is a global industry and market research firm providing market data, intelligence, thought leadership and consulting across the technology ecosystem. We advise a diverse range of global clients spanning the supply chain – from chipmakers, component suppliers, manufacturers and",
+    "last_updated": "2026-07-18"
+  },
+  "tarun pathak": {
+    "canonical_name": "Tarun Pathak",
+    "entity_type": "general",
+    "summary": "Tarun Pathak is a Research Director at Counterpoint Research, based out of Gurgaon. He has 10 years of work experience with a key focus on the evolving mobile device ecosystem with specialties in Emerging Markets.",
+    "last_updated": "2026-07-18"
+  },
+  "san francisco city attorney david chiu": {
+    "canonical_name": "San Francisco City Attorney David Chiu",
+    "entity_type": "ban_regulation",
+    "summary": "San Francisco City Attorney David Chiu is involved in legal actions against various entities. He has issued statements regarding a judge siding with the city and other jurisdictions in a block on a matter, and has sued ultraprocessed-food manufacturers, stating the foods are linked to serious health",
+    "last_updated": "2026-07-18"
+  },
+  "tech transparency project": {
+    "canonical_name": "Tech Transparency Project",
+    "entity_type": "ban_regulation",
+    "summary": "The Tech Transparency Project (TTP) is a group that investigates and reports on the activities of tech companies. Their investigations have uncovered YouTube channels making money off U.S.-sanctioned Iranian officials and groups, and Meta deploying social media influencers to promote its Teen Accoun",
+    "last_updated": "2026-07-18"
+  },
+  "nonconsensual deepfake pornography": {
+    "canonical_name": "non-consensual deepfake pornography",
+    "entity_type": "ban_regulation",
+    "summary": "Non-consensual deepfake pornography involves the creation and distribution of explicit content without an individual's consent. One investigation found that accounts on a major online marketplace were used to collect payments for a popular deepfake site that disguised its sales as downloadable gamin",
+    "last_updated": "2026-07-18"
+  },
+  "nonconsensual intimate images ncii": {
+    "canonical_name": "non-consensual intimate images (NCII)",
+    "entity_type": "ban_regulation",
+    "summary": "Non-consensual intimate imagery (NCII) involves the capturing and/or sharing of sexually explicit or nude images without consent. The Digital Omnibus on AI has banned 'nudifier apps' that can generate AI-created sexual images or videos that 'undress' individuals without consent. About 8 million deep",
+    "last_updated": "2026-07-18"
+  },
+  "valar atomics": {
+    "canonical_name": "Valar Atomics",
+    "entity_type": "company",
+    "summary": "Valar Atomics is scaling nuclear energy for heavy industrial power and clean hydrocarbon fuel production. The company is building hundreds of nuclear reactors on Valar Atomics gigasites to unlock economies of scale and move beyond the grid.",
+    "last_updated": "2026-07-18"
+  },
+  "sequoia": {
+    "canonical_name": "Sequoia",
+    "entity_type": "company",
+    "summary": "Sequoia is a strategic partner that helps investor-backed companies achieve business goals by mastering compensation, benefits, and risk. The company guides clients through growth stages, helping them attract talent, optimize funding, and manage workforce risks.",
+    "last_updated": "2026-07-18"
+  },
+  "dyson": {
+    "senses": [
+      {
+        "sense_label": "the company",
+        "summary": "Dyson is a family-owned, global technology company founded by Sir James Dyson. It is a family-owned, global technology company, founded by Sir James Dyson who remains at the helm alongside his son Jake. Since inventing the first cyclonic bagless vacuum cleaner, the DC01, Dyson has consistently inves",
+        "last_updated": "2026-07-18"
+      }
+    ]
+  },
+  "taylor farms": {
+    "canonical_name": "Taylor Farms",
+    "entity_type": "company",
+    "summary": "Taylor Farms is a global producer of salads and healthy fresh foods, known for its fresh blends, meal kits, and salad kits. The company is grounded in a commitment to quality and offers convenient, flavorful options like its Apple Feta Salad Kit.",
+    "last_updated": "2026-07-18"
+  },
+  "cyclospora": {
+    "canonical_name": "Cyclospora",
+    "entity_type": "disease",
+    "summary": "Cyclospora is a disease caused by the microscopic protozoan parasite Cyclospora cayetanensis. Humans shed the parasite in a non-infectious form that takes several days to a couple of weeks to mature into its infectious stage, with the time required depending on environmental factors.",
+    "last_updated": "2026-07-18"
+  },
+  "taco bell": {
+    "canonical_name": "Taco Bell",
+    "entity_type": "company",
+    "summary": "Taco Bell is a fast-food company founded in 1962 and headquartered in Irvine, California. It serves Tex-Mex food items such as tacos, burritos, and other specialty items.",
+    "last_updated": "2026-07-18"
+  },
+  "sysco": {
+    "canonical_name": "Sysco",
+    "entity_type": "company",
+    "summary": "Sysco Corporation (SYY) is evaluated using a comprehensive score that measures the true strength of its dividend. This score combines three pillars: Consistency, which assesses payment history and stability; Payability, which evaluates financial ability to sustain the dividend; and Growth, which loo",
+    "last_updated": "2026-07-18"
+  },
+  "guanajuato": {
+    "canonical_name": "Guanajuato",
+    "entity_type": "location",
+    "summary": "Guanajuato is a city known for its colorful, tumbling houses and vibrant art and music scene. Travelers and locals describe it as safer and more real than some other destinations, with a gritty, lived-in atmosphere.",
+    "last_updated": "2026-07-18"
+  },
+  "matt navarra": {
+    "canonical_name": "Matt Navarra",
+    "entity_type": "person",
+    "summary": "Matt Navarra is a lively, opinionated social media industry personality known for his fast-paced, high-energy delivery style. He is a crowd-pleasing figure at major social media and technology conferences, where he shares his thoughts and strategic ideas.",
+    "last_updated": "2026-07-18"
+  },
+  "zachary kizer": {
+    "canonical_name": "Zachary Kizer",
+    "entity_type": "person",
+    "summary": "Zachary Kizer is a professional with experience at TikTok USDS Joint Venture, an education from Hofstra University, and a location in the San Francisco Bay Area. He has designed brand images, developed engagement strategies, and written copy for social posts and brand apparel.",
+    "last_updated": "2026-07-18"
+  },
+  "jumio": {
+    "canonical_name": "Jumio",
+    "entity_type": "organization",
+    "summary": "Jumio provides end-to-end identity verification solutions trusted by leading brands globally to know and trust customers online. The organization offers these solutions across Latin America and has offices in key locations worldwide.",
+    "last_updated": "2026-07-18"
+  },
+  "pebble": {
+    "canonical_name": "Pebble",
+    "entity_type": "organization",
+    "summary": "Pebble is an organization led by a Managing Partner and a Sustainability Advisor, with a long-time investor and operator background in hardware and Internet companies. The company's cloud engineers, data scientists, and operations experts use AI automation to eliminate wasted compute and lower energ",
+    "last_updated": "2026-07-18"
+  },
+  "asus rog swift 32inch 4k qdoled gaming monitor": {
+    "canonical_name": "Asus ROG Swift 32-inch 4K QD-OLED gaming monitor",
+    "entity_type": "general",
+    "summary": "The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor features a QD-OLED panel that provides inky black levels and vivid colors superior to an LCD screen. It is available from retailers like Amazon, Best Buy, and B&H Photo.",
+    "last_updated": "2026-07-18"
+  },
+  "galaxy z fold 8": {
+    "canonical_name": "Galaxy Z Fold 8",
+    "entity_type": "product",
+    "summary": "The Galaxy Z Fold 8 is a new Samsung foldable phone expected to have a 5.5-inch QHD+ display with a 16:10 aspect ratio. It is designed to be very thin and light, weighing around 200-201g, making it lighter than the Galaxy Z Fold 7. The device is described as the new 'wide' Galaxy Z Fold 8, intended",
+    "last_updated": "2026-07-18"
+  },
+  "galaxy z flip 8": {
+    "canonical_name": "Galaxy Z Flip 8",
+    "entity_type": "product",
+    "summary": "The material does not contain a product overview for the Galaxy Z Flip 8. It discusses the Galaxy Z Flip 7, its performance, design, and AI features, and mentions the difficulty of choosing between Motorola and Samsung for flip phones, but does not provide specific details about the Z Flip 8.",
+    "last_updated": "2026-07-18"
+  },
+  "galaxy z fold 8 ultra": {
+    "canonical_name": "Galaxy Z Fold 8 Ultra",
+    "entity_type": "product",
+    "summary": "The Galaxy Z Fold 8 Ultra will be powered by the Snapdragon 8 Elite Gen 5 for Galaxy chip. It is the direct successor to the Galaxy Z Fold 7 and is being positioned as a premium 'Ultra' model. The device is expected to have a wider design compared to the standard Fold 8, which will serve as the 'bas",
+    "last_updated": "2026-07-18"
+  },
+  "evan blass": {
+    "canonical_name": "Evan Blass",
+    "entity_type": "person",
+    "summary": "Evan Blass, also known by his pen name @evleaks, is an American blogger, editor, and phone leaker from Allentown, Pennsylvania. He gained international notoriety for leaking smartphone and tablet information on Twitter. Although he announced his retirement from leaking in 2014, he returned to the pr",
+    "last_updated": "2026-07-18"
+  },
+  "qualcomm snapdragon 8 elite for galaxy": {
+    "canonical_name": "Qualcomm Snapdragon 8 Elite For Galaxy",
+    "entity_type": "technology",
+    "summary": "The material does not provide a general-purpose technology overview for the Qualcomm Snapdragon 8 Elite for Galaxy. It mentions the chip in the context of the Galaxy Z Fold 8 Ultra and compares it to the Apple M2 Max in a benchmark, but does not offer a standalone overview of the technology.",
+    "last_updated": "2026-07-18"
+  },
+  "50mp": {
+    "canonical_name": "50MP",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 50MP specification. It provides details about a specific phone, the Infinix Hot 30i, which has a 50 MP f/1.6 wide camera and a 5 MP selfie camera, but does not define what 50MP means in a general sense.",
+    "last_updated": "2026-07-18"
+  },
+  "10mp": {
+    "canonical_name": "10MP",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 10MP specification. It lists several products with 10MP cameras, such as the American Dynamics IFS10-M10-OIA4 network camera and the DGS-1210-10MP datasheet, but does not explain the significance of 10MP as a specification.",
+    "last_updated": "2026-07-18"
+  },
+  "26 hours": {
+    "canonical_name": "26 hours",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 26 hours specification. It mentions 26 hours of video playback and 21 hours of streamed video playback in the context of a device, but does not define what a 26-hour specification means for a product.",
+    "last_updated": "2026-07-18"
+  },
+  "4300mah": {
+    "canonical_name": "4,300mAh",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 4,300mAh specification. It mentions a phone with a 4,300mAh battery, the RMX2176, which has been certified by TENAA, but does not explain the significance of a 4,300mAh battery capacity.",
+    "last_updated": "2026-07-18"
+  },
+  "5000mah": {
+    "canonical_name": "5,000mAh",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 5,000mAh specification. It discusses a 5,000mAh power bank and its charging capabilities, but does not provide a general overview of what a 5,000mAh battery means for a phone or device.",
+    "last_updated": "2026-07-18"
+  },
+  "27 hours": {
+    "canonical_name": "27 hours",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 27 hours specification. It refers to a 27-hour survival drama film, '27 Hours', and does not provide any information about a 27-hour specification for a product.",
+    "last_updated": "2026-07-18"
+  },
+  "12mp": {
+    "canonical_name": "12MP",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 12MP specification. It lists a 12MP wide camera with specific features like ƒ/1.8 aperture and digital zoom, but does not explain the significance of a 12MP camera in general.",
+    "last_updated": "2026-07-18"
+  },
+  "200mp": {
+    "canonical_name": "200MP",
+    "entity_type": "spec",
+    "summary": "The material does not contain a general-purpose overview of the 200MP specification. It mentions devices with 200MP cameras, such as the Redmi Note 13 Pro and the Oppo Reno15, but does not explain the significance of a 200MP camera in general.",
+    "last_updated": "2026-07-18"
+  },
+  "chip motors": {
+    "senses": [
+      {
+        "sense_label": "startup",
+        "summary": "Miami-based startup Chip Motors has unveiled Chip, an electric “life utility vehicle” that starts at $15,000 and tops out at 25 mph. The boxy, open-air four-seater is a low-speed vehicle aimed at short daily trips, and it lands in one of the fastest-growing corners of the EV market.",
+        "last_updated": "2026-07-18"
+      }
+    ]
+  },
+  "zyaire wilkins": {
+    "canonical_name": "Zyaire Wilkins",
+    "entity_type": "person",
+    "summary": "Zyaire Wilkins is a 21-year-old Florida resident and student who was arrested by the FBI on Tuesday. Prosecutors accused him and co-conspirators of hacking crimes, including uploading fake video games with malware to the Steam platform.",
+    "last_updated": "2026-07-18"
+  },
+  "local10": {
+    "canonical_name": "Local10",
+    "entity_type": "organization",
+    "summary": "Local10 is a cloud-based recruiting software that provides an overview page for organizations. The page is split into tabs like 'Jobs' and 'Summary' to display information and allow for various actions, with visibility restricted to admins, owners, or team members.",
+    "last_updated": "2026-07-18"
+  },
+  "blockblasters": {
+    "canonical_name": "BlockBlasters",
+    "entity_type": "product",
+    "summary": "BlockBlasters is a fast-paced, action-packed 2D platformer where players fight back against monstrous crabs. The game involves blasting, dodging, and surviving through chaotic areas while facing off against challenging waves of creatures.",
+    "last_updated": "2026-07-18"
+  },
+  "chemia": {
+    "canonical_name": "Chemia",
+    "entity_type": "product",
+    "summary": "Chemia is a browser-based electronic lab notebook (ELN) platform designed by scientists for managing R&D activities. It helps automate R&D setup, enables cross-functional collaboration, and makes operations paperless, saving time and ensuring audit-readiness.",
+    "last_updated": "2026-07-18"
+  },
+  "dashversedashfps": {
+    "canonical_name": "Dashverse/DashFPS",
+    "entity_type": "product",
+    "summary": "Dashverse/DashFPS is a product listed by the FBI as one of seven Steam games involved in a malware investigation. The FBI's questionnaire focuses on cryptocurrency theft, compromised accounts, and stolen funds, indicating the investigation centers on financial crimes.",
+    "last_updated": "2026-07-18"
+  },
+  "lampy": {
+    "canonical_name": "Lampy",
+    "entity_type": "product",
+    "summary": "Lampy is a lighting company founded in 2010 by young designers who wanted to make a difference. The company is known for its innovative designs and commitment to making good design accessible to everyone.",
+    "last_updated": "2026-07-18"
+  },
+  "lunara": {
+    "canonical_name": "Lunara",
+    "entity_type": "product",
+    "summary": "Lunara is a parenting app that provides insights and tracking for baby care. It includes features like sleep tracking, feeding logs, and growth monitoring, and was founded in 2022 in Jakarta, Indonesia.",
+    "last_updated": "2026-07-18"
+  },
+  "piratefi": {
+    "canonical_name": "PirateFi",
+    "entity_type": "product",
+    "summary": "PirateFi is a survival game set on the open sea where players can fish, hunt, and farm to feed their crew. The game features online interactivity, in-game chat, base development, and strategic battles in a low-poly, pirate-themed world.",
+    "last_updated": "2026-07-18"
+  },
+  "tokenova": {
+    "canonical_name": "Tokenova",
+    "entity_type": "product",
+    "summary": "Tokenova is building a neutral infrastructure platform for regulated digital finance, focusing on compliance, intelligence, and liquidity. It serves as an operating system for critical technology capital markets, enabling programmable securities and regulated capital at institutional scale.",
+    "last_updated": "2026-07-18"
+  },
+  "washington": {
+    "canonical_name": "Washington",
+    "entity_type": "location",
+    "summary": "Washington is a constituent state of the U.S. in the northwest corner of the 48 states, bounded by Canada and Idaho. Washington, D.C. is the capital city, serving as the federal government's headquarters with a diverse industry composition.",
+    "last_updated": "2026-07-18"
+  },
+  "american diabetes association": {
+    "canonical_name": "American Diabetes Association",
+    "entity_type": "organization",
+    "summary": "The American Diabetes Association is an organization that supports lifesaving work in research and provides resources to fight diabetes. Diabetes is identified as the most expensive chronic condition in the U.S. and affects millions of families.",
+    "last_updated": "2026-07-18"
+  },
+  "klaatuo1": {
+    "canonical_name": "Klaatu-o1",
+    "entity_type": "ai_model",
+    "summary": "Klaatu-o1 is a custom Mixture-of-Experts router that classifies requests and dispatches them to the optimal LLM provider. It uses a Python/FastAPI backend to handle routing logic, model orchestration, failover, and vector search. The system is designed to learn from user interactions and adapt to th",
+    "last_updated": "2026-07-18"
+  },
+  "gh": {
+    "canonical_name": "gh",
+    "entity_type": "ai_model",
+    "summary": "The material provided does not contain a usable overview of the 'gh' ai_model. It appears to be a placeholder or error page with repeated messages about loading errors and a request to reload the page.",
+    "last_updated": "2026-07-18"
   }
 }
