@@ -9007,5 +9007,251 @@
     "entity_type": "ai_model",
     "summary": "The material provided does not contain a usable overview of the 'gh' ai_model. It appears to be a placeholder or error page with repeated messages about loading errors and a request to reload the page.",
     "last_updated": "2026-07-18"
+  },
+  "moonshineaimoonshine": {
+    "canonical_name": "moonshine-ai/moonshine",
+    "entity_type": "repo_analysis",
+    "summary": "moonshine-ai/moonshine is a repository indexed by RepoMind that enables instant generation of architecture diagrams, control flow visualizations, and automated security audits. It features a low-latency speech-to-text, intent recognition, and text-to-speech system for building voice agents, along wi",
+    "last_updated": "2026-07-19"
+  },
+  "fda": {
+    "senses": [
+      {
+        "sense_label": "regulatory body",
+        "summary": "Regulatory bodies for medical startups primarily include the FDA, CMS, OHRP, and state medical boards. The FDA is a key agency that provides pathways for medical startups to navigate regulatory compliance.",
+        "last_updated": "2026-07-19"
+      }
+    ]
+  },
+  "castor": {
+    "canonical_name": "castor",
+    "entity_type": "stupside",
+    "summary": "Castor is a CLI tool that extracts video streams from websites and casts them to a TV in real time. It uses a headless Chrome with a randomized browser fingerprint to hide automation and works by finding the video, extracting the stream, and transcoding it for the TV. The tool is designed for users",
+    "last_updated": "2026-07-19"
+  },
+  "macintosh garden": {
+    "senses": [
+      {
+        "sense_label": "a specific website/project",
+        "summary": "Macintosh Garden is the original Mac abandonware site, established in 2001. It is dedicated to preserving discontinued Macintosh applications, games, and documentation to ensure their long-term accessibility. The site does not claim rights to any software and requests that owners be contacted if the",
+        "last_updated": "2026-07-19"
+      }
+    ]
+  },
+  "moonshot ai": {
+    "canonical_name": "Moonshot AI",
+    "entity_type": "company",
+    "summary": "Moonshot AI is a Beijing-based AI company that builds the Kimi product line, including Kimi chat, Agent Swarm for large-scale task automation, Kimi Claw, Kimi Code, and the K2.6 model for coding and document workflows. It is building an AI platform that teaches websites to evolve over time to increa",
+    "last_updated": "2026-07-19"
+  },
+  "r1": {
+    "canonical_name": "R1",
+    "entity_type": "ai_model",
+    "summary": "The material provided does not contain information about an entity named 'R1'. It only contains information about the Gemma 4 model family, which is a generative artificial intelligence model family provided with open weights for commercial use.",
+    "last_updated": "2026-07-19"
+  },
+  "david sacks": {
+    "canonical_name": "David Sacks",
+    "entity_type": "person",
+    "summary": "David Sacks is a Silicon Valley investor who was appointed by Donald Trump as artificial intelligence and crypto 'tsar'. He has a close relationship with vice-president-elect JD Vance, and his appointment was linked to his connection with Trump and his work with Thiel.",
+    "last_updated": "2026-07-19"
+  },
+  "travis kalanick": {
+    "canonical_name": "Travis Kalanick",
+    "entity_type": "person",
+    "summary": "Travis Kalanick was the president of ride-sharing at Uber and the only person on the executive leadership team with a history of marketing experience. He was confronted with a crisis at the height of Uber's public relations nightmare, where executives had to tell him that he was poisoning the compan",
+    "last_updated": "2026-07-19"
+  },
+  "afeela": {
+    "senses": [
+      {
+        "sense_label": "startup/concept",
+        "summary": "AFEELA is a new generation of intelligent mobility inviting users to be part of the future. It is equipped with sophisticated AI technology that learns and adapts to the driver's preferences and habits. The concept was announced by Sony Honda Mobility, which discontinued its development and launch.",
+        "last_updated": "2026-07-19"
+      }
+    ]
+  },
+  "honda": {
+    "canonical_name": "Honda",
+    "entity_type": "company",
+    "summary": "Honda is a company committed to creating a society that is useful to people by utilizing its technologies and ideas. It focuses on environmental responsiveness, traffic safety, and realizing a sustainable future. The company's management policy, history, and brand are centered on its global slogan a",
+    "last_updated": "2026-07-19"
+  },
+  "prologue": {
+    "canonical_name": "Prologue",
+    "entity_type": "product",
+    "summary": "The 2026 Honda Prologue is a fully electric SUV that delivers quality, reliability, and performance. It is designed for athletes and fitness enthusiasts with high-performance and durable sport watches. The product includes a user manual and is analyzed based on best-selling items and recommendations",
+    "last_updated": "2026-07-19"
+  },
+  "kelley blue book": {
+    "canonical_name": "Kelley Blue Book",
+    "entity_type": "organization",
+    "summary": "Since 1926, Kelley Blue Book has been a trusted name in the auto industry, known for writing the book on car values. It provides a Price Advisor to show what one should pay for a new or used car based on local data. The organization has a revenue of 51-100 and 501-1000 employees, and is owned by Cox",
+    "last_updated": "2026-07-19"
+  },
+  "cox automotive": {
+    "canonical_name": "Cox Automotive",
+    "entity_type": "organization",
+    "summary": "Cox Automotive is the largest automotive services provider in the world, transforming how vehicles are bought, sold, owned, and used. It unites twelve industry-leading brands to serve dealers, fleets, lenders, and consumers. The company offers data-driven solutions and is the parent company of Kelle",
+    "last_updated": "2026-07-19"
+  },
+  "department of justice": {
+    "canonical_name": "Department of Justice",
+    "entity_type": "organization",
+    "summary": "The Department of Justice is an organization under the leadership of the Attorney General of the United States, composed of more than 40 component organizations and over 115,000 employees. Its mission is to uphold the rule of law, keep the country safe, and protect civil rights. Headquartered in Was",
+    "last_updated": "2026-07-19"
+  },
+  "silver lake": {
+    "canonical_name": "Silver Lake",
+    "entity_type": "company",
+    "summary": "Silver Lake is an American global private equity firm focused on investments in technology and related industries. Founded in 1999, it is one of the largest technology investors in the world. The firm operates at a global scale with a vast asset base and a broad portfolio, with a recent focus on med",
+    "last_updated": "2026-07-19"
+  },
+  "mgx": {
+    "canonical_name": "MGX",
+    "entity_type": "company",
+    "summary": "MGX is a leading AI and advanced technology investor that provides access to a global network of visionaries, entrepreneurs, and investors. Founded in the UAE, MGX is committed to accelerating responsible AI development and building an advanced AI ecosystem. It recently announced the final close of",
+    "last_updated": "2026-07-19"
+  },
+  "a better route planner": {
+    "canonical_name": "A Better Route Planner",
+    "entity_type": "app",
+    "summary": "A Better Route Planner (ABRP) is a popular EV trip planning app that offers accurate range predictions and intelligent charging stop recommendations. It is designed specifically for electric vehicles and is praised for its detailed route planning capabilities, though real user reviews reveal recurri",
+    "last_updated": "2026-07-19"
+  },
+  "audi etron": {
+    "canonical_name": "Audi e-tron",
+    "entity_type": "Audi e-tron",
+    "summary": "The Audi e-tron is an electric vehicle that feels like a normal Audi inside and out, with a seamless contrast between tremendous power and silence. It features a completely new, integrated shifter that is part of the middle console, and the vehicle is equipped with fast charging capability.",
+    "last_updated": "2026-07-19"
+  },
+  "rivian": {
+    "canonical_name": "Rivian",
+    "entity_type": "Rivian",
+    "summary": "Rivian offers long-range electric vehicles, including innovative EV trucks, SUVs, and vans built for adventure. The company's technology is designed to make driving safer, easier, and more fun, with features like up to 9 drive modes and intuitive software.",
+    "last_updated": "2026-07-19"
+  },
+  "rivian company": {
+    "senses": [
+      {
+        "sense_label": "Rivian (company)",
+        "summary": "Rivian is an American electric vehicle (EV) manufacturer and automotive company that is the only company besides Tesla to build an all-new American electric-vehicle brand from scratch and carry it to volume production. The company has made progress toward its first annual gross profit and is known f",
+        "last_updated": "2026-07-19"
+      }
+    ]
+  },
+  "kia ev9": {
+    "canonical_name": "Kia EV9",
+    "entity_type": "Kia EV9",
+    "summary": "The Kia EV9 is a seven-seater electric SUV that is described as one of the most practical and expensive models in the current Kia range. It offers a large battery for a long range, rapid fast charging, and plenty of room for adults across all three rows.",
+    "last_updated": "2026-07-19"
+  },
+  "abrp app": {
+    "canonical_name": "ABRP (app)",
+    "entity_type": "ABRP (app)",
+    "summary": "ABRP is an app designed specifically for electric cars that uses real-time information about charging stations and battery status to calculate the most efficient route. Users can enter their start and end destination, set additional waypoints, and benefit from time savings by avoiding the need to se",
+    "last_updated": "2026-07-19"
+  },
+  "dave eggers": {
+    "canonical_name": "Dave Eggers",
+    "entity_type": "person",
+    "summary": "Dave Eggers is an author, journalist, and the founder of the non-profit organization 826 National. He has written several books, including 'The Forgetters' series, and has also created silk-screen prints to benefit the New International Library of Young Authors.",
+    "last_updated": "2026-07-19"
+  },
+  "pixel 11a": {
+    "canonical_name": "Pixel 11a",
+    "entity_type": "product",
+    "summary": "The Pixel 11a may use the same Titan M3 chip as the Pixel 11, indicating Google is not differentiating between its budget and flagship products regarding security. If these specs are true, the Pixel 11a could be the most liked Pixel A model.",
+    "last_updated": "2026-07-19"
+  },
+  "tensor g6": {
+    "canonical_name": "Tensor G6",
+    "entity_type": "ai_model",
+    "summary": "Tensor G6 is reportedly the first smartphone chip on TSMC 2nm, potentially arriving before Apple's A20 Pro. It is expected to be used in the Pixel 11 series, scheduled for August 2026, and is codenamed 'Google Epic'.",
+    "last_updated": "2026-07-19"
+  },
+  "tensor g5": {
+    "canonical_name": "Tensor G5",
+    "entity_type": "ai_model",
+    "summary": "The Google Tensor G5 is an SoC developed by Google with a focus on AI performance, used in the Pixel 10 series. It integrates three ARM-based CPU clusters and uses a 'Matformer' architecture to dynamically switch between AI models for high performance and efficiency.",
+    "last_updated": "2026-07-19"
+  },
+  "tensor g4": {
+    "canonical_name": "Tensor G4",
+    "entity_type": "ai_model",
+    "summary": "The Google Tensor G4 is a leaked chip that continues Google's focus on what it considers important for a smartphone's processor. While details are limited, the leak suggests it will be a continuation of Google's current approach to smartphone silicon.",
+    "last_updated": "2026-07-19"
+  },
+  "mediatek": {
+    "canonical_name": "MediaTek",
+    "entity_type": "organization",
+    "summary": "MediaTek Inc. is a Taiwanese fabless semiconductor company that provides system-on-chip solutions for wireless communications. It has been involved in patent disputes and is a key player in the global chip market.",
+    "last_updated": "2026-07-19"
+  },
+  "mediatek m90": {
+    "canonical_name": "MediaTek M90",
+    "entity_type": "product",
+    "summary": "MediaTek unveiled its 5G-Advanced modem, the M90, at Mobile World Congress 2025. It supports peak download speeds of up to 12Gbps and features MediaTek Modem AI (MMAI) to optimize power efficiency and device performance.",
+    "last_updated": "2026-07-19"
+  },
+  "powervr dxt481536": {
+    "canonical_name": "PowerVR DXT-48-1536",
+    "entity_type": "technology",
+    "summary": "PowerVR DXT-48-1536 is the GPU in the 8-core Google Tensor G5, which was compared against the 6-core Apple A17 Pro. The comparison noted that ray tracing remains optional with the DXT GPU, and Google has not enabled it at the driver level.",
+    "last_updated": "2026-07-19"
+  },
+  "malig715": {
+    "canonical_name": "Mali-G715",
+    "entity_type": "technology",
+    "summary": "Mali-G715 is a GPU designed for the premium mobile market, featuring new graphics capabilities and upgrades like variable rate shading for complex AAA gaming. It is positioned to address performance issues in mid-range phones and is used in flagship devices.",
+    "last_updated": "2026-07-19"
+  },
+  "noto emoji 3d": {
+    "canonical_name": "Noto Emoji 3D",
+    "entity_type": "ai_model",
+    "summary": "Noto Emoji 3D is an AI-powered contrast tool that analyzes emoji at the pixel level, flags low-contrast issues, and suggests high-contrast solutions. It reimagined nearly 4,000 emoji with richer expressions, improved accessibility, and a new 3D design for modern communication.",
+    "last_updated": "2026-07-19"
+  },
+  "obj files": {
+    "canonical_name": ".OBJ files",
+    "entity_type": "technology",
+    "summary": "OBJ files are a simple, text-based format used to represent 3D geometry, while MTL files are companion files that define material properties for the model. The OBJ format stores geometry, and the MTL format, also text-based, is referenced within the OBJ file to assign materials to different parts.",
+    "last_updated": "2026-07-19"
+  },
+  "gopro": {
+    "canonical_name": "GoPro",
+    "entity_type": "company",
+    "summary": "GoPro, Inc. (GPRO) is a global company on a mission to make the world better one inspired customer at a time. The company profile includes a business summary, industry/sector information, number of employees, corporate governance, and key executives. It also provides details on career opportunities",
+    "last_updated": "2026-07-19"
+  },
+  "gap1": {
+    "canonical_name": "GAP1",
+    "entity_type": "general",
+    "summary": "GAP1 is a protein in Saccharomyces cerevisiae that functions as a general amino acid permease, involved in the uptake of all L-amino acids, some D-amino acids, related compounds, toxic analogs, and polyamines. It is regulated by the nitrogen source and is essential for invasive growth, with its acti",
+    "last_updated": "2026-07-19"
+  },
+  "gap2": {
+    "canonical_name": "GAP2",
+    "entity_type": "general",
+    "summary": "A gap-resolved approach is a versatile strategy that isolates intrinsic gap features from extraneous effects by deliberately separating them from confounding structure. This methodological strategy can be applied to various contexts, such as isolating a superconducting gap, an electronic band gap, a",
+    "last_updated": "2026-07-19"
+  },
+  "gap3": {
+    "canonical_name": "GAP3",
+    "entity_type": "general",
+    "summary": "The Movember Foundation launched the Global Action Plan Prostate Cancer Active Surveillance (GAP3) initiative to create a global consensus on the selection and monitoring of men with low-risk prostate cancer. The initiative aims to standardize practices for active surveillance, which involves carefu",
+    "last_updated": "2026-07-19"
+  },
+  "codesteward": {
+    "canonical_name": "Codesteward",
+    "entity_type": "product",
+    "summary": "Codesteward is a product that parses source code into a queryable structural graph for AI agents and IDEs. It analyzes over 14 programming languages to provide lexical, semantic, and dependency insights. The tool is categorized as Developer Tools, AI, Coding, and Code Autocomplete, with benefits inc",
+    "last_updated": "2026-07-19"
+  },
+  "memmy": {
+    "canonical_name": "Memmy",
+    "entity_type": "ai_model",
+    "summary": "Memmy is an open-source iOS and Android client for Lemmy built with React-Native. It is designed to help users create and share their personal memory with others.",
+    "last_updated": "2026-07-19"
   }
 }
