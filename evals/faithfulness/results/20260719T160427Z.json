@@ -1,0 +1,541 @@
+{
+  "mode": "validation",
+  "timestamp": "2026-07-19T16:04:27.059350+00:00",
+  "judge_model": "sarvam-105b",
+  "judge_prompt_version": "e2970e2a",
+  "golden_set_size": 49,
+  "metrics": {
+    "total": 49,
+    "overall_agreement": 0.6938775510204082,
+    "error_count": 0,
+    "deterministic_layer_used": 9,
+    "per_class": {
+      "supported": {
+        "total": 49,
+        "agree": 34,
+        "agreement_rate": 0.6938775510204082
+      }
+    },
+    "confusion": {
+      "supported->supported": 34,
+      "supported->unsupported": 14,
+      "supported->hedged_opinion": 1
+    },
+    "disagreements": [
+      {
+        "id": "c54fb665b572-claim-4",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text does not mention the 'right-to-repair movement' or frame the settlement as a victory for it; it only details the specific settlement with the FTC and state attorneys general.",
+        "claim_text_hi": "यह समझौता न केवल किसानों के लिए, बल्कि पूरे 'राइट-टू-रिपेयर' आंदोलन के लिए एक बड़ी जीत है।"
+      },
+      {
+        "id": "c54fb665b572-claim-18",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text does not contain any information about how John Deere will comply with the order or whether it will promote competition in the market.",
+        "claim_text_hi": "हालांकि, यह देखना बाकी है कि जॉन डीयर इस नए आदेश का पालन कैसे करेगा और क्या यह वास्तव में बाजार में प्रतिस्पर्धा को बढ़ावा देगा।"
+      },
+      {
+        "id": "c54fb665b572-claim-19",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text reports on a specific settlement but does not make any broader claims about the future momentum of the 'right-to-repair' movement.",
+        "claim_text_hi": "इस समझौते के व्यापक निहितार्थ यह संकेत देते हैं कि 'राइट-टू-रिपेयर' आंदोलन को और गति मिल सकती है।"
+      },
+      {
+        "id": "c54fb665b572-claim-20",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text does not mention other companies or state that this case will set a precedent for them.",
+        "claim_text_hi": "यह मामला अन्य बड़ी कंपनियों के लिए एक मिसाल कायम कर सकता है जो मरम्मत सेवाओं पर अपना एकाधिकार बनाए रखती हैं।"
+      },
+      {
+        "id": "c54fb665b572-claim-22",
+        "human_grade": "supported",
+        "judge_grade": "hedged_opinion",
+        "layer": "llm",
+        "judge_reason": "This is a value judgment and a forward-looking statement about the need for continued effort, not a specific factual claim that can be verified in the source text.",
+        "claim_text_hi": "यह एक महत्वपूर्ण कदम है, लेकिन यह सुनिश्चित करने के लिए निरंतर प्रयासों की आवश्यकता होगी कि उपभोक्ताओं को वास्तव में इसका लाभ मिले।"
+      },
+      {
+        "id": "b20569cd1f28-claim-2",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text does not mention Meta solving a 'significant technological challenge' or mention Facebook as a social media platform.",
+        "claim_text_hi": "मेटा, जो फेसबुक जैसे सोशल मीडिया प्लेटफॉर्म के लिए जानी जाने वाली एक प्रमुख डिजिटल सेवा प्रदाता है, ने एक महत्वपूर्ण तकनीकी चुनौती का समाधान निकाला है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-9",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text describes Meta's technology but does not state that it 'could set a precedent for other companies'.",
+        "claim_text_hi": "मेटा का यह कदम न केवल लागत प्रभावी है, बल्कि अन्य कंपनियों के लिए भी एक मिसाल कायम कर सकता है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-10",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "deterministic",
+        "judge_reason": "claim states '2.0', which does not appear anywhere in source_text",
+        "claim_text_hi": "तकनीकी रूप से, विस्तारा चिप DDR4 RAM को CXL 2.0 टाइप-3 मेमोरी एक्सपैंडर के रूप में प्रस्तुत करती है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-11",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "deterministic",
+        "judge_reason": "claim states '16', which does not appear anywhere in source_text",
+        "claim_text_hi": "यह चिप PCIe Gen5 x16 लिंक के माध्यम से कार्य करती है और दो 72-बिट DDR4 चैनलों का समर्थन करती है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-13",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "deterministic",
+        "judge_reason": "claim states '2400', which does not appear anywhere in source_text",
+        "claim_text_hi": "विस्तारा चिप DDR4-2400 मेमोरी के 256 GB तक के पूल को संचालित कर सकती है, जबकि होस्ट CPU स्थानीय रूप से DDR5-6400 मेमोरी का उपयोग करता है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-14",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text mentions that using older RAM with the CXL interface 'doesn't significantly affect performance' but does not state any specific trade-off between bandwidth and latency.",
+        "claim_text_hi": "मेटा के अनुसार, CXL-जुड़े DDR4 की बैंडविड्थ और लेटेंसी (विलंबता) के बीच एक समझौता करना पड़ता है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-15",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "deterministic",
+        "judge_reason": "claim states '10', which does not appear anywhere in source_text",
+        "claim_text_hi": "CXL-जुड़ा DDR4 पूल, सर्वर की मूल DDR5 मेमोरी की तुलना में लगभग 10 गुना कम मेमोरी बैंडविड्थ और 60% अधिक लेटेंसी प्रदान करता है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-16",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text mentions Meta's Vistara CXL chip for reusing older memory, but makes no mention of a 'Transparent Page Placement' (TPP) layer or moving specific types of pages like 'cold pages' or 'batch inference buffers'.",
+        "claim_text_hi": "इस अंतर के कारण, मेटा का 'ट्रांसपेरेंट पेज प्लेसमेंट' (TPP) लेयर केवल उन पेजों को स्थानांतरित करता है जो लेटेंसी के प्रति सहनशील हैं, जैसे कि कोल्ड पेजों और बैच इन्फरेंस बफ़र्स को विस्तारित DDR4 पूल में भेजता है।"
+      },
+      {
+        "id": "b20569cd1f28-claim-20",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text describes Meta's specific solution but does not state that this approach could become a model for other hyperscale providers.",
+        "claim_text_hi": "यह दृष्टिकोण अन्य हाइपरस्केल प्रदाताओं के लिए भी एक मॉडल बन सकता है जो इसी तरह की चुनौतियों का सामना कर रहे हैं।"
+      },
+      {
+        "id": "b20569cd1f28-claim-23",
+        "human_grade": "supported",
+        "judge_grade": "unsupported",
+        "layer": "llm",
+        "judge_reason": "The source text describes the technical solution (Vistara chip) but does not make the interpretive claim that this demonstrates 'the power of custom engineering to solve technical challenges'.",
+        "claim_text_hi": "यह कदम तकनीकी चुनौतियों के समाधान के लिए कस्टम इंजीनियरिंग की शक्ति को रेखांकित करता है।"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "c54fb665b572-claim-0",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states that the FTC and attorneys general from several states secured a right-to-repair settlement with Deere & Co. that requires the company to let farmers and independent shops fix their own equipment.",
+      "layer": "llm",
+      "claim_text_hi": "एफ टी सी और कई राज्यों ने जॉन डीयर के साथ एक ऐतिहासिक समझौता किया है, जिससे किसानों और स्वतंत्र मरम्मत दुकानों को अपने उपकरणों की मरम्मत का अधिकार मिला है।"
+    },
+    {
+      "id": "c54fb665b572-claim-1",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Deere 'had illegally restricted farmers and independent shops' and that the FTC argued Deere had a 'monopoly over repair tools', which directly supports the claim about curbing monopolistic policies.",
+      "layer": "llm",
+      "claim_text_hi": "यह कदम कंपनी की लंबे समय से चली आ रही एकाधिकारवादी नीतियों पर लगाम लगाएगा।"
+    },
+    {
+      "id": "c54fb665b572-claim-2",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states, 'The Federal Trade Commission and attorneys general from several states secured a right-to-repair settlement Wednesday with agriculture equipment giant Deere & Co.' and later specifies the states as 'Arizona, Illinois, Michigan, Minnesota and Wisconsin'.",
+      "layer": "llm",
+      "claim_text_hi": "फेडरल ट्रेड कमीशन (एफ टी सी) और एरिज़ोना, इलिनोइस, मिशिगन, मिनेसोटा और विस्कॉन्सिन के अटॉर्नी जनरल ने कृषि उपकरण निर्माता जॉन डीयर के साथ एक महत्वपूर्ण समझौता किया है।"
+    },
+    {
+      "id": "c54fb665b572-claim-3",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Deere 'will now be required to make diagnostic and repair tools available to equipment owners and independent repair shops'. This directly supports the claim about providing software and diagnostic tools.",
+      "layer": "llm",
+      "claim_text_hi": "इस समझौते के तहत जॉन डीयर को किसानों और स्वतंत्र दुकानों को अपने उपकरणों की मरम्मत के लिए आवश्यक सॉफ्टवेयर और डायग्नोस्टिक टूल्स उपलब्ध कराने होंगे।"
+    },
+    {
+      "id": "c54fb665b572-claim-4",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text does not mention the 'right-to-repair movement' or frame the settlement as a victory for it; it only details the specific settlement with the FTC and state attorneys general.",
+      "layer": "llm",
+      "claim_text_hi": "यह समझौता न केवल किसानों के लिए, बल्कि पूरे 'राइट-टू-रिपेयर' आंदोलन के लिए एक बड़ी जीत है।"
+    },
+    {
+      "id": "c54fb665b572-claim-5",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states, 'The Federal Trade Commission and attorneys general from several states secured a right-to-repair settlement Wednesday with agriculture equipment giant Deere & Co.' which confirms the announcement was on Wednesday and addresses Deere's repair practices.",
+      "layer": "llm",
+      "claim_text_hi": "इस समझौते की घोषणा बुधवार को की गई, जो जॉन डीयर की उन प्रथाओं पर रोक लगाती है जिनके तहत कंपनी अपने ग्राहकों को मरम्मत के लिए केवल अपने अधिकृत डीलरों का उपयोग करने के लिए मजबूर करती थी।"
+    },
+    {
+      "id": "c54fb665b572-claim-6",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Deere 'withholding the software needed for repairs' and 'provides a service software tool to authorized dealers but does not provide the full version to equipment owners or independent shops'.",
+      "layer": "llm",
+      "claim_text_hi": "कंपनी वर्षों से किसानों और स्वतंत्र मैकेनिकों को मरम्मत के लिए आवश्यक सॉफ्टवेयर और डायग्नोस्टिक टूल्स देने से मना कर रही थी, जिससे उन्हें महंगे और समय लेने वाले सेवा विकल्पों पर निर्भर होना पड़ता था।"
+    },
+    {
+      "id": "c54fb665b572-claim-7",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "all number(s) in the claim (99) appear in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "यह समझौता इस साल जॉन डीयर के लिए दूसरा बड़ा 'राइट-टू-रिपेयर' समझौता है, जिसमें अप्रैल में किसानों के साथ 99 मिलियन डॉलर का क्लास-एक्शन सेटलमेंट भी शामिल है।"
+    },
+    {
+      "id": "c54fb665b572-claim-8",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states: 'Under the order filed in Illinois, Deere will now be required to make diagnostic and repair tools available to equipment owners and independent repair shops, not only its own network of authorized dealers.'",
+      "layer": "llm",
+      "claim_text_hi": "एफ टी सी और राज्यों द्वारा दायर समझौते के विशिष्ट नियमों के अनुसार, जॉन डीयर को अब अपने डायग्नोस्टिक और मरम्मत टूल्स न केवल अपने अधिकृत डीलरों के लिए, बल्कि उपकरण मालिकों और स्वतंत्र मरम्मत दुकानों के लिए भी उपलब्ध कराने होंगे।"
+    },
+    {
+      "id": "c54fb665b572-claim-9",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states, 'It also prevents Deere dealers from retaliating against equipment owners or repair shops who choose to fix their own equipment instead of paying for Deere’s services.'",
+      "layer": "llm",
+      "claim_text_hi": "इसके अलावा, यह समझौता डीलरों को उन ग्राहकों के खिलाफ प्रतिशोध लेने से रोकता है जो अपने उपकरणों की मरम्मत स्वयं करना चुनते हैं।"
+    },
+    {
+      "id": "c54fb665b572-claim-10",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states the settlement 'requires the company to let farmers and independent shops fix their own equipment' and prevents dealers from retaliating, which directly implies increased competition and consumer choice.",
+      "layer": "llm",
+      "claim_text_hi": "यह कदम बाजार में प्रतिस्पर्धा को बढ़ावा देगा और उपभोक्ताओं को अधिक विकल्प प्रदान करेगा।"
+    },
+    {
+      "id": "c54fb665b572-claim-11",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "all number(s) in the claim (2025) appear in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "इस समझौते का कानूनी आधार जनवरी 2025 में दायर एक एंटीट्रस्ट मुकदमा है, जिसमें एफ टी सी और राज्यों ने जॉन डीयर पर किसानों और स्वतंत्र दुकानों को उनके उपकरणों की मरम्मत करने से अवैध रूप से रोकने का आरोप लगाया था।"
+    },
+    {
+      "id": "c54fb665b572-claim-12",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states, 'Deere also makes engines and equipment for forestry, landscaping and construction.'",
+      "layer": "llm",
+      "claim_text_hi": "जॉन डीयर न केवल कृषि के लिए बल्कि निर्माण, वानिकी और लैंडस्केपिंग के लिए भी उपकरण बनाता है, जिससे इस समझौते का प्रभाव व्यापक हो जाता है।"
+    },
+    {
+      "id": "c54fb665b572-claim-13",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "all number(s) in the claim (10) appear in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "इलिनोइस में दायर इस आदेश के तहत जॉन डीयर को पांच राज्यों को एंटीट्रस्ट प्रवर्तन लागत के रूप में 1 मिलियन डॉलर का भुगतान करना होगा और अगले 10 वर्षों तक सख्त अनुपालन निगरानी के अधीन रहना होगा।"
+    },
+    {
+      "id": "c54fb665b572-claim-14",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The quote from Arizona Attorney General Kris Mayes is directly stated in the source text.",
+      "layer": "llm",
+      "claim_text_hi": "एरिज़ोना के अटॉर्नी जनरल क्रिस मेस ने इस समझौते पर कहा, \"बहुत लंबे समय से, एरिज़ोना के किसान और स्वतंत्र मैकेनिक जॉन डीयर के मरम्मत टूल्स के एकाधिकार के रहमों-करम पर थे, जिन्हें टूटे हुए ट्रैक्टरों और अन्य उपकरणों को ठीक करने के लिए केवल अधिकृत डीलरों का इंतजार करना और भुगतान करना पड़ता था।"
+    },
+    {
+      "id": "c54fb665b572-claim-15",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states that Deere 'has faced complaints for years for withholding the software needed for repairs,' which directly supports the claim about farmers' long-standing complaints.",
+      "layer": "llm",
+      "claim_text_hi": "\" यह बयान किसानों की लंबे समय से चली आ रही शिकायतों को दर्शाता है और इस समझौते के महत्व को रेखांकित करता है।"
+    },
+    {
+      "id": "c54fb665b572-claim-16",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states the settlement 'requires the company to let farmers and independent shops fix their own equipment' and that Deere must make 'diagnostic and repair tools available to equipment owners and independent repair shops', which directly supports the claim of farmers gaining control and reducing costs.",
+      "layer": "llm",
+      "claim_text_hi": "यह समझौता किसानों के लिए तत्काल और ठोस लाभ प्रदान करता है, जिससे वे अपने उपकरणों की मरम्मत पर नियंत्रण पा सकेंगे और लागत कम कर सकेंगे।"
+    },
+    {
+      "id": "c54fb665b572-claim-17",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states the settlement 'requires the company to let farmers and independent shops fix their own equipment' and that Deere must 'make diagnostic and repair tools available to equipment owners and independent repair shops'.",
+      "layer": "llm",
+      "claim_text_hi": "यह स्वतंत्र मरम्मत उद्योग के लिए भी एक बड़ी जीत है, जो अब जॉन डीयर के उपकरणों पर काम करने में सक्षम होंगे।"
+    },
+    {
+      "id": "c54fb665b572-claim-18",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text does not contain any information about how John Deere will comply with the order or whether it will promote competition in the market.",
+      "layer": "llm",
+      "claim_text_hi": "हालांकि, यह देखना बाकी है कि जॉन डीयर इस नए आदेश का पालन कैसे करेगा और क्या यह वास्तव में बाजार में प्रतिस्पर्धा को बढ़ावा देगा।"
+    },
+    {
+      "id": "c54fb665b572-claim-19",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text reports on a specific settlement but does not make any broader claims about the future momentum of the 'right-to-repair' movement.",
+      "layer": "llm",
+      "claim_text_hi": "इस समझौते के व्यापक निहितार्थ यह संकेत देते हैं कि 'राइट-टू-रिपेयर' आंदोलन को और गति मिल सकती है।"
+    },
+    {
+      "id": "c54fb665b572-claim-20",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text does not mention other companies or state that this case will set a precedent for them.",
+      "layer": "llm",
+      "claim_text_hi": "यह मामला अन्य बड़ी कंपनियों के लिए एक मिसाल कायम कर सकता है जो मरम्मत सेवाओं पर अपना एकाधिकार बनाए रखती हैं।"
+    },
+    {
+      "id": "c54fb665b572-claim-21",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states the agreement will be 'subject to strict compliance oversight for the next 10 years,' which directly supports the claim about the FTC's monitoring.",
+      "layer": "llm",
+      "claim_text_hi": "हालांकि, इस समझौते की सफलता जॉन डीयर के कार्यान्वयन और एफ टी सी की निगरानी पर निर्भर करेगी।"
+    },
+    {
+      "id": "c54fb665b572-claim-22",
+      "human_grade": "supported",
+      "judge_grade": "hedged_opinion",
+      "judge_reason": "This is a value judgment and a forward-looking statement about the need for continued effort, not a specific factual claim that can be verified in the source text.",
+      "layer": "llm",
+      "claim_text_hi": "यह एक महत्वपूर्ण कदम है, लेकिन यह सुनिश्चित करने के लिए निरंतर प्रयासों की आवश्यकता होगी कि उपभोक्ताओं को वास्तव में इसका लाभ मिले।"
+    },
+    {
+      "id": "c54fb665b572-claim-23",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states the FTC settlement 'requires the company to let farmers and independent shops fix their own equipment' and 'requires Deere to make its repair services available to equipment owners and independent shops', which directly supports the claim that it empowers farmers and promotes competition.",
+      "layer": "llm",
+      "claim_text_hi": "जॉन डीयर के साथ एफ टी सी का यह समझौता एक ऐतिहासिक निर्णय है जो किसानों को सशक्त बनाता है और बाजार में प्रतिस्पर्धा को बढ़ावा देता है।"
+    },
+    {
+      "id": "c54fb665b572-claim-24",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states the settlement 'requires the company to let farmers and independent shops fix their own equipment' and is a result of an antitrust lawsuit, which supports the claim that it's a significant win for the right-to-repair movement.",
+      "layer": "llm",
+      "claim_text_hi": "यह समझौता न केवल किसानों के लिए, बल्कि पूरे 'राइट-टू-रिपेयर' आंदोलन के लिए एक बड़ी जीत है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-0",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Meta developed a custom CXL chip called Vistara and associated software to reuse older memory in new servers.",
+      "layer": "llm",
+      "claim_text_hi": "मेटा ने अपने लाखों सर्वरों में पुराने DDR4 RAM को पुन: उपयोग करने के लिए 'विस्तारा' नाम की एक कस्टम CXL चिप और सॉफ्टवेयर विकसित किया है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-1",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states that Meta developed a solution to reuse older memory in newer servers due to soaring RAM costs and a surplus of older DIMMs, which directly supports the claim that the technology helps maximize existing resources amidst a shortage and price increase.",
+      "layer": "llm",
+      "claim_text_hi": "यह तकनीक मेमोरी की कमी और बढ़ती कीमतों का एक व्यावहारिक समाधान प्रदान करती है, जिससे कंपनी को अपने मौजूदा संसाधनों का अधिकतम लाभ उठाने में मदद मिलती है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-2",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text does not mention Meta solving a 'significant technological challenge' or mention Facebook as a social media platform.",
+      "layer": "llm",
+      "claim_text_hi": "मेटा, जो फेसबुक जैसे सोशल मीडिया प्लेटफॉर्म के लिए जानी जाने वाली एक प्रमुख डिजिटल सेवा प्रदाता है, ने एक महत्वपूर्ण तकनीकी चुनौती का समाधान निकाला है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-3",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "all number(s) in the claim (40) appear in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "कंपनी के अनुसार, उसके लाखों सर्वरों में से लगभग 40% मेमोरी की कमी के कारण प्रदर्शन में सीमित थे, जबकि उसके पास सेवानिवृत्त सर्वरों से DDR4 RAM का एक बड़ा भंडार था।"
+    },
+    {
+      "id": "b20569cd1f28-claim-4",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states: 'it developed a custom Computer Express Link (CXL) chip it calls Vistara, and associated software, to decouple older memory from server memory channels, enabling its reuse in new machines alongside their native memory.'",
+      "layer": "llm",
+      "claim_text_hi": "इस असंतुलन को दूर करने के लिए, मेटा ने एक कस्टम कंप्यूटर एक्सप्रेस लिंक (CXL) चिप विकसित की है, जिसे 'विस्तारा' कहा जाता है, और संबंधित सॉफ्टवेयर तैयार किया है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-5",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Meta developed a CXL chip to 'decouple older memory from server memory channels, enabling its reuse in new machines alongside their native memory,' which directly supports the claim.",
+      "layer": "llm",
+      "claim_text_hi": "यह तकनीक पुराने DDR4 RAM को नए DDR5 सर्वरों के साथ जोड़ने की अनुमति देती है, जिससे मेमोरी की कमी और बढ़ती कीमतों के बीच भी सर्वर प्रदर्शन को बनाए रखने में मदद मिलती है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-6",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text explicitly states: 'Meta described in a technical paper: Vistara: Making CXL Real — Full Path from ASIC Design and OS Support to Hyperscale Deployment,' setting out how the new technology works.'",
+      "layer": "llm",
+      "claim_text_hi": "मेटा की इस पहल का विवरण एक तकनीकी शोध पत्र में दिया गया है, जिसका शीर्षक 'विस्तारा: मेकिंग CXL रियल' है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-7",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states the paper's title is 'Vistara: Making CXL Real — Full Path from ASIC Design and OS Support to Hyperscale Deployment,' which directly corresponds to the claim.",
+      "layer": "llm",
+      "claim_text_hi": "यह शोध पत्र इस तकनीक के विकास की पूरी प्रक्रिया को रेखांकित करता है, जिसमें ASIC डिजाइन और ऑपरेटिंग सिस्टम समर्थन से लेकर हाइपरस्केल परिनियोजन तक की यात्रा शामिल है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-8",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "all number(s) in the claim (2026, 2027) appear in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "यह समाधान वर्तमान बाजार की स्थिति को देखते हुए अत्यंत महत्वपूर्ण है, जहाँ मेमोरी की कीमतें 2026 के अंत तक दोगुनी होने का अनुमान है और RAM की कमी 2027 तक बनी रह सकती है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-9",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text describes Meta's technology but does not state that it 'could set a precedent for other companies'.",
+      "layer": "llm",
+      "claim_text_hi": "मेटा का यह कदम न केवल लागत प्रभावी है, बल्कि अन्य कंपनियों के लिए भी एक मिसाल कायम कर सकता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-10",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "claim states '2.0', which does not appear anywhere in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "तकनीकी रूप से, विस्तारा चिप DDR4 RAM को CXL 2.0 टाइप-3 मेमोरी एक्सपैंडर के रूप में प्रस्तुत करती है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-11",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "claim states '16', which does not appear anywhere in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "यह चिप PCIe Gen5 x16 लिंक के माध्यम से कार्य करती है और दो 72-बिट DDR4 चैनलों का समर्थन करती है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-12",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states, 'Using the older RAM with the CXL interface doesn’t significantly affect performance — although it would have done if the older DIMMs were plugged straight into newer servers.'",
+      "layer": "llm",
+      "claim_text_hi": "मेटा का दावा है कि इस तकनीक का प्रदर्शन पर न्यूनतम प्रभाव पड़ता है, जो कि पुराने RAM को सीधे नए सर्वरों में लगाने पर संभव नहीं होता।"
+    },
+    {
+      "id": "b20569cd1f28-claim-13",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "claim states '2400', which does not appear anywhere in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "विस्तारा चिप DDR4-2400 मेमोरी के 256 GB तक के पूल को संचालित कर सकती है, जबकि होस्ट CPU स्थानीय रूप से DDR5-6400 मेमोरी का उपयोग करता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-14",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text mentions that using older RAM with the CXL interface 'doesn't significantly affect performance' but does not state any specific trade-off between bandwidth and latency.",
+      "layer": "llm",
+      "claim_text_hi": "मेटा के अनुसार, CXL-जुड़े DDR4 की बैंडविड्थ और लेटेंसी (विलंबता) के बीच एक समझौता करना पड़ता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-15",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "claim states '10', which does not appear anywhere in source_text",
+      "layer": "deterministic",
+      "claim_text_hi": "CXL-जुड़ा DDR4 पूल, सर्वर की मूल DDR5 मेमोरी की तुलना में लगभग 10 गुना कम मेमोरी बैंडविड्थ और 60% अधिक लेटेंसी प्रदान करता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-16",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text mentions Meta's Vistara CXL chip for reusing older memory, but makes no mention of a 'Transparent Page Placement' (TPP) layer or moving specific types of pages like 'cold pages' or 'batch inference buffers'.",
+      "layer": "llm",
+      "claim_text_hi": "इस अंतर के कारण, मेटा का 'ट्रांसपेरेंट पेज प्लेसमेंट' (TPP) लेयर केवल उन पेजों को स्थानांतरित करता है जो लेटेंसी के प्रति सहनशील हैं, जैसे कि कोल्ड पेजों और बैच इन्फरेंस बफ़र्स को विस्तारित DDR4 पूल में भेजता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-17",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text describes Meta's development of Vistara as a 'thrifty way to reuse older memory' to address a 'surplus of older DIMMs' and a 'particular need to be thrifty right now', which directly supports the claim of a pragmatic, engineering-driven response to a memory shortage.",
+      "layer": "llm",
+      "claim_text_hi": "मेटा का यह कदम मेमोरी की कमी के प्रति एक व्यावहारिक और इंजीनियरिंग-संचालित प्रतिक्रिया है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-18",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Meta developed a custom CXL chip and software to reuse older memory in new servers, which is a specific example of leveraging custom silicon and software to extract value from existing infrastructure.",
+      "layer": "llm",
+      "claim_text_hi": "यह दर्शाता है कि कैसे बड़े पैमाने के डेटा सेंटर ऑपरेटर अपने मौजूदा बुनियादी ढांचे से अधिकतम मूल्य निकालने के लिए कस्टम सिलिकॉन और सॉफ्टवेयर का लाभ उठा सकते हैं।"
+    },
+    {
+      "id": "b20569cd1f28-claim-19",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states that using older RAM with the CXL interface 'doesn’t significantly affect performance,' which supports the claim of a controlled compromise between performance and cost.",
+      "layer": "llm",
+      "claim_text_hi": "हालांकि यह तकनीक प्रदर्शन में कुछ समझौता करती है, लेकिन यह एक नियंत्रित समझौता है जो क्षमता और लागत के बीच संतुलन बनाता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-20",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text describes Meta's specific solution but does not state that this approach could become a model for other hyperscale providers.",
+      "layer": "llm",
+      "claim_text_hi": "यह दृष्टिकोण अन्य हाइपरस्केल प्रदाताओं के लिए भी एक मॉडल बन सकता है जो इसी तरह की चुनौतियों का सामना कर रहे हैं।"
+    },
+    {
+      "id": "b20569cd1f28-claim-21",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source text states the Meta development 'may prove to be an efficient way forward' in the context of memory shortages and rising costs, which directly supports the claim that it offers an effective and innovative path.",
+      "layer": "llm",
+      "claim_text_hi": "मेटा का विस्तारा समाधान मेमोरी की कमी और बढ़ती लागतों के बीच एक प्रभावी और अभिनव रास्ता प्रदान करता है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-22",
+      "human_grade": "supported",
+      "judge_grade": "supported",
+      "judge_reason": "The source states Meta developed a custom CXL chip called Vistara to reuse older memory from decommissioned servers in new machines, which is a practical example of better utilizing existing resources.",
+      "layer": "llm",
+      "claim_text_hi": "पुराने DDR4 RAM को नए सर्वरों के साथ जोड़कर, कंपनी ने न केवल अपने मौजूदा संसाधनों का बेहतर उपयोग किया है, बल्कि अन्य उद्योग दिग्गजों के लिए भी एक व्यावहारिक उदाहरण पेश किया है।"
+    },
+    {
+      "id": "b20569cd1f28-claim-23",
+      "human_grade": "supported",
+      "judge_grade": "unsupported",
+      "judge_reason": "The source text describes the technical solution (Vistara chip) but does not make the interpretive claim that this demonstrates 'the power of custom engineering to solve technical challenges'.",
+      "layer": "llm",
+      "claim_text_hi": "यह कदम तकनीकी चुनौतियों के समाधान के लिए कस्टम इंजीनियरिंग की शक्ति को रेखांकित करता है।"
+    }
+  ]
+}

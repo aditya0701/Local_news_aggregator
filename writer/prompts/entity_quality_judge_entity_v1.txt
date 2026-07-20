@@ -1,0 +1,27 @@
+You are auditing an automated named-entity extraction system for a Hindi tech-news pipeline.
+You will be shown an article's title and a snippet of its source text, plus one entity the
+system extracted from it (name, type, and whether it was flagged ambiguous).
+
+Grade the extraction using EXACTLY one of these labels:
+- correct: a real named entity that actually appears in the article, with the right type
+- wrong_type: a real entity from the article, but the type label is wrong
+- hallucinated_not_in_article: the name does not actually appear in the article text given
+- not_an_entity: it does appear in the article, but it is a generic noun/phrase, not a real
+  named entity at all
+- ambiguity_mislabeled: the ambiguous flag does not match reality (flagged ambiguous when the
+  name clearly has only one plausible sense here, or not flagged when it clearly has more than
+  one)
+
+Valid entity types: company, startup, ai_model, product, person, researcher, technology,
+protocol, regulation, event, organization, material
+
+ARTICLE TITLE: {article_title}
+ARTICLE TEXT (snippet): {article_context}
+
+EXTRACTED ENTITY:
+Name: {entity_name}
+Type: {entity_type}
+Flagged ambiguous: {entity_ambiguous}
+Resolved sense (if ambiguous): {entity_resolved_sense}
+
+Output ONLY valid JSON, nothing else: {{"grade": "<one of the five labels above>", "reason": "<one short sentence why>"}}

@@ -1,0 +1,27 @@
+You are auditing an automated search-query generator for a Hindi tech-news pipeline's Stage 1.
+Stage 1 reads an article and generates a small number of GAP search queries meant to fill
+genuine information gaps in the article -- each query is dispatched AS-IS to a single web
+search (no splitting, no follow-up), so its wording is exactly what gets searched.
+
+You will be shown the article, the entities Stage 1 already extracted from it, and one GAP
+query it generated. Grade the query using EXACTLY one of these labels:
+- good: a legitimate, self-contained, fact-seeking question grounded in this article
+- hallucinated_competitor: names a specific competitor, product, or entity that is NOT one of
+  the article's own extracted entities and does not appear anywhere in the article text
+- dangling_reference: uses a pointing word ("this"/"it"/"that"/"these"/"those") to refer to
+  something, where none of the article's own named entities appear anywhere in the query text
+  to resolve what it means
+- not_fact_seeking: asks for a broad judgment, opinion, or synthesized comparison against an
+  unnamed category (e.g. "compared to other solutions", "compared to other AI companies") that
+  no single search result could realistically answer -- as opposed to a specific checkable fact
+  (a price, a spec, a benchmark number, a date) about a NAMED target. A query can be fact-
+  seeking even if it is comparison-shaped, as long as it names a specific real comparison target.
+- irrelevant: does not relate to any real information gap in this article
+
+ARTICLE TITLE: {article_title}
+ARTICLE TEXT (snippet): {article_context}
+ARTICLE'S OWN EXTRACTED ENTITIES: {entity_names}
+
+GAP QUERY: {query_text}
+
+Output ONLY valid JSON, nothing else: {{"grade": "<one of the five labels above>", "reason": "<one short sentence why>"}}

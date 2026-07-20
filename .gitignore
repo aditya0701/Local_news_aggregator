@@ -17,3 +17,12 @@ output/*
 # experiments/ is a scratch/exploration workspace (provider comparisons, search
 # test-case dumps, one-off live-run outputs) -- not part of the pipeline.
 experiments/
+
+# Local dev caches for eval harnesses (judge responses, scraped source text,
+# translations) -- not meaningful artifacts on their own, unlike the
+# timestamped reports in evals/*/results/, which ARE meant to be committed.
+evals/*/.judge_response_cache.json
+evals/*/.response_cache.json
+evals/*/.scraped_context_cache.json
+evals/*/.scraped_source_cache.json
+evals/*/.translation_cache.json

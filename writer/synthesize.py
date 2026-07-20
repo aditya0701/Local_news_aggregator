@@ -8,6 +8,7 @@ from langdetect import LangDetectException, detect
 
 from writer.concise_search import ask_concise, build_identity_question, concise_configured, looks_like_not_found
 from writer.entity_cache import get_entity, load_cache, save_cache, set_entity
+from writer.prompts import load_prompt
 from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, build_identity_query, search_web
 from writer.web_context import fetch_page
 
@@ -65,26 +66,7 @@ _CATEGORY_FRAMING = {
 # reasoning to base it on (tested: 0/5 correct on a real article this way,
 # with the model's own stated reason contradicting its verdict). Reversing
 # the order fixed it completely (10/10 correct across 2 real cases).
-_STAGE1_SKIP_PROMPT = """Research assistant for टेकदृष्टि (TechDrishti), a Hindi tech publication.
-Decide if the article below is genuine tech news suitable for publication, or should be skipped.
-
-Title: {title}
-Summary: {summary}
-Source: {source_text}
-
-Skip ONLY if this is:
-- A job/career posting (even if about the tech sector)
-- A product marketplace, directory, or "Show HN" website showcase with no news event
-- A personal blog, tutorial, or documentation page — not a news article
-- Content with no identifiable tech news event (announcement, launch, acquisition, regulation, research)
-Do NOT skip articles ABOUT job market trends, hiring booms/crises, or industry-level employment analysis — those are real news.
-
-Respond in EXACTLY this format, with no other text before or after — REASON comes first,
-decide your verdict only after stating the reason:
-REASON: <one sentence stating what the core crux of this article is>
-SKIP: yes or no
-
-"SKIP: yes" means discard this article. "SKIP: no" means keep it, it is genuine news."""
+_STAGE1_SKIP_PROMPT, _STAGE1_SKIP_PROMPT_VERSION = load_prompt("stage1_skip_v2")
 
 _SKIP_RE = re.compile(r"SKIP:\s*(yes|no)", re.IGNORECASE)
 _SKIP_REASON_RE = re.compile(r"REASON:\s*(.+)", re.IGNORECASE)
@@ -107,107 +89,7 @@ _SKIP_REASON_RE = re.compile(r"REASON:\s*(.+)", re.IGNORECASE)
 # investment story, a dense AI-model release, a GitHub repo) — the repetition
 # bug still recurred once out of 12 runs on the densest article, so the
 # max_tokens cap is a required backstop, not just the prompt wording.
-_STAGE1_ANALYSIS_PROMPT = """You are a researcher supporting a narrative editor at टेकदृष्टि (TechDrishti), a
-Hindi tech publication. This article has already been confirmed as genuine tech news. Your job
-is to find what's MISSING that the editor will need -- not to write the analysis yourself.
-
-Think in this order:
-
-1. TYPE -- classify what kind of tech story this is:
-   - model_release: a new AI model, product, hardware, or tech launch
-   - acquisition: M&A, funding, business deal, partnership
-   - ban_regulation: policy/export/regulatory action
-   - repo_analysis: an open-source project/tool/framework
-   - general: none of the above
-
-2. CHECKLIST -- based on that type, here is what a good analysis piece needs:
-   - model_release: how the new tech's claims compare to existing competitors/alternatives;
-     what is genuinely novel vs incremental; pricing/cost if relevant; what the underlying
-     technology/domain even IS if it's specialized or unfamiliar to a general reader; who it's for
-   - acquisition: competitive landscape of the space; what problem/gap this deal fills;
-     background on the companies involved
-   - ban_regulation: immediate vs long-term implications; who is directly affected
-   - repo_analysis: comparison to existing tools/frameworks; real-world impact
-   - general: no special checklist beyond entities
-
-3. COVERAGE CHECK -- for each checklist item for this TYPE, decide: does the article ALREADY
-   cover it, or is it a GAP the editor will need filled in from elsewhere?
-
-4. QUERIES -- GAP1/GAP2/GAP3 are a MAXIMUM of 3 slots, NOT a required minimum and NOT a target
-   to hit. Only fill a slot if there is a genuine, real gap for that specific article. If the
-   article already covers everything the checklist calls for, leave ALL slots as "none" -- do
-   not invent a question just to fill a slot. It is normal and expected for some or all slots
-   to be "none".
-
-   CRITICAL -- a GAP query is a SEARCH QUERY, not an analysis question. A search engine can only
-   return something that already exists published somewhere (a number, a spec, a date, a price, a
-   quote) -- it cannot return a judgment, an opinion, or a prediction that nobody has written
-   down. Before writing a GAP query, ask yourself: "could a search realistically return one
-   specific fact that answers this?" If the honest answer is no -- if answering it requires
-   forming an opinion or predicting the future -- rewrite it as a request for the underlying
-   fact(s) instead, and let the editor draw the conclusion from those facts. This applies whether
-   the gap is about a single entity (e.g. one product's price) or about comparing two entities --
-   either way, ask for the fact(s), not the verdict. Factual comparisons (pricing, published
-   benchmark/performance numbers, spec-for-spec comparisons) are fine -- it's the analytical
-   "what does this mean" / "why does this matter" framing that is off-limits, not comparisons
-   themselves.
-
-   WRONG (asks for a judgment nobody has published -- a search will never satisfy this):
-   "What is the strategic significance of Z.ai's open-source release in the context of the US ban
-   on Anthropic, and what are the likely long-term implications for the global AI model market?"
-   CORRECT (asks for a fact that lets the editor reach that judgment):
-   "Chinese AI model adoption by US companies after Anthropic export ban"
-
-   WRONG (speculative, no source could ever answer this):
-   "What are the potential cultural integration challenges between Persistent Systems and Nagarro,
-   and how might this affect the post-merger performance of the combined entity?"
-   CORRECT (plain background facts about the two companies -- lets the editor make the point):
-   "Nagarro headquarters employee count history"
-
-   CORRECT (a single entity's own fact -- fine on its own, no comparison needed):
-   "Leanstral 1.5 API pricing"
-   CORRECT (a factual comparison is fine too, AS LONG AS it is still asking for a fact, e.g.
-   published benchmark numbers or pricing, not an opinion about what those numbers mean):
-   "GLM-5.2 GPT-5.5 benchmark score comparison"
-
-   HARD RULE, no exceptions: each GAP query is sent to the research agent completely on its own,
-   as a fresh standalone question -- it does NOT see this article, does NOT see the other GAP
-   queries, and has no memory of anything you wrote above. Never refer to "this vulnerability",
-   "this model", "this attack", "the tool", "it", or any other pronoun/vague reference that only
-   makes sense to someone who already read GAP1 or the article -- a reader (or research agent)
-   seeing ONLY that one query, with nothing else, must be able to tell exactly what it's about.
-   Always spell out the actual name every time, even if that means repeating a name already used
-   in an earlier GAP line.
-   WRONG (GAP2 only makes sense if you already know GAP1's subject):
-   GAP1: "What is GitLost and why is it considered a critical vulnerability?"
-   GAP2: "How does this vulnerability compare to previously disclosed supply-chain attacks?"
-   CORRECT (each line names its subject on its own):
-   GAP1: "What is GitLost and why is it considered a critical vulnerability?"
-   GAP2: "How does the GitLost vulnerability compare to previously disclosed supply-chain attacks?"
-
-   HARD RULE, no exceptions: every named competitor/model/company that appears in a GAP query
-   MUST already be present, character-for-character, in the ENTITIES list you just wrote above
-   in this same response, or in the Source text below. Before finalizing any GAP line, re-check
-   it against your own ENTITIES line: if a name in the query is not in that list, delete that
-   name from the query -- do not substitute a different name from memory, even one you are
-   confident is a real, currently-relevant product, and even one in the same category. You do
-   not have live knowledge of which product is still the current or correct point of comparison
-   today. If, after removing any unlisted name, the query would have nothing left to compare
-   against, do not name any competitor at all -- ask about the article's own entity alone, or
-   set that slot to "none" if there is nothing left to ask.
-
-Respond in EXACTLY this format, in this order, with no other text before or after:
-TYPE: <model_release, acquisition, ban_regulation, repo_analysis, or general>
-ENTITIES: <comma-separated NAMED entities only, format "Name (type)". Types: company, startup,
-ai_model, product, person, researcher, technology, protocol, regulation, event, organization.
-If an entity name is ambiguous on its own, append " [ambiguous: <which sense applies here>]".>
-GAP1: <query for first real gap, or "none">
-GAP2: <query for second real gap, or "none">
-GAP3: <query for third real gap, or "none">
-
-Title: {title}
-Summary: {summary}
-Source: {source_text}"""
+_STAGE1_ANALYSIS_PROMPT, _STAGE1_ANALYSIS_PROMPT_VERSION = load_prompt("stage1_analysis_v2")
 
 _STAGE1_ANALYSIS_MAX_TOKENS = 600
 
@@ -457,221 +339,24 @@ def _prepare_context_queries(queries: list[str], entities: list[dict]) -> list[t
 
 # Step 3 — transcribe Step 2's analysis into strict JSON. Reasoning off, same
 # as everywhere else in this pipeline: no judgment left to make here.
-_STAGE1_EXTRACTION_PROMPT = """Below is a researcher's structured write-up about a news article already confirmed as genuine
-tech news. Your only job is to transcribe it into JSON -- do not re-analyze, do not invent
-anything not already in the write-up.
+_STAGE1_EXTRACTION_PROMPT, _STAGE1_EXTRACTION_PROMPT_VERSION = load_prompt("stage1_extraction_v1")
 
-Researcher write-up:
-{analysis}
+_STAGE2_ANALYSIS_PROMPT, _STAGE2_ANALYSIS_PROMPT_VERSION = load_prompt("stage2_analysis_v1")
 
-Build the JSON like this:
-- "search_queries": for each GAP line that is NOT "none", add its text as a string in this
-  array. Skip any GAP line that says "none" -- do not include it, do not invent a placeholder
-  for it. If all three GAP lines say "none", this array must be empty: [].
-- "entities": for each item listed after ENTITIES:, add one object
-  {{"name": <name, without the type>, "type": <the type>}}. If marked "[ambiguous: ...]", also
-  add "ambiguous": true and "resolved_sense": <the text after "ambiguous:">.
+_STAGE2_EXTRACTION_PROMPT, _STAGE2_EXTRACTION_PROMPT_VERSION = load_prompt("stage2_extraction_v1")
 
-Output ONLY the JSON object, nothing else."""
+_STAGE3_PROMPT, _STAGE3_PROMPT_VERSION = load_prompt("stage3_write_v1")
 
-_STAGE2_ANALYSIS_PROMPT = """You are the editorial director of टेकदृष्टि (TechDrishti), a Hindi science and technology publication.
-
-Article Title: {title}
-Summary: {summary}
-
-Source Text:
-{source_text}
-
-Research Context (entity knowledge + web search results):
-{entity_context}
-
-Think through the editorial strategy for this Hindi article and write out your analysis in
-plain text (not JSON). Cover exactly these five things, in order:
-
-CORE NARRATIVE: the real story and underlying tension, one sentence.
-KEY FACTS AND QUOTES: the facts/figures/statements that must appear in the article.
-DISAMBIGUATION TARGETS: which terms need inline Hindi explanation for a newcomer.
-CATEGORY: exactly one of acquisition|model_release|ban_regulation|repo_analysis|general.
-PARAGRAPH PLAN: a numbered list, 4-6 paragraphs — use as many as the story genuinely has
-  substance for (a maximum driven by real content, not a target to hit; a thin story with only
-  4 paragraphs' worth of real material should stay at 4, don't pad with restated facts to reach
-  6). For each paragraph, write sentences specifying exactly what to say, which
-  facts/entities/numbers belong in it, and the tone — enough detail that a writer needs zero
-  additional thinking to produce a full sentence paragraph from it. List out the specific
-  facts, figures, comparisons, and quotes to use, not just the general theme."""
-
-_STAGE2_EXTRACTION_PROMPT = """Below is a टेकदृष्टि editorial director's finalized analysis for a Hindi tech news article.
-Transcribe it into JSON exactly as written — do not re-analyze, re-plan, or invent anything not
-already present in the analysis below.
-
-ANALYSIS:
-{analysis}
-
-Output ONLY valid JSON with exactly these keys:
-{{
-  "core_narrative": "<from CORE NARRATIVE above>",
-  "key_facts_and_quotes": "<from KEY FACTS AND QUOTES above>",
-  "disambiguation_targets": "<from DISAMBIGUATION TARGETS above>",
-  "category": "<from CATEGORY above — acquisition|model_release|ban_regulation|repo_analysis|general>",
-  "paragraph_plan": [
-    "Para 1: <first paragraph's instruction from PARAGRAPH PLAN above>",
-    "Para 2: <second paragraph's instruction>"
-    ...
-  ]
-}}
-
-Include exactly as many paragraph_plan entries as the PARAGRAPH PLAN section above lists (4-6) —
-no more, no fewer, no invented paragraphs."""
-
-_STAGE3_PROMPT = """You are a Hindi writer for टेकदृष्टि. The editorial team has done all the planning — your ONLY job is to execute the writing plan below exactly as instructed.
-
-DO NOT re-plan, re-think, or restructure. Follow each paragraph instruction below, but NEVER copy the
-instruction's own wording into the article — the plan tells you WHAT to cover, not what to literally
-write. Turn each instruction into actual flowing Hindi prose that DOES what it says, using the source
-facts and entity definitions provided.
-
-You are writing for टेकदृष्टि, a premium Hindi tech publication — readers expect the same depth
-and unhurried pacing they'd get from a serious print newspaper, not a quick blog summary. Take
-the time each paragraph actually needs; do not rush to wrap a paragraph up in 2 sentences just
-because the plan's instruction itself was short. A short instruction still deserves a fully
-developed paragraph once you bring in the source facts, entity context, and real-world
-implications around it.
-
-Write a COMPREHENSIVE, substantial article, not a short summary — you have a generous token budget for
-this, use it. Every body paragraph should be full, multi-sentence Hindi prose that genuinely builds up on
-the plan and source facts — not a one-line gist of the paragraph's topic. deep_dive_and_context in particular is the main body of the article:
-it should be the longest section, covering every middle paragraph from the plan in real depth.
-
-Each individual middle paragraph inside deep_dive_and_context must be at least 5-7 substantial
-sentences on its own — not 2-3. Do not treat the plan's one-line instruction as a cap on length;
-expand it: bring in the specific facts/figures/quotes from SOURCE FACTS and ENTITY DEFINITIONS
-that support that paragraph's point, explain the mechanism or reasoning behind it, and spell out
-why it matters, before moving to the next paragraph. A paragraph that only restates the plan's
-instruction in one or two sentences is unacceptably thin for this publication.
-
-CRITICAL — instruction vs. content, do not confuse the two:
-WRONG (copies the instruction itself, explains nothing): "उपकरण के पीछे की तकनीक की व्याख्या करें। वर्णन करें कि यह कैसे काम करता है।"
-CORRECT (actually executes it): "यह उपकरण परफ्यूजन तकनीक का उपयोग करता है, जो आंख की धमनी के माध्यम से ऑक्सीजन युक्त तरल पहुँचाता है।"
-If a sentence you're about to write contains a verb like "करें"/"दें" telling the reader what to do (व्याख्या करें, वर्णन करें, उल्लेख करें, शामिल करें), you are copying the instruction, not writing the article — rewrite it as a direct statement of fact instead.
-
-## Editorial Quality (Very Important)
-
-Write like a senior technology journalist editing for an elite Hindi technology newspaper. Do
-NOT merely summarize the plan and source facts — produce a polished, publication-ready news
-article that reads as one coherent piece, not a plan stapled to a fact list.
-
-Follow these editorial principles:
-- Report facts first; interpretation second.
-- Maintain a neutral, evidence-based tone.
-- Attribute opinions and judgments to their source (e.g., "कंपनी के अनुसार...", "शोधकर्ताओं का
-  कहना है...", "विश्लेषकों के मुताबिक..."). Do not present opinions or predictions as settled fact.
-- Never exaggerate capabilities or significance beyond what SOURCE FACTS/ENTITY DEFINITIONS
-  actually support.
-- Preserve important nuances. If the source material mentions limitations, human involvement,
-  uncertainty, or caveats, include them — do not smooth them away for a cleaner narrative.
-- Prefer precise statements over dramatic language.
-- If the source material's own certainty is hedged ("according to," "researchers believe,"
-  "appears to," "may," "suggests"), preserve that same level of certainty in Hindi — do not
-  strengthen a hedge into a fact. This is in addition to, not a replacement for, the existing
-  हो सकता है / संभावना है hedging rule below.
-
-Writing style:
-- Read like a professionally edited newspaper article, not an AI summary or technical
-  documentation.
-- Use varied sentence structures and natural transitions.
-- Avoid repetitive constructions such as "इसके बाद... इसके बाद... इसके बाद..."
-- Avoid filler adjectives like "बहुत ही", "बेहद", "चौंकाने वाला", "क्रांतिकारी", unless directly
-  supported by the source material.
-- Show significance through facts rather than emotional wording.
-
-Paragraph quality:
-- Every paragraph should introduce a new idea — if two paragraphs communicate the same idea,
-  keep only the stronger one.
-- Remove redundant explanations; if a paragraph does not improve the reader's understanding,
-  omit it rather than padding for length.
-- Every paragraph must answer at least one of: what happened, how it happened, why it matters,
-  or what the reader should understand from it.
-
-Technical writing:
-- Explain technical concepts only when necessary for understanding the news.
-- Do not overload the article with implementation details.
-- Retain only details that help explain how something worked or why it matters.
-
-Before finalizing, silently verify: no factual exaggeration; no unsupported conclusions; proper
-attribution for all opinions; no repeated ideas; professional newspaper tone throughout; no
-uncertainty converted into certainty. Think like an editor, not a researcher — the goal is not
-to include every fact available, but to publish the article an experienced technology editor
-would approve.
-
---- WRITING PLAN (describes what each paragraph must cover — an instruction to you, not text to reproduce) ---
-Title idea: {title}
-Paragraph plan:
-{paragraph_plan}
-
---- SOURCE FACTS (use these, do not invent) ---
-{source_text_block}
-
---- ENTITY DEFINITIONS ---
-{entity_context}
-
-Mapping the plan's paragraphs (there may be 4-6) onto the sections below:
-- The FIRST paragraph in the plan -> परिचय (Intro)
-- The MIDDLE paragraphs in the plan -> मुख्य लेख (Main Article) — add as many middle
-  paragraphs as the plan has, each as its own separate paragraph
-- The LAST paragraph in the plan -> विश्लेषण (Analysis), using the category framing
-
-## Article Length and Section Structure
-
-The final output must be a publication-ready technology news article, not a research report or
-a JSON object — plain Hindi text with a heading before each section, written the way a human
-reporter would type it: real paragraph breaks (a blank line between paragraphs), not one
-run-on block and not escaped characters.
-
-Output ONLY the following, in exactly this order, nothing else before or after (no preamble,
-no markdown, no code fences, no meta-commentary):
-
-शीर्षक: <one sharp Hindi headline based on the title idea>
-
-मुख्य अवधारणा: <40-60 words — quick explanation of the central news point and why the reader
-should care; do not repeat the intro>
-
-परिचय: <80-120 words — establish the news immediately: what happened, who reported it, why it's
-significant; no deep technical details here>
-
-मुख्य लेख: <500-700 words — the primary reporting section, covering every middle paragraph
-from the plan in real depth. This is the longest section. Cover: the core discovery/
-announcement, the technical details needed to understand it, how it happened, evidence
-supporting the claims, important caveats/limitations, and why it matters. Write each distinct
-middle plan-paragraph as its own paragraph, separated by a blank line — do NOT merge them into
-one continuous block. Avoid unnecessary implementation detail that doesn't improve reader
-understanding.>
-
-विश्लेषण: <200-350 words — editorial value, not a repeat of मुख्य लेख. Clearly separate analysis
-from reported fact. Cover broader industry implications, whether this is a genuine shift or an
-incremental change, limitations of the technology, and likely future impact, using the category
-framing below. Never state speculation as fact — use phrasing like "यह संकेत देता है...",
-"विशेषज्ञों के अनुसार...", "इसका संभावित प्रभाव..." for anything not already confirmed.>
-
-निष्कर्ष: <50-80 words — the key takeaway and broader significance; do not repeat the intro>
-
-Target total length across all sections: 900-1200 words (maximum 1400). If you run long, cut
-secondary background, repeated explanations, and low-value technical detail first — never cut
-core facts, caveats, or important context. A shorter, carefully-chosen article beats a longer
-one stuffed with every available detail.
-
-Category framing for विश्लेषण: {category_framing}
-
-Language rules (CRITICAL):
-- हर वाक्य हिंदी में — क्रिया, संयोजन, विशेषण सब हिंदी में
-- CORRECT: "स्वायत्त एजेंट (Autonomous Agent) एक सरल निर्णय-चक्र पर काम करते हैं।"
-- WRONG: "Individual agents बहुत simple हैं और एक loop follow करते हैं।"
-- Technical terms: देवनागरी पहले, English parentheses में — मेमोरी स्टोर (Memory Store)
-- कोई भी fact जो source में नहीं है वो मत लिखो
-- Predictions hedge करो: हो सकता है, संभावना है
-- Opinions/judgments को उनके स्रोत से attribute करो (जैसे "कंपनी के अनुसार", "शोधकर्ताओं का कहना है")
-- The six section headings above (शीर्षक/मुख्य अवधारणा/परिचय/मुख्य लेख/विश्लेषण/निष्कर्ष) must
-  appear exactly as given, each on its own line followed by a colon — only the content after
-  each colon is free-form Hindi text"""
+# Exposed for eval reports (evals/) so a report can record exactly which
+# prompt text was tested, e.g. {"stage1_skip": "a1b2c3d4", ...}.
+PROMPT_VERSIONS = {
+    "stage1_skip": _STAGE1_SKIP_PROMPT_VERSION,
+    "stage1_analysis": _STAGE1_ANALYSIS_PROMPT_VERSION,
+    "stage1_extraction": _STAGE1_EXTRACTION_PROMPT_VERSION,
+    "stage2_analysis": _STAGE2_ANALYSIS_PROMPT_VERSION,
+    "stage2_extraction": _STAGE2_EXTRACTION_PROMPT_VERSION,
+    "stage3_write": _STAGE3_PROMPT_VERSION,
+}
 
 _SYNTHESIS_PROMPT = """You are a research assistant distilling raw web search material into clean, direct answers for an editorial team writing a tech news article.
 
@@ -1030,6 +715,16 @@ def _stage1_extract_queries(
     return result
 
 
+def triage_item(title: str, summary: str, source_text: str, api_key: str) -> dict | None:
+    """Public entry point for Stage 1 triage (skip decision + entity/gap
+    extraction) — a thin alias for _stage1_extract_queries so eval scripts
+    under evals/ have a clearly-named, intentional import instead of reaching
+    into a private-by-convention function. No behavior difference from
+    calling _stage1_extract_queries directly; both are used interchangeably
+    inside this module."""
+    return _stage1_extract_queries(title, summary, source_text, api_key)
+
+
 def _stage2_editorial_strategy(
     title: str,
     summary: str,
@@ -1266,6 +961,39 @@ def get_run_traces() -> list[dict]:
     return _run_traces
 
 
+def _partition_entities_by_cache(
+    entities: list[dict], cache: dict
+) -> tuple[list[str], list[dict], list[dict], list[dict]]:
+    """Split extracted entities into cache hits (with rendered context text) vs.
+    misses that still need a web search. Downstream, `search_web` is only ever
+    invoked for entities present in the returned `entities_needing_search` list
+    (empty -> no search call), so a fully-covered cache short-circuits search
+    entirely."""
+    entity_context_parts: list[str] = []
+    entities_needing_search: list[dict] = []
+    cache_hits: list[dict] = []
+    cache_misses: list[dict] = []
+
+    for entity in entities:
+        name = entity.get("name", "")
+        is_ambiguous = entity.get("ambiguous", False)
+        resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
+        record = get_entity(cache, name, resolved_sense=resolved_sense)
+        if record:
+            sense_label = record.get("sense_label", "")
+            label = f"{name} ({sense_label})" if sense_label else name
+            preview = record["summary"][:80]
+            entity_context_parts.append(f"{label}: {record['summary']}")
+            cache_hits.append({"name": name, "preview": preview})
+            print(f"  HIT  : {name} -> \"{preview}...\"")
+        else:
+            entities_needing_search.append(entity)
+            cache_misses.append({"name": name, "type": entity.get("type")})
+            print(f"  MISS : {name} ({entity.get('type')})")
+
+    return entity_context_parts, entities_needing_search, cache_hits, cache_misses
+
+
 def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     primary = cluster[0]
     title = primary.get("title", "")
@@ -1364,27 +1092,9 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     # ------------------------------------------------------------------
     print(f"\n[CACHE CHECK]")
     cache = load_cache()
-    entity_context_parts: list[str] = []
-    entities_needing_search: list[dict] = []
-    cache_hits: list[dict] = []
-    cache_misses: list[dict] = []
-
-    for entity in entities:
-        name = entity.get("name", "")
-        is_ambiguous = entity.get("ambiguous", False)
-        resolved_sense = entity.get("resolved_sense") if is_ambiguous else None
-        record = get_entity(cache, name, resolved_sense=resolved_sense)
-        if record:
-            sense_label = record.get("sense_label", "")
-            label = f"{name} ({sense_label})" if sense_label else name
-            preview = record["summary"][:80]
-            entity_context_parts.append(f"{label}: {record['summary']}")
-            cache_hits.append({"name": name, "preview": preview})
-            print(f"  HIT  : {name} -> \"{preview}...\"")
-        else:
-            entities_needing_search.append(entity)
-            cache_misses.append({"name": name, "type": entity.get("type")})
-            print(f"  MISS : {name} ({entity.get('type')})")
+    entity_context_parts, entities_needing_search, cache_hits, cache_misses = _partition_entities_by_cache(
+        entities, cache
+    )
 
     trace["cache"] = {"hits": cache_hits, "misses": cache_misses}
 

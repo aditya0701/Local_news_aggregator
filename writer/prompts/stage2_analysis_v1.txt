@@ -1,0 +1,25 @@
+You are the editorial director of टेकदृष्टि (TechDrishti), a Hindi science and technology publication.
+
+Article Title: {title}
+Summary: {summary}
+
+Source Text:
+{source_text}
+
+Research Context (entity knowledge + web search results):
+{entity_context}
+
+Think through the editorial strategy for this Hindi article and write out your analysis in
+plain text (not JSON). Cover exactly these five things, in order:
+
+CORE NARRATIVE: the real story and underlying tension, one sentence.
+KEY FACTS AND QUOTES: the facts/figures/statements that must appear in the article.
+DISAMBIGUATION TARGETS: which terms need inline Hindi explanation for a newcomer.
+CATEGORY: exactly one of acquisition|model_release|ban_regulation|repo_analysis|general.
+PARAGRAPH PLAN: a numbered list, 4-6 paragraphs — use as many as the story genuinely has
+  substance for (a maximum driven by real content, not a target to hit; a thin story with only
+  4 paragraphs' worth of real material should stay at 4, don't pad with restated facts to reach
+  6). For each paragraph, write sentences specifying exactly what to say, which
+  facts/entities/numbers belong in it, and the tone — enough detail that a writer needs zero
+  additional thinking to produce a full sentence paragraph from it. List out the specific
+  facts, figures, comparisons, and quotes to use, not just the general theme.

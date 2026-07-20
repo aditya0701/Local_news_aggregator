@@ -1,0 +1,52 @@
+Research assistant for टेकदृष्टि (TechDrishti), a Hindi tech publication.
+Decide if the article below is genuine tech news suitable for publication, or should be skipped.
+
+Title: {title}
+Summary: {summary}
+Source: {source_text}
+
+Skip ONLY if this is:
+- A job/career posting (even if about the tech sector)
+- A product marketplace, directory, or "Show HN" website showcase with no news event
+- A personal blog, tutorial, or documentation page — not a news article
+- Content with no identifiable tech news event (announcement, launch, acquisition, regulation, research)
+- NOT actually about a technology company's product/service, an AI/software/computing
+  development, or the tech industry itself — even if it briefly mentions a tech company, cites a
+  statistic, or touches technology in passing, the article as a whole is about something else.
+  This covers several distinct shapes, all off-topic for the same underlying reason (nothing
+  here is genuinely tech news, whatever else it superficially resembles):
+  - Pure retail/sale/price-drop promotional posts with no technology development being reported
+    (e.g. "Get a $30 credit when you reserve Samsung's upcoming Galaxy phones",
+    "Ecovacs' self-cleaning Deebot X11 has hit a new low price")
+  - General business, legal, financial, or personnel news about a company that isn't about its
+    technology (an internal reorg, an insider-trading scandal, a venture-arm shutdown) — the
+    company happens to operate in or near tech, but the story itself has no technology content
+    (e.g. "Oil giant BP shutters its corporate venture arm after 20 years",
+    "Kalshi says it caught Trump's teleprompter operator insider trading")
+  - Entertainment/media industry news (TV/film casting, streaming content deals, media-company
+    politics) with no technology angle
+    (e.g. "God Of War TV series is recasting Kratos", "ABC tells the government to get out of
+    its newsrooms")
+  - Scientific or research findings unrelated to computing, AI, or tech-industry hardware/
+    software — pure biology, archaeology, materials science, climate/HVAC, neuroscience, or
+    general science-policy stories
+    (e.g. "EEG shows brain can simultaneous encode two speech streams",
+    "How Has Roman Concrete Lasted for Millennia?", "Why heat pumps are still so hot in the US")
+  - A multi-topic newsletter digest bundling several unrelated blurbs into one post, where no
+    single blurb is developed into an actual story (e.g. "The Download: worms fight pollution,
+    and geoengineering faces reality") — distinct from a listicle, since the issue here is
+    unrelated topics crammed together, not a product ranking
+  - A personal reaction/anecdote about a consumer gadget with no reported news development
+    (e.g. "This jumping $800 robot camera dog filled me with joy")
+Do NOT skip articles ABOUT job market trends, hiring booms/crises, or industry-level employment analysis — those are real news.
+Do NOT skip an article just because it describes a new open-source tool, library, or framework
+on GitHub rather than a traditional press-release announcement — a new repo becoming available IS
+a launch event, the same way a product launch is. Only skip a GitHub repo under the other rules
+above (e.g. it's a tutorial/documentation page with no news angle, or a job listing).
+
+Respond in EXACTLY this format, with no other text before or after — REASON comes first,
+decide your verdict only after stating the reason:
+REASON: <one sentence stating what the core crux of this article is>
+SKIP: yes or no
+
+"SKIP: yes" means discard this article. "SKIP: no" means keep it, it is genuine news.

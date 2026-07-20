@@ -1,0 +1,3604 @@
+{
+  "mode": "validation",
+  "timestamp": "2026-07-18T14:30:36.591726+00:00",
+  "judge_model": "sarvam-105b",
+  "judge_prompt_versions": {
+    "entity": "48e9d8df",
+    "query": "0e83863c"
+  },
+  "golden_set_size": 349,
+  "entity_metrics": {
+    "total": 293,
+    "overall_agreement": 0.44368600682593856,
+    "error_count": 0,
+    "per_class": {
+      "correct": {
+        "total": 260,
+        "agree": 116,
+        "agreement_rate": 0.4461538461538462
+      },
+      "wrong_type": {
+        "total": 33,
+        "agree": 14,
+        "agreement_rate": 0.42424242424242425
+      }
+    },
+    "confusion": {
+      "correct->correct": 116,
+      "correct->not_an_entity": 8,
+      "correct->wrong_type": 42,
+      "wrong_type->wrong_type": 14,
+      "wrong_type->hallucinated_not_in_article": 18,
+      "correct->hallucinated_not_in_article": 93,
+      "correct->ambiguity_mislabeled": 1,
+      "wrong_type->not_an_entity": 1
+    },
+    "disagreements": [
+      {
+        "id": "c54fb665b572-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "Illinois is a generic state name, not a specific named entity in this context."
+      },
+      {
+        "id": "c54fb665b572-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "Arizona is a generic noun, not a named entity in this context."
+      },
+      {
+        "id": "c54fb665b572-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Michigan is a state, which is not a valid entity type in the provided list."
+      },
+      {
+        "id": "c54fb665b572-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'Minnesota' appears in the article, but 'state' is not a valid entity type."
+      },
+      {
+        "id": "c54fb665b572-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Wisconsin is a real entity in the article, but 'state' is not a valid entity type."
+      },
+      {
+        "id": "b20569cd1f28-entity-1",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Vistara' does not appear in the provided article text."
+      },
+      {
+        "id": "b20569cd1f28-entity-4",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'The Register' does not appear in the provided article text."
+      },
+      {
+        "id": "b1e89b541d74-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity 'Chat Control 1.0' is a real regulation, but the type 'ban_regulation' is not a valid type."
+      },
+      {
+        "id": "2abdc6f86826-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Antares Nuclear' does not appear in the provided article text."
+      },
+      {
+        "id": "2abdc6f86826-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Valar Atomics' does not appear in the provided article text."
+      },
+      {
+        "id": "2abdc6f86826-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Deployable Energy' does not appear in the provided article text."
+      },
+      {
+        "id": "2abdc6f86826-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Aalo Atomics' does not appear in the provided article text."
+      },
+      {
+        "id": "48015e328fcb-entity-2",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name '1400' does not appear in the provided article text."
+      },
+      {
+        "id": "48015e328fcb-entity-3",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name '1600' does not appear in the provided article text."
+      },
+      {
+        "id": "06457083b2aa-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Twitter' does not appear in the provided article text."
+      },
+      {
+        "id": "06457083b2aa-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'X' does not appear in the provided article text."
+      },
+      {
+        "id": "b1454f7c94dc-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "Snopes is not mentioned in the provided article text snippet."
+      },
+      {
+        "id": "b1454f7c94dc-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Gemini' does not appear in the provided article text."
+      },
+      {
+        "id": "b1454f7c94dc-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+      },
+      {
+        "id": "b1454f7c94dc-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Anthropic' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Technical University of Munich' does not appear in the provided text snippet."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'European Commission' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Germany's federal economy ministry' does not appear in the provided text snippet."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-5",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'state of Bavaria' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'World Fund' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Creator Fund' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Earlybird' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-9",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'First Momentum' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-10",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'IQ Capital' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-11",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Onsight Ventures' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-12",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'UnternehmerTUM' does not appear in the provided article text."
+      },
+      {
+        "id": "5d71aeaf84fd-entity-15",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "Munich is a generic location name, not a specific named entity in this context."
+      },
+      {
+        "id": "d0945635dabe-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Zipline' does not appear in the provided article text."
+      },
+      {
+        "id": "d0945635dabe-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Amazon' does not appear in the provided article text."
+      },
+      {
+        "id": "d0945635dabe-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Google' does not appear anywhere in the provided article text."
+      },
+      {
+        "id": "d0945635dabe-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Wing' does not appear in the provided article text."
+      },
+      {
+        "id": "d0945635dabe-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'DoorDash' does not appear in the provided article text."
+      },
+      {
+        "id": "d0945635dabe-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Deliveroo' does not appear in the provided article text."
+      },
+      {
+        "id": "d0945635dabe-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Uber Eats' does not appear in the provided article text."
+      },
+      {
+        "id": "a32c363a58d0-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+      },
+      {
+        "id": "a32c363a58d0-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Anthropic' does not appear in the provided article text."
+      },
+      {
+        "id": "837bef0ca5d5-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Logan Mendelsohn' does not appear in the provided article text."
+      },
+      {
+        "id": "837bef0ca5d5-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Ticketmaster' does not appear in the provided article text."
+      },
+      {
+        "id": "ddd0e3294818-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'General Intuition' does not appear in the provided article text."
+      },
+      {
+        "id": "ddd0e3294818-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Vinod Khosla' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "4861f2c0035e-entity-1",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Meta AI' does not appear in the provided text snippet."
+      },
+      {
+        "id": "4861f2c0035e-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Financial Times' does not appear in the provided article text."
+      },
+      {
+        "id": "c41fa214e1d8-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity 'Fallout' appears in the text, but the type 'game_series' is not a valid type."
+      },
+      {
+        "id": "c41fa214e1d8-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Avowed is a real game mentioned in the title, but the type 'game' is not in the list of valid entity types."
+      },
+      {
+        "id": "c41fa214e1d8-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity 'Grounded' is a real game mentioned in the article, but the type 'game' is not a valid entity type."
+      },
+      {
+        "id": "c41fa214e1d8-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'The Outer Worlds' appears in the article, but it is a game, not a valid entity type."
+      },
+      {
+        "id": "c41fa214e1d8-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity 'Fallout TV show' appears in the article, but the type 'media' is not a valid entity type."
+      },
+      {
+        "id": "c41fa214e1d8-entity-11",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Bloomberg' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "c41fa214e1d8-entity-12",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Kotaku' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "c41fa214e1d8-entity-13",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Delaney Simmons' does not appear in the provided article text."
+      },
+      {
+        "id": "795a702a8d90-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Amazon' does not appear in the provided article text."
+      },
+      {
+        "id": "963a6870c5aa-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'GPT-5.5' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "963a6870c5aa-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Kundan Kumar' does not appear in the provided article text."
+      },
+      {
+        "id": "963a6870c5aa-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Atty Eleti' does not appear in the provided article text."
+      },
+      {
+        "id": "9b81ef52e28e-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Mondo Robotics' does not appear in the provided article text."
+      },
+      {
+        "id": "9b81ef52e28e-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Beni' does not appear in the provided article text."
+      },
+      {
+        "id": "9b81ef52e28e-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "ambiguity_mislabeled",
+        "judge_reason": "DJI is a specific company name, not ambiguous in this context."
+      },
+      {
+        "id": "34c2e0a61af8-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Google' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "34c2e0a61af8-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 11 Pro' does not appear in the provided article text."
+      },
+      {
+        "id": "34c2e0a61af8-entity-5",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 11 Pro XL' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "34c2e0a61af8-entity-6",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 11 Pro Fold' does not appear in the provided article text."
+      },
+      {
+        "id": "34c2e0a61af8-entity-7",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The term 'LTE' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "34c2e0a61af8-entity-9",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name '45mm' appears in the text, but 'model' is not a valid entity type."
+      },
+      {
+        "id": "34c2e0a61af8-entity-10",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity '128GB' appears in the text, but 'storage' is not a valid entity type."
+      },
+      {
+        "id": "34c2e0a61af8-entity-11",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity '256GB' appears in the text but is a storage capacity, not a 'storage' type."
+      },
+      {
+        "id": "7a94bc655941-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "Northwestern University does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'David Kris' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-3",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Australia' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-4",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Canada' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-5",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Japan' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-6",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Republic of Korea' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-7",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'France' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-8",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Germany' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-9",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Poland' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-10",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Netherlands' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-11",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'EU institutions' does not appear in the provided article text."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-13",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'UK government' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "41b85c9cdb7a-entity-14",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Daybreak' does not appear in the provided article text."
+      },
+      {
+        "id": "eaad4cbcfa7f-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'SWE-bench Verified' does not appear in the provided article text."
+      },
+      {
+        "id": "eaad4cbcfa7f-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The 'Preparedness Framework' is a real entity, but it is a regulation, not an event or protocol."
+      },
+      {
+        "id": "05b96b02ed49-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity '9Router' is real, but 'project' is not a valid entity type."
+      },
+      {
+        "id": "05b96b02ed49-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Cloudflare' does not appear in the provided article text."
+      },
+      {
+        "id": "4bef48611ab7-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name appears in the text, but the type 'skill' is not a valid entity type."
+      },
+      {
+        "id": "3115b50b7ab7-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'agy' does not appear in the provided article text."
+      },
+      {
+        "id": "3115b50b7ab7-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Claude Fable 5 is a product (an AI model), not a person."
+      },
+      {
+        "id": "1db2001efe04-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Rust' does not appear anywhere in the provided article text."
+      },
+      {
+        "id": "1db2001efe04-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'MCP' does not appear in the provided article text."
+      },
+      {
+        "id": "1df41e81ed61-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "NoPainNullGain is the article title, not a person."
+      },
+      {
+        "id": "7b42dfb7d2f1-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "MIT OpenCourseWare is not mentioned in the provided text snippet."
+      },
+      {
+        "id": "966f7b5ec438-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+      },
+      {
+        "id": "966f7b5ec438-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity 'sox.sf.net' is a website, but the valid entity types do not include 'website'."
+      },
+      {
+        "id": "966f7b5ec438-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'github.com/remotebrowser/speak' is a real entity, but 'repository' is not a valid type."
+      },
+      {
+        "id": "c503256b26dd-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Google' does not appear in the provided article text."
+      },
+      {
+        "id": "c503256b26dd-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Meta' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "c503256b26dd-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Microsoft' does not appear in the provided article text."
+      },
+      {
+        "id": "c503256b26dd-entity-9",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Snap' does not appear in the provided article text."
+      },
+      {
+        "id": "241f07948341-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'CISA' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "241f07948341-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Anthropic' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "90e916f3dba1-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'BioFiltro' does not appear in the provided article text."
+      },
+      {
+        "id": "0f6aa89ea804-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity is real, but 'general' is not a valid type; it should be 'event'."
+      },
+      {
+        "id": "0f6aa89ea804-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Y Combinator is a real entity in the article, but its type is 'general' instead of a valid type like 'organization' or 'startup'."
+      },
+      {
+        "id": "0f6aa89ea804-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Blackbird Ventures is a real entity in the article, but its type is 'general' instead of a valid entity type like 'company' or 'organization'."
+      },
+      {
+        "id": "0f6aa89ea804-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "The name 'Square Peg Capital' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "0f6aa89ea804-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Khosla Ventures is a real entity in the article, but its type is 'general' instead of a valid type like 'company' or 'organization'."
+      },
+      {
+        "id": "0f6aa89ea804-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Microsoft' does not appear in the provided article text."
+      },
+      {
+        "id": "0f6aa89ea804-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "The name 'AirTree Ventures' does not appear in the provided article text."
+      },
+      {
+        "id": "0f6aa89ea804-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Startmate is a real entity in the article, but it is a startup accelerator, not a 'general' type."
+      },
+      {
+        "id": "0f6aa89ea804-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Techstars is a real entity in the article, but it is a company, not a general term."
+      },
+      {
+        "id": "0f6aa89ea804-entity-9",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "SOSV is a real entity in the article, but 'general' is not a valid entity type."
+      },
+      {
+        "id": "0f6aa89ea804-entity-10",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Stripe is a real company but its type is 'general' instead of 'company'."
+      },
+      {
+        "id": "0f6aa89ea804-entity-11",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "TechCrunch is a publication name, not a generic noun phrase."
+      },
+      {
+        "id": "0f6aa89ea804-entity-12",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'Startup Battlefield 200' does not appear in the article text."
+      },
+      {
+        "id": "0f6aa89ea804-entity-13",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The entity 'TechCrunch Disrupt' does not appear in the provided article text."
+      },
+      {
+        "id": "0f6aa89ea804-entity-14",
+        "human_grade": "correct",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "The name 'Isabelle' does not appear in the provided article text."
+      },
+      {
+        "id": "0f6aa89ea804-entity-15",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'Stripe Tour Sydney' is not in the article, but if it were, 'general' is not a valid entity type."
+      },
+      {
+        "id": "a55cda87a79b-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Mango is a real entity in the text, but its type is 'internal code-name', which is not a valid type."
+      },
+      {
+        "id": "a55cda87a79b-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Meta AI is a product, but the text refers to it as an app, which is a type of product, making the type label technically correct but the entity name refers to the app itself, not the AI model."
+      },
+      {
+        "id": "a55cda87a79b-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'The Verge' does not appear in the provided article text."
+      },
+      {
+        "id": "a55cda87a79b-entity-8",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Facebook Marketplace' does not appear in the provided article text."
+      },
+      {
+        "id": "3690b5e75020-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Kevin Lu' does not appear in the provided article text."
+      },
+      {
+        "id": "3690b5e75020-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Y Combinator' does not appear in the provided article text."
+      },
+      {
+        "id": "3690b5e75020-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Figma Make' does not appear in the provided article text."
+      },
+      {
+        "id": "3690b5e75020-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Codex' does not appear in the provided article text."
+      },
+      {
+        "id": "3690b5e75020-entity-7",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Claude Code' does not appear in the provided article text."
+      },
+      {
+        "id": "a7fa462d2343-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Elon Musk' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "a7fa462d2343-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Department of Government Efficiency' does not appear in the provided article text."
+      },
+      {
+        "id": "a7fa462d2343-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Social Security Administration' does not appear in the provided article text."
+      },
+      {
+        "id": "a7fa462d2343-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'DOGE' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "3ab271c5ba48-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Anthropic is a company, not a model_release."
+      },
+      {
+        "id": "3ab271c5ba48-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The entity 'Claude Cowork' is real, but 'model_release' is not a valid type; it should be 'product'."
+      },
+      {
+        "id": "3ab271c5ba48-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'Claude Tag' is not in the article, but 'Claude Cowork' is, and the correct type is 'ai_model', not 'model_release'."
+      },
+      {
+        "id": "378776067f52-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Ray-Ban is a product, not an organization."
+      },
+      {
+        "id": "378776067f52-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Alex Himel' does not appear in the provided article text."
+      },
+      {
+        "id": "c96e39006552-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Nikita Bier' does not appear in the provided article text."
+      },
+      {
+        "id": "c96e39006552-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Instagram' does not appear in the provided article text."
+      },
+      {
+        "id": "c96e39006552-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'TikTok' does not appear in the provided article text."
+      },
+      {
+        "id": "12ac8ebcbd49-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'Amble One' is in the text, but 'the specific electric vehicle model' is not a valid entity type."
+      },
+      {
+        "id": "12ac8ebcbd49-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'Amble' refers to a product, not a company."
+      },
+      {
+        "id": "12ac8ebcbd49-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Lisbon' does not appear in the provided article text."
+      },
+      {
+        "id": "d755385b4a75-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The View is a TV show, which is an event, not a product."
+      },
+      {
+        "id": "d755385b4a75-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Brendan Carr' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "d755385b4a75-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'James Talarico' does not appear in the provided article text."
+      },
+      {
+        "id": "d755385b4a75-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'The Wrap' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "ceb6c94c77e9-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 10' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "ceb6c94c77e9-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 10 Pro' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "ceb6c94c77e9-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 11 Pro' does not appear in the provided article text snippet."
+      },
+      {
+        "id": "ceb6c94c77e9-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Pixel 11 Pro Fold' does not appear in the provided article text."
+      },
+      {
+        "id": "6dc7496d97e0-entity-1",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "id Software is a real entity but its type should be 'company', not 'general'."
+      },
+      {
+        "id": "6dc7496d97e0-entity-2",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "ZeniMax is a real company mentioned in the article, but the type 'general' is not a valid entity type."
+      },
+      {
+        "id": "6dc7496d97e0-entity-3",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "Doom is a real entity, but its type should be 'product' or 'game', not 'general'."
+      },
+      {
+        "id": "6dc7496d97e0-entity-6",
+        "human_grade": "wrong_type",
+        "judge_grade": "not_an_entity",
+        "judge_reason": "Bloomberg is a generic noun, not a specific named entity in this context."
+      },
+      {
+        "id": "6dc7496d97e0-entity-7",
+        "human_grade": "wrong_type",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Bluesky' does not appear in the provided article text."
+      },
+      {
+        "id": "be88b65e0bfb-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'agent-chief' does not appear in the provided article text."
+      },
+      {
+        "id": "bdb80176ae99-entity-0",
+        "human_grade": "correct",
+        "judge_grade": "wrong_type",
+        "judge_reason": "The name 'olemeyer/rocketplaneIO' is a real entity, but it is a project/repository, not an AI model."
+      },
+      {
+        "id": "bdb80176ae99-entity-4",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Anthropic' does not appear in the provided article text."
+      },
+      {
+        "id": "bdb80176ae99-entity-5",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+      },
+      {
+        "id": "bdb80176ae99-entity-6",
+        "human_grade": "correct",
+        "judge_grade": "hallucinated_not_in_article",
+        "judge_reason": "The name 'Grafana Beyla' does not appear in the provided article text snippet."
+      }
+    ]
+  },
+  "query_metrics": {
+    "total": 56,
+    "overall_agreement": 0.6785714285714286,
+    "error_count": 0,
+    "per_class": {
+      "dangling_reference": {
+        "total": 6,
+        "agree": 0,
+        "agreement_rate": 0.0
+      },
+      "good": {
+        "total": 44,
+        "agree": 34,
+        "agreement_rate": 0.7727272727272727
+      },
+      "not_fact_seeking": {
+        "total": 6,
+        "agree": 4,
+        "agreement_rate": 0.6666666666666666
+      }
+    },
+    "confusion": {
+      "good->good": 34,
+      "good->not_fact_seeking": 7,
+      "not_fact_seeking->not_fact_seeking": 4,
+      "dangling_reference->good": 3,
+      "good->hallucinated_competitor": 3,
+      "not_fact_seeking->good": 1,
+      "dangling_reference->not_fact_seeking": 3,
+      "not_fact_seeking->hallucinated_competitor": 1
+    },
+    "disagreements": [
+      {
+        "id": "c54fb665b572-query-v2-2",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad business impact analysis, not a specific checkable fact about a named target."
+      },
+      {
+        "id": "b1454f7c94dc-query-v2-1",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad comparison against an unnamed category of tools, not a specific fact about a named target."
+      },
+      {
+        "id": "b1454f7c94dc-query-v2-2",
+        "human_grade": "dangling_reference",
+        "judge_grade": "good",
+        "judge_reason": "It asks for specific, verifiable facts about the hoax image's origin and verification method."
+      },
+      {
+        "id": "d0945635dabe-query-v2-0",
+        "human_grade": "good",
+        "judge_grade": "hallucinated_competitor",
+        "judge_reason": "Names competitors not mentioned in the article text."
+      },
+      {
+        "id": "a32c363a58d0-query-v2-0",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "The query asks for a broad comparison against 'other leading LLMs' without naming a specific one, making it impossible to answer with a single search result."
+      },
+      {
+        "id": "ddd0e3294818-query-v2-0",
+        "human_grade": "good",
+        "judge_grade": "hallucinated_competitor",
+        "judge_reason": "The query asks about a 'startup's new model' which is not a named entity in the article, and compares it to specific competitors (GPT, Claude, Llama) that are not the article's own extracted entities."
+      },
+      {
+        "id": "4861f2c0035e-query-v2-1",
+        "human_grade": "not_fact_seeking",
+        "judge_grade": "good",
+        "judge_reason": "The query seeks specific, verifiable facts about legal compliance and user controls for a feature mentioned in the article."
+      },
+      {
+        "id": "4861f2c0035e-query-v2-2",
+        "human_grade": "dangling_reference",
+        "judge_grade": "good",
+        "judge_reason": "The query asks for specific, verifiable facts (price and battery life) about the smart glasses mentioned in the article."
+      },
+      {
+        "id": "9b81ef52e28e-query-v2-1",
+        "human_grade": "good",
+        "judge_grade": "hallucinated_competitor",
+        "judge_reason": "The query asks about DJI models, but DJI is only mentioned as a former employer of the creators, not as a competitor or product being compared to."
+      },
+      {
+        "id": "1db2001efe04-query-v2-0",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad comparison against an unnamed category ('other context management systems') rather than a specific checkable fact."
+      },
+      {
+        "id": "1db2001efe04-query-v2-1",
+        "human_grade": "dangling_reference",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad comparison against an unnamed category of tools, which cannot be answered by a single search result."
+      },
+      {
+        "id": "1df41e81ed61-query-v2-1",
+        "human_grade": "dangling_reference",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad comparison against an unnamed category ('other local vision models') rather than a specific, checkable fact about a named target."
+      },
+      {
+        "id": "a55cda87a79b-query-v2-1",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "This asks for a broad analysis of impact, not a specific checkable fact about a named target."
+      },
+      {
+        "id": "d4bb1346f4ac-query-v2-2",
+        "human_grade": "dangling_reference",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad comparison against an unnamed category of systems, not a specific checkable fact about a named target."
+      },
+      {
+        "id": "3690b5e75020-query-v2-2",
+        "human_grade": "not_fact_seeking",
+        "judge_grade": "hallucinated_competitor",
+        "judge_reason": "Names specific competitors (Cursor and Replit) not mentioned in the article."
+      },
+      {
+        "id": "3ab271c5ba48-query-v2-0",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a broad comparison of capabilities across platforms, not a specific checkable fact about a named target."
+      },
+      {
+        "id": "d755385b4a75-query-v2-1",
+        "human_grade": "good",
+        "judge_grade": "not_fact_seeking",
+        "judge_reason": "Asks for a definition or opinion, not a specific, checkable fact like a date or number."
+      },
+      {
+        "id": "d755385b4a75-query-v2-2",
+        "human_grade": "dangling_reference",
+        "judge_grade": "good",
+        "judge_reason": "It asks for a specific, verifiable fact about other entities mentioned in the article's context."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "c54fb665b572-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "John Deere is a real company mentioned in the article title and text, and the type 'company' is correct."
+    },
+    {
+      "id": "c54fb665b572-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Federal Trade Commission is a real organization mentioned in the article text."
+    },
+    {
+      "id": "c54fb665b572-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "Illinois is a generic state name, not a specific named entity in this context."
+    },
+    {
+      "id": "c54fb665b572-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "Arizona is a generic noun, not a named entity in this context."
+    },
+    {
+      "id": "c54fb665b572-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Michigan is a state, which is not a valid entity type in the provided list."
+    },
+    {
+      "id": "c54fb665b572-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'Minnesota' appears in the article, but 'state' is not a valid entity type."
+    },
+    {
+      "id": "c54fb665b572-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Wisconsin is a real entity in the article, but 'state' is not a valid entity type."
+    },
+    {
+      "id": "c54fb665b572-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query is a specific, fact-seeking question about the terms of the settlement mentioned in the article."
+    },
+    {
+      "id": "c54fb665b572-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for a specific, fact-based detail about the FTC's legal authority, which is a key part of the article's topic."
+    },
+    {
+      "id": "c54fb665b572-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad business impact analysis, not a specific checkable fact about a named target."
+    },
+    {
+      "id": "b20569cd1f28-entity-0",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Meta is a company, not a model_release."
+    },
+    {
+      "id": "b20569cd1f28-entity-1",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Vistara' does not appear in the provided article text."
+    },
+    {
+      "id": "b20569cd1f28-entity-2",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "CXL is a real technology mentioned in the article, but its type is 'model_release' instead of 'technology'."
+    },
+    {
+      "id": "b20569cd1f28-entity-3",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "RAM is a real entity in the article, but 'model_release' is not a valid type; it should be 'technology'."
+    },
+    {
+      "id": "b20569cd1f28-entity-4",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'The Register' does not appear in the provided article text."
+    },
+    {
+      "id": "b20569cd1f28-query-v2-0",
+      "kind": "query",
+      "human_grade": "not_fact_seeking",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison of trade-offs, not a specific checkable fact about a named target."
+    },
+    {
+      "id": "b20569cd1f28-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query is a specific, fact-seeking question about a named entity (Meta's custom bridge chip) and its technical function, directly addressing a potential information gap in the article."
+    },
+    {
+      "id": "b1e89b541d74-entity-0",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'European Parliament' is correct, but the type 'ban_regulation' is not a valid type; it should be 'regulation'."
+    },
+    {
+      "id": "b1e89b541d74-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'Chat Control 1.0' is a real regulation, but the type 'ban_regulation' is not a valid type."
+    },
+    {
+      "id": "b1e89b541d74-entity-2",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Breyer is a real person in the article, but the type 'ban_regulation' is not a valid entity type."
+    },
+    {
+      "id": "b1e89b541d74-entity-3",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'Council' is not in the article text, and 'ban_regulation' is not a valid entity type."
+    },
+    {
+      "id": "2abdc6f86826-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Antares Nuclear' does not appear in the provided article text."
+    },
+    {
+      "id": "2abdc6f86826-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Valar Atomics' does not appear in the provided article text."
+    },
+    {
+      "id": "2abdc6f86826-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Deployable Energy' does not appear in the provided article text."
+    },
+    {
+      "id": "2abdc6f86826-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Aalo Atomics' does not appear in the provided article text."
+    },
+    {
+      "id": "a8a2b098c664-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI is a real company mentioned in the article text with the correct type."
+    },
+    {
+      "id": "a8a2b098c664-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "GPT 5.6 is a real AI model mentioned in the text and is correctly typed as an ai_model."
+    },
+    {
+      "id": "48015e328fcb-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Truecaller is a real company mentioned in the article and is correctly labeled as such."
+    },
+    {
+      "id": "48015e328fcb-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "TRAI is a real organization mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "48015e328fcb-entity-2",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name '1400' does not appear in the provided article text."
+    },
+    {
+      "id": "48015e328fcb-entity-3",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name '1600' does not appear in the provided article text."
+    },
+    {
+      "id": "48015e328fcb-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks a specific, fact-seeking question about the rules mentioned in the article, using only entities present in the text."
+    },
+    {
+      "id": "48015e328fcb-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks a specific, fact-seeking question about the article's central conflict."
+    },
+    {
+      "id": "48015e328fcb-query-v2-2",
+      "kind": "query",
+      "human_grade": "not_fact_seeking",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "The query asks for a broad context and timeline, which is not a specific, checkable fact about a named target."
+    },
+    {
+      "id": "06457083b2aa-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Elon Musk is a real person mentioned in the article and is correctly labeled as a person."
+    },
+    {
+      "id": "06457083b2aa-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "SEC is a real organization mentioned in the text and is correctly typed as such."
+    },
+    {
+      "id": "06457083b2aa-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Twitter' does not appear in the provided article text."
+    },
+    {
+      "id": "06457083b2aa-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'X' does not appear in the provided article text."
+    },
+    {
+      "id": "b1454f7c94dc-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Google is a real company mentioned in the article title and text, and the type 'company' is correct."
+    },
+    {
+      "id": "b1454f7c94dc-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "SynthID is a real technology mentioned in the article and is correctly labeled as such."
+    },
+    {
+      "id": "b1454f7c94dc-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Mitch McConnell is a real person mentioned in the article and is correctly labeled as a person."
+    },
+    {
+      "id": "b1454f7c94dc-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "Snopes is not mentioned in the provided article text snippet."
+    },
+    {
+      "id": "b1454f7c94dc-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Gemini' does not appear in the provided article text."
+    },
+    {
+      "id": "b1454f7c94dc-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+    },
+    {
+      "id": "b1454f7c94dc-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Anthropic' does not appear in the provided article text."
+    },
+    {
+      "id": "b1454f7c94dc-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific technical details about a named entity (SynthID) mentioned in the article, which is a legitimate fact-seeking question."
+    },
+    {
+      "id": "b1454f7c94dc-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison against an unnamed category of tools, not a specific fact about a named target."
+    },
+    {
+      "id": "b1454f7c94dc-query-v2-2",
+      "kind": "query",
+      "human_grade": "dangling_reference",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, verifiable facts about the hoax image's origin and verification method."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "QuantumDiamonds is a German startup mentioned in the text and is correctly labeled as a startup."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Technical University of Munich' does not appear in the provided text snippet."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "ASML is a real company mentioned in the text and is correctly labeled as a company."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'European Commission' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Germany's federal economy ministry' does not appear in the provided text snippet."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-5",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'state of Bavaria' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'World Fund' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Creator Fund' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Earlybird' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-9",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'First Momentum' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-10",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'IQ Capital' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-11",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Onsight Ventures' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-12",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'UnternehmerTUM' does not appear in the provided article text."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-13",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "EU is a real named entity in the text and is correctly identified as an organization."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-14",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The European Chips Act is a real regulation mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "5d71aeaf84fd-entity-15",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "Munich is a generic location name, not a specific named entity in this context."
+    },
+    {
+      "id": "d0945635dabe-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Manna Aero is a real company mentioned in the text and is correctly labeled as a company."
+    },
+    {
+      "id": "d0945635dabe-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Bobby Healy is a person mentioned in the text and the type is correct."
+    },
+    {
+      "id": "d0945635dabe-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Zipline' does not appear in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Amazon' does not appear in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Google' does not appear anywhere in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Wing' does not appear in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'DoorDash' does not appear in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Deliveroo' does not appear in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Uber Eats' does not appear in the provided article text."
+    },
+    {
+      "id": "d0945635dabe-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "hallucinated_competitor",
+      "judge_reason": "Names competitors not mentioned in the article text."
+    },
+    {
+      "id": "d0945635dabe-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, verifiable facts about a named entity (Manna's drone fleet) mentioned in the article."
+    },
+    {
+      "id": "d0945635dabe-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, verifiable facts (timeline, milestones) about a named entity (Manna's US expansion) mentioned in the article."
+    },
+    {
+      "id": "a32c363a58d0-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "SpaceXAI is a real company mentioned in the article and is correctly labeled as a company."
+    },
+    {
+      "id": "a32c363a58d0-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Grok 4.5 is a real AI model mentioned in the article and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "a32c363a58d0-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Elon Musk is a real person mentioned in the article title and text, and the type 'person' is correct."
+    },
+    {
+      "id": "a32c363a58d0-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+    },
+    {
+      "id": "a32c363a58d0-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Anthropic' does not appear in the provided article text."
+    },
+    {
+      "id": "a32c363a58d0-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "The query asks for a broad comparison against 'other leading LLMs' without naming a specific one, making it impossible to answer with a single search result."
+    },
+    {
+      "id": "a32c363a58d0-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable facts (pricing and use cases) about a named entity (Grok 4.5) that is central to the article."
+    },
+    {
+      "id": "837bef0ca5d5-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Roost is a real product mentioned in the article text."
+    },
+    {
+      "id": "837bef0ca5d5-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Logan Mendelsohn' does not appear in the provided article text."
+    },
+    {
+      "id": "837bef0ca5d5-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Ticketmaster' does not appear in the provided article text."
+    },
+    {
+      "id": "ddd0e3294818-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'General Intuition' does not appear in the provided article text."
+    },
+    {
+      "id": "ddd0e3294818-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Vinod Khosla' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "ddd0e3294818-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI is a real company mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "ddd0e3294818-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "GPT is a real AI model mentioned in the text and is correctly typed as ai_model."
+    },
+    {
+      "id": "ddd0e3294818-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Claude is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "ddd0e3294818-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Llama is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "ddd0e3294818-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "hallucinated_competitor",
+      "judge_reason": "The query asks about a 'startup's new model' which is not a named entity in the article, and compares it to specific competitors (GPT, Claude, Llama) that are not the article's own extracted entities."
+    },
+    {
+      "id": "ddd0e3294818-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, verifiable information about the startup's target industries and how they differ from named models like GPT, Claude, and Llama."
+    },
+    {
+      "id": "4861f2c0035e-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Meta is a real company mentioned in the title and text, and the type 'company' is correct."
+    },
+    {
+      "id": "4861f2c0035e-entity-1",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Meta AI' does not appear in the provided text snippet."
+    },
+    {
+      "id": "4861f2c0035e-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Financial Times' does not appear in the provided article text."
+    },
+    {
+      "id": "4861f2c0035e-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific technical details about a named feature ('super sensing' glasses) mentioned in the article, seeking verifiable facts about its architecture and comparison to named hardware categories."
+    },
+    {
+      "id": "4861f2c0035e-query-v2-1",
+      "kind": "query",
+      "human_grade": "not_fact_seeking",
+      "judge_grade": "good",
+      "judge_reason": "The query seeks specific, verifiable facts about legal compliance and user controls for a feature mentioned in the article."
+    },
+    {
+      "id": "4861f2c0035e-query-v2-2",
+      "kind": "query",
+      "human_grade": "dangling_reference",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable facts (price and battery life) about the smart glasses mentioned in the article."
+    },
+    {
+      "id": "27003f84941b-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Samsung is a real company mentioned in the article text and is correctly labeled as a company."
+    },
+    {
+      "id": "27003f84941b-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Galaxy Z Fold is a real product mentioned in the title and is correctly typed as a product."
+    },
+    {
+      "id": "27003f84941b-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Galaxy Unpacked is a real event name mentioned in the article text."
+    },
+    {
+      "id": "c41fa214e1d8-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Microsoft is a real company mentioned in the article title and is correctly labeled as a company."
+    },
+    {
+      "id": "c41fa214e1d8-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Xbox is a real product mentioned in the title and is correctly typed as a product."
+    },
+    {
+      "id": "c41fa214e1d8-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Obsidian Entertainment is a real company mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "c41fa214e1d8-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Josh Sawyer is a real person mentioned in the article text and is correctly typed as a person."
+    },
+    {
+      "id": "c41fa214e1d8-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'Fallout' appears in the text, but the type 'game_series' is not a valid type."
+    },
+    {
+      "id": "c41fa214e1d8-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Avowed is a real game mentioned in the title, but the type 'game' is not in the list of valid entity types."
+    },
+    {
+      "id": "c41fa214e1d8-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'Grounded' is a real game mentioned in the article, but the type 'game' is not a valid entity type."
+    },
+    {
+      "id": "c41fa214e1d8-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'The Outer Worlds' appears in the article, but it is a game, not a valid entity type."
+    },
+    {
+      "id": "c41fa214e1d8-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'Fallout TV show' appears in the article, but the type 'media' is not a valid entity type."
+    },
+    {
+      "id": "c41fa214e1d8-entity-9",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Microsoft is a real company mentioned in the title and is correctly labeled as a company."
+    },
+    {
+      "id": "c41fa214e1d8-entity-10",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Xbox is a real product mentioned in the article title and is correctly labeled as a product."
+    },
+    {
+      "id": "c41fa214e1d8-entity-11",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Bloomberg' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "c41fa214e1d8-entity-12",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Kotaku' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "c41fa214e1d8-entity-13",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Delaney Simmons' does not appear in the provided article text."
+    },
+    {
+      "id": "e1d73b36c4e8-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Fiat is a real company mentioned in the article text."
+    },
+    {
+      "id": "99dfc37d5860-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "SwitchBot Bot Rechargeable is a product mentioned in the title and is correctly identified as a product."
+    },
+    {
+      "id": "dde8e68763fe-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Microsoft is a real company mentioned in the article text with the correct type."
+    },
+    {
+      "id": "795a702a8d90-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Twelve South is a real company that makes the AirFly Pro product mentioned in the title."
+    },
+    {
+      "id": "795a702a8d90-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "AirFly Pro is a product mentioned in the title and text."
+    },
+    {
+      "id": "795a702a8d90-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Amazon' does not appear in the provided article text."
+    },
+    {
+      "id": "963a6870c5aa-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI is the company that developed ChatGPT and the GPT-Live-1 model mentioned in the text."
+    },
+    {
+      "id": "963a6870c5aa-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "GPT-Live-1 is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "963a6870c5aa-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'GPT-5.5' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "963a6870c5aa-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Kundan Kumar' does not appear in the provided article text."
+    },
+    {
+      "id": "963a6870c5aa-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Atty Eleti' does not appear in the provided article text."
+    },
+    {
+      "id": "963a6870c5aa-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, measurable advantages of a named entity (GPT-Live-1) over its predecessors, which is a legitimate fact-seeking question."
+    },
+    {
+      "id": "9b81ef52e28e-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Mondo Robotics' does not appear in the provided article text."
+    },
+    {
+      "id": "9b81ef52e28e-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Beni' does not appear in the provided article text."
+    },
+    {
+      "id": "9b81ef52e28e-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "ambiguity_mislabeled",
+      "judge_reason": "DJI is a specific company name, not ambiguous in this context."
+    },
+    {
+      "id": "9b81ef52e28e-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query is a specific, fact-seeking question about the technical architecture of a named entity (the robot camera dog) and its comparison to other named entities (DJI's Ronin and Osmo series)."
+    },
+    {
+      "id": "9b81ef52e28e-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "hallucinated_competitor",
+      "judge_reason": "The query asks about DJI models, but DJI is only mentioned as a former employer of the creators, not as a competitor or product being compared to."
+    },
+    {
+      "id": "34c2e0a61af8-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Google' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "34c2e0a61af8-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Pixel is a real product line mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "34c2e0a61af8-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Pixel Watch 5 is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "34c2e0a61af8-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Pixel 11 is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "34c2e0a61af8-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 11 Pro' does not appear in the provided article text."
+    },
+    {
+      "id": "34c2e0a61af8-entity-5",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 11 Pro XL' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "34c2e0a61af8-entity-6",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 11 Pro Fold' does not appear in the provided article text."
+    },
+    {
+      "id": "34c2e0a61af8-entity-7",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The term 'LTE' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "34c2e0a61af8-entity-8",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name '41mm' appears in the text, but 'model' is not a valid entity type; it should be 'product'."
+    },
+    {
+      "id": "34c2e0a61af8-entity-9",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name '45mm' appears in the text, but 'model' is not a valid entity type."
+    },
+    {
+      "id": "34c2e0a61af8-entity-10",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity '128GB' appears in the text, but 'storage' is not a valid entity type."
+    },
+    {
+      "id": "34c2e0a61af8-entity-11",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity '256GB' appears in the text but is a storage capacity, not a 'storage' type."
+    },
+    {
+      "id": "7a94bc655941-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "Northwestern University does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'David Kris' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "U.S. government is a real organization mentioned in the text and is correctly typed as an organization."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-3",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Australia' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-4",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Canada' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-5",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Japan' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-6",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Republic of Korea' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-7",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'France' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-8",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Germany' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-9",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Poland' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-10",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Netherlands' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-11",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'EU institutions' does not appear in the provided article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-12",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "ENISA is a real organization mentioned in the article text."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-13",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'UK government' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "41b85c9cdb7a-entity-14",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Daybreak' does not appear in the provided article text."
+    },
+    {
+      "id": "eaad4cbcfa7f-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI is a real company mentioned in the text and is correctly labeled as a company."
+    },
+    {
+      "id": "eaad4cbcfa7f-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "SWE-Bench Pro is a real product mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "eaad4cbcfa7f-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'SWE-bench Verified' does not appear in the provided article text."
+    },
+    {
+      "id": "eaad4cbcfa7f-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The 'Preparedness Framework' is a real entity, but it is a regulation, not an event or protocol."
+    },
+    {
+      "id": "de9286311527-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI Academy is a real organization mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "de9286311527-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The Walton Family Foundation is a real organization mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "05b96b02ed49-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity '9Router' is real, but 'project' is not a valid entity type."
+    },
+    {
+      "id": "05b96b02ed49-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Cloudflare' does not appear in the provided article text."
+    },
+    {
+      "id": "05b96b02ed49-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI is a real company mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "05b96b02ed49-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "Asks a specific, fact-seeking question about a named entity (9Router v2) and its pricing model."
+    },
+    {
+      "id": "05b96b02ed49-query-v2-1",
+      "kind": "query",
+      "human_grade": "not_fact_seeking",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison against an unnamed category of 'other AI gateway solutions' rather than a specific checkable fact about a named target."
+    },
+    {
+      "id": "05b96b02ed49-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, verifiable technical specifications about a named component (9Router v2) mentioned in the article."
+    },
+    {
+      "id": "e3468b80b6fa-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Anthropic is the company that created Claude Code, which is mentioned in the text."
+    },
+    {
+      "id": "e3468b80b6fa-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Claude Fable 5 is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "e3468b80b6fa-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Claude Code is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "e3468b80b6fa-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Opus is a real AI model mentioned in the text and is correctly identified as an ai_model."
+    },
+    {
+      "id": "e3468b80b6fa-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Sonnet is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "e3468b80b6fa-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Haiku is a real AI model mentioned in the text and is correctly typed as ai_model."
+    },
+    {
+      "id": "e3468b80b6fa-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Pilot fish is a real product name that appears in the article text."
+    },
+    {
+      "id": "4bef48611ab7-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name appears in the text, but the type 'skill' is not a valid entity type."
+    },
+    {
+      "id": "3115b50b7ab7-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Google Antigravity is a real entity in the text and is correctly typed as technology."
+    },
+    {
+      "id": "3115b50b7ab7-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'agy' does not appear in the provided article text."
+    },
+    {
+      "id": "3115b50b7ab7-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Claude Code is a real technology mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "3115b50b7ab7-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Mark Fulton is a person mentioned in the text and is correctly typed as a person."
+    },
+    {
+      "id": "3115b50b7ab7-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Claude Fable 5 is a product (an AI model), not a person."
+    },
+    {
+      "id": "3115b50b7ab7-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The organization 'Vibe Coding is Life' is mentioned in the text and is correctly labeled as an organization."
+    },
+    {
+      "id": "1db2001efe04-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "ContextVC is a real technology mentioned in the article text and is correctly labeled as such."
+    },
+    {
+      "id": "1db2001efe04-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Git is a real technology mentioned in the article text and is correctly labeled as such."
+    },
+    {
+      "id": "1db2001efe04-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Claude Code is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "1db2001efe04-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Cursor is a real product mentioned in the article text and is correctly labeled as a product."
+    },
+    {
+      "id": "1db2001efe04-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "GitHub Copilot is a real product mentioned in the article text and is correctly labeled as a product."
+    },
+    {
+      "id": "1db2001efe04-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Gemini is a real AI model mentioned in the text and is correctly typed as a product."
+    },
+    {
+      "id": "1db2001efe04-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Cline is a real product mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "1db2001efe04-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Rust' does not appear anywhere in the provided article text."
+    },
+    {
+      "id": "1db2001efe04-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'MCP' does not appear in the provided article text."
+    },
+    {
+      "id": "1db2001efe04-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison against an unnamed category ('other context management systems') rather than a specific checkable fact."
+    },
+    {
+      "id": "1db2001efe04-query-v2-1",
+      "kind": "query",
+      "human_grade": "dangling_reference",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison against an unnamed category of tools, which cannot be answered by a single search result."
+    },
+    {
+      "id": "1db2001efe04-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable facts about the product's audience and supported languages/IDEs, which are information gaps in the article."
+    },
+    {
+      "id": "1df41e81ed61-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "NoPainNullGain is the article title, not a person."
+    },
+    {
+      "id": "1df41e81ed61-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Claude Code is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "1df41e81ed61-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "DeepSeek is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "1df41e81ed61-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "CodeLlama is a real AI model mentioned in the text and is correctly typed as ai_model."
+    },
+    {
+      "id": "1df41e81ed61-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Qwen-Coder is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "1df41e81ed61-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Ollama is a real technology mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "1df41e81ed61-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "LocalEyes is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "1df41e81ed61-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "qwen3-vl is mentioned in the text as a model that doesn't have vision."
+    },
+    {
+      "id": "1df41e81ed61-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, checkable facts (pricing and system requirements) about a named entity (LocalEyes) mentioned in the article."
+    },
+    {
+      "id": "1df41e81ed61-query-v2-1",
+      "kind": "query",
+      "human_grade": "dangling_reference",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison against an unnamed category ('other local vision models') rather than a specific, checkable fact about a named target."
+    },
+    {
+      "id": "1df41e81ed61-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific technical details about a named entity (LocalEyes) and its integration with other named entities from the article."
+    },
+    {
+      "id": "7b42dfb7d2f1-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "MIT OpenCourseWare is not mentioned in the provided text snippet."
+    },
+    {
+      "id": "7b42dfb7d2f1-entity-1",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Hal Abelson is a person, not a general entity type."
+    },
+    {
+      "id": "7b42dfb7d2f1-entity-2",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name Gerald Jay Sussman is a real person in the article, but the type 'general' is not a valid entity type."
+    },
+    {
+      "id": "7b42dfb7d2f1-entity-3",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Hewlett-Packard is a real entity in the text, but its type should be 'company', not 'general'."
+    },
+    {
+      "id": "7b42dfb7d2f1-entity-4",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name is a real entity, but 'general' is not a valid type; it should be 'book' or 'course'."
+    },
+    {
+      "id": "966f7b5ec438-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Kokoro is a real AI model mentioned in the title and text, and the type 'ai_model' is correct."
+    },
+    {
+      "id": "966f7b5ec438-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Local LLM is a technology mentioned in the article and is correctly typed as such."
+    },
+    {
+      "id": "966f7b5ec438-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "GTX 1080 Ti is a real product mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "966f7b5ec438-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+    },
+    {
+      "id": "966f7b5ec438-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'sox.sf.net' is a website, but the valid entity types do not include 'website'."
+    },
+    {
+      "id": "966f7b5ec438-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'github.com/remotebrowser/speak' is a real entity, but 'repository' is not a valid type."
+    },
+    {
+      "id": "966f7b5ec438-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable technical details about the named entity 'Kokoro TTS model' mentioned in the article."
+    },
+    {
+      "id": "966f7b5ec438-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for a specific, verifiable fact about a named entity (Kokoro TTS model) that is central to the article's topic."
+    },
+    {
+      "id": "c503256b26dd-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "EU is a real named entity in the text and is correctly identified as an organization."
+    },
+    {
+      "id": "c503256b26dd-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The regulation name and type are both correct and it appears in the text."
+    },
+    {
+      "id": "c503256b26dd-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "CSAR is a real entity in the text and is correctly identified as an organization."
+    },
+    {
+      "id": "c503256b26dd-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Parliament is a real organization mentioned in the context of EU institutions."
+    },
+    {
+      "id": "c503256b26dd-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Commission is a real organization mentioned in the article text and the type is correct."
+    },
+    {
+      "id": "c503256b26dd-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Council is a real organization mentioned in the text and the type is correct."
+    },
+    {
+      "id": "c503256b26dd-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Google' does not appear in the provided article text."
+    },
+    {
+      "id": "c503256b26dd-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Meta' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "c503256b26dd-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Microsoft' does not appear in the provided article text."
+    },
+    {
+      "id": "c503256b26dd-entity-9",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Snap' does not appear in the provided article text."
+    },
+    {
+      "id": "c503256b26dd-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable facts about a named entity (CSAR) mentioned in the article."
+    },
+    {
+      "id": "c503256b26dd-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks a specific, fact-seeking question about a named entity (CSAR) mentioned in the article."
+    },
+    {
+      "id": "c503256b26dd-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for a specific, fact-based timeline and process for a named regulation (CSAR) mentioned in the article."
+    },
+    {
+      "id": "241f07948341-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "OpenAI is a real company mentioned in the article text with the correct type."
+    },
+    {
+      "id": "241f07948341-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Sam Altman is a real person mentioned in the article text and is correctly typed as a person."
+    },
+    {
+      "id": "241f07948341-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "US Treasury is a real organization mentioned in the article text."
+    },
+    {
+      "id": "241f07948341-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The US government is a real named entity in the text and is correctly typed as an organization."
+    },
+    {
+      "id": "241f07948341-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Samsung is a real company mentioned in the article text with the correct type."
+    },
+    {
+      "id": "241f07948341-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'CISA' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "241f07948341-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Anthropic' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "90e916f3dba1-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'BioFiltro' does not appear in the provided article text."
+    },
+    {
+      "id": "9f0a7b1a8b5f-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The UN is a real named entity in the text and is correctly typed as an organization."
+    },
+    {
+      "id": "0f6aa89ea804-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity is real, but 'general' is not a valid type; it should be 'event'."
+    },
+    {
+      "id": "0f6aa89ea804-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Y Combinator is a real entity in the article, but its type is 'general' instead of a valid type like 'organization' or 'startup'."
+    },
+    {
+      "id": "0f6aa89ea804-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Blackbird Ventures is a real entity in the article, but its type is 'general' instead of a valid entity type like 'company' or 'organization'."
+    },
+    {
+      "id": "0f6aa89ea804-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "The name 'Square Peg Capital' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "0f6aa89ea804-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Khosla Ventures is a real entity in the article, but its type is 'general' instead of a valid type like 'company' or 'organization'."
+    },
+    {
+      "id": "0f6aa89ea804-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Microsoft' does not appear in the provided article text."
+    },
+    {
+      "id": "0f6aa89ea804-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "The name 'AirTree Ventures' does not appear in the provided article text."
+    },
+    {
+      "id": "0f6aa89ea804-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Startmate is a real entity in the article, but it is a startup accelerator, not a 'general' type."
+    },
+    {
+      "id": "0f6aa89ea804-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Techstars is a real entity in the article, but it is a company, not a general term."
+    },
+    {
+      "id": "0f6aa89ea804-entity-9",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "SOSV is a real entity in the article, but 'general' is not a valid entity type."
+    },
+    {
+      "id": "0f6aa89ea804-entity-10",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Stripe is a real company but its type is 'general' instead of 'company'."
+    },
+    {
+      "id": "0f6aa89ea804-entity-11",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "TechCrunch is a publication name, not a generic noun phrase."
+    },
+    {
+      "id": "0f6aa89ea804-entity-12",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'Startup Battlefield 200' does not appear in the article text."
+    },
+    {
+      "id": "0f6aa89ea804-entity-13",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The entity 'TechCrunch Disrupt' does not appear in the provided article text."
+    },
+    {
+      "id": "0f6aa89ea804-entity-14",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "The name 'Isabelle' does not appear in the provided article text."
+    },
+    {
+      "id": "0f6aa89ea804-entity-15",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'Stripe Tour Sydney' is not in the article, but if it were, 'general' is not a valid entity type."
+    },
+    {
+      "id": "a55cda87a79b-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Meta is a real company mentioned in the article and is correctly labeled as such."
+    },
+    {
+      "id": "a55cda87a79b-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Meta Superintelligence Labs is a real organization mentioned in the text and is correctly labeled as an organization."
+    },
+    {
+      "id": "a55cda87a79b-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Muse Image is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "a55cda87a79b-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Mango is a real entity in the text, but its type is 'internal code-name', which is not a valid type."
+    },
+    {
+      "id": "a55cda87a79b-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Meta AI is a product, but the text refers to it as an app, which is a type of product, making the type label technically correct but the entity name refers to the app itself, not the AI model."
+    },
+    {
+      "id": "a55cda87a79b-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Instagram is a real product mentioned in the article text."
+    },
+    {
+      "id": "a55cda87a79b-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "WhatsApp is a real product mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "a55cda87a79b-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'The Verge' does not appear in the provided article text."
+    },
+    {
+      "id": "a55cda87a79b-entity-8",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Facebook Marketplace' does not appear in the provided article text."
+    },
+    {
+      "id": "a55cda87a79b-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query seeks a specific, verifiable fact about Meta's data policy, which is a clear information gap mentioned by the article's mention of user backlash over photo use."
+    },
+    {
+      "id": "a55cda87a79b-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "This asks for a broad analysis of impact, not a specific checkable fact about a named target."
+    },
+    {
+      "id": "d4bb1346f4ac-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Discord is a real company mentioned in the article and is correctly labeled as a company."
+    },
+    {
+      "id": "d4bb1346f4ac-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It is a legitimate, fact-seeking question that directly asks for details about the bug and the user count mentioned in the article."
+    },
+    {
+      "id": "d4bb1346f4ac-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It asks for specific, verifiable facts about Discord's actions and timeline mentioned in the article."
+    },
+    {
+      "id": "d4bb1346f4ac-query-v2-2",
+      "kind": "query",
+      "human_grade": "dangling_reference",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison against an unnamed category of systems, not a specific checkable fact about a named target."
+    },
+    {
+      "id": "3690b5e75020-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Figma is a real company mentioned in the article and is correctly labeled as such."
+    },
+    {
+      "id": "3690b5e75020-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Bud is a real product mentioned in the text and is correctly labeled as a product."
+    },
+    {
+      "id": "3690b5e75020-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Orchids is a real entity in the text, correctly identified as a product (formerly the name of the vibe-coding app)."
+    },
+    {
+      "id": "3690b5e75020-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Kevin Lu' does not appear in the provided article text."
+    },
+    {
+      "id": "3690b5e75020-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Y Combinator' does not appear in the provided article text."
+    },
+    {
+      "id": "3690b5e75020-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Figma Make' does not appear in the provided article text."
+    },
+    {
+      "id": "3690b5e75020-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Codex' does not appear in the provided article text."
+    },
+    {
+      "id": "3690b5e75020-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Claude Code' does not appear in the provided article text."
+    },
+    {
+      "id": "3690b5e75020-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for a specific, verifiable fact (pricing) about a named entity (Bud) that is central to the article's topic."
+    },
+    {
+      "id": "3690b5e75020-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable information about the capabilities of a named entity (Bud team) mentioned in the article."
+    },
+    {
+      "id": "3690b5e75020-query-v2-2",
+      "kind": "query",
+      "human_grade": "not_fact_seeking",
+      "judge_grade": "hallucinated_competitor",
+      "judge_reason": "Names specific competitors (Cursor and Replit) not mentioned in the article."
+    },
+    {
+      "id": "a7fa462d2343-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Elon Musk' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "a7fa462d2343-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Department of Government Efficiency' does not appear in the provided article text."
+    },
+    {
+      "id": "a7fa462d2343-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Social Security Administration' does not appear in the provided article text."
+    },
+    {
+      "id": "a7fa462d2343-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'DOGE' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "3ab271c5ba48-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Anthropic is a company, not a model_release."
+    },
+    {
+      "id": "3ab271c5ba48-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The entity 'Claude Cowork' is real, but 'model_release' is not a valid type; it should be 'product'."
+    },
+    {
+      "id": "3ab271c5ba48-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'Claude Tag' is not in the article, but 'Claude Cowork' is, and the correct type is 'ai_model', not 'model_release'."
+    },
+    {
+      "id": "3ab271c5ba48-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a broad comparison of capabilities across platforms, not a specific checkable fact about a named target."
+    },
+    {
+      "id": "378776067f52-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Meta is a real company mentioned in the article and is correctly typed as 'company'."
+    },
+    {
+      "id": "378776067f52-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Meta Glasses is a real product mentioned in the article text and is correctly labeled as a product."
+    },
+    {
+      "id": "378776067f52-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Ray-Ban is a product, not an organization."
+    },
+    {
+      "id": "378776067f52-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Alex Himel' does not appear in the provided article text."
+    },
+    {
+      "id": "c96e39006552-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "X is a real company mentioned in the article title and text, and the type 'company' is correct."
+    },
+    {
+      "id": "c96e39006552-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Nikita Bier' does not appear in the provided article text."
+    },
+    {
+      "id": "c96e39006552-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Instagram' does not appear in the provided article text."
+    },
+    {
+      "id": "c96e39006552-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'TikTok' does not appear in the provided article text."
+    },
+    {
+      "id": "c96e39006552-query-v2-0",
+      "kind": "query",
+      "human_grade": "not_fact_seeking",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "The query asks for a broad issue ('alleged issue') rather than a specific, checkable fact about the named tools."
+    },
+    {
+      "id": "c96e39006552-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It seeks a specific, verifiable fact (pricing) about a named entity (X's new video tools) mentioned in the article."
+    },
+    {
+      "id": "c96e39006552-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "It's a specific, fact-seeking question about a named entity (X's new video tools) and its underlying technology."
+    },
+    {
+      "id": "12ac8ebcbd49-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'Amble One' is in the text, but 'the specific electric vehicle model' is not a valid entity type."
+    },
+    {
+      "id": "12ac8ebcbd49-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'Amble' refers to a product, not a company."
+    },
+    {
+      "id": "12ac8ebcbd49-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Lisbon' does not appear in the provided article text."
+    },
+    {
+      "id": "d755385b4a75-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "ABC is a real company mentioned in the article title and text snippet."
+    },
+    {
+      "id": "d755385b4a75-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "The Federal Communications Commission is a real organization mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "d755385b4a75-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The View is a TV show, which is an event, not a product."
+    },
+    {
+      "id": "d755385b4a75-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Brendan Carr' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "d755385b4a75-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'James Talarico' does not appear in the provided article text."
+    },
+    {
+      "id": "d755385b4a75-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'The Wrap' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "d755385b4a75-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query asks for specific, verifiable facts about FCC actions mentioned in the article."
+    },
+    {
+      "id": "d755385b4a75-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "not_fact_seeking",
+      "judge_reason": "Asks for a definition or opinion, not a specific, checkable fact like a date or number."
+    },
+    {
+      "id": "d755385b4a75-query-v2-2",
+      "kind": "query",
+      "human_grade": "dangling_reference",
+      "judge_grade": "good",
+      "judge_reason": "It asks for a specific, verifiable fact about other entities mentioned in the article's context."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Google is a real company mentioned in the article title and text."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Pixel 11 is a real product mentioned in the title and is correctly labeled as a product."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 10' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 10 Pro' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 11 Pro' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Pixel 11 Pro Fold' does not appear in the provided article text."
+    },
+    {
+      "id": "ceb6c94c77e9-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Jimmy Fallon is a person mentioned in the article text and is correctly typed as a person."
+    },
+    {
+      "id": "6dc7496d97e0-entity-0",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Microsoft/XBOX is a real entity but its type is 'general' instead of a valid type like 'company' or 'organization'."
+    },
+    {
+      "id": "6dc7496d97e0-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "id Software is a real entity but its type should be 'company', not 'general'."
+    },
+    {
+      "id": "6dc7496d97e0-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "ZeniMax is a real company mentioned in the article, but the type 'general' is not a valid entity type."
+    },
+    {
+      "id": "6dc7496d97e0-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Doom is a real entity, but its type should be 'product' or 'game', not 'general'."
+    },
+    {
+      "id": "6dc7496d97e0-entity-4",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Michael Maynard is a person, not a general entity type."
+    },
+    {
+      "id": "6dc7496d97e0-entity-5",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "wrong_type",
+      "judge_reason": "Jason Schreier is a person, not a general entity type."
+    },
+    {
+      "id": "6dc7496d97e0-entity-6",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "not_an_entity",
+      "judge_reason": "Bloomberg is a generic noun, not a specific named entity in this context."
+    },
+    {
+      "id": "6dc7496d97e0-entity-7",
+      "kind": "entity",
+      "human_grade": "wrong_type",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Bluesky' does not appear in the provided article text."
+    },
+    {
+      "id": "60d1b56766e3-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "ChatGPT Enterprise is a real AI model mentioned in the text and is correctly labeled as an ai_model."
+    },
+    {
+      "id": "60d1b56766e3-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Codex is a real AI model mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "60d1b56766e3-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Australian Payments Plus is a real organization mentioned in the article title and text."
+    },
+    {
+      "id": "be88b65e0bfb-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'agent-chief' does not appear in the provided article text."
+    },
+    {
+      "id": "bdb80176ae99-entity-0",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "wrong_type",
+      "judge_reason": "The name 'olemeyer/rocketplaneIO' is a real entity, but it is a project/repository, not an AI model."
+    },
+    {
+      "id": "bdb80176ae99-entity-1",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "rocketplaneIO is a real named entity in the text and is correctly identified as a company."
+    },
+    {
+      "id": "bdb80176ae99-entity-2",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "Kubernetes is a real technology mentioned in the text and is correctly labeled as such."
+    },
+    {
+      "id": "bdb80176ae99-entity-3",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "eBPF is a real technology mentioned in the text and is correctly typed as technology."
+    },
+    {
+      "id": "bdb80176ae99-entity-4",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Anthropic' does not appear in the provided article text."
+    },
+    {
+      "id": "bdb80176ae99-entity-5",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'OpenAI' does not appear in the provided article text."
+    },
+    {
+      "id": "bdb80176ae99-entity-6",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "hallucinated_not_in_article",
+      "judge_reason": "The name 'Grafana Beyla' does not appear in the provided article text snippet."
+    },
+    {
+      "id": "bdb80176ae99-entity-7",
+      "kind": "entity",
+      "human_grade": "correct",
+      "judge_grade": "correct",
+      "judge_reason": "minikube is a real product mentioned in the text and is correctly typed as a product."
+    },
+    {
+      "id": "bdb80176ae99-query-v2-0",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query is a specific, fact-seeking question about the named entity 'rocketplaneIO' and its relationship to other named entities ('eBPF', 'Kubernetes API')."
+    },
+    {
+      "id": "bdb80176ae99-query-v2-1",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query is a legitimate, fact-seeking question about a specific capability (air-gapped) of a named entity (rocketplaneIO) mentioned in the article."
+    },
+    {
+      "id": "bdb80176ae99-query-v2-2",
+      "kind": "query",
+      "human_grade": "good",
+      "judge_grade": "good",
+      "judge_reason": "The query is a fact-seeking question about the specific entity 'rocketplaneIO' and its APIs, which is a legitimate information gap mentioned in the article."
+    }
+  ]
+}

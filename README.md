@@ -2,6 +2,10 @@
 
 **हिंदी में प्रीमियम साइंस और टेक्नोलॉजी जर्नल**
 
+📄 **[Read the English engineering case study →](README.en.md)** — architecture, real measured
+eval numbers (triage accuracy, judge-validated entity/query quality, hallucination rate), and
+honestly-stated limitations. This document stays the product-facing Hindi identity.
+
 > *दृष्टि — वह नज़र जो जानकारी को ज्ञान में बदल दे।*
 
 TechDrishti एक AI-संचालित (AI-driven) न्यूज़ एग्रीगेटर है, जो दुनिया की सबसे अच्छी साइंस, टेक्नोलॉजी, AI, गेम डेवलपमेंट और स्पेस से जुड़ी ख़बरों को भारतीय पाठकों तक उन्हीं की भाषा "हिंदी" में, एक प्रीमियम पढ़ने के अनुभव (reading experience) के साथ पहुँचाता है।

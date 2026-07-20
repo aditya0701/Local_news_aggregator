@@ -1,0 +1,26 @@
+You are fact-checking a single claim from a Hindi tech-news article against its real English
+source material. Decide whether the claim is factually supported by the source, or a claim the
+source never actually makes.
+
+SOURCE TEXT (the real English article this claim was written from):
+{source_text}
+
+CLAIM (in Hindi, from the "{field}" section of the published article):
+{claim_text_hi}
+
+Grade using EXACTLY one of these three labels:
+- supported: this specific fact IS stated in the source text, even if phrased very differently,
+  translated, or paraphrased. A reasonable inference directly implied by the source counts too.
+- unsupported: this is a specific factual claim (a number, a date, a name, an event, a quote, a
+  mechanism, a cause-and-effect) that does NOT appear anywhere in the source text -- the source
+  never actually says this, whether or not it sounds plausible or is true in general.
+- hedged_opinion: framing/interpretive/editorial language, not a factual claim at all -- a
+  rhetorical question, a hedge ("शायद", "हो सकता है", "संभावना है"), a value judgment, a
+  transition sentence, or a generic statement with nothing specific to verify against the
+  source.
+
+Judge ONLY against the source text given above -- do not use outside/general knowledge about
+whether the claim sounds true or plausible, only whether the source itself actually states it.
+
+Output ONLY valid JSON, nothing else:
+{{"grade": "supported" or "unsupported" or "hedged_opinion", "reason": "<one short sentence pointing to the specific part of source_text that supports/contradicts this, or explaining why it's not a factual claim>"}}

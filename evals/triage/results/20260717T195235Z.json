@@ -1,0 +1,1547 @@
+{
+  "timestamp": "2026-07-17T19:52:35.420682+00:00",
+  "model": "sarvam-30b",
+  "prompt_versions": {
+    "stage1_skip": "d39e0c4b",
+    "stage1_analysis": "36445a4d",
+    "stage1_extraction": "d9e39aad"
+  },
+  "golden_set_size": 149,
+  "metrics": {
+    "accuracy": 0.738255033557047,
+    "skip_precision": 0.7560975609756098,
+    "skip_recall": 0.5166666666666667,
+    "error_count": 0,
+    "total": 149,
+    "confusion_by_skip_reason": {
+      "off_topic": {
+        "total": 24,
+        "correctly_skipped": 3
+      },
+      "show_hn": {
+        "total": 2,
+        "correctly_skipped": 2
+      },
+      "job_posting": {
+        "total": 21,
+        "correctly_skipped": 20
+      },
+      "too_thin": {
+        "total": 3,
+        "correctly_skipped": 1
+      },
+      "listicle": {
+        "total": 10,
+        "correctly_skipped": 5
+      }
+    },
+    "misclassified": [
+      {
+        "id": "d755385b4a75",
+        "title": "ABC tells the government to get out of its newsrooms",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses a news event involving a tech publication (TechDrishti) and a government regulatory body (FCC), which is a clear case of tech news."
+      },
+      {
+        "id": "e1d73b36c4e8",
+        "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article describes a new, low-cost electric vehicle from Fiat, which is a product launch and market event in the automotive technology sector."
+      },
+      {
+        "id": "23ec088b632f",
+        "title": "EmTech AI 2026: The Rise of the AI Platform",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article is a fragmented summary of multiple, unrelated tech news topics, lacking a single, cohesive news event."
+      },
+      {
+        "id": "0f6aa89ea804",
+        "title": "Final extension: Startup Battlefield Australia applications now close July 20",
+        "true_label": "skip",
+        "true_skip_reason": "job_posting",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "This article announces the final extension of the Startup Battlefield Australia application deadline, a specific event with a clear deadline and context."
+      },
+      {
+        "id": "ef48b7d1068c",
+        "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses a government report (GAO) regarding the Department of Energy's nuclear cleanup strategy, which is a significant policy and regulatory event in the technology and energy sector."
+      },
+      {
+        "id": "27003f84941b",
+        "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article is a promotional announcement for a pre-registration offer on upcoming Samsung Galaxy phones, which is a standard product launch news event."
+      },
+      {
+        "id": "ceb6c94c77e9",
+        "title": "Google announces Pixel 11 launch event in August",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article is a repetitive and incomplete post about a potential Google Pixel 11 launch, lacking a concrete news event or announcement."
+      },
+      {
+        "id": "de9286311527",
+        "title": "Helping K–12 educators build practical AI skills",
+        "true_label": "skip",
+        "true_skip_reason": "too_thin",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "This article is a news announcement about a partnership and program launch by OpenAI Academy and the Walton Family Foundation to support K-12 educators with AI skills."
+      },
+      {
+        "id": "e3468b80b6fa",
+        "title": "Nanako0129/pilotfish",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "This is a technical article describing a specific software architecture and model, not a news event like an announcement, acquisition, or industry analysis."
+      },
+      {
+        "id": "4bef48611ab7",
+        "title": "Neeeophytee/finding-unknowns-skills",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article is a summary of an essay discussing skills for clarifying unknowns when using AI models, not a news event like an announcement, acquisition, or research finding."
+      },
+      {
+        "id": "be88b65e0bfb",
+        "title": "SmileLikeYe/agent-chief",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The provided text is a corrupted error message from a website, not a coherent article about a tech news event."
+      },
+      {
+        "id": "7b42dfb7d2f1",
+        "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+        "true_label": "skip",
+        "true_skip_reason": "listicle",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article describes a set of historical video lectures from 1986, which is an archival resource rather than a current tech news event."
+      },
+      {
+        "id": "a8a2b098c664",
+        "title": "The Download: worms fight pollution, and geoengineering faces reality",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses two distinct technology-related topics: worms being used to fight pollution and the Trump administration lifting restrictions on OpenAI's GPT 5.6, which falls under the category of a tech news event. SKIP: no"
+      },
+      {
+        "id": "9b81ef52e28e",
+        "title": "This jumping $800 robot camera dog filled me with joy",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article describes a new product, a robot camera, and expresses a personal emotional reaction to it, but lacks a specific news event like an announcement, launch, or acquisition."
+      },
+      {
+        "id": "90e916f3dba1",
+        "title": "Why worms (and microbes) are catching on as a manure pollution solution",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article describes a real-world application of biotechnology to solve a specific environmental problem, which is a news event."
+      },
+      {
+        "id": "3115b50b7ab7",
+        "title": "markfulton/claude-antigravity-agents",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article describes a technical implementation of a skill for the Claude Code tool, which is a specific feature or capability within an existing tech ecosystem, not a news event like an announcement, launch, or research breakthrough."
+      },
+      {
+        "id": "bdb80176ae99",
+        "title": "olemeyer/rocketplaneIO",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article describes a self-hosted, air-gapped capable Quick start for a project named rocketplaneIO, which involves eBPF traces, logs, and Kubernetes inventory, but lacks a specific news event like an announcement, launch, or acquisition. SKIP: yes"
+      },
+      {
+        "id": "97ea218afde6",
+        "title": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "This article is a personal review and opinion piece about a specific product, not a news event like an announcement, launch, or acquisition."
+      },
+      {
+        "id": "f4a39daf72b9",
+        "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports a significant corporate event—a ransomware attack leading to production suspension at a major company's dairy division—which constitutes a newsworthy tech incident."
+      },
+      {
+        "id": "054bb53f758e",
+        "title": "Decoy Font",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article describes a specific product, Decoy Font, and its function, but lacks a broader news event, announcement, or industry-level impact that would qualify it as genuine tech news."
+      },
+      {
+        "id": "6e0e732e58b8",
+        "title": "EEG shows brain can simultaneous encode two speech streams",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "This article reports on a new neuroscience study about how the brain processes multiple speech streams, which is a significant scientific discovery with potential implications for technology and human-computer interaction."
+      },
+      {
+        "id": "4e844fa0e368",
+        "title": "Ecovacs&#8217; self-cleaning Deebot X11 has hit a new low price",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a significant price drop for a specific consumer robot vacuum, which is a noteworthy event in the tech market."
+      },
+      {
+        "id": "b03115bf4d7d",
+        "title": "God Of War TV series is recasting Kratos",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a casting change for an upcoming TV series, which is an entertainment industry news event."
+      },
+      {
+        "id": "40813c3b1f5e",
+        "title": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on new research into Roman concrete, explaining a chemical process that could improve modern building materials."
+      },
+      {
+        "id": "cca00ce68781",
+        "title": "How data science teams use ChatGPT Work",
+        "true_label": "publish",
+        "true_skip_reason": null,
+        "predicted_label": "skip",
+        "predicted_skip_reason": "The article describes a specific workflow or methodology for data science teams using a particular tool (ChatGPT Work) to produce various deliverables, which is a practical application rather than a news event."
+      },
+      {
+        "id": "25a7d65f645c",
+        "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a specific incident of insider trading involving a prediction market platform and a political figure's staff, which is a concrete news event."
+      },
+      {
+        "id": "b2be9e11ad8a",
+        "title": "Netflix says around 300 titles used generative AI",
+        "true_label": "skip",
+        "true_skip_reason": "too_thin",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a specific company's announcement regarding its use of generative AI in its content production pipeline."
+      },
+      {
+        "id": "3ba9165b869a",
+        "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a public figure's statement about using AI for regulatory analysis, which is a newsworthy event involving technology and government policy."
+      },
+      {
+        "id": "55262f395d24",
+        "title": "Oil giant BP shutters its corporate venture arm after 20 years",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on the closure of BP Ventures, a corporate venture capital arm, which is a significant business event with potential implications for the tech industry."
+      },
+      {
+        "id": "a2b471145b65",
+        "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a specific product price change and a new feature for an existing Samsung product, which constitutes a news event."
+      },
+      {
+        "id": "2267e95cf2c3",
+        "title": "The Download: perimenopause misinformation and China’s latest AI leap",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses misinformation related to perimenopause, which is a health topic, and also mentions China's AI advancements, but it lacks a specific, identifiable tech news event like an announcement, launch, acquisition, or regulatory change."
+      },
+      {
+        "id": "6b6a9609453e",
+        "title": "The war on ‘woke science’ comes for space research",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses a proposed OMB policy that could alter grant funding for US science, which is a significant regulatory and political event impacting the research community."
+      },
+      {
+        "id": "6e3efe556eec",
+        "title": "Trump is selling high-speed access to his market-moving Truth Social posts",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article reports on a new product launch and business strategy from a tech company, which is a standard news event in the tech sector."
+      },
+      {
+        "id": "aaa22610737f",
+        "title": "Why are people buying so many CDs?",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses a specific, quantifiable trend in the physical media market (CD sales) with data from a research firm, which constitutes a news event."
+      },
+      {
+        "id": "67564e95148d",
+        "title": "Why heat pumps are still so hot in the US",
+        "true_label": "skip",
+        "true_skip_reason": "off_topic",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article discusses the rising popularity and efficiency of heat pumps in the US, a topic with significant market and policy implications."
+      },
+      {
+        "id": "68bdbf6737cf",
+        "title": "The best tech of 2026 so far — the 21 finest gadgets we've tested this year",
+        "true_label": "skip",
+        "true_skip_reason": "listicle",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "This article is a year-in-review listicle of tested gadgets, which is a common and legitimate tech news format."
+      },
+      {
+        "id": "0f5f9abb1c65",
+        "title": "10 Best Amazon Gadgets Worth Buying in 2026",
+        "true_label": "skip",
+        "true_skip_reason": "listicle",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article is a product recommendation list, not a news event like an announcement, launch, or acquisition."
+      },
+      {
+        "id": "a91291e29924",
+        "title": "Top 10 Gadgets at CES 2026 in Las Vegas",
+        "true_label": "skip",
+        "true_skip_reason": "listicle",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "This article is a countdown listicle about gadgets at a specific trade show, which is a news event."
+      },
+      {
+        "id": "6d2c6297b381",
+        "title": "Top tech of the month: the best new gadgets we've tested for July 2026",
+        "true_label": "skip",
+        "true_skip_reason": "listicle",
+        "predicted_label": "publish",
+        "predicted_skip_reason": "The article is a summary of a monthly tech gadget review from a publication, not a news event like an announcement, launch, or acquisition."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "d755385b4a75",
+      "title": "ABC tells the government to get out of its newsrooms",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a news event involving a tech publication (TechDrishti) and a government regulatory body (FCC), which is a clear case of tech news."
+    },
+    {
+      "id": "e1d73b36c4e8",
+      "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new, low-cost electric vehicle from Fiat, which is a product launch and market event in the automotive technology sector."
+    },
+    {
+      "id": "60d1b56766e3",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific company's implementation of new AI tools to improve their workflow, which is a concrete event with measurable outcomes."
+    },
+    {
+      "id": "d0945635dabe",
+      "title": "Autonomous drone delivery startup Manna plots major US expansion",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific, verifiable business event—a startup's expansion plan and funding—which is a core element of tech news."
+    },
+    {
+      "id": "c503256b26dd",
+      "title": "Chat Control 1.0 and 2.0 Explained",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article explains two parallel EU regulations on \"Chat Control,\" clarifying why news about them can seem contradictory."
+    },
+    {
+      "id": "963a6870c5aa",
+      "title": "ChatGPT’s upgraded voice mode is better at shutting up",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a new AI model, GPT-Live-1, and its enhanced voice capabilities, which is a clear tech news event involving a product announcement."
+    },
+    {
+      "id": "3ab271c5ba48",
+      "title": "Claude Cowork expands to mobile and web",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a new product launch and feature expansion for an existing service, which is a standard tech news event."
+    },
+    {
+      "id": "99dfc37d5860",
+      "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+      "true_label": "skip",
+      "true_skip_reason": "show_hn",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article describes a personal anecdote about using a SwitchBot device to control a light, which is a consumer product use case rather than a news event."
+    },
+    {
+      "id": "06457083b2aa",
+      "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a significant legal and financial event involving a major tech figure and regulatory body, which is a core news event for a tech publication."
+    },
+    {
+      "id": "d4bb1346f4ac",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports a significant technical failure and its impact on users, which is a clear news event in the tech sector."
+    },
+    {
+      "id": "6dc7496d97e0",
+      "title": "Doom developer id reportedly cut in half as part of Xbox layoffs",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on significant layoffs at Doom developer Doomworks, a specific event within the tech/gaming industry, which constitutes a genuine news event."
+    },
+    {
+      "id": "b1e89b541d74",
+      "title": "EU Parliament greenlights Chat Control 1.0 – Breyer: \"Our children lose out\"",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a significant political and regulatory development in the European Union regarding mass surveillance technology, which is a major tech news event."
+    },
+    {
+      "id": "23ec088b632f",
+      "title": "EmTech AI 2026: The Rise of the AI Platform",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a fragmented summary of multiple, unrelated tech news topics, lacking a single, cohesive news event."
+    },
+    {
+      "id": "3690b5e75020",
+      "title": "Figma acquires team behind a vibe-coding app",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a significant corporate acquisition by a major tech company, Figma, which is a clear news event in the tech industry."
+    },
+    {
+      "id": "0f6aa89ea804",
+      "title": "Final extension: Startup Battlefield Australia applications now close July 20",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article announces the final extension of the Startup Battlefield Australia application deadline, a specific event with a clear deadline and context."
+    },
+    {
+      "id": "2abdc6f86826",
+      "title": "Four nuclear reactors hit a big milestone in the US",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a significant technical milestone for nuclear power in the US, specifically the achievement of criticality by microreactors, which is a newsworthy event in the energy sector."
+    },
+    {
+      "id": "ef48b7d1068c",
+      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a government report (GAO) regarding the Department of Energy's nuclear cleanup strategy, which is a significant policy and regulatory event in the technology and energy sector."
+    },
+    {
+      "id": "27003f84941b",
+      "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a promotional announcement for a pre-registration offer on upcoming Samsung Galaxy phones, which is a standard product launch news event."
+    },
+    {
+      "id": "ceb6c94c77e9",
+      "title": "Google announces Pixel 11 launch event in August",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a repetitive and incomplete post about a potential Google Pixel 11 launch, lacking a concrete news event or announcement."
+    },
+    {
+      "id": "b1454f7c94dc",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific, real-world application of Google's SynthID technology to debunk a viral AI-generated hoax, which constitutes a news event."
+    },
+    {
+      "id": "a7fa462d2343",
+      "title": "Hacked, leaked, and held for ransom: The worst breaches of 2026 so far",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a year-in-review piece about major cybersecurity breaches, which is a significant tech news event."
+    },
+    {
+      "id": "1db2001efe04",
+      "title": "HaochengLu/contextvc",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new open-source tool, ContextVC, which is presented as a significant development in the AI coding agent space, offering a new way to manage agent memory and project rules."
+    },
+    {
+      "id": "de9286311527",
+      "title": "Helping K–12 educators build practical AI skills",
+      "true_label": "skip",
+      "true_skip_reason": "too_thin",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article is a news announcement about a partnership and program launch by OpenAI Academy and the Walton Family Foundation to support K-12 educators with AI skills."
+    },
+    {
+      "id": "aeaf5bb8a34d",
+      "title": "I Built the Only 2026 WWII Jeep",
+      "true_label": "skip",
+      "true_skip_reason": "show_hn",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a personal narrative about a hobbyist's project to build a WWII Jeep, lacking a specific tech news event like an announcement, launch, or acquisition."
+    },
+    {
+      "id": "dde8e68763fe",
+      "title": "If Microsoft sold off Xbox, who would even buy it?",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a speculative discussion about a hypothetical business decision by Microsoft, not a report of a specific, identifiable tech news event like an announcement, acquisition, or product launch."
+    },
+    {
+      "id": "c54fb665b572",
+      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a significant regulatory development involving a major technology company (John Deere) and its impact on consumers, which is a clear example of tech news."
+    },
+    {
+      "id": "966f7b5ec438",
+      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a news report about a new, high-quality, CPU-friendly text-to-speech technology called Kokoro, highlighting its privacy benefits and local processing capabilities."
+    },
+    {
+      "id": "4861f2c0035e",
+      "title": "Meta is reportedly working on smart glasses that would be recording all the time",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a potential future product development by Meta involving smart glasses with continuous recording capabilities, which constitutes a news event in the tech sector."
+    },
+    {
+      "id": "a55cda87a79b",
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific product launch by a major tech company and the immediate public reaction, which constitutes a news event."
+    },
+    {
+      "id": "b20569cd1f28",
+      "title": "Meta reuses old RAM in new servers with custom bridge chip",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a specific, real-world engineering solution by a major tech company to address a hardware cost and performance challenge, which constitutes a genuine news event."
+    },
+    {
+      "id": "378776067f52",
+      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific company policy change regarding its smart glasses in response to privacy concerns, which constitutes a news event."
+    },
+    {
+      "id": "c41fa214e1d8",
+      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a reported shift in Obsidian Entertainment's project focus from a game called Avowed to Fallout, which is a significant development in the gaming industry and involves a key personnel change."
+    },
+    {
+      "id": "e3468b80b6fa",
+      "title": "Nanako0129/pilotfish",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This is a technical article describing a specific software architecture and model, not a news event like an announcement, acquisition, or industry analysis."
+    },
+    {
+      "id": "4bef48611ab7",
+      "title": "Neeeophytee/finding-unknowns-skills",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a summary of an essay discussing skills for clarifying unknowns when using AI models, not a news event like an announcement, acquisition, or research finding."
+    },
+    {
+      "id": "038bd11bbaa7",
+      "title": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a strategic business move by Netflix to diversify its content offerings by partnering with publishers for shorter-form video, which is a significant industry development."
+    },
+    {
+      "id": "1df41e81ed61",
+      "title": "NoPainNullGain/LocalEyes",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new tool, LocalEyes, which provides vision capabilities for text-only LLMs, representing a technological innovation in the AI space."
+    },
+    {
+      "id": "41b85c9cdb7a",
+      "title": "Our approach to government and national security partnerships",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses the emerging use of frontier AI systems by governments for national security and the need for collaboration between AI labs, governments, and civil society on their application in sensitive settings."
+    },
+    {
+      "id": "eaad4cbcfa7f",
+      "title": "Separating signal from noise in coding evaluations",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a research audit revealing significant flaws in a specific tech benchmark (SWE-Bench Pro), which is a concrete event with implications for the tech industry."
+    },
+    {
+      "id": "be88b65e0bfb",
+      "title": "SmileLikeYe/agent-chief",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The provided text is a corrupted error message from a website, not a coherent article about a tech news event."
+    },
+    {
+      "id": "a32c363a58d0",
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific product release from a tech company, which is a clear tech news event."
+    },
+    {
+      "id": "7b42dfb7d2f1",
+      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a set of historical video lectures from 1986, which is an archival resource rather than a current tech news event."
+    },
+    {
+      "id": "9f0a7b1a8b5f",
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article appears to be a summary of a newsletter titled \"The Download\" from TechDrishti, a Hindi tech publication, but the provided text is incomplete and does not contain a full, coherent news event."
+    },
+    {
+      "id": "a8a2b098c664",
+      "title": "The Download: worms fight pollution, and geoengineering faces reality",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses two distinct technology-related topics: worms being used to fight pollution and the Trump administration lifting restrictions on OpenAI's GPT 5.6, which falls under the category of a tech news event. SKIP: no"
+    },
+    {
+      "id": "241f07948341",
+      "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a potential government stake in OpenAI and Sam Altman's proposal, which are significant events in the AI and tech landscape."
+    },
+    {
+      "id": "34c2e0a61af8",
+      "title": "The whole Pixel line could get more expensive this year",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses potential price changes and configuration shifts for existing tech products, which is a news event."
+    },
+    {
+      "id": "12ac8ebcbd49",
+      "title": "The ‘G-Wagen of golf carts’ could be the ideal second car",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a product showcase for the Amble One electric vehicle, lacking a news event or announcement."
+    },
+    {
+      "id": "9b81ef52e28e",
+      "title": "This jumping $800 robot camera dog filled me with joy",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new product, a robot camera, and expresses a personal emotional reaction to it, but lacks a specific news event like an announcement, launch, or acquisition."
+    },
+    {
+      "id": "ddd0e3294818",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a startup's perspective on the convergence of robotics and large language models, framing it as a potential \"ChatGPT moment\" for the industry."
+    },
+    {
+      "id": "7a94bc655941",
+      "title": "TikTok users don't have as much agency over their FYPs as they think",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article analyzes the algorithmic mechanics of TikTok's For You Page and argues that user agency is more limited than perceived, which is a significant observation about a major tech platform's core product."
+    },
+    {
+      "id": "48015e328fcb",
+      "title": "Truecaller clashes with India’s telecom regulator over anti-spam rules",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a public dispute between a tech company and a national regulatory body over new rules, which is a clear example of tech news involving regulation."
+    },
+    {
+      "id": "795a702a8d90",
+      "title": "Twelve South’s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a product review and sale announcement for a specific tech accessory, not a news event like an announcement, launch, or industry analysis."
+    },
+    {
+      "id": "90e916f3dba1",
+      "title": "Why worms (and microbes) are catching on as a manure pollution solution",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a real-world application of biotechnology to solve a specific environmental problem, which is a news event."
+    },
+    {
+      "id": "5d71aeaf84fd",
+      "title": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific company, QuantumDiamonds, receiving backing from the EU and being a beneficiary of the European Chips Act, which is a concrete event in the tech industry."
+    },
+    {
+      "id": "c96e39006552",
+      "title": "X says top accounts steal videos from other users as it announces new video tools",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a new product feature launch from X, a tech company, which is a clear tech news event."
+    },
+    {
+      "id": "05b96b02ed49",
+      "title": "ahwanulm/AMRouter",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new open-source project, 9Router v2, which is a technical tool for managing multiple AI providers, and it includes a summary of its features and source."
+    },
+    {
+      "id": "3115b50b7ab7",
+      "title": "markfulton/claude-antigravity-agents",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article describes a technical implementation of a skill for the Claude Code tool, which is a specific feature or capability within an existing tech ecosystem, not a news event like an announcement, launch, or research breakthrough."
+    },
+    {
+      "id": "3613a06fc0af",
+      "title": "ninjahawk/Subtext",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a research project from TechDrishti about a tool to observe language model reasoning, which is a genuine tech news event."
+    },
+    {
+      "id": "bdb80176ae99",
+      "title": "olemeyer/rocketplaneIO",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article describes a self-hosted, air-gapped capable Quick start for a project named rocketplaneIO, which involves eBPF traces, logs, and Kubernetes inventory, but lacks a specific news event like an announcement, launch, or acquisition. SKIP: yes"
+    },
+    {
+      "id": "837bef0ca5d5",
+      "title": "‘Slow-cial’ app Roost forces you to slow down to the speed of a carrier pigeon",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a fictional app called Roost and its concept of \"slow-cial\" messaging, but it lacks a concrete tech news event like a launch, acquisition, or regulatory change."
+    },
+    {
+      "id": "97ea218afde6",
+      "title": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This article is a personal review and opinion piece about a specific product, not a news event like an announcement, launch, or acquisition."
+    },
+    {
+      "id": "89c9f7f3ade4",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article analyzes a research study on enterprise AI agent deployment, revealing a gap between the ambition for complex, orchestrated workflows and the reality of simple chatbot wrappers."
+    },
+    {
+      "id": "519be566bebe",
+      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific, verifiable event—a DeepMind-sponsored Kaggle competition where a model won a prize, which is a concrete tech news event."
+    },
+    {
+      "id": "f4a39daf72b9",
+      "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports a significant corporate event—a ransomware attack leading to production suspension at a major company's dairy division—which constitutes a newsworthy tech incident."
+    },
+    {
+      "id": "054bb53f758e",
+      "title": "Decoy Font",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article describes a specific product, Decoy Font, and its function, but lacks a broader news event, announcement, or industry-level impact that would qualify it as genuine tech news."
+    },
+    {
+      "id": "d9665153cdf2",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a news report about a specific technological development, a new AI model, and its claimed performance improvement."
+    },
+    {
+      "id": "6e0e732e58b8",
+      "title": "EEG shows brain can simultaneous encode two speech streams",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a new neuroscience study about how the brain processes multiple speech streams, which is a significant scientific discovery with potential implications for technology and human-computer interaction."
+    },
+    {
+      "id": "4e844fa0e368",
+      "title": "Ecovacs&#8217; self-cleaning Deebot X11 has hit a new low price",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a significant price drop for a specific consumer robot vacuum, which is a noteworthy event in the tech market."
+    },
+    {
+      "id": "66188580349f",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is about the launch of a new AI tool by Google and AIM, which is a specific tech event."
+    },
+    {
+      "id": "8065dada88d8",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a new feature, Gemini 3.5 Live Translate, from Google, which is a significant product announcement and news event in the tech sector."
+    },
+    {
+      "id": "8570fa8f34ac",
+      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific product feature launch by a major tech company, detailing a concrete event with a clear timeline."
+    },
+    {
+      "id": "2acae1718bd9",
+      "title": "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her ‘Mafia’ skills)",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific executive's hiring by a venture capital firm, which is a notable industry event."
+    },
+    {
+      "id": "e799563c0958",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article is a news announcement about a specific product update from a major tech company, which is a clear tech news event."
+    },
+    {
+      "id": "ee230258f27f",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new system from OpenAI, a significant research development in AI safety, which constitutes a news event."
+    },
+    {
+      "id": "2c539797fe26",
+      "title": "Getting started with ChatGPT",
+      "true_label": "skip",
+      "true_skip_reason": "too_thin",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a general tutorial on how to use ChatGPT, lacking a specific news event, announcement, or industry-level development."
+    },
+    {
+      "id": "b03115bf4d7d",
+      "title": "God Of War TV series is recasting Kratos",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a casting change for an upcoming TV series, which is an entertainment industry news event."
+    },
+    {
+      "id": "e29a8bbb0a77",
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article announces a research partnership between Google DeepMind and A24, which is a significant industry event."
+    },
+    {
+      "id": "c590dbac4bda",
+      "title": "Google Vids now lets you star in your own AI videos",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article announces a new feature from Google, a major tech company, which is a clear news event."
+    },
+    {
+      "id": "3d6d30af3414",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a significant product redesign by Google, a major tech company, which is a concrete news event with industry implications."
+    },
+    {
+      "id": "6f16a999c8dd",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a specific company's implementation of a new technology (OpenAI) to solve a business problem (scaling conversations), which is a clear tech news event."
+    },
+    {
+      "id": "027b05f9d0fa",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a specific company's strategic transformation and implementation of AI across its operations, which is a concrete business event."
+    },
+    {
+      "id": "40813c3b1f5e",
+      "title": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on new research into Roman concrete, explaining a chemical process that could improve modern building materials."
+    },
+    {
+      "id": "cca00ce68781",
+      "title": "How data science teams use ChatGPT Work",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article describes a specific workflow or methodology for data science teams using a particular tool (ChatGPT Work) to produce various deliverables, which is a practical application rather than a news event."
+    },
+    {
+      "id": "248b5ff06999",
+      "title": "How sales teams use ChatGPT Work",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a specific application of an existing technology (ChatGPT Work) by a specific user group (sales teams), which constitutes a genuine tech news event."
+    },
+    {
+      "id": "92ab1f77dd8c",
+      "title": "How to manage AI investments in the agentic era",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article discusses a strategic approach for enterprises to manage their AI investments, focusing on metrics and efficiency in the context of the \"agentic era,\" which constitutes a relevant tech news event."
+    },
+    {
+      "id": "90b62352ebbd",
+      "title": "Investing in multi-agent AI safety research",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a specific funding announcement from Google DeepMind for multi-agent AI safety research, which is a concrete tech news event."
+    },
+    {
+      "id": "25a7d65f645c",
+      "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific incident of insider trading involving a prediction market platform and a political figure's staff, which is a concrete news event."
+    },
+    {
+      "id": "b82b19a7de11",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article announces the launch of Kimi K3, a new open-source AI model, which is a significant tech news event."
+    },
+    {
+      "id": "10c6f2bd0dfe",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new tool, GPT-Red, developed by OpenAI to enhance the security of its models, which is a significant technological development and news event."
+    },
+    {
+      "id": "8d6217d94f58",
+      "title": "Microsoft Comic Chat is now open source",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article announces that Microsoft's Comic Chat, an IRC client, has been open-sourced, which is a significant event in the tech community."
+    },
+    {
+      "id": "0ab38db27d41",
+      "title": "Minikotlin",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a specific, from-scratch compiler toolchain for Kotlin to WebAssembly, which is a concrete technical development and news event."
+    },
+    {
+      "id": "b2be9e11ad8a",
+      "title": "Netflix says around 300 titles used generative AI",
+      "true_label": "skip",
+      "true_skip_reason": "too_thin",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific company's announcement regarding its use of generative AI in its content production pipeline."
+    },
+    {
+      "id": "3ba9165b869a",
+      "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a public figure's statement about using AI for regulatory analysis, which is a newsworthy event involving technology and government policy."
+    },
+    {
+      "id": "55262f395d24",
+      "title": "Oil giant BP shutters its corporate venture arm after 20 years",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on the closure of BP Ventures, a corporate venture capital arm, which is a significant business event with potential implications for the tech industry."
+    },
+    {
+      "id": "287800377f1b",
+      "title": "Our approach to bioresilience",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a research approach from Google DeepMind and Isomorphic Labs for bioresilience, which is a specific technical development in AI for biological systems."
+    },
+    {
+      "id": "ddc17ea914aa",
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a specific research initiative by PsiQuantum to build a large-scale quantum computer using photons, which is a significant technological development and news event."
+    },
+    {
+      "id": "153f3066406b",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a significant funding round for a tech company, which is a clear news event in the tech industry."
+    },
+    {
+      "id": "a2b471145b65",
+      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a specific product price change and a new feature for an existing Samsung product, which constitutes a news event."
+    },
+    {
+      "id": "6f9e5076e4c0",
+      "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a specific, real-world event involving a major tech company (Waymo) and government regulation, which is a core component of tech news."
+    },
+    {
+      "id": "ae74216dee38",
+      "title": "Securing the future of AI agents",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a strategic roadmap for AI control, which is a significant development in the field of artificial intelligence governance and security."
+    },
+    {
+      "id": "6bbdd42d655e",
+      "title": "SpaceX suddenly aborts second Starship V3 launch after ignition",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports a specific, significant event in the aerospace industry involving a major company's launch failure."
+    },
+    {
+      "id": "adbaffb551ff",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a product announcement for a new AI model and service, which is a news event."
+    },
+    {
+      "id": "cec1ebe5d23f",
+      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a research study revealing a significant gap between enterprise AI infrastructure spending and their ability to measure and control the economics of that spending."
+    },
+    {
+      "id": "e9ea1363a186",
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a research study from VentureBeat Pulse Research that identifies a critical \"context gap\" in enterprise AI deployments, where agents provide confident but incorrect answers due to unreliable business context."
+    },
+    {
+      "id": "273b72178488",
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a new discovery by Anthropic regarding the internal workings of its AI models, which is a significant research event in the tech industry."
+    },
+    {
+      "id": "72a6f4eb7a44",
+      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a new AI tool from OpenAI and a trend in US technology, both of which are significant tech news events."
+    },
+    {
+      "id": "eadd13f004af",
+      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is about a specific company's plan to build a quantum computer, which is a concrete technological development and news event."
+    },
+    {
+      "id": "2267e95cf2c3",
+      "title": "The Download: perimenopause misinformation and China’s latest AI leap",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses misinformation related to perimenopause, which is a health topic, and also mentions China's AI advancements, but it lacks a specific, identifiable tech news event like an announcement, launch, acquisition, or regulatory change."
+    },
+    {
+      "id": "1e97faa490fa",
+      "title": "The US is advancing AI safety through state and federal action",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a significant policy and governance development in the AI sector, specifically OpenAI's \"reverse federalism\" approach, which constitutes a major news event in the tech landscape."
+    },
+    {
+      "id": "9a3bfba7061e",
+      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article reports on a research study from VentureBeat Pulse Research that identifies a critical \"evaluation gap\" in enterprise AI deployment, where organizations grant autonomy to agents but don't trust the evaluations meant to control them."
+    },
+    {
+      "id": "09e86f1db1bc",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a research study revealing a significant security vulnerability in enterprise AI agent deployments, backed by specific statistics and expert analysis."
+    },
+    {
+      "id": "29e789ead9ba",
+      "title": "The risk of weather data sabotage is rising",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses the rising risk of weather data sabotage, which is a significant security threat with real-world implications for critical industries."
+    },
+    {
+      "id": "6b6a9609453e",
+      "title": "The war on ‘woke science’ comes for space research",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a proposed OMB policy that could alter grant funding for US science, which is a significant regulatory and political event impacting the research community."
+    },
+    {
+      "id": "874ae1e0ebf2",
+      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article discusses the social and cultural phenomenon of perimenopause, which is a health and lifestyle topic, not a technology-related event."
+    },
+    {
+      "id": "6e3efe556eec",
+      "title": "Trump is selling high-speed access to his market-moving Truth Social posts",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a new product launch and business strategy from a tech company, which is a standard news event in the tech sector."
+    },
+    {
+      "id": "250ae53f0773",
+      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article reports on a major corporate acquisition, a significant tech industry event."
+    },
+    {
+      "id": "12ceb5f0dc7b",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article describes a specific, real-world event involving a government partnership and a tech company to develop a new AI tool for a public policy goal."
+    },
+    {
+      "id": "942c07d3c6da",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article analyzes a specific research development from Anthropic regarding AI models and pain perception, which is a concrete news event in the tech/AI sector."
+    },
+    {
+      "id": "aaa22610737f",
+      "title": "Why are people buying so many CDs?",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses a specific, quantifiable trend in the physical media market (CD sales) with data from a research firm, which constitutes a news event."
+    },
+    {
+      "id": "67564e95148d",
+      "title": "Why heat pumps are still so hot in the US",
+      "true_label": "skip",
+      "true_skip_reason": "off_topic",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article discusses the rising popularity and efficiency of heat pumps in the US, a topic with significant market and policy implications."
+    },
+    {
+      "id": "8fe39edff791",
+      "title": "Why teens deserve access to safe AI",
+      "true_label": "publish",
+      "true_skip_reason": null,
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a news-style summary about OpenAI's initiatives to make ChatGPT safer for teens, which is a specific tech event involving product changes and safety measures."
+    },
+    {
+      "id": "d60159c1cc86",
+      "title": "9 Mothers (YC P26) Is Hiring in Austin, TX",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a startup, which falls under the category of a job/career posting and should be skipped."
+    },
+    {
+      "id": "1d1043a7bdc5",
+      "title": "Adaptional (YC S25) Is Hiring",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting for a company, which falls under the category of a job/career posting."
+    },
+    {
+      "id": "e257eddecce2",
+      "title": "Artie (YC S23) Is Hiring Software Engineers",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This article is a job posting for a specific company, which falls under the category of a career posting."
+    },
+    {
+      "id": "83a3ba7f93e0",
+      "title": "CollectWise (YC F24) Is Hiring",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a startup, which falls under the category of a job/career posting and should be skipped."
+    },
+    {
+      "id": "2fc44d9a75a9",
+      "title": "Dexter (YC F24) Is Hiring a Founding Engineer in Berlin",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This is a job posting for a specific role at a specific company, which falls under the category of a job/career posting."
+    },
+    {
+      "id": "c571fa09f17f",
+      "title": "Hazel (YC W24) Is Hiring for Our Largest Government Contract",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a press release announcing a hiring initiative for a government contract, which is a standard business activity rather than a significant tech news event."
+    },
+    {
+      "id": "9f4be709f455",
+      "title": "Infracost (YC W21) Is Hiring a Marketing Lead to Shift FinOps Left",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting for a Marketing Lead at Infracost, a company in the FinOps space, which is a hiring-related announcement about a specific company's needs."
+    },
+    {
+      "id": "c7f6efbdce6a",
+      "title": "Jiga (YC W21) is hiring the best people to make manufacturing great again",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This article is a job posting from a startup, not a news event about technology, and therefore falls under the category of content to be skipped."
+    },
+    {
+      "id": "37294fcce70c",
+      "title": "Kontigo (YC S24) Is Hiring (Head of Security)",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This article is a job posting for a specific position, which falls under the category of a job/career posting that should be skipped."
+    },
+    {
+      "id": "dfa608dd80cc",
+      "title": "Lago (YC S21) Is Hiring for Our GTM Team",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a company, not a news event or industry-level analysis."
+    },
+    {
+      "id": "4086a682ff6a",
+      "title": "Laylo (YC S20) Is Hiring a Head of Finance",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This is a job posting for a specific role at a specific company, which falls under the category of a career posting."
+    },
+    {
+      "id": "ad5450fdd737",
+      "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting for a specific role at a startup, which falls under the category of a job/career posting."
+    },
+    {
+      "id": "bff9bae65dc3",
+      "title": "Moss (YC F25) Is Hiring",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a startup, which falls under the category of a job/career posting and should be skipped."
+    },
+    {
+      "id": "5d62ea837f57",
+      "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This is a job posting for a specific company, not a news event or analysis."
+    },
+    {
+      "id": "243bfc3d22d1",
+      "title": "Proliferate (YC S25) Is Hiring",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a company, which falls under the category of a job/career posting."
+    },
+    {
+      "id": "9d5cbea3d727",
+      "title": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting for a specific company, which falls under the category of a job/career posting and should be skipped."
+    },
+    {
+      "id": "b472ed583749",
+      "title": "Sixtyfour (YC P25) Is Hiring",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a startup, which falls under the category of a job/career posting that should be skipped."
+    },
+    {
+      "id": "3d139d0a80e3",
+      "title": "Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a job posting from a startup, which falls under the category of content to be skipped."
+    },
+    {
+      "id": "838b485b641e",
+      "title": "TrueBiz (YC S22) – Senior Software Engineer – Remote (US) – Full-Time",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This is a job posting for a specific position, not a news event or industry analysis."
+    },
+    {
+      "id": "c8f43a125bc9",
+      "title": "Wildcard (YC W25) Is Hiring a Founding Engineer",
+      "true_label": "skip",
+      "true_skip_reason": "job_posting",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "This is a job posting for a specific role at a specific company, which falls under the category of a job/career posting."
+    },
+    {
+      "id": "68bdbf6737cf",
+      "title": "The best tech of 2026 so far — the 21 finest gadgets we've tested this year",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article is a year-in-review listicle of tested gadgets, which is a common and legitimate tech news format."
+    },
+    {
+      "id": "5cad535994da",
+      "title": "10 Best Tech Gadgets 2026: Must-Have Innovations",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a listicle forecasting future tech gadgets, which is a speculative piece without a concrete news event like an announcement, launch, or acquisition."
+    },
+    {
+      "id": "0f5f9abb1c65",
+      "title": "10 Best Amazon Gadgets Worth Buying in 2026",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a product recommendation list, not a news event like an announcement, launch, or acquisition."
+    },
+    {
+      "id": "6890b8952a98",
+      "title": "Stuff's 111 hottest gadgets 2026: the greatest current and upcoming gear to upgrade every aspect of your life",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a generic listicle of gadgets without a specific news event, announcement, or industry development to report on."
+    },
+    {
+      "id": "c21a0656dcf4",
+      "title": "10 Gadgets Everyone's Quietly Buying in 2026",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a listicle predicting future gadget trends, which is speculative and lacks a concrete news event like an announcement or acquisition."
+    },
+    {
+      "id": "09899f7e6202",
+      "title": "Best Tech Gadgets of 2026 That Won HuffPost Shopping Awards",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a listicle about future tech gadgets, not a report on a specific, recent news event like an announcement, launch, or acquisition."
+    },
+    {
+      "id": "bcbdf5945877",
+      "title": "Best Cool Tech Gadgets of 2026",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "skip",
+      "predicted_skip_reason": "The article is a listicle summarizing existing content from another site, lacking a new, original news event or announcement."
+    },
+    {
+      "id": "a91291e29924",
+      "title": "Top 10 Gadgets at CES 2026 in Las Vegas",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "This article is a countdown listicle about gadgets at a specific trade show, which is a news event."
+    },
+    {
+      "id": "6d2c6297b381",
+      "title": "Top tech of the month: the best new gadgets we've tested for July 2026",
+      "true_label": "skip",
+      "true_skip_reason": "listicle",
+      "predicted_label": "publish",
+      "predicted_skip_reason": "The article is a summary of a monthly tech gadget review from a publication, not a news event like an announcement, launch, or acquisition."
+    }
+  ]
+}

@@ -59,7 +59,7 @@ def _load_store(out_path: Path) -> list[dict]:
     return json.loads(out_path.read_text(encoding="utf-8"))
 
 
-def run(language: str = "hindi") -> None:
+def run(language: str = "hindi", limit: int | None = None) -> None:
     OUTPUT_DIR.mkdir(exist_ok=True)
     out_path = OUTPUT_DIR / f"articles_{language}.json"
     store = _load_store(out_path)
@@ -75,9 +75,16 @@ def run(language: str = "hindi") -> None:
     # dedupe within the batch too, not just against what's already stored.
     deduped = list({_article_id(item["url"]): item for item in new_items}.values())
 
+    clusters = group_by_topic(deduped)
+    if limit is not None:
+        # Caps how many clusters get synthesized (the only part of a run that
+        # spends LLM tokens) -- collection/clustering above still runs over
+        # everything, so this is for a cheap smoke run, not a faster collect.
+        clusters = clusters[:limit]
+
     now = datetime.now(timezone.utc).isoformat()
     translated = []
-    for cluster in group_by_topic(deduped):
+    for cluster in clusters:
         synthesized = synthesize_article(cluster, language)
         if synthesized is SKIP:
             continue  # actively rejected — do not fall back to translation
@@ -111,4 +118,12 @@ def run(language: str = "hindi") -> None:
 
 
 if __name__ == "__main__":
-    run()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--limit", type=int, default=None,
+        help="Only synthesize the first N clusters -- a cheap smoke run, not a faster collect",
+    )
+    args = parser.parse_args()
+    run(limit=args.limit)

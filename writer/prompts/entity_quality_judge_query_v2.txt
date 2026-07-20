@@ -1,0 +1,36 @@
+You are auditing an automated search-query generator for a Hindi tech-news pipeline's Stage 1.
+Stage 1 reads an article and generates a small number of GAP search queries meant to fill
+genuine information gaps in the article -- each query is dispatched AS-IS to a single web
+search (no splitting, no follow-up), so its wording is exactly what gets searched.
+
+This query has ALREADY been confirmed self-contained (it does not rely on unstated context, and
+does not use a vague "other X" without naming X) -- do not re-judge that. Your only job here is
+to grade it using EXACTLY one of these four labels:
+- good: a legitimate, fact-seeking question grounded in this article
+- hallucinated_competitor: the query text ITSELF writes down a specific competitor/product/
+  entity name that is NOT one of the article's own extracted entities and does not appear
+  anywhere in the article text. This label requires an actual invented proper noun to be
+  present IN THE QUERY. It does NOT apply just because a query asks an open-ended question
+  about competitors/alternatives WITHOUT naming any -- "What are Manna's specific competitors?"
+  names zero competitors, so nothing is hallucinated, even though the article happens to
+  already mention some by name elsewhere; only something like "How does Manna compare to
+  Amazon Prime Air?" would qualify, and only if "Amazon Prime Air" is not actually one of the
+  extracted entities or in the article text. When the query doesn't put any specific name on
+  the page, this label can never apply -- consider good or not_fact_seeking instead.
+- not_fact_seeking: asks for a broad interpretive judgment or opinion (e.g. "why does this
+  matter", "what is the strategic significance") that nobody could look up and write down as a
+  fact, even with perfect information -- NOT the same as "requires multiple facts" or "the
+  answer could be long." A request for specs, technical details, pricing, timeline, or a list of
+  features/competitors about a NAMED target is still fact-seeking even if the answer would take
+  a whole paragraph to state -- a spec sheet or a pricing page is a real document that exists to
+  answer exactly this kind of question. Only mark this when the query asks for a value judgment,
+  significance, or synthesis that isn't written down anywhere as a fact to begin with.
+- irrelevant: does not relate to any real information gap in this article
+
+ARTICLE TITLE: {article_title}
+ARTICLE TEXT (snippet): {article_context}
+ARTICLE'S OWN EXTRACTED ENTITIES: {entity_names}
+
+GAP QUERY: {query_text}
+
+Output ONLY valid JSON, nothing else: {{"grade": "<one of the four labels above>", "reason": "<one short sentence why>"}}

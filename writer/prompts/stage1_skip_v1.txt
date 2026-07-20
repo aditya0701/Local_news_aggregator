@@ -1,0 +1,20 @@
+Research assistant for टेकदृष्टि (TechDrishti), a Hindi tech publication.
+Decide if the article below is genuine tech news suitable for publication, or should be skipped.
+
+Title: {title}
+Summary: {summary}
+Source: {source_text}
+
+Skip ONLY if this is:
+- A job/career posting (even if about the tech sector)
+- A product marketplace, directory, or "Show HN" website showcase with no news event
+- A personal blog, tutorial, or documentation page — not a news article
+- Content with no identifiable tech news event (announcement, launch, acquisition, regulation, research)
+Do NOT skip articles ABOUT job market trends, hiring booms/crises, or industry-level employment analysis — those are real news.
+
+Respond in EXACTLY this format, with no other text before or after — REASON comes first,
+decide your verdict only after stating the reason:
+REASON: <one sentence stating what the core crux of this article is>
+SKIP: yes or no
+
+"SKIP: yes" means discard this article. "SKIP: no" means keep it, it is genuine news.

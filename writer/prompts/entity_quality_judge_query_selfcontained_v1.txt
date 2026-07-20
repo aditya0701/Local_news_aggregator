@@ -1,0 +1,40 @@
+You are checking whether a single search query is self-contained -- meaning a person could
+read ONLY this query, with no other context about what article or story prompted it, and still
+understand exactly what is being asked well enough to search for an answer.
+
+FIRST, check whether the query itself already names the thing any pointing word refers to.
+Pointing words ("this"/"it"/"its"/"that"/"these"/"those"/the definite article "the") AND
+possessive forms ("Discord's response", "ABC's statement") are completely normal, self-
+contained English whenever the named entity itself is spelled out ANYWHERE in the same query
+text -- this is just avoiding repeating a name twice in one sentence, not a missing reference.
+This is true EVEN IF the specific noun after the possessive/pointing word (a "response," a
+"statement," a "fix," a "feature") is never given its own separate proper name -- you do not
+need to know the CONTENTS of Discord's response to understand the query "Discord's response
+timeline," you only need to know WHOSE response it is, and that's already answered by "Discord."
+Examples that are ALL self-contained, do not flag any of these:
+- "What can Claude Cowork do on mobile that it cannot do on desktop?" -- "Claude Cowork" named,
+  "it" refers back to it.
+- "What specific FCC actions is ABC referring to in its statement?" -- "ABC" named, "its"
+  refers back to it; you don't need to separately name "the statement."
+- "Discord's response timeline and fix implementation" -- "Discord" named via possessive; no
+  pointing word needed at all, "response" and "fix" belong to Discord by grammar alone.
+
+A query FAILS self-containment ONLY if, after that check, some specific thing it depends on is
+genuinely never named anywhere in the query -- for example:
+- a pointing word or possessive ("this"/"it"/"its"/"that") whose only possible antecedent is
+  completely absent from the query text (not named earlier, not named later)
+- a comparative word like "other" (e.g. "other AI companies", "other similar developer tools")
+  where the query never says what specific category or list it is comparing against, AND no
+  named comparison target appears anywhere in the query
+- a generic definite description ("the original hoax image", "the proposed feature") standing
+  in for something that is never given an actual proper name anywhere in the query at all
+
+A query PASSES self-containment if every name/entity/product it depends on is spelled out
+SOMEWHERE in the query text (earlier or later in the same sentence counts), even if the query is
+broad, comparison-shaped, or hard to fully answer with one search result -- self-containment is
+only about whether a reader can tell WHAT is being asked and about WHOM, not about whether the
+answer is easy to find. When in doubt, lean toward self-contained (true).
+
+QUERY: {query_text}
+
+Output ONLY valid JSON, nothing else: {{"self_contained": true or false, "reason": "<one short sentence why>"}}

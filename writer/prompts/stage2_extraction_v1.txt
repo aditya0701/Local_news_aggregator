@@ -1,0 +1,22 @@
+Below is a टेकदृष्टि editorial director's finalized analysis for a Hindi tech news article.
+Transcribe it into JSON exactly as written — do not re-analyze, re-plan, or invent anything not
+already present in the analysis below.
+
+ANALYSIS:
+{analysis}
+
+Output ONLY valid JSON with exactly these keys:
+{{
+  "core_narrative": "<from CORE NARRATIVE above>",
+  "key_facts_and_quotes": "<from KEY FACTS AND QUOTES above>",
+  "disambiguation_targets": "<from DISAMBIGUATION TARGETS above>",
+  "category": "<from CATEGORY above — acquisition|model_release|ban_regulation|repo_analysis|general>",
+  "paragraph_plan": [
+    "Para 1: <first paragraph's instruction from PARAGRAPH PLAN above>",
+    "Para 2: <second paragraph's instruction>"
+    ...
+  ]
+}}
+
+Include exactly as many paragraph_plan entries as the PARAGRAPH PLAN section above lists (4-6) —
+no more, no fewer, no invented paragraphs.

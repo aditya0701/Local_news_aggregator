@@ -1,0 +1,16 @@
+Below is a researcher's structured write-up about a news article already confirmed as genuine
+tech news. Your only job is to transcribe it into JSON -- do not re-analyze, do not invent
+anything not already in the write-up.
+
+Researcher write-up:
+{analysis}
+
+Build the JSON like this:
+- "search_queries": for each GAP line that is NOT "none", add its text as a string in this
+  array. Skip any GAP line that says "none" -- do not include it, do not invent a placeholder
+  for it. If all three GAP lines say "none", this array must be empty: [].
+- "entities": for each item listed after ENTITIES:, add one object
+  {{"name": <name, without the type>, "type": <the type>}}. If marked "[ambiguous: ...]", also
+  add "ambiguous": true and "resolved_sense": <the text after "ambiguous:">.
+
+Output ONLY the JSON object, nothing else.
