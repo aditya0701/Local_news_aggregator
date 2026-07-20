@@ -5928,13 +5928,10 @@
     ]
   },
   "ice": {
-    "senses": [
-      {
-        "sense_label": "agency",
-        "summary": "The policies broadly seek to restrict ICE agents from city property and parks and, in some cases, direct local police to monitor the activities of federal agents. An upstate New York resident sued US Immigration and Customs Enforcement (ICE) for sending federal officers to his house with a warning o",
-        "last_updated": "2026-07-11"
-      }
-    ]
+    "canonical_name": "ICE",
+    "entity_type": "ban_regulation",
+    "summary": "A coalition of 335 small businesses, led by SEMA, has urged Congress to pass a CRA to prevent the ACC II regulation, which would limit vehicle choice. They are calling for swift action to overturn California's regulatory land grab.",
+    "last_updated": "2026-07-20"
   },
   "customs and border protection": {
     "senses": [
@@ -9253,5 +9250,356 @@
     "entity_type": "ai_model",
     "summary": "Memmy is an open-source iOS and Android client for Lemmy built with React-Native. It is designed to help users create and share their personal memory with others.",
     "last_updated": "2026-07-19"
+  },
+  "espnow": {
+    "canonical_name": "ESPNow",
+    "entity_type": "ESPNow",
+    "summary": "ESP-NOW is a connectionless Wi-Fi communication protocol defined by Espressif. It transmits application data in a vendor-specific action frame from one Wi-Fi device to another without a connection. Security is provided by the CTR with CBC-MAC Protocol (CCMP).",
+    "last_updated": "2026-07-20"
+  },
+  "bun": {
+    "canonical_name": "Bun",
+    "entity_type": "technology",
+    "summary": "Bun is a JavaScript runtime, which is a place where JavaScript code runs. It is presented as an alternative to Node.js, created by Ryan Dahl, who also developed Deno to address Node.js's design limitations.",
+    "last_updated": "2026-07-20"
+  },
+  "jarred sumner": {
+    "canonical_name": "Jarred Sumner",
+    "entity_type": "person",
+    "summary": "Jarred Sumner is an American software engineer and entrepreneur who created Bun, a high-performance JavaScript and TypeScript runtime, bundler, test runner, and package manager. He intended it as a faster alternative to Node.js and npm.",
+    "last_updated": "2026-07-20"
+  },
+  "simon willison": {
+    "canonical_name": "Simon Willison",
+    "entity_type": "person",
+    "summary": "Simon Willison is an open source developer and creator of Datasette, a project he has been working on since November 2017. He attended the University of Bath and has had several past jobs, including as a Technical Architect at The Guardian US.",
+    "last_updated": "2026-07-20"
+  },
+  "power companies": {
+    "canonical_name": "Power companies",
+    "entity_type": "organization",
+    "summary": "Power companies are organizations that provide electricity to consumers and businesses. They operate large-scale infrastructure, including power grids, to generate and distribute energy.",
+    "last_updated": "2026-07-20"
+  },
+  "eminent domain": {
+    "canonical_name": "eminent domain",
+    "entity_type": "technology",
+    "summary": "Eminent domain is the power of the government to take private property for public use, with just compensation. This concept is often debated in the context of technology infrastructure, such as data centers, where land acquisition for these facilities is sometimes framed as a voluntary market transa",
+    "last_updated": "2026-07-20"
+  },
+  "data centers": {
+    "canonical_name": "data centers",
+    "entity_type": "technology",
+    "summary": "A data center is a physical facility that organizations use to house their critical applications and data. It is designed with a network of computing and storage resources, including routers, switches, firewalls, and servers, to deliver shared applications and data.",
+    "last_updated": "2026-07-20"
+  },
+  "claude fable": {
+    "canonical_name": "Claude Fable",
+    "entity_type": "ai_model",
+    "summary": "Claude Fable 5 is our most capable model for ambitious coding projects, including large migrations, complex implementations, and multi-day autonomous sessions. It can write its own tests to check its work, implement designs with high fidelity, and use vision to check outputs against goals. Next gene",
+    "last_updated": "2026-07-20"
+  },
+  "jacobian conjecture": {
+    "canonical_name": "Jacobian Conjecture",
+    "entity_type": "ai_model",
+    "summary": "The Jacobian Conjecture is an unsolved problem in affine algebraic geometry concerning the invertibility of polynomial maps with constant Jacobian determinant. Formulated in the 1930s, it sits at the intersection of algebraic geometry, commutative algebra, topology, and mathematical physics, and is",
+    "last_updated": "2026-07-20"
+  },
+  "akhil": {
+    "canonical_name": "Akhil",
+    "entity_type": "person",
+    "summary": "Akhil is a Sanskrit name that means 'complete', 'whole', or 'all', often used to describe someone who is perfect or flawless. It is a masculine name with Sanskrit, Hinduism origins, and is considered a ubiquitous name that has experienced moderate growth in popularity recently.",
+    "last_updated": "2026-07-20"
+  },
+  "wolframalpha": {
+    "canonical_name": "Wolfram|Alpha",
+    "entity_type": "organization",
+    "summary": "Wolfram Research is building a computational knowledge engine called Wolfram|Alpha for the web to be launched in May 2009. The product will contain data in various fields including physical sciences, technology, geography, weather, cooking, and more. Founded by Stephen Wolfram in 1987, the organizat",
+    "last_updated": "2026-07-20"
+  },
+  "kagi": {
+    "canonical_name": "Kagi",
+    "entity_type": "company",
+    "summary": "Kagi is a company founded in 2018 by Vladimir Prelovac in Palo Alto, CA, with the mission to humanize the web by making it more accessible and centered around user needs. The company's products are designed to be free from ads, trackers, and surveillance, and they have an advisory board that include",
+    "last_updated": "2026-07-20"
+  },
+  "orion browser": {
+    "canonical_name": "Orion Browser",
+    "entity_type": "product",
+    "summary": "Orion is a flagship web browser for macOS, built natively for Mac users who demand performance and control. It is designed from the ground up with native WebKit speed, compatibility with a wide selection of extensions, and absolute privacy, aiming to provide a browser that respects the user.",
+    "last_updated": "2026-07-20"
+  },
+  "interpositive": {
+    "canonical_name": "InterPositive",
+    "entity_type": "startup",
+    "summary": "InterPositive is a filmmaking technology company founded by Ben Affleck. The company developed an AI model designed to assist production teams in post-production by analyzing footage and helping to address issues like continuity, environmental enhancements, and lighting adjustments.",
+    "last_updated": "2026-07-20"
+  },
+  "ben affleck": {
+    "canonical_name": "Ben Affleck",
+    "entity_type": "person",
+    "summary": "Ben Affleck is an executive producer, director, and actor. He is the founder of a production company and is described as being jittery but largely unscathed after recent events in Los Angeles.",
+    "last_updated": "2026-07-20"
+  },
+  "dc council": {
+    "canonical_name": "D.C. Council",
+    "entity_type": "general",
+    "summary": "The D.C. Council is the legislative body for the District of Columbia, responsible for passing laws and budgets. Elections for the council occur on November 8, with candidates from various parties, including Democratic, Green, and Libertarian, vying for at-large seats and other positions.",
+    "last_updated": "2026-07-20"
+  },
+  "lyft": {
+    "canonical_name": "Lyft",
+    "entity_type": "general",
+    "summary": "Lyft is a provider of Transportation-as-a-Service (TaaS) that operates as a peer-to-peer marketplace. The company offers ride-sharing, bike and scooter rentals, and access to autonomous vehicles through its platform and mobile applications.",
+    "last_updated": "2026-07-20"
+  },
+  "india herdman": {
+    "canonical_name": "India Herdman",
+    "entity_type": "general",
+    "summary": "India Herdman is a professional with a presence on LinkedIn, based in Washington, D.C. She serves on the federal advocacy team for the Consumer Technology Association (CTA), representing the tech industry before Congress and regulatory agencies. She also leads policy initiatives for transportation a",
+    "last_updated": "2026-07-20"
+  },
+  "current ai": {
+    "canonical_name": "Current AI",
+    "entity_type": "model_release",
+    "summary": "Current AI is a public interest initiative focused on fostering and steering AI development in societally beneficial directions. It was announced at the French AI Action summit and is funded by an initial $400 million in pledges, with a plan to raise $2.5 billion over five years.",
+    "last_updated": "2026-07-20"
+  },
+  "bhashini": {
+    "canonical_name": "Bhashini",
+    "entity_type": "organization",
+    "summary": "BHASHINI is India's AI-led language translation platform aimed at transcending language barriers. It is a division of the Indian government responsible for language policy and uses a crowd-sourcing initiative to build multilingual datasets.",
+    "last_updated": "2026-07-20"
+  },
+  "suno sutra": {
+    "canonical_name": "Suno Sutra",
+    "entity_type": "product",
+    "summary": "Suno Sutra is a portable offline device that supports 22 Indian languages and runs AI inference at the edge. It is an embedded Linux device with application code in Python, designed to quickly develop applications that take audiovisual input and process it locally.",
+    "last_updated": "2026-07-20"
+  },
+  "ayah bdeir": {
+    "canonical_name": "Ayah Bdeir",
+    "entity_type": "person",
+    "summary": "Ayah Bdeir is an entrepreneur and technology leader who has dedicated her career to breaking down barriers between people and technology. She is currently the CEO of Current AI, a partnership bringing together governments, foundations, and the private sector to prove public interest AI can exist at",
+    "last_updated": "2026-07-20"
+  },
+  "martin tisne": {
+    "canonical_name": "Martin Tisne",
+    "entity_type": "person",
+    "summary": "Martin Tisné is the Founder and Chair of the Board of Current AI and the CEO of the AI Collaborative. He has over 15 years of experience in AI policy, advising heads of state, and serving on various multi-stakeholder initiatives and NGOs.",
+    "last_updated": "2026-07-20"
+  },
+  "littlebits": {
+    "canonical_name": "littleBits",
+    "entity_type": "organization",
+    "summary": "littleBits is an open-source library of electronic modules that allows users to learn electronics by creating prototypes. The company profile includes employee-generated content on salaries, reviews, and work-life insights.",
+    "last_updated": "2026-07-20"
+  },
+  "sphero": {
+    "canonical_name": "Sphero",
+    "entity_type": "organization",
+    "summary": "Sphero's mission is to inspire students through hands-on STEM, robotics, and computer science learning. The company creates engaging learning tools built for curiosity and creativity, believing that fun at school builds skills for the future.",
+    "last_updated": "2026-07-20"
+  },
+  "french government": {
+    "canonical_name": "French government",
+    "entity_type": "organization",
+    "summary": "The Government of France exercises executive power and is composed of the prime minister, senior and junior ministers, deputies, senators, and judges. It is a republic governed at the ressortissant level by the president and an annexe minister.",
+    "last_updated": "2026-07-20"
+  },
+  "ford foundation": {
+    "canonical_name": "Ford Foundation",
+    "entity_type": "organization",
+    "summary": "The Ford Foundation supports grassroots and community organizations for the advancement of LGBTQ+ rights and is doubling its annual investment in trans communities. It commits at least $10 million over five years to various trans-focused campaigns and initiatives.",
+    "last_updated": "2026-07-20"
+  },
+  "macarthur foundation": {
+    "canonical_name": "MacArthur Foundation",
+    "entity_type": "organization",
+    "summary": "The John D. and Catherine T. MacArthur Foundation supports creative people, effective institutions, and influential networks to build a more just and peaceful world. It focuses on pressing social challenges like over-incarceration, climate change, and nuclear risk, and supports the MacArthur Fellows",
+    "last_updated": "2026-07-20"
+  },
+  "deepmind": {
+    "canonical_name": "DeepMind",
+    "entity_type": "organization",
+    "summary": "As Google DeepMind, the team is using its computing infrastructure to create research breakthroughs and transformative products. They are working to build the next generation of AI systems safely and responsibly, with the potential to drive one of the greatest transformations in history.",
+    "last_updated": "2026-07-20"
+  },
+  "kodak": {
+    "canonical_name": "Kodak",
+    "entity_type": "company",
+    "summary": "Kodak (NYSE: KODK) is a leading global manufacturer focused on commercial print and advanced materials & chemicals. With 79,000 worldwide patents earned over 130 years of R&D, we believe in the power of technology and science to enhance what the world sees and creates. Our innovative, award-winning",
+    "last_updated": "2026-07-20"
+  },
+  "reto project": {
+    "canonical_name": "Reto Project",
+    "entity_type": "company",
+    "summary": "The RETO PANO features an easy switch between standard and panoramic modes and an ultra-wide-angle 22mm lens for landscape and travel photography. It is compact and includes a built-in flash, making it suitable for shooting indoors and outdoors. The company's goal is to reinvent film cameras to make",
+    "last_updated": "2026-07-20"
+  },
+  "kodak ec35": {
+    "canonical_name": "Kodak EC35",
+    "entity_type": "product",
+    "summary": "The Kodak EC35 is a $34.99 reusable 35mm film camera built for beginners. It is a point-and-shoot camera that strips away complexity, featuring a tactile slide cover and a built-in flash. The camera is designed to be simple, requiring users to load film, wind it on, and press the shutter.",
+    "last_updated": "2026-07-20"
+  },
+  "benja": {
+    "canonical_name": "Benja",
+    "entity_type": "person",
+    "summary": "Benja K. Thomas is a journalist, photographer, videographer, event producer, part-time musician, and content creator known for his work on projects like Gotham, FBI, and A Gun for Jennifer. He was born in Sant Cugat del Vallès, Province of Barcelona, and is active on Instagram as @benjatv_.",
+    "last_updated": "2026-07-20"
+  },
+  "suno": {
+    "canonical_name": "Suno",
+    "entity_type": "ai_model",
+    "summary": "The Suno AI model is a music generator that creates complete songs with vocals, lyrics, and full instrumentation from text prompts. It is described as a leading text-to-music AI that turns simple descriptions into professional, studio-ready tracks for musicians and content creators.",
+    "last_updated": "2026-07-20"
+  },
+  "holly herndon": {
+    "canonical_name": "Holly Herndon",
+    "entity_type": "person",
+    "summary": "Holly Herndon is an experimental composer and musician who explores the future of music through data. She transitioned into electronic music after singing in church and choirs, earned a master's degree at Mills College, and is known for building an AI clone of her voice.",
+    "last_updated": "2026-07-20"
+  },
+  "dhs": {
+    "senses": [
+      {
+        "sense_label": "DHS",
+        "summary": "The DHS ordered a pause to provide additional tactical training to officers after two fatal agent-involved shootings in Texas and Maine. The White House later confirmed the president's directive overruled and canceled the DHS memo, reinstating vehicle stops.",
+        "last_updated": "2026-07-20"
+      }
+    ]
+  },
+  "the new york times": {
+    "canonical_name": "The New York Times",
+    "entity_type": "ban_regulation",
+    "summary": "The material does not contain a specific overview of The New York Times regarding a ban or regulation. It lists several unrelated news items about platform regulations and cryptocurrency, but no details on the newspaper's own policies.",
+    "last_updated": "2026-07-20"
+  },
+  "doj": {
+    "canonical_name": "DOJ",
+    "entity_type": "ban_regulation",
+    "summary": "The Department of Justice published a final rule on January 8, 2025, prohibiting and restricting certain transactions that could allow persons from countries of concern to access bulk sensitive information. The regulations are driven by significant national security concerns.",
+    "last_updated": "2026-07-20"
+  },
+  "orchid": {
+    "canonical_name": "Orchid",
+    "entity_type": "product",
+    "summary": "Orchid's whole genome screening reads 99% of an embryo's genome — 100x more data than standard PGT. The company offers an Embryo Report for advanced genetic screening and a Couple Report to measure a future child's genetic predisposition to disease.",
+    "last_updated": "2026-07-20"
+  },
+  "birdfy": {
+    "canonical_name": "Birdfy",
+    "entity_type": "company",
+    "summary": "Birdfy is an unfunded company based in Shenzhen, China, founded in 2020. It operates as an online platform offering bird feeders with cameras and AI-powered bird identification features.",
+    "last_updated": "2026-07-20"
+  },
+  "netvue": {
+    "canonical_name": "Netvue",
+    "entity_type": "company",
+    "summary": "Netvue, established in 2010, specializes in smart home solutions and was among the first to launch a domestic Internet camera. The company offers security and bird feeder cameras, guided by the slogan 'In Sight, In Mind,' to create connections for people who care.",
+    "last_updated": "2026-07-20"
+  },
+  "andrew tate": {
+    "canonical_name": "Andrew Tate",
+    "entity_type": "person",
+    "summary": "Andrew Tate is a former kickboxer and social media celebrity known as the 'king of toxic masculinity.' He and his brother Tristan were charged by Romanian officials with rape and human trafficking, and Tate was granted a golden passport by a South Pacific nation.",
+    "last_updated": "2026-07-20"
+  },
+  "tristan tate": {
+    "canonical_name": "Tristan Tate",
+    "entity_type": "person",
+    "summary": "Tristan Tate is Andrew's brother, and together they are social media influencers with millions of followers. Tristan has denied wrongdoing, and Andrew's influence is noted for promoting fitness, ostentatious wealth, and the rejection of feminism.",
+    "last_updated": "2026-07-20"
+  },
+  "us marshals": {
+    "canonical_name": "US Marshals",
+    "entity_type": "organization",
+    "summary": "The U.S. Marshals Service is a federal law enforcement agency under the Department of Justice. Its mission is to enforce federal laws and support the federal justice system, and it holds a significant amount of Bitcoin, reported to be worth about $3.4 billion.",
+    "last_updated": "2026-07-20"
+  },
+  "british authorities": {
+    "canonical_name": "British authorities",
+    "entity_type": "organization",
+    "summary": "British authorities are described in the context of fighting against Stern's group, with a historical focus on the Irgun, an organization that fought in the 1940s. The material also lists several related Jewish underground organizations and flags.",
+    "last_updated": "2026-07-20"
+  },
+  "clapper": {
+    "canonical_name": "Clapper",
+    "entity_type": "product",
+    "summary": "Clapper is a rapidly growing social platform that enables users to share and explore authentic, unfiltered content through short videos, livestreams, and radio features. With a focus on community building, Clapper allows creators to foster genuine connections and engage with a network of supporters,",
+    "last_updated": "2026-07-20"
+  },
+  "solar car challenge": {
+    "canonical_name": "Solar Car Challenge",
+    "entity_type": "event",
+    "summary": "The Solar Car Challenge was established in 1993 to help motivate students in science and engineering, and to increase alternative energy awareness. It is a competition where high school teams design, build, and race solar-powered vehicles, applying engineering principles and renewable energy concept",
+    "last_updated": "2026-07-20"
+  },
+  "hermespace": {
+    "canonical_name": "hermespace",
+    "entity_type": "general",
+    "summary": "Hermespace is a joint venture formed in 1990 by Aerospatiale, Alenia, Dassault, and DASA to manage Hermès aerospace craft. The partnership included shares from the four companies and was later joined by other international participants, though the agreement was placed in abeyance in 1993.",
+    "last_updated": "2026-07-20"
+  },
+  "hoainhoimg2threejs": {
+    "canonical_name": "hoainho/img2threejs",
+    "entity_type": "repo_analysis",
+    "summary": "The hoainho/img2threejs project is a code-only, procedural, and token-efficient tool for reconstructing a 3D object from a single reference image. It generates a Three.js model directly in the browser without requiring mesh files or downloads, focusing on quality-gated, animation-ready results.",
+    "last_updated": "2026-07-20"
+  },
+  "codedrobeskills": {
+    "canonical_name": "CodeDrobe/skills",
+    "entity_type": "CodeDrobe/skills",
+    "summary": "CodeDrobe/skills are reusable, AI-callable workflows defined in SKILL.md files that compress repetitive workflows into single calls. Each skill is auto-discovered by Claude Code and replaces one-off prompts, turning multi-line instructions into a single /skill-name call.",
+    "last_updated": "2026-07-20"
+  },
+  "tencent workbuddy": {
+    "canonical_name": "Tencent WorkBuddy",
+    "entity_type": "Tencent WorkBuddy",
+    "summary": "Tencent WorkBuddy is a full-scenario AI agent desktop workstation designed for all workplace roles. It autonomously plans and executes tasks like a colleague after you describe your needs in natural language, and can be used by downloading the desktop client and connecting office tools.",
+    "last_updated": "2026-07-20"
+  },
+  "codedrobecore": {
+    "canonical_name": "@codedrobe/core",
+    "entity_type": "@codedrobe/core",
+    "summary": "CodeDrobe Desktop is an open-source theme manager and desktop customization tool for AI desktop apps like OpenAI Codex, WorkBuddy, and QoderWork. It allows users to browse a theme store, apply themes with one click, and restore the native interface, with themes only changing appearance while leaving",
+    "last_updated": "2026-07-20"
+  },
+  "codedrobetheme": {
+    "canonical_name": "codedrobe-theme",
+    "entity_type": "codedrobe-theme",
+    "summary": "A codedrobe-theme is a .codex-theme file that can be imported with CodeDrobe Desktop to apply a free theme to the official Codex desktop app. These themes are local, script-free, and reversible, changing only the appearance without affecting the app's installation or data.",
+    "last_updated": "2026-07-20"
+  },
+  "codedrobeadapterdev": {
+    "canonical_name": "codedrobe-adapter-dev",
+    "entity_type": "codedrobe-adapter-dev",
+    "summary": "The codedrobe-adapter-dev repository contains installable Agent Skills for creating and managing reversible themes across supported Chromium/Electron AI desktop apps, including OpenAI Codex and Tencent WorkBuddy. It works with @codedrobe/core for runtime behavior and supports adding new apps as Core",
+    "last_updated": "2026-07-20"
+  },
+  "baldaworks": {
+    "canonical_name": "baldaworks",
+    "entity_type": "callee",
+    "summary": "Baldaworks is a tool that allows a repository to define provider-backed Role, Sequential, and Loop agents as versioned Markdown or YAML. It uses the Norma Runtime for ACP provider processes and the Go ADK-aligned escalatio.",
+    "last_updated": "2026-07-20"
+  },
+  "mentor": {
+    "canonical_name": "mentor",
+    "entity_type": "skill",
+    "summary": "A mentor is an individual with expertise who helps develop the career of a mentee. The mentor's primary functions are to act as a coach, providing advice to enhance the mentee's professional performance and development. The article also provides 12 examples of specific skills to help one succeed as",
+    "last_updated": "2026-07-20"
+  },
+  "fratresxai": {
+    "canonical_name": "Fratres-X-AI",
+    "entity_type": "company",
+    "summary": "Fratres-X-AI offers enterprise-grade AI features and premium support. It is also associated with JamBoy Public, which provides jam-proof GPS-denied navigation for drones using optical flow and offline map geo-registration.",
+    "last_updated": "2026-07-20"
+  },
+  "jamboy": {
+    "canonical_name": "JamBoy",
+    "entity_type": "product",
+    "summary": "JamBoy is a navigation layer for attritable drones, not a targeting or weapons system. It estimates local position and velocity without GPS using a downward camera, pre-loaded GeoTIFF maps, IMU rates, and barometer altitude.",
+    "last_updated": "2026-07-20"
   }
 }
