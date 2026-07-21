@@ -9601,5 +9601,575 @@
     "entity_type": "product",
     "summary": "JamBoy is a navigation layer for attritable drones, not a targeting or weapons system. It estimates local position and velocity without GPS using a downward camera, pre-loaded GeoTIFF maps, IMU rates, and barometer altitude.",
     "last_updated": "2026-07-20"
+  },
+  "3d printer": {
+    "canonical_name": "3D Printer",
+    "entity_type": "product",
+    "summary": "A 3D printer is a device that gives anyone the power to manufacture custom components with sub-millimeter precision for a few hundred dollars. It uses a moving toolhead and melted plastic to create objects, and it does not require the user to be an engineer to get started.",
+    "last_updated": "2026-07-21"
+  },
+  "pla": {
+    "canonical_name": "PLA",
+    "entity_type": "material",
+    "summary": "Polylactic acid, or PLA, is a thermoplastic filament derived from renewable sources like corn starch. It is one of the most common materials for FDM 3D printing and is widely used to produce parts, packaging, and prototypes.",
+    "last_updated": "2026-07-21"
+  },
+  "bmsoncom": {
+    "canonical_name": "bmson.com",
+    "entity_type": "organization",
+    "summary": "bmson.com is a user on GitHub, with an ORCID profile and a public repository. The user's activity is logged, showing they are in San Francisco and have 17 followers. There is an error message indicating a failure in a 'processData' function.",
+    "last_updated": "2026-07-21"
+  },
+  "erdős unit distance conjecture": {
+    "canonical_name": "Erdős’ Unit Distance conjecture",
+    "entity_type": "ai_model",
+    "summary": "What's Erdős Unit Distance Conjecture?The Erdős unit distance conjecture asks: with n points scattered on a flat plane, what's the maximum number of pairs you can make exactly one unit apart? Unnamed OpenAI model disproved Erdős's unit-distance bound. Sawin's n^1.014 is the first exponent gain in 80",
+    "last_updated": "2026-07-21"
+  },
+  "golod and shafarevich": {
+    "canonical_name": "Golod and Shafarevich",
+    "entity_type": "person",
+    "summary": "the Golod-Shafarevich inequality with Golod, Shafarevich proved a bound on the dierence between relation and generator ranks of G = Gal(HKp ∞/K) for K a quadratic imaginary number eld. Theorem 3 (Shafarevich, 19632). THE GOLOD-SHAF AREVICH THEOREM\nAND THE CLASS FIELD TOWER PROBLEM\nKathleen Zhou\nA th",
+    "last_updated": "2026-07-21"
+  },
+  "mike freedman": {
+    "canonical_name": "Mike Freedman",
+    "entity_type": "person",
+    "summary": "Edit Overview Section · Number ... · View on LinkedIn · Twitter · View on Twitter · Mike Freedman is the founding partner of Freedthinkers.... June 9, 2026 - Mike Freedman is the co-founder and CTO of Tiger Data, as well as the Robert E. Kahn… · Experience: Tiger Data (creators of TimescaleDB) · Edu",
+    "last_updated": "2026-07-21"
+  },
+  "logical intelligence": {
+    "canonical_name": "Logical Intelligence",
+    "entity_type": "organization",
+    "summary": "Logical Intelligence engineers deterministic AI for critical systems. We deliver mathematically verified intelligence beyond LLMs for autonomy, finance, & defense. Explore Math AI & EBMs. Logical Intelligence Logical Intelligence Logical Intelligence Piloting The Worldâs First Piloting The Worldâ",
+    "last_updated": "2026-07-21"
+  },
+  "yan lecun": {
+    "canonical_name": "Yan LeCun",
+    "entity_type": "person",
+    "summary": "Yann LeCun is a pioneering AI scientist, Turing Award winner and Meta Chief AI Scientist from 2013–2025. Book him via Chartwell Speakers. In 2018 Prof LeCun won the Turing Award with Geoffrey Hinton and Yoshua Bengio for their breakthroughs in AI and all three became known as \"the godfathers of AI\".",
+    "last_updated": "2026-07-21"
+  },
+  "fields medallist": {
+    "canonical_name": "Fields Medallist",
+    "entity_type": "person",
+    "summary": "December 31, 2015 - Sometime, around 1929, he also began to explore another idea, a small personal gesture-the gift of an international medal for outstanding research in mathematics. He devoted the remaining three years of his life, in increasingly poor health, to the medal he wanted to establish. H",
+    "last_updated": "2026-07-21"
+  },
+  "thomas browning": {
+    "canonical_name": "Thomas Browning",
+    "entity_type": "person",
+    "summary": "Thomas Browning Stats, Age, Position, Height, Weight, Fantasy & News Thomas Browning performed the duties of the Assistant Secretary of Defense for Mission Capabilities under the authority of the Office of the Under Secretary of Defense for Research and Engineering. In this role, he directed an orga",
+    "last_updated": "2026-07-21"
+  },
+  "turing award": {
+    "canonical_name": "Turing Award",
+    "entity_type": "event",
+    "summary": "A.M TURING The A.M. Turing Award, sometimes referred to as the \"Nobel Prize in Computing,\" was named in honor of Alan Mathison Turing (1912–1954), a British mathematician and computer scientist. He made fundamental advances in computer architecture, algorithms, formalization of computing, and artifi",
+    "last_updated": "2026-07-21"
+  },
+  "aclu": {
+    "canonical_name": "ACLU",
+    "entity_type": "organization",
+    "summary": "The ACLU is an organization that works to protect everyone's rights in courts and communities across the country. It focuses on issues like immigrant rights, trans justice, and reproductive freedom, and is involved in efforts to safeguard elections.",
+    "last_updated": "2026-07-21"
+  },
+  "oshkosh": {
+    "canonical_name": "Oshkosh",
+    "entity_type": "organization",
+    "summary": "Oshkosh is a company that designs, manufactures, and markets engineered specialty vehicles and essential equipment. It serves a wide range of clients, including equipment rental companies, construction contractors, and government units, and distributes products globally.",
+    "last_updated": "2026-07-21"
+  },
+  "joe stephenson": {
+    "canonical_name": "Joe Stephenson",
+    "entity_type": "person",
+    "summary": "Joe Stephenson is a British film director originally from Sheffield, UK. He is the founder of the B Good Picture Company and has produced his debut feature film, Chicken, which premiered at the Edinburgh Int'l Film Festival and won awards at various international festivals.",
+    "last_updated": "2026-07-21"
+  },
+  "matt mugerauer": {
+    "canonical_name": "Matt Mugerauer",
+    "entity_type": "person",
+    "summary": "Matt Mugerauer is the Deputy Mayor of Oshkosh and is running for mayor. He has five years of experience on the city council and two years as Deputy Mayor, and he emphasizes being available to constituents and strengthening ties with local businesses.",
+    "last_updated": "2026-07-21"
+  },
+  "moonshot": {
+    "canonical_name": "Moonshot",
+    "entity_type": "ai_model",
+    "summary": "Moonshot AI currently offers 7 AI models on its platform, with an average quality score of 60/100. The highest-rated model is Kimi K3, ranked #61 globally with a composite score of 79/100.",
+    "last_updated": "2026-07-21"
+  },
+  "anton leicht": {
+    "canonical_name": "Anton Leicht",
+    "entity_type": "person",
+    "summary": "Overview. A_Leicht Anton Leicht.Faculty of Cultural Studies Professorship for Ethics. Anton Leicht PhD student. Office. Druckansicht der Internetadresse: Building on my BA in Philosophy from Münster and my MSc in Philosophy and Public Policy at the LSE, I am now pursuing my PhD in philosophy under t",
+    "last_updated": "2026-07-21"
+  },
+  "compute": {
+    "canonical_name": "compute",
+    "entity_type": "material",
+    "summary": "A compute pause button is a governance, technical, and procedural mechanism designed to halt, limit, or delay the progress of large-scale AI model training by directly regulating access to computational resources at the hardware and supply chain level. The concept targets the physical substrates nec",
+    "last_updated": "2026-07-21"
+  },
+  "us district court for the northern district of california": {
+    "canonical_name": "U.S. District Court for the Northern District of California",
+    "entity_type": "organization",
+    "summary": "The United States District Court for the Northern District of California is a federal trial court with jurisdiction over the coastal region from Monterey County in the south to the Oregon border in the north. Headquartered in San Francisco with additional courthouses in Oakland, San Jose, and Eureka",
+    "last_updated": "2026-07-21"
+  },
+  "library genesis": {
+    "canonical_name": "Library Genesis",
+    "entity_type": "product",
+    "summary": "Library Genesis is a Z-Library alternative described as 'Unlimited access to a vast collection of over 4.9 million books and 77 million articles, offering diverse knowledge resources for everyone.' It is a popular Ebook Library in the news & books category and is considered both free and Open Source",
+    "last_updated": "2026-07-21"
+  },
+  "pirate library mirror": {
+    "canonical_name": "Pirate Library Mirror",
+    "entity_type": "product",
+    "summary": "The Pirate Library Mirror is a project that preserves knowledge by bundling books, journals, and articles across multiple torrents. It focuses on preserving over 7TB of pirated content, starting with a mirror of Z-Library, and enforces a free download limit of 10 books per day.",
+    "last_updated": "2026-07-21"
+  },
+  "judge william alsup": {
+    "canonical_name": "Judge William Alsup",
+    "entity_type": "person",
+    "summary": "Judge William Alsup is one of California’s leading federal district court judges overseeing cases affecting the scope of President Donald Trump’s executive power and the future of the generative AI industry. He plans to retire on December 31, 2025.",
+    "last_updated": "2026-07-21"
+  },
+  "judge araceli martinezolguin": {
+    "canonical_name": "Judge Araceli Martinez-Olguin",
+    "entity_type": "person",
+    "summary": "Judge Araceli Martínez-Olguín's Civil Standing Order was issued on November 14, 2025. The order includes instructions for joining public webinars and details for case participants to join via the Zoom application.",
+    "last_updated": "2026-07-21"
+  },
+  "colossal biosciences": {
+    "canonical_name": "Colossal Biosciences",
+    "entity_type": "company",
+    "summary": "Colossal Biosciences is a genetics and biosciences company founded by Ben Lamm and geneticist George Church. The company is led by CEO Ben Lamm and focuses on combining the science of genetics with the business of discovery to reawaken lost species and advance the economies of biology.",
+    "last_updated": "2026-07-21"
+  },
+  "ben lamm": {
+    "canonical_name": "Ben Lamm",
+    "entity_type": "person",
+    "summary": "Ben Lamm is the Co-Founder and CEO of Colossal Biosciences, a world's first de-extinction company. He is a serial technology entrepreneur driven to solve complex challenges facing the planet, and is also listed on Forbes' 2026 Billionaires list.",
+    "last_updated": "2026-07-21"
+  },
+  "breaking": {
+    "canonical_name": "Breaking",
+    "entity_type": "company",
+    "summary": "Breaking Inc. is a Synthetic-Biology Plastic Degradation company that was gestated in Colossal Biosciences and the Wyss Institute at Harvard University. It offers a natural-inspired solution to the global plastic pollution crisis and recently secured an over-subscribed $10.5 Million SEED Round.",
+    "last_updated": "2026-07-21"
+  },
+  "form bio": {
+    "canonical_name": "Form Bio",
+    "entity_type": "company",
+    "summary": "Form Bio is involved in AI-driven genetic medicine and genome engineering within the biotechnology sector. The company provides services related to AAV vectors and CRISPR technology for genetic modifications, as well as tools for protein engineering and genome assembly, and was founded in 2022 in Au",
+    "last_updated": "2026-07-21"
+  },
+  "astromech": {
+    "canonical_name": "Astromech",
+    "entity_type": "company",
+    "summary": "Astromech is a next-generation aerospace hardware startup building high-precision drones, advanced CubeSat systems, and reliable flight computers for tomorrow's missions. The company combines cutting-edge engineering with robust design principles to create hardware that performs flawlessly, from gro",
+    "last_updated": "2026-07-21"
+  },
+  "uae": {
+    "canonical_name": "UAE",
+    "entity_type": "organization",
+    "summary": "The UAE is a location where professionals showcase a positive work culture, with a survey showing 83% of Dubai professionals believe mutual respect is key to workplace success. Organizations in the UAE blend tradition with modern ambition, creating environments where diverse teams unite under shared",
+    "last_updated": "2026-07-21"
+  },
+  "wired": {
+    "canonical_name": "Wired",
+    "entity_type": "organization",
+    "summary": "WIRED is a magazine where technology is changing every aspect of our lives, from culture to business and science to design. The American magazine was founded in San Francisco in 1993 by journalist Louis Rossetto and Jane Metcalfe, and its leadership oversees the strategic vision behind the organizat",
+    "last_updated": "2026-07-21"
+  },
+  "rolling stone": {
+    "canonical_name": "Rolling Stone",
+    "entity_type": "organization",
+    "summary": "Rolling Stone Australia is an organization in the media production sector with 10-50 employees. The company specializes in issuing and recruiting for media production, and its employee register can be connected with via SignalHire, which complies with GDPR and CCPA regulations.",
+    "last_updated": "2026-07-21"
+  },
+  "university of tasmania": {
+    "canonical_name": "University of Tasmania",
+    "entity_type": "organization",
+    "summary": "The University of Tasmania is a prominent public research institution in Australia founded in 1890. Its mission is to create, preserve, communicate, and apply knowledge to benefit the people of Tasmania and the wider world, and it uses technology like DocuSign + StarRez integration to improve effici",
+    "last_updated": "2026-07-21"
+  },
+  "colossal foundation": {
+    "canonical_name": "Colossal Foundation",
+    "entity_type": "organization",
+    "summary": "The Colossal Foundation is the nonprofit arm of Colossal Biosciences, the world's first de-extinction and species preservation company. As a 501(c)(3) organization, its mission is to bring Colossal's breakthrough science out of the lab and into the field to make extinction a thing of the past.",
+    "last_updated": "2026-07-21"
+  },
+  "paramount skydance": {
+    "canonical_name": "Paramount Skydance",
+    "entity_type": "company",
+    "summary": "Paramount Skydance Corporation (PSKY) is a U.S.-based media company that produces action films, television series, and animated features. Headquartered in Santa Monica, California, the company was formed in 2025 through an $8 billion merger between Skydance Media and Paramount Global. Skydance was f",
+    "last_updated": "2026-07-21"
+  },
+  "wbd": {
+    "canonical_name": "WBD",
+    "entity_type": "company",
+    "summary": "Warner Bros. Discovery, Inc. operates as a media and entertainment company worldwide. It operates through three segments: Studios, Network, and DTC. The Streaming segment offers streaming services, such as HBO Max and discovery+, and premium pay-TV services, including HBO and certain premium sports",
+    "last_updated": "2026-07-21"
+  },
+  "hbo max": {
+    "canonical_name": "HBO Max",
+    "entity_type": "product",
+    "summary": "HBO Max is a premier global streaming platform that delivers captivating stories, ranging from the highest quality in scripted programming, movies, documentaries, and true crime, to adult animation. It bundles all of HBO together with even more of your favorite movies and TV series, plus new Max Ori",
+    "last_updated": "2026-07-21"
+  },
+  "cbs": {
+    "canonical_name": "CBS",
+    "entity_type": "company",
+    "summary": "CBS Corporation, a subsidiary of ViacomCBS, is a mass media corporation that operates in the United States. This entity was originally established as a spin-off of Viacom in 2005, and it later merged back with Viacom in 2019 to form the currently operating ViacomCBS. CBS is best known for its televi",
+    "last_updated": "2026-07-21"
+  },
+  "mtv": {
+    "canonical_name": "MTV",
+    "entity_type": "company",
+    "summary": "MTV launched in 1981 as a channel to broadcast music videos, but today primarily offers reality and scripted television programs like Catfish and 16 And Pregnant targeting adolescents and young adults. MTV has a global reach of more than a half-billion households and dubs itself the cultural home of",
+    "last_updated": "2026-07-21"
+  },
+  "cnn": {
+    "canonical_name": "CNN",
+    "entity_type": "company",
+    "summary": "CNN Worldwide is the most honored brand in cable news, reaching more individuals on television and online than any other cable news organization in the United States. Globally, people across the world can watch CNN International, which is widely distributed in over 200 countries and territories. CNN",
+    "last_updated": "2026-07-21"
+  },
+  "hbo": {
+    "canonical_name": "HBO",
+    "entity_type": "company",
+    "summary": "HBO is a company that specializes in broadcasting. It provides television program series and movies. The company was established in 1972 and is based in New York, New York.",
+    "last_updated": "2026-07-21"
+  },
+  "rob bonta": {
+    "canonical_name": "Rob Bonta",
+    "entity_type": "person",
+    "summary": "Rob Bonta is the 34th attorney general of California, first person of Filipino descent to hold that office, who was appointed in 2021 and has since led initiatives on housing, public safety, and civil-rights probes related to emergency response disparities. Supporters portray him as a progressive re",
+    "last_updated": "2026-07-21"
+  },
+  "araceli martínezolguín": {
+    "canonical_name": "Araceli Martínez-Olguín",
+    "entity_type": "person",
+    "summary": "Araceli Martínez-Olguín is a person associated with a case participant webinar, indicated by a webinar ID and password. The material provides instructions for joining a Zoom webinar, suggesting this individual is involved in a legal or official proceeding.",
+    "last_updated": "2026-07-21"
+  },
+  "sony music entertainment": {
+    "canonical_name": "Sony Music Entertainment",
+    "entity_type": "company",
+    "summary": "Sony Music Entertainment is an American multinational music company owned by Sony Group Corporation. It is the recording division of Sony Music Group, focusing on artist development, record labels, and global distribution of recorded music and audio entertainment.",
+    "last_updated": "2026-07-21"
+  },
+  "udio": {
+    "canonical_name": "Udio",
+    "entity_type": "ai_model",
+    "summary": "Udio is an AI model that generates music and vocals from a text prompt, producing a complete song track. It is built on the Suno AI model and trained on song audio files, supporting major languages to create instrumentals and singing that match user descriptions.",
+    "last_updated": "2026-07-21"
+  },
+  "universal music group": {
+    "canonical_name": "Universal Music Group",
+    "entity_type": "company",
+    "summary": "Universal Music Group (UMG) is the world leader in music-based entertainment. It has launched a joint venture to create UMUSIC Hotels, a collection of music-based experiential hotel properties, with initial locations in Atlanta, Biloxi, and Orlando.",
+    "last_updated": "2026-07-21"
+  },
+  "warner records": {
+    "canonical_name": "Warner Records",
+    "entity_type": "company",
+    "summary": "Warner Records is a private company that has been in the music industry for 68 years. It specializes in the music area, with its headquarters in New York, and has between 100M and 500M in annual revenue with 500-1000 employees.",
+    "last_updated": "2026-07-21"
+  },
+  "music business worldwide": {
+    "canonical_name": "Music Business Worldwide",
+    "entity_type": "organization",
+    "summary": "Music Business Worldwide is a free daily newsletter and alert service that delivers essential insights and breaking news on the music industry. It provides analysis on capital deployment, deal execution, and strategic investments in music catalogs.",
+    "last_updated": "2026-07-21"
+  },
+  "osmo pocket 3": {
+    "canonical_name": "Osmo Pocket 3",
+    "entity_type": "product",
+    "summary": "The DJI Osmo Pocket 3 is a flagship gimbal camera and vlogging camera. It features a 1-inch CMOS sensor, a 2-inch rotatable touchscreen, and full-pixel fast focusing for stable, high-quality video.",
+    "last_updated": "2026-07-21"
+  },
+  "2k": {
+    "canonical_name": "2K",
+    "entity_type": "company",
+    "summary": "The provided material does not contain information about a '2K' company. It discusses Disney, stock, Berkshire Hathaway, and other unrelated topics, but does not mention a company named 2K or provide an overview of one.",
+    "last_updated": "2026-07-21"
+  },
+  "borderlands 3": {
+    "canonical_name": "Borderlands 3",
+    "entity_type": "product",
+    "summary": "Borderlands 3 is a game where players control one of four Vault Hunters, exploring multiple worlds. The game features deep skill trees, abilities, and customization options for each character.",
+    "last_updated": "2026-07-21"
+  },
+  "risk of rain 2": {
+    "canonical_name": "Risk of Rain 2",
+    "entity_type": "product",
+    "summary": "Risk of Rain 2 is a game where players fight through hordes of monsters on a chaotic alien planet. The game supports PC, Xbox, PlayStation, and Nintendo, and features a new DLC called Seekers of the Storm.",
+    "last_updated": "2026-07-21"
+  },
+  "xcom enemy unknown": {
+    "canonical_name": "XCOM: Enemy Unknown",
+    "entity_type": "product",
+    "summary": "XCOM: Enemy Unknown is a strategy game where players control a secret paramilitary organization fighting an extraterrestrial enemy. It features tactical turn-based gameplay and strategic base management.",
+    "last_updated": "2026-07-21"
+  },
+  "humble": {
+    "canonical_name": "Humble",
+    "entity_type": "organization",
+    "summary": "Humble Organizations provide scientific skills and practical approaches to help organizations improve health, performance, and adapt to change. They offer tailored support for both public and private sector organizations.",
+    "last_updated": "2026-07-21"
+  },
+  "bioshock infinite": {
+    "canonical_name": "BioShock Infinite",
+    "entity_type": "product",
+    "summary": "BioShock Infinite is a game available via Steam Key, supporting various controllers and requiring a free Steam account for key redemption. It is rated PEGI 18 and is region-locked to the region of purchase.",
+    "last_updated": "2026-07-21"
+  },
+  "ford": {
+    "canonical_name": "Ford",
+    "entity_type": "company",
+    "summary": "Ford Motor Company develops, delivers, and services a range of Ford trucks, commercial cars and vans, sport utility vehicles, and Lincoln luxury vehicles worldwide. The company operates through several segments including Ford Blue, Ford Model e, and Ford Pro, and sells vehicles, service parts, and a",
+    "last_updated": "2026-07-21"
+  },
+  "f150 lightning": {
+    "canonical_name": "F-150 Lightning",
+    "entity_type": "product",
+    "summary": "The 2025 F-150® Lightning® is an electric truck that redefined what a truck could be. While it’s no longer available in its current form, its impact is helping shape what’s next for Ford's electric vehicle lineup.",
+    "last_updated": "2026-07-21"
+  },
+  "universal electric vehicle platform": {
+    "canonical_name": "Universal Electric Vehicle Platform",
+    "entity_type": "product",
+    "summary": "Ford's Universal Electric Vehicle (UEV) platform is the system that will enable it to deliver a new generation of affordable EVs at scale. The first breakthrough product off the UEV platform is a mid-size pickup with few details made public, and the company has had setbacks in EV production, recordi",
+    "last_updated": "2026-07-21"
+  },
+  "ford fseries": {
+    "canonical_name": "Ford F-Series",
+    "entity_type": "product",
+    "summary": "Ford F-Series ® pickups have been America’s best-selling trucks for 49 years, offering legendary capability, durability, and performance. The full lineup of F-150 models provides options for a powerful worksite partner or a head-turning hauler for family fun.",
+    "last_updated": "2026-07-21"
+  },
+  "maverick": {
+    "canonical_name": "Maverick",
+    "entity_type": "product",
+    "summary": "The 2026 Ford Maverick is a product for which research, reviews, and ratings are available. Its specifications include a length of 199.7 inches, a wheel base of 121.1 inches, and a ground clearance of 8.3 inches.",
+    "last_updated": "2026-07-21"
+  },
+  "kentucky": {
+    "canonical_name": "Kentucky",
+    "entity_type": "location",
+    "summary": "Kentucky is a Southern state of the United States with Frankfort as its capital. It is known for horse racing, beautiful lakes, and famous food, drink, and music traditions.",
+    "last_updated": "2026-07-21"
+  },
+  "long beach": {
+    "canonical_name": "Long Beach",
+    "entity_type": "location",
+    "summary": "Long Beach is a location that includes a resort overlooking the Red Sea and is located 8 km from Hurghada Grand Aquarium. It is also near Long Beach Airport, which is noted for its ease of use and historical significance.",
+    "last_updated": "2026-07-21"
+  },
+  "andrew j hawkins": {
+    "canonical_name": "Andrew J. Hawkins",
+    "entity_type": "person",
+    "summary": "Andrew J. Hawkins is a transportation editor with 10+ years of experience who covers EVs, public transportation, and aviation. His work has appeared in The New York Daily News and City & State, and he is currently the transportation editor at The Verge.",
+    "last_updated": "2026-07-21"
+  },
+  "peter nelson": {
+    "canonical_name": "Peter Nelson",
+    "entity_type": "person",
+    "summary": "Peter Nelson is an American actor, producer, and writer, sometimes credited as Calvin Persson. He is best known for his role as the evil visitor youth leader Brian in the 1983 NBC miniseries V and the 1984 sequel, V: The Final Battle.",
+    "last_updated": "2026-07-21"
+  },
+  "the drive": {
+    "canonical_name": "The Drive",
+    "entity_type": "organization",
+    "summary": "The Drive is an innovative and award-winning Arts and Training Organisation that coaches, inspires, and develops teams and individuals in the workplace. It delivers bespoke storytelling projects and training programmes.",
+    "last_updated": "2026-07-21"
+  },
+  "autopian": {
+    "canonical_name": "Autopian",
+    "entity_type": "organization",
+    "summary": "The Autopian is a car-culture website run by obsessive car nerds who want to make people laugh while teaching them about geeky car minutiae. It was founded by Jason Torchinsky, David Tracy, and Beau Boeckmann.",
+    "last_updated": "2026-07-21"
+  },
+  "lg": {
+    "canonical_name": "LG",
+    "entity_type": "company",
+    "summary": "LG Corp. is a holding company that manages its various subsidiary companies. Its operations are conducted through subsidiaries including LG Electronics, LG Chem, LG Uplus, and others, and it was founded on January 5, 1947, in Seoul, South Korea.",
+    "last_updated": "2026-07-21"
+  },
+  "27gx704ab": {
+    "canonical_name": "27GX704A-B",
+    "entity_type": "product",
+    "summary": "The 27GX704A-B is a 27-inch UltraGear OLED gaming monitor with a 240Hz refresh rate and NVIDIA G-Sync compatibility. It features an LG OLED panel certified as Flicker-Free, Discomfort Glare Free, and Low Blue Light, and requires a graphics card with DisplayPort 1.4 or HDMI 2.1 support.",
+    "last_updated": "2026-07-21"
+  },
+  "woled": {
+    "canonical_name": "WOLED",
+    "entity_type": "technology",
+    "summary": "WOLED is a type of OLED panel technology developed by LG Display, distinct from Samsung's QD-OLED. While all OLEDs have an organic light-emitting layer, the structure and subpixel layout of WOLED panels differ from those of QD-OLED.",
+    "last_updated": "2026-07-21"
+  },
+  "gsync": {
+    "canonical_name": "G-Sync",
+    "entity_type": "technology",
+    "summary": "G-SYNC technology is a variable refresh rate solution developed by NVIDIA to eliminate screen tearing in gaming. It allows the monitor to adjust its refresh rate dynamically to match the graphics card's output, avoiding the lag and stutter associated with traditional V-SYNC.",
+    "last_updated": "2026-07-21"
+  },
+  "freesync": {
+    "canonical_name": "FreeSync",
+    "entity_type": "technology",
+    "summary": "FreeSync is an adaptive synchronization technology developed by AMD to eliminate screen tearing and reduce stutter in gaming. It is based on VESA Adaptive Sync and was introduced as a response to NVIDIA's G-Sync, with FreeSync Premium and FreeSync Premium Pro being its higher-tier tiers.",
+    "last_updated": "2026-07-21"
+  },
+  "240hz": {
+    "canonical_name": "240Hz",
+    "entity_type": "technology",
+    "summary": "240Hz refers to a high refresh rate for monitors, offering smoother motion and a more fluid gaming experience compared to standard 60Hz or 144Hz displays. High-refresh-rate monitors, like the 240Hz Alienware model, are designed to provide enhanced performance for competitive gaming.",
+    "last_updated": "2026-07-21"
+  },
+  "003ms": {
+    "canonical_name": "0.03ms",
+    "entity_type": "technology",
+    "summary": "A 0.03ms response time, also known as Gray-to-Gray (GtG), indicates the speed at which a pixel changes from one color to another. This technology, found in high-end OLED monitors, delivers near-instant reaction times, which is crucial for fast-paced gaming to reduce motion blur and ghosting.",
+    "last_updated": "2026-07-21"
+  },
+  "hdmi 21": {
+    "canonical_name": "HDMI 2.1",
+    "entity_type": "technology",
+    "summary": "HDMI 2.1 is a significant upgrade to the HDMI standard, increasing maximum bandwidth to 48Gbps. This enhanced bandwidth enables 4K at 120Hz, 8K resolution, Variable Refresh Rate (VRR), Auto Low Latency Mode (ALLM), and eARC.",
+    "last_updated": "2026-07-21"
+  },
+  "displayport 14": {
+    "canonical_name": "DisplayPort 1.4",
+    "entity_type": "technology",
+    "summary": "DisplayPort 1.4 supports high resolutions such as 8K at 60Hz and 4K at 144Hz, providing excellent bandwidth and features like HDR support. These versions are ideal for gamers and professionals who require high refresh rates and high-resolution visuals.",
+    "last_updated": "2026-07-21"
+  },
+  "usba": {
+    "canonical_name": "USB-A",
+    "entity_type": "technology",
+    "summary": "USB-A is a common connector standard for devices like flash drives, with the USB 3.0 standard supporting it for fast data transfer speeds. While USB-C is gaining popularity, USB-A remains widely used and familiar, with consumers often comparing the two connector types.",
+    "last_updated": "2026-07-21"
+  },
+  "gamers nexus": {
+    "canonical_name": "Gamers Nexus",
+    "entity_type": "person",
+    "summary": "Gamers Nexus is a tech channel that investigates hardware issues, such as the melting of a 12VHWPR adapter cable in a GeForce RTX 4090 GPU, which can be caused by improper cable insertion or manufacturing defects.",
+    "last_updated": "2026-07-21"
+  },
+  "windows 11": {
+    "canonical_name": "Windows 11",
+    "entity_type": "technology",
+    "summary": "Windows 11 is Microsoft's next-generation operating system that will be available as a free update for existing Windows 10 users with specific hardware requirements. It will allow Android apps to run on the desktop, feature smaller and faster security updates, and support multiple desktops for diffe",
+    "last_updated": "2026-07-21"
+  },
+  "mcafee": {
+    "canonical_name": "McAfee",
+    "entity_type": "company",
+    "summary": "McAfee is an American computer security software company headquartered in Santa Clara, California, founded in 1987 and acquired by Intel in 2010. It provides a range of security products for both businesses and consumers, including antivirus, anti-spyware, anti-phishing, and firewall software.",
+    "last_updated": "2026-07-21"
+  },
+  "lg ultragear": {
+    "canonical_name": "LG UltraGear",
+    "entity_type": "product",
+    "summary": "LG UltraGear introduced the world's first 27-inch and 45-inch OLED gaming monitors with a 240Hz refresh rate. These monitors feature advanced OLED technology, are certified for VESA AdaptiveSync, and have won several design awards for their product design and innovation.",
+    "last_updated": "2026-07-21"
+  },
+  "lg monitor app installer": {
+    "canonical_name": "LG Monitor App Installer",
+    "entity_type": "product",
+    "summary": "LG Monitor App Installer is a dotnet-framework application that allows users to install and use apps supported by their LG monitor. It is 35 MB, available on Windows, and can trigger the silent installation of an app that promotes paid McAfee antivirus subscriptions when an LG UltraGear monitor is c",
+    "last_updated": "2026-07-21"
+  },
+  "moddednanogpt": {
+    "canonical_name": "modded-nanogpt",
+    "entity_type": "product",
+    "summary": "modded-nanogpt is a repository that hosts the NanoGPT speedrun, where the goal is to find the fastest algorithm to train a language model on 8 NVIDIA H100 GPUs to attain a 3.28 cross-entropy loss on the FineWeb validation set. The project descends from the PyTorch trainer in llm.c, which itself desc",
+    "last_updated": "2026-07-21"
+  },
+  "qwen2515b": {
+    "canonical_name": "Qwen2.5-1.5B",
+    "entity_type": "ai_model",
+    "summary": "Qwen2.5-1.5B is a base language model from the Qwen2.5 series, which includes models ranging from 0.5 to 72 billion parameters. It is designed to be used with various libraries and inference providers, and the repo contains the base 1.5B model. The model is part of a series that brings improvements",
+    "last_updated": "2026-07-21"
+  },
+  "l40s": {
+    "canonical_name": "L40S",
+    "entity_type": "product",
+    "summary": "The NVIDIA L40S GPU is described as a powerful universal GPU with multi-workload performance, combining AI compute with best-in-class graphics and media acceleration. It is built to power data center workloads such as generative AI, LLM inference and training, 3D graphics, rendering, and video. The",
+    "last_updated": "2026-07-21"
+  },
+  "squad": {
+    "canonical_name": "SQuAD",
+    "entity_type": "technology",
+    "summary": "Squad Technologies is a technology firm focused on consulting and project leadership in the technology sector. The company provides technological services to organizations and offers digital web solutions, including marketing, web design, mobile apps, and IT consultancy. It primarily serves clients",
+    "last_updated": "2026-07-21"
+  },
+  "nanogpt": {
+    "canonical_name": "nanoGPT",
+    "entity_type": "ai_model",
+    "summary": "nanoGPT is a minimalistic implementation of GPT in PyTorch, designed to be simple, educational, and easy to understand. It serves as an excellent resource for learning about transformer-based language models and is also used to create real product experiences that stay on brand and in code.",
+    "last_updated": "2026-07-21"
+  },
+  "dora": {
+    "canonical_name": "DoRA",
+    "entity_type": "technology",
+    "summary": "DORA is the largest and longest-running research program that seeks to understand the capabilities driving software delivery and operations performance. It helps teams apply these capabilities to achieve better organizational performance and provides a practical framework for navigating AI adoption",
+    "last_updated": "2026-07-21"
+  },
+  "rslora": {
+    "canonical_name": "rsLoRA",
+    "entity_type": "technology",
+    "summary": "RsLoRA is a parameter-efficient fine-tuning method that applies 1/√r scaling to ensure stable gradients and output norms at higher ranks. It achieves a balanced energy distribution across low-rank updates, preventing rank collapse and enabling enhanced expressivity. Empirical evaluations show that R",
+    "last_updated": "2026-07-21"
+  },
+  "modal": {
+    "canonical_name": "Modal",
+    "entity_type": "organization",
+    "summary": "Modal is an organization that explores alternative ways of understanding organization, dispensing with reference to an underlying essence and instead exercising a pluralistic thinking of organization as existing purely in its modifications. It is dedicated to exploring 'theory and politics in organi",
+    "last_updated": "2026-07-21"
+  },
+  "huggingface": {
+    "canonical_name": "Huggingface",
+    "entity_type": "organization",
+    "summary": "The Hugging Face Hub offers Organizations, which can be used to group accounts and manage datasets, models, and Spaces. The Hub allows admins to set user roles to control access to repositories and manage payment methods and billing info. Organizations can also enable user access requests to track a",
+    "last_updated": "2026-07-21"
+  },
+  "vineeth98": {
+    "canonical_name": "Vineeth98",
+    "entity_type": "person",
+    "summary": "Vineeth98 is a person whose profile is mentioned in the context of a people search directory. The directory returns current and past phone numbers, street addresses, email addresses, relatives, and relevant public records when a person's name is entered. The service is described as a modern online d",
+    "last_updated": "2026-07-21"
+  },
+  "nulllabtests": {
+    "canonical_name": "NullLabTests",
+    "entity_type": "organization",
+    "summary": "NullLabTests is an organization focused on building the next layer of intelligence at the intersection of quantum-natural policy gradients, hybrid VQC + KAN architectures, and idempotent systems. Their work also involves open-evolution frameworks designed to become smarter over time.",
+    "last_updated": "2026-07-21"
+  },
+  "softwareperiodictable": {
+    "canonical_name": "software-periodic-table",
+    "entity_type": "product",
+    "summary": "Periodic Table, periodic table trends, periodic table quiz, Chemistry education software, whether in the form of chemistry lab simulations, data acquisition programs or visualization tools, will have a profound impact on teaching chemistry in the coming years. Click on element for details The modern",
+    "last_updated": "2026-07-21"
+  },
+  "vincentwei1021videoshotcraft": {
+    "canonical_name": "Vincentwei1021/video-shotcraft",
+    "entity_type": "product",
+    "summary": "video-shotcraft is an AI agent skill that turns Claude Code or Codex into a motion-design studio. It storyboards, animates, and sound-designs a cinematic promo, marketing, launch, or demo video with Remotion, including real page captures, 2.5D camera moves, beat-synced cuts, and film-grade SFX.",
+    "last_updated": "2026-07-21"
+  },
+  "remotion": {
+    "canonical_name": "Remotion",
+    "entity_type": "technology",
+    "summary": "Remotion is a tool for creating motion graphics by generating code-as-video. It allows users to create video content by writing prompts, which the tool then processes to produce the final video, including storyboarding and sound design.",
+    "last_updated": "2026-07-21"
+  },
+  "textbooktonote": {
+    "canonical_name": "textbook-to-note",
+    "entity_type": "product",
+    "summary": "The 'textbook-to-note' product is a tool that turns PDF textbooks into an AI-searchable knowledge base and structured, fully-cited notes, including figures. It uses a local-first pipeline that is designed to be token-frugal, reserving the frontier model for synthesizing notes that are useful for lea",
+    "last_updated": "2026-07-21"
   }
 }
