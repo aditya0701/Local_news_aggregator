@@ -972,13 +972,10 @@
     "last_updated": "2026-07-03"
   },
   "elilabz": {
-    "senses": [
-      {
-        "sense_label": "appears to be a company/organization developing the Godcoder product",
-        "summary": "Overview:\nThe ELI Group increases the impact of leaders through year-long Leadership Labs. Our programs provide high-potential leadership development emphasizing shared perspectives and different experiences. We deliver accountability for behavior change, integration with the organization, and peer",
-        "last_updated": "2026-07-03"
-      }
-    ]
+    "canonical_name": "eli-labz",
+    "entity_type": "organization",
+    "summary": "eli-labz is a Third-Eye Public project that provides a real-time global intelligence dashboard. It aggregates live flight tracking, CCTV networks, earthquake monitoring, conflict zone mapping, and 24/7 news feeds into a single GPU-accelerated interface.",
+    "last_updated": "2026-07-22"
   },
   "harness mode": {
     "senses": [
@@ -10171,5 +10168,482 @@
     "entity_type": "product",
     "summary": "The 'textbook-to-note' product is a tool that turns PDF textbooks into an AI-searchable knowledge base and structured, fully-cited notes, including figures. It uses a local-first pipeline that is designed to be token-frugal, reserving the frontier model for synthesizing notes that are useful for lea",
     "last_updated": "2026-07-21"
+  },
+  "lg electronics usa": {
+    "canonical_name": "LG Electronics USA",
+    "entity_type": "company",
+    "summary": "LG Electronics USA, Inc. is the North American subsidiary of LG Electronics, Inc., a $68 billion global technology and manufacturing company. Based in Englewood Cliffs, N.J., it manufactures and distributes a wide range of consumer electronic products, including televisions, mobile phones, and home",
+    "last_updated": "2026-07-22"
+  },
+  "webos": {
+    "canonical_name": "webOS",
+    "entity_type": "technology",
+    "summary": "webOS is an operating system that evolved from Palm's mobile OS to become the smart TV platform powering millions of LG televisions. It was initially developed by Palm, Inc. and launched in 2009 as the successor to Palm OS, introducing concepts that later became standard in mobile computing.",
+    "last_updated": "2026-07-22"
+  },
+  "spur": {
+    "canonical_name": "Spur",
+    "entity_type": "researcher",
+    "summary": "The Summer Program for Undergraduate Researchers (SPUR) at Carnegie Mellon University offers undergraduate students paid, hands-on psychology research experience. The eight-week program is designed to enhance opportunities for students to explore academic and research careers in psychological scienc",
+    "last_updated": "2026-07-22"
+  },
+  "john taylor": {
+    "canonical_name": "John Taylor",
+    "entity_type": "person",
+    "summary": "John Taylor is a musician and bass guitarist for the band Duran Duran, born in 1960. He is a member of the band alongside Nick Rhodes, Andy Taylor, Simon Le Bon, and Roger Taylor.",
+    "last_updated": "2026-07-22"
+  },
+  "tizen os": {
+    "canonical_name": "Tizen OS",
+    "entity_type": "technology",
+    "summary": "Tizen is an open-source, Linux-based operating system built for the mobile and connected device ecosystem. It is developed by a community of developers under open source governance and is primarily supported by Samsung Electronics in collaboration with Intel.",
+    "last_updated": "2026-07-22"
+  },
+  "virtual agc": {
+    "canonical_name": "Virtual AGC",
+    "entity_type": "organization",
+    "summary": "Virtual AGC is a catch-all term that comprises an emulated Apollo Guidance System (AGS), and in the planning stages, an emulated LVDC and OBC. It is an open-source software project that allows for rapid diffusion into a wider sphere of usage by being incorporated into other projects.",
+    "last_updated": "2026-07-22"
+  },
+  "mit museum": {
+    "canonical_name": "MIT Museum",
+    "entity_type": "organization",
+    "summary": "The MIT Museum is MIT's flagship public engagement platform, housed in a new headquarters at Kendall Square. It aims to frame and reframe problems using science, technology, humanities, and the arts to address compelling questions of our time through exhibitions, events, and hands-on learning.",
+    "last_updated": "2026-07-22"
+  },
+  "instrumentation laboratory": {
+    "canonical_name": "Instrumentation Laboratory",
+    "entity_type": "organization",
+    "summary": "Instrumentation Laboratory is a global leader in developing, manufacturing, and distributing diagnostic solutions. It is a non-profit R&D organization that specializes in advanced technology solutions for national security, defense, space exploration, healthcare, and energy.",
+    "last_updated": "2026-07-22"
+  },
+  "massachusetts institute of technology": {
+    "canonical_name": "Massachusetts Institute of Technology",
+    "entity_type": "organization",
+    "summary": "The mission of MIT is to advance knowledge and educate students in science, technology, and other areas of scholarship that will best serve the nation and the world in the 21st century. The institution also develops new systems, such as generative AI models for CAD and extends LED lifespans using qu",
+    "last_updated": "2026-07-22"
+  },
+  "contract nas 94065": {
+    "canonical_name": "Contract NAS 9-4065",
+    "entity_type": "regulation",
+    "summary": "Contract NAS 9-4065 is a letter of direction concerning program development for the Apollo Spacecraft Program. It requires the insertion of the Equal Opportunity for Workers with Disabilities clause in solicitations and contracts exceeding $20,000, with specific exceptions.",
+    "last_updated": "2026-07-22"
+  },
+  "dsr project 5523870": {
+    "canonical_name": "DSR project 55-23870",
+    "entity_type": "event",
+    "summary": "is. This report was preparedunder DSR Project 55-23870, sponsored bythe Manned Spacecraft Center of the National Aeronautics and Space Administration through Contract NAS 9-4065 with the Instrumentation Laboratory, Massachusetts Institute of Technolcgy, Cambridge, Mass. APOLLO GUIDANC TION PROGRAM\nA",
+    "last_updated": "2026-07-22"
+  },
+  "gemini 36 flash": {
+    "canonical_name": "Gemini 3.6 Flash",
+    "entity_type": "ai_model",
+    "summary": "Gemini 3.6 Flash is a model that delivers intelligence at Flash-level latency and scale. It is designed to reduce output token usage by 17% compared to 3.5 Flash and offers advanced reasoning for long-horizon and iterative coding tasks.",
+    "last_updated": "2026-07-22"
+  },
+  "gemini 35 flashlite": {
+    "canonical_name": "Gemini 3.5 Flash-Lite",
+    "entity_type": "ai_model",
+    "summary": "Gemini 3.5 Flash-Lite is a workhorse model built for high-volume tasks that need efficiency and intelligence. It is best for token efficiency in coding, knowledge work, and multimodal tasks.",
+    "last_updated": "2026-07-22"
+  },
+  "gemini 35 flash cyber": {
+    "canonical_name": "Gemini 3.5 Flash Cyber",
+    "entity_type": "ai_model",
+    "summary": "Gemini 3.5 Flash Cyber is a lightweight model used for finding and fixing security vulnerabilities in Google's internal codebases. It is designed to be highly capable, affordable, and scalable to address the global threat of AI-powered vulnerabilities.",
+    "last_updated": "2026-07-22"
+  },
+  "gemini 35 flash": {
+    "canonical_name": "Gemini 3.5 Flash",
+    "entity_type": "ai_model",
+    "summary": "Gemini 3.5 Flash delivers intelligence that rivals large flagship models at the speeds of the Flash series. It is a workhorse model that reduces output token usage by 17% compared to 3.5 Flash and provides advanced reasoning at Flash-level latency.",
+    "last_updated": "2026-07-22"
+  },
+  "gemini 35 pro": {
+    "canonical_name": "Gemini 3.5 Pro",
+    "entity_type": "ai_model",
+    "summary": "Gemini 3.5 Pro integrates unified Transformer decoders with modality-specific encoders for scalable, responsible multimodal AI across text, image, audio, and video. It is designed to balance inference latency and cross-modal capability, delivering broadly competitive performance in multilingual and",
+    "last_updated": "2026-07-22"
+  },
+  "gemini 4": {
+    "canonical_name": "Gemini 4",
+    "entity_type": "ai_model",
+    "summary": "Google is already training Gemini 4, which is the next evolution of its AI models. The company revealed three new AI models, including a version of Gemini geared toward cybersecurity, but the delayed Gemini 3.5 Pro was not among them.",
+    "last_updated": "2026-07-22"
+  },
+  "tulsee doshi": {
+    "canonical_name": "Tulsee Doshi",
+    "entity_type": "person",
+    "summary": "Tulsee Doshi is a Senior Director at Google, leading product strategy for the Gemini Model. She has a background in product strategy for Gemini, with experience at Stanford and Google, and has served as entertainment director for the India Festival in Portland.",
+    "last_updated": "2026-07-22"
+  },
+  "gemini team": {
+    "canonical_name": "Gemini team",
+    "entity_type": "organization",
+    "summary": "The Gemini team is Google's largest and most capable AI model, led by Demis Hassabis, CEO and Co-Founder of Google DeepMind. The team is focused on making AI more helpful for everyone and advancing scientific discovery and human progress.",
+    "last_updated": "2026-07-22"
+  },
+  "judge araceli martínezolguín": {
+    "canonical_name": "Judge Araceli Martínez-Olguín",
+    "entity_type": "person",
+    "summary": "Judge Araceli Martínez-Olguín is a judge who presides over civil standing orders and public hearings. She provides a link for case participants to join via Zoom, with a recommendation to use the Zoom application over a telephone connection.",
+    "last_updated": "2026-07-22"
+  },
+  "justin nelson": {
+    "canonical_name": "Justin Nelson",
+    "entity_type": "person",
+    "summary": "Justin Nelson is the managing director and head of the Asset Management and Financial Principals team at J.P. Morgan Private Bank in Connecticut. He leads a team of 20 professionals who advise leaders in hedge fund, private equity, real estate, and financial industries.",
+    "last_updated": "2026-07-22"
+  },
+  "aparna sridhar": {
+    "canonical_name": "Aparna Sridhar",
+    "entity_type": "person",
+    "summary": "Aparna Sridhar is a lawyer and regulatory/public policy expert with 15+ years of experience, currently at Anthropic. She holds a JD from Stanford Law School and has been involved in activities like the Order of the Coif and Pro Bono Distinction at Stanford.",
+    "last_updated": "2026-07-22"
+  },
+  "andrea bartz": {
+    "canonical_name": "Andrea Bartz",
+    "entity_type": "person",
+    "summary": "Andrea Bartz is the author of a thriller novel released on August 3, 2021, which was described by the New York Times bestselling author Megan Miranda as a sharp, unsettling story about power and obsession. The book was praised for its crazy twists and turns, with Reese Witherspoon calling it a dream",
+    "last_updated": "2026-07-22"
+  },
+  "us district judge william alsup": {
+    "canonical_name": "U.S. District Judge William Alsup",
+    "entity_type": "person",
+    "summary": "U.S. District Judge William Alsup was born in 1945 in Jackson, MS, and was nominated by President William J. Clinton in 1999 to the U.S. District Court for the Northern District of California. He assumed senior status on January 21, 2021, and has a background in law, including a B.S. from Mississipp",
+    "last_updated": "2026-07-22"
+  },
+  "emil michael": {
+    "canonical_name": "Emil Michael",
+    "entity_type": "person",
+    "summary": "Emil Michael is an Egyptian-born American businessman and government official known for his strategic roles in scaling major technology companies like Uber and his subsequent leadership at the U.S. Department of Defense. His career demonstrates a consistent movement between high-impact private secto",
+    "last_updated": "2026-07-22"
+  },
+  "plus": {
+    "canonical_name": "Plus",
+    "entity_type": "organization",
+    "summary": "Plus Organization is a private company with an estimated revenue of less than $1M and less than 10 employees. It develops AI-driven data solutions, digital strategies, CRM consulting, and custom software, and also offers an 80 PLUS® certification program for internal power supply units (PSUs).",
+    "last_updated": "2026-07-22"
+  },
+  "engadget": {
+    "canonical_name": "Engadget",
+    "entity_type": "organization",
+    "summary": "Engadget is a technology news and expert reviews organization and a sub-organization of Engadget. It covers various tech topics, including product reviews, AI platform security breaches, and the impact of laws on mobile phone use in schools.",
+    "last_updated": "2026-07-22"
+  },
+  "fast company": {
+    "canonical_name": "Fast Company",
+    "entity_type": "organization",
+    "summary": "Fast Company is the world's leading progressive business media brand, with a unique editorial focus on innovation in technology, leadership, and design. It also analyzes how traditional institutions and organizations approach and adapt to social tools.",
+    "last_updated": "2026-07-22"
+  },
+  "axios": {
+    "canonical_name": "Axios",
+    "entity_type": "organization",
+    "summary": "Axios is a tool for making network requests, such as retrieving or modifying API data from a server, and is maintained by four people. It is a widely-used option for making HTTP requests in JavaScript, with high download statistics, and is often compared to the Fetch API.",
+    "last_updated": "2026-07-22"
+  },
+  "syensqo": {
+    "canonical_name": "Syensqo",
+    "entity_type": "organization",
+    "summary": "Syensqo is a developer of chemical solvents for industries like aerospace, automotive, food, and agriculture. It is also a consulting organization from Belgium with over 10,000 employees and experience with the European Commission Directorate-General for International Partnerships.",
+    "last_updated": "2026-07-22"
+  },
+  "storykit": {
+    "senses": [
+      {
+        "sense_label": "is this a feature, app, or internal project?",
+        "summary": "Storykit is an AI-powered video automation platform and a product, not an internal project. It is designed to be user-friendly and quick, allowing anyone to create professional, on-brand videos for marketing, HR, and sales without coding.",
+        "last_updated": "2026-07-22"
+      }
+    ]
+  },
+  "australia": {
+    "canonical_name": "Australia",
+    "entity_type": "organization",
+    "summary": "material did not address this",
+    "last_updated": "2026-07-22"
+  },
+  "facebook": {
+    "canonical_name": "Facebook",
+    "entity_type": "company",
+    "summary": "material did not address this",
+    "last_updated": "2026-07-22"
+  },
+  "snapchat": {
+    "canonical_name": "Snapchat",
+    "entity_type": "product",
+    "summary": "material did not address this",
+    "last_updated": "2026-07-22"
+  },
+  "threads": {
+    "canonical_name": "Threads",
+    "entity_type": "product",
+    "summary": "Jul 12, 2026 · Say more with Threads Join Threads to share thoughts, find out what's going on, follow your people and more. An overview of the Threads product portfolio. Say more with Threads – Instagram's new text app. Get updates about your favorite APIs and SDKs. Copyright © 2026 API Tracker , an",
+    "last_updated": "2026-07-22"
+  },
+  "twitch": {
+    "canonical_name": "Twitch",
+    "entity_type": "product",
+    "summary": "Twitch vs UpLabs — detailed comparison of features, pricing, pros & cons, and user reviews. Find which one fits your needs best in 2026. Overview. Alternatives. Global features. Pricing. Reviews.This is how users rate the product. The ratings result from the reviews submitted for Twitch. Twitch is a",
+    "last_updated": "2026-07-22"
+  },
+  "kick": {
+    "canonical_name": "Kick",
+    "entity_type": "product",
+    "summary": "Product Overview.Es-Skouri (Director of Product, Dropbox). Kick recently announced a subsequent round, raising $9M from an elite list of early-stage investors. Venture Scout November 13, 2024 In partnership with This week’s Startup feature is kick.co . Kick is the automated bookkeeping software that",
+    "last_updated": "2026-07-22"
+  },
+  "youtube kids": {
+    "canonical_name": "YouTube Kids",
+    "entity_type": "product",
+    "summary": "YouTube Kids provides a more contained environment for kids to explore YouTube and makes it easier for parents and caregivers to guide their journey. We created YouTube Kids to make it safer and simpler for kids to explore the world through online video - from their favorite shows and music to learn",
+    "last_updated": "2026-07-22"
+  },
+  "amnesty tech": {
+    "canonical_name": "Amnesty Tech",
+    "entity_type": "organization",
+    "summary": "At Amnesty Tech, we believe it’s time technology puts people and human rights first. We’re a movement of 10 million people, and we’ve plugged hackers, coders, data scientists and technologists into our team too. At Amnesty Tech, we believe it’s time technology puts people and human rights first. We’",
+    "last_updated": "2026-07-22"
+  },
+  "jack dorsey": {
+    "canonical_name": "Jack Dorsey",
+    "entity_type": "person",
+    "summary": "Jack Dorsey is an American businessman and co-founder of Twitter, Inc. and Square, Inc. He served as CEO of Twitter during 2007–2008 and 2015–2021, and as CEO and chairman of Block, Inc. He is also a computer software executive and CEO of Twitter and Square.",
+    "last_updated": "2026-07-22"
+  },
+  "buzz": {
+    "canonical_name": "Buzz",
+    "entity_type": "product",
+    "summary": "Buzz is a data-driven software solution designed for animal shelters, sanctuaries, and rescues. It combines an external public-facing website with an internal software package to reduce stress and maximize efficiencies, offering features like pet management, intake tracking, and document handling.",
+    "last_updated": "2026-07-22"
+  },
+  "centaur": {
+    "canonical_name": "Centaur",
+    "entity_type": "product",
+    "summary": "CENTAUR is a granular activated carbon with enhanced catalytic properties. It accelerates reaction rates, reduces chemical requirements, and is used in liquid phase to promote various chemical reactions, with consistent functionality ensured by a Peroxide Number specification.",
+    "last_updated": "2026-07-22"
+  },
+  "sila": {
+    "canonical_name": "Sila",
+    "entity_type": "company",
+    "summary": "Sila is a company that invented and scaled the modern silicon anode for batteries. The company is focused on expanding its operations and manufacturing facilities to scale up production.",
+    "last_updated": "2026-07-22"
+  },
+  "gene berdichevsky": {
+    "canonical_name": "Gene Berdichevsky",
+    "entity_type": "person",
+    "summary": "Gene Berdichevsky is the Co-Founder & CEO of Sila. Prior to co-founding Sila, he was the seventh employee at Tesla Motors, where he served as Principal Engineer on the Roadster battery, leading the development of the world’s first, safe, mass-produced, automotive lithium-ion battery system. He holds",
+    "last_updated": "2026-07-22"
+  },
+  "benchmark minerals intelligence": {
+    "canonical_name": "Benchmark Minerals Intelligence",
+    "entity_type": "organization",
+    "summary": "Benchmark Minerals Intelligence is a leading IOSCO-regulated price reporting agency that creates actionable intelligence for the lithium-ion battery to electric vehicle supply chain. Their PRA business sets the lithium industry’s price and benchmarks for cobalt and nickel, providing intel to decisio",
+    "last_updated": "2026-07-22"
+  },
+  "mercedes": {
+    "canonical_name": "Mercedes",
+    "entity_type": "organization",
+    "summary": "Mercedes-Benz operates under a matrix organizational structure, which balances product-based divisions with regional operations. This dual focus ensures the company remains agile and is a globally recognized symbol of luxury, innovation, and engineering excellence in the automotive industry.",
+    "last_updated": "2026-07-22"
+  },
+  "panasonic": {
+    "canonical_name": "Panasonic",
+    "entity_type": "organization",
+    "summary": "Panasonic Corporation has launched a new organizational structure and consolidated its consumer electronics businesses. The company is committed to delivering products and continuing to take on new challenges for the future while helping people live better lives.",
+    "last_updated": "2026-07-22"
+  },
+  "whoop": {
+    "canonical_name": "Whoop",
+    "entity_type": "organization",
+    "summary": "WHOOP is a wearable fitness technology company that provides 24/7 health monitoring and personalized coaching through subscription-based wearable devices and data analytics. The company's competitive advantage, or moat, is the data flywheel created by elite athletes, whose extreme physiology generat",
+    "last_updated": "2026-07-22"
+  },
+  "drone manufacturers": {
+    "canonical_name": "drone manufacturers",
+    "entity_type": "organization",
+    "summary": "Some top drone manufacturers include DJI, Parrot, and Yuneec, which offer various drones for applications like aerial photography and surveying. Other well-known manufacturers include 3DR, Blade, and Hubsan, and there are strategies for finding top drone companies in China.",
+    "last_updated": "2026-07-22"
+  },
+  "satellite companies": {
+    "canonical_name": "satellite companies",
+    "entity_type": "organization",
+    "summary": "The largest satellite company in the world is Luxembourg’s SES, with a revenue of $14.84 billion. As of 2026, the global satellite industry has a market size of $90 billion, with 5,000 satellites currently in orbit around the earth.",
+    "last_updated": "2026-07-22"
+  },
+  "klarna": {
+    "canonical_name": "Klarna",
+    "entity_type": "company",
+    "summary": "Klarna is an AI-powered global payments and commerce network on a mission to make shopping smarter and more flexible. It is trusted by over 118 million shoppers and processes 3.4 million transactions daily, providing payment solutions that empower consumers and drive merchant growth.",
+    "last_updated": "2026-07-22"
+  },
+  "galaxy unpacked": {
+    "canonical_name": "Galaxy Unpacked",
+    "entity_type": "event",
+    "summary": "Samsung's Galaxy Unpacked event is a dedicated launch event for its foldable devices, scheduled for Wednesday, July 9, at 10 a.m. ET. The event is expected to announce the Galaxy Z Fold 7 with major changes and two new Z series foldables, along with other new products.",
+    "last_updated": "2026-07-22"
+  },
+  "neill blomkamp": {
+    "canonical_name": "Neill Blomkamp",
+    "entity_type": "person",
+    "summary": "Neill Blomkamp is a South African-Canadian film director and screenwriter born on September 17, 1979. He is known for science fiction films including District 9, Elysium, and Chappie, as well as the horror film Demonic and the short Halo: Landfall. He founded Barley Studios, which released the AI-ge",
+    "last_updated": "2026-07-22"
+  },
+  "barley studios": {
+    "canonical_name": "Barley Studios",
+    "entity_type": "company",
+    "summary": "Barley Studios is a company founded by Keith Barley in 1973 with an international reputation for excellence in stained glass creation and conservation for cathedrals. The company also produced the 13-minute sci-fi horror film NIGHTBORNE, the first release from Barley Studios, and offers a boosting s",
+    "last_updated": "2026-07-22"
+  },
+  "nightborne": {
+    "canonical_name": "Nightborne",
+    "entity_type": "product",
+    "summary": "NIGHTBORNE is a 13-minute sci-fi horror film directed by Neill Blomkamp and released by Barley Studios. It is also available as a boost service in World of Warcraft, where it unlocks the Nightborne Allied Race for Horde-only characters, granting the Nightborne Manasaber mount.",
+    "last_updated": "2026-07-22"
+  },
+  "seedance": {
+    "canonical_name": "Seedance",
+    "entity_type": "technology",
+    "summary": "Seedance 2.0 adopts a unified multimodal audio-video joint generation architecture that supports text, image, audio, and video inputs. It is described as having the most comprehensive multimodal content reference and editing capabilities in the industry, with Seedance 2.5 being a newer version for A",
+    "last_updated": "2026-07-22"
+  },
+  "substack": {
+    "canonical_name": "Substack",
+    "entity_type": "organization",
+    "summary": "Substack is a platform that lets you publish newsletters, grow an email list, and monetize your expertise—all in one place. It is a service that allows users to create and distribute content to a subscriber base.",
+    "last_updated": "2026-07-22"
+  },
+  "chris best": {
+    "canonical_name": "Chris Best",
+    "entity_type": "person",
+    "summary": "Chris Best is a two-time Grey Cup champion who played for the Duke Blue Devils and the Saskatchewan Roughriders. He also holds a Masters in Mechanical Engineering and is known for his motivational speaking and locker room stories.",
+    "last_updated": "2026-07-22"
+  },
+  "pangram": {
+    "canonical_name": "Pangram",
+    "entity_type": "company",
+    "summary": "Pangram is a professional-grade AI detector designed for educators, institutions, and enterprises. It emphasizes precision, academic integrity, and transparency, positioning itself as a research-driven alternative to commercial tools.",
+    "last_updated": "2026-07-22"
+  },
+  "peak design": {
+    "canonical_name": "Peak Design",
+    "entity_type": "company",
+    "summary": "Peak Design is a San Francisco-based design and manufacturing company founded in 2010 by Peter Dering through a Kickstarter campaign. It creates award-winning everyday bags, travel bags, camera accessories, and mobile mounts, and is 100% crowdfunded.",
+    "last_updated": "2026-07-22"
+  },
+  "field bracket": {
+    "canonical_name": "Field Bracket",
+    "entity_type": "product",
+    "summary": "Peak Design has unveiled Field Bracket, a brand-new, modular L-bracket system that promises to overcome the compromises of traditional L-brackets. It supports both horizontal and vertical shooting without moving the tripod, allowing for quick swaps between landscape and portrait orientation.",
+    "last_updated": "2026-07-22"
+  },
+  "peak design beacon finder tag": {
+    "canonical_name": "Peak Design Beacon Finder Tag",
+    "entity_type": "product",
+    "summary": "The Beacon Finder Tag is a credit-card-sized device that pairs with the Apple Find My app to help track and protect a wallet. It is wireless-rechargeable, magnetically holds to MagSafe chargers, and has a battery life of up to 5 months.",
+    "last_updated": "2026-07-22"
+  },
+  "apple find my": {
+    "canonical_name": "Apple Find My",
+    "entity_type": "technology",
+    "summary": "Apple’s Find My technology has evolved from a simple GPS-based phone finder to a versatile ecosystem of devices. It allows users to set custom messages for lost or stolen Apple devices and has transformed how people locate their belongings.",
+    "last_updated": "2026-07-22"
+  },
+  "google find hub": {
+    "canonical_name": "Google Find Hub",
+    "entity_type": "technology",
+    "summary": "Google Find Hub creates a smart, privacy-focused safety net by combining GPS, Bluetooth crowdsourcing, and UWB technology. It works on any Android 9+ phone with Google Play Services, but is not compatible with Apple iPhones, which cannot natively locate them.",
+    "last_updated": "2026-07-22"
+  },
+  "kickstarter": {
+    "canonical_name": "Kickstarter",
+    "entity_type": "event",
+    "summary": "Kickstarter is a platform for design and technology projects, and it has a presence at events like CES 2025. The company connects creators with opportunities to learn, network, and engage with the Kickstarter community through events, meetups, and webinars.",
+    "last_updated": "2026-07-22"
+  },
+  "david vélez": {
+    "canonical_name": "David Vélez",
+    "entity_type": "person",
+    "summary": "David Vélez is the Founder and Chief Executive Officer of Nubanz, based out of São Paulo. He previously worked at Sequoi and is the cofounder and CEO of Nubank, which he built into the world's largest neobank.",
+    "last_updated": "2026-07-22"
+  },
+  "robin vince": {
+    "canonical_name": "Robin Vince",
+    "entity_type": "person",
+    "summary": "Robin Vince is the Chief Executive Officer of BNY, a global financial services platforms company. He is a British-American banking executive who serves as Chairman, President, and Chief Executive Officer of BNY, the world's largest custodian bank.",
+    "last_updated": "2026-07-22"
+  },
+  "openai foundation": {
+    "canonical_name": "OpenAI Foundation",
+    "entity_type": "organization",
+    "summary": "OpenAI Foundation is a nonprofit organization designed as a chassis for OpenAI's mission to build artificial general intelligence (AGI) that is safe and benefits all of humanity. It was founded in 2015 and its mission continues to guide all of its activities.",
+    "last_updated": "2026-07-22"
+  },
+  "openai group pbc": {
+    "canonical_name": "OpenAI Group PBC",
+    "entity_type": "organization",
+    "summary": "OpenAI Group PBC is a for-profit public benefit corporation (PBC) that was created to help scale OpenAI's research and deployment efforts. It is governed and controlled by the nonprofit OpenAI Foundation, and its simplified structure is designed to raise capital and attract talent while maintaining",
+    "last_updated": "2026-07-22"
+  },
+  "langchain": {
+    "canonical_name": "LangChain",
+    "entity_type": "company",
+    "summary": "LangChain started as Harrison Chase's side project in late 2022, initially a single Python package on GitHub. It provides an agent engineering platform and open-source frameworks to help developers build and ship agents faster, based on the belief that LLMs are more powerful when used through agents",
+    "last_updated": "2026-07-22"
+  },
+  "agentexecutionpartnership": {
+    "canonical_name": "Agent-Execution-Partnership",
+    "entity_type": "product",
+    "summary": "The material does not contain a usable answer for this query.",
+    "last_updated": "2026-07-22"
+  },
+  "aee": {
+    "canonical_name": "AEE",
+    "entity_type": "technology",
+    "summary": "AEE is a technology established in 1992 and headquartered in Zhuhai. It focuses on multithreading, personalizing outreach, identifying high-intent leads, and connecting with ICP attendees to improve sales and marketing effectiveness.",
+    "last_updated": "2026-07-22"
+  },
+  "action execution engine": {
+    "canonical_name": "Action Execution Engine",
+    "entity_type": "ai_model",
+    "summary": "The AI identifies what action to take and provides necessary parameters, then the application code executes the action with those parameters. The application provides feedback about the execution results, which helps reduce AI hallucinations by separating what the AI decides from what the system exe",
+    "last_updated": "2026-07-22"
+  },
+  "autoresearch": {
+    "canonical_name": "Autoresearch",
+    "entity_type": "organization",
+    "summary": "AutoResearch is an organization that organizes evaluation around five dimensions of workflow-level scientific credibility: novelty, validity, impact, reliability, and provenance. It focuses on workflow-level research automation, moving beyond task-level AI for Science toward systems that handle lite",
+    "last_updated": "2026-07-22"
+  },
+  "trycaspian": {
+    "canonical_name": "TryCaspian",
+    "entity_type": "product",
+    "summary": "TryCaspian is a control room for running multiple AI coding agents in parallel. Each agent operates in its own isolated workspace, which is an isolated git worktree, preventing them from interfering with each other. When changes are complete, users can create a pull request directly from the platfor",
+    "last_updated": "2026-07-22"
+  },
+  "caspian": {
+    "canonical_name": "Caspian",
+    "entity_type": "product",
+    "summary": "Caspian is a brand of barefoot shoes designed for comfort and natural movement. The shoes are developed with podiatrists to relieve pressure on feet and joints, and they provide protection and support while allowing the feet to breathe and move freely.",
+    "last_updated": "2026-07-22"
+  },
+  "email": {
+    "canonical_name": "email",
+    "entity_type": "technology",
+    "summary": "Email is a primary means of communication for students and staff at Hood College, used for official issues like billing and campus emergencies. It is also a key channel for communication between students, instructors, and co-workers within the Hood community.",
+    "last_updated": "2026-07-22"
+  },
+  "llmstxt": {
+    "canonical_name": "llms.txt",
+    "entity_type": "technology",
+    "summary": "llms.txt is a standard protocol created by Answer.AI to help AI language models understand websites more accurately. Site owners can place an llms.txt file in their website's root directory to provide structured, high-level information about the site, such as who the company is and which sections sh",
+    "last_updated": "2026-07-22"
+  },
+  "comm_api_key": {
+    "canonical_name": "COMM_API_KEY",
+    "entity_type": "material",
+    "summary": "The COMM_API_KEY is used to create and manage API keys for an agent within the Jupyter Widgets system. These keys are then used to send emails through the agent's API after registration, and the system uses the Jupyter Comm API for communication between Python and JavaScript.",
+    "last_updated": "2026-07-22"
   }
 }
