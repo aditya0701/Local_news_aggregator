@@ -10645,5 +10645,692 @@
     "entity_type": "material",
     "summary": "The COMM_API_KEY is used to create and manage API keys for an agent within the Jupyter Widgets system. These keys are then used to send emails through the agent's API after registration, and the system uses the Jupyter Comm API for communication between Python and JavaScript.",
     "last_updated": "2026-07-22"
+  },
+  "gigatoken": {
+    "canonical_name": "GigaToken",
+    "entity_type": "ai_model",
+    "summary": "GigaToken is a tokenizer library that is approximately 1000x faster than HuggingFace's tokenizers and tiktoken, offering drop-in replacement capabilities. It can tokenize text data at GB/s speeds and supports a wide range of CPU hardware and commonly used tokenizers. The library can be used with its",
+    "last_updated": "2026-07-23"
+  },
+  "tiktoken": {
+    "canonical_name": "tiktoken",
+    "entity_type": "ai_model",
+    "summary": "tiktoken is an open-source byte pair encoding (BPE) tokenizer library released by OpenAI in December 2022. It converts text into the integer token sequences that OpenAI's language models read and write, and can be installed from PyPI. The library provides a fast BPE tokenizer for use with OpenAI's m",
+    "last_updated": "2026-07-23"
+  },
+  "marcelroed": {
+    "canonical_name": "marcelroed",
+    "entity_type": "person",
+    "summary": "marcelroed is a 3rd year PhD student at Stanford with 91 repositories available on GitHub. They are also a 2nd year PhD student focused on learning GPU programming in Mojo and have created a project called 'Learn GPU Programming in Mojo🔥 by Solving Puzzles.' Their bio mentions achievements in MakerW",
+    "last_updated": "2026-07-23"
+  },
+  "zig": {
+    "canonical_name": "Zig",
+    "entity_type": "product",
+    "summary": "Kuretake offers a wide variety of crafting goods, high quality graphic design pens and markers, and optimal illustration products. Made in Japan.",
+    "last_updated": "2026-07-23"
+  },
+  "pelicanridingabicycle": {
+    "canonical_name": "pelican-riding-a-bicycle",
+    "entity_type": "ai_model",
+    "summary": "The 'pelican-riding-a-bicycle' is a benchmark for large language models, testing their ability to generate an SVG image of a pelican riding a bicycle. One example of a model's output for this benchmark is a pelican drawn by Qwen 3.8 Max, which included reasoning notes like 'Could add helmet? No.' an",
+    "last_updated": "2026-07-23"
+  },
+  "simon willisons pelicanonabicycle": {
+    "senses": [
+      {
+        "sense_label": "Simon Willison's pelican-on-a-bicycle",
+        "summary": "Simon Willison's pelican-on-a-bicycle is a benchmark for large language models, testing their ability to generate an SVG of a pelican riding a bicycle. The benchmark has been used to analyze AI labs' training, with one example being Qwen3-4B-Thinking, which suggested a user might be a kid playing wi",
+        "last_updated": "2026-07-23"
+      }
+    ]
+  },
+  "hacker news": {
+    "canonical_name": "Hacker News",
+    "entity_type": "organization",
+    "summary": "Hacker News is a popular online platform that delivers the latest news in the world of computer science. The site features articles, discussions, and updates on technology-related topics, including software development, cybersecurity, and artificial intelligence.",
+    "last_updated": "2026-07-23"
+  },
+  "dylan castillo iwana": {
+    "canonical_name": "Dylan Castillo Iwana",
+    "entity_type": "person",
+    "summary": "Dylan Castillo is the founder of Iwana Labs, a small consulting firm in the AI & ML space. He has delivered successful projects for organizations like Deliveroo, Boston Consulting Group (BCG), the European Commission, and the Olympics, and is an independent AI consultant.",
+    "last_updated": "2026-07-23"
+  },
+  "gpt56 terra": {
+    "canonical_name": "GPT-5.6 Terra",
+    "entity_type": "product",
+    "summary": "GPT-5.6 Terra is OpenAI's balanced mid-tier model, priced at $2.50 per 1M input tokens and $15 per 1M output tokens. It is described as the middle child of OpenAI's new three-tier family, with Sol as the flagship and Luna as the fastest and cheapest model.",
+    "last_updated": "2026-07-23"
+  },
+  "claude sonnet 5": {
+    "canonical_name": "Claude Sonnet 5",
+    "entity_type": "product",
+    "summary": "Claude Sonnet 5 is the most agentic model in the Sonnet series, built to be a strong execution layer for multi-step software engineering work. It can make plans, use tools like browsers and terminals, and run autonomously at a level that previously required larger and more expensive models.",
+    "last_updated": "2026-07-23"
+  },
+  "grok 45": {
+    "canonical_name": "Grok 4.5",
+    "entity_type": "product",
+    "summary": "Grok 4.5 is a model available across multiple platforms, including Cursor, and is designed to handle difficult, long-running tasks that require creatively using tools. It is being released with doubled usage for the first week and is the most intelligent model built by SpaceXAI for more than softwar",
+    "last_updated": "2026-07-23"
+  },
+  "qwen37max": {
+    "canonical_name": "Qwen3.7-Max",
+    "entity_type": "product",
+    "summary": "Qwen3.7-Max is the largest and most capable model in the Qwen3.7 series, currently offering a pure-text-only interface for public experimentation. It is designed for the agent-centric era, excelling at programming, office tasks, and long-term autonomous execution, with a cost of $1.475 per million i",
+    "last_updated": "2026-07-23"
+  },
+  "deepseek v4 pro": {
+    "canonical_name": "DeepSeek V4 Pro",
+    "entity_type": "product",
+    "summary": "DeepSeek-V4-Pro is the flagship model in the DeepSeek-V4 series, a Mixture-of-Experts model with 1.6T total parameters and 49B activated. It is built for frontier-level reasoning across a 1M-token context window and includes three thinking modes.",
+    "last_updated": "2026-07-23"
+  },
+  "medici family": {
+    "canonical_name": "Medici family",
+    "entity_type": "organization",
+    "summary": "The Medici family was an Italian bourgeois family that ruled Florence and later Tuscany from 1434 to 1737, with brief interruptions. Their patronage of the arts and humanities made Florence the cradle of the Renaissance, and they produced four popes. Their genes have been mixed into many of Europe's",
+    "last_updated": "2026-07-23"
+  },
+  "francesco i de medici": {
+    "canonical_name": "Francesco I de' Medici",
+    "entity_type": "person",
+    "summary": "Francesco I de' Medici was the second Grand Duke of Tuscany, ruling from 1574 until his death in 1587. He was an important member of the powerful House of Medici, born in Florence to Cosimo I de' Medici and Eleanor of Toledo. He began helping his father rule in 1564 and married Joanna of Austria, th",
+    "last_updated": "2026-07-23"
+  },
+  "bianca cappello": {
+    "canonical_name": "Bianca Cappello",
+    "entity_type": "person",
+    "summary": "Bianca Cappello was a young woman who eloped from her family's house in Venice on November 28th, 1563, at the age of seventeen. She would later become Grand Duchess of Tuscany. The material describes her escape with another woman and a well-dressed young man, but does not provide details on her life",
+    "last_updated": "2026-07-23"
+  },
+  "ferdinando": {
+    "canonical_name": "Ferdinando",
+    "entity_type": "person",
+    "summary": "The material does not contain a usable answer for the entity 'Ferdinando'. It mentions Ferdinando Mirarchi as a Chief Medical & Scientific Officer and also references Ferdinando Nelli Feroci, but provides no overview of a single entity named Ferdinando.",
+    "last_updated": "2026-07-23"
+  },
+  "antonio": {
+    "canonical_name": "Antonio",
+    "entity_type": "person",
+    "summary": "Antonio Manning is the current CEO and President of Affordable Living for the Aging. The material also describes Antonio Villaraigosa as a person with a D (Captain) DISC type, who tends to speak directly and make decisions quickly, and is likely to take charge in a situation.",
+    "last_updated": "2026-07-23"
+  },
+  "poggio a caiano": {
+    "canonical_name": "Poggio a Caiano",
+    "entity_type": "location",
+    "summary": "Poggio a Caiano is the smallest and youngest municipality in Prato Province, Italy, which gained administrative independence in 1962. It is home to the Medici Villa, a UNESCO World Heritage Site with splendid gardens and frescoes. While there are no confirmed Etruscan settlements, the first communit",
+    "last_updated": "2026-07-23"
+  },
+  "malaria": {
+    "canonical_name": "malaria",
+    "entity_type": "technology",
+    "summary": "Malaria is a disease caused by Plasmodium parasites and transmitted by Anopheles mosquitoes, which greatly impacts public health and socioeconomic development, particularly in sub-Saharan Africa. Despite advances in treatment and prevention, the number of clinical cases and deaths has increased rece",
+    "last_updated": "2026-07-23"
+  },
+  "arsenic": {
+    "canonical_name": "arsenic",
+    "entity_type": "material",
+    "summary": "Arsenic is classified chemically as a metalloid, having properties of both a metal and a nonmetal. Commercial arsenic is primarily produced as a by-product in the smelting of nonferrous metal ores containing gold, silver, lead, nickel, and cobalt. The material includes an EPA report on locating and",
+    "last_updated": "2026-07-23"
+  },
+  "nancy grace roman space telescope": {
+    "canonical_name": "Nancy Grace Roman Space Telescope",
+    "entity_type": "product",
+    "summary": "Named after NASA’s first chief astronomer, the ‘mother of the Hubble Space Telescope,’ the Nancy Grace Roman Space Telescope will have a field of view at least 100 times larger than Hubble's, potentially measuring light from a billion galaxies in its lifetime. This observatory will also be able to b",
+    "last_updated": "2026-07-23"
+  },
+  "active coronagraph": {
+    "canonical_name": "active coronagraph",
+    "entity_type": "technology",
+    "summary": "The Roman Coronagraph will be the first active coronagraph to fly in space, meaning it contains components that actively respond to variables that would usually cause starlight to scatter, making it harder to see nearby planets. It uses a pair of active deformable mirrors to dynamically apodize the",
+    "last_updated": "2026-07-23"
+  },
+  "hubble space telescope": {
+    "canonical_name": "Hubble Space Telescope",
+    "entity_type": "product",
+    "summary": "The first major optical telescope in space, NASA’s Hubble Space Telescope is most famous for the iconic and beautiful images it has brought us of distant galaxies. Hubble’s launch in 1990 was motivated by the idea that the best view of space is from space itself, as it avoids obstructions from cloud",
+    "last_updated": "2026-07-23"
+  },
+  "jet propulsion laboratory": {
+    "canonical_name": "Jet Propulsion Laboratory",
+    "entity_type": "organization",
+    "summary": "Caltech founded and manages the Jet Propulsion Laboratory (JPL) for NASA. The lab is a leading U.S. center for Earth science, space-based astronomy, and exploration of Mars, Saturn, Jupiter, and other planets and moons in our solar system. It is a leading center for exploring the solar system and mo",
+    "last_updated": "2026-07-23"
+  },
+  "brandon creager": {
+    "canonical_name": "Brandon Creager",
+    "entity_type": "person",
+    "summary": "The material did not address this. It only provides information on how to find public records for Brandon Creager, such as his phone number, address, and relatives, but does not offer any overview of the person.",
+    "last_updated": "2026-07-23"
+  },
+  "javier viaña": {
+    "canonical_name": "Javier Viaña",
+    "entity_type": "person",
+    "summary": "About Javier Viaña is currently a Postdoctoral Associate at the MIT Kavli Institute of Astrophysics and Space Research. He obtained his Ph.D. in eXplainable Artificial Intelligence applied to Aerospace Engineering at the University of Cincinnati and spent his last doctoral year at MIT. His Ph.D. res",
+    "last_updated": "2026-07-23"
+  },
+  "dark matter": {
+    "canonical_name": "dark matter",
+    "entity_type": "technology",
+    "summary": "Dark matter doesn’t emit, reflect, absorb, or even block light, and it passes through regular matter like a ghost. But it does interact with the universe through gravity, something the map shows with a new level of clarity. Scientists using data from NASA’s James Webb Space Telescope have made one o",
+    "last_updated": "2026-07-23"
+  },
+  "dark energy": {
+    "canonical_name": "dark energy",
+    "entity_type": "technology",
+    "summary": "But we do know that it exists, it’s making the universe expand at an accelerating rate, and approximately 68.3 to 70% of the universe is dark energy. The exact nature of dark energy remains a mystery, and many p",
+    "last_updated": "2026-07-23"
+  },
+  "exoplanets": {
+    "canonical_name": "exoplanets",
+    "entity_type": "technology",
+    "summary": "An exoplanet is any planet beyond our solar system. Most of them orbit other stars, but some free-floating exoplanets, called rogue planets, are untethered to any star. We’ve confirmed more than 6,000 exoplanets, out of the billions that we believe exist. The area around a star where its planets cou",
+    "last_updated": "2026-07-23"
+  },
+  "ibm": {
+    "canonical_name": "IBM",
+    "entity_type": "company",
+    "summary": "IBM produces and sells computer hardware, middleware and software, and provides hosting and consulting services in areas ranging from mainframe computers to nanotechnology. The company has over 100,000 employees and an estimated $10 billion in revenue.",
+    "last_updated": "2026-07-23"
+  },
+  "arvind krishna": {
+    "canonical_name": "Arvind Krishna",
+    "entity_type": "person",
+    "summary": "Arvind Krishna is the Chairman and CEO of IBM. He discusses the financial implications of AI investments, cautioning that while AI is booming, returns may take years, with only a few companies likely to succeed.",
+    "last_updated": "2026-07-23"
+  },
+  "jim kavanaugh": {
+    "canonical_name": "Jim Kavanaugh",
+    "entity_type": "person",
+    "summary": "Jim Kavanaugh is the co-founder and CEO of World Wide Technology, a global technology solution provider. He co-founded the company in 1990 and has been a trustee of Saint Louis University's board since 2010.",
+    "last_updated": "2026-07-23"
+  },
+  "wall street": {
+    "canonical_name": "Wall Street",
+    "entity_type": "organization",
+    "summary": "The Wall Street Organization, Inc. is a boutique private financial packaging company specializing in financial services consulting and capital formation. They help companies with identifying financial instruments and guide them through transactions like due diligence and wholesaling.",
+    "last_updated": "2026-07-23"
+  },
+  "us treasury": {
+    "canonical_name": "U.S. Treasury",
+    "entity_type": "organization",
+    "summary": "The U.S. Treasury is a department of the U.S. government. Its Office of Foreign Assets Control (OFAC) is responsible for enforcing economic sanctions against foreign nations, groups, and individuals.",
+    "last_updated": "2026-07-23"
+  },
+  "michael kratsios": {
+    "canonical_name": "Michael Kratsios",
+    "entity_type": "person",
+    "summary": "Michael Kratsios is a person with a background in technology and government. He has served as the White House National Science & Technology Advisor, Fourth Chief Technology Officer of the United States, and Managing Director at Scale AI.",
+    "last_updated": "2026-07-23"
+  },
+  "gb300": {
+    "canonical_name": "GB300",
+    "entity_type": "product",
+    "summary": "The GB300 is a server from Nvidia priced at $49,860. The high cost is attributed to components like the cooling system, which can cost tens of thousands of dollars.",
+    "last_updated": "2026-07-23"
+  },
+  "snap": {
+    "canonical_name": "Snap",
+    "entity_type": "company",
+    "summary": "Snap Inc. is an American camera and social media company founded on September 16, 2011, by Evan Spiegel and Bobby Murphy. It is based in Santa Monica, California, and its website is snap.com.",
+    "last_updated": "2026-07-23"
+  },
+  "rkc": {
+    "senses": [
+      {
+        "sense_label": "ambiguous:",
+        "summary": "1 day ago · Meta will avoid trial in a second lawsuit accusing it of intentionally addicting and harming a teen. The plaintiff dropped the case on Wednesday, days before trial was set to begin. Meta will avoid trial in a second lawsuit accusing it of intentionally addicting and harming a teen. The p",
+        "last_updated": "2026-07-23"
+      }
+    ]
+  },
+  "soundcloud": {
+    "canonical_name": "SoundCloud",
+    "entity_type": "company",
+    "summary": "SoundCloud is a two-sided music platform built to serve both artists and fans. It is an artist-first, fan-powered ecosystem where users can upload music, grow their audience, and monetize their work through direct engagement and discovery.",
+    "last_updated": "2026-07-23"
+  },
+  "nina protocol": {
+    "canonical_name": "Nina Protocol",
+    "entity_type": "product",
+    "summary": "Nina Protocol is a platform in the music industry that allows artists and labels to discover and release music. It offers services like metrics for the music industry, metadata for film and television, and tracking of streaming viewership, as well as insights and consulting services.",
+    "last_updated": "2026-07-23"
+  },
+  "eliah seton": {
+    "canonical_name": "Eliah Seton",
+    "entity_type": "person",
+    "summary": "Eliah Seton is a widely respected music industry executive based in New York. He was named President of SoundCloud in April 2021 and later became CEO in March 2023. Prior to joining SoundCloud, he was President of Independent Music & Creator Services at Warner Music Group.",
+    "last_updated": "2026-07-23"
+  },
+  "musiio": {
+    "canonical_name": "Musiio",
+    "entity_type": "company",
+    "summary": "Musiio develops artificial intelligence for the music industry. SoundCloud acquired Musiio in May 2022 to increase features on the site, such as discovery. The company serves over 75 B2B clients and has analyzed over 400 million tracks.",
+    "last_updated": "2026-07-23"
+  },
+  "solana": {
+    "canonical_name": "Solana",
+    "entity_type": "technology",
+    "summary": "Solana is a high-performance blockchain designed to scale with hardware, enabling thousands of transactions per second. It achieves this speed through eight key architectural innovations, including hardware-optimized architecture, novel consensus design, and parallel execution strategies.",
+    "last_updated": "2026-07-23"
+  },
+  "arweave": {
+    "canonical_name": "Arweave",
+    "entity_type": "technology",
+    "summary": "Arweave is a decentralized storage network that uses a unique blockweave technology as its backbone. It aims to provide a lasting and reliable solution for data storage, differing from traditional blockchains where nodes store the entire chain.",
+    "last_updated": "2026-07-23"
+  },
+  "a16z": {
+    "canonical_name": "a16z",
+    "entity_type": "company",
+    "summary": "a16z is a venture capital firm in Silicon Valley, California, investing in bold founders, innovators, and entrepreneurs building the future through technology. It is also a Substack publication with hundreds of thousands of subscribers and a venture capital firm known for its investments in technolo",
+    "last_updated": "2026-07-23"
+  },
+  "andreessen horowitz": {
+    "canonical_name": "Andreessen Horowitz",
+    "entity_type": "company",
+    "summary": "Andreessen Horowitz (a16z) is a venture capital firm in Silicon Valley, California, investing in bold founders, innovators, and entrepreneurs building the future through technology. It is also a prominent venture capital firm known for its investments in technology startups and its commitment to sup",
+    "last_updated": "2026-07-23"
+  },
+  "ben horowitz": {
+    "canonical_name": "Ben Horowitz",
+    "entity_type": "person",
+    "summary": "Ben Horowitz is the Co-Founder and General Partner of Andreessen Horowitz. He is the author of the New York Times bestsellers, The Hard Thing About Hard Things and What You Do Is Who You Are. He also created the a16z Cultural Leadership Fund to connect the greatest cultural leaders to the best new t",
+    "last_updated": "2026-07-23"
+  },
+  "bain capital": {
+    "canonical_name": "Bain Capital",
+    "entity_type": "company",
+    "summary": "Bain Capital operates at scale with approximately $185 billion in assets under management, 24 offices across four continents, and a diversified focus across private equity, growth and venture, capital solutions, credit and capital markets, and real assets. This breadth enables cross-sell opportuniti",
+    "last_updated": "2026-07-23"
+  },
+  "fifth wall": {
+    "canonical_name": "Fifth Wall",
+    "entity_type": "company",
+    "summary": "Fifth Wall is a firm that focuses on climate PropTech growth, expanding investment activity and platforms, including new strategies like REACT launched in 2025. The firm also added more than 20 new strategic LPs to its flagship strategy, presenting openings for co-investments and value-add services",
+    "last_updated": "2026-07-23"
+  },
+  "cloud kitchens": {
+    "canonical_name": "Cloud Kitchens",
+    "entity_type": "product",
+    "summary": "Cloud kitchens, also known as ghost kitchens, shared kitchens, or virtual kitchens, are commercial facilities purpose-built to produce food specifically for delivery. They house delivery-only food brands called virtual restaurants, which operate without a physical storefront.",
+    "last_updated": "2026-07-23"
+  },
+  "pronto": {
+    "canonical_name": "Pronto",
+    "entity_type": "product",
+    "summary": "Pronto is a communication hub created for the everyday user, connecting people via chat and video to learn faster, work smarter, and communicate seamlessly. It is also a handheld device, the Pronto® Pulse CO-Oximeter®, used for noninvasive spot-checking of total hemoglobin and SpO2.",
+    "last_updated": "2026-07-23"
+  },
+  "anthony levandowski": {
+    "canonical_name": "Anthony Levandowski",
+    "entity_type": "person",
+    "summary": "Anthony Levandowski is the Co-Founder and CEO of Pronto, an autonomous driving company focused on delivering safe, simplified solutions for the mining and trucking industries. He is described as a former manager at Waymo and was a key figure in making Google a world leader in self-driving cars befor",
+    "last_updated": "2026-07-23"
+  },
+  "pony ai": {
+    "canonical_name": "Pony AI",
+    "entity_type": "company",
+    "summary": "Pony.ai, founded in 2016 in Silicon Valley, is a global leader in achieving large-scale mass production and commercialization of autonomous driving technology. The company is committed to delivering safe, advanced, and reliable autonomous driving technology and solutions and is a pioneer in extendin",
+    "last_updated": "2026-07-23"
+  },
+  "the information": {
+    "canonical_name": "The Information",
+    "entity_type": "organization",
+    "summary": "The Information is an organization focused on the career pathway of Information Organization, which involves the discovery, description, and retrieval of information resources. This work requires understanding of shared standards, frameworks, and principles for organization and description, as well",
+    "last_updated": "2026-07-23"
+  },
+  "science corporation": {
+    "canonical_name": "Science Corporation",
+    "entity_type": "company",
+    "summary": "Science Corporation is a neural engineering company developing advanced brain-computer interface technology. Founded by Max Hodak, the company focuses on restoring quality of life to those with debilitating conditions. It is based in San Francisco, California.",
+    "last_updated": "2026-07-23"
+  },
+  "prima": {
+    "canonical_name": "PRIMA",
+    "entity_type": "product",
+    "summary": "The Prima wetcast automation system manufactures a wide range of concrete products, including pipes, blocks, and manhole risers. It is a fully automated system that allows precasters to organize work stations to track and measure productivity in real time.",
+    "last_updated": "2026-07-23"
+  },
+  "max hodak": {
+    "canonical_name": "Max Hodak",
+    "entity_type": "person",
+    "summary": "Max Hodak is the founder and CEO of Science Corporation, a neural engineering company. He previously worked at Neuralink as a Co-Founder and President and attended Duke University. He is also the founder of several other companies, including Neuralink, Transcriptic, and MyFit.",
+    "last_updated": "2026-07-23"
+  },
+  "neuralink": {
+    "canonical_name": "Neuralink",
+    "entity_type": "company",
+    "summary": "Neuralink operates at the intersection of neurotechnology, medical devices, and advanced robotics. Founded by Elon Musk in 2016, it targets a large unmet medical need and has received FDA 'Breakthrough Device' designations for its Blindsight vision restoration technology.",
+    "last_updated": "2026-07-23"
+  },
+  "agerelated macular degeneration": {
+    "canonical_name": "age-related macular degeneration",
+    "entity_type": "technology",
+    "summary": "Age-related macular degeneration (AMD) is an eye disease that destroys the macula, part of the retina at the back of the eye. It causes vision problems and has two types: dry, which accounts for about 90% of cases, and wet, which is less common but more severe.",
+    "last_updated": "2026-07-23"
+  },
+  "europe": {
+    "canonical_name": "Europe",
+    "entity_type": "location",
+    "summary": "Europe is a continent in the northern hemisphere bordered by the Atlantic Ocean, the Mediterranean Sea, and Asia. It is noted for its well-preserved cultural heritage, open borders, and efficient infrastructure, making it a popular travel destination.",
+    "last_updated": "2026-07-23"
+  },
+  "us food and drug administration": {
+    "canonical_name": "US Food and Drug Administration",
+    "entity_type": "organization",
+    "summary": "The FDA is responsible for protecting public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices. It also regulates food supply and tobacco products.",
+    "last_updated": "2026-07-23"
+  },
+  "yope": {
+    "canonical_name": "Yope",
+    "entity_type": "startup",
+    "summary": "Yope is a university startup program that provides a 6-month, online fellowship for deep tech founders. It offers $100,000 in non-dilutive seed funding via a SAFE grant and personalized mentorship from past alumni founders to help scale research into real-world companies.",
+    "last_updated": "2026-07-23"
+  },
+  "northzone": {
+    "canonical_name": "Northzone",
+    "entity_type": "company",
+    "summary": "Northzone is an early-stage venture capital firm that operates across multiple economic cycles. It focuses on verifying or modifying companies, personalizing outreach, and using signals to identify high-intent leads and improve sales effectiveness.",
+    "last_updated": "2026-07-23"
+  },
+  "lego": {
+    "canonical_name": "Lego",
+    "entity_type": "organization",
+    "summary": "The material describes a personal system for organizing a LEGO collection using IKEA Alex drawers and other containers. It addresses the common question of how to organize LEGOs, aiming to make finding pieces easier. The post is an affiliate-linked guide focused on storage ideas for LEGO sets and ma",
+    "last_updated": "2026-07-23"
+  },
+  "donkey kong": {
+    "canonical_name": "Donkey Kong",
+    "entity_type": "product",
+    "summary": "Donkey Kong is a video game franchise owned by Nintendo, created by Shigeru Miyamoto. It includes the original arcade game trilogy, the Donkey Kong Country series, and the Mario vs. Donkey Kong series. The franchise features Donkey Kong and his family of primates as protagonists and is considered th",
+    "last_updated": "2026-07-23"
+  },
+  "mario": {
+    "canonical_name": "Mario",
+    "entity_type": "product",
+    "summary": "The material provides a report on the best-selling products within the Super Mario franchise, covering both video games and physical merchandise. It highlights a dual-track success: high-value video game software and a growing 'feeling economy' for merchandise. The analysis is based on sales data, c",
+    "last_updated": "2026-07-23"
+  },
+  "shigeru miyamoto": {
+    "canonical_name": "Shigeru Miyamoto",
+    "entity_type": "person",
+    "summary": "Shigeru Miyamoto is a key figure at Nintendo who has stepped back from directing games. He plays the first thirty minutes of each new Mario title, provides guidance to development teams, and attends investor Q&A sessions. He also co-produced a theatrical film and is credited as the creator of the Do",
+    "last_updated": "2026-07-23"
+  },
+  "carl merriam": {
+    "senses": [
+      {
+        "sense_label": "[ambiguous: Carl Merriam]",
+        "summary": "Carl Merriam is a Senior Designer at the LEGO Group, known for his work on various themes. He has contributed to sets like Super Mario, Icons, and Harry Potter. He has also been involved in interviews and streams related to LEGO building and design, focusing on creating accessible and engaging exper",
+        "last_updated": "2026-07-23"
+      }
+    ]
+  },
+  "find my": {
+    "canonical_name": "Find My",
+    "entity_type": "product",
+    "summary": "The Find My app helps users track Apple devices, even when they are offline. It also supports locating items with AirTag and finding friends and family using Precision Finding, while keeping location data private.",
+    "last_updated": "2026-07-23"
+  },
+  "9to5mac": {
+    "canonical_name": "9to5Mac",
+    "entity_type": "organization",
+    "summary": "9to5Mac is a tech news organization that was founded in 2007. It aims to be a top influencer in the tech community by breaking exclusive news and providing commentary on technology topics.",
+    "last_updated": "2026-07-23"
+  },
+  "macbook neo": {
+    "canonical_name": "MacBook Neo",
+    "entity_type": "product",
+    "summary": "The MacBook Neo is a 13-inch laptop made with 60% recycled content, including 90% recycled aluminum and 100% recycled cobalt and 95% recycled lithium in the battery. It features the Apple A18 Pro chip with 8GB of unified memory and 256GB or 512GB of SSD storage, along with a Liquid Retina display an",
+    "last_updated": "2026-07-23"
+  },
+  "a19 pro": {
+    "canonical_name": "A19 Pro",
+    "entity_type": "ai_model",
+    "summary": "The A19 Pro is a system on a chip that will power the new iPhone Air alongside the iPhone 17 Pro line. It features a six-core CPU with two performance and four efficiency cores, and is likely built on TSMC's latest N3P process node. The base iPhone 17 will be powered by the A19 system, while the res",
+    "last_updated": "2026-07-23"
+  },
+  "a18 pro": {
+    "canonical_name": "A18 Pro",
+    "entity_type": "ai_model",
+    "summary": "The A18 Pro is a hexa-core processor used in the Apple A18 Pro Hexa-Core Processor. It is part of the Apple MacBook Neo A18 Pro, a cutting-edge laptop designed for users who seek efficiency without compromising on style.",
+    "last_updated": "2026-07-23"
+  },
+  "iphone 17 pro": {
+    "canonical_name": "iPhone 17 Pro",
+    "entity_type": "product",
+    "summary": "The iPhone 17 Pro is Apple’s most advanced smartphone, engineered for creators, professionals, and power users. It is built from aerospace-grade titanium and features a 6.7-inch LTPO Super Retina XDR OLED display with a peak brightness of 3000 nits and a 120Hz ProMotion refresh rate. The device is p",
+    "last_updated": "2026-07-23"
+  },
+  "iphone 16 pro": {
+    "canonical_name": "iPhone 16 Pro",
+    "entity_type": "product",
+    "summary": "The iPhone 16 Pro is available for purchase with same-day delivery to select zip codes or by shipping. It features a stunning titanium design, Camera Control, and 4K 120 fps Dolby Vision video. The device can be connected to the T-Mobile network using a T-Mobile SIM card, which can be either a digit",
+    "last_updated": "2026-07-23"
+  },
+  "tim culpan": {
+    "canonical_name": "Tim Culpan",
+    "entity_type": "person",
+    "summary": "Tim Culpan is a former Bloomberg Opinion columnist covering technology in Asia and a former technology reporter for Bloomberg News. He currently works as a Columnist-Bloomberg Opinion for Bloomberg and attended the University of Pennsylvania. He previously worked at Bloomberg LP as a Technology Corr",
+    "last_updated": "2026-07-23"
+  },
+  "gentle monster": {
+    "canonical_name": "Gentle Monster",
+    "entity_type": "company",
+    "summary": "Gentle Monster is a global fashion eyewear brand founded in 2011 by IICOMBINED. The company has expanded to include a perfume brand, TAMBURINS, and a dessert brand, NUDAKE, and is driven by continuous innovation.",
+    "last_updated": "2026-07-23"
+  },
+  "warby parker": {
+    "canonical_name": "Warby Parker",
+    "entity_type": "company",
+    "summary": "Warby Parker was founded in 2010 with a mission to inspire and impact the world with vision, purpose, and style. The company aims to show that a business can scale, become profitable, and do good without charging a premium, offering designer-quality glasses and related services.",
+    "last_updated": "2026-07-23"
+  },
+  "io": {
+    "canonical_name": "I/O",
+    "entity_type": "event",
+    "summary": "I/O is Google's developer conference, which has been conducted as a virtual event in recent years. The event is for developers and has included the launch of new smartphones and other products.",
+    "last_updated": "2026-07-23"
+  },
+  "z fold 8": {
+    "canonical_name": "Z Fold 8",
+    "entity_type": "product",
+    "summary": "The Samsung Galaxy Z Fold 8 is expected to feature a 5.5-inch QHD+ display with a 16:10 aspect ratio. It is designed to be very thin and light, weighing around 200 or 201g, making it lighter than the Galaxy Z Fold 7. The device is positioned as a new 'wide' model, inspired by Apple, and will be avai",
+    "last_updated": "2026-07-23"
+  },
+  "z flip 8": {
+    "canonical_name": "Z Flip 8",
+    "entity_type": "product",
+    "summary": "The new FlexWindow on the Galaxy Z Flip 8 brings apps, insights, and actions directly to the cover screen. This feature helps users access information, AI-powered features, and connected tasks in fewer steps. The Galaxy Z Flip 8 is part of Samsung's expanded line-up of foldables designed to provide",
+    "last_updated": "2026-07-23"
+  },
+  "z fold 7": {
+    "canonical_name": "Z Fold 7",
+    "entity_type": "product",
+    "summary": "The Samsung Galaxy Z Fold 7 is the thinnest and lightest Samsung foldable ever, measuring 8.9mm when folded. It features an 8.0-inch inner display, a 6.5-inch cover screen, a 200MP camera, Snapdragon 8 Elite for Galaxy, a 4,400mAh battery, and Galaxy AI. The device was released in July 2025 and is a",
+    "last_updated": "2026-07-23"
+  },
+  "unpacked": {
+    "canonical_name": "Unpacked",
+    "entity_type": "event",
+    "summary": "The Samsung Galaxy Unpacked July 2026 event is scheduled for July 22. The event is expected to introduce new products and AI features, with industry veterans viewing it as a pivotal response to market pressure. Samsung will stream the event live on its website and YouTube.",
+    "last_updated": "2026-07-23"
+  },
+  "philips": {
+    "canonical_name": "Philips",
+    "entity_type": "company",
+    "summary": "Philips is a company focused on improving people's health and well-being through meaningful innovation. The company aims to improve 2.5 billion lives per year by 2030, including 400 million in underserved communities, and views healthcare as a connected whole.",
+    "last_updated": "2026-07-23"
+  },
+  "sonicare": {
+    "canonical_name": "Sonicare",
+    "entity_type": "product",
+    "summary": "Philips Oral Healthcare offers a wide range of products including power toothbrushes, oral hygiene products, and teeth whitening solutions. The products use unrivaled technology to keep teeth healthy and address specific dental indications like gingivitis and oral malodor.",
+    "last_updated": "2026-07-23"
+  },
+  "diamondclean 9900 prestige": {
+    "canonical_name": "DiamondClean 9900 Prestige",
+    "entity_type": "product",
+    "summary": "The DiamondClean 9900 Prestige is a rechargeable power toothbrush from the Sonicare 9900 Prestige series. It features SenseIQ technology, which enhances proven sonic technology with intelligence to sense and adapt to the user's every move in real time for a more effective clean.",
+    "last_updated": "2026-07-23"
+  },
+  "ai model": {
+    "canonical_name": "AI model",
+    "entity_type": "ai_model",
+    "summary": "An AI model is a fundamental concept within artificial intelligence, consisting of programs that recognize patterns and provide results based on previously reviewed examples. These models are the core of smart machines capable of performing tasks like voice recognition and machine vision.",
+    "last_updated": "2026-07-23"
+  },
+  "project camellia": {
+    "canonical_name": "Project Camellia",
+    "entity_type": "project",
+    "summary": "Project Camellia is a premium residential phase within the Sodic East community, developed by SODIC, one of Egypt's most reputable real estate companies. It is a freehold property in Cairo, Mostakbal City, offering units from 2.5M EGP to 10M EGP, with locations including Croons Sarai 5% Dow and Croo",
+    "last_updated": "2026-07-23"
+  },
+  "effingham county": {
+    "canonical_name": "Effingham County",
+    "entity_type": "organization",
+    "summary": "The Effingham County Board of Commissioners is an organization that has issued a press release about an initiative called 'Project Zero' to eliminate county homestead property taxes by 2028. The county provides various services and has a presence in Springfield, Georgia, with contact information and",
+    "last_updated": "2026-07-23"
+  },
+  "georgia power company": {
+    "canonical_name": "Georgia Power Company",
+    "entity_type": "company",
+    "summary": "Georgia Power Company is the largest subsidiary of Southern Company, one of the nation's largest electricity generators. It is committed to high reliability, low prices, and high customer satisfaction, and has a vision to be 'A Citizen Wherever We Serve.' The company has a large customer base with h",
+    "last_updated": "2026-07-23"
+  },
+  "national laboratories": {
+    "canonical_name": "National Laboratories",
+    "entity_type": "organization",
+    "summary": "The Department of Energy’s 17 National Laboratories are powerhouses of science and technology whose researchers tackle some of the world’s toughest challenges. The Laboratories support scientists and engineers from academia, government, and industry with access to specialized equipment, world-class",
+    "last_updated": "2026-07-23"
+  },
+  "los alamos national laboratory": {
+    "canonical_name": "Los Alamos National Laboratory",
+    "entity_type": "organization",
+    "summary": "Los Alamos National Laboratory addresses national security challenges by advancing breakthroughs in science and technology. We work alongside the Department of Energy to support energy advancements and environmental management. Los alamos national laboratory.Today, the Los Alamos National Laboratory",
+    "last_updated": "2026-07-23"
+  },
+  "venado": {
+    "canonical_name": "Venado",
+    "entity_type": "product",
+    "summary": "Premium Outdoor apparel for Outdoorsmen and their families. Delivering products outdoorsmen crave inspires new generations to explore the lifestyle and empowers customers to proudly respect and share the outdoors with others. Ready for the field right out of the bag, Canvas Concealed Carry Jacket wi",
+    "last_updated": "2026-07-23"
+  },
+  "ntt data group": {
+    "canonical_name": "NTT DATA Group",
+    "entity_type": "company",
+    "summary": "NTT Data Group Corp provides IT services to a wide range of business fields, including cloud, cybersecurity, data and analytics, Salesforce, SAP, ServiceNow, and application development and management, along with 5G-related services. The company operates through four segments: Public & Social Infras",
+    "last_updated": "2026-07-23"
+  },
+  "risalabsincbossconsole": {
+    "canonical_name": "risa-labs-inc/BossConsole",
+    "entity_type": "product",
+    "summary": "BOSS (Business OS + Simulator) is a sophisticated, AI-powered workspace designed for complex business operations, with specialized features for healthcare administration, workflow automation, and intelligent process management. It is an integrated platform that combines AI automation, configurable l",
+    "last_updated": "2026-07-23"
+  },
+  "opencode": {
+    "canonical_name": "OpenCode",
+    "entity_type": "ai_model",
+    "summary": "OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop. It is used and trusted by over 7.5M developers every month and does not store any of your code or context data, allowing it to operate in privacy-sensitive environments.",
+    "last_updated": "2026-07-23"
+  },
+  "kotlin multiplatform": {
+    "canonical_name": "Kotlin Multiplatform",
+    "entity_type": "technology",
+    "summary": "Kotlin Multiplatform is a technology that allows you to create applications for various platforms and efficiently reuse code across them while retaining the benefits of native programming. Your applications will run on iOS, Android, macOS, Windows, Linux, and more, enabling a unified workflow for de",
+    "last_updated": "2026-07-23"
+  },
+  "compose multiplatform": {
+    "canonical_name": "Compose Multiplatform",
+    "entity_type": "technology",
+    "summary": "Compose Multiplatform is built on Kotlin Multiplatform (KMP), the Jetpack Compose runtime, and Skia-based rendering for non-Android targets. It allows you to write UI once and run it on Android, iOS, Desktop, and Web, but emphasizes that you should share smartly and customize where needed rather tha",
+    "last_updated": "2026-07-23"
+  },
+  "hyra": {
+    "canonical_name": "Hyra",
+    "entity_type": "ai_model",
+    "summary": "Hyra Network is an advanced Layer-3 blockchain designed to support and develop Hyra AI's decentralized AI ecosystem. Its business model focuses on harnessing the computing power of edge devices, optimizing costs, and improving scalability and security for AI applications.",
+    "last_updated": "2026-07-23"
+  },
+  "turbofieldfare": {
+    "canonical_name": "TurboFieldfare",
+    "entity_type": "product",
+    "summary": "TurboFieldfare is a utility that allows users to run the Gemma 4 26B-A4B language model on any MacBook with an Apple Silicon processor (M1 and newer). It achieves this by loading only a 2 GB fragment of the 15 GB model into memory, making it possible to run on devices with as little as 2 GB of RAM i",
+    "last_updated": "2026-07-23"
+  },
+  "swift": {
+    "canonical_name": "Swift",
+    "entity_type": "technology",
+    "summary": "Swift is a powerful and intuitive programming language for all Apple platforms, including iOS, iPadOS, macOS, tvOS, and watchOS. It features a concise-yet-expressive syntax, modern features, and is designed to be safe by default, producing software that runs quickly.",
+    "last_updated": "2026-07-23"
+  },
+  "mseries macbook": {
+    "canonical_name": "M-series MacBook",
+    "entity_type": "product",
+    "summary": "The M-series MacBook Airs originally started at $999 to $1,299, with an education discount of $100. Apple has since introduced newer models, such as the budget-friendly MacBook Neo, which launched at $599, and updated the MacBook Air with a supercharged M5 chip.",
+    "last_updated": "2026-07-23"
+  },
+  "aiguardsiem": {
+    "canonical_name": "AIGuardSIEM",
+    "entity_type": "product",
+    "summary": "AIGuardSIEM is a modular, microservices-based Security Information and Event Management (SIEM) platform with Extended Detection and Response (XDR) capabilities. It is engineered to ingest, process, correlate, and analyze security telemetry at scales exceeding 1 million events per second (EPS) with e",
+    "last_updated": "2026-07-23"
+  },
+  "c": {
+    "canonical_name": "C++",
+    "entity_type": "technology",
+    "summary": "C++ is an object-oriented programming language that also supports procedural and generic programming, making it a middle-level language. It is practically irreplaceable and is considered the best for real-time and low-level applications like system programming due to its vast usage and high performa",
+    "last_updated": "2026-07-23"
+  },
+  "go": {
+    "canonical_name": "Go",
+    "entity_type": "technology",
+    "summary": "GO Technology Group is a cutting-edge IT solutions provider based in Chicago, specializing in a wide range of services. The company operates with a lean team and generates revenue in the lower mid-range, indicating an opportunity for scalable, cost-efficient telecom and mobile solutions.",
+    "last_updated": "2026-07-23"
+  },
+  "dpdk": {
+    "canonical_name": "DPDK",
+    "entity_type": "technology",
+    "summary": "DPDK, or Data Plane Development Kit, is a software development framework that enables high-speed packet processing in network applications. It allows developers to create fast and efficient network applications by bypassing the operating system’s kernel and directly accessing the network interface c",
+    "last_updated": "2026-07-23"
+  },
+  "sigma": {
+    "canonical_name": "Sigma",
+    "entity_type": "technology",
+    "summary": "Sigma Technology is a leading tech consulting company focused on making tomorrow’s technology usable today. It delivers expert solutions in software, embedded systems, IT, and digital solutions, leveraging 3000 experts across 7 countries and 20+ years of global delivery experience.",
+    "last_updated": "2026-07-23"
+  },
+  "soar": {
+    "canonical_name": "SOAR",
+    "entity_type": "technology",
+    "summary": "Soar is a technology company that uses a broad technology ecosystem for its technical support service, covering solutions from different vendors. It provides a technical support service with multi-vendor support, and information on acquisition, funding, and executives is available through platforms",
+    "last_updated": "2026-07-23"
+  },
+  "kafka": {
+    "canonical_name": "Kafka",
+    "entity_type": "technology",
+    "summary": "Kafka is a distributed real-time event streaming platform that provides a reliable way to store data accessed by a distributed system or cluster of machines. It is a key component in event-driven architecture, with brokers allocated on servers and data replicated across nodes for production environm",
+    "last_updated": "2026-07-23"
+  },
+  "etcd": {
+    "canonical_name": "etcd",
+    "entity_type": "technology",
+    "summary": "etcd is a strongly consistent, distributed key-value store that provides a reliable way to store data accessed by a distributed system or cluster of machines. It gracefully handles leader elections during network partitions and can tolerate machine failure, even in the leader node.",
+    "last_updated": "2026-07-23"
+  },
+  "onnx runtime": {
+    "canonical_name": "ONNX Runtime",
+    "entity_type": "technology",
+    "summary": "ONNX Runtime is a cross-platform accelerated machine learning engine that provides a production-grade AI engine to speed up training and inferencing. It supports multiple languages including Python, C#, C++, Java, and JavaScript, and is used to integrate Generative AI and Large Language Models (LLMs",
+    "last_updated": "2026-07-23"
+  },
+  "int8": {
+    "canonical_name": "INT8",
+    "entity_type": "technology",
+    "summary": "INT8, or 8-bit integer, dedicates all 8 bits to representing whole numbers uniformly distributed across a fixed range, giving it a dynamic range of 256 distinct values. It is well-understood, broadly supported across hardware generations, and easy to implement, making it a key component in AI model",
+    "last_updated": "2026-07-23"
   }
 }
