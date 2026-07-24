@@ -11332,5 +11332,524 @@
     "entity_type": "technology",
     "summary": "INT8, or 8-bit integer, dedicates all 8 bits to representing whole numbers uniformly distributed across a fixed range, giving it a dynamic range of 256 distinct values. It is well-understood, broadly supported across hardware generations, and easy to implement, making it a key component in AI model",
     "last_updated": "2026-07-23"
+  },
+  "echo": {
+    "canonical_name": "Echo",
+    "entity_type": "product",
+    "summary": "Echo is a product that tracks usage, risk, and upsell signals across all your products in one place, eliminating silos and handoffs. It uses an onboarding agent and risk identifier agent to provide smart, actionable guidance on customer-specific priorities. The system adapts to various roles like CR",
+    "last_updated": "2026-07-24"
+  },
+  "tracerml": {
+    "canonical_name": "tracerml",
+    "entity_type": "organization",
+    "summary": "TRACER is a YC-backed research lab that studies how adaptive coordination can become self-organizing. Their work focuses on creating capabilities that no single model has alone, and they have developed a new frontier model and adaptive AI system called Echo. Echo is now live as an OpenAI-compatible",
+    "last_updated": "2026-07-24"
+  },
+  "power from steam in the industrial revolution": {
+    "canonical_name": "Power from Steam in the Industrial Revolution",
+    "entity_type": "general",
+    "summary": "Steam engines were a revolutionary technology that powered factories, locomotives, and ships, reshaping economies and societies. The Industrial Revolution was a transformative period in human history characterized by unprecedented technological advancements, with the steam engine at its heart.",
+    "last_updated": "2026-07-24"
+  },
+  "gary linscott": {
+    "canonical_name": "Gary Linscott",
+    "entity_type": "person",
+    "summary": "Gary Linscott is an American computer scientist residing in the San Francisco Bay Area, working in the autonomous mobility industry. He graduated in 2005 from Queen's University and was a former Microsoft employee where he worked on Expression Blend.",
+    "last_updated": "2026-07-24"
+  },
+  "thenumberscom": {
+    "canonical_name": "TheNumbers.com",
+    "entity_type": "product",
+    "summary": "TheNumbers.com provides detailed movie financial analysis, including box office, DVD and Blu-ray sales reports, and release schedules. The site also tracks daily visitor numbers and provides domain registration information.",
+    "last_updated": "2026-07-24"
+  },
+  "bruce nash": {
+    "canonical_name": "Bruce Nash",
+    "entity_type": "person",
+    "summary": "Bruce Nash is the Founder and President of Nash Information Services and a former executive at Ixia. He has worked in marketing and has been involved in founding several organizations, including NuEnerchi and Next Ventures Consulting.",
+    "last_updated": "2026-07-24"
+  },
+  "geocities": {
+    "canonical_name": "Geocities",
+    "entity_type": "product",
+    "summary": "Geocities was a free web hosting service that offered community features and building tools, serving as a precursor to social media. It allowed users to create their own websites, often using HTML or WYSIWYG apps, during the mid-1990s internet era.",
+    "last_updated": "2026-07-24"
+  },
+  "hollywood stock exchange": {
+    "canonical_name": "Hollywood Stock Exchange",
+    "entity_type": "organization",
+    "summary": "The Hollywood Stock Exchange (HSX) is an online prediction market where users can trade virtual shares of movies, stars, and television shows. It is described as the leading entertainment stock market, allowing individuals to build entertainment portfolios based on their views of the industry's futu",
+    "last_updated": "2026-07-24"
+  },
+  "gradienthorse": {
+    "canonical_name": "gradient.horse",
+    "entity_type": "product",
+    "summary": "gradient.horse is a small indie art project powered by love. It features an interactive experience where users can draw and animate horses that run across a gradient, with options to make them jump or disappear.",
+    "last_updated": "2026-07-24"
+  },
+  "humanlayer": {
+    "canonical_name": "HumanLayer",
+    "entity_type": "company",
+    "summary": "HumanLayer is an opinionated system of agents for shipping fast with maintainable code, described as an AI IDE, collaboration platform, and building blocks for a software factory. It enables engineers to solve hard problems in complex codebases and ship 2-3x faster while maintaining code quality, an",
+    "last_updated": "2026-07-24"
+  },
+  "advancedcontextengineeringforcodingagents": {
+    "canonical_name": "advanced-context-engineering-for-coding-agents",
+    "entity_type": "product",
+    "summary": "The material does not provide a product overview for 'advanced-context-engineering-for-coding-agents'. It discusses the challenges of AI coding tools in production codebases and the author's findings on applying context engineering principles, but does not describe a specific product.",
+    "last_updated": "2026-07-24"
+  },
+  "strongdm": {
+    "canonical_name": "StrongDM",
+    "entity_type": "company",
+    "summary": "StrongDM enforces policy and authorization continuously with adaptive action controls, full session visibility, and no standing privileges. It provides seamless, secure access across an entire stack while protecting the enterprise with modern, future-proof security controls, applying fine-grained pe",
+    "last_updated": "2026-07-24"
+  },
+  "symphony": {
+    "canonical_name": "Symphony",
+    "entity_type": "product",
+    "summary": "Symphony is an AI-powered SaaS product that acts as an AI recruiter to help companies hire customer-facing roles. It aims to solve the problem of recruiters being overwhelmed and candidates having a poor experience during the recruiting process.",
+    "last_updated": "2026-07-24"
+  },
+  "faros ai": {
+    "canonical_name": "Faros AI",
+    "entity_type": "company",
+    "summary": "Faros AI provides innovative and reliable AI solutions that give software engineering teams and leaders visibility into every aspect of the software development process, including velocity, quality, cost, and team health. It helps engineering leaders control how work progresses through enforceable w",
+    "last_updated": "2026-07-24"
+  },
+  "ai engineer europe": {
+    "canonical_name": "AI Engineer Europe",
+    "entity_type": "event",
+    "summary": "AI Engineer Europe is a flagship technical AI conference for over 1000 AI Engineers, scheduled for April 8-10, 2026, in London, UK. The event offers three days of deep technical content, hands-on workshops, and community, with tracks covering topics like Claws & Personal Agents, Context Engineering,",
+    "last_updated": "2026-07-24"
+  },
+  "lifegift": {
+    "canonical_name": "LifeGift",
+    "entity_type": "organization",
+    "summary": "LifeGift is a nonprofit organ procurement organization (OPO) established in 1987 that supports families through the organ and tissue donation process. It delivers life-saving transplants to recipients in Texas and beyond, serving over 104,000 Americans who need a transplant each year.",
+    "last_updated": "2026-07-24"
+  },
+  "jensen huang": {
+    "canonical_name": "Jensen Huang",
+    "entity_type": "person",
+    "summary": "Jensen Huang is the co-founder of NVIDIA and leads the company, which has grown into a trillion-dollar entity. He is known for his casual style, wearing leather jackets and polo shirts, and for instilling a culture of speed throughout his organization. Despite his iconic status, he is able to explai",
+    "last_updated": "2026-07-24"
+  },
+  "rest of world": {
+    "canonical_name": "Rest of World",
+    "entity_type": "organization",
+    "summary": "Rest of World is a 3-year-old international tech media organization that has published over 1,000 stories from more than 100 countries outside the West since May 2020. It operates in a former tech-media dead zone and has received recognition for its pioneering approach to covering international tech",
+    "last_updated": "2026-07-24"
+  },
+  "astrazeneca": {
+    "canonical_name": "AstraZeneca",
+    "entity_type": "organization",
+    "summary": "AstraZeneca is a global, science-led biopharmaceutical company that focuses on the discovery, development, and commercialization of prescription medicines. The company has 21 brands for the treatment of diseases in various therapeutic areas, including Respiratory, Gastroenterology, Cardiovascular, D",
+    "last_updated": "2026-07-24"
+  },
+  "champlain hudson power express": {
+    "canonical_name": "Champlain Hudson Power Express",
+    "entity_type": "product",
+    "summary": "The Champlain Hudson Power Express (CHPE) is an innovative renewable power transmission project designed to deliver clean, low-cost energy to New York. It plays a key role in the state's energy transformation by lowering greenhouse gas emissions, creating jobs, and generating billions in new investm",
+    "last_updated": "2026-07-24"
+  },
+  "transmission developers": {
+    "canonical_name": "Transmission Developers",
+    "entity_type": "company",
+    "summary": "Transmission Developers is a company that finances its projects privately, ensuring taxpayer dollars are not used. It has over a decade of experience in the Northeast, specializing in transmission project development, financing, and construction management across various environments.",
+    "last_updated": "2026-07-24"
+  },
+  "hydroquébec": {
+    "canonical_name": "Hydro-Québec",
+    "entity_type": "organization",
+    "summary": "Hydro-Québec is a major supplier of electricity that relies on clean, renewable energy. The organization generates, transmits, and distributes electricity to residential, commercial, institutional, and industrial users.",
+    "last_updated": "2026-07-24"
+  },
+  "quebec": {
+    "canonical_name": "Quebec",
+    "entity_type": "location",
+    "summary": "Quebec is the largest Canadian province, encompassing 595,391 square miles and sharing borders with Ontario, Newfoundland and Labrador, and New Brunswick. It also borders the United States to the south and extends to the Arctic and Atlantic Oceans in the north and east, respectively.",
+    "last_updated": "2026-07-24"
+  },
+  "blackstone": {
+    "canonical_name": "Blackstone",
+    "entity_type": "organization",
+    "summary": "Blackstone is the world's largest alternative asset manager with more than $1.3 trillion in assets under management. The firm serves institutional and individual investors by building strong businesses that deliver lasting value across sectors like artificial intelligence, power, and life sciences.",
+    "last_updated": "2026-07-24"
+  },
+  "healthmatch": {
+    "canonical_name": "HealthMatch",
+    "entity_type": "company",
+    "summary": "HealthMatch is a company that leverages advanced AI and machine learning to optimize patient recruitment for clinical trials. It has raised A$25 million in venture capital and is positioned in the digital health and clinical trial space, making it attractive for strategic partners in health trial fa",
+    "last_updated": "2026-07-24"
+  },
+  "stripe tour sydney": {
+    "canonical_name": "Stripe Tour Sydney",
+    "entity_type": "event",
+    "summary": "Stripe Tour Sydney is a one-day, in-person event with talks about new Stripe products, internet economy trends, the future of payments, and more. Register today.Stripe Tour Sydney. Registration is closed Les inscriptions sont désormais closes 締め切り. Join fellow business leaders and builders at Stripe",
+    "last_updated": "2026-07-24"
+  },
+  "amd": {
+    "canonical_name": "AMD",
+    "entity_type": "company",
+    "summary": "AMD is a semiconductor manufacturing company with over 10,001 employees and its headquarters in Santa Clara, California. The company's mission is to build great products that accelerate next-generation computing experiences for data centers, AI, PCs, gaming, and embedded systems.",
+    "last_updated": "2026-07-24"
+  },
+  "helios": {
+    "canonical_name": "Helios",
+    "entity_type": "product",
+    "summary": "Helios is a rack-scale system designed for enterprises and IT service providers, offering secure remote access to files across Mac, Windows, iPad, iPhone, and web browsers. It requires a Virtual Server Appliance license and a WebShare license, and includes professional support, technical resources,",
+    "last_updated": "2026-07-24"
+  },
+  "vera rubin": {
+    "canonical_name": "Vera Rubin",
+    "entity_type": "product",
+    "summary": "The NVIDIA Vera Rubin platform includes seven new chips in full production to scale the world's largest AI factories. It provides data center solutions to accelerate enterprise IT and AI workloads, a full-stack data platform to unify and accelerate workloads, and factory solutions to deploy large-sc",
+    "last_updated": "2026-07-24"
+  },
+  "grace blackwell": {
+    "canonical_name": "Grace Blackwell",
+    "entity_type": "product",
+    "summary": "NVIDIA's Grace Blackwell platform includes the GB300 NVL72.A compact AI supercomputer and the Grace Blackwell Superchip. These products deliver high-performance AI capabilities, support models up to 200 billion parameters, and are designed to accelerate enterprise IT and AI workloads.",
+    "last_updated": "2026-07-24"
+  },
+  "satya nadella": {
+    "canonical_name": "Satya Nadella",
+    "entity_type": "person",
+    "summary": "Satya Nadella is the Chief Executive Officer of Microsoft. Before being named CEO in February 2014, he held leadership roles in both enterprise and consumer businesses across the company. The company posted $22.3 billion in profits for the 2016 fiscal year.",
+    "last_updated": "2026-07-24"
+  },
+  "venicex": {
+    "canonical_name": "Venice-X",
+    "entity_type": "product",
+    "summary": "Venice-X is a variation of AMD's Zen 6 lineup for data centers, targeting HPC workloads with massive L3 cache and high clock speeds. It uses the same SP7 socket as the main Venice range and features 96 cores and 1152 MB of L3 cache, with a launch scheduled for the second half of 2027.",
+    "last_updated": "2026-07-24"
+  },
+  "patreon": {
+    "canonical_name": "Patreon",
+    "entity_type": "company",
+    "summary": "Patreon is a top-ranked company that provides a platform for creators to run memberships and earn money. It is recognized within its industry and has a presence on Forbes, which does not accept payment for placement on its lists.",
+    "last_updated": "2026-07-24"
+  },
+  "jack conte": {
+    "canonical_name": "Jack Conte",
+    "entity_type": "person",
+    "summary": "Jack Conte is the co-founder and CEO of Patreon. He was a guest on the 'How I Built This' podcast, where the episode originally aired in December 2024.",
+    "last_updated": "2026-07-24"
+  },
+  "corgi": {
+    "canonical_name": "Corgi",
+    "entity_type": "company",
+    "summary": "Corgi is an AI-native insurance carrier that writes its own policies and underwrites its own risk. It offers modular coverage built for founders, including CGL, D&O, Tech E&O, Cyber, EPLI, and fiduciary coverage. The company aims to provide quick quotes and a streamlined process for startups.",
+    "last_updated": "2026-07-24"
+  },
+  "tcv": {
+    "canonical_name": "TCV",
+    "entity_type": "company",
+    "summary": "TCV is a venture capital firm with a strong history of investing over 21 billion dollars in more than 350 technology companies worldwide since 1995. The firm maintains a global presence with offices in Menlo Park, New York, and London. TCV has invested in leading technology companies such as ByteDan",
+    "last_updated": "2026-07-24"
+  },
+  "kindred ventures": {
+    "canonical_name": "Kindred Ventures",
+    "entity_type": "company",
+    "summary": "Kindred Ventures is a venture firm where Adriana leads the finance and compliance functions. The company has experience in operating roles and has started several venture-backed startups that have exited. Their mission is to support dedicated founders on their journeys by providing expertise and sup",
+    "last_updated": "2026-07-24"
+  },
+  "model 3": {
+    "senses": [
+      {
+        "sense_label": "the specific vehicle model or the product line",
+        "summary": "The Tesla Model 3 is a practical, high-tech electric saloon that is considered one of the best electric cars available. It offers great performance and range for a competitive price, and its facelift improved build quality and refinement, boosting its range to around 400 miles in some versions.",
+        "last_updated": "2026-07-24"
+      }
+    ]
+  },
+  "re100": {
+    "canonical_name": "RE100",
+    "entity_type": "organization",
+    "summary": "The provided material does not contain a usable overview for the RE100 organization. It mentions the Ontario Global 100 (OG100) model, which connects CEOs of mid-sized companies with Canadian business leaders, but does not provide information about RE100.",
+    "last_updated": "2026-07-24"
+  },
+  "the climate group": {
+    "canonical_name": "The Climate Group",
+    "entity_type": "organization",
+    "summary": "The Climate Group, formally registered in the UK as The Climate Change Organisation, is a prominent lobbying entity focused on driving global and European climate action policies. Established as a non-profit, it campaigns to promote policy frameworks that encourage carbon reduction, renewable energy",
+    "last_updated": "2026-07-24"
+  },
+  "aegisai": {
+    "canonical_name": "AegisAI",
+    "entity_type": "startup",
+    "summary": "AegisAI is a next-generation agentic email security platform that uses AI agents to analyze every email like a human analyst. It detects phishing, Business Email Compromise (BEC), and zero-day threats by continuously adapting to new attack patterns, reducing false positives by up to 90% compared to",
+    "last_updated": "2026-07-24"
+  },
+  "cy khormaee": {
+    "canonical_name": "Cy Khormaee",
+    "entity_type": "person",
+    "summary": "Cy Khormaee is the VP Product for Attentive Mobile and a Founder and CEO at AegisAI Security. Based in California, he has experience at AegisAI Security and an education from Harvard Business School, with over 500 LinkedIn connections.",
+    "last_updated": "2026-07-24"
+  },
+  "ryan luo": {
+    "canonical_name": "Ryan Luo",
+    "entity_type": "person",
+    "summary": "Ryan Luo is an engineering leader with over 10 years of experience, currently a Founder and CEO at AegisAI Security. He is based in Brooklyn, has an education from Pomona College, and possesses skills in Java, JavaScript, and Python.",
+    "last_updated": "2026-07-24"
+  },
+  "battery ventures": {
+    "canonical_name": "Battery Ventures",
+    "entity_type": "organization",
+    "summary": "Battery Ventures is a global venture capital and private equity firm with a 40-year history, currently investing from its 15th flagship fund, Battery Ventures XV, which is capitalized at $3.25 billion. The firm has invested in more than 450 companies and focuses on supporting portfolio companies wit",
+    "last_updated": "2026-07-24"
+  },
+  "accel": {
+    "canonical_name": "Accel",
+    "entity_type": "organization",
+    "summary": "Accel is a global venture capital firm founded in 1983 and headquartered in Palo Alto, California. It invests in seed, early, and growth-stage technology startups, with a focus on enterprise software, consumer, and AI, and has invested in more than 450 companies over its 40-year history.",
+    "last_updated": "2026-07-24"
+  },
+  "foundation capital": {
+    "canonical_name": "Foundation Capital",
+    "entity_type": "organization",
+    "summary": "Foundation Capital is a venture capital firm located in Silicon Valley, made up of former entrepreneurs. It focuses on helping companies and businesses grow, emphasizing that the venture matters more than the capital, and provides data on funding history, investment activities, and acquisition trend",
+    "last_updated": "2026-07-24"
+  },
+  "mesh": {
+    "canonical_name": "Mesh",
+    "entity_type": "company",
+    "summary": "Mesh operates as a global crypto payments network, connecting hundreds of exchanges, wallets, and payment service providers. The company emphasizes an open, connected, and secure ecosystem for digital finance, offering solutions for enterprise-grade integrations, risk controls, and cross-platform li",
+    "last_updated": "2026-07-24"
+  },
+  "lokker": {
+    "canonical_name": "Lokker",
+    "entity_type": "company",
+    "summary": "Lokker provides data privacy compliance software within the cybersecurity and data protection industry. The company offers a web privacy platform that includes detection, monitoring, protection, blocking, and consent management to help organizations comply with privacy regulations, serving sectors l",
+    "last_updated": "2026-07-24"
+  },
+  "alexa plus": {
+    "canonical_name": "Alexa Plus",
+    "entity_type": "product",
+    "summary": "Alexa Plus is a product offered by Chater Camera, a company that provides camera rental and business management services. The material does not contain a specific overview of the Alexa Plus product itself, only mentions it in the context of Chater Camera's offerings.",
+    "last_updated": "2026-07-24"
+  },
+  "bosch": {
+    "canonical_name": "Bosch",
+    "entity_type": "company",
+    "summary": "The Bosch Group is a leading global supplier of technology and services, employing roughly 413,000 associates worldwide. The company focuses on creating technology that is 'Invented for life,' aiming to improve quality of life, conserve natural resources, and deliver top quality and reliability.",
+    "last_updated": "2026-07-24"
+  },
+  "delta": {
+    "canonical_name": "Delta",
+    "entity_type": "company",
+    "summary": "Delta Air Lines provides scheduled air transportation for passengers and cargo in the United States and internationally. The company operates through two segments, Airline and Refinery, with a domestic network centered on hubs in Atlanta, Detroit, and other cities, and an international network with",
+    "last_updated": "2026-07-24"
+  },
+  "ecovacs": {
+    "canonical_name": "Ecovacs",
+    "entity_type": "company",
+    "summary": "The ECOVACS Group, founded in 1998 and headquartered in Suzhou, China, is a publicly listed group company focused on robot and AI innovation. It is a leader in the service robot and high-end smart appliances industries, having introduced DEEBOT, the first-ever floor cleaning robot in China, and the",
+    "last_updated": "2026-07-24"
+  },
+  "irobot": {
+    "canonical_name": "iRobot",
+    "entity_type": "company",
+    "summary": "iRobot is an American company that specializes in designing and developing robotic solutions for use in the home, defense, and business industries. Founded in 1990, the company's products include the popular Roomba line of robotic vacuum cleaners, the Braava line of robotic floor mops, and the PackB",
+    "last_updated": "2026-07-24"
+  },
+  "yale home": {
+    "canonical_name": "Yale Home",
+    "entity_type": "product",
+    "summary": "Yale Home offers a range of smart security products, including keypad locks, smart locks, smart delivery and storage solutions, door hardware, handlesets, and more. The company's products are designed for various smart home ecosystems, such as Apple Home Key, Google Home, and Z-Wave, and are trusted",
+    "last_updated": "2026-07-24"
+  },
+  "whirlpool": {
+    "canonical_name": "Whirlpool",
+    "entity_type": "company",
+    "summary": "Whirlpool Corporation is a leading home appliance company that engages in the manufacturing and marketing of home appliances, including laundry appliances, refrigerators, and cooking appliances. The company is the only major U.S.-based manufacturer of kitchen and laundry appliances and drives innova",
+    "last_updated": "2026-07-24"
+  },
+  "tapo": {
+    "canonical_name": "Tapo",
+    "entity_type": "company",
+    "summary": "Tapo is a smart home brand developed by TP-Link, a globally trusted networking company. It offers smart security cameras and has become a core part of modern home protection, helping homeowners monitor entrances and stay connected via mobile apps. Tapo is noted for being an affordable brand in the s",
+    "last_updated": "2026-07-24"
+  },
+  "eufy": {
+    "canonical_name": "Eufy",
+    "entity_type": "company",
+    "summary": "Eufy is a brand focused on creating advanced smart home technology, with a commitment to innovation and customer care. The company's brand story centers on AI-powered living, built with care, and it offers products like AI-driven deep-cleaning robotic vacuums and robotic lawn mowers that adapt to a",
+    "last_updated": "2026-07-24"
+  },
+  "echo show 21": {
+    "canonical_name": "Echo Show 21",
+    "entity_type": "product",
+    "summary": "The Echo Show 21 is a 21-inch smart display featuring hands-free Amazon Alexa for voice-activated tasks. It can trigger smart devices, play music, and provide jokes or stories, serving as a communication channel for the virtual assistant.",
+    "last_updated": "2026-07-24"
+  },
+  "home depot": {
+    "canonical_name": "Home Depot",
+    "entity_type": "company",
+    "summary": "Home Depot is a leading home improvement retailer based in the United States, founded in 1978. The company operates over 2,200 stores across North America and is known for providing exceptional support through knowledgeable associates, in-store DIY workshops, and online resources.",
+    "last_updated": "2026-07-24"
+  },
+  "zigbee": {
+    "canonical_name": "Zigbee",
+    "entity_type": "technology",
+    "summary": "Zigbee is a standards-based wireless mesh network used widely in building automation, lighting, and smart home applications. It offers robust, low-power mesh networks for smart homes and building automation, with scalable solutions enabling multi-year battery-less operation.",
+    "last_updated": "2026-07-24"
+  },
+  "alexa": {
+    "canonical_name": "Alexa",
+    "entity_type": "technology",
+    "summary": "Alexa is Amazon's natural language processing-based virtual assistant system. It is available in products like Amazon Echo, Dot, Tap, and Fire TV, and has become an integral part of daily life for tasks ranging from homework help to medication reminders.",
+    "last_updated": "2026-07-24"
+  },
+  "brad bourque": {
+    "canonical_name": "Brad Bourque",
+    "entity_type": "person",
+    "summary": "Brad Bourque is a Senior Content Editor for New Relic, based in Portland, Oregon. He is a contributor for WIRED focusing on computing hardware and peripherals, and enjoys riding his bike and supporting local sports teams.",
+    "last_updated": "2026-07-24"
+  },
+  "first amendment": {
+    "canonical_name": "First Amendment",
+    "entity_type": "regulation",
+    "summary": "The First Amendment’s freedom of religion language breaks down into two essential parts: the free exercise clause and the establishment clause. This means the First Amendment guarantees that a person can practice or exercise their religion without government interference.",
+    "last_updated": "2026-07-24"
+  },
+  "jawbone act": {
+    "canonical_name": "JAWBONE Act",
+    "entity_type": "regulation",
+    "summary": "The JAWBONE Act creates a federal cause of action for victims of coercion or attempted coercion, including posters of content on social media platforms, that allows for compensatory damages and injunctive relief, as well as reasonable attorney fees and litigation costs. The bill would let Americans",
+    "last_updated": "2026-07-24"
+  },
+  "ron wyden": {
+    "canonical_name": "Ron Wyden",
+    "entity_type": "person",
+    "summary": "Ron Wyden is a U.S. Senator from Oregon who has had 4 past jobs, including Ranking Member of the Senate Finance Committee. He was elected to the House in 1981 and became a senator in 1996, representing Oregon as a progressive Democrat.",
+    "last_updated": "2026-07-24"
+  },
+  "claude haiku": {
+    "canonical_name": "Claude Haiku",
+    "entity_type": "product",
+    "summary": "Claude Haiku 4.5 is the fastest and most cost-efficient model, matching Sonnet 4's performance on coding, computer use, and agent tasks. It scores 73.3% on SWE-bench Verified, making it one of the world's best coding models.",
+    "last_updated": "2026-07-24"
+  },
+  "claude opus": {
+    "canonical_name": "Claude Opus",
+    "entity_type": "product",
+    "summary": "Claude Opus is Anthropic’s flagship model family for the hardest reasoning, coding, analysis, and long-context tasks. It is the highest-capability model in the lineup, built for maximum capability and available for the most demanding tasks.",
+    "last_updated": "2026-07-24"
+  },
+  "gmail": {
+    "canonical_name": "Gmail",
+    "entity_type": "product",
+    "summary": "Gmail is now powered by Gemini AI, providing a more intelligent and secure inbox. It features a personal, proactive assistant to help users respond quickly in their own voice and get things done faster.",
+    "last_updated": "2026-07-24"
+  },
+  "canva": {
+    "canonical_name": "Canva",
+    "entity_type": "product",
+    "summary": "Canva is an online design and publishing tool launched in 2013 with a mission to empower everyone to design anything and publish anywhere. It is trusted by millions and focuses on making the world a better place through positive actions and inclusion.",
+    "last_updated": "2026-07-24"
+  },
+  "corsair": {
+    "canonical_name": "Corsair",
+    "entity_type": "company",
+    "summary": "Corsair operates a diversified portfolio across gaming and streaming gear with multiple subsidiaries (Elgato, SCUF, ORIGIN PC, Drop, Fanatec), indicating cross-sell opportunities to create bundles and expand into creator-focused equipment alongside core gaming hardware. With presence in over 75 coun",
+    "last_updated": "2026-07-24"
+  },
+  "primate labs": {
+    "canonical_name": "Primate Labs",
+    "entity_type": "company",
+    "summary": "Primate Labs develops performance analysis software for desktop and mobile platforms. Primate Labs' Geekbench is the leading cross-platform processor benchmark.",
+    "last_updated": "2026-07-24"
+  },
+  "geekbench": {
+    "canonical_name": "Geekbench",
+    "entity_type": "product",
+    "summary": "Geekbench 6's CPU benchmark measures performance in new application areas including Augmented Reality and Machine Learning. The product suite includes versions like Geekbench 6 Pro, which is a professional license for macOS, Windows, and Linux.",
+    "last_updated": "2026-07-24"
+  },
+  "chatgpt health": {
+    "canonical_name": "ChatGPT Health",
+    "entity_type": "product",
+    "summary": "ChatGPT Health is a dedicated space within ChatGPT designed to support health and wellness conversations in a secure and personalized way. It helps users understand their health data, prepare for appointments, and manage their wellness by bringing together a user's health information and AI-driven i",
+    "last_updated": "2026-07-24"
+  },
+  "ashley alexander": {
+    "canonical_name": "Ashley Alexander",
+    "entity_type": "person",
+    "summary": "Ashley Alexander is the Chief People Officer of Front and previously worked as an Advisor at Productboard. She is known for making gluten-free, vegan, and mostly soy-free goodies and is active on Pinterest, where she shares ideas and inspiration.",
+    "last_updated": "2026-07-24"
+  },
+  "karan singhal": {
+    "canonical_name": "Karan Singhal",
+    "entity_type": "person",
+    "summary": "Karan Singhal leads the Health AI team at OpenAI, working on large language models for health and AI safety. His work aims to improve human health with AI, and he has previously contributed to projects like Med-PaLM at Google.",
+    "last_updated": "2026-07-24"
+  },
+  "harvard": {
+    "canonical_name": "Harvard",
+    "entity_type": "organization",
+    "summary": "Harvard University is a private university in Cambridge, Massachusetts, founded in 1636. It is the oldest institution of higher learning still operating in the United States and has grown from nine students to an enrollment of over 18,000.",
+    "last_updated": "2026-07-24"
+  },
+  "stanford": {
+    "canonical_name": "Stanford",
+    "entity_type": "organization",
+    "summary": "Stanford University is a private institution in California with a strong presence in art, fostered by various arts centers and student clubs. It provides information on tuition, financial aid, student life, and academics, and has published numerous research papers.",
+    "last_updated": "2026-07-24"
+  },
+  "jeff gattis": {
+    "canonical_name": "Jeff Gattis",
+    "entity_type": "person",
+    "summary": "Jeff Gattis leads the Gaming business at Amazon, which includes Amazon Luna and Amazon Game Studios. He has extensive experience in the construction industry, having worked in various roles such as Project Manager.",
+    "last_updated": "2026-07-24"
+  },
+  "livetennisapi": {
+    "canonical_name": "livetennisapi",
+    "entity_type": "product",
+    "summary": "LIVETENNISAPI is an MCP server for the Live Tennis API, providing real-time tennis scores, player information, match fixtures, odds, and model win-probability for ATP, WTA, Challenger, and ITF. It is designed to integrate with LLM agents like Claude, Cursor, and Zed, and requires an API key for use.",
+    "last_updated": "2026-07-24"
+  },
+  "pistyle agent": {
+    "canonical_name": "Pi-style Agent",
+    "entity_type": "ai_model",
+    "summary": "A Pi-style Agent is an AI agent, language model, or automated assistant that acts on behalf of a user. It is designed to refuse generating or improving content for posting on websites and is associated with a specific implementation involving 15 checkpoints that build a coding agent from an offline",
+    "last_updated": "2026-07-24"
+  },
+  "krakonjac300pixelpodcastshortsfactory": {
+    "canonical_name": "krakonjac300-pixel/podcast-shorts-factory",
+    "entity_type": "repo_analysis",
+    "summary": "krakonjac300-pixel/podcast-shorts-factory is a free and open-source tool that uses ten cooperating AI agents to automatically turn long podcasts into short-form videos for YouTube Shorts. It is configured to run at roughly zero cost using free AI providers, requires no subscription or paid API, and",
+    "last_updated": "2026-07-24"
+  },
+  "finnafinnloop": {
+    "canonical_name": "finna/Finn-loop",
+    "entity_type": "product",
+    "summary": "Finn-loop is a set of three Claude Code skills that integrate Linear and GitHub to create an AI software factory. The process involves creating an issue, labeling it agent-ready, and then having a build skill claim it and open a pull request. A final review skill posts a verdict, and a rule requires",
+    "last_updated": "2026-07-24"
+  },
+  "linear": {
+    "canonical_name": "Linear",
+    "entity_type": "product",
+    "summary": "Linear is a product designed to help high-performing software teams build better products faster. It focuses on product development workflows, unlike Asana which is positioned as a general operating system for cross-functional work. Linear's paid plans start at $8 per user per month, while Asana's P",
+    "last_updated": "2026-07-24"
+  },
+  "finnspec": {
+    "canonical_name": "/finn-spec",
+    "entity_type": "product",
+    "summary": "The material did not address this. The provided text is a Vimeo video description for a trailer titled 'FINN SPEC TRAILER 2 2' and does not contain information about a product named '/finn-spec'.",
+    "last_updated": "2026-07-24"
+  },
+  "finnbuild": {
+    "canonical_name": "/finn-build",
+    "entity_type": "product",
+    "summary": "The material did not address this. The provided text is a description of the FinnBuild International Construction and Building Technology Fair and does not contain information about a product or skill named '/finn-build'.",
+    "last_updated": "2026-07-24"
+  },
+  "finnreview": {
+    "canonical_name": "/finn-review",
+    "entity_type": "product",
+    "summary": "The material did not address this. The provided text is a product review for 'ABBY&FINN', a subscription box for baby essentials, and does not contain information about a product or skill named '/finn-review'.",
+    "last_updated": "2026-07-24"
   }
 }
