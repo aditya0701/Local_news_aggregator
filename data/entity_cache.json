@@ -11851,5 +11851,686 @@
     "entity_type": "product",
     "summary": "The material did not address this. The provided text is a product review for 'ABBY&FINN', a subscription box for baby essentials, and does not contain information about a product or skill named '/finn-review'.",
     "last_updated": "2026-07-24"
+  },
+  "claude opus 5": {
+    "canonical_name": "Claude Opus 5",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 5 is a premium AI model tool developed by Anthropic for complex, agentic workflows and professional knowledge work. It is designed for enterprise users and developers, offering high-reasoning capabilities and is positioned as a cost-effective alternative to more powerful models like Clau",
+    "last_updated": "2026-07-25"
+  },
+  "claude max": {
+    "canonical_name": "Claude Max",
+    "entity_type": "product",
+    "summary": "Claude Max is a premium AI subscription priced at $100-200/month, offering unlimited messages and access to the latest models like Opus 4.5. The review suggests it is best suited for workflow testers who need to evaluate if the premium cost translates to tangible productivity gains over the free ver",
+    "last_updated": "2026-07-25"
+  },
+  "claude pro": {
+    "canonical_name": "Claude Pro",
+    "entity_type": "product",
+    "summary": "Claude Pro is a premium subscription that provides at least five times more usage compared to the free version of Claude. It is designed as an advanced version of Claude 2, featuring a 100K token context window, which allows for more intricate and extended user interactions compared to competitors l",
+    "last_updated": "2026-07-25"
+  },
+  "opus 48": {
+    "canonical_name": "Opus 4.8",
+    "entity_type": "ai_model",
+    "summary": "Opus 4.8 is a premium AI model tool from Anthropic, released on May 28, 2026, for professional software engineers and enterprise users. It is designed for complex, agentic tasks and high-stakes enterprise work, with its release marked by strong performance in testing against other models.",
+    "last_updated": "2026-07-25"
+  },
+  "mythos 5": {
+    "canonical_name": "Mythos 5",
+    "entity_type": "ai_model",
+    "summary": "Claude Mythos 5 is a model optimized for high-reasoning, autonomous research tasks, representing a shift from static chatbots to 'research agents'. It is designed to solve intricate engineering and scientific problems with a high degree of agency and a dramatic reduction in task refusal rates.",
+    "last_updated": "2026-07-25"
+  },
+  "frontierbench": {
+    "canonical_name": "Frontier-Bench",
+    "entity_type": "technology",
+    "summary": "Frontier-Bench is an official successor to Terminal-Bench, built to measure and evolve with the frontier of agent work. It introduces a harder, more domain-diverse task set to discriminate between frontier and sub-frontier models, serving as the next benchmark for terminal agents.",
+    "last_updated": "2026-07-25"
+  },
+  "gdpvalaa": {
+    "canonical_name": "GDPval-AA",
+    "entity_type": "technology",
+    "summary": "GDPval-AA is a text benchmark evaluating AI models on reasoning, legal, finance, and general agent tasks. It tracks 38 models, with the current average score at 1281.8, and is used to measure performance on economically valuable knowledge work tasks across professional domains.",
+    "last_updated": "2026-07-25"
+  },
+  "cursorbench 32": {
+    "canonical_name": "CursorBench 3.2",
+    "entity_type": "technology",
+    "summary": "CursorBench 3.2 evaluates AI agents on ambiguous, multi-file tasks from real Cursor sessions. Higher scores indicate better performance, and the benchmark also calculates the average cost per task based on each model's pricing. It notes that Grok 4.5 had an advantage due to unintentional training da",
+    "last_updated": "2026-07-25"
+  },
+  "wasmtime": {
+    "canonical_name": "Wasmtime",
+    "entity_type": "product",
+    "summary": "Wasmtime is a fast and secure runtime for WebAssembly (Wasm) and WASI (WebAssembly System Interface). It is built on the Cranelift code generator and can run WebAssembly code outside the web, either as a CLI tool or embedded as a library.",
+    "last_updated": "2026-07-25"
+  },
+  "wasm gc": {
+    "canonical_name": "Wasm GC",
+    "entity_type": "technology",
+    "summary": "The Wasm GC specification is a proposal that provides a standard for garbage collection in WebAssembly. It offers language implementors a way to add memory management to their Wasm modules, going beyond the standard garbage collection capabilities.",
+    "last_updated": "2026-07-25"
+  },
+  "wasm exceptions": {
+    "canonical_name": "Wasm exceptions",
+    "entity_type": "technology",
+    "summary": "Exception handling in WebAssembly allows code to break control flow when an exception is thrown. The exception can be any known exception within the module or an unknown exception thrown by an imported function.",
+    "last_updated": "2026-07-25"
+  },
+  "gravatar": {
+    "canonical_name": "Gravatar",
+    "entity_type": "product",
+    "summary": "Gravatar is a universal avatar service that allows content creators to synchronize images across different sites. The platform offers a product overview, partner products, and pricing information, along with a comparison to other avatar services like DiceBear Avatars.",
+    "last_updated": "2026-07-25"
+  },
+  "postgres": {
+    "canonical_name": "Postgres",
+    "entity_type": "product",
+    "summary": "EDB Postgres AI Database is a sovereign solution that powers transactional, analytical, and AI workloads. It is built on open source and provides a multi-model database for critical applications, supporting relational, vector, document, and time series data types.",
+    "last_updated": "2026-07-25"
+  },
+  "listennotify": {
+    "canonical_name": "LISTEN/NOTIFY",
+    "entity_type": "technology",
+    "summary": "Jan 28, 2026 · PostgreSQL’s LISTEN/NOTIFY mechanism is often overlooked, yet it provides an efficient way for the database to emit signals to connected client applications. Curious how it works? I wrote a ... PostgreSQL’s LISTEN/NOTIFY mechanism is often overlooked, yet it provides an efficient way",
+    "last_updated": "2026-07-25"
+  },
+  "university of st andrews": {
+    "canonical_name": "University of St Andrews",
+    "entity_type": "organization",
+    "summary": "The University of St Andrews is a Scottish university recognized as the University of the Year and second in the UK in both The Times and Sunday Times Good University Guide 2026 and The Guardian University Guide 2026. It offers postgraduate communities, world-leading research facilities, and cutting",
+    "last_updated": "2026-07-25"
+  },
+  "universite de neuchatel": {
+    "canonical_name": "Université de Neuchâtel",
+    "entity_type": "organization",
+    "summary": "The Université de Neuchâtel is an institution with four faculties: Faculty of Letters and Human Sciences, Faculty of Sciences, Faculty of Law, and Faculty of Economic and Social Sciences. It includes university commissions with missions and biographies of its professorial members, offering bachelor",
+    "last_updated": "2026-07-25"
+  },
+  "hanwha": {
+    "canonical_name": "Hanwha",
+    "entity_type": "company",
+    "summary": "Hanwha is a trusted global partner delivering foundational systems that secure societies, strengthen industries, and drive future resilience. The company builds next-generation vessels and maritime technologies, integrated defense systems, and solutions across the energy value chain. Through digital",
+    "last_updated": "2026-07-25"
+  },
+  "hanwha vision": {
+    "canonical_name": "Hanwha Vision",
+    "entity_type": "company",
+    "summary": "Hanwha Vision is a global security solutions provider offering smart surveillance. As of 2026, it is the fifth largest business enterprise in South Korea and a Fortune Global 500 company. Founded in 1952, Hanwha Vision has grown by anticipating changing business environments and has a balanced busin",
+    "last_updated": "2026-07-25"
+  },
+  "wisenet xnp9300rw": {
+    "canonical_name": "Wisenet XNP-9300RW",
+    "entity_type": "product",
+    "summary": "The Wisenet XNP-9300RW is a security camera with 4K image resolution, 30x optical zoom, and an IR length of 200m. It features a Wisenet PTZ Plus design, which is compact and lighter, and includes built-in Wiper and target lock tracking. The product is part of a series of models, including the XNP-83",
+    "last_updated": "2026-07-25"
+  },
+  "fwupgrader": {
+    "canonical_name": "fwupgrader",
+    "entity_type": "product",
+    "summary": "The fwupgrader is a tool used to update firmware on specific devices, such as mindsensors.com sensors from an EV3. The process involves opening a ZIP file, copying a single file named fwupgrader to a microSD card, and then inserting that card into a Windows computer. The device should show a drive n",
+    "last_updated": "2026-07-25"
+  },
+  "htw": {
+    "canonical_name": "HTW",
+    "entity_type": "technology",
+    "summary": "HTW® Gasification Technology, or High-Temperature Winkler, is a highly developed gasification technology that utilizes bio-based feedstocks. Originally developed in the 1920s by Rheinbraun AG, the process has been significantly improved and re-engineered over the years to handle a broad range of fee",
+    "last_updated": "2026-07-25"
+  },
+  "fwimagetgz": {
+    "canonical_name": "fwimage.tgz",
+    "entity_type": "technology",
+    "summary": "fwimage.tgz is a file that can be found within the firmware image of certain security cameras, such as those from Hanwha Vision. It was flagged as encrypted by binwalk and contained AI-related data for the camera. The discovery of such files in firmware can be a security concern, as it may indicate",
+    "last_updated": "2026-07-25"
+  },
+  "rootfs": {
+    "canonical_name": "rootfs",
+    "entity_type": "technology",
+    "summary": "The root filesystem is the top-level directory in a hierarchical file tree, denoted as '/'. In Linux, the kernel directly mounts the rootfs, and it can contain mount points for other filesystems. This well-defined structure provides easy isolation and identification of data, and directories are stru",
+    "last_updated": "2026-07-25"
+  },
+  "aiinduced mass psychosis": {
+    "canonical_name": "AI-induced mass psychosis",
+    "entity_type": "general",
+    "summary": "The provided material does not contain information about AI-induced mass psychosis.",
+    "last_updated": "2026-07-25"
+  },
+  "tokenmaxxing": {
+    "canonical_name": "token-maxxing",
+    "entity_type": "general",
+    "summary": "Tokenmaxxing is a Silicon Valley trend where AI usage itself becomes a proxy for productivity, pushing workers to consume massive amounts of tokens via autonomous agents. While it may boost adoption, critics argue it is costly, performative, and flawed, rewarding activity over outcomes and creating",
+    "last_updated": "2026-07-25"
+  },
+  "hospital beds": {
+    "canonical_name": "hospital beds",
+    "entity_type": "general",
+    "summary": "Hospital beds play a crucial role in patient care, providing comfort, support, and functionality to meet the diverse needs of individuals in a medical setting. The variety of hospital beds available reflects the diverse medical needs of patients, from standard beds for general healthcare to speciali",
+    "last_updated": "2026-07-25"
+  },
+  "programmers": {
+    "canonical_name": "programmers",
+    "entity_type": "general",
+    "summary": "BPM Microsystems announced the last buy for its 7th Gen programmers due to supply chain constraints that made it unavailable to manufacture new units. The company decided to focus on supporting existing products rather than producing new ones, diverting resources toward service, support, and the dev",
+    "last_updated": "2026-07-25"
+  },
+  "models": {
+    "canonical_name": "models",
+    "entity_type": "general",
+    "summary": "Models are categorized into two main types in the Upscayl custom models repository: General models and Digital Art models. Each category is optimized for different types of image content and use cases, with specific characteristics and intended applications for each.",
+    "last_updated": "2026-07-25"
+  },
+  "software": {
+    "canonical_name": "software",
+    "entity_type": "general",
+    "summary": "Software is a set of instructions, data, or programs used to operate computers and execute specific tasks, serving as the variable part of a computer while hardware is the invariable part. The two main categories of software are application software, which fulfills a specific need, and system softwa",
+    "last_updated": "2026-07-25"
+  },
+  "management": {
+    "canonical_name": "management",
+    "entity_type": "general",
+    "summary": "The output of a manager is the output of the team members under their direct or indirect supervision or influence, a concept from the book High Output Management. This is not about appropriating credit for work done by colleagues but about understanding that a manager's effectiveness is tied to thei",
+    "last_updated": "2026-07-25"
+  },
+  "team output": {
+    "canonical_name": "team output",
+    "entity_type": "general",
+    "summary": "The output of a manager is the output of the team members under their direct or indirect supervision or influence, a hypothesis from the book High Output Management. This perspective emphasizes that a manager's effectiveness is measured by the team's collective output rather than by individual contr",
+    "last_updated": "2026-07-25"
+  },
+  "software teams": {
+    "canonical_name": "software teams",
+    "entity_type": "general",
+    "summary": "Today's software teams are diverse, including product managers, designers, marketers, operations, developers, and testers. Shared skill sets within these teams unlock their power to tackle heterogeneous work, making members more valuable to the organization and guarding against critical path depende",
+    "last_updated": "2026-07-25"
+  },
+  "macos snow leopard": {
+    "canonical_name": "macOS Snow Leopard",
+    "entity_type": "general",
+    "summary": "macOS Leopard, released in 2007, was the sixth major release of Mac's operating system and featured a slightly different logo in black. The material also mentions that installing new software on a Mac can leave behind junk files, even after uninstallation, and suggests using MacKeeper's Smart Uninst",
+    "last_updated": "2026-07-25"
+  },
+  "gpu farms": {
+    "canonical_name": "GPU farms",
+    "entity_type": "general",
+    "summary": "A GPU farm is a collection of Graphics Processing Units (GPUs) placed side by side to handle demanding computational tasks, especially in areas like Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning. This setup allows for processing to become easier and faster by handling tasks",
+    "last_updated": "2026-07-25"
+  },
+  "kpioriented": {
+    "canonical_name": "KPI-oriented",
+    "entity_type": "general",
+    "summary": "KPI-oriented approaches use performance indicators to drive self-directed, organization-based learning activities by integrating individual needs, organizational objectives, and social context. Critical success factors (CSFs) are identified as necessary elements for a strategy to succeed, and CSFs a",
+    "last_updated": "2026-07-25"
+  },
+  "stephen l coles": {
+    "canonical_name": "Stephen L. Coles",
+    "entity_type": "person",
+    "summary": "Stephen L. Coles is a researcher who has published 6 works with over 1,200 citations and 961 reads. He was diagnosed with pancreatic cancer and underwent a Whipple procedure, and his continued work is seen as vital for longevity research.",
+    "last_updated": "2026-07-25"
+  },
+  "alcor": {
+    "canonical_name": "Alcor",
+    "entity_type": "organization",
+    "summary": "Alcor is a non-profit scientific research foundation based in Scottsdale, Arizona, established in 1972. It is recognized as the world's leader in cryopreservation research and technology, focusing on preserving human life through cryonics.",
+    "last_updated": "2026-07-25"
+  },
+  "cryonics": {
+    "canonical_name": "cryonics",
+    "entity_type": "technology",
+    "summary": "Cryonics is a scientific experiment aimed at preserving human life until future medical advancements can cure current limitations. It seeks to safeguard memories, personality, and identity by preserving the physical structures that store them, with cryopreservation being described as a potential enc",
+    "last_updated": "2026-07-25"
+  },
+  "the download product": {
+    "canonical_name": "The Download (product)",
+    "entity_type": "general",
+    "summary": "The Download (product) is a downloadable product type in WooCommerce that allows merchants to sell digital files. This page provides guidance on configuring downloadable product settings, including file download methods, upload protection, storage options, and how customers receive and access their",
+    "last_updated": "2026-07-25"
+  },
+  "micro": {
+    "canonical_name": "Micro",
+    "entity_type": "product",
+    "summary": "CME Group offers monthly and weekly options on Micro Gold futures. The tick increment for Micro Henry Hub Natural Gas futures is 1/10 of one cent per mmBTU. The ELEDD MICRO is a range of micro-processor controlled emergency drivers with Mackwell’s unique Origin technology platform at its core, provi",
+    "last_updated": "2026-07-25"
+  },
+  "work louder": {
+    "canonical_name": "Work Louder",
+    "entity_type": "company",
+    "summary": "Work Louder make products for people, inspired by a version of themselves sometimes forgotten - playful, versatile, and above all else, creative. Support Keyboards Nomad [e] Knob Knob1 Figma Creator micro Creator micro Creator board Creator board XL Shop Accessories Deskmat Animo deskmat Animo deskm",
+    "last_updated": "2026-07-25"
+  },
+  "gulf of mexico": {
+    "canonical_name": "Gulf of Mexico",
+    "entity_type": "location",
+    "summary": "The Gulf of Mexico is a water body that borders the southeastern coast of North America. It is connected to the Atlantic Ocean by the Straits of Florida and to the Caribbean Sea by the Yucatán Channel.",
+    "last_updated": "2026-07-25"
+  },
+  "prentis": {
+    "canonical_name": "Prentis",
+    "entity_type": "ai_model",
+    "summary": "Prentis is an AI research lab focused on computer use models that perceive screens and operate software across mobile, browser, and desktop. The lab, co-founded by Ritankar Das, Reid Hoffman, and Mark Pincus, is in talks to raise $100 million at a $1 billion valuation to build AI agents that automat",
+    "last_updated": "2026-07-25"
+  },
+  "reid hoffman": {
+    "canonical_name": "Reid Hoffman",
+    "entity_type": "person",
+    "summary": "Reid Hoffman is a serial entrepreneur and co-founder of LinkedIn, Inflection AI, and Manas AI. He is also a partner at venture firm Greylock and the author of the book 'Superagency.' His current focus is on investing in and building with AI to benefit humanity.",
+    "last_updated": "2026-07-25"
+  },
+  "mark pincus": {
+    "canonical_name": "Mark Pincus",
+    "entity_type": "person",
+    "summary": "Mark Pincus is the founder of Zynga, an online games platform best known for creating social games like Farmville and Mafia Wars. He was the CEO of Zynga until 2016 and is also an early investor in social media giants such as Facebook and Twitter.",
+    "last_updated": "2026-07-25"
+  },
+  "ritankar das": {
+    "canonical_name": "Ritankar Das",
+    "entity_type": "person",
+    "summary": "Ritankar Das is the founder of Titan Holdings and a co-founder of the AI research lab Prentis. He is an entrepreneur with experience at David Cohen Techstars and has a background in research and investments.",
+    "last_updated": "2026-07-25"
+  },
+  "gpt54": {
+    "canonical_name": "GPT-5.4",
+    "entity_type": "ai_model",
+    "summary": "GPT-5.4 is OpenAI's latest frontier model, which unifies the Codex and GPT lines into a single system. It features a 1M+ token context window and is designed as a strong default for general-purpose tasks and software engineering, with improved performance in coding and tool use.",
+    "last_updated": "2026-07-25"
+  },
+  "claude opus 46": {
+    "canonical_name": "Claude Opus 4.6",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 4.6 is an upgraded model available on the Claude API and major cloud platforms. It improves on its predecessor's coding skills, can operate more reliably in larger codebases, and features a 1M token context window in beta. The model is designed for everyday work tasks like financial anal",
+    "last_updated": "2026-07-25"
+  },
+  "hive32b": {
+    "canonical_name": "Hive-32B",
+    "entity_type": "ai_model",
+    "summary": "Hive-32B is not an AI model but a piece of ransomware-type malware. It looks for files on a disk drive, ciphers them, and then demands a ransom for the decryption key. The malware typically appears after provocative actions like opening untrustworthy emails or clicking advertisements.",
+    "last_updated": "2026-07-25"
+  },
+  "smart money stage": {
+    "canonical_name": "Smart Money Stage",
+    "entity_type": "product",
+    "summary": "The Smart Money Stage is a new stage at TechCrunch Disrupt 2026 dedicated to the evolution of money. It will feature leaders from companies like Circle, Robinhood, and American Express discussing how fintech, payments, and AI are colliding to reshape money movement and financial services.",
+    "last_updated": "2026-07-25"
+  },
+  "circle": {
+    "canonical_name": "Circle",
+    "entity_type": "company",
+    "summary": "Circle is a company focused on stablecoin adoption, with its USDC stablecoin having a market cap exceeding $70 billion. It is expanding payment infrastructure through developments like MassPay, offering businesses a way to streamline payouts, employee rewards, and vendor payments globally.",
+    "last_updated": "2026-07-25"
+  },
+  "robinhood": {
+    "canonical_name": "Robinhood",
+    "entity_type": "company",
+    "summary": "Robinhood Markets, Inc. is a US-based financial services company headquartered in Menlo Park, California. Founded in 2013, it is a top-paying company that offers a range of financial services and has a workforce of 1,000 to 5,000 employees.",
+    "last_updated": "2026-07-25"
+  },
+  "american express": {
+    "canonical_name": "American Express",
+    "entity_type": "company",
+    "summary": "American Express offers world-class Charge and Credit Cards, Gift Cards, Rewards, Travel, Personal Savings, and Business Services. The company supports over 97,939 employees and focuses on empowering people and businesses to progress with the right financial backing.",
+    "last_updated": "2026-07-25"
+  },
+  "plaid": {
+    "canonical_name": "Plaid",
+    "entity_type": "company",
+    "summary": "Plaid empowers innovators by delivering access to the financial system. It focuses on democratizing financial services through technology, building consumer experiences and developer-friendly infrastructure that allow people to securely connect their financial accounts to the fintech services they c",
+    "last_updated": "2026-07-25"
+  },
+  "airwallex": {
+    "canonical_name": "Airwallex",
+    "entity_type": "company",
+    "summary": "Airwallex is a tech-oriented company with a strong API, competitive rates, and a smooth platform. It provides software and APIs to manage business accounts, spend, payments, and embedded finance, helping global businesses save time and money as they scale.",
+    "last_updated": "2026-07-25"
+  },
+  "moscone center": {
+    "canonical_name": "Moscone Center",
+    "entity_type": "organization",
+    "summary": "The Moscone Center is San Francisco's premier meeting and exhibition facility. It anchors the city's tourism industry with over 2 million square feet of building area, including more than 700,000 square feet of exhibit space and up to 106 meeting rooms.",
+    "last_updated": "2026-07-25"
+  },
+  "fednow": {
+    "canonical_name": "FedNow",
+    "entity_type": "regulation",
+    "summary": "The FedNow Service Operating Procedures provide operational details for the FedNow Service. The Federal Reserve Banks may change these procedures at any time and will provide at least 30 days' prior notice for material changes, with the terms of the service governing any inconsistency.",
+    "last_updated": "2026-07-25"
+  },
+  "nikhil chandhok": {
+    "canonical_name": "Nikhil Chandhok",
+    "entity_type": "person",
+    "summary": "Nikhil Chandhok is a technical leader and Chief Product Officer & Technology Officer at Circle. He has experience building many products and holds an education from The Ohio State University, with a location in the San Francisco Bay Area.",
+    "last_updated": "2026-07-25"
+  },
+  "rodney robinson": {
+    "canonical_name": "Rodney Robinson",
+    "entity_type": "person",
+    "summary": "Rodney Robinson's journey was shaped by gospel roots and cultural influence, leading to a mission of awareness and intentional living. He grew up in the culture of Church Street, surrounded by gospel and tradition, and later stepped into the rise of rap culture, where truth was taught in a different",
+    "last_updated": "2026-07-25"
+  },
+  "lotti siniscalco": {
+    "canonical_name": "Lotti Siniscalco",
+    "entity_type": "person",
+    "summary": "Lotti Siniscalco is a General Partner at Emergence, having joined in 2018 and rising to the role in 2026. She leads investments in companies like Oyster and Federato, and also mentors associates in sourcing, research, and diligence skills.",
+    "last_updated": "2026-07-25"
+  },
+  "vietnam": {
+    "canonical_name": "Vietnam",
+    "entity_type": "country",
+    "summary": "Vietnam is a one-party Communist state and one of Southeast Asia's fastest-growing economies. It has been a unified country since 1975, following three decades of war, and faces challenges including corruption, political censorship, and human rights issues.",
+    "last_updated": "2026-07-25"
+  },
+  "france": {
+    "canonical_name": "France",
+    "entity_type": "country",
+    "summary": "France is a country in northwestern Europe, historically and culturally important in the Western world. Its capital is Paris, and it has played a significant role in international affairs for centuries.",
+    "last_updated": "2026-07-25"
+  },
+  "ministry of culture sports and tourism": {
+    "canonical_name": "Ministry of Culture, Sports and Tourism",
+    "entity_type": "organization",
+    "summary": "The Ministry of Culture, Sports and Tourism organized a conference for digital media units and individuals. It is hosting the Hue Wonderverse Music Fest 2026 and implementing programs for youth digital transformation and ASEAN cultural integration.",
+    "last_updated": "2026-07-25"
+  },
+  "deputy culture minister phan tam": {
+    "senses": [
+      {
+        "sense_label": "Phan Tam",
+        "summary": "Deputy Culture Minister Phan Tam stated the goal is not to ban social media for children but to ensure an age-appropriate environment. The decree is not finalized and could be revised, with a draft proposal suggesting users under 16 can keep accounts but lose posting and commenting abilities.",
+        "last_updated": "2026-07-25"
+      }
+    ]
+  },
+  "volkswagen": {
+    "canonical_name": "Volkswagen",
+    "entity_type": "company",
+    "summary": "Volkswagen AG is a German company founded in 1937 that produces and sells passenger cars and light commercial vehicles. The firm also develops vehicles and components for its group brands and operates as a subsidiary of Porsche Automobil Holding SE.",
+    "last_updated": "2026-07-25"
+  },
+  "michael stamp": {
+    "canonical_name": "Michael Stamp",
+    "entity_type": "person",
+    "summary": "Michael Stamp is an award-winning filmmaker from Edmond, Oklahoma, who attended Oklahoma City University for a Bachelor of Fine Arts in Film Production. He previously worked as an editor at KFOR Channel 4 and is currently a Creative Director at MStamp Media.",
+    "last_updated": "2026-07-25"
+  },
+  "marcus plank": {
+    "canonical_name": "Marcus Plank",
+    "entity_type": "person",
+    "summary": "Marcus Plank is a freestyle skier born on July 6, 2002, who competes internationally for Austria. His last recorded result was 26th place in the men's ski cross at the 2022/2023 World Junior Freestyle Championships, and he competes in ski cross and team snowboardcross.",
+    "last_updated": "2026-07-25"
+  },
+  "project climb": {
+    "canonical_name": "Project Climb",
+    "entity_type": "event",
+    "summary": "Project Climb is a mission by Jenn Drummond to climb Mont Blanc, Mount Elbrus, and Denali in 60 days across three continents. The journey is described as a test of resilience and a way to empower mothers through adventure, culminating in a world record.",
+    "last_updated": "2026-07-25"
+  },
+  "the interaction company of california": {
+    "canonical_name": "The Interaction Company of California",
+    "entity_type": "organization",
+    "summary": "The Interaction Company of California is a privately held software development company headquartered in Palo Alto, CA, with 2-10 employees. It is known for creating the AI assistant Poke and is currently involved in a partnership with Cognition, where Cognition is acquiring the company.",
+    "last_updated": "2026-07-25"
+  },
+  "cognition": {
+    "canonical_name": "Cognition",
+    "entity_type": "company",
+    "summary": "Cognition helps engineers operate more like architects by strategizing, designing systems, and focusing on problem-solving, while its agents handle repetitive engineering work. The company believes technology's purpose is to expand human capacity by working alongside people as an exponential collabo",
+    "last_updated": "2026-07-25"
+  },
+  "poke": {
+    "canonical_name": "Poke",
+    "entity_type": "product",
+    "summary": "Poke is a proactive AI assistant built by The Interaction Company to live inside existing messaging platforms like iMessage, WhatsApp, and SMS. It integrates with a user's email, calendar, and files to turn messages into actions such as drafting replies, rescheduling meetings, and paying invoices th",
+    "last_updated": "2026-07-25"
+  },
+  "devin": {
+    "canonical_name": "Devin",
+    "entity_type": "product",
+    "summary": "Devin is Cognition's autonomous AI software engineer that can inspect a codebase, plan work, edit files, run commands and tests, and open pull requests. It operates within a cloud development environment and offers a web app, a PWA workspace, and a terminal interface, with integrations for teams and",
+    "last_updated": "2026-07-25"
+  },
+  "marvin von hagen": {
+    "canonical_name": "Marvin von Hagen",
+    "entity_type": "person",
+    "summary": "Marvin von Hagen is a German engineer and entrepreneur, currently an incoming visiting graduate researcher at MIT focusing on collective intelligence. He previously co-founded and led TUM Boring e.V., a non-profit that built a large tunnel boring machine and won Elon Musk’s Not-a-Boring Competition.",
+    "last_updated": "2026-07-25"
+  },
+  "scott wu": {
+    "canonical_name": "Scott Wu",
+    "entity_type": "person",
+    "summary": "Scott Wu is a highly accomplished American entrepreneur, competitive programmer, and AI innovator, best known as the co-founder and CEO of Cognition AI. He is recognized for creating Devin, an AI solution celebrated for its ability to code and construct websites through simplified processes. Scott W",
+    "last_updated": "2026-07-25"
+  },
+  "walden yan": {
+    "canonical_name": "Walden Yan",
+    "entity_type": "person",
+    "summary": "Walden Yan is a Chinese-American entrepreneur and co-founder of Cognition AI, an artificial intelligence company based in San Francisco. Cognition AI is renowned for developing Devin AI, an autonomous AI coding agent, and was founded in August 2023 by Scott Wu, Steven Hao, and Walden Yan, who are al",
+    "last_updated": "2026-07-25"
+  },
+  "the us justice department": {
+    "canonical_name": "The U.S. Justice Department",
+    "entity_type": "organization",
+    "summary": "The U.S. Justice Department's civil rights division enforces federal laws protecting the right to vote, including the Voting Rights Act of 1965 and the National Voter Registration Act. The department is also planning to deploy federal observers for Election Day and requires FBI approval for politica",
+    "last_updated": "2026-07-25"
+  },
+  "samuel tunick": {
+    "canonical_name": "Samuel Tunick",
+    "entity_type": "person",
+    "summary": "Samuel Tunick is an activist who was arrested by federal agents in Atlanta on a charge of destruction of evidence. He pleaded not guilty to the charge before a Chief U.S. Magistrate Judge.",
+    "last_updated": "2026-07-25"
+  },
+  "us customs and border protection": {
+    "canonical_name": "U.S. Customs and Border Protection",
+    "entity_type": "organization",
+    "summary": "U.S. Customs and Border Protection is the first unified border entity, combining customs, immigration, border security, and agricultural protection. It takes a comprehensive approach to border management and control, and provides statistical data on border security, trade, and travel.",
+    "last_updated": "2026-07-25"
+  },
+  "atlanta": {
+    "canonical_name": "Atlanta",
+    "entity_type": "location",
+    "summary": "Atlanta is the capital city of Georgia, located in the northwestern part of the state in the foothills of the Blue Ridge Mountains. It is Georgia's largest city and the principal trade and transportation center of the southeastern United States.",
+    "last_updated": "2026-07-25"
+  },
+  "us department of defense": {
+    "canonical_name": "U.S. Department of Defense",
+    "entity_type": "organization",
+    "summary": "The Department of Defense (DOD) provides the military forces needed to deter war and protect the security of the United States. For nearly five decades, U.S. DOT's Volpe Center has provided essential support to critical missions across branches of the Department of Defense (DoD).",
+    "last_updated": "2026-07-25"
+  },
+  "air force": {
+    "canonical_name": "Air Force",
+    "entity_type": "organization",
+    "summary": "The US Department of the Air Force is a large organization with over 317,000 active duty Airmen. The tiered command organizational structure of the service helps manage the Airmen and their efforts to organize, train, equip, and execute military capability while effectively taking care of the indivi",
+    "last_updated": "2026-07-25"
+  },
+  "army": {
+    "canonical_name": "Army",
+    "entity_type": "organization",
+    "summary": "The Army Organizational Structure of a nation’s armed forces is fundamental to ensuring coordinated and effective defense capabilities. Understanding the hierarchy and functional divisions reveals how armies adapt to evolving security challenges.",
+    "last_updated": "2026-07-25"
+  },
+  "dutch ministry of defence": {
+    "canonical_name": "Dutch Ministry of Defence",
+    "entity_type": "organization",
+    "summary": "The Ministry of Defence stands for peace and security in the Netherlands and elsewhere. Defence stands for peace and security, in the Netherlands and elsewhere. The armed forces contribute to stability and freedom in the world. The Ministry of Defence is one of the biggest employers in the Netherlan",
+    "last_updated": "2026-07-25"
+  },
+  "nato": {
+    "canonical_name": "NATO",
+    "entity_type": "organization",
+    "summary": "NATO’s purpose is to guarantee the freedom and security of its members through political and military means. The North Atlantic Council approved NATO’s 2027–2031 Common Funding Resource Plan, setting out how the Alliance will invest in shared priorities.",
+    "last_updated": "2026-07-25"
+  },
+  "uk ministry of defence": {
+    "canonical_name": "U.K. Ministry of Defence",
+    "entity_type": "organization",
+    "summary": "The United Kingdom has been one of the most reliable military allies for the United States since World War II. The United Kingdom has played a vital role in supporting the United States in the preservation of the international system forged in the aftermath of the defeat of fascism in the mid-20th c",
+    "last_updated": "2026-07-25"
+  },
+  "poland": {
+    "canonical_name": "Poland",
+    "entity_type": "organization",
+    "summary": "Poland is the largest economy in Central Europe, with GDP surpassing $1 trillion in 2025. Poland’s accession to NATO in 1999 and the European Union (EU) in 2004 have firmly placed the country in the European and Trans-Atlantic community.",
+    "last_updated": "2026-07-25"
+  },
+  "shield ai": {
+    "canonical_name": "Shield AI",
+    "entity_type": "company",
+    "summary": "Shield AI was founded in 2015 to bring the best of AI and autonomy technology to the DoD and our allies to protect service members and civilians. As a Navy SEAL, co-founder Brandon Tseng experienced firsthand problems where intelligent autonomy could have made life-saving differences.",
+    "last_updated": "2026-07-25"
+  },
+  "mach industries": {
+    "canonical_name": "Mach Industries",
+    "entity_type": "company",
+    "summary": "Mach Industries is a defense technology company focused on AI pilots and autonomous systems. For most of the 20th and early 21st centuries, defense procurement favored exquisite platforms, but future conflicts will likely feature cheap, mass-producible, and expendable systems.",
+    "last_updated": "2026-07-25"
+  },
+  "helsing": {
+    "canonical_name": "Helsing",
+    "entity_type": "company",
+    "summary": "Helsing has earned the trust of governments by working with them and industry partners to transform the capabilities of existing hardware assets and deploy software-defined hardware. Defence has become a software problem, requiring a software-native company to develop advanced architectures and AI a",
+    "last_updated": "2026-07-25"
+  },
+  "ethan thornton": {
+    "canonical_name": "Ethan Thornton",
+    "entity_type": "person",
+    "summary": "Ethan Thornton is the Founder and CEO of Mach Industries and is based out of Huntington Beach, California. He previously worked at Blue Oak School as a Founder and attended Massachusetts Institute of Technology.",
+    "last_updated": "2026-07-25"
+  },
+  "tyler yee": {
+    "canonical_name": "Tyler Yee",
+    "entity_type": "person",
+    "summary": "Tyler Yee is an American Writer-Director and Creative Director known for his tangible narratives and bold, often outlandish imagery. He has worked with major artists like G-Eazy and Migos, as well as tech companies, to create content across various multimedia platforms.",
+    "last_updated": "2026-07-25"
+  },
+  "conversation focus ai_model": {
+    "canonical_name": "Conversation Focus (ai_model)",
+    "entity_type": "ai_model",
+    "summary": "The Conversation Focus feature is being updated to use the Gemini 3 model as the new default for AI Overviews. This change aims to provide a best-in-class AI response directly on the search results page and make follow-up questions more seamless.",
+    "last_updated": "2026-07-25"
+  },
+  "early access program event": {
+    "canonical_name": "Early Access Program (event)",
+    "entity_type": "event",
+    "summary": "The Early Access Program is an event series for Alpha Kappa Alpha Sorority, Incorporated, focused on community service, conferences, and special events. Regional events and the International Program Agenda are available through their respective regional sites.",
+    "last_updated": "2026-07-25"
+  },
+  "qualcomm": {
+    "canonical_name": "Qualcomm",
+    "entity_type": "company",
+    "summary": "QUALCOMM Incorporated is a company that develops and commercializes foundational technologies for the wireless industry worldwide. It transforms industries by providing leading edge AI, high-performance, low-power computing, and unrivaled connectivity.",
+    "last_updated": "2026-07-25"
+  },
+  "costar": {
+    "canonical_name": "Co-Star",
+    "entity_type": "product",
+    "summary": "Co-Star is a hyper-personalized, social astrology app that uses both AI and humans to write horoscopes, compatibility assessments, and other advice based on a user's astrological information. Users can determine their astrological birth charts and share them with friends on the platform, which is do",
+    "last_updated": "2026-07-25"
+  },
+  "banu guler": {
+    "canonical_name": "Banu Guler",
+    "entity_type": "person",
+    "summary": "Banu Guler is the Founder & CEO of Co-Star, a hyper-personalized, social astrology app. She previously served as the Director of Product at VFILES and has worked for companies like Michael Kors, Alex & Ani, and the Max Planck Institute.",
+    "last_updated": "2026-07-25"
+  },
+  "david holz": {
+    "canonical_name": "David Holz",
+    "entity_type": "person",
+    "summary": "David Holz is the Founder & CEO of Midjourney, a generative AI-powered platform that allows users to create unique artwork through text prompts. He was formerly CTO & Co-Founder of Leap Motion and has conducted neuroscience research for NASA and the Max Planck Institute.",
+    "last_updated": "2026-07-25"
+  },
+  "xtra technology": {
+    "canonical_name": "Xtra Technology",
+    "entity_type": "company",
+    "summary": "XTRA. Milions of records in milliseconds. Technology. Your project done right. It's stronger than us – from the moment we start putting a digital project together we're already thinking big. Over the past two weeks, we’ve explained how an embarrassed FCC is cracking down on companies including Xtra",
+    "last_updated": "2026-07-25"
+  },
+  "osmo pocket 4 pro": {
+    "canonical_name": "Osmo Pocket 4 Pro",
+    "entity_type": "product",
+    "summary": "Powered by a 1-inch CMOS sensor, Osmo Pocket 4 captures stunning 4K/240fps footage and clear low-light shots. It delivers cinematic depth via 14 stops of dynamic range and 10-bit D-Log. Its 2× lossless zoom and 3-axis stabilization bring distant beauty within reach.",
+    "last_updated": "2026-07-25"
+  },
+  "xtra muse 2 pro": {
+    "canonical_name": "Xtra Muse 2 Pro",
+    "entity_type": "product",
+    "summary": "XTRA Muse 2 Pro: पहिला दृष्टी — 1-дюймовая матрица, два объектива, поворотный экран, X-Log3, 103... The Xtra Muse 2 Pro. But today, Xtra has abruptly removed the new Xtra Muse 2 Pro from its website landing page, is pausing preorders indefinitely, and says it’ll refund all the $20 deposits that it’s",
+    "last_updated": "2026-07-25"
+  },
+  "united states": {
+    "canonical_name": "United States",
+    "entity_type": "location",
+    "summary": "The United States is a country in North America that is a federal republic of 50 states. Besides the 48 conterminous states that occupy the middle latitudes of the continent, the United States includes the state of Alaska, at the northwestern extreme of North America, and the island state of Hawaii,",
+    "last_updated": "2026-07-25"
+  },
+  "akis evangelidis": {
+    "canonical_name": "Akis Evangelidis",
+    "entity_type": "person",
+    "summary": "Akis Evangelidis is the co-founder of Nothing and President of Nothing India. He shared an ambitious vision for the brand’s future on the sidelines of a major event.",
+    "last_updated": "2026-07-25"
+  },
+  "phone 4b": {
+    "canonical_name": "Phone 4B",
+    "entity_type": "product",
+    "summary": "Phone (4b) features a colourful new unibody design and a 50 MP main lens. It also includes a focus-saving Glyph Bar and Essential AI tools, blending design elements from the Phone (4a) series.",
+    "last_updated": "2026-07-25"
+  },
+  "cmf": {
+    "canonical_name": "CMF",
+    "entity_type": "product",
+    "summary": "The CoboMover CMF is a linear axis designed to extend the working range of small industrial robots or cobots. It is optimized for positioning/moving, avoids clamping points, and has a compact design suitable for narrow spaces.",
+    "last_updated": "2026-07-25"
+  },
+  "carl pei": {
+    "canonical_name": "Carl Pei",
+    "entity_type": "person",
+    "summary": "Carl Pei is the 36-year-old founder and CEO of Nothing, recognized as the public face of the company. He is known for his performance-like approach to the tech scene and has stirred international debate with his statements.",
+    "last_updated": "2026-07-25"
+  },
+  "roku": {
+    "canonical_name": "Roku",
+    "entity_type": "company",
+    "summary": "Roku is an American publicly traded company based in San Jose, California, that manufactures a variety of digital media players for video streaming. It pioneered streaming to the TV and operates the #1 streaming platform in the US.",
+    "last_updated": "2026-07-25"
+  },
+  "the desk": {
+    "canonical_name": "The Desk",
+    "entity_type": "company",
+    "summary": "The Desk is a briefing and editorial workspace for communications professionals managing thought leadership programs. It also manufactures and sells office furniture, including double office desks and L-shaped desks, serving over 10,000 institutions worldwide.",
+    "last_updated": "2026-07-25"
+  },
+  "ai companies": {
+    "canonical_name": "AI companies",
+    "entity_type": "organization",
+    "summary": "This roundup highlights leading AI companies, including OpenAI, Anthropic, Google, and Nvidia, alongside startups using AI to power search engines, cybersecurity, robotics, and enterprise software. Artificial intelligence is now embedded in business, government, and consumer interactions, reshaping",
+    "last_updated": "2026-07-25"
+  },
+  "nilay patel": {
+    "canonical_name": "Nilay Patel",
+    "entity_type": "person",
+    "summary": "Nilay Patel is an American editor and blogger who has been editor-in-chief of technology news website The Verge since 2014. He also serves as Head of Macro for the Dymon Multi Strategy Fund, where he shares insights on complex market dynamics and differentiates his fund's approach.",
+    "last_updated": "2026-07-25"
+  },
+  "the vergecast": {
+    "canonical_name": "The Vergecast",
+    "entity_type": "organization",
+    "summary": "The Vergecast is the flagship daily podcast from The Verge, hosted by Nilay Patel and David Pierce. The show covers small gadgets, Big Tech, and other technology news, with additional episodes on weekdays led by David Pierce and other Verge staffers.",
+    "last_updated": "2026-07-25"
+  },
+  "danielle ghiglieri": {
+    "canonical_name": "Danielle Ghiglieri",
+    "entity_type": "person",
+    "summary": "Danielle Ghiglieri is a public relations professional and founder based in the United States. She has a background in media and has worked in roles such as founder, consultant, and media professional, and was part of the Executive Team for Up 'Til Dawn and Greek week.",
+    "last_updated": "2026-07-25"
+  },
+  "claudecodeeyes": {
+    "canonical_name": "claude-code-eyes",
+    "entity_type": "product",
+    "summary": "Claude Code Eyes is a camera skill that allows the AI to physically interact with hardware. It enables the AI to write firmware, flash a board, and verify its work directly on the device's display, effectively giving it vision.",
+    "last_updated": "2026-07-25"
+  },
+  "ip webcam": {
+    "canonical_name": "IP Webcam",
+    "entity_type": "product",
+    "summary": "Overview of IP Webcams IP webcams have revolutionized the way we monitor spaces, whether for security purposes, pet watching, or baby monitoring. Unlike traditional cameras that rely on analog signals, IP webcams transmit data over the internet, allowing users to access live feeds from virtually any",
+    "last_updated": "2026-07-25"
   }
 }
