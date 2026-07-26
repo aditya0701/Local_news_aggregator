@@ -12532,5 +12532,359 @@
     "entity_type": "product",
     "summary": "Overview of IP Webcams IP webcams have revolutionized the way we monitor spaces, whether for security purposes, pet watching, or baby monitoring. Unlike traditional cameras that rely on analog signals, IP webcams transmit data over the internet, allowing users to access live feeds from virtually any",
     "last_updated": "2026-07-25"
+  },
+  "ai_model": {
+    "canonical_name": "ai_model",
+    "entity_type": "ESP32-C3",
+    "summary": "ESP32-C3 is a microcontroller module with at least 16MB of flash memory and 8MB of PSRAM, suitable for running small AI models like MNIST without consuming large amounts of memory. It can be used with SynapEdge, a compiler that transforms ONNX models into C code for deployment on any microcontroller",
+    "last_updated": "2026-07-26"
+  },
+  "organization": {
+    "canonical_name": "organization",
+    "entity_type": "Makerworld",
+    "summary": "MakerWorld is a toolbox organization system that uses the Gridfinity standard to create hybrid tray and bin storage solutions. The system features print-in-place drawers and a signature tilt design that helps items settle naturally, making it ideal for real-world storage needs.",
+    "last_updated": "2026-07-26"
+  },
+  "technology": {
+    "canonical_name": "technology",
+    "entity_type": "ADS-B",
+    "summary": "Ad tech (advertising technology) is the infrastructure that powers programmatic ads, including components like DSPs, SSPs, ad servers, and ad exchanges. These systems work together to match the right ad to the right user in milliseconds, forming the backbone of modern digital advertising.",
+    "last_updated": "2026-07-26"
+  },
+  "claudemd": {
+    "canonical_name": "CLAUDE.md",
+    "entity_type": "technology",
+    "summary": "CLAUDE.md is a plain Markdown document that Claude Code reads to store a user's brand voice, rules, and preferences. It is a one-time setup file designed to solve the problem of having to re-enter the same context in every new session. By writing a CLAUDE.md file, developers can improve every sessio",
+    "last_updated": "2026-07-26"
+  },
+  "inflectmicrov2": {
+    "canonical_name": "Inflect-Micro-v2",
+    "entity_type": "ai_model",
+    "summary": "Inflect-Micro-v2 is a text-to-waveform speech synthesis model with 9.36 million parameters and a 37.53 MB FP32 size. It is designed for local execution, offering fixed-voice English TTS with deterministic seeds and long-text handling, prioritizing quality under 10M parameters.",
+    "last_updated": "2026-07-26"
+  },
+  "inflectv2": {
+    "canonical_name": "Inflect-v2",
+    "entity_type": "ai_model",
+    "summary": "Inflect-v2 is a pair of ultra-tiny text-to-speech models, Nano and Micro, each around 3-4 million parameters. They are designed for local execution, capable of producing high-quality speech without requiring external vocoders.",
+    "last_updated": "2026-07-26"
+  },
+  "owen": {
+    "canonical_name": "Owen",
+    "entity_type": "person",
+    "summary": "Owen is described as outgoing, open, and driven by intuition. He is likely to be inviting, enthusiastic, and talkative, often seeking social interaction and investing deeply in existing friendships.",
+    "last_updated": "2026-07-26"
+  },
+  "university of chicago law school": {
+    "canonical_name": "University of Chicago Law School",
+    "entity_type": "organization",
+    "summary": "The University of Chicago Law School is an organization that has released an AI Strategy Statement for legal education. It also runs clinics like the Criminal and Juvenile Justice Clinic and the Federal Criminal Justice Clinic, and hosts events with notable figures.",
+    "last_updated": "2026-07-26"
+  },
+  "search": {
+    "canonical_name": "Search",
+    "entity_type": "ai_model",
+    "summary": "AI-powered search across corporate documentation. Customer-facing knowledge base for complex product ecosystems. Research assistance for competitive intelligence or market insights.",
+    "last_updated": "2026-07-26"
+  },
+  "training": {
+    "canonical_name": "Training",
+    "entity_type": "ai_model",
+    "summary": "Customize AI Model. Your AI, Your Rules: Highly Personalized Customization. At SeaArt AI, personalization is key. Training your own AI model is easier than ever! Follow these simple 4 steps to create your customized model: Step 1: Choose a Base Model. Ready to unleash your creativity with AI? With S",
+    "last_updated": "2026-07-26"
+  },
+  "mondaycom": {
+    "canonical_name": "Monday.com",
+    "entity_type": "company",
+    "summary": "Monday.com is a public company founded in 2012 and headquartered in Tel Aviv, Israel, with 1,001-5,000 employees. It provides an AI work platform that combines people, workflows, and AI agents to help teams plan, execute, and deliver work with greater impact.",
+    "last_updated": "2026-07-26"
+  },
+  "eran zinman": {
+    "canonical_name": "Eran Zinman",
+    "entity_type": "person",
+    "summary": "The material did not address this query.",
+    "last_updated": "2026-07-26"
+  },
+  "amazon mgm studios": {
+    "canonical_name": "Amazon MGM Studios",
+    "entity_type": "organization",
+    "summary": "Amazon MGM Studios is a leading entertainment company focused on the production and global distribution of film and television content across all platforms. It is part of Amazon and includes the former Metro-Goldwyn-Mayer (MGM) studio, which is a major player in entertainment.",
+    "last_updated": "2026-07-26"
+  },
+  "pia barlow": {
+    "canonical_name": "Pia Barlow",
+    "entity_type": "person",
+    "summary": "Pia Barlow is an EVP and VP of Series Marketing at Amazon MGM Studios. She previously served as EVP Originals Marketing for HBO Max before joining Amazon MGM Studios.",
+    "last_updated": "2026-07-26"
+  },
+  "francesca orsi": {
+    "canonical_name": "Francesca Orsi",
+    "entity_type": "person",
+    "summary": "Francesca Orsi is an EVP and the longtime top programming executive at HBO. She oversees the network's drama series output, including shows like The White Lotus.",
+    "last_updated": "2026-07-26"
+  },
+  "deadline": {
+    "canonical_name": "Deadline",
+    "entity_type": "organization",
+    "summary": "Deadline is a private hotel marketplace that allows hotels to monetize unsold inventory through a bidding system. It also provides data and software for executive and director pay data for US public companies.",
+    "last_updated": "2026-07-26"
+  },
+  "phineas fisher": {
+    "canonical_name": "Phineas Fisher",
+    "entity_type": "person",
+    "summary": "Phineas Fisher is a pseudonym that identifies as female and has claimed responsibility for many high-profile intrusions and data leaks. The entity uses digital prowess to disrupt, reveal, and reform.",
+    "last_updated": "2026-07-26"
+  },
+  "finfisher": {
+    "canonical_name": "FinFisher",
+    "entity_type": "ai_model",
+    "summary": "FinFisher is a user on GitHub with one available repository. The material describes an obfuscation problem in the code, involving junk instructions and 'spaghetti code' designed to confuse disassembly programs.",
+    "last_updated": "2026-07-26"
+  },
+  "hacking team": {
+    "canonical_name": "Hacking Team",
+    "entity_type": "company",
+    "summary": "HackingTeam is a Milan-based company that describes itself as the 'first to propose an offensive solution for cyber investigations.' Its flagship product is the Remote Control System (RCS), a hacking suite sold exclusively to governments.",
+    "last_updated": "2026-07-26"
+  },
+  "gamma group": {
+    "canonical_name": "Gamma Group",
+    "entity_type": "organization",
+    "summary": "Gamma Group is a dynamic consulting agency that provides strategic, results-driven solutions, specializing in manufacturing, quality management, and operational excellence. It helps companies optimize workflows and achieve certifications like AS9100.",
+    "last_updated": "2026-07-26"
+  },
+  "nso group": {
+    "canonical_name": "NSO Group",
+    "entity_type": "organization",
+    "summary": "NSO Group is a cyber-intelligence software provider that creates technology for government agencies to prevent and investigate terrorism and crime. It is part of the cyber-arms industry and licenses its Pegasus spyware.",
+    "last_updated": "2026-07-26"
+  },
+  "anonymous": {
+    "canonical_name": "Anonymous",
+    "entity_type": "organization",
+    "summary": "Anonymous is a decentralized online network of hacktivists known for politically charged activities that blur the lines between activism and cybercrime. It emerged in the early 2000s from the 4chan forum and is known for generating high-profile cyberattacks.",
+    "last_updated": "2026-07-26"
+  },
+  "shayne coplan": {
+    "canonical_name": "Shayne Coplan",
+    "entity_type": "person",
+    "summary": "Shayne Coplan is a 27-year-old founder and CEO of Polymarket, a prediction market company. He became the youngest self-made billionaire in late 2025 after his company received a $2 billion investment from Intercontinental Exchange, valuing it at roughly $9 billion.",
+    "last_updated": "2026-07-26"
+  },
+  "tarek mansour": {
+    "canonical_name": "Tarek Mansour",
+    "entity_type": "person",
+    "summary": "Tarek Mansour is the co-founder and CEO of Kalshi, a prediction market company. He is connected with top-tier investors, media outlets, and thought leaders from both fintech and mainstream finance, and previously worked as a quantitative trader at Goldman Sachs.",
+    "last_updated": "2026-07-26"
+  },
+  "polymarket": {
+    "canonical_name": "Polymarket",
+    "entity_type": "company",
+    "summary": "Polymarket is a prediction market company founded in 2020 that evolved from a niche crypto product into a widely cited political forecasting tool. It has a $9 billion valuation, $30 billion in trading volume in 2025, and was funded by Intercontinental Exchange, Founders Fund, and Ribbit Capital.",
+    "last_updated": "2026-07-26"
+  },
+  "shakil barkat": {
+    "canonical_name": "Shakil Barkat",
+    "entity_type": "person",
+    "summary": "Shakil Barkat is the Vice President of the Devices and Services Product Group (DSPG). He is based in Mountain View, California, and has a professional profile on LinkedIn.",
+    "last_updated": "2026-07-26"
+  },
+  "9to5 google": {
+    "canonical_name": "9to5 Google",
+    "entity_type": "organization",
+    "summary": "9to5Google is a technology news organization that discusses leaks, product updates, and deals related to Google and Android devices. They cover topics like the Pixel 11, Chrome performance, and various hardware deals.",
+    "last_updated": "2026-07-26"
+  },
+  "ram": {
+    "canonical_name": "RAM",
+    "entity_type": "technology",
+    "summary": "RAM (Random Access Memory) is crucial for system performance and primarily comes in the form of DRAM. The material also mentions Ram Technologies, a company that appears to be a separate entity from the memory technology RAM.",
+    "last_updated": "2026-07-26"
+  },
+  "teenage engineering": {
+    "canonical_name": "Teenage Engineering",
+    "entity_type": "company",
+    "summary": "Teenage Engineering is a Swedish consumer electronics, design company, and manufacturer specializing in synthesizers, drum machines, and grooveboxes. In addition to musical instruments, Teenage Engineering occasionally produces or designs consumer goods such as speakers, instant cameras, and compute",
+    "last_updated": "2026-07-26"
+  },
+  "luke the maker": {
+    "canonical_name": "Luke The Maker",
+    "entity_type": "person",
+    "summary": "Luke The Maker is a creator who designed a 3D-printed case for a niche e-reader, inspired by a model from KeshiCorner on the Internet Archive. The case, created with Chihei Hatakeyama’s New Sun, features a vertically placed X4 plastic gun slide with a cutout for buttons, though it cannot fire bullet",
+    "last_updated": "2026-07-26"
+  },
+  "xteink": {
+    "canonical_name": "Xteink",
+    "entity_type": "company",
+    "summary": "Xteink is a company that produces an ultra-thin, paper-like eReader designed for portability and ease of use. The company was founded on the belief that reading should be accessible in small, everyday moments, such as during a commute or while waiting in line.",
+    "last_updated": "2026-07-26"
+  },
+  "x4": {
+    "canonical_name": "X4",
+    "entity_type": "product",
+    "summary": "The X4 is a 3D-printed case for a niche e-reader, created by Luke The Maker. It is designed to hold a plastic gun slide vertically and includes a cutout for accessing buttons, but it is not a functional firearm.",
+    "last_updated": "2026-07-26"
+  },
+  "louisville": {
+    "canonical_name": "Louisville",
+    "entity_type": "location",
+    "summary": "Louisville is a city located in Jefferson County in north-central Kentucky along the Ohio River. It is Kentucky's largest city, situated between Cincinnati and Nashville, and is known for the Kentucky Derby, bourbon heritage, and its role in healthcare and logistics.",
+    "last_updated": "2026-07-26"
+  },
+  "gundle": {
+    "canonical_name": "Gundle",
+    "entity_type": "product",
+    "summary": "Gundle API, formerly known as Amalgamated Plastic Industries, is a manufacturer of flexible plastics for agricultural use. Founded in the 1980s and officially registered in 2005, it operates three factories and five distribution centers, making it a major producer in the sub-Saharan region.",
+    "last_updated": "2026-07-26"
+  },
+  "cormac mccarthy": {
+    "canonical_name": "Cormac McCarthy",
+    "entity_type": "person",
+    "summary": "Cormac McCarthy was an American writer known for his novel The Catcher in the Rye, which won critical acclaim. The material notes he was a con artist who lived in Germany after World War II and attended the Cornish Fair in New Hampshire.",
+    "last_updated": "2026-07-26"
+  },
+  "jd salinger": {
+    "canonical_name": "J.D. Salinger",
+    "entity_type": "person",
+    "summary": "J.D. Salinger was an American writer whose novel The Catcher in the Rye (1951) was critically acclaimed. After World War II, he lived in Gunzenhausen, Germany, where he worked for a counterintelligence unit hunting local Nazis.",
+    "last_updated": "2026-07-26"
+  },
+  "google zero": {
+    "canonical_name": "Google Zero",
+    "entity_type": "ai_model",
+    "summary": "Google is shifting its search platform from being a gateway to the open web into an AI-driven destination. This transformation is designed to change the business model and impact how users find information.",
+    "last_updated": "2026-07-26"
+  },
+  "armored cars": {
+    "canonical_name": "armored cars",
+    "entity_type": "product",
+    "summary": "We manufacture high quality armored cars, trucks & SWAT vehicles. The Armored Group provides customization, great service & unbeatable protection! First to successfully complete the VPAM Edition 3 VR7 Certification of our Toyota Land Cruiser 300 Series. TAG knows the firewall between the engine and",
+    "last_updated": "2026-07-26"
+  },
+  "piercing pillow": {
+    "canonical_name": "Piercing pillow",
+    "entity_type": "product",
+    "summary": "The ear piercing pillow is designed for sleeping and has an adjustable filling, allowing users to add or remove padding to achieve a personalized fit. It is marketed as a pain relief tool that reduces pressure on the ear and is suitable for side sleepers.",
+    "last_updated": "2026-07-26"
+  },
+  "blissbury": {
+    "canonical_name": "Blissbury",
+    "entity_type": "company",
+    "summary": "Blissbury is a company that offers products like the Faith, Devotion, Love Silver Jesus Necklace and the Blooming Daisy Ring. The company also provides sleep-related products, such as thoughtfully designed pillows, and offers free company information through the UK's Companies House.",
+    "last_updated": "2026-07-26"
+  },
+  "ozlo": {
+    "canonical_name": "Ozlo",
+    "entity_type": "company",
+    "summary": "Ozlo is a Boston-based healthtech startup that functions as an integrated knowledge platform. Its mission is to transform digital care for better sleep and enhance the lives of millions globally.",
+    "last_updated": "2026-07-26"
+  },
+  "vox media": {
+    "canonical_name": "Vox Media",
+    "entity_type": "organization",
+    "summary": "Vox is a general interest news site focused on helping people understand the world. It covers topics like politics, policy, world affairs, technology, culture, and the climate crisis through text, video, and audio formats.",
+    "last_updated": "2026-07-26"
+  },
+  "thomas ricker": {
+    "canonical_name": "Thomas Ricker",
+    "entity_type": "person",
+    "summary": "Thomas Ricker is a deputy editor and co-founder of The Verge, a tech journalist with 20 years of experience. He has a background in Electrical and Computer Engineering and has written extensively for tech publications like Engadget and The Verge.",
+    "last_updated": "2026-07-26"
+  },
+  "cocofhu": {
+    "canonical_name": "cocofhu",
+    "entity_type": "product",
+    "summary": "cocofhu is a lightweight HTTP API management and adaptation system. It allows users to configure APIs through a visual interface and automatically generate MCP tool definitions. This enables AI assistants like Claude Desktop to directly call HTTP endpoints.",
+    "last_updated": "2026-07-26"
+  },
+  "approving": {
+    "canonical_name": "Approving",
+    "entity_type": "product",
+    "summary": "The material did not address this question. It discusses the FDA's role in approving and regulating drugs, but does not provide a product overview for something called 'Approving'.",
+    "last_updated": "2026-07-26"
+  },
+  "codebuddy": {
+    "canonical_name": "CodeBuddy",
+    "entity_type": "company",
+    "summary": "CodeBuddy is a creative AI and web development agency. It focuses on building smart digital products, automation systems, and modern user experiences. The company emphasizes AI-powered solutions and values transparent communication with clients.",
+    "last_updated": "2026-07-26"
+  },
+  "trae": {
+    "canonical_name": "Trae",
+    "entity_type": "company",
+    "summary": "Trae is a company backed by its parent company, ByteDance. It is a strategic product rather than a traditional startup, with a financial structure that is atypical for a company of its stage. Its longevity is tied to its strategic importance within ByteDance's ecosystem.",
+    "last_updated": "2026-07-26"
+  },
+  "codeql": {
+    "canonical_name": "CodeQL",
+    "entity_type": "technology",
+    "summary": "CodeQL is an industry-leading semantic code analysis engine. It allows users to query code as if it were data to discover vulnerabilities across a codebase. The tool is free for research and open source, and users can write and share queries to help others find and fix security issues.",
+    "last_updated": "2026-07-26"
+  },
+  "npm": {
+    "canonical_name": "npm",
+    "entity_type": "technology",
+    "summary": "NPM uses @npmcli/arborist to model node_modules as a graph, not a tree. It structures packages intelligently using nodes, edges, and links. This approach helps in managing nested dependencies and understanding the package structure more effectively.",
+    "last_updated": "2026-07-26"
+  },
+  "gitleaks": {
+    "canonical_name": "gitleaks",
+    "entity_type": "technology",
+    "summary": "Gitleaks-Action is the official Gitleaks GitHub Action. It can be used to automatically run a gitleaks scan on pull requests and commits, or on-demand scans. For personal accounts, no license key is required, but for GitHub organizations, a free license is needed.",
+    "last_updated": "2026-07-26"
+  },
+  "cindyapp": {
+    "canonical_name": "cindy.app",
+    "entity_type": "product",
+    "summary": "Cindy.app has a 70/100 trust score based on current analysis. The site shows no major malware or phishing detections, and strong independent trust support this assessment, though a few caution points keep it from being fully verified.",
+    "last_updated": "2026-07-26"
+  },
+  "suryakoritalasigbound": {
+    "canonical_name": "surya-koritala/sigbound",
+    "entity_type": "product",
+    "summary": "Sigbound is a GitHub action that runs coding agents in parallel, giving each agent its own git worktree and automatically merging the results. It is designed to handle the time-consuming process of conflict resolution, allowing developers to land only changes that build and pass tests. The tool aims",
+    "last_updated": "2026-07-26"
+  },
+  "origin": {
+    "canonical_name": "Origin",
+    "entity_type": "product",
+    "summary": "Origin is a data analysis and graphing tool used by over a million registered users in corporations, universities, and government labs. It provides a point-and-click interface for importing, graphing, exploring, and analyzing data, with tools for batch operations and workflow optimization.",
+    "last_updated": "2026-07-26"
+  },
+  "hummingbird": {
+    "canonical_name": "hummingbird",
+    "entity_type": "product",
+    "summary": "Hummingbird is an HTML5 rendering library created from the ground-up with games and real-time applications in mind. It is based on proprietary technology and can be embedded in any application on supported platforms to render user interfaces using standard HTML, CSS, and JavaScript.",
+    "last_updated": "2026-07-26"
+  },
+  "colibri": {
+    "canonical_name": "Colibri",
+    "entity_type": "product",
+    "summary": "Colibri is a state-of-the-art drug discovery software solution that is based on clinical research and has been tested for efficacy in independent studies. The product is designed to provide comprehensible results, is easy to use, and interactive, with best-selling sets bundling the right products fo",
+    "last_updated": "2026-07-26"
+  },
+  "gptoss": {
+    "canonical_name": "GPT-OSS",
+    "entity_type": "ai_model",
+    "summary": "GPT-OSS includes the gpt-oss-120b and gpt-oss-20b models, which are state-of-the-art open-weight reasoning models. The 120b model achieves near-parity with OpenAI's o4-mini on core reasoning benchmarks while running efficiently on a single 80 GB GPU, and both models are available under the Apache 2.",
+    "last_updated": "2026-07-26"
+  },
+  "c17": {
+    "canonical_name": "C17",
+    "entity_type": "technology",
+    "summary": "The material did not address the C17 technology overview. It mentions Generative AI by Getty Images, the Microsoft student developer community, and Microsoft Learn, but does not provide an overview of C17 technology.",
+    "last_updated": "2026-07-26"
+  },
+  "ssd": {
+    "canonical_name": "SSD",
+    "entity_type": "technology",
+    "summary": "Solid-state drives (SSDs) utilize NAND flash memory to store data electronically and have no moving parts, unlike traditional hard disk drives (HDDs). This lack of mechanical movement allows SSDs to deliver significantly faster read and write speeds, resulting in shorter boot times, rapid file trans",
+    "last_updated": "2026-07-26"
+  },
+  "vram": {
+    "canonical_name": "VRAM",
+    "entity_type": "technology",
+    "summary": "VRAM (video RAM) is a type of random access memory specifically used to store image data for a computer display. It ensures smooth execution of graphics by acting as a buffer between the computer processor and the display, and is most important for applications like video games and 3D graphic design",
+    "last_updated": "2026-07-26"
   }
 }
