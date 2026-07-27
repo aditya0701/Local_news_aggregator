@@ -12886,5 +12886,263 @@
     "entity_type": "technology",
     "summary": "VRAM (video RAM) is a type of random access memory specifically used to store image data for a computer display. It ensures smooth execution of graphics by acting as a buffer between the computer processor and the display, and is most important for applications like video games and 3D graphic design",
     "last_updated": "2026-07-26"
+  },
+  "pgsimcity": {
+    "canonical_name": "PGSimCity",
+    "entity_type": "product",
+    "summary": "PGSimCity transforms PostgreSQL mechanisms into interactive 3D buildings, districts, and flows. It uses features like a buffer pool, write-ahead logging, checkpoints, and autovacuum to demonstrate how PostgreSQL works in a live, explorable city environment.",
+    "last_updated": "2026-07-27"
+  },
+  "decker": {
+    "canonical_name": "Decker",
+    "entity_type": "product",
+    "summary": "Decker provides medical education products through TDS Health, offering access to clinical references and online distance education. The company has expanded its offerings to include STAT!Ref titles, such as DeckerMed Anesthesiology, Family Medicine, Obstetrics and Gynecology, Plastic Surgery, and U",
+    "last_updated": "2026-07-27"
+  },
+  "hypercard": {
+    "canonical_name": "HyperCard",
+    "entity_type": "product",
+    "summary": "HyperCard is an AI-powered autonomous finance agent company founded in 2022 and led by Marc Baghadjian. Based in New York, the company is valued between $11 million and $55 million and has a team of 11 to 50 people. It was acquired by American Express in 2026 and focuses on building AI-powered agent",
+    "last_updated": "2026-07-27"
+  },
+  "hyperclarus": {
+    "canonical_name": "HyperClarus",
+    "entity_type": "product",
+    "summary": "HyperClarus is the brand name for PrCLARUS® Isotretinoin Capsules, a medication for acne treatment. The product monograph, submitted by Mylan Pharmaceuticals, includes patient medication information and details on recent major label changes. The material does not provide a general-purpose overview o",
+    "last_updated": "2026-07-27"
+  },
+  "lil": {
+    "canonical_name": "Lil",
+    "entity_type": "ai_model",
+    "summary": "LILA is an advanced AI model that consistently outperforms other models in scientific domains, demonstrating superior capabilities in complex analysis and reasoning. It is part of a proprietary AI Science Factory™ system that executes the scientific method autonomously, including generating hypothes",
+    "last_updated": "2026-07-27"
+  },
+  "mac": {
+    "canonical_name": "Mac",
+    "entity_type": "organization",
+    "summary": "On a Mac, you can organize desktop files by grouping them into folders, aligning and sorting them, or adjusting spacing, icon size, and text size. Stacks is a feature that helps keep files organized in tidy groups on the desktop by grouping them by kind, date, or tags. You can create a new folder wi",
+    "last_updated": "2026-07-27"
+  },
+  "scriptc": {
+    "canonical_name": "scriptc",
+    "entity_type": "product",
+    "summary": "ScriptC is a shareware software in the Miscellaneous category developed by AxisPackage Software. It is a tool that compiles ordinary TypeScript into small, fast native executables without requiring a Node, V8, or JavaScript engine.",
+    "last_updated": "2026-07-27"
+  },
+  "google pixel": {
+    "canonical_name": "Google Pixel",
+    "entity_type": "product",
+    "summary": "Google Pixel is a smartphone product line engineered to pair with Android phones. The latest models include the Pixel 10, Pixel 10 Pro, and Pixel 10 Pro Fold, with new features released every few months.",
+    "last_updated": "2026-07-27"
+  },
+  "sam tunick": {
+    "canonical_name": "Sam Tunick",
+    "entity_type": "person",
+    "summary": "Sam Tunick is a person with a birth date of January 6, 1872, in the Soviet Union. The material does not provide a usable overview of Sam Tunick's background or activities.",
+    "last_updated": "2026-07-27"
+  },
+  "hartsfieldjackson atlanta international airport": {
+    "canonical_name": "Hartsfield-Jackson Atlanta International Airport",
+    "entity_type": "organization",
+    "summary": "Hartsfield-Jackson Atlanta International Airport (ATL) is the world's busiest and most efficient airport, serving as a global gateway. It connects Atlanta to more than 150 U.S. destinations and over 70 international destinations.",
+    "last_updated": "2026-07-27"
+  },
+  "us department of justice": {
+    "canonical_name": "US Department of Justice",
+    "entity_type": "organization",
+    "summary": "The U.S. Department of Justice is a government organization whose headquarters serve as a canvas for essays and notes from people in prison systems around the world. The material does not provide a general-purpose overview of the organization.",
+    "last_updated": "2026-07-27"
+  },
+  "electronic frontier foundation": {
+    "canonical_name": "Electronic Frontier Foundation",
+    "entity_type": "organization",
+    "summary": "The Electronic Frontier Foundation is a leading nonprofit that defends digital privacy, free speech, and innovation. It focuses on ensuring that AI technologies serve people and not power, and addresses issues like age verification laws.",
+    "last_updated": "2026-07-27"
+  },
+  "cop city": {
+    "canonical_name": "Cop City",
+    "entity_type": "event",
+    "summary": "Cop City is an event and movement that began in April 2021 in Atlanta, Georgia, to defend Weelaunee Forest from a proposed police training compound. It has evolved into one of the fiercest struggles in North America, with protests like the one at the New York Hilton Midtown opposing police recruitme",
+    "last_updated": "2026-07-27"
+  },
+  "child sexual abuse material": {
+    "canonical_name": "child sexual abuse material",
+    "entity_type": "material",
+    "summary": "Child sexual abuse material (CSAM) is a topic addressed by the National Center for Missing and Exploited Children. The material provides information on CSAM, its prevalence, and support for survivors and families, while also noting that federal law prohibits its production and possession.",
+    "last_updated": "2026-07-27"
+  },
+  "encord": {
+    "canonical_name": "Encord",
+    "entity_type": "company",
+    "summary": "Encord is an AI data development platform for computer vision and multimodal AI teams. The company offers tools for data management, annotation, and curation for various data types including video and sensor streams. It supports enterprises in building and deploying AI for applications like robotics",
+    "last_updated": "2026-07-27"
+  },
+  "andrew ceja": {
+    "canonical_name": "Andrew Ceja",
+    "entity_type": "person",
+    "summary": "The material did not address this question.",
+    "last_updated": "2026-07-27"
+  },
+  "zander labs": {
+    "canonical_name": "Zander Labs",
+    "entity_type": "company",
+    "summary": "Zander Labs builds noninvasive BCI infrastructure to make human cognition accessible to AI systems. The company focuses on passive BCIs that work in the background to create solutions for neuroadaptive collaboration across industries. Their approach uses neuro-enabling technology to bridge the gap b",
+    "last_updated": "2026-07-27"
+  },
+  "lucas gehrke": {
+    "canonical_name": "Lucas Gehrke",
+    "entity_type": "person",
+    "summary": "The material did not address this question.",
+    "last_updated": "2026-07-27"
+  },
+  "vineeth velmurugan": {
+    "canonical_name": "Vineeth Velmurugan",
+    "entity_type": "person",
+    "summary": "Vineeth Velmurugan has experience at Encord and an education from the University of Massachusetts Lowell. He is located in the San Francisco Bay Area and has 500+ connections on LinkedIn. His profile is associated with the Edge AI and Vision Alliance.",
+    "last_updated": "2026-07-27"
+  },
+  "worldwide developers conference": {
+    "canonical_name": "Worldwide Developers Conference",
+    "entity_type": "event",
+    "summary": "The Worldwide Developers Conference (WWDC) is an annual event where Apple brings together developers globally to explore new tools, frameworks, and technologies for Apple platforms. It provides a first look at the latest Apple tools and features, along with opportunities to connect with Apple engine",
+    "last_updated": "2026-07-27"
+  },
+  "equity": {
+    "canonical_name": "Equity",
+    "entity_type": "event",
+    "summary": "McGuireWoods’ Healthcare Private Equity and Finance Conference is a premier two-day healthcare and life sciences investment-focused conference that offers numerous opportunities to learn from and network with colleagues across the sectors, as well as dynamic keynotes and exciting panel discussions.",
+    "last_updated": "2026-07-27"
+  },
+  "cybercab": {
+    "canonical_name": "Cybercab",
+    "entity_type": "product",
+    "summary": "The Tesla Cybercab is a two-seat fully autonomous EV coupe designed for ride-hailing, launching in 2026 with a price tag of $30,000. It features a 35 kWh battery, 320 km (199 mi) range, 120 km/h (75 mph) top speed, and Full Self-Driving (FSD) technology.",
+    "last_updated": "2026-07-27"
+  },
+  "model y": {
+    "canonical_name": "Model Y",
+    "entity_type": "product",
+    "summary": "The material did not address this. The provided text about the Tesla Model Y focuses on aftermarket support and truck bed covers, not a general product overview.",
+    "last_updated": "2026-07-27"
+  },
+  "tesla robotaxi": {
+    "canonical_name": "Tesla Robotaxi",
+    "entity_type": "product",
+    "summary": "Tesla's Cybercab robotaxi has entered production and is being used for a limited service in Austin. The rides use the same FSD 'Driver' as Version 13, with smoother behavior in parking lots and no geofencing, but it is not yet considered fully autonomous.",
+    "last_updated": "2026-07-27"
+  },
+  "tesla semi": {
+    "canonical_name": "Tesla Semi",
+    "entity_type": "product",
+    "summary": "The Tesla Semi is a fully electric semi truck with active safety features, a massive range, and a spacious interior. Most production has gone directly to Tesla's company fleet, with PepsiCo being the only customer to take delivery, though only 34 of the 100 orders have been fulfilled.",
+    "last_updated": "2026-07-27"
+  },
+  "megapack 3": {
+    "canonical_name": "Megapack 3",
+    "entity_type": "product",
+    "summary": "The Megapack 3 is a utility-scale battery product with a storage capacity of approximately 5 MWh per unit, a significant increase from the 3.9 MWh of the Megapack 2XL. Deliveries are expected to begin in the second half of 2026, with a manufacturing capacity of 50 gigawatt hours per year.",
+    "last_updated": "2026-07-27"
+  },
+  "tesla robotaxi service": {
+    "canonical_name": "Tesla Robotaxi service",
+    "entity_type": "product",
+    "summary": "Tesla's robotaxi fleet, powered by new self-driving software, was launched in Texas in 2025. The Cybercab is still pending regulatory clearance and the widespread rollout of unsupervised autonomous driving, with a small fleet of self-driving cars ferrying paying customers around in Austin, Texas.",
+    "last_updated": "2026-07-27"
+  },
+  "tesla shareholder letter": {
+    "canonical_name": "Tesla shareholder letter",
+    "entity_type": "document",
+    "summary": "The material did not address this. The provided text about the Tesla shareholder letter discusses the P&L in the letter, revenue computation, and financial modeling, but not a general overview of the document itself.",
+    "last_updated": "2026-07-27"
+  },
+  "sean okane": {
+    "canonical_name": "Sean O’Kane",
+    "entity_type": "person",
+    "summary": "Sean O'Kane is a former senior reporter who covered transportation startups, EVs, and Tesla. He is described as a former senior reporter with a background in covering these topics, and the material also notes his personality type as ESTJ and Enneagram Type 9w8.",
+    "last_updated": "2026-07-27"
+  },
+  "mike flanagan": {
+    "canonical_name": "Mike Flanagan",
+    "entity_type": "person",
+    "summary": "Mike Flanagan is a writer and director known for films like The Fall of the House of Usher, Midnight Mass, Doctor Sleep, and The Haunting of Hill House. He also maintains a Tumblr where he answers fan questions and discusses his interests.",
+    "last_updated": "2026-07-27"
+  },
+  "carrie": {
+    "canonical_name": "Carrie",
+    "entity_type": "product",
+    "summary": "Carrie is a 1974 novel by Stephen King about a troubled young girl named Carrie White who is bullied by her peers and mother. The story details her discovery of telekinetic powers and remains one of King's most successful works, adapted into a film in 1976.",
+    "last_updated": "2026-07-27"
+  },
+  "comiccon": {
+    "canonical_name": "Comic-Con",
+    "entity_type": "event",
+    "summary": "Comic-Con is the premier event for all things fandom, held at the San Diego Convention Center. The 2026 event runs from July 23-26, with preview night on July 22, and offers opportunities to purchase exclusive apparel and collectibles.",
+    "last_updated": "2026-07-27"
+  },
+  "sissy spacek": {
+    "canonical_name": "Sissy Spacek",
+    "entity_type": "person",
+    "summary": "Sissy Spacek is an American actress known for conveying genuineness in critically admired roles. Her notable movies include Carrie (1976), Coal Miner’s Daughter (1980), and In the Bedroom (2001), for which she won an Oscar.",
+    "last_updated": "2026-07-27"
+  },
+  "brian de palma": {
+    "canonical_name": "Brian De Palma",
+    "entity_type": "person",
+    "summary": "Brian De Palma is a public figure predicted to be diplomatic, accommodating, and supportive of others. He is known for directing films such as The CastHI, MOM! and has a background in directing, screenwriting, and producing.",
+    "last_updated": "2026-07-27"
+  },
+  "eneba": {
+    "canonical_name": "Eneba",
+    "entity_type": "product",
+    "summary": "Eneba is a private, European-based company that operates a fast-growing online marketplace for digital gaming products. The platform facilitates the buying and selling of video games, in-game currency, subscriptions, and gift cards.",
+    "last_updated": "2026-07-27"
+  },
+  "deerworkai": {
+    "canonical_name": "deerwork-ai",
+    "entity_type": "organization",
+    "summary": "deerwork-ai is an organization that maintains the deer-workflow project, a pilot for DeerFlow 3.0. The project is an open-source Dynamic Workflow runtime that combines deterministic TypeScript orchestration with replaceable Agent runtimes. The package name is @deerwork-ai/deer-workflow and the execu",
+    "last_updated": "2026-07-27"
+  },
+  "deerworkflow": {
+    "canonical_name": "deer-workflow",
+    "entity_type": "product",
+    "summary": "deer-workflow is an open-source long-horizon SuperAgent harness that researches, codes, and creates. It uses sandboxes, memories, tools, subagents, and a message gateway to handle tasks that could take minutes to hours. It is described as an open-source super agent harness that orchestrates sub-agen",
+    "last_updated": "2026-07-27"
+  },
+  "deerflow 30": {
+    "canonical_name": "deerflow 3.0",
+    "entity_type": "product",
+    "summary": "DeerFlow (Deep Exploration and Efficient Research Flow) is an open-source super agent harness that orchestrates sub-agents, memory, and sandboxes to perform a wide range of tasks. The material mentions it as one of five AI tools analyzed in 2026, alongside Hermes Agent, Multica, and Claude Code, and",
+    "last_updated": "2026-07-27"
+  },
+  "joeynycgrokui": {
+    "canonical_name": "joeynyc/Grok-UI",
+    "entity_type": "product",
+    "summary": "Grok UI is an independent, local-first dashboard for Grok Build. It runs as a local Express supervisor and communicates with the browser over SSE, ensuring Grok credentials never enter the browser. Every Grok session acts as a living command center for managing agents and local history.",
+    "last_updated": "2026-07-27"
+  },
+  "grok build": {
+    "canonical_name": "Grok Build",
+    "entity_type": "product",
+    "summary": "Grok Build is an AI-powered command-line development environment for software developers and teams. It provides training through documentation and offers features like planning, coding, and task coordination across multiple AI-powered agents. Pricing for Grok Build starts at Free.",
+    "last_updated": "2026-07-27"
+  },
+  "agent client protocol": {
+    "canonical_name": "Agent Client Protocol",
+    "entity_type": "protocol",
+    "summary": "The Agent Client Protocol enables communication between Agents and Clients by exposing methods and sending notifications. It includes an Initialization Phase and Session Setup, allowing for prompt turns and other events to be handled. The protocol is designed to be flexible, using Markdown for user-",
+    "last_updated": "2026-07-27"
+  },
+  "kilbex": {
+    "canonical_name": "Kilbex",
+    "entity_type": "company",
+    "summary": "KILBEX LIMITED is a company registered in the UK with company number 06545991. The company's last accounts were made up to 31 March 2011, and it is listed as a free company on the Companies House website.",
+    "last_updated": "2026-07-27"
+  },
+  "vigla": {
+    "canonical_name": "Vigla",
+    "entity_type": "product",
+    "summary": "VIGLA delivers a modern take on the classic cowboy boot, grounded in rich leather and clean, sculpted lines. Traditional western stitching nods to heritage styling, while a sleek block heel keeps... $118.93 with code EXTRA30 Western influence, refined. VIGLA delivers a modern take on the classic cow",
+    "last_updated": "2026-07-27"
   }
 }
