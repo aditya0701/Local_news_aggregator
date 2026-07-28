@@ -13144,5 +13144,113 @@
     "entity_type": "product",
     "summary": "VIGLA delivers a modern take on the classic cowboy boot, grounded in rich leather and clean, sculpted lines. Traditional western stitching nods to heritage styling, while a sleek block heel keeps... $118.93 with code EXTRA30 Western influence, refined. VIGLA delivers a modern take on the classic cow",
     "last_updated": "2026-07-27"
+  },
+  "slopcodebench": {
+    "canonical_name": "SlopCodeBench",
+    "entity_type": "model_release",
+    "summary": "SlopCodeBench evaluates coding agents by simulating real-world software development through repeated requirement changes and extensions. Each problem is a sequence of checkpoints where an agent implements an initial version and then extends its own solution as new requirements arrive. The benchmark",
+    "last_updated": "2026-07-28"
+  },
+  "opus codebench": {
+    "canonical_name": "Opus CodeBench",
+    "entity_type": "model_release",
+    "summary": "Opus CodeBench is a benchmark for evaluating coding agents, with the latest release (Opus 5) focusing on how the model is controlled rather than just raw capability. The release represents a shift in model management, moving beyond simply finding more bugs to a more nuanced approach to model control",
+    "last_updated": "2026-07-28"
+  },
+  "opus 5": {
+    "canonical_name": "Opus 5",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 5, launched on July 24, 2026, is Anthropic's premium workhorse model and the highest-capability model in their lineup for day-to-day use. It is positioned one tier below the flagship Claude Fable 5 and is designed for serious work with AI. The model is available via zero-data-retention i",
+    "last_updated": "2026-07-28"
+  },
+  "opus 46": {
+    "canonical_name": "Opus 4.6",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 4.6 is an upgrade to Anthropic's smart model, improving on its predecessor's coding skills and offering more careful planning and sustained agentic tasks. It features a 1M token context window in beta and can apply its improved abilities to tasks like financial analysis, research, and do",
+    "last_updated": "2026-07-28"
+  },
+  "sonnet 5": {
+    "canonical_name": "Sonnet 5",
+    "entity_type": "ai_model",
+    "summary": "Claude Sonnet 5 is a strong agentic-coding model that delivers top-tier accuracy comparable to Opus-class models. It is described as a hybrid reasoning model with fast, capable intelligence for real-time agents and high-volume work, featuring a 1M context window. The model brings performance that pr",
+    "last_updated": "2026-07-28"
+  },
+  "gorlanski": {
+    "canonical_name": "GOrlanski",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable overview of the person GOrlanski. The text consists of repeated prompts for audio pronunciation and login/registration instructions, with no biographical or factual information about the individual.",
+    "last_updated": "2026-07-28"
+  },
+  "uw madison": {
+    "canonical_name": "UW Madison",
+    "entity_type": "organization",
+    "summary": "UW Madison is the University of Wisconsin–Madison, a campus that has been a catalyst for innovation since its founding in 1848. It is governed by the UW System Board of Regents, with the Chancellor reporting to the UW System President. The university's organizational structure includes schools and c",
+    "last_updated": "2026-07-28"
+  },
+  "us residential proxies": {
+    "canonical_name": "US residential proxies",
+    "entity_type": "technology",
+    "summary": "A residential proxy uses IP addresses assigned through real household broadband connections, offering a high level of authenticity and anonymity. Compared with data center proxies, residential proxies are far less detectable, making them an essential tool for cross-border e-commerce, social media op",
+    "last_updated": "2026-07-28"
+  },
+  "comcast": {
+    "canonical_name": "Comcast",
+    "entity_type": "organization",
+    "summary": "Comcast is a media and technology company that provides broadband internet, mobile services, and entertainment platforms. Founded in 1963, it is headquartered in Philadelphia and its economic core is connectivity, including residential broadband, business connectivity, wireless, video, and voice ser",
+    "last_updated": "2026-07-28"
+  },
+  "att": {
+    "canonical_name": "AT&T",
+    "entity_type": "organization",
+    "summary": "AT&T, Inc. is a holding company that provides telecommunications and technology services, operating through Communications and Latin America segments. The Communications segment offers wireless, wireline telecom, and broadband services to businesses and consumers in the US and globally, while the La",
+    "last_updated": "2026-07-28"
+  },
+  "nsa": {
+    "canonical_name": "NSA",
+    "entity_type": "organization",
+    "summary": "The NSA was established in 1952 to provide a unified organization for the U.S. government's communications intelligence activities against foreign governments. It leads the U.S. Government in cryptology, encompassing signals intelligence and cybersecurity, and enables computer network operations to",
+    "last_updated": "2026-07-28"
+  },
+  "rtx 2080 ti": {
+    "canonical_name": "RTX 2080 Ti",
+    "entity_type": "model_release",
+    "summary": "The GeForce RTX 2080 Ti is a flagship graphics card that has been reviewed for regular use, water-cooled overclocking, and liquid nitrogen overclocking. It is compared against the RTX 3070, with the latter outperforming the former by a minimal 3% in aggregate benchmark results. The comparison also i",
+    "last_updated": "2026-07-28"
+  },
+  "gpu solutions": {
+    "canonical_name": "GPU Solutions",
+    "entity_type": "company",
+    "summary": "ADLINK is a company that provides GPU-based solutions for edge systems to efficiently handle AI and data-intensive tasks. The company offers AMD-based solutions and advanced GPU solutions from market leaders like NVIDIA to power next-generation workloads. These solutions are designed to enable innov",
+    "last_updated": "2026-07-28"
+  },
+  "space daily editorial team": {
+    "canonical_name": "Space Daily Editorial Team",
+    "entity_type": "organization",
+    "summary": "Space Daily is an independent journalism organization that has been in operation since 1995. It covers the space industry, the science behind it, and the psychological aspects of space exploration.",
+    "last_updated": "2026-07-28"
+  },
+  "exploitgym": {
+    "canonical_name": "ExploitGym",
+    "entity_type": "technology",
+    "summary": "ExploitGym is a benchmark of 869 real-world vulnerabilities across userspace programs, Google's V8 engine, and the Linux kernel. It is used to test AI agents by having them craft exploits for given vulnerabilities, with success measured by the number of instances exploited in each domain.",
+    "last_updated": "2026-07-28"
+  },
+  "global laser enrichment": {
+    "canonical_name": "Global Laser Enrichment",
+    "entity_type": "company",
+    "summary": "Global Laser Enrichment is the exclusive worldwide licensee of the SILEX laser technology for uranium enrichment. The company was formed in 2007 to develop and commercialize laser-based uranium enrichment technology in the U.S., with over $400 million invested in its commercialization program.",
+    "last_updated": "2026-07-28"
+  },
+  "laser enrichment": {
+    "canonical_name": "laser enrichment",
+    "entity_type": "technology",
+    "summary": "The first chapter gives an overview of laser enrichment technology. The second chapter describes the elements needed to produce a functional enrichment laser. The third chapter discusses the importance of scale in producing lasers for uranium enrichment. That new technology is laser enrichment, whic",
+    "last_updated": "2026-07-28"
+  },
+  "vijoy pandey": {
+    "canonical_name": "Vijoy Pandey",
+    "entity_type": "person",
+    "summary": "Vijoy Pandey is the GM and Senior Vice President of Outshift by Cisco, where he leads the company's internal incubation engine. Outshift focuses on emerging technologies that target adjacent markets and personas, with initiatives in AI-enabled infrastructure, quantum networking, and next-generation",
+    "last_updated": "2026-07-28"
   }
 }
