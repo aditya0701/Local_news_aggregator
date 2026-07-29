@@ -5931,13 +5931,10 @@
     "last_updated": "2026-07-20"
   },
   "customs and border protection": {
-    "senses": [
-      {
-        "sense_label": "agency",
-        "summary": "Customs and Border Protection (CBP) prevents people from entering the country illegally or bringing anything harmful or illegal into the United States. The agency has issued warnings to travelers following a one-month trip, leading to over 1,000 upvotes on Reddit and hundreds of comments due to tigh",
-        "last_updated": "2026-07-11"
-      }
-    ]
+    "canonical_name": "Customs and Border Protection",
+    "entity_type": "organization",
+    "summary": "U.S. Customs and Border Protection (CBP) is one of the world's largest law enforcement organizations with more than 60,000 employees. It is charged with keeping terrorists and their weapons out of the U.S. while facilitating lawful international travel and trade. The organization is jointly run by t",
+    "last_updated": "2026-07-29"
   },
   "counterpoint": {
     "canonical_name": "Counterpoint",
@@ -13252,5 +13249,653 @@
     "entity_type": "person",
     "summary": "Vijoy Pandey is the GM and Senior Vice President of Outshift by Cisco, where he leads the company's internal incubation engine. Outshift focuses on emerging technologies that target adjacent markets and personas, with initiatives in AI-enabled infrastructure, quantum networking, and next-generation",
     "last_updated": "2026-07-28"
+  },
+  "mitanshu sukhwani": {
+    "canonical_name": "Mitanshu Sukhwani",
+    "entity_type": "person",
+    "summary": "Mitanshu Sukhwani is a tech enthusiast and creator of PaperMatch, with a Master's degree in Physics from IIT Madras. He has worked as a Project Associate at IISER Tirupati, focusing on EEG data, network science, and mathematical modeling of mammalian brains. His interests include neuroscience, machi",
+    "last_updated": "2026-07-29"
+  },
+  "greywolf1499": {
+    "canonical_name": "greywolf1499",
+    "entity_type": "person",
+    "summary": "greywolf1499 is a software engineer and cybersecurity explorer with a Master's in Cybersecurity from the University of Warwick. After working in full-stack web development, they now focus on security. Their philosophy is that curiosity drives everything, from building to breaking and securing system",
+    "last_updated": "2026-07-29"
+  },
+  "koreader": {
+    "canonical_name": "KOReader",
+    "entity_type": "product",
+    "summary": "KOReader is a document viewer for E Ink devices that supports a wide range of file formats including EPUB, PDF, and MOBI. It is available for Kindle, Kobo, PocketBook, Android, and desktop Linux. The software is developed by volunteers and offers features designed for simplicity and ease of use.",
+    "last_updated": "2026-07-29"
+  },
+  "calibre": {
+    "canonical_name": "Calibre",
+    "entity_type": "product",
+    "summary": "Calibre is a comprehensive e-book management software designed to be simple and user-friendly. It allows users to download, organize, and convert e-books, with features like library views and a customizable interface. The software has been refined over years based on user feedback to be as efficient",
+    "last_updated": "2026-07-29"
+  },
+  "kual": {
+    "canonical_name": "KUAL",
+    "entity_type": "product",
+    "summary": "KUAL focuses on realizing safe prices through economies of scale and direct store procurement. It operates across multiple business areas including home appliances, mobile business, and communication services, offering various store management and franchise models.",
+    "last_updated": "2026-07-29"
+  },
+  "pocket reader": {
+    "canonical_name": "Pocket Reader",
+    "entity_type": "organization",
+    "summary": "Pocket Reader is an organization related to storage and organization, with a product called Destron-Pocket-Reader that is a screwless, light folding glasses. The material provided does not offer a clear overview of the organization itself, only mentioning the product and some unrelated legal and cop",
+    "last_updated": "2026-07-29"
+  },
+  "codexsecurity": {
+    "canonical_name": "codex-security",
+    "entity_type": "product",
+    "summary": "@openai/codex-security is a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. It can scan repositories, review changes, track findings over time, and run security checks in CI.",
+    "last_updated": "2026-07-29"
+  },
+  "andrew ng": {
+    "canonical_name": "Andrew Ng",
+    "entity_type": "person",
+    "summary": "Andrew Ng is a founder and professor who has helped millions learn AI. He is the founder of DeepLearning.AI, AI Fund, and LandingAI, and is an adjunct professor at Stanford University.",
+    "last_updated": "2026-07-29"
+  },
+  "learnvector": {
+    "canonical_name": "LearnVector",
+    "entity_type": "company",
+    "summary": "LearnVector is an AI company founded by Andrew Ng that creates opportunities for people to build skills. It aims to be the greatest accelerator of human development by providing personalized AI-powered learning paths.",
+    "last_updated": "2026-07-29"
+  },
+  "halflife": {
+    "canonical_name": "Half-Life",
+    "entity_type": "ai_model",
+    "summary": "AI Model Half-Life is the amount of time a model remains a top-tier solution before being replaced by a better model in the ecosystem. It is not a literal countdown but a strategic timer representing a shrinking window of relevance, with the average length being months, not years.",
+    "last_updated": "2026-07-29"
+  },
+  "powerpc": {
+    "canonical_name": "PowerPC",
+    "entity_type": "technology",
+    "summary": "PowerPC is a RISC architecture created by the 1991 Apple–IBM–Motorola alliance, known as AIM. It is a type of microprocessor architecture developed collaboratively by Apple, IBM, and Motorola, with various generations including G1, G2, and G3.",
+    "last_updated": "2026-07-29"
+  },
+  "mac os 9": {
+    "canonical_name": "Mac OS 9",
+    "entity_type": "product",
+    "summary": "Mac OS 9 is considered one of the most feature-rich releases of the original Mac OS, adding over 50 new features for security, sharing, and internet functionality. It lacked modern OS features like memory protection and preemptive multitasking, and Apple discontinued development in 2001, transitioni",
+    "last_updated": "2026-07-29"
+  },
+  "xash3d fwgs": {
+    "canonical_name": "Xash3D FWGS",
+    "entity_type": "technology",
+    "summary": "Xash3D FWGS is a game engine aimed at providing compatibility with the Half-Life Engine and extending it, while giving developers a familiar workflow. It is a tool for porting and fixing software for PowerPC Macs, but users are warned to only download from official sources due to malware risks.",
+    "last_updated": "2026-07-29"
+  },
+  "doctashay": {
+    "canonical_name": "doctashay",
+    "entity_type": "person",
+    "summary": "doctashay is a hobby developer with a passion for obscure and legacy platforms, currently fixing and porting software for PowerPC Macs in their free time. They are also associated with an unofficial Telegram client, a PowerPC client for federated social media, and a fan control tool for PowerPC Macs",
+    "last_updated": "2026-07-29"
+  },
+  "black mesa research facility": {
+    "canonical_name": "Black Mesa Research Facility",
+    "entity_type": "organization",
+    "summary": "The Black Mesa Research Facility is the headquarters of the Black Mesa corporation and the primary setting for the Half-Life series. Located in the New Mexico desert, it was converted into a vast civilian research institute in the 1950s and later became the site of the Black Mesa Incident.",
+    "last_updated": "2026-07-29"
+  },
+  "g3": {
+    "canonical_name": "G3",
+    "entity_type": "technology",
+    "summary": "The G3 technology overview covers topics such as technology overview, configuration flexibility, selective storage presentation, availability, management technologies, hardware and software compatibility, and performance enhancement. It also includes a summary and was published on February 11, 2022.",
+    "last_updated": "2026-07-29"
+  },
+  "g4": {
+    "canonical_name": "G4",
+    "entity_type": "technology",
+    "summary": "The G4 technology overview discusses 4G technology providing faster wireless internet speeds, with up to 100 Mbps for mobile users and 1 Gbps for stationary users. It also covers D-PHY signaling specifications, which describe the physical layer for electrical and interconnects, especially suited for",
+    "last_updated": "2026-07-29"
+  },
+  "abel jansma": {
+    "canonical_name": "Abel Jansma",
+    "entity_type": "person",
+    "summary": "Abel Jansma is a scientist at the Dutch Institute for Emergent Phenomena, working at the Institute of Physics (IoP) and the Institute of Logic, Language, and Computation (ILLC) at the University of Amsterdam. He combines intuition from physics, knowledge from biology, and techniques from mathematics",
+    "last_updated": "2026-07-29"
+  },
+  "teach yourself java": {
+    "canonical_name": "Teach Yourself Java",
+    "entity_type": "product",
+    "summary": "McGraw Hill creates accessible products that adhere to WCAG AA guidelines as part of their development efforts. The material provides information on downloading and accessing an eBook version of a Java book through Adobe Digital Editions.",
+    "last_updated": "2026-07-29"
+  },
+  "sql": {
+    "canonical_name": "SQL",
+    "entity_type": "technology",
+    "summary": "Microsoft SQL Server is a relational database management system (RDBMS) that applications and tools connect to using Transact-SQL (T-SQL). It is one of many products that runs the Microsoft SQL Database Engine and requires authorization to access.",
+    "last_updated": "2026-07-29"
+  },
+  "ruby": {
+    "canonical_name": "Ruby",
+    "entity_type": "technology",
+    "summary": "Ruby on Rails is a server-side web application framework written in Ruby under the MIT License. It is a model-view-controller (MVC) framework that provides default structures for databases, web services, and web pages, emphasizing convention over configuration and the DRY principle.",
+    "last_updated": "2026-07-29"
+  },
+  "algorithms": {
+    "canonical_name": "Algorithms",
+    "entity_type": "technology",
+    "summary": "A Sorting Algorithm rearranges a given array or list of elements into a specific order. Examples include Selection Sort, Bubble Sort, and Quick Sort for comparison-based sorting, and Counting Sort, Radix Sort, and Bucket Sort for non-comparison-based sorting.",
+    "last_updated": "2026-07-29"
+  },
+  "programming": {
+    "canonical_name": "programming",
+    "entity_type": "general",
+    "summary": "This comprehensive programming tutorial covers the fundamentals needed to start coding, including variables, data types, control flow, functions, and writing first code in various languages. It is designed to empower beginners and provide the knowledge needed to begin a programming journey.",
+    "last_updated": "2026-07-29"
+  },
+  "programming books": {
+    "canonical_name": "programming books",
+    "entity_type": "general",
+    "summary": "The material discusses general programming books that cover information and skills applicable to all languages, rather than being specific to one language like Python or HTML. It aims to provide resources for both beginners and experienced professionals looking to improve their programming skills.",
+    "last_updated": "2026-07-29"
+  },
+  "how to design programs": {
+    "canonical_name": "How to Design Programs",
+    "entity_type": "product",
+    "summary": "The product is an introduction to programming and computing by Matthias Felleisen, available for £15.99. It is described as an in-stock item with four units available and includes a product description and an option to write a review.",
+    "last_updated": "2026-07-29"
+  },
+  "abtruse goose": {
+    "canonical_name": "Abtruse Goose",
+    "entity_type": "product",
+    "summary": "Abtruse Goose is a package for the dailystrips software, maintained by Rene Weber. It was reported on June 11, 2010, and was fixed in version 1.0.28-11. The bug report is archived, and no further changes may be made.",
+    "last_updated": "2026-07-29"
+  },
+  "alexander pope": {
+    "canonical_name": "Alexander Pope",
+    "entity_type": "person",
+    "summary": "Alexander Pope (1688-1744) was an English poet and satirist who suffered oppression as a Catholic but became one of the most revered English poets of the 18th century. He made a famous translation of Homer, was a friend of Joseph Addison, and wrote the philosophical poem 'Essay on Man'.",
+    "last_updated": "2026-07-29"
+  },
+  "alan perlis": {
+    "canonical_name": "Alan Perlis",
+    "entity_type": "person",
+    "summary": "Alan Jay Perlis (1922-1990) was an American mathematician and computer scientist who was the first winner of the A.M. Turing Award in 1966. He was a pioneer in establishing computer science as a discipline and was a longtime developer of programming languages and techniques.",
+    "last_updated": "2026-07-29"
+  },
+  "ft": {
+    "canonical_name": "FT",
+    "entity_type": "organization",
+    "summary": "The FT is organized with FTU staff directing the actions of the in-garrison Cadet Group structure. The Vice Commander is the second in command and assumes command in the absence of the FTU/CC (Flight Test Unit/Commander). This position holds significant responsibility and authority within the organi",
+    "last_updated": "2026-07-29"
+  },
+  "nyt": {
+    "canonical_name": "NYT",
+    "entity_type": "organization",
+    "summary": "material did not address this",
+    "last_updated": "2026-07-29"
+  },
+  "bbc": {
+    "canonical_name": "BBC",
+    "entity_type": "organization",
+    "summary": "The BBC is the public service broadcaster of the United Kingdom, headquartered at Broadcasting House in London. It is the world's oldest national broadcasting organisation and the largest broadcaster in the world by number of employees, with over 20,950 staff.",
+    "last_updated": "2026-07-29"
+  },
+  "the verge": {
+    "canonical_name": "The Verge",
+    "entity_type": "organization",
+    "summary": "The Verge is about technology and how it makes us feel. Founded in 2011, it offers its audience everything from breaking news to reviews to award-winning features and investigations.",
+    "last_updated": "2026-07-29"
+  },
+  "vox": {
+    "canonical_name": "Vox",
+    "entity_type": "organization",
+    "summary": "material did not address this",
+    "last_updated": "2026-07-29"
+  },
+  "spur intelligence": {
+    "canonical_name": "Spur Intelligence",
+    "entity_type": "startup",
+    "summary": "Spur Intelligence is a cybersecurity startup based in Lake Mary, Florida, founded by two former Defense Department engineers in 2017. The company has raised a $200 million round led by Insight Partners and its technology helps enterprises distinguish legitimate human users from bot traffic.",
+    "last_updated": "2026-07-29"
+  },
+  "insight partners": {
+    "canonical_name": "Insight Partners",
+    "entity_type": "company",
+    "summary": "Insight Partners is a global software investor that partners with high-growth technology, software, and Internet companies. The firm uses a straightforward, results-driven approach based on three core pillars—scale, focus, and experience—to help companies achieve exponential growth and long-term suc",
+    "last_updated": "2026-07-29"
+  },
+  "runlayer": {
+    "canonical_name": "Runlayer",
+    "entity_type": "startup",
+    "summary": "Runlayer is a platform for companies rolling out AI agents across engineering, security, IT, operations, and business teams while keeping one golden path for access, policy, and audit. It provides AI enablement, security, and control in one platform, offering visibility into agent sessions and real-",
+    "last_updated": "2026-07-29"
+  },
+  "rippling": {
+    "canonical_name": "Rippling",
+    "entity_type": "startup",
+    "summary": "Rippling is a startup that helps companies, especially startups, stay nimble and grow faster with intuitive workflows and powerful automations. It offloads critical admin work for payroll, benefits, compliance, IT, and finance, allowing startups to grow fast and stay lean.",
+    "last_updated": "2026-07-29"
+  },
+  "andrew berman": {
+    "canonical_name": "Andrew Berman",
+    "entity_type": "person",
+    "summary": "Andrew Berman is the head of Aquiline’s asset backed finance group and has worked at Fortress Investment Group and Fortress Credit. He is also the CEO & Co-Founder at Runlayer and Vowel, and has had a past job as Co-Founder at Nanit.",
+    "last_updated": "2026-07-29"
+  },
+  "ai models": {
+    "canonical_name": "AI models",
+    "entity_type": "ai_model",
+    "summary": "An AI model is a mathematical structure designed to perform tasks like classification, prediction, or decision making based on input data. AI models are built by gathering and labeling data, then training the model to learn patterns from it.",
+    "last_updated": "2026-07-29"
+  },
+  "enterprise software": {
+    "canonical_name": "enterprise software",
+    "entity_type": "material",
+    "summary": "Enterprise software is computer software used by organizations rather than individual users to scale operations and direct resources to needed functions. It is central to day-to-day business functions and mission-critical operations, with common types including contact centre software, business inte",
+    "last_updated": "2026-07-29"
+  },
+  "nb patil": {
+    "canonical_name": "N.B. Patil",
+    "entity_type": "person",
+    "summary": "N.B. Patil is the Co-Founder and Chief Technology Officer of Ozlo Sleep. He previously worked at Bose Corporation as a Head of Corporate Con...",
+    "last_updated": "2026-07-29"
+  },
+  "brian mulcahey": {
+    "canonical_name": "Brian Mulcahey",
+    "entity_type": "person",
+    "summary": "Brian Mulcahey is an Entrepreneur, strategy/marketing/product-oriented general manager and board member with experience at Ozlo. He is associated with Massachusetts Institute of Technology and has 500+ connections on LinkedIn.",
+    "last_updated": "2026-07-29"
+  },
+  "charlie taylor": {
+    "canonical_name": "Charlie Taylor",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable answer for Charlie Taylor's person overview.",
+    "last_updated": "2026-07-29"
+  },
+  "katalyst space": {
+    "canonical_name": "Katalyst Space",
+    "entity_type": "company",
+    "summary": "Katalyst Space Technologies is an R&D team focused on next-gen satellite and mission designs. The company aims to shake up the satellite industry by incorporating robotic servicing and autonomous space infrastructure to break through long cycle times and rigid architectures.",
+    "last_updated": "2026-07-29"
+  },
+  "neil gehrels swift observatory": {
+    "canonical_name": "Neil Gehrels Swift Observatory",
+    "entity_type": "product",
+    "summary": "The Swift mission is a NASA mission with international participation dedicated to answering questions about gamma-ray bursts. It is a tool for scientists to study these powerful explosions, which are brief but intense flashes of gamma radiation that occur from all directions in the sky.",
+    "last_updated": "2026-07-29"
+  },
+  "northrop grumman": {
+    "canonical_name": "Northrop Grumman",
+    "entity_type": "organization",
+    "summary": "Northrop Grumman was founded in 1939 by Jack Northrop as Northrop Aircraft Incorporated. The company has undergone significant transformations and is now a leader in global security, renowned for its contributions to defense, aerospace, and technology.",
+    "last_updated": "2026-07-29"
+  },
+  "pegasus": {
+    "canonical_name": "Pegasus",
+    "entity_type": "product",
+    "summary": "Pegasus is a world-leading cyber intelligence solution that enables law enforcement and intelligence agencies to remotely and covertly extract valuable intelligence from mobile devices. Pegasus5 R12 is a next-generation storage platform for digital media creators, featuring Thunderbolt™ 5 and a comp",
+    "last_updated": "2026-07-29"
+  },
+  "kieran wilson": {
+    "canonical_name": "Kieran Wilson",
+    "entity_type": "person",
+    "summary": "Kieran Wilson is a values-driven Learning and Development leader with experience across the public and private sectors. He has a background in advanced audio recording and interactive audio, with modules studied at Leeds Metropolitan University from 2009 to 2014.",
+    "last_updated": "2026-07-29"
+  },
+  "ebay": {
+    "canonical_name": "eBay",
+    "entity_type": "company",
+    "summary": "At eBay, we create pathways to connect millions of sellers and buyers in more than 190 markets around the world. Our technology empowers our customers, providing everyone the opportunity to grow and thrive — no matter who they are or where they are in the world. eBay Inc. (Nasdaq: EBAY) is a global",
+    "last_updated": "2026-07-29"
+  },
+  "ina and david steiner": {
+    "canonical_name": "Ina and David Steiner",
+    "entity_type": "person",
+    "summary": "Ina and David Steiner are a married couple living in Natick, Massachusetts, who became the target of a months-long harassment and intimidation scheme in 2019. The Steiners own and operate a trade publication, eCommerceBytes, which is a company that publishes news for ecommerce and online merchants.",
+    "last_updated": "2026-07-29"
+  },
+  "ecommercebytes": {
+    "canonical_name": "EcommerceBytes",
+    "entity_type": "product",
+    "summary": "EcommerceBytes (also known as Steiner Associates) is a company that publishes news for ecommerce and online merchants. It provides a platform and application with advanced AI capabilities for publishers and professional writers in news, research, and communications.",
+    "last_updated": "2026-07-29"
+  },
+  "devin wenig": {
+    "canonical_name": "Devin Wenig",
+    "entity_type": "person",
+    "summary": "Devin Wenig has served as Co-Founder and CEO of Symbolic.ai, a platform with advanced AI capabilities for publishers and professional writers, since 2023. Previously, he served as president and CEO of eBay and as a member of its Board of Directors from July 2015 to August 2019. Prior to that, he ser",
+    "last_updated": "2026-07-29"
+  },
+  "wendy jones": {
+    "canonical_name": "Wendy Jones",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable answer for a person overview of Wendy Jones. It appears to be a form for contacting a therapist or clinic, not a biographical summary.",
+    "last_updated": "2026-07-29"
+  },
+  "steve wymer": {
+    "canonical_name": "Steve Wymer",
+    "entity_type": "person",
+    "summary": "Steve Wymer (born 1977) is an American business and nonprofit executive, political advisor, board member, and investor. He is currently serving as President and CEO of the Boys & Girls Clubs in Silicon Valley and has held executive roles at companies such as TiVo, Nextdoor, and eBay.",
+    "last_updated": "2026-07-29"
+  },
+  "james baugh": {
+    "canonical_name": "James Baugh",
+    "entity_type": "person",
+    "summary": "James Baugh is the Managing Director and Head of European Market Structure at Cowen. He previously worked at Citi as the Director and Head of European Market Structure and is a Managing Director with over 500 connections on LinkedIn.",
+    "last_updated": "2026-07-29"
+  },
+  "david harville": {
+    "canonical_name": "David Harville",
+    "entity_type": "person",
+    "summary": "David Harville was eBay's former director of global resiliency and pleaded guilty to five felony counts of participating in a plan to harass and intimidate journalists who were critical of the online auction business. He is the seventh former eBay employee to plead guilty in a case involving a haras",
+    "last_updated": "2026-07-29"
+  },
+  "brian gilbert": {
+    "canonical_name": "Brian Gilbert",
+    "entity_type": "person",
+    "summary": "Brian Gilbert is an American YouTuber and actor, born in 1949 in London, England. He has released several albums and collaborated on songs, and is also known for his work as an actor and director in films like The Gathering (2003), Wilde (1997), and Tom & Viv (1994).",
+    "last_updated": "2026-07-29"
+  },
+  "stephanie popp": {
+    "canonical_name": "Stephanie Popp",
+    "entity_type": "person",
+    "summary": "Stephanie Popp is a licensed clinical professional counselor with a passion for working with PTSD and traumatic experiences. She spent the first 10 years of her career working with high-risk youth who had been human trafficked and experienced severe abuse, and she continues to focus on treating trau",
+    "last_updated": "2026-07-29"
+  },
+  "stephanie stockwell": {
+    "canonical_name": "Stephanie Stockwell",
+    "entity_type": "person",
+    "summary": "Stephanie Stockwell is a senior analyst at RAND Europe in the health and care research group. Her research interests include public health and primary care research, preventative health, and lifestyle behaviors such as physical activity and sedentary behavior.",
+    "last_updated": "2026-07-29"
+  },
+  "philip cooke": {
+    "canonical_name": "Philip Cooke",
+    "entity_type": "person",
+    "summary": "Professor Philip Cooke joined Strathclyde University as a lecturer in Italian in 1993 after taking a first degree in Italian with Russian Studies at Edinburgh University. He has lived in Scotland since 1984 and has done extensive research and collaboration in Italy, particularly in Florence.",
+    "last_updated": "2026-07-29"
+  },
+  "peacock": {
+    "canonical_name": "Peacock",
+    "entity_type": "company",
+    "summary": "Peacock is NBCUniversal's streaming service launched in 2020. It offers a wide range of content including movies, TV shows, live sports, news, and original programming, operating on a tiered subscription model with both free and premium access options.",
+    "last_updated": "2026-07-29"
+  },
+  "model s": {
+    "canonical_name": "Model S",
+    "entity_type": "product",
+    "summary": "Tesla Model S is a full-size electric sedan in production from 2012 to 2016, receiving a facelift. It is powered by electric motors ranging from 302hp to 691hp and uses batteries from 60kWh to 85kWh. The Model S is noted for its long range and access to a charging network.",
+    "last_updated": "2026-07-29"
+  },
+  "model x": {
+    "canonical_name": "Model X",
+    "entity_type": "product",
+    "summary": "Tesla Model X is a luxury electric SUV built for style, performance, and comfort, featuring falcon wing doors and seating for up to seven. It is described as Tesla's most niche product, with a three-row design, Plaid-level performance, and a price tag that starts at $89,990.",
+    "last_updated": "2026-07-29"
+  },
+  "optimus": {
+    "canonical_name": "Optimus",
+    "entity_type": "product",
+    "summary": "Optimus is a company founded in Stockholm in 1899 that produces dependable outdoor stoves and clever accessories. The company has set technical standards over its history and offers gas, multifuel, and hybrid stoves for demanding users.",
+    "last_updated": "2026-07-29"
+  },
+  "sungrow": {
+    "canonical_name": "Sungrow",
+    "entity_type": "company",
+    "summary": "Sungrow is a global leader in solar energy, powering 800GW+ worldwide with advanced solar inverters and energy storage systems. Founded in 1997, it is a leading renewable energy company operating in over 100 countries with 20+ international subsidiaries and 7 R&D centers.",
+    "last_updated": "2026-07-29"
+  },
+  "huawei": {
+    "canonical_name": "Huawei",
+    "entity_type": "company",
+    "summary": "Huawei is a leading global provider of information and communications technology (ICT) infrastructure and smart devices, founded in 1987. The company has approximately 213,000 employees and operates in more than 170 countries, serving over 3 billion people.",
+    "last_updated": "2026-07-29"
+  },
+  "ariana grande": {
+    "canonical_name": "Ariana Grande",
+    "entity_type": "person",
+    "summary": "Ariana Grande-Butera was born in 1993 in Florida to mum Joan, CEO of a telephone company, and graphic designer Edward. She is close to her older half-brother, Frankie Grande, who shares her talent for performance and is an American theatre actor and YouTube personality. Following the One Love Manche",
+    "last_updated": "2026-07-29"
+  },
+  "hackers": {
+    "senses": [
+      {
+        "sense_label": "multiple individuals",
+        "summary": "Make Awesome Things. Hackathon Hackers has 19 repositories available. Follow their code on GitHub. There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error wh",
+        "last_updated": "2026-07-29"
+      }
+    ]
+  },
+  "wikimedia foundation": {
+    "canonical_name": "Wikimedia Foundation",
+    "entity_type": "organization",
+    "summary": "The Wikimedia Foundation is the nonprofit organization that operates Wikipedia and the other Wikimedia free knowledge projects. Its vision is a world where every human can freely share in the sum of all knowledge, and it supports hundreds of thousands of volunteer editors who use its technology infr",
+    "last_updated": "2026-07-29"
+  },
+  "communications workers of america": {
+    "canonical_name": "Communications Workers of America",
+    "entity_type": "organization",
+    "summary": "The Communications Workers of America (CWA) is a union representing workers in various sectors, including airline and call center jobs. The organization focuses on securing good pay, benefits, and working conditions, and it advocates for policies to protect jobs from being shifted overseas or replac",
+    "last_updated": "2026-07-29"
+  },
+  "wiki workers united": {
+    "canonical_name": "Wiki Workers United",
+    "entity_type": "organization",
+    "summary": "Wiki Workers United (WWU) is an organization that believes healthy institutions depend on healthy workplaces. It focuses on organizing within Wikimedia communities, requiring both technical knowledge and collaboration with volunteers to shape the workplace and strengthen the movement.",
+    "last_updated": "2026-07-29"
+  },
+  "national labor relations board": {
+    "canonical_name": "National Labor Relations Board",
+    "entity_type": "regulation",
+    "summary": "The National Labor Relations Board (NLRB) is a 90-year-old federal agency created by the New Deal-era law that governs labor relations in the private sector. The material notes concerns about the board's future, suggesting it may not survive to celebrate its 100th birthday if the current administrat",
+    "last_updated": "2026-07-29"
+  },
+  "free knowledge movement": {
+    "canonical_name": "Free Knowledge Movement",
+    "entity_type": "organization",
+    "summary": "The free knowledge movement has its roots in the 1960s and 1970s, emerging from the concept of free and open-source software led by pioneers like Richard Stallman. It is a social and philosophical movement advocating for the freedom of information and knowledge, later influenced by the development o",
+    "last_updated": "2026-07-29"
+  },
+  "stop cop city": {
+    "canonical_name": "Stop Cop City",
+    "entity_type": "event",
+    "summary": "Stop Cop City is a referendum campaign to decide how to spend $67 million of taxpayer money on public safety. The event involves gathering comments from constituents about a proposed $90 million police militarization training facility known as 'Cop City'.",
+    "last_updated": "2026-07-29"
+  },
+  "rico": {
+    "canonical_name": "RICO",
+    "entity_type": "regulation",
+    "summary": "RICO, or the Racketeer Influenced and Corrupt Organizations Act, is a U.S. law that provides for the prosecution of organizations engaged in criminal activities. The document provides a general overview of the statutes, sentencing guidelines, and case law regarding the Act.",
+    "last_updated": "2026-07-29"
+  },
+  "epos h3 hybrid": {
+    "canonical_name": "EPOS H3 Hybrid",
+    "entity_type": "model_release",
+    "summary": "The EPOS H3 Hybrid is a multi-platform wired gaming headset. It is described as a versatile pair of headphones that can be used with various devices.",
+    "last_updated": "2026-07-29"
+  },
+  "logitech": {
+    "canonical_name": "Logitech",
+    "entity_type": "company",
+    "summary": "Logitech is a Swiss company focused on innovation and quality that designs software-enabled hardware solutions. Their purpose is to extend human potential in work and play by providing superior performance in gaming and productivity, with maximum comfort, speed, and accuracy. The company aims to be",
+    "last_updated": "2026-07-29"
+  },
+  "switch 2": {
+    "canonical_name": "Switch 2",
+    "entity_type": "product",
+    "summary": "The Nintendo Switch 2 is a new video game console that runs faster and looks better than its predecessor. It can run 4K at 120 FPS and features a new keyboard capability. The console's store is faster and snappier, and it includes a GameChat feature.",
+    "last_updated": "2026-07-29"
+  },
+  "brian bumbery": {
+    "canonical_name": "Brian Bumbery",
+    "entity_type": "person",
+    "summary": "Brian Bumbery is a power publicist and the founder of BB Gun Press, a Los Angeles-based public relations firm. He previously served as a senior VP of publicity at Warner Bros and has tracked over 100,000 miles to assist A-list talent like Green Day, Metallica, and Muse.",
+    "last_updated": "2026-07-29"
+  },
+  "luis alvarez": {
+    "canonical_name": "Luis Alvarez",
+    "entity_type": "person",
+    "summary": "Luis Alvarez is the Founder, President and CEO at Alvarez Technology Group. He previously worked as the VP of Support Services at MicroAge and attended the University of Phoenix.",
+    "last_updated": "2026-07-29"
+  },
+  "walter alvarez": {
+    "canonical_name": "Walter Alvarez",
+    "entity_type": "person",
+    "summary": "Walter Alvarez is a Doctor of Social Sciences student who left war-torn Guatemala for Canada. He is best known for the impact theory explaining dinosaur extinction, which he developed after analyzing a rock sample at the Cretaceous-Tertiary boundary.",
+    "last_updated": "2026-07-29"
+  },
+  "jan smit": {
+    "canonical_name": "Jan Smit",
+    "entity_type": "person",
+    "summary": "Jan Smit is a Dutch singer, formerly known as 'Jantje Smit'. The material provided is a preview of a web page and does not contain a usable overview of the person.",
+    "last_updated": "2026-07-29"
+  },
+  "chicxulub": {
+    "canonical_name": "Chicxulub",
+    "entity_type": "location",
+    "summary": "The Chicxulub crater is an impact crater located off the Yucatán Peninsula that formed through an asteroid impact about 66 million years ago. The impact and resulting climate change is believed to have led to the mass extinction that wiped out the dinosaurs.",
+    "last_updated": "2026-07-29"
+  },
+  "yucatan peninsula": {
+    "canonical_name": "Yucatan Peninsula",
+    "entity_type": "location",
+    "summary": "The Mexican name for the Atlantic coastal region of the Yucatan Peninsula is 'Riviera Maya'. The English use is either Mayan Riviera or Maya Riviera, and it is used all three ways on the website.",
+    "last_updated": "2026-07-29"
+  },
+  "kpg boundary": {
+    "canonical_name": "K-Pg boundary",
+    "entity_type": "event",
+    "summary": "The Cretaceous-Paleogene (K-Pg) boundary, occurring approximately 66 million years ago, marks a significant transition between the Mesozoic and Cenozoic eras. This boundary is most famously associated with a mass extinction event that led to the disappearance of numerous species, including dinosaurs",
+    "last_updated": "2026-07-29"
+  },
+  "kt boundary": {
+    "canonical_name": "K-T boundary",
+    "entity_type": "event",
+    "summary": "The K-T boundary separates the age of reptiles and the age of mammals, which was first recognized over one hundred years ago by geologists who realized that there was a dramatic change in the types of fossils deposited on either side of this boundary. This boundary also separates two of the three er",
+    "last_updated": "2026-07-29"
+  },
+  "asteroid": {
+    "canonical_name": "asteroid",
+    "entity_type": "technology",
+    "summary": "Asteroid Technologies is a visual prototyping tool for 3D human-machine interfaces based in Argentina. It provides innovative accessibility tools designed to enhance communication for individuals with disabilities.",
+    "last_updated": "2026-07-29"
+  },
+  "comet": {
+    "canonical_name": "comet",
+    "entity_type": "technology",
+    "summary": "Comet is a globally leading Swiss technology firm that has been developing and producing innovative high-tech components and systems based on x-ray and radio frequency for over 70 years. It serves customers in electronics, automotive, aerospace, and security industries with innovative products and d",
+    "last_updated": "2026-07-29"
+  },
+  "iridium": {
+    "canonical_name": "iridium",
+    "entity_type": "material",
+    "summary": "Iridium is one of the rarest and most corrosion-resistant metals known, belonging to the platinum group. It is a hard, silvery metal that is almost as unreactive as gold, and its compounds display various colors, giving the element its name from the Greek word for rainbow.",
+    "last_updated": "2026-07-29"
+  },
+  "scientific computing": {
+    "canonical_name": "Scientific computing",
+    "entity_type": "technology",
+    "summary": "Scientific computing is the use of computational models, numerical methods, and computer hardware to solve complex problems in science and engineering. It sits at the intersection of application expertise, mathematical expertise, and software expertise to find practical solutions that are accurate a",
+    "last_updated": "2026-07-29"
+  },
+  "scientific software": {
+    "canonical_name": "scientific software",
+    "entity_type": "technology",
+    "summary": "ECP Software Technology (ST) is one of three focus areas within the ECP, aimed at developing performant mission and science applications at scale. It involves an aggressive research and development project to create an integrated software stack and deploy it to DOE HPC facilities.",
+    "last_updated": "2026-07-29"
+  },
+  "genomics": {
+    "canonical_name": "genomics",
+    "entity_type": "technology",
+    "summary": "Genomics is the study of the complete set of genes (the genome) of organisms, focusing on how they work, interact, and evolve. It is a multidisciplinary field that uses laboratory and bioinformatic techniques to investigate genome structure, function, and editing.",
+    "last_updated": "2026-07-29"
+  },
+  "life sciences": {
+    "canonical_name": "life sciences",
+    "entity_type": "technology",
+    "summary": "The life sciences industry is a fast-growing, interdisciplinary sector focused on advancing health and well-being through scientific discovery and development. It is distinguished from health care by its focus on discovering and producing therapies and tools, rather than providing clinical services.",
+    "last_updated": "2026-07-29"
+  },
+  "uncle bob": {
+    "senses": [
+      {
+        "sense_label": "which sense applies here",
+        "summary": "The phrase 'Bob's your uncle' is an idiom used to indicate that something is easy to do or complete. It often carries an underlying sense of encouragement, suggesting the task is simple and has been successfully accomplished.",
+        "last_updated": "2026-07-29"
+      }
+    ]
+  },
+  "giovannibrees": {
+    "canonical_name": "giovannibrees",
+    "entity_type": "person",
+    "summary": "giovannibrees is the creator of a personal travel app. The app is free, open-source, and self-hosted, allowing each person to run their own instance with their own data. It is built with AI agents and runs as a single Cloudflare Worker on a user's own account.",
+    "last_updated": "2026-07-29"
+  },
+  "travelroamradar": {
+    "canonical_name": "travel-roamradar",
+    "entity_type": "product",
+    "summary": "RoamRadar - your own personal travel hub. A free, open-source, self-hosted personal travel app. Keep every flight, hotel, ride, countdown, wishlist and past trip on one living timeline. A free, open-source, self-hosted personal travel app. Keep every flight, hotel, ride, countdown, wishlist and past",
+    "last_updated": "2026-07-29"
+  },
+  "mactr": {
+    "canonical_name": "MacTR",
+    "entity_type": "product",
+    "summary": "MacTR is a native macOS menu bar app for the Thermalright Trofeo Vision 9.16 LCD display. It turns the 1920x480 LCD on the cooler into a real-time system monitoring dashboard. The app is built with Swift 6.3 and libusb, and updates are delivered automatically via Sparkle.",
+    "last_updated": "2026-07-29"
+  },
+  "limin": {
+    "canonical_name": "Limin",
+    "entity_type": "organization",
+    "summary": "Limin operates as a dine-in destination and provides venue hire for private and corporate events. It also offers an online gaming platform with animated 2D games based in Hanoi, Vietnam. The company was founded in 2016 and its headquarters is in Hanoi.",
+    "last_updated": "2026-07-29"
+  },
+  "thermalright": {
+    "canonical_name": "Thermalright",
+    "entity_type": "company",
+    "summary": "Thermalright is a Taiwanese company with over 20 years of development history. It is a private company with an estimated revenue of less than $1M and less than 10 employees. The brand is known for its Phantom Spirit series, including the 120 EVO.",
+    "last_updated": "2026-07-29"
+  },
+  "bongo cat": {
+    "canonical_name": "Bongo Cat",
+    "entity_type": "ai_model",
+    "summary": "Bongo Cat is a specialized Image generation AI Model of type Safetensors / Checkpoint AI Model created by the AI community. It is a Stable Diffusion model fine-tuned to the Pikachu concept and can be used with an UI like AUTOMATIC1111. The model was created by Skittleology and built with ❤️ by Eleve",
+    "last_updated": "2026-07-29"
+  },
+  "pikachu": {
+    "canonical_name": "Pikachu",
+    "entity_type": "ai_model",
+    "summary": "Pikachu is a highly specialized Image generation AI Model of type Safetensors / Checkpoint AI Model created by the AI community user civitai. It is a Stable Diffusion model fine-tuned to the Pikachu concept and can be used with an UI for running Stable Diffusion models. The model was created by Skit",
+    "last_updated": "2026-07-29"
+  },
+  "beret21": {
+    "canonical_name": "beret21",
+    "entity_type": "person",
+    "summary": "beret21 is a person who created a logo for 16Personalities, a project that generates personality descriptions. The logo is made from 16 points of four colors forming a circle. It takes 10 minutes to get a description of your personality and behavior.",
+    "last_updated": "2026-07-29"
+  },
+  "gatekeeper": {
+    "canonical_name": "Gatekeeper",
+    "entity_type": "technology",
+    "summary": "Gatekeeper is a contract management platform that centralizes contract-related tasks. It automates writing, negotiation, e-signing, and renewals, and offers a vendor management add-on. The platform uses AI agents to improve compliance and streamline contracting.",
+    "last_updated": "2026-07-29"
+  },
+  "command line tools": {
+    "canonical_name": "Command Line Tools",
+    "entity_type": "technology",
+    "summary": "Command-line tools perform a wide range of tasks behind the scenes of user-friendly graphical interfaces. In operating systems like Linux and Windows, mouse clicks often trigger intricate command-line operations. The blog post explores 10 fundamental commands in both systems to reveal the magic they",
+    "last_updated": "2026-07-29"
+  },
+  "homebrew": {
+    "canonical_name": "Homebrew",
+    "entity_type": "organization",
+    "summary": "Homebrew is a free and open-source software package management system that simplifies software installation on macOS and Linux. It is also described as a venture capital firm that invests in early-stage companies and supports founders through market strategy.",
+    "last_updated": "2026-07-29"
+  },
+  "vinvai": {
+    "canonical_name": "VinvAI",
+    "entity_type": "company",
+    "summary": "VinvAI runs, benchmarks, and optimizes agent-written Python code to make it production-ready. It provides zero-edit runtime tracing that joins every call to source and builds a context graph of the code, traces, and metrics to serve to the agent.",
+    "last_updated": "2026-07-29"
+  },
+  "vinv": {
+    "canonical_name": "Vinv",
+    "entity_type": "product",
+    "summary": "The material does not provide a clear overview of the Vinv product. It mentions a Viking VINV1200 interior-power ventilator kit and an extension for Visual Studio Code, but does not describe the Vinv product itself.",
+    "last_updated": "2026-07-29"
   }
 }
