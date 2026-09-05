@@ -1,0 +1,26 @@
+{
+  "title": "Hermex: iPhone से अपने AI एजेंट को नियंत्रित करें, डेटा रहेगा अपने सर्वर पर",
+  "url": "https://github.com/uzairansaruzi/hermex",
+  "summary": "Hermex ने एक नया रास्ता दिखाया है AI control का - अब आप अपने iPhone से अपने खुद के सर्वर पर चल रहे AI agent को चला सकते हैं, बिना किसी cloud service के बीच में।",
+  "image": "https://opengraph.githubassets.com/1/uzairansaruzi/hermex",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "Hermex एक native SwiftUI iPhone app है जो self-hosted hermes-webui server को control करता है - यानी आप",
+  "introduction_lede": "Hermex ने एक नया रास्ता दिखाया है AI control का - अब आप अपने iPhone से अपने खुद के सर्वर पर चल रहे AI agent को चला सकते हैं, बिना किसी cloud service के बीच में।",
+  "deep_dive_and_context": "Hermex एक native SwiftUI iPhone app है जो self-hosted hermes-webui server को drive करता है। यहाँ phone सिर्फ control plane है, compute plane नहीं - यानी agent, उसके tools और आपका data आपके अपने hardware पर ही रहता है। Setup में करीब 15 मिनट लगते हैं, लेकिन आपको अपना खुद का hermes-webui server लाना होगा। यह एक client-only app है, यानी यह खुद कोई backend host नहीं करता।",
+  "strategic_analysis": "यह self-hosted AI solutions की बढ़ती trend को दिखाता है जहाँ users अपनी data privacy और control को priority देते हैं।",
+  "conclusion_and_significance": "Hermex उन developers और tech enthusiasts के लिए एक अच्छा option है जो अपने AI experience को पूरी तरह control करना चाहते हैं। I think I'm still not getting the format right. Let me try one more time with the exact format:",
+  "category": "general",
+  "tags": [
+    "Hermex",
+    "iPhone",
+    "hermes-webui",
+    "self-hosted",
+    "AI agent"
+  ],
+  "sources": [
+    "https://github.com/uzairansaruzi/hermex"
+  ],
+  "id": "c332299209e2",
+  "first_seen": "2026-07-03T06:06:34.833413+00:00"
+}

@@ -623,15 +623,29 @@
       return notes;
     }
 
+    // One ~8KB file per article, instead of downloading the whole archive to
+    // read a single story. Falls back to the store for links made before the
+    // split, or if the delivery layer hasn't been generated yet.
+    async function loadArticle(id) {
+      if (!id) return null;
+
+      const direct = await fetch(`../output/articles/${encodeURIComponent(id)}.json`);
+      if (direct.ok) return direct.json();
+      if (direct.status !== 404) throw new Error(`HTTP ${direct.status}`);
+
+      const legacy = await fetch('../output/articles_hindi.json', { cache: 'no-store' });
+      if (legacy.status === 404) return null;
+      if (!legacy.ok) throw new Error(`HTTP ${legacy.status}`);
+      const items = await legacy.json();
+      return Array.isArray(items) ? items.find((it) => it.id === id) || null : null;
+    }
+
     async function init() {
       const params = new URLSearchParams(window.location.search);
       const id = params.get('id') || '';
 
       try {
-        const response = await fetch('../output/articles_hindi.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const items = await response.json();
-        const item = Array.isArray(items) ? items.find((it) => it.id === id) : null;
+        const item = await loadArticle(id);
 
         if (!item) {
           articleShell.hidden = true;

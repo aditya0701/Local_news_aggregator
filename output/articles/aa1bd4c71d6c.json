@@ -1,0 +1,22 @@
+{
+  "title": "Waku: AI कोडिंग एजेंट्स को एक ही जगह मैनेज करने के लिए Native ऐप",
+  "url": "https://waku.sh",
+  "summary": "एक developer ने Waku नाम का एक नया native application बनाया है जो AI coding agents को manage करने की समस्या को हल करता है। यह application कई popular agents को एक ही जगह लाता है, जिससे developers को अलग-अलग tools के बीच switch करने की जरूरत नहीं पड़ती। Waku पूरी तरह से आपके machine पर चलता है, जिसका मतलब है कि आपका data और privacy पूरी तरह से सुरक्षित रहती है।",
+  "image": "https://waku.sh/og-icon.png",
+  "published": "Sun, 16 Aug 2026 00:38:44 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "concept_box": "Waku एक नया native application है जो developers को Amp, Claude Code और Cursor जैसे कई AI coding agents को एक ही unified interface से manage करने की सुविधा देता है। यह पूरी तरह से मशीन पर चलता है, जिससे data privacy और security बनी रहती है।",
+  "introduction_lede": "एक developer ने Waku नाम का एक नया native application बनाया है जो AI coding agents को manage करने की समस्या को हल करता है। यह application कई popular agents को एक ही जगह लाता है, जिससे developers को अलग-अलग tools के बीच switch करने की जरूरत नहीं पड़ती। Waku पूरी तरह से आपके machine पर चलता है, जिसका मतलब है कि आपका data और privacy पूरी तरह से सुरक्षित रहती है।",
+  "deep_dive_and_context": "Waku को Rust programming language का use करके बनाया गया है, जो अपनी speed और reliability के लिए जानी जाती है। यह Zed editor के पीछे के GPU-accelerated framework GPUI का भी use करता है। इस technical foundation की वजह से Waku बहुत fast चलता है और इसमें Electron जैसा भारी framework नहीं है। इसका result यह है कि यह तुरंत launch हो जाता है और सालों पुराने transcripts को भी smooth scrolling के साथ आसानी से handle कर लेता है।\n\nहर AI agent Waku के साथ उसके strongest native interface के ज़रिए जुड़ा है, जैसे stream-json, JSON-RPC या live events। Waku इन सभी अलग-अलग interfaces को एक single, provider-neutral model में normalize कर देता है। इसका मतलब है कि आपको हर agent के लिए अलग से interface सीखने की ज़रूरत नहीं है। आप keyboard shortcuts जैसे ⌘N, ⏎, ⌘⏎ और Escape का use करके agent को control कर सकते हैं, बिना mouse की ज़रूरत के।\n\nWaku का एक खास feature यह है कि हर prompt आपके working tree का checkpoint create करता है एक hidden git ref में। इसका मतलब है कि आप न केवल chat log को roll back कर सकते हैं, बल्कि उस समय का पूरा code भी वापस पा सकते हैं। यह feature developers को experiments करने की आज़ादी देता है, क्योंकि वे जानते हैं कि वे आसानी से पुराने state में वापिस जा सकते हैं।",
+  "strategic_analysis": "Waku का emergence developer productivity tools में एक significant trend को दर्शाता है। कई AI agents को manage करने की समस्या को solve करके, यह application एक fragmented ecosystem में cohesion लाता है। यह approach developer workflow को simplify करता है और cognitive load को कम करता है। हालांकि, यह देखना दिलचस्प होगा कि क्या यह model उन बड़े enterprises में भी सफल हो पाएगा जहाँ centralized management और security protocols की सख्त जरूरत होती है।",
+  "conclusion_and_significance": "Waku AI coding agents के management को आसान बनाता है और developers को एक secure, fast और unified experience देता है। यह application न केवल productivity बढ़ाता है बल्कि developer autonomy को भी respect करता है।",
+  "category": "general",
+  "tags": [],
+  "sources": [
+    "https://waku.sh"
+  ],
+  "id": "aa1bd4c71d6c",
+  "first_seen": "2026-08-16T03:26:44.453148+00:00"
+}

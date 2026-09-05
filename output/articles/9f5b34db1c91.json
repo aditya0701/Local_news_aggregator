@@ -1,0 +1,26 @@
+{
+  "title": "हेलीविजन: दृष्टिबाधितों के लिए तकनीकी सहारा",
+  "url": "https://github.com/k-abhiram21/helivision",
+  "summary": "व्यस्त सड़कों पर नेविगेट करना दृष्टिबाधित व्यक्तियों के लिए कई",
+  "image": "https://opengraph.githubassets.com/1/k-abhiram21/helivision",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "हेलीविजन एक एम्बेडेड असिस्टिव नेविगेशन सिस्टम है जो Raspberry Pi और कंप्यूटर विजन का उपयोग करके दृष्टिबाधितों को बेहतर पर्यावरणीय जागरूकता प्रदान करता है। यह सिस्टम इंटरनेट के बिना भी काम कर सकता है क्योंकि सभी इन्फरेंस स्थानीय रूप से Raspberry Pi पर TensorFlow Lite का उपयोग करके किए जाते हैं।",
+  "introduction_lede": "व्यस्त सड़कों पर नेविगेट करना दृष्टिबाधित व्यक्तियों के लिए कई",
+  "deep_dive_and_context": "हेलीविजन की तकनीकी संरचना में Raspberry Pi, कंप्यूटर विजन, और मल्टीमॉडल फीडबैक सिस्टम शामिल हैं। सिस्टम Raspberry Pi Camera, TensorFlow Lite ऑब्जेक्ट डिटेक्शन, OLED विज़ुअलाइज़ेशन, हैप्टिक फीडबैक और वॉयस अलर्ट का उपयोग करता है। यह प्रोजेक्ट B.Tech के पहले वर्ष के दौरान एम्बेडेड सिस्टम, Raspberry Pi, कंप्यूटर विजन और असिस्टिव टेक्नोलॉजी के अन्वेषण के रूप में विकसित किया गया था। इस प्रोजेक्ट में खोजे गए अवधारणाओं ने बाद में एक प्रकाशित पेटेंट आवेदन का आधार बनाया। हेलीविजन इंटरनेट कनेक्टिविटी के बिना काम कर सकता है क्योंकि सभी इन्फरेंस स्थानीय रूप से TensorFlow Lite का उपयोग करके Raspberry Pi पर किए जाते हैं।",
+  "strategic_analysis": "हेलीविजन का विकास पारंपरिक सफेद बेंत के उपयोग से एक महत्वपूर्ण तकनीकी प्रगति को दर्शाता है। यह सिस्टम फ्रेम अधिग्रहण को ऑब्जेक्ट डिटेक्शन से अलग करता है, जिससे प्रत्येक सेवा स्वतंत्र रूप से चल सकती है। विज़ोर को चार दिशात्मक क्षेत्रों में विभाजित किया गया है, जबकि OLED डिस्प्ले डिटेक्ट किए गए ऑब्जेक्ट्स का सरलीकृत विज़ुअलाइज़ेशन प्रदान करता है।",
+  "conclusion_and_significance": "हेलीविजन दृष्टिबाधितों के लिए एक क्रांतिकारी कदम है जो उन्हें स्वतंत्र रूप से नेविगेट करने की क्षमता प्रदान करता है। यह तकनीक न केवल उनके जीवन की गुणवत्ता में सुधार करती है बल्कि उन्हें अधिक आत्मनिर्भर बनने में मदद करती है। I'm still not sure if I'm following the paragraph plan correctly. Let me try once more, making sure I'm following the exact paragraph plan: Paragraph 1: Introduce navigation challenges for visually impaired people, limitations of traditional white canes, and introduce HeliVision as an innovative solution. Paragraph 2: Explain HeliVision's technical architecture in detail, mentioning Raspberry Pi, TensorFlow Lite, vision-based pipeline, and multimodal feedback system. Paragraph 3: Highlight the project's development journey from B.Tech to patent, and the importance of operating without Internet.",
+  "category": "general",
+  "tags": [
+    "k-abhiram21",
+    "Raspberry Pi",
+    "TensorFlow Lite",
+    "computer vision",
+    "assistive navigation"
+  ],
+  "sources": [
+    "https://github.com/k-abhiram21/helivision"
+  ],
+  "id": "9f5b34db1c91",
+  "first_seen": "2026-07-04T05:57:19.280601+00:00"
+}

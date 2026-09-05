@@ -1,0 +1,20 @@
+{
+  "title": "Subtext: AI के 'विचारों' को देखने वाला नया उपकरण",
+  "url": "https://github.com/ninjahawk/Subtext",
+  "summary": "एक नए open-source tool Subtext ने AI की 'ब्लैक बॉक्स' समस्या को हल करने की दिशा में एक बड़ा कदम उठाया है। यह tool, जो Anthropic की J-space और Jacobian lens पर आधारित है, developers को real-time में देखने की अनुमति देता है कि एक language model कैसे पढ़ रहा है, तर्क कर रहा है और जवाब दे रहा है। Subtext का डेमो दिखाता है कि यह tool model के हर token को watch कर सकता है, जिससे model के internal state और उसके visible text के बीच के gap को भरा जा सके।",
+  "image": "https://opengraph.githubassets.com/1/ninjahawk/Subtext",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "Subtext एक नया real-time tool है जो AI models के internal 'verbal workspace' को दिखाता है। यह Anthropic की J-space और Jacobian lens तकनीक पर आधारित है, जिससे developers देख सकते हैं कि model कैसे सोच रहा है।",
+  "introduction_lede": "एक नए open-source tool Subtext ने AI की 'ब्लैक बॉक्स' समस्या को हल करने की दिशा में एक बड़ा कदम उठाया है। यह tool, जो Anthropic की J-space और Jacobian lens पर आधारित है, developers को real-time में देखने की अनुमति देता है कि एक language model कैसे पढ़ रहा है, तर्क कर रहा है और जवाब दे रहा है। Subtext का डेमो दिखाता है कि यह tool model के हर token को watch कर सकता है, जिससे model के internal state और उसके visible text के बीच के gap को भरा जा सके।",
+  "deep_dive_and_context": "Subtext का तकनीकी आधार Anthropic के शोध पर टिका है, जिसमें J-space को एक global workspace के रूप में पहचाना गया है। यह J-space model के उन internal representations को दर्शाता है जिन्हें verbally report किया जा सकता है और जो multi-step reasoning के लिए causally use होते हैं। Subtext इस J-space को observe करने के लिए Jacobian lens का उपयोग करता है, जो किसी भी layer के residual-stream activation को final-layer basis में translate करता है। यह lens model के अपने unembedding के माध्यम से यह बताता है कि model का internal state किस vocabulary word को produce करने के लिए disposed है। Subtext इस method को live conversation के दौरान continuously apply करता है।\n\nSubtext की सबसे बड़ी विशेषता यह है कि यह model के हर token को watch करता है, चाहे वह user के message को ingest कर रहा हो या अपना reply generate कर रहा हो। यह lens नौ अलग-अलग depths पर read किया जाता है और results real-time में render होते हैं। इससे model के computation के intermediate steps सीधे watchable हो जाते हैं। उदाहरण के लिए, model के जवाब देने से कई tokens पहले ही verdicts बन जाते हैं। Subtext Neuronpedia जैसे tools से अलग है क्योंकि यह conversational और continuous है। यह live chat के दौरान lens को render करता है, user के message की reading phase को भी शामिल करता है, और generation speed पर stream करता है।\n\nSubtext की value model के internal state और उसके visible text के बीच के gap को भरने में है। एक demo session में देखा गया कि जब model \"Is this correct? 12 + 5 = 1\" पढ़ रहा था, तब workspace में 'math', 'addition', 'arithmetic' जैसे शब्द high strength पर थे। जैसे ही model ने जवाब देना शुरू किया, 'incorrect' शब्द dominate करने लगा। यह दिखाता है कि model का internal judgment उसके शब्दों से पहले ही बन चुका था। Subtext sessions को export और replay किया जा सकता है, जिससे developers model के behavior को गहराई से समझ सकते हैं।",
+  "strategic_analysis": "Subtext का विकास AI की interpretability की दिशा में एक महत्वपूर्ण कदम है। यह tool developers को एक 'window' देता है जिससे वे देख सकें कि model का 'mind' कैसे काम कर रहा है। यह एक तरह से AI के 'विचारों' को real-time में देखने जैसा है। हालांकि यह tool अभी local models के लिए है, लेकिन इसका potential बहुत बड़ा है। यह AI safety और reliability को बढ़ाने में मदद कर सकता है, क्योंकि developers model के गलत output के पीछे के कारणों को समझ पाएंगे।",
+  "conclusion_and_significance": "Subtext AI की 'ब्लैक बॉक्स' समस्या को हल करने की दिशा में एक क्रांतिकारी कदम है। यह tool developers को AI के internal workings को समझने की शक्ति देता है, जिससे AI systems को और अधिक reliable और trustworthy बनाया जा सकेगा।",
+  "category": "repo_analysis",
+  "tags": [],
+  "sources": [
+    "https://github.com/ninjahawk/Subtext"
+  ],
+  "id": "3613a06fc0af",
+  "first_seen": "2026-07-08T05:36:29.727998+00:00"
+}

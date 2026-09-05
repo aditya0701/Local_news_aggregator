@@ -1,0 +1,27 @@
+{
+  "title": "BlueEagle AI Gateway: एक ही API से सभी AI मॉडल्स की पहुंच, 9% लागत में",
+  "url": "https://github.com/gitstq/BlueEagle-API-Gateway",
+  "summary": "BlueEagle AI Gateway ने AI मॉडल एक्सेस को सरल बना दिया है। यह प्लेटफॉर्म OpenAI GPT, Anthropic Claude और Google Gemini जैसे प्रमुख AI मॉडल्स को एक ही API कुंजी के माध्यम से उपलब्ध कराता है।",
+  "image": "https://opengraph.githubassets.com/1/gitstq/BlueEagle-API-Gateway",
+  "source": "synthesized",
+  "language": "hindi",
+  "concept_box": "API Gateway एक तकनीकी प्लेटफॉर्म है जो कई AI मॉडल्स को एक ही इंटरफेस से जोड़ता है, जिससे डेवलपर्स को अलग-अलग कंपनियों के APIs के साथ काम करने की जरूरत नहीं पड़ती।",
+  "introduction_lede": "BlueEagle AI Gateway ने AI मॉडल एक्सेस को सरल बना दिया है। यह प्लेटफॉर्म OpenAI GPT, Anthropic Claude और Google Gemini जैसे प्रमुख AI मॉडल्स को एक ही API कुंजी के माध्यम से उपलब्ध कराता है।",
+  "deep_dive_and_context": "BlueEagle AI Gateway का मुख्य सूत्र है: आधिकारिक क्षमता × 0.09 मूल्य × 1 मिनट एकीकरण = ब्लू ईगल अनुभव। इसका मतलब है कि डेवलपर्स को आधिकारिक दरों का केवल 9% भुगतान करना होगा। प्लेटफॉर्म 100% OpenAI SDK के साथ संगत है, जिसका अर्थ है कि डेवलपर्स को केवल base_url और api_key बदलना होगा।",
+  "strategic_analysis": "BlueEagle AI Gateway एक तकनीकी प्लेटफॉर्म है जो कई AI मॉडल्स को एक ही इंटरफेस से जोड़ता है। 0.09x pricing का मतलब है कि ब्लू ईगल की कीमतें आधिकारिक कीमतों का केवल 9% हैं। OpenAI SDK ओपन एआई का सॉफ्टवेयर डेवलपमेंट किट है जिससे डेवलपर अपनी एप्लीकेशन में AI फीचर्स जोड़ते हैं।",
+  "conclusion_and_significance": "BlueEagle AI Gateway डेवलपर्स के लिए एक क्रांतिकारी समाधान है, जो AI मॉडल एक्सेस को सरल और किफायती बनाता है।",
+  "category": "repo_analysis",
+  "tags": [
+    "BlueEagle-API-Gateway",
+    "OpenAI GPT",
+    "Anthropic Claude",
+    "Google Gemini",
+    "API Gateway"
+  ],
+  "sources": [
+    "https://github.com/gitstq/BlueEagle-API-Gateway",
+    "https://github.com/gitstq/BlueEagle-AI-LLM-Gateway"
+  ],
+  "id": "4105660a81ec",
+  "first_seen": "2026-07-03T06:06:34.833413+00:00"
+}

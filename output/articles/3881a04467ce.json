@@ -1,0 +1,20 @@
+{
+  "title": "Agentsmith: AI Agents को Professional बनाने के लिए एक Portable Operating System",
+  "url": "https://github.com/PromptPartner/agentsmith",
+  "summary": "AI agents के क्षेत्र में 'vibe coding' की समस्या एक बड़ी चुनौती है। यह एक ऐसा तरीका है जहाँ AI से एक working demo तो मिल जाता है, लेकिन जैसे ही project को scale करना होता है या दूसरे engineers को काम सौंपना पड़ता है, तो वह टिक नहीं पाता। इसी समस्या को हल करने के लिए Agentsmith सामने आया है। यह एक portable operating system है जो AI agents को professional बनाता है, जिससे वे real-world applications में टिकाऊ और प्रभावी साबित हो सकें।",
+  "image": "https://opengraph.githubassets.com/1/PromptPartner/agentsmith",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "Agentsmith एक नया portable operating system है जो AI agents को professional बनाता है। यह एक 'harness' के रूप में काम करता है जो AI model के चारों ओर एक disciplined framework तैयार करता है, जिससे real-world projects में उनकी reliability और effectiveness बढ़ जाती है।",
+  "introduction_lede": "AI agents के क्षेत्र में 'vibe coding' की समस्या एक बड़ी चुनौती है। यह एक ऐसा तरीका है जहाँ AI से एक working demo तो मिल जाता है, लेकिन जैसे ही project को scale करना होता है या दूसरे engineers को काम सौंपना पड़ता है, तो वह टिक नहीं पाता। इसी समस्या को हल करने के लिए Agentsmith सामने आया है। यह एक portable operating system है जो AI agents को professional बनाता है, जिससे वे real-world applications में टिकाऊ और प्रभावी साबित हो सकें।",
+  "deep_dive_and_context": "Agentsmith की मुख्य philosophy यह है कि एक AI agent का परिणाम सिर्फ model पर निर्भर नहीं करता, बल्कि उसके चारों ओर बने 'harness' पर निर्भर करता है। इस harness में वे सभी नियम, tools, memory, guardrails और feedback loops शामिल होते हैं जो agent को guide करते हैं। Agentsmith के अनुसार, model कुल परिणाम का सिर्फ 10% हिस्सा है, जबकि harness बाकी 90% के लिए ज़िम्मेदार है। यह harness ही वह हिस्सा है जिसे developers control कर सकते हैं और इसे किसी भी project की ज़रूरत के हिसाब से adapt किया जा सकता है। यह system सिर्फ एक theoretical idea नहीं है, बल्कि यह छह महीने के real-world autonomous work से evolve हुआ है। इस दौरान इसे data crunching, marketing outreach और एक software product के development में इस्तेमाल किया गया है। यह Agentsmith का पांचवां iteration है, जिसे सभी project-specific details से मुक्त करके एक universal core और swappable work-type profiles में बाँटा गया है। नए users के लिए, यह system एक comprehensive documentation के साथ आता है। `docs/README.md` एक map की तरह काम करता है जो users को उनके पहले घंटे और पहले loop के लिए guide करता है। इसके अलावा, `docs/01-harness-philosophy.md` में इस system के पीछे की गहरी philosophy दी गई है, जो बताती है कि context को static और dynamic में क्यों बाँटा गया है और rigor stakes के साथ कैसे scale होता है।",
+  "strategic_analysis": "Agentsmith का आगमन AI development के क्षेत्र में एक महत्वपूर्ण बदलाव का संकेत देता है। यह एक ऐसा framework प्रदान करता है जो AI agents को सिर्फ एक tool से बदलकर एक reliable partner बना देता है। यह system developers को वह control और discipline देता है जिसकी उन्हें AI agents को complex और long-term projects में इस्तेमाल करने के लिए ज़रूरत होती है। यह एक तरह से AI agents के लिए एक 'operating system' की तरह काम करता है, जो उन्हें एक structured environment देता है जहाँ वे सुरक्षित और प्रभावी ढंग से काम कर सकें। इसका सबसे बड़ा impact यह होगा कि अब developers AI agents पर ज़्यादा भरोसा कर सकेंगे और उन्हें अपने projects में integrate कर सकेंगे।",
+  "conclusion_and_significance": "Agentsmith AI agents को professional बनाने की दिशा में एक बड़ा कदम है। यह एक ऐसा framework है जो AI agents को real-world applications में विश्वसनीय और प्रभावी बनाता है। यह system developers को वह control और discipline देता है जिसकी उन्हें AI agents को complex projects में इस्तेमाल करने के लिए ज़रूरत होती है।",
+  "category": "repo_analysis",
+  "tags": [],
+  "sources": [
+    "https://github.com/PromptPartner/agentsmith"
+  ],
+  "id": "3881a04467ce",
+  "first_seen": "2026-07-19T05:36:39.992915+00:00"
+}

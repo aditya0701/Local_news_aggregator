@@ -1,0 +1,28 @@
+{
+  "title": "AI की 'ग्रुपथिंक' समस्या का समाधान: Flint नाम का LLM देगा अनोखे जवाब",
+  "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+  "summary": "ChatGPT, Claude और Gemini जैसे AI chatbots अक्सर एक ही तरह के जवाब देते हैं। अगर आप उनसे \"1 से 10 के बीच कोई random number\" पूछें, तो वे लगभग हमेशा '7' ही बताएंगे। यह उनकी 'ग्रुपथिंक' की समस्या है, जहाँ वे creativity खो देते हैं। इसी को ठीक करने के लिए Australian startup Springboards ने Flint नाम का एक नया LLM बनाया है।",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260626_LLMhallucinations.jpg?resize=1200,600",
+  "published": "Thu, 02 Jul 2026 12:10:00 +0000",
+  "source": "synthesized",
+  "language": "hindi",
+  "concept_box": "Large Language Models (LLMs) वे AI systems हैं जो इंसानी भाषा को समझते और बनाते हैं, लेकिन अक्सर एक जैसे और predictable जवाब देते हैं, जिसे 'ग्रुपथिंक' कहा जाता है।",
+  "introduction_lede": "ChatGPT, Claude और Gemini जैसे AI chatbots अक्सर एक ही तरह के जवाब देते हैं। अगर आप उनसे \"1 से 10 के बीच कोई random number\" पूछें, तो वे लगभग हमेशा '7' ही बताएंगे। यह उनकी 'ग्रुपथिंक' की समस्या है, जहाँ वे creativity खो देते हैं। इसी को ठीक करने के लिए Australian startup Springboards ने Flint नाम का एक नया LLM बनाया है।",
+  "deep_dive_and_context": "Springboards ने Flint को खास तौर पर उन सवालों के लिए train किया है जहाँ अलग-अलग तरह के जवाब चाहिए होते हैं। जैसे, \"Europe में घूमने के लिए कहाँ जाऊँ?\" पूछने पर Flint आपको कई अलग-अलग options देगा, न कि सिर्फ सबसे मशहूर जगहें। यह उन लोगों के लिए बहुत काम का है जो नए ideas चाहते हैं, जैसे advertising agencies या creative teams। Flint का मकसद AI को 'obvious' होने से बचाना है।",
+  "strategic_analysis": "यह कदम AI की दुनिया में एक नया बदलाव ला सकता है। अभी तक AI models को सिर्फ सही और सुरक्षित जवाब देने के लिए train किया जाता था, लेकिन Flint creativity पर focus करता है। इससे पता चलता है कि भविष्य में AI सिर्फ जानकारी देने के लिए नहीं, बल्कि inspiration के लिए भी use होगा।",
+  "conclusion_and_significance": "Flint का आना यह दिखाता है कि AI का भविष्य सिर्फ एक जैसे जवाबों में नहीं, बल्कि अनोखी सोच में है। यह उन लोगों के लिए एक नया रास्ता खोलता है जो AI से सिर्फ जवाब नहीं, बल्कि नए ideas चाहते हैं।",
+  "category": "general",
+  "tags": [
+    "Springboards",
+    "LLMs",
+    "Claude",
+    "ChatGPT",
+    "Gemini"
+  ],
+  "sources": [
+    "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+    "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
+  ],
+  "id": "d1e3c9bdc6cb",
+  "first_seen": "2026-07-03T06:06:34.833413+00:00"
+}

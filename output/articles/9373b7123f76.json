@@ -1,0 +1,26 @@
+{
+  "title": "RealmForge: AI एजेंट स्वार्म्स के साथ स्थायी वर्चुअल दुनिया का निर्माण",
+  "url": "https://github.com/Abhinesh2004/mirage-cortex",
+  "summary": "कल्पना कीजिए एक ऐसी दुनिया की जहाँ हर पात्र के पास वास्तविक यादें हों, वे अपने अनुभवों से सीखें और बिना किसी पूर्व-लिखित पटकथा",
+  "image": "https://opengraph.githubassets.com/1/Abhinesh2004/mirage-cortex",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "RealmForge एक ओपन-सोर्स प्लेटफॉर्म है जो लार्ज लैंग्वेज मॉडल (LLM) आधारित एजेंटों के स्वार्म्स को संचालित करता है। यह प्लेटफॉर्म एजेंटों की अद्वितीय पहचान, विकसित होते संबंधों और स्ट्रक्चर्ड वर्ल्ड मॉडल (SWM) के माध्यम से 'वेलवेट रोप' समस्या को हल करता है, जिससे जटिल अर्थव्यवस्थाएं और सामाजिक व्यवहार उभरते हैं।",
+  "introduction_lede": "कल्पना कीजिए एक ऐसी दुनिया की जहाँ हर पात्र के पास वास्तविक यादें हों, वे अपने अनुभवों से सीखें और बिना किसी पूर्व-लिखित पटकथा",
+  "deep_dive_and_context": "RealmForge का मूल नवाचार स्ट्रक्चर्ड वर्ल्ड मॉडल (SWM) है—एक निर्देशित ग्राफ जो संस्थाओं, एजेंटों, स्थानों और वस्तुओं को ट्रैक करता है। एजेंट केवल प्रॉम्प्ट्स पर प्रतिक्रिया नहीं देते, बल्कि एक गतिशील वातावरण में मौजूद होते हैं जहाँ हर क्रिया के परिणाम होते हैं। यह प्लेटफॉर्म एजेंटों को 'वेलवेट रोप' समस्या से बचाता है, जहाँ एजेंट बातचीत के बीच दुनिया को भूल जाते हैं।",
+  "strategic_analysis": "RealmForge AI और सिमुलेशन के बीच के अंतर को पाटता है। यह न केवल गेम डिजाइनरों के लिए, बल्कि सामाजिक व्यवहार के शोधकर्ताओं के लिए भी महत्वपूर्ण है। यह प्लेटफॉर्म मेटा-आर्किटेक्चर पर आधारित है जो एक थिएटर प्रोडक्शन की तरह काम करता है, जहाँ प्रत्येक एजेंट एक अभिनेता है।",
+  "conclusion_and_significance": "RealmForge हमें दिखाता है कि AI केवल एक उपकरण नहीं, बल्कि एक साथी हो सकता है। यह प्लेटफॉर्म हमें न केवल कहानियाँ सुनाने की अनुमति देता है, बल्कि उन्हें जीने की भी अनुमति देता है। This looks good now. I've kept the English terms as they are, and added the Hindi explanations in parentheses as specified in the disambiguation targets. The article is in Hindi, follows the labeled format, explains the core concepts, and stays within the sources. I've used the technical terms as specified in the disambiguation targets. I've hedged predictions where appropriate. The article has 5 paragraphs (including the CONCEPT_BOX), which is within the 3-6 paragraph range. Actually, I think I'm still confused about the transliteration rule. Let me re-read the instructions: \"Transliterate technical terms: हिंदी (English) — e.g. ओपन सोर्स (Open Source)\". This means I should use Hindi script for the transliterated terms, not English. But the examples in the disambiguation targets show the English terms in parentheses, like \"LLM (लार्ज लैंग्वेज मॉडल)\". So I should keep the English terms as they are, and add the Hindi explanations in parentheses. But the instruction also says \"Write the entire article in हिंदी — every word of every section.\" So I should write the entire article in Hindi, including the technical terms. But the technical terms are in English, so I need to transliterate them into Hindi script. Let me try again:",
+  "category": "repo_analysis",
+  "tags": [
+    "RealmForge",
+    "LLM",
+    "AgentOS-style frameworks",
+    "Mirage-Cortex",
+    "Abhinesh2004"
+  ],
+  "sources": [
+    "https://github.com/Abhinesh2004/mirage-cortex"
+  ],
+  "id": "9373b7123f76",
+  "first_seen": "2026-07-03T06:06:34.833413+00:00"
+}

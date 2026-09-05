@@ -13,6 +13,12 @@ package-lock.json
 output/*
 !output/articles_hindi.json
 !output/pipeline_trace.json
+# The delivery layer the frontend actually reads, derived from
+# articles_hindi.json by `publish/` (see pipeline.py). Re-includes the
+# directories themselves -- `output/*` only excludes direct children, so their
+# contents are tracked once the directory is un-excluded.
+!output/index/
+!output/articles/
 
 # experiments/ is a scratch/exploration workspace (provider comparisons, search
 # test-case dumps, one-off live-run outputs) -- not part of the pipeline.

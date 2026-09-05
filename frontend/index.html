@@ -942,6 +942,39 @@
     let allItems = [];
     let shownCount = 0;
 
+    // The archive is split into month shards (output/index/) so the homepage
+    // loads only the newest month instead of the whole archive. Older months
+    // are pulled in on demand as the reader pages back or filters.
+    let manifest = null;
+    let loadedShards = 0;
+
+    async function loadNextShard() {
+      const shard = manifest.shards[loadedShards];
+      if (!shard) return false;
+      // Shards gain articles daily, so bust the cache on the manifest's
+      // generated stamp: unchanged manifest means the cached shard is reused.
+      const bust = encodeURIComponent(manifest.generated || '');
+      const response = await fetch(`../output/index/${shard.file}?v=${bust}`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const cards = await response.json();
+      allArticles = allArticles.concat(Array.isArray(cards) ? cards : []);
+      loadedShards += 1;
+      return true;
+    }
+
+    // Pull in older shards until enough articles match the active filter to
+    // render, or there are no shards left.
+    async function ensureLoaded(needed) {
+      while (filteredItems().length < needed && manifest && loadedShards < manifest.shards.length) {
+        await loadNextShard();
+      }
+    }
+
+    function moreAvailable() {
+      return shownCount < filteredItems().length
+        || (manifest && loadedShards < manifest.shards.length);
+    }
+
     function artHtml(item) {
       return item.image
         ? `<img src="${escapeHtml(item.image)}" alt="" loading="lazy" onerror="this.remove()">`
@@ -949,9 +982,13 @@
     }
 
     function clusterTagHtml(item) {
-      const sources = Array.isArray(item.sources) ? item.sources : [];
-      if (sources.length <= 1) return '';
-      return `<span class="cluster-tag">मूल लेख · ${sources.length} स्रोत</span>`;
+      // Index cards carry sources_count; the legacy whole-store fallback and
+      // older data carry the full sources array.
+      const count = typeof item.sources_count === 'number'
+        ? item.sources_count
+        : (Array.isArray(item.sources) ? item.sources.length : 0);
+      if (count <= 1) return '';
+      return `<span class="cluster-tag">मूल लेख · ${count} स्रोत</span>`;
     }
 
     function tagsHtml(item) {
@@ -988,44 +1025,57 @@
       return allArticles.filter(item => (item.category || 'general') === activeFilter);
     }
 
-    function renderNextPage() {
+    async function renderNextPage() {
+      await ensureLoaded(shownCount + PAGE_SIZE);
       const items = filteredItems();
       const nextBatch = items.slice(shownCount, shownCount + PAGE_SIZE);
       const cardGrid = grid.querySelector('.card-grid');
       cardGrid.insertAdjacentHTML('beforeend', nextBatch.map(cardHtml).join(''));
       shownCount += nextBatch.length;
-      if (shownCount >= items.length) grid.querySelector('#loadMoreButton')?.remove();
+      if (!moreAvailable()) grid.querySelector('#loadMoreButton')?.remove();
     }
 
-    function renderArticles(items) {
-      if (!items.length) {
+    // Archive-wide total for the counter, from the manifest rather than from the
+    // shards loaded so far, so the number doesn't grow as the reader pages back.
+    function totalFor(filter) {
+      const categories = (manifest && manifest.categories) || {};
+      if (filter === 'all') return (manifest && manifest.total) || allArticles.length;
+      return categories[filter] || 0;
+    }
+
+    async function renderArticles() {
+      if (!allArticles.length) {
         filterBar.hidden = true;
         countValue.textContent = '0';
         renderEmpty('संकलन फ़ाइल मौजूद है, लेकिन अभी कोई लेख नहीं है. एपीआई कुंजियाँ या स्रोत सूची सेट करने के बाद कार्यक्रम चलाएँ.');
         return;
       }
 
-      allArticles = items;
       filterBar.hidden = false;
 
-      // Show only filter buttons for categories that actually exist in the data
-      const existingCats = new Set(items.map(i => i.category || 'general'));
+      // Show only filter buttons for categories that exist anywhere in the
+      // archive -- the manifest knows about months not yet loaded.
+      const existingCats = new Set(Object.keys((manifest && manifest.categories) || {}));
       filterBar.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
         const f = btn.dataset.filter;
         btn.hidden = f !== 'all' && !existingCats.has(f);
       });
 
-      applyFilter(activeFilter);
+      await applyFilter(activeFilter);
     }
 
-    function applyFilter(filter) {
+    async function applyFilter(filter) {
       activeFilter = filter;
       filterBar.querySelectorAll('.filter-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.filter === filter);
       });
 
+      // A category may have no articles in the newest month -- pull older
+      // shards until there is a page worth to show.
+      await ensureLoaded(1 + PAGE_SIZE);
+
       const items = filteredItems();
-      countValue.textContent = String(items.length);
+      countValue.textContent = String(totalFor(filter));
 
       if (!items.length) {
         renderEmpty('इस श्रेणी में कोई लेख नहीं है.');
@@ -1056,30 +1106,61 @@
         <div class="card-grid">
           ${firstBatch.map(cardHtml).join('')}
         </div>
-        ${shownCount < items.length ? '<button class="refresh" id="loadMoreButton" type="button">और लेख देखें</button>' : ''}
+        ${moreAvailable() ? '<button class="refresh" id="loadMoreButton" type="button">और लेख देखें</button>' : ''}
       `;
 
-      grid.querySelector('#loadMoreButton')?.addEventListener('click', renderNextPage);
+      grid.querySelector('#loadMoreButton')?.addEventListener('click', () => {
+        renderNextPage().catch(() => {});
+      });
     }
 
     filterBar.addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
-      if (btn) applyFilter(btn.dataset.filter);
+      if (btn) applyFilter(btn.dataset.filter).catch(() => {});
     });
+
+    // Fallback for a delivery layer that hasn't been generated yet (a fresh
+    // clone, or a run before `python -m publish`): read the whole store, which
+    // already carries every field a card needs.
+    async function loadLegacyStore() {
+      const response = await fetch('../output/articles_hindi.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const items = await response.json();
+      const list = Array.isArray(items) ? items : [];
+      const categories = {};
+      list.forEach(item => {
+        const cat = item.category || 'general';
+        categories[cat] = (categories[cat] || 0) + 1;
+      });
+      // No shards, so ensureLoaded() won't try to fetch more.
+      manifest = { total: list.length, categories, shards: [] };
+      allArticles = list;
+    }
 
     async function loadPreview() {
       statusValue.textContent = 'लोड हो रहा है…';
       activeFilter = 'all';
+      manifest = null;
+      allArticles = [];
+      loadedShards = 0;
       try {
-        const response = await fetch('../output/articles_hindi.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const items = await response.json();
+        // Tiny and changes daily, so always fetch fresh; it carries the stamp
+        // the (cacheable) shard URLs are busted on.
+        const response = await fetch('../output/index/manifest.json', { cache: 'no-store' });
+        if (response.ok) {
+          manifest = await response.json();
+          await loadNextShard();
+        } else if (response.status === 404) {
+          await loadLegacyStore();
+        } else {
+          throw new Error(`HTTP ${response.status}`);
+        }
         statusValue.textContent = 'सजीव';
-        renderArticles(Array.isArray(items) ? items : []);
+        await renderArticles();
       } catch (error) {
         statusValue.textContent = 'अभी नहीं';
         filterBar.hidden = true;
-        renderEmpty('`output/articles_hindi.json` फ़ाइल नहीं मिली. पहले कार्यक्रम चलाकर संकलन बनाएँ.');
+        renderEmpty('संकलन नहीं मिला. पहले कार्यक्रम चलाएँ, फिर `python -m publish` से प्रकाशन फ़ाइलें बनाएँ.');
       }
     }
 

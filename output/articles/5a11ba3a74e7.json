@@ -1,0 +1,27 @@
+{
+  "title": "Command & Conquer Generals: Zero Hour अब macOS, iPhone और iPad पर नेटिवली चलेगा",
+  "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+  "summary": "Command & Conquer Generals: Zero Hour (2003) को macOS, iPhone और iPad पर नेटिवली चलाने के लिए पोर्ट किया गया है। यह क्लासिक RTS गेम बिना किसी एमुलेशन के आधुनिक Apple डिवाइसेस पर उपलब्ध है।",
+  "image": "https://opengraph.githubassets.com/1d779505ba9b591af55f383ba07ce606dc07e0a8dab1ef14dc75fed54fe5be17/ammaarreshi/Generals-Mac-iOS-iPad",
+  "published": "Sat, 04 Jul 2026 19:41:10 +0000",
+  "source": "rss",
+  "language": "hindi",
+  "concept_box": "यह पोर्ट EA के GPL v3 सोर्स कोड पर आधारित है, जो DirectX 8 को Metal में बदलने के लिए DXVK और MoltenVK का उपयोग करता है।",
+  "introduction_lede": "Command & Conquer Generals: Zero Hour (2003) को macOS, iPhone और iPad पर नेटिवली चलाने के लिए पोर्ट किया गया है। यह क्लासिक RTS गेम बिना किसी एमुलेशन के आधुनिक Apple डिवाइसेस पर उपलब्ध है।",
+  "deep_dive_and_context": "यह पोर्ट fbraz3/GeneralsX पर आधारित है, जो GeneralsX का एक फोर्क है। यह DirectX 8 को DXVK के माध्यम से Vulkan और फिर MoltenVK के माध्यम से Metal में ट्रांसलेट करता है। गेम में टच कंट्रोल के लिए टैप-सिलेक्ट, ड्रैग-बॉक्स और पिंच-ज़ूम जैसे फीचर्स शामिल हैं। गेम एसेट्स इसमें शामिल नहीं हैं, इसलिए खिलाड़ियों को Steam से अपनी कॉपी खरीदनी होगी।",
+  "strategic_analysis": "यह प्रोजेक्ट एक मानव+AI सहयोग का परिणाम है, जिसे Claude Code द्वारा इंजीनियर किया गया और Ammaar Reshi द्वारा निर्देशित किया गया। यह ओपन-सोर्स पहलों के माध्यम से गेमिंग इतिहास को संरक्षित करने का एक महत्वपूर्ण प्रयास है।",
+  "conclusion_and_significance": "यह पोर्ट न केवल एक क्लासिक गेम को नए प्लेटफॉर्म पर लाता है, बल्कि ओपन-सोर्स समुदाय की शक्ति को भी दर्शाता है। यह उन खिलाड़ियों के लिए एक बेहतरीन अवसर है जो अपने Apple डिवाइसेस पर Zero Hour का अनुभव करना चाहते हैं।",
+  "category": "general",
+  "tags": [
+    "EA",
+    "GeneralsX",
+    "fbraz3",
+    "Zero Hour",
+    "EA GPL v3"
+  ],
+  "sources": [
+    "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main"
+  ],
+  "id": "5a11ba3a74e7",
+  "first_seen": "2026-07-05T06:20:20.816971+00:00"
+}

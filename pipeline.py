@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 
 from collectors.github_collector import fetch_trending
 from collectors.rss_collector import fetch_feed
+from publish.delivery import build_delivery
 from translator.translate import translate_item
 from writer.cluster import group_by_topic
 from writer.entity_cache import load_cache
@@ -104,6 +105,16 @@ def run(language: str = "hindi", limit: int | None = None) -> None:
     combined = translated + store
     out_path.write_text(json.dumps(combined, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(translated)} new items ({len(combined)} total) to {out_path}")
+
+    # The store above stays the source of truth; the frontend reads the split
+    # delivery files derived from it so a reader never downloads the whole
+    # archive to render one page. Regenerate with `python -m publish`.
+    delivery = build_delivery(combined, OUTPUT_DIR)
+    print(
+        f"[delivery] {delivery['articles_written']} article files written | "
+        f"{delivery['shards_written']}/{delivery['shards']} month shards written | "
+        f"{delivery['pruned']} stale files pruned"
+    )
 
     traces = get_run_traces()
     if traces:

@@ -1,0 +1,20 @@
+{
+  "title": "antinomie-lab/pi-book: TypeScript में AI एजेंट आर्किटेक्चर का विस्तृत विश्लेषण",
+  "url": "https://github.com/antinomie-lab/pi-book",
+  "summary": "antinomie-lab/pi-book एक ऐसी तकनीकी पुस्तक है जो @earendil-works/pi-agent-core की वास्तुकला को विस्तार से समझाती है। यह पुस्तक TypeScript में है और pi रिपॉजिटरी पर आधारित है। यह पुस्तक उन पाठकों के लिए है जो TypeScript जानते हैं और LLM API की बुनियादी बातें समझते हैं।",
+  "image": "https://opengraph.githubassets.com/1/antinomie-lab/pi-book",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "antinomie-lab/pi-book एक तकनीकी पुस्तक है जो @earendil-works/pi-agent-core की वास्तुकला को विस्तार से समझाती है। यह पुस्तक TypeScript में लिखी गई है और pi रिपॉजिटरी पर आधारित है, जिसमें प्रत्येक बात को कोड के साथ जोड़ा गया है।",
+  "introduction_lede": "antinomie-lab/pi-book एक ऐसी तकनीकी पुस्तक है जो @earendil-works/pi-agent-core की वास्तुकला को विस्तार से समझाती है। यह पुस्तक TypeScript में है और pi रिपॉजिटरी पर आधारित है। यह पुस्तक उन पाठकों के लिए है जो TypeScript जानते हैं और LLM API की बुनियादी बातें समझते हैं।",
+  "deep_dive_and_context": "antinomie-lab/pi-book की मुख्य विशेषता यह है कि प्रत्येक बात को कोड के साथ जोड़ा गया है। उद्धरण `file:line_number` के रूप में हैं, जिससे पाठक सीधे स्रोत से जानकारी की पुष्टि कर सकता है। यह पुस्तक तीन भाषाओं में उपलब्ध है: चीनी मूल पाठ `agent/` में, और अंग्रेजी व स्पेनिश अनुवाद `agent/en/` तथा `agent/es/` में। वेब रीडर के माध्यम से भाषा बदली जा सकती है। पुस्तक की संरचना \"समग्र → स्थानीय → क्रॉस-कटिंग\" है। वेब रीडर Vite + Vue पर बना है और केवल सामग्री को प्रदर्शित करता है। पुस्तक की परंपराएं `agent/README.md` में दी गई हैं। यह पुस्तक उन पाठकों के लिए है जो TypeScript जानते हैं और LLM API की बुनियादी बातें समझते हैं। उन्हें pi रिपॉजिटरी का पूर्व ज्ञान होना आवश्यक नहीं है।",
+  "strategic_analysis": "antinomie-lab/pi-book एक तकनीकी पुस्तक है जो AI एजेंटों की वास्तुकला को विस्तार से समझाती है। यह पुस्तक TypeScript में लिखी गई है और pi रिपॉजिटरी पर आधारित है। यह पुस्तक उन पाठकों के लिए है जो TypeScript जानते हैं और LLM API की बुनियादी बातें समझते हैं।",
+  "conclusion_and_significance": "antinomie-lab/pi-book एक ऐसी तकनीकी पुस्तक है जो AI एजेंटों की वास्तुकला को विस्तार से समझाती है। यह पुस्तक TypeScript में लिखी गई है और pi रिपॉजिटरी पर आधारित है।",
+  "category": "repo_analysis",
+  "tags": [],
+  "sources": [
+    "https://github.com/antinomie-lab/pi-book"
+  ],
+  "id": "62c7a372cc0b",
+  "first_seen": "2026-08-11T04:00:14.759101+00:00"
+}

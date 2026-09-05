@@ -1,0 +1,22 @@
+{
+  "title": "Firefox बना uBlock Origin का इकलौता सहारा, बाकी browsers ने छोड़ी साथ",
+  "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+  "summary": "Firefox ने हाल ही में एक बड़ा ऐलान किया है कि वे अपने platform पर uBlock Origin को support करना जारी रखेंगे। यह फैसला तब आया है जब Microsoft Edge और अन्य Chromium-based browsers इस ad-blocker को हटाने की तैयारी कर रहे हैं। Firefox ने Bluesky पर लिखा, \"Our support for uBlock Origin isn’t going anywhere,\" जिससे लाखों users को भरोसा मिला है कि उनका पसंदीदा privacy tool सुरक्षित रहेगा।",
+  "image": "https://www.pcworld.com/wp-content/uploads/2026/08/3212428-0-62401400-1786636364-Firefox-foto-mozilla.png?w=1024",
+  "published": "Fri, 14 Aug 2026 19:03:20 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "concept_box": "Microsoft Edge और अन्य Chromium-based browsers ने Manifest V3 पर shift होने के साथ ही uBlock Origin का साथ छोड़ दिया है। Firefox ने इस फैसले के बाद अपने platform पर इस ad-blocker को support करने का ऐलान किया है, जिससे privacy के प्रति जागरूक users के लिए यह एक बड़ा विकल्प बन गया है।",
+  "introduction_lede": "Firefox ने हाल ही में एक बड़ा ऐलान किया है कि वे अपने platform पर uBlock Origin को support करना जारी रखेंगे। यह फैसला तब आया है जब Microsoft Edge और अन्य Chromium-based browsers इस ad-blocker को हटाने की तैयारी कर रहे हैं। Firefox ने Bluesky पर लिखा, \"Our support for uBlock Origin isn’t going anywhere,\" जिससे लाखों users को भरोसा मिला है कि उनका पसंदीदा privacy tool सुरक्षित रहेगा।",
+  "deep_dive_and_context": "यह बदलाव Manifest V3 की तरफ होने वाले बड़े migration की वजह से हो रहा है। जब Microsoft Edge इस नए standard पर shift होगा, तो uBlock Origin जैसे extensions को उन ज़रूरी functions तक पहुँच नहीं मिलेगी जो ads और trackers को सही से पहचानने और block करने के लिए ज़रूरी हैं। यह कदम Google के Chrome browser से शुरू हुआ था और अब Edge समेत सभी Chromium browsers इसी रास्ते पर चल रहे हैं। इस बदलाव की वजह से Firefox अब अकेला बड़ा browser रह गया है जो uBlock Origin को पूरी तरह support करता है। Safari और DuckDuckGo जैसे browsers भी uBlock Origin को support नहीं करते। इससे Firefox उन users के लिए सबसे बेहतरीन option बन गया है जो बिना किसी compromise के अपनी online privacy और ad-blocking experience चाहते हैं। बाकी browsers पर जाने वाले users के पास अब सिर्फ दो रास्ते हैं: या तो उन्हें uBlock Origin Lite use करना होगा, जो कि original का एक हल्का version है और कम ads block करता है, या फिर उन्हें browser के अंदर बने ad-blocking feature पर निर्भर रहना होगा।",
+  "strategic_analysis": "यह घटना web browser ecosystem में एक बड़े बदलाव की ओर इशारा करती है। Google के Chrome से शुरू हुई इस migration की वजह से users के पास अब privacy tools के लिए बहुत कम विकल्प बचे हैं। Firefox का यह फैसला न केवल उसके user base को बनाए रखने के लिए महत्वपूर्ण है, बल्कि यह भी दर्शाता है कि non-Chromium browsers अभी भी अपनी अलग पहचान रख सकते हैं। हालांकि, यह स्थिति उन users के लिए एक चुनौती पैदा करती है जो सभी platforms पर एक जैसा experience चाहते हैं।",
+  "conclusion_and_significance": "Firefox का यह कदम privacy के प्रति जागरूक users के लिए एक उम्मीद की किरण है। हालांकि, यह पूरे industry के लिए एक चेतावनी भी है कि users को अपने digital privacy tools के भविष्य के बारे में जागरूक रहना चाहिए।",
+  "category": "general",
+  "tags": [],
+  "sources": [
+    "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html"
+  ],
+  "id": "1895a92afc98",
+  "first_seen": "2026-08-15T03:11:46.634536+00:00"
+}

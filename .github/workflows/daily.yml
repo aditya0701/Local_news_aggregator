@@ -60,6 +60,9 @@ jobs:
         run: |
           git config user.name "TechDrishti Bot"
           git config user.email "bot@techdrishti.github.io"
-          git add output/articles_hindi.json data/entity_cache.json output/pipeline_trace.json
+          # output/index and output/articles are the delivery layer the frontend
+          # reads, regenerated from articles_hindi.json at the end of every run.
+          # -A picks up deletions too (pruned articles, rolled-over shards).
+          git add -A output/articles_hindi.json data/entity_cache.json output/pipeline_trace.json output/index output/articles
           git diff --cached --quiet && echo "Nothing to commit" || git commit -m "chore: daily pipeline run $(date -u +%Y-%m-%d)"
           git push

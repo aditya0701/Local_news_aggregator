@@ -1,0 +1,28 @@
+{
+  "title": "OpenAI और Broadcom ने पेश किया 'जलापेनो', LLM इन्फरेंस के लिए पहला कस्टम प्रोसेसर",
+  "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+  "summary": "OpenAI और Broadcom ने आज 'जलापेनो' नामक एक नए AI प्रोसेसर का अनावरण किया है, जो OpenAI का पहला कस्टम इंटेलिजेंस प्रोसेसर है। इस चिप को OpenAI के CEO Sam Altman और President Greg Brockman को Broadcom के CEO Hock Tan और President Charlie Kawwas ने सौंपा। यह साझेदारी OpenAI की उस रणनीति का हिस्सा है जिसमें वह अपने मॉडल्स और उत्पादों के पीछे की पूरी तकनीक (full stack) खुद तैयार कर रहा है।",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/4DeZq8e24W4qgIrtAu4Xmg/54189176ae1c6150d94cac02fb104f79/openai-broadcom-jalapeno-inference-chip-image-16_9.png?w=1600&h=900&fit=fill",
+  "published": "Wed, 24 Jun 2026 06:00:00 GMT",
+  "source": "rss",
+  "feed_name": "OpenAI News",
+  "language": "hindi",
+  "concept_box": "जलापेनो एक विशेष चिप है जिसे OpenAI ने खुद डिजाइन किया है ताकि बड़े भाषा मॉडल (LLM) को चलाने में मदद मिल सके। यह चिप डेटा की हलचल को कम करती है और बिजली की कम खपत में बेहतर काम करती है, जिससे AI मॉडल तेज़ और सस्ते हो सकते हैं।",
+  "introduction_lede": "OpenAI और Broadcom ने आज 'जलापेनो' नामक एक नए AI प्रोसेसर का अनावरण किया है, जो OpenAI का पहला कस्टम इंटेलिजेंस प्रोसेसर है। इस चिप को OpenAI के CEO Sam Altman और President Greg Brockman को Broadcom के CEO Hock Tan और President Charlie Kawwas ने सौंपा। यह साझेदारी OpenAI की उस रणनीति का हिस्सा है जिसमें वह अपने मॉडल्स और उत्पादों के पीछे की पूरी तकनीक (full stack) खुद तैयार कर रहा है।",
+  "deep_dive_and_context": "OpenAI ने अपनी गहरी समझ के आधार पर 'जलापेनो' को शुरू से डिजाइन किया है, जिसमें भविष्य के मॉडल्स और उनकी जरूरतों को ध्यान में रखा गया है। इस प्रोजेक्ट में Broadcom और Celestica जैसे भागीदारों ने चिप के निर्माण और उत्पादन प्रणालियों को तैयार करने में मदद की है। शुरुआती परीक्षणों में 'जलापेनो' की इंजीनियरिंग सैंपल्स GPT-5.3-Codex-Spark जैसे कार्यों को तय की गई गति और बिजली की खपत पर चला रही हैं। शुरुआती रिपोर्टों के अनुसार, यह चिप वर्तमान के सबसे अच्छे चिप्स की तुलना में प्रति वाट (performance per watt) काफी बेहतर प्रदर्शन देगी। इसकी बनावट डेटा की हलचल को कम करती है और कंप्यूट, मेमोरी और नेटवर्किंग को संतुलित करती है ताकि यह अपनी अधिकतम क्षमता के करीब काम कर सके। Broadcom की सिलिकॉन तकनीक और Tomahawk नेटवर्किंग इसे बड़े पैमाने पर उत्पादन के लिए तैयार करती है।",
+  "strategic_analysis": "यह कदम OpenAI की उस रणनीति को दर्शाता है जिसमें वह AI के लिए पूरी तकनीक खुद विकसित कर रहा है। 'जलापेनो' को इस तरह डिजाइन किया गया है कि यह सभी प्रकार के LLMs के साथ काम कर सके। Greg Brockman ने कहा कि यह 'कंप्यूट-पावर्ड इकोनॉमी' की ओर एक कदम है, जिससे AI तेज़, विश्वसनीय और किफायती बनेगा।",
+  "conclusion_and_significance": "OpenAI और Broadcom की यह साझेदारी AI के क्षेत्र में एक नया मोड़ है। 'जलापेनो' चिप न केवल OpenAI के लिए, बल्कि पूरे उद्योग के लिए एक बेहतर और कुशल रास्ता दिखाएगी। इससे उन्नत AI तकनीक आम लोगों और व्यवसायों के लिए और भी सुलभ हो जाएगी।",
+  "category": "general",
+  "tags": [
+    "OpenAI",
+    "Broadcom",
+    "Jalapeño",
+    "Sam Altman",
+    "Greg Brockman"
+  ],
+  "sources": [
+    "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
+  ],
+  "id": "1a015f5dfa42",
+  "first_seen": "2026-07-06T06:52:32.071091+00:00"
+}

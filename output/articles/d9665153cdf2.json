@@ -1,0 +1,28 @@
+{
+  "title": "DiffusionGemma: 4 गुना तेज़ टेक्स्ट जनरेशन का नया दौर",
+  "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+  "summary": "गूगल डीपमाइंड ने अपना नया experimental open model DiffusionGemma पेश किया है, जो टेक्स्ट जनरेशन के लिए एक बहुत तेज़ तरीका अपनाता है। यह मॉडल GPUs पर 4 गुना ज़्यादा तेज़ टेक्स्ट जनरेशन देता है क्योंकि यह एक-एक शब्द के बजाय पूरे टेक्स्ट के ब्लॉक एक साथ बनाता है। यह मॉडल Apache 2.0 license के तहत जारी किया गया है और इसकी खास बात यह है कि यह टेक्स्ट को बहुत तेज़ी से तैयार करता है।",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Diffusion_Gemma_Social.width-1300.png",
+  "published": "Wed, 10 Jun 2026 16:24:11 +0000",
+  "source": "rss",
+  "feed_name": "Google DeepMind Blog",
+  "language": "hindi",
+  "concept_box": "DiffusionGemma एक ऐसा मॉडल है जो एक साथ पूरे टेक्स्ट के ब्लॉक तैयार करता है, जबकि पुराने मॉडल एक-एक शब्द (टोकन) करके लिखते थे। यह तरीका इसे बहुत तेज़ बनाता है, जिससे आप तुरंत टेक्स्ट को एडिट और सुधार सकते हैं।",
+  "introduction_lede": "गूगल डीपमाइंड ने अपना नया experimental open model DiffusionGemma पेश किया है, जो टेक्स्ट जनरेशन के लिए एक बहुत तेज़ तरीका अपनाता है। यह मॉडल GPUs पर 4 गुना ज़्यादा तेज़ टेक्स्ट जनरेशन देता है क्योंकि यह एक-एक शब्द के बजाय पूरे टेक्स्ट के ब्लॉक एक साथ बनाता है। यह मॉडल Apache 2.0 license के तहत जारी किया गया है और इसकी खास बात यह है कि यह टेक्स्ट को बहुत तेज़ी से तैयार करता है।",
+  "deep_dive_and_context": "DiffusionGemma एक 26B Mixture of Experts (MoE) मॉडल है जो Gemma 4 family की तकनीक और Gemini Diffusion research पर आधारित है। इसमें एक नया diffusion head लगाया गया है जो जनरेशन की रफ़्तार को बढ़ाने के लिए बनाया गया है। यह मॉडल उन researchers और developers के लिए है जो तेज़ी से काम करना चाहते हैं, जैसे कि inline editing या तेज़ी से नए ideas पर काम करना। जहाँ पुराने autoregressive models एक-एक शब्द करके लिखते हैं, वहीं DiffusionGemma एक साथ पूरे 256-token का पैराग्राफ तैयार कर देता है। इससे local inference में होने वाली देरी (latency) की समस्या दूर हो जाती है। Unsloth ने DiffusionGemma को Sudoku खेलने के लिए fine-tune किया है, जो काम पुराने models के लिए मुश्किल था क्योंकि वे एक शब्द के बाद दूसरे शब्द पर निर्भर होते हैं। DiffusionGemma का bi-directional attention इसे ऐसे कामों के लिए बहुत आसान बना देता है।",
+  "strategic_analysis": "DiffusionGemma का 4 गुना तेज़ होना सिर्फ एक नंबर नहीं है, बल्कि यह एक बड़ा बदलाव है। इसका मतलब है कि जो काम पहले 4 सेकंड में होता था, अब वह सिर्फ 1 सेकंड में हो जाएगा। इससे real-time interactive AI applications में बहुत सुधार आएगा। यह मॉडल उन कामों के लिए सबसे अच्छा है जहाँ रफ़्तार सबसे ज़रूरी है, जैसे कि live chat या coding में मदद करना। हालाँकि, बहुत ही सटीक और बड़े टेक्स्ट के लिए अभी भी पुराने models ही बेहतर माने जाते हैं।",
+  "conclusion_and_significance": "DiffusionGemma ने AI की दुनिया में एक नया रास्ता खोल दिया है। अब बड़े models को भी बहुत तेज़ी से चलाया जा सकता है, जिससे आम लोगों के लिए AI का इस्तेमाल और भी आसान हो जाएगा। यह उन developers के लिए बहुत काम का है जो अपने computer पर ही तेज़ी से AI चलाना चाहते हैं। यह एक ऐसा कदम है जो AI को और भी तेज़ और उपयोगी बनाएगा।",
+  "category": "model_release",
+  "tags": [
+    "DiffusionGemma",
+    "Gemma 4",
+    "Gemini Diffusion",
+    "Unsloth",
+    "Sudoku"
+  ],
+  "sources": [
+    "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/"
+  ],
+  "id": "d9665153cdf2",
+  "first_seen": "2026-07-06T06:52:32.071091+00:00"
+}

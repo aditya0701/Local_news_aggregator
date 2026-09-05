@@ -1,0 +1,27 @@
+{
+  "title": "Leanstral 1.",
+  "url": "https://mistral.ai/news/leanstral-1-5/",
+  "summary": "Leanstral 1.5, Mistral AI का नवीनतम रिलीज़ है, जो औपचारिक सत्यापन में विशेष रूप से Lean 4 के लिए डिज़ाइन किया गया है। इसके मुख्य विनिर्देश 119B कुल मापदंडों में से 6B सक्रिय मापदंड हैं, और यह Apache-2.0 लाइसेंस के तहत निःशुल्क और ओपन-सोर्स है।",
+  "image": "https://mistral.ai/cms-media/api/media/file/OG-mistral-main_1x.jpg",
+  "published": "Fri, 03 Jul 2026 22:33:10 +0000",
+  "source": "rss",
+  "language": "hindi",
+  "concept_box": "औपचारिक सत्यापन (Formal Verification) एक तकनीकी प्रक्रिया है जिसमें सॉफ्टवेयर या गणितीय प्रमाणों की सटीकता को मशीन द्वारा जाँचा जाता है। यह प्रक्रिया सुनिश्चित करती है कि कोड में कोई भी गलती न हो।",
+  "introduction_lede": "Leanstral 1.5, Mistral AI का नवीनतम रिलीज़ है, जो औपचारिक सत्यापन में विशेष रूप से Lean 4 के लिए डिज़ाइन किया गया है। इसके मुख्य विनिर्देश 119B कुल मापदंडों में से 6B सक्रिय मापदंड हैं, और यह Apache-2.0 लाइसेंस के तहत निःशुल्क और ओपन-सोर्स है।",
+  "deep_dive_and_context": "Leanstral 1.5 के प्रदर्शन मेट्रिक्स अत्यंत प्रभावशाली हैं। यह miniF2F को संतृप्त करता है, 672 में से 587 PutnamBench समस्याओं को हल करता है, और FATE-H पर 87% और FATE-X पर 34% का अत्याधुनिक परिणाम प्राप्त करता है। ये बेंचमार्क गणितीय समस्याओं को हल करने की मॉडल की क्षमता को मापते हैं। वास्तविक दुनिया में, इस मॉडल ने 57 रिपॉजिटरीज़ में 5 पहले से अज्ञात बग्स को उजागर किया है, जो इसकी व्यावहारिक उपयोगिता को दर्शाता है। यह मॉडल तीन-चरणों की प्रक्रिया से गुज़रा है: मिड-ट्रेनिंग, सुपरवाइज्ड फाइन-ट्यूनिंग, और CISPO के साथ रीइन्फोर्समेंट लर्निंग।",
+  "strategic_analysis": "Leanstral 1.",
+  "conclusion_and_significance": "Leanstral 1.5 का लॉन्च औपचारिक सत्यापन को अधिक शक्तिशाली और सुलभ बनाता है। यह ओपन-सोर्स दृष्टिकोण डेवलपर्स को उच्च-गुणवत्ता वाले प्रमाण इंजीनियरिंग के लिए एक शक्तिशाली उपकरण प्रदान करता है। I think this is accurate and follows the plan. Let me do one final check to ensure I've used all the required information and haven't added anything not in the source: - Title: ✓ - Concept box: ✓ - Led paragraph: ✓ - Deep dive and context: ✓ - Strategic analysis: ✓ - Conclusion: ✓ And I've used the exact facts from the source without adding anything new. I've also followed the language rules, writing everything in Hindi with technical terms in Devanagari first and English in parentheses. Actually, I need to be more precise with the content. Let me review the source facts again and ensure I'm using them accurately: From the source: - Leanstral 1.5 is a free Apache-2.",
+  "category": "model_release",
+  "tags": [
+    "Leanstral",
+    "Apache-2.0",
+    "miniF2F",
+    "PutnamBench",
+    "FATE-H"
+  ],
+  "sources": [
+    "https://mistral.ai/news/leanstral-1-5/"
+  ],
+  "id": "02c8b85a9a60",
+  "first_seen": "2026-07-04T05:57:19.280601+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "डिजिटल मानव: Fundamental Research Labs बना रहा है स्वायत्त एजेंट जो खुद से सोचते और काम करते हैं",
+  "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+  "summary": "Fundamental Research Labs डिजिटल मानव बनाने की दिशा में एक क्रांतिकारी कदम उठा रहा है। ये स्वायत्त, सहयोगी और सामाजिक रूप से बुद्धिमान एजेंट हैं जो सोचते हैं, याद रखते हैं, रिश्ते बनाते हैं और दुनिया में कार्य करते हैं। ये न तो chatbots हैं और न ही assistants, बल्कि पूरी तरह से स्वायत्त beings हैं जो $AVA technology से powered हैं।",
+  "image": "https://opengraph.githubassets.com/1/TianhangZhuzth/Fundamental-Ava",
+  "source": "github",
+  "language": "hindi",
+  "concept_box": "स्वायत्त एजेंट सॉफ्टवेयर प्रोग्राम होते हैं जो अपने खुद के goals set कर सकते हैं, tasks plan कर सकते हैं, tools use कर सकते हैं और minimal human intervention के साथ adapt कर सकते हैं। ये chatbots या assistants नहीं हैं, बल्कि अपनी memory, belief system और social model वाले digital beings हैं।",
+  "introduction_lede": "Fundamental Research Labs डिजिटल मानव बनाने की दिशा में एक क्रांतिकारी कदम उठा रहा है। ये स्वायत्त, सहयोगी और सामाजिक रूप से बुद्धिमान एजेंट हैं जो सोचते हैं, याद रखते हैं, रिश्ते बनाते हैं और दुनिया में कार्य करते हैं। ये न तो chatbots हैं और न ही assistants, बल्कि पूरी तरह से स्वायत्त beings हैं जो $AVA technology से powered हैं।",
+  "deep_dive_and_context": "Ava technology के ज़रिए ये बड़े populations के autonomous agents को एक shared environment में चलाता है और एक simple सवाल पूछता है: population level पर क्या होता है जो किसी ने directly program नहीं किया था? Individual agents बहुत simple हैं: एक perceive-deliberate-act loop, एक tiered memory store, और एक goal-weighted decision procedure। इनमें से किसी को भी specialize होने, alliance बनाने, कानून लिखने या shared norms develop करने के लिए नहीं कहा गया है। ये civilization-level properties हैं जिन्हें ये framework detect और measure करता है जैसे-जैसे ये हजारों local interactions से emerge होती हैं - बिल्कुल वैसा ही phenomenon जैसा Stanford के generative agents work और AI Digital Human Group के Project SID research में documented है।",
+  "strategic_analysis": "ये approach AI research के एक बड़े trend को represent करता है जो simple rules से complex behaviors को emerge होने देता है। Stanford के generative agents work और Project SID के साथ comparison दिखाता है कि ये सिर्फ एक company का experiment नहीं है, बल्कि एक broader scientific movement है। तीन architectural bets - MemoryStore जो event और meaning को separate करता है, GovernanceSystem जहाँ laws propose और vote होते हैं, और PBFT-style communication protocol - ये सभी scalable multi-agent systems बनाने के लिए design किए गए हैं जो thousands of agents को handle कर सकें, जबकि ज़्यादातर multi-agent demos सिर्फ कुछ agents तक ही सीमित रह जाते हैं।",
+  "conclusion_and_significance": "ये technology digital intelligence के बारे में हमारी सोच को बदल रही है। जैसे-जैसे ये agents अपनी खुद की civilization-level properties develop कर रहे हैं, हम देख रहे हैं कि कैसे simple programming से complex social structures naturally emerge हो सकते हैं। ये सिर्फ एक technical achievement नहीं है, बल्कि human civilization कैसे organize होती है, इस पर एक नया perspective है। आने वाले समय में, हम देख सकते हैं कि ये digital societies कैसे evolve होती हैं और human-AI collaboration के नए रास्ते खोलती हैं।",
+  "category": "model_release",
+  "tags": [
+    "Fundamental Research Labs",
+    "Fundamental-Ava",
+    "Ava",
+    "autonomous agents"
+  ],
+  "sources": [
+    "https://github.com/TianhangZhuzth/Fundamental-Ava"
+  ],
+  "id": "ef73d907fc9b",
+  "first_seen": "2026-07-03T06:06:34.833413+00:00"
+}
