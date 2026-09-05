@@ -42,7 +42,7 @@ jobs:
       - name: Run pipeline
         env:
           SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
-          SARVAM_MODEL: sarvam-30b
+          SARVAM_MODEL: sarvam-105b
           SARVAM_MODEL_QUALITY: sarvam-105b
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           CONCISE_API_URL: ${{ secrets.CONCISE_API_URL }}

@@ -21,6 +21,7 @@ from writer.synthesize import (
     _stage3_write_article_with_retry,
     _translate_to_english,
     _trim_to_last_sentence,
+    normalize_category,
 )
 
 
@@ -735,3 +736,59 @@ class TestSearchRoutingByAmbiguity:
         assert any("Ambico" in q for q in ddg_queries)
         assert "a context question" in ddg_queries
         assert ask_concise_calls == []
+
+
+class TestNormalizeCategory:
+    """Stage 2 sometimes returns the Hindi label instead of the machine key.
+
+    The stored value is what the frontend's category filter matches on, so a
+    label written straight through makes that article unfilterable -- which is
+    what happened to the real July article `fb2486151cd6` ("बुकशॉप."), stored
+    with category "सामान्य" instead of "general".
+    """
+
+    def test_valid_keys_pass_through_unchanged(self):
+        for key in ("general", "acquisition", "model_release", "ban_regulation", "repo_analysis"):
+            assert normalize_category(key) == key
+
+    def test_hindi_label_maps_to_its_key(self):
+        assert normalize_category("सामान्य") == "general"
+        assert normalize_category("अधिग्रहण") == "acquisition"
+
+    def test_both_spacing_variants_of_a_two_word_label_map(self):
+        # Responses have used the underscore form and the plain-space form.
+        assert normalize_category("मॉडल_रिलीज") == "model_release"
+        assert normalize_category("मॉडल रिलीज") == "model_release"
+        assert normalize_category("रेपो_विश्लेषण") == "repo_analysis"
+        assert normalize_category("रेपो विश्लेषण") == "repo_analysis"
+
+    def test_short_label_forms_map_too(self):
+        # The frontend's own button labels, which a model may echo back.
+        assert normalize_category("नियमन") == "ban_regulation"
+        assert normalize_category("रेपो") == "repo_analysis"
+
+    def test_surrounding_whitespace_is_ignored(self):
+        assert normalize_category("  model_release  ") == "model_release"
+
+    def test_truncated_key_recovers_via_unambiguous_prefix(self):
+        # The real store holds one article filed as "repo" -- a truncated
+        # "repo_analysis". Falling back to "general" would lose a category we
+        # can recover with certainty.
+        assert normalize_category("repo") == "repo_analysis"
+        assert normalize_category("model") == "model_release"
+
+    def test_ambiguous_prefix_does_not_guess(self):
+        # "" would prefix-match every key; only a unique match is accepted.
+        assert normalize_category("  ") == "general"
+
+    def test_unrecognised_and_missing_fall_back_to_general(self):
+        # "general" is the safe default: it always has a framing entry and the
+        # frontend hides the filter button for categories with no articles.
+        assert normalize_category("tech news") == "general"
+        assert normalize_category(None) == "general"
+        assert normalize_category("") == "general"
+
+    def test_every_mapped_value_is_a_real_framing_key(self):
+        # A typo'd target would make _CATEGORY_FRAMING[category] raise at Stage 3.
+        for key in synthesize_mod._HINDI_CATEGORY_MAP.values():
+            assert key in synthesize_mod._CATEGORY_FRAMING

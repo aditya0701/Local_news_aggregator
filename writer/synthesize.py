@@ -13,7 +13,14 @@ from writer.search import CONTEXT_TIERS, IDENTITY_TIERS, build_identity_query, s
 from writer.web_context import fetch_page
 
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
-_MODEL_FAST = os.environ.get("SARVAM_MODEL", "sarvam-30b")
+# sarvam-30b was retired by Sarvam some time before 2026-08-21 — the API returns
+# HTTP 400 "Model 'sarvam-30b' has been deprecated" and GET /v1/models now lists
+# only sarvam-105b and sarvam-105b-conversations. Because _call_sarvam() swallows
+# RequestException and returns None, and _synthesize_sarvam() does "stage1 = ... or {}",
+# every Stage 1 call had been failing silently since ~2026-07-30: no skip gate, no
+# entities, no tags, no identity/GAP search, and a frozen entity cache, while articles
+# kept publishing from Stage 2/3 (sarvam-105b) as if nothing were wrong.
+_MODEL_FAST = os.environ.get("SARVAM_MODEL", "sarvam-105b")
 _MODEL_QUALITY = os.environ.get("SARVAM_MODEL_QUALITY", "sarvam-105b")
 
 # The /api/concise external research agent (writer/concise_search.py) is kept fully wired up
@@ -46,6 +53,49 @@ _CATEGORY_FRAMING = {
     ),
     "general": "no special framing beyond the base instructions",
 }
+
+# Stage 2 is asked for a machine key but sometimes returns the Hindi label the
+# frontend displays instead. Both spacing variants appear because the label is
+# written as one token in some responses and two words in others.
+_HINDI_CATEGORY_MAP = {
+    "सामान्य": "general",
+    "अधिग्रहण": "acquisition",
+    "मॉडल_रिलीज": "model_release",
+    "मॉडल रिलीज": "model_release",
+    "प्रतिबंध_नियमन": "ban_regulation",
+    "प्रतिबंध नियमन": "ban_regulation",
+    "नियमन": "ban_regulation",
+    "रेपो_विश्लेषण": "repo_analysis",
+    "रेपो विश्लेषण": "repo_analysis",
+    "रेपो": "repo_analysis",
+}
+
+
+def normalize_category(value: str | None) -> str:
+    """Machine key for a Stage 2 category, tolerating Hindi labels.
+
+    A Hindi label stored as the category is invisible to the frontend's filter,
+    which matches on the key -- so normalise before storing, not just before
+    looking up the framing. The raw Stage 2 value stays recoverable in
+    `trace["stage2"]`, so this loses nothing for diagnostics.
+
+    Order: exact key, then Hindi label, then an unambiguous prefix (the store
+    holds one article filed as "repo", a truncated "repo_analysis" -- defaulting
+    that to "general" would lose a category we can recover for certain). Only a
+    prefix matching exactly one key counts, so a genuinely unclear value still
+    falls back to "general".
+    """
+    text = (value or "").strip()
+    if text in _CATEGORY_FRAMING:
+        return text
+    if text in _HINDI_CATEGORY_MAP:
+        return _HINDI_CATEGORY_MAP[text]
+    if text:
+        matches = [key for key in _CATEGORY_FRAMING if key.startswith(text)]
+        if len(matches) == 1:
+            return matches[0]
+    return "general"
+
 
 # ---------------------------------------------------------------------------
 # Prompt templates
@@ -659,7 +709,7 @@ def _stage1_extract_queries(
     title: str, summary: str, source_text: str, api_key: str
 ) -> dict | None:
     """Three-step Stage 1: a dedicated skip gate, then (if kept) entity/gap
-    analysis, then JSON extraction. All three use sarvam-30b with
+    analysis, then JSON extraction. All three use _MODEL_FAST with
     reasoning_effort=None — see the prompt definitions above for why each
     step is shaped the way it is, and stage1-design.md for the full test
     history this design is based on."""
@@ -777,14 +827,8 @@ def _stage3_write_article(
     strategy: dict,
     api_key: str,
 ) -> dict | None:
-    _HINDI_CATEGORY_MAP = {
-        "सामान्य": "general", "अधिग्रहण": "acquisition",
-        "मॉडल_रिलीज": "model_release", "प्रतिबंध_नियमन": "ban_regulation",
-        "रेपो_विश्लेषण": "repo_analysis",
-    }
-    category = strategy.get("category", "general")
-    category = _HINDI_CATEGORY_MAP.get(category, category)
-    category_framing = _CATEGORY_FRAMING.get(category, _CATEGORY_FRAMING["general"])
+    category = normalize_category(strategy.get("category"))
+    category_framing = _CATEGORY_FRAMING[category]
     source_text_block = source_text[:2500] if source_text else "(not available)"
 
     # Format paragraph plan from Stage 2
@@ -840,7 +884,7 @@ def _synthesize_search_results(
     api_key: str,
 ) -> dict[str, str]:
     """Distill raw search snippets into direct answers via one batched call
-    to sarvam-30b (reasoning_effort=None — same fix as Stage 1 Call B and
+    to _MODEL_FAST (reasoning_effort=None — same fix as Stage 1 Call B and
     Stage 3: a straightforward extraction task doesn't need reasoning, and
     turning it off guarantees the full token budget goes to writing every
     item's answer instead of risking content=None on a multi-item response).
@@ -1068,7 +1112,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
     trace["stage0"]["translated_to_english"] = translated_input
 
     # ------------------------------------------------------------------
-    # Stage 1: entity extraction + relevance check (sarvam-30b)
+    # Stage 1: entity extraction + relevance check (_MODEL_FAST)
     # ------------------------------------------------------------------
     print(f"\n[STAGE 1 - {_MODEL_FAST} entity extraction + relevance]")
     stage1 = _stage1_extract_queries(title, summary, source_text, api_key) or {}
@@ -1285,7 +1329,7 @@ def _synthesize_sarvam(cluster: list[dict], api_key: str) -> dict | None:
         "deep_dive_and_context": article_fields["deep_dive_and_context"],
         "strategic_analysis": article_fields["strategic_analysis"],
         "conclusion_and_significance": article_fields["conclusion_and_significance"],
-        "category": strategy.get("category", "general"),
+        "category": normalize_category(strategy.get("category")),
         "tags": [e.get("name", "") for e in entities if e.get("name")][:5],
         "sources": [item["url"] for item in cluster if item.get("url")],
     }
