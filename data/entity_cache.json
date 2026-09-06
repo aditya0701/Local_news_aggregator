@@ -1888,9 +1888,9 @@
   },
   "openai": {
     "canonical_name": "OpenAI",
-    "entity_type": "technology",
-    "summary": "# What is OpenAI? Dive into the world of OpenAI and explore its features, benefits, and applications. This article provides an overview of OpenAI and its significance in the current landscape of the rapidly changing world of generative AI. ## Overview of OpenAI and its significance. OpenAI began as",
-    "last_updated": "2026-07-03"
+    "entity_type": "company",
+    "summary": "OpenAI is an AI research and deployment company structured with a nonprofit OpenAI Foundation and a for-profit OpenAI Group operating as a public benefit corporation. Its mission is to ensure that artificial general intelligence benefits all of humanity.",
+    "last_updated": "2026-09-06"
   },
   "groq": {
     "canonical_name": "Groq",
@@ -2663,8 +2663,8 @@
   "google": {
     "canonical_name": "Google",
     "entity_type": "company",
-    "summary": "Google is an American search engine company, founded in 1998 by Sergey Brin and Larry Page. Since 2015, Google has been a subsidiary of the holding company Alphabet, Inc. We are a leading AI company with a strong internet foundation. We have been consistently investing in AI since 2010 to advance ou",
-    "last_updated": "2026-07-05"
+    "summary": "Google is an American search engine company founded in 1998 by Sergey Brin and Larry Page. Since 2015, it has been a subsidiary of a larger parent organization and develops innovative AI products, including Gemini models, while offering services across Search, Google Workspace, and more.",
+    "last_updated": "2026-09-06"
   },
   "mistral": {
     "canonical_name": "Mistral",
@@ -13897,5 +13897,95 @@
     "entity_type": "product",
     "summary": "The material does not provide a clear overview of the Vinv product. It mentions a Viking VINV1200 interior-power ventilator kit and an extension for Visual Studio Code, but does not describe the Vinv product itself.",
     "last_updated": "2026-07-29"
+  },
+  "cloud in a bottle": {
+    "canonical_name": "Cloud in a Bottle",
+    "entity_type": "product",
+    "summary": "July 7, 2026 - In this activity, students observe ... and then rapidly releasing it. When pressure and temperature drop, alcohol (or water vapor) condenses into visible droplets, forming a cloud.... Cloud in a Bottle is an open source way to run apps on a server you control: your own hardware, a ren",
+    "last_updated": "2026-09-06"
+  },
+  "ubuntu": {
+    "canonical_name": "Ubuntu",
+    "entity_type": "technology",
+    "summary": "Overview of Ubuntu Ubuntu is based on the Debian Linuxopen supply running system. It was launched in 2004 and gained a reputation for its unfastened open-source and person-friendly running system. If is a loose-of-cost open-source machine, anybody can download it from its reputable internet site in",
+    "last_updated": "2026-09-06"
+  },
+  "web audio api": {
+    "canonical_name": "Web Audio API",
+    "entity_type": "technology",
+    "summary": "The Web Audio API is a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects, create audio visualizations, and apply spatial effects. It has been available across browsers since April 2021, though some parts of the feature may have v",
+    "last_updated": "2026-09-06"
+  },
+  "openbsd": {
+    "canonical_name": "OpenBSD",
+    "entity_type": "organization",
+    "summary": "The OpenBSD project produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Its efforts emphasize portability, standardization, correctness, proactive security, and integrated cryptography.",
+    "last_updated": "2026-09-06"
+  },
+  "smd": {
+    "canonical_name": "SMD",
+    "entity_type": "technology",
+    "summary": "Surface Mounted Devices (SMD) enable high integration and automation in consumer and automotive electronics. Innovations include Chiplet integration, glass substrates, IMD ultra-thin packages, and COG convergence, alongside nano-sintering and AI testing solutions for miniaturization and cost challen",
+    "last_updated": "2026-09-06"
+  },
+  "esdi": {
+    "canonical_name": "ESDI",
+    "entity_type": "technology",
+    "summary": "ESDI (Enhanced Small Device Interface) is a standard that allows for higher speed data transfer than earlier standards. It contributes to improved performance and reliability in computing systems by providing more efficient communication between storage devices and the computer.",
+    "last_updated": "2026-09-06"
+  },
+  "scsi": {
+    "canonical_name": "SCSI",
+    "entity_type": "technology",
+    "summary": "The provided material does not contain a general overview of the SCSI technology.",
+    "last_updated": "2026-09-06"
+  },
+  "sun microsystems": {
+    "canonical_name": "Sun Microsystems",
+    "entity_type": "company",
+    "summary": "Sun Microsystems, Inc. was founded in 1982 to sell low-cost, high-performance desktop computers running the UNIX operating system. It is a Fortune 500 company and a leading supplier of enterprise network computing products, including workstations, servers, software, and microprocessors.",
+    "last_updated": "2026-09-06"
+  },
+  "xylogics": {
+    "canonical_name": "Xylogics",
+    "entity_type": "company",
+    "summary": "Xylogics, Inc. was an American computer networking company founded in 1971 by three former NASA engineers. It specialized in developing and manufacturing terminal servers and remote access technologies for enterprise connectivity, as well as communication and terminal server networking products.",
+    "last_updated": "2026-09-06"
+  },
+  "ansi": {
+    "canonical_name": "ANSI",
+    "entity_type": "organization",
+    "summary": "The American National Standards Institute (ANSI) is a private, non-profit organization that administers and coordinates the U.S. voluntary standards and conformity assessment system. It oversees the creation and dissemination of various standards for manufacturing processes, products, systems, and s",
+    "last_updated": "2026-09-06"
+  },
+  "michael tsai": {
+    "canonical_name": "Michael Tsai",
+    "entity_type": "person",
+    "summary": "C. Michael Tsai, B.Sc., D.M.D., is an Oral and Maxillofacial Surgeon and Chief Executive Officer of Puget Sound Oral Surgery in Seattle, Washington. Born in 1979 in New Hampshire, he is also a Mac developer at C-Command Software and maintains a personal website with tech blogs, hiking blogs, and fam",
+    "last_updated": "2026-09-06"
+  },
+  "chrome": {
+    "canonical_name": "Chrome",
+    "entity_type": "product",
+    "summary": "Chrome is a web browser that offers Chrome Enterprise for organizational security, including data loss prevention and malware defense. It also provides Chrome Enterprise Premium for advanced security, built-in security features, and intuitive management capabilities for IT departments.",
+    "last_updated": "2026-09-06"
+  },
+  "gpt6 astra": {
+    "canonical_name": "GPT-6 Astra",
+    "entity_type": "ai_model",
+    "summary": "GPT-6 Astra is a highly intelligent and aligned AI model that is state-of-the-art in computer use, browsing, software engineering, cybersecurity, science, and professional work. It excels at adhering to existing templates, creating structured documents, and has achieved top scores on benchmarks like",
+    "last_updated": "2026-09-06"
+  },
+  "claude fable 51": {
+    "canonical_name": "Claude Fable 5.1",
+    "entity_type": "ai_model",
+    "summary": "Claude Fable 5.1 is Anthropic's newest top-tier AI model and the successor to Claude Fable 5. It is designed to draft articles, auto-research content gaps, add quotes and proof points, and polish structure, tone, and flow.",
+    "last_updated": "2026-09-06"
+  },
+  "yam": {
+    "canonical_name": "YAM",
+    "entity_type": "technology",
+    "summary": "YAM is a technology company that provides expert BPO services including Data Entry, Customer Support, Back Office Operations, Finance & Accounting, and HR & Payroll Support.",
+    "last_updated": "2026-09-06"
   }
 }

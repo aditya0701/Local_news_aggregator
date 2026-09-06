@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-05T14:36:07.705273+00:00",
-  "total": 1810,
+  "generated": "2026-09-06T07:24:34.275141+00:00",
+  "total": 1826,
   "categories": {
-    "repo_analysis": 316,
-    "general": 1059,
-    "model_release": 194,
+    "general": 1072,
+    "model_release": 196,
+    "repo_analysis": 317,
     "ban_regulation": 176,
     "acquisition": 65
   },
@@ -12,7 +12,7 @@
     {
       "month": "2026-09",
       "file": "2026-09.json",
-      "count": 157
+      "count": 173
     },
     {
       "month": "2026-08",
