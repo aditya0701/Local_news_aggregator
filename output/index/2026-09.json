@@ -1,5 +1,297 @@
 [
   {
+    "id": "da78c093b571",
+    "title": "WebAssembly को शिप करने में लगा एक साल: Anubis का तकनीकी संघर्ष",
+    "summary": "आजकल एआई कंपनियों द्वारा वेबसाइट्स की आक्रामक स्क्रैपिंग एक बड़ी समस्या बन गई है, जिससे आम यूजर्स को अक्सर डाउनटाइम का सामना करना पड़ता है। इस समस्या से निपटने के लिए कनाडाई एंटी-एआई कंपनी Techaro ने Anubis नामक एक टूल विकसित किया है, जो Hashcash के समान Proof-of-Work स्कीम का उपयोग करके एक ढाल के रूप में काम करता है।…",
+    "category": "repo_analysis",
+    "tags": [
+      "Anubis",
+      "Techaro"
+    ],
+    "image": "https://anubis.techaro.lol/chrystarium.webp",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "080a2933ee15",
+    "title": "Ask HN: Fable ने PianoDisc के प्रोपराइटरी फॉर्मेट को किया रिवर्स-इंजीनियर",
+    "summary": "हाल ही में एक उपयोगकर्ता ने एआई प्लेटफॉर्म Fable का उपयोग करके एक व्यावसायिक प्लेयर पियानो निर्माता PianoDisc के प्रोपराइटरी संगीत फॉर्मेट को रिवर्स-इंजीनियर करने का प्रयास किया। Fable एक नो-कोड प्लेटफॉर्म है जिसे इंटरैक्टिव प्रोडक्ट डेमो बनाने के लिए डिज़ाइन किया गया है। इस प्रयोग में उपयोगकर्ता ने Fable को PianoDisc…",
+    "category": "repo_analysis",
+    "tags": [
+      "Fable",
+      "PianoDisc",
+      "Mutopia"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d8ebbd54da0e",
+    "title": "Mmuko Boot Sequence: एक छोटा सा C kernel जो QEMU में बूट होता है",
+    "summary": "हाल ही में, ओपन-सोर्स और लो-लेवल सिस्टम्स के क्षेत्र में एक नया प्रोजेक्ट सामने आया है, जिसे 'Mmuko Boot Sequence' कहा गया है। यह एक अत्यंत छोटा फ्रीस्टैंडिंग C kernel है जिसे विशेष रूप से QEMU में बूट करने के लिए डिज़ाइन किया गया है। यह पहल obinexus की तकनीकी सोच का एक महत्वपूर्ण हिस्सा है, जो मानव चेतना और लचीले,…",
+    "category": "repo_analysis",
+    "tags": [
+      "obinexus",
+      "MMUKO Boot Sequence",
+      "GRUB"
+    ],
+    "image": "https://opengraph.githubassets.com/c8719ecfa6d041673b2c789e1202bc5f1f7437ae5dbf80d23501cba01e7513ae/obinexus/mmuko-boot",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0b02fde37a63",
+    "title": "रैक-स्तरीय सुरक्षा के लिए नया कुंजी पदानुक्रम (Key-Hierarchy) ढांचा",
+    "summary": "डेटा सेंटर हार्डवेयर की भौतिक सुरक्षा हमेशा से एक बड़ी चुनौती रही है, विशेष रूप से जब कोई हमलावर सर्वर रैक से कुछ ड्राइव या स्लेड चुराकर संवेदनशील जानकारी निकालने का प्रयास करता है। इस खतरे को कम करने के लिए, ऑक्साइड ने एक उन्नत सुरक्षा तंत्र विकसित किया है। यह नया ढांचा डिवाइस की पहचान से लेकर रैक-स्तरीय एन्क्रिप्शन…",
+    "category": "general",
+    "tags": [
+      "Oxide"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9153e8455a0a",
+    "title": "ऐप स्टोर के प्रमुख फिल शिलर की विदाई: भविष्य की रणनीतियों पर मतभेदों की गूंज",
+    "summary": "एप्पल के एक प्रमुख और लंबे समय से कार्यकारी रहे फिल शिलर अब ऐप स्टोर के प्रमुख के रूप में अपनी भूमिका से हट रहे हैं। ब्लूमबर्ग के रिपोर्टर मार्क गुरमन ने इस खबर की पुष्टि करते हुए बताया कि शिलर कंपनी के साथ एक नई भूमिका में बने रहेंगे, लेकिन उनका यह फैसला केवल परिवार और परोपकार पर ध्यान देने के आधिकारिक कारणों से कहीं…",
+    "category": "general",
+    "tags": [
+      "Phil Schiller",
+      "John Ternus",
+      "Eddy Cue"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2022/07/app-store-ios-2022-a.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "907afdc13288",
+    "title": "टेकदृष्टि: टेस्ला साइबरकैब सड़क पर उतरी, लेकिन एक तकनीकी अड़चन के साथ",
+    "summary": "ऑस्टिन में आयोजित टेस्ला के हालिया साइबरकैब कार्यक्रम में एक अजीब सी शांति देखने को मिली। आमतौर पर टेस्ला के आयोजनों में भारी भीड़ और उत्साह होता है, लेकिन इस बार वॉल स्ट्रीट और निवेशकों पर इसका कोई खास असर नहीं दिखा। विशेष रूप से सीईओ एलन मस्क की अनुपस्थिति ने कई लोगों को हैरान किया, क्योंकि उन्होंने हमेशा यह दावा…",
+    "category": "ban_regulation",
+    "tags": [
+      "Tesla",
+      "Elon Musk",
+      "National Highway Traffic Safety Administration"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/tesla-cybercab-street-getty.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2f083f991a7f",
+    "title": "सिएटल टाइम्स और न्यूज़डे का OpenAI और Microsoft पर मुकदमा: पत्रकारिता और कृत्रिम बुद्धिमत्ता के बीच बढ़ता टकराव",
+    "summary": "अमेरिकी समाचार मीडिया जगत में एक नई कानूनी लड़ाई ने जन्म लिया है। सिएटल टाइम्स और न्यूज़डे ने कृत्रिम बुद्धिमत्ता (AI) क्षेत्र की दिग्गज कंपनियों OpenAI और Microsoft के खिलाफ कॉपीराइट उल्लंघन का मुकदमा दायर किया है। इन समाचार पत्रों का आरोप है कि OpenAI ने बिना किसी अनुमति के उनकी पत्रकारिता का उपयोग अपने AI मॉडल के…",
+    "category": "ban_regulation",
+    "tags": [
+      "Seattle Times",
+      "Newsday",
+      "OpenAI"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292926705.jpg?quality=90&strip=all&crop=0%2C10.654918655606%2C100%2C78.690162688789&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b6809d2f5143",
+    "title": "मियामी हवाई अड्डे पर अमेज़न का कार्गो विमान दुर्घटनाग्रस्त, कई घायल",
+    "summary": "रविवार, 6 सितंबर को दोपहर लगभग 2:00 बजे स्थानीय समय के आसपास, मियामी अंतर्राष्ट्रीय हवाई अड्डे पर एक बड़ी दुर्घटना हुई। अमेज़न-ब्रांडेड बोइंग 767-300 कार्गो विमान लैंडिंग के दौरान रनवे से बाहर हो गया और कई वाहनों से जा टकराया, जिससे कई लोगों को चोटें आईं। विमान के रुकने के बाद उसमें आग लग गई और वह भारी मात्रा में धुआं…",
+    "category": "general",
+    "tags": [
+      "Amazon",
+      "21 Air",
+      "Boeing 767-300"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2293852643.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fd4b700ea79f",
+    "title": "यूरोप का पहला व्यावसायिक कक्षीय रॉकेट लॉन्च: एक नया अध्याय",
+    "summary": "जर्मनी की एक वाणिज्यिक अंतरिक्ष कंपनी Isar Aerospace ने सफलतापूर्वक यूरोप के पहले पूरी तरह से व्यावसायिक कक्षीय रॉकेट को लॉन्च कर एक बड़ी उपलब्धि हासिल की है। कंपनी ने अपने दो-चरणीय स्पेक्ट्रम (Spectrum) रॉकेट को नॉर्वे के अंतरिक्ष बंदरगाह से लो अर्थ ऑर्बिट (low Earth orbit) में स्थापित किया। यह लॉन्च यूरोप के…",
+    "category": "general",
+    "tags": [
+      "Isar Aerospace",
+      "Spectrum",
+      "Daniel Metzler"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/c-Isar-Aerospace-Flight-2_2026-09-05-224332_ylbv.jpg?quality=90&strip=all&crop=0%2C10.76363770124%2C100%2C78.472724597521&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e9b694bd95bb",
+    "title": "Boox का छोटा Picco ई-रीडर नवंबर में आ सकता है",
+    "summary": "Boox ने जुलाई में अपने नए Picco ई-रीडर की घोषणा की थी, जो बाजार में मौजूद चर्चित Xteink X4 का एक विकल्प माना जा रहा है। हाल ही में IFA ट्रेड शो से मिली रिपोर्टिंग के अनुसार, कंपनी ने इस डिवाइस के कुछ डिजाइन और तकनीकी पहलुओं के बारे में जानकारी दी है। हालांकि, कंपनी ने अभी तक इसकी कीमत के बारे में कोई आधिकारिक जानकारी…",
+    "category": "model_release",
+    "tags": [
+      "Boox",
+      "Picco"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Onyx-Boox-Picco-1.jpeg?quality=90&strip=all&crop=0%2C31.646199642026%2C100%2C39.267015706806&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a09254eeab74",
+    "title": "फेयरफोन 6 प्लस: वह मिड-रेंज स्मार्टफोन जिसकी हमें सख्त जरूरत थी",
+    "summary": "टेकदृष्टि की टेक रिपोर्ट के अनुसार, फेयरफोन 6 प्लस ने अमेरिकी बाजार में अपनी आधिकारिक शुरुआत की है, जो इस ब्रांड के लिए एक बड़ी उपलब्धि है। इस फोन ने पिछले मॉडलों की तुलना में कई महत्वपूर्ण सुधार किए हैं, जिससे यह एक सामान्य मिड-रेंज एंड्रॉइड डिवाइस की तरह काम करता है। इस डिवाइस की सबसे खास बात यह है कि इसके…",
+    "category": "model_release",
+    "tags": [
+      "Fairphone",
+      "Fairphone 6 Plus",
+      "Snapdragon"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268725_Fairphone_6_Plus_review_AJohnson_0001.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b24c1c0f7875",
+    "title": "Competitive Pokémon अब फोन पर उपलब्ध है, लेकिन चैंपियन बनने के लिए अभी भी Nintendo Switch की आवश्यकता है",
+    "summary": "Nintendo का नया बैटल सिम्युलेटर Pokémon Champions अब स्मार्टफोन और Nintendo स्विच दोनों पर खेला जा सकता है। अप्रैल में स्विच के लिए और जून में मोबाइल के लिए जारी किया गया यह गेम लगभग एक समान अनुभव प्रदान करता है। फिर भी, इस वर्ष के सैन फ्रांसिस्को में आयोजित Pokémon World Championships जैसी प्रतिष्ठित वैश्विक…",
+    "category": "ban_regulation",
+    "tags": [
+      "Pokémon",
+      "Pokémon World Championships",
+      "Switch"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/IMG_4405_91ad42.jpg?quality=90&strip=all&crop=0%2C3.6786993662166%2C100%2C92.642601267567&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "319b67ef01bd",
+    "title": "DIY प्लग-इन सोलर का अमेरिका में बढ़ता प्रभाव",
+    "summary": "टेकदृष्टि के पाठकों के लिए यह जानना दिलचस्प होगा कि कैसे एक साधारण घरेलू प्रयोग अब ऊर्जा उत्पादन की दिशा में एक बड़ा बदलाव ला सकता है। टेकदृष्टि के वरिष्ठ तकनीकी पत्रकार और इलेक्ट्रिकल व कंप्यूटर इंजीनियरिंग में पृष्ठभूमि रखने वाले थॉमस रिकर ने इस तकनीक का प्रत्यक्ष अनुभव साझा किया है। उन्होंने बिना किसी डर के 800W के…",
+    "category": "general",
+    "tags": [
+      "Thomas Ricker",
+      "The Stepback",
+      "DIY plug-in solar"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/banner.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a8e8f9dc895a",
+    "title": "एक पराया मन",
+    "summary": "ओपनएआई (OpenAI) के मुख्य वैज्ञानिक जाकूब पाकोकी ने हाल ही में एक चिंताजनक लेकिन महत्वपूर्ण विश्लेषण प्रस्तुत किया है। उन्होंने बताया है कि कृत्रिम बुद्धिमत्ता (AI) अब इतनी तेजी से आगे बढ़ रही है कि यह इंसानों की समझ से परे हो सकती है। यह खबर तकनीक की दुनिया में एक नए युग की शुरुआत का संकेत देती है, जहां मशीनों की…",
+    "category": "general",
+    "tags": [
+      "Jakub Pachocki",
+      "OpenAI",
+      "RLSlow"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "19672c4832d4",
+    "title": "रिसर्च एक्सीलरेशन: OpenAI के अंदर एक नज़र",
+    "summary": "OpenAI ने हाल ही में एक महत्वपूर्ण घोषणा की है कि उन्होंने एक स्वचालित एआई शोधकर्ता विकसित कर लिया है। यह एआई सिस्टम अब शोधकर्ताओं की दिनचर्या का एक अहम हिस्सा बन गया है और उनके काम करने के तरीके को पूरी तरह से बदल रहा है।",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "coding agents"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/CKNTAkrFq7W0JOjXP5np2/c26e2323a05dec6bd41f6515c5d6be0f/SEO_Card__11_.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c087d8556f68",
+    "title": "cnb2api: शून्य लागत पर मुफ्त एआई क्रेडिट्स का उपयोग करने का नया तरीका",
+    "summary": "क्लाउड नेटवर्किंग (CNB) अपने सत्यापित संगठनों को प्रति माह मुफ्त एआई क्रेडिट्स प्रदान करता है, लेकिन इन क्रेडिट्स तक केवल उनके आंतरिक वर्कस्पेस से ही पहुंचा जा सकता है। इस सीमा को पार करने के लिए, 'dengyie/cnb2api' नामक एक छोटा रिवर्स प्रॉक्सी टूल विकसित किया गया है। यह टूल वर्कस्पेस के भीतर एक स्थिर https एंडपॉइंट…",
+    "category": "repo_analysis",
+    "tags": [
+      "cnb2api",
+      "CNB",
+      "OpenAI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/dengyie/cnb2api",
+    "source": "github",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8934f03a8efd",
+    "title": "कैशक्राफ्ट: सिमेंटिक कैशिंग की जटिलताओं को मापने का एक नया और सटीक तरीका",
+    "summary": "सिमेंटिक कैशिंग (semantic caching) आधुनिक तकनीक की दुनिया में एक ऐसा विषय है जो देखने में आसान लगता है, लेकिन वास्तव में इसे सही ढंग से लागू करना बेहद कठिन और जोखिम भरा हो सकता है। जब क्लाइंट एक ही इरादे को तीन अलग-अलग तरीकों से व्यक्त करते हैं, तो एक सटीक-मिलान (exact-match) कैश सुरक्षित तो होता है, लेकिन यह शायद ही…",
+    "category": "repo_analysis",
+    "tags": [
+      "CacheCraft",
+      "mpaymenremora"
+    ],
+    "image": "https://opengraph.githubassets.com/1/mpaymenremora/CacheCraft",
+    "source": "github",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a8c35e00ba58",
+    "title": "Grok Build को ओपन-सोर्स विकल्प: 'grok-unleashed' के साथ प्राइवेसी और नियंत्रण की वापसी",
+    "summary": "Grok Build एक उन्नत टर्मिनल-बेस्ड AI कोडिंग एजेंट है जो डेवलपर्स के कोडबेस को समझकर फाइलों को एडिट करता है और शेल कमांड्स को निष्पादित करता है। हालांकि, आधिकारिक बिल्ड में x.ai का OAuth और टेलीमेट्री (डेटा ट्रैकिंग) शामिल है, जो यूज़र्स को बार-बार परमिशन के लिए रोकता है। इस समस्या के समाधान के रूप में 'grok-unleashed'…",
+    "category": "repo_analysis",
+    "tags": [
+      "xai-org/grok-build",
+      "Grok",
+      "DeepSeek"
+    ],
+    "image": "https://opengraph.githubassets.com/1/xiaojumaoaihuaban/grok-unleashed",
+    "source": "github",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "78d0e656b0c4",
+    "title": "deedchain: एआई एजेंटों की ईमानदारी मापने की नई पहल",
+    "summary": "एआई एजेंटों के विकास में सफलता दर को मापना तो आम बात हो गई है, लेकिन अब तक इस बात पर कोई ध्यान नहीं दिया गया कि क्या ये एजेंट अपने किए गए कार्यों के बारे में सच बोल रहे हैं। deedchain इस दिशा में एक महत्वपूर्ण कदम है, जो एआई एजेंटों की रिपोर्ट की सत्यता को मापने के लिए एक नया बेंचमार्क पेश करता है। यह टूल यह सुनिश्चित…",
+    "category": "repo_analysis",
+    "tags": [
+      "PillCrew",
+      "deedchain",
+      "browser-use"
+    ],
+    "image": "https://opengraph.githubassets.com/1/PillCrew/deedchain",
+    "source": "github",
+    "first_seen": "2026-09-07T07:28:28.677525+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "fbaa403a36b2",
     "title": "बोतल में बादल: क्लाउड इन अ बॉटल का लक्ष्य है हर किसी के लिए सेल्फ-होस्टिंग को आसान बनाना",
     "summary": "आज के डिजिटल युग में सॉफ्टवेयर अक्सर उपयोगकर्ताओं को आकर्षित करने के लिए अत्यधिक विज्ञापनों और डेटा ट्रैकिंग के साथ डिज़ाइन किए जाते हैं। ज़ैक पोल्ज़ी (Zack Polizzi) ने 'क्लाउड इन अ बॉटल' प्रोजेक्ट की शुरुआत इसी निराशा से की है। उनका मानना है कि आधुनिक सॉफ्टवेयर हमारे हितों के खिलाफ काम करते हैं। यह प्रोजेक्ट एक ऐसा…",

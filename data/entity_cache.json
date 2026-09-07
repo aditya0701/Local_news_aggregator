@@ -1899,10 +1899,10 @@
     "last_updated": "2026-07-03"
   },
   "ollama": {
-    "canonical_name": "Ollama",
-    "entity_type": "technology",
-    "summary": "# Ollama Technology Overview and Insights. ## Uploaded by. AI-enhanced title and description. The document provides a comprehensive overview of the technology behind Ollama, detailing its architecture, key technologies, and use cases across various industries. It discusses the advantages and limitat",
-    "last_updated": "2026-07-03"
+    "canonical_name": "ollama",
+    "entity_type": "product",
+    "summary": "Ollama is a groundbreaking platform that democratizes access to large language models by enabling users to run them locally on their machines. It provides a user-friendly interface and access to various models through a single system.",
+    "last_updated": "2026-09-07"
   },
   "vs code": {
     "canonical_name": "VS Code",
@@ -2297,8 +2297,8 @@
   "microsoft": {
     "canonical_name": "Microsoft",
     "entity_type": "company",
-    "summary": "Microsoft   About     Overview Facts News Office Locations Procurement Legal Contact Us   Overview Board of directors Senior Leadership Stories Alumni Network   Overview innovation Diversity & Inclusion Corporate Social Responsibility AI Trustworthy Computing  Careers     Microsoft 365 Office Azure",
-    "last_updated": "2026-07-03"
+    "summary": "Microsoft was founded in 1975 with a mission to enable people and businesses worldwide to realize their full potential by creating technology. The company includes numerous forward-looking statements in its reports regarding business plans, objectives, and expected operating results.",
+    "last_updated": "2026-09-07"
   },
   "accessibility": {
     "canonical_name": "Accessibility",
@@ -2626,9 +2626,9 @@
   },
   "deepseek": {
     "canonical_name": "DeepSeek",
-    "entity_type": "company",
-    "summary": "DeepSeek focuses on the development of artificial general intelligence within the technology sector. It offers a platform that facilitates application programming interface calls for integrating AI capabilities and a chat interface for exploring AGI applications. It was founded in 2023 and is based",
-    "last_updated": "2026-07-05"
+    "entity_type": "ai_model",
+    "summary": "DeepSeek-V3 is a 671B parameter Mixture-of-Experts (MoE) language model that activates only 37B parameters per token. It features four key architectural innovations designed to combine efficiency with capability.",
+    "last_updated": "2026-09-07"
   },
   "qwen": {
     "canonical_name": "Qwen",
@@ -2644,9 +2644,9 @@
   },
   "zhipu": {
     "canonical_name": "Zhipu",
-    "entity_type": "company",
-    "summary": "Zhipu AI is an artificial intelligence company that offers a large model platform providing API services and a range of smart applications, including the AMiner analysis engine and AI cognitive tools like CodeGeeX and CogView, to help users automate digital tasks and minimize manual effort.",
-    "last_updated": "2026-07-05"
+    "entity_type": "ai_model",
+    "summary": "GLM-5 is Zhipu AI's fifth-generation large language model with 745B parameters and 44B active MoE architecture. It is built for agentic intelligence, advanced reasoning, and frontier-level performance, and is accessible via Z.ai's platform and WaveSpeed API.",
+    "last_updated": "2026-09-07"
   },
   "baidu": {
     "canonical_name": "Baidu",
@@ -2834,8 +2834,8 @@
   "fable": {
     "canonical_name": "Fable",
     "entity_type": "product",
-    "summary": "Claude Fable 5 is our most capable model for ambitious coding projects, including large migrations, complex implementations, and multi-day autonomous sessions. It can write its own tests to check its work, implement designs with high fidelity, and use vision to check outputs against goals. It is the",
-    "last_updated": "2026-07-05"
+    "summary": "Fable is a no-code platform designed to create stunning interactive product demos quickly and efficiently. It empowers teams across marketing, sales, and customer success to engage prospects and streamline onboarding processes through AI-driven customization and seamless tool integrations.",
+    "last_updated": "2026-09-07"
   },
   "souschef": {
     "canonical_name": "sous-chef",
@@ -4189,9 +4189,9 @@
   },
   "amazon": {
     "canonical_name": "Amazon",
-    "entity_type": "organization",
-    "summary": "Amazon manages over 1.5 million employees across dozens of countries with a hierarchical structure featuring strong functional divisions like AWS, Consumer, and Finance, and geographic segmentation. A senior leadership team called the S-Team reports to CEO Andy Jassy.",
-    "last_updated": "2026-07-07"
+    "entity_type": "company",
+    "summary": "Amazon.com, Inc. is a prominent American technology and retail company founded in 1994 by Jeff Bezos in Seattle, Washington. Initially launched as an online bookstore, it rapidly grew into the world's largest internet retail platform, offering electronics, media, and groceries.",
+    "last_updated": "2026-09-07"
   },
   "oracle": {
     "canonical_name": "Oracle",
@@ -4334,8 +4334,8 @@
   "app store": {
     "canonical_name": "App Store",
     "entity_type": "product",
-    "summary": "The App Store is a safe and trusted place to discover apps that meet high standards for privacy, security, and content. It is more than just a storefront; it is an innovative destination focused on bringing users amazing experiences and ensuring apps are held to the highest standards for privacy and",
-    "last_updated": "2026-07-07"
+    "summary": "The App Store is a digital marketplace where every element of a product page has the power to drive app downloads. Developers can optimize their product pages through App Store Connect or the App Store Connect API to help customers discover and engage with their apps.",
+    "last_updated": "2026-09-07"
   },
   "reserve bank of india": {
     "canonical_name": "Reserve Bank of India",
@@ -5282,8 +5282,8 @@
   "elon musk": {
     "canonical_name": "Elon Musk",
     "entity_type": "person",
-    "summary": "Elon Musk is a business magnate, designer, and engineer known for his work in electric vehicles, private spaceflight, and artificial intelligence. He is described as skeptical, reserved, and analytical, often seeking to establish procedures that can help others improve.",
-    "last_updated": "2026-07-10"
+    "summary": "Elon Musk is the richest person in the world and ranks first on Forbes' 2026 America's Richest Immigrants list. He co-founded and leads Tesla, SpaceX, Neuralink, and The Boring Company.",
+    "last_updated": "2026-09-07"
   },
   "mythosfable": {
     "canonical_name": "Mythos/Fable",
@@ -5300,8 +5300,8 @@
   "tesla": {
     "canonical_name": "Tesla",
     "entity_type": "company",
-    "summary": "Tesla is accelerating the world's transition to sustainable abundance by building a world powered by solar, enabled by battery storage, and transported by electric vehicles. The company is headquartered in Texas and operates six vertically integrated factories across three continents with over 100,0",
-    "last_updated": "2026-07-10"
+    "summary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States and China. The company aims to make every Tesla the most fun you could possibly have in a vehicle after prioritizing safety.",
+    "last_updated": "2026-09-07"
   },
   "muse spark": {
     "canonical_name": "Muse Spark",
@@ -6047,8 +6047,8 @@
   "grok": {
     "canonical_name": "Grok",
     "entity_type": "ai_model",
-    "summary": "Grok-3 is a new AI model introduced by Elon Musk’s xAI that is designed to rival major players like OpenAI’s GPT-4 and DeepSeek’s V3. It is powered by the Colossus data center, which houses approximately 200,000 GPUs, and features a 'Think' mode for deeper reasoning and a 'Big Brain' mode for handli",
-    "last_updated": "2026-07-12"
+    "summary": "Grok 4.6 is the flagship model for code and other tasks, featuring agentic tool calling, minimal hallucinations, and configurable reasoning. It supports real-time conversations, speech-to-text, text-to-speech, image generation, and video generation via dedicated models and APIs.",
+    "last_updated": "2026-09-07"
   },
   "grokbuildcli": {
     "canonical_name": "grok-build-cli",
@@ -6463,9 +6463,9 @@
   },
   "waymo": {
     "canonical_name": "Waymo",
-    "entity_type": "general",
-    "summary": "Waymo, formerly the Google self-driving car project, is a company creating safe, autonomous driving technology. It aims to offer freedom of movement and create a sustainable, efficient transportation ecosystem by holding safety to a higher standard.",
-    "last_updated": "2026-07-13"
+    "entity_type": "company",
+    "summary": "Waymo is a self-driving technology company established under Alphabet with a mission to make it safe and easy for people and things to move around. The company is committed to holding safety to a higher standard and aims to offer freedom of movement for all.",
+    "last_updated": "2026-09-07"
   },
   "nhtsa": {
     "canonical_name": "NHTSA",
@@ -7267,9 +7267,9 @@
   },
   "xaiorggrokbuild": {
     "canonical_name": "xai-org/grok-build",
-    "entity_type": "model_release",
-    "summary": "xai-org/grok-build is the repository for the Grok Build, a terminal-based AI coding agent. It is a Rust-based project that provides a full-screen TUI, agent runtime, and is synced from the SpaceXAI monorepo.",
-    "last_updated": "2026-07-16"
+    "entity_type": "product",
+    "summary": "Grok Build is SpaceXAI's terminal-based AI coding agent. It runs as a full-screen TUI that understands your codebase, edits files, executes shell commands, searches the web, and manages long-running tasks.",
+    "last_updated": "2026-09-07"
   },
   "xaigrokpager": {
     "canonical_name": "xai-grok-pager",
@@ -7423,9 +7423,9 @@
   },
   "copilot": {
     "canonical_name": "Copilot",
-    "entity_type": "general",
-    "summary": "Microsoft Copilot is an AI assistant that helps users get things done faster within Microsoft apps. Launched in 2023, it’s now built into Word, Excel, PowerPoint, and Teams.",
-    "last_updated": "2026-07-16"
+    "entity_type": "product",
+    "summary": "Microsoft Copilot is a secure, enterprise-ready AI chat that primarily utilizes web data and has limited use of organizational content. It is available in many regions worldwide, though access in certain markets is subject to approval and organizational support escalation processes.",
+    "last_updated": "2026-09-07"
   },
   "jay parikh": {
     "canonical_name": "Jay Parikh",
@@ -7928,8 +7928,8 @@
   "faa": {
     "canonical_name": "FAA",
     "entity_type": "organization",
-    "summary": "The various regional offices of the FAA contribute to the agency's effectiveness by addressing local aviation needs, ensuring compliance with federal regulations... Overview-1 Overview-5 Overview-6. Section 2. -- BUDGET SUMMARY TABLES.Reorganization Proposal-6. FAA Organization Chart (Proposed). A B",
-    "last_updated": "2026-07-17"
+    "summary": "The Federal Aviation Administration (FAA) is an agency of the U.S. federal government responsible for ensuring the safety and efficiency of civil aviation in the United States and surrounding international waters. Created as the independent Federal Aviation Agency in 1958, its continuing mission is",
+    "last_updated": "2026-09-07"
   },
   "cocacola": {
     "canonical_name": "Coca-Cola",
@@ -13987,5 +13987,215 @@
     "entity_type": "technology",
     "summary": "YAM is a technology company that provides expert BPO services including Data Entry, Customer Support, Back Office Operations, Finance & Accounting, and HR & Payroll Support.",
     "last_updated": "2026-09-06"
+  },
+  "anubis": {
+    "canonical_name": "Anubis",
+    "entity_type": "product",
+    "summary": "Anubis is a runtime product that manages the full lifecycle of AI agents, including registering, inspecting, testing, scoring, deciding, monitoring, and auditing. It evaluates proposed tool calls by performing a single synchronous check to either allow or block a side effect before it occurs.",
+    "last_updated": "2026-09-07"
+  },
+  "techaro": {
+    "canonical_name": "Techaro",
+    "entity_type": "company",
+    "summary": "Techaro is an anti-AI company based in Canada that develops tools to stop AI crawlers. The company maintains several open-source repositories, including an IP reputation database for Anubis and a web bot authentication implementation.",
+    "last_updated": "2026-09-07"
+  },
+  "pianodisc": {
+    "canonical_name": "PianoDisc",
+    "entity_type": "product",
+    "summary": "PianoDisc is the world leader in modern player piano systems, providing cutting-edge technology for the playback and recording of piano performances. The company is proud to make its acclaimed systems in America and has been a leader in the industry since 1988.",
+    "last_updated": "2026-09-07"
+  },
+  "mutopia": {
+    "canonical_name": "Mutopia",
+    "entity_type": "product",
+    "summary": "The Mutopia Project is a free online library of classical sheet music based on public domain editions. A team of volunteers typesets the music using LilyPond software, offering thousands of pieces in PDF, MIDI, and editable LilyPond file formats.",
+    "last_updated": "2026-09-07"
+  },
+  "obinexus": {
+    "canonical_name": "obinexus",
+    "entity_type": "company",
+    "summary": "OBINexus is a company and constitutional framework for design and technology that bridges human consciousness with resilient, ethical systems. It is governed by a legally binding constitution and led by its founder and Lead Architect, OBINexus Eze.",
+    "last_updated": "2026-09-07"
+  },
+  "mmuko boot sequence": {
+    "canonical_name": "MMUKO Boot Sequence",
+    "entity_type": "product",
+    "summary": "The MMUKO Boot Sequence is a tiny QEMU-bootable kernel scaffold that supports two boot paths. It can be built using a MinGW + QEMU setup and is designed to run as freestanding code at boot time.",
+    "last_updated": "2026-09-07"
+  },
+  "grub": {
+    "canonical_name": "GRUB",
+    "entity_type": "product",
+    "summary": "GRUB is the GRand Unified Bootloader, a flexible and powerful bootloader program for a wide range of architectures. It understands filesystems and kernel executable formats, allowing users to load an arbitrary operating system without recording the physical position of the kernel on the disk.",
+    "last_updated": "2026-09-07"
+  },
+  "qemu": {
+    "canonical_name": "QEMU",
+    "entity_type": "product",
+    "summary": "QEMU is a full-system emulator that allows users to run operating systems for any machine on any supported architecture. It also supports running programs for another Linux/BSD target and KVM and Xen virtual machines with near-native performance.",
+    "last_updated": "2026-09-07"
+  },
+  "mingw": {
+    "canonical_name": "MinGW",
+    "entity_type": "product",
+    "summary": "MinGW is a complete GCC toolchain for the Windows platform, designed to bring open-source tools to Windows that are otherwise only available on Linux. The mingw-w64 project provides a complete runtime environment for gcc to support binaries native to both Windows 64-bit and 32-bit operating systems.",
+    "last_updated": "2026-09-07"
+  },
+  "oxide": {
+    "canonical_name": "Oxide",
+    "entity_type": "company",
+    "summary": "Apr 1, 2026 · Under our mission, \"Creating a prosperous future through optical technology,\" OXIDE Corporation is a research and development-oriented company that pursues the resolution of social issues and sustainable growth through proprietary technologies. NEWS 【Event】Report on Exhibit at Laser &",
+    "last_updated": "2026-09-07"
+  },
+  "phil schiller": {
+    "canonical_name": "Phil Schiller",
+    "entity_type": "person",
+    "summary": "Philip W. Schiller is an American businessman and Apple Fellow at Apple Inc. He is a prominent figure in Apple's keynotes and has been a member of the company's executive team since 1997.",
+    "last_updated": "2026-09-07"
+  },
+  "john ternus": {
+    "canonical_name": "John Ternus",
+    "entity_type": "person",
+    "summary": "John Ternus is the CEO of Apple and serves on its board of directors. He joined Apple's product design team in 2001 and has overseen hardware engineering for groundbreaking products including the iPad, AirPods, and multiple generations of iPhone, Mac, and Apple Watch.",
+    "last_updated": "2026-09-07"
+  },
+  "eddy cue": {
+    "canonical_name": "Eddy Cue",
+    "entity_type": "person",
+    "summary": "Eddy Cue is Apple’s senior vice president of Services and Health, and a member of Apple’s executive leadership team. He oversees Apple's services, including the App Store, Apple Music, Apple TV, and Apple Pay, as well as Apple's health and fitness initiatives.",
+    "last_updated": "2026-09-07"
+  },
+  "national highway traffic safety administration": {
+    "canonical_name": "National Highway Traffic Safety Administration",
+    "entity_type": "organization",
+    "summary": "The National Highway Traffic Safety Administration (NHTSA) is an agency within the U.S. Department of Transportation tasked with reducing deaths, injuries, and property damage from motor vehicle accidents. It develops and implements safety standards, oversees the recall of unsafe vehicles, and inves",
+    "last_updated": "2026-09-07"
+  },
+  "seattle times": {
+    "canonical_name": "Seattle Times",
+    "entity_type": "company",
+    "summary": "The Seattle Times is one of the few independent and locally owned news media organizations in the U.S., having won 11 Pulitzer Prizes and serving as the most-visited digital news source in Washington state. The organization focuses on deep investigative reporting to call for accountability and make",
+    "last_updated": "2026-09-07"
+  },
+  "newsday": {
+    "canonical_name": "Newsday",
+    "entity_type": "company",
+    "summary": "The provided material did not address this.",
+    "last_updated": "2026-09-07"
+  },
+  "21 air": {
+    "canonical_name": "21 Air",
+    "entity_type": "company",
+    "summary": "21 Air, LLC is a United States all-cargo airline certified as a FAR 121 carrier specializing in the transport of property and interstate and foreign air freight. The company features full SMS implementation compliance and has recently seen leadership updates with Keith Winters serving as interim CEO",
+    "last_updated": "2026-09-07"
+  },
+  "boeing 767300": {
+    "canonical_name": "Boeing 767-300",
+    "entity_type": "product",
+    "summary": "The Boeing 767-300 is a medium-to-long range wide-body airliner that has been in service since 1986. It is a stretched version of the B767-200 and was developed to fill the gap between narrow-body single-aisle airliners and larger wide-body aircraft.",
+    "last_updated": "2026-09-07"
+  },
+  "miami international airport": {
+    "canonical_name": "Miami International Airport",
+    "entity_type": "organization",
+    "summary": "Miami International Airport (MIA) is located on 3,230 acres of land near Downtown Miami and offers more flights to Latin America and the Caribbean than any other airport. It is managed by the Miami-Dade Aviation Department (MDAD).",
+    "last_updated": "2026-09-07"
+  },
+  "isar aerospace": {
+    "canonical_name": "Isar Aerospace",
+    "entity_type": "company",
+    "summary": "Isar Aerospace is a European commercial space company focused on building scalable launch capabilities. The company develops launch vehicles alongside a vertically integrated, highly automated manufacturing model. It became the first commercial space company from Europe to successfully deliver satel",
+    "last_updated": "2026-09-07"
+  },
+  "daniel metzler": {
+    "canonical_name": "Daniel Metzler",
+    "entity_type": "person",
+    "summary": "Daniel Metzler is the Co-Founder and CEO of Isar Aerospace, based in Munich, Bavaria. He previously worked as an Advisor to the Director General at the European Space Agency and attended the Technical University of Munich.",
+    "last_updated": "2026-09-07"
+  },
+  "avio": {
+    "canonical_name": "Avio",
+    "entity_type": "company",
+    "summary": "Avio is a leading aerospace company specializing in space propulsion systems, launch vehicles, and aerospace technologies for space and defense missions. Founded in 1912, it employs over 1,500 people across Italy, France, the United States, and French Guiana.",
+    "last_updated": "2026-09-07"
+  },
+  "european space agency": {
+    "canonical_name": "European Space Agency",
+    "entity_type": "organization",
+    "summary": "The European Space Agency is a portal for the latest news in space exploration, human spaceflight, launchers, telecommunications, navigation, and space science. It features active blogs, a brand guide, and a dedicated team committed to ensuring Europe remains at the forefront of the space industry.",
+    "last_updated": "2026-09-07"
+  },
+  "boox": {
+    "canonical_name": "Boox",
+    "entity_type": "company",
+    "summary": "Boox focuses on sustainable shipping solutions within the e-commerce logistics industry. It is an entity with a presence in California, United States, and has in-depth company profiles including funding details, key investors, and leadership.",
+    "last_updated": "2026-09-07"
+  },
+  "picco": {
+    "canonical_name": "Picco",
+    "entity_type": "product",
+    "summary": "Picco is a vaping product that contains nicotine and is an addictive chemical. The product features adjustable airflow, a battery range of 20-35W, and comes with 25ml of e-liquid, available in multiple flavors.",
+    "last_updated": "2026-09-07"
+  },
+  "pokémon world championships": {
+    "canonical_name": "Pokémon World Championships",
+    "entity_type": "event",
+    "summary": "The Pokémon World Championships is the capstone tournament of the Pokémon Championship Series, celebrating all things Pokémon. The 2026 event took place over three days in San Francisco, California, featuring competitions in the Video Game Championships, Trading Card Game, and Pokémon GO.",
+    "last_updated": "2026-09-07"
+  },
+  "switch": {
+    "canonical_name": "Switch",
+    "entity_type": "product",
+    "summary": "The Nintendo Switch is a gaming console that can be played at home or on the go, transforming between a home console and a portable system. It features a 6.2-inch LCD touch screen, HD Rumble, and included Joy-Con controllers that offer total gameplay flexibility.",
+    "last_updated": "2026-09-07"
+  },
+  "pokémon champions": {
+    "canonical_name": "Pokémon Champions",
+    "entity_type": "product",
+    "summary": "Pokémon Champions is a new, battle-focused game that features familiar Pokémon mechanics like types, Abilities, and moves to create varied strategies. It also includes a junior version coming to the Nintendo eShop in Germany and Brazil, along with regular regulation sets.",
+    "last_updated": "2026-09-07"
+  },
+  "the stepback": {
+    "canonical_name": "The Stepback",
+    "entity_type": "product",
+    "summary": "The StepBack App helps teams build stronger culture through recurring, intentional reflection and conversations. Facilitators deploy session content directly to their team, members reflect on their growth, and leaders track engagement — all in one place.",
+    "last_updated": "2026-09-07"
+  },
+  "diy plugin solar": {
+    "canonical_name": "DIY plug-in solar",
+    "entity_type": "product",
+    "summary": "DIY plug-in solar kits offer a convenient way to supplement household power without a full off-grid install. These systems plug directly into a standard wall outlet or utility connection and deliver clean energy for everyday use.",
+    "last_updated": "2026-09-07"
+  },
+  "jakub pachocki": {
+    "canonical_name": "Jakub Pachocki",
+    "entity_type": "person",
+    "summary": "Jakub Pachocki (born 1991) is a Polish computer scientist who serves as the Chief Scientist of OpenAI. With a background in independent learning and a PhD in the US, he is recognized as one of the principal architects driving modern artificial intelligence.",
+    "last_updated": "2026-09-07"
+  },
+  "cachecraft": {
+    "canonical_name": "CacheCraft",
+    "entity_type": "product",
+    "summary": "CacheCraft is a comprehensive repository dedicated to the implementation and study of various caching mechanisms and design patterns. It is a flexible and extensible in-memory cache implementation in Java that supports multiple eviction policies for automatic entry management.",
+    "last_updated": "2026-09-07"
+  },
+  "pillcrew": {
+    "canonical_name": "PillCrew",
+    "entity_type": "organization",
+    "summary": "PillCrew is a free web platform that provides a team of ten specialized AI agents for analyzing Solana memecoins. It offers instant analysis in various styles, from aggressive momentum calls to rigorous risk management, all backed by live market data.",
+    "last_updated": "2026-09-07"
+  },
+  "browseruse": {
+    "canonical_name": "browser-use",
+    "entity_type": "product",
+    "summary": "Browser-Use is an open-source Python framework for building AI agents that can autonomously navigate the web. It offers a Browser Agents API V4 with features like structured JSON Schema output and browser session management, and it is designed to complete tasks with a reported 48–66% reduction in ta",
+    "last_updated": "2026-09-07"
+  },
+  "pytest": {
+    "canonical_name": "pytest",
+    "entity_type": "product",
+    "summary": "pytest is a testing framework that makes it easy to write small, readable tests and scales to support complex functional testing for applications and libraries. It uses plain assert statements and relies on detailed assertion introspection to provide clear feedback.",
+    "last_updated": "2026-09-07"
   }
 }
