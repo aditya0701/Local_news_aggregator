@@ -2669,8 +2669,8 @@
   "mistral": {
     "canonical_name": "Mistral",
     "entity_type": "company",
-    "summary": "Mistral's mission is to make frontier AI open to all, and together solve the world's hardest problems. We partner with organizations in high-stakes industries like finance, manufacturing, defense, energy, and the public sector to co-create tailored AI systems to solve their hardest, most high-value",
-    "last_updated": "2026-07-05"
+    "summary": "December 26, 2025 - Mistral provides cutting-edge product ... our inception in 1997, Mistral has grown to be an eminent system engineering and product design company focused on the embedded domain.... Widely viewed as Europe’s only rival to OpenAI and Anthropic, Mistral develops open-weight AI model",
+    "last_updated": "2026-09-08"
   },
   "oxbshwagentspan": {
     "canonical_name": "oxbshw/Agent-Span",
@@ -4099,9 +4099,9 @@
   },
   "zai": {
     "canonical_name": "Z.ai",
-    "entity_type": "model_release",
-    "summary": "Z.AI (GLM) is a developer-friendly AI service known for its exceptional performance and speed, offering a quick start guide and comprehensive documentation. It provides various features and pricing tiers, including a free flash tier and options for low-cost coding assistants and high-volume prototyp",
-    "last_updated": "2026-07-07"
+    "entity_type": "company",
+    "summary": "Z.ai, also known as Zhipu AI, is a Chinese AI company founded in 2019 that develops foundational AI models and tools for language, voice, and multimedia tasks. It has a valuation of $55 billion and is planning an IPO in 2026.",
+    "last_updated": "2026-09-08"
   },
   "opus": {
     "canonical_name": "Opus",
@@ -14197,5 +14197,101 @@
     "entity_type": "product",
     "summary": "pytest is a testing framework that makes it easy to write small, readable tests and scales to support complex functional testing for applications and libraries. It uses plain assert statements and relies on detailed assertion introspection to provide clear feedback.",
     "last_updated": "2026-09-07"
+  },
+  "samsung electronics": {
+    "canonical_name": "Samsung Electronics",
+    "entity_type": "company",
+    "summary": "Samsung Electronics inspires the world and shapes the future with transformative ideas and technologies. The company is redefining the worlds of TVs, smartphones, wearable devices, tablets ... Forbes does not accept payment for placement on lists. This company paid for expanded information and featu",
+    "last_updated": "2026-09-08"
+  },
+  "scaleup europe fund": {
+    "canonical_name": "Scaleup Europe Fund",
+    "entity_type": "organization",
+    "summary": "The Scaleup Europe Fund is a new, multi-billion late-stage and growth fund aimed at investing in the most promising European companies in strategic tech areas, such as artificial intelligence, quantum technologies, semiconductor technologies, ... The Scaleup Europe Fund is a new, multi-billion late-",
+    "last_updated": "2026-09-08"
+  },
+  "eqt": {
+    "canonical_name": "EQT",
+    "entity_type": "organization",
+    "summary": "EQT Corporation is a premier, vertically integrated American natural gas company with production and midstream operations focused in the Appalachian Basin. 1. EQT's 30+ year experience relates to managing funds for institutional investors across multiple investments strategies. 2. EQT was ranked #2",
+    "last_updated": "2026-09-08"
+  },
+  "psg equity": {
+    "canonical_name": "PSG Equity",
+    "entity_type": "organization",
+    "summary": "... PSG Equity L.L.C.. Psg about hero. A unique approach. PSG invests in growth-stage software businesses and the founders and management teams that drive them. We ... ... PSG Equity L.L.C.. PSG helps software companies navigate and capitalize on transformational growth. PSG helps software companies",
+    "last_updated": "2026-09-08"
+  },
+  "airbus": {
+    "canonical_name": "Airbus",
+    "entity_type": "company",
+    "summary": "July 8, 2026 - Airbus is the largest aeronautics and space company in Europe, providing products, services and solutions for the commercial aircraft, helicopter, defence and space sectors. Drawing on over half a century of aerospace engineering expertise, ... Careers We pioneer sustainable aerospace",
+    "last_updated": "2026-09-08"
+  },
+  "asml": {
+    "canonical_name": "ASML",
+    "entity_type": "company",
+    "summary": "ASML, the world's leading supplier for the semiconductor industry, provides hardware, software and services to chip-makers around the world. Unlocking the potential of semiconductor technology Year founded Total employees (FTEs) Nationalities Locations 2025 annual figures Our culture is grounded in",
+    "last_updated": "2026-09-08"
+  },
+  "hsbc": {
+    "canonical_name": "HSBC",
+    "entity_type": "company",
+    "summary": "Headquartered in London, HSBC is one of the largest banking and financial services organisations in the world. Opening up a world of opportunity Our purpose – Opening up a world of opportunity – explains why we exist. We’re here to use our unique expertise, capabilities, breadth and perspectives to",
+    "last_updated": "2026-09-08"
+  },
+  "glm 53flash": {
+    "canonical_name": "GLM 5.3-flash",
+    "entity_type": "ai_model",
+    "summary": "GLM-5.3-Flash is a natively multimodal AI model in the GLM-5 series, featuring a redesigned hybrid architecture of sparse and linear attention to improve efficiency and long-context capabilities. It is available through the Z.ai API Platform and various local deployment tools.",
+    "last_updated": "2026-09-08"
+  },
+  "dealignai": {
+    "canonical_name": "DeAlignAI",
+    "entity_type": "organization",
+    "summary": "DeAlignAI is an organization that conducts research on AI safety, particularly focusing on constraint response alignment and the evaluation of model behavior on long-context agent workloads.",
+    "last_updated": "2026-09-08"
+  },
+  "project glasswing": {
+    "canonical_name": "Project Glasswing",
+    "entity_type": "organization",
+    "summary": "Project Glasswing is a collaborative initiative to secure the world's most important software by deploying advanced AI models to scan codebases for vulnerabilities, having found over 10,000 critical flaws in early partner deployments.",
+    "last_updated": "2026-09-08"
+  },
+  "daybreak": {
+    "canonical_name": "Daybreak",
+    "entity_type": "organization",
+    "summary": "Daybreak is an initiative by OpenAI focused on cybersecurity, providing AI models to help open-source projects and organizations fend off bugs and vulnerabilities.",
+    "last_updated": "2026-09-08"
+  },
+  "harmbench320": {
+    "canonical_name": "Harmbench-320",
+    "entity_type": "protocol",
+    "summary": "Harmbench-320 is a benchmark protocol that tests whether AI models refuse to complete tasks related to disinformation and other harmful activities.",
+    "last_updated": "2026-09-08"
+  },
+  "albanese government": {
+    "canonical_name": "Albanese Government",
+    "entity_type": "organization",
+    "summary": "The Albanese Government is the current Australian federal administration, which has achieved back-to-back budget surpluses for the first time in nearly two decades. It has also passed landmark environmental law reforms, establishing Australia's first National Environmental Protection Agency.",
+    "last_updated": "2026-09-08"
+  },
+  "digital duty of care": {
+    "canonical_name": "Digital Duty of Care",
+    "entity_type": "regulation",
+    "summary": "The Digital Duty of Care is a proposed regulatory framework introduced by the Australian government. It is part of an expanding regulatory framework, detailed in an issues paper released earlier in 2026.",
+    "last_updated": "2026-09-08"
+  },
+  "esafety": {
+    "canonical_name": "eSafety",
+    "entity_type": "organization",
+    "summary": "eSafety is a platform that delivers scalable safety training solutions for organizations of any size. It provides an intuitive system, a compliant content library, and dedicated account representatives to help manage and complete training.",
+    "last_updated": "2026-09-08"
+  },
+  "terrastruct": {
+    "canonical_name": "Terrastruct",
+    "entity_type": "company",
+    "summary": "Terrastruct is a diagramming tool specialized for software architecture. We're changing the way software is documented. · Report this company · Close menu. Terrastruct develops diagramming software tailored to engineering concepts, addressing the gap left by general-purpose diagram tools that aim to",
+    "last_updated": "2026-09-08"
   }
 }
