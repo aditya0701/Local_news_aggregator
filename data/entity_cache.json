@@ -61,9 +61,9 @@
   },
   "youtube": {
     "canonical_name": "YouTube",
-    "entity_type": "technology",
-    "summary": "Get all-round big picture of a specific technology, programming languages, frameworks, and even SDKs. ...more. Get all-round big picture of a specific YouTube uses Real Time Streaming Protocol (RTSP), which uses a UDP packet. This is much different than the way that Netflix operates using the TCP pr",
-    "last_updated": "2026-07-02"
+    "entity_type": "product",
+    "summary": "YouTube is a video platform that hosts a wide array of content and aims to give everyone a voice by fostering global communities through stories. The platform focuses on user privacy and, since 2024, has been labeling content when creators disclose the use of generative AI tools.",
+    "last_updated": "2026-09-09"
   },
   "dailymotion": {
     "canonical_name": "Dailymotion",
@@ -368,8 +368,8 @@
   "claude": {
     "canonical_name": "Claude",
     "entity_type": "ai_model",
-    "summary": "What is Anthropic’s Claude model? Anthropic’s Claude is a large language model (LLM) designed to perform tasks like text generation, analysis, and problem-solving. Developed by the AI research company Anthropic, Claude is built to prioritize safety, accuracy, and usability. For example, if asked to",
-    "last_updated": "2026-07-02"
+    "summary": "Claude is a family of state-of-the-art large language models developed by Anthropic. The models support text and image input, text output, multilingual capabilities, vision, and tool use, with Claude Opus 5 recommended for most workloads.",
+    "last_updated": "2026-09-09"
   },
   "chatgpt": {
     "canonical_name": "ChatGPT",
@@ -601,9 +601,9 @@
   },
   "claude code": {
     "canonical_name": "Claude Code",
-    "entity_type": "ai_model",
-    "summary": "# Understanding How Claude Code Works: A Deep Dive into LLM-Powered Developer Tools. If you're a developer exploring AI coding assistants, you might have encountered Claude Code and wondered how it actually works under the hood. What's the relationship between the command-line tool you install and t",
-    "last_updated": "2026-07-02"
+    "entity_type": "product",
+    "summary": "Claude Code is an agentic coding tool from Anthropic designed for developers to work with directly in their codebase. It can understand the codebase, edit files, run commands, and assist users in building, debugging, and shipping from their terminal, IDE, Slack, and web.",
+    "last_updated": "2026-09-09"
   },
   "devops": {
     "canonical_name": "DevOps",
@@ -659,8 +659,8 @@
   "python": {
     "canonical_name": "Python",
     "entity_type": "technology",
-    "summary": "# Python®. ### the language of today and tomorrow. Python is the gift that keeps on giving. The more you understand Python, the more you can do in the 21st Century. Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It’s used everywhere –",
-    "last_updated": "2026-07-02"
+    "summary": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It is highly attractive for Rapid Application Development and serves as a scripting or glue language to connect existing components due to its high-level built-in data structures, dynamic typing, and d",
+    "last_updated": "2026-09-09"
   },
   "opencv": {
     "canonical_name": "OpenCV",
@@ -869,8 +869,8 @@
   "anthropic": {
     "canonical_name": "Anthropic",
     "entity_type": "company",
-    "summary": "Overview:\nWe're an AI research company that builds reliable, interpretable, and steerable AI systems. Our first product is Claude, an AI assistant for tasks at any scale. Our research interests span multiple areas including natural language, human feedback, scaling laws, reinforcement learning, code",
-    "last_updated": "2026-07-03"
+    "summary": "Anthropic is an AI safety and research company dedicated to building reliable, interpretable, and steerable AI systems. The company conducts frontier research, applies safety techniques, and deploys systems through partnerships and products.",
+    "last_updated": "2026-09-09"
   },
   "scientific research": {
     "canonical_name": "Scientific research",
@@ -2118,13 +2118,10 @@
     ]
   },
   "qdrant": {
-    "senses": [
-      {
-        "sense_label": "Qdrant is another cloud-based vector database service. Like Pinecone, it's mentioned as an alternative to LocalMind's local approach.",
-        "summary": "* Understanding Vector Search in Qdrant. * Relevance Feedback Retrieval in Qdrant. * Build a Semantic Search API. * Build a Hybrid Search API. Whether you’re getting started with Qdrant Open-Source or Cloud, this brief primer will help you with understanding an overview of the platform. **It’s highl",
-        "last_updated": "2026-07-03"
-      }
-    ]
+    "canonical_name": "Qdrant",
+    "entity_type": "product",
+    "summary": "Qdrant is a platform for vector search that supports hybrid retrieval using both dense and sparse vectors. It utilizes a client-server architecture and is available in both open-source and cloud versions.",
+    "last_updated": "2026-09-09"
   },
   "weaviate": {
     "senses": [
@@ -2320,9 +2317,9 @@
   },
   "codex": {
     "canonical_name": "Codex",
-    "entity_type": "technology",
-    "summary": "Codex Technology is presented as a service that helps E-Commerce and service-based brands scale using AI automation, paid ads, SEO, and design. The company focuses on data-driven digital marketing strategies to increase brand awareness and conversions, driven by principles of quality and innovation.",
-    "last_updated": "2026-07-05"
+    "entity_type": "ai_model",
+    "summary": "Codex is a code-specialized AI model originally introduced by OpenAI as a descendant of GPT-3. It was the foundation for tools like GitHub Copilot and is designed to act as an agentic partner that can help developers build complete features, fix bugs, and write tests.",
+    "last_updated": "2026-09-09"
   },
   "ui interaction bug": {
     "canonical_name": "UI interaction bug",
@@ -2782,9 +2779,9 @@
   },
   "cloudflare": {
     "canonical_name": "Cloudflare",
-    "entity_type": "organization",
-    "summary": "Cloudflare's global cloud platform provides network services to businesses, making them more secure while enhancing the performance and reliability of their Internet properties. The company aims to build a better Internet by delivering Zero Trust security, simplifying unified SSE or SASE, and provid",
-    "last_updated": "2026-07-05"
+    "entity_type": "company",
+    "summary": "Cloudflare, Inc. is a leading connectivity cloud company that empowers organizations to make their employees, applications, and networks faster and more secure while reducing complexity and cost. It delivers a unified platform of cloud-native products and developer tools powered by one of the world'",
+    "last_updated": "2026-09-09"
   },
   "claudemegabrain": {
     "senses": [
@@ -3178,9 +3175,9 @@
   },
   "white house": {
     "canonical_name": "White House",
-    "entity_type": "general",
-    "summary": "The White House was a prime target for China during the Great War, where it was leveled and completely destroyed by bombs, leaving a radioactive crater. The building was also the 'White House of the Confederacy,' where Jefferson Davis resided between 1861 and 1865, and it is depicted in historical p",
-    "last_updated": "2026-07-06"
+    "entity_type": "organization",
+    "summary": "The White House is the official residence and workplace of the President and First Family of the United States, operating as both a home and a living museum of American history. It also includes grounds and facilities such as Camp David, the Naval Support Facility T.",
+    "last_updated": "2026-09-09"
   },
   "odistar": {
     "canonical_name": "Odistar",
@@ -3434,8 +3431,8 @@
   "nasa": {
     "canonical_name": "NASA",
     "entity_type": "organization",
-    "summary": "NASA is America's civil space program and the global leader in space exploration. The agency's organization comprises a workforce of thousands of civil servants, and works with many more U.S. contractors, academia, and international and commercial partners to explore, discover, and expand knowledge",
-    "last_updated": "2026-07-06"
+    "summary": "The National Aeronautics and Space Administration is America's civil space program and the global leader in space exploration. The agency works with thousands of civil servants, as well as U.S. contractors, academia, and international and commercial partners to explore, discover, and expand knowledg",
+    "last_updated": "2026-09-09"
   },
   "swift observatory": {
     "canonical_name": "Swift Observatory",
@@ -3733,9 +3730,9 @@
   },
   "gpt56 sol": {
     "canonical_name": "GPT-5.6 Sol",
-    "entity_type": "product",
-    "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack. It is the flagship model in the GPT-5.6 series, which also includes the balanced Terra and the affordable Luna models.",
-    "last_updated": "2026-07-06"
+    "entity_type": "ai_model",
+    "summary": "GPT-5.6 is OpenAI's newest model family, released on July 9, 2026, featuring three tiers: Sol (the flagship), Terra (a balanced everyday model), and Luna (the fastest and cheapest). Sol powers ChatGPT's reasoning modes on paid plans, and all three models are available on the API.",
+    "last_updated": "2026-09-09"
   },
   "terra": {
     "canonical_name": "Terra",
@@ -3811,9 +3808,9 @@
   },
   "google deepmind": {
     "canonical_name": "Google DeepMind",
-    "entity_type": "general",
-    "summary": "Google DeepMind is a research organization focused on building AI responsibly to benefit humanity. It develops next-generation AI systems, including the Gemini Image model and advanced audio models, and serves as a collaborative AI research partner for scientific discovery.",
-    "last_updated": "2026-07-06"
+    "entity_type": "organization",
+    "summary": "Google DeepMind is an artificial intelligence research laboratory created through the merger of Google AI's Google Brain division and the tech start-up DeepMind. As a subsidiary of Alphabet, it is headquartered in London and operates internationally.",
+    "last_updated": "2026-09-09"
   },
   "uk government": {
     "canonical_name": "UK government",
@@ -4178,8 +4175,8 @@
   "samsung": {
     "canonical_name": "Samsung",
     "entity_type": "company",
-    "summary": "Samsung Electronics is a global technology company that operates in various sectors including consumer electronics, IT & mobile communications, and device solutions. The company is known for its work in TVs, smartphones, wearable devices, tablets, digital appliances, network systems, and memory, sys",
-    "last_updated": "2026-07-07"
+    "summary": "Samsung operates across multiple business areas, including consumer electronics, IT & mobile communications, and device solutions.",
+    "last_updated": "2026-09-09"
   },
   "micron": {
     "canonical_name": "Micron",
@@ -4201,9 +4198,9 @@
   },
   "apple": {
     "canonical_name": "Apple",
-    "entity_type": "organization",
-    "summary": "Apple is a technology company that designs and manufactures a range of products including iPhones, iPads, Apple Watch, Macs, and Apple TV, along with accessories and entertainment. The company is known for its innovative products, such as the M5 chip, and offers services like Active Noise Cancellati",
-    "last_updated": "2026-07-07"
+    "entity_type": "company",
+    "summary": "Apple Inc. is an American multinational technology company that revolutionized the technology sector through its innovation of computer software, personal computers, mobile tablets, smartphones, and computer peripherals. Apple Inc. is a leading American technology company known for its innovative co",
+    "last_updated": "2026-09-09"
   },
   "vercel": {
     "canonical_name": "Vercel",
@@ -5102,8 +5099,8 @@
   "sony": {
     "canonical_name": "Sony",
     "entity_type": "company",
-    "summary": "Sony is a major Japanese manufacturer of consumer electronics with diverse activities including films, music, and financial services. Its U.S. headquarters, Sony Corporation of America, is located in New York, and its principal U.S. businesses include Sony Electronics, Sony Interactive Entertainment",
-    "last_updated": "2026-07-09"
+    "summary": "Sony is a major Japanese manufacturer of consumer electronics products whose diverse activities have included films, music, and financial services. The company engages in the development, design, manufacture, and sale of electronic equipment, instruments, devices, game consoles, and software for con",
+    "last_updated": "2026-09-09"
   },
   "rx10 v": {
     "canonical_name": "RX10 V",
@@ -5293,9 +5290,9 @@
   },
   "spacex": {
     "canonical_name": "SpaceX",
-    "entity_type": "organization",
-    "summary": "SpaceX is an American aerospace manufacturer and space transport services company founded in 2002 by Elon Musk. It designs, manufactures, and launches advanced rockets and spacecraft, with operations from multiple pads on the US East Coast.",
-    "last_updated": "2026-07-10"
+    "entity_type": "company",
+    "summary": "SpaceX is an American aerospace company founded in 2002 that designs, manufactures, and launches advanced rockets and spacecraft. The company's ultimate goal is to revolutionize space technology and enable people to live on other planets.",
+    "last_updated": "2026-09-09"
   },
   "tesla": {
     "canonical_name": "Tesla",
@@ -7490,8 +7487,8 @@
   "atomico": {
     "canonical_name": "Atomico",
     "entity_type": "organization",
-    "summary": "Atomico is an international investment firm that invests in innovative technology companies around the world. It is built by founders for founders and focuses on helping disruptive technology companies scale globally.",
-    "last_updated": "2026-07-16"
+    "summary": "Atomico is an international investment firm that focuses on helping disruptive technology companies scale globally. The organization manages over $5 billion in assets under management and has backed more than 130 portfolio companies since its inception.",
+    "last_updated": "2026-09-09"
   },
   "general catalyst": {
     "canonical_name": "General Catalyst",
@@ -7754,8 +7751,8 @@
   "mit": {
     "canonical_name": "MIT",
     "entity_type": "organization",
-    "summary": "MIT's vital research and education in areas like human health, energy, and quantum computing advance national security, economic competitiveness, and quality of life. The organization also contributes to AI safety by developing methods to test generative AI models for producing illegal content.",
-    "last_updated": "2026-07-16"
+    "summary": "MIT's leadership and organization includes the Senior Leadership, Academic Council, and officers of the MIT Corporation. The Institute's senior academic and administrative officers and the Academic Council, which confers on matters of academic policy, guide the institution. The MIT Corporation offic",
+    "last_updated": "2026-09-09"
   },
   "zer0fit": {
     "canonical_name": "Zer0Fit",
@@ -14293,5 +14290,407 @@
     "entity_type": "company",
     "summary": "Terrastruct is a diagramming tool specialized for software architecture. We're changing the way software is documented. · Report this company · Close menu. Terrastruct develops diagramming software tailored to engineering concepts, addressing the gap left by general-purpose diagram tools that aim to",
     "last_updated": "2026-09-08"
+  },
+  "tristan buckmaster": {
+    "canonical_name": "Tristan Buckmaster",
+    "entity_type": "person",
+    "summary": "Tristan Buckmaster is a Professor of Mathematics at the Courant Institute of Mathematical Sciences at New York University. His research includes applying convex-integration to weak solutions of fluid equations and resulted in a joint 2019 Clay Research Award with Vlad Vicol and Philip Isett for non-",
+    "last_updated": "2026-09-09"
+  },
+  "levent alpöge": {
+    "canonical_name": "Levent Alpöge",
+    "entity_type": "person",
+    "summary": "Levent Alpöge is an old school mathematician who worked as a junior fellow at Harvard's Society of Fellows and is associated with Anthropic. His early work included introducing the CUDA language to a medical computer vision problem and attempting to create a Paul Krugman op-ed generator.",
+    "last_updated": "2026-09-09"
+  },
+  "navierstokes": {
+    "canonical_name": "Navier-Stokes",
+    "entity_type": "technology",
+    "summary": "The Navier-Stokes equations use Newton's second law of motion to describe how fluids move by treating a fluid as a continuous medium. They are one of the Millennium Prize Problems, and a recent OpenAI system produced a proof showing that the dynamics of these equations can develop a singularity in f",
+    "last_updated": "2026-09-09"
+  },
+  "x corp": {
+    "canonical_name": "X Corp.",
+    "entity_type": "company",
+    "summary": "X Corp. (X), formerly Twitter Inc and a subsidiary of X Holdings I Inc, is a social networking platform for people to create and share ideas. The company, through the platform, provides public self-expression and conversation. Twitter's promoted products include promoted ads that allow advertisers t",
+    "last_updated": "2026-09-09"
+  },
+  "project bluebird": {
+    "canonical_name": "Project Bluebird",
+    "entity_type": "product",
+    "summary": "Material did not address this",
+    "last_updated": "2026-09-09"
+  },
+  "twitter inc": {
+    "canonical_name": "Twitter, Inc.",
+    "entity_type": "company",
+    "summary": "Twitter, Inc. provides online social networking and microblogging services. The Company offers users the ability to follow other users' activity, read, and post tweets. Twitter, Inc. is a global platform for public self-expression and conversation in real time. It provides a network that connects us",
+    "last_updated": "2026-09-09"
+  },
+  "lee holloway": {
+    "canonical_name": "Lee Holloway",
+    "entity_type": "person",
+    "summary": "Lee Holloway was a co-founder and lead engineer at Cloudflare who built key technologies like Anycast and same-IP access. Due to a serious brain disease (FTD), he was forced to step away from his roles.",
+    "last_updated": "2026-09-09"
+  },
+  "anycast": {
+    "canonical_name": "Anycast",
+    "entity_type": "technology",
+    "summary": "Anycast is an IP network addressing scheme that allows multiple servers to share the same IP address. It provides multiple routing paths to a group of endpoints, enabling better network performance and resilience.",
+    "last_updated": "2026-09-09"
+  },
+  "matthew prince": {
+    "canonical_name": "Matthew Prince",
+    "entity_type": "person",
+    "summary": "Matthew Prince is the CEO and Co-Founder of Cloudflare, a company he founded after previously working at Unspam Technologies. He is based in San Francisco and has served as Chief Executive Officer and Chair of the Board of Directors.",
+    "last_updated": "2026-09-09"
+  },
+  "clay mathematics institute": {
+    "canonical_name": "Clay Mathematics Institute",
+    "entity_type": "organization",
+    "summary": "The Clay Mathematics Institute is a global organisation dedicated to furthering the beauty, power and universality of mathematical thought. The institute organizes research conferences and invites proposals under its Enhancement and Partnership Program to support financially viable mathematical acti",
+    "last_updated": "2026-09-09"
+  },
+  "sébastien bubeck": {
+    "canonical_name": "Sébastien Bubeck",
+    "entity_type": "person",
+    "summary": "Sébastien Bubeck is a researcher who has held various positions at Microsoft Research and OpenAI. His career includes roles as a Researcher in the Theory Group at Microsoft Research, a Senior Researcher in the Theory and Machine Learning and Optimization groups, a Senior Principal Research Manager,",
+    "last_updated": "2026-09-09"
+  },
+  "vaire computing": {
+    "canonical_name": "Vaire Computing",
+    "entity_type": "startup",
+    "summary": "Vaire Computing is a semiconductor startup founded in 2021 by Rodolfo Rosini, based in London, United Kingdom. It develops near-zero energy chips based on reversible computing to enable high-performance computing with drastically reduced energy consumption.",
+    "last_updated": "2026-09-09"
+  },
+  "hannah earley": {
+    "canonical_name": "Hannah Earley",
+    "entity_type": "person",
+    "summary": "Hannah Earley is the chief technical officer and co-founder of Vaire Computing. She studied reversible computing during her PhD in applied mathematics and theoretical physics at the University of Cambridge.",
+    "last_updated": "2026-09-09"
+  },
+  "igor markov": {
+    "canonical_name": "Igor Markov",
+    "entity_type": "researcher",
+    "summary": "Igor Markov is a Distinguished Research Scientist at NVIDIA and an IEEE Fellow. He previously worked at the University of California, Los Angeles and focuses on the design and optimization of integrated circuits for semiconductor chips.",
+    "last_updated": "2026-09-09"
+  },
+  "yuancheng ryan lu": {
+    "canonical_name": "Yuancheng (Ryan) Lu",
+    "entity_type": "person",
+    "summary": "Yuancheng (Ryan) Lu has an educational background from Harvard University and professional experience at the Massachusetts Institute of Technology. He is based in Cambridge and has over 500 LinkedIn connections. His research interests include partial reprogramming for aging reversal and tissue regen",
+    "last_updated": "2026-09-09"
+  },
+  "whitehead institute": {
+    "canonical_name": "Whitehead Institute",
+    "entity_type": "organization",
+    "summary": "Whitehead Institute is a world-renowned non-profit research institution dedicated to improving human health through basic biomedical research. The organization is known for its significant contributions to molecular and cellular biology, including research on how cells communicate to assemble into t",
+    "last_updated": "2026-09-09"
+  },
+  "harvard medical school": {
+    "canonical_name": "Harvard Medical School",
+    "entity_type": "organization",
+    "summary": "Harvard Medical School is an institution that has been committed to advancing science, educating future leaders, and improving health around the world for over two centuries. It boasts a large and broad community and aims to improve health and well-being through excellence in teaching, learning, dis",
+    "last_updated": "2026-09-09"
+  },
+  "life biosciences": {
+    "canonical_name": "Life Biosciences",
+    "entity_type": "company",
+    "summary": "Life Biosciences is a biotechnology company that pioneers cellular rejuvenation using epigenetic restoration to reverse diseases of aging. The company's approach targets the epigenetic restoration of cells to a younger, healthier state, aiming to address chronic diseases that are majorly influenced",
+    "last_updated": "2026-09-09"
+  },
+  "david sinclair": {
+    "canonical_name": "David Sinclair",
+    "entity_type": "person",
+    "summary": "David A. Sinclair is a tenured Professor in the Department of Genetics at the Paul F. Glenn Center for Biology of Aging Research at Harvard Medical School. He is best known for his work on understanding the aging process and how to slow its effects, having obtained his Ph.D. in Molecular Genetics fr",
+    "last_updated": "2026-09-09"
+  },
+  "fusionality": {
+    "canonical_name": "Fusionality",
+    "entity_type": "company",
+    "summary": "Fusionality is an operations technology company for the fusion industry based in Lausanne, Switzerland. They work alongside fusion teams to deliver integrated control, diagnostics, data, and simulation capabilities to help operate their devices with confidence.",
+    "last_updated": "2026-09-09"
+  },
+  "federico felici": {
+    "canonical_name": "Federico Felici",
+    "entity_type": "person",
+    "summary": "Federico Felici holds an MSc degree in Systems & Control from TU Delft and a PhD from the Swiss Plasma Center at EPFL. His research focuses on controlling fusion plasmas using physics-based modelling, and he is currently affiliated with Google DeepMind.",
+    "last_updated": "2026-09-09"
+  },
+  "jonas buchli": {
+    "canonical_name": "Jonas Buchli",
+    "entity_type": "person",
+    "summary": "Jonas Buchli is affiliated with DeepMind in the United Kingdom. Their research primarily spans Computer Science and Artificial Intelligence, with a significant focus on Reinforcement Learning, and they have published 156 papers between 2002 and 2025.",
+    "last_updated": "2026-09-09"
+  },
+  "founderful": {
+    "canonical_name": "Founderful",
+    "entity_type": "organization",
+    "summary": "Founderful is a venture capital firm based in Switzerland founded by former founders. They lead as the first investor in a company's first financing round, offering companionship, support, and understanding to help founders start, scale, and sell market-leading companies.",
+    "last_updated": "2026-09-09"
+  },
+  "playfair": {
+    "canonical_name": "Playfair",
+    "entity_type": "organization",
+    "summary": "Playfair is a team-building experience designed to help new students make campus friendships and increase class retention during orientation. It is described as an interactive program that helps students bond with each other and the campus environment.",
+    "last_updated": "2026-09-09"
+  },
+  "kyoto fusioneering": {
+    "canonical_name": "Kyoto Fusioneering",
+    "entity_type": "company",
+    "summary": "Kyoto Fusioneering is a Japanese deep-tech company specializing in fusion energy plant engineering. They develop and deliver critical technologies like gyrotron systems, blanket technologies, and thermal and fuel cycle systems to research institutions and companies worldwide.",
+    "last_updated": "2026-09-09"
+  },
+  "cloudnc": {
+    "canonical_name": "CloudNC",
+    "entity_type": "company",
+    "summary": "CloudNC develops and applies advanced software to reinvent precision manufacturing for everyone. The company's CAM Assist tool aims to streamline operations across manufacturing teams by helping them remove bottlenecks, shorten lead times, and increase productivity.",
+    "last_updated": "2026-09-09"
+  },
+  "chris emery": {
+    "canonical_name": "Chris Emery",
+    "entity_type": "person",
+    "summary": "Christopher Beauregard Emery (born August 1, 1957) is an American author and former government official. He served as a White House Usher during the Reagan, George H. W. Bush, and Clinton administrations, and later held roles as chief information officer of the DOJ National Security Division and Arc",
+    "last_updated": "2026-09-09"
+  },
+  "cam assist": {
+    "canonical_name": "CAM Assist",
+    "entity_type": "product",
+    "summary": "CAM Assist is a software tool that integrates with CAM packages to generate machining strategies and toolpaths using AI. It is designed to help users spend less time on repetitive CAM tasks, estimate new parts faster, and handle both 3-axis and 3+2 axis machining.",
+    "last_updated": "2026-09-09"
+  },
+  "autodesk fusion": {
+    "canonical_name": "Autodesk Fusion",
+    "entity_type": "product",
+    "summary": "Autodesk Fusion is an all-in-one cloud-based software platform for design, engineering, electronics, and manufacturing. It integrates 3D CAD, CAM, CAE, and PCB tools to streamline workflows from concept to manufacturing.",
+    "last_updated": "2026-09-09"
+  },
+  "mastercam": {
+    "canonical_name": "Mastercam",
+    "entity_type": "product",
+    "summary": "Mastercam offers industry-leading CAD/CAM solutions for CNC programming needs. The software is built for precision and efficiency, featuring major advancements in motion quality, automation, and setup workflows.",
+    "last_updated": "2026-09-09"
+  },
+  "build the wall": {
+    "canonical_name": "Build the Wall",
+    "entity_type": "product",
+    "summary": "Download the Official White House App • Real-Time News • Live Updates • A Direct Line to the Administration → 7 minutes ago · The White House game, called “Build the Wall,” was launched last week alongside a series of other games as part of the latest push by the Trump Administration to promote its",
+    "last_updated": "2026-09-09"
+  },
+  "stoke space": {
+    "canonical_name": "Stoke Space",
+    "entity_type": "company",
+    "summary": "Stoke Space Technologies is an American aerospace and defense company founded around 2019 or 2020 that develops fully reusable rockets. Headquartered in Kent, Washington, the company aims to provide sustainable, scalable, and low-cost access to space.",
+    "last_updated": "2026-09-09"
+  },
+  "hélène huby": {
+    "canonical_name": "Hélène Huby",
+    "entity_type": "person",
+    "summary": "Hélène Huby is a leading French aerospace entrepreneur and executive known for being the co-founder and CEO of The Exploration Company. Her career includes senior roles at established giants like Airbus and ArianeGroup before transitioning into the disruptive NewSpace startup space.",
+    "last_updated": "2026-09-09"
+  },
+  "tim cook": {
+    "canonical_name": "Tim Cook",
+    "entity_type": "person",
+    "summary": "Tim Cook is the executive chair of Apple's board and a director since 2011. He joined Apple in 1998 and served as the company's CEO from 2011 to 2026, during which time Apple was named the World’s Most Admired Company by Fortune annually.",
+    "last_updated": "2026-09-09"
+  },
+  "airpods": {
+    "canonical_name": "AirPods",
+    "entity_type": "product",
+    "summary": "AirPods deliver an unparalleled wireless headphone experience featuring high-quality sound, magical setup, and intelligent features such as Adaptive Audio, Transparency mode, and Personalized Spatial Audio. The latest AirPods Pro 3 model includes the world's best in-ear Active Noise Cancellation, ex",
+    "last_updated": "2026-09-09"
+  },
+  "iphone 18 pro": {
+    "canonical_name": "iPhone 18 Pro",
+    "entity_type": "product",
+    "summary": "The iPhone 18 Pro is a high-end smartphone model planned for release in September 2026, featuring Apple's first 2-nanometer chip, potential Dynamic Island size reduction, longer battery life, and a major rear camera update. It is available in 6.3-inch and 6.9-inch sizes, alongside the new foldable i",
+    "last_updated": "2026-09-09"
+  },
+  "playstation": {
+    "canonical_name": "PlayStation",
+    "entity_type": "product",
+    "summary": "PlayStation is a line of game consoles and gaming accessories, including the PlayStation 5 Pro, which offers impressive visuals for gaming. The platform also supports related software, such as open-world RPGs, sports games like NBA 2K27, and various other titles available on multiple devices.",
+    "last_updated": "2026-09-09"
+  },
+  "also": {
+    "canonical_name": "Also",
+    "entity_type": "company",
+    "summary": "Also is a company focused on cutting-edge technology and forward-thinking business models, having transformed from a transactional box mover into a leading technology provider over the past 15 years. The company emphasizes confidentiality and is committed to enforcing its principles of conduct while",
+    "last_updated": "2026-09-09"
+  },
+  "tmb": {
+    "canonical_name": "TM-B",
+    "entity_type": "product",
+    "summary": "The TM-B is a product introduced by ALSO, also referred to as the Electro-Voice EVOLVE-TM-B Evolve Truss Mount, Black. It is categorized under Electro-Voice by Bosch, Pro AV, Commercial Audio, and Pro Accessories & Mounts, and is available for purchase through various product platforms.",
+    "last_updated": "2026-09-09"
+  },
+  "saul leiken": {
+    "canonical_name": "Saul Leiken",
+    "entity_type": "person",
+    "summary": "Saul Leiken is a 10+ year veteran of the sustainable transportation industry and a lifelong advocate for increasing bicycle usage. He previously led Specialized's Turbo business nationwide from 2017-2022 and held global category leadership of Specialized's Globe collection before joining Also Inc, w",
+    "last_updated": "2026-09-09"
+  },
+  "razer": {
+    "canonical_name": "Razer",
+    "entity_type": "company",
+    "summary": "Razer™ is the world’s leading lifestyle brand for gamers. Discover more about our history, accolades, leaders, sustainability, and careers. Razer™ is the world’s leading lifestyle brand made For Gamers. By Gamers. The triple-headed snake trademark of Razer is one of the most recognized logos in the",
+    "last_updated": "2026-09-09"
+  },
+  "blackshark v3 pro": {
+    "canonical_name": "BlackShark V3 Pro",
+    "entity_type": "product",
+    "summary": "Nov 24, 2025 · The esports headset trusted by pros evolves. The Razer BlackShark V3 Pro is our most advanced wireless ANC esports headset, built to keep you ahead with industry-leading ultra-low latency wireless technology that delivers audio as fast as 10 ms, plus a Full Band mic for pro-grade clar",
+    "last_updated": "2026-09-09"
+  },
+  "woot": {
+    "canonical_name": "Woot",
+    "entity_type": "company",
+    "summary": "Who the Heck is Woot? Woot's the original daily deals site, founded in 2004 and snatched up by Amazon in 2010. Originally, Woot offered just one product per day until we sold out. Today, we offer special daily deals and other limited-time offers across seven categories. Why the heck would I shop on",
+    "last_updated": "2026-09-09"
+  },
+  "blackshark v2 pro": {
+    "canonical_name": "BlackShark V2 Pro",
+    "entity_type": "product",
+    "summary": "The new Razer BlackShark V2 Pro comes with a next-generation super wideband mic for unrivalled vocal clarity, on-board audio profiles for competitive FPS titles, updates to Type C charging, and over triple the battery life at 70 hours. It is designed to be the ultimate wireless headset with mic for",
+    "last_updated": "2026-09-09"
+  },
+  "2xko": {
+    "canonical_name": "2XKO",
+    "entity_type": "product",
+    "summary": "Aug 21, 2026 · 2XKO is a 2v2 tag-team fighting game by Riot Games, featuring champions and stages from the Runeterra universe. Play online with each person controlling one character on your team, or play solo and control both. 2XKO is a 2v2 tag-team fighting game by Riot Games , featuring champions",
+    "last_updated": "2026-09-09"
+  },
+  "sketch": {
+    "canonical_name": "Sketch",
+    "entity_type": "product feature",
+    "summary": "Sketch is a macOS-native design tool tailored for product designers and small-to-mid teams creating UI/UX for web and mobile. It offers optional web-based collaboration and straightforward developer handoff, alongside recent updates that improve stacks and expand effects support.",
+    "last_updated": "2026-09-09"
+  },
+  "grand theft auto vi": {
+    "canonical_name": "Grand Theft Auto VI",
+    "entity_type": "product",
+    "summary": "Grand Theft Auto VI is a video game available on digital download platforms. The digital download codes for the game vary depending on the platform and country of purchase, and it is recommended to buy and play from a retailer in the country of your platform account to avoid activation issues.",
+    "last_updated": "2026-09-09"
+  },
+  "ocarina of time": {
+    "canonical_name": "Ocarina of Time",
+    "entity_type": "product",
+    "summary": "Ocarina of Time is a classic adventure game originally debuted on the Nintendo 64 system and rebuilt from the ground up for the Nintendo Switch 2. This version features completely overhauled visuals, voiced cutscenes, expanded dialogue, symphonic orchestral music, reworked camera and movement contro",
+    "last_updated": "2026-09-09"
+  },
+  "tesla supercharger": {
+    "canonical_name": "Tesla Supercharger",
+    "entity_type": "product",
+    "summary": "The Tesla Supercharger is a combined network of proprietary charging stations developed and implemented by Tesla. It allows drivers to stay charged anywhere they want to go by plugging into the rapidly expanding network along their route.",
+    "last_updated": "2026-09-09"
+  },
+  "international space station": {
+    "canonical_name": "International Space Station",
+    "entity_type": "organization",
+    "summary": "The International Space Station is a convergence of science, technology, and human innovation that demonstrates new technologies and makes research breakthroughs not possible on Earth. Assembly began in November 1998, involving five international space agencies and over a dozen countries.",
+    "last_updated": "2026-09-09"
+  },
+  "anson mount": {
+    "canonical_name": "Anson Mount",
+    "entity_type": "person",
+    "summary": "Anson Mount is an American actor born in Mount Prospect, Illinois, and raised in White Bluff, Tennessee. He is known for his role as Christopher Pike in Star Trek: Strange New Worlds and is the son of former professional golfer Nancy Smith and former Playboy editor Anson Adams Mount II.",
+    "last_updated": "2026-09-09"
+  },
+  "star trek strange new worlds": {
+    "canonical_name": "Star Trek: Strange New Worlds",
+    "entity_type": "product",
+    "summary": "Star Trek: Strange New Worlds is an eleventh overall Star Trek spin-off series and the first direct spin-off of Star Trek: Discovery, announced on May 15, 2020. The series follows Captain Christopher Pike's command of the U.S.S. Enterprise and was created by Akiva Goldsman, Alex Kurtzman, and Jenny",
+    "last_updated": "2026-09-09"
+  },
+  "engineering quantum systems group": {
+    "canonical_name": "Engineering Quantum Systems Group",
+    "entity_type": "organization",
+    "summary": "The Engineering Quantum Systems Group is a team of physicists and engineers that works to understand, design, manufacture, and control coherent quantum systems. These systems comprise superconducting artificial atoms, known as qubits, for applications in quantum information science and technology.",
+    "last_updated": "2026-09-09"
+  },
+  "generative ai": {
+    "canonical_name": "Generative AI",
+    "entity_type": "technology",
+    "summary": "Generative AI is a form of artificial intelligence that creates original content like text, images, video, audio, or software code in response to a user's prompt or request. It relies on deep learning models that simulate the human brain's learning and decision-making processes by identifying patter",
+    "last_updated": "2026-09-09"
+  },
+  "1password": {
+    "canonical_name": "1Password",
+    "entity_type": "company",
+    "summary": "1Password is a security company that provides trusted access for people and AI agents. It is led by seasoned security and technology executives and is focused on making security and privacy simple to unlock productivity for individuals and organizations.",
+    "last_updated": "2026-09-09"
+  },
+  "nancy wang": {
+    "canonical_name": "Nancy Wang",
+    "entity_type": "person",
+    "summary": "Nancy Wang is the Chief Marketing Officer at 1Password and a partner at ICONIQ. She previously served as the Executive Director of Voters Not Politicians, where she led a team of volunteers and worked with national experts to write the constitutional amendment language.",
+    "last_updated": "2026-09-09"
+  },
+  "alphagenome atlas": {
+    "canonical_name": "AlphaGenome Atlas",
+    "entity_type": "product",
+    "summary": "AlphaGenome Atlas is a comprehensive catalogue predicting the molecular effects and AVI scores for 9 billion single-nucleotide variants across the human genome. It is available for academic research through an intuitive and free-to-use website portal.",
+    "last_updated": "2026-09-09"
+  },
+  "alphamissense": {
+    "canonical_name": "AlphaMissense",
+    "entity_type": "ai_model",
+    "summary": "AlphaMissense is a neural network model that evaluates the impact of single amino acid substitutions, or missense variants, on protein function. It is derived from the AlphaFold architecture and has been specifically optimized for the variant effect prediction task.",
+    "last_updated": "2026-09-09"
+  },
+  "neohorse1": {
+    "canonical_name": "NeoHorse-1",
+    "entity_type": "ai_model",
+    "summary": "NeoHorse-1 is a family of agent-native models developed to explore recursive self-improvement (RSI) through agentic post-training. The system combines a heterogeneous model pool with intelligent routing to observe capabilities and convert evidence into subsequent learning rounds.",
+    "last_updated": "2026-09-09"
+  },
+  "qwen35": {
+    "canonical_name": "Qwen3.5",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.5 is a generation of small dense models released by Alibaba, ranging from 0.8B to 9B parameters. It represents a step change in small model intelligence over Qwen3, with the 9B model being the most intelligent under 10B parameters and the 4B model the most intelligent under 5B parameters.",
+    "last_updated": "2026-09-09"
+  },
+  "tokenrhythm": {
+    "canonical_name": "TokenRhythm",
+    "entity_type": "organization",
+    "summary": "TokenRhythm is an AI infrastructure startup founded in April 2026 by Wang Yunhe and Han Kai. It specializes in bespoke AI agent creation, algorithm R&D, and security compliance solutions, building a routing harness layer between foundation models and applications via the TokenRhythm API.",
+    "last_updated": "2026-09-09"
+  },
+  "okfmemory": {
+    "canonical_name": "okf-memory",
+    "entity_type": "product",
+    "summary": "OKF Agent Memory is an open standard published by Google Cloud that standardizes a persistent memory layer for AI agents. It features sub-300µs BM25 search, CLI tooling, an embedded Model Context Protocol (MCP) server, and is built in pure Go with zero runtime dependencies. It aims to provide transp",
+    "last_updated": "2026-09-09"
+  },
+  "memorymint": {
+    "canonical_name": "MemoryMint",
+    "entity_type": "product",
+    "summary": "MemoryMint is a service that creates refined digital keepsakes from personal photographs, including pet portraits, memorial artwork, photo restoration, and family legacy posters. It delivers these items digitally and ensures that no family history is invented, using only the details provided by the",
+    "last_updated": "2026-09-09"
+  },
+  "faiss": {
+    "canonical_name": "FAISS",
+    "entity_type": "product",
+    "summary": "Faiss (Facebook AI Similarity Search) is a library that allows developers to quickly search for embeddings of multimedia documents that are similar to each other. It solves limitations of traditional query search engines that are optimized for hash-based searches, and provides more scalable similari",
+    "last_updated": "2026-09-09"
+  },
+  "fastapi": {
+    "canonical_name": "FastAPI",
+    "entity_type": "product",
+    "summary": "FastAPI is a modern, high-performance web framework for building APIs with Python based on standard Python type hints. It is designed to be easy to learn, fast to code, and ready for production.",
+    "last_updated": "2026-09-09"
+  },
+  "pypi": {
+    "canonical_name": "PyPI",
+    "entity_type": "product",
+    "summary": "The Python Package Index (PyPI) is a repository of software for the Python programming language. It helps users find and install software developed and shared by the Python community, and it serves as the distribution platform for package authors.",
+    "last_updated": "2026-09-09"
+  },
+  "floodlab": {
+    "canonical_name": "Flood-Lab",
+    "entity_type": "organization",
+    "summary": "Flood Lab is a climate-tech startup founded in 2023 in Gandhinagar, India. It provides comprehensive flood safety solutions, including digital tools like the Digital Flood Library and Flood Bell, to tackle flood risks for individuals, industries, property owners, and dam operators. Backed by the IC",
+    "last_updated": "2026-09-09"
   }
 }
