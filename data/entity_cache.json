@@ -136,9 +136,9 @@
   },
   "github": {
     "canonical_name": "GitHub",
-    "entity_type": "organization",
-    "summary": "Organization profiles can now display custom content visible only to members of the organization. How can we better bring internal resources to their attention at a glance?” Now you can, with an organization README where you can share relevant and important information only to members of your organi",
-    "last_updated": "2026-07-02"
+    "entity_type": "product",
+    "summary": "GitHub is a platform where people build software, used by over 150 million people to discover, fork, and contribute to over 420 million projects. It provides tools for seamless collaboration and allows users to access their work on-the-go through GitHub Desktop and GitHub Mobile.",
+    "last_updated": "2026-09-10"
   },
   "package managers": {
     "senses": [
@@ -5086,9 +5086,9 @@
   },
   "esp32s3": {
     "canonical_name": "ESP32-S3",
-    "entity_type": "technology",
-    "summary": "ESP32-S3 is a dual-core XTensa LX7 MCU capable of running at 240 MHz. It features 512 KB of internal SRAM, integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) connectivity, and 45 programmable GPIOs. The platform supports a rich set of peripherals and is known for its AI acceleration and reliable security",
-    "last_updated": "2026-07-09"
+    "entity_type": "product",
+    "summary": "The ESP32-S3 is a highly-integrated system on a chip powered by 40 nm technology that features Wi-Fi, Bluetooth 5 (LE), dual high-performance Xtensa 32-bit LX7 CPU cores, and an ultra-low power coprocessor. It also includes multiple peripherals, built-in security hardware, a USB OTG interface, and a",
+    "last_updated": "2026-09-10"
   },
   "crowd supply": {
     "canonical_name": "Crowd Supply",
@@ -5948,8 +5948,8 @@
   "anker": {
     "canonical_name": "Anker",
     "entity_type": "company",
-    "summary": "Anker is a company that offers a wide range of charging and power solutions, including chargers, batteries, hubs, docks, and portable power stations. They have been pioneering charging technology for 14 years and serve over 200 million customers globally.",
-    "last_updated": "2026-07-11"
+    "summary": "Anker Innovations is a multinational team of tech experts focused on charging technology and smart devices for entertainment, travel, and smart homes. The company is led by four key brands and is recognized as the global leader in charging technology.",
+    "last_updated": "2026-09-10"
   },
   "trump mobile": {
     "senses": [
@@ -12841,9 +12841,9 @@
   },
   "origin": {
     "canonical_name": "Origin",
-    "entity_type": "product",
-    "summary": "Origin is a data analysis and graphing tool used by over a million registered users in corporations, universities, and government labs. It provides a point-and-click interface for importing, graphing, exploring, and analyzing data, with tools for batch operations and workflow optimization.",
-    "last_updated": "2026-07-26"
+    "entity_type": "company",
+    "summary": "Origin Energy Limited is an integrated energy company that engages in the electricity retailing, fossil fuel electricity generation, and natural gas supply. Blue Origin, a separate entity, envisions a future where millions of people will live and work in space.",
+    "last_updated": "2026-09-10"
   },
   "hummingbird": {
     "canonical_name": "hummingbird",
@@ -14692,5 +14692,89 @@
     "entity_type": "organization",
     "summary": "Flood Lab is a climate-tech startup founded in 2023 in Gandhinagar, India. It provides comprehensive flood safety solutions, including digital tools like the Digital Flood Library and Flood Bell, to tackle flood risks for individuals, industries, property owners, and dam operators. Backed by the IC",
     "last_updated": "2026-09-09"
+  },
+  "esp32 bit pirate": {
+    "canonical_name": "ESP32 Bit Pirate",
+    "entity_type": "product",
+    "summary": "ESP32 Bit Pirate is a firmware project that turns an ESP32-S3 into a scriptable multi-protocol workbench supporting over twenty modes, including I2C, SPI, UART, JTAG, SWD, CAN, and 1-Wire. It provides a web and serial command-line interface, dump and sniff tooling, and supports multiple voltage leve",
+    "last_updated": "2026-09-10"
+  },
+  "tailwind": {
+    "canonical_name": "Tailwind",
+    "entity_type": "product",
+    "summary": "Tailwind is a CSS framework that allows developers to build beautiful product pages with information such as pricing, images, and customization options. It is often integrated with ecosystems like Flowbite, which provides a component library, and Pagedone, which offers product overview sections for",
+    "last_updated": "2026-09-10"
+  },
+  "shopify": {
+    "canonical_name": "Shopify",
+    "entity_type": "company",
+    "summary": "Shopify, Inc. is a global commerce company that provides essential internet infrastructure for commerce, offering trusted tools to start, scale, market, and run a retail business of any size. The company provides an all-in-one platform that facilitates starting, running, and growing a business throu",
+    "last_updated": "2026-09-10"
+  },
+  "jared palmer": {
+    "canonical_name": "Jared Palmer",
+    "entity_type": "person",
+    "summary": "Jared Palmer is the VP of Engineering at Cognition, the applied AI lab behind Devin, where he is focused on building the future of software engineering with AI. Previously, he held executive roles at Xbox, GitHub, and Vercel, where he created the AI coding agent v0.app and the AI SDK for TypeScript.",
+    "last_updated": "2026-09-10"
+  },
+  "plastic scm": {
+    "canonical_name": "Plastic SCM",
+    "entity_type": "product",
+    "summary": "Plastic SCM is a distributed version control system that can also operate in a centralized mode. It is designed to handle large projects and big binary assets natively, featuring native GUIs, branching, and merge tools to simplify workflows for developers and creatives.",
+    "last_updated": "2026-09-10"
+  },
+  "linus torvalds": {
+    "canonical_name": "Linus Torvalds",
+    "entity_type": "person",
+    "summary": "Linus Torvalds is a Finnish computer scientist who was the principal force behind the development of the Linux operating system and has served as the original Linux kernel developer since 1991. He is a Fellow at the Linux Foundation and holds an affiliation with the University of Helsinki.",
+    "last_updated": "2026-09-10"
+  },
+  "activision": {
+    "canonical_name": "Activision",
+    "entity_type": "company",
+    "summary": "Founded in 1979, Activision is the leading worldwide developer, publisher, and distributor of interactive entertainment and products on consoles, mobile, and PC. Its workforce includes employees across Activision, Blizzard Entertainment, and King Digital Entertainment.",
+    "last_updated": "2026-09-10"
+  },
+  "diversion": {
+    "canonical_name": "Diversion",
+    "entity_type": "company",
+    "summary": "Diversion is a modern, cloud-native alternative to Perforce built for the scale of today's game and creative productions. It supports parallel, asset-heavy workflows with fast branching and real-time collaboration, offering flexible cloud or on-premise deployment models for studios working with engi",
+    "last_updated": "2026-09-10"
+  },
+  "sourceforge": {
+    "canonical_name": "SourceForge",
+    "entity_type": "product",
+    "summary": "SourceForge is a complete business software and services comparison platform where buyers find, compare, and review business software and IT services. It also acts as a main hub of information for product pages, showcasing a product's value proposition to reach millions of software and IT buyers.",
+    "last_updated": "2026-09-10"
+  },
+  "deepseekv41flash": {
+    "canonical_name": "DeepSeek-V4.1-Flash",
+    "entity_type": "ai_model",
+    "summary": "DeepSeek-V4.1-Flash is a large language model that utilizes a combined FP4 main KV caching design (E2M1 format with one E4M3 scale per 16 channels) to reduce the global KV cache footprint to 890 bytes per token. It incorporates several architectural components, including Single-Pass mHC, Engram cond",
+    "last_updated": "2026-09-10"
+  },
+  "danijar hafner": {
+    "canonical_name": "Danijar Hafner",
+    "entity_type": "person",
+    "summary": "Danijar Hafner is a Staff Research Scientist at Google DeepMind. He received his PhD at the University of Toronto and his research aims at building generally intelligent machines that understand and interact with the world.",
+    "last_updated": "2026-09-10"
+  },
+  "benchmark mineral intelligence": {
+    "canonical_name": "Benchmark Mineral Intelligence",
+    "entity_type": "organization",
+    "summary": "Benchmark Mineral Intelligence provides market-leading prices, forecasts, and supply chain data, backed by the world's largest analyst team dedicated to new energy supply chains. The organization offers holistic and integrated coverage of energy transition supply chains, from raw materials through d",
+    "last_updated": "2026-09-10"
+  },
+  "solar energy industries association": {
+    "canonical_name": "Solar Energy Industries Association",
+    "entity_type": "organization",
+    "summary": "The Solar Energy Industries Association (SEIA®) leads the transformation to a clean energy economy, working with its member companies to advocate for policies that create jobs and promote fair market rules. The organization fosters a diverse and inclusive company culture, driven by passionate employ",
+    "last_updated": "2026-09-10"
+  },
+  "smartphone": {
+    "canonical_name": "smartphone",
+    "entity_type": "product",
+    "summary": "DXOMARK’s database of product reviews allows you to browse tested smartphones, based on your preferred criteria (segment, brand, launch price, launch date). Each review provides a comprehensive overview of the device, with pros & cons, scores & rankings, as well as specifications and related videos.",
+    "last_updated": "2026-09-10"
   }
 }
