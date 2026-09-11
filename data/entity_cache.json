@@ -373,15 +373,15 @@
   },
   "chatgpt": {
     "canonical_name": "ChatGPT",
-    "entity_type": "ai_model",
-    "summary": "For articles published under an open access Creative Common CC BY license, any part of the article may be reused without permission provided that the original article is clearly cited. Feature papers represent the most advanced research with significant potential for high impact in the field. A Feat",
-    "last_updated": "2026-07-02"
+    "entity_type": "product",
+    "summary": "ChatGPT is a popular AI assistant that helps users get answers, simplify daily tasks, generate creative ideas, and receive professional input. It offers features such as language learning, text summarization, image creation, and file uploads, and is available as a free-to-start service.",
+    "last_updated": "2026-09-11"
   },
   "gemini": {
     "canonical_name": "Gemini",
     "entity_type": "ai_model",
-    "summary": "# Google Gemini Explained: Overview of Gemini AI Models. *Since its launch in December 2023, Google Gemini has evolved from a single AI model into a comprehensive ecosystem that is deeply integrated into Android, Workspace and Chrome, and, since early 2026, into Apple’s iOS and Siri as well. With th",
-    "last_updated": "2026-07-02"
+    "summary": "Gemini is Google's AI assistant accessible via a terminal-based open source agent, offering capabilities for bug fixing, feature creation, and test coverage improvement. It is also integrated into the Gemini Enterprise Agent Platform, which allows technical teams to build and scale agentic systems f",
+    "last_updated": "2026-09-11"
   },
   "california": {
     "canonical_name": "California",
@@ -2105,8 +2105,8 @@
   "rust": {
     "canonical_name": "Rust",
     "entity_type": "technology",
-    "summary": "Rust Tutorial #1 - Introduction To Rust Programming\nTech With Tim\n2040000 subscribers\n11415 likes\n602637 views\n9 May 2022\nWelcome to a brand new series on my channel! I'm super excited about this series because I am going to be covering the Rust programming language! Rust is a great programming lang",
-    "last_updated": "2026-07-03"
+    "summary": "Rust is a programming language that has become popular for writing critical systems, with projects like Discord, Dropbox, and Cloudflare using it. It was created by Graydon Hoare in 2006 after he encountered a software crash in his apartment elevator, seeking to solve reliability issues that had lon",
+    "last_updated": "2026-09-11"
   },
   "pinecone": {
     "senses": [
@@ -2490,10 +2490,10 @@
     "last_updated": "2026-07-05"
   },
   "apple silicon": {
-    "canonical_name": "Apple Silicon",
+    "canonical_name": "Apple silicon",
     "entity_type": "technology",
-    "summary": "Material did not address this.",
-    "last_updated": "2026-07-05"
+    "summary": "Apple silicon refers to the transition Apple made starting in late 2020, moving from Intel processors to custom Apple silicon chips in Mac computers. Various Mac models, including MacBook Pro, MacBook Air, iMac, Mac mini, Mac Studio, and Mac Pro, utilize these custom chips.",
+    "last_updated": "2026-09-11"
   },
   "hic mouse": {
     "canonical_name": "HIC Mouse",
@@ -2696,8 +2696,8 @@
   "cursor": {
     "canonical_name": "Cursor",
     "entity_type": "product",
-    "summary": "Cursor is a tool that plans, writes, and reviews code using AI agents that understand the entire codebase. It is available across multiple platforms, including Desktop, CLI, Web, and Mobile, and features a grid view of open windows for quick selection. The project is developed by a group of research",
-    "last_updated": "2026-07-05"
+    "summary": "Cursor is an AI-powered tool that plans, writes, and reviews code using AI agents capable of understanding an entire codebase across desktop, CLI, web, and mobile platforms. It includes features like a grid view for managing multiple open windows, which allows users to quickly select and bring any w",
+    "last_updated": "2026-09-11"
   },
   "system prompt": {
     "canonical_name": "system prompt",
@@ -3265,9 +3265,9 @@
   },
   "disney": {
     "canonical_name": "Disney",
-    "entity_type": "ban_regulation",
-    "summary": "The material does not contain a usable answer for a ban_regulation overview of Disney. It mentions a tour guide being banned from Disneyland and rumors about mandatory tipping on rides, but does not provide an overview of Disney's regulatory issues.",
-    "last_updated": "2026-07-06"
+    "entity_type": "company",
+    "summary": "The Walt Disney Company is a diversified international family entertainment and media enterprise. It operates through three core business segments: Disney Entertainment, ESPN, and Disney Experiences.",
+    "last_updated": "2026-09-11"
   },
   "universal": {
     "canonical_name": "Universal",
@@ -3508,9 +3508,9 @@
   },
   "trump administration": {
     "canonical_name": "Trump administration",
-    "entity_type": "ban_regulation",
-    "summary": "The Trump administration is going ahead with plans to ban two popular Chinese social media apps. The administration has also given 36 countries, most of them in Africa, a Wednesday deadline to commit to improving vetting or face a ban on their citizens visiting the United States.",
-    "last_updated": "2026-07-06"
+    "entity_type": "organization",
+    "summary": "The Trump administration is led by President Donald J. Trump and includes Vice President JD Vance and First Lady Melania Trump. The administration aims to build on previous successes by rejecting the policies of the radical left and providing tangible quality-of-life improvements for the American pe",
+    "last_updated": "2026-09-11"
   },
   "ronald koopman": {
     "canonical_name": "Ronald Koopman",
@@ -3629,8 +3629,8 @@
   "slackbot": {
     "canonical_name": "Slackbot",
     "entity_type": "product",
-    "summary": "A Slack bot is an automated software application that lives inside a Slack workspace, listening for events and responding with actions. It can create reminders using natural language, powered by Large Language Models (LLMs) to understand intent and learn from interactions, or operate with simple IF-",
-    "last_updated": "2026-07-06"
+    "summary": "Slackbot is an AI teammate that connects to various business tools via MCP and allows users to build custom skills to automate recurring work. It leverages a team's existing conversations, decisions, and data to search Slack history, connected apps, and the web to deliver rich, comprehensive answers",
+    "last_updated": "2026-09-11"
   },
   "agentic ai": {
     "canonical_name": "agentic AI",
@@ -3742,9 +3742,9 @@
   },
   "luna": {
     "canonical_name": "Luna",
-    "entity_type": "product",
-    "summary": "Luna.ai is an all-in-one B2B AI outbound sales platform that provides quality leads from a database of over 265 million verified contacts. It is also described as a brand-new all-in-one AI-powered Twitter automation app that leverages X (Twitter) to grow followers and drive traffic.",
-    "last_updated": "2026-07-06"
+    "entity_type": "ai_model",
+    "summary": "Luna AI is an open-source AI model developed by Luna OpenLabs for text classification tasks. Leveraging the BERT architecture, the model is designed to classify text into predefined categories efficiently and accurately.",
+    "last_updated": "2026-09-11"
   },
   "cyber executive order": {
     "canonical_name": "cyber Executive Order",
@@ -4192,9 +4192,9 @@
   },
   "oracle": {
     "canonical_name": "Oracle",
-    "entity_type": "organization",
-    "summary": "For more than four decades, Oracle has delivered innovations that have helped build entire industries. The company provides solutions for organizations of all sizes and industries, offering financial information, executive team details, and information on its efforts in education and sustainability.",
-    "last_updated": "2026-07-07"
+    "entity_type": "company",
+    "summary": "Oracle is pleased to provide information about our company, customers, partners, events, communities, press, analysts, investors, and careers. For more than four decades, we’ve delivered innovations that have helped build entire industries. The following facts and figures highlight some of the many",
+    "last_updated": "2026-09-11"
   },
   "apple": {
     "canonical_name": "Apple",
@@ -4870,15 +4870,15 @@
   },
   "abc": {
     "canonical_name": "ABC",
-    "entity_type": "company",
-    "summary": "ABC (American Broadcasting Company) is a commercial broadcast television network that offers news, TV series, game shows, and sports. ABC Studios is a key content provider for the ABC Entertainment Group, producing hits like 'Grey's Anatomy' and 'The Good Doctor'.",
-    "last_updated": "2026-07-08"
+    "entity_type": "organization",
+    "summary": "ABC Studios is a leader in the development, production, and strategic distribution of entertainment content, serving as the key content provider for the ABC Entertainment Group. The ABC Television Network features popular series, reality shows, talk shows, and awards shows.",
+    "last_updated": "2026-09-11"
   },
   "the view": {
     "canonical_name": "The View",
     "entity_type": "product",
-    "summary": "The View is a collection of stylish merchandise like tees, blankets, and mugs offered through shopping links on TheView.tv. The e-commerce sites are operated under different terms and privacy policies, and The View may receive a commission for purchases made through these links.",
-    "last_updated": "2026-07-08"
+    "summary": "The View offers 3D renderings, floor plans, virtual tours, and interactive site maps for new construction projects, integrating with platforms like community websites and Apartments.com. It also features a merchandise collection of apparel and drinkware for fans of the daytime TV talk show.",
+    "last_updated": "2026-09-11"
   },
   "brendan carr": {
     "canonical_name": "Brendan Carr",
@@ -5315,8 +5315,8 @@
   "chatgpt work": {
     "canonical_name": "ChatGPT Work",
     "entity_type": "product",
-    "summary": "ChatGPT Work, powered by GPT-5.6, is a tool designed to help teams accomplish ambitious work by connecting tools, automating tasks, and keeping projects moving. It gathers context from team tools to turn scattered notes and ideas into finished work, such as polished spreadsheets, documents, and slid",
-    "last_updated": "2026-07-10"
+    "summary": "ChatGPT Work is a product powered by GPT-6 that brings together a team’s context to tackle complex work, such as weighing tradeoffs and creating polished presentations, reports, and analyses. It is available on macOS and Windows desktop for all plans, and on web and mobile for Plus, Pro, Business, E",
+    "last_updated": "2026-09-11"
   },
   "anker soundcore boom 2": {
     "canonical_name": "Anker Soundcore Boom 2",
@@ -7780,9 +7780,9 @@
   },
   "open webui": {
     "canonical_name": "Open WebUI",
-    "entity_type": "model_release",
-    "summary": "Open WebUI can now connect to Open WebUI Computer through its OpenAI-compatible gateway, letting chats run full agent sessions on your own machine with file, terminal, git, and web access. The project provides a release list and is available on GitHub, though the material contains multiple loading e",
-    "last_updated": "2026-07-16"
+    "entity_type": "product",
+    "summary": "Open WebUI is a self-hosted AI platform that is extensible, feature-rich, user-friendly, and built to run entirely offline. It provides a provider-agnostic interface for both local and cloud-based models by supporting Ollama and OpenAI-compatible APIs.",
+    "last_updated": "2026-09-11"
   },
   "linux": {
     "canonical_name": "Linux",
@@ -7811,8 +7811,8 @@
   "kimi k3": {
     "canonical_name": "Kimi K3",
     "entity_type": "ai_model",
-    "summary": "Kimi K3 is an AI model built on Kimi Delta Attention (KDA) and has a 1M-token context window. It is noted as the world's first open-source model in the 3-trillion-parameter category and scores 57 on the Artificial Analysis Intelligence Index.",
-    "last_updated": "2026-07-17"
+    "summary": "Kimi K3 is an open-weight, native multimodal model developed by Moonshot AI with 2.8 trillion total parameters, built on Kimi Delta Attention and Attention Residuals. It features native vision capabilities and a context window of up to 1 million tokens, designed for long-horizon coding, knowledge wo",
+    "last_updated": "2026-09-11"
   },
   "kimi delta attention": {
     "canonical_name": "Kimi Delta Attention",
@@ -11258,8 +11258,8 @@
   "swift": {
     "canonical_name": "Swift",
     "entity_type": "technology",
-    "summary": "Swift is a powerful and intuitive programming language for all Apple platforms, including iOS, iPadOS, macOS, tvOS, and watchOS. It features a concise-yet-expressive syntax, modern features, and is designed to be safe by default, producing software that runs quickly.",
-    "last_updated": "2026-07-23"
+    "summary": "Get a quick, high-level overview of Swift. In just five minutes, you'll learn what Swift is, how it operates, and why it's crucial in the global financial ecosystem. Oct 14, 2025 · Founded in 1973 as a faster and more reliable alternative to the telex system, SWIFT now connects more than 11,000 fina",
+    "last_updated": "2026-09-11"
   },
   "mseries macbook": {
     "canonical_name": "M-series MacBook",
@@ -12278,8 +12278,8 @@
   "devin": {
     "canonical_name": "Devin",
     "entity_type": "product",
-    "summary": "Devin is Cognition's autonomous AI software engineer that can inspect a codebase, plan work, edit files, run commands and tests, and open pull requests. It operates within a cloud development environment and offers a web app, a PWA workspace, and a terminal interface, with integrations for teams and",
-    "last_updated": "2026-07-25"
+    "summary": "Devin is an AI coding agent from Cognition that autonomously executes assigned tasks in its own isolated environment, making it useful for well-scoped coding work. It operates as a GitHub-native, human-approved tool that can auto-close tickets and integrates with Jira, serving as an alternative for",
+    "last_updated": "2026-09-11"
   },
   "marvin von hagen": {
     "canonical_name": "Marvin von Hagen",
@@ -12482,8 +12482,8 @@
   "roku": {
     "canonical_name": "Roku",
     "entity_type": "company",
-    "summary": "Roku is an American publicly traded company based in San Jose, California, that manufactures a variety of digital media players for video streaming. It pioneered streaming to the TV and operates the #1 streaming platform in the US.",
-    "last_updated": "2026-07-25"
+    "summary": "Roku is an American company that provides a streaming platform connecting the global TV ecosystem through digital media players, smart TVs, and streaming services. It generates revenue through its Platform and Devices segments and is used by millions of consumers across North America, Latin America,",
+    "last_updated": "2026-09-11"
   },
   "the desk": {
     "canonical_name": "The Desk",
@@ -14776,5 +14776,533 @@
     "entity_type": "product",
     "summary": "DXOMARK’s database of product reviews allows you to browse tested smartphones, based on your preferred criteria (segment, brand, launch price, launch date). Each review provides a comprehensive overview of the device, with pros & cons, scores & rankings, as well as specifications and related videos.",
     "last_updated": "2026-09-10"
+  },
+  "react native": {
+    "canonical_name": "React Native",
+    "entity_type": "technology",
+    "summary": "It provides a core set of platform agnostic native components like View, Text, and Image that map directly to the platform's native UI building blocks. React Native brings the React programming paradigm to platforms like Android and iOS. It doesn’t prescribe how to do routing, or how to access each",
+    "last_updated": "2026-09-11"
+  },
+  "conviva": {
+    "canonical_name": "Conviva",
+    "entity_type": "company",
+    "summary": "Conviva is a Quality of Experience platform for AI agents and streaming that provides real-time analytics to reveal what customers experience. The company offers the Conviva Digital Intelligence Platform, which delivers consumer-perspective analytics for apps, web, and AI agents.",
+    "last_updated": "2026-09-11"
+  },
+  "mmap": {
+    "canonical_name": "mmap",
+    "entity_type": "technology",
+    "summary": "mmap is a system call in Linux/UNIX that initializes file mapping contents using specified length bytes starting at an offset in a file. The offset must be a multiple of the system's page size, and the file descriptor can be closed immediately after the mmap call returns without invalidating the map",
+    "last_updated": "2026-09-11"
+  },
+  "io_uring": {
+    "canonical_name": "io_uring",
+    "entity_type": "technology",
+    "summary": "io_uring is a new asynchronous I/O API for Linux created by Jens Axboe from Facebook. It aims to provide an API without the limitations of current system calls like select, poll, epoll, or aio, and can be configured in kernel polled mode to issue I/O without ever context switching into the kernel.",
+    "last_updated": "2026-09-11"
+  },
+  "datafusion": {
+    "canonical_name": "DataFusion",
+    "entity_type": "product",
+    "summary": "DataFusion provides business intelligence, data integration, and AI analytics services to various sectors. The company offers services including developing Microsoft Power BI dashboards, creating data architecture, and implementing ETL pipelines, and was founded in 2020 in Jerusalem, Israel.",
+    "last_updated": "2026-09-11"
+  },
+  "arrow": {
+    "canonical_name": "Arrow",
+    "entity_type": "product",
+    "summary": "Arrow and eInfochips are helping young entrepreneurs in India improve water quality and public health with a smart IoT sensor package enhanced by AI. The company emphasizes listening to customer needs and quickly understanding deliverables and timelines.",
+    "last_updated": "2026-09-11"
+  },
+  "rayon": {
+    "canonical_name": "Rayon",
+    "entity_type": "technology",
+    "summary": "Rayon Technology Solutions is an avionics expert group specializing in end-to-end safety-critical software development and verification meeting stringent RTCA-DO178B/ED12B standards. Founded in 2009 and based in Bangalore, India, the company employs 0-10 people and is not publicly traded.",
+    "last_updated": "2026-09-11"
+  },
+  "tokio": {
+    "canonical_name": "Tokio",
+    "entity_type": "technology",
+    "summary": "Tokio is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.",
+    "last_updated": "2026-09-11"
+  },
+  "nvme": {
+    "canonical_name": "NVMe",
+    "entity_type": "technology",
+    "summary": "NVMe (Non-Volatile Memory Express) is a protocol for flash storage systems and solid-state drives that enables highly parallel data transfer with reduced system overhead per I/O operation. It delivers faster response times than traditional hard disk drives due to changes in the device driver that al",
+    "last_updated": "2026-09-11"
+  },
+  "arrow ipc": {
+    "canonical_name": "Arrow IPC",
+    "entity_type": "product",
+    "summary": "Arrow IPC is a format for reading and writing Arrow data that is predominantly zero-copy but may allocate memory in some cases, such as when compression is enabled. It supports options for reading messages with specific memory pool configurations, alignment requirements, and schema field selection.",
+    "last_updated": "2026-09-11"
+  },
+  "gemini spark 1": {
+    "canonical_name": "Gemini Spark 1",
+    "entity_type": "ai_model",
+    "summary": "Gemini Spark is Google's 24/7 AI agent designed for tasks that require follow-up, such as monitoring Gmail, Calendar, Drive, Docs, and the web. Users can assign it a job, grant the necessary app permissions, and it will continue working in the background to execute tasks.",
+    "last_updated": "2026-09-11"
+  },
+  "nano banana": {
+    "canonical_name": "Nano Banana",
+    "entity_type": "ai_model",
+    "summary": "Nano Banana is an AI image generator and photo editor that allows users to create high-quality images and transform photos into new creations. It enables users to change the vibe, style, and focus of an image, as well as apply textures and colors from reference photos to their subjects.",
+    "last_updated": "2026-09-11"
+  },
+  "gemini omni 1": {
+    "canonical_name": "Gemini Omni 1",
+    "entity_type": "ai_model",
+    "summary": "Gemini Omni is a multimodal model capable of creating and editing AI videos from text, images, video, or audio inputs. It offers features such as reference-driven generation, shot control, and continuity to produce high-quality motion visuals.",
+    "last_updated": "2026-09-11"
+  },
+  "erin pettigrew": {
+    "canonical_name": "Erin Pettigrew",
+    "entity_type": "person",
+    "summary": "Erin Pettigrew is an Assistant Professor of History and Arab Crossroads Studies at NYU Abu Dhabi. Her research and teaching focus on bridging geographic and historical spaces, particularly through the history of Islam in West Africa and the Sahara.",
+    "last_updated": "2026-09-11"
+  },
+  "chad": {
+    "canonical_name": "Chad",
+    "entity_type": "product",
+    "summary": "Chad is an entity focused on accelerating the pace of innovation for humanity through the design and development of radical new working methods. It also aims to help people live in a way that adapts to the volatile, uncertain, complex, and ambiguous world we currently live in.",
+    "last_updated": "2026-09-11"
+  },
+  "qwen 38 27b": {
+    "canonical_name": "Qwen 3.8 27B",
+    "entity_type": "ai_model",
+    "summary": "Qwen 3.8 27B is an AI model that was integrated with a viral DeepSeek tool in a test involving a DGX Spark box, where it produced impressive results that exceeded expectations.",
+    "last_updated": "2026-09-11"
+  },
+  "llamabench": {
+    "canonical_name": "llama-bench",
+    "entity_type": "product",
+    "summary": "llama-bench is a standalone benchmarking tool that uses its own intentionally smaller set of options defined separately in its source code. It is used to evaluate the performance of llama.cpp on different hardware platforms such as Nvidia CUDA and AMD ROCm.",
+    "last_updated": "2026-09-11"
+  },
+  "frontiercode 11": {
+    "canonical_name": "FrontierCode 1.1",
+    "entity_type": "product",
+    "summary": "FrontierCode 1.1 is a refined evaluation metric designed to measure both code correctness and code quality, replacing the previous Diamond subset with Main and Extended subsets. The updated methodology aims to provide more consistent and reproducible results for assessing coding performance.",
+    "last_updated": "2026-09-11"
+  },
+  "deepswe 11": {
+    "canonical_name": "DeepSWE 1.1",
+    "entity_type": "product",
+    "summary": "DeepSWE 1.1 is an evaluation framework designed to measure frontier coding agents on original, long-horizon software engineering tasks. It updates the execution and grading process by evaluating committed code in a clean, isolated environment to improve reproducibility and auditability, while also f",
+    "last_updated": "2026-09-11"
+  },
+  "eli regalado": {
+    "canonical_name": "Eli Regalado",
+    "entity_type": "person",
+    "summary": "Eli Regalado is a Christian pastor based in Denver, Colorado, and the founder and Chief of Madness for Mad Hatter Agency, a company that launches tech products and has crowdfunded over $400,000 in the last 12 months. He and his wife created, controlled, and operated Kingdom Wealth Exchange (KWE), an",
+    "last_updated": "2026-09-11"
+  },
+  "kaitlyn": {
+    "canonical_name": "Kaitlyn",
+    "entity_type": "person",
+    "summary": "Kaitlyn Person is an individual with experience at the Johnny Morris Foundation in the 65616 location. The available material also contains information about actress Kaitlyn Rochelle Dever, but does not provide a usable overview of Kaitlyn Person.",
+    "last_updated": "2026-09-11"
+  },
+  "reflective": {
+    "canonical_name": "Reflective",
+    "entity_type": "organization",
+    "summary": "Reflective is not a specific organization in the provided material; rather, the text discusses reflective practice from an organizational perspective and the concept of reflective leadership in business.",
+    "last_updated": "2026-09-11"
+  },
+  "ashburn": {
+    "canonical_name": "Ashburn",
+    "entity_type": "location",
+    "summary": "Aug 14, 2026 · Ashburn is a city located in the Pike County of Virginia, United States. It lies between 39.0438 Degrees North latitudes and 77.4874 Degrees West longitudes. Discover Ashburn, Virginia with our interactive map showing streets, neighborhoods, and attractions. Explore one of Loudoun Cou",
+    "last_updated": "2026-09-11"
+  },
+  "chinese batteries": {
+    "canonical_name": "Chinese batteries",
+    "entity_type": "product",
+    "summary": "Chinese batteries are central to the global battery industry, transforming energy storage solutions across electric vehicles and renewable energy systems. Companies like CATL and BYD dominate the global market, holding 36.8% and 17.1% of the market share, respectively.",
+    "last_updated": "2026-09-11"
+  },
+  "inflation reduction act": {
+    "canonical_name": "Inflation Reduction Act",
+    "entity_type": "regulation",
+    "summary": "The Inflation Reduction Act makes historic investments in climate action expected to reduce U.S. emissions by approximately 40% by 2030. It also supports disadvantaged communities and the clean energy industrial base.",
+    "last_updated": "2026-09-11"
+  },
+  "healthcare": {
+    "canonical_name": "healthcare",
+    "entity_type": "organization",
+    "summary": "A healthcare organization (HO) is the foundational structure that delivers services to individuals and populations within the health system. These entities are established to provide diagnostic, therapeutic, preventative, or rehabilitative services to maintain or restore health.",
+    "last_updated": "2026-09-11"
+  },
+  "thrive capital": {
+    "canonical_name": "Thrive Capital",
+    "entity_type": "company",
+    "summary": "Thrive Capital is a venture capital company founded in 2009 that builds and invests in internet, software, and technology-enabled companies. The firm employs 100 people and focuses on developing a portfolio of innovative technology businesses.",
+    "last_updated": "2026-09-11"
+  },
+  "thrive eternal": {
+    "canonical_name": "Thrive Eternal",
+    "entity_type": "product",
+    "summary": "Thrive Eternal is built on the belief that enduring assets share characteristics of long-term stewardship, cultural resonance, and enhancement by technology. It is presented as an informational resource that does not constitute investment advice or an offer to sell securities.",
+    "last_updated": "2026-09-11"
+  },
+  "dc united": {
+    "canonical_name": "D.C. United",
+    "entity_type": "organization",
+    "summary": "D.C. United is a soccer organization that offers youth programs for players of various ages and ability levels, ranging from beginners to advanced youth soccer players. The team also hosts events like Military Appreciation Night and plays matches at venues such as M&T Bank Stadium.",
+    "last_updated": "2026-09-11"
+  },
+  "bob iger": {
+    "canonical_name": "Bob Iger",
+    "entity_type": "person",
+    "summary": "Robert Alan Iger is the former Chairman and CEO of The Walt Disney Company, where he served for nearly two decades before returning as CEO in 2022. He currently acts as a Senior Advisor and serves on Disney’s Board of Directors, guiding the company through strategic transformation.",
+    "last_updated": "2026-09-11"
+  },
+  "vinod khosla": {
+    "canonical_name": "Vinod Khosla",
+    "entity_type": "person",
+    "summary": "Vinod Khosla is an entrepreneur, investor, and technologist who founded Khosla Ventures in 2004 to back disruptive, technology-driven companies. He is recognized for his investments in software, AI, health care, robotics, and 3-D printing, and is noted for his support of left-leaning politics.",
+    "last_updated": "2026-09-11"
+  },
+  "sixth street": {
+    "canonical_name": "Sixth Street",
+    "entity_type": "organization",
+    "summary": "Founded in 2009, Sixth Street is a leading global investment firm with over $135 billion in assets under management. It is dedicated to developing themes and offering solutions to companies across all stages of growth through cross-platform collaboration.",
+    "last_updated": "2026-09-11"
+  },
+  "apollo": {
+    "canonical_name": "Apollo",
+    "entity_type": "company",
+    "summary": "Apollo is a global investment firm that supports millions of retirees in securing lasting financial futures across Apollo and Athene. It combines disciplined underwriting with an integrated platform to deliver solutions, creating innovative strategies that define the future of finance.",
+    "last_updated": "2026-09-11"
+  },
+  "goldman sachs": {
+    "canonical_name": "Goldman Sachs",
+    "entity_type": "organization",
+    "summary": "The Goldman Sachs Group, Inc. is a leading global investment banking, securities, and asset and wealth management firm that provides a wide range of financial services. The company harnesses its resources, insights, relationships, and competitive advantages to drive superior results for its clients",
+    "last_updated": "2026-09-11"
+  },
+  "keebeck wealth management": {
+    "canonical_name": "Keebeck Wealth Management",
+    "entity_type": "company",
+    "summary": "Keebeck Wealth Management is not addressed in the provided material. The text instead describes the services and free consultation offerings of Trajan Wealth Financial Advisors.",
+    "last_updated": "2026-09-11"
+  },
+  "muse": {
+    "canonical_name": "Muse",
+    "entity_type": "product",
+    "summary": "Muse is a secure, private personal AI agent introduced by Meta that proactively helps with people's goals and suggests ideas. It is designed around the way people already communicate, allowing users to interact with it through natural conversation.",
+    "last_updated": "2026-09-11"
+  },
+  "prime video": {
+    "canonical_name": "Prime Video",
+    "entity_type": "product",
+    "summary": "Prime Video is a streaming service offering a wide variety of movies, TV series, and exclusive Amazon Originals across multiple genres and devices. Users can access its extensive library through a subscription, free trial, or a free download option with no registration required.",
+    "last_updated": "2026-09-11"
+  },
+  "lens": {
+    "canonical_name": "Lens",
+    "entity_type": "product",
+    "summary": "In product photography, lens choice directly impacts image accuracy, post-production efficiency, and retouching workload. Because commercial shoots require precise geometry, sharpness, and color rendering, the selected lens is critical for achieving measurable, client-ready results.",
+    "last_updated": "2026-09-11"
+  },
+  "slackforce surfaces": {
+    "canonical_name": "Slackforce Surfaces",
+    "entity_type": "product",
+    "summary": "Slackforce Surfaces is a tool that turns plain-language requests into working dashboards, reports, or presentations using data already present in Slack. It is part of the broader Slackforce vision, which aims to create a conversational, AI-powered interface to Salesforce and other business systems b",
+    "last_updated": "2026-09-11"
+  },
+  "ryan gavin": {
+    "canonical_name": "Ryan Gavin",
+    "entity_type": "person",
+    "summary": "Ryan Gavin is the Chief Marketing Officer and Head of Marketplace Growth at Convoy. He previously served as the Chief Marketing Officer at Slack, held positions at Amazon and Microsoft, and worked as a General Manager at Amazon Web Services.",
+    "last_updated": "2026-09-11"
+  },
+  "lauren feiner": {
+    "canonical_name": "Lauren Feiner",
+    "entity_type": "person",
+    "summary": "Lauren Feiner is a Senior Policy Reporter at The Verge who covers the intersection of Silicon Valley and Capitol Hill, including tech policy issues like antitrust enforcement, free expression, and online child protection. She previously spent five years at CNBC covering tech policy and industry news",
+    "last_updated": "2026-09-11"
+  },
+  "coding kids": {
+    "canonical_name": "Coding Kids",
+    "entity_type": "book",
+    "summary": "Coding Kids is a book by Natasha Singer that reveals how Big Tech catalyzed, co-opted, and ultimately captured computer science and AI education in American public schools. It details how tech companies used industry-written curriculum and high-powered marketing to push their agendas in schools, dra",
+    "last_updated": "2026-09-11"
+  },
+  "federal aviation administration": {
+    "canonical_name": "Federal Aviation Administration",
+    "entity_type": "organization",
+    "summary": "The Federal Aviation Administration is an operating mode of the U.S. Department of Transportation. It is an agency of the U.S. federal government responsible for ensuring the safety and efficiency of civil aviation in the United States and surrounding international waters.",
+    "last_updated": "2026-09-11"
+  },
+  "joby": {
+    "canonical_name": "Joby",
+    "entity_type": "company",
+    "summary": "Joby is a California-based company building quiet, all-electric aircraft with up to 100 miles of range and vertical takeoff and landing capabilities. Its long-term vision is to build a global passenger service that helps people connect while reducing the acoustic and climate footprint of flight.",
+    "last_updated": "2026-09-11"
+  },
+  "beta": {
+    "canonical_name": "Beta",
+    "entity_type": "company",
+    "summary": "BETA is an aerospace and defense company designing, manufacturing, and selling high-performance electric aircraft, advanced electric propulsion systems, components, and charging systems. It has built and flown its family of ALIA aircraft, consisting of conventional fixed-wing and electric vertical t",
+    "last_updated": "2026-09-11"
+  },
+  "wisk": {
+    "canonical_name": "Wisk",
+    "entity_type": "company",
+    "summary": "Wisk Aero is a Boeing-owned eVTOL company building an autonomous, all-electric air taxi. It has completed over 1,750 test flights and advanced flight automation technology, aiming to deliver safe, everyday flight for everyone.",
+    "last_updated": "2026-09-11"
+  },
+  "apple watch series 12": {
+    "canonical_name": "Apple Watch Series 12",
+    "entity_type": "product",
+    "summary": "The Apple Watch Series 12 features a new Health Sensing System that delivers highly accurate heart rate sensing and high-frequency heart rate tracking every five seconds. It also includes a personal readiness score based on frequent heart rate variability readings to provide insights on stress and r",
+    "last_updated": "2026-09-11"
+  },
+  "apple watch ultra 4": {
+    "canonical_name": "Apple Watch Ultra 4",
+    "entity_type": "product",
+    "summary": "The Apple Watch Ultra 4 offers the longest battery life of any Apple Watch, featuring up to 45 hours of Max Extended Workout tracking. It includes the same new Health Sensing System and personal readiness score as the standard Apple Watch Series 12.",
+    "last_updated": "2026-09-11"
+  },
+  "apple watch se": {
+    "canonical_name": "Apple Watch SE",
+    "entity_type": "product",
+    "summary": "The Apple Watch SE 3 provides advanced health tracking, including an overnight sleep score, and features a redesigned Health app with deeper insights. It offers real-time workout metrics and personalized encouragement, with options starting at $229.",
+    "last_updated": "2026-09-11"
+  },
+  "insomniac": {
+    "canonical_name": "Insomniac",
+    "entity_type": "company",
+    "summary": "Learn all about Insomniac's journey from the underground music scene to the immersive electronic dance experiences they create today. By continuing past this page, you agree to our terms of use . ©2026 Insomniac Holdings, LLC. All Rights Reserved Aug 28, 2026 · Insomniac Games is an acquired company",
+    "last_updated": "2026-09-11"
+  },
+  "wolverine": {
+    "canonical_name": "Wolverine",
+    "entity_type": "product",
+    "summary": "All products come with a 1-year warranty. We also keep common replacement parts in stock at our warehouses, so you don’t need to worry about after-sales support or downtime. Free Shipping • Ships in 2 Business Days • Real-Time Tracking We accept Visa, American Express, PayPal, MasterCard, and Discov",
+    "last_updated": "2026-09-11"
+  },
+  "marvel": {
+    "canonical_name": "Marvel",
+    "entity_type": "organization",
+    "summary": "Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most prominent character-based entertainment companies, built on a proven library of more than 8,000 characters featured in a variety of media over eighty-five years. This is a list of organization",
+    "last_updated": "2026-09-11"
+  },
+  "god of war": {
+    "canonical_name": "God of War",
+    "entity_type": "product",
+    "summary": "This article introduces the sequel to the critically acclaimed game \"God of War\" released in 2018, named \"God of War Ragnarök\". The article provides information about Kratos and Atreus' journey through Nine Realms, facing fearsome enemies, optimizations for PC players etc. See full list on playstati",
+    "last_updated": "2026-09-11"
+  },
+  "uncharted": {
+    "canonical_name": "Uncharted",
+    "entity_type": "product",
+    "summary": "Feel the electrifying thrill of up to 338 horsepower, agile handling, and the legendary confidence of available Subaru Symmetrical All-Wheel Drive in the 2026 Subaru Uncharted electric crossover SUV. There’s no limit to your adventures with an available range of more than 300 miles and impressive fa",
+    "last_updated": "2026-09-11"
+  },
+  "team x": {
+    "canonical_name": "Team X",
+    "entity_type": "organization",
+    "summary": "Team X. 4,981 likes · 3 talking about this. Team X is a creative hub sharing diverse AI-generated English content—stories, music, gaming, education &... Team-X is recognized for its ability to support project management and enhance team performance by understanding the unique dynamics of each team.",
+    "last_updated": "2026-09-11"
+  },
+  "sabretooth": {
+    "canonical_name": "Sabretooth",
+    "entity_type": "character",
+    "summary": "This is an in-depth biography of Sabretooth within the Marvel Cinematic Universe. For an abridged overview of the character's full story, see Marvel Database's article on the same character. Superhuman Senses: Sabretooth possess superhuman senses including sight, hearing, smell and taste but not kno",
+    "last_updated": "2026-09-11"
+  },
+  "mystique": {
+    "canonical_name": "Mystique",
+    "entity_type": "character",
+    "summary": "Mystique is a shape-shifting mutant terrorist who works for any organization that suits her pro-mutant agenda. The mutant metamorph, Mystique, shapeshifts her way through her long life and is often called many names: terrorist, thief and mercenary to name a few. Mystique, whose birth name is Raven D",
+    "last_updated": "2026-09-11"
+  },
+  "nathaniel": {
+    "canonical_name": "Nathaniel",
+    "entity_type": "character",
+    "summary": "Character analysis and casting breakdown for Nathaniel from The Taming of the Shrew. Nathaniel, a secondary character in Shakespeare's play, adds depth and humor to the narrative. His witty remarks, loyalty, and comedic timing make him memorable, providing comic relief and highlighting social dynami",
+    "last_updated": "2026-09-11"
+  },
+  "stephen colbert": {
+    "canonical_name": "Stephen Colbert",
+    "entity_type": "person",
+    "summary": "Stephen Tyrone Colbert is an American actor and comedian born on May 13, 1964, in Washington, D.C., who grew up in Charleston, South Carolina. He is best known as the host of The Colbert Report, an ironic send-up of television news programs that aired from 2005 to 2014.",
+    "last_updated": "2026-09-11"
+  },
+  "xiaomi": {
+    "canonical_name": "Xiaomi",
+    "entity_type": "company",
+    "summary": "Xiaomi is a consumer electronics and smart manufacturing company with smartphones and smart hardware connected by an IoT platform at its core. With an equal emphasis on innovation and quality, Xiaomi continuously pursues high-quality user experience and operational efficiency. Xiaomi Corporation was",
+    "last_updated": "2026-09-11"
+  },
+  "davinci": {
+    "canonical_name": "DAVINCI",
+    "entity_type": "mission",
+    "summary": "DAVINCI is a NASA mission designed to study the origin, evolution, and present state of Venus to determine if the planet was once wet and habitable. It will be the first American spacecraft to explore Venus since the 1990s, operating alongside NASA's VERITAS mission.",
+    "last_updated": "2026-09-11"
+  },
+  "synthetic aperture radar": {
+    "canonical_name": "synthetic aperture radar",
+    "entity_type": "technology",
+    "summary": "Synthetic aperture radar (SAR) is an active data collection technique where an instrument sends out energy pulses and records the reflected signals to create high-resolution images. Unlike passive optical imagery, SAR allows observation of Earth's surface day and night and through most weather condi",
+    "last_updated": "2026-09-11"
+  },
+  "victor glover": {
+    "canonical_name": "Victor Glover",
+    "entity_type": "person",
+    "summary": "Victor J. Glover, Jr. is a retired U.S. Navy captain, Naval Aviator, and test pilot who was selected as a NASA astronaut in 2013. He served as pilot of the Crew-1 Dragon spacecraft, Resilience, and as Flight Engineer for Expedition 64/65 on the International Space Station.",
+    "last_updated": "2026-09-11"
+  },
+  "césar de la fuente": {
+    "canonical_name": "César de la Fuente",
+    "entity_type": "person",
+    "summary": "César de la Fuente is a Presidential Associate Professor at the University of Pennsylvania and Director of the Machine Biology Group. He is widely recognized for pioneering AI approaches to antibiotic discovery and peptide design, which dramatically accelerates the identification of preclinical cand",
+    "last_updated": "2026-09-11"
+  },
+  "antimicrobial resistance": {
+    "canonical_name": "antimicrobial resistance",
+    "entity_type": "technology",
+    "summary": "Antimicrobial resistance is a current issue that can be addressed by exploring alternatives to conventional antibiotics to minimize usage and reduce reliance on antimicrobial agents. This topic involves comprehensive strategies and research support to help tackle the problem.",
+    "last_updated": "2026-09-11"
+  },
+  "data agent": {
+    "canonical_name": "Data agent",
+    "entity_type": "product",
+    "summary": "Data 360 is an AI system that autonomously answers data questions by interpreting requests in plain language, retrieving context, and generating validated analyses. It is designed to help teams make smarter decisions, power automation, and build trusted AI by providing real-time data and insights.",
+    "last_updated": "2026-09-11"
+  },
+  "morgan stanley": {
+    "canonical_name": "Morgan Stanley",
+    "entity_type": "company",
+    "summary": "Morgan Stanley has been serving the global economy since 1935, helping clients and communities with insight, integrity, and impact. The firm offers keen insights on critical issues across all its businesses, covering personal finance, market trends, and investment outlooks.",
+    "last_updated": "2026-09-11"
+  },
+  "daloopa": {
+    "canonical_name": "Daloopa",
+    "entity_type": "company",
+    "summary": "Daloopa exists to accelerate decision-making for investment professionals. Founded by former equity researcher Thomas Li and two engineers, the company provides a product designed to free analysts from manual work and reduce costly errors.",
+    "last_updated": "2026-09-11"
+  },
+  "pitchbook": {
+    "canonical_name": "PitchBook",
+    "entity_type": "company",
+    "summary": "PitchBook provides award-winning software that gives users extensive access to private and public capital market data. The platform is designed to help professionals increase productivity and make intelligent, data-driven decisions, and is used by over one million professionals.",
+    "last_updated": "2026-09-11"
+  },
+  "lseg news": {
+    "canonical_name": "LSEG News",
+    "entity_type": "company",
+    "summary": "LSEG is a leading global financial infrastructure and data provider that plays a vital role in the world's financial system. It offers a unique open platform, best-in-class data, and expertise to support investing, trading, and risk management decisions.",
+    "last_updated": "2026-09-11"
+  },
+  "general services administration gsa": {
+    "canonical_name": "General Services Administration (GSA)",
+    "entity_type": "organization",
+    "summary": "The General Services Administration focuses on key administrative areas, including shared services, travel and transportation, acquisition, acquisition workforce development, fleet management, information technology modernization, and real estate management. Through its Public Buildings Service and",
+    "last_updated": "2026-09-11"
+  },
+  "agents api": {
+    "canonical_name": "Agents API",
+    "entity_type": "product",
+    "summary": "1 day ago · Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use. September 10, 2026 Build and run cloud agents with the Codex harness, fully managed by OpenAI. As we’ve scaled Codex and ChatGPT for W",
+    "last_updated": "2026-09-11"
+  },
+  "blaxel": {
+    "canonical_name": "Blaxel",
+    "entity_type": "company",
+    "summary": "Mar 6, 2026 · Explore Blaxel's in-depth company profile, including funding details, key investors, leadership, and competitors. Blaxel is infrastructure for autonomous agents. It provides compute, storage, and networking for agents that run code, preserve state, use tools, and connect to external se",
+    "last_updated": "2026-09-11"
+  },
+  "daytona": {
+    "canonical_name": "Daytona",
+    "entity_type": "company",
+    "summary": "Aug 9, 2022 · Daytona manufactures and sells motorcycle parts and accessories in the Asia-Pacific, Americas and Europe. The company was founded in 1972 and is headquartered in Shizuoka, Japan. DAYTONA was established in 1972 and ever since then, we have been trying to create rider-friendly products",
+    "last_updated": "2026-09-11"
+  },
+  "digitalocean": {
+    "canonical_name": "DigitalOcean",
+    "entity_type": "company",
+    "summary": "See how DigitalOcean has grown our global presence, community and product line over time. We're making waves all over the world, as a remote-first company with employees in multiple countries around the globe. Our team is big on collaboration, inclusion, and flexibility. Featured AI Products Compute",
+    "last_updated": "2026-09-11"
+  },
+  "e2b": {
+    "canonical_name": "E2B",
+    "entity_type": "company",
+    "summary": "Your Trusted Source for Detailed Company Leads, Profiles & Sales Intelligence. D&B Hoovers™ is your one-stop resource for comprehensive industry coverage. Service catalog: School Data Lists, K-12 Email Lists, Education Lead Lists Free Trial With access to over 327 million companies worldwide and rel",
+    "last_updated": "2026-09-11"
+  },
+  "runloop": {
+    "canonical_name": "Runloop",
+    "entity_type": "company",
+    "summary": "Runloop builds the infrastructure layer for AI coding agents. Our platform provides enterprise-grade devboxes—secure, cloud-hosted development environments where AI agents can safely build, test, and deploy code. We're a small team of inventors, founders, and technical leaders with deep expertise in",
+    "last_updated": "2026-09-11"
+  },
+  "gptlive1": {
+    "canonical_name": "GPT-Live-1",
+    "entity_type": "product",
+    "summary": "GPT-Live-1 is a voice model that brings natural, full-duplex voice conversations to the API. It allows developers to build voice-enabled apps and business workflows with more control over how voice agents speak and act.",
+    "last_updated": "2026-09-11"
+  },
+  "speak": {
+    "canonical_name": "Speak",
+    "entity_type": "company",
+    "summary": "Speak is a software development company headquartered in San Francisco, California, with 201-500 employees. It develops an AI-powered language learning application and has a formal partnership with OpenAI.",
+    "last_updated": "2026-09-11"
+  },
+  "agenthtml": {
+    "canonical_name": "agent-html",
+    "entity_type": "product",
+    "summary": "agent-html is a tool that converts semantic .agent.html documents into stable, shareable HTML artifacts designed for dense agent work. It integrates with GitNexus structures, local TypeScript/TSX metrics, Canvas package scripts, and artifact protocol rules to facilitate agentic development.",
+    "last_updated": "2026-09-11"
+  },
+  "shadcnui": {
+    "canonical_name": "shadcn/ui",
+    "entity_type": "product",
+    "summary": "Shadcn/ui is a collection of UI blocks built with Shadcn UI, Tailwind CSS, and React. These components help developers create responsive grids, product cards, and interactive browsing interfaces, and are ideal for e-commerce, detail views, and fashion applications.",
+    "last_updated": "2026-09-11"
+  },
+  "atharvotech": {
+    "canonical_name": "Atharvotech",
+    "entity_type": "organization",
+    "summary": "Atharvotech is an organization or individual profile associated with Atharv Shukla, an aspiring software engineer focused on building scalable web apps and developing next-gen offline AI. Their work emphasizes creating unfiltered, raw local intelligence without relying on cloud APIs or safety filter",
+    "last_updated": "2026-09-11"
+  },
+  "atomburstofficial": {
+    "canonical_name": "Atomburstofficial",
+    "entity_type": "organization",
+    "summary": "Atomburstofficial is an organization that builds software on GitHub. It is described as a Geiger counter for AI agents, offering a read-only command that inventories every agent, MCP server, plugin, and AI extension on a machine.",
+    "last_updated": "2026-09-11"
+  },
+  "geiger": {
+    "canonical_name": "Geiger",
+    "entity_type": "product",
+    "summary": "Geiger is a company that specializes in providing customized creative solutions to engage people, build brand affection, and generate results. It offers hands-on support through a nationwide network and has teams in London, Germany, and Austria.",
+    "last_updated": "2026-09-11"
+  },
+  "agentic stack": {
+    "canonical_name": "Agentic Stack",
+    "entity_type": "product",
+    "summary": "Agentic AI is an advanced form of artificial intelligence designed to function autonomously by making decisions, performing tasks, and adapting to its environment with minimal human supervision. A Practical Guide to AI Agents provides further details on how this technology can be applied to automate",
+    "last_updated": "2026-09-11"
+  },
+  "dryxio": {
+    "canonical_name": "Dryxio",
+    "entity_type": "organization",
+    "summary": "Dryxio is an agentic builder based in Los Angeles who specializes in reverse engineering and classic GTA modding. The creator develops AI tools and has built multiple apps with over 100,000 users, focusing on using Claude and AI to construct various applications.",
+    "last_updated": "2026-09-11"
+  },
+  "langgraph": {
+    "canonical_name": "LangGraph",
+    "entity_type": "technology",
+    "summary": "LangGraph is an agent runtime and low-level orchestration framework designed to build and scale AI workloads, including conversational agents and complex task automation. It provides low-level primitives for creating customizable control flows with built-in memory to maintain conversation history an",
+    "last_updated": "2026-09-11"
+  },
+  "deepseek harness": {
+    "canonical_name": "DeepSeek Harness",
+    "entity_type": "product",
+    "summary": "DeepSeek Harness is a developer preview platform for building agent harnesses that allows developers to include source code in their projects. It operates on a modular architecture where every capability, such as models, tools, skills, and UI, is a swappable plugin managed by the Cordis kernel.",
+    "last_updated": "2026-09-11"
   }
 }

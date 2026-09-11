@@ -1,5 +1,620 @@
 [
   {
+    "id": "e0bea100c91b",
+    "title": "शॉपिफाई ने रिएक्ट नेटिव से वापस स्विफ्ट और कोटलिन पर जाने का फैसला किया",
+    "summary": "प्रमुख वैश्विक ई-कॉमर्स कंपनी शॉपिफाई (Shopify) ने अपने मोबाइल ऐप डेवलपमेंट की रणनीति में एक बड़ा बदलाव किया है। 2020 में रिएक्ट नेटिव (React Native) को अपनाने वाली इस कंपनी ने अब वापस नेटिव कोडिंग (Swift और Kotlin) की ओर लौटने का फैसला किया है। यह कदम आर्टिफिशियल इंटेलिजेंस और लार्ज लैंग्वेज मॉडल्स (LLMs) के तेजी से…",
+    "category": "general",
+    "tags": [
+      "Shopify",
+      "React Native",
+      "Swift"
+    ],
+    "image": "https://cdn.shopify.com/b/shopify-brochure2-assets/74f109ae9b0c3034a78a3b63294ae2e6.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7b6f7a87751b",
+    "title": "हमने अपने Rust क्वेरी इंजन में MMAP की जगह Io_uring लगाया, लेकिन यह धीमा हो गया",
+    "summary": "कन्विवा, जो स्ट्रीमिंग और AI एजेंटों के लिए एक प्रमुख क्वालिटी ऑफ एक्सपीरियंस (QoE) प्लेटफॉर्म है, अपने रस्ट-आधारित डेटाफ्यूजन इंजन के साथ भारी मात्रा में डेटा का विश्लेषण करता है। कंपनी के इंजीनियरों ने अपने आर्किटेक्चर में पारंपरिक mmap (मेमोरी मैपिंग) को हटाकर io_uring तकनीक का उपयोग करने का प्रयास किया, लेकिन इस…",
+    "category": "repo_analysis",
+    "tags": [
+      "Conviva",
+      "mmap",
+      "io_uring"
+    ],
+    "image": "https://www.conviva.ai/wp-content/uploads/2026/09/NVMe-Streams-Power-Shared-Cache-copy.webp",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8f2361cfd1d6",
+    "title": "गूगल का जेमिनी ऐप अब विंडोज के लिए उपलब्ध",
+    "summary": "10 सितंबर, 2026 को, गूगल ने अपने एआई असिस्टेंट जेमिनी के लिए एक नया और महत्वपूर्ण अपडेट जारी किया है। अब यह शक्तिशाली टूल सीधे विंडोज पीसी के लिए एक समर्पित डेस्कटॉप एप्लिकेशन के रूप में उपलब्ध है। जेमिनी ऐप का यह नया संस्करण उपयोगकर्ताओं को बिना किसी रुकावट के एआई की मदद लेने की सुविधा देता है। जेमिनी ऐप के प्रोडक्ट…",
+    "category": "general",
+    "tags": [
+      "Gemini",
+      "Gemini Spark 1",
+      "Nano Banana"
+    ],
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_for_Desktop_Thumbnail_2096x1182.width-1300.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "14a9ade9c7b7",
+    "title": "आपके लैपटॉप पर लोकल कोडिंग AI: एक तकनीकी विश्लेषण",
+    "summary": "आर्टिफिशियल इंटेलिजेंस के इस नए युग में, कई डेवलपर्स अपने कोडिंग हार्नेस को डेटा सेंटर API से बदलकर लोकल मॉडल पर चलाने की कोशिश करते हैं। शुरुआत में यह कदम आकर्षक लगता है, लेकिन असल में यह अक्सर निराशा का कारण बनता है। एक साधारण बेंचमार्क टूल यह दिखा सकता है कि मॉडल कितनी तेजी से काम कर सकता है, लेकिन यह उस वास्तविक…",
+    "category": "repo_analysis",
+    "tags": [
+      "Chad",
+      "Qwen 3.8 27B",
+      "Apple silicon"
+    ],
+    "image": "https://nasutton.notion.site/images/meta/notion-wordmark.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "69669daef825",
+    "title": "कॉग्निशन ने SWE-2 मॉडल लॉन्च किया, जो Fable 5.1 और GPT-6 Astra को देगा कड़ी टक्कर",
+    "summary": "कॉग्निशन ने आज अपने सबसे उन्नत कोडिंग मॉडल SWE-2 की घोषणा की है, जो सॉफ्टवेयर इंजीनियरिंग के क्षेत्र में एक नई बहस छेड़ सकता है। यह नया मॉडल न केवल अपनी उच्च क्षमता के लिए, बल्कि अपनी कम लागत के लिए भी चर्चा में है। कंपनी का दावा है कि यह मॉडल अपने प्रतिद्वंद्वियों की तुलना में 64% सस्ता है, जबकि प्रदर्शन के मामले में…",
+    "category": "model_release",
+    "tags": [
+      "Cognition",
+      "SWE-2",
+      "Fable"
+    ],
+    "image": "https://cognition.com/images/swe-2/cover.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e9f2ec0d4faa",
+    "title": "एक 'ईश्वर-निर्देशित' क्रिप्टोकरेंसी और एक नया सौर इंजीनियरिंग रोडमैप",
+    "summary": "कोलोराडो के डेनवर में रहने वाले एक ईसाई पादरी, एली रेगालाडो ने दावा किया कि उन्हें ईश्वर से एक दिव्य आदेश मिला था। इसके परिणामस्वरूप उन्होंने अपनी पत्नी के साथ मिलकर एक क्रिप्टोकरेंसी योजना शुरू की, जिसमें 500 से अधिक लोगों ने 3 मिलियन डॉलर से अधिक का निवेश किया, लेकिन यह योजना एक साल के भीतर ही ढह गई। दूसरी ओर,…",
+    "category": "general",
+    "tags": [
+      "Eli Regalado",
+      "Kaitlyn",
+      "INDXcoin"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Regalados_DSF7279-mobile.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "bd0657d2bfec",
+    "title": "एआई को पावर देना एक आर्किटेक्चर की समस्या",
+    "summary": "22 जुलाई 2026 को वर्जीनिया के एशबर्न में एक ट्रांसमिशन लाइन फॉल्ट के कारण 3 गीगावाट से अधिक बिजली ग्रिड से अचानक गायब हो गई। यह कोई पहला मामला नहीं था; दो साल पहले एक खराब सर्ज अरेस्टर ने 60 वर्जीनिया सुविधाओं को 1,500 मेगावाट की बिजली से वंचित कर दिया था। विशेषज्ञों का मानना है कि ये आपूर्ति विफलताएं नहीं थीं, बल्कि…",
+    "category": "general",
+    "tags": [
+      "ON.energy",
+      "Ashburn",
+      "Virginia"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/ON-contributed-image.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f7a7b851305f",
+    "title": "क्या अमेरिकी बैटरी बाजार चीन से पूरी तरह अलग हो सकता है?",
+    "summary": "संयुक्त राज्य अमेरिका वर्तमान में अपने ऊर्जा भंडारण बाजार में रिकॉर्ड वृद्धि देख रहा है, जो ग्रिड की विश्वसनीयता बढ़ाने और उत्सर्जन को कम करने में महत्वपूर्ण भूमिका निभा रहा है। यह विकास मुख्य रूप से सस्ते चीनी बैटरी के कारण संभव हो पाया है। हालांकि, इस निर्भरता को कम करने के लिए अमेरिकी सरकार ने कदम उठाए हैं। हाल ही…",
+    "category": "ban_regulation",
+    "tags": [
+      "Trump administration",
+      "Chinese batteries",
+      "Inflation Reduction Act"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/AP26221317635272.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "39fc94f7b050",
+    "title": "हेल्थकेयर में AI की अगली परीक्षा: तकनीकी क्षमता से आगे बढ़कर व्यावहारिक एकीकरण",
+    "summary": "स्वास्थ्य सेवा क्षेत्र में कृत्रिम बुद्धिमत्ता (AI) का प्रवेश अब एक नई दिशा ले रहा है। प्रमुख AI कंपनियों के प्रवेश ने इस उद्योग के तकनीकी आधार को तेजी से मजबूत किया है। हाल ही में हुई चर्चाओं में यह स्पष्ट हुआ है कि हालांकि AI मॉडल अब लंबे क्लिनिकल रिकॉर्ड्स को प्रोसेस करने और जटिल मेडिकल शब्दावली को समझने में सक्षम…",
+    "category": "general",
+    "tags": [
+      "Ensemble",
+      "healthcare"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/Ensemble-contributed-iStock-2263561985.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2001e0b68cb5",
+    "title": "थ्राइव कैपिटल का रास्ता: कोलैबोरेटिव फंड ने डी.सी.",
+    "summary": "कोलैबोरेटिव फंड, जो कि एक 15 साल पुरानी न्यूयॉर्क स्थित वेंचर फर्म है और जिसके पास लगभग 1 बिलियन डॉलर की संपत्ति है, अब डी.सी. यूनाइटेड और उसके स्टेडियम ऑडी फील्ड में हिस्सेदारी ले रही है। यह फर्म लिफ्ट, रेडिट, स्वीटग्रीन और ओलिपोप जैसी सफल कंपनियों में अपने शुरुआती निवेश के लिए जानी जाती है। यह निवेश एक ऐसे नए चलन का…",
+    "category": "general",
+    "tags": [
+      "Collaborative Fund",
+      "Thrive Capital",
+      "Thrive Eternal"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/DC-United.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "31c8ff759101",
+    "title": "जेन्सन हुआंग ने बताया Nvidia की 70% ग्रोथ का कारण: AI का भविष्य पूरी तरह से कंपनी के हाथों में है",
+    "summary": "Nvidia के संस्थापक और सीईओ जेन्सन हुआंग ने हाल ही में गोल्डमैन सैक्स कम्युनैकोपी + टेक्नोलॉजी सम्मेलन में भाग लिया, जहां उन्होंने अपनी कंपनी के भविष्य को लेकर एक बेहद सकारात्मक दृष्टिकोण प्रस्तुत किया। हुआंग ने स्पष्ट रूप से कहा कि Nvidia का राजस्व अगले वर्ष लगभग 70% तक बढ़ने की उम्मीद है, जिससे कंपनी का मूल्यांकन…",
+    "category": "general",
+    "tags": [
+      "Jensen Huang",
+      "Nvidia",
+      "Amazon"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6ef5efba8093",
+    "title": "मार्क वालबर्ग TechCrunch Disrupt 2026 में निवेश और स्टार्टअप्स पर करेंगे चर्चा",
+    "summary": "मार्क वालबर्ग, जो हॉलीवुड के सबसे सफल और बहुमुखी अभिनेताओं में से एक हैं, इस साल TechCrunch Disrupt 2026 के मुख्य मंच पर अपनी उपस्थिति से तकनीकी दुनिया का ध्यान अपनी ओर खींचने वाले हैं। यह घोषणा उनके करियर के एक महत्वपूर्ण मोड़ को दर्शाती है, जहाँ वे अपने अभिनय कौशल के बजाय अपनी व्यावसायिक समझ और निवेश रणनीतियों को…",
+    "category": "general",
+    "tags": [
+      "Mark Wahlberg",
+      "Bruce K. Lee",
+      "TechCrunch Disrupt 2026"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_Wahlberg-Lee-16x9-Dark.png?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c3c4ec3c1286",
+    "title": "ओपनएआई ने एस्ट्रा मॉडल की भारी मांग के कारण प्रो सब्सक्रिप्शन पर लगाई रोक",
+    "summary": "ओपनएआई ने अपने नवीनतम और सबसे उन्नत एआई मॉडल, एस्ट्रा, की अभूतपूर्व मांग के कारण अपने 200 डॉलर प्रति माह वाले प्रीमियम प्रो सब्सक्रिप्शन के नए साइन-अप को अस्थायी रूप से रोक दिया है। इस कदम का उद्देश्य कंपनी के बुनियादी ढांचे पर पड़ रहे अत्यधिक दबाव को कम करना है। उत्पाद प्रमुख टिबॉल्ट सोटियाक्स ने एक्स (X) पर यह घोषणा…",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "Astra",
+      "Thibault Sottiaux"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8e2bb477609d",
+    "title": "एंथ्रोपिक की रिपोर्ट: चीनी एआई कंपनियों द्वारा अमेरिकी मॉडल्स पर बड़े पैमाने पर डिस्टिलेशन हमले",
+    "summary": "गुरुवार को जारी की गई एक नई रिपोर्ट में, एआई सुरक्षा कंपनी एंथ्रोपिक ने खुलासा किया कि चीन स्थित एआई कंपनियों द्वारा अमेरिकी फ्रंटियर मॉडल्स पर लगातार और बड़े पैमाने पर डिस्टिलेशन हमले किए जा रहे हैं। इन अनधिकृत प्रयोगशालाओं ने एंथ्रोपिक के बचाव तंत्र को चकमा देने और अमेरिकी मॉडल्स की क्षमताओं को चुराने के लिए लगातार…",
+    "category": "general",
+    "tags": [
+      "Anthropic",
+      "Alibaba",
+      "Moonshot AI"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2287646148.jpg?resize=1200,901",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b1f00a08cdce",
+    "title": "मेटा का नया AI ऐप 'Muse' अमेरिका में नंबर 2 पर पहुंचा, लेकिन शुरुआती आंकड़े उम्मीद से कम हैं",
+    "summary": "मेटा ने मंगलवार को अपना नया आर्टिफिशियल इंटेलिजेंस ऐप 'Muse' पेश किया, जो जल्द ही अमेरिका के ऐप स्टोर पर नंबर दो के पायदान पर पहुंच गया। बाजार खुफिया फर्म सेंसर टावर (Sensor Tower) के शुरुआती आंकड़ों के अनुसार, इस ऐप को अब तक 83,000 से अधिक बार iOS पर डाउनलोड किया जा चुका है। फिलहाल यह ऐप केवल संयुक्त राज्य अमेरिका के…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Threads"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "a39524121942",
+    "title": "प्रोक्सिमा फ्यूजन का 140 मिलियन यूरो का दांव: एचटीएस टेप उत्पादन में यूरोप की नई पहल",
+    "summary": "जर्मनी स्थित फ्यूजन स्टार्टअप प्रोक्सिमा फ्यूजन ने अपने फ्यूजन रिएक्टरों के लिए एक महत्वपूर्ण सामग्री के उत्पादन हेतु 140 मिलियन यूरो (लगभग 162.6 मिलियन डॉलर) की एक विशाल फैक्ट्री बनाने की योजना की घोषणा की है। यह महत्वाकांक्षी कदम उस समय उठाया गया है जब कंपनी ने हाल ही में 411 मिलियन यूरो का एक विशाल फंडिंग राउंड…",
+    "category": "general",
+    "tags": [
+      "Proxima Fusion",
+      "Lower Saxony",
+      "Veir"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Proxima-Manufacturing-7.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d43510b3165e",
+    "title": "प्राइम वीडियो पर अब जो देखें, वही तुरंत खरीदें",
+    "summary": "अमेज़न अपने प्राइम वीडियो स्ट्रीमिंग प्लेटफॉर्म पर दर्शकों के लिए खरीदारी की प्रक्रिया को अधिक सुलभ बना रहा है। कंपनी ने गुरुवार को कई नए फीचर्स की घोषणा की है, जो प्राइम वीडियो पर प्रसारित होने वाले कंटेंट से सीधे जुड़े उत्पादों की खोज और खरीद की अनुमति देते हैं। ये नए अपडेट्स एक्स-रे (X-Ray) अनुभव के साथ एकीकरण,…",
+    "category": "general",
+    "tags": [
+      "Amazon",
+      "Prime Video",
+      "X-Ray"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/3.-X-Ray-Shop-Tab.png?resize=1200,675",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "1a89e65b75c7",
+    "title": "स्लैक अब चैट के अंदर ही इंटरैक्टिव चार्ट और रिपोर्ट्स बना सकता है",
+    "summary": "स्लैक ने अपने प्लेटफॉर्म पर एक नया फीचर \"Slackforce Surfaces\" पेश किया है, जो यूजर्स को सीधे चैट के भीतर इंटरैक्टिव रिपोर्ट्स, डैशबोर्ड और प्रेजेंटेशन बनाने की क्षमता प्रदान करता है। यह नया फीचर स्लैक के एआई असिस्टेंट, Slackbot के माध्यम से काम करता है, जो यूजर्स के सादे भाषा में दिए गए निर्देशों को समझकर प्रासंगिक…",
+    "category": "model_release",
+    "tags": [
+      "Slack",
+      "Slackbot",
+      "Slackforce Surfaces"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/IMG_2464.png?quality=90&strip=all&crop=0%2C9.8234763765205%2C100%2C80.353047246959&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5e0cb078bed7",
+    "title": "स्कूल बिग टेक की प्लेबुक को समझ रहे हैं",
+    "summary": "एआई (AI) इस समय तकनीक की दुनिया में सबसे नई और लोकप्रिय चीज है, और यह माना जा रहा है कि भविष्य की सभी नौकरियां इसी क्षेत्र में होंगी। जो छात्र इसे नहीं सीखेंगे, वे पीछे रह जाएंगे। इस कमी को पूरा करने के लिए, इसके निर्माता अक्सर मुफ्त में संसाधन और पाठ्यक्रम प्रदान करने का प्रस्ताव देते हैं। यही वह कहानी है जो एआई…",
+    "category": "ban_regulation",
+    "tags": [
+      "Lauren Feiner",
+      "Natasha Singer",
+      "Coding Kids"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK483_EDUCATION_D.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "df5279015fe4",
+    "title": "टेक्सास में इलेक्ट्रिक एयर टैक्सी को मिली टेस्ट फ्लाइट की मंजूरी",
+    "summary": "अमेरिका में कमर्शियल इलेक्ट्रिक एयर टैक्सी का सपना अब एक कदम और करीब आ गया है। व्हाइट हाउस के नए पायलट प्रोग्राम के तहत टेक्सास में इन विमानों की टेस्ट फ्लाइट्स शुरू हो गई हैं। यह एक बड़ी खबर है क्योंकि ये उड़ानें उन सख्त सुरक्षा नियमों के अंतिम रूप दिए जाने से पहले ही हो रही हैं, जो इन विमानों को आम जनता के लिए…",
+    "category": "ban_regulation",
+    "tags": [
+      "Federal Aviation Administration",
+      "Joby",
+      "Beta"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2273027720.jpg?quality=90&strip=all&crop=0%2C10.749374232131%2C100%2C78.501251535737&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7e7c6d8d8c55",
+    "title": "नई Apple Watch Series 12 और Ultra 4 कहाँ से प्रीऑर्डर करें: कीमतें और फीचर्स",
+    "summary": "हाल ही में Apple के \"Surprise and shine\" इवेंट में कई नई डिवाइस की घोषणा की गई, जिसमें iPhone Duo मुख्य आकर्षण था। हालांकि, टेक उत्साही लोगों का ध्यान पहनने योग्य उपकरणों (wearables) पर भी टिका रहा, क्योंकि कंपनी ने Apple Watch Series 12 और Ultra 4 को पेश किया। हालांकि इन घड़ियों का बाहरी डिजाइन उनके पिछले मॉडल्स के…",
+    "category": "model_release",
+    "tags": [
+      "Apple",
+      "Apple Watch Series 12",
+      "Apple Watch Ultra 4"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_2026_event_handson_ADiBenedetto_0035.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1a4e7a8a5fd0",
+    "title": "मार्वल के वूल्वरिन का PS5 पर वापसी: सरल और अधिक हिंसक एक्शन गेमिंग का नया दौर",
+    "summary": "इंसोम्नियाक गेम्स, जो 'स्पाइडर-मैन' जैसे सफल गेम्स के लिए जाने जाते हैं, ने प्लेस्टेशन 5 के लिए एक नया एक्सक्लूसिव गेम 'मार्वल का वूल्वरिन' जारी किया है। यह गेम अपने मुख्य पात्र लोगान (वूल्वरिन) के तीव्र क्रोध और आक्रामकता को बहुत ही शानदार ढंग से पकड़ता है। यह एक सीधा और एक्शन से भरपूर गेम है जो खिलाड़ियों को एक…",
+    "category": "general",
+    "tags": [
+      "Insomniac",
+      "Wolverine",
+      "Marvel"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/MW_ExtGameplay_WolverineHero_4k_2026.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e606a00e0ab5",
+    "title": "जेम्स टालारिको का इंटरव्यू जेमी किमेल ने FCC की धमकियों के बाद यूट्यूब पर डाला",
+    "summary": "अमेरिकी लेट-नाइट टेलीविजन के जाने-माने होस्ट जेमी किमेल ने एक बड़ा और अप्रत्याशित फैसला लिया है। उन्होंने घोषणा की है कि टेक्सास से डेमोक्रेटिक सीनेट उम्मीदवार जेम्स टालारिको के साथ उनका आगामी इंटरव्यू उनके लोकप्रिय शो 'जिमी किमेल लाइव' पर प्रसारित होने के बजाय सीधे यूट्यूब पर अपलोड किया जाएगा। यह फैसला कोई साधारण…",
+    "category": "ban_regulation",
+    "tags": [
+      "Jimmy Kimmel",
+      "James Talarico",
+      "FCC"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2277879774.jpg?quality=90&strip=all&crop=0%2C10.737892056687%2C100%2C78.524215886627&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "78995871e84f",
+    "title": "आईफोन डुओ: साधारण हार्डवेयर, लेकिन शानदार सॉफ्टवेयर",
+    "summary": "एप्पल ने अपने पहले फोल्डेबल स्मार्टफोन, आईफोन डुओ, को लॉन्च करके टेक इंडस्ट्री में एक नई हलचल पैदा कर दी है। यह डिवाइस एक परिपक्व एंड्रॉइड फोल्डेबल बाजार में प्रवेश करता है, जहां हुआवेई, सैमसंग और शाओमी जैसी कंपनियों ने पहले ही अपनी जगह बना ली है। एप्पल हमेशा की तरह अपने साथ हार्डवेयर और सॉफ्टवेयर का एक अनोखा मिश्रण…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "Huawei",
+      "Samsung"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0005.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "74bb69ef8216",
+    "title": "नासा के रडार उपकरण की वापसी के बाद यूरोप का वीनस मिशन चीन की ओर मुड़ सकता है",
+    "summary": "अंतरिक्ष अन्वेषण की दुनिया में एक बड़ा भू-राजनीतिक बदलाव देखने को मिल रहा है क्योंकि यूरोप अपने विकल्पों की ओर देख रहा है और शायद चीन की ओर भी। व्हाइट हाउस द्वारा कुछ प्रमुख नासा साझेदारियों को रद्द करने के प्रयास के बीच, यूरोपीय अंतरिक्ष एजेंसी (ESA) वीनस के लिए अपने रोबोटिक मिशन के साथ \"पूरी गति से\" आगे बढ़ रही है।…",
+    "category": "general",
+    "tags": [
+      "European Space Agency",
+      "NASA",
+      "Envision"
+    ],
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Envision-500x500.jpg",
+    "source": "rss",
+    "feed_name": "Ars Technica",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "309bc3c43127",
+    "title": "आर्टेमिस II के कमांडर और पायलट बने नासा के पहले अंतरिक्ष यात्री एमेरिटस",
+    "summary": "नासा के आर्टेमिस II मिशन के कमांडर रीड वाइज़मैन और पायलट विक्टर ग्लोवर ने एक नया मुकाम हासिल किया है। चंद्रमा की कक्षा में जाने वाले इस ऐतिहासिक मिशन के पांच महीने बाद, दोनों अंतरिक्ष यात्रियों को नासा के पहले एमेरिटस अंतरिक्ष यात्री के रूप में नियुक्त किया गया है। यह घोषणा अंतरिक्ष अन्वेषण के क्षेत्र में एक नए युग की…",
+    "category": "general",
+    "tags": [
+      "Reid Wiseman",
+      "Victor Glover",
+      "NASA"
+    ],
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/news-090926a-lg-500x500.jpg",
+    "source": "rss",
+    "feed_name": "Ars Technica",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "014159943e4d",
+    "title": "नई एंटीमाइक्रोबियल दवाओं की खोज में एआई का उपयोग: एक नई उम्मीद",
+    "summary": "दुनिया भर में दवा-प्रतिरोधी संक्रमण एक गंभीर संकट बन गए हैं। एक हालिया रिपोर्ट के अनुसार, 2021 में लगभग 50 लाख मौतें एंटीमाइक्रोबियल रेजिस्टेंस (AMR) के कारण हुईं, और यह आंकड़ा 2050 तक दोगुना होने की आशंका है। पिछले 50 वर्षों में एंटीबायोटिक्स की कोई नई क्लास नहीं आई है। इस गंभीर स्थिति को देखते हुए, यूनिवर्सिटी ऑफ…",
+    "category": "general",
+    "tags": [
+      "César de la Fuente",
+      "Codex",
+      "ChatGPT"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1HcfBzw01zs1RY58HL1Mvz/7ea8123794aa15e29e4e4509ae39c0d9/index-codex-chatgpt-antimicrobials--seo-v001.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4d4e7920d8a7",
+    "title": "अब हर कोई डेटा को काम में ला सकता है",
+    "summary": "ओपनएआई ने अपने एंटरप्राइज प्रोडक्ट चैटजीपीटी वर्क में एक नया डेटा एजेंट लॉन्च किया है। यह टूल व्यावसायिक उपयोगकर्ताओं के लिए एक महत्वपूर्ण कदम है, जो उन्हें जटिल डेटाबेस से सीधे जानकारी प्राप्त करने की सुविधा देता है। अब कर्मचारियों को डेटा विश्लेषण के लिए तकनीकी विशेषज्ञों पर निर्भर रहने की आवश्यकता नहीं है।",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "Data agent",
+      "ChatGPT Work"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2UxvYcTeyyfNcGIxHFKW06/82ff8662f3a80f6b7319afb2a25dc6ae/put-data-to-work--seo-v001.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "016c3ec9b775",
+    "title": "वित्तीय सेवाओं के लिए OpenAI द्वारा विशेष ChatGPT Work अनुभव की शुरुआत",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) अनुसंधान और परिनियोजन कंपनी OpenAI ने वित्तीय क्षेत्र के लिए विशेष रूप से डिज़ाइन किया गया एक नया ChatGPT Work अनुभव लॉन्च करने की घोषणा की है। यह नया उत्पाद, जिसे 'ChatGPT for Financial Services' कहा जा रहा है, मुख्य रूप से निवेश बैंकिंग और इक्विटी रिसर्च में काम करने वाली टीमों की सहायता के…",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Morgan Stanley"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1ef5285e671d",
+    "title": "OpenAI और GSA के बीच नया समझौता: सरकारी कर्मचारियों को मिलेगा मुफ्त AI एक्सेस",
+    "summary": "OpenAI और U.S. General Services Administration (GSA) ने एक अभूतपूर्व, बहु-वर्षीय समझौते की घोषणा की है। इस समझौते के तहत योग्य संघीय, राज्य, स्थानीय और आदिवासी सरकारों को $0 लाइसेंस शुल्क (जो सामान्यतः $15 प्रति उपयोगकर्ता प्रति माह होता है) और उपयोग पर 50% की छूट मिलेगी। यह पहल पिछले वर्ष के संघीय प्रस्ताव का विस्तार…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "General Services Administration (GSA)",
+      "GPT-6 Astra"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1DEaAuLURNi6NKQiYOfhud/fcd14224030f0310a9a5d54ffa165f14/government-blog-seo-option-051-final-1920x1080.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2b26a8066576",
+    "title": "ओपनएआई ने पेश किया एजेंट्स एपीआई, डेवलपर्स के लिए क्लाउड एजेंट्स बनाना हुआ आसान",
+    "summary": "10 सितंबर 2026 को, ओपनएआई ने अपने नए एजेंट्स एपीआई की घोषणा की, जो डेवलपर्स के लिए एक महत्वपूर्ण कदम है। यह पूरी तरह से प्रबंधित सेवा है जो कोडक्स (Codex) हार्नेस द्वारा संचालित है। इसके माध्यम से डेवलपर्स अब बिना किसी जटिल बैकएंड इंफ्रास्ट्रक्चर की चिंता किए अपने क्लाउड एजेंट्स को आसानी से बना और लॉन्च कर सकते हैं।",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "Agents API",
+      "Codex"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/430gA5qBJZHD8Dd4uGmm6J/f91d9df145eab0f0f981f60958026813/og-image.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4e410dad70fb",
+    "title": "GPT-Live-1 API के साथ अधिक प्राकृतिक वॉयस अनुभव बनाएं",
+    "summary": "OpenAI ने सितंबर 2026 में डेवलपर्स के लिए GPT-Live-1 API पेश किया है। यह नया मॉडल डेवलपर्स को प्राकृतिक और फुल-डुप्लेक्स (full-duplex) बातचीत का अनुभव प्रदान करता है। इस टूल के माध्यम से डेवलपर्स वॉयस-सक्षम एप्लिकेशन और व्यावसायिक वर्कफ़्लो आसानी से बना सकते हैं। इस API की कीमत $0.05 प्रति मिनट तय की गई है, जो इसे…",
+    "category": "model_release",
+    "tags": [
+      "GPT-Live-1",
+      "OpenAI",
+      "Speak"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b7b7625095b2",
+    "title": "QingYunA/agent-html: एलएलएम-जनरेटेड एचटीएमएल डैशबोर्ड्स के लिए एक नया समाधान",
+    "summary": "जब डेवलपर्स एलएलएम को एचटीएमएल डैशबोर्ड या रिपोर्ट बनाने के लिए कहते हैं, तो परिणाम अक्सर बिना स्टाइल वाले या टूटे हुए होते हैं। इस समस्या को हल करने के लिए 'एजेंट-एचटीएमएल' नामक एक नया टूल सामने आया है। यह एक शून्य-निर्भरता, सिंगल-फाइल एचटीएमएल डिज़ाइन सिस्टम है जो शडसीएन/यूआई (shadcn/ui) से प्रेरित है। यह 100%…",
+    "category": "repo_analysis",
+    "tags": [
+      "QingYunA",
+      "agent-html",
+      "shadcn/ui"
+    ],
+    "image": "https://opengraph.githubassets.com/1/QingYunA/agent-html",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "efc045790983",
+    "title": "FreeDeepseekAPI-EN: ओपन-सोर्स कम्युनिटी द्वारा DeepSeek को स्थानीय टूल्स से जोड़ने का नया प्रयास",
+    "summary": "ओपन-सोर्स एआई इकोसिस्टम में एक नया प्रयोग सामने आया है। टेकदृष्टि के तकनीकी सूत्रों के अनुसार, Atharvotech ने FreeDeepseekAPI-EN नामक एक नया प्रोजेक्ट पेश किया है, जो DeepSeek वेब चैट के लिए एक प्रॉक्सी सर्वर के रूप में कार्य करता है। यह टूल विशेष रूप से उन डेवलपर्स के लिए बनाया गया है जो DeepSeek के विशाल भाषा मॉडल…",
+    "category": "repo_analysis",
+    "tags": [
+      "FreeDeepseekAPI-EN",
+      "DeepSeek",
+      "Open WebUI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/atharvotech/FreeDeepseekAPI-EN",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "74125c188853",
+    "title": "Atomburstofficial/geiger: एआई एजेंटों के लिए एक नया सुरक्षा टूल",
+    "summary": "एआई एजेंट और प्लगइन्स के तेजी से विकास ने डेवलपर्स के लिए एक नई चुनौती पैदा कर दी है। अब यह जानना मुश्किल हो गया है कि मशीन पर वास्तव में क्या चल रहा है और वह किन संसाधनों तक पहुंच सकता है। इसी समस्या को सुलझाने के लिए Atomburstofficial ने 'geiger' नामक एक टूल पेश किया है। यह टूल बिना किसी इंस्टॉलेशन या टेलीमेट्री के…",
+    "category": "repo_analysis",
+    "tags": [
+      "Atomburstofficial",
+      "Geiger",
+      "Node.js"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Atomburstofficial/geiger",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a0941851794b",
+    "title": "Agentic Stack: कोडिंग एजेंट्स के लिए एक नया साझा मेमोरी समाधान",
+    "summary": "कोडिंग की दुनिया में आर्टिफिशियल इंटेलिजेंस का उपयोग तेजी से बढ़ रहा है, लेकिन अक्सर ये AI एजेंट्स एक-दूसरे से अलग-थलग काम करते हैं, जिससे जानकारी साझा करने में समस्या आती है। इस समस्या के समाधान के रूप में Agentic Stack को पेश किया गया है, जो Apple Silicon Macs के लिए एक नया और इनोवेटिव macOS एप्लिकेशन है। यह टूल…",
+    "category": "general",
+    "tags": [
+      "codejunkie99",
+      "Agentic Stack",
+      "Claude Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/codejunkie99/agentic-stack-desktop",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d134434e72dc",
+    "title": "Dryxio का नया एआई टूल 'GTA-Scout' 3D मॉडलिंग को दे रहा है नई दिशा",
+    "summary": "लॉस एंजिल्स स्थित डेवलपर Dryxio ने एक नया एआई टूल लॉन्च किया है, जिसका नाम Dryxio/gta-scout है। यह एक एजेंटिक बिल्डर है जो रिवर्स इंजीनियरिंग और क्लासिक 'ग्रैंड थेफ्ट ऑटो' (GTA) मॉडडिंग में माहिर है। यह टूल एक प्रारंभिक अल्फा प्रोजेक्ट है, जिसे एआई और ब्लेंडर का उपयोग करके GTA-शैली के 3D मॉडल और दृश्य बनाने के लिए…",
+    "category": "repo_analysis",
+    "tags": [
+      "Dryxio",
+      "GTA-Scout"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Dryxio/gta-scout",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7d2cf6d6f3cc",
+    "title": "OHnews: एआई-नेटिव समाचार इंटेलिजेंस टर्मिनल ने समाचार उपभोग की कमियों को दूर करने का दावा किया",
+    "summary": "आज के समय में समाचार उपभोग की प्रक्रिया कई जगहों पर टूट जाती है। इस समस्या को सुलझाने के लिए OHnews का आगमन हुआ है, जो एक एआई-नेटिव समाचार इंटेलिजेंस टर्मिनल है। यह प्लेटफॉर्म केवल एक फीड प्रदान करने के बजाय, एक क्लोज्ड कॉग्निटिव लूप पर काम करता है। इस लूप में उपयोगकर्ता सबसे पहले किसी बदलाव पर ध्यान देते हैं, फिर…",
+    "category": "repo_analysis",
+    "tags": [
+      "OrangeLatte",
+      "OHnews",
+      "LangGraph"
+    ],
+    "image": "https://opengraph.githubassets.com/1/OrangeLatte/OHnews",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "eb502fc1944e",
+    "title": "डीपसीक हार्नेस के लिए नया dsh-memgas प्लगइन: शून्य कॉन्फ़िगरेशन के साथ दीर्घकालिक मेमोरी",
+    "summary": "डीपसीक हार्नेस (dsh), जो एजेंट हार्नेस बनाने के लिए एक मॉड्यूलर डेवलपर प्रीव्यू प्लेटफॉर्म है, के लिए एक नया प्लगइन 'dsh-memgas' पेश किया गया है। यह प्लगइन डेवलपर्स को बिना किसी जटिल सेटअप के अपने एजेंट की दीर्घकालिक मेमोरी बनाने की सुविधा देता है, जिससे एजेंट विभिन्न चैट सत्रों के दौरान प्रोजेक्ट की परंपराओं और…",
+    "category": "repo_analysis",
+    "tags": [
+      "DeepSeek Harness",
+      "dsh-memgas",
+      "MemGAS"
+    ],
+    "image": "https://opengraph.githubassets.com/1/quqxui/dsh-memgas",
+    "source": "github",
+    "first_seen": "2026-09-11T07:25:34.665220+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "8c0d9de43541",
     "title": "प्रकाश की गति 5 किमी/घंटा: एक नया सिम्युलेटर जो आइंस्टीन के सिद्धांतों को आम लोगों के लिए सुलभ बनाता है",
     "summary": "टेकदृष्टि के पाठकों के लिए एक अनोखा और रोमांचक अनुभव सामने आया है। भौतिकी के सबसे जटिल सिद्धांतों को आम लोगों तक पहुँचाने के उद्देश्य से, दिमित्री ब्रेंट ने 2026 में एक नया 'शो एचएन' (Show HN) प्रोजेक्ट विकसित किया है। इस प्रोजेक्ट के तहत, प्रकाश की गति को 5 किलोमीटर प्रति घंटा (जो कि एक तेज सैर की सामान्य गति है) कर…",
