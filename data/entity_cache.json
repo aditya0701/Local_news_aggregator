@@ -8,8 +8,8 @@
   "meta": {
     "canonical_name": "Meta",
     "entity_type": "company",
-    "summary": "# Meta. Meta is a digital services provider best known for its flagship social media platform, Facebook, which boasts over two billion active users. Founded by Mark Zuckerberg, Facebook began as a networking site for Harvard students but rapidly expanded to include all individuals over the age of th",
-    "last_updated": "2026-07-01"
+    "summary": "Meta's mission is to build the future of human connection and the technology that makes it possible. The company's principles guide its approach to building technology that connects people to people, interests, and experiences that matter to them.",
+    "last_updated": "2026-09-12"
   },
   "gpt4o": {
     "canonical_name": "GPT-4o",
@@ -1882,9 +1882,9 @@
   },
   "openrouter": {
     "canonical_name": "OpenRouter",
-    "entity_type": "technology",
-    "summary": "For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page. # Principles. Core principles and values of OpenRouter. OpenRouter helps developers source and optimize AI usage. ## Why",
-    "last_updated": "2026-07-03"
+    "entity_type": "product",
+    "summary": "OpenRouter is an AI inference platform that provides access to over 500 active models from 80+ providers. It offers managed serverless inference, edge computing for low latency, and features like zero data retention (ZDR) to protect organizational data.",
+    "last_updated": "2026-09-12"
   },
   "openai": {
     "canonical_name": "OpenAI",
@@ -1943,8 +1943,8 @@
   "pyside6": {
     "canonical_name": "PySide6",
     "entity_type": "technology",
-    "summary": "We use cookies to understand how people use this site. Next: Jul 13Rio de Janeiro icon. Organizers: Douglas +2São Paulo icon. Next: Jul 30Ribeirão Preto icon. Organizers: Rodrigo Silva +2Curitiba icon. # PySide6. PySide6 is the official Python library from The Qt Company, delivering direct access to",
-    "last_updated": "2026-07-03"
+    "summary": "PySide6 is the official Python module from the Qt for Python project, which provides access to the complete Qt 6.0+ framework. It is available under both Open Source (LGPLv3 or GPLv2 or GPLv3) and commercial licenses, and can be installed via pip.",
+    "last_updated": "2026-09-12"
   },
   "interação humanocomputador": {
     "senses": [
@@ -4552,9 +4552,9 @@
   },
   "apache20": {
     "canonical_name": "Apache-2.0",
-    "entity_type": "regulation",
-    "summary": "The Apache Software Foundation (ASF) provides software for the public good, guided by community over code. It is the home of trusted open-source projects in data, cloud, search, and more. The ASF offers a neutral, trusted home for projects, with contribution available to everyone, and is guided by t",
-    "last_updated": "2026-07-07"
+    "entity_type": "protocol",
+    "summary": "The material provided does not describe a specific protocol named 'Apache-2.0'; rather, it describes the Apache HTTP Server 2.0 and the Apache License, Version 2.0.",
+    "last_updated": "2026-09-12"
   },
   "bsl 11": {
     "canonical_name": "BSL 1.1",
@@ -4724,8 +4724,8 @@
   "techcrunch": {
     "canonical_name": "TechCrunch",
     "entity_type": "organization",
-    "summary": "TechCrunch is an online magazine reporting on technology opinions, news, and analysis. Founded in 2005, it provides breaking technology news, opinions, and analysis on tech companies worldwide, covering publicly traded tech companies to emerging startups and venture capital funding rounds.",
-    "last_updated": "2026-07-11"
+    "summary": "TechCrunch is an organization that reports on the business of technology, startups, venture capital funding, and Silicon Valley. It covers top headlines and hosts events and competitions, such as its iconic Startup Battlefield, to support early-stage founders.",
+    "last_updated": "2026-09-12"
   },
   "startup battlefield 200": {
     "senses": [
@@ -5735,8 +5735,8 @@
   "automattic": {
     "canonical_name": "Automattic",
     "entity_type": "company",
-    "summary": "Automattic is a Silicon Valley company that offers a successful product for free and has been doing so for 20 years. It is described as prioritizing and protecting customers' freedom to use tools of the open web, including those it doesn't make itself, and is noted for its commitment to privacy and",
-    "last_updated": "2026-07-11"
+    "summary": "Automattic is a tech company that believes in making the web a better place and prioritizes protecting customers' freedom to use the open web. It has 1,424 employees, known as Automatticians, who speak 108 different languages and operate in nearly every corner of the globe.",
+    "last_updated": "2026-09-12"
   },
   "true ventures": {
     "canonical_name": "True Ventures",
@@ -5752,9 +5752,9 @@
   },
   "x": {
     "canonical_name": "X",
-    "entity_type": "technology",
-    "summary": "X-Road® is a centrally managed distributed data exchange layer that ensures confidentiality, integrity, and interoperability between data exchange parties. It provides a standardized and secure way to produce and consume services, supporting features like address management, message routing, and acc",
-    "last_updated": "2026-07-11"
+    "entity_type": "product",
+    "summary": "X is a platform offering tools for posting, engaging with an audience, monitoring conversations and trends, and monetizing content. It provides various options and features, including Promoted Ads in sub-categories such as Image Ads, to help users achieve their goals.",
+    "last_updated": "2026-09-12"
   },
   "maveron": {
     "canonical_name": "Maveron",
@@ -6713,14 +6713,14 @@
   "will douglas heaven": {
     "canonical_name": "Will Douglas Heaven",
     "entity_type": "person",
-    "summary": "Will Douglas Heaven is the senior editor for AI at MIT Technology Review, where he covers emerging trends and the people behind the tech. Previously, he was founding editor at the BBC tech-meets-geopolitics website Future Now and chief technology editor at New Scientist magazine. He has a PhD in com",
-    "last_updated": "2026-07-14"
+    "summary": "Will Douglas Heaven is the senior editor for AI at MIT Technology Review. He covers new research, emerging trends, and the people behind them, bringing a research background in computer science to his journalism.",
+    "last_updated": "2026-09-12"
   },
   "dario amodei": {
     "canonical_name": "Dario Amodei",
     "entity_type": "person",
-    "summary": "Dario Amodei is the co-founder and CEO of Anthropic, an AI safety company. He cofounded the company in 2021 with former OpenAI employees and has a PhD in computer science from Imperial College London. His work focuses on building large-scale artificial intelligence systems and exploring AI safety.",
-    "last_updated": "2026-07-14"
+    "summary": "Dario Amodei is an Italian-American artificial intelligence researcher and entrepreneur born in 1983. He is the co-founder and CEO of Anthropic, an AI safety company that he founded in 2021 with several former OpenAI employees.",
+    "last_updated": "2026-09-12"
   },
   "tom blomfield": {
     "canonical_name": "Tom Blomfield",
@@ -7649,8 +7649,8 @@
   "roblox": {
     "canonical_name": "Roblox",
     "entity_type": "company",
-    "summary": "Roblox is a global platform where millions of people gather together every day to imagine, create, and share experiences with each other in immersive, user-generated 3D worlds. This is where games are discovered, built, and experienced. Explore our vast library of games and discover new adventures a",
-    "last_updated": "2026-07-16"
+    "summary": "Roblox Corp. provides online gaming services and is headquartered in San Mateo, California, employing 3,065 full-time employees as of the latest report. The company went public via an IPO on March 10, 2021, and its platform is composed of the Roblox Client, Roblox Studio, and the Roblox Cloud.",
+    "last_updated": "2026-09-12"
   },
   "android 17": {
     "canonical_name": "Android 17",
@@ -7804,9 +7804,9 @@
   },
   "kimi": {
     "canonical_name": "Kimi",
-    "entity_type": "company",
-    "summary": "Kimi is a company that provides AI services and models, with its K3 model achieving #1 in the Frontend Code Arena. The company is associated with Moonshot AI and has a presence on its website, app, and API.",
-    "last_updated": "2026-07-17"
+    "entity_type": "ai_model",
+    "summary": "Kimi is a family of open-source AI models developed by Moonshot AI. The Kimi K2.5 model is a multimodal AI that can understand and generate text, code, and visual content, while the Kimi K3 model features 2.8 trillion parameters.",
+    "last_updated": "2026-09-12"
   },
   "kimi k3": {
     "canonical_name": "Kimi K3",
@@ -8582,8 +8582,8 @@
   "mit technology review": {
     "canonical_name": "MIT Technology Review",
     "entity_type": "organization",
-    "summary": "MIT Technology Review affirms a commitment to protect and nurture the mental and physical well-being of its community. It is committed to diversity, which connotes an awareness and acceptance of the value and strength derived from having a workplace that encompasses multiple cultures, races, and oth",
-    "last_updated": "2026-07-18"
+    "summary": "MIT Technology Review is a world-renowned independent media company founded at the Massachusetts Institute of Technology in 1899. It provides insight and analysis on the newest technologies and their commercial, social, and political impacts through award-winning journalism and premium live events.",
+    "last_updated": "2026-09-12"
   },
   "prediction markets": {
     "canonical_name": "Prediction markets",
@@ -10360,9 +10360,9 @@
   },
   "facebook": {
     "canonical_name": "Facebook",
-    "entity_type": "company",
-    "summary": "material did not address this",
-    "last_updated": "2026-07-22"
+    "entity_type": "product",
+    "summary": "Facebook is a social networking platform owned by Meta that includes products like Facebook, Instagram, Messenger, and WhatsApp. It offers communication and sharing features, and as of 2021, it had nearly three billion users worldwide, with about half using the platform daily.",
+    "last_updated": "2026-09-12"
   },
   "snapchat": {
     "canonical_name": "Snapchat",
@@ -11546,8 +11546,8 @@
   "kindred ventures": {
     "canonical_name": "Kindred Ventures",
     "entity_type": "company",
-    "summary": "Kindred Ventures is a venture firm where Adriana leads the finance and compliance functions. The company has experience in operating roles and has started several venture-backed startups that have exited. Their mission is to support dedicated founders on their journeys by providing expertise and sup",
-    "last_updated": "2026-07-24"
+    "summary": "Kindred Ventures backs visionary thinkers and pioneers building technologies that will move humanity into the frontier of innovation. The firm supports dedicated founders on their journeys by leveraging its founders' firsthand experience in operating roles and building venture-backed startups.",
+    "last_updated": "2026-09-12"
   },
   "model 3": {
     "senses": [
@@ -11728,9 +11728,9 @@
   },
   "claude opus": {
     "canonical_name": "Claude Opus",
-    "entity_type": "product",
-    "summary": "Claude Opus is Anthropic’s flagship model family for the hardest reasoning, coding, analysis, and long-context tasks. It is the highest-capability model in the lineup, built for maximum capability and available for the most demanding tasks.",
-    "last_updated": "2026-07-24"
+    "entity_type": "ai_model",
+    "summary": "Claude Opus is Anthropic's most powerful AI model, designed to provide fast, clear answers and assist with tasks such as research, coding, and content writing. It is positioned as an advanced solution for work, study, and creativity.",
+    "last_updated": "2026-09-12"
   },
   "gmail": {
     "canonical_name": "Gmail",
@@ -12266,8 +12266,8 @@
   "cognition": {
     "canonical_name": "Cognition",
     "entity_type": "company",
-    "summary": "Cognition helps engineers operate more like architects by strategizing, designing systems, and focusing on problem-solving, while its agents handle repetitive engineering work. The company believes technology's purpose is to expand human capacity by working alongside people as an exponential collabo",
-    "last_updated": "2026-07-25"
+    "summary": "Cognition is an applied AI lab that developed the AI coding agent Devin, which handles tasks like detecting and fixing bugs. The company is backed by major investors and has raised significant funding, reaching a $10.2 billion valuation.",
+    "last_updated": "2026-09-12"
   },
   "poke": {
     "canonical_name": "Poke",
@@ -15304,5 +15304,479 @@
     "entity_type": "product",
     "summary": "DeepSeek Harness is a developer preview platform for building agent harnesses that allows developers to include source code in their projects. It operates on a modular architecture where every capability, such as models, tools, skills, and UI, is a swappable plugin managed by the Cordis kernel.",
     "last_updated": "2026-09-11"
+  },
+  "autom": {
+    "canonical_name": "Autom",
+    "entity_type": "product",
+    "summary": "Autom Mate is a web-based hyper-automation platform designed to simplify the creation and management of automation processes for users of all technical levels. It provides tools to streamline IT and business processes, making workflows more efficient.",
+    "last_updated": "2026-09-12"
+  },
+  "millennium prize problems": {
+    "canonical_name": "Millennium Prize Problems",
+    "entity_type": "event",
+    "summary": "The Clay Mathematics Institute established the seven Millennium Prize Problems to highlight difficult mathematical challenges at the turn of the second millennium and elevate public awareness of mathematics. The prizes were announced at a meeting in Paris on May 24, 2000 at the Collège de France, wh",
+    "last_updated": "2026-09-12"
+  },
+  "dayzle": {
+    "canonical_name": "Dayzle",
+    "entity_type": "product",
+    "summary": "Dayzle is a mobile brain-training application that offers five puzzles per day, designed to be completed in ten minutes. The app is free to download on both iOS and Android, and was created to provide a stress-free environment where users can practice and feel good about their progress.",
+    "last_updated": "2026-09-12"
+  },
+  "asyncawait": {
+    "canonical_name": "async/await",
+    "entity_type": "technology",
+    "summary": "What Is Asynchronous JavaScript? Before we explore Async/Await, it's important to understand what asynchronous programming means. In synchronous JavaScript, code runs line by line, and the next line waits for the previous one to finish. In real-world applications, certain tasks, such as getting data",
+    "last_updated": "2026-09-12"
+  },
+  "a design space exploration of asyncawait": {
+    "canonical_name": "A Design Space Exploration of Async/Await",
+    "entity_type": "product",
+    "summary": "Language designs for straight-line asynchrony have been brewing for over 15 years. In this project, we wanted to understand: how similar or different is async/await between languages? The short answer is a lot more different than we expected. We wrote a paper, “A Design Space Exploration of Async/Aw",
+    "last_updated": "2026-09-12"
+  },
+  "rubygems": {
+    "canonical_name": "RubyGems",
+    "entity_type": "product",
+    "summary": "RubyGems is a community-run service overseen by Ruby Central and its Open Source Program, responsible for maintaining the website and service. It hosts a vast repository of downloads and offers a Supporter Program for funding its maintenance, operations, and growth.",
+    "last_updated": "2026-09-12"
+  },
+  "jonas wiedermannmöller": {
+    "canonical_name": "Jonas Wiedermann-Möller",
+    "entity_type": "person",
+    "summary": "Jonas Wiedermann-Möller is a Data Science M.Sc. student at Bielefeld University who completed his master's thesis at the ELLIS Institute Tübingen in the AI Safety & Alignment group. He is currently doing a research internship at ExpSec and focuses on the empirical evaluation of LLM agents and AI saf",
+    "last_updated": "2026-09-12"
+  },
+  "alicja piecha": {
+    "canonical_name": "Alicja Piecha",
+    "entity_type": "person",
+    "summary": "Alicja Piecha is a Senior In-house lawyer at Bloober Team S.A. holding an LL.M. in American Law. Her professional experience and education are primarily centered in the legal field in the Cracow Metropolitan Area.",
+    "last_updated": "2026-09-12"
+  },
+  "swarmchasers": {
+    "canonical_name": "Swarmchasers",
+    "entity_type": "organization",
+    "summary": "Swarmchasers is an organization, specifically Swarm Chasers Apiaries, that specializes in the production and sale of various honey products. It is associated with the Georgia Beekeepers Association and the Eastern Apiculture Society, focusing on education and local beekeeping support.",
+    "last_updated": "2026-09-12"
+  },
+  "niall firth": {
+    "canonical_name": "Niall Firth",
+    "entity_type": "person",
+    "summary": "Niall Firth is the executive editor of the newsroom at MIT Technology Review. With over 20 years of newsroom leadership experience, he oversees all journalism across the web, app, and newsletters, managing reporters and editors to produce award-winning coverage, investigations, and long-form feature",
+    "last_updated": "2026-09-12"
+  },
+  "laureen meroueh": {
+    "canonical_name": "Laureen Meroueh",
+    "entity_type": "person",
+    "summary": "Dr. Laureen Meroueh is the Founder and CEO of Hertha Metals and the inventor of the company's proprietary pyrometallurgical process. She holds a PhD in Mechanical Engineering and Materials Science from the Massachusetts Institute of Technology.",
+    "last_updated": "2026-09-12"
+  },
+  "hertha metals": {
+    "canonical_name": "Hertha Metals",
+    "entity_type": "company",
+    "summary": "Hertha Metals is a venture-backed stealthy startup company developing advanced steel solutions to decarbonize steel production. The company is dedicated to making steel production a resilient and strategically vital industry for the U.S. and the world.",
+    "last_updated": "2026-09-12"
+  },
+  "paschal kija": {
+    "canonical_name": "Paschal Kija",
+    "entity_type": "person",
+    "summary": "Paschal Kija is a medical doctor, social entrepreneur, and business strategist. He focuses on health entrepreneurship and advocates for starting businesses by identifying and solving specific problems.",
+    "last_updated": "2026-09-12"
+  },
+  "mkanda salama": {
+    "canonical_name": "Mkanda Salama",
+    "entity_type": "product",
+    "summary": "Mkanda Salama is a reusable, non-invasive, and affordable medical device designed to address high rates of maternal morbidity and mortality. It targets postpartum hemorrhage, a major cause of maternal deaths in low and middle-income countries like Tanzania.",
+    "last_updated": "2026-09-12"
+  },
+  "xiao yang": {
+    "canonical_name": "Xiao Yang",
+    "entity_type": "person",
+    "summary": "Xiao Yang is an assistant professor of biomedical engineering who was recognized on the MIT Technology Review “Innovators Under 35 Asia Pacific” list. He is a quantitative psychologist who develops novel methods to study complex psychological processes and their impact on mental health.",
+    "last_updated": "2026-09-12"
+  },
+  "kyle kj muldoon jr": {
+    "canonical_name": "Kyle \"KJ\" Muldoon Jr.",
+    "entity_type": "person",
+    "summary": "Kyle \"KJ\" Muldoon Jr. is a baby who was treated with a bespoke gene-editing therapy for a rare metabolic condition caused by a highly unusual gene misspelling. The case marked the first time gene editing was tailored to treat a single individual.",
+    "last_updated": "2026-09-12"
+  },
+  "mecka ai": {
+    "canonical_name": "Mecka AI",
+    "entity_type": "startup",
+    "summary": "Mecka AI builds the infrastructure for robots to learn about the real world and deploy reliably into commercial settings. The company focuses on providing the data and deployment layer for physical AI, helping models generalize through large-scale edge cases and task-specific demonstrations.",
+    "last_updated": "2026-09-12"
+  },
+  "sequoia capital": {
+    "canonical_name": "Sequoia Capital",
+    "entity_type": "company",
+    "summary": "Sequoia Capital is a well-known venture-capital firm headquartered in Menlo Park, California, with a history dating back to 1972. As of 2025, the company has approximately $56 billion in assets under management, investing across seed, Series A, growth, and pre-IPO stages.",
+    "last_updated": "2026-09-12"
+  },
+  "josh gao": {
+    "canonical_name": "Josh Gao",
+    "entity_type": "person",
+    "summary": "Josh Gao is the Co-Founder and CEO of Mecka AI. He previously worked at Orange Juice The Brand as a Co-Founder and is also the Co-Founder of Mentum, where he has 25 years of experience in procurement, operations, and business consulting.",
+    "last_updated": "2026-09-12"
+  },
+  "jason chong": {
+    "canonical_name": "Jason Chong",
+    "entity_type": "person",
+    "summary": "Jason Chong is an Australian actor born on October 29, 1969, in Balmain, Sydney, New South Wales. He graduated from Australia's National Institute of Dramatic Art (NIDA) with a degree in Performing Arts (Acting) in 1996.",
+    "last_updated": "2026-09-12"
+  },
+  "surge": {
+    "canonical_name": "Surge",
+    "entity_type": "company",
+    "summary": "Surge AI, a San Francisco-based American multinational data annotation company, helps tech companies build smarter AI by supplying human feedback that helps models understand nuance. The company focuses on reinforcement learning from human feedback (RLHF), RL environments, and annotating language da",
+    "last_updated": "2026-09-12"
+  },
+  "jacob helberg": {
+    "canonical_name": "Jacob Helberg",
+    "entity_type": "person",
+    "summary": "Jacob Helberg is a Senior Advisor to the Chief Executive Officer of Palantir Technologies. He is a commissioner for the U.S.-China Economic and Security Review Commission and an Adjunct Senior Fellow for the Technology and National Security Program at CNAS.",
+    "last_updated": "2026-09-12"
+  },
+  "ramp": {
+    "canonical_name": "Ramp",
+    "entity_type": "company",
+    "summary": "Ramp is a platform that helps businesses control spend, save time, and automate busy work. Its software enforces policies, flags unusual transactions, and automates routine decisions, while providing real-time spend visibility and advanced spend controls.",
+    "last_updated": "2026-09-12"
+  },
+  "k3": {
+    "canonical_name": "K3",
+    "entity_type": "ai_model",
+    "summary": "Kimi K3 is an AI model publicly released by Moonshot AI on July 16, 2026, featuring 2.8 trillion parameters. It is the first open-source model to reach the 3-trillion-parameter class and introduces architectural innovations that improve scaling efficiency by approximately 2.5x over its predecessor.",
+    "last_updated": "2026-09-12"
+  },
+  "roblox developer conference": {
+    "canonical_name": "Roblox Developer Conference",
+    "entity_type": "event",
+    "summary": "The Roblox Developers Conference (RDC) is an invite-only hybrid event that gathers innovative developers, creators, brands, and influencers from the global community to build connections, learn, and share ideas. The conference outlines the next year for the platform and highlights upcoming changes a",
+    "last_updated": "2026-09-12"
+  },
+  "weglobal ai": {
+    "canonical_name": "WeGlobal AI",
+    "entity_type": "company",
+    "summary": "WeGlobal.ai is a digital care system designed for children and teens, connecting psychologists, social educators, teachers, school leadership, parents, and Psychological Support Centers in a unified digital space. The platform aggregates student results into a single profile to show trends and highl",
+    "last_updated": "2026-09-12"
+  },
+  "silkroad innovation hub": {
+    "canonical_name": "Silkroad Innovation Hub",
+    "entity_type": "organization",
+    "summary": "Silkroad Innovation Hub is an organization that connects ambitious startups and global enterprises to the U.S. market, operating out of Silicon Valley. It provides a vibrant community, extensive local networks, and tailored acceleration programs to help participants thrive.",
+    "last_updated": "2026-09-12"
+  },
+  "astana hub": {
+    "canonical_name": "Astana Hub",
+    "entity_type": "organization",
+    "summary": "Astana Hub, officially known as the International Technopark of IT-Startups, is a regional network established in 2018 by the government of Kazakhstan. It fosters a vibrant startup culture, provides comprehensive support for high-tech IT ventures, and offers online services, networking platforms, an",
+    "last_updated": "2026-09-12"
+  },
+  "it park uzbekistan": {
+    "canonical_name": "IT Park Uzbekistan",
+    "entity_type": "organization",
+    "summary": "IT Park Uzbekistan is an organization that acts as a locomotive for the country's IT industry, which is viewed as a key driver for economic growth and export. It focuses on human capital to turn Uzbekistan into a technological country and runs a three-month program for startup projects aimed at the",
+    "last_updated": "2026-09-12"
+  },
+  "isabelle johannessen": {
+    "canonical_name": "Isabelle Johannessen",
+    "entity_type": "person",
+    "summary": "Isabelle Johannessen is a key executive at TechCrunch who leads the Startup Battlefield, an iconic competition for early-stage founders. She is also the host of Build Mode, a podcast that serves as a founder survival guide, and draws on over 20 years of experience identifying and nurturing founders",
+    "last_updated": "2026-09-12"
+  },
+  "new mexico supreme court": {
+    "canonical_name": "New Mexico Supreme Court",
+    "entity_type": "organization",
+    "summary": "The New Mexico Supreme Court is the state's highest court and serves as the final arbiter of state law. It is part of the broader New Mexico judicial branch, which includes district, magistrate, metropolitan, county probate, and municipal courts.",
+    "last_updated": "2026-09-12"
+  },
+  "stephen aarons": {
+    "canonical_name": "Stephen Aarons",
+    "entity_type": "person",
+    "summary": "Stephen D. Aarons is a criminal defense attorney based in New Mexico who has a background in public service, teaching, and capital defense. He was featured in USA TODAY's 2025 Law's Finest: Distinguished Attorneys feature, highlighting his career inspired by a childhood reading of To Kill a Mockingb",
+    "last_updated": "2026-09-12"
+  },
+  "matt mullenweg": {
+    "canonical_name": "Matt Mullenweg",
+    "entity_type": "person",
+    "summary": "Matt Mullenweg is a founding developer of WordPress, the open-source software used by over 43% of the web. He founded Automattic in late 2005 and the company is now the force behind WordPress.com, Jetpack, WooCommerce, and several other products.",
+    "last_updated": "2026-09-12"
+  },
+  "mary hubbard": {
+    "canonical_name": "Mary Hubbard",
+    "entity_type": "person",
+    "summary": "Mary Hubbard is the Executive Director of WordPress, the open-source software platform maintained and supported by thousands of independent contributors worldwide. With over 20 years of industry experience, she specializes in product development, program management, and organizational efficiency, ha",
+    "last_updated": "2026-09-12"
+  },
+  "mark davies": {
+    "canonical_name": "Mark Davies",
+    "entity_type": "person",
+    "summary": "Mark Davies is the Co-Founder and CEO of S3, a full-service compliance and trade analytics software company. He is responsible for the organization's business strategy and oversees the executive team, as well as the company's day-to-day operations, client relations, sales, and marketing.",
+    "last_updated": "2026-09-12"
+  },
+  "iphone duo": {
+    "canonical_name": "iPhone Duo",
+    "entity_type": "product",
+    "summary": "The iPhone Duo is a foldable iPhone featuring the thinnest design with the largest display ever, which is 50 percent larger than the iPhone 18 Pro Max when open. It also includes an outer display with more than 90 percent of the screen area of the iPhone 18 Pro and is built with a titanium frame and",
+    "last_updated": "2026-09-12"
+  },
+  "allison johnson": {
+    "canonical_name": "Allison Johnson",
+    "entity_type": "person",
+    "summary": "Allison Johnson is a technology marketing executive, founder, and adviser whose career spans companies including IBM, Netscape, HP, Apple, PayPal, and Enphase Energy. She is the founder and president of JMG, Inc. and the Chief Marketing Officer at Enphase Energy, having previously served as EVP & Ch",
+    "last_updated": "2026-09-12"
+  },
+  "truth social": {
+    "canonical_name": "Truth Social",
+    "entity_type": "product",
+    "summary": "Truth Social is a social media app founded in 2022 by former U.S. president Donald Trump and launched in February 2022 as the flagship product of Trump Media & Technology Group (TMTG). It is described as America's 'Big Tent' social media platform that encourages an open, free, and honest global conv",
+    "last_updated": "2026-09-12"
+  },
+  "pinterest": {
+    "canonical_name": "Pinterest",
+    "entity_type": "product",
+    "summary": "Pinterest is a visual discovery engine for finding ideas like recipes, home and style inspiration, and more. Users can save discovered Pins to boards to keep their ideas organized and create their own Pins to share with others.",
+    "last_updated": "2026-09-12"
+  },
+  "search engine land": {
+    "canonical_name": "Search Engine Land",
+    "entity_type": "organization",
+    "summary": "Search Engine Land is an organization founded in 2006 that delivers expert news, analysis, and practical strategies for search marketers. Its purpose is to help search marketers stay at the forefront of SEO and PPC news, emerging trends, and actionable strategies.",
+    "last_updated": "2026-09-12"
+  },
+  "hayden field": {
+    "canonical_name": "Hayden Field",
+    "entity_type": "person",
+    "summary": "Hayden Field is the senior AI reporter at The Verge, where she leads coverage of major AI companies such as OpenAI, Anthropic, Google, and Meta, while also reporting on the societal implications of AI and regulatory responses. Prior to joining The Verge, she worked as the AI beat reporter at CNBC, c",
+    "last_updated": "2026-09-12"
+  },
+  "frank shaw": {
+    "canonical_name": "Frank Shaw",
+    "entity_type": "person",
+    "summary": "Frank X. Shaw served as Microsoft's Chief Communications Officer for 17 years, working with all three of the company's CEOs: Bill Gates, Steve Ballmer, and Satya Nadella. He played a major role in shaping how Microsoft communicates to the outside world and was a steady presence through the company's",
+    "last_updated": "2026-09-12"
+  },
+  "xreal": {
+    "canonical_name": "Xreal",
+    "entity_type": "company",
+    "summary": "XREAL is a leading global provider of consumer AR glasses, founded by Dr. Chi Xu in 2017. The company designs, develops, manufactures, and markets AR eyewear, hardware, and software solutions, with a growing focus on AI-empowered wearables.",
+    "last_updated": "2026-09-12"
+  },
+  "viture": {
+    "canonical_name": "Viture",
+    "entity_type": "company",
+    "summary": "VITURE is a cutting-edge startup company focusing on the AR field. It provides consumer-grade AR glasses with a fashionable design and a high-performance technology experience for users around the world, delivering immersive entertainment, gaming, and productivity experiences.",
+    "last_updated": "2026-09-12"
+  },
+  "project phoenix": {
+    "canonical_name": "Project Phoenix",
+    "entity_type": "product",
+    "summary": "Project Phoenix is an ultralight mixed reality headset codenamed by Meta, featuring a sub-110-gram frame, eye and hand tracking, and a tethered compute puck. Firmware graphics found in a Horizon app update revealed a possible launch target of 2027.",
+    "last_updated": "2026-09-12"
+  },
+  "quest 3": {
+    "canonical_name": "Quest 3",
+    "entity_type": "product",
+    "summary": "Meta Quest 3 is a standalone virtual reality (VR) headset developed by Reality Labs, a division of Meta Platforms. It was unveiled on June 1, 2023, and released on October 10, succeeding the Quest 2 as the third generation of the Meta Quest line.",
+    "last_updated": "2026-09-12"
+  },
+  "rayban ai": {
+    "canonical_name": "Ray-Ban AI",
+    "entity_type": "product",
+    "summary": "Ray-Ban Meta is a line of AI glasses developed by Meta. The glasses feature advanced in-lens display technology and are controlled by a smart EMG wristband, offering cutting-edge technology combined with iconic Ray-Ban design.",
+    "last_updated": "2026-09-12"
+  },
+  "project aura": {
+    "canonical_name": "Project Aura",
+    "entity_type": "product",
+    "summary": "Project Aura is Google's first flagship Android XR glasses, created in partnership with XREAL. Designed to deliver full capital apps, room-scale tracking, hand tracking input, and on-device Gemini AI, the glasses are set to launch in 2026.",
+    "last_updated": "2026-09-12"
+  },
+  "airpods 5": {
+    "canonical_name": "AirPods 5",
+    "entity_type": "product",
+    "summary": "The AirPods 5 feature Active Noise Cancellation with up to 1.5x more than the previous generation. They are powered by the H2 chip and include a redesigned acoustic architecture, Live Translation, and a new Siri AI.",
+    "last_updated": "2026-09-12"
+  },
+  "nicholas light": {
+    "canonical_name": "Nicholas Light",
+    "entity_type": "person",
+    "summary": "Nicholas Light is an actor born in 1933 in Portsmouth, Hampshire, England, UK, known for films such as The Red Grass (1959), The Budds of Paragon Row (1959), and The Secret of Carrick House (1959). He is also the name of a YouTube star born on July 15, 1995, in Queens, NY, who runs the Nicholas Ligh",
+    "last_updated": "2026-09-12"
+  },
+  "one piece": {
+    "canonical_name": "One Piece",
+    "entity_type": "product",
+    "summary": "One Piece is a franchise that offers a wide variety of products, such as the Cybercel Cards Series 2, available at the official online store Premium Bandai USA, presented by Bandai Namco Group. The store provides exclusive items and secure checkout processes for One Piece merchandise.",
+    "last_updated": "2026-09-12"
+  },
+  "science advances": {
+    "canonical_name": "Science Advances",
+    "entity_type": "organization",
+    "summary": "Science Advances is the American Association for the Advancement of Science’s (AAAS) open access multidisciplinary journal, publishing impactful research papers and reviews in any area of science, in both disciplinary-specific and broad, interdisciplinary areas. Science Advances is the American Asso",
+    "last_updated": "2026-09-12"
+  },
+  "egyptian artifacts": {
+    "canonical_name": "Egyptian artifacts",
+    "entity_type": "product",
+    "summary": "All Collections Collections Museum Exhibits & Expositions Science, Air, Sea & Space Enamel Jewelry & Cloisonne American & Western U.S. Medieval, European, Abbey Inspirational & Motivational Ancient Egyptian Artifacts Ancient Greek & Roman Asian, Oriental & Hindu 18th Century to Present View all Coll",
+    "last_updated": "2026-09-12"
+  },
+  "mass spectrometry": {
+    "canonical_name": "mass spectrometry",
+    "entity_type": "technology",
+    "summary": "Agilent has led innovation and performance in mass spectrometry for over 40 years. Overcome any laboratory challenge. Take your mass spectrometry analysis to the next level. Speed and sensitivity · Proven robustness · Reliable results · Enhanced productivity 0 Mass spectrometry, chromatography, spec",
+    "last_updated": "2026-09-12"
+  },
+  "moringa": {
+    "canonical_name": "moringa",
+    "entity_type": "material",
+    "summary": "Sep 8, 2025 · Abstract Moringa oleifera (MO), frequently referred to as the \"miracle tree,\" has gained significant attention due to its diverse applications in various domains. This comprehensive review discusses its phytochemical composition, nutritional richness, medicinal properties, and industri",
+    "last_updated": "2026-09-12"
+  },
+  "realgar": {
+    "canonical_name": "realgar",
+    "entity_type": "material",
+    "summary": "Realgar is a rare arsenic sulfide mineral known for its vivid orange-red color, monoclinic crystal structure, and historical use as a pigment and mineral specimen. List of all gemstones from A-Z with in-depth information for each Find out more about these popular gemstones and their meaning Realgar",
+    "last_updated": "2026-09-12"
+  },
+  "goethite": {
+    "canonical_name": "goethite",
+    "entity_type": "material",
+    "summary": "Aug 10, 2026 · Goethite, a naturally occurring iron oxide mineral known for its earthy tones and lustrous finish, has become a favored material in artisanal crafts and gift-making. Goethite , a naturally occurring iron oxide mineral, is prized not only for its geological significance but also for it",
+    "last_updated": "2026-09-12"
+  },
+  "egyptian blue": {
+    "canonical_name": "Egyptian blue",
+    "entity_type": "material",
+    "summary": "May 1, 2023 · This paper offers a review of the published archaeological evidence for Egyptian blue production, aiming to identify common and potentially diagnostic criteria for each process step to aid future identification and interpretation of Egyptian blue workshops sensu lato. Apr 13, 2026 · “E",
+    "last_updated": "2026-09-12"
+  },
+  "silicon dioxide": {
+    "canonical_name": "silicon dioxide",
+    "entity_type": "material",
+    "summary": "Silicon dioxide (SiO2), or silica, is defined as a common natural material and the second most prevalent biomineral, primarily found in soil, sand, and rock, as well as in various living organisms, including plants and sponges. Silicon dioxide, SiO2, is an amorphous material used in microsystems as",
+    "last_updated": "2026-09-12"
+  },
+  "copper": {
+    "canonical_name": "copper",
+    "entity_type": "material",
+    "summary": "Cadi Has In-stock Ready To Ship Copper Alloys. We Cut To Your Specifications. Call Now! Cadi Is Ready To Ship: Rod, Bar, Plate, Round Coil. Call Cadi Company For A Quote. Made In The USA · Attention To Quality · Large Stock Inventory · 47+ Years Of Experience Cadi Company is an ISO Certified industr",
+    "last_updated": "2026-09-12"
+  },
+  "calcium": {
+    "canonical_name": "calcium",
+    "entity_type": "material",
+    "summary": "Sep 4, 2026 · A large number of living organisms concentrate calcium in their shells or skeletons, and in higher animals calcium is the most abundant inorganic element. Many important carbonate and phosphate deposits owe their origin to living organisms. Jun 1, 2026 · Calcium is a soft silvery-white",
+    "last_updated": "2026-09-12"
+  },
+  "perplexity": {
+    "canonical_name": "Perplexity",
+    "entity_type": "company",
+    "summary": "Perplexity is an AI-powered search engine company cofounded in 2022 by Aravind Srinivas, Johnny Ho, Denis Yarats, and Andy Konwinski. It utilizes a combination of AI models to provide real-time, accurate answers and launched a general-purpose AI agent named Perplexity Computer in February 2026.",
+    "last_updated": "2026-09-12"
+  },
+  "johnny ho": {
+    "canonical_name": "Johnny Ho",
+    "entity_type": "person",
+    "summary": "Johnny Ho is the cofounder and chief strategy officer of Perplexity. He is a former quantitative trader who previously worked at Tower Research Capital and attended Harvard University.",
+    "last_updated": "2026-09-12"
+  },
+  "chaomin yu": {
+    "canonical_name": "Chaomin Yu",
+    "entity_type": "person",
+    "summary": "Chaomin Yu is a research assistant with experience in kernel porting and multicore data center simulation. He holds a B.S. in Computer Science from Peking University and is currently focused on improving Namenode scalability in the ShardFS Project.",
+    "last_updated": "2026-09-12"
+  },
+  "yan": {
+    "canonical_name": "Yan",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable overview of a single individual named Yan, as it lists multiple distinct people with the last name Yan, including Andrew Yan, Lance Yan, and Suji Yan, without a cohesive profile for one person.",
+    "last_updated": "2026-09-12"
+  },
+  "aimeoa": {
+    "canonical_name": "aimeoa",
+    "entity_type": "person",
+    "summary": "aimeoa is a GitHub user who has two repositories available, including the experimental project hanshuang-codex which has received 21 stars. The repository description references an external link at t.co/r3MZfKqtkx.",
+    "last_updated": "2026-09-12"
+  },
+  "hanshuangcodex": {
+    "canonical_name": "hanshuang-codex",
+    "entity_type": "product",
+    "summary": "Hanshuang Codex is a desktop utility built with Python and PySide6 designed to manage and inject custom instruction sets into the OpenAI Codex CLI configuration. It features a user interface with floating windows and a system tray, automated backups and restorations of configuration files, and multi",
+    "last_updated": "2026-09-12"
+  },
+  "noisyxl": {
+    "canonical_name": "Noisyxl",
+    "entity_type": "organization",
+    "summary": "Noisyxl has 297 repositories available on GitHub and offers a hash-chained prediction ledger for LLMs that is sealed before the answer exists and graded with proper scoring rules.",
+    "last_updated": "2026-09-12"
+  },
+  "brier": {
+    "canonical_name": "brier",
+    "entity_type": "product",
+    "summary": "BRIER is a creative studio founded in 2026 and based in Bro that specializes in identity design and brand strategy for consumer brands, particularly emerging businesses looking to establish their market presence.",
+    "last_updated": "2026-09-12"
+  },
+  "tudoumashu": {
+    "canonical_name": "tudoumashu",
+    "entity_type": "person",
+    "summary": "Tudou_Man is a digital artist who manages the ops-canvas-console project on GitHub. The project is described as a canvas work control panel designed for AI creation, integrating local projects.",
+    "last_updated": "2026-09-12"
+  },
+  "installmd": {
+    "canonical_name": "INSTALL.md",
+    "entity_type": "product",
+    "summary": "INSTALL.md is a platform designed to help users work more efficiently with coding agents by creating reusable step-by-step guides for complex code integrations. To use the service, users must create a free account using their GitHub credentials.",
+    "last_updated": "2026-09-12"
+  },
+  "verifymd": {
+    "canonical_name": "VERIFY.md",
+    "entity_type": "product",
+    "summary": "VerifyMD is a company that provides AI voice agents to automate medical verification tasks within the legal sector. The company was founded in 2023 and is based in Toronto, Ontario, aiming to reduce the time paralegals spend on administrative tasks.",
+    "last_updated": "2026-09-12"
+  },
+  "rucdatalab": {
+    "canonical_name": "ruc-datalab",
+    "entity_type": "organization",
+    "summary": "DataLab is a research team established by the School of Information at Renmin University of China, led by Professor Fan Ju, a recipient of the National Science Fund for Excellent Young Scholars. The team focuses on the interdisciplinary field of Data Systems + Artificial Intelligence (Data+AI), comm",
+    "last_updated": "2026-09-12"
+  },
+  "cursor agent": {
+    "canonical_name": "Cursor Agent",
+    "entity_type": "product",
+    "summary": "Cursor is a product that plans, writes, and reviews code using AI agents that understand your entire codebase across Desktop, CLI, Web, and Mobile environments. It also features a grid view of all open windows as scaled previews for quick selection, accessible via MenuBar.tsx, hotkey F3, or double-t",
+    "last_updated": "2026-09-12"
+  },
+  "vincentwei1021": {
+    "canonical_name": "Vincentwei1021",
+    "entity_type": "person",
+    "summary": "Vincentwei1021 develops AI video tools for Claude Code and Codex, creating cinematic product videos using Remotion templates. Their profile indicates professional experience at Amazon Web Services, OXID Audio, and WEX Inc., alongside academic affiliations with Florida International University and th",
+    "last_updated": "2026-09-12"
+  },
+  "kokoro82m": {
+    "canonical_name": "kokoro-82m",
+    "entity_type": "ai_model",
+    "summary": "Kokoro-82M is a lightweight, open-weight text-to-speech model with 82 million parameters based on the StyleTTS2 architecture. It converts text input into natural-sounding speech across multiple languages and voices while delivering quality comparable to larger models but with significantly faster sp",
+    "last_updated": "2026-09-12"
+  },
+  "sureforge": {
+    "canonical_name": "SureForge",
+    "entity_type": "product",
+    "summary": "SureForge is a brand known for manufacturing bats that feature advanced technology designed to deliver hotter performance and unmatched durability. The company focuses on continuous innovation to provide users with cutting-edge sports gear.",
+    "last_updated": "2026-09-12"
+  },
+  "nadircore": {
+    "canonical_name": "nadir-core",
+    "entity_type": "product",
+    "summary": "NADIR Core is an open-source ADAS drift scoring tool that evaluates sensor health from telemetry or synthetic data without writing to an ECU. It features a free local dashcam agent that estimates camera mount and geometry health. Version 0.2.0 (beta) is released under the Apache-2.0 license and is c",
+    "last_updated": "2026-09-12"
+  },
+  "ekf": {
+    "canonical_name": "EKF",
+    "entity_type": "technology",
+    "summary": "The provided material does not describe a specific technology named 'EKF'; it is an overview of EKF's product groups, such as CompactPCI®, Embedded, and ModBlox7™, as well as their contact information.",
+    "last_updated": "2026-09-12"
   }
 }
