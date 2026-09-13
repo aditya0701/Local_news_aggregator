@@ -898,9 +898,9 @@
   },
   "ai agents": {
     "canonical_name": "AI agents",
-    "entity_type": "technology",
-    "summary": "*   [Welcome](https://www.ibm.com/think/ai-agents#605511093). *   [Overview](https://www.ibm.com/think/topics/ai-agents#7281535). *   [What is agentic AI?](https://www.ibm.com/think/topics/agentic-ai#2095054954). *   [Overview](https://www.ibm.com/think/topics/ai-agent-development#1083937704). *   [",
-    "last_updated": "2026-07-03"
+    "entity_type": "ai_model",
+    "summary": "ServiceNow AI Agents are built with the Now Platform to operate natively and securely. They can be activated for IT and Customer Service or customized to autonomously tackle tasks, elevate user experience, and utilize domain-specific LLMs.",
+    "last_updated": "2026-09-13"
   },
   "emma wiles": {
     "canonical_name": "Emma Wiles",
@@ -3767,8 +3767,8 @@
   "sam altman": {
     "canonical_name": "Sam Altman",
     "entity_type": "person",
-    "summary": "Sam Altman is the CEO of OpenAI, the company behind GPT-4, ChatGPT, DALL-E, Codex, and many other state-of-the-art AI technologies. He is ranked with 2.3% share of voice across 5 AI assistants and is known for his pivotal role in advancing artificial intelligence.",
-    "last_updated": "2026-07-06"
+    "summary": "Sam Altman is a public figure who has shared a personal photograph of his family, usually maintaining a private stance regarding his personal life. He recently made this exception to deter potential threats against his residence following an incendiary article published about him.",
+    "last_updated": "2026-09-13"
   },
   "greg brockman": {
     "canonical_name": "Greg Brockman",
@@ -6527,8 +6527,8 @@
   "terrence obrien": {
     "canonical_name": "Terrence O'Brien",
     "entity_type": "person",
-    "summary": "The material provided does not contain a usable overview for Terrence O'Brien. It lists several professionals and one professor with that name on LinkedIn, but does not provide a specific, synthesized overview of a single individual named Terrence O'Brien.",
-    "last_updated": "2026-07-13"
+    "summary": "Terrence O'Brien was a Chicago native and former longtime president of the Metropolitan Water Reclamation District of Greater Chicago who served 24 years on the board of commissioners, including four six-year terms as commissioner and 16 as president. He dedicated a third of his life to improving th",
+    "last_updated": "2026-09-13"
   },
   "mark gurman": {
     "canonical_name": "Mark Gurman",
@@ -10045,9 +10045,9 @@
   },
   "gamers nexus": {
     "canonical_name": "Gamers Nexus",
-    "entity_type": "person",
-    "summary": "Gamers Nexus is a tech channel that investigates hardware issues, such as the melting of a 12VHWPR adapter cable in a GeForce RTX 4090 GPU, which can be caused by improper cable insertion or manufacturing defects.",
-    "last_updated": "2026-07-21"
+    "entity_type": "organization",
+    "summary": "Gamers Nexus is a PC hardware media outlet founded by Steve Burke in 2007 that focuses on objective data in its reviews by controlling variables and comparing results. It has grown from a small-scale operation to a prominent player in the industry, employing 19 employees with a management team led b",
+    "last_updated": "2026-09-13"
   },
   "windows 11": {
     "canonical_name": "Windows 11",
@@ -15778,5 +15778,155 @@
     "entity_type": "technology",
     "summary": "The provided material does not describe a specific technology named 'EKF'; it is an overview of EKF's product groups, such as CompactPCI®, Embedded, and ModBlox7™, as well as their contact information.",
     "last_updated": "2026-09-12"
+  },
+  "misalignment": {
+    "canonical_name": "misalignment",
+    "entity_type": "technology",
+    "summary": "Misalignment in radar systems can be caused by the fascia or squint of the antenna and may require the disassembly of parts to detect. Maintaining high accuracy for radar detections over the sensor's lifetime requires dynamic alignment, which operates continuously without supervision.",
+    "last_updated": "2026-09-13"
+  },
+  "ai capabilities": {
+    "canonical_name": "AI capabilities",
+    "entity_type": "technology",
+    "summary": "AI capabilities involve harnessing machine learning and Artificial General Intelligence to amplify human potential and unlock exponential growth. These technological advancements help companies achieve greater efficiency, inventive breakthroughs, and market intelligence.",
+    "last_updated": "2026-09-13"
+  },
+  "realswe": {
+    "canonical_name": "Real-SWE",
+    "entity_type": "product",
+    "summary": "Real-SWE is a benchmark designed to evaluate frontier AI models on private, real-world, enterprise codebases. It features tasks derived from licensed private production codebases of real-world companies, requiring agents to navigate proprietary systems with the full context of existing products.",
+    "last_updated": "2026-09-13"
+  },
+  "snagnik das": {
+    "canonical_name": "Snagnik Das",
+    "entity_type": "person",
+    "summary": "Snagnik Das is a Principal Analyst at Gartner for Technical Professionals (GTP), where his research focuses on data management, modern data architectures, data products, and data monetization. He holds a Dual Degree (BTech + MTech) in Electrical and Electronics Engineering from the Indian Institute",
+    "last_updated": "2026-09-13"
+  },
+  "siddhant paliwal": {
+    "canonical_name": "Siddhant Paliwal",
+    "entity_type": "person",
+    "summary": "Siddhant Paliwal is an Indian-American software engineer and entrepreneur based in San Francisco, California. He is the co-founder and chief technology officer (CTO) of Bear, a technology company that provides a marketing stack designed for artificial intelligence agents.",
+    "last_updated": "2026-09-13"
+  },
+  "janak sunil": {
+    "canonical_name": "Janak Sunil",
+    "entity_type": "person",
+    "summary": "Janak Sunil is the co-founder and chief executive officer (CEO) of Bear, a startup from Y Combinator's F25 batch. His company focuses on helping businesses market to AI agents, and he views AI optimization as the successor to SEO.",
+    "last_updated": "2026-09-13"
+  },
+  "terence tao": {
+    "canonical_name": "Terence Tao",
+    "entity_type": "person",
+    "summary": "Terence Tao is an Australian-American mathematician born in Adelaide, Australia, who won a Fields Medal in 2006 for his contributions to partial differential equations, combinatorics, harmonic analysis, and additive number theory. He is recognized as a mathematical maestro whose precocious intellige",
+    "last_updated": "2026-09-13"
+  },
+  "silvia de toffoli": {
+    "canonical_name": "Silvia De Toffoli",
+    "entity_type": "person",
+    "summary": "Silvia De Toffoli is an Associate Professor of Philosophy at the Department of Humanities and Life Sciences of Scuola Universitaria Superiore IUSS Pavia. She is also affiliated with the Institute of History and Philosophy of Science, Technology and Literature at the Technical University of Berlin an",
+    "last_updated": "2026-09-13"
+  },
+  "eamon duede": {
+    "canonical_name": "Eamon Duede",
+    "entity_type": "person",
+    "summary": "Eamon Duede is an academic researcher with appointments as an Assistant Professor in the Department of Philosophy at Purdue University, a Joint Appointment at Argonne National Laboratory in the Data Science and Learning Division, and a Visiting Scholar at Princeton University's Center for Informatio",
+    "last_updated": "2026-09-13"
+  },
+  "revolut": {
+    "canonical_name": "Revolut",
+    "entity_type": "company",
+    "summary": "revolut.com has been visited by 100K+ users in the past month Discover how Revolut Business makes managing your business finances a breeze. T&Cs apply. Hold, send, and receive 25+ currencies with the Revolut Business multi-currency account. Basic - From $10.00/month - View more items Take your finan",
+    "last_updated": "2026-09-13"
+  },
+  "office of the comptroller of the currency": {
+    "canonical_name": "Office of the Comptroller of the Currency",
+    "entity_type": "organization",
+    "summary": "The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations as well as federal branches and agencies of foreign banks. Share This Page: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervi",
+    "last_updated": "2026-09-13"
+  },
+  "blizzard": {
+    "canonical_name": "Blizzard",
+    "entity_type": "company",
+    "summary": "Blizzard Entertainment is an industry-leading developer responsible for the Warcraft, Diablo, StarCraft, and Overwatch series. It is known for creating epic entertainment experiences across multiple genres including MMORPG, Action RPG, and Real-Time Strategy.",
+    "last_updated": "2026-09-13"
+  },
+  "mike morhaime": {
+    "canonical_name": "Mike Morhaime",
+    "entity_type": "person",
+    "summary": "Michael \"Mike\" Morhaime (born 1966) is the president and co-founder of Blizzard Entertainment, originally founded in 1991 as Silicon & Synapse in Irvine, California. He oversaw the development of all of Blizzard's games since the company's inception and was honored at the 59th Annual Technology & En",
+    "last_updated": "2026-09-13"
+  },
+  "starcraft": {
+    "canonical_name": "StarCraft",
+    "entity_type": "product",
+    "summary": "StarCraft is a real-time strategy game series that introduced revolutionary features including asymmetric factions, meticulous balance, and deep strategy. The original game was released for PC in 1998, followed by StarCraft: Brood War, and requires an Internet connection, Battle.net account, and des",
+    "last_updated": "2026-09-13"
+  },
+  "starcraft ghost": {
+    "canonical_name": "StarCraft: Ghost",
+    "entity_type": "product",
+    "summary": "StarCraft: Ghost was a tactical action game for video game consoles announced in 2002 and under development by Blizzard Entertainment. It was later shifted to Swingin' Ape Studios and was intended to feature a tumultuous chapter in Nova's life and the origins of the spectres featured in StarCraft II",
+    "last_updated": "2026-09-13"
+  },
+  "zerg": {
+    "canonical_name": "Zerg",
+    "entity_type": "organization",
+    "summary": "The Zerg are a hive-structured species with a rigid caste system where all creatures serve distinct purposes. The Zerg Overmind serves as the collective consciousness of the race, driving the desire to assimilate new life forms and eradicate anything deemed unfit.",
+    "last_updated": "2026-09-13"
+  },
+  "protoss": {
+    "canonical_name": "Protoss",
+    "entity_type": "organization",
+    "summary": "The Protoss are a sapient humanoid species native to the planet Aiur, known for their advanced technology and psionic mastery. They include cultural groups such as the Khalai and Nerazim, and alongside the Zerg and Terrans, they stand as one of the three dominant species of the Milky Way in the Kopr",
+    "last_updated": "2026-09-13"
+  },
+  "united earth directorate": {
+    "canonical_name": "United Earth Directorate",
+    "entity_type": "organization",
+    "summary": "The United Earth Directorate (UED) is the government of Earth, formed after the United Powers League was reorganized. It became aware of the Protoss and Zerg presence in the Koprulu Sector and is described as an organization for security and protection against Vanduul and Pirate threats, particularl",
+    "last_updated": "2026-09-13"
+  },
+  "level1techs": {
+    "canonical_name": "Level1Techs",
+    "entity_type": "organization",
+    "summary": "Level1Techs is a group of technology enthusiasts who create videos sharing knowledge about tech, science, and design. The name 'Level1' is a tongue-in-cheek reference to entry-level positions, reflecting the founders' belief that everyone starts at the bottom in the tech industry.",
+    "last_updated": "2026-09-13"
+  },
+  "donald trump": {
+    "canonical_name": "Donald Trump",
+    "entity_type": "person",
+    "summary": "Donald Trump is a real estate developer and businessman who served as the 45th president of the United States from 2017 to 2021. He owned, managed, or licensed his name to various properties and retail ventures globally through the Trump Organization, which comprised around 500 companies.",
+    "last_updated": "2026-09-13"
+  },
+  "lee zeldin": {
+    "canonical_name": "Lee Zeldin",
+    "entity_type": "person",
+    "summary": "Lee Zeldin is a military veteran and public servant who served as a paratrooper in the Army's 82nd Airborne Division, deploying to Iraq in 2006. He was sworn in as the 17th Administrator of the United States Environmental Protection Agency on January 29, 2025, after retiring as a Lieutenant Colonel",
+    "last_updated": "2026-09-13"
+  },
+  "data center health protection pledge": {
+    "canonical_name": "Data Center Health Protection Pledge",
+    "entity_type": "regulation",
+    "summary": "The Data Center Health Protection Pledge is a call by the Environmental Protection Network for federal policy to protect public health as AI data centers expand. The initiative aims to prevent pollution-related health risks by strengthening safeguards, increasing public information, and preserving s",
+    "last_updated": "2026-09-13"
+  },
+  "wildwood": {
+    "canonical_name": "Wildwood",
+    "entity_type": "product",
+    "summary": "Wildwood is a product lineup offering various formats and strains designed to fit different moments and ideal highs. The company also features a rewards program called Wildwood Rewards, where customers can earn points, and currently offers a 25% discount on orders.",
+    "last_updated": "2026-09-13"
+  },
+  "brad schiff": {
+    "canonical_name": "Brad Schiff",
+    "entity_type": "person",
+    "summary": "Brad Schiff was an American stop-motion animation supervisor known for his leadership at Laika. He worked on high-profile films including ParaNorman, The Boxtrolls, and Kubo and the Two Strings, and previously gained experience on American television series such as MTV’s Celebrity Deathmatch, The PJ",
+    "last_updated": "2026-09-13"
+  },
+  "iphone 18 pro max": {
+    "canonical_name": "iPhone 18 Pro Max",
+    "entity_type": "product",
+    "summary": "The iPhone 18 Pro Max is a 5G-enabled smartphone available through AT&T. It can be purchased with a new installment plan or brought in as a trade-in device.",
+    "last_updated": "2026-09-13"
   }
 }
