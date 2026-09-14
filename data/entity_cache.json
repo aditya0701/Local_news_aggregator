@@ -1645,9 +1645,9 @@
   },
   "android": {
     "canonical_name": "Android",
-    "entity_type": "technology",
-    "summary": "Android is an open-source operating system for mobile devices. It was developed by Google and includes features like an SDK for app development, multi-touch Android is an open source and Linux-based **Operating System** for mobile devices such as smartphones and tablet computers. Android offers a un",
-    "last_updated": "2026-07-03"
+    "entity_type": "product",
+    "summary": "February 25, 2026 - Android is a mobile operating system created by Google, which is part of Alphabet Inc. (GOOGL). It is designed for touchscreen devices like smartphones and tablets, and it also works in cars, TVs, and wearable tech. Thomas J Catalano is a CFP and Registered Investment Adviser wit",
+    "last_updated": "2026-09-14"
   },
   "simulator": {
     "canonical_name": "simulator",
@@ -2761,9 +2761,9 @@
   },
   "http": {
     "canonical_name": "HTTP",
-    "entity_type": "technology",
-    "summary": "HTTP is a client-server protocol that serves as the foundation for data exchange on the Web. It is used for fetching resources like HTML documents, where clients and servers communicate by exchanging individual messages called requests and responses.",
-    "last_updated": "2026-07-05"
+    "entity_type": "protocol",
+    "summary": "HTTP is an extensible application layer protocol designed in the early 1990s that is used for fetching resources such as HTML documents. It serves as the foundation of data exchange on the Web through a client-server model where browsers initiate requests, and it typically operates over TCP or TLS-e",
+    "last_updated": "2026-09-14"
   },
   "openapi": {
     "canonical_name": "OpenAPI",
@@ -3276,10 +3276,10 @@
     "last_updated": "2026-07-06"
   },
   "warner bros": {
-    "canonical_name": "Warner Bros.",
-    "entity_type": "ban_regulation",
-    "summary": "Warner Bros. Discovery shareholders have approved the company's $111bn takeover by Paramount in a deal that could drastically alter the media landscape. The deal would see Paramount Skydance take control of all of Warner Bros' titles and channels, which include Harry Potter, Game of Thrones and the",
-    "last_updated": "2026-07-06"
+    "canonical_name": "Warner Bros",
+    "entity_type": "company",
+    "summary": "Warner Bros. is a fully integrated entertainment company and a global leader in the creation, production, distribution, licensing and marketing of all forms of entertainment. It is a Warner Bros. Discovery company that is home to one of the most successful collections of brands in the world.",
+    "last_updated": "2026-09-14"
   },
   "david singer": {
     "canonical_name": "David Singer",
@@ -4984,9 +4984,9 @@
   },
   "federal trade commission": {
     "canonical_name": "Federal Trade Commission",
-    "entity_type": "organization",
-    "summary": "The FTC is a bipartisan federal agency that protects American consumers from deceptive and unfair business practices. It enforces various antitrust laws, implements trade regulation rules, and monitors compliance to ensure a free and competitive marketplace.",
-    "last_updated": "2026-07-09"
+    "entity_type": "regulation",
+    "summary": "The Federal Trade Commission (FTC) is a bipartisan federal agency that champions the interests of American consumers. It protects consumers from deceptive and unfair business practices and promotes a free and competitive marketplace by challenging anticompetitive mergers and business practices.",
+    "last_updated": "2026-09-14"
   },
   "illinois": {
     "canonical_name": "Illinois",
@@ -9251,8 +9251,8 @@
   "bun": {
     "canonical_name": "Bun",
     "entity_type": "technology",
-    "summary": "Bun is a JavaScript runtime, which is a place where JavaScript code runs. It is presented as an alternative to Node.js, created by Ryan Dahl, who also developed Deno to address Node.js's design limitations.",
-    "last_updated": "2026-07-20"
+    "summary": "Bun is a fast JavaScript runtime and toolkit that includes a bundler, test runner, and npm-compatible package manager in a single binary. It runs JavaScript and TypeScript on JavaScriptCore and can be used to replace Node.js, allowing developers to use Bun commands within existing Node.js projects w",
+    "last_updated": "2026-09-14"
   },
   "jarred sumner": {
     "canonical_name": "Jarred Sumner",
@@ -9340,9 +9340,9 @@
   },
   "lyft": {
     "canonical_name": "Lyft",
-    "entity_type": "general",
-    "summary": "Lyft is a provider of Transportation-as-a-Service (TaaS) that operates as a peer-to-peer marketplace. The company offers ride-sharing, bike and scooter rentals, and access to autonomous vehicles through its platform and mobile applications.",
-    "last_updated": "2026-07-20"
+    "entity_type": "company",
+    "summary": "Lyft, Inc. operates multimodal transportation networks that offer access to various transportation options through platform and mobile based applications in the United States and internationally. This price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 PM",
+    "last_updated": "2026-09-14"
   },
   "india herdman": {
     "canonical_name": "India Herdman",
@@ -13003,9 +13003,9 @@
   },
   "equity": {
     "canonical_name": "Equity",
-    "entity_type": "event",
-    "summary": "McGuireWoods’ Healthcare Private Equity and Finance Conference is a premier two-day healthcare and life sciences investment-focused conference that offers numerous opportunities to learn from and network with colleagues across the sectors, as well as dynamic keynotes and exciting panel discussions.",
-    "last_updated": "2026-07-27"
+    "entity_type": "podcast",
+    "summary": "Equity is TechCrunch's flagship podcast that explores the business of startups, technology, and venture capital. It is ranked No. 2 on the Top 100 Venture Capital All Time leaderboard on Goodpods.",
+    "last_updated": "2026-09-14"
   },
   "cybercab": {
     "canonical_name": "Cybercab",
@@ -13454,8 +13454,8 @@
   "insight partners": {
     "canonical_name": "Insight Partners",
     "entity_type": "company",
-    "summary": "Insight Partners is a global software investor that partners with high-growth technology, software, and Internet companies. The firm uses a straightforward, results-driven approach based on three core pillars—scale, focus, and experience—to help companies achieve exponential growth and long-term suc",
-    "last_updated": "2026-07-29"
+    "summary": "Insight Partners is a global software investor that partners with high-growth technology, software, and Internet startup and ScaleUp companies. Since 1995, the firm has deployed a results-driven approach using scale, focus, and experience to help businesses capture value and achieve long-term succes",
+    "last_updated": "2026-09-14"
   },
   "runlayer": {
     "canonical_name": "Runlayer",
@@ -15928,5 +15928,161 @@
     "entity_type": "product",
     "summary": "The iPhone 18 Pro Max is a 5G-enabled smartphone available through AT&T. It can be purchased with a new installment plan or brought in as a trade-in device.",
     "last_updated": "2026-09-13"
+  },
+  "signal": {
+    "canonical_name": "Signal",
+    "entity_type": "organization",
+    "summary": "Signal Foundation is a nonprofit organization dedicated to doing the foundational work around making private communication accessible, secure and ubiquitous. Prior to founding WhatsApp and Signal Foundation, Acton worked as a software builder for more than 25 years at companies like Apple, Yahoo, an",
+    "last_updated": "2026-09-14"
+  },
+  "nono": {
+    "canonical_name": "Nono",
+    "entity_type": "product",
+    "summary": "The NoNo Pro is a hair removal system that uses Thermicon technology to deliver a gentle heat pulse through the hair follicle to remove hair and treat the follicle to prevent regrowth. It is positioned as a pain-free solution for achieving smooth, stubble-free skin at a cost of £199, though it has f",
+    "last_updated": "2026-09-14"
+  },
+  "deven parekh": {
+    "canonical_name": "Deven Parekh",
+    "entity_type": "person",
+    "summary": "Deven Parekh is a managing director at Insight Partners. He manages investments in e-commerce and application software businesses on a global basis.",
+    "last_updated": "2026-09-14"
+  },
+  "larry ellison": {
+    "canonical_name": "Larry Ellison",
+    "entity_type": "person",
+    "summary": "Larry Ellison is the executive chairman and chief technology officer of Oracle, the enterprise software company he co-founded and led as chief executive for several decades. He is #6 on Forbes' 2026 Billionaires list.",
+    "last_updated": "2026-09-14"
+  },
+  "jacob coxon": {
+    "canonical_name": "Jacob Coxon",
+    "entity_type": "researcher",
+    "summary": "Jacob Coxon is a 27-year-old British artificial intelligence researcher with a background in mathematics from the University of Cambridge. He developed expertise in machine learning and frontier AI systems, working at both OpenAI and Anthropic and contributing to major AI projects like GPT-4o.",
+    "last_updated": "2026-09-14"
+  },
+  "flexdrive": {
+    "canonical_name": "Flexdrive",
+    "entity_type": "company",
+    "summary": "The company has pursued initiatives beyond core services, including launching a vehicle subscription offering in 2020. In 2026, Flexdrive announced a substantial headcount increase of more than 70 full-time roles across technical, operations, and maintenance functions, indicating ongoing expansion.",
+    "last_updated": "2026-09-14"
+  },
+  "jeremy bird": {
+    "canonical_name": "Jeremy Bird",
+    "entity_type": "person",
+    "summary": "Jeremy Bird is an American political strategist famous for revolutionizing grassroots organizing and field operations, particularly for Barack Obama 's presidential campaigns. His work combines data-driven strategy with a deep belief in community power, and his calm, effective leadership has made hi",
+    "last_updated": "2026-09-14"
+  },
+  "toyota": {
+    "canonical_name": "Toyota",
+    "entity_type": "company",
+    "summary": "Toyota Motor Corporation Site introduces \"Overview\". Toyota strives to be a good corporate citizen trusted by all stakeholders and to contribute to the creation of an affluent society through all its business operations. We would like to introduce the Corporate Principles which form the basis of our",
+    "last_updated": "2026-09-14"
+  },
+  "woven planet holdings": {
+    "canonical_name": "Woven Planet Holdings",
+    "entity_type": "company",
+    "summary": "Woven Planet company profile with ownership history, M&A activity, investors, and available advisor relationships. Explore acquisitions, exits, and deal involvement. Woven Planet Holdings develops technologies designed to achieve zero casualties and provide mobility for all. It has two operating com",
+    "last_updated": "2026-09-14"
+  },
+  "xcimer": {
+    "canonical_name": "Xcimer",
+    "entity_type": "company",
+    "summary": "Xcimer is the most technically mature laser fusion company. The company broke ground on its first high-energy laser system, Phoenix, in 2024. Located in the Denver laser bay, Phoenix features the first electron-beam-pumped excimer laser built in the private sector in over 20 years.",
+    "last_updated": "2026-09-14"
+  },
+  "raytheon": {
+    "canonical_name": "Raytheon",
+    "entity_type": "company",
+    "summary": "Raytheon Missiles & Defense delivers advanced end-to-end solutions to detect, track, and defeat threats for its customers. The company is rooted in a higher calling to help the nation and its allies defend freedoms, leveraging over 100 years of experience and renowned engineering expertise.",
+    "last_updated": "2026-09-14"
+  },
+  "national ignition facility": {
+    "canonical_name": "National Ignition Facility",
+    "entity_type": "organization",
+    "summary": "The National Ignition Facility (NIF) is a premier laser research facility dedicated to advancing scientific exploration in high-energy density physics, inertial confinement fusion, and associated disciplines. It supports fundamental research and national security objectives.",
+    "last_updated": "2026-09-14"
+  },
+  "patriot missile": {
+    "canonical_name": "Patriot missile",
+    "entity_type": "product",
+    "summary": "The MIM-104 Patriot is an air defense missile system (SAM) and the primary system used by the United States Army and several allied nations. It uses an advanced aerial interceptor missile and high-performance radar systems, and is described as a modular and highly mobile system.",
+    "last_updated": "2026-09-14"
+  },
+  "beats": {
+    "canonical_name": "Beats",
+    "entity_type": "company",
+    "summary": "Beats by Dr. Dre (Beats) is a leading audio brand founded in 2006 by Dr. Dre and Jimmy Iovine. Through its family of premium consumer headphones, earphones and speakers, Beats has introduced an entirely new generation to the possibilities of premium sound entertainment. The brand’s continued success",
+    "last_updated": "2026-09-14"
+  },
+  "general motors": {
+    "canonical_name": "General Motors",
+    "entity_type": "company",
+    "summary": "General Motors is a company with a century-long history of setting industry standards through a passion for engineering and a curiosity for future design. With more than 90,000 employees and 150+ facilities, the company shapes the future of mobility through innovation, safety, and sustainability.",
+    "last_updated": "2026-09-14"
+  },
+  "lexisnexis": {
+    "canonical_name": "LexisNexis",
+    "entity_type": "company",
+    "summary": "LexisNexis Legal & Professional is a global legal AI and data analytics company that delivers legal, regulatory, and business insights to drive better decisions and advance the rule of law. It combines legal and business information with analytics and technology, employing machine learning and artif",
+    "last_updated": "2026-09-14"
+  },
+  "ivyclaw": {
+    "canonical_name": "IvyClaw",
+    "entity_type": "product",
+    "summary": "IvyClaw is an AI-powered college admissions consulting skill that runs locally on user devices through the OpenClaw framework. It packages about two decades of admissions consulting experience into a compact core decision engine.",
+    "last_updated": "2026-09-14"
+  },
+  "deepagents": {
+    "canonical_name": "DeepAgents",
+    "entity_type": "technology",
+    "summary": "DeepAgents is a technology platform with a high-level architecture that explains how the core SDK and application packages are structured and how they interact. It covers the LangGraph foundation, middleware execution model, backend abstraction layer, and the relationship between the deepagents core",
+    "last_updated": "2026-09-14"
+  },
+  "postgresql": {
+    "canonical_name": "PostgreSQL",
+    "entity_type": "technology",
+    "summary": "PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language to safely store and scale complicated data workloads. Its origins date back to 1986 as part of the POSTGRES project at the University of California at Berkeley.",
+    "last_updated": "2026-09-14"
+  },
+  "redis": {
+    "canonical_name": "Redis",
+    "entity_type": "technology",
+    "summary": "Redis is an open-source, in-memory data structure store that can be used as a database, cache, message broker, and streaming engine. It is widely used by large-scale applications to handle high-speed data access, real-time processing, and efficient caching, and it also supports vector search for Gen",
+    "last_updated": "2026-09-14"
+  },
+  "arq": {
+    "canonical_name": "ARQ",
+    "entity_type": "technology",
+    "summary": "Arq is a diversified, environmental technology company that develops solutions to remove harmful chemicals and pollutants from water, land, and air. It is the only vertically integrated producer of activated carbon products in North America and was formerly known as Advanced Emissions Solutions, Inc",
+    "last_updated": "2026-09-14"
+  },
+  "prometheus": {
+    "canonical_name": "Prometheus",
+    "entity_type": "product",
+    "summary": "Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud and launched in 2012. It is now a standalone open source project with a very active developer and user community.",
+    "last_updated": "2026-09-14"
+  },
+  "grafana": {
+    "canonical_name": "Grafana",
+    "entity_type": "product",
+    "summary": "Grafana is an open source software that enables users to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored. It provides tools to turn time-series database data into insightful graphs and visualizations and offers a plugin framework to connect other data sourc",
+    "last_updated": "2026-09-14"
+  },
+  "devin cli": {
+    "canonical_name": "Devin CLI",
+    "entity_type": "product",
+    "summary": "Devin CLI is a local coding agent that runs directly in your terminal, working with your local files and environment to provide fast, interactive assistance. It is deeply customizable, allowing you to configure the agent's behavior, tool access, and event responses. You can hand off sessions to Devi",
+    "last_updated": "2026-09-14"
+  },
+  "tongyi qianwen": {
+    "canonical_name": "Tongyi Qianwen",
+    "entity_type": "ai_model",
+    "summary": "Tongyi Qianwen is Alibaba Cloud's family of large language, vision, audio, and image models built by Tongyi Lab. It is the most widely downloaded open-weight model family globally and serves as the host for frontier-class flagship models.",
+    "last_updated": "2026-09-14"
+  },
+  "workbuddy": {
+    "canonical_name": "WorkBuddy",
+    "entity_type": "product",
+    "summary": "WorkBuddy is an AI agent built for office professionals by Tencent, designed as a full-scenario desktop workstation for all workplace roles. Powered by multi-agent collaboration, it autonomously breaks down complex tasks to deliver finished, verifiable outputs like reports and spreadsheets.",
+    "last_updated": "2026-09-14"
   }
 }
