@@ -1,5 +1,424 @@
 [
   {
+    "id": "958d96324310",
+    "title": "एप्पल के नए सॉफ्टवेयर अपडेट: iOS 27, iPadOS 27 और macOS 27 में आया Siri AI",
+    "summary": "14 सितंबर, 2026 को एप्पल इंक. ने अपने प्रमुख सॉफ्टवेयर प्लेटफॉर्म्स के लिए बड़े अपडेट जारी किए हैं, जो आज आईफोन, आईपैड, मैक, एप्पल वॉच और एप्पल विजन प्रो पर रोलआउट होना शुरू हो गए हैं। इन अपडेट्स में iOS 27, iPadOS 27 और macOS 27 शामिल हैं, जो एप्पल के इकोसिस्टम में एक महत्वपूर्ण बदलाव लाते हैं। इन अपडेट्स के मुख्य…",
+    "category": "model_release",
+    "tags": [
+      "Apple",
+      "Siri AI",
+      "iOS 27"
+    ],
+    "image": "https://www.apple.com/newsroom/images/2026/09/major-updates-for-apples-software-platforms-are-now-available/tile/Apple-OS-availability-hero-lp.jpg.og.jpg?202609141711",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "621d5105d9d6",
+    "title": "OpenArm: An open-source 7DOF humanoid arm",
+    "summary": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments. - enactic/openarm",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/f858e2a7ee29cfc5544acd4d1f7bc55821650317d2d961d2da14ce20c41ee7da/enactic/openarm",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "029460ee53a5",
+    "title": "एंडन लैब्स ने पेश किया 'पायन': एक ऐसा एआई एजेंट जो किसी भी कंपनी को पूरी तरह से स्वतंत्र रूप से चला सकता है",
+    "summary": "एंडन लैब्स ने एक अभूतपूर्व एआई एजेंट 'पायन' (Pion) की घोषणा की है, जिसे किसी भी कंपनी को पूरी तरह से स्वतंत्र रूप से चलाने के लिए डिज़ाइन किया गया है। लगभग दो वर्षों तक एआई द्वारा वास्तविक दुनिया में संसाधनों के अधिग्रहण का अध्ययन करने के बाद, कंपनी ने इस प्लेटफॉर्म को विकसित किया है। शुरुआत में वेंडिंग मशीनों और कैफे…",
+    "category": "general",
+    "tags": [
+      "Andon",
+      "Pion",
+      "Claude Sonnet 3.5"
+    ],
+    "image": "https://andonlabs.com/pion.og.webp",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "60157101a3db",
+    "title": "जब कोड एक भूलभुलैया हो, तो समझदार डेवलपर्स नक्शे बनाते हैं",
+    "summary": "आज के समय में सॉफ्टवेयर को समझना इतिहास में सबसे कठिन कार्यों में से एक बन गया है। आधुनिक कोडिंग प्रथाओं ने 'स्पैगेटी कोड' को पीछे छोड़ते हुए 'रविओली कोड' और डिकपल्ड पैटर्न को अपना लिया है, जिससे कोड की जटिलता बढ़ गई है। डेवलपर्स अब अक्सर कोड की भूलभुलैया में उलझ जाते हैं, जिससे उनका बहुमूल्य समय बर्बाद होता है। इस…",
+    "category": "general",
+    "tags": [
+      "Modern code",
+      "spaghetti code",
+      "ravioli code"
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*z8R0tLOquXcsVxiQml5cqA.png",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "da04cac6dcb8",
+    "title": "चैट के लिए बने चार्ट्स: एआई-संचालित एनालिटिक्स में एक नई शुरुआत",
+    "summary": "डेटा एनालिटिक्स की दुनिया में एक नया अध्याय शुरू हुआ है। dbt Labs ने dbt Charts को ओपन-सोर्स कर दिया है, जो विशेष रूप से एआई-जनरेटेड डैशबोर्ड को प्रबंधित करने के लिए डिज़ाइन की गई एक नई डिक्लेरेटिव भाषा है। आज के समय में जब कोई भी व्यक्ति डेटा से जुड़कर कुछ ही घंटों में एक रिपोर्ट तैयार कर सकता है, तो यह तकनीक एक बड़ा…",
+    "category": "model_release",
+    "tags": [
+      "dbt Charts",
+      "dbt Labs",
+      "Tristan Handy"
+    ],
+    "image": "https://dbtcharts.com/assets/social/background_hu_b580101c226cb278.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5d654d2ffeff",
+    "title": "मेमोइज़ेशन के ज़रिए eBPF CPU लागत में 90% की कमी",
+    "summary": "हाल ही में एक डेवलपर ने खुलासा किया कि उन्होंने और उनके भाई ने मिलकर जो eBPF सिक्योरिटी एजेंट बनाया है, उसमें एक बड़े प्रदर्शन सुधार (performance improvement) का पता लगाया है। प्रोफाइलिंग से यह स्पष्ट हुआ कि एजेंट का सबसे महंगा हिस्सा पॉलिसी को लागू करना नहीं, बल्कि यह तय करना था कि किसी विशिष्ट फ़ाइल ओपन के लिए कौन…",
+    "category": "general",
+    "tags": [
+      "eBPF",
+      "Memoization",
+      "LSM hook"
+    ],
+    "image": "https://nathannaveen.dev/",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e67cce6f3dcb",
+    "title": "Donated livers can be made biologically younger",
+    "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that has been growing…",
+    "category": "general",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/liver-perfusion.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "96092878b57d",
+    "title": "एआई का अस्तित्व का संकट और आंखों के लिए उम्र-उलटने वाली तकनीक",
+    "summary": "आज के 'द डाउनलोड' संस्करण में दो प्रमुख तकनीकी और वैज्ञानिक विषयों पर चर्चा की गई है। एक ओर जहां एआई के कारण मानव जाति के सामने आने वाले संभावित खतरे पर बहस तेज हो गई है, वहीं दूसरी ओर आंखों की उम्र से जुड़ी बीमारियों को उलटने वाली एक नई चिकित्सा तकनीक ने चिकित्सा जगत में उम्मीद जगाई है।",
+    "category": "general",
+    "tags": [
+      "MIT Technology Review",
+      "Dario Amodei",
+      "Sam Altman"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/September.26_Roundtables-Assets-2.png?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "77b7e2fc3da0",
+    "title": "जेन्सेन हुआंग ने ट्रम्प की कॉल ली और कुछ और भी दिखाया",
+    "summary": "लॉस एंजिल्स में आयोजित 'ऑल-इन' सम्मेलन में एक अप्रत्याशित घटना घटी जब पूर्व अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प ने मंच से जेन्सेन हुआंग को लाइव कॉल किया। हुआंग, जो अपनी सिग्नेचर एलिगेटर लेदर जैकेट पहने हुए थे, को एक फोल्डेबल फोन दिया गया था ताकि वे इस कॉल को रिसीव कर सकें। यह स्पष्ट किया गया कि यह डिवाइस Apple का iPhone…",
+    "category": "general",
+    "tags": [
+      "Jensen Huang",
+      "Donald Trump",
+      "Nvidia"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "0317e7db5b97",
+    "title": "एनवीडिया के सीईओ जेन्सेन हुआंग और डोनाल्ड ट्रम्प की लाइव फोन कॉल: एआई रेस को धीमा करने की कोशिशों पर कड़ा प्रहार",
+    "summary": "सोमवार की सुबह लॉस एंजिल्स में आयोजित ऑल-इन समिट के दौरान एक बेहद चौंकाने वाली घटना घटी जब मंच पर मौजूद एनवीडिया के सीईओ जेन्सेन हुआंग को पूर्व अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प का फोन आया। हुआंग ने इस कॉल को इग्नोर करने के बजाय, मंच पर मौजूद दर्शकों को यह बताते हुए कि वह \"अपने सबसे अच्छे दोस्तों\" के साथ हैं, ट्रम्प…",
+    "category": "general",
+    "tags": [
+      "Jensen Huang",
+      "Donald Trump",
+      "Elon Musk"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 4
+  },
+  {
+    "id": "8fa040b2b2e2",
+    "title": "OpenAI ने 300 मिलियन डॉलर में स्मार्टफोन कैमरा मेकर Glass Imaging का अधिग्रहण किया",
+    "summary": "OpenAI ने स्मार्टफोन कैमरा निर्माता Glass Imaging का अधिग्रहण किया है। द वॉल स्ट्रीट जर्नल (The Wall Street Journal) की एक रिपोर्ट के अनुसार, इस सौदे की कीमत 300 मिलियन डॉलर से अधिक है। यह अधिग्रहण एआई और इमेजिंग तकनीक के क्षेत्र में एक महत्वपूर्ण कदम है, जो भविष्य के स्मार्ट उपकरणों की क्षमताओं को बढ़ाने में मदद…",
+    "category": "acquisition",
+    "tags": [
+      "OpenAI",
+      "Glass Imaging",
+      "Ziv Attar"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1252369470.jpg?resize=1200,802",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f5f567e59f5a",
+    "title": "अमेज़न प्राइम वीडियो ने शॉर्ट-फॉर्म न्यूज़ क्लिप्स के साथ टिकटॉक को दी टक्कर",
+    "summary": "अमेज़न प्राइम वीडियो ने सोमवार को एक नई पहल की घोषणा की, जिसके तहत वे अपने स्ट्रीमिंग प्लेटफॉर्म पर स्थानीय और राष्ट्रीय समाचारों की ऑन-डिमांड शॉर्ट-फॉर्म क्लिप्स शामिल कर रहे हैं। यह कदम कंपनी के लिए एक बड़ा रणनीतिक बदलाव है, जिसका मुख्य उद्देश्य उन युवा दर्शकों का ध्यान खींचना है जो तेजी से टिकटॉक और इंस्टाग्राम…",
+    "category": "general",
+    "tags": [
+      "Amazon",
+      "Prime Video",
+      "TikTok"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2022/10/GettyImages-1242123707.jpg?resize=1200,767",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "69d234ef748c",
+    "title": "क्लिकफिक्स (ClickFix) हमले: मैक और विंडोज उपयोगकर्ता खुद को हैक कर रहे हैं",
+    "summary": "पिछले एक सप्ताह में, रेडिट (Reddit) पर एचबीओ मैक्स (HBO Max) के आधिकारिक खाते को हैकर्स द्वारा अपने नियंत्रण में ले लिया गया था और वहां सैकड़ों नकली विज्ञापन पोस्ट किए गए। हडसन रॉक (Hudson Rock) के सुरक्षा शोधकर्ताओं और रेडिट के एक साइबर सुरक्षा सबरेडिट के अनुसार, यदि किसी उपयोगकर्ता ने इन नकली विज्ञापनों पर क्लिक…",
+    "category": "general",
+    "tags": [
+      "HBO Max",
+      "Reddit",
+      "Hudson Rock"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/hbo-max-screenshot-clickfix.jpg?resize=1200,843",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "218550c08b87",
+    "title": "वोक्सवैगन का नया ईवी प्रोटोटाइप: स्लेट से ली गई एक अनोखी तकनीक",
+    "summary": "वोक्सवैगन ने सोमवार को अपने नए 'मिशन एफिशिएंसी' (Mission Efficiency) प्रोटोटाइप का अनावरण किया, जिसने ऊर्जा दक्षता के मामले में एक नया रिकॉर्ड कायम किया है। कंपनी के अनुसार, यह एक इलेक्ट्रिक वाहन है जो आदर्श परिस्थितियों में 323 मील प्रति गैलन के बराबर दक्षता हासिल करने में सक्षम है। यह उपलब्धि इसे दुनिया की सबसे कुशल…",
+    "category": "model_release",
+    "tags": [
+      "Volkswagen",
+      "Mission Efficiency",
+      "Lucid Air"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/volkswagen-mission-efficiency-side.jpeg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "9770214954a2",
+    "title": "macOS 27 Golden Gate: नया सिरी, बेहतर उत्पादकता",
+    "summary": "एप्पल ने अपने नए डेस्कटॉप ऑपरेटिंग सिस्टम macOS 27 Golden Gate को पेश किया है। इस अपडेट में दो सबसे प्रमुख बदलाव देखे गए हैं: पहला, नया और उन्नत सिरी एआई (Siri AI), और दूसरा, डिजाइन में किए गए सुधार जो विंडोज और आइकन्स को अधिक सुसंगत (consistent) बनाते हैं। यह अपडेट एप्पल के डेस्कटॉप अनुभव को एक नई दिशा देता है, जिससे…",
+    "category": "model_release",
+    "tags": [
+      "Apple",
+      "Siri",
+      "macOS 27 Golden Gate"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/MacOS-27.jpg?resize=1200,648",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8ee3050f866d",
+    "title": "फैशन ऐप डे-ड्रीम ने आईफोन यूजर्स के लिए दो नए एआई फीचर्स पेश किए",
+    "summary": "फैशन डिस्कवरी ऐप डे-ड्रीम ने सोमवार को दो नए फीचर्स पेश किए हैं। यह ऐप आईफोन यूजर्स को उनकी सेव की गई आउटफिट फोटोज को सीधे शॉपिंग रिजल्ट्स में बदलने और बिना ऐप खोले सिरी के जरिए कपड़े और एक्सेसरीज खोजने की सुविधा देता है। इन फीचर्स का उपयोग करने के लिए आईफोन में आईओएस 27 (iOS 27) और सिरी एआई (Siri AI) इनेबल होना…",
+    "category": "general",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Frame-10.png?resize=1200,900",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "764c6e93c303",
+    "title": "Valve अभी भी Steam Deck 2 के 'कैसे और कब' का पता लगा रहा है",
+    "summary": "Valve ने आखिरकार अपना 2026 का पूरा हार्डवेयर लाइनअप बाजार में उतार दिया है, जिसमें Steam Controller, Steam Machine और नया Steam Frame शामिल हैं। इन नए उत्पादों के साथ, गेमिंग समुदाय के मन में यह सवाल उठना स्वाभाविक है कि क्या हम अगली पीढ़ी के पोर्टेबल गेमिंग डिवाइस, यानी Steam Deck 2 के करीब पहुंच गए हैं। हालांकि,…",
+    "category": "general",
+    "tags": [
+      "Valve",
+      "Steam Deck",
+      "Steam Controller"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/DSCF9137.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3ca7ed1825fc",
+    "title": "Apple Home के नए सिक्योरिटी कैमरा फीचर्स की कीमत 60 डॉलर प्रति माह तक",
+    "summary": "iOS 27 और tvOS 27 के सार्वजनिक रिलीज़ के साथ, Apple Home को Apple Intelligence का एक बड़ा अपडेट मिला है। लेकिन इन नई सुविधाओं का लाभ उठाने के लिए ग्राहकों को अपनी जेब काफी ढीली करनी होगी। Apple Intelligence फॉर होमकिट सिक्योर वीडियो अब होमकिट सिक्योर वीडियो में एआई-संचालित वीडियो सारांश ला रहा है, जिससे उपयोगकर्ता यह…",
+    "category": "model_release",
+    "tags": [
+      "Apple",
+      "HomeKit Secure Video",
+      "Apple Intelligence"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268594_iOS_27_home_app_first_look_CVirginia2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "036dfabe9171",
+    "title": "अमेरिकी ईपीए (EPA) ने बिजली संयंत्रों से होने वाले ग्रीनहाउस गैस उत्सर्जन पर नियंत्रण हटाने का किया प्रस्ताव",
+    "summary": "अमेरिकी पर्यावरण संरक्षण एजेंसी (EPA) ने एक महत्वपूर्ण और विवादास्पद कदम उठाते हुए, देश के बिजली संयंत्रों से ग्रीनहाउस गैस उत्सर्जन पर नियंत्रण रखने वाले सभी शेष मानकों को समाप्त करने की योजना की घोषणा की है। यह निर्णय राष्ट्रपति डोनाल्ड ट्रम्प के जीवाश्म ईंधन को बढ़ावा देने और ऊर्जा-भूखी डेटा केंद्रों के निर्माण को…",
+    "category": "ban_regulation",
+    "tags": [
+      "Environmental Protection Agency",
+      "Donald Trump"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824781/STK438_CLIMATE_CHANGE_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c649bc11d754",
+    "title": "वाल्व की वर्चुअल रियलिटी योजनाएं वास्तविकता में बदल गईं",
+    "summary": "वाल्व (Valve) ने अपने नए वायरलेस वर्चुअल रियलिटी (VR) हेडसेट, 'स्टीम फ्रेम' (Steam Frame) को 14 सितंबर 2026 को आधिकारिक तौर पर लॉन्च कर दिया है। यह एक बड़ा मील का पत्थर है, क्योंकि यह कंपनी की पहली स्ट्रीमिंग-फर्स्ट वर्चुअल रियलिटी डिवाइस है। लेकिन तकनीकी समुदाय के लिए सबसे बड़ी निराशा यह रही कि इस डिवाइस की शुरुआती…",
+    "category": "model_release",
+    "tags": [
+      "Valve",
+      "Steam Frame",
+      "Steam Machine"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268694_Steam_Frame_KMcClellan_0028.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C69.808027923211&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0410dea45e1f",
+    "title": "निंटेंडो की 'कस्टमर एप्रिसिएशन' सेल: टैरिफ रिफंड का सीधा फायदा उपभोक्ताओं को",
+    "summary": "निंटेंडो ने अपने स्विच गेम्स और एक्सेसरीज पर भारी छूट की घोषणा की है। कंपनी के अनुसार, यह 'कस्टमर एप्रिसिएशन' सेल अमेज़न, बेस्ट बाय, वॉलमार्ट और निंटेंडो के डिजिटल स्टोरफ्रंट पर उपलब्ध है। यह विशेष छूट कार्यक्रम अमेरिकी सरकार से प्राप्त अप्रत्याशित टैरिफ-संबंधित रिफंड का सीधा परिणाम है। निंटेंडो आमतौर पर अपनी गेम्स और…",
+    "category": "general",
+    "tags": [
+      "Nintendo",
+      "Amazon",
+      "Best Buy"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/Super-Mario-Odyssey.webp?quality=90&strip=all&crop=0,11.101688666028,100,77.796622667945",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "599b32d20bf9",
+    "title": "तुर्की भाषा में एआई अनुवाद की समस्या का समाधान: 'तुर्की नेटिव' का उदय",
+    "summary": "कृत्रिम मेधा (AI) उपकरणों के विकास के साथ वैश्विक स्तर पर अनुवाद की सुविधाएँ काफी बेहतर हुई हैं, लेकिन कई बार ये उपकरण ऐसी तुर्की भाषा उत्पन्न करते हैं जो व्याकरण की दृष्टि से सही होने के बावजूद विदेशी वाक्य संरचनाओं और अस्वाभाविक शब्दों के कारण स्वाभाविक नहीं लगती। इस समस्या को हल करने के लिए, ओपन-सोर्स क्षेत्र में…",
+    "category": "repo_analysis",
+    "tags": [
+      "ai_model",
+      "oguzhankayan"
+    ],
+    "image": "https://opengraph.githubassets.com/1/oguzhankayan/turkish-native",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1eec939cd47c",
+    "title": "एआई कोडिंग के 'vibe coding' में क्वालिटी ड्रिफ्ट की समस्या और नया समाधान 'gap-trap'",
+    "summary": "एआई आधारित कोडिंग एजेंटों के बढ़ते उपयोग ने सॉफ्टवेयर विकास की गति को तेज कर दिया है, लेकिन इसके साथ ही कोड की गुणवत्ता में गिरावट भी देखी जा रही है। इस समस्या को हल करने के लिए 'gap-trap' नामक एक नया फ्रेमवर्क सामने आया है। यह टूल विशेष रूप से उन डेवलपर्स के लिए बनाया गया है जो एंथ्रोपिक के 'Claude Code' जैसे एजेंटिक…",
+    "category": "repo_analysis",
+    "tags": [
+      "pliablespixels",
+      "slop-mop",
+      "Claude Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/pliablepixels/gap-trap",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "475cf8379edd",
+    "title": "WestFox-AwA/dsh-prompt-optimizer: DSH का नया प्लगइन कैसे काम करता है",
+    "summary": "DSH (DeepSeek Harness) के लिए एक नए प्लगइन ने एआई के साथ बातचीत करने के तरीके में एक दिलचस्प बदलाव लाया है। 'WestFox-AwA/dsh-prompt-optimizer' नाम का यह प्लगइन, जिसे '啃轮胎的西狐' नामक डेवलपर ने 15 सितंबर 2026 को संस्करण 0.2.1beta1 के रूप में जारी किया, यूज़र्स के लिए एक मध्यस्थ (messenger AI) के रूप में कार्य करता है। जब…",
+    "category": "repo_analysis",
+    "tags": [
+      "WestFox-AwA",
+      "DSH Web",
+      "dsh-prompt-optimizer"
+    ],
+    "image": "https://opengraph.githubassets.com/1/WestFox-AwA/dsh-prompt-optimizer",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cb9994e72e0e",
+    "title": "टेकदृष्टि विशेष: 'प्रोजेक्ट टाइटेनिया' - एआई का एक नया और पारदर्शी दृष्टिकोण",
+    "summary": "टेकदृष्टि को मिली जानकारी के अनुसार, प्रोजेक्ट टाइटेनिया (Project Titania) ने बड़े भाषा मॉडल (LLM) के विकास की पारंपरिक प्रक्रिया में एक बड़ा बदलाव पेश किया है। आमतौर पर, एआई मॉडल बनाने वाले शोधकर्ता और कंपनियां बाहरी जीपीयू (GPUs), कंपाइलर और इंस्ट्रक्शन सेट पर निर्भर रहते हैं। लेकिन टाइटेनिया ने इन सभी चीजों को खुद…",
+    "category": "repo_analysis",
+    "tags": [
+      "penberg",
+      "Titania",
+      "Titania ISA"
+    ],
+    "image": "https://opengraph.githubassets.com/1/penberg/titania",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "41ba89671f2e",
+    "title": "टूलरीप्ले: एआई एजेंट के टूल-कॉल ट्रांसक्रिप्ट की ऑडिटिंग के लिए नया पायथन टूल",
+    "summary": "हाल ही में, एआई एजेंटों के व्यवहार का मूल्यांकन करने के लिए एक नया ओपन-सोर्स पायथन टूल सामने आया है, जिसे टूलरीप्ले (ToolReplay) के नाम से जाना जाता है। यह टूल एआई एजेंटों द्वारा किए गए टूल कॉल्स के रिकॉर्ड किए गए ट्रांसक्रिप्ट का ऑडिट करने के लिए डिज़ाइन किया गया है। इसका मुख्य उद्देश्य यह पता लगाना है कि एआई एजेंट…",
+    "category": "repo_analysis",
+    "tags": [
+      "ToolReplay",
+      "Python",
+      "sample"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Matthew0822/ToolReplay",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8f24d64bf65c",
+    "title": "eskim2001/dshcloud: DeepSeek Harness के लिए नया सेल्फ-होस्टेड क्लाउड प्लेटफॉर्म",
+    "summary": "डेवलपर्स और सिस्टम प्रशासकों के लिए एक महत्वपूर्ण विकास में, eskim2001/dshcloud नामक एक नया प्रोजेक्ट सामने आया है। यह एक सेल्फ-होस्टेड, मल्टी-यूज़र क्लाउड प्लेटफॉर्म है जिसका मुख्य उद्देश्य DeepSeek Harness के लिए एक सुरक्षित और नियंत्रित वातावरण प्रदान करना है। यह प्लेटफॉर्म प्रशासकों को अपने स्वयं के बुनियादी ढांचे…",
+    "category": "repo_analysis",
+    "image": "https://opengraph.githubassets.com/1/eskim2001/dshcloud",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "847f50a01549",
+    "title": "AI4R फ्रेमवर्क 'STEER' ने शोध में स्वायत्तता और मानव नियंत्रण का नया संतुलन स्थापित किया",
+    "summary": "शोधकर्ताओं और डेवलपर्स के बीच स्वायत्त एआई एजेंटों को लेकर एक बड़ा सवाल हमेशा से रहा है कि एआई को कितना स्वतंत्र छोड़ा जाना चाहिए। इस दिशा में, 'स्टीयर' (STEER) नामक एक नए एआई4आर (AI4R) फ्रेमवर्क ने एक महत्वपूर्ण कदम उठाया है। यह फ्रेमवर्क एआई एजेंटों को कोड बदलने और प्रयोग करने की छूट देता है, लेकिन एक सख्त नियम के…",
+    "category": "repo_analysis",
+    "tags": [
+      "xieyulai",
+      "STEER",
+      "Cursor"
+    ],
+    "image": "https://opengraph.githubassets.com/1/xieyulai/steer",
+    "source": "github",
+    "first_seen": "2026-09-15T07:57:50.487680+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "4827a6903f84",
     "title": "Signal पर फोन नंबर के बिना रजिस्ट्रेशन के लिए जीरो-नॉलेज प्रूफ्स का उपयोग",
     "summary": "सिग्नल (Signal), जो सैन फ्रांसिस्को स्थित एक गैर-लाभकारी संस्था सिग्नल फाउंडेशन द्वारा संचालित है, अपनी प्राइवेसी नीतियों में एक बड़ा बदलाव करने जा रहा है। टेक समुदाय में लंबे समय से इस बात पर बहस चल रही थी कि क्या सिग्नल बिना फोन नंबर के रजिस्ट्रेशन की अनुमति देगा। फाउंडेशन का यह नया आर्किटेक्चरल कदम न केवल यूजर्स की…",

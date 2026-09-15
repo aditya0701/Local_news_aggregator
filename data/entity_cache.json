@@ -700,9 +700,9 @@
   },
   "apple intelligence": {
     "canonical_name": "Apple Intelligence",
-    "entity_type": "technology",
-    "summary": "# Apple Intelligence. | Apple Intelligence running on MacBook Pro, iPhone, and iPad | |. **Apple Intelligence** is a collection of artificial intelligence features developed by Apple Inc. Relying on a combination of on-device and server processing, it was announced on June 10, 2024, at the 2024 Worl",
-    "last_updated": "2026-07-02"
+    "entity_type": "ai_model",
+    "summary": "Apple Intelligence is a personal intelligence system powered by next-generation Apple Foundation Models, providing personal context understanding, app actions, and on-screen awareness across Apple devices. It allows developers to integrate their app's content and actions into Siri AI via App Intents",
+    "last_updated": "2026-09-15"
   },
   "groqs llama3": {
     "canonical_name": "Groq's LLaMA-3",
@@ -3653,8 +3653,8 @@
   "nvidia": {
     "canonical_name": "Nvidia",
     "entity_type": "company",
-    "summary": "Nvidia Corporation is an American technology company based in Santa Clara, California. It is a designer and developer of graphics processing units, central processing units, and systems.",
-    "last_updated": "2026-07-06"
+    "summary": "NVIDIA is a semiconductor company that pioneered accelerated computing to tackle complex challenges. The company engineers advanced chips, systems, and software for AI and digital twins, transforming major industries and profoundly impacting society.",
+    "last_updated": "2026-09-15"
   },
   "genebenchpro": {
     "canonical_name": "GeneBench-Pro",
@@ -4144,9 +4144,9 @@
   },
   "netflix": {
     "canonical_name": "Netflix",
-    "entity_type": "company",
-    "summary": "Netflix is one of the world's leading entertainment services offering TV series, films, games, and live programming across a wide variety of genres and languages. Members can play, pause, and resume watching content as much as they want, anytime, anywhere, and can change their plans at any time.",
-    "last_updated": "2026-07-07"
+    "entity_type": "product",
+    "summary": "Netflix is a subscription-based streaming service that allows members to watch award-winning originals, TV shows, movies, and documentaries on internet-connected devices. Depending on the plan, users can also download content to watch without an internet connection, and the service provides personal",
+    "last_updated": "2026-09-15"
   },
   "langflow": {
     "canonical_name": "Langflow",
@@ -4235,8 +4235,8 @@
   "ios 27": {
     "canonical_name": "iOS 27",
     "entity_type": "product",
-    "summary": "iOS 27 is a software update coming in the fall with new features across Apple's operating systems. It includes a more capable AI assistant named Siri, AI-powered photo editing tools, and new capabilities for Apple Vision Pro and other products.",
-    "last_updated": "2026-07-07"
+    "summary": "iOS 27, unveiled at WWDC 2026 and widely released on September 14, 2026, features major Apple Intelligence upgrades, a new Siri AI architecture, and new parental safety features. It supports every iPhone back to the iPhone 11 and the iPhone SE (2nd generation), and focuses on system improvements lik",
+    "last_updated": "2026-09-15"
   },
   "siri": {
     "canonical_name": "Siri",
@@ -4457,8 +4457,8 @@
   "nintendo": {
     "canonical_name": "Nintendo",
     "entity_type": "company",
-    "summary": "Nintendo is a company founded by Fusajiro Yamauchi on September 23, 1889, and is headquartered in Kyoto, Japan. It engages in the development, manufacture, and sale of home entertainment products, including portable and console game machines, software, and other consumer electronics.",
-    "last_updated": "2026-07-12"
+    "summary": "Nintendo is a company founded in 1889 in Kyoto, Japan, that began by making hanafuda playing cards and now shares its characters, ideas, and worlds through video games and the entertainment industry. Its mission is to put smiles on the faces of everyone it touches by creating new surprises for peopl",
+    "last_updated": "2026-09-15"
   },
   "walkpod1007": {
     "canonical_name": "walkpod1007",
@@ -4847,8 +4847,8 @@
   "tiktok": {
     "canonical_name": "TikTok",
     "entity_type": "product",
-    "summary": "TikTok, released in September 2016, is a popular social media app that allows users to create, watch, and share short videos shot on mobile devices or webcams. TikTok is a short-form video platform where users create, share, discover, and interact with vertical videos designed primarily for mobile v",
-    "last_updated": "2026-07-08"
+    "summary": "TikTok is a platform that helps brands and agencies drive business impact through various product innovations and tools. It offers features like GMV Max and Pulse Custom Lineups to help advertisers place ads alongside trending content and diversify creative.",
+    "last_updated": "2026-09-15"
   },
   "amble": {
     "senses": [
@@ -6767,8 +6767,8 @@
   "chamath palihapitiya": {
     "canonical_name": "Chamath Palihapitiya",
     "entity_type": "person",
-    "summary": "Chamath Palihapitiya is a Co-Founder and CEO at 8090 Solutions and the Founder of Social Capital. He is married to Nathalie Dompe, who is the second wife of the venture capitalist and entrepreneur. The TOI Lifestyle Desk is a dynamic team of journalists who curate lifestyle news for The Times of Ind",
-    "last_updated": "2026-07-14"
+    "summary": "Chamath Palihapitiya is a venture capitalist, engineer, and entrepreneur who founded and serves as the CEO of Social Capital. He is known for investing in sectors such as energy transition, climate science, life sciences, and deep technology.",
+    "last_updated": "2026-09-15"
   },
   "8090 labs": {
     "canonical_name": "8090 Labs",
@@ -7001,8 +7001,8 @@
   "siri ai": {
     "canonical_name": "Siri AI",
     "entity_type": "ai_model",
-    "summary": "Next-generation Apple Intelligence and Siri AI bring helpful features to iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, and visionOS 27. New Apple Intelligence features are coming this fall, with Siri AI coming in English later this year. The next generation of Apple Intelligence and Siri is desc",
-    "last_updated": "2026-07-14"
+    "summary": "Siri AI is Apple's revamped voice assistant that will serve as a key selling point for the new iPhone 18 Pro. It is designed to cooperate with third-party models like ChatGPT and Claude, and these external models have the potential to replace Siri altogether on certain tasks.",
+    "last_updated": "2026-09-15"
   },
   "watchos 27": {
     "canonical_name": "watchOS 27",
@@ -7601,8 +7601,8 @@
   "valve": {
     "canonical_name": "Valve",
     "entity_type": "company",
-    "summary": "Valve is a company that creates and publishes video games. Its debut title, Half-Life, was released in 1998 and won more than 50 game of the year awards. The company has released dozens of titles that changed the world and continues to have new games in development.",
-    "last_updated": "2026-07-16"
+    "summary": "Valve is a game development company whose debut title, Half-Life, was released in 1998 to critical acclaim. The company has since released dozens of titles that changed the world, and millions of people play its games every day.",
+    "last_updated": "2026-09-15"
   },
   "ifixit": {
     "canonical_name": "iFixit",
@@ -9806,8 +9806,8 @@
   "hbo max": {
     "canonical_name": "HBO Max",
     "entity_type": "product",
-    "summary": "HBO Max is a premier global streaming platform that delivers captivating stories, ranging from the highest quality in scripted programming, movies, documentaries, and true crime, to adult animation. It bundles all of HBO together with even more of your favorite movies and TV series, plus new Max Ori",
-    "last_updated": "2026-07-21"
+    "summary": "HBO Max is a premier global streaming platform that delivers high-quality scripted programming, movies, documentaries, true crime, and adult animation. It is available on all supported devices and offers multiple subscription plans, including Basic with Ads, Standard, and Premium.",
+    "last_updated": "2026-09-15"
   },
   "cbs": {
     "canonical_name": "CBS",
@@ -11426,8 +11426,8 @@
   "jensen huang": {
     "canonical_name": "Jensen Huang",
     "entity_type": "person",
-    "summary": "Jensen Huang is the co-founder of NVIDIA and leads the company, which has grown into a trillion-dollar entity. He is known for his casual style, wearing leather jackets and polo shirts, and for instilling a culture of speed throughout his organization. Despite his iconic status, he is able to explai",
-    "last_updated": "2026-07-24"
+    "summary": "Jensen Huang is a Taiwanese-born American entrepreneur who cofounded NVIDIA in 1993 and has served as its president, chief executive officer, and board member since its inception. He previously worked at Denny's as a dishwasher, busboy, and waiter, and attended Stanford University, where he earned a",
+    "last_updated": "2026-09-15"
   },
   "rest of world": {
     "canonical_name": "Rest of World",
@@ -11921,8 +11921,8 @@
   "postgres": {
     "canonical_name": "Postgres",
     "entity_type": "product",
-    "summary": "EDB Postgres AI Database is a sovereign solution that powers transactional, analytical, and AI workloads. It is built on open source and provides a multi-model database for critical applications, supporting relational, vector, document, and time series data types.",
-    "last_updated": "2026-07-25"
+    "summary": "PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads. The origins of PostgreSQL date back to 1986 as part of the POSTGRES project at the University of",
+    "last_updated": "2026-09-15"
   },
   "listennotify": {
     "canonical_name": "LISTEN/NOTIFY",
@@ -12236,8 +12236,8 @@
   "volkswagen": {
     "canonical_name": "Volkswagen",
     "entity_type": "company",
-    "summary": "Volkswagen AG is a German company founded in 1937 that produces and sells passenger cars and light commercial vehicles. The firm also develops vehicles and components for its group brands and operates as a subsidiary of Porsche Automobil Holding SE.",
-    "last_updated": "2026-07-25"
+    "summary": "The Volkswagen Group is a leading global manufacturer of automobiles and commercial vehicles headquartered in Wolfsburg, and is the largest carmaker in Europe.",
+    "last_updated": "2026-09-15"
   },
   "michael stamp": {
     "canonical_name": "Michael Stamp",
@@ -12529,9 +12529,9 @@
   },
   "ai_model": {
     "canonical_name": "ai_model",
-    "entity_type": "ESP32-C3",
-    "summary": "ESP32-C3 is a microcontroller module with at least 16MB of flash memory and 8MB of PSRAM, suitable for running small AI models like MNIST without consuming large amounts of memory. It can be used with SynapEdge, a compiler that transforms ONNX models into C code for deployment on any microcontroller",
-    "last_updated": "2026-07-26"
+    "entity_type": "Turkish Native",
+    "summary": "The T3AI'LE model is developed by the T3 Foundation, also known as the Turkish Technology Team, a group that researches and implements technology and business products. The development of various AI systems, such as OpenAI's ChatGPT and Google's Gemini, has increased global investment in AI, with th",
+    "last_updated": "2026-09-15"
   },
   "organization": {
     "canonical_name": "organization",
@@ -13609,9 +13609,9 @@
   },
   "peacock": {
     "canonical_name": "Peacock",
-    "entity_type": "company",
-    "summary": "Peacock is NBCUniversal's streaming service launched in 2020. It offers a wide range of content including movies, TV shows, live sports, news, and original programming, operating on a tiered subscription model with both free and premium access options.",
-    "last_updated": "2026-07-29"
+    "entity_type": "product",
+    "summary": "Peacock is a streaming service from NBCUniversal that offers hit movies, TV shows, Originals, live sports, and favorites from NBC and Bravo. It provides various plans and bundles that include shows, movies, and live sports for viewers to stream on-demand and live.",
+    "last_updated": "2026-09-15"
   },
   "model s": {
     "canonical_name": "Model S",
@@ -16084,5 +16084,263 @@
     "entity_type": "product",
     "summary": "WorkBuddy is an AI agent built for office professionals by Tencent, designed as a full-scenario desktop workstation for all workplace roles. Powered by multi-agent collaboration, it autonomously breaks down complex tasks to deliver finished, verifiable outputs like reports and spreadsheets.",
     "last_updated": "2026-09-14"
+  },
+  "ipados 27": {
+    "canonical_name": "iPadOS 27",
+    "entity_type": "product",
+    "summary": "iPadOS 27 introduces an all-new Siri AI powered by Apple Intelligence to provide a more responsive and delightful experience. It also features next-generation Apple Intelligence enhancements across core apps, Visual Intelligence for learning about screen content, and expanded child safety features.",
+    "last_updated": "2026-09-15"
+  },
+  "macos 27": {
+    "canonical_name": "macOS 27",
+    "entity_type": "product",
+    "summary": "macOS 27 Golden Gate features an all-new Siri AI assistant, major upgrades to core applications like Safari, Photos, Messages, Mail, and Calendar, and expanded child-safety features. The update also includes design refinements and performance improvements throughout the operating system.",
+    "last_updated": "2026-09-15"
+  },
+  "andon": {
+    "canonical_name": "Andon",
+    "entity_type": "company",
+    "summary": "December 21, 2022 - Established in 1985, Andon Specialties Inc. is a manufacturer’s representative and industrial distributor of instrumentation, analytical, and fluid handling solutions. At Andon Specialties We Are 100% Committed to Delivering Effective Solutions and Exceptional Value to You and Yo",
+    "last_updated": "2026-09-15"
+  },
+  "pion": {
+    "canonical_name": "Pion",
+    "entity_type": "product",
+    "summary": "Creating consistency & predictability in cannabis-infused beverages - Vertosa and Pion Inc. Our best-in-class product portfolio helps scientists to efficiently establish cause and effect relationships for rapid progress and includes lab equipment that allows development of sample preparation workflo",
+    "last_updated": "2026-09-15"
+  },
+  "claude sonnet 35": {
+    "canonical_name": "Claude Sonnet 3.5",
+    "entity_type": "ai_model",
+    "summary": "Aug 28, 2025 · Today, we’re launching Claude 3.5 Sonnet—our first release in the forthcoming Claude 3.5 model family. Claude 3.5 Sonnet raises the industry bar for intelligence, outperforming competitor models and Claude 3 Opus on a wide range of evaluations, with the speed and cost of our mid-tier",
+    "last_updated": "2026-09-15"
+  },
+  "claude opus 4": {
+    "canonical_name": "Claude Opus 4",
+    "entity_type": "ai_model",
+    "summary": "1 month ago - You can query model capabilities and token limits programmatically with the Models API. The response includes max_input_tokens, max_tokens, and a capabilities object for every available model. ... On Claude Opus 4.8, the effort parameter defaults to high on all surfaces, including the",
+    "last_updated": "2026-09-15"
+  },
+  "vendingbench": {
+    "canonical_name": "Vending-Bench",
+    "entity_type": "product",
+    "summary": "We're releasing Vending-Bench 2, a benchmark for measuring AI model performance on running a business over long time horizons. Models are tasked with running a simulated vending machine business over a year and scored on their bank account balance at the end. Eval We're releasing Vending-Bench 2, a",
+    "last_updated": "2026-09-15"
+  },
+  "modern code": {
+    "canonical_name": "Modern code",
+    "entity_type": "product",
+    "summary": "material did not address this",
+    "last_updated": "2026-09-15"
+  },
+  "spaghetti code": {
+    "canonical_name": "spaghetti code",
+    "entity_type": "technology",
+    "summary": "Spaghetti code is a messy and confusing type of software code that results from writing without a clear plan or organization, resembling tangled spaghetti noodles because it is hard to follow and verify for performance or functionality.",
+    "last_updated": "2026-09-15"
+  },
+  "ravioli code": {
+    "canonical_name": "ravioli code",
+    "entity_type": "technology",
+    "summary": "Ravioli code describes highly fragmented code consisting of many small, self-contained units like individual ravioli, which are well-structured individually but create a large number of modules that make it difficult to understand connections, maintain, and extend.",
+    "last_updated": "2026-09-15"
+  },
+  "publishersubscriber system": {
+    "canonical_name": "publisher/subscriber system",
+    "entity_type": "technology",
+    "summary": "The Publisher Subscriber model is a messaging pattern used in software architecture to facilitate asynchronous communication between different components or systems, where publishers produce messages that are consumed by subscribers.",
+    "last_updated": "2026-09-15"
+  },
+  "dbt labs": {
+    "canonical_name": "dbt Labs",
+    "entity_type": "company",
+    "summary": "dbt Labs is an emerging leader in the data transformation space, on a mission to empower data practitioners to create and disseminate organizational knowledge. The company is used by 100,000 teams including JetBlue, HubSpot, Dunelm, and SunRun. Founder and CEO Tristan Handy has over two decades of e",
+    "last_updated": "2026-09-15"
+  },
+  "tristan handy": {
+    "canonical_name": "Tristan Handy",
+    "entity_type": "person",
+    "summary": "Tristan Handy is the CEO & Founder of dbt Labs and is based out of Philadelphia, Pennsylvania. With over two decades of experience as a data practitioner, he previously worked at RJMetrics and has led dbt Labs to become a key player in the data transformation industry.",
+    "last_updated": "2026-09-15"
+  },
+  "memoization": {
+    "canonical_name": "Memoization",
+    "entity_type": "technology",
+    "summary": "Memoization is an optimization technique primarily used to enhance the performance of algorithms by storing the results of expensive function calls and reusing them when the same inputs occur again. It helps by storing the results of expensive function calls and reusing them when the same inputs occ",
+    "last_updated": "2026-09-15"
+  },
+  "heidi yeh": {
+    "canonical_name": "Heidi Yeh",
+    "entity_type": "person",
+    "summary": "Heidi Yeh, MD, is a Physician at Mass General Brigham who specializes in Abdominal Transplant Surgery. She is the Surgical Director of the Abdominal Pediatric Transplant Program at Mass General Brigham for Children.",
+    "last_updated": "2026-09-15"
+  },
+  "alban longchamp": {
+    "canonical_name": "Alban Longchamp",
+    "entity_type": "person",
+    "summary": "Alban Longchamp, MD, PhD, is a Physician at Mass General Brigham who specializes in Abdominal Transplant Surgery. He is a general surgeon in Boston, Massachusetts, currently licensed to practice medicine in Massachusetts.",
+    "last_updated": "2026-09-15"
+  },
+  "yuancheng lu": {
+    "canonical_name": "Yuancheng Lu",
+    "entity_type": "person",
+    "summary": "Yuancheng Lu is a researcher whose work involves using single-cell genomic technologies and machine learning to combinatorially search the genomes of mouse and human cells. The goal of his project is to discover novel gene cocktails that can robustly rejuvenate cells without causing them to lose the",
+    "last_updated": "2026-09-15"
+  },
+  "allin summit": {
+    "canonical_name": "All-In Summit",
+    "entity_type": "event",
+    "summary": "The All-In Summit is an annual event hosted by the All-In Podcast, featuring programming on startups, technology, and investment. It brings together founders, investors, and business leaders for live discussions, networking, and exclusive opportunities.",
+    "last_updated": "2026-09-15"
+  },
+  "jason calacanis": {
+    "canonical_name": "Jason Calacanis",
+    "entity_type": "person",
+    "summary": "Jason Calacanis is a technology entrepreneur, angel investor, and the co-host and executive producer of the All-In Podcast. He is the founder and CEO of Inside.com and Launch, and previously worked at Weblogs.",
+    "last_updated": "2026-09-15"
+  },
+  "david friedberg": {
+    "canonical_name": "David Friedberg",
+    "entity_type": "person",
+    "summary": "David Friedberg is a South African-born American entrepreneur, investor, and podcast co-host who applies data science and biotechnology to agriculture. He is the CEO, Chairman, and co-founder of Ohalo Genetics, which focuses on developing agricultural technologies to boost productivity and reduce en",
+    "last_updated": "2026-09-15"
+  },
+  "glass imaging": {
+    "canonical_name": "Glass Imaging",
+    "entity_type": "company",
+    "summary": "Glass Imaging is a Los Altos, California-based technology company that develops artificial intelligence-powered imaging software and co-designed optics systems. It focuses on using customized AI in camera hardware to produce DSLR-quality photographs from compact cameras in smartphones, drones, and w",
+    "last_updated": "2026-09-15"
+  },
+  "ziv attar": {
+    "canonical_name": "Ziv Attar",
+    "entity_type": "person",
+    "summary": "Ziv Attar is the CEO and Founder of Glass Imaging Inc., an imaging technology company. He is an experienced imaging specialist with 20 years of experience in optics and image processing, previously working at Apple to lead various computational photography projects including Portrait Mode.",
+    "last_updated": "2026-09-15"
+  },
+  "youtube shorts": {
+    "canonical_name": "YouTube Shorts",
+    "entity_type": "product",
+    "summary": "YouTube Shorts is a creative canvas designed to help creators amplify their voice and reach a global audience. It allows creators to turn inspiration into high-impact content and build a loyal community by bridging the gap between casual viewers and dedicated fans.",
+    "last_updated": "2026-09-15"
+  },
+  "warner brothers discovery": {
+    "canonical_name": "Warner Brothers Discovery",
+    "entity_type": "company",
+    "summary": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes a portfolio of content and brands across television, film, and streaming. It inspires, informs, and entertains audiences worldwide through iconic brands and products.",
+    "last_updated": "2026-09-15"
+  },
+  "lucid air": {
+    "canonical_name": "Lucid Air",
+    "entity_type": "product",
+    "summary": "Lucid Air is a sustainable electric sedan that reimagines the electric car, offering extraordinary performance, range, and an ultra-soft, first-class cabin with features like an optional panoramic glass canopy.",
+    "last_updated": "2026-09-15"
+  },
+  "id polo": {
+    "canonical_name": "ID. Polo",
+    "entity_type": "product",
+    "summary": "The ID. Polo is a battery-electric compact car designed to provide everyday usability, accessibility, and stable interior climate control in stop-and-go traffic.",
+    "last_updated": "2026-09-15"
+  },
+  "macos 27 golden gate": {
+    "canonical_name": "macOS 27 Golden Gate",
+    "entity_type": "product",
+    "summary": "macOS 27 Golden Gate is a version of Apple's desktop operating system that introduces all-new Siri AI powered by Apple Intelligence. It features a more responsive and delightful user experience, next-generation Apple Intelligence enhancements across core apps, and a refined design using enhanced Liq",
+    "last_updated": "2026-09-15"
+  },
+  "highlight": {
+    "canonical_name": "Highlight",
+    "entity_type": "product",
+    "summary": "Highlight is a product overview template designed to help users craft resonant and evocative presentations. It is part of SlideTeam's collection of cutting-edge product overview templates aimed at painting a vivid picture of a product's transformative experience.",
+    "last_updated": "2026-09-15"
+  },
+  "steam deck": {
+    "canonical_name": "Steam Deck",
+    "entity_type": "product",
+    "summary": "The Steam Deck is a portable PC gaming device built for extended play sessions with full-size controls positioned within easy reach. A new iteration, the Steam Deck Pro, was released in February 2025 to build upon the success of the original.",
+    "last_updated": "2026-09-15"
+  },
+  "steam controller": {
+    "canonical_name": "Steam Controller",
+    "entity_type": "product",
+    "summary": "The Steam Controller is a PC game controller known for its excellent design, solid performance, and extreme level of customization. It features an ergonomic design, responsive buttons, and easy pairing, though it is only compatible with SteamOS.",
+    "last_updated": "2026-09-15"
+  },
+  "pierreloup griffais": {
+    "canonical_name": "Pierre-Loup Griffais",
+    "entity_type": "person",
+    "summary": "material did not address this",
+    "last_updated": "2026-09-15"
+  },
+  "icloud plus": {
+    "canonical_name": "iCloud Plus",
+    "entity_type": "product",
+    "summary": "iCloud Plus is a subscription service that provides additional cloud storage and enhanced privacy features. It also allows users to share their plan with up to five other family members at no extra cost.",
+    "last_updated": "2026-09-15"
+  },
+  "environmental protection agency": {
+    "canonical_name": "Environmental Protection Agency",
+    "entity_type": "organization",
+    "summary": "The Environmental Protection Agency safeguards human health and the environment by ensuring clean air, land, and water for every American. The agency has announced nearly $1 billion in new funding to states to address PFAS in drinking water and has issued proposed rules to uphold National Primary Dr",
+    "last_updated": "2026-09-15"
+  },
+  "steam frame": {
+    "canonical_name": "Steam Frame",
+    "entity_type": "product",
+    "summary": "The Steam Frame is Valve's wireless, streaming-first SteamOS VR headset that launched on September 14, 2026. It is available in a 256GB kit for $1,059 and a 1TB kit for $1,299, each including Steam Frame Controllers and a Wi-Fi 6E wireless adapter for PC streaming.",
+    "last_updated": "2026-09-15"
+  },
+  "steam machine": {
+    "canonical_name": "Steam Machine",
+    "entity_type": "product",
+    "summary": "Steam Machine is a compact, SteamOS-powered living-room PC designed to run your Steam library from the couch. It uses desktop-class AMD silicon in a small cube chassis, ships in two storage configurations, and integrates with a low-latency Steam Controller, with a release window set for early 2026.",
+    "last_updated": "2026-09-15"
+  },
+  "valve index": {
+    "canonical_name": "Valve Index",
+    "entity_type": "product",
+    "summary": "Valve Index is a high-fidelity virtual reality headset featuring superior displays, off-ear audio, and adjustable comfort. It requires Base Stations, a PC, and specific controllers for natural interactions and high-fidelity hand presence.",
+    "last_updated": "2026-09-15"
+  },
+  "slopmop": {
+    "canonical_name": "slop-mop",
+    "entity_type": "product",
+    "summary": "Slop-mop is a gate system designed to prevent coding agents from falling into shallow local minima like deception, myopia, and overconfidence. It achieves this by keeping the cleanup rules outside the agent's optimization loop and providing structured, specific sidequests for code maintenance.",
+    "last_updated": "2026-09-15"
+  },
+  "dshpromptoptimizer": {
+    "canonical_name": "dsh-prompt-optimizer",
+    "entity_type": "product",
+    "summary": "dsh-prompt-optimizer A prompt-optimizer plugin for DeepSeek Harness (dsh). It adds an Optimize Prompt button right below the chat composer: click it to rewrite your draft into a clearer, more executable prompt — then apply it back into the input box with one click. A prompt-optimizer plugin for Deep",
+    "last_updated": "2026-09-15"
+  },
+  "cordis": {
+    "canonical_name": "cordis",
+    "entity_type": "technology",
+    "summary": "Headquartered in Miami Lakes, Florida, Cordis is a worldwide leader in cardiology and endovascular devices, providing quality products and services. Cordis is an independent, customer-focused provider of interventional cardiovascular technologies. Cordis is a global leader in delivering innovative,",
+    "last_updated": "2026-09-15"
+  },
+  "titania isa": {
+    "canonical_name": "Titania ISA",
+    "entity_type": "protocol",
+    "summary": "The provided material does not contain a usable overview of the Titania ISA protocol.",
+    "last_updated": "2026-09-15"
+  },
+  "sample": {
+    "canonical_name": "sample",
+    "entity_type": "product",
+    "summary": "Download our Product Summary Templates to present your company's product portfolio and its performance to relevant stakeholders. JavaScript seems to be disabled in your browser. For the best experience on our site, be sure to turn on Javascript in your browser. Researched by Consultants from Top-Tie",
+    "last_updated": "2026-09-15"
+  },
+  "xieyulai": {
+    "canonical_name": "xieyulai",
+    "entity_type": "person",
+    "summary": "Yulai Xie is a Chief Researcher at the Hitachi China Research Lab and a professor at the School of Cyberspace Security at Huazhong University of Science and Technology. He earned his Ph.D. in Computer Architecture from HUST in 2013 and holds multiple professional memberships, including IEEE and ACM.",
+    "last_updated": "2026-09-15"
+  },
+  "steer": {
+    "canonical_name": "STEER",
+    "entity_type": "product",
+    "summary": "Product Overview Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas. Magnam dolores commodi suscipi",
+    "last_updated": "2026-09-15"
   }
 }
