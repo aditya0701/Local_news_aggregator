@@ -1012,9 +1012,9 @@
   },
   "iphone": {
     "canonical_name": "iPhone",
-    "entity_type": "technology",
-    "summary": "The iPhone, introduced by Apple in 2007, revolutionized the smartphone market and established new industry standards for mobile devices. Initially designed as a combination phone, web browser, and iPod, the iPhone featured a glass touchscreen, multitouch capability, and an innovative design that app",
-    "last_updated": "2026-07-03"
+    "entity_type": "product",
+    "summary": "The Apple iPhone is a line of current mobile devices sold as new by Apple, encompassing various models with different display sizes, processors, and storage configurations. Each model's complete technical specifications, including performance benchmarks and pricing, are available on the WebMate-host",
+    "last_updated": "2026-09-16"
   },
   "hermeswebui": {
     "canonical_name": "hermes-webui",
@@ -2398,9 +2398,9 @@
   },
   "raspberry pi": {
     "canonical_name": "Raspberry Pi",
-    "entity_type": "technology",
-    "summary": "From industries large and small, to the kitchen table tinkerer, to the classroom coder, we make computing accessible and affordable for … A raspberry is an aggregate fruit, developing from the numerous distinct carpels of a single flower. [4] Each carpel then grows into individual …  The raspberry i",
-    "last_updated": "2026-07-04"
+    "entity_type": "product",
+    "summary": "Raspberry Pi is a line of single-board computers and microcontrollers that includes flagship series, Zero series, Compute Module series, and Pico microcontrollers. The product line encompasses various models, such as the Raspberry Pi 4 Model B, which feature specific hardware connectors like 4-pin f",
+    "last_updated": "2026-09-16"
   },
   "computer vision": {
     "canonical_name": "computer vision",
@@ -2677,9 +2677,9 @@
   },
   "mcp": {
     "canonical_name": "MCP",
-    "entity_type": "technology",
-    "summary": "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems. It operates at the application context layer to define how to structure, persist, and exchange context between AI agents and external systems, potentially using protocols like HTTP or gRPC for",
-    "last_updated": "2026-07-05"
+    "entity_type": "protocol",
+    "summary": "Model Context Protocol (MCP) is a standardized framework by Anthropic that enables AI models to connect with external tools and data sources. It operates on a host-client-server pattern built on JSON-RPC 2.0 to provide secure, scalable, and real-time access without the need for custom integrations.",
+    "last_updated": "2026-09-16"
   },
   "fafaaidatalab": {
     "canonical_name": "fafa-ai-data-lab",
@@ -3104,8 +3104,8 @@
   "uber": {
     "canonical_name": "Uber",
     "entity_type": "company",
-    "summary": "Uber is an international transportation network company offering peer-to-peer ridesharing, ride service hailing, food delivery, and a bicycle-sharing system. It was founded in 2009 and has an estimated revenue of $10B+.",
-    "last_updated": "2026-07-06"
+    "summary": "Uber is a global platform that powers movement by providing technology to help people move ahead. The company is committed to becoming a fully electric, zero-emission platform by 2040, with 100% of rides taking place in zero-emission vehicles, on public transit, or with micromobility.",
+    "last_updated": "2026-09-16"
   },
   "delivery hero": {
     "canonical_name": "Delivery Hero",
@@ -3364,9 +3364,9 @@
   },
   "david pierce": {
     "canonical_name": "David Pierce",
-    "entity_type": "general",
-    "summary": "David Pierce is an author, English professor, and former Division I head coach with over 45 years of experience in the medical field. He is a family medicine physician in Portland, OR, and graduated from Northwestern University in 1978. He is affiliated with Adventist Health Portland and Legacy Good",
-    "last_updated": "2026-07-06"
+    "entity_type": "person",
+    "summary": "David Pierce is an Editor At Large at The Verge who attended the University of Virginia. The search material also references David Hyde Pierce, an American actor known for his role as Niles Crane on the sitcom Frasier.",
+    "last_updated": "2026-09-16"
   },
   "morgan eckroth": {
     "canonical_name": "Morgan Eckroth",
@@ -3382,9 +3382,9 @@
   },
   "version history": {
     "canonical_name": "Version History",
-    "entity_type": "general",
-    "summary": "The version history feature allows users to track updates of content over time, including a description, timestamp, and relevant metadata. The latest release for the Service Management Connector is v3.5.23179.1, released in June 2023. The history includes multiple versions, from v3.5.2128.2 down to",
-    "last_updated": "2026-07-06"
+    "entity_type": "podcast",
+    "summary": "Version History is a show about the best gadgets ever, the worst ones, and the ones that might have changed the world. Every week, hosts from The Verge and beyond tell and debate the story of a gadget, app, website, or other tech product to determine its true legacy.",
+    "last_updated": "2026-09-16"
   },
   "harmony remote": {
     "canonical_name": "Harmony remote",
@@ -3617,8 +3617,8 @@
   "salesforce": {
     "canonical_name": "Salesforce",
     "entity_type": "company",
-    "summary": "Salesforce is the #1 AI CRM where humans with agents drive customer success together with AI, data, and Customer 360 apps on one platform. The company has 84,999 employees and is headquartered in San Francisco, California, with additional offices in Staines, Switzerland, Singapore, Munich, and Londo",
-    "last_updated": "2026-07-06"
+    "summary": "Salesforce is a platform focused on turning data into action and workflows into agent-powered efficiency. Since 1999, the company has helped businesses connect with customers in new and better ways by bringing people, agents, and platforms together to become an Agentic Enterprise.",
+    "last_updated": "2026-09-16"
   },
   "slack": {
     "canonical_name": "Slack",
@@ -6916,15 +6916,15 @@
   },
   "starship": {
     "canonical_name": "Starship",
-    "entity_type": "technology",
-    "summary": "Starship is an innovative, cloud-based management platform for Cisco UCS and HyperFlex systems. It is designed to help users try out the platform through a Tech Preview.",
-    "last_updated": "2026-07-14"
+    "entity_type": "product",
+    "summary": "SpaceX's Starship spacecraft and Super Heavy rocket - collectively referred to as Starship - represent a fully reusable transportation system designed to carry both crew and cargo to Earth orbit, the Moon, Mars and beyond. Starship is a two-stage, fully reusable super heavy-lift launch system under",
+    "last_updated": "2026-09-16"
   },
   "starlink": {
     "canonical_name": "Starlink",
-    "entity_type": "technology",
-    "summary": "Starlink is a satellite constellation system that aims to deliver global internet coverage. It uses a constellation of low Earth orbit (LEO) satellites to provide high-speed internet services, particularly for rural and geographically isolated areas.",
-    "last_updated": "2026-07-14"
+    "entity_type": "product",
+    "summary": "Starlink delivers fast, reliable internet at home and on the go. Seamlessly stream, video call, game and more with high-speed connectivity even in the most rural and remote places. Starlink is the world's most advanced satellite constellation using a low Earth orbit to deliver broadband internet cap",
+    "last_updated": "2026-09-16"
   },
   "oneplus": {
     "canonical_name": "OnePlus",
@@ -7493,8 +7493,8 @@
   "general catalyst": {
     "canonical_name": "General Catalyst",
     "entity_type": "organization",
-    "summary": "General Catalyst is a global investment and transformation company that partners with entrepreneurs to drive resilience and applied AI. It is a prominent global investment firm with $43.0B in assets under management, active in North America and Europe.",
-    "last_updated": "2026-07-16"
+    "summary": "General Catalyst is an American venture capital firm founded in 2000 in Cambridge, Massachusetts, that invests across seed, venture, and growth stages. The firm manages over $43 billion in assets and has invested in more than 800 companies, partnering with entrepreneurs to drive resilience and appli",
+    "last_updated": "2026-09-16"
   },
   "lakestar": {
     "canonical_name": "Lakestar",
@@ -8668,9 +8668,9 @@
   },
   "stripe": {
     "canonical_name": "Stripe",
-    "entity_type": "general",
-    "summary": "Stripe is a technology company that builds economic infrastructure for the internet. Businesses of every size use Stripe's software to accept payments and manage their online operations.",
-    "last_updated": "2026-07-18"
+    "entity_type": "company",
+    "summary": "Stripe is a technology and financial services platform founded in 2009 by Patrick and John Collison. The company builds economic infrastructure for the internet, helping businesses of all sizes accept payments, build flexible billing models, and manage money movement online.",
+    "last_updated": "2026-09-16"
   },
   "startup battlefield": {
     "canonical_name": "Startup Battlefield",
@@ -9962,8 +9962,8 @@
   "andrew j hawkins": {
     "canonical_name": "Andrew J. Hawkins",
     "entity_type": "person",
-    "summary": "Andrew J. Hawkins is a transportation editor with 10+ years of experience who covers EVs, public transportation, and aviation. His work has appeared in The New York Daily News and City & State, and he is currently the transportation editor at The Verge.",
-    "last_updated": "2026-07-21"
+    "summary": "May 21, 2026 · Who Is Andrew J. Hawkins? Andrew J. Hawkins is a transportation and technology journalist best known for covering the fast-changing intersection of mobility, policy, and consumer tech. Some news: I'm thrilled to announce I’m starting at The Wall Street Journal next week as its new Det",
+    "last_updated": "2026-09-16"
   },
   "peter nelson": {
     "canonical_name": "Peter Nelson",
@@ -10354,9 +10354,9 @@
   },
   "australia": {
     "canonical_name": "Australia",
-    "entity_type": "organization",
-    "summary": "material did not address this",
-    "last_updated": "2026-07-22"
+    "entity_type": "country",
+    "summary": "Australia is the smallest continent and one of the largest countries on Earth, located between the Pacific and Indian oceans in the Southern Hemisphere. Its capital is Canberra, and its most important economic and cultural centers are Sydney and Melbourne.",
+    "last_updated": "2026-09-16"
   },
   "facebook": {
     "canonical_name": "Facebook",
@@ -10571,8 +10571,8 @@
   "openai foundation": {
     "canonical_name": "OpenAI Foundation",
     "entity_type": "organization",
-    "summary": "OpenAI Foundation is a nonprofit organization designed as a chassis for OpenAI's mission to build artificial general intelligence (AGI) that is safe and benefits all of humanity. It was founded in 2015 and its mission continues to guide all of its activities.",
-    "last_updated": "2026-07-22"
+    "summary": "The OpenAI Foundation is a nonprofit founded in 2015 to ensure that artificial general intelligence benefits all of humanity. It controls OpenAI Group PBC, a for-profit subsidiary created in 2019 to scale research and deployment efforts.",
+    "last_updated": "2026-09-16"
   },
   "openai group pbc": {
     "canonical_name": "OpenAI Group PBC",
@@ -10772,8 +10772,8 @@
   "nancy grace roman space telescope": {
     "canonical_name": "Nancy Grace Roman Space Telescope",
     "entity_type": "product",
-    "summary": "Named after NASA’s first chief astronomer, the ‘mother of the Hubble Space Telescope,’ the Nancy Grace Roman Space Telescope will have a field of view at least 100 times larger than Hubble's, potentially measuring light from a billion galaxies in its lifetime. This observatory will also be able to b",
-    "last_updated": "2026-07-23"
+    "summary": "The Nancy Grace Roman Space Telescope is named after NASA’s first chief astronomer and is considered the 'mother of the Hubble Space Telescope.' It is designed to settle essential questions in the areas of dark energy, exoplanets, and astrophysics. The observatory will have a field of view at least",
+    "last_updated": "2026-09-16"
   },
   "active coronagraph": {
     "canonical_name": "active coronagraph",
@@ -10924,9 +10924,9 @@
   },
   "andreessen horowitz": {
     "canonical_name": "Andreessen Horowitz",
-    "entity_type": "company",
-    "summary": "Andreessen Horowitz (a16z) is a venture capital firm in Silicon Valley, California, investing in bold founders, innovators, and entrepreneurs building the future through technology. It is also a prominent venture capital firm known for its investments in technology startups and its commitment to sup",
-    "last_updated": "2026-07-23"
+    "entity_type": "organization",
+    "summary": "Andreessen Horowitz, or a16z, is a venture capital and private equity firm based in Silicon Valley that invests in early-stage seed and other development phases to build the future through technology. It provides capital and strategic operational resources to bold founders and innovators.",
+    "last_updated": "2026-09-16"
   },
   "ben horowitz": {
     "canonical_name": "Ben Horowitz",
@@ -12822,10 +12822,10 @@
     "last_updated": "2026-07-26"
   },
   "gitleaks": {
-    "canonical_name": "gitleaks",
-    "entity_type": "technology",
-    "summary": "Gitleaks-Action is the official Gitleaks GitHub Action. It can be used to automatically run a gitleaks scan on pull requests and commits, or on-demand scans. For personal accounts, no license key is required, but for GitHub organizations, a free license is needed.",
-    "last_updated": "2026-07-26"
+    "canonical_name": "Gitleaks",
+    "entity_type": "product",
+    "summary": "Gitleaks is an open-source Static Application Security Testing (SAST) tool designed to detect and prevent the accidental inclusion of sensitive information, such as passwords, API keys, tokens, and private keys, in Git repositories. By scanning code, commits, and repository histories, it identifies",
+    "last_updated": "2026-09-16"
   },
   "cindyapp": {
     "canonical_name": "cindy.app",
@@ -16342,5 +16342,287 @@
     "entity_type": "product",
     "summary": "Product Overview Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas. Magnam dolores commodi suscipi",
     "last_updated": "2026-09-15"
+  },
+  "typesafe ai": {
+    "canonical_name": "TypeSafe AI",
+    "entity_type": "company",
+    "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access. TypeSafe AI Manifesto Our Team Join Waitlist TypeSafe AI Manifesto Our Team âµ â© â© âµ not chat Reinforc",
+    "last_updated": "2026-09-16"
+  },
+  "jev": {
+    "canonical_name": "Jev",
+    "entity_type": "ai_model",
+    "summary": "Diogo Almeida's TypeSafe AI launched Jev, a model that drops text generation for fast, structured decisions. Its largest performance claims remain internally tested. The San Francisco lab's first System One model drops text generation, while its headline speed and cost gains remain vendor-tested. By",
+    "last_updated": "2026-09-16"
+  },
+  "diogo almeida": {
+    "canonical_name": "Diogo Almeida",
+    "entity_type": "person",
+    "summary": "Diogo Almeida is co-founder and chief executive of TypeSafe AI, building AI systems that can make reliable decisions and automate consequential work without constant human supervision.… Bio, Work & Ideas Conference affiliation: CEO · TypeSafe AI · 2026 Diogo Almeida is co-founder and chief executive",
+    "last_updated": "2026-09-16"
+  },
+  "private cloud compute": {
+    "canonical_name": "Private Cloud Compute",
+    "entity_type": "technology",
+    "summary": "Private Cloud Compute is a cloud deployment model that provides enhanced security and privacy by renting cloud resources to a single organization via a private network. It retains the scalability and flexibility of public cloud while being tailored for internal or corporate use.",
+    "last_updated": "2026-09-16"
+  },
+  "fugleramme": {
+    "canonical_name": "Fugleramme",
+    "entity_type": "product",
+    "summary": "Fugleramme is an e-ink bird frame for Raspberry Pi that performs real-time bird detection by audio using fully local AI. It renders recently-seen birds as a collage on an e-ink display, using a microphone that feeds into BirdNET-Go for detection and classification.",
+    "last_updated": "2026-09-16"
+  },
+  "birdnetgo": {
+    "canonical_name": "BirdNET-Go",
+    "entity_type": "technology",
+    "summary": "BirdNET-Go is a self-hosted, 24/7 local AI inference tool that acts as a real-time soundscape analyzer for birds, wildlife, and bats. It ingests soundcard or network audio streams, runs multi-model classification, and presents the detection results in a fast web user interface. The software runs on",
+    "last_updated": "2026-09-16"
+  },
+  "inky impression": {
+    "canonical_name": "Inky Impression",
+    "entity_type": "product",
+    "summary": "Inky Impression is a full-color ePaper display for Raspberry Pi, available in a 13.3-inch 2025 Edition with a resolution of 1600 x 1200 pixels. Manufactured by Pimoroni, the display utilizes multi-color EPD technology to pull colored particles up and down, resulting in a super crisp, low-power scree",
+    "last_updated": "2026-09-16"
+  },
+  "datamimic": {
+    "canonical_name": "Datamimic",
+    "entity_type": "product",
+    "summary": "Datamimic is a model-driven, deterministic-first test data platform designed for regulated enterprises. It features rule-based generators for financial identifiers like IBAN and BIC, along with template exporters for message formats such as SWIFT, PACS, EDIFACT, and HL7.",
+    "last_updated": "2026-09-16"
+  },
+  "artificial analysis": {
+    "canonical_name": "Artificial Analysis",
+    "entity_type": "organization",
+    "summary": "Artificial Analysis is an independent benchmarking company for AI that measures agents, models, cloud infrastructure, and chips. It helps developers and companies optimize the entire AI stack.",
+    "last_updated": "2026-09-16"
+  },
+  "sierra": {
+    "canonical_name": "Sierra",
+    "entity_type": "company",
+    "summary": "Sierra helps businesses build better, more human customer experiences with AI by partnering with industry leaders. The company focuses on transforming customer experiences, pushing the boundaries of applied AI, and delivering measurable business impact at scale.",
+    "last_updated": "2026-09-16"
+  },
+  "grace huckins": {
+    "canonical_name": "Grace Huckins",
+    "entity_type": "person",
+    "summary": "Grace Huckins is a Stanford University lecturer and award-winning science journalist who has been awarded $100,000 and a book deal with Cambridge University Press for their exceptional response to a grant cycle. Their winning entry, selected from over 600 submissions, argued that the explosion of pu",
+    "last_updated": "2026-09-16"
+  },
+  "ruxandra teslo": {
+    "canonical_name": "Ruxandra Teslo",
+    "entity_type": "person",
+    "summary": "Ruxandra Teslo is a genomics PhD candidate at the Sanger Institute in Cambridge, UK. She is a writer for Works in Progress, co-founder of Clinical Trial Abundance, and publishes Substack commentary focused on pro-progress and anti-safetyist perspectives.",
+    "last_updated": "2026-09-16"
+  },
+  "openadmet": {
+    "canonical_name": "OpenAdmet",
+    "entity_type": "organization",
+    "summary": "OpenADMET is an organization dedicated to building open predictive models of safety and toxicity for small molecules to improve disease treatment. It operates as an open science effort utilizing high-quality data, mechanistic insight, and machine learning.",
+    "last_updated": "2026-09-16"
+  },
+  "1day sooner": {
+    "canonical_name": "1Day Sooner",
+    "entity_type": "organization",
+    "summary": "1Day Sooner is an independent 501(c)(3) nonprofit founded in March 2020 to represent challenge volunteers. It operates a Cooperative Participant Organization to support early-phase, high-impact clinical trials involving healthy participants.",
+    "last_updated": "2026-09-16"
+  },
+  "university of north carolina chapel hill": {
+    "canonical_name": "University of North Carolina, Chapel Hill",
+    "entity_type": "organization",
+    "summary": "The University of North Carolina at Chapel Hill is the nation's first public university and a global higher education leader. It is a member of the Association of American Universities and is known for innovative teaching, research, and public service.",
+    "last_updated": "2026-09-16"
+  },
+  "altos labs": {
+    "canonical_name": "Altos Labs",
+    "entity_type": "company",
+    "summary": "Altos Labs is a private biotechnology company focused on cellular rejuvenation programming to restore cell health and resilience. It aims to reverse disease, injury, and disabilities by merging the academic freedom to pursue challenging biology problems with an industry drive focused on patients.",
+    "last_updated": "2026-09-16"
+  },
+  "whatsapp business tools mcp": {
+    "canonical_name": "WhatsApp Business Tools MCP",
+    "entity_type": "product",
+    "summary": "The WhatsApp Business Tools MCP is an MCP server designed for developers building on the WhatsApp Business Platform Cloud API. It allows AI agents and IDE assistants to manage, debug, create accounts, add numbers, build templates, and send test messages for WhatsApp Business integrations directly wi",
+    "last_updated": "2026-09-16"
+  },
+  "paypal": {
+    "canonical_name": "PayPal",
+    "entity_type": "company",
+    "summary": "PayPal is an American financial technology company headquartered in San Jose, California, that has been revolutionizing global commerce for more than 25 years. It creates innovative experiences to make moving money, selling, and shopping simple, personalized, and secure for consumers and businesses",
+    "last_updated": "2026-09-16"
+  },
+  "notion": {
+    "canonical_name": "Notion",
+    "entity_type": "company",
+    "summary": "Notion is a productivity and note-taking application developed by Notion Labs, Inc. It serves as a workspace for notetaking, knowledge management, data organization, and project and task tracking. The company is based in San Francisco and has a diverse global team.",
+    "last_updated": "2026-09-16"
+  },
+  "atlassian": {
+    "canonical_name": "Atlassian",
+    "entity_type": "company",
+    "summary": "Atlassian is a global company with a mission to help unleash the potential of every team through open work. Founded in 2002 by Mike Cannon-Brookes and Scott Farquhar, the company creates software products that help teams around the world advance humanity across various fields.",
+    "last_updated": "2026-09-16"
+  },
+  "bloombergnef": {
+    "canonical_name": "BloombergNEF",
+    "entity_type": "organization",
+    "summary": "BloombergNEF (BNEF) leverages sophisticated data sets to create clear perspectives and in-depth forecasts on the financial, economic, and policy implications of industry-transforming trends and technologies. The organization provides independent analysis and insight through a team of trusted experts",
+    "last_updated": "2026-09-16"
+  },
+  "noreva": {
+    "canonical_name": "Noreva",
+    "entity_type": "organization",
+    "summary": "Noreva is an AI-driven market intelligence platform from Karbone Research that combines fundamentals modeling, policy analysis, and trading data to forecast prices for power, capacity, and environmental attributes.",
+    "last_updated": "2026-09-16"
+  },
+  "thatch": {
+    "canonical_name": "Thatch",
+    "entity_type": "company",
+    "summary": "Thatch is a company that simplifies personalized healthcare for businesses by allowing employers to set a health budget while the company handles the rest. Founded in 2021, it has grown to include over 200 team members and serves more than 5,000 employers.",
+    "last_updated": "2026-09-16"
+  },
+  "chris ellis": {
+    "canonical_name": "Chris Ellis",
+    "entity_type": "person",
+    "summary": "Chris Ellis is an actor known for roles in films like Armageddon, The Island, and Transformers, often playing authority figures. He is the co-founder and CEO of Thatch and previously worked at Agilent Technologies as a Global Marketing Program Manager.",
+    "last_updated": "2026-09-16"
+  },
+  "the general partnership": {
+    "canonical_name": "The General Partnership",
+    "entity_type": "organization",
+    "summary": "The General Partnership is a venture capital firm that operates on a unique model of trading in two currencies: capital and hands-on work. It provides founders with both funding and direct support from senior leaders who have built companies such as Stripe, YouTube, and Google.",
+    "last_updated": "2026-09-16"
+  },
+  "anthem": {
+    "canonical_name": "Anthem",
+    "entity_type": "company",
+    "summary": "Anthem Blue Cross and Blue Shield is a health insurance company dedicated to delivering better care to members and improving community health. It offers a wide range of insurance plans, including individual and family, Medicare, and Medicaid, alongside various support and resources.",
+    "last_updated": "2026-09-16"
+  },
+  "united healthcare": {
+    "canonical_name": "United Healthcare",
+    "entity_type": "company",
+    "summary": "UnitedHealthcare is the health benefits business of UnitedHealth Group, a company focused on building a modern and high-performing health system. It works to improve access, affordability, outcomes, and experiences within the healthcare industry.",
+    "last_updated": "2026-09-16"
+  },
+  "choice": {
+    "canonical_name": "CHOICE",
+    "entity_type": "regulation",
+    "summary": "Choice Regulation Watch is a research initiative of the Department of Education Reform that generates and disseminates research on the regulation of school choice policies and outcomes nationally.",
+    "last_updated": "2026-09-16"
+  },
+  "palma 3": {
+    "canonical_name": "Palma 3",
+    "entity_type": "product",
+    "summary": "The Boox Palma 3 is a smartphone-sized e-reader that features a sleek redesign. It ships with Android 16 and includes stylus support.",
+    "last_updated": "2026-09-16"
+  },
+  "canon": {
+    "canonical_name": "Canon",
+    "entity_type": "company",
+    "summary": "This is Canon's official global site. You can view Canon's vision, corporate profile, Canon's activities, and more. Corporate Profile Canon U.S.A., Inc. is a leading provider of consumer, business-to-business and industrial digital imaging solutions to the United States and to Latin America and the",
+    "last_updated": "2026-09-16"
+  },
+  "eos r8": {
+    "canonical_name": "EOS R8",
+    "entity_type": "product",
+    "summary": "Shop the EOS R8 from Canon U.S.A., Inc. Learn more about Canon's high-quality products using innovative technology for personal and professional use. See how Ca Product specifications and appearance are subject to change without notice. If a problem occurs with a non-Canon lens attached to the camer",
+    "last_updated": "2026-09-16"
+  },
+  "eos r6 mark iii": {
+    "canonical_name": "EOS R6 Mark III",
+    "entity_type": "product",
+    "summary": "The EOS R6 III offers an excellent shooting experience for all types of still photography and videography. The eligible products that may be ordered through the Service (the identity of which are subject to change) are set forth on the product detail page on the Canon Direct website (shop.usa.canon.",
+    "last_updated": "2026-09-16"
+  },
+  "jonathan haidt": {
+    "canonical_name": "Jonathan Haidt",
+    "entity_type": "person",
+    "summary": "Jonathan Haidt is a social psychologist at New York University's Stern School of Business and a New York Times bestselling author. His work focuses on helping people understand and learn from each other despite their moral differences, and he has studied the impact of social media on teen mental hea",
+    "last_updated": "2026-09-16"
+  },
+  "the anxious generation": {
+    "canonical_name": "The Anxious Generation",
+    "entity_type": "book",
+    "summary": "The Anxious Generation is a book that examines how smartphones, social media, and helicopter parenting have contributed to a decline in young people's mental health. It offers actionable solutions to help children and adults become more emotionally stable, while also exploring the possibility of rep",
+    "last_updated": "2026-09-16"
+  },
+  "candice odgers": {
+    "canonical_name": "Candice Odgers",
+    "entity_type": "researcher",
+    "summary": "Candice Odgers is a Canadian developmental and quantitative psychologist who studies adolescent mental health, social inequalities, and the influence of digital technologies on young people's development. Her research team tracks daily mental health and device use via smartphones, and she has built",
+    "last_updated": "2026-09-16"
+  },
+  "pbv": {
+    "canonical_name": "PBV",
+    "entity_type": "product",
+    "summary": "At its core, a PBV ball valve (often denoting “Pressure Balanced Valve” or a specific brand’s high-performance offering) is a quarter-turn valve that controls flow using a rotary ball with a bore. When the ball’s bore is aligned with the pipe, flow occurs; a 90-degree turn blocks the flow. These aut",
+    "last_updated": "2026-09-16"
+  },
+  "pv5": {
+    "canonical_name": "PV5",
+    "entity_type": "product",
+    "summary": "The Kia PV5, Kia's Platform Beyond Vehicle (PBV), adapts to a wide range of everyday and business settings. More than just a means of transportation, it delivers an easier, more convenient mobility experience tailored to your purpose and lifestyle. Innovation that Makes Everyday Life Easier The PV5",
+    "last_updated": "2026-09-16"
+  },
+  "chris grant": {
+    "canonical_name": "Chris Grant",
+    "entity_type": "person",
+    "summary": "Chris Grant is a stand-up comedian and former Australian rules football player born on December 13, 1972. He is known as a legend of the Western Bulldogs Football Club and has a presence on social media platforms like Facebook and LinkedIn.",
+    "last_updated": "2026-09-16"
+  },
+  "philip bouchard": {
+    "canonical_name": "Philip Bouchard",
+    "entity_type": "person",
+    "summary": "Philip Bouchard is a writer, educator, and author who founded TrustedPeer® and published a book titled \"The Stickler’s Guide to Science in the Age of Misinformation: The Real Science Behind Hacky Headlines, Crappy Clickbait, and Suspect Sources.\"",
+    "last_updated": "2026-09-16"
+  },
+  "light flip": {
+    "canonical_name": "Light Flip",
+    "entity_type": "product",
+    "summary": "The Light Flip is a modern flip phone that pairs a clamshell design with T9 typing, voice-to-text, 5G, and a headphone jack. It is designed to be a distraction-free device that prioritizes calling and texting over addictive apps, and it is available in six colors for $299 unlocked.",
+    "last_updated": "2026-09-16"
+  },
+  "tremp": {
+    "canonical_name": "Tremp",
+    "entity_type": "company",
+    "summary": "Tremp is a service created to make Uber and Lyft accessible to individuals who do not own a smartphone. It allows users to access ride-sharing services through a regular phone by calling or texting Tremp to enter ride details into a simple automated system.",
+    "last_updated": "2026-09-16"
+  },
+  "piagentloop": {
+    "canonical_name": "pi-agent-loop",
+    "entity_type": "product",
+    "summary": "pi-agent-loop is a general-purpose agent loop extension for Pi. It can be installed from npm and allows Pi to load resources declared by the package manifest. The extension supports goal loops, fixed-pass loops, and multi-stage pipelines via specific commands.",
+    "last_updated": "2026-09-16"
+  },
+  "xstate": {
+    "canonical_name": "XState",
+    "entity_type": "technology",
+    "summary": "XState is a state management and orchestration solution for JavaScript and TypeScript apps. It uses event-driven programming, state machines, statecharts, and the actor model to handle complex logic in predictable, robust, and visual ways. It provides a powerful and flexible way to manage applicatio",
+    "last_updated": "2026-09-16"
+  },
+  "pi": {
+    "canonical_name": "Pi",
+    "entity_type": "ai_model",
+    "summary": "material did not address this",
+    "last_updated": "2026-09-16"
+  },
+  "flybrainrobotbridge": {
+    "canonical_name": "flybrain-robot-bridge",
+    "entity_type": "product",
+    "summary": "1 day ago · FlyBrain Robot Bridge Connect a Drosophila connectome simulation to a physical robot. Quick start · Demo · Architecture · Roadmap An experimental interface between a camera, a neural backend and a physical robot. Connect a Drosophila connectome simulation to a physical robot. Quick start",
+    "last_updated": "2026-09-16"
+  },
+  "drosophila": {
+    "canonical_name": "Drosophila",
+    "entity_type": "technology",
+    "summary": "Drosophila is a miniature yet versatile and manipulable model to address basic biological questions with potential implications plus applications to other metazoans. In this review, we provide a framework to assist present and future neurotoxicologists in using Drosophila effectively as a model orga",
+    "last_updated": "2026-09-16"
+  },
+  "malecns": {
+    "canonical_name": "MaleCNS",
+    "entity_type": "technology",
+    "summary": "The goal of malecns is to provide natverse access to the whole male central nervous system dataset. This is a collaborative project between the Janelia FlyEM Project Team and the Drosophila Connectomics Group in Cambridge. There was an error while loading. Please reload this page . There was an erro",
+    "last_updated": "2026-09-16"
   }
 }

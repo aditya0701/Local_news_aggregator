@@ -1,5 +1,352 @@
 [
   {
+    "id": "642a1494ec3f",
+    "title": "टाइपसेफ एआई का नया 'सिस्टम वन मॉडल' जेव: सॉफ्टवेयर ऑटोमेशन के लिए एक नया युग",
+    "summary": "टाइपसेफ एआई (TypeSafe AI) ने आज अपने पहले 'सिस्टम वन मॉडल' (System One Model) की घोषणा की है, जिसका नाम जेव (Jev) है। इस कंपनी की स्थापना ओपनएआई (OpenAI) के पूर्व शोधकर्ता दीगो अल्मेडा (Diogo Almeida) ने की है, जिन्होंने चैटजीपीटी (ChatGPT) के पीछे की तकनीक विकसित करने में महत्वपूर्ण भूमिका निभाई थी। अल्मेडा पिछले चार…",
+    "category": "model_release",
+    "tags": [
+      "TypeSafe AI",
+      "Jev",
+      "Diogo Almeida"
+    ],
+    "image": "https://framerusercontent.com/images/RtIGTDwO43jR4ZDilesXiR5znc.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "faddb36e8fb1",
+    "title": "एप्पल रेफरेंस इमेज: वेरिफाइड फोटोग्राफी के लिए एक नया दृष्टिकोण",
+    "summary": "आज के डिजिटल युग में, जहां शक्तिशाली और आसानी से उपलब्ध एआई (AI) टूल्स की मदद से यथार्थवादी (photorealistic) छवियों को उत्पन्न करना या उन्हें बदलना बेहद आसान हो गया है, वास्तविक और सिंथेटिक तस्वीरों के बीच अंतर करना एक बड़ी चुनौती बन गया है। इस समस्या को सुलझाने के लिए, एप्पल ने 'एप्पल रेफरेंस इमेज' नामक एक नए ऑप्ट-इन…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "Private Cloud Compute"
+    ],
+    "image": "https://security.apple.com/assets/image/seo-image.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4e7ba9f5f04b",
+    "title": "शो एचएन: एक ई-इंक फ्रेम जो पक्षियों की आवाज़ सुनता है और उन्हें 1800 के दशक की कलाकृतियों के रूप में दिखाता है",
+    "summary": "नॉर्वे के बर्गन शहर में रहने वाले डेवलपर Arne Giacomoh ने एक अनूठा प्रोजेक्ट पेश किया है, जिसे Fugleramme नाम दिया गया है। यह एक ई-इंक डिस्प्ले वाला फ्रेम है जो Raspberry Pi से चलता है। यह उपकरण डेवलपर के घर के बगीचे से पक्षियों की आवाज़ सुनता है, BirdNET-Go का उपयोग करके उन्हें पहचानता है, और स्क्रीन पर उनके चित्र…",
+    "category": "general",
+    "tags": [
+      "Fugleramme",
+      "Raspberry Pi",
+      "BirdNET-Go"
+    ],
+    "image": "https://repository-images.githubusercontent.com/1294088656/7d2dbd8d-ec72-4781-8363-f4f5b9afc352",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0f67af4401c8",
+    "title": "Datamimic – don't let your coding agent invent its own test world",
+    "summary": "हाल के वर्षों में, कृत्रिम बुद्धिमत्ता (AI) आधारित कोडिंग एजेंट सॉफ्टवेयर विकास के क्षेत्र में एक नई क्रांति ला रहे हैं। हालांकि, इन स्वायत्त एजेंटों (autonomous agents) द्वारा अपने स्वयं के परीक्षण वातावरण (test environments) उत्पन्न करने की प्रवृत्ति के कारण डेटा गोपनीयता और अप्रत्याशित परिणामों का एक नया जोखिम पैदा…",
+    "category": "repo_analysis",
+    "tags": [
+      "Datamimic",
+      "Python",
+      "MCP"
+    ],
+    "image": "https://repository-images.githubusercontent.com/900760746/4120d593-3112-4d4a-bca0-270c6c980097",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8ef78e856c04",
+    "title": "जेमिनी 3.8 लाइव और 3.8 लाइव एक्सटेंडेड थिंकिंग: गूगल के नए एआई मॉडल",
+    "summary": "15 सितंबर 2026 को, गूगल ने अपने सबसे उन्नत लाइव डायलॉग मॉडल, जेमिनी 3.8 लाइव और जेमिनी 3.8 लाइव एक्सटेंडेड थिंकिंग की घोषणा की। इस लॉन्च की जानकारी जेमिनी ऑडियो टीम की ओर से टॉम ओयांग (प्रिंसिपल इंजीनियर) और मालिनी जगनाथन (मेंबर ऑफ टेक्निकल स्टाफ) द्वारा दी गई। ये नए मॉडल आवाज के माध्यम से बातचीत को अधिक प्राकृतिक,…",
+    "category": "model_release",
+    "tags": [
+      "Gemini",
+      "Tom Ouyang",
+      "Malini Jaganathan"
+    ],
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___keyword__blog-social.width-1300.png",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "e7574f2acfe9",
+    "title": "क्या एआई वास्तव में मानव जाति का अंत कर सकता है?",
+    "summary": "एमआईटी टेक्नोलॉजी रिव्यू (MIT Technology Review) ने 15 सितंबर, 2026 को एक विशेष राउंडटेबल का आयोजन किया, जिसमें एआई के अस्तित्वगत जोखिमों पर गहन चर्चा की गई। इस कार्यक्रम में दुनिया के शीर्ष एआई प्रयोगशालाओं के कर्मचारियों द्वारा व्यक्त की गई चिंताओं को केंद्र में रखा गया, जो यह दावा करते हैं कि उन्नत एआई मानवता को…",
+    "category": "general",
+    "tags": [
+      "MIT Technology Review",
+      "Niall Firth",
+      "Will Douglas Heaven"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/September.26_Roundtables-Assets-2.png?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 8
+  },
+  {
+    "id": "90cdc4a70893",
+    "title": "एआई मॉडल्स को चाहिए जैविक डेटा, और इसे हासिल करने के लिए OpenAI दे रहा है करोड़ों का फंड",
+    "summary": "चिकित्सा के क्षेत्र में कृत्रिम बुद्धिमत्ता (AI) की क्षमता को पूरी तरह से साकार करने के लिए एक बड़ी बाधा सामने आ रही है: डेटा की कमी। इस समस्या के समाधान के लिए OpenAI फाउंडेशन ने एक नई पहल, 'पब्लिक डेटा फॉर हेल्थ' (Public Data for Health) की शुरुआत की है। इस पहल का मुख्य उद्देश्य उच्च गुणवत्ता वाले वैज्ञानिक डेटासेट…",
+    "category": "general",
+    "tags": [
+      "OpenAI Foundation",
+      "Ruxandra Teslo",
+      "OpenAdmet"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/OpenAI-grants.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "33fc6b330ef2",
+    "title": "मेटा ने पेश किया WhatsApp Business टूल्स MCP सर्वर, जिससे AI एजेंट संभालेंगे सेटअप का काम",
+    "summary": "मेटा ने मंगलवार को एक नई घोषणा की है जो व्यवसायों के लिए WhatsApp Business सेटअप प्रक्रिया को काफी सरल बना देगी। कंपनी ने अपने मौजूदा AI-केंद्रित सब्सक्रिप्शन प्लान्स के साथ-साथ एक नया WhatsApp Business टूल्स MCP (Model Context Protocol) सर्वर पेश किया है। यह नया टूल डेवलपर्स को AI एजेंटों की मदद से सीधे बातचीत के…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "WhatsApp Business Platform",
+      "WhatsApp Business Tools MCP"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/whatsapp-iphone-icon.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "b6484e13d52c",
+    "title": "2035 तक अमेरिकी डेटा सेंटर कर सकते हैं जर्मनी और जापान से ज्यादा प्राकृतिक गैस की खपत",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) और डेटा सेंटरों की ऊर्जा मांग में तेजी से हो रही वृद्धि ने ऊर्जा क्षेत्र में एक नई चिंता को जन्म दिया है। ब्लूमबर्गएनईएफ (BloombergNEF) की एक नई रिपोर्ट के अनुसार, 2035 तक संयुक्त राज्य अमेरिका के डेटा सेंटर प्राकृतिक गैस की खपत के मामले में जर्मनी और जापान को पीछे छोड़ सकते हैं। यह आंकड़ा…",
+    "category": "general",
+    "tags": [
+      "BloombergNEF",
+      "Meta",
+      "Microsoft"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2021/04/GettyImages-462843546.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0ac1235a7b57",
+    "title": "स्पेसएक्स 22 सितंबर को पहली बार स्टारशिप को कक्षा में स्थापित करने का प्रयास करेगा",
+    "summary": "स्पेसएक्स ने मंगलवार को घोषणा की कि वह अपने स्टारशिप मेगा-रॉकेट की 14वीं परीक्षण उड़ान की तैयारी कर रहा है। यह मिशन 22 सितंबर को सुबह 7:15 बजे CT (सेंट्रल टाइम) से शुरू होने वाले 75 मिनट के लॉन्च विंडो के भीतर लॉन्च किया जाएगा। इस परीक्षण उड़ान का सबसे बड़ा लक्ष्य स्टारशिप के ऊपरी चरण को पहली बार पृथ्वी की कक्षा में…",
+    "category": "general",
+    "tags": [
+      "SpaceX",
+      "Starship",
+      "Starlink"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2240506392.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6b6a9a4f10f0",
+    "title": "हेल्थ बेनिफिट्स प्लेटफॉर्म थैच ने हासिल की 1 बिलियन डॉलर की वैल्यूएशन, हेल्थकेयर कॉस्ट्स पर दी राहत",
+    "summary": "हेल्थ बेनिफिट्स प्लेटफॉर्म थैच (Thatch) ने अपने हालिया फंडिंग राउंड में 108 मिलियन डॉलर जुटाए हैं, जिससे कंपनी की वैल्यूएशन 1 बिलियन डॉलर तक पहुँच गई है। इस निवेश का नेतृत्व जनरल कैटलिस्ट, आंद्रेसेन होरोविट्ज़, इंडेक्स वेंचर्स और द जनरल पार्टनरशिप जैसे प्रमुख निवेशकों ने किया है। यह खबर ऐसे समय में आई है जब हेल्थकेयर…",
+    "category": "general",
+    "tags": [
+      "Thatch",
+      "Chris Ellis",
+      "Adam Stevenson"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2023/02/Thatch-founders.jpg?resize=1200,801",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "506042be0e1a",
+    "title": "Boox Palma 3: नए डिज़ाइन और स्टाइलस सपोर्ट के साथ ई-रीडर का नया अवतार",
+    "summary": "लगभग दो साल के लंबे अंतराल के बाद, Boox ने अपने लोकप्रिय स्मार्टफोन आकार के ब्लैक-एंड-व्हाइट ई-रीडर के अगले संस्करण, Boox Palma 3 की घोषणा की है। यह नया ई-रीडर पुराने मॉडल की तुलना में काफी प्रीमियम और आकर्षक दिखता है। कंपनी ने इसे $339.99 की कीमत पर पेश किया है, जो इसके पिछले संस्करण, Palma 2 ($279.99) से $60 अधिक…",
+    "category": "model_release",
+    "tags": [
+      "Boox",
+      "Palma 3"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/palma3_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "53cea3ad810c",
+    "title": "कैनन ने पेश किया EOS R8 Mark II: सबसे हल्का फुल-फ्रेम कैमरा",
+    "summary": "कैनन ने अपने लोकप्रिय मिररलेस कैमरे का दूसरा संस्करण, EOS R8 Mark II लॉन्च किया है। यह फुल-फ्रेम सेगमेंट का सबसे हल्का कैमरा है जिसमें इन-बॉडी इमेज स्टेबलाइजेशन (IBIS) दिया गया है। 24.2-मेगापिक्सल सेंसर और नए रेट्रो-इंस्पायर्ड डिजाइन के साथ, यह कैमरा प्रोफेशनल फोटोग्राफर्स के लिए एक बेहतरीन विकल्प है।",
+    "category": "model_release",
+    "tags": [
+      "Canon",
+      "EOS R8 Mark II",
+      "EOS R8"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/canon1.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "840e3d529d38",
+    "title": "माइक्रोसॉफ्ट का बड़ा आयोजन: 7 अक्टूबर को सैन फ्रांसिस्को में होगा नया AI इवेंट",
+    "summary": "माइक्रोसॉफ्ट ने अगले महीने 7 अक्टूबर को सैन फ्रांसिस्को में एक बड़े इवेंट की घोषणा की है। कंपनी ने इस इवेंट का मुख्य विषय \"स्थानीय एआई कैसे पीसी के अगले अध्याय को आकार देगा\" (conversation on how local AI will shape the next chapter of the PC) तय किया है। यह घोषणा ऐसे समय में हुई है जब टेक उद्योग विंडोज और सरफेस…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Satya Nadella",
+      "Pavan Davuluri"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/image004.png?quality=90&strip=all&crop=6.2291666666667,0,87.541666666667,100",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c8412b9ffa40",
+    "title": "क्या सोशल मीडिया वास्तव में बच्चों को नुकसान पहुँचा रहा है?",
+    "summary": "दो साल पहले, न्यूयॉर्क यूनिवर्सिटी के स्टर्न स्कूल ऑफ बिजनेस के सामाजिक मनोवैज्ञानिक जोनाथन हाईट ने अपनी न्यूयॉर्क टाइम्स बेस्टसेलर 'द एंग्शियस जनरेशन' प्रकाशित की थी। इस किताब में यह तर्क दिया गया था कि 2010 के बाद से किशोरों के मानसिक स्वास्थ्य में आई भारी गिरावट के लिए मुख्य रूप से स्मार्टफोन और सोशल मीडिया का…",
+    "category": "ban_regulation",
+    "tags": [
+      "Jonathan Haidt",
+      "The Anxious Generation",
+      "Candice Odgers"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS526_SOCIAL_MEDIA_TRIAL_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e2e296fd48de",
+    "title": "किया की पीवी7 इलेक्ट्रिक वैन का खुलासा: मिनीवैन सेगमेंट में नया सवेरा",
+    "summary": "अमेरिकी ऑटोमोटिव बाजार में पारंपरिक एसयूवी (SUV) से हटकर व्यावहारिक वाहनों की ओर रुझान बढ़ रहा है, जिसके परिणामस्वरूप 2025 में मिनीवैन की बिक्री में 21 प्रतिशत की वृद्धि दर्ज की गई है। इसी बदलते परिदृश्य में, किया मोटर्स ने जर्मनी में आयोजित IAA ट्रांसपोर्टेशन में अपनी नई पीवी7 इलेक्ट्रिक वैन पेश की है। यह खुलासा किया…",
+    "category": "model_release",
+    "tags": [
+      "Kia",
+      "PV7",
+      "PBV"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/The-Kia-PV7-Cargo-and-Passenger.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ab3f4d50c079",
+    "title": "ओरेगन ट्रेल (Oregon Trail) का सफर: एक पीढ़ी को आकार देने वाले खेल की कहानी",
+    "summary": "पिछले तीस वर्षों में, लगभग हर बच्चे ने स्कूल या घर पर 'द ओरेगन ट्रेल' (The Oregon Trail) खेला है। यह एक ऐसा शैक्षिक कंप्यूटर गेम है जिसने 19वीं सदी की वैगन यात्रा का शानदार सिमुलेशन तैयार किया था। अब, द वर्ज के 'वर्जन हिस्ट्री' पॉडकास्ट के पांचवें सीज़न के प्रीमियर में इस गेम के डिज़ाइनर और विशेषज्ञों ने इसके निर्माण…",
+    "category": "general",
+    "tags": [
+      "David Pierce",
+      "Chris Grant",
+      "Philip Bouchard"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/VRH_Oregon_Trail_Site.jpg?quality=90&strip=all&crop=0%2C10.44211751018%2C100%2C79.115764979639&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f1a95bd3be32",
+    "title": "अब लाइट के मिनिमलिस्ट फोन से आसानी से उबर बुक कर सकते हैं",
+    "summary": "एक दशक से भी अधिक समय पहले, लाइट ने एक ऐसे सेल फोन की परिकल्पना की थी जिसे \"जितना कम संभव हो उतना कम इस्तेमाल किया जाए।\" अब, कंपनी अपने यूज़र्स को उबर और लिफ्ट से जोड़ने के लिए एक नया राइडशेयर टूल पेश कर रही है। लाइट फोन III या आगामी लाइट फ्लिप के मालिक अब इस टूल का उपयोग करके पिक-अप और ड्रॉप-ऑफ लोकेशन ढूंढ सकते हैं,…",
+    "category": "model_release",
+    "tags": [
+      "Light",
+      "Light Phone III",
+      "Light Flip"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Rideshare.jpg?quality=90&strip=all&crop=0%2C20.310681074267%2C100%2C34.48257725788&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ecaae448f6f4",
+    "title": "रोमन टेलीस्कोप के पास 22 साल का ईंधन है, जो नासा की उम्मीदों से दोगुना है",
+    "summary": "नासा ने पुष्टि की है कि 4.3 अरब डॉलर का नैन्सी ग्रेस रोमन स्पेस टेलीस्कोप अपने शुरुआती अनुमान से दोगुना ईंधन लेकर चल रहा है। जेमी डन, जो नासा के गोडार्ड स्पेस फ्लाइट सेंटर के निदेशक हैं, ने बताया कि इस विशाल ईंधन भंडार का श्रेय उत्कृष्ट योजना और एक सटीक प्रक्षेपण को जाता है।",
+    "category": "general",
+    "tags": [
+      "Nancy Grace Roman Space Telescope",
+      "NASA",
+      "SpaceX"
+    ],
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/KSC-20260821-PH-SPX01_0007large-500x500.jpg",
+    "source": "rss",
+    "feed_name": "Ars Technica",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8b443f082bbb",
+    "title": "pi-loop-studio/orchestra: Pi Agent वर्कफ़्लो में एक नया और सुरक्षित आर्किटेक्चरल बदलाव",
+    "summary": "टेकदृष्टि की रिपोर्ट के अनुसार, pi-loop-studio/orchestra ने अपने पूर्ववर्ती pi-agent-loop के ढांचे में एक बड़ा और महत्वपूर्ण बदलाव किया है। यह केवल एक साधारण अपग्रेड नहीं है, बल्कि एक विशेष इंजीनियरिंग रनटाइम की ओर एक बड़ा कदम है। इस नए संस्करण ने अपने सुरक्षा मॉडल को काफी सख्त कर दिया है, जिससे यह केवल 127.0.0.1 पर…",
+    "category": "repo_analysis",
+    "tags": [
+      "pi-loop-studio",
+      "pi-agent-loop",
+      "pi-loop-studio/orchestra"
+    ],
+    "image": "https://opengraph.githubassets.com/1/LEO001020/pi-loop-studio-orchestra",
+    "source": "github",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "03e930bd7208",
+    "title": "CosyRedactGateway: एआई डेवलपर्स के लिए हाई-एंट्रॉपी क्रेडेंशियल डिटेक्शन",
+    "summary": "एआई डेवलपर्स अक्सर अनजाने में अपने कोड, कॉन्फ़िगरेशन या लॉग्स में संवेदनशील जानकारी छोड़ देते हैं। इस समस्या को दूर करने के लिए एक नया टूल सामने आया है। यह टूल एआई मॉडल्स को भेजे जाने वाले डेटा को सुरक्षित करने का एक नया तरीका पेश करता है।",
+    "category": "repo_analysis",
+    "tags": [
+      "CosyRedactGateway",
+      "Gitleaks"
+    ],
+    "image": "https://opengraph.githubassets.com/1/CassiopeiaCode/CosyRedactGateway",
+    "source": "github",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "dbf945d66f16",
+    "title": "flybrain-robot-bridge: एक कृत्रिम मक्खी के दिमाग को भौतिक रोबोट से जोड़ना",
+    "summary": "टेकदृष्टि के पाठकों के लिए एक नई तकनीकी जानकारी। एक हालिया ओपन-सोर्स प्रोजेक्ट ने एक कैमरा, एक न्यूरल बैकएंड और एक भौतिक रोबोट के बीच एक प्रायोगिक इंटरफेस स्थापित किया है। इस प्रोजेक्ट का मुख्य उद्देश्य एक 'Drosophila connectome simulation' को एक भौतिक रोबोट से जोड़ना है, जिससे कृत्रिम बुद्धिमत्ता और जैविक तंत्रिका…",
+    "category": "repo_analysis",
+    "tags": [
+      "Frankweb33",
+      "flybrain-robot-bridge",
+      "Drosophila"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Frankweb33/flybrain-robot-bridge",
+    "source": "synthesized",
+    "first_seen": "2026-09-16T07:50:44.281681+00:00",
+    "sources_count": 2
+  },
+  {
     "id": "958d96324310",
     "title": "एप्पल के नए सॉफ्टवेयर अपडेट: iOS 27, iPadOS 27 और macOS 27 में आया Siri AI",
     "summary": "14 सितंबर, 2026 को एप्पल इंक. ने अपने प्रमुख सॉफ्टवेयर प्लेटफॉर्म्स के लिए बड़े अपडेट जारी किए हैं, जो आज आईफोन, आईपैड, मैक, एप्पल वॉच और एप्पल विजन प्रो पर रोलआउट होना शुरू हो गए हैं। इन अपडेट्स में iOS 27, iPadOS 27 और macOS 27 शामिल हैं, जो एप्पल के इकोसिस्टम में एक महत्वपूर्ण बदलाव लाते हैं। इन अपडेट्स के मुख्य…",
