@@ -857,8 +857,8 @@
   "the download": {
     "canonical_name": "The Download",
     "entity_type": "product",
-    "summary": "Powering Their Digital Stores with Easy Digital Downloads. Get Easy Digital Downloads Now. Documentation, Reference Materials, and Tutorials for Easy Digital Downloads. # Creating Products in Easy Digital Downloads. Your products are the core of your Easy Digital Downloads/WordPress store. It also e",
-    "last_updated": "2026-07-03"
+    "summary": "The Download is MIT Technology Review's weekday newsletter that provides a daily dose of what's up in emerging technology. It features in-depth reporting on current developments to prepare readers for future trends.",
+    "last_updated": "2026-09-17"
   },
   "claude science": {
     "canonical_name": "Claude Science",
@@ -2605,9 +2605,9 @@
   },
   "model": {
     "canonical_name": "model",
-    "entity_type": "repo_analysis",
-    "summary": "A model repository is defined as a professional infrastructure where scientists can publish their model code, which is curated for validity and reproducibility, and provides persistent identifiers for long-term access and citation. Comparison and analysis of AI models and API hosting providers. Inde",
-    "last_updated": "2026-07-05"
+    "entity_type": "technology",
+    "summary": "Your technical environment is complex and unique. Model Technology Solutions’ team of top tier consultants wants to help you apply automation practices to experience breakthroughs in efficiency ... Discover all 13 employees Your technical environment is complex and unique. Model Technology Solutions",
+    "last_updated": "2026-09-17"
   },
   "open memory protocol": {
     "canonical_name": "Open Memory Protocol",
@@ -2953,9 +2953,9 @@
   },
   "cuda": {
     "canonical_name": "CUDA",
-    "entity_type": "technology",
-    "summary": "CUDA is a parallel computing platform and programming model created by NVIDIA that makes using a GPU for general-purpose computing simple. It helps developers speed up their applications by harnessing the power of GPU accelerators and has been widely adopted across consumer and industrial ecosystems",
-    "last_updated": "2026-07-05"
+    "entity_type": "product",
+    "summary": "CUDA is a platform for GPU computing, and version 13.4 includes features such as MPS V3 for simplifying the management of shared GPU resources. It provides a comprehensive toolkit with libraries, profiling tools, samples, and documentation for developing parallel applications.",
+    "last_updated": "2026-09-17"
   },
   "llamacpp": {
     "canonical_name": "llama.cpp",
@@ -3467,8 +3467,8 @@
   "ted cruz": {
     "canonical_name": "Ted Cruz",
     "entity_type": "person",
-    "summary": "Senator Ted Cruz of Texas has been a leading fighter for Texas for over a decade, with priorities including creating jobs, defending freedom, and ensuring security. He has a proven record of standing up to politicians and special interest groups.",
-    "last_updated": "2026-07-06"
+    "summary": "Ted Cruz is an American politician who was elected to the U.S. Senate in 2012 to represent Texas, and previously sought the Republican presidential nomination in 2016. Before his political career, he worked as a lawyer.",
+    "last_updated": "2026-09-17"
   },
   "nikki haley": {
     "canonical_name": "Nikki Haley",
@@ -5941,9 +5941,9 @@
   },
   "spotify": {
     "canonical_name": "Spotify",
-    "entity_type": "company",
-    "summary": "Spotify is a global audio streaming service that transformed music listening when it launched in Sweden in 2008. The company focuses on building the best experience for users, offering over 70 million tracks for free or through a premium subscription with features like offline mode and ad-free liste",
-    "last_updated": "2026-07-11"
+    "entity_type": "product",
+    "summary": "Spotify is a digital music, podcast, and video service that provides access to millions of songs and content from creators worldwide. Basic functions such as playing music are free, but users can choose to upgrade to Spotify Premium to access additional features.",
+    "last_updated": "2026-09-17"
   },
   "anker": {
     "canonical_name": "Anker",
@@ -7055,8 +7055,8 @@
   "hugging face": {
     "canonical_name": "Hugging Face",
     "entity_type": "organization",
-    "summary": "Hugging Face is an organization that ranks #8 with 32 mentions by AI models and holds a 12.9% share of voice across 4 AI assistants. It provides tools like Hugging Face Fundamentals, a learning track on DataCamp, and offers a community platform for building and sharing machine learning models.",
-    "last_updated": "2026-07-14"
+    "summary": "Hugging Face is a company that maintains a large open-source community and is on a journey to advance and democratize artificial intelligence through open source and open science. Founded in 2016 by Clement Delangue, Julien Chaumond, and Thomas Wolf, it has grown from an AI chatbot to a $4.5 billion",
+    "last_updated": "2026-09-17"
   },
   "jwash": {
     "canonical_name": "J-Wash",
@@ -7210,9 +7210,9 @@
   },
   "nintendo switch 2": {
     "canonical_name": "Nintendo Switch 2",
-    "entity_type": "general",
-    "summary": "Nintendo Switch 2 enhances social gaming with GameChat, vibrant graphics, fast processing, and improved controllers, bringing friends together for an immersive experience. The system features a vivid, 7.9-inch 1080p screen that showcases powerful processing and graphics performance. This is the firs",
-    "last_updated": "2026-07-15"
+    "entity_type": "product",
+    "summary": "The Nintendo Switch 2 is the next evolution of the Nintendo Switch system, featuring hardware upgrades such as a larger 1080p screen, GameChat, Joy-Con 2, 4K support, HDR, and VRR. It is designed to offer fun ways to connect and play for years to come.",
+    "last_updated": "2026-09-17"
   },
   "spot": {
     "canonical_name": "Spot",
@@ -7948,9 +7948,9 @@
   },
   "founders fund": {
     "canonical_name": "Founders Fund",
-    "entity_type": "organization",
-    "summary": "Founders Fund is an organization that actively backs innovative startups and growth-stage companies across various industries and funding rounds. It provides co-investments, views co-investors, and offers information on funding stages, sectors, and founders.",
-    "last_updated": "2026-07-17"
+    "entity_type": "company",
+    "summary": "Founders Fund is a San Francisco based venture capital firm investing in companies building revolutionary technologies. Aug 17, 2026 · Explore Founders Fund's in-depth investor profile, including top investments, portfolio trends, leadership team, co-investors, and news updates. Founders Fund Genera",
+    "last_updated": "2026-09-17"
   },
   "ryan beiermeister": {
     "canonical_name": "Ryan Beiermeister",
@@ -8680,9 +8680,9 @@
   },
   "techcrunch disrupt": {
     "canonical_name": "TechCrunch Disrupt",
-    "entity_type": "general",
-    "summary": "TechCrunch Disrupt 2026 is a startup event taking place at Moscone West in San Francisco from October 13-15, 2026. It is described as the startup epicenter for tech and VC leaders, offering resources, connections, and expert insights for founders and investors.",
-    "last_updated": "2026-07-18"
+    "entity_type": "event",
+    "summary": "TechCrunch Disrupt is a startup-focused event held at Moscone West in San Francisco, offering resources and networking for founders and investors. It takes place from October 13-15, 2026, and features exhibit tables, lead generation, and brand visibility opportunities.",
+    "last_updated": "2026-09-17"
   },
   "dropbox": {
     "canonical_name": "Dropbox",
@@ -10339,9 +10339,9 @@
   },
   "syensqo": {
     "canonical_name": "Syensqo",
-    "entity_type": "organization",
-    "summary": "Syensqo is a developer of chemical solvents for industries like aerospace, automotive, food, and agriculture. It is also a consulting organization from Belgium with over 10,000 employees and experience with the European Commission Directorate-General for International Partnerships.",
-    "last_updated": "2026-07-22"
+    "entity_type": "company",
+    "summary": "Syensqo is a science company developing forward-looking, groundbreaking solutions that enhance the way people live, work, travel, and play. It provides innovative, value-added solutions and products to drive green mobility, advanced connectivity, and the use of natural ingredients, operating 62 indu",
+    "last_updated": "2026-09-17"
   },
   "storykit": {
     "senses": [
@@ -10868,8 +10868,8 @@
   "snap": {
     "canonical_name": "Snap",
     "entity_type": "company",
-    "summary": "Snap Inc. is an American camera and social media company founded on September 16, 2011, by Evan Spiegel and Bobby Murphy. It is based in Santa Monica, California, and its website is snap.com.",
-    "last_updated": "2026-07-23"
+    "summary": "Snap Inc. is an American technology and social media company headquartered in Santa Monica, California. The company operates as a camera and communications platform, primarily through its flagship mobile application Snapchat, which allows users to send ephemeral photo and video messages, view curate",
+    "last_updated": "2026-09-17"
   },
   "rkc": {
     "senses": [
@@ -13064,8 +13064,8 @@
   "carrie": {
     "canonical_name": "Carrie",
     "entity_type": "product",
-    "summary": "Carrie is a 1974 novel by Stephen King about a troubled young girl named Carrie White who is bullied by her peers and mother. The story details her discovery of telekinetic powers and remains one of King's most successful works, adapted into a film in 1976.",
-    "last_updated": "2026-07-27"
+    "summary": "Carrie is a product collection of patented bag hooks, bag charms, silk twirls, bagbrellas, and totes designed to protect and personalize designer handbags. The brand is loved by over 40,000 customers worldwide and offers essential pieces in solid metal finishes to be worn every day.",
+    "last_updated": "2026-09-17"
   },
   "comiccon": {
     "canonical_name": "Comic-Con",
@@ -16624,5 +16624,278 @@
     "entity_type": "technology",
     "summary": "The goal of malecns is to provide natverse access to the whole male central nervous system dataset. This is a collaborative project between the Janelia FlyEM Project Team and the Drosophila Connectomics Group in Cambridge. There was an error while loading. Please reload this page . There was an erro",
     "last_updated": "2026-09-16"
+  },
+  "nova linux": {
+    "canonical_name": "Nova Linux",
+    "entity_type": "product",
+    "summary": "Nova Linux is a lightweight and efficient Linux distribution known for its minimalistic, user-friendly, and customizable desktop environment. It was developed by the University of Information Science in Havana, Cuba, and launched as a state-sponsored distribution in February 2009.",
+    "last_updated": "2026-09-17"
+  },
+  "nvidia dynamo": {
+    "canonical_name": "NVIDIA Dynamo",
+    "entity_type": "product",
+    "summary": "NVIDIA Dynamo is an LLM-aware router designed to manage KV cache across multi-node GPU clusters by routing requests to GPUs with the highest cache reuse potential.",
+    "last_updated": "2026-09-17"
+  },
+  "nvtx": {
+    "canonical_name": "NVTX",
+    "entity_type": "product",
+    "summary": "material did not address this",
+    "last_updated": "2026-09-17"
+  },
+  "ptx": {
+    "canonical_name": "PTX",
+    "entity_type": "protocol",
+    "summary": "PTX is a low-level parallel thread execution virtual machine and instruction set architecture (ISA) that exposes the GPU as a data-parallel computing device, enabling scalable data-parallel computing.",
+    "last_updated": "2026-09-17"
+  },
+  "numbacuda": {
+    "canonical_name": "numba-cuda",
+    "entity_type": "product",
+    "summary": "Numba-CUDA provides a CUDA target for the Numba Python JIT compiler, allowing users to write SIMT kernels in Python, provide Python bindings for device libraries, and compile functions in accelerated libraries like RAPIDS. It is currently in maintenance mode and is being succeeded by Numba-CUDA-MLIR",
+    "last_updated": "2026-09-17"
+  },
+  "tile ir": {
+    "canonical_name": "Tile IR",
+    "entity_type": "product",
+    "summary": "Tile IR is a portable, low-level tile virtual machine and instruction set that models the GPU as a tile-based processor. It enables native programming of hardware in terms of tiles, which are multi-dimensional array fragments, offering a high-level yet explicit target for code generation.",
+    "last_updated": "2026-09-17"
+  },
+  "http_build_url": {
+    "canonical_name": "http_build_url",
+    "entity_type": "product",
+    "summary": "http_build_url is a PHP library that provides functionality for the http_build_url() function in environments without the pecl_http extension. The package is deprecated and no longer maintained, as PHP 8.5 now includes a built-in URI API that performs the same job.",
+    "last_updated": "2026-09-17"
+  },
+  "composer": {
+    "canonical_name": "Composer",
+    "entity_type": "product",
+    "summary": "Composer Online is a tool that produces three types of reports: Printable, which results in a PDF, and Publication, an intermediate result that contains the same data as future PDFs but can be edited before downloading. Users can create templates from scratch or from a default template, and the tool",
+    "last_updated": "2026-09-17"
+  },
+  "wpml": {
+    "canonical_name": "WPML",
+    "entity_type": "product",
+    "summary": "WPML is a WordPress plugin that makes it easy to build and run multilingual sites, offering functionality that is powerful enough for corporate sites and simple enough for blogs. It supports WordPress 6.0 to 7.0, takes stability and security seriously with over 1.5 million sites using it, and provid",
+    "last_updated": "2026-09-17"
+  },
+  "idnaconvert": {
+    "canonical_name": "idna-convert",
+    "entity_type": "product",
+    "summary": "idna-convert is a pure PHP library that allows the conversion of internationalized domain names between their original (localized) form and their encoded form as used in the DNS, in accordance with various RFCs. It provides two classes, ToIdn and ToUnicode, which expose methods to convert host names",
+    "last_updated": "2026-09-17"
+  },
+  "dream security research team": {
+    "canonical_name": "DREAM Security Research Team",
+    "entity_type": "organization",
+    "summary": "DREAM Security Research Team is a pioneering AI cybersecurity company that delivers revolutionary defense through artificial intelligence. The team creates a unified security system to safeguard assets against existing and emerging generative cyber threats, while automating discovery, risk calculati",
+    "last_updated": "2026-09-17"
+  },
+  "mike finelli": {
+    "canonical_name": "Mike Finelli",
+    "entity_type": "person",
+    "summary": "Mike Finelli is an experienced professional with over 30 years in the chemical industry, including more than 15 years in executive leadership roles. He is the Chief Technology & Innovation Officer and Chief North America Officer at Syensqo, where he leads a team of 2,000 professionals.",
+    "last_updated": "2026-09-17"
+  },
+  "paladin capital group": {
+    "canonical_name": "Paladin Capital Group",
+    "entity_type": "organization",
+    "summary": "Paladin Capital Group is a leading global investor that supports and grows innovative AI, cyber, and deep tech companies through venture investment, expansion, and growth capital. The firm is headquartered in Washington, DC, with offices in New York City, Silicon Valley, London, and Luxembourg.",
+    "last_updated": "2026-09-17"
+  },
+  "kompas vc": {
+    "canonical_name": "KOMPAS VC",
+    "entity_type": "organization",
+    "summary": "KOMPAS VC is an early-stage venture capital firm with a specialized focus on physical industries like manufacturing and the built environment. The firm invests in breakthrough technologies that aim to increase productivity, decarbonize, and improve resilience in these sectors.",
+    "last_updated": "2026-09-17"
+  },
+  "omega ehf": {
+    "canonical_name": "Omega ehf",
+    "entity_type": "organization",
+    "summary": "Omega ehf is a venture capital firm and private investment vehicle that makes investments in private equity and various ventures across early-stage and later-stage firms. The firm is headquartered in Reykjavík, Iceland.",
+    "last_updated": "2026-09-17"
+  },
+  "michelle johnson": {
+    "canonical_name": "Michelle Johnson",
+    "entity_type": "person",
+    "summary": "Michelle Johnson is an actress known for her role in Blame It on Rio. She was born in Anchorage, Alaska on September 9, 1965, and moved to Phoenix, Arizona, where she graduated from Alhambra High School in January 1984.",
+    "last_updated": "2026-09-17"
+  },
+  "evan spiegel": {
+    "canonical_name": "Evan Spiegel",
+    "entity_type": "person",
+    "summary": "Evan Thomas Spiegel is an American entrepreneur and the co-founder and Chief Executive Officer of Snap Inc. He was the youngest billionaire in the world in 2015 and had a personal net worth of $2.5 billion according to Forbes as of August 2025.",
+    "last_updated": "2026-09-17"
+  },
+  "specs intelligence": {
+    "canonical_name": "Specs Intelligence",
+    "entity_type": "product",
+    "summary": "SPECS Intelligence is a new anticipatory AI service designed to work across iPhone, Mac, and SPECS augmented reality (AR) glasses. It helps users manage what needs attention today and build progress toward longer-term goals by understanding their priorities, routines, and personal context.",
+    "last_updated": "2026-09-17"
+  },
+  "federal emergency management agency": {
+    "canonical_name": "Federal Emergency Management Agency",
+    "entity_type": "organization",
+    "summary": "The Federal Emergency Management Agency (FEMA) is a federal agency within the U.S. Department of Homeland Security that supports citizens and emergency personnel. It is tasked with building, sustaining, and improving the nation's capability to prepare for, protect against, respond to, recover from,",
+    "last_updated": "2026-09-17"
+  },
+  "pulley": {
+    "canonical_name": "Pulley",
+    "entity_type": "company",
+    "summary": "Feb 18, 2025 · The brute-simple method, which combines a winch-and-pulley system with a bow ramp, could help the Turkish navy transform its assault ship Anadolu into the first true drone aircraft carrier. Funding: $50 million from Founders Fund, Stripe and YCombinator, among others. Latest valuation",
+    "last_updated": "2026-09-17"
+  },
+  "carta": {
+    "canonical_name": "Carta",
+    "entity_type": "company",
+    "summary": "Sep 3, 2025 · Carta simplifies equity management for more than 7,000 funds, startups and private companies and holds $130 billion in assets under administration. The company is valued at $7.4 billion and helps ... Carta provides equity management solutions for startups, private companies, and invest",
+    "last_updated": "2026-09-17"
+  },
+  "yin wu": {
+    "canonical_name": "Yin Wu",
+    "entity_type": "person",
+    "summary": "Yin Yin Wu is the Co-Founder & CEO at Pulley. Additionally, Yin Yin Wu has had 2 past jobs including Founder at DIRT Protocol. Yin Yin Wu studied at Stanford University. Yin Yin Wu has participated in 1 event, Token Summit III on May 16, 2018. Yin is a Customer Success at Pulley. Yin Wu is the co-fo",
+    "last_updated": "2026-09-17"
+  },
+  "redwood research": {
+    "canonical_name": "Redwood Research",
+    "entity_type": "organization",
+    "summary": "Redwood Research is a nonprofit AI safety and security research organization. It focuses on addressing the risks that could arise if powerful AI systems purposefully act against the interests of their developers and human institutions broadly.",
+    "last_updated": "2026-09-17"
+  },
+  "toronto international film festival": {
+    "canonical_name": "Toronto International Film Festival",
+    "entity_type": "event",
+    "summary": "The Toronto International Film Festival (TIFF) is one of the world's most influential film festivals and the most-watched event of Toronto's cultural calendar. Running for 11 days each fall, it transforms downtown Toronto into a hub for celebrity premieres, world-premiere films, panel discussions, i",
+    "last_updated": "2026-09-17"
+  },
+  "amc": {
+    "canonical_name": "AMC",
+    "entity_type": "company",
+    "summary": "AMC is the largest movie exhibition company in the United States and the largest throughout the world. The company operates approximately 860 theatres and 9,600 screens globally and has propelled innovation through features like power-recliner seats, enhanced food and beverage choices, and loyalty p",
+    "last_updated": "2026-09-17"
+  },
+  "below": {
+    "canonical_name": "Below",
+    "entity_type": "product",
+    "summary": "Below refers to the value retailer Five Below, which operates as a specialty discount retailer pricing most products at $5 or below. The retailer targets tweens, teens, and bargain hunters with trendy items and offers a smaller selection of higher-priced items up to certain limits.",
+    "last_updated": "2026-09-17"
+  },
+  "yaga": {
+    "canonical_name": "Yaga",
+    "entity_type": "product",
+    "summary": "Yaga is an ecommerce company that specializes in preloved fashion. It facilitates the buying and selling of secondhand clothing and accessories in a secure online environment, primarily serving individuals looking to engage in sustainable fashion consumption.",
+    "last_updated": "2026-09-17"
+  },
+  "stephen king": {
+    "canonical_name": "Stephen King",
+    "entity_type": "person",
+    "summary": "Stephen King is an American novelist and short-story writer born in Portland, Maine in 1947. His books are credited with reviving the horror fiction genre in the late 20th century and are known for their realistic detail, forceful plotting, and ability to involve and scare the reader.",
+    "last_updated": "2026-09-17"
+  },
+  "the life of chuck": {
+    "canonical_name": "The Life of Chuck",
+    "entity_type": "product",
+    "summary": "The Life of Chuck is a novel by Stephen King described as a phenomenal tale of life and legacy, now adapted into a feature film directed by Mike Flanagan. The book is available in a stand-alone edition featuring a new introduction by Stephen King and is also accompanied by a full analysis and study",
+    "last_updated": "2026-09-17"
+  },
+  "the haunting of hill house": {
+    "canonical_name": "The Haunting of Hill House",
+    "entity_type": "product",
+    "summary": "The Haunting of Hill House is a classic novel by Shirley Jackson, available in a special illustrated edition from The Folio Society. It is categorized as a masterpiece of Gothic and Horror fiction and is part of a broader collection of classic fiction titles.",
+    "last_updated": "2026-09-17"
+  },
+  "specs": {
+    "canonical_name": "Specs",
+    "entity_type": "product",
+    "summary": "Product specification is a document that highlights the requirements of a product, helping product teams understand what they need to build. It is considered the most important part of any product or service, focusing on ensuring clarity in requirements, quality, communication, legal compliance, and",
+    "last_updated": "2026-09-17"
+  },
+  "christopher nolan": {
+    "canonical_name": "Christopher Nolan",
+    "entity_type": "person",
+    "summary": "Sir Christopher Nolan CBE is an Oscar-winning British film director, writer, and producer born in London, England. Over a career spanning more than 25 years, he has directed acclaimed, often nonlinear films such as Memento, Inception, The Dark Knight, Interstellar, and Oppenheimer.",
+    "last_updated": "2026-09-17"
+  },
+  "ash koosha": {
+    "canonical_name": "Ash Koosha",
+    "entity_type": "person",
+    "summary": "Ash Koosha is a Tehran-born, London-based composer, producer, singer, filmmaker, and technology founder. He is the CEO of Claigrid and was previously the Co-founder and CEO of Oorbit, a cloud streaming service built for the metaverse, and has described himself as a music automation tech founder.",
+    "last_updated": "2026-09-17"
+  },
+  "basel action network": {
+    "canonical_name": "Basel Action Network",
+    "entity_type": "organization",
+    "summary": "The Basel Action Network is an organization that conducts full-infrastructure analyses on waste and recycling, such as tracking the global dumping of plastic waste and promoting safe, clean, and just recycling of old ships. It also focuses on defining truly responsible recycling for old electronics",
+    "last_updated": "2026-09-17"
+  },
+  "metroid ravenous": {
+    "canonical_name": "Metroid Ravenous",
+    "entity_type": "product",
+    "summary": "Metroid Ravenous is a 2D side-scrolling adventure game for Samus, serving as a follow-up to Metroid Dread. It is set to launch exclusively for Nintendo Switch 2 on January 28, 2027, and will be available in both physical and digital editions. The game will also feature new amiibo figures at launch.",
+    "last_updated": "2026-09-17"
+  },
+  "aarp": {
+    "canonical_name": "AARP",
+    "entity_type": "organization",
+    "summary": "What Is AARP? AARP is a nonprofit, nonpartisan organization serving the 125 million Americans age 50-plus and their families by strengthening communities and advocating for health care stability, financial stability and personal fulfillment. AARP has a nationwide presence and was founded in 1958. Ja",
+    "last_updated": "2026-09-17"
+  },
+  "older adults technology services oats": {
+    "canonical_name": "Older Adults Technology Services (OATS)",
+    "entity_type": "organization",
+    "summary": "Bring Senior Planet to Your Community The Senior Planet licensing program equips local organizations with the tools to help seniors access technology and use it to enhance their lives. New research from OATS finds that even the most essential caregiving tools can be hard to use, but the right traini",
+    "last_updated": "2026-09-17"
+  },
+  "work at the frontier": {
+    "canonical_name": "Work at the Frontier",
+    "entity_type": "report",
+    "summary": "The \"Work at the Frontier\" report is the second paper in a series published by the OpenAI Economic Research Team. It builds upon the first report from July 2026 to continue exploring how work is changing across the economy.",
+    "last_updated": "2026-09-17"
+  },
+  "typesafecomputeruse": {
+    "canonical_name": "typesafe-computer-use",
+    "entity_type": "product",
+    "summary": "typesafe-computer-use is a Mac automation tool that drives a computer toward a user-typed goal for about a fiftieth of a cent per step. It avoids sending screenshots to large frontier models by using deterministic screen reading, a small action classifier, and a writing model only when free text is",
+    "last_updated": "2026-09-17"
+  },
+  "typesafe": {
+    "senses": [
+      {
+        "sense_label": "ai_model",
+        "summary": "TypeSafe exposes three modular, composable, and structured AI primitives designed for software integration. Its flagship model, Jev, is the first System One model optimized for automation, allowing users to send structured queries and receive typed decisions with probabilities and confidence scores.",
+        "last_updated": "2026-09-17"
+      }
+    ]
+  },
+  "ledgejun": {
+    "canonical_name": "ledge-jun",
+    "entity_type": "person",
+    "summary": "29 followers · 91 following. Joined Jun 2015. See the latest conversations with @info_ledge Jun 12, 2026 · Posts Erusian's Ledge Jun 12, 2026· “𝐓𝐡𝐢𝐧𝐤𝐢𝐧𝐠 𝐦𝐚𝐲𝐛𝐞 𝐲𝐨𝐮'𝐥𝐥 𝐜𝐨𝐦𝐞 𝐛𝐚𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐭𝐡𝐞 𝐩𝐥𝐚𝐜𝐞 𝐭𝐡𝐚𝐭 𝐰𝐞'𝐝 𝐦𝐞𝐞𝐭...” ♪♪♪ As this chapter draws to a close, and as we turn the Nov 21, 2012 · What a player b",
+    "last_updated": "2026-09-17"
+  },
+  "aside": {
+    "canonical_name": "Aside",
+    "entity_type": "product",
+    "summary": "Moss-Aside® Moss Killer is a fast-acting moss, algae and lichen killer that works on a variety of surfaces including turf. It works quickly on moss, algae, lichens, liverwort, mold, mildew, and green slime. This non-staining formula can be used on lawns, golf courses, turf, parks, playgrounds, and a",
+    "last_updated": "2026-09-17"
+  },
+  "astra": {
+    "canonical_name": "Astra",
+    "entity_type": "ai_model",
+    "summary": "Astra is OpenAI's most intelligent model for business, utilizing advanced reasoning and computer use to complete complex workflows. It can work across websites, desktop apps, and internal tools without APIs to automate existing work processes.",
+    "last_updated": "2026-09-17"
+  },
+  "microsoft fabric": {
+    "canonical_name": "Microsoft Fabric",
+    "entity_type": "product",
+    "summary": "Microsoft Fabric is an analytics platform that supports end-to-end data workflows, including data ingestion, transformation, real-time stream processing, analytics, and reporting. It provides integrated experiences such as Data Engineering, Data Factory, Data Science, Real-Time Intelligence, Data Wa",
+    "last_updated": "2026-09-17"
+  },
+  "freshmart": {
+    "canonical_name": "FreshMart",
+    "entity_type": "product",
+    "summary": "At FreshMart, we believe grocery shopping should be easy, fast, and fresh. That’s why we’ve created an online store where you can get all your household essentials without stepping out. Whether you’re looking for farm-fresh vegetables, premium snacks, or daily dairy needs — we’ve got you covered. Sh",
+    "last_updated": "2026-09-17"
   }
 }

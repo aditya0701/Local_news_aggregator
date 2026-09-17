@@ -1,5 +1,392 @@
 [
   {
+    "id": "dbb60a81aa82",
+    "title": "Nvidia ने Rust में नेटिव GPU प्रोग्रामिंग की घोषणा की",
+    "summary": "सितंबर 2026 में, Nvidia ने यह घोषणा की कि वह नेटिव GPU प्रोग्रामिंग के लिए Rust भाषा पर तेजी से ध्यान केंद्रित कर रहा है। यह खबर तकनीकी दुनिया के लिए काफी महत्वपूर्ण है क्योंकि Nvidia, जो AI और सेमीकंडक्टर उद्योग में एक प्रमुख नाम है, अपने सबसे सफल टूलचेन, CUDA C++ और CUDA Python के साथ-साथ CUDA Rust को भी 2027 और…",
+    "category": "general",
+    "tags": [
+      "Nvidia",
+      "Rust",
+      "CUDA"
+    ],
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image1-1.webp",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "474d12df8265",
+    "title": "2014 का एक अस्थायी PHP फिक्स 2 करोड़ से अधिक बार इंस्टॉल हुआ, अब इसे बंद कर दिया गया है",
+    "summary": "2014 में एओएल (AOL) के कंटेंट मैनेजमेंट सिस्टम को अपग्रेड करते समय एक डेवलपर ने एक अस्थायी कोड पैच लिखा था। यह पैच एक खोए हुए PHP फंक्शन को बदलने के लिए बनाया गया था। आज, इस कोड को लगभग 2 करोड़ बार डाउनलोड किया जा चुका है, जिससे यह PHP इकोसिस्टम के सबसे अप्रत्याशित और व्यापक रूप से उपयोग किए जाने वाले पैकेजों में से…",
+    "category": "repo_analysis",
+    "tags": [
+      "http_build_url",
+      "Packagist",
+      "Composer"
+    ],
+    "image": "https://jakeasmith.com/blog/http-build-url/og.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8b019fa9695e",
+    "title": "1994 की एक पुरानी भेद्यता का अंत: Telnet का युग और साइबर सुरक्षा की नई चुनौतियाँ",
+    "summary": "इंटरनेट के इतिहास में 1994 का दौर उस समय के समान है जब RISC आर्किटेक्चर केवल एक दूर का सपना था। इसी वर्ष हॉलीवुड की प्रसिद्ध फिल्म 'Hackers' रिलीज हुई थी और साइबर दुनिया का परिदृश्य बिल्कुल अलग था। इसी दौर में एक ऐसी भेद्यता का जन्म हुआ जो आज 32 साल पुरानी हो चुकी है। हाल ही में, इस पुरानी और खतरनाक भेद्यता…",
+    "category": "repo_analysis",
+    "tags": [
+      "CVE-2026-32746",
+      "GNU inetutils",
+      "DREAM Security Research Team"
+    ],
+    "image": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/2026/03/Group-8730.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0a27d938a00c",
+    "title": "एआई की नींव: सॉफ्टवेयर से आगे बढ़कर भौतिक सामग्रियों की ओर बढ़ता संकट",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) का मौजूदा दौर तकनीकी उद्योग को एक नई दिशा में ले जा रहा है। यह अब केवल एक सॉफ्टवेयर और एल्गोरिदम की दौड़ नहीं रह गई है, बल्कि यह एक गंभीर भौतिक सामग्रियों की चुनौती में बदल गई है। जैसे-जैसे एआई कंप्यूटिंग को नई सीमाओं तक धकेल रहा है, उस बुनियादी ढांचे के पीछे की सामग्रियां उतनी ही महत्वपूर्ण…",
+    "category": "general",
+    "tags": [
+      "Mike Finelli",
+      "Syensqo"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Mike-Finelli-business-lab.png?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0b468efa5ea6",
+    "title": "एआई का एक ट्रिलियन डॉलर का दांव और OpenAI की जैविक डेटा की तलाश",
+    "summary": "आर्टिफिशियल इंटेलिजेंस के क्षेत्र में विकास की गति और इसके पीछे लगने वाले भारी-भरकम निवेश ने एक नई बहस को जन्म दे दिया है। टेकदृष्टि के इस विशेष अंक में हम इस बात की पड़ताल कर रहे हैं कि कैसे एआई कंपनियां अपने ट्रिलियन डॉलर के खर्च को सही ठहराने की कोशिश कर रही हैं और साथ ही, इस अंधी दौड़ में वे कौन से नए और जोखिम भरे…",
+    "category": "general",
+    "tags": [
+      "The Download",
+      "Nvidia",
+      "Meta"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/ai-buildout-bets2a.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "84bd2cb388ed",
+    "title": "आइसलैंड की कंपनी Treble ने अपने वॉयस AI सिमुलेशन प्लेटफॉर्म के लिए जुटाए $18 मिलियन",
+    "summary": "वॉयस आर्टिफिशियल इंटेलिजेंस (AI) आज के तकनीकी परिदृश्य में सबसे तेजी से उभरते क्षेत्रों में से एक है, जहां ग्राहक सेवा से लेकर स्मार्ट ग्लास तक के लिए अरबों डॉलर का निवेश हो रहा है। इसी तेजी से विकसित होते क्षेत्र में आइसलैंड स्थित स्टार्टअप Treble ने हाल ही में अपने वॉयस सिमुलेशन प्लेटफॉर्म के लिए 18 मिलियन डॉलर…",
+    "category": "general",
+    "tags": [
+      "Treble",
+      "Finnur Pind",
+      "Jesper Pedersen"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Treble-Physical-AI-PR-image_no-brand-1.jpeg?resize=1200,670",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1cd2599a0d6b",
+    "title": "स्टार्टअप्स की नई टीम में AI एजेंट: 2026 में तकनीक और मानव का नया युग",
+    "summary": "टेकक्रंच डिसरप्ट 2026 में स्टार्टअप्स की भर्ती प्रक्रिया में एक बड़ा बदलाव देखने को मिल रहा है। अब शुरुआती कंपनियाँ ऐसी टीमें बना रही हैं जहाँ इंसान और एआई एजेंट एक साथ मिलकर काम करते हैं। इस महत्वपूर्ण सत्र में गस्टो के सीईओ जोश रीव्स, इनसाइट पार्टनर्स की सीनियर वाइस प्रेसिडेंट मिशेल जॉनसन और लेलैंड के सीईओ जॉन…",
+    "category": "general",
+    "tags": [
+      "Gusto",
+      "Insight Partners",
+      "Leland"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/Disrupt-2025-Builders-Stage-Crowd.png?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 6
+  },
+  {
+    "id": "ab608a6c17da",
+    "title": "स्नैप द्वारा अपने $2,200 के स्मार्ट चश्मे की नई रणनीति",
+    "summary": "स्नैप इंक (Snap Inc.) ने अपने बहुप्रतीक्षित स्मार्ट चश्मे, स्पेक्स (Specs) की शुरुआत के बाद से भारी आलोचना और शेयर बाजार में गिरावट का सामना किया है। $2,200 की भारी कीमत और अजीबोगरीब डिजाइन के कारण जनता ने कंपनी के सीईओ इवान स्पीगल के इस्तीफे की मांग की थी। अब, लॉस एंजिल्स में आयोजित एक इवेंट में, स्नैप ने इन चश्मों…",
+    "category": "general",
+    "tags": [
+      "Snap",
+      "Specs",
+      "Evan Spiegel"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/SPECS26_Home-Menu.png?resize=1200,675",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "a49d32cae2b1",
+    "title": "अमेरिकी कार निर्माताओं को जल्द ही मुफ्त में AM रेडियो देना पड़ सकता है",
+    "summary": "अमेरिकी संसद के निचले सदन, हाउस ऑफ रिप्रेजेंटेटिव्स ने सर्वसम्मति से एक महत्वपूर्ण विधेयक पारित किया है, जिसका उद्देश्य नई कारों, ट्रकों और एसयूवी में AM रेडियो को एक अनिवार्य मानक उपकरण बनाना है। इस दुर्लभ द्विदलीय समर्थन वाले कदम से यह स्पष्ट हो गया है कि वाशिंगटन का राजनीतिक ध्रुवीकरण AM रेडियो के मुद्दे पर एक साथ…",
+    "category": "ban_regulation",
+    "tags": [
+      "House of Representatives",
+      "National Highway Traffic Safety Administration",
+      "AM Radio for Every Vehicle Act"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/am-radio-getty.jpg?resize=1200,801",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "bc6f9ab86009",
+    "title": "Pulley, Carta की प्रतिद्वंद्वी कंपनी, बंद हो रही है",
+    "summary": "Cap table management प्लेटफॉर्म Pulley ने आधिकारिक तौर पर घोषणा की है कि वह 8 दिसंबर, 2026 को अपना संचालन बंद कर देगा। इस अप्रत्याशित कदम के तहत, Pulley अपने प्रतिद्वंद्वी Carta के साथ साझेदारी कर रहा है ताकि अपने ग्राहकों को Carta में स्थानांतरित किया जा सके। इसके अलावा, कंपनी नए संभावित ग्राहकों को भी Carta की ओर…",
+    "category": "general",
+    "tags": [
+      "Pulley",
+      "Carta",
+      "Yin Wu"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1458551911.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8c5a5515609b",
+    "title": "एंथ्रोपिक और ओपनएआई एआई सुरक्षा में स्वतंत्र मूल्यांकनकर्ताओं को शामिल करना चाहते हैं, क्या वे वास्तव में स्वतंत्र होंगे?",
+    "summary": "एआई सुरक्षा प्रोटोकॉल में एक अभूतपूर्व बदलाव देखने को मिल रहा है, जिसकी शुरुआत एंथ्रोपिक के सीईओ डारियो अमोदेई ने की है। उन्होंने हाल ही में एक विस्तृत निबंध में प्रस्ताव दिया कि फ्रंटियर एआई कंपनियों के भीतर तीसरे पक्ष के मूल्यांकनकर्ताओं को शामिल किया जाए, एक ऐसा विचार जिसे उद्योग ने केवल एक साल पहले तुरंत खारिज कर…",
+    "category": "ban_regulation",
+    "tags": [
+      "Anthropic",
+      "OpenAI",
+      "Dario Amodei"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7545e8972400",
+    "title": "हैलोवीन के लिए स्ट्रीमर्स की जंग: टोरंटो फिल्म फेस्टिवल में स्ट्रीमिंग प्लेटफॉर्म्स की होड़",
+    "summary": "टोरंटो इंटरनेशनल फिल्म फेस्टिवल (TIFF) आमतौर पर सिनेमा के भविष्य को प्रदर्शित करने का एक प्रमुख मंच माना जाता है, लेकिन इस साल इसने स्ट्रीमिंग प्लेटफॉर्म्स के बीच एक नई और तीव्र प्रतिस्पर्धा की ओर भी इशारा किया है। इस साल के फेस्टिवल में अक्टूबर के आगामी हॉरर सीज़न पर नियंत्रण पाने के लिए प्रमुख स्ट्रीमिंग सेवाओं के…",
+    "category": "general",
+    "tags": [
+      "Toronto International Film Festival",
+      "Peacock",
+      "Netflix"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/NUP_211117_00013_RF-1.jpg?quality=90&strip=all&crop=0%2C1.8369937218105%2C100%2C96.326012556379&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d2f3ab14e50f",
+    "title": "स्नैप (Snap) ने लॉन्च किया 'स्पेक्स इंटेलिजेंस' (Specs Intelligence) एआई टूल, आईओएस (iOS) और मैक (Mac) पर उपलब्ध",
+    "summary": "स्नैप (Snap) ने अपने नए एआई असिस्टेंट 'स्पेक्स इंटेलिजेंस' (Specs Intelligence) की घोषणा की है, जो उपयोगकर्ताओं को उनके डिजिटल खातों को जोड़कर काम के कार्यों और यात्रा की जानकारी को ट्रैक करने में सहायता करेगा। यह नया एआई टूल बुधवार से आईओएस (iOS) पर प्रीव्यू के लिए उपलब्ध होगा, और मैक (Mac) पर इसके पूर्ण अर्ली-एक्सेस…",
+    "category": "model_release",
+    "tags": [
+      "Snap",
+      "Specs Intelligence",
+      "Specs"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-15-at-9.05.55-PM.png?quality=90&strip=all&crop=5.0466377440347%2C0%2C89.906724511931%2C100&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cf356bfbc5c4",
+    "title": "2.5 घंटे की एआई फिल्म 'ओडिसी' 2.5 घंटे बहुत लंबी है",
+    "summary": "क्रिस्टोफर नोलन का 'द ओडिसी' (The Odyssey) पर आधारित नवीनतम सिनेमाई रूपांतरण बॉक्स ऑफिस पर एक बड़ी सफलता साबित हुआ है, जिसने आधुनिक दर्शकों के बीच क्लासिक साहित्य के प्रति एक नई रुचि जगाई है। लेकिन इस सफलता के ठीक विपरीत, एआई फर्म फाउंटेन 0 (Fountain 0) द्वारा निर्मित नई एआई फिल्म 'ओडिसी: द फॉल' (Odysseus: The Fall)…",
+    "category": "general",
+    "tags": [
+      "Christopher Nolan",
+      "Ash Koosha",
+      "Fountain 0"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-16-at-4.19.06-PM.png?quality=90&strip=all&crop=3.9791086350975%2C0%2C92.041782729805%2C100&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "be79f3048c92",
+    "title": "कृत्रिम बुद्धिमत्ता डेटा सेंटर ई-कचरे की समस्या: एक बढ़ता हुआ पर्यावरणीय संकट",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) के तेजी से बढ़ते उपयोग के साथ एक नया और गंभीर पर्यावरणीय संकट सामने आ रहा है, जिसे अक्सर नजरअंदाज कर दिया जाता है। बेसल एक्शन नेटवर्क (BAN) द्वारा प्रकाशित एक हालिया रिपोर्ट ने इस बात पर प्रकाश डाला है कि AI से उत्पन्न होने वाला इलेक्ट्रॉनिक कचरा (e-waste) पहले की तुलना में कहीं अधिक है। इस…",
+    "category": "ban_regulation",
+    "tags": [
+      "Basel Action Network",
+      "Jim Puckett"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1ee7e5ce99bb",
+    "title": "वॉलमार्ट ने Metroid Ravenous प्री-ऑर्डर पर दी बड़ी छूट, कीमत गिरी $10",
+    "summary": "वॉलमार्ट (Walmart) ने आगामी Nintendo गेम के प्री-ऑर्डर पर एक आकर्षक छूट की पेशकश की है। गेमर्स अब वॉलमार्ट से Metroid Ravenous का फिजिकल वर्ज़न $69.99 के बजाय $59.88 में खरीद सकते हैं, जिससे उन्हें सीधे $10 की बचत होगी। यह छूट गेम के डिजिटल वर्ज़न की कीमत के लगभग समान है। यह गेम 28 जनवरी 2027 को विशेष रूप से Nintendo…",
+    "category": "acquisition",
+    "tags": [
+      "Walmart",
+      "Metroid Ravenous",
+      "Nintendo"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-09-at-7.44.37-AM.png?quality=90&strip=all&crop=0%2C2.8499270178814%2C100%2C94.300145964237&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a94aaee70d91",
+    "title": "आपका 'हेल्थ एज' एक मार्केटिंग गिमिक है",
+    "summary": "एप्पल ने अपने हालिया इवेंट के दौरान एक नया 'हेल्थ एज' फीचर पेश किया है, जिसे एक नए रीडिजाइन किए गए हेल्थ ऐप और एक नए रेडीनेस मीट्रिक के साथ पेश किया गया है। इस घोषणा पर द वर्ज की वरिष्ठ समीक्षक विक्टोरिया सॉन्ग ने तुरंत अपनी गहरी निराशा व्यक्त की और एक स्पष्ट \"नोओओओ!\" (Noooo!) के साथ इस खबर का स्वागत किया। यह…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "Victoria Song"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257818_Whoop_5_AKrales_0175.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "027811ca1632",
+    "title": "उम्रदराज़ लोगों को एआई के उपयोग में मदद: ओपनएआई और एएआरपी का नया अभियान",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) को अब केवल युवाओं तक सीमित नहीं रखा जा सकता, और इसी दिशा में एक बड़ा कदम उठाते हुए ओपनएआई (OpenAI) ने एएआरपी (AARP) के ओएटीएस (OATS) के साथ मिलकर एक नई पहल की घोषणा की है। इस पहल के तहत, 'सीनियर प्लैनेट' कार्यक्रम के अंतर्गत एक बहु-वर्षीय प्रयास के तहत \"ओल्डर एडल्ट्स एआई स्किल्स जैम\" नामक एक…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "AARP",
+      "Older Adults Technology Services (OATS)"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1yEHeoQzG1q9cfoWaoD68R/f45d0eec3a09156dcb99bcd9f6619c51/older-adults-open-graph-v001.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "52752974efc0",
+    "title": "ChatGPT Ads में AI की नई क्रांति",
+    "summary": "OpenAI ने अपने AI-आधारित विज्ञापन प्लेटफॉर्म को अगले स्तर पर ले जाने के लिए ChatGPT Ads में कई नए AI-संचालित अनुभव पेश किए हैं। यह कदम उन व्यवसायों और विज्ञापनदाताओं के लिए एक महत्वपूर्ण बदलाव है जो अपने लक्षित दर्शकों तक अधिक प्रभावी ढंग से पहुंचना चाहते हैं। इन नए अपडेट्स के साथ, OpenAI का लक्ष्य केवल विज्ञापन…",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "HubSpot"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/55OzfM3w5QnfYsHGeqQPwD/da59df4251ec09b27e1855f4710f0c39/reimagining-advertising-with-ai-seo.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "bbe6c30a33c9",
+    "title": "एआई मॉडल मिसअलाइनमेंट की नई रिपोर्टिंग: ओपनएआई का पारदर्शी ढांचा",
+    "summary": "ओपनएआई ने हाल ही में एआई मॉडल मिसअलाइनमेंट को ट्रैक करने और उसका खुलासा करने के लिए एक नया ढांचा पेश किया है। इस नए ढांचे के साथ, कंपनी ने पिछले छह महीनों के दौरान देखे गए अप्रत्याशित या चिंताजनक मॉडल व्यवहार की छह रिपोर्टें भी साझा की हैं। यह कदम एआई उद्योग में सुरक्षा और पारदर्शिता को लेकर चल रही बहस के बीच उठाया…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "model"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "71646fffd914",
+    "title": "काम के नए तरीके: कैसे एआई (AI) कामगारों की भूमिकाओं को बदल रहा है",
+    "summary": "हाल ही में ओपनएआई इकोनॉमिक रिसर्च की 'वर्क एट द फ्रंटियर' (Work at the Frontier) रिपोर्ट ने कार्यस्थल पर एआई के बढ़ते प्रभाव पर प्रकाश डाला है। इस रिपोर्ट में अप्रैल से जुलाई 2026 के बीच 1.5 मिलियन (15 लाख) से अधिक कार्य-संबंधित चैटजीपीटी (ChatGPT) संदेशों का विश्लेषण किया गया। इससे यह स्पष्ट हुआ है कि पेशेवर लोग अब…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "Work at the Frontier"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1gs0leQWyRXaqM1FSYP2pB/90ebb6eb87e6c0cfd0ce654dc0a7692c/blog-seo-option040-v002.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e93a36750b02",
+    "title": "टाइपसेफ कंप्यूटर यूज़: एआई ऑटोमेशन की लागत में भारी कटौती",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) आधारित कंप्यूटर उपयोग की वर्तमान प्रणालियां सक्षम तो हैं, लेकिन इनकी लागत बहुत अधिक है। हर कदम पर स्क्रीनशॉट भेजने और योजना बनाने में कई सेकंड लगते हैं, जो महंगा साबित होता है। इसी समस्या के समाधान के रूप में 'टाइपसेफ' (TypeSafe) नामक एक नया टूल सामने आया है, जो इस प्रक्रिया को काफी तेज और…",
+    "category": "repo_analysis",
+    "tags": [
+      "awlevin",
+      "typesafe-computer-use",
+      "TypeSafe"
+    ],
+    "image": "https://opengraph.githubassets.com/1/awlevin/typesafe-computer-use",
+    "source": "github",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4d27f2a2fd22",
+    "title": "lidge-jun/aside-codemode",
+    "summary": "One call where Aside used to spend fifty — rg-backed search, Aside-shaped file tools, and batched browser work inside a single sandboxed JavaScript block. On a real folder, 55s of find+grep became 1s.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/lidge-jun/aside-codemode",
+    "source": "github",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "baf592d1fb4a",
+    "title": "ओपनएआई का नया एआई मॉडल और कीकैड 10 के साथ पीसीबी लेआउट का स्वचालन",
+    "summary": "ओपनएआई ने हाल ही में एक अत्यंत उन्नत और बुद्धिमान मॉडल 'एस्ट्र्रा' (Astra) पेश किया है, जिसे विशेष रूप से जटिल व्यावसायिक वर्कफ़्लो और प्रक्रियाओं को स्वचालित करने के लिए डिज़ाइन किया गया है। यह नया मॉडल वेबसाइटों, डेस्कटॉप एप्लिकेशन और आंतरिक उपकरणों पर बिना किसी एपीआई (API) के सीधे काम करने की क्षमता रखता है। इसी…",
+    "category": "repo_analysis",
+    "tags": [
+      "pcbi386",
+      "KiCad",
+      "GPT-6"
+    ],
+    "image": "https://opengraph.githubassets.com/1/zhbi98/pcb-layout-design",
+    "source": "github",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "20dc3d944b3e",
+    "title": "टेकदृष्टि टेक डायरी: DataFabric-Academy के जरिए माइक्रोसॉफ्ट फैब्रिक डेटा साइंस सीखना हुआ आसान",
+    "summary": "तकनीकी शिक्षा के क्षेत्र में, माइक्रोसॉफ्ट फैब्रिक (Microsoft Fabric) के डेटा साइंस सिद्धांतों को व्यावहारिक रूप से समझना आज के समय की एक बड़ी आवश्यकता है। इसी को ध्यान में रखते हुए, 'DataFabric-Academy/ms-fabric-data-science' नामक एक नई रिपॉजिटरी सामने आई है। यह रिपॉजिटरी शिक्षार्थियों को माइक्रोसॉफ्ट फैब्रिक…",
+    "category": "repo_analysis",
+    "tags": [
+      "DataFabric-Academy",
+      "Microsoft Fabric",
+      "FreshMart"
+    ],
+    "image": "https://opengraph.githubassets.com/1/DataFabric-Academy/ms-fabric-data-science",
+    "source": "github",
+    "first_seen": "2026-09-17T07:53:22.613803+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "642a1494ec3f",
     "title": "टाइपसेफ एआई का नया 'सिस्टम वन मॉडल' जेव: सॉफ्टवेयर ऑटोमेशन के लिए एक नया युग",
     "summary": "टाइपसेफ एआई (TypeSafe AI) ने आज अपने पहले 'सिस्टम वन मॉडल' (System One Model) की घोषणा की है, जिसका नाम जेव (Jev) है। इस कंपनी की स्थापना ओपनएआई (OpenAI) के पूर्व शोधकर्ता दीगो अल्मेडा (Diogo Almeida) ने की है, जिन्होंने चैटजीपीटी (ChatGPT) के पीछे की तकनीक विकसित करने में महत्वपूर्ण भूमिका निभाई थी। अल्मेडा पिछले चार…",
