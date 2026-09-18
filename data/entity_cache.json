@@ -760,9 +760,9 @@
   },
   "oregon": {
     "canonical_name": "Oregon",
-    "entity_type": "organization",
-    "summary": "STATE OF OREGON -- ORGANIZATION CHART The People of Oregon Judicial Branch Executive Branch Legislative Branch Chief Justice of Supreme Court Judicial Department Senate House of Representatives Secretary of State Attorney General Governor Superintendent of Public Instruction Labor Commissioner Treas",
-    "last_updated": "2026-07-03"
+    "entity_type": "location",
+    "summary": "Oregon is a constituent state of the U.S. located in the Pacific Northwest, bounded by Washington, Idaho, Nevada, California, and the Pacific Ocean. Its largest city is Portland and its capital is Salem, with the population largely concentrated in the Willamette Valley.",
+    "last_updated": "2026-09-18"
   },
   "massachusetts": {
     "canonical_name": "Massachusetts",
@@ -2516,8 +2516,8 @@
   "gpt55": {
     "canonical_name": "GPT-5.5",
     "entity_type": "ai_model",
-    "summary": "GPT-5.5 is described as the smartest model yet, designed for complex tasks like coding, research, and data analysis. It is built to understand user intent faster and can carry more of the work itself, excelling at writing and debugging code, researching, and operating software.",
-    "last_updated": "2026-07-05"
+    "summary": "GPT-5.5 is an AI model described as the smartest and most intuitive to use yet, designed to understand user intent faster and carry more of the work itself. It excels at writing and debugging code, research, and is available via API.",
+    "last_updated": "2026-09-18"
   },
   "google books": {
     "canonical_name": "Google Books",
@@ -4409,8 +4409,8 @@
   "xbox": {
     "canonical_name": "Xbox",
     "entity_type": "product",
-    "summary": "Xbox is a product from Microsoft that includes gaming consoles, the Xbox Game Pass subscription service, and a store for games, software, and accessories. The material describes the Xbox ecosystem, including its consoles, game library, and online services.",
-    "last_updated": "2026-07-07"
+    "summary": "Xbox is a gaming platform featuring consoles such as the Xbox Series X and Xbox Series S, alongside Xbox Game Pass subscriptions and cloud gaming. The product line also includes a variety of controllers and accessories available through the Microsoft Xbox Store.",
+    "last_updated": "2026-09-18"
   },
   "asha sharma": {
     "canonical_name": "Asha Sharma",
@@ -8299,9 +8299,9 @@
   },
   "qwen3635ba3b": {
     "canonical_name": "Qwen3.6-35B-A3B",
-    "entity_type": "model_release",
-    "summary": "Qwen3.6-35B-A3B is an open-weight variant of the Qwen3.6 series, built on direct feedback from the community. It is compatible with Hugging Face Transformers, vLLM, SGLang, and other frameworks. The model is post-trained and available in the Hugging Face Transformers format, supporting tensor parall",
-    "last_updated": "2026-07-17"
+    "entity_type": "ai_model",
+    "summary": "Qwen3.6-35B-A3B is an open-weight AI model built for stability and real-world utility, offering an intuitive coding experience. It is compatible with frameworks like Hugging Face Transformers, vLLM, SGLang, and KTransformers.",
+    "last_updated": "2026-09-18"
   },
   "rtx 5060 ti": {
     "canonical_name": "RTX 5060 Ti",
@@ -9419,8 +9419,8 @@
   "kodak": {
     "canonical_name": "Kodak",
     "entity_type": "company",
-    "summary": "Kodak (NYSE: KODK) is a leading global manufacturer focused on commercial print and advanced materials & chemicals. With 79,000 worldwide patents earned over 130 years of R&D, we believe in the power of technology and science to enhance what the world sees and creates. Our innovative, award-winning",
-    "last_updated": "2026-07-20"
+    "summary": "Kodak (NYSE: KODK) is a leading global manufacturer focused on commercial print and advanced materials & chemicals. With 79,000 worldwide patents earned over 130 years of R&D, the company uses technology and science to enhance what the world sees and creates.",
+    "last_updated": "2026-09-18"
   },
   "reto project": {
     "canonical_name": "Reto Project",
@@ -10117,9 +10117,9 @@
   },
   "modal": {
     "canonical_name": "Modal",
-    "entity_type": "organization",
-    "summary": "Modal is an organization that explores alternative ways of understanding organization, dispensing with reference to an underlying essence and instead exercising a pluralistic thinking of organization as existing purely in its modifications. It is dedicated to exploring 'theory and politics in organi",
-    "last_updated": "2026-07-21"
+    "entity_type": "technology",
+    "summary": "Modal is a cloud computing platform built for heavy AI workloads, handling everything from single-GPU fine-tuning to multi-node runs in a single code file. It offers instant container booting, super-fast autoscaling, and integrated observability for deployment and scaling.",
+    "last_updated": "2026-09-18"
   },
   "huggingface": {
     "canonical_name": "Huggingface",
@@ -16897,5 +16897,299 @@
     "entity_type": "product",
     "summary": "At FreshMart, we believe grocery shopping should be easy, fast, and fresh. That’s why we’ve created an online store where you can get all your household essentials without stepping out. Whether you’re looking for farm-fresh vegetables, premium snacks, or daily dairy needs — we’ve got you covered. Sh",
     "last_updated": "2026-09-17"
+  },
+  "jemalloc": {
+    "canonical_name": "Jemalloc",
+    "entity_type": "technology",
+    "summary": "Jemalloc is a general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support. It first came into use as the FreeBSD libc allocator in 2005 and has since been integrated into numerous applications that rely on its predictable behavior.",
+    "last_updated": "2026-09-18"
+  },
+  "astra for law": {
+    "canonical_name": "Astra for Law",
+    "entity_type": "product",
+    "summary": "Astra for Law is a new foundation introduced for law firms and legal technology companies to build AI products and workflows. It combines GPT-6 Astra with settings, tools, and context tailored for professional legal work.",
+    "last_updated": "2026-09-18"
+  },
+  "harvey": {
+    "canonical_name": "Harvey",
+    "entity_type": "company",
+    "summary": "Harvey is a company that offers a suite of AI tools used by lawyers and legal teams to securely store documents and answer complex queries. It was cofounded in 2022 by Winston Weinberg and Gabriel Pereyra.",
+    "last_updated": "2026-09-18"
+  },
+  "legora": {
+    "canonical_name": "Legora",
+    "entity_type": "company",
+    "summary": "Legora is a Stockholm-based startup that uses AI to help lawyers with document review, contract drafting, and research. Founded in 2023 by Max Junestrand, it serves around 500 law firms.",
+    "last_updated": "2026-09-18"
+  },
+  "thomson reuters": {
+    "canonical_name": "Thomson Reuters",
+    "entity_type": "company",
+    "summary": "Thomson Reuters is a provider of award-winning, global multimedia content and real-time news coverage. The company is known for its Trusted AI solutions built on 175 years of knowledge.",
+    "last_updated": "2026-09-18"
+  },
+  "free law project": {
+    "canonical_name": "Free Law Project",
+    "entity_type": "organization",
+    "summary": "Free Law Project is a nonprofit organization started in 2010 that uses technology, data, and advocacy to make the legal ecosystem more equitable. It manages projects like the RECAP Suite and CourtListener.com.",
+    "last_updated": "2026-09-18"
+  },
+  "courtlistener": {
+    "canonical_name": "CourtListener",
+    "entity_type": "product",
+    "summary": "CourtListener is a free legal research website containing millions of legal opinions and court data. It serves as a fully-searchable and accessible archive for opinions, oral arguments, and federal filings.",
+    "last_updated": "2026-09-18"
+  },
+  "bonsai 2 27b": {
+    "canonical_name": "Bonsai 2 27B",
+    "entity_type": "ai_model",
+    "summary": "Bonsai 2 27B is PrismML's new flagship model based on Qwen3.8 27B. It is available as a ternary model and brings a new generation of reasoning, coding, vision, and agentic capabilities to the Bonsai series.",
+    "last_updated": "2026-09-18"
+  },
+  "qwen38 27b": {
+    "canonical_name": "Qwen3.8 27B",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.8 27B is a native vision-language dense model that builds upon the 3.6-27B version. It features key improvements in coding and office productivity across text and visual modalities, and it supports text, image, and video input.",
+    "last_updated": "2026-09-18"
+  },
+  "apache 20": {
+    "canonical_name": "Apache 2.0",
+    "entity_type": "protocol",
+    "summary": "The material provided is about the Apache HTTP Server, not the Apache 2.0 protocol.",
+    "last_updated": "2026-09-18"
+  },
+  "mazama energy": {
+    "canonical_name": "Mazama Energy",
+    "entity_type": "startup",
+    "summary": "Mazama Energy is a geothermal startup that is drilling three miles underground to tap superhot rock, with a single well capable of generating 15 MW of electricity 24/7. The company raised $135 million in an oversubscribed Series B to develop horizontal wells in super-hot rocks.",
+    "last_updated": "2026-09-18"
+  },
+  "centaurus capital": {
+    "canonical_name": "Centaurus Capital",
+    "entity_type": "company",
+    "summary": "Centaurus Capital is a private investment management company founded in 2000 and based in London, United Kingdom, with an emphasis on Europe, Asia, and emerging markets. The firm specializes in opportunistic long-short and distressed credit strategies and was previously described as an event-driven",
+    "last_updated": "2026-09-18"
+  },
+  "doerr capital": {
+    "canonical_name": "Doerr Capital",
+    "entity_type": "company",
+    "summary": "Doerr Capital is a venture capital firm based in the United States that focuses on backing transformative companies at the intersection of technology and global utility. Founded by John Doerr, the firm actively deploys capital into breakthrough innovations including climate.",
+    "last_updated": "2026-09-18"
+  },
+  "james manyika": {
+    "canonical_name": "James Manyika",
+    "entity_type": "person",
+    "summary": "Material did not address this",
+    "last_updated": "2026-09-18"
+  },
+  "demis hassabis": {
+    "canonical_name": "Demis Hassabis",
+    "entity_type": "person",
+    "summary": "Demis Hassabis is a British artificial intelligence researcher, entrepreneur, and computer scientist born in London in 1976. He is the chairman and co-founder of Google DeepMind and the chief scientist of Alphabet, as well as the CEO and co-founder of Isomorphic Labs. He was awarded the 2024 Nobel P",
+    "last_updated": "2026-09-18"
+  },
+  "anca dragan": {
+    "canonical_name": "Anca Dragan",
+    "entity_type": "researcher",
+    "summary": "Anca Dragan is an Associate Professor in the EECS Department at UC Berkeley who runs the InterACT Lab. Her research focuses on algorithms for human-robot interaction that enable robots to coordinate well with and support people.",
+    "last_updated": "2026-09-18"
+  },
+  "deepmind institute": {
+    "canonical_name": "DeepMind Institute",
+    "entity_type": "organization",
+    "summary": "The DeepMind Institute aims to advance bold thinking about the safe development of artificial general intelligence, its beneficial use, and its societal implications. The organization focuses on bringing creative foresight and grounded examination of AI to help tackle major global questions and navi",
+    "last_updated": "2026-09-18"
+  },
+  "gpt56 astra": {
+    "canonical_name": "GPT-5.6 Astra",
+    "entity_type": "ai_model",
+    "summary": "GPT-6 Astra is a new generation of AI model that brings together years of research across pre-training, reinforcement learning, and alignment. It is described as state-of-the-art for computer use, browsing, software engineering, cybersecurity, science, and professional work.",
+    "last_updated": "2026-09-18"
+  },
+  "alphabet": {
+    "canonical_name": "Alphabet",
+    "entity_type": "company",
+    "summary": "Alphabet Inc. is an American technology conglomerate and holding company formed in 2015 as a strategic restructuring of Google and its various subsidiaries. Incorporated in Delaware and publicly traded on the NASDAQ exchange, Alphabet serves as the parent holding company of Google LLC and numerous o",
+    "last_updated": "2026-09-18"
+  },
+  "singapore": {
+    "canonical_name": "Singapore",
+    "entity_type": "organization",
+    "summary": "Singapore is a sunny, tropical island in Southeast Asia, off the southern tip of the Malay Peninsula. The city-state is 710 square kilometres and inhabited by five million people from four major communities.",
+    "last_updated": "2026-09-18"
+  },
+  "land transport authority": {
+    "canonical_name": "Land Transport Authority",
+    "entity_type": "organization",
+    "summary": "The Land Transport Authority (LTA) spearheads land transport developments in Singapore. It plans, designs, builds, and maintains Singapore's land transport infrastructure and systems, while continuing to keep Singapore moving.",
+    "last_updated": "2026-09-18"
+  },
+  "centre of excellence for testing and research": {
+    "canonical_name": "Centre of Excellence for Testing and Research",
+    "entity_type": "organization",
+    "summary": "The Centre of Excellence for Testing & Research of AVs – NTU (CETRAN) is a facility located at CleanTech Park that supports the Land Transport Authority's development of test requirements and standards to deploy AVs in Singapore. While it does not directly develop new technologies for AVs, it genera",
+    "last_updated": "2026-09-18"
+  },
+  "grok bot": {
+    "canonical_name": "Grok Bot",
+    "entity_type": "product",
+    "summary": "Grok Bot is an internal prototype that was expanded into a company-wide tool for handling sales, marketing, operations, and bug fixes. It acts as an always-on team of AI agents that have their own computer, sign into user tools, and work across different apps and inboxes. They can complete end-to-en",
+    "last_updated": "2026-09-18"
+  },
+  "apple tv 4k": {
+    "canonical_name": "Apple TV 4K",
+    "entity_type": "product",
+    "summary": "Apple TV 4K unites streaming apps and Apple services with the best-ever picture and sound quality, and supports a FaceTime experience on TV. It also features Apple Music Sing, seamless smart home integration, and the new Liquid Glass interface on tvOS.",
+    "last_updated": "2026-09-18"
+  },
+  "camp snap": {
+    "canonical_name": "Camp Snap",
+    "entity_type": "company",
+    "summary": "Camp Snap is a consumer electronics company that sells retro digital cameras, camcorders, and screen-free photography experiences. Founded by Brian and Melanie, two former summer campers from Toronto, Ontario, the company aims to provide children with memorable camp experiences filled with fun, frie",
+    "last_updated": "2026-09-18"
+  },
+  "minolta": {
+    "canonical_name": "Minolta",
+    "entity_type": "company",
+    "summary": "Konica Minolta, Inc. is a Japanese multinational technology company headquartered in Tokyo with offices in 45 countries worldwide. It develops, manufactures, and sells industrial lenses, as well as managing the Digital Workplace Business and Professional Print Business, building on a history that be",
+    "last_updated": "2026-09-18"
+  },
+  "pentax": {
+    "canonical_name": "Pentax",
+    "entity_type": "company",
+    "summary": "The PENTAX Corporation is a Japanese group known worldwide for its high-quality cameras, medical equipment, video surveillance, industrial vision products, and ophthalmic lenses. Founded in 1919 as the Asahi Optical Joint Stock Co. to produce ophthalmic lenses, the company began manufacturing camera",
+    "last_updated": "2026-09-18"
+  },
+  "los angeles times": {
+    "canonical_name": "Los Angeles Times",
+    "entity_type": "organization",
+    "summary": "The Los Angeles Times is a Pulitzer Prize-winning metropolitan daily newspaper that has been covering Southern California since 1881. It is the largest metropolitan daily newspaper in the country, with significant monthly web traffic, print readership, and local weekly audience.",
+    "last_updated": "2026-09-18"
+  },
+  "arstyle ghost gun": {
+    "canonical_name": "AR-style \"ghost gun\"",
+    "entity_type": "product",
+    "summary": "An AR-15 ghost gun is a privately assembled firearm that typically lacks commercial serial numbers, making it difficult for law enforcement to trace back to the original manufacturer or assembler.",
+    "last_updated": "2026-09-18"
+  },
+  "nova": {
+    "canonical_name": "Nova",
+    "entity_type": "product",
+    "summary": "Nova is a product that offers a comprehensive suite of dimensional, materials, and chemical metrology solutions combined with an AI-enabled software suite, advanced modeling, and machine learning. It provides integrated and standalone optical metrology platforms for optical critical dimensions and t",
+    "last_updated": "2026-09-18"
+  },
+  "drift cassette": {
+    "canonical_name": "Drift Cassette",
+    "entity_type": "product",
+    "summary": "Drift Cassette is a retro tape deck sampler designed to create lo-fi vibes, hazy beats, and dusty textures. It allows users to blend two decks of sound from over 50 multi-sampled instruments and apply tape saturation, bitcrushing, and reverb to transform clean samples into warm, worn-in characters.",
+    "last_updated": "2026-09-18"
+  },
+  "silhouettes": {
+    "canonical_name": "Silhouettes",
+    "entity_type": "product",
+    "summary": "Designing silhouettes and specifications for apparel products is a critical process within the fashion industry that combines artistic vision with technical precision. The process involves creating the overall shape or form of a garment and detailing the exact specifications that guide its productio",
+    "last_updated": "2026-09-18"
+  },
+  "go public": {
+    "canonical_name": "GO Public",
+    "entity_type": "product",
+    "summary": "Go Public Institute provides services to help companies become publicly traded, offering financial plans and advice alongside introductions to professional firms like investment bankers, securities attorneys, and auditors. Its flexible options for assisting a company in going public include traditio",
+    "last_updated": "2026-09-18"
+  },
+  "kiyoakii": {
+    "canonical_name": "kiyoakii",
+    "entity_type": "organization",
+    "summary": "KiiiKiii (키키) is a five-member K-pop girl group under Starship Entertainment, consisting of LeeSol, Sui, Haum, Kya, and Jiyu. The group debuted as a South Korean K-pop act, with individual member profiles and facts available online.",
+    "last_updated": "2026-09-18"
+  },
+  "evoontology": {
+    "canonical_name": "EvoOntology",
+    "entity_type": "ai_model",
+    "summary": "EvoOntology is a self-evolving ontology layer for data agents that encapsulates ontology as an MCP server. It comprises a schema layer, a content layer, and a tool layer, enabling agents to actively query and interact with the ontology at runtime.",
+    "last_updated": "2026-09-18"
+  },
+  "claudeopus48": {
+    "canonical_name": "Claude-Opus-4.8",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 4.8 is a legacy model that is now retired, with Claude Opus 5 serving as the current Opus model. It has specific system prompts, safety evaluations, and deployment decisions associated with it, alongside a full price list and lifecycle status.",
+    "last_updated": "2026-09-18"
+  },
+  "insightbench": {
+    "canonical_name": "InsightBench",
+    "entity_type": "ai_model",
+    "summary": "InsightBench is a benchmark dataset designed to evaluate agents' ability to perform end-to-end data analytics, including formulating questions, interpreting answers, and generating insights. It uses a two-way evaluation mechanism with LLaMA-3-Eval and introduces AgentPoirot as a baseline data analys",
+    "last_updated": "2026-09-18"
+  },
+  "bird": {
+    "canonical_name": "BIRD",
+    "entity_type": "ai_model",
+    "summary": "BIRD is a pioneering, cross-domain dataset for text-to-SQL evaluation that examines the impact of extensive database contents on parsing. It contains over 12,751 unique question-SQL pairs across 95 big databases and more than 37 professional domains.",
+    "last_updated": "2026-09-18"
+  },
+  "meiduo chong": {
+    "canonical_name": "Meiduo Chong",
+    "entity_type": "person",
+    "summary": "material did not address this",
+    "last_updated": "2026-09-18"
+  },
+  "ju fan": {
+    "canonical_name": "Ju Fan",
+    "entity_type": "person",
+    "summary": "Ju Fan is a Full Professor at the School of Information, Renmin University of China, with research interests in database systems and big data analytics. They have published work on multi-tasking matching models and are currently seeking PhD, Master, and Visiting students.",
+    "last_updated": "2026-09-18"
+  },
+  "xiaoyong du": {
+    "canonical_name": "Xiaoyong Du",
+    "entity_type": "person",
+    "summary": "Xiaoyong Du is an Associate Professor at the National Key Laboratory, with academic credentials from the National University of Defense Technology and Renmin University of China. They have a background in applied mathematics, statistics, and information and communication engineering.",
+    "last_updated": "2026-09-18"
+  },
+  "ekzhang": {
+    "canonical_name": "ekzhang",
+    "entity_type": "person",
+    "summary": "ekzhang is a software developer who has created 83 repositories on GitHub. They developed Topcoat, a Rust client-server web framework, and maintain a Substack publication.",
+    "last_updated": "2026-09-18"
+  },
+  "openjevsglang": {
+    "canonical_name": "openjev-sglang",
+    "entity_type": "technology",
+    "summary": "openjev-sglang is a server that implements the TypeSafe/Jev HTTP API using the Qwen3.6-35B-A3B model on the SGLang runtime. It utilizes a Rust frontend with radix caching and breakable prefill CUDA graphs, and a separate Python API process using FastAPI.",
+    "last_updated": "2026-09-18"
+  },
+  "sglang": {
+    "canonical_name": "SGLang",
+    "entity_type": "technology",
+    "summary": "SGLang is a high-performance runtime engine and structured generation language for Large Language Models that provides a flexible Python interface. It integrates with Hugging Face models and uses RadixAttention to efficiently manage the KV Cache for complex generation programs.",
+    "last_updated": "2026-09-18"
+  },
+  "qiuner": {
+    "canonical_name": "Qiuner",
+    "entity_type": "person",
+    "summary": "Qiuner is an individual who enjoys AI, programming, and gaming, and likes to explore new things. They regularly create small tools, open-source projects, and web experiences from their ideas, and continuously participate in community projects. During daily use of Claude, they discovered and implemen",
+    "last_updated": "2026-09-18"
+  },
+  "niazmorshed2007": {
+    "canonical_name": "NiazMorshed2007",
+    "entity_type": "person",
+    "summary": "NiazMorshed2007 refers to a GitHub user account that hosts a personal portfolio site built with Next.js. The project is set up with create-next-app and is designed to be deployed using the Vercel Platform.",
+    "last_updated": "2026-09-18"
+  },
+  "jevreview": {
+    "canonical_name": "jev-review",
+    "entity_type": "product",
+    "summary": "Jev Review is a local MCP server designed to provide continuous software-quality checkpoints for AI coding agents. It offers structured code-quality scores from 15 dimensions without requiring a hosted backend, keeping user data local.",
+    "last_updated": "2026-09-18"
+  },
+  "softwaremansion": {
+    "canonical_name": "software-mansion",
+    "entity_type": "organization",
+    "summary": "Software Mansion is a core company building React Native and co-creates the React Foundation. It develops tools that allow running the Elixir language on the backend and in the browser, and it creates award-winning mobile applications.",
+    "last_updated": "2026-09-18"
+  },
+  "transformersjs": {
+    "canonical_name": "transformers.js",
+    "entity_type": "product",
+    "summary": "Transformers.js is a library designed to be functionally equivalent to Hugging Face's transformers Python library, allowing users to run pretrained models in the browser using a similar API. It supports various machine learning tasks across different modalities and uses ONNX Runtime for execution.",
+    "last_updated": "2026-09-18"
   }
 }
