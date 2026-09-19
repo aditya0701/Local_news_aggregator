@@ -7654,9 +7654,9 @@
   },
   "android 17": {
     "canonical_name": "Android 17",
-    "entity_type": "technology",
-    "summary": "Android 17 is a significant software update for Google's mobile operating system. It expands Google's AI ambitions by integrating Gemini, allowing selected devices to receive Gemini Intelligence later in the year. This integration introduces features designed to help users proactively complete tasks",
-    "last_updated": "2026-07-16"
+    "entity_type": "product",
+    "summary": "Android 17 is rolling out to Pixel devices, introducing new multitasking tools like floating Bubbles, improved screen recording, and optimized gaming modes for foldables. It also includes better privacy controls, such as temporary location access, and enhanced security features.",
+    "last_updated": "2026-09-19"
   },
   "gemini ai": {
     "canonical_name": "Gemini AI",
@@ -11789,8 +11789,8 @@
   "stanford": {
     "canonical_name": "Stanford",
     "entity_type": "organization",
-    "summary": "Stanford University is a private institution in California with a strong presence in art, fostered by various arts centers and student clubs. It provides information on tuition, financial aid, student life, and academics, and has published numerous research papers.",
-    "last_updated": "2026-07-24"
+    "summary": "Stanford is a university with administrative and academic officers, including a President and Provost, who manage its departments, physical plant, and business activities. Organizational charts and lists of current officers are published in the Stanford University Bulletin and on the institution's w",
+    "last_updated": "2026-09-19"
   },
   "jeff gattis": {
     "canonical_name": "Jeff Gattis",
@@ -17191,5 +17191,71 @@
     "entity_type": "product",
     "summary": "Transformers.js is a library designed to be functionally equivalent to Hugging Face's transformers Python library, allowing users to run pretrained models in the browser using a similar API. It supports various machine learning tasks across different modalities and uses ONNX Runtime for execution.",
     "last_updated": "2026-09-18"
+  },
+  "san francisco onion futures company": {
+    "canonical_name": "San Francisco Onion Futures Company",
+    "entity_type": "company",
+    "summary": "The San Francisco Onion Futures Company offers private, transferable contracts for the future physical delivery of yellow onions. Contracts can be sold up to 6 months in advance, with prices ranging from 3 to 12 USD per onion, and are purchased via Stripe.",
+    "last_updated": "2026-09-19"
+  },
+  "android open source project": {
+    "canonical_name": "Android Open Source Project",
+    "entity_type": "organization",
+    "summary": "The Android Open Source Project (AOSP) is publicly available and modifiable Android source code that provides a complete and fully functional implementation of the Android mobile platform. As of 2026, source code is published to AOSP in Q2 and Q4 to align with the trunk stable development model.",
+    "last_updated": "2026-09-19"
+  },
+  "scienceblogsde": {
+    "canonical_name": "Scienceblogs.de",
+    "entity_type": "organization",
+    "summary": "ScienceBlogs.de is a German-language blogging community that was launched in early 2008. It has been operated under the Konradin Mediengruppe since February 1, 2014, and serves as a platform where researchers write about what drives them and journalists publish unedited content. The site aims to fos",
+    "last_updated": "2026-09-19"
+  },
+  "j rives childs": {
+    "canonical_name": "J. Rives Childs",
+    "entity_type": "person",
+    "summary": "J. Rives Childs (1893-1987) was a former American diplomat and an authority on Casanova and 18th-century writers. Despite a wealth of material about him, he remains an enigma a quarter-century after his death, having led many lives including that of a volunteer ambulance driver.",
+    "last_updated": "2026-09-19"
+  },
+  "sdcc": {
+    "canonical_name": "SDCC",
+    "entity_type": "product",
+    "summary": "SDCC is a retargetable, optimizing Standard C compiler suite that supports various modern C standards and dialects, including ANSI C89, ISO C99, ISO C11, and ISO C23. It targets a wide range of microprocessors such as Intel MCS51, Maxim DS80C390, Freescale HC08, Zilog Z80, Padauk, STMicroelectronics",
+    "last_updated": "2026-09-19"
+  },
+  "sandeep dutta": {
+    "canonical_name": "Sandeep Dutta",
+    "entity_type": "person",
+    "summary": "Sandeep Dutta is the President of AWS for India & South Asia, where he empowers businesses through cloud adoption and innovation. He is a recognized thought leader in disruptive technology with over two decades of experience, including leading Accenture's India business, and holds an MBA from IMI De",
+    "last_updated": "2026-09-19"
+  },
+  "cloudflared": {
+    "canonical_name": "cloudflared",
+    "entity_type": "product",
+    "summary": "cloudflared is Cloudflare's official tunnel daemon and command-line client. It establishes secure outbound connections to the Cloudflare network, providing a high-level summary of the application's architecture, operational modes, and core capabilities.",
+    "last_updated": "2026-09-19"
+  },
+  "antonio regalado": {
+    "canonical_name": "Antonio Regalado",
+    "entity_type": "person",
+    "summary": "Antonio Regalado is a Senior Editor for Biomedicine at the MIT Technology Review. He has appeared on C-SPAN to discuss developments in genetic technology and hyper-personalized medicine.",
+    "last_updated": "2026-09-19"
+  },
+  "casey crownhart": {
+    "canonical_name": "Casey Crownhart",
+    "entity_type": "person",
+    "summary": "Casey Crownhart is a Senior Climate and Energy Reporter for the MIT Technology Review who is based in New York. She covers topics such as offshore wind, energy innovations, and the impact of AI data center construction on utilities.",
+    "last_updated": "2026-09-19"
+  },
+  "truecaller": {
+    "canonical_name": "Truecaller",
+    "entity_type": "company",
+    "summary": "Truecaller is a Swedish company founded in 2009 in Stockholm by Nami Zarringhalam and Alan Mamedi. The app is designed to identify incoming calls from unknown numbers and is used by over 500 million monthly active users globally as a go-to service for Caller ID and spam blocking.",
+    "last_updated": "2026-09-19"
+  },
+  "silversmith capital partners": {
+    "canonical_name": "Silversmith Capital Partners",
+    "entity_type": "company",
+    "summary": "Silversmith Capital Partners is a private equity firm that invests in industrial enterprises and builds AI-native operating companies. The firm emphasizes its reputation and collaborative team approach in its investment strategy.",
+    "last_updated": "2026-09-19"
   }
 }
