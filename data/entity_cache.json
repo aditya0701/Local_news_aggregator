@@ -3407,8 +3407,8 @@
   "vizio": {
     "canonical_name": "Vizio",
     "entity_type": "company",
-    "summary": "VIZIO Holding Corp. is a public company founded in 2002 and headquartered in Irvine, California. The company's mission is to deliver immersive entertainment and lifestyle enhancements, focusing on its integrated platform of Smart TVs and the SmartCast operating system.",
-    "last_updated": "2026-07-06"
+    "summary": "Vizio is a consumer electronics company that designs and sells televisions, soundbars, and entertainment equipment. The company is committed to providing high-fidelity audio and detailed picture quality across its product lineup.",
+    "last_updated": "2026-09-20"
   },
   "walmart": {
     "canonical_name": "Walmart",
@@ -6695,8 +6695,8 @@
   "whisper": {
     "canonical_name": "Whisper",
     "entity_type": "ai_model",
-    "summary": "Whisper is a general-purpose speech recognition model trained on a large dataset of diverse audio. It is a multitasking model capable of performing multilingual speech recognition, speech translation, and language identification.",
-    "last_updated": "2026-07-14"
+    "summary": "Whisper is a general-purpose, Transformer-based speech recognition model trained on a large and diverse dataset of audio. It is a multitasking model capable of performing multilingual speech recognition, speech translation, language identification, and voice activity detection.",
+    "last_updated": "2026-09-20"
   },
   "librispeech": {
     "canonical_name": "LibriSpeech",
@@ -7990,9 +7990,9 @@
   },
   "palantir": {
     "canonical_name": "Palantir",
-    "entity_type": "organization",
-    "summary": "Palantir builds agile solutions for data-driven operations and decision-making. Its technology serves as the connective tissue between an organization’s data, its analytics capabilities, and operational execution by bringing the right data to the people who need it.",
-    "last_updated": "2026-07-17"
+    "entity_type": "company",
+    "summary": "Palantir builds agile solutions for data-driven operations and decision-making, serving as connective tissue between an organization's data, analytics capabilities, and operational execution.",
+    "last_updated": "2026-09-20"
   },
   "founders fund youtube series mafia": {
     "canonical_name": "Founders Fund YouTube series \"Mafia\"",
@@ -9986,8 +9986,8 @@
   "lg": {
     "canonical_name": "LG",
     "entity_type": "company",
-    "summary": "LG Corp. is a holding company that manages its various subsidiary companies. Its operations are conducted through subsidiaries including LG Electronics, LG Chem, LG Uplus, and others, and it was founded on January 5, 1947, in Seoul, South Korea.",
-    "last_updated": "2026-07-21"
+    "summary": "LG Corp. is a South Korean holding company founded on January 5, 1947, headquartered in Seoul. It manages various subsidiaries, including LG Electronics, which manufactures display devices, home appliances, and multimedia goods.",
+    "last_updated": "2026-09-20"
   },
   "27gx704ab": {
     "canonical_name": "27GX704A-B",
@@ -16860,13 +16860,10 @@
     "last_updated": "2026-09-17"
   },
   "typesafe": {
-    "senses": [
-      {
-        "sense_label": "ai_model",
-        "summary": "TypeSafe exposes three modular, composable, and structured AI primitives designed for software integration. Its flagship model, Jev, is the first System One model optimized for automation, allowing users to send structured queries and receive typed decisions with probabilities and confidence scores.",
-        "last_updated": "2026-09-17"
-      }
-    ]
+    "canonical_name": "TypeSafe",
+    "entity_type": "company",
+    "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access. TypeSafe AI Manifesto Our Team Enterprise Docs Sign in Join Waitlist Manifesto Team Enterprise âµ â© â© â",
+    "last_updated": "2026-09-20"
   },
   "ledgejun": {
     "canonical_name": "ledge-jun",
@@ -17257,5 +17254,239 @@
     "entity_type": "company",
     "summary": "Silversmith Capital Partners is a private equity firm that invests in industrial enterprises and builds AI-native operating companies. The firm emphasizes its reputation and collaborative team approach in its investment strategy.",
     "last_updated": "2026-09-19"
+  },
+  "step1": {
+    "canonical_name": "Step-1",
+    "entity_type": "product",
+    "summary": "USMLE Step 1 is an exam that shapes medical knowledge and confidence for clinical training. The article provides a checklist for preparation, expectations, and scheduling.",
+    "last_updated": "2026-09-20"
+  },
+  "step1v": {
+    "canonical_name": "Step-1V",
+    "entity_type": "product",
+    "summary": "The Applied Biosystems StepOne and StepOnePlus Real-Time PCR Systems are factory-calibrated one-step systems designed for PC-free or networked operation. These systems were discontinued as of June 30, 2024, and have been replaced by the QuantStudio Real-Time PCR Systems.",
+    "last_updated": "2026-09-20"
+  },
+  "spain": {
+    "canonical_name": "Spain",
+    "entity_type": "country",
+    "summary": "Spain is a country located in extreme southwestern Europe, occupying about 85 percent of the Iberian Peninsula which it shares with Portugal. It is known for its stone castles, snowcapped mountains, vast monuments, and sophisticated cities. Its capital city is Madrid, and its official language is Sp",
+    "last_updated": "2026-09-20"
+  },
+  "archivetoday": {
+    "canonical_name": "Archive.today",
+    "entity_type": "product",
+    "summary": "Archive.today is a privately funded on-demand archiving site that takes snapshots of webpages using a JavaScript-capable headless browser and an image screenshot. It serves as an alternative to the Wayback Machine, particularly for webpages with failed JavaScript or domains excluded from the Wayback",
+    "last_updated": "2026-09-20"
+  },
+  "sergiu pașca": {
+    "canonical_name": "Sergiu Pașca",
+    "entity_type": "person",
+    "summary": "Sergiu Pașca is a renowned neuroscientist and physician trained in Romania who conducts research at Stanford University. He is recognized for pioneering brain organoid research and neurodevelopmental disorder studies, having developed early in vitro disease models by deriving neurons from patient sk",
+    "last_updated": "2026-09-20"
+  },
+  "stanford university": {
+    "canonical_name": "Stanford University",
+    "entity_type": "organization",
+    "summary": "Stanford University is a private institution founded in California in the late 19th century that offers broad and deep academic programs across multiple fields. It aims to create and share knowledge, preparing students to be curious, think critically, and contribute to the world.",
+    "last_updated": "2026-09-20"
+  },
+  "carsten charlesworth": {
+    "canonical_name": "Carsten Charlesworth",
+    "entity_type": "person",
+    "summary": "Carsten Charlesworth is associated with Stanford University's Profiles directory, which facilitates academic research and collaboration. Based on public record signals, he is a 34-year-old individual residing in Palo Alto, California.",
+    "last_updated": "2026-09-20"
+  },
+  "nature": {
+    "canonical_name": "Nature",
+    "entity_type": "organization",
+    "summary": "The Nature Conservancy (TNC) is a major environmental organization founded in the U.S. in 1951 through grassroots action. It works to conserve lands and waters globally with over a million members and more than 1,000 scientists, impacting conservation in 83 countries.",
+    "last_updated": "2026-09-20"
+  },
+  "justin fanelli": {
+    "canonical_name": "Justin Fanelli",
+    "entity_type": "person",
+    "summary": "Justin Fanelli serves as the CTO for the Department of the Navy and the Technical Director of PEO Digital. In these roles, he focuses on improving technology-driven mission outcomes and expediting the secure transformation of enterprise IT infrastructure.",
+    "last_updated": "2026-09-20"
+  },
+  "us navy": {
+    "canonical_name": "US Navy",
+    "entity_type": "organization",
+    "summary": "The U.S. Navy is a major branch of the U.S. Armed Forces and a cornerstone of America's defense and global reach. The Navy's structure, missions, and capabilities are vast and complex, utilizing ships, submarines, and aircraft to project power at sea and safeguard national interests.",
+    "last_updated": "2026-09-20"
+  },
+  "department of the navy": {
+    "canonical_name": "Department of the Navy",
+    "entity_type": "organization",
+    "summary": "The material did not contain a specific overview of the Department of the Navy, but it noted that Justin Fanelli serves as the CTO for the Department of the Navy.",
+    "last_updated": "2026-09-20"
+  },
+  "petlibro": {
+    "canonical_name": "Petlibro",
+    "entity_type": "company",
+    "summary": "Since 2019, Petlibro has designed products for the intertwined lives of pets and their people. The company offers smart feeders with health insights and ultra-filtered automatic fountains, engineering award-winning products to magnify the bond between pets and their owners.",
+    "last_updated": "2026-09-20"
+  },
+  "granary 2": {
+    "canonical_name": "Granary 2",
+    "entity_type": "product",
+    "summary": "The Granary 2 series is an automatic cat feeder that tracks intake with gram-level precision and monitors meals via an HD camera. It uses AI recognition to personalize feeding for up to 10 cats simultaneously, with a built-in bowl scale that measures consumption and leftover food to within 1 g.",
+    "last_updated": "2026-09-20"
+  },
+  "noble mobile": {
+    "canonical_name": "Noble Mobile",
+    "entity_type": "company",
+    "summary": "Noble Mobile is a telecommunication company that operates as a mobile virtual network operator, providing wireless communication and data plans. It leverages the T-Mobile network and offers a core service that credits customers for unused data to encourage reduced phone usage and a more intentional",
+    "last_updated": "2026-09-20"
+  },
+  "noam brown": {
+    "canonical_name": "Noam Brown",
+    "entity_type": "person",
+    "summary": "Noam Brown is a Research Scientist at OpenAI who works on reasoning, reinforcement learning, self-play, and multi-agent AI, and was a foundational contributor to the development of reasoning models. He previously worked at FAIR (Meta), where he and his teammates developed CICERO, the first AI to ach",
+    "last_updated": "2026-09-20"
+  },
+  "san francisco": {
+    "canonical_name": "San Francisco",
+    "entity_type": "location",
+    "summary": "2 days ago · San Francisco, city and port, northern California, U.S., located on a peninsula between the Pacific Ocean and San Francisco Bay. It is a cultural and financial center of the western United States and one of the country’s most cosmopolitan cities. Learn more about the city’s history and",
+    "last_updated": "2026-09-20"
+  },
+  "vals": {
+    "canonical_name": "Vals",
+    "entity_type": "startup",
+    "summary": "Vals is an independent AI evaluator that builds benchmarks and evaluation infrastructure to measure whether models can perform the work of professionals in fields like law, banking, engineering, and medicine.",
+    "last_updated": "2026-09-20"
+  },
+  "8vc": {
+    "canonical_name": "8VC",
+    "entity_type": "company",
+    "summary": "8VC is a technology and bio-sciences investment firm that partners with elite founders to build transformational technologies in sectors such as life sciences, healthcare, manufacturing, and enterprise.",
+    "last_updated": "2026-09-20"
+  },
+  "bloomberg beta": {
+    "canonical_name": "Bloomberg Beta",
+    "entity_type": "company",
+    "summary": "Bloomberg Beta is an early-stage venture capital firm backed by Bloomberg L.P. with $150M under management, investing in startups focused on machine learning and the future of work.",
+    "last_updated": "2026-09-20"
+  },
+  "rayan krishnan": {
+    "canonical_name": "Rayan Krishnan",
+    "entity_type": "person",
+    "summary": "Rayan Krishnan is the Co-Founder and CEO of Vals AI, previously worked as a Software Engineer at Palantir Technologies, and attended Stanford University.",
+    "last_updated": "2026-09-20"
+  },
+  "jason aten": {
+    "canonical_name": "Jason Aten",
+    "entity_type": "person",
+    "summary": "Jason Aten is an author and creative director who writes about faith, creativity, people, business, and technology, and how these elements intersect with real life. He serves as a tech columnist at Inc.com and contributes to Business Insider, and he also hosts The 29 Steps podcast.",
+    "last_updated": "2026-09-20"
+  },
+  "david singleton": {
+    "canonical_name": "David Singleton",
+    "entity_type": "person",
+    "summary": "David Singleton is an assistant coach for the UCLA men's basketball program and a former player who competed at UCLA from 2018 to 2023 and in the NBA G League. He is also an actor known for the 2024 film 'Life of a Bull' as well as 'Mistress for Hire' and 'The Trad Wife'.",
+    "last_updated": "2026-09-20"
+  },
+  "inc magazine": {
+    "canonical_name": "Inc Magazine",
+    "entity_type": "organization",
+    "summary": "Inc. is an American business media company founded in 1979 that specializes in content on entrepreneurship, startups, and growing companies. It serves as the voice of the American entrepreneur by inspiring, informing, and documenting fascinating people in business, and it also publishes the annual B",
+    "last_updated": "2026-09-20"
+  },
+  "heather adkins": {
+    "canonical_name": "Heather Adkins",
+    "entity_type": "person",
+    "summary": "Heather Adkins is a 21-year Google veteran and founding member of the Google Security Team, serving as VP, Security Engineering. She previously worked as Systems Administration at Excite and is Chief Marketing Officer of Trimble, a global technology company that connects the physical and digital wor",
+    "last_updated": "2026-09-20"
+  },
+  "john higgins": {
+    "canonical_name": "John Higgins",
+    "entity_type": "person",
+    "summary": "John Higgins is a Scottish snooker player born on May 18, 1975, widely regarded as one of the sport's all-time legends. He has won four World Championships and holds 33 ranking titles, placing him third in all-time major titles.",
+    "last_updated": "2026-09-20"
+  },
+  "jdk": {
+    "canonical_name": "JDK",
+    "entity_type": "technology",
+    "summary": "The JDK is one of the two principal products in the Java SE platform family, alongside the Java Runtime Environment (JRE). While the JRE provides the libraries, the Java Virtual Machine, and other components needed to run Java applications, the JDK includes the JRE along with development tools.",
+    "last_updated": "2026-09-20"
+  },
+  "agentscope harness": {
+    "canonical_name": "AgentScope Harness",
+    "entity_type": "product",
+    "summary": "AgentScope Harness is a product that builds production-grade runtime infrastructure on top of AgentScope Core's ReActAgent. It provides a runtime environment through two extension channels: Hooks and Toolkits, with HarnessAgent serving as the primary entry point.",
+    "last_updated": "2026-09-20"
+  },
+  "agentscope service": {
+    "canonical_name": "AgentScope Service",
+    "entity_type": "product",
+    "summary": "AgentScope Service is a control plane built on AgentScope Harness that provides agent registration, discovery, and distributed coordination services. It supports mainstream agent runtimes and offers a unified interface for inspecting agent metrics and operational controls.",
+    "last_updated": "2026-09-20"
+  },
+  "modelregistry": {
+    "canonical_name": "ModelRegistry",
+    "entity_type": "technology",
+    "summary": "ModelRegistry is a community-driven, machine-readable index that tracks the state of foundational artificial intelligence. It maintains a dual-tier structure, including the Open Public Registry for Frontier AI Models & Research Checkpoints, to prevent outdated models from cluttering developer workfl",
+    "last_updated": "2026-09-20"
+  },
+  "0xnatoshi": {
+    "canonical_name": "0xNatoshi",
+    "entity_type": "person",
+    "summary": "One AI trade decision every Monad block. Jev on Kuru MON-USDC. - 0xNatoshi/jev-trader One decision every Monad block. A TypeSafe Jev model watches the Kuru MON-USDC order book and answers buy or sell every ~300 ms. Every block posts a real post-only limit order on that side, one tick inside the touc",
+    "last_updated": "2026-09-20"
+  },
+  "logicrwawesomejevprojects": {
+    "canonical_name": "logicrw/awesome-jev-projects",
+    "entity_type": "organization",
+    "summary": "Awesome Jev is a source-backed open-source ecosystem radar and plain-language project discovery tool. It features automatic GitHub sync to keep its curated list of projects up to date.",
+    "last_updated": "2026-09-20"
+  },
+  "deepseek v41 flash": {
+    "canonical_name": "DeepSeek V4.1 Flash",
+    "entity_type": "ai_model",
+    "summary": "DeepSeek V4.1 Flash is a multimodal Mixture-of-Experts (MoE) model with a 552B backbone parameter architecture and a context window of up to one million tokens. It utilizes a Causal Encoder-Decoder (CED) architecture with a 40-layer Transformer, and it natively processes images and text to generate",
+    "last_updated": "2026-09-20"
+  },
+  "mlx": {
+    "canonical_name": "MLX",
+    "entity_type": "technology",
+    "summary": "MLX is an array framework for efficient and flexible machine learning on Apple silicon. It includes Python packages such as MLX LM for text generation and fine-tuning, MLX Whisper for speech transcription, and MLX Examples for various generative tasks like image and music creation.",
+    "last_updated": "2026-09-20"
+  },
+  "openjevverdict20": {
+    "canonical_name": "openJev-verdict-2.0",
+    "entity_type": "ai_model",
+    "summary": "openJev-verdict-2.0 is an open-source, non-autoregressive foundational decision model engineered for deterministic software automation, inspired by TypeSafe AI's Jev and Reinforcement Learning for Calibrated Decisions (RLCD). It evaluates typed decision schemas in non-autoregressive forward passes w",
+    "last_updated": "2026-09-20"
+  },
+  "typesafe jev": {
+    "canonical_name": "TypeSafe Jev",
+    "entity_type": "ai_model",
+    "summary": "Jev is TypeSafe's flagship model and the first System One model. It allows users to send state and typed questions to get structured answers that code can use directly, and it is part of TypeSafe AI's infrastructure for making decisions within software.",
+    "last_updated": "2026-09-20"
+  },
+  "localllama": {
+    "canonical_name": "LocalLLaMA",
+    "entity_type": "ai_model",
+    "summary": "LocalLLaMA is an LLM Chatbot that supports local and proprietary models with integrated tools, serving as an independent guide for running large language models locally with hardware guides and optimization techniques.",
+    "last_updated": "2026-09-20"
+  },
+  "echomemory": {
+    "canonical_name": "EchoMemory",
+    "entity_type": "product",
+    "summary": "EchoMemory is a unified workspace designed to help users organize, track, and share their work with clarity and speed. It allows users to upload and own their memory, supporting the import of conversations from various AI models including GPT, Claude, and Gemini.",
+    "last_updated": "2026-09-20"
+  },
+  "sarvam": {
+    "canonical_name": "Sarvam",
+    "entity_type": "organization",
+    "summary": "Sarvam is an Indian full-stack sovereign AI platform that provides speech-to-text, text-to-speech, translation, and conversational agents across 22 Indian languages. It is built on sovereign compute and frontier-class models to deliver population-scale impact for government and enterprise services.",
+    "last_updated": "2026-09-20"
+  },
+  "llamacpppython": {
+    "canonical_name": "llama-cpp-python",
+    "entity_type": "technology",
+    "summary": "llama-cpp-python is a Python package that provides simple Python bindings for the llama.cpp library. It offers a web server that acts as a drop-in replacement for the OpenAI API, allowing users to run llama.cpp compatible models with any OpenAI compatible client.",
+    "last_updated": "2026-09-20"
   }
 }
