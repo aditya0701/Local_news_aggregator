@@ -17488,5 +17488,41 @@
     "entity_type": "technology",
     "summary": "llama-cpp-python is a Python package that provides simple Python bindings for the llama.cpp library. It offers a web server that acts as a drop-in replacement for the OpenAI API, allowing users to run llama.cpp compatible models with any OpenAI compatible client.",
     "last_updated": "2026-09-20"
+  },
+  "ax": {
+    "canonical_name": "AX",
+    "entity_type": "product",
+    "summary": "Microsoft Dynamics AX is a scalable, robust, and functionally rich ERP solution that offers real-time insights into business and supply chain information including production, warehouse, and inventory data. Multi-site capabilities promote effective planning from inventory levels to delivery routing",
+    "last_updated": "2026-09-21"
+  },
+  "agent substrate": {
+    "canonical_name": "Agent Substrate",
+    "entity_type": "technology",
+    "summary": "15 hours ago - At its core, Agent Substrate maps a larger set of “actors” (applications such as agents) onto a smaller set of ready “workers”, relying on the fact that agent-like applications tend to be idle most of the time to achieve heavy multiplexing. NOTE: This is not an officially supported Go",
+    "last_updated": "2026-09-21"
+  },
+  "kev": {
+    "canonical_name": "Kev",
+    "entity_type": "product",
+    "summary": "The Known Exploited Vulnerabilities (KEV) catalog is a resource created by the U.S. Cybersecurity and Infrastructure Security Agency (CISA) to help organizations focus on vulnerabilities that are actively exploited in the wild. It highlights CVEs confirmed through threat intelligence and observed ex",
+    "last_updated": "2026-09-21"
+  },
+  "typesafe system one": {
+    "canonical_name": "TypeSafe System One",
+    "entity_type": "product",
+    "summary": "System One is an API that evaluates a state against a map of named questions and returns typed answers. The provided material describes a community-built Rust client SDK for interacting with this API's HTTP endpoints, configuration, and error handling.",
+    "last_updated": "2026-09-21"
+  },
+  "decisionv7": {
+    "canonical_name": "decision-v7",
+    "entity_type": "dataset",
+    "summary": "Open Images V7 is a large-scale object detection dataset created by Google, containing 1,743,042 training images and 41,620 validation images across 601 object classes. It is annotated with bounding boxes, segmentation masks, and millions of image-level labels, making it suitable for detection and m",
+    "last_updated": "2026-09-21"
+  },
+  "hbm4": {
+    "canonical_name": "HBM4",
+    "entity_type": "product",
+    "summary": "HBM4 is a memory product designed to support artificial intelligence and scientific computing applications. It enables complex tasks such as reasoning models designing new medicines and researchers modeling planetary storms.",
+    "last_updated": "2026-09-21"
   }
 }
