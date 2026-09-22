@@ -386,8 +386,8 @@
   "california": {
     "canonical_name": "California",
     "entity_type": "organization",
-    "summary": "Overview:\nCalifornians deserve a government that works for them and with them. One that will work to ensure opportunity and justice. We are building a California not for the few, but for all — including those who have historically been left out. We are doing the work to make our state a place for ev",
-    "last_updated": "2026-07-02"
+    "summary": "Learn about the California state government, places to visit, and recent milestones. Californians deserve a government that works for them and with them. One that will work to ensure opportunity and justice. We are building a California not for the few, but for all â including those who have histo",
+    "last_updated": "2026-09-22"
   },
   "carbon manure": {
     "canonical_name": "carbon manure",
@@ -2191,9 +2191,9 @@
   },
   "linkedin": {
     "canonical_name": "LinkedIn",
-    "entity_type": "organization",
-    "summary": "# LinkedIn Corp - Company Profile. All the sales intelligence you need on LinkedIn Corp in one solution. * Understand how LinkedIn Corp fits into your total. when and how to engage with LinkedIn Corp. # LinkedIn Corp: Overview. LinkedIn Corp (LinkedIn), a subsidiary of Microsoft Corp, is an online p",
-    "last_updated": "2026-07-03"
+    "entity_type": "company",
+    "summary": "See jobs Follow Report this company Overview Jobs Life About us Founded in 2003, LinkedIn connects the world's professionals to make them more productive and successful. View all 23,520 employees Founded in 2003, LinkedIn connects the world's professionals to make them more productive and successful",
+    "last_updated": "2026-09-22"
   },
   "safari mcp server": {
     "canonical_name": "Safari MCP server",
@@ -3013,9 +3013,9 @@
   },
   "apache license 20": {
     "canonical_name": "Apache License 2.0",
-    "entity_type": "license",
-    "summary": "Apache License 2.0 is a permissive license that requires preservation of copyright and license notices. It allows contributors to grant patent rights and permits distribution of modified works under different terms, sometimes without source code.",
-    "last_updated": "2026-07-06"
+    "entity_type": "protocol",
+    "summary": "The Apache License 2.0 is a permissive open-source license approved by the Apache Software Foundation in 2004. It outlines the terms and conditions for the use, reproduction, and distribution of software, enabling collaborative development to create reliable and long-lived software products.",
+    "last_updated": "2026-09-22"
   },
   "arxivlabs": {
     "senses": [
@@ -4240,9 +4240,9 @@
   },
   "siri": {
     "canonical_name": "Siri",
-    "entity_type": "ai_model",
-    "summary": "Siri AI is Apple's next-generation personal assistant, powered by a new class of Apple Foundation models developed in collaboration with Google. It represents a significant upgrade from the previous version, offering expanded intelligence and capabilities, and is the foundation for Apple's Apple Int",
-    "last_updated": "2026-07-07"
+    "entity_type": "product",
+    "summary": "Siri AI is the next-generation voice assistant integrated into Apple's operating systems, including iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, and visionOS 27. It is designed to be a helpful AI assistant that is private, context-aware, and deeply integrated with the user's apps.",
+    "last_updated": "2026-09-22"
   },
   "wwdc 26": {
     "canonical_name": "WWDC 26",
@@ -6275,8 +6275,8 @@
   "warner bros discovery": {
     "canonical_name": "Warner Bros. Discovery",
     "entity_type": "company",
-    "summary": "Warner Bros. Discovery is a premier global media and entertainment company that offers a differentiated portfolio of content, brands, and franchises across television, film, streaming, and gaming. The company recently rejected a $108 billion hostile bid from Paramount, citing significant risks, and",
-    "last_updated": "2026-07-12"
+    "summary": "Apr 9, 2008 · Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world’s most differentiated and complete portfolio of content and brands across television, film and streaming. Warner Bros. Discovery is a leading global media and entertainment",
+    "last_updated": "2026-09-22"
   },
   "david and larry ellison": {
     "canonical_name": "David and Larry Ellison",
@@ -8674,9 +8674,9 @@
   },
   "startup battlefield": {
     "canonical_name": "Startup Battlefield",
-    "entity_type": "general",
-    "summary": "Startup Battlefield is TechCrunch's flagship startup pitch competition, which has been used to launch companies like Dropbox, Trello, and Discord. It brings together 200 selected companies to showcase at Disrupt and compete for a $100K equity-free prize and investor attention.",
-    "last_updated": "2026-07-18"
+    "entity_type": "event",
+    "summary": "Startup Battlefield is the original startup pitch competition that brings together 200 standout early-stage companies to showcase at Disrupt. Participants compete for a $100K equity-free prize, investor attention, and significant media exposure that can transform a company's trajectory.",
+    "last_updated": "2026-09-22"
   },
   "techcrunch disrupt": {
     "canonical_name": "TechCrunch Disrupt",
@@ -9172,9 +9172,9 @@
   },
   "mediatek": {
     "canonical_name": "MediaTek",
-    "entity_type": "organization",
-    "summary": "MediaTek Inc. is a Taiwanese fabless semiconductor company that provides system-on-chip solutions for wireless communications. It has been involved in patent disputes and is a key player in the global chip market.",
-    "last_updated": "2026-07-19"
+    "entity_type": "company",
+    "summary": "MediaTek Incorporated is the world's fifth largest global fabless semiconductor company, specializing in developing innovative systems-on-chip (SoC) for mobile, home entertainment, connectivity, and IoT products. The company powers more than 2 billion devices a year.",
+    "last_updated": "2026-09-22"
   },
   "mediatek m90": {
     "canonical_name": "MediaTek M90",
@@ -11824,9 +11824,9 @@
   },
   "linear": {
     "canonical_name": "Linear",
-    "entity_type": "product",
-    "summary": "Linear is a product designed to help high-performing software teams build better products faster. It focuses on product development workflows, unlike Asana which is positioned as a general operating system for cross-functional work. Linear's paid plans start at $8 per user per month, while Asana's P",
-    "last_updated": "2026-07-24"
+    "entity_type": "company",
+    "summary": "4 days ago · Learn about Linear, a top-ranked company within its industry. Explore their Forbes profile to discover more about them and their industry recognitions. At Linear, we are building the tools for this new era of product development. A purpose-built system where teams and agents operate tog",
+    "last_updated": "2026-09-22"
   },
   "finnspec": {
     "canonical_name": "/finn-spec",
@@ -12166,9 +12166,9 @@
   },
   "plaid": {
     "canonical_name": "Plaid",
-    "entity_type": "company",
-    "summary": "Plaid empowers innovators by delivering access to the financial system. It focuses on democratizing financial services through technology, building consumer experiences and developer-friendly infrastructure that allow people to securely connect their financial accounts to the fintech services they c",
-    "last_updated": "2026-07-25"
+    "entity_type": "product",
+    "summary": "Plaid is a company that enables fintech solutions for all companies, offering products for payments, fraud detection, connectivity, and credit. Its platform is designed to build faster, more reliable payment systems, verify bank account details, match owner information, and reduce fraud risk while s",
+    "last_updated": "2026-09-22"
   },
   "airwallex": {
     "canonical_name": "Airwallex",
@@ -12547,9 +12547,9 @@
   },
   "claudemd": {
     "canonical_name": "CLAUDE.md",
-    "entity_type": "technology",
-    "summary": "CLAUDE.md is a plain Markdown document that Claude Code reads to store a user's brand voice, rules, and preferences. It is a one-time setup file designed to solve the problem of having to re-enter the same context in every new session. By writing a CLAUDE.md file, developers can improve every sessio",
-    "last_updated": "2026-07-26"
+    "entity_type": "product",
+    "summary": "CLAUDE.md is Claude's permanent memory for your project. You write it once, and Claude knows your product context in every conversation without needing re-explanation. It acts as your project's constitution, establishing immutable rules that override temporary prompts.",
+    "last_updated": "2026-09-22"
   },
   "inflectmicrov2": {
     "canonical_name": "Inflect-Micro-v2",
@@ -12805,9 +12805,9 @@
   },
   "trae": {
     "canonical_name": "Trae",
-    "entity_type": "company",
-    "summary": "Trae is a company backed by its parent company, ByteDance. It is a strategic product rather than a traditional startup, with a financial structure that is atypical for a company of its stage. Its longevity is tied to its strategic importance within ByteDance's ecosystem.",
-    "last_updated": "2026-07-26"
+    "entity_type": "product",
+    "summary": "Trae is an AI coding and work assistant platform that integrates into user workflows to maximize performance and efficiency. It offers specialized modes for coding, professional work tasks like data analysis and document writing, and enterprise-level collaboration across desktop and web environments",
+    "last_updated": "2026-09-22"
   },
   "codeql": {
     "canonical_name": "CodeQL",
@@ -17524,5 +17524,503 @@
     "entity_type": "product",
     "summary": "HBM4 is a memory product designed to support artificial intelligence and scientific computing applications. It enables complex tasks such as reasoning models designing new medicines and researchers modeling planetary storms.",
     "last_updated": "2026-09-21"
+  },
+  "gzip": {
+    "canonical_name": "gzip",
+    "entity_type": "product",
+    "summary": "Gzip is a single-file/stream lossless data compression utility that produces files with a .gz suffix. It also refers to the associated compressed data format used by the utility. Additional development information and documentation are available on the GNU gzip home page.",
+    "last_updated": "2026-09-22"
+  },
+  "deflate": {
+    "canonical_name": "DEFLATE",
+    "entity_type": "technology",
+    "summary": "DEFLATE is a lossless data compression algorithm that combines the LZ77 algorithm with Huffman coding. It was originally defined by Phil Katz for version 2 of his PKZIP archiving tool and was later standardized in RFC 1951.",
+    "last_updated": "2026-09-22"
+  },
+  "shakespeare": {
+    "canonical_name": "Shakespeare",
+    "entity_type": "product",
+    "summary": "Shakespeare is a leading brand of composite products for the North American lighting and power distribution markets, specializing in composite light poles and tangent crossarms for the utility industry. It also manufactures auto and aircraft parts, as well as custom engineered composite structures a",
+    "last_updated": "2026-09-22"
+  },
+  "mimov26pro": {
+    "canonical_name": "MiMo-v2.6-Pro",
+    "entity_type": "ai_model",
+    "summary": "MiMo-v2.6-Pro is a trillion-parameter, omni-modal flagship reasoning model built for complex projects, long-horizon tasks, high-stakes work, cybersecurity, and research. It achieves a peak performance score of 46.32 on Artificial Analysis' composite intelligence index and features a 1M-token context",
+    "last_updated": "2026-09-22"
+  },
+  "gdpvalaa v21": {
+    "canonical_name": "GDPval-AA v2.1",
+    "entity_type": "ai_model",
+    "summary": "GDPval-AA v2.1 is Artificial Analysis' evaluation framework for OpenAI's GDPval dataset, testing AI models on real-world tasks across 44 occupations and 9 major industries. It provides Elo ratings derived from blind pairwise comparisons of models given shell access and web browsing capabilities via",
+    "last_updated": "2026-09-22"
+  },
+  "automationbenchaa": {
+    "canonical_name": "AutomationBench-AA",
+    "entity_type": "ai_model",
+    "summary": "AutomationBench-AA is an independent leaderboard for Zapier's AutomationBench that tests whether AI agents can automate real SaaS workflows while adhering to business rules. Models must complete 657 tasks across 40 simulated app environments, including Gmail, Google Sheets, Slack, Salesforce, Zendes",
+    "last_updated": "2026-09-22"
+  },
+  "terminalbench 40": {
+    "canonical_name": "Terminal-Bench 4.0",
+    "entity_type": "ai_model",
+    "summary": "Terminal-Bench 4.0 is a dataset and leaderboard update that calibrates task resources, implements fixes, and removes saturated tasks to reduce measurement noise. The remaining errors in 4.0 are largely model refusals and output-token-exceeded errors.",
+    "last_updated": "2026-09-22"
+  },
+  "scicode": {
+    "canonical_name": "SciCode",
+    "entity_type": "ai_model",
+    "summary": "SciCode is a benchmark designed to evaluate contemporary LLMs' progress as helpful assistants for scientists while shedding light on future building and evaluation of scientific AI. It sources challenging, research-level coding problems across 6 natural science disciplines and 16 subfields.",
+    "last_updated": "2026-09-22"
+  },
+  "humanitys last exam": {
+    "canonical_name": "Humanity's Last Exam",
+    "entity_type": "ai_model",
+    "summary": "Humanity's Last Exam provides a clear measure of AI progress, creating a common reference point for scientists and policymakers to assess AI capabilities. This enables more informed discussions about development trajectories, potential risks, and necessary governance measures.",
+    "last_updated": "2026-09-22"
+  },
+  "gdppdf": {
+    "canonical_name": "GDP.pdf",
+    "entity_type": "ai_model",
+    "summary": "GDP.pdf is a benchmark built to measure grounded multimodal reasoning over professional PDF documents. It consists of question-document pairs authored by working professionals in ten fields, keeping only candidate questions that at least two frontier multimodal models failed in a meaningful way.",
+    "last_updated": "2026-09-22"
+  },
+  "critpt": {
+    "canonical_name": "CritPt",
+    "entity_type": "ai_model",
+    "summary": "CritPt is a benchmark designed to test LLMs on unpublished, research-level physics reasoning tasks. It features 71 composite research challenges aimed at evaluating whether models can effectively reason through complex, open-ended challenges found in frontier physics research.",
+    "last_updated": "2026-09-22"
+  },
+  "aaomniscience": {
+    "canonical_name": "AA-Omniscience",
+    "entity_type": "ai_model",
+    "summary": "AA-Omniscience is a benchmark measuring factual recall and hallucination across economically relevant domains. It evaluates a model's AA-Omniscience Index using 6,000 questions derived from authoritative academic and industry sources, covering 42 topics within six different domains.",
+    "last_updated": "2026-09-22"
+  },
+  "aalcr v11": {
+    "canonical_name": "AA-LCR v1.1",
+    "entity_type": "ai_model",
+    "summary": "AA-LCR v1.1 is a metric that calculates the average number of answer and reasoning tokens produced per benchmark task in the Artificial Analysis Intelligence Index evaluation. It is weighted by the benchmark's Intelligence Index weight and calculated from input, cache hit, cache write, reasoning, an",
+    "last_updated": "2026-09-22"
+  },
+  "aabriefcase v11": {
+    "canonical_name": "AA-Briefcase v1.1",
+    "entity_type": "ai_model",
+    "summary": "AA-Briefcase v1.1 is a private evaluation developed by Artificial Analysis for frontier agentic capability in long-horizon knowledge work. It tests models across four multi-week knowledge work projects comprising thousands of input files and 91 tasks in fields such as data science, product managemen",
+    "last_updated": "2026-09-22"
+  },
+  "tetris": {
+    "canonical_name": "Tetris",
+    "entity_type": "product",
+    "summary": "The Tetris Official Website A fun, challenging game for people of all ages! Step into the legacy of gaming with the limited-edition ILTHY® x Tetris® 40th Anniversary Varsity Jacket. The latest title in the \"TGM\" series, \"TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-\" offers the ultimate Tetris game that",
+    "last_updated": "2026-09-22"
+  },
+  "oxcon": {
+    "canonical_name": "OxCon",
+    "entity_type": "event",
+    "summary": "OxCon is a cybersecurity event that highlights hardware hacking and the expansion of the attack surface beyond software. It is organized by ExploitX and features presentations on topics like system updates and long-term project challenges.",
+    "last_updated": "2026-09-22"
+  },
+  "sun": {
+    "canonical_name": "Sun",
+    "entity_type": "company",
+    "summary": "Sunoco LP is a master limited partnership headquartered in Dallas, Texas, that primarily engages in the wholesale distribution of motor fuels and the operation of convenience stores. The company distributes fuel to thousands of convenience stores, independent dealers, and commercial customers across",
+    "last_updated": "2026-09-22"
+  },
+  "scott mcnealy": {
+    "canonical_name": "Scott McNealy",
+    "entity_type": "person",
+    "summary": "Scott McNealy is the co-founder and former long-time CEO of Sun Microsystems, a company known for Java and network computing innovations. Born in 1954, he is a prominent technology industry figure who also holds advisory roles at various ventures.",
+    "last_updated": "2026-09-22"
+  },
+  "opensolaris": {
+    "canonical_name": "OpenSolaris",
+    "entity_type": "technology",
+    "summary": "OpenSolaris was an operating system that was discontinued in 2010 but continues to be explored for its features and legacy virtualization support. Its life is extended by technologies like Charon SSP, which allows legacy SPARC systems to run on modern Linux hardware.",
+    "last_updated": "2026-09-22"
+  },
+  "ben leonard": {
+    "canonical_name": "Ben Leonard",
+    "entity_type": "person",
+    "summary": "Ben Leonard is a congressional reporter at POLITICO who focuses on domestic policy, particularly the House Energy and Commerce Committee. He covers policy issues that are closely read by policymakers and company executives.",
+    "last_updated": "2026-09-22"
+  },
+  "tuomas": {
+    "canonical_name": "Tuomas",
+    "entity_type": "person",
+    "summary": "Tuomas Vuorio is a CMO & Co-Founder of a Media & Technology company Illusion Media. He has invented a forward-looking technology called INVIO. It is an interactive multimedia platform providing engaging, entertaining and measurable storytelling experiences. Before Illusion Media Tuomas built one of",
+    "last_updated": "2026-09-22"
+  },
+  "josé morales bernal": {
+    "canonical_name": "José Morales Bernal",
+    "entity_type": "person",
+    "summary": "José Morales Bernal is a Técnico Programador Analista at IICA. He is active on Facebook and Instagram, where he has 53 followers, 55 following, and one post.",
+    "last_updated": "2026-09-22"
+  },
+  "border patrol": {
+    "canonical_name": "Border Patrol",
+    "entity_type": "organization",
+    "summary": "The Border Patrol is a component of U.S. Customs and Border Protection that focuses on border security, trade, travel, and customs regulations. Its priority mission is preventing terrorists and weapons of mass destruction from entering the United States, while also working to detect and prevent the",
+    "last_updated": "2026-09-22"
+  },
+  "graciela gómez hernández": {
+    "canonical_name": "Graciela Gómez Hernández",
+    "entity_type": "person",
+    "summary": "Graciela Gómez Hernández was a 30-year-old woman whose death occurred in September 2025 after crossing the border from Tijuana into Southern California. The incident, reported by MIT Technology Review, highlighted the ongoing risks faced by migrants attempting to enter the United States.",
+    "last_updated": "2026-09-22"
+  },
+  "morphotonics": {
+    "canonical_name": "Morphotonics",
+    "entity_type": "company",
+    "summary": "Morphotonics develops large-area nanoimprint lithography technology for scalable AR waveguide manufacturing, nano-optics, and next-generation optical applications. Inspired by the Morpho butterfly’s nanotextured wings, the company aims to revolutionize the human visual experience in consumer electro",
+    "last_updated": "2026-09-22"
+  },
+  "innovation industries": {
+    "canonical_name": "Innovation Industries",
+    "entity_type": "company",
+    "summary": "Innovation Industries is a leading deep tech VC fund with €1 billion in Assets under Management. It invests in start-ups dedicated to meaningful change by providing capital to fund entrepreneurial activity and build companies with long-term societal impact.",
+    "last_updated": "2026-09-22"
+  },
+  "bom": {
+    "canonical_name": "BOM",
+    "entity_type": "company",
+    "summary": "A bill of materials (BOM) is a detailed list of all necessary materials, components, and instructions required for the production, repair, or assembly of a product. It serves as a comprehensive blueprint that details the raw materials and step-by-step instructions needed to ensure efficient producti",
+    "last_updated": "2026-09-22"
+  },
+  "investnl": {
+    "canonical_name": "Invest-NL",
+    "entity_type": "company",
+    "summary": "Invest-NL is the Netherlands’ national promotional institution committed to driving a sustainable and innovative future. It accelerates and finances major societal transitions in fields such as Deep Tech, Energy, and Life Sciences & Health by connecting entrepreneurs, financiers, and governments.",
+    "last_updated": "2026-09-22"
+  },
+  "european innovation council": {
+    "canonical_name": "European Innovation Council",
+    "entity_type": "organization",
+    "summary": "The European Innovation Council (EIC) is an organization that supports startups and research in Europe’s deep-tech ecosystem. It offers funding opportunities, hosts events, and publishes reports to promote the development and market transfer of breakthrough technologies.",
+    "last_updated": "2026-09-22"
+  },
+  "european investment bank": {
+    "canonical_name": "European Investment Bank",
+    "entity_type": "organization",
+    "summary": "The European Investment Bank Group focuses on Europe's safety by funding security and defence projects. It also supports businesses and innovators in areas like energy, digital innovation, and housing, and operates TechEU, a platform dedicated to accelerating innovation across Europe.",
+    "last_updated": "2026-09-22"
+  },
+  "meta rayban display": {
+    "canonical_name": "Meta Ray-Ban Display",
+    "entity_type": "product",
+    "summary": "The Meta Ray-Ban Display is Meta’s first consumer Ray-Ban smart-glasses product featuring a full-color in-lens display. It includes gesture control via a smart EMG wristband and is designed to allow users to manage their smart experience hands-free.",
+    "last_updated": "2026-09-22"
+  },
+  "even reality": {
+    "canonical_name": "Even Reality",
+    "entity_type": "product",
+    "summary": "Even Reality offers the Even G2 smart glasses, which feature a display, automatic AI prompts, and smart ring control. Designed for all-day wear, the glasses keep users prepared for professional and personal conversations by providing contextual AI cues and prep notes.",
+    "last_updated": "2026-09-22"
+  },
+  "magic leap": {
+    "canonical_name": "Magic Leap",
+    "entity_type": "product",
+    "summary": "Magic Leap is pioneering see-through augmented reality through innovative waveguides, display systems, and device prototyping. Its Magic Leap 2 device is an immersive AR headset featuring industry-leading optics and dynamic dimming capability for enterprise solutions.",
+    "last_updated": "2026-09-22"
+  },
+  "moscone west": {
+    "canonical_name": "Moscone West",
+    "entity_type": "location",
+    "summary": "Moscone West is a three-level exhibition hall located across 4th Street from the underground Moscone North and Moscone South exhibition halls. It is situated below Yerba Buena Gardens in San Francisco, California.",
+    "last_updated": "2026-09-22"
+  },
+  "appfigures": {
+    "canonical_name": "Appfigures",
+    "entity_type": "company",
+    "summary": "Appfigures is a reporting platform for mobile app developers that brings together app store sales, ad data, worldwide reviews, and hourly rank updates into one solution. It is based in New York, United States, and is described as the global leader in AI-powered contract intelligence.",
+    "last_updated": "2026-09-22"
+  },
+  "apptopia": {
+    "canonical_name": "Apptopia",
+    "entity_type": "company",
+    "summary": "Apptopia is the leading provider of mobile consumer intelligence for institutional investors and equity analysts. It utilizes a proprietary consumer panel of 15 million devices to reveal how people use their phones, helping investors understand the hidden truths behind publicly traded companies.",
+    "last_updated": "2026-09-22"
+  },
+  "kairos power": {
+    "canonical_name": "Kairos Power",
+    "entity_type": "company",
+    "summary": "Kairos Power was started by co-founders who saw a u2028unique opportunity to combat climate change by reimagining not just nuclear energy, but the entire energy system. u2028We’ve grown from a startup into a vertically integrated nuclear development company with multiple facilities, a world-class te",
+    "last_updated": "2026-09-22"
+  },
+  "samsung ct": {
+    "canonical_name": "Samsung C&T",
+    "entity_type": "company",
+    "summary": "Samsung C&T is a multi-business company consisting of four independent business groups – Engineering & Construction, Trading & Investment, Fashion, and Resort. We are actively engaged in business around the world through our extensive network of overseas offices. 전세계에서 건설, 상사, 패션, 리조트 부문을 중심으로 만들어가는",
+    "last_updated": "2026-09-22"
+  },
+  "twitter": {
+    "canonical_name": "Twitter",
+    "entity_type": "company",
+    "summary": "Twitter, Inc. is a global platform for public self-expression and conversation in real time, providing a network that connects users to people, information, ideas, opinions, and news. It was formerly a subsidiary of X Holdings I Inc and has since been succeeded by X Corp, which is now wholly owned b",
+    "last_updated": "2026-09-22"
+  },
+  "oura": {
+    "canonical_name": "Oura",
+    "entity_type": "product",
+    "summary": "Oura is a wellness brand that offers the Oura Ring, the world's smallest smart ring. It provides round-the-clock insights into sleep, fitness, and stress, tracking over 50 health metrics through its mobile app.",
+    "last_updated": "2026-09-22"
+  },
+  "forerunner ventures": {
+    "canonical_name": "Forerunner Ventures",
+    "entity_type": "organization",
+    "summary": "Forerunner Ventures is an early-stage venture capital firm. It focuses on investing in founders who have the vision to define entire categories and the courage to own the totality of what they build, with a specific focus on the modern consumer at the intersection of culture and invention.",
+    "last_updated": "2026-09-22"
+  },
+  "ahad ali": {
+    "canonical_name": "Ahad Ali",
+    "entity_type": "person",
+    "summary": "Ahad Ali is an accountant turned tech founder with over 10 years of experience as a CPA who has helped thousands of small business owners navigate tax and financial challenges. He is also associated with the organization Towntawks as a COO & Co-Founder and has an education background from Baruch Col",
+    "last_updated": "2026-09-22"
+  },
+  "bryan bedford": {
+    "canonical_name": "Bryan Bedford",
+    "entity_type": "person",
+    "summary": "Bryan Bedford was sworn in as FAA Administrator in July 2025. He leads a workforce of more than 40,000 employees dedicated to the FAA’s mission to provide the safe and efficient operation of the largest and most complex aerospace system in the world. An aviation industry veteran for more than 35 yea",
+    "last_updated": "2026-09-22"
+  },
+  "sean duffy": {
+    "canonical_name": "Sean Duffy",
+    "entity_type": "person",
+    "summary": "Sean Patrick Duffy is an American politician, attorney, and former television personality who serves as the 20th United States secretary of transportation since January 2025. He previously served as the acting administrator of NASA from July to December 2025 and was a member of the Republican Party",
+    "last_updated": "2026-09-22"
+  },
+  "amtrak": {
+    "canonical_name": "Amtrak",
+    "entity_type": "organization",
+    "summary": "Amtrak, also known as the National Railroad Passenger Corporation, is a for-profit corporation that operates intercity passenger train service. The organization is led by a team of 21 main executives, including figures such as William Herrmann, Costin Corneanu, and Jennifer Mitchell.",
+    "last_updated": "2026-09-22"
+  },
+  "new jersey transit": {
+    "canonical_name": "New Jersey Transit",
+    "entity_type": "organization",
+    "summary": "NJ TRANSIT is New Jersey's public transportation corporation, established by the New Jersey Public Transportation Act of 1979. It provides safe, reliable, and affordable public transportation across a service area of 5,325 square miles, making it the nation's third largest provider of bus, rail, and",
+    "last_updated": "2026-09-22"
+  },
+  "us bureau of reclamation": {
+    "canonical_name": "US Bureau of Reclamation",
+    "entity_type": "organization",
+    "summary": "Established in 1902, the US Bureau of Reclamation is best known for the dams, powerplants, and canals it constructed in the 17 western states. These water projects led to homesteading and promoted the economic development of the West, resulting in the construction of more than 600 dams and reservoir",
+    "last_updated": "2026-09-22"
+  },
+  "gavin newsom": {
+    "canonical_name": "Gavin Newsom",
+    "entity_type": "person",
+    "summary": "Gavin Newsom is the 40th Governor of California, born in 1967 in San Francisco. After attending Santa Clara University, he started a retail wine shop that expanded into the PlumpJack Group, which managed restaurants, hotels, and wineries. His early political career began on the San Francisco Parking",
+    "last_updated": "2026-09-22"
+  },
+  "california public utilities commission": {
+    "canonical_name": "California Public Utilities Commission",
+    "entity_type": "organization",
+    "summary": "The California Public Utilities Commission works to better the lives of Californians through leadership in communications, energy, transportation, and water policies and regulation. It regulates privately owned utilities and transportation companies, including electric, natural gas, telecommunicatio",
+    "last_updated": "2026-09-22"
+  },
+  "chevy silverado": {
+    "canonical_name": "Chevy Silverado",
+    "entity_type": "product",
+    "summary": "The 2026 Chevy Silverado 1500 is a pickup truck available in 9 unique models, offering a max towing capacity of 13,300 lbs and advanced technology features. It is offered at various starting price points, with specific configurations like the 2026 Silverado ZR2 360° available for visualization.",
+    "last_updated": "2026-09-22"
+  },
+  "gmc sierra": {
+    "canonical_name": "GMC Sierra",
+    "entity_type": "product",
+    "summary": "The 2026 GMC Sierra 1500 is a lineup of pickup trucks that includes a Crew Cab option across all trims, with a Double Cab option available on select trims. It ranges from the hardworking Pro trim to the luxurious Denali Ultimate, with starting prices available across the lineup.",
+    "last_updated": "2026-09-22"
+  },
+  "chevy blazer": {
+    "canonical_name": "Chevy Blazer",
+    "entity_type": "product",
+    "summary": "The 2026 Chevrolet Blazer is a midsize sporty SUV characterized by its bold and athletic style, powerful capabilities, and advanced technologies. It offers multiple trim levels starting at $34,300 and provides an advanced Twin-Clutch AWD system as a standard feature with the RS trim.",
+    "last_updated": "2026-09-22"
+  },
+  "cadillac lyriq": {
+    "canonical_name": "Cadillac Lyriq",
+    "entity_type": "product",
+    "summary": "The 2027 Cadillac LYRIQ is a luxury all-electric SUV that features bold design, advanced technology, and an EPA-estimated range of up to 326 miles. It is offered in various trims, such as Premium Sport and Luxury, with lease options available for well-qualified buyers.",
+    "last_updated": "2026-09-22"
+  },
+  "cadillac optiq": {
+    "canonical_name": "Cadillac Optiq",
+    "entity_type": "product",
+    "summary": "The 2026 Cadillac Optiq is the smallest electric SUV in the brand's lineup, offering an estimated driving range of up to 300 miles per charge and a chassis tuned for spirited driving. It features a spacious interior with a 33.0-inch curved screen, an AKG-tuned stereo system, and woven textile materi",
+    "last_updated": "2026-09-22"
+  },
+  "cadillac vistiq": {
+    "canonical_name": "Cadillac Vistiq",
+    "entity_type": "product",
+    "summary": "The 2026 Cadillac VISTIQ is the brand's first all-electric vehicle, featuring 7 passenger seating, up to 300 miles of range, and the ability to accelerate from 0-60 in 3.7 seconds. It is offered with various trim levels and lease options that require delivery by specific dates.",
+    "last_updated": "2026-09-22"
+  },
+  "cadillac escalade iq": {
+    "canonical_name": "Cadillac Escalade IQ",
+    "entity_type": "product",
+    "summary": "The 2026 Cadillac ESCALADE IQL is the first-ever all-new long-range electric version of the Escalade, equipped with an executive second row, a curved 55-inch display screen, and 24-inch wheels. It is available in both IQ and IQL configurations, with lease options requiring delivery by September 30,",
+    "last_updated": "2026-09-22"
+  },
+  "gmc sierra ev": {
+    "canonical_name": "GMC Sierra EV",
+    "entity_type": "product",
+    "summary": "The 2026 GMC Sierra EV is an electric truck that features a 2-motor e4WD system, a 16.8-inch diagonal premium GMC infotainment system, and a MultiPro tailgate. It is available from a GMC EV dealer and is offered with preproduction models that may vary from actual production units.",
+    "last_updated": "2026-09-22"
+  },
+  "gmc hummer": {
+    "canonical_name": "GMC Hummer",
+    "entity_type": "product",
+    "summary": "The 2026 GMC Hummer EV SUV is a powerful all-electric vehicle designed with exceptional off-road capabilities, advanced tech features, and a revolutionary design. It is available in multiple configurations starting at $97,825 and is only sold through GMC EV dealers.",
+    "last_updated": "2026-09-22"
+  },
+  "android auto": {
+    "canonical_name": "Android Auto",
+    "entity_type": "product",
+    "summary": "Android Auto is a hands-free, smart driving companion that allows users to connect their phone to their car to stay focused, connected, and entertained. It integrates with various apps to provide navigation, communication, and entertainment features, including voice commands through Gemini.",
+    "last_updated": "2026-09-22"
+  },
+  "wwdc 2024": {
+    "canonical_name": "WWDC 2024",
+    "entity_type": "event",
+    "summary": "WWDC 2024 was Apple's 2024 Worldwide Developers Conference, which kicked off on June 10, 2024, with a live-streamed keynote from Apple Park. The event featured the reveal of Apple Intelligence and provided developers with access to new tools, frameworks, and features to help elevate their apps and g",
+    "last_updated": "2026-09-22"
+  },
+  "vivo": {
+    "canonical_name": "Vivo",
+    "entity_type": "company",
+    "summary": "Vivo Mobile Communication Co., Ltd. is a leading Chinese multinational technology company headquartered in Dongguan, Guangdong, that specializes in smart devices, mobile terminals, and mobile operating systems. The company is known for its industry-leading technology and design-driven products, whic",
+    "last_updated": "2026-09-22"
+  },
+  "x500 pro": {
+    "canonical_name": "X500 Pro",
+    "entity_type": "product",
+    "summary": "The vivo X500 Pro Max is a large flagship handset featuring a 6.85-inch LTPO OLED display with 4,400 nits peak brightness, protected by an Armor Glass sheet. It features a familiar design with a relatively flat back and a large camera bump housing its hardware, and its display was calibrated in coll",
+    "last_updated": "2026-09-22"
+  },
+  "lytia l910": {
+    "canonical_name": "Lytia L910",
+    "entity_type": "product",
+    "summary": "The Sony LYTIA L910 is a flagship 50MP stacked CMOS image sensor for mobile devices, announced in June 2026. It is the first in Sony's LYTIA lineup to incorporate LOFIC technology, which enables up to 100 dB dynamic range in a single exposure.",
+    "last_updated": "2026-09-22"
+  },
+  "lofic": {
+    "canonical_name": "LOFIC",
+    "entity_type": "technology",
+    "summary": "LOFIC is a technology developed by Sony that focuses on taming light rather than simply adding pixels, aiming to maximize dynamic range in mobile photography. It captures more information in a single exposure without artifacts, providing a more natural look and eliminating common multi-frame HDR iss",
+    "last_updated": "2026-09-22"
+  },
+  "xiaomi 17 ultra": {
+    "canonical_name": "Xiaomi 17 Ultra",
+    "entity_type": "product",
+    "summary": "The Xiaomi 17 Ultra is a 5G Android smartphone announced in February 2026 that features a 6.9-inch display, a Snapdragon 8 Elite Gen 5 chipset, and a 6000 mAh battery. It also includes a 200MP 75–100mm telephoto camera and a 1-inch ultra dynamic camera.",
+    "last_updated": "2026-09-22"
+  },
+  "x300 ultra": {
+    "canonical_name": "X300 Ultra",
+    "entity_type": "product",
+    "summary": "The X300 Ultra features a ZEISS Triple Prime Lens system, including a 14 mm ultra-wide, 35 mm documentary, and 85 mm gimbal-grade telephoto camera. It supports Multi-Focal 4K 120 fps 10-bit Log video recording and Dolby Vision, and includes a 144 Hz refresh rate and a peak brightness triggered by 10",
+    "last_updated": "2026-09-22"
+  },
+  "dimensity 9600 pro": {
+    "canonical_name": "Dimensity 9600 Pro",
+    "entity_type": "product",
+    "summary": "The Dimensity 9600 Pro is a 2nm SoC that fuses the NPU, CPU, GPU, and ISP into a single Native AI Architecture. Its AI Compute Fusion Architecture blends the benefits of the CPU, NPU, and a 3rd-generation Dimensity Scheduling Engine to enable always-on, always-available AI and seamless multitasking.",
+    "last_updated": "2026-09-22"
+  },
+  "irregular": {
+    "canonical_name": "Irregular",
+    "entity_type": "company",
+    "summary": "Sep 6, 2026 · Explore Irregular's in-depth company profile, including funding details, key investors, leadership, and competitors. Information on valuation, funding, cap tables, investors, and executives for Irregular. Use the PitchBook Platform to explore the full profile. About Irregular Irregular",
+    "last_updated": "2026-09-22"
+  },
+  "higgsfield ai": {
+    "canonical_name": "Higgsfield AI",
+    "entity_type": "company",
+    "summary": "Higgsfield brings together cinematic intelligence and a unified creative workflow to help creators, marketing agencies, and filmmakers produce cinematic-quality video and visuals at any scale. The company partners with global industry leaders and is built on the values of making creative tools a for",
+    "last_updated": "2026-09-22"
+  },
+  "alex": {
+    "canonical_name": "Alex",
+    "entity_type": "person",
+    "summary": "Alex Person is a right-handed pitcher born on September 19, 1994, who attended Southern New Hampshire University. He is listed at a height of 6-2 and a weight of 195 pounds.",
+    "last_updated": "2026-09-22"
+  },
+  "openai academy": {
+    "canonical_name": "OpenAI Academy",
+    "entity_type": "product",
+    "summary": "OpenAI Academy is a hub for practical ChatGPT guides covering prompting, organizing chats, data analysis, workflow automation, and responsible use. It offers structured courses with guided instruction, practice, and completion certificates to help users confidently apply AI in their work, education,",
+    "last_updated": "2026-09-22"
+  },
+  "fastbrowse": {
+    "canonical_name": "fastbrowse",
+    "entity_type": "product",
+    "summary": "4 days ago · The suite has since grown to 15 tasks: sign-ins (optionally from Bitwarden), a checkout, a stop before paying and Google Flights. fastbrowse alone passes 12 of them (results). A browser agent that picks instead of generating. Jev chooses each action, an LLM plans and reads, and code own",
+    "last_updated": "2026-09-22"
+  },
+  "browser use": {
+    "canonical_name": "Browser Use",
+    "entity_type": "product",
+    "summary": "Browser Use is a simple remote browser for AI agents. Browser Use Agents finish the task; Browser Infrastructure gives AI startups and automation teams managed browsers built for protected sites through SDK, REST, or CDP. Browser Use Agents finish the task. Browser Infrastructure is the simple remot",
+    "last_updated": "2026-09-22"
+  },
+  "awesomejev": {
+    "canonical_name": "awesome-jev",
+    "entity_type": "product",
+    "summary": "Awesome-jev is a curated, source-backed list of projects built with Jev, TypeSafe AI's System One model. The list favors public source code and concrete Jev usage.",
+    "last_updated": "2026-09-22"
+  },
+  "dicklesworthstone": {
+    "canonical_name": "Dicklesworthstone",
+    "entity_type": "organization",
+    "summary": "Dicklesworthstone is a builder and engineer based in New York who previously worked as a long/short equity analyst. They focus on building tooling that enables dozens of AI agents to ship complex projects in days, with interests spanning multi-agent coordination, agentic coding, and Rust CLI tools.",
+    "last_updated": "2026-09-22"
+  },
+  "typesafeai": {
+    "canonical_name": "TypeSafe.ai",
+    "entity_type": "organization",
+    "summary": "TypeSafe AI is an AI lab that builds machine-native intelligence infrastructure for automation, designed to make decisions within software. The organization offers System One Models, including Jev, which is positioned as an alternative to traditional text-generating LLMs like Claude and GPT.",
+    "last_updated": "2026-09-22"
+  },
+  "skillranker": {
+    "canonical_name": "SkillRanker",
+    "entity_type": "product",
+    "summary": "SkillRanker is a Rust CLI tool that ranks an agent's installed skills for the current step using TypeSafe's Jev model. It is harness-aware, inspectable, and advisory by design, and it can be integrated into workflows that require context-sensitive skill ranking.",
+    "last_updated": "2026-09-22"
+  },
+  "qwdwqfwq": {
+    "canonical_name": "qwdwqfwq",
+    "entity_type": "person",
+    "summary": "The provided material does not contain a usable overview for the entity query 'qwdwqfwq'.",
+    "last_updated": "2026-09-22"
+  },
+  "niutransamlnotes": {
+    "canonical_name": "NiuTrans/AML-Notes",
+    "entity_type": "product",
+    "summary": "NiuTrans/AML-Notes is an advanced machine learning textbook designed for the generative AI era, covering foundational theory, core methods, and cutting-edge topics like reinforcement learning and multimodal learning. It is authored by the Northeast University Natural Language Processing Lab and NiuT",
+    "last_updated": "2026-09-22"
+  },
+  "northeast university natural language processing lab": {
+    "canonical_name": "Northeast University Natural Language Processing Lab",
+    "entity_type": "organization",
+    "summary": "The Northeast University Natural Language Processing Lab is a research group at Northeastern University that focuses on natural language processing. It is also associated with NiuTrans Research, which develops translation and AI technologies.",
+    "last_updated": "2026-09-22"
+  },
+  "samdotmak": {
+    "canonical_name": "samdotmak",
+    "entity_type": "person",
+    "summary": "samdotmak is a co-founder at Quarkle and a former employee at Amazon with a background from the University of Illinois Urbana-Champaign. They have two public repositories available on GitHub.",
+    "last_updated": "2026-09-22"
+  },
+  "jev recall": {
+    "canonical_name": "Jev Recall",
+    "entity_type": "product",
+    "summary": "Jev Recall is a product that provides LLM re-ranker quality retrieval at the prices and speed of semantic search. It takes a user query and a set of memories, returning the most relevant memories as calibrated yes/no judgments from TypeSafe's Jev model in a single request.",
+    "last_updated": "2026-09-22"
+  },
+  "zeronezerbidcraft": {
+    "canonical_name": "zeronezer/bidcraft",
+    "entity_type": "product",
+    "summary": "Zeronezer/bidcraft is an open-source, dialogue-based AI agent designed for the automated drafting of construction tender and bid documents. It leverages LLM-Wiki technology built on LangGraph to parse tender documents, select sections, draft content, and refine text through an interactive workflow.",
+    "last_updated": "2026-09-22"
   }
 }
