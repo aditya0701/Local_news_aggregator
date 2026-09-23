@@ -13154,8 +13154,8 @@
   "opus 5": {
     "canonical_name": "Opus 5",
     "entity_type": "ai_model",
-    "summary": "Claude Opus 5, launched on July 24, 2026, is Anthropic's premium workhorse model and the highest-capability model in their lineup for day-to-day use. It is positioned one tier below the flagship Claude Fable 5 and is designed for serious work with AI. The model is available via zero-data-retention i",
-    "last_updated": "2026-07-28"
+    "summary": "Claude Opus 5 is a current model designed for complex agentic coding and enterprise work, representing a step-change improvement over Claude Opus 4.8. It features a large context window and defaults to high effort, which must be managed to disable thinking.",
+    "last_updated": "2026-09-23"
   },
   "opus 46": {
     "canonical_name": "Opus 4.6",
@@ -18022,5 +18022,59 @@
     "entity_type": "product",
     "summary": "Zeronezer/bidcraft is an open-source, dialogue-based AI agent designed for the automated drafting of construction tender and bid documents. It leverages LLM-Wiki technology built on LangGraph to parse tender documents, select sections, draft content, and refine text through an interactive workflow.",
     "last_updated": "2026-09-22"
+  },
+  "gpt6 sol": {
+    "canonical_name": "GPT-6 Sol",
+    "entity_type": "ai_model",
+    "summary": "GPT-6 Sol is OpenAI's mid-tier flagship model built for difficult professional work tasks, offering higher usage limits and lower cost per task than its predecessor. It brings substantially improved factuality, strong coding performance for sustained agentic use, and clearer, less jargon-heavy commu",
+    "last_updated": "2026-09-23"
+  },
+  "gpt6 luna": {
+    "canonical_name": "GPT-6 Luna",
+    "entity_type": "ai_model",
+    "summary": "GPT-6 Luna improves on its predecessor by 5.4 percentage points at 58% lower cost per task. It is designed to bring frontier intelligence into everyday work tasks and is available on Amazon Bedrock.",
+    "last_updated": "2026-09-23"
+  },
+  "gpt56 luna": {
+    "canonical_name": "GPT-5.6 Luna",
+    "entity_type": "ai_model",
+    "summary": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families and features a 1,050,000 token context window with a maximum output of 128,000 tokens.",
+    "last_updated": "2026-09-23"
+  },
+  "claude opus 55": {
+    "canonical_name": "Claude Opus 5.5",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 5.5 is a large language model built for long-running agentic coding and knowledge work. It is priced at $4 / $20 USD per million input / output tokens, and features several breaking changes affecting code already running on Claude Opus 5.",
+    "last_updated": "2026-09-23"
+  },
+  "claude mythos 51": {
+    "canonical_name": "Claude Mythos 5.1",
+    "entity_type": "ai_model",
+    "summary": "Claude Mythos 5.1 is a Mythos-class model with gains in cybersecurity and biology research. Access was previously limited to vetted organizations, with export controls being lifted and then the model becoming temporarily unavailable as of mid-2026.",
+    "last_updated": "2026-09-23"
+  },
+  "frontier design": {
+    "canonical_name": "Frontier Design",
+    "entity_type": "organization",
+    "summary": "Frontier Design Group offers creative design, business consulting, and data analytics services. The organization focuses on advancing responsible, safe, and ethical AI to help organizations maximize their impact.",
+    "last_updated": "2026-09-23"
+  },
+  "metr": {
+    "canonical_name": "METR",
+    "entity_type": "organization",
+    "summary": "METR evaluates frontier AI models to inform the public about their risks and capabilities. The organization conducts evaluations on an AI system's ability to autonomously carry out substantial tasks, such as conducting research or developing an app.",
+    "last_updated": "2026-09-23"
+  },
+  "claude 55": {
+    "canonical_name": "Claude 5.5",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 5.5 is a more efficient successor to Claude Opus 5, offering performance on par with Claude Fable 5.1 while reducing typical operating costs by 40%. It is designed for stronger agentic coding, lower inference costs, and faster output generation.",
+    "last_updated": "2026-09-23"
+  },
+  "rebaruefi": {
+    "canonical_name": "ReBarUEFI",
+    "entity_type": "product",
+    "summary": "ReBarUEFI by xCuri0 is a UEFI DXE driver modification that enables Resizable BAR on systems that do not officially support it. It is required for optimal performance and functioning with Intel Arc GPUs, and requires modifying the motherboard's UEFI firmware.",
+    "last_updated": "2026-09-23"
   }
 }
