@@ -18076,5 +18076,47 @@
     "entity_type": "product",
     "summary": "ReBarUEFI by xCuri0 is a UEFI DXE driver modification that enables Resizable BAR on systems that do not officially support it. It is required for optimal performance and functioning with Intel Arc GPUs, and requires modifying the motherboard's UEFI firmware.",
     "last_updated": "2026-09-23"
+  },
+  "urlquerynet": {
+    "canonical_name": "urlquery.net",
+    "entity_type": "product",
+    "summary": "urlquery.net is a security research tool that analyzes URLs by running them in an isolated browser environment. It records network and page activity, extracts artifacts, and generates reports to help analysts understand a URL's real-world behavior.",
+    "last_updated": "2026-09-24"
+  },
+  "data usa": {
+    "canonical_name": "Data USA",
+    "entity_type": "organization",
+    "summary": "Data USA is a comprehensive website and visualization engine of public U.S. Government data. It was developed through a collaboration between Deloitte, Datawheel, and MIT Media Lab Professor Cesar Hidalgo to visualize critical issues in jobs, skills, and education.",
+    "last_updated": "2026-09-24"
+  },
+  "university of new mexico": {
+    "canonical_name": "University of New Mexico",
+    "entity_type": "organization",
+    "summary": "The University of New Mexico manages a robust research infrastructure that includes the Center for Advanced Research Computing, the Cancer Center, and the New Mexico Engineering Research Institute. With a workforce of 10,000-15,000 employees, the university supports academic and operational function",
+    "last_updated": "2026-09-24"
+  },
+  "australian institute of health and welfare": {
+    "canonical_name": "Australian Institute of Health and Welfare",
+    "entity_type": "organization",
+    "summary": "The Australian Institute of Health and Welfare (AIHW) is a major national agency established by the Australian Government to serve as the repository for metadata standards in areas like health, housing, aged care, and Indigenous affairs. It is responsible for maintaining data privacy and confidentia",
+    "last_updated": "2026-09-24"
+  },
+  "crispr": {
+    "canonical_name": "CRISPR",
+    "entity_type": "technology",
+    "summary": "CRISPR is a powerful genome engineering technology that allows researchers to make precise changes to genetic material across a wide range of organisms. It is frequently described as 'genetic scissors' or 'Clustered Regularly Interspaced Short Palindromic Repeats.'",
+    "last_updated": "2026-09-24"
+  },
+  "taq polymerase": {
+    "canonical_name": "Taq polymerase",
+    "entity_type": "technology",
+    "summary": "Taq polymerase is an enzyme used for standard PCR applications that exhibits high thermostability and processivity. It was first developed by Kary Mullis in 1983 to amplify short segments of DNA, though it has low fidelity and specificity.",
+    "last_updated": "2026-09-24"
+  },
+  "chatgpt ads": {
+    "canonical_name": "ChatGPT Ads",
+    "entity_type": "product",
+    "summary": "ChatGPT Ads is an OpenAI advertising product featuring sponsored placements that appear below relevant ChatGPT conversations, clearly labeled and visually separate from organic answers. According to OpenAI, every ChatGPT ad is built from six components, including the advertiser name and favicon.",
+    "last_updated": "2026-09-24"
   }
 }
