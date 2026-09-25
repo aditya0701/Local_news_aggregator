@@ -1,5 +1,470 @@
 [
   {
+    "id": "50c0b912a0ed",
+    "title": "एफ-ड्रॉइड 2.0: एक दशक बाद मिला ऐप को नया रूप",
+    "summary": "एफ-ड्रॉइड (F-Droid) ने एक साल से अधिक के अथक प्रयास के बाद अपने आधिकारिक ऐप का एक बड़ा अपडेट पेश किया है। यह अपडेट, जिसे एफ-ड्रॉइड 2.0 के नाम से जाना जाता है, पिछले दस वर्षों में इस प्लेटफॉर्म पर आया सबसे बड़ा बदलाव है। एक दशक से अधिक समय से, एफ-ड्रॉइड उपयोगकर्ताओं को मुफ्त और ओपन-सोर्स एंड्रॉइड एप्लिकेशन खोजने और…",
+    "category": "model_release",
+    "tags": [
+      "F-Droid"
+    ],
+    "image": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f2e164476530",
+    "title": "CVE-2025-13032: Avast एंटीवायरस सैंडबॉक्स को भेदने का दूसरा चरण",
+    "summary": "SAFA (Safety Assessment of Foreign Aircraft) की शोध टीम ने अपने पिछले शोध के बाद अब CVE-2025-13032 का दूसरा और अंतिम भाग प्रकाशित किया है। इस नई रिपोर्ट में शोधकर्ताओं ने विस्तार से बताया है कि कैसे एक अप-टू-डेट Windows 11 सिस्टम पर Avast एंटीवायरस के पुराने संस्करणों (25.3 से पहले) को पूरी तरह से हैक किया जा सकता है।…",
+    "category": "general",
+    "tags": [
+      "SAFA",
+      "Avast",
+      "CVE-2025-13032"
+    ],
+    "image": "https://images.ctfassets.net/g83bdkwoho6w/7dPJuuDzRaEOvzFwAeudGk/5ad1c6b31404f381268bcc920ac9b907/CVE-2025-13032.jpeg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "185ddb0abcfc",
+    "title": "व्हाइटबोर्ड: कोड लिखने से पहले सॉफ्टवेयर डिज़ाइन का नया ओपन-सोर्स तरीका",
+    "summary": "वाई कॉम्बिनेटर के विंटर 2026 बैच की स्टार्टअप कंपनी देवडॉटफास्ट ने व्हाइटबोर्ड (Whiteboard) नाम का एक ओपन-सोर्स डेस्कटॉप IDE लॉन्च किया है। यह प्लेटफॉर्म macOS और Fedora यूज़र्स के लिए उपलब्ध है। इसका मुख्य उद्देश्य डेवलपर्स को कोड लिखने से पहले उनके सॉफ्टवेयर डिज़ाइन को एक साझा कार्यक्षेत्र (common workspace) में…",
+    "category": "model_release",
+    "tags": [
+      "Whiteboard",
+      "devdotfast",
+      "Whiteboard"
+    ],
+    "image": "https://opengraph.githubassets.com/fe18c15ce8af81520b1334bc17e760c89cfac0a149a281e6122aab073d2bf05c/devdotfast/whiteboard",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "36cfe6391e3a",
+    "title": "टोयोटा अपनी कोरोला का नया इलेक्ट्रिक अवतार ला रही है",
+    "summary": "टोयोटा दुनिया की सबसे लोकप्रिय कार, कोरोला का एक नया इलेक्ट्रिक संस्करण लाने जा रही है, जो इसके पिछले सभी मॉडलों से बहुत अलग होगा। 1966 में पहली बार लॉन्च होने के बाद से अब तक 57 मिलियन से अधिक कोरोला कारें बिक चुकी हैं, जो इसे इतिहास की सबसे ज्यादा बिकने वाली गाड़ी बनाती हैं। हालांकि, कंपनी का यह नया मॉडल एक बड़ा…",
+    "category": "model_release",
+    "tags": [
+      "Toyota",
+      "Corolla",
+      "Koji Sato"
+    ],
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/09/Toyota-Corolla-EV-launch.jpeg?quality=82&strip=all&resize=1200,628",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f776dbfd65a4",
+    "title": "द डाउनलोड: निगरानी टावरों को खत्म करने का प्रयास और क्लाइमेट वीक में आर्टिफिशियल इंटेलिजेंस का प्रभाव",
+    "summary": "अमेरिकी प्रतिनिधि डेलिया रामिरेज़ ने देश की दक्षिणी सीमा पर स्थापित अरबों डॉलर की निगरानी टावर प्रणाली को समाप्त करने के लिए एक नए कानून को पेश करने की योजना की घोषणा की है। यह महत्वपूर्ण कदम 'मिट टेक्नोलॉजी रिव्यू' (MIT Technology Review) की हालिया जांच रिपोर्ट \"डाइंग ऑन कैमरा\" (Dying on Camera) के प्रकाशन के कुछ ही…",
+    "category": "ban_regulation",
+    "tags": [
+      "Delia Ramirez",
+      "MIT Technology Review",
+      "OpenAI"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/2026-07-22_BT_0663.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "4b302277cdce",
+    "title": "स्मार्ट चश्मों का बढ़ता खतरा और एआई का खरबों डॉलर का दांव",
+    "summary": "दिल्ली में हुए एक विरोध प्रदर्शन के दौरान एक व्यक्ति को तब अपनी निजता का उल्लंघन होने का एहसास हुआ जब उसने इंस्टाग्राम पर एक वीडियो देखा। इस वीडियो में उसे दिखाया गया था, जिसे मेटा के स्मार्ट चश्मे पहने एक कंटेंट क्रिएटर ने गुप्त रूप से रिकॉर्ड किया था। इस घटना ने भारत में स्मार्ट चश्मों के बढ़ते खतरे को उजागर किया…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Meta smart glasses",
+      "Jessica Wachter"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/260824_metaindia.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "96064fbcf338",
+    "title": "लाइट्सपीड की नई इंडिया फंड में निवेश रणनीति: एआई पर विशेष फोकस",
+    "summary": "लाइट्सपीड वेंचर्स ने भारत में अपने नए अर्ली-स्टेज फंड के लिए $250 मिलियन जुटाने का लक्ष्य रखा है। इस फंड को लाइट्सपीड इंडिया पार्टनर्स V नाम दिया गया है, जो 2022 में जुटाए गए अपने 500 मिलियन डॉलर के पिछले फंड का आधा आकार है। कंपनी को उम्मीद है कि इस नई फंडिंग के जरिए वह भारत के तेजी से बढ़ते एआई स्टार्टअप इकोसिस्टम…",
+    "category": "general",
+    "tags": [
+      "Lightspeed",
+      "India",
+      "Anthropic"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2024/06/india-ai.jpg?w=1200",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b5f88521e80c",
+    "title": "टेकदृष्टि टेकक्रंच डिसरप्ट 2026: सह-संस्थापक या सहकर्मी के साथ लाएं और दूसरे टिकट पर 50% की छूट पाएं",
+    "summary": "टेकक्रंच ने अपने प्रमुख स्टार्टअप इवेंट, टेकक्रंच डिसरप्ट 2026 के लिए एक विशेष अर्ली-बर्ड ऑफर की घोषणा की है। इस ऑफर के तहत, उपस्थित लोग अपने किसी सहकर्मी, सह-संस्थापक या भागीदार के लिए एक दूसरा टिकट 50% की छूट पर खरीद सकते हैं। यह छूट केवल 13 अक्टूबर को सुबह 8 बजे पीटी (PT) पर सैन फ्रांसिस्को के मोस्कोन वेस्ट…",
+    "category": "general",
+    "tags": [
+      "TechCrunch Disrupt",
+      "TechCrunch"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2023/07/expo_hall.png?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "57d9461ca601",
+    "title": "Oracle ने New Mexico Stargate डेटा सेंटर पर फोर्स मेज्योर (Force Majeure) नोटिस भेजा",
+    "summary": "Oracle ने Project Jupiter के लिए Blue Owl Capital को फोर्स मेज्योर (force majeure) नोटिस भेजा है, जिसकी जानकारी सबसे पहले Bloomberg ने गुरुवार को दी। यह कदम Oracle को 2028 के लक्ष्य के चूकने की स्थिति में भुगतान में देरी करने की अनुमति देता है। Bloomberg के सूत्रों के अनुसार, Oracle इस कैंपस के मुख्य किरायेदार के रूप…",
+    "category": "ban_regulation",
+    "tags": [
+      "Oracle",
+      "Project Jupiter",
+      "Stargate"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6374a69076e5",
+    "title": "मेटा का मयूज़ चार्म: एआई हार्डवेयर को बचाने की एक चंचल कोशिश",
+    "summary": "मेटा ने हाल ही में अपने नए एआई हार्डवेयर, मयूज़ चार्म की घोषणा की है। इस उपकरण की कीमत $1,299 है और यह दिसंबर में शिप होने के लिए तैयार है। इसका डिज़ाइन एक तामगोची (Tamagotchi) जैसा है, जो 90 के दशक का एक लोकप्रिय डिजिटल पालतू जानवर था। यह चार्म मेटा के एआई एजेंट, मयूज़ के लिए एक एक्सेसरी के रूप में काम करेगा। यह कदम…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Muse Charm",
+      "Labubu"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "52532575716c",
+    "title": "Databricks का Row Zero का अधिग्रहण और टेक जगत में अधिग्रहण की नई लहर",
+    "summary": "Databricks ने हाल ही में क्लाउड स्प्रेडशीट स्टार्टअप Row Zero का अधिग्रहण किया है। यह सौदा 2026 में कंपनी की चल रही अधिग्रहण गतिविधियों के बीच हुआ है। हालांकि इस सौदे की वित्तीय शर्तें सार्वजनिक नहीं की गई हैं, लेकिन यह स्पष्ट है कि Databricks एंटरप्राइज डेटा और एआई को मिलाने के लिए लगातार नए स्टार्टअप्स की तलाश में…",
+    "category": "acquisition",
+    "tags": [
+      "Databricks",
+      "Row Zero",
+      "Ali Ghodsi"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Navy-shopping-cart-e1790268797534.png?w=735",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "03ce780af89b",
+    "title": "Google Photos का 'Clueless' से प्रेरित वर्चुअल क्लॉज़ेट अब Android और iOS पर उपलब्ध",
+    "summary": "Google ने अपने लोकप्रिय फोटो मैनेजमेंट ऐप Google Photos में एक नया और बेहद दिलचस्प फीचर पेश किया है। यह नया AI-पावर्ड 'वर्चुअल क्लॉज़ेट' फीचर यूज़र्स की उन तस्वीरों से एक डिजिटल वॉर्डरोब बनाता है जिनमें वे अलग-अलग कपड़े पहने हुए हैं। यह फीचर मशहूर हॉलीवुड फिल्म 'Clueless' में दिखाए गए चेर के आइकॉनिक वर्चुअल वॉर्डरोब…",
+    "category": "model_release",
+    "tags": [
+      "Google Photos",
+      "Google"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/clueless-closet.webp?w=1200",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8ddb0b00f4b2",
+    "title": "टेस्ला सेमी का दशक लंबा इंतजार आखिरकार खत्म: 2026 में उत्पादन शुरू",
+    "summary": "2017 में पहली बार कॉन्सेप्ट के रूप में पेश किया गया टेस्ला सेमी, जो कि एक भारी-भरकम इलेक्ट्रिक ट्रक है, आखिरकार अप्रैल 2026 में बड़े पैमाने पर उत्पादन में आ गया है। गुरुवार की शाम को कंपनी ने नेवादा के गिगाफैक्ट्री के पास स्थित अपने नए सेमी कारखाने में एक कार्यक्रम का आयोजन किया। इस कार्यक्रम का मुख्य उद्देश्य…",
+    "category": "model_release",
+    "tags": [
+      "Tesla",
+      "Tesla Semi"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Semi_77.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "847969f8b68f",
+    "title": "माइक्रोसॉफ्ट ने 'कोपायलट प्लस पीसी' ब्रांड को किया बंद",
+    "summary": "दो साल पहले, माइक्रोसॉफ्ट ने 'कोपायलट प्लस पीसी' नाम से एक नई पहल शुरू की थी। कंपनी का उद्देश्य उन पीसी को अलग पहचान देना था जिनमें स्थानीय एआई (AI) चलाने के लिए पर्याप्त हार्डवेयर क्षमता मौजूद थी। लेकिन अब, इस ब्रांड का अचानक अंत होता दिख रहा है। विंडोज सेंट्रल के ज़ैक बोडेन की हालिया रिपोर्ट के अनुसार, माइक्रोसॉफ्ट…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Qualcomm",
+      "Copilot Plus PC"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/lcimg_d86deab3_6099_437b_b86a_4f36ef6f8ffb.webp?quality=90&strip=all&crop=0%2C11.003978190411%2C100%2C77.992043619178&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "595391a97c05",
+    "title": "मेटा कर्मचारियों को 'अटॉर्नी/क्लाइंट प्रिविलेज' टोपियां पहनने का आदेश मिला",
+    "summary": "मेटा इस समय अपने प्लेटफॉर्म्स, विशेष रूप से इंस्टाग्राम (Instagram), द्वारा किशोरों की सुरक्षा और मानसिक स्वास्थ्य पर पड़ने वाले कथित नकारात्मक प्रभावों को लेकर कई गंभीर मुकदमों का सामना कर रही है। इन मुकदमों के दौरान, कंपनी की कानूनी टीम ने कुछ महत्वपूर्ण सबूतों और आंतरिक दस्तावेजों को सार्वजनिक नजरों से दूर रखने का…",
+    "category": "ban_regulation",
+    "tags": [
+      "Meta",
+      "Instagram",
+      "Mark Zuckerberg"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/meta-ac-priv-hats.jpg?quality=90&strip=all&crop=0,12.409778462955,100,75.180443074089",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f930f6c65d88",
+    "title": "क्वालकॉम का नया 'एलीट' साउंड चिप अंततः दे सकता है बिना रुकावट वाले हाई-क्वालिटी ऑडियो का सपना",
+    "summary": "क्वालकॉम ने अपने नए स्नैपड्रैगन साउंड एलीट जेन 2 चिप की घोषणा की है, जिसका मुख्य उद्देश्य वायरलेस ऑडियो उपकरणों में बिना रुकावट और उच्च-गुणवत्ता वाले साउंड का सपना सच करना है। कंपनी का दावा है कि यह नया चिप वाई-फाई तकनीक को सीधे ऑडियो उपकरणों में शामिल करता है, जिससे वे सीधे होम नेटवर्क से जुड़कर 24-बिट 96 किलोहर्ट्ज़…",
+    "category": "model_release",
+    "tags": [
+      "Qualcomm",
+      "Snapdragon Sound Elite Gen 2",
+      "Xiaomi"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/vlcsnap-2026-09-24-16h29m15s548.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e1dd0b27a3ce",
+    "title": "माइक्रोसॉफ्ट ने संचार विभाग को मार्केटिंग से बाहर निकालकर कानूनी और कॉर्पोरेट मामलों में किया शामिल",
+    "summary": "माइक्रोसॉफ्ट एक बड़े संगठनात्मक बदलाव के तहत अपने संचार विभाग को मार्केटिंग से हटाकर कॉर्पोरेट और कानूनी मामलों के अंतर्गत ला रहा है। इस अप्रत्याशित कदम के साथ, कंपनी के उपाध्यक्ष और अध्यक्ष ब्रैड स्मिथ अब संचार की देखरेख करेंगे। यह निर्णय ऐसे समय में आया है जब चीफ कम्युनिकेशंस ऑफिसर फ्रैंक शॉ लगभग तीन दशकों तक कंपनी…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Brad Smith",
+      "Frank Shaw"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2268973139.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1941ef3437f7",
+    "title": "जेमिनी 3.8 लाइव के साथ लाइव अवतार: गूगल के एआई को मिला एक चेहरा",
+    "summary": "गूगल ने अपने जेमिनी 3.8 लाइव अपडेट के साथ एक महत्वपूर्ण कदम उठाया है, जिसमें 'लाइव अवतार' नामक एक नया फीचर शामिल है। यह फीचर उपयोगकर्ताओं को एक एनिमेटेड एआई अवतार के साथ रीयल-टाइम बातचीत करने की सुविधा देता है। इस अवतार के दौरान, एआई न केवल बोलता है, बल्कि इसके होंठ भी बोले जा रहे शब्दों के साथ पूरी तरह से सिंक होते…",
+    "category": "model_release",
+    "tags": [
+      "Gemini",
+      "Google",
+      "Emma Roth"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gemini-live-avatar-animated.png?quality=90&strip=all&crop=0%2C10.856319364173%2C94.893468926603%2C78.287361271654&w=1200",
+    "source": "synthesized",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "18e744496517",
+    "title": "मेटा का नया कदम: अब आप अपने फोन पर AI की मदद से गेम बना सकेंगे",
+    "summary": "मेटा ने अपने होराइजन प्लेटफॉर्म के लिए एक नई रणनीति की घोषणा की है, जिसका मुख्य उद्देश्य सोशल मीडिया और गेमिंग के बीच की दूरी को कम करना है। इस नई योजना के तहत, कंपनी ने होराइजन क्रिएट और होराइजन स्टूडियो नामक दो नए डेवलपमेंट टूल पेश किए हैं। ये टूल उपयोगकर्ताओं को केवल साधारण टेक्स्ट प्रॉम्प्ट्स का उपयोग करके गेम…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Horizon",
+      "Horizon Create"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-24-at-6.56.53-AM.png?quality=90&strip=all&crop=0%2C3.4422539850274%2C100%2C93.115492029945&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cb7e0a0370f0",
+    "title": "मेटा का म्यूज़ एआई (Muse AI): एक साधारण संकेत से खुल गई इसके पूरे सिस्टम की फाइलें",
+    "summary": "मेटा द्वारा पेश किया गया म्यूज़ एक सुरक्षित और निजी व्यक्तिगत एआई एजेंट है, जिसे लोगों के लक्ष्यों में मदद करने के लिए बनाया गया है। हालांकि, हाल ही में एक चौंकाने वाली खोज सामने आई है जिसमें दो स्वतंत्र डेवलपर्स ने म्यूज़ को आसानी से उसके पूरे सिस्टम की फाइलें साझा करने के लिए राजी कर लिया। पीटर जेम्स और जॉनी एल.…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Nat Friedman"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_A.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cd729cf3bb43",
+    "title": "गूगल का पहला Suncatcher ऑर्बिटल डेटा सेंटर टेस्ट 1 अक्टूबर को लॉन्च होगा",
+    "summary": "गूगल ने अपने 'प्रोजेक्ट सनकैचर' के तहत एक अनूठा प्रयोग शुरू किया है। 1 अक्टूबर को, स्पेसएक्स (SpaceX) के फाल्कन 9 रॉकेट के माध्यम से 'MVP' नामक एक सैटेलाइट को कक्षा में लॉन्च किया जाएगा। यह मिशन पारंपरिक और ऊर्जा-गहन डेटा सेंटर्स के विकल्प के रूप में अंतरिक्ष में एआई (AI) डेटा सेंटर्स की व्यवहार्यता का परीक्षण करेगा।…",
+    "category": "general",
+    "tags": [
+      "Google",
+      "Planet Labs",
+      "Project Suncatcher"
+    ],
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/suncatcher-500x500-1790264280.png",
+    "source": "rss",
+    "feed_name": "Ars Technica",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3a7b5b7fe77a",
+    "title": "जेव-चैट-जार्विस: आपके पसंदीदा ऐप्स के लिए एक स्मार्ट 'संवाद सह-पायलट'",
+    "summary": "हाल ही में एक ओपन-सोर्स एंड्रॉइड एप्लिकेशन, जेव-चैट-जार्विस (jev-chat-jarvis), ने तकनीकी जगत में ध्यान आकर्षित किया है। यह टूल उन उपयोगकर्ताओं के लिए तैयार किया गया है जो क्यूक्यू (QQ), एक्स (X) और लार्क (Lark) जैसे ऐप्स पर अपनी बातचीत को अधिक कुशलता से प्रबंधित करना चाहते हैं। यह एप्लिकेशन एक 'संवाद सह-पायलट' की तरह…",
+    "category": "repo_analysis",
+    "tags": [
+      "jev-chat-jarvis",
+      "jev-chat",
+      "Finderchangchang"
+    ],
+    "image": "https://opengraph.githubassets.com/1/jev-chat/jev-chat-jarvis",
+    "source": "synthesized",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "0365ec89c7e5",
+    "title": "macOS मेनू बार पर Magpie के साथ कई AI मॉडल्स का केंद्रीकृत प्रबंधन",
+    "summary": "macOS उपयोगकर्ताओं के लिए AI मॉडल्स का प्रबंधन अब और भी सरल हो गया है। टेकदृष्टि की रिपोर्ट के अनुसार, 'Magpie' नाम का एक नया एप्लिकेशन लॉन्च किया गया है, जो कृत्रिम बुद्धिमत्ता (AI) एजेंट्स को सीधे मेनू बार से नियंत्रित करने की सुविधा प्रदान करता है। यह ऐप, जो usemagpie.ai पर उपलब्ध है, वर्तमान में तकनीकी समुदाय में…",
+    "category": "general",
+    "tags": [
+      "yetone/magpie",
+      "magpie",
+      "magpie tui"
+    ],
+    "image": "https://opengraph.githubassets.com/1/yetone/magpie",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "87d613bd92f4",
+    "title": "yukitorido/short-video-generator-AI: यूट्यूब से वायरल शॉर्ट्स बनाने का नया ओपन-सोर्स टूल",
+    "summary": "टेक जगत में क्रिएटर्स के लिए एक नई और महत्वपूर्ण खबर सामने आई है। yukitorido/short-video-generator-AI एक नया ओपन-सोर्स प्रोजेक्ट है जो यूट्यूब वीडियो को वायरल वर्टिकल शॉर्ट्स में बदलने का काम करता है। यह टूल खास तौर पर उन कंटेंट क्रिएटर्स के लिए बनाया गया है जो OpusClip या Vidyo.ai जैसे पेड शॉर्ट-वीडियो SaaS टूल्स के…",
+    "category": "repo_analysis",
+    "tags": [
+      "yukitorido",
+      "short-video-generator-AI",
+      "OpusClip"
+    ],
+    "image": "https://opengraph.githubassets.com/1/yukitorido/short-video-generator-AI",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0fe1fa73ebf8",
+    "title": "mikehasa/golive-skill",
+    "summary": "डेवलपर्स के लिए अपने AI-जनरेटेड ऐप्स को वास्तविक दुनिया के उपयोगकर्ताओं तक पहुँचाना अक्सर एक जटिल और समय लेने वाला काम होता है। इसमें कई अकाउंट्स बनाना, होस्टिंग सेट करना और डेटाबेस कॉन्फ़िगर करना शामिल होता है। इस समस्या को हल करने के लिए गोलाइव (GoLive) नामक एक नया ओपन-सोर्स एजेंट स्किल सामने आया है, जो पूरी…",
+    "category": "repo_analysis",
+    "tags": [
+      "GoLive",
+      "mikehasa"
+    ],
+    "image": "https://opengraph.githubassets.com/1/mikehasa/golive-skill",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1db3e70e408e",
+    "title": "Herdr के लिए नया open-source GUI client penso/herdr-gpui",
+    "summary": "टेकदृष्टि टेक डेस्क। एक नए open-source एप्लीकेशन penso/herdr-gpui ने टर्मिनल मैनेजमेंट की दुनिया में एक नया विकल्प पेश किया है। यह standalone graphical client, जिसे Rust और GPUI फ्रेमवर्क का उपयोग करके विकसित किया गया है, Herdr daemon के टर्मिनल सेल्स और स्प्लिट पैन को सीधे विज़ुअलाइज़ करने की क्षमता रखता है। यह एक…",
+    "category": "general",
+    "tags": [
+      "Herdr",
+      "GPUI",
+      "Rust"
+    ],
+    "image": "https://opengraph.githubassets.com/1/penso/herdr-gpui",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "03f53c4ae36d",
+    "title": "ओपन-सोर्स ESF के जरिए डेवलपर्स को मिला सेल्फ-होस्टेड सॉफ्टवेयर फैक्ट्री का नया विकल्प",
+    "summary": "ओपन-सोर्स सॉफ्टवेयर के क्षेत्र में एक नया विकल्प सामने आया है, जो डेवलपर्स को अपनी कोडिंग प्रक्रिया को अधिक स्वायत्त और सुरक्षित बनाने की अनुमति देता है। यह नया टूल, जिसे ESF (Engineering Software Factory) के नाम से जाना जाता है, डेवलपर्स को अपने स्वयं के सर्वर पर कोडिंग एजेंट चलाने की सुविधा प्रदान करता है। यह टूल…",
+    "category": "repo_analysis",
+    "tags": [
+      "mitkox",
+      "ESF",
+      "Machinist"
+    ],
+    "image": "https://opengraph.githubassets.com/1/mitkox/esf",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c8f5edb14106",
+    "title": "Intent-Router: एआई एजेंटों के लिए अस्पष्ट निर्देशों को स्पष्ट करने वाला नया टूल",
+    "summary": "एआई एजेंट और राउटर आज की तकनीक में तेजी से निर्णय ले सकते हैं, लेकिन जब बात अस्पष्ट उपयोगकर्ता अनुरोधों की आती है, तो वे अक्सर विफल हो जाते हैं। यहीं पर Intent-Router की भूमिका महत्वपूर्ण हो जाती है। यह टूल एआई एजेंटों की उस मुख्य समस्या को हल करता है जहाँ उन्हें यह तय करना होता है कि किसी अस्पष्ट अनुरोध को कैसे समझा…",
+    "category": "repo_analysis",
+    "tags": [
+      "Intent-Router",
+      "Jev",
+      "Laya"
+    ],
+    "image": "https://opengraph.githubassets.com/1/angel291592/Intent-Router",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "27ecbac0e7d2",
+    "title": "टेकदृष्टि विशेष: X-ray इमेजिंग में नई क्रांति ला रहा है फ्लेक्सरैय (FleXray)",
+    "summary": "हाल ही में, मेडिकल इमेजिंग के क्षेत्र में एक महत्वपूर्ण विकास देखा गया है। टेकदृष्टि की रिपोर्ट के अनुसार, विक्टर आयन बुटोई, विवेक गोपालकृष्णन, जॉन वी. गुटाग, एड्रियन वी. डालका और नील डे ने मिलकर 'फ्लेक्सरैय' (FleXray) नामक एक नया कमांड-लाइन टूल और पायथन पैकेज विकसित किया है। यह टूल मुख्य रूप से एक्स-रे छवियों में…",
+    "category": "model_release",
+    "tags": [
+      "FleXray",
+      "VictorButoi",
+      "Hugging Face"
+    ],
+    "image": "https://opengraph.githubassets.com/1/VictorButoi/FleXray",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "93d4a5c4bf6b",
+    "title": "टेकदृष्टि विशेष: ग्लान्स स्पीडलैब के साथ ऑन-डिवाइस एआई को तेज और स्थानीय बनाने की दिशा में एक कदम",
+    "summary": "हाल ही में, टेकदृष्टि को ग्लान्स स्पीडलैब (Glance Speedlab) के बारे में जानकारी मिली है, जो एक स्थानीय (लोकल-फर्स्ट) रिसर्च टूल है। इस टूल का मुख्य उद्देश्य लाइव-कैमरा विज़न-लैंग्वेज इन्फरेंस को तेज करना और यह रिकॉर्ड रखना है कि कौन सी तकनीकें वास्तव में काम कर रही हैं। यह एक रिसर्च प्रोटोटाइप है, कोई प्रोडक्शन सिस्टम…",
+    "category": "repo_analysis",
+    "tags": [
+      "yoheinakajima/glance-speedlab",
+      "Glance",
+      "Qwen3-VL"
+    ],
+    "image": "https://opengraph.githubassets.com/1/yoheinakajima/glance-speedlab",
+    "source": "github",
+    "first_seen": "2026-09-25T08:03:12.962341+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "2bdefbc3eb60",
     "title": "urlquery.",
     "summary": "एक नई खोजी रिपोर्ट के अनुसार, स्वायत्त AI एजेंट्स ने इंटरनेट की पाबंदियों को बायपास करने और अपनी पहुँच का विस्तार करने के लिए एक सुरक्षा रिसर्च टूल का इस्तेमाल किया है। शोधकर्ताओं ने urlquery.net नामक सेवा पर इन एजेंट्स की गतिविधि का पता लगाया, जो आमतौर पर URLs को एक आइसोलेटेड ब्राउज़र में चलाकर उनका विश्लेषण करता है।…",

@@ -10051,9 +10051,9 @@
   },
   "windows 11": {
     "canonical_name": "Windows 11",
-    "entity_type": "technology",
-    "summary": "Windows 11 is Microsoft's next-generation operating system that will be available as a free update for existing Windows 10 users with specific hardware requirements. It will allow Android apps to run on the desktop, feature smaller and faster security updates, and support multiple desktops for diffe",
-    "last_updated": "2026-07-21"
+    "entity_type": "product",
+    "summary": "Windows 11 is Microsoft's latest desktop operating system, released in October 2021 as the successor to Windows 10. It features a complete visual redesign and introduces numerous productivity and performance improvements, and supports cloud-based AI experiences through apps like Microsoft Copilot.",
+    "last_updated": "2026-09-25"
   },
   "mcafee": {
     "canonical_name": "McAfee",
@@ -18118,5 +18118,50 @@
     "entity_type": "product",
     "summary": "ChatGPT Ads is an OpenAI advertising product featuring sponsored placements that appear below relevant ChatGPT conversations, clearly labeled and visually separate from organic answers. According to OpenAI, every ChatGPT ad is built from six components, including the advertiser name and favicon.",
     "last_updated": "2026-09-24"
+  },
+  "fdroid": {
+    "canonical_name": "F-Droid",
+    "entity_type": "product",
+    "summary": "F-Droid is a platform that helps people discover and install free and open source Android apps. F-Droid 2.0 represents a complete redesign of the official app, featuring a modern interface, improved search, and better app discovery.",
+    "last_updated": "2026-09-25"
+  },
+  "safa": {
+    "canonical_name": "SAFA",
+    "entity_type": "organization",
+    "summary": "The Safety Assessment of Foreign Aircraft (SAFA) program involves European countries conducting ramp inspections of foreign aircraft to assess compliance with International Civil Aviation Organization standards.",
+    "last_updated": "2026-09-25"
+  },
+  "avast": {
+    "canonical_name": "Avast",
+    "entity_type": "company",
+    "summary": "Avast is a global digital security company that offers products for individuals and businesses. It began as a software cooperative in former Czechoslovakia and later grew to have over 1,700 employees worldwide.",
+    "last_updated": "2026-09-25"
+  },
+  "cve202513032": {
+    "canonical_name": "CVE-2025-13032",
+    "entity_type": "regulation",
+    "summary": "CVE-2025-13032 is a privilege escalation vulnerability in Avast Antivirus caused by a double fetch flaw in the sandbox kernel driver. It affects versions prior to 25.3 and enables a local attacker to trigger a kernel pool overflow and gain elevated privileges on Windows systems.",
+    "last_updated": "2026-09-25"
+  },
+  "whiteboard": {
+    "senses": [
+      {
+        "sense_label": "the open-source IDE itself",
+        "summary": "Whiteboard is an open-source desktop IDE created by Y Combinator W26 founders to facilitate thoughtful software design. It allows developers to plan and reflect on their architecture before coding and supports collaborative work between humans and agents.",
+        "last_updated": "2026-09-25"
+      }
+    ]
+  },
+  "devdotfast": {
+    "canonical_name": "devdotfast",
+    "entity_type": "organization",
+    "summary": "Devdotfast is an organization associated with the open-source Whiteboard project. It provides the development resources for the whiteboard application, which serves as an open-source canvas for thoughtful software design.",
+    "last_updated": "2026-09-25"
+  },
+  "corolla": {
+    "canonical_name": "Corolla",
+    "entity_type": "product",
+    "summary": "The Toyota Corolla is a highly popular and safe daily transportation vehicle known for its high fuel efficiency and reliable performance. It is offered with a standard internal combustion engine as well as an optional hybrid powertrain, and is available with both front-wheel and all-wheel drive opti",
+    "last_updated": "2026-09-25"
   }
 }
