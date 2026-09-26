@@ -3587,8 +3587,8 @@
   "mark zuckerberg": {
     "canonical_name": "Mark Zuckerberg",
     "entity_type": "person",
-    "summary": "Mark Zuckerberg is the millennial CEO of Meta, credited with creating a social network that has more monthly active users than any single country in the world. He has weathered success and controversy over 19 years, and his majority voting rights give him complete control of the company, which has a",
-    "last_updated": "2026-07-06"
+    "summary": "Mark Zuckerberg is a prominent computer programmer and the co-founder of Facebook, a social media platform that has significantly shaped online communication since its launch in 2004. Born on May 14, 1984, in White Plains, New York, he displayed an early affinity for technology and programming, crea",
+    "last_updated": "2026-09-26"
   },
   "69m": {
     "canonical_name": "$69M",
@@ -8205,10 +8205,13 @@
     "last_updated": "2026-07-17"
   },
   "ai technology": {
-    "canonical_name": "AI (technology)",
-    "entity_type": "technology",
-    "summary": "Artificial intelligence is the ability of a computer to perform tasks that typically require human intellectual processes, such as reasoning. While current AIs can perform specific tasks as well as humans, they lack the full flexibility of human intelligence. AI and machine learning are related but",
-    "last_updated": "2026-07-17"
+    "senses": [
+      {
+        "sense_label": "AI (technology)",
+        "summary": "Artificial intelligence broadly refers to applications of technology that perform tasks resembling human cognitive function, generally defined as the capability of a machine to imitate intelligent human behavior. AI typically involves the theory and development of computer systems able to perform ta",
+        "last_updated": "2026-09-26"
+      }
+    ]
   },
   "ecovacs deebot x11": {
     "canonical_name": "Ecovacs Deebot X11",
@@ -18163,5 +18166,65 @@
     "entity_type": "product",
     "summary": "The Toyota Corolla is a highly popular and safe daily transportation vehicle known for its high fuel efficiency and reliable performance. It is offered with a standard internal combustion engine as well as an optional hybrid powertrain, and is available with both front-wheel and all-wheel drive opti",
     "last_updated": "2026-09-25"
+  },
+  "palisade research": {
+    "canonical_name": "Palisade Research",
+    "entity_type": "organization",
+    "summary": "Palisade Research is a nonprofit based in Berkeley, California, that studies AI capabilities to prevent loss of control. The organization was founded after its leader, Jeffrey, saw firsthand how quickly AI progress was advancing while building the security team at Anthropic in 2022.",
+    "last_updated": "2026-09-26"
+  },
+  "nightingale": {
+    "canonical_name": "Nightingale",
+    "entity_type": "organization",
+    "summary": "The Nightingale Society promotes knowledge of Florence Nightingale's contributions to nursing and public health, while also defending her legacy. Founded in 1920, Nightingale is an independent K–12 girls' school in Berkeley, California, that provides a liberal arts education adapted to the modern wo",
+    "last_updated": "2026-09-26"
+  },
+  "trajectory institute": {
+    "canonical_name": "Trajectory Institute",
+    "entity_type": "organization",
+    "summary": "Trajectory Institute on AI is a nonpartisan research organization in Washington, DC, that studies where AI could take humanity and publishes its analysis openly for policymakers and the public. It has collaborated on research agendas for moderating AI development and has published reports on AI beha",
+    "last_updated": "2026-09-26"
+  },
+  "lightcone infrastructure": {
+    "canonical_name": "Lightcone Infrastructure",
+    "entity_type": "organization",
+    "summary": "Lightcone Infrastructure is a registered 501(c)(3) nonprofit in Berkeley, California, dedicated to the Art of Rationality. It builds services and infrastructure to help humanity navigate its current period, including operating a community forum, a campus and event venue, and a month-long residency f",
+    "last_updated": "2026-09-26"
+  },
+  "nuanced product": {
+    "canonical_name": "Nuanced (product)",
+    "entity_type": "product",
+    "summary": "Nuanced is a local code analysis tool that builds structured call graphs to give developers and LLMs a precise understanding of how code behaves. The provided material also mentions that certain Nuanced panels incorporate an antibacterial coating to enhance surface cleanliness.",
+    "last_updated": "2026-09-26"
+  },
+  "software development technology": {
+    "canonical_name": "software development (technology)",
+    "entity_type": "technology",
+    "summary": "Software development technology in 2026 is heavily driven by AI tools, low-code platforms, cloud development tools, programming languages, and databases. AI use in this process has grown significantly, with 78.5% of engineers using AI tools and 47.1% using them daily according to the Stack Overflow",
+    "last_updated": "2026-09-26"
+  },
+  "flyio": {
+    "canonical_name": "Fly.io",
+    "entity_type": "company",
+    "summary": "Fly.io is a developer-focused public cloud platform designed to be easy to deploy on and powerful to grow on. The company has been developing the platform since 2017.",
+    "last_updated": "2026-09-26"
+  },
+  "kurt": {
+    "canonical_name": "Kurt",
+    "entity_type": "person",
+    "summary": "The provided material references multiple individuals named Kurt, including Kurt Cobain, a legendary singer-songwriter for Nirvana. It also lists profiles for Kurt Person on LinkedIn and Instagram, and a Kurt Person who is a Principal Owner at KP Property Services, though the material is fragmented",
+    "last_updated": "2026-09-26"
+  },
+  "cambridge analytica": {
+    "canonical_name": "Cambridge Analytica",
+    "entity_type": "company",
+    "summary": "Cambridge Analytica was a defunct consulting company that specialized in using data science methodologies to support political campaigns. The company declared bankruptcy in 2018.",
+    "last_updated": "2026-09-26"
+  },
+  "department of defense": {
+    "canonical_name": "Department of Defense",
+    "entity_type": "organization",
+    "summary": "The Department of Defense (DOD) provides the military forces needed to deter war and to protect the security of the United States. Since its creation and that of its predecessor organizations in 1775, the Department has evolved into a global presence.",
+    "last_updated": "2026-09-26"
   }
 }
