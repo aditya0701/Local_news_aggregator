@@ -8044,9 +8044,9 @@
   },
   "did": {
     "canonical_name": "D-ID",
-    "entity_type": "model_release",
-    "summary": "D-ID is an advanced AI-generated video creation platform that offers a variety of products that allow for creative, interactive and engaging digital user experiences. With its Natural User Interface (NUI), it aims to transform how people... D-ID specializes in AI-generated video content featuring di",
-    "last_updated": "2026-07-17"
+    "entity_type": "company",
+    "summary": "D-ID is an AI company that supports video creation and real-time interactions in over 120 languages, allowing users to connect with global audiences. It replaces expensive video shooting with AI efficiency to deliver professional-grade results at a fraction of the cost and offers API integration for",
+    "last_updated": "2026-09-27"
   },
   "sundar pichai": {
     "canonical_name": "Sundar Pichai",
@@ -8232,13 +8232,10 @@
     "last_updated": "2026-07-17"
   },
   "ai mode": {
-    "senses": [
-      {
-        "sense_label": "AI Mode",
-        "summary": "AI Mode uses Gemini 3's next-generation intelligence, featuring advanced reasoning, thinking, and multimodal understanding to answer complex questions. It intelligently organizes information and provides links to explore topics further, allowing users to ask questions with all the details they care",
-        "last_updated": "2026-07-17"
-      }
-    ]
+    "canonical_name": "AI Mode",
+    "entity_type": "product",
+    "summary": "AI Mode is a research tool designed to make exploring any topic easy by allowing users to ask questions all at once with all the details they care about. It uses Gemini 3's next-generation intelligence to organize information, provide answers in a simple and intuitive way, and include links to explo",
+    "last_updated": "2026-09-27"
   },
   "isomorphic labs": {
     "canonical_name": "Isomorphic Labs",
@@ -18226,5 +18223,167 @@
     "entity_type": "organization",
     "summary": "The Department of Defense (DOD) provides the military forces needed to deter war and to protect the security of the United States. Since its creation and that of its predecessor organizations in 1775, the Department has evolved into a global presence.",
     "last_updated": "2026-09-26"
+  },
+  "flip fluid": {
+    "canonical_name": "Flip Fluid",
+    "entity_type": "product",
+    "summary": "Flip Fluid is a Blender add-on designed for artists and simulation enthusiasts to create small-scale fluid effects with surface tension and particle sheeting. It simulates the natural cohesion of surface molecules to form beads and drips, and adds an elastic look to splashes, featuring one-click sim",
+    "last_updated": "2026-09-27"
+  },
+  "flip dots": {
+    "canonical_name": "Flip Dots",
+    "entity_type": "product",
+    "summary": "Flip Dots are electromagnetic display components and flip-disc based displays offered by a company with over 25 years of experience. They serve as interactive signs and industrial displays that operate without power, remain visible in various light conditions, and are positioned as a traditional alt",
+    "last_updated": "2026-09-27"
+  },
+  "breakfast studio": {
+    "canonical_name": "Breakfast Studio",
+    "entity_type": "company",
+    "summary": "Breakfast Studio is an award-winning growth and creative studio that partners with elite luxury, lifestyle, and creative brands. It specializes in transforming market presence through brand development, digital PR, AI-driven content production, and high-performance e-commerce architecture.",
+    "last_updated": "2026-09-27"
+  },
+  "liquid": {
+    "canonical_name": "liquid",
+    "entity_type": "material",
+    "summary": "Liquid raw materials are chemical substances that exist in fluid form at standard temperature and pressure conditions. Liquid crystals, a type of liquid material, are used in optoelectronic devices, biomedical applications, sensors, and packaging, while liquid crystal polymers combine intrinsic prop",
+    "last_updated": "2026-09-27"
+  },
+  "authors guild": {
+    "canonical_name": "Authors Guild",
+    "entity_type": "organization",
+    "summary": "The Authors Guild is the nation's oldest and largest professional organization for published writers, with more than 18,000 members. It provides advocacy on issues of free expression and copyright protection while working to support working writers and their ability to earn a living from authorship.",
+    "last_updated": "2026-09-27"
+  },
+  "newpipe": {
+    "canonical_name": "NewPipe",
+    "entity_type": "product",
+    "summary": "NewPipe is a free, open-source Android application designed to provide an intuitive, feature-rich, and privacy-friendly way to watch YouTube videos without ads or questionable permissions. It is distributed under the GPL 3.0 license and is available for download on F-Droid.",
+    "last_updated": "2026-09-27"
+  },
+  "pipepipe": {
+    "canonical_name": "PipePipe",
+    "entity_type": "product",
+    "summary": "PipePipe is an open-source Android application that allows users to browse YouTube, NicoNico, BiliBili, and other streaming services freely. The project is GPLv3 licensed and is hosted on both Codeberg and GitHub.",
+    "last_updated": "2026-09-27"
+  },
+  "sponsorblock": {
+    "canonical_name": "SponsorBlock",
+    "entity_type": "technology",
+    "summary": "SponsorBlock is an open-source, crowdsourced browser extension and API that automatically skips sponsor segments, intros, outros, and other specified categories in YouTube videos. It operates using a privacy-preserving query system where users submit data about sponsor occurrences.",
+    "last_updated": "2026-09-27"
+  },
+  "deepseek elastic compute": {
+    "canonical_name": "DeepSeek Elastic Compute",
+    "entity_type": "technology",
+    "summary": "DeepSeek Elastic Compute (DSec) is a production sandbox platform designed to support large-scale agentic training and evaluation with large language models. It provides an elastic execution platform that unifies FnCall, container, microVM, and full-VM sandbox backends through a single SDK to handle",
+    "last_updated": "2026-09-27"
+  },
+  "pnoē": {
+    "canonical_name": "PNOĒ",
+    "entity_type": "product",
+    "summary": "PNOĒ is a healthcare AI company that has developed a portable, clinical-grade metabolic analysis system. This system utilizes breath analysis to provide a comprehensive physiological assessment and measures oxygen consumption and carbon dioxide production to evaluate 23 biomarkers.",
+    "last_updated": "2026-09-27"
+  },
+  "blue cross blue shield association": {
+    "canonical_name": "Blue Cross Blue Shield Association",
+    "entity_type": "organization",
+    "summary": "The Blue Cross Blue Shield Association licenses Blue Cross Blue Shield of Michigan to offer certain products and services under the Blue Cross and Blue Shield names. Blue Cross Blue Shield of Michigan is an independent organization governed by its own board of directors and solely responsible for it",
+    "last_updated": "2026-09-27"
+  },
+  "abridge": {
+    "canonical_name": "Abridge",
+    "entity_type": "company",
+    "summary": "Abridge is a company founded in 2018 by Dr. Shiv Rao to use generative AI for healthcare, specifically to transform medical documentation and patient care by freeing clinicians from the time-consuming paperwork required after patient visits.",
+    "last_updated": "2026-09-27"
+  },
+  "shiv rao": {
+    "canonical_name": "Shiv Rao",
+    "entity_type": "person",
+    "summary": "Shiv Rao, MD, is the Founder and CEO of Abridge and a practicing cardiologist at UPMC. He previously led the provider-facing investment portfolio for UPMC and helped fund a Machine Learning in Health program at Carnegie Mellon University.",
+    "last_updated": "2026-09-27"
+  },
+  "alex gibney": {
+    "canonical_name": "Alex Gibney",
+    "entity_type": "person",
+    "summary": "Alex Gibney is an Oscar-winning documentary director and producer, recognized for acclaimed films like Taxi to the Dark Side and Going Clear. He is known for a signature cinematic style and has received numerous awards, including an Academy Award, multiple Emmys, and a Grammy.",
+    "last_updated": "2026-09-27"
+  },
+  "bleecker street": {
+    "canonical_name": "Bleecker Street",
+    "entity_type": "company",
+    "summary": "Bleecker Street Media LLC is an American independent film distribution and production company founded in 2014. It specializes in acquiring and releasing 'smart house' films that blend blockbuster entertainment with substantive, socially conscious storytelling.",
+    "last_updated": "2026-09-27"
+  },
+  "going clear": {
+    "canonical_name": "Going Clear",
+    "entity_type": "product",
+    "summary": "GoingClear is a company founded in 2001 that helps businesses win through performance-grade websites and digital strategies. It specializes in web design, development, site optimization, and leveraging digital tactics to drive growth and conversions.",
+    "last_updated": "2026-09-27"
+  },
+  "the inventor": {
+    "canonical_name": "The Inventor",
+    "entity_type": "product",
+    "summary": "The Inventor is a product used by mechanical engineers, product designers, and industrial design teams to increase innovation and reduce time to market. It features built-in simulation and stress analysis, and helps designers optimize product performance while preserving existing design data.",
+    "last_updated": "2026-09-27"
+  },
+  "venice international film festival": {
+    "canonical_name": "Venice International Film Festival",
+    "entity_type": "event",
+    "summary": "The Venice International Film Festival is an annual event organized by La Biennale di Venezia, which includes an inauguration ceremony, screenings, and a closing ceremony to award official prizes such as the Golden Lions for Lifetime Achievement.",
+    "last_updated": "2026-09-27"
+  },
+  "colossyan": {
+    "canonical_name": "Colossyan",
+    "entity_type": "company",
+    "summary": "Colossyan is an AI video platform designed for training and enablement, turning expert knowledge into engaging, personalized training videos without requiring editing skills or expensive production. The company measures product success by the value and lives improved for its customers rather than tr",
+    "last_updated": "2026-09-27"
+  },
+  "roleplay sessions": {
+    "canonical_name": "Roleplay Sessions",
+    "entity_type": "product",
+    "summary": "Roleplay Sessions is a product offering a live practice conversation with a realistic, interactive Avatar to help users rehearse real-world scenarios. It provides live coaching for skills training, particularly in sales, support, and manager development, by allowing learners to interact with avatars",
+    "last_updated": "2026-09-27"
+  },
+  "npr": {
+    "canonical_name": "NPR",
+    "entity_type": "organization",
+    "summary": "NPR is an independent, nonprofit media organization founded on a mission to create a more informed public. Through its network of member stations, NPR connects with millions of Americans to explore the news, ideas, and what it means to be human.",
+    "last_updated": "2026-09-27"
+  },
+  "ira glass": {
+    "canonical_name": "Ira Glass",
+    "entity_type": "person",
+    "summary": "Ira Glass is an American radio and television personality known as the producer and host of the public radio program 'This American Life.' He began his public radio career in 1978 as an intern at NPR’s headquarters in Washington, D.C., and later became the show's host and creator.",
+    "last_updated": "2026-09-27"
+  },
+  "wild card": {
+    "canonical_name": "Wild Card",
+    "entity_type": "product",
+    "summary": "Wild Card is a trading card company that has challenged the status quo of the trading card industry for more than three decades through bold ideas and premium designs. The company releases various themed sets, including upcoming releases like Haunted Hits Monster Hunt and Turf Monsters.",
+    "last_updated": "2026-09-27"
+  },
+  "thinkflowlab": {
+    "canonical_name": "ThinkFlowLab",
+    "entity_type": "organization",
+    "summary": "ThinkFlowLab is an organization with no publicly listed members. It focuses on system 1 decision models for AI agents, including browser, computer, game, and robotics applications, alongside Python-based inference engines.",
+    "last_updated": "2026-09-27"
+  },
+  "system 1": {
+    "canonical_name": "System 1",
+    "entity_type": "technology",
+    "summary": "System 1, a concept from psychologist Daniel Kahneman, refers to fast, intuitive, and automatic human thinking. In AI, it is applied to create models that make rapid decisions without the need for slow, deliberate processing.",
+    "last_updated": "2026-09-27"
+  },
+  "cuas1": {
+    "canonical_name": "Cua-S1",
+    "entity_type": "ai_model",
+    "summary": "Cua-S1 is a family of AI models that includes a small, 706,048-parameter option scorer designed for GUI form filling. Unlike autoregressive LLMs, it does not generate text but functions as a decision layer for specific tasks like form completion.",
+    "last_updated": "2026-09-27"
+  },
+  "webvoyager": {
+    "canonical_name": "WebVoyager",
+    "entity_type": "ai_model",
+    "summary": "WebVoyager is a Large Multimodal Model (LMM) powered web agent capable of completing user instructions end-to-end by interacting with real-world websites. It utilizes a Selenium-based browsing environment to execute tasks across various online platforms.",
+    "last_updated": "2026-09-27"
   }
 }
