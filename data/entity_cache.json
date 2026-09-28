@@ -3018,13 +3018,10 @@
     "last_updated": "2026-09-22"
   },
   "arxivlabs": {
-    "senses": [
-      {
-        "sense_label": "software framework",
-        "summary": "arXivLabs is a project where volunteers can contribute to the arXiv codebase. The team is experimenting with new projects that add value for stakeholders and advance research, and interested parties can submit proposals through a support portal.",
-        "last_updated": "2026-07-06"
-      }
-    ]
+    "canonical_name": "arXivLabs",
+    "entity_type": "organization",
+    "summary": "arXivLabs is a framework for assessing and integrating community-built tools into the arXiv platform. It temporarily paused new proposals as of November 12, 2025, though existing projects remain active.",
+    "last_updated": "2026-09-28"
   },
   "coursera": {
     "canonical_name": "Coursera",
@@ -18385,5 +18382,215 @@
     "entity_type": "ai_model",
     "summary": "WebVoyager is a Large Multimodal Model (LMM) powered web agent capable of completing user instructions end-to-end by interacting with real-world websites. It utilizes a Selenium-based browsing environment to execute tasks across various online platforms.",
     "last_updated": "2026-09-27"
+  },
+  "metacognition": {
+    "canonical_name": "metacognition",
+    "entity_type": "technology",
+    "summary": "Metacognition refers to knowledge about one’s own thoughts and cognitive processes, as well as the cognitive regulation involved in directing learning. It enables learners to recognize gaps in their knowledge and integrate new information into their existing cognitive framework.",
+    "last_updated": "2026-09-28"
+  },
+  "arxiv": {
+    "canonical_name": "arXiv",
+    "entity_type": "organization",
+    "summary": "arXiv is a research-sharing service and community resource founded in 1991. In 2026, it established itself as an independent nonprofit organization to support its operations.",
+    "last_updated": "2026-09-28"
+  },
+  "ember1": {
+    "canonical_name": "Ember-1",
+    "entity_type": "ai_model",
+    "summary": "Ember-1 is a research-preview reasoning model from Fireworks built on Kimi K3 for coding and agentic workflows. It supports image input, function calling, and a 1M-token context window, and is billed to users at API rates with $5 of credits provided every 30 days for free users.",
+    "last_updated": "2026-09-28"
+  },
+  "fireworks research": {
+    "canonical_name": "Fireworks Research",
+    "entity_type": "organization",
+    "summary": "Fireworks Research refers to the Fireworks Research and Development Centre (FRDC) located in Sivakasi, India, which is equipped with advanced physical, chemical, pyro, and instrumentation laboratories. The website also belongs to the Petroleum and Explosives Safety Organization (PESO), a statutory b",
+    "last_updated": "2026-09-28"
+  },
+  "fireworks training platform": {
+    "canonical_name": "Fireworks Training platform",
+    "entity_type": "product",
+    "summary": "The Fireworks Training platform, which includes Fireworks Lab and the Training API, provides managed training and rollout infrastructure for ML teams. It allows users to run custom training loops on open models by connecting their Python training loops to Fireworks-managed distributed compute, with",
+    "last_updated": "2026-09-28"
+  },
+  "opus 55": {
+    "canonical_name": "Opus 5.5",
+    "entity_type": "ai_model",
+    "summary": "Claude Opus 5.5 is a reasoning-enabled AI model released in September 2026 that supports both text and image inputs. It is available through providers listed on Artificial Analysis and achieves a maximum output speed of 89 tokens per second.",
+    "last_updated": "2026-09-28"
+  },
+  "blender": {
+    "canonical_name": "Blender",
+    "entity_type": "product",
+    "summary": "Blender is a free and open-source 3D creation suite licensed under the GNU GPL and developed by its contributors. It features production-ready camera and object tracking, geometry nodes, physics simulations, and memory-efficient rendering in version 5.2 LTS.",
+    "last_updated": "2026-09-28"
+  },
+  "werner herzog": {
+    "canonical_name": "Werner Herzog",
+    "entity_type": "person",
+    "summary": "Werner Herzog was born on September 5, 1942, in Munich, Germany, and grew up in a remote Bavarian town near the Austrian border under difficult circumstances. His mother fled the city with him as an infant to escape allied bombings, and his parents separated after his father returned from the war in",
+    "last_updated": "2026-09-28"
+  },
+  "nissan": {
+    "canonical_name": "Nissan",
+    "entity_type": "company",
+    "summary": "Nissan’s Company Outline: Information about overseas facilities, executive lineup, and heritage. Because JavaScript is disabled within your browser, some features are not available. Please enable JavaScript in your browser. As of March 31, 2026 Our Brands Our Leadership Sustainability Major Faciliti",
+    "last_updated": "2026-09-28"
+  },
+  "epower": {
+    "canonical_name": "e-POWER",
+    "entity_type": "technology",
+    "summary": "The e-POWER system offers full electric-motor drive, using the onboard gasoline engine only to generate electricity. This means the cabin is quieter than a traditional gasoline-powered car, making it much easier to enjoy a conversation. Because JavaScript is disabled within your browser, some featur",
+    "last_updated": "2026-09-28"
+  },
+  "new york": {
+    "canonical_name": "New York",
+    "entity_type": "regulation",
+    "summary": "Mar 8, 2026 · The New York Codes, Rules and Regulations (NYCRR) detail regulatory rules and procedures adopted by state agencies to implement those statutes. For anyone navigating compliance or research, these acronyms are essential: Administrative Code, Consolidated Laws, and NYCRR. Mar 8, 2026 · T",
+    "last_updated": "2026-09-28"
+  },
+  "scam checker": {
+    "canonical_name": "Scam Checker",
+    "entity_type": "product",
+    "summary": "Scam Checker is an online tool designed to help users identify potential romance scams or catfishing by allowing them to verify matches instantly. It features a test to spot scams, educational content through 'Scam University', and offers expert reviews, an ambassador program, and recovery assistanc",
+    "last_updated": "2026-09-28"
+  },
+  "gsma": {
+    "canonical_name": "GSMA",
+    "entity_type": "organization",
+    "summary": "The GSMA is a global organization that unites the mobile ecosystem to discover, develop, and deliver foundational innovation. Its vision is to unlock the full power of connectivity to help people, industry, and society thrive, and it represents over 1000 mobile operators and businesses worldwide.",
+    "last_updated": "2026-09-28"
+  },
+  "jhunjhunwala": {
+    "canonical_name": "Jhunjhunwala",
+    "entity_type": "person",
+    "summary": "Rakesh Radheyshyam Jhunjhunwala was an Indian billionaire investor, stock trader, and Chartered Accountant who began investing in 1985. His son, Shivanshu Jhunjhunwala, is the current Chairman and Managing Director of Century Extrusions Ltd. and holds undergraduate and graduate degrees from Duke Uni",
+    "last_updated": "2026-09-28"
+  },
+  "wayve": {
+    "canonical_name": "Wayve",
+    "entity_type": "startup",
+    "summary": "May 27, 2026 · Find out how Wayve is revolutionizing autonomous mobility with Embodied AI. Discover their vision and meet the team driving the company forward. Wayve is pioneering a new approach to assisted and automated driving, building end-to-end Embodied AI that scales across any vehicle, anywhe",
+    "last_updated": "2026-09-28"
+  },
+  "mercedesbenz": {
+    "canonical_name": "Mercedes-Benz",
+    "entity_type": "company",
+    "summary": "The Mercedes-Benz Group AG (former Daimler AG) is one of the world's most successful automotive companies. With Mercedes-Benz AG, the Group offers a wide range of high-end passenger cars and premium vans. Here you can find information and key figures like revenue, number of employees, and automotive",
+    "last_updated": "2026-09-28"
+  },
+  "tokyo": {
+    "canonical_name": "Tokyo",
+    "entity_type": "city",
+    "summary": "Aug 17, 2026 · Tokyo, city and capital of Tokyo ‘to’ (metropolis) and of Japan. It is located at the head of Tokyo Bay on the Pacific coast of central Honshu. It is the focus of the vast metropolitan area often called Greater Tokyo, the largest urban and industrial agglomeration in Japan. The specia",
+    "last_updated": "2026-09-28"
+  },
+  "apple airpods max 2": {
+    "canonical_name": "Apple AirPods Max 2",
+    "entity_type": "product",
+    "summary": "The Apple AirPods Max 2 are over-ear headphones designed for an unequaled fit and comfort. They feature a transformed H2 chip that delivers high-fidelity audio with richer bass, natural vocals, and precise instrument localization.",
+    "last_updated": "2026-09-28"
+  },
+  "dolby atmos": {
+    "canonical_name": "Dolby Atmos",
+    "entity_type": "technology",
+    "summary": "Dolby Atmos is a spatial sound technology that reinvents how entertainment is created and experienced by allowing creatives to place each sound exactly where they want it to go. It provides a realistic and immersive audio experience that reveals depth, clarity, and details across gaming, movies, and",
+    "last_updated": "2026-09-28"
+  },
+  "arri": {
+    "canonical_name": "Arri",
+    "entity_type": "company",
+    "summary": "Since 1917. Delve into the 100-year history of ARRI, a global player within the motion picture industry. A world of movie magic awaits. Discover more now! Inspiring Images. Since 1917. ARRI is dedicated to connecting creativity and future technologies for moving images. We provide the global enterta",
+    "last_updated": "2026-09-28"
+  },
+  "magic 9 pro max": {
+    "canonical_name": "Magic 9 Pro Max",
+    "entity_type": "product",
+    "summary": "Honor Magic9 Pro Max: Full Specifications, Features, and Comprehensive Overview The Honor Magic9 Pro Max represents the absolute pinnacle of smartphone technology, delivering ultra-premium engineering across every hardware category. Sep 21, 2026 · The upcoming Honor Magic9 Pro Max will come with And",
+    "last_updated": "2026-09-28"
+  },
+  "thoughtful things": {
+    "canonical_name": "Thoughtful Things",
+    "entity_type": "company",
+    "summary": "Apr 7, 2026 · Discover Company Info on THOUGHTFUL THINGS LLC in West Hollywood, CA, such as Contacts, Addresses, Reviews, and Registered Agent. We're teaching things to think. Calm, useful, thoughtful technology powered by tiny models. Calm, useful, thoughtful technology powered by tiny models. Thou",
+    "last_updated": "2026-09-28"
+  },
+  "engram": {
+    "canonical_name": "Engram",
+    "entity_type": "product",
+    "summary": "Translate to English With the power of Large Language Models, Engram can smoothly translate even the trickiest phrases while preserving meaning. Customize translations to perfectly fit your needs with eleven styles: Academic, Legal, Advertising, and more. No credit card required What do you plan for",
+    "last_updated": "2026-09-28"
+  },
+  "olpc": {
+    "canonical_name": "OLPC",
+    "entity_type": "organization",
+    "summary": "OLPC is an organization that delivers an educational ecosystem to create innovative learning experiences, enabling children around the world to build knowledge and encourage individual empowerment. It implements educational solutions through governments, private sector, and Non-Profit organizations",
+    "last_updated": "2026-09-28"
+  },
+  "xo1": {
+    "canonical_name": "XO-1",
+    "entity_type": "product",
+    "summary": "The XO-1 is a brutally fast hypercar and AWD supercar intended for only the most experienced drivers, featuring a top speed of 100+ mph. Its aerodynamic improvements provide predictable straight-line performance and confidence-inspiring handling.",
+    "last_updated": "2026-09-28"
+  },
+  "david imel": {
+    "canonical_name": "David Imel",
+    "entity_type": "person",
+    "summary": "David Imel is the IPAC Manager, holding a PhD in Physics and possessing 27 years of experience at JPL and Caltech. His career includes designing and executing NASA space and airborne missions as well as ground-based astronomy projects.",
+    "last_updated": "2026-09-28"
+  },
+  "adi robertson": {
+    "canonical_name": "Adi Robertson",
+    "entity_type": "person",
+    "summary": "Adi Robertson is a senior tech and policy editor at The Verge, focusing on online platforms and free expression. She has covered the intersection of technology, culture, and policy since 2011, with a focus on virtual and augmented reality, copyright law, and the history of computing.",
+    "last_updated": "2026-09-28"
+  },
+  "june oven": {
+    "canonical_name": "June Oven",
+    "entity_type": "product",
+    "summary": "The June Oven is a smart kitchen gadget that combines multiple cooking functions, including convection, toasting, air frying, dehydrating, slow cooking, broiling, and warming, into a single device. It features twin convection fans that double airflow for faster, more even cooking and automatically r",
+    "last_updated": "2026-09-28"
+  },
+  "colab": {
+    "canonical_name": "Colab",
+    "entity_type": "product",
+    "summary": "CoLab is a collaborative platform designed for product development teams to conduct faster design iterations. It converts native and neutral CAD file types into lightweight, web-viewable 3D models that can be visualized, compared, and discussed with integrated AI-powered suggestions.",
+    "last_updated": "2026-09-28"
+  },
+  "qwen38": {
+    "canonical_name": "Qwen3.8",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.8 is an open-released AI model built on the architectural foundation of Qwen3.5, offering a Qwen-Max-class capability. It is designed to deliver substantial performance gains across coding, professional work, research, and long-horizon agentic tasks.",
+    "last_updated": "2026-09-28"
+  },
+  "a100": {
+    "canonical_name": "A100",
+    "entity_type": "product",
+    "summary": "The A100 is a data center GPU powered by the NVIDIA Ampere Architecture, providing up to 20 times higher performance over its prior generation. It can be partitioned into seven GPU instances to dynamically adjust to shifting computational demands.",
+    "last_updated": "2026-09-28"
+  },
+  "jevry": {
+    "canonical_name": "Jevry",
+    "entity_type": "product",
+    "summary": "Jevry is an open-source desktop browser that turns natural-language tasks into structured decisions, guarded actions, and observable results. The browser observes its current state, offers executable actions, and asks TypeSafe's Jev to choose, while a separate text model handles planning and languag",
+    "last_updated": "2026-09-28"
+  },
+  "xpeng motors": {
+    "canonical_name": "XPeng Motors",
+    "entity_type": "company",
+    "summary": "XPeng is a Chinese AI-driven mobility company founded in 2014 and based in Guangzhou. It is best known for its smart electric cars, building software-rich EVs, and developing its own assisted-driving technology and in-car operating system.",
+    "last_updated": "2026-09-28"
+  },
+  "the chinese university of hong kong": {
+    "canonical_name": "The Chinese University of Hong Kong",
+    "entity_type": "organization",
+    "summary": "The Chinese University of Hong Kong (CUHK) is a top Hong Kong university with a strong research emphasis. It aims to bring together China and the West, operating as a leading comprehensive research university with a global reputation.",
+    "last_updated": "2026-09-28"
+  },
+  "tsinghua university": {
+    "canonical_name": "Tsinghua University",
+    "entity_type": "organization",
+    "summary": "Tsinghua University is one of the most prestigious universities in China, established in 1911 and situated in northwest Beijing on the site of the former imperial gardens of the Qing Dynasty. Through teaching, research, and innovation, it is committed to the advancement and well-being of the nation",
+    "last_updated": "2026-09-28"
   }
 }
