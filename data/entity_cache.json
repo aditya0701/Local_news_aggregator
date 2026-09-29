@@ -3410,8 +3410,8 @@
   "walmart": {
     "canonical_name": "Walmart",
     "entity_type": "company",
-    "summary": "Walmart Inc. is a tech-powered, omnichannel retailer that helps people save money and live better. The company operates in stores, online, and through mobile devices, serving approximately 270 million customers weekly across more than 10,750 stores in 19 countries.",
-    "last_updated": "2026-07-06"
+    "summary": "Walmart is a people-led, tech-powered omnichannel retailer dedicated to helping people save money and live better. Since Sam Walton opened the first Walmart, the company has expanded to open thousands of stores across the U.S. and internationally.",
+    "last_updated": "2026-09-29"
   },
   "mini led quantum": {
     "canonical_name": "Mini LED Quantum",
@@ -7399,9 +7399,9 @@
   },
   "baseten": {
     "canonical_name": "Baseten",
-    "entity_type": "company",
-    "summary": "Baseten is an AI infrastructure startup that provides a cloud platform for running AI models. It offers managed deployment, inference stack, and model APIs for developers.",
-    "last_updated": "2026-07-16"
+    "entity_type": "startup",
+    "summary": "Baseten is a San Francisco-based AI infrastructure company that helps companies deploy AI applications in a practical way. It manages the model, engine, hardware, and scaling, allowing users to deploy custom models and train models on production GPU infrastructure.",
+    "last_updated": "2026-09-29"
   },
   "palo alto networks": {
     "canonical_name": "Palo Alto Networks",
@@ -7532,8 +7532,8 @@
   "bose": {
     "canonical_name": "Bose",
     "entity_type": "company",
-    "summary": "Bose Corporation is a global leader in audio innovation with over 60 years of experience. The company is driven by a belief in sound's power to transform connections, offering premium audio solutions through its brands like Bose, McIntosh, and Sonus faber.",
-    "last_updated": "2026-07-16"
+    "summary": "Bose Corporation, founded in 1964 by Dr. Amar Bose, is a company of engineers, researchers, marketers, and music lovers dedicated to developing innovative products and technologies. Their work over six decades has focused on creating audio experiences, including speakers that rival a live concert in",
+    "last_updated": "2026-09-29"
   },
   "quietcontrol": {
     "canonical_name": "QuietControl",
@@ -7915,9 +7915,9 @@
   },
   "super heavy": {
     "canonical_name": "Super Heavy",
-    "entity_type": "technology",
-    "summary": "Panasonic Super Heavy Duty is a value-battery option that uses carbon zinc cells without specified toxic substances. It combines advanced engineering with high quality at a low cost, replacing mercury, lead, and cadmium with green alternatives to maintain performance.",
-    "last_updated": "2026-07-17"
+    "entity_type": "product",
+    "summary": "Super Heavy, explained: SpaceX's 33-engine Starship first stage is the most powerful booster ever built, caught by tower arms and reflown. SpaceX's giant Starship first stage, caught by tower arms and reflown. Super Heavy is the giant first-stage booster that lifts Starship , SpaceX's fully reusable",
+    "last_updated": "2026-09-29"
   },
   "faa": {
     "canonical_name": "FAA",
@@ -8519,8 +8519,8 @@
   "typescript": {
     "canonical_name": "TypeScript",
     "entity_type": "technology",
-    "summary": "TypeScript is a strongly typed language that builds on JavaScript by adding optional static types, interfaces, generics, and modern tooling. It compiles to plain JavaScript, improving correctness and maintainability without changing the runtime environment. TypeScript catches bugs at compile time, m",
-    "last_updated": "2026-07-18"
+    "summary": "TypeScript is a strongly typed programming language that builds on JavaScript to provide better tooling at any scale. It converts to JavaScript and supports type inference, allowing developers to apply types incrementally to improve the editing experience.",
+    "last_updated": "2026-09-29"
   },
   "quickjs": {
     "canonical_name": "QuickJS",
@@ -9059,8 +9059,8 @@
   "honda": {
     "canonical_name": "Honda",
     "entity_type": "company",
-    "summary": "Honda is a company committed to creating a society that is useful to people by utilizing its technologies and ideas. It focuses on environmental responsiveness, traffic safety, and realizing a sustainable future. The company's management policy, history, and brand are centered on its global slogan a",
-    "last_updated": "2026-07-19"
+    "summary": "Honda is a global automotive manufacturer founded by Soichiro Honda, whose interest in cars began as a mechanic and racer. The company officially entered the four-wheel market in 1963 with the Honda T360.",
+    "last_updated": "2026-09-29"
   },
   "prologue": {
     "canonical_name": "Prologue",
@@ -11483,8 +11483,8 @@
   "amd": {
     "canonical_name": "AMD",
     "entity_type": "company",
-    "summary": "AMD is a semiconductor manufacturing company with over 10,001 employees and its headquarters in Santa Clara, California. The company's mission is to build great products that accelerate next-generation computing experiences for data centers, AI, PCs, gaming, and embedded systems.",
-    "last_updated": "2026-07-24"
+    "summary": "AMD is a high-performance and adaptive computing leader that powers products and services across the data center, embedded, gaming, and PC markets. The company delivers technologies designed to accelerate data center workloads, enabling scientists, engineers, and designers to achieve faster insights",
+    "last_updated": "2026-09-29"
   },
   "helios": {
     "canonical_name": "Helios",
@@ -11593,9 +11593,9 @@
   },
   "accel": {
     "canonical_name": "Accel",
-    "entity_type": "organization",
-    "summary": "Accel is a global venture capital firm founded in 1983 and headquartered in Palo Alto, California. It invests in seed, early, and growth-stage technology startups, with a focus on enterprise software, consumer, and AI, and has invested in more than 450 companies over its 40-year history.",
-    "last_updated": "2026-07-24"
+    "entity_type": "company",
+    "summary": "Accel is a global venture capital firm founded in 1983 and headquartered in Palo Alto, California. The firm specializes in early- and growth-stage investments in technology companies, partnering with teams from the inception of their ideas through all phases of private company growth.",
+    "last_updated": "2026-09-29"
   },
   "foundation capital": {
     "canonical_name": "Foundation Capital",
@@ -18592,5 +18592,281 @@
     "entity_type": "organization",
     "summary": "Tsinghua University is one of the most prestigious universities in China, established in 1911 and situated in northwest Beijing on the site of the former imperial gardens of the Qing Dynasty. Through teaching, research, and innovation, it is committed to the advancement and well-being of the nation",
     "last_updated": "2026-09-28"
+  },
+  "brazilian federal system": {
+    "canonical_name": "Brazilian federal system",
+    "entity_type": "government_system",
+    "summary": "The Brazilian federal system distributes power between different levels of government to preserve the autonomy of constituent polities. It plays a fundamental role in ensuring uniformity for reasons of equity, such as social security benefits.",
+    "last_updated": "2026-09-29"
+  },
+  "stratus technologies": {
+    "canonical_name": "Stratus Technologies",
+    "entity_type": "company",
+    "summary": "Stratus Technologies is a leading provider of availability solutions for critical infrastructure, focusing on keeping systems always up and always on. The company's solutions collect and analyze data at the Edge of core business processes to help manage operations in an \"Always On World\" across vari",
+    "last_updated": "2026-09-29"
+  },
+  "phil hogan": {
+    "canonical_name": "Phil Hogan",
+    "entity_type": "person",
+    "summary": "Phil Hogan served as a member of the Irish Parliament for 27 years and held various leadership roles within the Fine Gael party, including Chairman and director of organisation from 2002 to 2011. He was appointed Minister for Environment, Community and Local Government and later became the European",
+    "last_updated": "2026-09-29"
+  },
+  "great lakes works egl": {
+    "canonical_name": "Great Lakes Works EGL",
+    "entity_type": "company",
+    "summary": "Great Lakes Engineering Works (GLEW) was formed in 1902 in Detroit, Michigan, to purchase the Riverside Iron Works. The company specialized in building marine steam engines throughout its more than 60 years of operation.",
+    "last_updated": "2026-09-29"
+  },
+  "microllm lab": {
+    "canonical_name": "MicroLLM Lab",
+    "entity_type": "product",
+    "summary": "MicroLLM Lab is a browser-based experimental tool designed to run seven small language models using WebGPU to leverage local device GPUs. It allows users to chat, benchmark, and compare models like PetitGPT and SmolLM2 entirely on-device, ensuring that user prompts and data remain local. The platfor",
+    "last_updated": "2026-09-29"
+  },
+  "bitnet": {
+    "canonical_name": "BitNet",
+    "entity_type": "technology",
+    "summary": "Bitnet BTN is a technology that operates seamlessly without a central authority, facilitating the tokenization of value for both sovereign and private monetary systems. The project emphasizes decentralization, equal access, and community engagement by avoiding pre-mined coins, preferential treatment",
+    "last_updated": "2026-09-29"
+  },
+  "lowzihong": {
+    "canonical_name": "Low-Zi-Hong",
+    "entity_type": "person",
+    "summary": "Zi Hong Low is an actor based in Singapore, credited in six issues of My Little Pony: Friends Forever Experience: Labgistics Asia Pte Ltd, and holds a connection through Singapore Management University. The provided material did not contain a usable biography for this individual.",
+    "last_updated": "2026-09-29"
+  },
+  "mat honan": {
+    "canonical_name": "Mat Honan",
+    "entity_type": "person",
+    "summary": "Mat Honan is the San Francisco bureau chief for BuzzFeed News. He has also contributed to outlets such as The Washington Post, ProPublica, and WNYC.",
+    "last_updated": "2026-09-29"
+  },
+  "james odonnell": {
+    "canonical_name": "James O'Donnell",
+    "entity_type": "person",
+    "summary": "James O'Donnell is an Australian basketball player born on August 22, 2005, in Sydney. He is a 6'10'' forward who most recently played at the University of Portland in the NCAA. He is also a partner in the London office of Gibson Dunn and a member of the Investment Funds Practice Group, where he adv",
+    "last_updated": "2026-09-29"
+  },
+  "eli lilly": {
+    "canonical_name": "Eli Lilly",
+    "entity_type": "company",
+    "summary": "We’re a medicine company turning science into healing, but we're not only dedicated to making medicines. Learn about how we go beyond medicine. Jun 30, 2026 · Find key facts about Lilly, including number of employees, financials, research and development, and manufacturing and cost. 4 days ago · Com",
+    "last_updated": "2026-09-29"
+  },
+  "openai agents": {
+    "canonical_name": "OpenAI agents",
+    "entity_type": "ai_model",
+    "summary": "The Agents API provides applications with access to the Codex harness via an OpenAI-managed API. OpenAI manages sessions, orchestration, context compaction, and recovery, while the application provides tools and chooses the execution environment. Agents can operate in a sandbox to execute code, edit",
+    "last_updated": "2026-09-29"
+  },
+  "saachi jain": {
+    "canonical_name": "Saachi Jain",
+    "entity_type": "person",
+    "summary": "Saachi Jain is a researcher at OpenAI who leads the safety training team, focusing on making models safe and reliable through fundamental research, reliability improvements, agentic safety, and studying model deception. She completed her PhD at MIT under the advisement of Aleksander Madry.",
+    "last_updated": "2026-09-29"
+  },
+  "hirschbach": {
+    "canonical_name": "Hirschbach",
+    "entity_type": "organization",
+    "summary": "Hirschbach is a temperature-controlled transportation company that began in 1935 with a single truck in Sioux City, Iowa. Founded by Ray Hirschbach, the company has grown into a national fleet guided by a commitment to innovation and excellence.",
+    "last_updated": "2026-09-29"
+  },
+  "werner": {
+    "canonical_name": "Werner",
+    "entity_type": "organization",
+    "summary": "Werner is a supply chain solutions provider focused on the North American market. The company offers a comprehensive portfolio of solutions, combining best-in-class operations, innovation, technology, and talent to strengthen the businesses of its stakeholders.",
+    "last_updated": "2026-09-29"
+  },
+  "modal labs": {
+    "canonical_name": "Modal Labs",
+    "entity_type": "startup",
+    "summary": "Modal is a startup that provides high-performance, scalable computing infrastructure. It was founded with the goal of making it easier for developers to iterate and ship applications for data, AI, and machine learning.",
+    "last_updated": "2026-09-29"
+  },
+  "fal": {
+    "canonical_name": "Fal",
+    "entity_type": "startup",
+    "summary": "Fal is a platform that provides access to the world's largest generative media model gallery, featuring over 1,000 production-ready image, video, audio, and 3D models. It allows users to build products, scale custom AI models, and develop and fine-tune models using serverless GPUs and on-demand clus",
+    "last_updated": "2026-09-29"
+  },
+  "feifei li": {
+    "canonical_name": "Fei-Fei Li",
+    "entity_type": "person",
+    "summary": "Fei-Fei Li is the inaugural Sequoia Professor in the Computer Science Department at Stanford University and a Founding Co-Director of Stanford’s Human-Centered AI Institute. She previously served as the Director of Stanford's AI Lab from 2013 to 2018.",
+    "last_updated": "2026-09-29"
+  },
+  "universal commerce protocol": {
+    "canonical_name": "Universal Commerce Protocol",
+    "entity_type": "protocol",
+    "summary": "Universal Commerce Protocol (UCP) serves as a common language for platforms, agents, and businesses. It provides building blocks for agentic commerce across industries, from discovery to checkout and beyond, allowing the ecosystem to operate through one standard without custom builds.",
+    "last_updated": "2026-09-29"
+  },
+  "shop pay": {
+    "canonical_name": "Shop Pay",
+    "entity_type": "product",
+    "summary": "Shop Pay is a secure wallet that helps users check out faster on participating stores by automatically filling in their saved email, payment, and shipping details. It offers a one-tap checkout experience to reduce abandoned carts and is trusted by the world's fastest growing brands.",
+    "last_updated": "2026-09-29"
+  },
+  "new york climate week": {
+    "canonical_name": "New York Climate Week",
+    "entity_type": "event",
+    "summary": "New York Climate Week is an annual event organized by the Climate Group that brings together business and government leaders to drive climate action. It aims to connect decision-makers and experts shaping capital, policy, and markets to build a cleaner, safer, low-carbon economy.",
+    "last_updated": "2026-09-29"
+  },
+  "nothing": {
+    "canonical_name": "Nothing",
+    "entity_type": "company",
+    "summary": "About Nothing Life without distraction. Our devices are where your life plays out. They house your memories, frame your relationships and open a gateway to experiencing the world. Nothing OS and Essential AI tools are the beginning of a future where you can create freely and engage in the moment. Ev",
+    "last_updated": "2026-09-29"
+  },
+  "headphone 1 pro": {
+    "canonical_name": "Headphone 1 Pro",
+    "entity_type": "product",
+    "summary": "8 hours ago - The Nothing Headphone 1 Pro stand up surprisingly well to competitors from Bose, Apple, and Sony, plus they include a unique switch for studios pros. Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added",
+    "last_updated": "2026-09-29"
+  },
+  "quietcomfort ultra headphones gen 2": {
+    "canonical_name": "QuietComfort Ultra Headphones Gen 2",
+    "entity_type": "product",
+    "summary": "The Bose QuietComfort Ultra Headphones (2nd Generation) are flagship noise-canceling headphones featuring immersive audio, best-in-class noise canceling, and all-day comfort. They include a new design, USB-C lossless audio support, and enhanced active noise cancellation performance.",
+    "last_updated": "2026-09-29"
+  },
+  "samsung galaxy buds": {
+    "canonical_name": "Samsung Galaxy Buds",
+    "entity_type": "product",
+    "summary": "Samsung Galaxy Buds are a range of wireless earbuds that deliver powerful sound and comfortable designs. They feature the latest innovations in Active Noise Cancelling technology.",
+    "last_updated": "2026-09-29"
+  },
+  "us department of transportation": {
+    "canonical_name": "US Department of Transportation",
+    "entity_type": "organization",
+    "summary": "The US Department of Transportation is a cabinet-level executive branch agency responsible for overseeing national transportation systems and infrastructure. It develops and implements federal transportation policies and works to advance safety, move people and goods, and build infrastructure. The d",
+    "last_updated": "2026-09-29"
+  },
+  "james uthmeier": {
+    "canonical_name": "James Uthmeier",
+    "entity_type": "person",
+    "summary": "James William Uthmeier is an American politician and attorney who serves as the 39th Attorney General of Florida. A member of the Republican Party, he previously served as the chief of staff to Governor Ron DeSantis from 2021 to 2025.",
+    "last_updated": "2026-09-29"
+  },
+  "john furner": {
+    "canonical_name": "John Furner",
+    "entity_type": "person",
+    "summary": "John Furner is the president and chief executive officer of Walmart Inc., leading 2.1 million associates worldwide. He is a merchant, operator, and innovator based in Bentonville, Arkansas, who is deeply grounded in the company’s purpose and values.",
+    "last_updated": "2026-09-29"
+  },
+  "sparky": {
+    "canonical_name": "Sparky",
+    "entity_type": "ai_model",
+    "summary": "Sparky is a local-first AI coding workspace that understands your project, edits files, runs commands, and coordinates complex work. It acts as a desktop coding agent that can read and edit files, run terminal commands, and help review changes alongside your conversation.",
+    "last_updated": "2026-09-29"
+  },
+  "idtiguan": {
+    "canonical_name": "ID.Tiguan",
+    "entity_type": "product",
+    "summary": "The Volkswagen ID.Tiguan is an upcoming electric SUV that serves as a replacement for the ID.4 crossover. It is expected to be revealed in October and will utilize a new name to leverage the popularity of the existing gas-powered Tiguan model.",
+    "last_updated": "2026-09-29"
+  },
+  "falcon 9": {
+    "canonical_name": "Falcon 9",
+    "entity_type": "product",
+    "summary": "Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket,",
+    "last_updated": "2026-09-29"
+  },
+  "jim wild": {
+    "canonical_name": "Jim Wild",
+    "entity_type": "person",
+    "summary": "Jim Wild is a Professor of Space Physics in the Physics Department at Lancaster University and the President of the Royal Astronomical Society. His research focuses on the links between the Sun, the Earth, and other planets, and he studies the impact of solar-driven phenomena on critical infrastruct",
+    "last_updated": "2026-09-29"
+  },
+  "lancaster university": {
+    "canonical_name": "Lancaster University",
+    "entity_type": "organization",
+    "summary": "Lancaster University is a top 10 UK university and a leader in transnational education, welcoming 29,000 students from over 130 countries. It is founded on the principle that education is for everyone and facilitates learning across the UK and globally, from foundation levels to continuing professio",
+    "last_updated": "2026-09-29"
+  },
+  "space weather": {
+    "canonical_name": "Space Weather",
+    "entity_type": "organization",
+    "summary": "Space Weather is a topic monitored by indices such as the Solar X-ray Flux, Solar Proton Flux, and Planetary K-index, which are produced and made available on the Space Weather Prediction Center (SWPC) website.",
+    "last_updated": "2026-09-29"
+  },
+  "carrington event": {
+    "canonical_name": "Carrington Event",
+    "entity_type": "event",
+    "summary": "The Carrington Event occurred in 1859 when the Aurora Borealis, or Northern Lights, lit up the sky in Florida. A few days later, on September 1, English astronomer Richard C. Carrington was studying a gro.",
+    "last_updated": "2026-09-29"
+  },
+  "nsw bureau of crime statistics and research": {
+    "canonical_name": "NSW Bureau of Crime Statistics and Research",
+    "entity_type": "organization",
+    "summary": "The NSW Bureau of Crime Statistics and Research is the official source of NSW crime information. It is a statistical and research agency established in 1969 that develops and maintains statistical databases, conducts research, monitors trends, and provides advice on crime and criminal justice in NSW",
+    "last_updated": "2026-09-29"
+  },
+  "victorian department of health": {
+    "canonical_name": "Victorian Department of Health",
+    "entity_type": "organization",
+    "summary": "The Victorian Department of Health works to keep Victorians safe and healthy and deliver a world-class health system that leads to better health outcomes for all Victorians. It works across the health system to improve health and wellbeing, with responsibilities including hospitals, ambulance servic",
+    "last_updated": "2026-09-29"
+  },
+  "lenfest institute": {
+    "canonical_name": "Lenfest Institute",
+    "entity_type": "organization",
+    "summary": "The Lenfest Institute offers free programming and grant funding to individuals and organizations to help them better serve their communities. It focuses on building a sustainable future for local journalism, preserving democracy, and facilitating peer-to-peer knowledge sharing through Communities of",
+    "last_updated": "2026-09-29"
+  },
+  "troyanovsky": {
+    "canonical_name": "Troyanovsky",
+    "entity_type": "person",
+    "summary": "Oleg Alexandrovich Troyanovsky was a Soviet diplomat who served as the ambassador of the Soviet Union to Japan and China, and as the Soviet Permanent Representative to the United Nations. His tenure as plenipotentiary representative of the USSR coincided with the formation of Soviet-American relatio",
+    "last_updated": "2026-09-29"
+  },
+  "kkkkhazix": {
+    "canonical_name": "KKKKhazix",
+    "entity_type": "person",
+    "summary": "KKKKhazix is a GitHub user with a repository focused on open-source AI skills, including agent capabilities for leadership, analysis, and writing. The project includes Python and TypeScript tools designed to automate tasks like daily reporting and content generation.",
+    "last_updated": "2026-09-29"
+  },
+  "nodejs": {
+    "canonical_name": "Node.js",
+    "entity_type": "technology",
+    "summary": "Node.js is a free, open-source, cross-platform JavaScript runtime environment for building scalable network applications. It uses an asynchronous event-driven model rather than OS threads to handle concurrency efficiently.",
+    "last_updated": "2026-09-29"
+  },
+  "react router": {
+    "canonical_name": "React Router",
+    "entity_type": "technology",
+    "summary": "React Router is a standards-focused, multi-strategy router library for navigating single-page applications. It is designed to be user-obsessed and can be deployed in various environments to manage dynamic application routing.",
+    "last_updated": "2026-09-29"
+  },
+  "fastify": {
+    "canonical_name": "Fastify",
+    "entity_type": "technology",
+    "summary": "Fastify is a web framework focused on providing the best developer experience with minimal overhead and a powerful plugin architecture. It offers both formal reference documentation and informal educational guides to help users get started and understand advanced concepts.",
+    "last_updated": "2026-09-29"
+  },
+  "docker compose": {
+    "canonical_name": "Docker Compose",
+    "entity_type": "technology",
+    "summary": "Docker Compose is a tool for defining and running multi-container applications using a single YAML configuration file. It simplifies managing services, networks, and volumes, allowing users to create and start an entire application stack with a single command.",
+    "last_updated": "2026-09-29"
+  },
+  "finderchangchang": {
+    "canonical_name": "Finderchangchang",
+    "entity_type": "person",
+    "summary": "Finderchangchang is a GitHub user who has published 98 repositories. Their projects include a self-reskinning skin engine for the Codex desktop app, a tool for generating vertical promotional videos with AI, and several Java-based applications for education.",
+    "last_updated": "2026-09-29"
+  },
+  "zcodium": {
+    "canonical_name": "ZCodium",
+    "entity_type": "product",
+    "summary": "ZCodium is an independent security audit fork of ZCode, created by Zhipu and open-sourced on September 21, 2026. It follows the naming pattern of projects like Chrome to Chromium, removing all monitoring and telemetry while reviewing upstream commits one by one.",
+    "last_updated": "2026-09-29"
+  },
+  "zcode": {
+    "canonical_name": "ZCode",
+    "entity_type": "product",
+    "summary": "ZCode is a platform that combines GLM-5.3 and leading AI coding agents with existing development tools to enable frictionless planning, coding, reviewing, and deployment. It is used to build self-contained implementations such as a browser-based Gomoku game with a heuristic AI, turn handling, and ex",
+    "last_updated": "2026-09-29"
   }
 }
