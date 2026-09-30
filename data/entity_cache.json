@@ -3451,9 +3451,9 @@
   },
   "us department of energy": {
     "canonical_name": "US Department of Energy",
-    "entity_type": "ban_regulation",
-    "summary": "The U.S. Department of Energy (DOE) is an executive division of the U.S. federal government responsible for administering national energy policy. Established in 1977, it promotes energy efficiency and the use of renewable energy.",
-    "last_updated": "2026-07-06"
+    "entity_type": "organization",
+    "summary": "The US Department of Energy oversees energy policy, scientific research, and the nuclear arsenal. It is the largest US government funder of physical science research and significantly contributes to science and technology development and policy, including AI and biosecurity.",
+    "last_updated": "2026-09-30"
   },
   "zohran mamdani": {
     "canonical_name": "Zohran Mamdani",
@@ -18868,5 +18868,59 @@
     "entity_type": "product",
     "summary": "ZCode is a platform that combines GLM-5.3 and leading AI coding agents with existing development tools to enable frictionless planning, coding, reviewing, and deployment. It is used to build self-contained implementations such as a browser-based Gomoku game with a heuristic AI, turn handling, and ex",
     "last_updated": "2026-09-29"
+  },
+  "dots": {
+    "canonical_name": "Dots",
+    "entity_type": "product",
+    "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward. September 29, 2026 Dots are remarkably capable, always-on agents built to handle everything. They’re a whole new way to work wit",
+    "last_updated": "2026-09-30"
+  },
+  "green mountain power": {
+    "canonical_name": "Green Mountain Power",
+    "entity_type": "company",
+    "summary": "Green Mountain Power is an energy transformation company established in 1893 and based in Colchester, Vermont. It provides power and innovative products and services to customers in the electricity, oil, and gas sector, focusing on energy distribution and waste treatment.",
+    "last_updated": "2026-09-30"
+  },
+  "pollyanna bladyka": {
+    "canonical_name": "Pollyanna Bladyka",
+    "entity_type": "person",
+    "summary": "Pollyanna Bladyka is a former Riverside Middle School teacher in Springfield, Vermont, who retired in June 2021 after a 27-year career. She published her first novel, \"Rectified,\" under the pen name Pollyanna Porter.",
+    "last_updated": "2026-09-30"
+  },
+  "wood mackenzie": {
+    "canonical_name": "Wood Mackenzie",
+    "entity_type": "organization",
+    "summary": "Wood Mackenzie is a research and consultancy business founded in 1973 by Stuart Wood and Bill Mackenzie. It provides analysis and advisory services on assets, companies, and markets for the energy, chemicals, metals, and mining industries across five continents.",
+    "last_updated": "2026-09-30"
+  },
+  "sr71a": {
+    "canonical_name": "SR-71A",
+    "entity_type": "product",
+    "summary": "The SR-71A is the definitive production and operational variant of the Blackbird family of aircraft built by Lockheed’s Skunk Works. Design of the aircraft began in 1958 to replace the Lockheed U-2, resulting in a single-seat, twin-engine, delta-winged aircraft.",
+    "last_updated": "2026-09-30"
+  },
+  "lockheed": {
+    "canonical_name": "Lockheed",
+    "entity_type": "company",
+    "summary": "Lockheed Martin is a global leader in security and aerospace, committed to helping those it serves stay ahead of readiness. The company operates with approximately 121,000 employees, over 340 facilities, and more than 13,000 active suppliers.",
+    "last_updated": "2026-09-30"
+  },
+  "mike relja": {
+    "canonical_name": "Mike Relja",
+    "entity_type": "person",
+    "summary": "Mike Relja is a retired Air Force member who entered the USAF in 1966 and earned the Kelly Johnson Trophy for outstanding contributions to the Blackbird program. He is based in Lancaster and has 152 connections on LinkedIn.",
+    "last_updated": "2026-09-30"
+  },
+  "david ash": {
+    "canonical_name": "David Ash",
+    "entity_type": "person",
+    "summary": "David Ash is the CEO and General Counsel of Sam Ash Music. The provided material does not offer additional biographical or professional details beyond his corporate title.",
+    "last_updated": "2026-09-30"
+  },
+  "mercedes cclass": {
+    "canonical_name": "Mercedes C-Class",
+    "entity_type": "product",
+    "summary": "The Mercedes-Benz C-Class is the German automaker's entry-level car and compact sport sedan, which has been produced since 1993. It features a striking front design with an illuminated radiator grille, responsive handling, and a quiet, comfortable ride with firm front seats.",
+    "last_updated": "2026-09-30"
   }
 }
