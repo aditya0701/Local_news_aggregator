@@ -362,8 +362,8 @@
   "llm": {
     "canonical_name": "LLM",
     "entity_type": "technology",
-    "summary": "# LL.M. in Technology Law & Policy. The Technology Law & Policy Program offers the LL.M. in Technology Law & Policy, a master’s degree designed both for recent law school graduates interested in entering technology-related fields, and for mid-career lawyers and policymakers seeking to hone their exp",
-    "last_updated": "2026-07-02"
+    "summary": "Large Language Models (LLMs) are advanced AI systems built on deep neural networks designed to process, understand, and generate human-like text. By using massive datasets and billions of parameters, these models learn patterns, grammar, and context to perform tasks like answering questions, writing",
+    "last_updated": "2026-10-01"
   },
   "claude": {
     "canonical_name": "Claude",
@@ -1063,9 +1063,9 @@
   },
   "reddit": {
     "canonical_name": "Reddit",
-    "entity_type": "technology",
-    "summary": "r/technology: Subreddit dedicated to the news and discussions about the creation and use of technology and its surrounding issues. [![Image 1](https://cdn.prod.website-files.com/685eb01de588fa3e7e23b7c0/68c92bab4024a0af69c4d6f4_reddit%20nav%20logo.svg) ![Image 2](https://cdn.prod.website-files.com/6",
-    "last_updated": "2026-07-03"
+    "entity_type": "company",
+    "summary": "Reddit Inc. is an American social media and online content aggregation company based in San Francisco, California. It operates Reddit.com, a major social news aggregation, content rating, and discussion platform organized into user-created topic-specific communities called 'subreddits'.",
+    "last_updated": "2026-10-01"
   },
   "multimodel thought arena": {
     "canonical_name": "multi-model thought arena",
@@ -2959,9 +2959,9 @@
   },
   "llamacpp": {
     "canonical_name": "llama.cpp",
-    "entity_type": "technology",
-    "summary": "llama.cpp is a high-performance C++ implementation for running all kinds of models on consumer hardware, including CPUs and single GPUs. It offers exceptional performance and flexibility for local inference but does not support tensor parallelism, making it unsuitable for multi-GPU setups. It is aim",
-    "last_updated": "2026-07-05"
+    "entity_type": "product",
+    "summary": "llama.cpp is a high-performance library for LLM and VLM inference written in C/C++, built on top of the ggml library. Its main goal is to enable large language and vision model inference with minimal setup and state-of-the-art performance on a wide range of hardware, both locally and in the cloud.",
+    "last_updated": "2026-10-01"
   },
   "flashattention": {
     "canonical_name": "FlashAttention",
@@ -3770,8 +3770,8 @@
   "greg brockman": {
     "canonical_name": "Greg Brockman",
     "entity_type": "person",
-    "summary": "Greg Brockman is an American entrepreneur, investor, and software engineer, and a co-founder and president of OpenAI. He is a self-taught machine learning practitioner whose career blends technical expertise, entrepreneurial vision, and a commitment to democratizing AI for societal benefit.",
-    "last_updated": "2026-07-06"
+    "summary": "Greg Brockman is the president and co-founder of OpenAI. He is an American entrepreneur, software engineer, and investor who previously served as the founding engineer and chief technology officer of Stripe.",
+    "last_updated": "2026-10-01"
   },
   "charlie kawwas": {
     "canonical_name": "Charlie Kawwas",
@@ -4536,10 +4536,10 @@
     "last_updated": "2026-07-07"
   },
   "xai": {
-    "canonical_name": "xAI",
-    "entity_type": "ai_model",
-    "summary": "xAI builds Grok, a frontier AI model for reasoning, voice, and image generation. It provides a unified API for text, code, voice, and images, and is trained on the world's largest supercluster. xAI is described as Explainable AI, which provides detailed feedback on how a model reached a specific res",
-    "last_updated": "2026-07-07"
+    "canonical_name": "XAI",
+    "entity_type": "company",
+    "summary": "XAI is a company focused on building artificial intelligence to accelerate human scientific discovery. The company aims to advance the collective understanding of the universe through frontier reasoning, real-time voice, and generative media.",
+    "last_updated": "2026-10-01"
   },
   "vllm": {
     "canonical_name": "vLLM",
@@ -5844,10 +5844,10 @@
     "last_updated": "2026-07-11"
   },
   "paramount": {
-    "canonical_name": "Paramount+",
-    "entity_type": "organization",
-    "summary": "Paramount+ is a popular streaming service available in approximately 29 countries across the Americas, Europe, and the Asia-Pacific region. It offers 40,000+ episodes, movies, live sports, and 30+ live TV channels, with two subscription plans: the Essential Plan and the Premium Plan.",
-    "last_updated": "2026-07-11"
+    "canonical_name": "Paramount",
+    "entity_type": "company",
+    "summary": "Paramount is a media and entertainment company with expertise in streaming, advertising, global markets, and consumer products. It delivers premium content to audiences across platforms worldwide through its studios, networks, streaming services, and merchandise.",
+    "last_updated": "2026-10-01"
   },
   "neilson": {
     "canonical_name": "Neilson",
@@ -7202,8 +7202,8 @@
   "spacexai": {
     "canonical_name": "SpaceXAI",
     "entity_type": "company",
-    "summary": "SpaceXAI is a privately held company with 1,001-5,000 employees focused on building AI systems to help humanity understand the world better. The company is described as a team of AI technologists and business leaders on a mission to build AI systems that can help humanity understand the world better",
-    "last_updated": "2026-07-15"
+    "summary": "SpaceXAI is a company focused on building artificial intelligence to accelerate human scientific discovery and advance our collective understanding of the universe. The company builds frontier reasoning models, real-time voice, and generative media designed to extend what humanity can know and do.",
+    "last_updated": "2026-10-01"
   },
   "nintendo switch 2": {
     "canonical_name": "Nintendo Switch 2",
@@ -7460,14 +7460,14 @@
   "daniel ek": {
     "canonical_name": "Daniel Ek",
     "entity_type": "person",
-    "summary": "Daniel Ek is the cofounder and former CEO of Spotify, a streaming music service. He is based in Stockholm and is also the Founder and Executive Chairman of the company. Previously, he worked as Chief Technology Officer at Stardoll.",
-    "last_updated": "2026-07-16"
+    "summary": "Daniel Ek (born February 21, 1983, Stockholm, Sweden) is a Swedish entrepreneur who cofounded Spotify in 2006, an Internet music-streaming service. He serves as the Executive Chairman of the board of directors of his company, where he formulates the long-term strategy.",
+    "last_updated": "2026-10-01"
   },
   "neko health": {
     "canonical_name": "Neko Health",
     "entity_type": "company",
-    "summary": "Neko Health is a tech-enabled preventive health startup that builds proprietary technology for health assessment. It has raised $700 million in Series C funding to expand its body-scanning clinics in the U.S. and is backed by several celebrities.",
-    "last_updated": "2026-07-16"
+    "summary": "Neko Health is a healthcare technology company that develops scanning technology for preventive healthcare and early detection. It builds proprietary technology to perform health scans checking the heart, skin, blood, and metabolic health in about an hour, with results explained by a clinician the s",
+    "last_updated": "2026-10-01"
   },
   "lightspeed venture partners": {
     "canonical_name": "Lightspeed Venture Partners",
@@ -7958,8 +7958,8 @@
   "palmer luckey": {
     "canonical_name": "Palmer Luckey",
     "entity_type": "person",
-    "summary": "Palmer Luckey is the CEO and Founder of Anduril and the former creator of the Oculus Rift. He began creating VR headset prototypes at age 14 and sold Oculus to Facebook, later discussing his journey and innovations in tech and gaming.",
-    "last_updated": "2026-07-17"
+    "summary": "9 hours ago · Palmer Luckey is #287 on Forbes' 2026 Forbes 400 list. Read more about Palmer Luckey, their experience, their asset summary, and more here. May 27, 2026 · Palmer Luckey founded Oculus VR and Anduril Industries, reshaping virtual reality before becoming a major force in AI-powered defen",
+    "last_updated": "2026-10-01"
   },
   "dylan field": {
     "canonical_name": "Dylan Field",
@@ -7999,9 +7999,9 @@
   },
   "anduril": {
     "canonical_name": "Anduril",
-    "entity_type": "organization",
-    "summary": "Anduril Industries builds advanced autonomous systems and defense technology to protect US and allied forces. The company is in a rapid growth phase, deploying technology in diverse locations and developing path-making products that will change defense.",
-    "last_updated": "2026-07-17"
+    "entity_type": "company",
+    "summary": "Jun 17, 2026 · Anduril Industries, Inc. is a defense technology company that specializes in advanced autonomous systems. Anduril Industries, Inc. is a defense technology company that specializes in advanced autonomous systems. Anduril Industries, Inc. is a defense technology company that specializes",
+    "last_updated": "2026-10-01"
   },
   "flexport": {
     "canonical_name": "Flexport",
@@ -8047,9 +8047,9 @@
   },
   "sundar pichai": {
     "canonical_name": "Sundar Pichai",
-    "entity_type": "model_release",
-    "summary": "Google has officially unveiled Gemini 3.5 Flash, the first model in Gemini 3.5 series. During the I/O keynote, Sundar Pichai said the company has been focused on improving Gemini around agentic coding, long-horizon tasks and real-world workflows.",
-    "last_updated": "2026-07-17"
+    "entity_type": "person",
+    "summary": "Sundar Pichai is the CEO of Google and Alphabet. He was born in Madras (now Chennai), India, and holds a bachelor's degree in metallurgy from IIT Kharagpur, a master's in engineering from Stanford, and an MBA from Wharton.",
+    "last_updated": "2026-10-01"
   },
   "synthid": {
     "canonical_name": "SynthID",
@@ -10307,8 +10307,8 @@
   "emil michael": {
     "canonical_name": "Emil Michael",
     "entity_type": "person",
-    "summary": "Emil Michael is an Egyptian-born American businessman and government official known for his strategic roles in scaling major technology companies like Uber and his subsequent leadership at the U.S. Department of Defense. His career demonstrates a consistent movement between high-impact private secto",
-    "last_updated": "2026-07-22"
+    "summary": "Mr. Emil Michael serves as the Under Secretary of War for Research and Engineering (USW (R&E)) and Chief Technology Officer for the Department of War (DoW), spearheading the Department’s efforts to ensure U.S. military technological superiority and keep the, Emil Michael is an Egyptian-born American",
+    "last_updated": "2026-10-01"
   },
   "plus": {
     "canonical_name": "Plus",
@@ -11464,9 +11464,9 @@
   },
   "blackstone": {
     "canonical_name": "Blackstone",
-    "entity_type": "organization",
-    "summary": "Blackstone is the world's largest alternative asset manager with more than $1.3 trillion in assets under management. The firm serves institutional and individual investors by building strong businesses that deliver lasting value across sectors like artificial intelligence, power, and life sciences.",
-    "last_updated": "2026-07-24"
+    "entity_type": "company",
+    "summary": "Blackstone is the world's largest alternative asset manager with more than $1.3 trillion in assets under management. It serves institutional and individual investors by building strong businesses that deliver lasting value, managing a portfolio of ~13,000 real estate assets and 270+ portfolio compan",
+    "last_updated": "2026-10-01"
   },
   "healthmatch": {
     "canonical_name": "HealthMatch",
@@ -18922,5 +18922,395 @@
     "entity_type": "product",
     "summary": "The Mercedes-Benz C-Class is the German automaker's entry-level car and compact sport sedan, which has been produced since 1993. It features a striking front design with an illuminated radiator grille, responsive handling, and a quiet, comfortable ride with firm front seats.",
     "last_updated": "2026-09-30"
+  },
+  "opendlss": {
+    "canonical_name": "OpenDLSS",
+    "entity_type": "product",
+    "summary": "OpenDLSS NR is an open-source, open-source recreation of the DLSS 5 Neural Rendering network in Vulkan. It runs on RTX 40 hardware, includes a WebGPU implementation for browser use, and does not include NVIDIA's proprietary model weights.",
+    "last_updated": "2026-10-01"
+  },
+  "dlss 5": {
+    "canonical_name": "DLSS 5",
+    "entity_type": "product",
+    "summary": "NVIDIA DLSS 5 is a real-time neural rendering model that infuses pixels with photoreal lighting and materials. It represents the company's most significant breakthrough in computer graphics since the debut of real-time ray tracing in 2018.",
+    "last_updated": "2026-10-01"
+  },
+  "swin": {
+    "canonical_name": "Swin",
+    "entity_type": "ai_model",
+    "summary": "The material provided does not contain information regarding the Swin AI model.",
+    "last_updated": "2026-10-01"
+  },
+  "gemini 4 argon": {
+    "canonical_name": "Gemini 4 Argon",
+    "entity_type": "ai_model",
+    "summary": "Gemini 4 Argon is a frontier AI model developed by Google DeepMind for real-world coding, enterprise knowledge work, and cyber defense. It is designed to sustain deep reasoning across complex, long-horizon workflows.",
+    "last_updated": "2026-10-01"
+  },
+  "koray kavukcuoglu": {
+    "canonical_name": "Koray Kavukcuoglu",
+    "entity_type": "person",
+    "summary": "Koray Kavukcuoglu is a Turkish computer scientist who serves as the Senior Vice President of Google DeepMind and Chief AI Architect of Google. He is described as one of the world's foremost experts in artificial intelligence.",
+    "last_updated": "2026-10-01"
+  },
+  "raquel": {
+    "canonical_name": "RAQUEL",
+    "entity_type": "product",
+    "summary": "Raquel is a brand of science-backed skincare products featuring natural ingredients like aloe vera, including sunscreens, liquid foundations, and serums. Users report that the products improve skin texture, provide a glowing complexion, and work well when used as part of a complete routine.",
+    "last_updated": "2026-10-01"
+  },
+  "farrah": {
+    "canonical_name": "FARRAH",
+    "entity_type": "product",
+    "summary": "Farrah is a design-focused creator of premium wallets, belts, luggage, and accessories, collectively referred to as life equipment. The brand also produces hair styling tools, such as rotating curling irons, designed to deliver salon-quality curls and waves with ease and safety.",
+    "last_updated": "2026-10-01"
+  },
+  "national reconnaissance office": {
+    "canonical_name": "National Reconnaissance Office",
+    "entity_type": "organization",
+    "summary": "The National Reconnaissance Office (NRO) is a U.S. Government agency responsible for designing, building, launching, and maintaining America's intelligence satellites. Its mission is to make the world a better, safer, and stronger place while ensuring the United States remains the undisputed leader",
+    "last_updated": "2026-10-01"
+  },
+  "lockheed missiles and space company": {
+    "canonical_name": "Lockheed Missiles and Space Company",
+    "entity_type": "company",
+    "summary": "Lockheed Missiles and Space Company (LMSC), established in 1956 in Sunnyvale, California, was a division of the Lockheed Corporation that pursued the parent corporation's interests. It provided the U.S. Navy with Fleet Ballistic Missile systems and supplied the NASA and U.S. Air Force with satellite",
+    "last_updated": "2026-10-01"
+  },
+  "magnitude": {
+    "canonical_name": "Magnitude",
+    "entity_type": "product",
+    "summary": "Magnitude is a company that designs and manufactures high-performance superconducting magnets to support cutting-edge research and emerging quantum technologies. Its systems are engineered for precision, stability, and scalability across a range of applications from compact laboratory setups to comp",
+    "last_updated": "2026-10-01"
+  },
+  "pete hegseth": {
+    "canonical_name": "Pete Hegseth",
+    "entity_type": "person",
+    "summary": "2 days ago · Pete Hegseth is the U.S. secretary of defense (2025– ) and a former U.S. Army National Guard officer. Prior to his government service, he was an American TV personality who was a cohost of Fox & Friends Weekend from 2017 to 2024, and while on the show he became known for his conservativ",
+    "last_updated": "2026-10-01"
+  },
+  "newt gingrich": {
+    "canonical_name": "Newt Gingrich",
+    "entity_type": "person",
+    "summary": "5 days ago · Newt Gingrich, American politician who was the first Republican in 40 years to serve as speaker of the U.S. House of Representatives (1995–98). He later sought the party’s nomination for president in 2012. Learn more about Gingrich’s life and career, including his ‘Contract with America",
+    "last_updated": "2026-10-01"
+  },
+  "project meridian": {
+    "canonical_name": "Project Meridian",
+    "entity_type": "event",
+    "summary": "1 day ago · The Joint Staff and all services should be prepared to connect their future warfare efforts and research to Project Meridian. Project Meridian will leverage critical perspectives from outside the Pentagon, drawing upon a group of top technologists, innovators, business leaders, policy ma",
+    "last_updated": "2026-10-01"
+  },
+  "autonomous warfare command": {
+    "canonical_name": "Autonomous Warfare Command",
+    "entity_type": "organization",
+    "summary": "1 day ago · • Establish the pathway to the Autonomous Warfare Command, a 4-star functional combatant command that will lead the Joint Force in unmanned and autonomous warfare. This command will possess directed manpower, budget, acquisition authorities and create dedicated military career pathways f",
+    "last_updated": "2026-10-01"
+  },
+  "flow engineering": {
+    "canonical_name": "Flow Engineering",
+    "entity_type": "startup",
+    "summary": "Flow is an iterative requirements and verification platform designed for hardware teams to accelerate the shipping of complex systems. It uses AI agents to align requirements, design, CAD, simulation, code, and testing in a single connected system of record.",
+    "last_updated": "2026-10-01"
+  },
+  "valar equity partners": {
+    "canonical_name": "Valar Equity Partners",
+    "entity_type": "company",
+    "summary": "Valor Equity Partners is a growth equity firm founded in 1995 and based in Chicago, Illinois. The firm invests in consumer, infrastructure, industrial services, manufacturing, food, retail, and technology sectors.",
+    "last_updated": "2026-10-01"
+  },
+  "atreides management": {
+    "canonical_name": "Atreides Management",
+    "entity_type": "organization",
+    "summary": "Atreides Management, LP is a private equity investor that brings a long-term perspective to high-growth technology and consumer companies across public and private markets. It partners with established businesses to drive sustainable growth through operational excellence and strategic capital deploy",
+    "last_updated": "2026-10-01"
+  },
+  "antonio gracias": {
+    "canonical_name": "Antonio Gracias",
+    "entity_type": "person",
+    "summary": "Antonio Gracias is the Founder, Chief Executive Officer, and Chief Investment Officer of Valor, a position he has held since founding the firm in 1995. He has over 25 years of experience in private equity investing and served as a Director of Tesla from 2007 to 2021.",
+    "last_updated": "2026-10-01"
+  },
+  "gavin baker": {
+    "canonical_name": "Gavin Baker",
+    "entity_type": "person",
+    "summary": "Gavin Baker is the Managing Partner and Chief Investment Officer at Atreides Management LP. Previously, he spent 18 years at Fidelity Investments, where he worked as an analyst and portfolio manager for funds covering the semiconductor, pharmaceutical, consumer staples, retail, and telecommunication",
+    "last_updated": "2026-10-01"
+  },
+  "factory": {
+    "canonical_name": "Factory",
+    "entity_type": "company",
+    "summary": "The Cheesecake Factory Incorporated is a leader in experiential dining that is culinary forward and focused on hospitality. It currently owns and operates 380 restaurants throughout the United States and Canada under brands including The Cheesecake Factory® and North Italia®.",
+    "last_updated": "2026-10-01"
+  },
+  "chris degnan": {
+    "canonical_name": "Chris Degnan",
+    "entity_type": "person",
+    "summary": "Chris Degnan is the Chief Financial Officer of UroGen Pharma and previously worked as a CFO at Galera Therapeutics. He attended the University of Notre Dame and is based in the Greater Philadelphia area.",
+    "last_updated": "2026-10-01"
+  },
+  "khosla ventures": {
+    "canonical_name": "Khosla Ventures",
+    "entity_type": "company",
+    "summary": "Khosla Ventures is a venture capital firm that invests in early- to late-stage companies across sectors like AI, healthcare, sustainability, and consumer technology. It manages multiple funds focusing on startups with innovative technologies or business models, primarily targeting AI, climate tech,",
+    "last_updated": "2026-10-01"
+  },
+  "rpt partners": {
+    "canonical_name": "RPT Partners",
+    "entity_type": "company",
+    "summary": "RPT Partners advises founders and boards on sales strategy, marketing alignment, and go-to-market execution. The firm is founded on the conviction that the best go-to-market advice comes from people who have built successful organizations themselves, having scaled one of the most successful go-to-ma",
+    "last_updated": "2026-10-01"
+  },
+  "iconiq": {
+    "canonical_name": "Iconiq",
+    "entity_type": "company",
+    "summary": "ICONIQ is a global investment firm with over $100B in assets under management that partners with visionaries transforming industries. It strives to deliver exceptional investment portfolios, build where technology disruption creates uncommon outcomes, and convene its network to tackle the world's mo",
+    "last_updated": "2026-10-01"
+  },
+  "function health": {
+    "canonical_name": "Function Health",
+    "entity_type": "company",
+    "summary": "Function Health is a company with a mission to change the future of health by bringing together routine whole-body lab testing, advanced imaging, and the world's top doctors. The company aims to help individuals pursue a lifetime of avoiding disease by providing deep awareness of what is happening w",
+    "last_updated": "2026-10-01"
+  },
+  "preface ventures": {
+    "canonical_name": "Preface Ventures",
+    "entity_type": "organization",
+    "summary": "Preface Ventures is a New York-based early-stage venture capital firm founded in 2020. It is dedicated to backing founders who have previously exited successful startups and provides capital at the earliest stages, often before a company is formally incorporated.",
+    "last_updated": "2026-10-01"
+  },
+  "dominicmadori davis": {
+    "canonical_name": "Dominic-Madori Davis",
+    "entity_type": "person",
+    "summary": "Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch who is based in New York City.",
+    "last_updated": "2026-10-01"
+  },
+  "farooq abbasi": {
+    "canonical_name": "Farooq Abbasi",
+    "entity_type": "person",
+    "summary": "Farooq Abbasi is the founder and sole general partner of Preface Ventures. Prior to founding the firm, he was at Costanoa Ventures, where he led investments in companies like Alpha Health and Lively, and he is a first-generation Indian immigrant.",
+    "last_updated": "2026-10-01"
+  },
+  "defense manpower data center": {
+    "canonical_name": "Defense Manpower Data Center",
+    "entity_type": "organization",
+    "summary": "The Defense Manpower Data Center (DMDC) has operated since 1974 as a world leader in Department of Defense identity management for uniformed service members and their families globally. The organization develops and manages Human Resources programs, services, and functional system requirements, and",
+    "last_updated": "2026-10-01"
+  },
+  "doordash": {
+    "canonical_name": "DoorDash",
+    "entity_type": "company",
+    "summary": "DoorDash is a technology company that enables local businesses to meet consumer needs of ease and convenience, connecting consumers to local businesses and providing flexible ways for people to earn. Founded in 2013, it has expanded to more than 40 countries and operates one of the world's leading l",
+    "last_updated": "2026-10-01"
+  },
+  "dot": {
+    "canonical_name": "Dot",
+    "entity_type": "product",
+    "summary": "The dot product, also known as the scalar product, is an operation that multiplies two vectors to produce a scalar number. It can be defined algebraically as the sum of the products of corresponding entries, or geometrically using the lengths of the vectors and the cosine of the angle between them.",
+    "last_updated": "2026-10-01"
+  },
+  "benji taylor": {
+    "canonical_name": "Benji Taylor",
+    "entity_type": "person",
+    "summary": "Benji Taylor is a design executive based in Los Angeles, California, who serves as the Head of Design at X (formerly Twitter). His career includes serving as Head of Design at Coinbase, as well as CPO and SVP of Product & Design at Aave Labs.",
+    "last_updated": "2026-10-01"
+  },
+  "david ellison": {
+    "canonical_name": "David Ellison",
+    "entity_type": "person",
+    "summary": "David Ellison is an American film producer and media executive who founded Skydance Media in 2010. He is known for producing commercially successful films such as the Mission: Impossible and Star Trek series, as well as Top Gun: Maverick.",
+    "last_updated": "2026-10-01"
+  },
+  "mattel": {
+    "canonical_name": "Mattel",
+    "entity_type": "company",
+    "summary": "Mattel is a leading global play and family entertainment company and owner of one of the most iconic brand portfolios in the world. Its mission is to create innovative products and experiences that inspire fans, entertain audiences, and develop children through play.",
+    "last_updated": "2026-10-01"
+  },
+  "warner bros pictures": {
+    "canonical_name": "Warner Bros. Pictures",
+    "entity_type": "company",
+    "summary": "Warner Bros. Pictures is a fully integrated entertainment company and a global leader in the creation, production, distribution, licensing and marketing of all forms of entertainment. It stands at the forefront of the entertainment industry, from feature film and television production to worldwide d",
+    "last_updated": "2026-10-01"
+  },
+  "cindy holland": {
+    "canonical_name": "Cindy Holland",
+    "entity_type": "person",
+    "summary": "Cindy Holland is an executive who served as Chair of Direct-To-Consumer at Paramount Skydance, having previously been an advisor to Skydance CEO David Ellison. She announced her departure from Paramount ahead of the Warner Bros. Discovery merger.",
+    "last_updated": "2026-10-01"
+  },
+  "old reddit": {
+    "canonical_name": "Old Reddit",
+    "entity_type": "product",
+    "summary": "Old Reddit is a previous user interface experience for the platform that Reddit is currently limiting access to. The company is restricting this experience as part of its efforts to combat scraping and automated traffic from AI bots.",
+    "last_updated": "2026-10-01"
+  },
+  "viraj chatterjee": {
+    "canonical_name": "Viraj Chatterjee",
+    "entity_type": "person",
+    "summary": "Viraj Chatterjee is a seasoned technology executive with over 28 years of experience, currently serving as Vice President of Technology and General Manager for Amazon Maps, Amazon Lockers, and Amazon Hub Delivery.",
+    "last_updated": "2026-10-01"
+  },
+  "wellspring": {
+    "canonical_name": "Wellspring",
+    "entity_type": "product",
+    "summary": "Wellspring provides software solutions designed to simplify and manage the innovation lifecycle, helping organizations discover, protect, prioritize, and bring new products and inventions to market.",
+    "last_updated": "2026-10-01"
+  },
+  "joint commitment on frontier responsibilities": {
+    "canonical_name": "Joint Commitment on Frontier Responsibilities",
+    "entity_type": "regulation",
+    "summary": "The Joint Commitment on Frontier Responsibilities is a voluntary agreement signed by President Donald Trump and several frontier AI company leaders. The accord pledges internal controls, company-hired external auditors, and board oversight, with no penalties or implementation deadline attached.",
+    "last_updated": "2026-10-01"
+  },
+  "frontier model forum": {
+    "canonical_name": "Frontier Model Forum",
+    "entity_type": "organization",
+    "summary": "The Frontier Model Forum is an industry-supported non-profit organization launched by Anthropic, Google, Microsoft, and OpenAI. It is focused on ensuring the safe and responsible development of frontier AI models, addressing significant risks to public safety and national security.",
+    "last_updated": "2026-10-01"
+  },
+  "david stutz": {
+    "canonical_name": "David Stutz",
+    "entity_type": "person",
+    "summary": "David Stutz is a staff research scientist at Google DeepMind with a background in math and computer science from Stanford University. He has contributed to projects including SynthID, Med-Gemini, and safety evaluations for Bard.",
+    "last_updated": "2026-10-01"
+  },
+  "ali cowenrivers": {
+    "canonical_name": "Ali Cowen-Rivers",
+    "entity_type": "person",
+    "summary": "Ali Cowen-Rivers is an ML Research Engineer at Huawei with a focus on reinforcement learning, natural language processing, and optimization. He previously worked at UCL NLP, AI_UCL, and Preferred Networks, and also has experience as a Global Human Resources Director.",
+    "last_updated": "2026-10-01"
+  },
+  "jeremy ratcliff": {
+    "canonical_name": "Jeremy Ratcliff",
+    "entity_type": "person",
+    "summary": "Jeremy Ratcliff is a senior researcher and the lead of the Biosecurity Initiative at Google DeepMind. He earned his PhD in Clinical Science from Johns Hopkins University and is interested in applying science and technology to pandemic preparedness and biosecurity.",
+    "last_updated": "2026-10-01"
+  },
+  "synthid bio": {
+    "canonical_name": "SynthID Bio",
+    "entity_type": "product",
+    "summary": "SynthID Bio is a family of watermarking methods for synthetic biology that embeds an imperceptible signature into biological code. It is designed to verify AI-generated proteins on synthesized, physical proteins while preserving their biological function.",
+    "last_updated": "2026-10-01"
+  },
+  "alphaproteo": {
+    "canonical_name": "AlphaProteo",
+    "entity_type": "ai_model",
+    "summary": "AlphaProteo is an AI system designed to create novel, high-strength protein binders for biological and health research. It has potential applications in accelerating biological understanding, discovering new drugs, and developing biosensors.",
+    "last_updated": "2026-10-01"
+  },
+  "proteinmpnn": {
+    "canonical_name": "ProteinMPNN",
+    "entity_type": "ai_model",
+    "summary": "ProteinMPNN is a graph-based neural network that predicts amino acid sequences for given protein backbones. It uses message passing to model relationships between amino acid residues and leverages evolutionary, functional, and structural information.",
+    "last_updated": "2026-10-01"
+  },
+  "nanaism": {
+    "canonical_name": "nanaism",
+    "entity_type": "person",
+    "summary": "Nanaism is an artistic movement and sect of Andicism, a religion and culture originating in Oschone, inspired by the avant-garde of the early 20th century as a protest against cultural and ethical degradation. It is represented by the Instagram artist Nanaism (@nanaism), who focuses on character-foc",
+    "last_updated": "2026-10-01"
+  },
+  "algo artis": {
+    "canonical_name": "ALGO ARTIS",
+    "entity_type": "company",
+    "summary": "ALGO ARTIS is a startup founded in July 2021 that develops mathematical models and heuristic optimization algorithms to transform complex infrastructure operations. The company has raised significant funding from investors like UTEC, DeNA, and K4 Ventures, and has launched various optimization solut",
+    "last_updated": "2026-10-01"
+  },
+  "xuanwo": {
+    "canonical_name": "Xuanwo",
+    "entity_type": "company",
+    "summary": "Wenzhou Lucheng District Xuanwo E-Commerce Firm Products:null XUANWO LTD - Free company information from Companies House including registered office address, filing history, accounts, annual return, officers, charges, business activity Search for a company or officer Please press ENTER to search Com",
+    "last_updated": "2026-10-01"
+  },
+  "cida": {
+    "canonical_name": "Cida",
+    "entity_type": "product",
+    "summary": "In our research with CIDA advocates, we learned that our volunteers would like a presentation to share the mission, vision, values and impact of CIDA with new audiences. DOWNLOAD THE PRESENTATION In our research with CIDA advocates, we learned that our volunteers would like a presentation to share t",
+    "last_updated": "2026-10-01"
+  },
+  "clodfarm": {
+    "canonical_name": "clodfarm",
+    "entity_type": "product",
+    "summary": "Clodfarm is a farm of Claude Code agents designed to autonomously execute product missions. It splits tasks into sub-agents that work around the clock to build, ship, and market applications.",
+    "last_updated": "2026-10-01"
+  },
+  "omnijevonejev": {
+    "canonical_name": "OmniJev/OneJev",
+    "entity_type": "product",
+    "summary": "OneJev is a multimodal System One decision model that returns calibrated probabilities for typed questions about screenshots, photos, videos, and text in a single forward pass. It is available in 0.8B, 4B, 9B, and 27B parameter sizes and supports text, images, and video.",
+    "last_updated": "2026-10-01"
+  },
+  "qwen354b": {
+    "canonical_name": "Qwen3.5-4B",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.5-4B is Alibaba Cloud's compact multimodal foundation model with 4B parameters, released on February 24, 2026. It utilizes a hybrid architecture combining Gated Delta Networks and Gated Attention in an 8x pattern and supports a context length of 262K tokens.",
+    "last_updated": "2026-10-01"
+  },
+  "qwen359b": {
+    "canonical_name": "Qwen3.5-9B",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It demonstrates a strong overall reliability with an 83% success rate across benchmarks.",
+    "last_updated": "2026-10-01"
+  },
+  "gemini cli": {
+    "canonical_name": "Gemini CLI",
+    "entity_type": "product",
+    "summary": "Gemini CLI is a terminal-based AI tool that allows users to build, debug, and deploy with AI. It supports querying and editing large codebases, generating applications from images or PDFs, and automating complex workflows.",
+    "last_updated": "2026-10-01"
+  },
+  "louiscfm": {
+    "canonical_name": "Louis-CFM",
+    "entity_type": "organization",
+    "summary": "CFM Logistics, also known as Central Freight Management, was founded in 1995 by a group of supply chain professionals. The company was established to provide a cost-effective alternative to self-distribution and in-house freight management for businesses like food manufacturers and wholesalers.",
+    "last_updated": "2026-10-01"
+  },
+  "coucou": {
+    "canonical_name": "Coucou",
+    "entity_type": "product",
+    "summary": "Coucou is a premium poultry brand celebrated for its consistency and uncompromising standards. The brand offers a range of convenient frozen essentials and carefully crafted ready-to-cook options prepared from fresh chicken sourced from the best farms in Lebanon.",
+    "last_updated": "2026-10-01"
+  },
+  "mochi": {
+    "canonical_name": "Mochi",
+    "entity_type": "product",
+    "summary": "Mochi Foods produces chewy, fluffy, gluten-free mochi baking mixes inspired by Hawaiian recipes. The company offers easy-to-use mixes for pancakes, donuts, and brownies, and is a woman-owned business that uses premium rice flour with no artificial flavors or additives.",
+    "last_updated": "2026-10-01"
+  },
+  "reelmimic": {
+    "canonical_name": "reelmimic",
+    "entity_type": "product",
+    "summary": "ReelMimic is an open-source AI agent framework released on GitHub in 2026 that autonomously analyzes and replicates the complete visual and editing style of any source video. It moves beyond simple color grading to full-fidelity recreation of editing rhythm and shot composition, utilizing an AI crew",
+    "last_updated": "2026-10-01"
+  },
+  "codex cli": {
+    "canonical_name": "Codex CLI",
+    "entity_type": "product",
+    "summary": "Codex CLI is an AI coding agent that runs directly in the terminal, supporting installation via npm or Homebrew. It can be used with a ChatGPT account or an API key and allows users to configure settings and MCP servers through a local TOML file.",
+    "last_updated": "2026-10-01"
+  },
+  "ffmpeg": {
+    "canonical_name": "FFmpeg",
+    "entity_type": "technology",
+    "summary": "FFmpeg is the leading multimedia framework capable of decoding, encoding, transcoding, muxing, demuxing, streaming, filtering, and playing a vast range of video and audio formats. It is highly portable, compiling and passing testing infrastructure across Linux and other platforms.",
+    "last_updated": "2026-10-01"
+  },
+  "agentsmd": {
+    "canonical_name": "AGENTS.md",
+    "entity_type": "material",
+    "summary": "AGENTS.md is the de facto standard for instructing AI coding agents, serving as the default way engineering teams provide context for agents to write correct, convention-aligned code. By 2026, it is natively read by major AI tools including Claude Code, OpenAI Codex CLI, Cursor, and GitHub Copilot.",
+    "last_updated": "2026-10-01"
+  },
+  "quicksilver": {
+    "canonical_name": "Quicksilver",
+    "entity_type": "product",
+    "summary": "Quicksilver is a powerful document creation and management tool that enables businesses to create and publish lengthy, complex documents in virtually any language and any format. It requires a collaboration platform to track, share, store, and update documents, making employees and processes more ef",
+    "last_updated": "2026-10-01"
+  },
+  "jev ai": {
+    "canonical_name": "Jev AI",
+    "entity_type": "ai_model",
+    "summary": "Jev is TypeSafe AI’s System One model that returns a choice, score, or yes/no probability instead of generating chat. It is designed to act as a fast, typed branch for applications, with a public hosted API offering free output and $0.042 per million input tokens.",
+    "last_updated": "2026-10-01"
   }
 }

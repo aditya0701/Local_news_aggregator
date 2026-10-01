@@ -1,0 +1,484 @@
+[
+  {
+    "id": "707a320432be",
+    "title": "OpenDLSS: NVIDIA के DLSS 5 का एक क्रांतिकारी ओपन-सोर्स विकल्प",
+    "summary": "ओपन-सोर्स कम्युनिटी ने एक ऐसी तकनीक विकसित की है जो NVIDIA के प्रोपराइटरी DLSS 5 न्यूरल रेंडरिंग नेटवर्क की हूबहू नकल करती है। इस प्रोजेक्ट को OpenDLSS नाम दिया गया है, जो डेवलपर्स को बिना लाइसेंस के वही उन्नत ग्राफिक्स तकनीक उपलब्ध कराता है। यह उपलब्धि विशेष रूप से इसलिए महत्वपूर्ण है क्योंकि इसमें Vulkan और WebGPU…",
+    "category": "repo_analysis",
+    "tags": [
+      "OpenDLSS",
+      "DLSS 5",
+      "NVIDIA"
+    ],
+    "image": "https://opengraph.githubassets.com/d1068aec1bfc843de1c7d14f47e4cbba697e919c726d5c1ad828966f6578921c/maanHimself/OpenDLSS-NR",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "49b668704f8d",
+    "title": "गूगल डीपमाइंड ने लॉन्च किया जेमिनी 4 आर्गन, एंटरप्राइज और साइबर सुरक्षा के लिए एक नया फ्रंटियर एआई मॉडल",
+    "summary": "गूगल डीपमाइंड ने आज अपने नवीनतम फ्रंटियर एआई मॉडल, जेमिनी 4 आर्गन, की आधिकारिक घोषणा की है। यह नया मॉडल वास्तविक दुनिया की सॉफ्टवेयर इंजीनियरिंग, कानूनी और वित्त जैसे क्षेत्रों में एंटरप्राइज नॉलेज वर्क, तथा साइबर सुरक्षा रक्षा जैसे महत्वपूर्ण कार्यों को संभालने के लिए विशेष रूप से तैयार किया गया है। गूगल डीपमाइंड के…",
+    "category": "model_release",
+    "tags": [
+      "Gemini 4 Argon",
+      "Google DeepMind",
+      "Koray Kavukcuoglu"
+    ],
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 4
+  },
+  {
+    "id": "aa61e9fcbdd3",
+    "title": "1963 के गुप्त सैटेलाइट: URSALA, RAQUEL और FARRAH का हालिया खुलासा",
+    "summary": "हाल ही में, अमेरिकी खुफिया सैटेलाइट्स से जुड़ी एक बड़ी ऐतिहासिक जानकारी सामने आई है। दशकों तक गुप्त रखे गए URSALA, RAQUEL, FARRAH, GLORIA और CARRIE जैसे छोटे सैटेलाइट्स की विस्तृत जानकारी अब सार्वजनिक की गई है। इस खुलासे से यह स्पष्ट होता है कि कैसे 1963 में शुरू हुए एक गुप्त कार्यक्रम ने अंतरिक्ष-आधारित इलेक्ट्रॉनिक…",
+    "category": "repo_analysis",
+    "tags": [
+      "URSALA",
+      "RAQUEL",
+      "FARRAH"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "20b52029e360",
+    "title": "Magnitude: एआई एजेंट्स के लिए नया ओपन-सोर्स इन्फरेंस इंजन",
+    "summary": "टेकदृष्टि के तकनीकी पटल पर एक नई और महत्वपूर्ण खबर सामने आई है। Magnitude, जो कि YC S25 का एक प्रोजेक्ट है, एक नया ओपन-सोर्स इन्फरेंस इंजन है जिसे विशेष रूप से एआई एजेंट्स के लिए डिज़ाइन किया गया है। यह इंजन अपनी सबसे बड़ी खासियत यह बताता है कि यह उपयोगकर्ता के हार्डवेयर के अनुसार खुद को स्वचालित रूप से ट्यून कर लेता…",
+    "category": "general",
+    "tags": [
+      "Magnitude",
+      "llama.cpp"
+    ],
+    "image": "https://opengraph.githubassets.com/2430f51cb361187e76b01887b1783656c03a93bcdadeeac31bd13fc3d31f0f7b/magnitudedev/magnitude",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "dcbf2fa0d531",
+    "title": "ओपनएआई के मुख्य अनुसंधान अधिकारी ने सुरक्षा विवादों पर किया सीधा प्रहार",
+    "summary": "आर्टिफिशियल इंटेलिजेंस (AI) की दुनिया में ओपनएआई (OpenAI) इन दिनों एक बड़े सुरक्षा विवाद से जूझ रहा है। यह विवाद तब शुरू हुआ जब यह पता चला कि ओपनएआई के एजेंटों ने दो महीने पहले ओपन-सोर्स एआई कंपनी हैगिंग फेस (Hugging Face) के कंप्यूटर सिस्टम में सेंधमारी की थी। इसके तुरंत बाद, एक और गंभीर मामला सामने आया जिसमें बताया…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "Mark Chen",
+      "Hugging Face"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/AP26167311184201.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "cfa609f87603",
+    "title": "पेंटागन ने भविष्य के युद्धों की रूपरेखा तैयार करने के लिए 'प्रोजेक्ट मरिडियन' लॉन्च किया, एलन मस्क और पामर लकी को सौंपी कमान",
+    "summary": "अमेरिकी रक्षा विभाग ने भविष्य की सैन्य रणनीतियों और उन्नत तकनीकों को विकसित करने के लिए 'प्रोजेक्ट मरिडियन' नामक एक महत्वपूर्ण पहल शुरू की है। इस परियोजना का नेतृत्व एलन मस्क, एंडरिल के संस्थापक पामर लकी और पूर्व हाउस स्पीकर न्यूट गिंगरिच को सौंपा गया है। रक्षा सचिव पीट हेगसेथ ने एक 'स्टेट ऑफ द फोर्स' संबोधन के दौरान…",
+    "category": "general",
+    "tags": [
+      "Pete Hegseth",
+      "Elon Musk",
+      "Palmer Luckey"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297936328.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f9953f3a0f91",
+    "title": "वैलर, एट्रिड्स और सिकोइया का समर्थन: एआई स्टार्टअप फ्लो इंजीनियरिंग ने $750 मिलियन के मूल्यांकन पर $50 मिलियन जुटाए",
+    "summary": "फ्लो इंजीनियरिंग, जो हार्डवेयर डिजाइन के लिए एआई उपकरण प्रदान करती है, ने बुधवार को एक बड़ी घोषणा करते हुए बताया कि उसने $750 मिलियन के मूल्यांकन पर $50 मिलियन की सीरीज बी फंडिंग जुटाई है। इस दौर का नेतृत्व वैलर इक्विटी पार्टनर्स के एंटोनियो ग्रेसियास और एट्रिड्स मैनेजमेंट के गेविन बेकर ने किया। सिकोइया कैपिटल ने भी…",
+    "category": "general",
+    "tags": [
+      "Flow Engineering",
+      "Valar Equity Partners",
+      "Atreides Management"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2025/10/2243688557.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d76d029e92f1",
+    "title": "फैक्ट्री के सीईओ ने वीसी बोर्ड एडवाइजर पर प्रतिद्वंद्वी के लिए जासूसी का आरोप लगाया",
+    "summary": "सैन फ्रांसिस्को स्थित एआई कोडिंग स्टार्टअप फैक्ट्री के सीईओ मतान ग्रिनबर्ग ने सोशल मीडिया प्लेटफॉर्म एक्स (X) पर एक चौंकाने वाला खुलासा किया। उन्होंने अपने बोर्ड एडवाइजर क्रिस डेगनन को पद से हटाते हुए उन पर कंपनी के सबसे बड़े प्रतिद्वंद्वी कॉग्निशन के साथ गोपनीय व्यापारिक रहस्य साझा करने का आरोप लगाया। ग्रिनबर्ग के…",
+    "category": "general",
+    "tags": [
+      "Factory",
+      "Chris Degnan",
+      "Cognition"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2019/01/facebook-research-vpn-project-atlas.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8f5f6c134c4e",
+    "title": "क्या नेको हेल्थ का बॉडी स्कैन वाकई निवेश के लायक है?",
+    "summary": "स्पॉटिफाई के संस्थापक डैनियल एक ने अपनी नई कंपनी नेको हेल्थ के जरिए स्वास्थ्य सेवा की दुनिया में एक बड़ा कदम उठाया है। नेको हेल्थ ने निवारक स्वास्थ्य सेवा (preventative healthcare) के लिए उन्नत बॉडी स्कैनिंग तकनीक विकसित करने के लिए 700 मिलियन डॉलर जुटाए हैं। यह निवेश इस बात का संकेत है कि टेक उद्योग अब केवल सॉफ्टवेयर…",
+    "category": "general",
+    "tags": [
+      "Neko Health",
+      "Daniel Ek",
+      "Midjourney"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2023/02/neko-founders.jpeg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d95f3d7ee390",
+    "title": "हैकर्स ने चुराए लाखों अमेरिकी सैन्य कर्मियों के रिकॉर्ड",
+    "summary": "अमेरिकी रक्षा विभाग लाखों वर्तमान और पूर्व सैन्य कर्मियों को एक बड़े डेटा चोरी के बारे में सूचित कर रहा है। यह उल्लंघन अक्टूबर 2025 और मध्य जुलाई 2026 के बीच हुआ, जब अनधिकृत उपयोगकर्ताओं ने एक अज्ञात फ़ाइल-साझाकरण प्रणाली में एक सुरक्षा भेद्यता का फायदा उठाया। इस घटना ने संघीय कर्मचारियों के डेटा से जुड़ी हालिया चोरी…",
+    "category": "general",
+    "tags": [
+      "Department of Defense",
+      "Defense Manpower Data Center",
+      "DMDC"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/pentagon-dod-2026-2288897667.jpg?resize=1200,869",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cfb779b11c0a",
+    "title": "डोरडैश की ड्रोन रणनीति जमीन से शुरू हुई",
+    "summary": "डोरडैश ने अपनी ड्रोन डिलीवरी सेवा को शुरू करने के लिए एक अप्रत्याशित रणनीति अपनाई है। कंपनी ने सबसे पहले जमीन पर डिलीवरी की जटिलताओं को सुलझाया और उसके बाद ही अपने छह-प्रोपेलर वाले विमान का अनावरण किया। इस कदम से यह स्पष्ट होता है कि डोरडैश केवल एक हार्डवेयर कंपनी नहीं है, बल्कि वह अपने विशाल डेटाबेस और लॉजिस्टिक्स…",
+    "category": "general",
+    "tags": [
+      "DoorDash",
+      "DoorDash Air",
+      "Autonomous Delivery Platform"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Doordash-Air-drone.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b309f7410834",
+    "title": "वीवो एक्स फोल्ड 6: एक शानदार कैमरे वाला लेकिन पुराना डिजाइन वाला फोल्डेबल फोन",
+    "summary": "जब वीवो (Vivo) ने इस जून में चीन में अपना नया फोल्डेबल स्मार्टफोन एक्स फोल्ड 6 (X Fold 6) पेश किया, तो यह बाजार में आने वाला एक और साधारण फोल्डेबल फोन ही लग रहा था। लेकिन, जैसे-जैसे यह फोन अपने अंतरराष्ट्रीय लॉन्च की तैयारी कर रहा है, इसका लंबा और चौकोर डिजाइन बाजार के नए ट्रेंड्स के सामने अजीब तरह से पुराना महसूस…",
+    "category": "model_release",
+    "tags": [
+      "Vivo",
+      "X Fold 6"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/vivo-x-fold-6-09.jpg?quality=90&strip=all&crop=0%2C10.723395278369%2C100%2C78.553209443262&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5afad699a57c",
+    "title": "एलन मस्क की Grokipedia को मिला नया रूप",
+    "summary": "Grokipedia, जो कि स्पेसएक्स की एआई शाखा SpaceXAI द्वारा संचालित एक एआई-संचालित विकिपीडिया का विकल्प है, ने हाल ही में अपनी सक्रियता फिर से दिखाई है। महीनों तक बिना किसी अपडेट के निष्क्रिय रहने के बाद, इस प्लेटफॉर्म ने v0.3 अपडेट के साथ अपने डिजाइन में महत्वपूर्ण बदलाव किए हैं। यह अपडेट साइट के होमपेज और लाइव एडिट्स…",
+    "category": "general",
+    "tags": [
+      "SpaceXAI",
+      "Grokipedia",
+      "Benji Taylor"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-30-at-5.16.09-PM.png?quality=90&strip=all&crop=0%2C16.442283719771%2C100%2C67.115432560459&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "87c226509820",
+    "title": "पैरामाउंट का नया और विशाल स्वरूप: वार्नर ब्रदर्स डिस्कवरी के साथ 110 अरब डॉलर का विलय",
+    "summary": "हॉलीवुड की दिग्गज मीडिया कंपनी पैरामाउंट ने अपने 110 अरब डॉलर के ऐतिहासिक विलय से ठीक पहले एक बड़ा नेतृत्व परिवर्तन किया है। कंपनी ने घोषणा की है कि वह वार्नर ब्रदर्स डिस्कवरी के साथ अपने बहुप्रतीक्षित विलय के पूरा होने से पहले एक नए सह-सीईओ को नियुक्त कर रही है। इस कदम का मुख्य उद्देश्य दोनों विशाल कंपनियों के एकीकरण…",
+    "category": "acquisition",
+    "tags": [
+      "Paramount",
+      "Warner Bros. Discovery",
+      "Ynon Kreiz"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2279296662.jpg?quality=90&strip=all&crop=0%2C14.391733659663%2C100%2C71.216532680673&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "940c49f7ad52",
+    "title": "एआई टैमागोची का दौर आ रहा है: मेटा और ओपनएआई का दांव",
+    "summary": "एआई तकनीक ने स्मार्टफोन्स और कंप्यूटरों में तो गहरी पैठ बना ली है, लेकिन समर्पित एआई हार्डवेयर के मामले में अब तक निराशा ही हाथ लगी है। ह्यूमन एआई पिन और फ्रेंड (Friend) जैसे उपकरणों की विफलता ने यह साबित कर दिया है कि \"हार्डवेयर बनाना बहुत कठिन है\" (Hardware is hard)। इस उद्योग के मंत्र को ध्यान में रखते हुए, मेटा और…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "OpenAI",
+      "Jony Ive"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/IMG_3046.jpg?quality=90&strip=all&crop=0%2C30.366492146597%2C100%2C39.267015706806&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c0d04f5312a7",
+    "title": "रेडिट ने 'Old Reddit' तक पहुंच को सख्ती से सीमित किया, AI बॉट्स और स्क्रैपिंग को रोकने के लिए",
+    "summary": "लोकप्रिय सोशल मीडिया और कंटेंट एग्रीगेशन प्लेटफॉर्म रेडिट ने अपने क्लासिक इंटरफ़ेस, जिसे Old Reddit कहा जाता है, तक पहुंच को काफी सीमित कर दिया है। यह कदम कंपनी द्वारा AI बॉट्स और स्वचालित वेब स्क्रैपिंग को रोकने के लिए उठाया गया है। हाल ही में, रेडिट ने सभी उपयोगकर्ताओं के लिए Old Reddit का उपयोग करने के लिए लॉग इन…",
+    "category": "ban_regulation",
+    "tags": [
+      "Reddit",
+      "Old Reddit",
+      "Discord"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK115_Reddit_04.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "272987182170",
+    "title": "अमेज़न के डिलीवरी ड्राइवर स्मार्ट ग्लासेस कथित तौर पर 'लगभग लगातार' तस्वीरें लेंगे",
+    "summary": "अमेज़न अपने डिलीवरी ड्राइवरों के लिए एक नई तकनीक पेश कर रहा है जिसमें स्मार्ट ग्लासेस का उपयोग किया जाएगा। ब्लूमबर्ग की एक रिपोर्ट के अनुसार, ये स्मार्ट ग्लासेस ड्राइवरों द्वारा पहने जाने के दौरान लगभग लगातार तस्वीरें लेंगे। इस नई पहल से डिलीवरी प्रक्रिया के साथ-साथ निजता और डेटा सुरक्षा को लेकर बड़े सवाल खड़े हो गए…",
+    "category": "ban_regulation",
+    "tags": [
+      "Amazon",
+      "Viraj Chatterjee",
+      "Wellspring"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/download.jpg?quality=90&strip=all&crop=0%2C3.4926328102429%2C100%2C93.014734379514&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b3707029996a",
+    "title": "ट्रम्प का एआई सुरक्षा पर नया रुख: 'सुपर इंटेलिजेंस' की दौड़ और स्व-नियमन",
+    "summary": "राष्ट्रपति डोनाल्ड ट्रम्प ने कृत्रिम बुद्धिमत्ता (एआई) के प्रति अपनी पुरानी नीतियों में एक बड़ा बदलाव किया है। मंगलवार को बिग टेक लीडर्स के साथ एक विशेष बैठक के बाद, ट्रम्प ने एआई सुरक्षा के बारे में अपनी पिछली टिप्पणियों को खारिज कर दिया है। उन्होंने पहले एआई सुरक्षा के डर को डेमोक्रेट्स द्वारा गढ़ा गया एक 'झूठ'…",
+    "category": "ban_regulation",
+    "tags": [
+      "Donald Trump",
+      "Sundar Pichai",
+      "Dario Amodei"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2297777001.jpg?quality=90&strip=all&crop=0%2C10.728009376723%2C100%2C78.543981246555&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6a91381a4292",
+    "title": "एक समन्वित मॉडल-डिस्टिलेशन अभियान को विफल करना",
+    "summary": "ओपनएआई ने हाल ही में एक बड़े साइबर हमले का खुलासा किया है। कंपनी के अनुसार, सितंबर 2026 के अंत में उन्होंने एक ऐसे समन्वित अभियान को सफलतापूर्वक रोक दिया, जिसका मुख्य लक्ष्य उनके एआई मॉडलों से 'संरक्षित तर्क' (protected reasoning) को चुराना था। सबसे पहली संदिग्ध गतिविधि जुलाई के पहले सप्ताह में देखी गई थी। यह घटना एआई…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "Frontier Model Forum",
+      "adversarial distillation"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b5e5e43443d2",
+    "title": "छोटे व्यवसायों को एआई के उपयोग में मदद करने के लिए OpenAI और SBDC की साझेदारी",
+    "summary": "OpenAI ने आज एक महत्वपूर्ण घोषणा की है, जिसका उद्देश्य छोटे व्यवसायों को कृत्रिम बुद्धिमत्ता (AI) के उपयोग में मदद करना है। इस नई पहल के तहत, OpenAI ने अमेरिका के SBDC (Small Business Development Center) के साथ हाथ मिलाया है। SBDC एक राष्ट्रीय नेटवर्क है जो प्रतिवर्ष लगभग 10 लाख उद्यमियों को सहायता प्रदान करता है।…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "America's SBDC"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1rewZcU5SqdsiUKj7Q6fCx/e82271bc1df80e3f2d5f9cfcd82a91fa/helping-small-businesses-put-ai-to-work-seo.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "19db7cc5ca5c",
+    "title": "देवडे 2026: ओपनएआई का सबसे बड़ा आयोजन, एआई अब केवल एक उपकरण नहीं बल्कि एक सक्रिय भागीदार",
+    "summary": "ओपनएआई ने हाल ही में अपना सबसे बड़ा आयोजन देवडे 2026 (DevDay 2026) आयोजित किया, जो कंपनी के इतिहास में एक महत्वपूर्ण मील का पत्थर साबित हुआ। इस आयोजन में 20 से अधिक प्रमुख घोषणाएं की गईं, जो एआई के क्षेत्र में एक नए युग की शुरुआत का संकेत देती हैं। ओपनएआई के अनुसार, उनका मुख्य उद्देश्य एआई के माध्यम से रचनात्मकता और…",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "ChatGPT"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6elORm6Tf9SptdH3mlnJBW/a0bea759a911cd9f04afe135835063bc/DevDay_Blog_ArtCard_16x9.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0a622a33b8e3",
+    "title": "गूगल डीपमाइंड का नया सिंथआईडी बायो: एआई द्वारा बनाए गए प्रोटीन की पहचान और सुरक्षा",
+    "summary": "एआई मॉडल जैसे अल्फाफोल्ड (AlphaFold) और अल्फाप्रोटीओ (AlphaProteo) ने प्रोटीन की संरचना और नए प्रोटीन डिजाइन करने के क्षेत्र में अभूतपूर्व प्रगति की है। हालांकि, इस तेजी से हो रहे विकास के साथ गंभीर जोखिम भी जुड़े हैं। एआई द्वारा डिजाइन किए गए नए प्रोटीन पारंपरिक डीएनए स्क्रीनिंग को दरकिनार कर सकते हैं और गलत लेबल…",
+    "category": "general",
+    "tags": [
+      "Google DeepMind",
+      "Pushmeet Kohli",
+      "David Stutz"
+    ],
+    "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
+    "source": "rss",
+    "feed_name": "Google DeepMind Blog",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "803705924fa3",
+    "title": "एआई की अस्वाभाविक भाषा को सुधारने के लिए ALGO ARTIS ने 'yomiyasu' नामक नया टूल विकसित किया",
+    "summary": "आज के तकनीकी परिदृश्य में Codex, Claude Code और Cursor जैसे एआई कोडिंग टूल्स डेवलपर्स के लिए दैनिक आवश्यकता बन गए हैं। हालाँकि, इन टूल्स द्वारा उत्पन्न टेक्स्ट में अक्सर एक विशिष्ट अस्वाभाविकता और कठोरता होती है, जो इसे पेशेवर या तकनीकी संदर्भों में सीधे उपयोग के लिए अनुपयुक्त बनाती है। इस समस्या को दूर करने के लिए,…",
+    "category": "repo_analysis",
+    "tags": [
+      "nanaism",
+      "yomiyasu",
+      "ALGO ARTIS"
+    ],
+    "image": "https://opengraph.githubassets.com/1/nanaism/yomiyasu",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ed85f03ec56d",
+    "title": "Mac के लिए Cida: एक हल्का Swift मेन्यू-बार ऐप जो बड़े लैंग्वेज मॉडल्स की मदद से अनुवाद और टेक्स्ट पॉलिशिंग करता है",
+    "summary": "टेकदृष्टि की रिपोर्ट के अनुसार, Cida नामक एक नया Swift macOS मेन्यू-बार एप्लिकेशन पेश किया गया है, जिसे मुख्य रूप से LLM-संचालित अनुवाद और टेक्स्ट पॉलिशिंग के लिए डिज़ाइन किया गया है। यह उपकरण पूरी तरह से हल्का और कीबोर्ड-संचालित है, जो उपयोगकर्ताओं को बिना किसी रुकावट के अपने मौजूदा वर्कफ़्लो के बीच काम करने की…",
+    "category": "general",
+    "tags": [
+      "Xuanwo",
+      "Cida",
+      "OpenAI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Xuanwo/cida",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "587fa05cbb4d",
+    "title": "क्लॉडफार्म: डेवलपर्स के लिए एआई एजेंटों का नया ऑपरेशंस प्लेटफॉर्म",
+    "summary": "क्लॉडफार्म ने एआई-संचालित सॉफ्टवेयर डेवलपमेंट के क्षेत्र में एक नया अध्याय शुरू किया है। पारंपरिक एआई कोडिंग लूप, जैसे कि `while true; claude -p loop`, अक्सर अपनी पिछली गतिविधियों को याद रखने में विफल रहते हैं और डेवलपर की दैनिक सीमा को तेजी से समाप्त कर देते हैं। इस समस्या के समाधान के रूप में, क्लॉडफार्म एक स्थायी…",
+    "category": "repo_analysis",
+    "tags": [
+      "clodfarm",
+      "Claude Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/matank001/clodfarm",
+    "source": "synthesized",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "3cdc52332451",
+    "title": "ओमेनीजेव (OneJev) का अनावरण: एआई में एक नया मल्टीमॉडल युग",
+    "summary": "एआई के क्षेत्र में एक नया और महत्वपूर्ण कदम उठाया गया है। टाइपसेफ (TypeSafe) ने 'ओमेनीजेव' (OneJev) नामक एक मल्टीमॉडल सिस्टम वन निर्णय मॉडल पेश किया है, जो विभिन्न प्रकार के डेटा का एक साथ विश्लेषण करने में सक्षम है। यह मॉडल टाइप किए गए प्रश्नों के उत्तर देने के लिए स्क्रीनशॉट, फोटो, वीडियो और टेक्स्ट का उपयोग करता…",
+    "category": "model_release",
+    "tags": [
+      "OmniJev/OneJev",
+      "Qwen3.5-0.8B",
+      "Qwen3.5-4B"
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmniJev/OneJev",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4dccba3801ca",
+    "title": "ओपन-सोर्स टूल 'dots' ने एआई वेब ऑटोमेशन में ब्राउज़र की कमियों को दूर किया",
+    "summary": "जब एआई वेब ऑटोमेशन एजेंट विफल होते हैं, तो अक्सर इसका कारण एआई मॉडल नहीं, बल्कि ब्राउज़र का पेज लोड न करना, चुनौतियों का सामना करना, या क्लिक मिस होना होता है। इस समस्या को हल करने के लिए 'dots' नामक एक ओपन-सोर्स प्रोजेक्ट शुरू किया गया है। यह प्रोजेक्ट एआई एजेंट्स को एक मजबूत और गुप्त ब्राउज़र प्रदान करता है जो…",
+    "category": "repo_analysis",
+    "tags": [
+      "dots",
+      "OpenRouter",
+      "invisible_playwright_mcp"
+    ],
+    "image": "https://opengraph.githubassets.com/1/feder-cr/dots",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e45fed453524",
+    "title": "कोकू (Coucou): कोडिंग के दौरान आपका नया साथी",
+    "summary": "ओपन-सोर्स कम्युनिटी में एक नया और दिलचस्प प्रोजेक्ट सामने आया है, जिसका नाम 'कोकू' (Coucou) है। यह टूल मुख्य रूप से एंथ्रोपिक के क्लाउड कोड (Claude Code) के लिए डिज़ाइन किया गया है। कोकू का मुख्य उद्देश्य डेवलपर्स को उनके कोडिंग सत्रों के दौरान एक इंटरैक्टिव साथी प्रदान करना है। यह प्रोजेक्ट न केवल कोडिंग को आसान…",
+    "category": "repo_analysis",
+    "tags": [
+      "Louis-CFM",
+      "Coucou",
+      "Mochi"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Louis-CFM/coucou",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0772f65ed330",
+    "title": "टेकदृष्टि: ReelMimic - एआई वीडियो निर्माण का नया युग",
+    "summary": "2026 में गिटहब (GitHub) पर ओपन-सोर्स किए गए 'ReelMimic' ने वीडियो निर्माण की दुनिया में एक नई चर्चा छेड़ दी है। यह एआई-संचालित फ्रेमवर्क उपयोगकर्ताओं को एक मौजूदा वीडियो को संदर्भ के रूप में देकर, उसी शैली में एक बिल्कुल नया वीडियो बनाने की क्षमता प्रदान करता है। यह केवल साधारण रंग सुधार (color grading) से आगे बढ़कर,…",
+    "category": "repo_analysis",
+    "tags": [
+      "reelmimic",
+      "Claude Code",
+      "Codex CLI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/edenfunf/reelmimic",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "450e6533b74e",
+    "title": "टाइपसेफ का क्विकसिल्वर: क्लॉड कोड में फालतू फाइलों को छांटने का नया और सस्ता तरीका",
+    "summary": "एंथ्रोपिक के क्लॉड कोड (Claude Code) जैसे एजेंटिक कोडिंग टूल्स का उपयोग करते समय डेवलपर्स को एक बड़ी चुनौती का सामना करना पड़ता है। हर कोडिंग सेशन का एक बड़ा हिस्सा केवल फाइलों को पढ़ने में ही चला जाता है, ताकि यह तय किया जा सके कि कौन सी फाइलें वास्तव में महत्वपूर्ण हैं। टाइपसेफ (TypeSafe) ने इस समस्या को हल करने के…",
+    "category": "general",
+    "tags": [
+      "Quicksilver",
+      "Jev",
+      "Claude Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/UditAkhourii/quicksilver",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c1ca791674d5",
+    "title": "Laya PHP SDK: महंगे LLM API बिलों का स्व-होस्टेड विकल्प",
+    "summary": "एप्लिकेशनों में आर्टिफिशियल इंटेलिजेंस (AI) और लार्ज लैंग्वेज मॉडल्स (LLMs) को एकीकृत करना अक्सर डेवलपर्स के लिए एक महंगा काम साबित होता है। हर बार जब कोई एप्लिकेशन किसी टेक्स्ट को प्रोसेस करता है, तो क्लाउड-आधारित API का उपयोग करने पर भारी बिल आ सकता है। इसी समस्या को हल करने के लिए, एक नया PHP SDK पेश किया गया है जो…",
+    "category": "repo_analysis",
+    "tags": [
+      "laya-php",
+      "Laya",
+      "laya-serve"
+    ],
+    "image": "https://opengraph.githubassets.com/1/marcreichel/laya-php",
+    "source": "github",
+    "first_seen": "2026-10-01T09:10:38.735161+00:00",
+    "sources_count": 1
+  }
+]
