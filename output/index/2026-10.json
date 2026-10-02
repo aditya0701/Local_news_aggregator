@@ -1,5 +1,556 @@
 [
   {
+    "id": "1d001431f657",
+    "title": "Earendil ने लॉन्च किया Pi 1.0, एक हार्डन्ड मिनिमलिस्ट एजेंट हार्नेस",
+    "summary": "1 अक्टूबर 2026 को, ऑस्ट्रियाई डेवलपर कंपनी Earendil ने Pi 1.0 शिप किया है, जो एक हार्डन्ड और मिनिमल एजेंट हार्नेस है। यह नया सॉफ्टवेयर AI मॉडल्स को टास्क-एक्ज़ीक्यूटिंग एजेंट्स में बदलता है और अपनी रिलीज़ के तुरंत बाद इसने भारी लोकप्रियता हासिल की। यह प्रोडक्ट Hacker News के टॉप पर पहुँच गया, जहाँ इसे 1,000 से अधिक…",
+    "category": "general",
+    "tags": [
+      "Pi 1.0",
+      "Pi Durable",
+      "Earendil"
+    ],
+    "image": "https://earendil.com/static/og/posts/pi-1-0.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "04514bbe0c59",
+    "title": "सिंगापुर की सरकारी डेटिंग सेवा: सामाजिक अलगाव से निपटने का एक नया प्रयोग",
+    "summary": "सिंगापुर में तीन साल पहले बंद हुई सोशल डेवलपमेंट नेटवर्क (Social Development Network) के बाद, एक बार फिर से सरकारी स्तर पर डेटिंग और मैचमेकिंग की पहल शुरू हो गई है। इस नए प्रयास को GovTech द्वारा 'FirstDate' (फर्स्टडेट) नामक एक पायलट प्रोग्राम के रूप में पेश किया गया है। मुख्य रूप से सरकारी क्षेत्र के कर्मचारियों को…",
+    "category": "general",
+    "tags": [
+      "GovTech",
+      "FirstDate",
+      "Gale-Shapley Stable Marriage Algorithm"
+    ],
+    "image": "https://substackcdn.com/image/fetch/$s_!g2hS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6da96f2-5327-4b47-9832-9e9bf0ee3093_2400x1860.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "381e020f7b06",
+    "title": "लिनक्स कर्नेल में कई महत्वपूर्ण कमजोरियां उजागर, डेबियन ने जारी की चेतावनी",
+    "summary": "29 सितंबर 2026 को डेबियन सिक्योरिटी एडवाइजरी DSA-6528-1 प्रकाशित की गई, जिसमें लिनक्स पैकेज में मौजूद कई गंभीर सुरक्षा खामियों का विस्तृत विवरण दिया गया है। इस रिपोर्ट को साल्वाटोर बोनाकोर्सो द्वारा तैयार किया गया है और यह दुनिया भर के सिस्टम एडमिनिस्ट्रेटर्स के लिए एक महत्वपूर्ण चेतावनी के रूप में सामने आई है। यह…",
+    "category": "repo_analysis",
+    "tags": [
+      "Debian",
+      "Salvatore Bonaccorso",
+      "linux"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ef05aea17ef0",
+    "title": "डीपसीक हार्नेस: मैकओएस और विंडोज के लिए नया ओपन-सोर्स एआई डेवलपर प्लेटफॉर्म",
+    "summary": "डीपसीक ने अपने नए ओपन-सोर्स एआई प्लेटफॉर्म 'डीपसीक हार्नेस' को पब्लिक प्रीव्यू में लॉन्च कर दिया है। यह एक डेवलपर-फोकस्ड टूल है जो 'हर प्लगइन एक टूल है' की अवधारणा पर काम करता है। कंपनी के अनुसार, यह प्लेटफॉर्म डेवलपर्स को अपने एआई एजेंट बनाने और उन्हें कस्टमाइज़ करने की सुविधा देता है। यह कदम एआई डेवलपमेंट को और अधिक…",
+    "category": "model_release",
+    "tags": [
+      "DeepSeek",
+      "DeepSeek Harness",
+      "Cordis"
+    ],
+    "image": "https://www.deepseek.com/harness/images/deepseek-harness-social.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ebb2d7850d0e",
+    "title": "क्लाउडफ्लेयर ने पेश किए ओपन-वेट 'डिसीजन मॉडल्स' और नया RL फाइन-ट्यूनिंग प्लेटफॉर्म",
+    "summary": "क्लाउडफ्लेयर ने कृत्रिम बुद्धिमत्ता (AI) के क्षेत्र में एक नई और महत्वपूर्ण घोषणा की है। कंपनी ने 'क्लीफ' और 'क्लीफ-फ्लैश' नामक दो नए ओपन-सोर्स डिसीजन मॉडल्स को सार्वजनिक किया है, जो मौजूदा जेव सिस्टम वन (Jev System One) जैसे मॉडल्स के लिए एक मजबूत विकल्प प्रस्तुत करते हैं। पारंपरिक लार्ज लैंग्वेज मॉडल्स (LLMs) के…",
+    "category": "model_release",
+    "tags": [
+      "Cloudflare",
+      "Workers AI",
+      "Clef"
+    ],
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJV43SPQCPKJ6GBXFCDKNE.01M3TJV53VYDMVNCZDPH1FBFYN.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8e123835eac4",
+    "title": "Earendil Engineering ने लॉन्च किया Pi Durable, जो एक नया और मजबूत एजेंटिक फ्रेमवर्क है",
+    "summary": "Earendil Engineering ने 1 अक्टूबर 2026 को एक महत्वपूर्ण मील का पत्थर हासिल करते हुए अपने प्रमुख कोडिंग एजेंट Pi 1.0 को आधिकारिक तौर पर शिप किया। कंपनी ने यह उपलब्धि अनगिनत घंटों की कड़ी मेहनत, सिस्टम हार्डनिंग और निरंतर रखरखाव के बाद हासिल की है। इस लॉन्च के साथ, उन्होंने 'Pi Durable' नामक एक नया प्रायोगिक पैकेज भी…",
+    "category": "repo_analysis",
+    "tags": [
+      "Earendil Engineering",
+      "Pi"
+    ],
+    "image": "https://earendil.com/static/og/posts/pi-durable.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1c435808300f",
+    "title": "भ्रम में न रहें - एलएलएम (LLMs) वास्तव में तर्क नहीं करते हैं",
+    "summary": "मार्च 2016 में सियोल में हुए एक ऐतिहासिक मैच में, अल्फागो ने विश्व चैंपियन ली सेडोल के खिलाफ अपनी चाल 37 (Move 37) चली। उस समय कई टिप्पणीकारों ने इसे एक प्रोग्रामिंग गलती या इंसानों के प्रति एक उदारता भरा कदम माना था। हालांकि, यह एक महत्वपूर्ण मोड़ था जिसने एआई की क्षमताओं के बारे में हमारी धारणाओं को हमेशा के लिए बदल…",
+    "category": "general",
+    "tags": [
+      "AlphaGo",
+      "Lee Sedol",
+      "Deep Blue"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/2llm-go.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f81fef28560f",
+    "title": "एआई की 'मन-पढ़ने' की क्षमता, पेंटागन में मस्क की भूमिका और ग्रिड को राहत देने वाली छोटी बैटरियां",
+    "summary": "'द डाउनलोड' के आज के संस्करण में, तकनीक की दुनिया की दो प्रमुख खबरें सामने आई हैं। एक तरफ, एक नया आर्टिफिशियल इंटेलिजेंस (एआई) टूल मस्तिष्क की स्कैनिंग का विश्लेषण करके यह अनुमान लगाने में सक्षम है कि कोई व्यक्ति क्या देख रहा है। दूसरी ओर, अमेरिकी रक्षा विभाग ने एलन मस्क को एक महत्वपूर्ण भविष्य के युद्ध प्रोजेक्ट का…",
+    "category": "general",
+    "tags": [
+      "Elon Musk",
+      "Pentagon"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/brain-image-output.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "8e23ff79fb35",
+    "title": "मस्तिष्क स्कैन से छवि का पुनर्निर्माण: एआई तकनीक की नई उपलब्धि",
+    "summary": "इज़राइल के वीज़मैन इंस्टीट्यूट ऑफ साइंस के शोधकर्ताओं ने एक अभूतपूर्व एआई टूल विकसित किया है, जो मस्तिष्क स्कैन के माध्यम से यह जान सकता है कि कोई व्यक्ति क्या देख रहा है। कार्यात्मक चुंबकीय अनुनाद इमेजिंग (fMRI) तकनीक का उपयोग करते हुए, यह प्रणाली मस्तिष्क की गतिविधियों का विश्लेषण करती है। इस तकनीक की सटीकता और…",
+    "category": "general",
+    "tags": [
+      "Weizmann Institute of Science",
+      "Michal Irani",
+      "Judy Illes"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/brain-image-output.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0fd54409a646",
+    "title": "टेकक्रंच डिसरप्ट 2026: एआई युग में स्थायी कंपनी बनाने का ब्लूप्रिंट",
+    "summary": "टेकक्रंच डिसरप्ट 2026 स्टार्टअप्स और निवेशकों के लिए एक प्रमुख आयोजन है, जो 13 से 15 अक्टूबर तक सैन फ्रांसिस्को के मोस्कोन वेस्ट में होने वाला है। इस वर्ष का मुख्य विषय यह है कि एआई के वर्तमान दौर में एक स्थायी कंपनी कैसे बनाई जाए। टेकक्रंच द्वारा आयोजित इस इवेंट में 200 से अधिक विशेषज्ञ सत्र और एक विशाल स्पीकर लाइनअप…",
+    "category": "general",
+    "tags": [
+      "TechCrunch",
+      "TechCrunch Disrupt",
+      "Moscone West"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/54885169397_78fc033af7_k-1.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "67f82d3372e3",
+    "title": "Lyft ने ड्राइवर वर्गीकरण मुकदमे को सुलझाने के लिए $272.5 मिलियन का भुगतान किया",
+    "summary": "Lyft ने हाल ही में एक बड़े कानूनी विवाद को सुलझाने के लिए $272.5 मिलियन का भुगतान करने पर सहमति व्यक्त की है। यह समझौता उस मुकदमे के संदर्भ में है जिसमें आरोप लगाया गया था कि कंपनी ने कैलिफोर्निया के कानून का उल्लंघन करते हुए अपने ड्राइवरों को कर्मचारियों के बजाय स्वतंत्र ठेकेदारों (independent contractors) के रूप में…",
+    "category": "ban_regulation",
+    "tags": [
+      "Lyft",
+      "Lilia García-Brower",
+      "California Labor Commissioner's Office"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2022/10/GettyImages-836662650.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f4ad26c8013e",
+    "title": "केविन मैंडिया का नया 'एजेंट स्वार्म' स्टार्टअप आर्मडिन ने $2.5 बिलियन के मूल्यांकन पर $255.5 मिलियन जुटाए",
+    "summary": "केविन मैंडिया, जो मैंडिएंट (Mandiant) के संस्थापक के रूप में साइबर सुरक्षा जगत में व्यापक रूप से जाने जाते हैं, ने अपने नए स्टार्टअप आर्मडिन के लिए 255.5 मिलियन डॉलर की भारी-भरकम फंडिंग जुटाई है। इस नई फंडिंग राउंड के साथ कंपनी का मूल्यांकन 2.5 बिलियन डॉलर से अधिक हो गया है। मैंडिया ने 2022 में अपनी पिछली कंपनी…",
+    "category": "general",
+    "tags": [
+      "Kevin Mandia",
+      "Mandiant",
+      "Armadin"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "17bfcacf3c39",
+    "title": "मस्क के AI चैटबॉट Grok ने ट्रम्प को वेनेजुएला के राष्ट्रपति को पकड़ने की सलाह दी",
+    "summary": "एक बेहद चौंकाने वाली रिपोर्ट में यह दावा किया गया है कि अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प ने एलन मस्क के एआई चैटबॉट Grok के साथ वेनेजुएला पर सैन्य कार्रवाई की योजना बनाने के लिए एक गुप्त बैठक की थी। टाइम मैगज़ीन की एक विस्तृत रिपोर्ट के अनुसार, दिसंबर 2025 में ट्रम्प ने मस्क के साथ कई घंटों तक बातचीत की। इस बैठक का…",
+    "category": "general",
+    "tags": [
+      "Elon Musk",
+      "Donald Trump",
+      "Grok"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297722687.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "280d0a9a74fa",
+    "title": "ChatGPT अब वर्चुअल रूप से कपड़े ट्राई कर सकता है",
+    "summary": "OpenAI अपने लोकप्रिय AI असिस्टेंट ChatGPT की क्षमताओं का विस्तार करते हुए ऑनलाइन शॉपिंग और ई-कॉमर्स क्षेत्र में नई शुरुआत कर रहा है। गुरुवार को कंपनी ने वैश्विक स्तर पर दो नए शॉपिंग फीचर्स की घोषणा की, जिनमें एक वर्चुअल ट्राई-ऑन टूल और उत्पादों को सेव करने के लिए एक नया 'Favorites' फंक्शन शामिल है। यह नया कदम ऐसे समय…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "ChatGPT Images 2.5"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Virtual-Try-On.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c2d379028da4",
+    "title": "दुनिया का पहला एन्हांस्ड जियोथर्मल पावर प्लांट महज 23 महीने में बनकर तैयार",
+    "summary": "फर्वो एनर्जी ने गुरुवार सुबह एक बड़ी घोषणा की कि उसने अपने केप स्टेशन पावर प्लांट से ग्रिड को बिजली बेचना शुरू कर दिया है। यह उपलब्धि 30 सितंबर को हासिल की गई, जो तय समय से एक दिन पहले है। इसके साथ ही, फर्वो दुनिया की पहली एन्हांस्ड जियोथर्मल कंपनी बन गई है जिसने इस महत्वपूर्ण व्यावसायिक मील के पत्थर को पार किया है।…",
+    "category": "general",
+    "tags": [
+      "Fervo Energy",
+      "Tim Latimer",
+      "Cape Station"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2025/12/fervo-geothermal-site-at-night.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2badf9642d90",
+    "title": "OpenAI ने तीन सुरक्षा शोधकर्ताओं को किया बर्खास्त",
+    "summary": "वॉल स्ट्रीट जर्नल की एक हालिया रिपोर्ट के मुताबिक, आर्टिफिशियल इंटेलिजेंस (AI) कंपनी OpenAI ने अपने सुरक्षा दल के तीन शोधकर्ताओं को कंपनी की संवेदनशील जानकारी के गलत तरीके से प्रबंधन के आरोप में बर्खास्त कर दिया है। एक आधिकारिक बयान में, OpenAI के एक प्रवक्ता ने स्पष्ट किया कि इन व्यक्तियों ने कंपनी की नीतियों का…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "The Wall Street Journal",
+      "The New York Times"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1b019ab53f25",
+    "title": "एआई की भाषाई पहचान: ओपस 5.5 के 'tell' और एआई लेखन का भविष्य",
+    "summary": "एआई जनरेटेड टेक्स्ट के बढ़ते चलन के बीच, शोधकर्ताओं और विश्लेषकों ने ऐसे भाषाई फिंगरप्रिंट्स या 'tells' की पहचान की है जो एआई द्वारा लिखे गए कंटेंट को आसानी से पहचानने में मदद करते हैं। Graphite नामक एक मार्केटिंग फर्म ने एक विस्तृत अध्ययन किया, जिसमें एआई के लेखन की आदतों और उनकी तुलना मानव-निर्मित सामग्री से की गई।",
+    "category": "general",
+    "tags": [
+      "Graphite",
+      "Claude Opus",
+      "Greg Druck"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2024/10/notebook-getty.jpg?w=1200",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8a4a8c806cfc",
+    "title": "एप्पल की नई स्मार्ट होम कैमरा रिपोर्ट: वीडियो रिकॉर्डिंग के बिना केवल टेक्स्ट अलर्ट",
+    "summary": "एप्पल इंक. अपने स्मार्ट होम हार्डवेयर को विस्तार देने की दिशा में काम कर रहा है। ब्लूमबर्ग के प्रमुख एप्पल विश्लेषक मार्क गुरमन ने अपने 'पावर ऑन' पॉडकास्ट के पहले एपिसोड में इस नए हार्डवेयर के बारे में जानकारी साझा की। उनके अनुसार, कंपनी एक नया स्मार्ट होम इकोसिस्टम बना रही है, जिसके केंद्र में एक नया स्मार्ट होम हब…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "Mark Gurman",
+      "AirPods"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_APPLE_I.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c2e280cb2249",
+    "title": "गूगल का नया 'गाइडेड विज़न' फीचर: एआई की मदद से अब छोटी-छोटी चीज़ें पढ़ना हुआ आसान",
+    "summary": "गूगल आज से अपने जेमिनी लाइव (Gemini Live) ऐप में 'गाइडेड विज़न' (Guided Vision) नामक एक नया एआई फीचर रोल आउट कर रहा है। यह फीचर उन एंड्रॉइड (Android) उपयोगकर्ताओं को अपने फोन के कैमरे को किसी भी चीज़ की ओर पॉइंट करने की अनुमति देता है, और एआई तुरंत उसे देखकर रियल-टाइम ऑडियो विवरण देता है। यह लॉन्च गूगल की उस बड़ी…",
+    "category": "model_release",
+    "tags": [
+      "Google",
+      "Gemini Live",
+      "Guided Vision"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3886d80a4ec3",
+    "title": "एंड्रॉइड सेंट्रल अपने कर्मचारियों की छंटनी के बावजूद काम जारी रखेगा",
+    "summary": "टेक जगत से एक बड़ी खबर सामने आई है। एंड्रॉइड इकोसिस्टम को समर्पित एक प्रमुख ब्लॉग, एंड्रॉइड सेंट्रल ने कल अपने सभी कर्मचारियों को नौकरी से निकाल दिया। यह छंटनी ऐसे समय में हुई है जब टेक मीडिया उद्योग में लागत में कटौती का दौर चल रहा है। इस फैसले की पुष्टि कर्मचारियों के सोशल मीडिया पोस्ट और कंपनी के आधिकारिक बयानों के…",
+    "category": "general",
+    "tags": [
+      "Android Central",
+      "Future",
+      "Android Police"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-01-at-12.18.47-PM.jpg?quality=90&strip=all&crop=0%2C8.5258187044451%2C100%2C82.94836259111&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8664d3c9412f",
+    "title": "Steam Deck 2: क्या AMD का Gainsborough वह चिप है जिसका Valve को इंतज़ार था?",
+    "summary": "चार साल और आधे साल पुराने Steam Deck के बाद, गेमर एक नए और बेहतर सीक्वल का बेसब्री से इंतज़ार कर रहे हैं। वाल्व ने हमेशा यह स्पष्ट किया है कि वे Steam Deck 2 को तब तक लॉन्च नहीं करेंगे जब तक उन्हें एक ऐसी चिप न मिल जाए जो प्रदर्शन और ऊर्जा दक्षता (efficiency) में एक \"पीढ़ीगत छलांग\" (generational leap) लाए। अब, AMD के…",
+    "category": "general",
+    "tags": [
+      "Steam Deck 2",
+      "AMD Gainsborough",
+      "Valve"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/53420776536_b9dede69df_k.jpg?quality=90&strip=all&crop=0%2C10.723395278369%2C100%2C78.553209443262&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e7f973146b85",
+    "title": "जज ने खारिज किए गूगल के AI Overviews से जुड़े एंटीट्रस्ट मुकदमे",
+    "summary": "अमेरिकी जिला न्यायाधीश अमित मेहता ने बुधवार को एक अहम फैसला सुनाते हुए चीग और पेंस्की मीडिया कॉर्पोरेशन (PMC) द्वारा गूगल के खिलाफ दायर एंटीट्रस्ट मुकदमों को खारिज कर दिया है। इन मुकदमों में आरोप लगाया गया था कि गूगल के नए एआई (AI) सर्च फीचर्स के कारण वेबसाइट्स पर ट्रैफिक में भारी गिरावट आई है। रॉयटर्स की रिपोर्ट के…",
+    "category": "general",
+    "tags": [
+      "Chegg",
+      "Penske Media Corporation",
+      "Google"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b876f6aadd1b",
+    "title": "सोनी लाया आम PS5 के लिए AI ग्राफिक्स अपस्केलिंग",
+    "summary": "सोनी ने अपने स्टैंडर्ड प्लेस्टेशन 5 (PS5) के लिए एक नई एआई-संचालित अपस्केलिंग तकनीक की घोषणा की है। इस नई तकनीक का नाम 'क्विक स्पेक्ट्रल सुपर रेजोल्यूशन' (QSSR) है। यह प्रोजेक्ट एमराथ के तहत एएमडी (AMD) के साथ सोनी के सहयोग का परिणाम है और इसे आम PS5 कंसोल के लिए एक \"नया परफॉरमेंस टियर ऑफ एआई अपस्केलिंग\" के रूप में…",
+    "category": "general",
+    "tags": [
+      "Sony",
+      "AMD",
+      "Project Amethyst"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072873/110923_new_Playstation_5_Slim_ADiBenedetto_0010.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "037b2362f4a5",
+    "title": "क्या वीआर चश्मे वर्चुअल रियलिटी को बचा सकते हैं?",
+    "summary": "एक प्रमुख टेक पत्रकार ने हाल ही में मेटा के नए वर्चुअल रियलिटी (VR) चश्मे का परीक्षण किया है। शुरुआत में आर्थिक तंगी और मेटा के प्रति व्यक्तिगत आपत्तियों के कारण इस 1,299 डॉलर के उपकरण को खरीदने की अनिच्छा थी। हालांकि, यह उपकरण एक ऐसा गेम-चेंजर है जिसने वर्चुअल रियलिटी की दुनिया में एक नई उम्मीद जगाई है। यह उपकरण न तो…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Apple Vision Pro",
+      "Valve Steam Frame"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/20260924_130227-EDIT.jpg?quality=90&strip=all&crop=0%2C10.704986421032%2C100%2C78.590027157936&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f17c2eb8b731",
+    "title": "माइक्रोसॉफ्ट के ऑफिस और टीम्स प्रमुख रयान रोसलैंस्की का 18 साल बाद इस्तीफा",
+    "summary": "माइक्रोसॉफ्ट के ऑफिस और टीम्स के प्रमुख रयान रोसलैंस्की ने कंपनी में लगभग 18 साल बिताने के बाद अपना पद छोड़ दिया है। इससे पहले वे लिंक्डइन (LinkedIn) के सीईओ थे और हाल ही में उन्होंने माइक्रोसॉफ्ट के प्रमुख उत्पाद समूहों का नेतृत्व किया था। रोसलैंस्की के जाने से माइक्रोसॉफ्ट के भीतर एक बड़ा नेतृत्व फेरबदल शुरू हो गया…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Ryan Roslansky",
+      "Satya Nadella"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2179776852.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a3084e08d485",
+    "title": "माइक्रोसॉफ्ट की बड़ी कोपायलट (Copilot) रणनीति में बदलाव",
+    "summary": "पिछले सप्ताह, माइक्रोसॉफ्ट के सीईओ सत्य नडेला ने अपने कुछ प्रमुख उद्यम ग्राहकों के लिए एक विशेष और निमंत्रण-आधारित कार्यक्रम का आयोजन किया था। यह कोई आम मीडिया इवेंट नहीं था, बल्कि एक ऐसा मंच था जहाँ नडेला ने सीधे उन ग्राहकों के सामने कोपायलट के भविष्य की रूपरेखा प्रस्तुत की, जो कंपनी के लिए सबसे महत्वपूर्ण हैं। इस…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Satya Nadella",
+      "Copilot"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Satya-Nadella-September-Copilot-Event.png?quality=90&strip=all&crop=0%2C10.889260556288%2C100%2C78.221478887424&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "569e67f0e7cb",
+    "title": "न्यूयॉर्क शहर में 'क्लिक-टू-कैंसिल' नियम लागू, सब्सक्रिप्शन फीस से मिली राहत",
+    "summary": "न्यूयॉर्क शहर ने उपभोक्ताओं को परेशान करने वाली आवर्ती सब्सक्रिप्शन फीस से राहत दिलाने के लिए एक नया और कड़ा कदम उठाया है। गुरुवार को शहर का 'क्लिक-टू-कैंसिल' नियम प्रभावी हो गया, जिससे निवासी सीधे शहर सरकार के पास अपनी शिकायतें दर्ज करा सकते हैं। इस नियम के तहत व्यवसायों को यह सुनिश्चित करना होगा कि सब्सक्रिप्शन रद्द…",
+    "category": "ban_regulation",
+    "tags": [
+      "New York City",
+      "Samuel Levine",
+      "Zohran Mamdani"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2294777879.jpg?quality=90&strip=all&crop=0%2C10.735424905768%2C100%2C78.529150188464&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7e67b43cf9d0",
+    "title": "मानव बुद्धि और भौतिक विस्तार के बीच बढ़ती खाई",
+    "summary": "मानव जाति ने ब्रह्मांड के शुरुआती क्षणों से लेकर तारों के जन्म तक को समझने का प्रयास किया है। हमारी वैज्ञानिक समीकरणें और दूरबीनें हमें ब्रह्मांड के गहरे रहस्यों को जानने में मदद करती हैं। इसके बावजूद, अंतरिक्ष की भौतिक खोज में हमारी प्रगति बहुत धीमी रही है और कोई भी इंसान आज तक पृथ्वी की कक्षा से आगे नहीं गया है। यह…",
+    "category": "general",
+    "tags": [
+      "Hemanth Asirvatham",
+      "Elliott Mokski",
+      "OpenAI"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2lnidMsGW3gfP6p4fYJZTg/be8ebadd2bf9e9d83adea7a6f28f0501/eternal-complement-seo-white-preview.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a80484c2d584",
+    "title": "अल्बर्ट्सन्स कैसे अंदर से बाहर तक रिटेल की दुनिया को बदल रहा है",
+    "summary": "अल्बर्ट्सन्स कंपनीज़ ने अक्टूबर 2026 में ओपनएआई के साथ अपनी साझेदारी का विस्तार करने की घोषणा की है, जिसका मुख्य उद्देश्य लाखों ग्राहकों के लिए रिटेल अनुभव को बेहतर बनाना है। यह कदम एक बड़े तकनीकी बदलाव को दर्शाता है, जहां कृत्रिम बुद्धिमत्ता (AI) का उपयोग केवल एक उपकरण के रूप में नहीं, बल्कि रोजमर्रा के कार्यों और…",
+    "category": "general",
+    "tags": [
+      "Albertsons Cos.",
+      "OpenAI",
+      "ChatGPT Enterprise"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6sZopZBu8aHeeYeb8H6IS1/945a5ed2fcd3a837554c8ac49a38cdf6/how-albertsons-companies-is-reimagining-retail-from-the-inside-out-seo.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3bba52758573",
+    "title": "चैटजीपीटी वर्क (ChatGPT Work) की मदद से 'द डेन' (The Den) ने बचाया हफ्ते का 10-15 घंटा, बिजनेस ग्रोथ को मिला बढ़ावा",
+    "summary": "डेनवर स्थित 'द डेन फैमिली सोशल' (The Den Family Social) ने अपने दूसरे लोकेशन के विस्तार के दौरान प्रशासनिक कार्यों को सुव्यवस्थित करने के लिए चैटजीपीटी वर्क (ChatGPT Work) का उपयोग किया है। इसके परिणामस्वरूप, लीडरशिप टीम ने हर हफ्ते 10 से 15 घंटे बचाए हैं, जिससे अनुदान आवेदन (grant applications) और शराब लाइसेंस…",
+    "category": "general",
+    "tags": [
+      "The Den",
+      "Chandler Lipe",
+      "ChatGPT Work"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2LBeQvZxob9E44kvUBuP4u/bf9887c20e840ecd0362d8e93e98c31d/og.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "42cfebd3a044",
+    "title": "UFO ओपन-सोर्स AI एजेंट रनटाइम: टीमों के लिए एक नया विकल्प",
+    "summary": "UFO एक ओपन-सोर्स रनटाइम है जो टीमों को अपने खुद के इंफ्रास्ट्रक्चर पर AI एजेंट चलाने की सुविधा देता है। यह टूल टीम के सदस्यों को चैट के माध्यम से एजेंट को काम सौंपने की अनुमति देता है, जिससे वे फाइलों को पढ़ सकते हैं और कमांड चलाकर काम पूरा कर सकते हैं। UFO की होस्टेड सर्विस भी इसी कोड का उपयोग करती है, जिससे…",
+    "category": "repo_analysis",
+    "tags": [
+      "ufo-ai/ufo-core",
+      "ufo",
+      "ufoctl"
+    ],
+    "image": "https://opengraph.githubassets.com/1/ufo-ai/ufo-core",
+    "source": "github",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7f6530b93c9f",
+    "title": "आर्टिफिशियलएनालिसिस ने पेश किया ओपन-सोर्स बेंचमार्किंग टूल 'एजेंटपरफ-लोकल'",
+    "summary": "आर्टिफिशियल एनालिसिस (ArtificialAnalysis) ने हाल ही में 'एजेंटपरफ-लोकल' नामक एक नया ओपन-सोर्स बेंचमार्किंग टूल रिलीज़ किया है। यह टूल डेवलपर्स और एआई शोधकर्ताओं के लिए एक महत्वपूर्ण संसाधन है, जो यह मापता है कि किसी मशीन की गति एक एआई एजेंट को सर्व करने में कितनी है। यह टूल वास्तविक रिकॉर्ड की गई एआई एजेंट बातचीत को…",
+    "category": "repo_analysis",
+    "tags": [
+      "ArtificialAnalysis",
+      "agentperf-local"
+    ],
+    "image": "https://opengraph.githubassets.com/1/ArtificialAnalysis/aa-agentperf-local",
+    "source": "github",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0acb45d4c1f4",
+    "title": "टेकदृष्टि: STEPQuant ने एआई मॉडल्स में मेमोरी मैनेजमेंट में एक बड़ी कामयाबी हासिल की",
+    "summary": "आर्टिफिशियल इंटेलिजेंस (AI) की दुनिया में मेमोरी मैनेजमेंट हमेशा से एक बड़ी चुनौती रही है। अब, शोधकर्ताओं ने STEPQuant नाम का एक नया फ्रेमवर्क पेश किया है, जो एआई मॉडल्स के मेमोरी उपयोग को भारी मात्रा में कम करने का दावा करता है। इस नई तकनीक का मुख्य उद्देश्य रिकरेंट स्टेट्स को कंप्रेस करना है, जिससे Qwen और Kimi जैसे…",
+    "category": "repo_analysis",
+    "tags": [
+      "STEPQuant",
+      "Delta-rule",
+      "Qwen"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Dreamer-Toby/STEPQuant",
+    "source": "github",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "86a8b795b3dd",
+    "title": "टाइपसेफ जेव और डीपसीक हार्नेस का नया प्लगइन",
+    "summary": "हाल ही में एक स्वतंत्र कम्युनिटी प्रोजेक्ट के रूप में एक नया ओपन-सोर्स प्लगइन सामने आया है, जो डीपसीक हार्नेस (DSH) और टाइपसेफ जेव (TypeSafe Jev) के बीच एक पुल का काम करता है। यह प्लगइन, जिसे luobosibing2/dsh-jev-plugin के रूप में पहचाना जाता है, डेवलपर्स के लिए एआई एजेंटों के निर्णय लेने की प्रक्रिया को अधिक…",
+    "category": "repo_analysis",
+    "tags": [
+      "deepseek-harness",
+      "TypeSafe Jev",
+      "DSH"
+    ],
+    "image": "https://opengraph.githubassets.com/1/luobosibing2/dsh-jev-plugin",
+    "source": "github",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "88ba491f7008",
+    "title": "Strands Decider: एआई के निर्णय लेने की नई दिशा",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) की दुनिया में Strands Labs ने एक नया मॉडल पेश किया है, जो एआई के निर्णय लेने की प्रक्रिया को पूरी तरह से बदल सकता है। Strands Decider को एआई एजेंटों के लिए एक विशेष 'सिस्टम वन' मॉडल के रूप में डिज़ाइन किया गया है। यह मॉडल पारंपरिक भाषा मॉडलों की तरह मनमाना टेक्स्ट उत्पन्न करने के बजाय, दिए गए…",
+    "category": "model_release",
+    "tags": [
+      "strands-decider",
+      "Qwen3.5-2B-Base",
+      "JevBench"
+    ],
+    "image": "https://opengraph.githubassets.com/1/strands-labs/strands-decider",
+    "source": "github",
+    "first_seen": "2026-10-02T08:45:03.060531+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "707a320432be",
     "title": "OpenDLSS: NVIDIA के DLSS 5 का एक क्रांतिकारी ओपन-सोर्स विकल्प",
     "summary": "ओपन-सोर्स कम्युनिटी ने एक ऐसी तकनीक विकसित की है जो NVIDIA के प्रोपराइटरी DLSS 5 न्यूरल रेंडरिंग नेटवर्क की हूबहू नकल करती है। इस प्रोजेक्ट को OpenDLSS नाम दिया गया है, जो डेवलपर्स को बिना लाइसेंस के वही उन्नत ग्राफिक्स तकनीक उपलब्ध कराता है। यह उपलब्धि विशेष रूप से इसलिए महत्वपूर्ण है क्योंकि इसमें Vulkan और WebGPU…",

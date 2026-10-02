@@ -7782,10 +7782,10 @@
     "last_updated": "2026-09-11"
   },
   "linux": {
-    "canonical_name": "Linux",
-    "entity_type": "model_release",
-    "summary": "A release model is the philosophy and schedule a Linux distribution follows for releasing new software, from the kernel to applications. The most critical difference between distributions is the release model, which dictates how you get updates, how new your software is, and how stable your system w",
-    "last_updated": "2026-07-16"
+    "canonical_name": "linux",
+    "entity_type": "product",
+    "summary": "Linux is a widely used operating system that powers devices ranging from smartphones to supercomputers, home appliances, and enterprise servers. Originally developed in the mid-1990s, it has grown into one of the most popular platforms globally, with Android being one of its most prominent implement",
+    "last_updated": "2026-10-02"
   },
   "arm64": {
     "canonical_name": "ARM64",
@@ -19312,5 +19312,41 @@
     "entity_type": "ai_model",
     "summary": "Jev is TypeSafe AI’s System One model that returns a choice, score, or yes/no probability instead of generating chat. It is designed to act as a fast, typed branch for applications, with a public hosted API offering free output and $0.042 per million input tokens.",
     "last_updated": "2026-10-01"
+  },
+  "pi 10": {
+    "canonical_name": "Pi 1.0",
+    "entity_type": "product",
+    "summary": "Pi 1.0 is a minimalist agent harness developed by Earendil, an Austrian developer's AI company, that turns an AI model into an agent capable of executing tasks. It was released with native MCP support and is classified alongside other AI harnesses that manage context, provide tools, and execute comm",
+    "last_updated": "2026-10-02"
+  },
+  "pi durable": {
+    "canonical_name": "Pi Durable",
+    "entity_type": "product",
+    "summary": "Pi Durable is an experimental framework for long-running AI agents that was launched alongside Pi 1.0. It ports the Pi harness to TypeScript and externalizes all stateful components, featuring a crash survival mechanism where every step is recorded as a checkpointed checkpoint.",
+    "last_updated": "2026-10-02"
+  },
+  "earendil": {
+    "canonical_name": "Earendil",
+    "entity_type": "organization",
+    "summary": "Earendil is a public benefit corporation that crafts software and open protocols to strengthen human agency and bridge division. The company builds tools like the Pi agent harness and Lefos, and is described as being built in the open and shaped by the humans who use them.",
+    "last_updated": "2026-10-02"
+  },
+  "govtech": {
+    "canonical_name": "GovTech",
+    "entity_type": "organization",
+    "summary": "The GovTech Innovation Lab is an international knowledge-sharing group that collaborates across the public sector, private sector, NGOs, and academia. Its inaugural leadership cohort will set the agenda to create resources guiding sustainable government innovation from a global perspective. This wor",
+    "last_updated": "2026-10-02"
+  },
+  "debian": {
+    "canonical_name": "Debian",
+    "entity_type": "organization",
+    "summary": "Debian is a Linux distribution with a defined organizational structure that includes various officers and roles for managing different aspects of the project. It maintains specific contact points and communication channels for handling inquiries related to distribution, outreach, support, and infras",
+    "last_updated": "2026-10-02"
+  },
+  "salvatore bonaccorso": {
+    "canonical_name": "Salvatore Bonaccorso",
+    "entity_type": "person",
+    "summary": "Salvatore Bonaccorso is a longtime mayor of Clark Township in New Jersey who faced calls to resign after allegedly making racist, sexist, and hate-filled comments captured on tape. He was subsequently charged with multiple corruption-related counts, including falsifying records, forgery, and officia",
+    "last_updated": "2026-10-02"
   }
 }
