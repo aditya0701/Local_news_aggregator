@@ -19348,5 +19348,11 @@
     "entity_type": "person",
     "summary": "Salvatore Bonaccorso is a longtime mayor of Clark Township in New Jersey who faced calls to resign after allegedly making racist, sexist, and hate-filled comments captured on tape. He was subsequently charged with multiple corruption-related counts, including falsifying records, forgery, and officia",
     "last_updated": "2026-10-02"
+  },
+  "utah": {
+    "canonical_name": "Utah",
+    "entity_type": "organization",
+    "summary": "Utah state government is extensive, varied, and complex, employing over 22,000 persons as of January 2008. The state government is organized into legislative, executive, and judicial branches, along with various independent governmental entities.",
+    "last_updated": "2026-10-03"
   }
 }
