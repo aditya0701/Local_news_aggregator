@@ -789,10 +789,10 @@
     "last_updated": "2026-07-03"
   },
   "sentencetransformers": {
-    "canonical_name": "SentenceTransformers",
-    "entity_type": "ai_model",
-    "summary": "*   [Image & Text Models](https://sbert.net/docs/sentence_transformer/pretrained_models.html#image-text-models). *   [Training Overview](https://sbert.net/docs/sentence_transformer/training_overview.html). *   [Why Finetune?](https://sbert.net/docs/sentence_transformer/training_overview.html#why-fin",
-    "last_updated": "2026-07-03"
+    "canonical_name": "Sentence-Transformers",
+    "entity_type": "technology",
+    "summary": "Sentence Transformers, also known as SBERT, is the primary Python module for utilizing and training state-of-the-art embedding and reranker models. It supports various model families, including a recently introduced MultiVectorEncoder for ColBERT-style late-interaction retrieval across text and visu",
+    "last_updated": "2026-10-04"
   },
   "candle": {
     "canonical_name": "Candle",
@@ -1657,9 +1657,9 @@
   },
   "browser": {
     "canonical_name": "browser",
-    "entity_type": "technology",
-    "summary": "# Web Browsers¶. A web browser is a software application which enables a user to display and. interact with text, images, videos, music, and other information that could be. Text and images on a web page can contain hyperlinks to other web. Web browsers allow a user to quickly. and easily access inf",
-    "last_updated": "2026-07-03"
+    "entity_type": "general",
+    "summary": "Jul 25, 2026 · A browser/Web Browsers is a free software tool, like Chrome, Safari, or Firefox, that lets you visit websites, watch videos, and do everything else online. When you type in a website address, the browser finds that page on the internet and shows it to you on your screen. A browser/Web",
+    "last_updated": "2026-10-04"
   },
   "cloud": {
     "canonical_name": "cloud",
@@ -2629,9 +2629,9 @@
   },
   "qwen": {
     "canonical_name": "Qwen",
-    "entity_type": "company",
-    "summary": "Qwen-AgentWorld is a native language world model that simulates 7 agent environments (MCP, Search, Terminal, SWE, Web, OS, Android) within a single model. Environment modeling is the training objective from day one, not a post-hoc adaptation.",
-    "last_updated": "2026-07-05"
+    "entity_type": "ai_model",
+    "summary": "Qwen is an AI assistant powered by the Qwen model family developed by Alibaba. It is available either as open-weight models that can be self-hosted for free under Apache 2.0 or as a paid API through Alibaba Cloud Model Studio.",
+    "last_updated": "2026-10-04"
   },
   "doubao": {
     "canonical_name": "Doubao",
@@ -5552,8 +5552,8 @@
   "esp32": {
     "canonical_name": "ESP32",
     "entity_type": "technology",
-    "summary": "ESP32 is a feature-rich System on a Chip (SoC) with integrated Wi-Fi and Bluetooth connectivity for a wide range of IoT applications. It is capable of functioning reliably in industrial environments with an operating temperature ranging from –40°C to +125°C and is engineered for mobile devices, wear",
-    "last_updated": "2026-07-11"
+    "summary": "ESP32 is a feature-rich micro-controller unit engineered for mobile devices, wearables, and IoT applications, achieving ultra-low power consumption through proprietary software. It features integrated Wi-Fi and Bluetooth connectivity, operates reliably in extreme industrial temperatures, and uses ad",
+    "last_updated": "2026-10-04"
   },
   "webassembly": {
     "canonical_name": "WebAssembly",
@@ -6349,9 +6349,9 @@
   },
   "flock safety": {
     "canonical_name": "Flock Safety",
-    "entity_type": "company",
-    "summary": "Flock Safety is an Atlanta-based security technology company founded in 2017. It specializes in automated license plate recognition (ALPR) cameras, surveillance software, and video and gunshot detection systems.",
-    "last_updated": "2026-07-12"
+    "entity_type": "product",
+    "summary": "Flock Safety offers a suite of products including license plate readers, trailers, video cameras, drones, and investigative software designed to detect and resolve crime. The company utilizes solar-powered devices to capture accurate vehicle details and actionable evidence in any condition. It also",
+    "last_updated": "2026-10-04"
   },
   "loopjs": {
     "canonical_name": "loop-js",
@@ -8512,9 +8512,9 @@
   },
   "javascript": {
     "canonical_name": "JavaScript",
-    "entity_type": "technology",
-    "summary": "JavaScript is a high-level, interpreted programming language developed for web development, similar to Java but with a focus on building dynamic and responsive user experiences. It is widely used and supported, with a rich ecosystem of libraries and frameworks like React and Angular. Its small learn",
-    "last_updated": "2026-07-18"
+    "entity_type": "general",
+    "summary": "Oct 30, 2025 · JavaScript is a multi-paradigm, dynamic language with types and operators, standard built-in objects, and methods. Its syntax is based on the Java and C languages — many structures from those languages apply to JavaScript as well. JavaScript is a multi-paradigm, dynamic language with",
+    "last_updated": "2026-10-04"
   },
   "typescript": {
     "canonical_name": "TypeScript",
@@ -12814,9 +12814,9 @@
   },
   "npm": {
     "canonical_name": "npm",
-    "entity_type": "technology",
-    "summary": "NPM uses @npmcli/arborist to model node_modules as a graph, not a tree. It structures packages intelligently using nodes, edges, and links. This approach helps in managing nested dependencies and understanding the package structure more effectively.",
-    "last_updated": "2026-07-26"
+    "entity_type": "product",
+    "summary": "Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with features like private packages. Relied upon by more than 17 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe. npm is the standard",
+    "last_updated": "2026-10-04"
   },
   "gitleaks": {
     "canonical_name": "Gitleaks",
@@ -19354,5 +19354,221 @@
     "entity_type": "organization",
     "summary": "Utah state government is extensive, varied, and complex, employing over 22,000 persons as of January 2008. The state government is organized into legislative, executive, and judicial branches, along with various independent governmental entities.",
     "last_updated": "2026-10-03"
+  },
+  "web": {
+    "canonical_name": "Web",
+    "entity_type": "general",
+    "summary": "About The World Wide Web The World Wide Web (known as \"WWW', \"Web\" or \"W3\") is the universe of network-accessible information, the embodiment of human knowledge. The World Wide Web began as a networked information project at CERN, where Tim Berners-Lee, now Director of the World Wide Web Consortium",
+    "last_updated": "2026-10-04"
+  },
+  "jquery": {
+    "canonical_name": "jQuery",
+    "entity_type": "general",
+    "summary": "jQuery is a fast and concise JavaScript Library created by John Resig in 2006 with a nice motto: Write less, do more. jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is a fast and concise JavaScript Library created by Joh",
+    "last_updated": "2026-10-04"
+  },
+  "aws": {
+    "canonical_name": "AWS",
+    "entity_type": "company",
+    "summary": "Amazon Web Services, launched in 2006, provides industry-leading cloud capabilities and expertise to help customers transform industries, communities, and lives. As part of Amazon, AWS strives to be Earth’s most customer-centric company.",
+    "last_updated": "2026-10-04"
+  },
+  "amazon web services": {
+    "canonical_name": "Amazon Web Services",
+    "entity_type": "company",
+    "summary": "Amazon Web Services offers a broad set of global cloud-based products, including compute, storage, databases, analytics, networking, mobile, developer tools, and enterprise applications. These services are available on-demand in seconds with pay-as-you-go pricing, with over 200 services currently av",
+    "last_updated": "2026-10-04"
+  },
+  "sara hill": {
+    "canonical_name": "Sara Hill",
+    "entity_type": "person",
+    "summary": "Sara Hill is a chief human resources officer at Covista with over 25 years of HR leadership experience who builds a purpose-driven culture for the organization's 10,000 faculty and colleagues. Her career is defined by a deep commitment to tribal sovereignty and justice, and she was born and raised i",
+    "last_updated": "2026-10-04"
+  },
+  "david robinson": {
+    "canonical_name": "David Robinson",
+    "entity_type": "person",
+    "summary": "David Robinson led the writing of the safety reports that shipped alongside OpenAI product releases. He quit OpenAI and published an essay titled \"I quit OpenAI because its culture is broken\" in The Atlantic.",
+    "last_updated": "2026-10-04"
+  },
+  "the atlantic": {
+    "canonical_name": "The Atlantic",
+    "entity_type": "organization",
+    "summary": "The Atlantic covers news, politics, culture, technology, health, and more, through its articles, podcasts, videos, and flagship magazine.",
+    "last_updated": "2026-10-04"
+  },
+  "instinct": {
+    "canonical_name": "Instinct",
+    "entity_type": "ai_model",
+    "summary": "Instinct's core model is trained to understand and handle the deeply personal nuances of everyday life, such as following up on dropped threads, arranging rides, and booking services. It is designed to use a phone and a computer in the same way humans do, and users can text or call it without needin",
+    "last_updated": "2026-10-04"
+  },
+  "caddy": {
+    "canonical_name": "Caddy",
+    "entity_type": "product",
+    "summary": "nVent CADDY is a provider of electrical solutions and cable management products, offering engineered solutions for datacom and cable management needs. Since 1956, it has been committed to providing dependable, intuitive solutions to help contractors work smarter and stay productive.",
+    "last_updated": "2026-10-04"
+  },
+  "fambot": {
+    "canonical_name": "Fambot",
+    "entity_type": "product",
+    "summary": "Fambot finds important dates hidden in family communications and surfaces them in one place to be added to a calendar with one click. It crawls email based on family inputs to surface recitals, deadlines, appointments, and other events, and it has an iOS app to help parents stay organized.",
+    "last_updated": "2026-10-04"
+  },
+  "capcom": {
+    "canonical_name": "Capcom",
+    "entity_type": "company",
+    "summary": "Capcom is a Japanese video game company based in Osaka that has developed numerous critically acclaimed and multi-million-selling franchises, including Resident Evil, Monster Hunter, Street Fighter, Mega Man, and Devil May Cry. The company employs a Single Content Multiple Usage strategy to leverage",
+    "last_updated": "2026-10-04"
+  },
+  "pragmata": {
+    "canonical_name": "Pragmata",
+    "entity_type": "product",
+    "summary": "Pragmata is an upcoming science fiction action-adventure game featuring a unique hacking twist, set in the near future where a protagonist and his android companion navigate a lunar research station. The game is being developed by Capcom and supports advanced graphical realism powered by GeForce RTX",
+    "last_updated": "2026-10-04"
+  },
+  "kakul srivastava": {
+    "canonical_name": "Kakul Srivastava",
+    "entity_type": "person",
+    "summary": "Kakul Srivastava is the Chief Executive Officer of Splice, a leading music creation platform, and is based in San Francisco, California. She previously served as Vice President of Creative Cloud Experience and Engagement at Adobe and attended the Massachusetts Institute of Technology.",
+    "last_updated": "2026-10-04"
+  },
+  "spitfire audio": {
+    "canonical_name": "Spitfire Audio",
+    "entity_type": "company",
+    "summary": "Spitfire Audio is a company that creates authentic musical instruments by partnering with innovative artists and composers. It focuses on developing detailed, tactile, and nuanced tools for both professional and beginner musicians.",
+    "last_updated": "2026-10-04"
+  },
+  "flickr": {
+    "canonical_name": "Flickr",
+    "entity_type": "company",
+    "summary": "Flickr is a photography community founded in 2004 that aims to elevate the artistry and impact of photography online. It hosts a vast collection of images across all subjects and provides tools for users to co-create, teach, and learn.",
+    "last_updated": "2026-10-04"
+  },
+  "yahoo": {
+    "canonical_name": "Yahoo",
+    "entity_type": "company",
+    "summary": "Yahoo is a digital media company that provides a trusted digital guide to hundreds of millions of people globally. It offers a portfolio of iconic brands and services, including Yahoo Search, Yahoo Mail, Yahoo News, and Yahoo Finance, along with advertising solutions.",
+    "last_updated": "2026-10-04"
+  },
+  "adobe": {
+    "canonical_name": "Adobe",
+    "entity_type": "company",
+    "summary": "Adobe is a technology company that empowers users to imagine, create, and bring digital experiences to life. It is known for pioneering innovations like PostScript, Photoshop, and PDF, and provides industry-leading Creative Cloud apps for professionals and organizations.",
+    "last_updated": "2026-10-04"
+  },
+  "convex": {
+    "canonical_name": "Convex",
+    "entity_type": "technology",
+    "summary": "Convex provides property-based contact lists, offering up-to-date data on properties and key decision makers to help sales and marketing teams accelerate revenue growth. It is now part of ServiceTitan and supports identifying, winning, and managing new service opportunities.",
+    "last_updated": "2026-10-04"
+  },
+  "supermemory": {
+    "canonical_name": "Supermemory",
+    "entity_type": "technology",
+    "summary": "Supermemory is building the default engine for memory and continual learning for AI agents. It offers in-context continuous learning that works with any model and harness, available through an API, plugins, and MCP, to scale AI capabilities across various use cases.",
+    "last_updated": "2026-10-04"
+  },
+  "autumn": {
+    "canonical_name": "Autumn",
+    "entity_type": "technology",
+    "summary": "Autumn is a season of change in the tech world, marked by new product launches, updates in hardware and software, and innovative developments in electronic components. It has traditionally been the time when major technology companies unveil their flagship products, such as smartphones, laptops, and",
+    "last_updated": "2026-10-04"
+  },
+  "exa": {
+    "canonical_name": "Exa",
+    "entity_type": "technology",
+    "summary": "Exa is a search platform that powers AI applications with token-efficient search across public web, private information, and coding agents' documentation. It serves as a comprehensive search engine for developers building AI, providing context to solve problems across various search verticals.",
+    "last_updated": "2026-10-04"
+  },
+  "axiom": {
+    "canonical_name": "Axiom",
+    "entity_type": "technology",
+    "summary": "Axiom Technologies combines domain, enterprise, and digital technologies to reimagine business processes, utilizing a consultative design thinking approach to help customers run their businesses. It also offers Managed Security Services and end-to-end security solutions for hybrid cloud IT estates.",
+    "last_updated": "2026-10-04"
+  },
+  "median": {
+    "canonical_name": "Median",
+    "entity_type": "technology",
+    "summary": "Median develops imaging tests and services for the biopharmaceutical industry and healthcare professionals using proprietary artificial intelligence, computer vision, and signal processing. It transforms medical images into actionable insights to help diagnose, treat, and monitor patients, particula",
+    "last_updated": "2026-10-04"
+  },
+  "moriskr": {
+    "canonical_name": "Moris-kr",
+    "entity_type": "organization",
+    "summary": "Moris KR is an AI-driven web chatroom that hosts a group chat for AI models such as Claude, ChatGPT, Grok, and Gemini. It runs entirely on a user's local machine via Node.js without requiring external API keys, allowing the models to interact, create content, and build things together.",
+    "last_updated": "2026-10-04"
+  },
+  "aichatroom": {
+    "canonical_name": "ai-chatroom",
+    "entity_type": "product",
+    "summary": "Jul 22, 2026 · AI Chatroom A group chat for AI models. Put Claude, GPT, Llama, DeepSeek — any mix of models — in one room, give them a topic, and watch them talk it out. Add or remove models mid-conversation, and jump in yourself whenever you have something to say. Runs entirely on your machine. A g",
+    "last_updated": "2026-10-04"
+  },
+  "cobanov": {
+    "canonical_name": "cobanov",
+    "entity_type": "person",
+    "summary": "Cobanov is a surname associated with various individuals, including a senior AI engineer working on generative AI pipelines at Refik Anadol Studio and Dr. Branislav Cobanov, whose medical interests include gastrointestinal pathology and laboratory management.",
+    "last_updated": "2026-10-04"
+  },
+  "playstation 5": {
+    "canonical_name": "PlayStation 5",
+    "entity_type": "product",
+    "summary": "The PlayStation 5 is a gaming console available in standard and Digital Edition variants, featuring the DualSense wireless controller and a slim design. A significant policy change effective January 2028 dictates that newly released games will only be available for purchase in digital format, though",
+    "last_updated": "2026-10-04"
+  },
+  "voiceshell": {
+    "canonical_name": "VoiceShell",
+    "entity_type": "product",
+    "summary": "VoiceShell is a voice input and AI workflow tool designed for computers and phones. It is available on the App Store and supports testing through TestFlight.",
+    "last_updated": "2026-10-04"
+  },
+  "muse gadgets": {
+    "canonical_name": "Muse Gadgets",
+    "entity_type": "product",
+    "summary": "Muse Gadgets are open-source, DIY devices that users can build and program using an ESP32 board or a Raspberry Pi with their SDKs. The project is open-sourced for hobbyists to connect to various custom displays, buttons, sensors, and actuators.",
+    "last_updated": "2026-10-04"
+  },
+  "forest": {
+    "canonical_name": "FOREST",
+    "entity_type": "product",
+    "summary": "Forest products are items derived from wood, trees, or forests, including non-timber forest products (NTFPs). These products are important to rural economies and to all Americans, and research in this area aims to advance wood science to support a circular economy and create manufacturing jobs in th",
+    "last_updated": "2026-10-04"
+  },
+  "mikamikasuki": {
+    "canonical_name": "mikamikasuki",
+    "entity_type": "person",
+    "summary": "The provided material does not contain a usable overview of the person mikamikasuki. It only contains GitHub contribution activity data from June 2026, along with user interface text regarding blocking and reporting a user.",
+    "last_updated": "2026-10-04"
+  },
+  "vectifyai": {
+    "canonical_name": "VectifyAI",
+    "entity_type": "company",
+    "summary": "VectifyAI is a London-based AI infrastructure startup founded in 2023 by Mingtian Zhang and Yu Tang. The company develops a vectorless retrieval-augmented generation system that uses hierarchical tree indexing and multi-step LLM reasoning to achieve state-of-the-art accuracy on financial document be",
+    "last_updated": "2026-10-04"
+  },
+  "llmlearningnotes": {
+    "canonical_name": "LLM-Learning-Notes",
+    "entity_type": "product",
+    "summary": "LLM-Learning-Notes is a personal knowledge base and single-file notebook app that covers the journey from Transformer to Artificial General Intelligence. It features a topic-based sidebar, full-text search, wiki backlinks, and customizable animated backgrounds, allowing users to create, tag, and tra",
+    "last_updated": "2026-10-04"
+  },
+  "bm25": {
+    "canonical_name": "BM25",
+    "entity_type": "protocol",
+    "summary": "BM25 (Best Matching 25) is an improved ranking algorithm used in information retrieval systems to determine the relevance of documents to a given query. It serves as a cornerstone of modern search engines and databases by computing a relevance score based on term frequency and inverse document frequ",
+    "last_updated": "2026-10-04"
+  },
+  "dinov2": {
+    "canonical_name": "DINOv2",
+    "entity_type": "ai_model",
+    "summary": "DINOv2 is a self-supervised visual feature learning framework from Meta AI Research, providing PyTorch implementations and pretrained models. Recent updates include support for specialized backbones such as XRay-DINO, Channel-Adaptive DINO, and Cell-DINO for medical and microscopy applications.",
+    "last_updated": "2026-10-04"
+  },
+  "mqtt": {
+    "canonical_name": "MQTT",
+    "entity_type": "protocol",
+    "summary": "MQTT is an OASIS standard messaging protocol designed for the Internet of Things (IoT), operating as a lightweight publish/subscribe transport. It is optimized for minimal code footprint and network bandwidth, supports scalability to millions of devices, and offers three quality of service levels to",
+    "last_updated": "2026-10-04"
   }
 }
