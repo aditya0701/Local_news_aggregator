@@ -356,8 +356,8 @@
   "springboards": {
     "canonical_name": "Springboards",
     "entity_type": "startup",
-    "summary": "Overview:\nA creative tool to inspire, not give you the answers. built for agencies and inhouse teams we help spark better ideas in the creative advertising process\n\nWebsite: https://springboards.ai/\nCrunchbase Url: https://www.crunchbase.com/organization/springboards?utm_source=linkedin&utm_medium=r",
-    "last_updated": "2026-07-02"
+    "summary": "We exist to keep humans in the creative equation. Meet the Springboards team building the purpose-built AI strategy platform for advertising agencies. based on Gadigal country, Sydney, NSW, Australia We’re creatives who wanted more variation and inspiration, not average answers. Springboards is a cr",
+    "last_updated": "2026-10-05"
   },
   "llm": {
     "canonical_name": "LLM",
@@ -11225,8 +11225,8 @@
   "opencode": {
     "canonical_name": "OpenCode",
     "entity_type": "ai_model",
-    "summary": "OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop. It is used and trusted by over 7.5M developers every month and does not store any of your code or context data, allowing it to operate in privacy-sensitive environments.",
-    "last_updated": "2026-07-23"
+    "summary": "OpenCode supports 75+ LLM providers and local models through the AI SDK and Models.dev. Users can configure providers and select models, with most popular providers preloaded by default.",
+    "last_updated": "2026-10-05"
   },
   "kotlin multiplatform": {
     "canonical_name": "Kotlin Multiplatform",
@@ -12407,8 +12407,8 @@
   "qualcomm": {
     "canonical_name": "Qualcomm",
     "entity_type": "company",
-    "summary": "QUALCOMM Incorporated is a company that develops and commercializes foundational technologies for the wireless industry worldwide. It transforms industries by providing leading edge AI, high-performance, low-power computing, and unrivaled connectivity.",
-    "last_updated": "2026-07-25"
+    "summary": "Review Qualcomm's corporate history, values, and history of innovation. Qualcomm helps transform industries, create new experiences, and support the economy. Qualcomm creates opportunities for ourselves and our customers. Learn how we do it in a variety of industries: Mobile, IoT, Automotive, and Li",
+    "last_updated": "2026-10-05"
   },
   "costar": {
     "canonical_name": "Co-Star",
@@ -12497,8 +12497,8 @@
   "nilay patel": {
     "canonical_name": "Nilay Patel",
     "entity_type": "person",
-    "summary": "Nilay Patel is an American editor and blogger who has been editor-in-chief of technology news website The Verge since 2014. He also serves as Head of Macro for the Dymon Multi Strategy Fund, where he shares insights on complex market dynamics and differentiates his fund's approach.",
-    "last_updated": "2026-07-25"
+    "summary": "Nilay Patel is a technology journalist who most recently served as the Managing Editor of Engadget, an award-winning technology publication. He began his career years after an incident in his childhood where he drove a Chrysler into a small pond while learning to use the gearshift.",
+    "last_updated": "2026-10-05"
   },
   "the vergecast": {
     "canonical_name": "The Vergecast",
@@ -13637,8 +13637,8 @@
   "huawei": {
     "canonical_name": "Huawei",
     "entity_type": "company",
-    "summary": "Huawei is a leading global provider of information and communications technology (ICT) infrastructure and smart devices, founded in 1987. The company has approximately 213,000 employees and operates in more than 170 countries, serving over 3 billion people.",
-    "last_updated": "2026-07-29"
+    "summary": "Huawei is a Chinese multinational technology company headquartered in Shenzhen, China. Founded in 1987 by Ren Zhengfei, a former engineer in the People's Liberation Army (PLA), it began as a small parts reseller and grew into the world's largest manufacturer of telecommunications equipment, employin",
+    "last_updated": "2026-10-05"
   },
   "ariana grande": {
     "canonical_name": "Ariana Grande",
@@ -19570,5 +19570,215 @@
     "entity_type": "protocol",
     "summary": "MQTT is an OASIS standard messaging protocol designed for the Internet of Things (IoT), operating as a lightweight publish/subscribe transport. It is optimized for minimal code footprint and network bandwidth, supports scalability to millions of devices, and offers three quality of service levels to",
     "last_updated": "2026-10-04"
+  },
+  "det centrale personregister": {
+    "canonical_name": "Det Centrale Personregister",
+    "entity_type": "organization",
+    "summary": "Det Centrale Personregister (CPR) is a central, nationwide registry in Denmark. Its main purpose is to assign a person number (CPR number) to all residents for secure identification, as well as to register basic personal information such as domicile addresses to be shared with public authorities and",
+    "last_updated": "2026-10-05"
+  },
+  "qwen 38 flash next": {
+    "canonical_name": "Qwen 3.8 Flash Next",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.8-Flash-Next is a post-trained model distributed with weights and configuration files compatible with Hugging Face Transformers, vLLM, SGLang, and TokenSpeed. For users seeking managed and scalable inference without infrastructure maintenance, the official Qwen API service is provided by Qwen",
+    "last_updated": "2026-10-05"
+  },
+  "strata": {
+    "canonical_name": "Strata",
+    "entity_type": "product",
+    "summary": "STRATA_MAT™ XT is a high-performance, patented uncoupling membrane floor underlayment designed for residential and commercial tile, stone, and hardwood installations. It is engineered to replace traditional underlayment materials by providing enhanced mechanical bonding for thin-set adhesive mortar",
+    "last_updated": "2026-10-05"
+  },
+  "phil tippett": {
+    "canonical_name": "Phil Tippett",
+    "entity_type": "person",
+    "summary": "Phil Tippett is the founder and namesake of Tippett Studio. His varied career in visual effects has spanned more than 30 years and includes two Academy Awards, six nominations, one BAFTA award and four nominations, two Emmys, and the advent of modern digital effects in motion pictures.",
+    "last_updated": "2026-10-05"
+  },
+  "tippett studios": {
+    "canonical_name": "Tippett Studios",
+    "entity_type": "company",
+    "summary": "Tippett Studio is a media production company specializing in high-end visual effects for various entertainment mediums. Founded in 1984 and based in Berkeley, California, the company primarily serves the film and television industry, themed entertainment, and the advertising sector. In March 2024, P",
+    "last_updated": "2026-10-05"
+  },
+  "cedardb": {
+    "canonical_name": "CedarDB",
+    "entity_type": "technology",
+    "summary": "CedarDB is a high-performance database system that achieves its speed by combining many small, meaningful technical advancements rather than relying on a single breakthrough. It is designed to optimally utilize all available system resources, including modern servers with dozens to hundreds of CPU c",
+    "last_updated": "2026-10-05"
+  },
+  "doom": {
+    "canonical_name": "Doom",
+    "entity_type": "product",
+    "summary": "DOOM is a shooter title published by Bethesda Softworks, with its current Steam record indicating support for Windows PC. It is a base game product distributed by Taploop, an independent editorial catalog.",
+    "last_updated": "2026-10-05"
+  },
+  "doomql": {
+    "canonical_name": "DOOMQL",
+    "entity_type": "product",
+    "summary": "DOOMQL is a multiplayer DOOM-like shooter where all game components—including the renderer, game loop, and multiplayer sync—are implemented entirely in SQL. It is powered by CedarDB and functions as a thought experiment demonstrating that complex game development can be executed using SQL.",
+    "last_updated": "2026-10-05"
+  },
+  "infidel": {
+    "canonical_name": "Infidel",
+    "entity_type": "product",
+    "summary": "Infidel, also known as Iron Infidel, is a brand that sells strength training gear and apparel for patriots. It is the home of the Battle Bottle, which is marketed as the world's toughest tactical military water bottle, and offers resistance bands, weightlifting straps, wrist wraps, knee sleeves, app",
+    "last_updated": "2026-10-05"
+  },
+  "infocom": {
+    "canonical_name": "Infocom",
+    "entity_type": "company",
+    "summary": "Infocom, established in 1983, was a provider of information and communication solutions that operated across diverse sectors, offering mobile-first e-commerce experiences, digital content, and robust IT systems for enterprise clients. Due to failing fitness and financial troubles, the company was so",
+    "last_updated": "2026-10-05"
+  },
+  "zil": {
+    "canonical_name": "ZIL",
+    "entity_type": "language",
+    "summary": "ZIL (Zork Implementation Language) is a programming language used to develop the Zork games. It is a domain-specific language derived from MIT's MDL, which is itself a LISP dialect, and is essential for reading and analyzing the source code of Zork I and Zork III.",
+    "last_updated": "2026-10-05"
+  },
+  "zmachine": {
+    "canonical_name": "Z-machine",
+    "entity_type": "technology",
+    "summary": "The Z Machine is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC for the U.S. Department of Energy's National Nuclear Security Administration.",
+    "last_updated": "2026-10-05"
+  },
+  "planetfall": {
+    "canonical_name": "Planetfall",
+    "entity_type": "product",
+    "summary": "Planetfall is a solo and co-op adventure game where players take the role of a crew of colonists, scientists, and explorers from the Unity of Humankind, building a colony on a world filled with wonders, terrors, and difficult challenges.",
+    "last_updated": "2026-10-05"
+  },
+  "endlessdesert": {
+    "canonical_name": "ENDLESS-DESERT",
+    "entity_type": "product",
+    "summary": "ENDLESS DESERT is an Eau de Parfum by Vintia that is designed to transport the senses to the heart of the Dubai desert. It features a warm, enveloping fragrance trail that is perfect for those who love adventure and the exotic.",
+    "last_updated": "2026-10-05"
+  },
+  "yossi matias": {
+    "canonical_name": "Yossi Matias",
+    "entity_type": "person",
+    "summary": "Yossi Matias is Vice President and Head of Google Research, serving as a key figure in Google's executive technology leadership for the past two decades. He leads pioneering global research teams focused on foundational machine learning, algorithms, computing systems, and AI applications.",
+    "last_updated": "2026-10-05"
+  },
+  "google research": {
+    "canonical_name": "Google Research",
+    "entity_type": "organization",
+    "summary": "Google Research publishes papers across diverse domains and shares developments in AI and science, aiming to drive breakthroughs that benefit society and Google products. The organization collaborates globally with universities and communities, maintaining a human-centered approach to advance scient",
+    "last_updated": "2026-10-05"
+  },
+  "emtech future": {
+    "canonical_name": "EmTech Future",
+    "entity_type": "event",
+    "summary": "EmTech Future is a technology conference exploring the frontiers of emerging and converging forces in science and technology. It focuses on the intersections of artificial intelligence, energy systems, and quantum technologies to create entirely new possibilities.",
+    "last_updated": "2026-10-05"
+  },
+  "senate bill 1246": {
+    "canonical_name": "Senate Bill 1246",
+    "entity_type": "regulation",
+    "summary": "California Senate Bill 1246 introduces new regulations for autonomous vehicles to enhance safety and accountability, impacting AV companies' operations and compliance strategies. The law was prompted by recent incidents involving robotaxis disrupting emergency services, and it aims to tighten oversi",
+    "last_updated": "2026-10-05"
+  },
+  "fitbit air": {
+    "canonical_name": "Fitbit Air",
+    "entity_type": "product",
+    "summary": "Fitbit Air is a thin and lightweight fitness tracker featuring advanced sensors and new algorithms for precise tracking. It is designed to sit comfortably on the wrist, is water-resistant, and can last up to a week on a single charge.",
+    "last_updated": "2026-10-05"
+  },
+  "pixel watch": {
+    "canonical_name": "Pixel Watch",
+    "entity_type": "product",
+    "summary": "The Pixel Watch 4 features a redesigned circular shape with a domed Actua 360 display that offers a larger active area and smaller bezels. It also includes a long battery life, support for standalone satellite communication, and integration with Google's AI assistant, Gemini.",
+    "last_updated": "2026-10-05"
+  },
+  "charge": {
+    "canonical_name": "Charge",
+    "entity_type": "product",
+    "summary": "Chargebee's Product Catalog allows businesses to define their product and service offerings and package them as subscriptions. It enables users to set up product families, plans, add-ons, charges, coupons, and coupon sets, with an AI assistant available to help draft these configurations.",
+    "last_updated": "2026-10-05"
+  },
+  "dale caldwell": {
+    "canonical_name": "Dale Caldwell",
+    "entity_type": "person",
+    "summary": "Dale Gilbert Caldwell is an American academic administrator, author, community leader, and politician who serves as the Lieutenant Governor and Secretary of State of New Jersey. He made history as the first man to serve as New Jersey's lieutenant governor, having assumed office in January 2026.",
+    "last_updated": "2026-10-05"
+  },
+  "nj pbs": {
+    "canonical_name": "NJ PBS",
+    "entity_type": "organization",
+    "summary": "NJ PBS is a public television network serving the U.S. state of New Jersey, owned by the New Jersey Public Broadcasting Authority. Effective July 1, 2026, Montclair State University entered into a Programming and Services Agreement with the NJPBA to provide public television programming and services",
+    "last_updated": "2026-10-05"
+  },
+  "ohsnap wallet 2": {
+    "canonical_name": "OhSnap Wallet 2",
+    "entity_type": "product",
+    "summary": "The Ohsnap Wallet 2 is a modular magnetic pop-up wallet available on Kickstarter. It features a refined design and is offered in three different card capacity options.",
+    "last_updated": "2026-10-05"
+  },
+  "chromeos": {
+    "canonical_name": "ChromeOS",
+    "entity_type": "technology",
+    "summary": "ChromeOS is a Google-built, secure operating system that serves as the foundation for every Chromebook. It is designed as a cloud-first platform that scales with a business, allowing for remote device management and onboarding of employees.",
+    "last_updated": "2026-10-05"
+  },
+  "marques brownlee": {
+    "canonical_name": "Marques Brownlee",
+    "entity_type": "person",
+    "summary": "Marques Brownlee, also known as MKBHD, is an American creator and technology reviewer who has 21 million YouTube subscribers. He began posting gear reviews in high school and has since partnered with Ridge to release a brand collection of accessories.",
+    "last_updated": "2026-10-05"
+  },
+  "international energy agency": {
+    "canonical_name": "International Energy Agency",
+    "entity_type": "organization",
+    "summary": "The International Energy Agency (IEA) is an international energy forum comprised of 29 industrialized countries under the Organization for Economic Development and Cooperation (OECD). It was established in 1974 in the wake of the 1973-1974 oil crisis to help its members respond to major oil supply d",
+    "last_updated": "2026-10-05"
+  },
+  "fatih birol": {
+    "canonical_name": "Fatih Birol",
+    "entity_type": "person",
+    "summary": "Fatih Birol serves as the Executive Director of the International Energy Agency. In this role, he has positioned the IEA at the forefront of global efforts to advance a secure, affordable, and sustainable energy system and led the agency's first modernization programme since its creation in 1974.",
+    "last_updated": "2026-10-05"
+  },
+  "united nations": {
+    "canonical_name": "United Nations",
+    "entity_type": "organization",
+    "summary": "The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, it serves as a forum where the world's nations can gather to discuss common problems and find shared solutions.",
+    "last_updated": "2026-10-05"
+  },
+  "apollo 13": {
+    "canonical_name": "Apollo 13",
+    "entity_type": "event",
+    "summary": "Apollo 13 was a NASA mission that experienced a critical accident on April 13, 1970, involving low hydrogen pressure in tank no. 1. The incident occurred during the mission timeline measured in Ground Elapsed Time, which tracks time from the mission's liftoff on April 11, 1970.",
+    "last_updated": "2026-10-05"
+  },
+  "apollo 10": {
+    "canonical_name": "Apollo 10",
+    "entity_type": "event",
+    "summary": "Apollo 10 was the tenth mission in the Apollo series, launched on May 18, 1969, and was the first lunar flight of the complete spacecraft. It served as a rehearsal for the lunar landing mission, testing all aspects of the mission except for the actual lunar descent and landing.",
+    "last_updated": "2026-10-05"
+  },
+  "flaviocopes": {
+    "canonical_name": "flaviocopes",
+    "entity_type": "person",
+    "summary": "Flavio Copes is a software engineer who writes tutorials for developers at flaviocopes.com and organizes a yearly bootcamp at bootcamp.dev. His work includes guides on frameworks like Vue.js and React, as well as tools and plugins.",
+    "last_updated": "2026-10-05"
+  },
+  "skillscout": {
+    "canonical_name": "Skillscout",
+    "entity_type": "product",
+    "summary": "SkillScout is an intelligent platform that connects ambitious professionals with forward-thinking companies. It uses AI-powered matching and human expertise to thoroughly assess candidates and ensure quality introductions.",
+    "last_updated": "2026-10-05"
+  },
+  "droid": {
+    "canonical_name": "Droid",
+    "entity_type": "ai_model",
+    "summary": "Droid supports both built-in and external AI models, allowing users to connect custom models via external APIs in its CLI. Custom models are supported in the Droid CLI and Factory desktop app, but not in hosted web or mobile platforms.",
+    "last_updated": "2026-10-05"
+  },
+  "amp": {
+    "canonical_name": "Amp",
+    "entity_type": "ai_model",
+    "summary": "The Amp coding agent uses leading generalist foundation models for complex reasoning and smaller specialized models for fast, accurate responses. It operates in fast, low-cost, or deeper reasoning modes depending on the task.",
+    "last_updated": "2026-10-05"
   }
 }
