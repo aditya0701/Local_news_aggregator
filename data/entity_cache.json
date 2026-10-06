@@ -19780,5 +19780,11 @@
     "entity_type": "ai_model",
     "summary": "The Amp coding agent uses leading generalist foundation models for complex reasoning and smaller specialized models for fast, accurate responses. It operates in fast, low-cost, or deeper reasoning modes depending on the task.",
     "last_updated": "2026-10-05"
+  },
+  "drew edwards": {
+    "canonical_name": "Drew Edwards",
+    "entity_type": "person",
+    "summary": "Drew Edwards is the Chief Executive Officer and founder of Ingo Money, Inc., a company established in 2001 that provides mobile-forward, instant deposit and payment services. He previously served as Chairman & CEO at Towne Services.",
+    "last_updated": "2026-10-06"
   }
 }

@@ -1,5 +1,491 @@
 [
   {
+    "id": "aea63d4435a0",
+    "title": "सैन फ्रांसिस्को में सबसे समतल रास्ता खोजने वाला नया इंटरैक्टिव टूल",
+    "summary": "सैन फ्रांसिस्को की प्रसिद्ध खड़ी पहाड़ियों पर चलने या साइकिल चलाने का अनुभव अब थोड़ा आसान हो सकता है। हाल ही में एक नया इंटरैक्टिव टूल सामने आया है जो शहर के भीतर किसी भी दो बिंदुओं के बीच सबसे समतल मार्ग खोजने में सक्षम है। यह टूल दूरी और चढ़ाई के बीच एक स्मार्ट संतुलन स्थापित करता है, ताकि उपयोगकर्ता अपनी पसंद और…",
+    "category": "general",
+    "tags": [
+      "Drew Edwards",
+      "Overture",
+      "OpenStreetMap"
+    ],
+    "image": "https://www.flattensf.com/preview.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ec9915c4fbdd",
+    "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) के क्षेत्र में एक नई और महत्वपूर्ण सफलता सामने आई है। Claude Opus 5.5 agents की एक टीम ने अगली पीढ़ी की कंप्यूटर मेमोरी के लिए दो ऐसे चुंबकीय अर्धचालक उम्मीदवारों की खोज की है जो कमरे के तापमान पर काम कर सकते हैं। इनमें से एक एक बिल्कुल नया डिज़ाइन किया गया यौगिक है, जबकि दूसरा एक ऐसा पदार्थ…",
+    "category": "repo_analysis",
+    "tags": [
+      "Claude Opus 5.5",
+      "room-temperature magnetic semiconductor"
+    ],
+    "image": "https://www.vals.ai/blogs/2026-10-04-room-temperature-magnetic-semiconductors/hero.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6877981f8072",
+    "title": "क्लाउडफ्लेयर का नया वेब सर्च एपीआई: एआई एजेंट्स के लिए लाइव डेटा की नई राह",
+    "summary": "क्लाउडफ्लेयर, जो एक प्रमुख कनेक्टिविटी क्लाउड कंपनी है, ने अपने नए वेब सर्च एपीआई को बीटा संस्करण में लॉन्च किया है। यह तकनीकी कदम एआई एजेंट्स और विभिन्न एप्लिकेशन्स के लिए एक महत्वपूर्ण बदलाव लेकर आया है, क्योंकि अब वे इंटरनेट पर लाइव जानकारी खोज सकते हैं। इससे एआई मॉडल्स को केवल पुराने ट्रेनिंग कटऑफ पर निर्भर रहने…",
+    "category": "general",
+    "tags": [
+      "Cloudflare",
+      "Ceramic.ai",
+      "Exa"
+    ],
+    "image": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/og.png?v=1deaa8fb09156b56",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0aa6ecfcb26d",
+    "title": "उद्यम ज्ञान (Enterprise Knowledge) से जुड़ रहे AI एजेंट: एक नई रिपोर्ट",
+    "summary": "एंटरप्राइज़ एआई (Enterprise AI) के क्षेत्र में एक बड़ी चुनौती सामने आई है। हाल ही में 300 डेटा और एआई अधिकारियों के एक सर्वेक्षण पर आधारित एक नई रिपोर्ट में यह बात सामने आई है कि एआई एजेंटों को केवल डेटा की नहीं, बल्कि प्रासंगिक ज्ञान (knowledge) की आवश्यकता है। इस रिपोर्ट में बताया गया है कि कैसे ज्ञान की कमी के कारण…",
+    "category": "general",
+    "tags": [
+      "Neo4j",
+      "AI",
+      "enterprise AI agents"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Neo4j-Social-Card-1.png?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "3fd007ebec31",
+    "title": "ल्यूसिड मोटर्स का ईवी उत्पादन लगभग दो साल के निचले स्तर पर",
+    "summary": "ल्यूसिड मोटर्स (Lucid Motors) का इलेक्ट्रिक वाहन उत्पादन इस साल की तीसरी तिमाही में लगभग दो साल के सबसे निचले स्तर पर आ गया है। कंपनी ने इस तिमाही में केवल 2,954 ईवी बनाए, जो पिछले वर्ष की समान अवधि की तुलना में 54% कम है। यह आंकड़ा विशेष रूप से महत्वपूर्ण है क्योंकि यह ल्यूसिड द्वारा अपने दूसरे मॉडल 'ग्रेविटी एसयूवी'…",
+    "category": "general",
+    "tags": [
+      "Lucid Motors",
+      "Gravity",
+      "Cosmos"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2025/04/lucid-gravity-main.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "875360da78fe",
+    "title": "OpenAI यूरोपीय संघ के उपयोगकर्ताओं के लिए ChatGPT और Codex में अदृश्य वॉटरमार्क शुरू करेगा",
+    "summary": "OpenAI ने सोमवार को एक ब्लॉग पोस्ट के माध्यम से यह जानकारी दी कि वह यूरोपीय संघ (EU) के उपयोगकर्ताओं के लिए अपने लोकप्रिय एआई मॉडल्स, ChatGPT और Codex द्वारा उत्पन्न टेक्स्ट में एक अदृश्य वॉटरमार्क जोड़ना शुरू करेगा। यह महत्वपूर्ण कदम यूरोपीय संघ के एआई एक्ट के नए पारदर्शिता नियमों का पालन करने के लिए उठाया गया है, जो…",
+    "category": "ban_regulation",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "9945cb571694",
+    "title": "Etched के लिए 40-50 बिलियन डॉलर के नए बिड्स की समीक्षा, जो इसकी पिछली वैल्यूएशन से दोगुनी है",
+    "summary": "एआई हार्डवेयर सेक्टर में एक बार फिर से हलचल तेज हो गई है। एआई चिप स्टार्टअप Etched, जिसने हाल ही में 21 बिलियन डॉलर की वैल्यूएशन पर 700 मिलियन डॉलर का फंड जुटाया था, अब 40 से 50 बिलियन डॉलर के नए निवेश प्रस्तावों की समीक्षा कर रहा है। यह नई वैल्यूएशन कंपनी की पिछली फंडिंग से दोगुनी है। इस खबर को लेकर बाजार में काफी…",
+    "category": "general",
+    "tags": [
+      "Etched",
+      "Jane Street",
+      "Nvidia"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/Sequoia_Etched-Abhishek-Malani-Robert-Wachen-Sonya-Huang-Gavin-Uberti-copy.jpeg?resize=1200,846",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "42f73716afcb",
+    "title": "फैक्ट्री के विवाद के बाद मेनो वेंचर्स ने किया फैक्ट्री में निवेश",
+    "summary": "पिछले सप्ताह फैक्ट्री के सीईओ मतान ग्रिनबर्ग और निवेशक क्रिस डेगनन के बीच एक सार्वजनिक विवाद सामने आया था, जिसके बाद अब मेनो वेंचर्स ने इस एआई कोडिंग स्टार्टअप में अपने वित्तीय निवेश की आधिकारिक घोषणा की है। यह निवेश फैक्ट्री के $5 बिलियन के नवीनतम फंडिंग राउंड का हिस्सा है। यह कदम न केवल फैक्ट्री के लिए एक बड़ी…",
+    "category": "general",
+    "tags": [
+      "Factory",
+      "Menlo Ventures",
+      "Vinod Khosla"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/Matt-Murphy-Menlo-Ventures.jpeg?resize=1200,1200",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "82cd9e3ab19b",
+    "title": "रिफ्लेक्शन ने पेश किया बीम (Beam), एक ओपन-वेट एआई मॉडल जो कम कंप्यूट लागत पर चीनी मॉडलों को टक्कर देता है",
+    "summary": "रिफ्लेक्शन एआई (Reflection AI) नामक एक दो साल पुरानी ब्रुकलिन-आधारित स्टार्टअप ने अपना पहला फ्रंटियर, ओपन-वेट एआई मॉडल 'बीम' (Beam) पेश किया है। 2024 में गूगल डीपमाइंड (Google DeepMind) के दो पूर्व शोधकर्ताओं द्वारा स्थापित इस कंपनी ने एक विस्तृत ब्लॉग पोस्ट में इस नई तकनीक की घोषणा की। यह कदम आर्टिफिशियल इंटेलिजेंस…",
+    "category": "model_release",
+    "tags": [
+      "Reflection AI",
+      "Beam",
+      "Google DeepMind"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ddc310eb36a6",
+    "title": "इंस्टिंक्ट लाया अपने एआई एजेंट को ग्रुप चैट्स में, अब बिना अकाउंट वाले दोस्त भी कर सकेंगे मदद",
+    "summary": "एआई स्टार्टअप इंस्टिंक्ट ने सोमवार को एक नई सुविधा की घोषणा की है, जिसके तहत उपयोगकर्ता अपने एआई एजेंट को ग्रुप चैट्स में जोड़ सकेंगे। यह कदम कंपनी के लिए एक बड़ी प्रगति है, क्योंकि यह तकनीक अब केवल व्यक्तिगत उपयोग तक सीमित नहीं है। शुरुआती एक्सेस वाले उपयोगकर्ता आज से ही इस सुविधा का लाभ उठा सकते हैं।",
+    "category": "model_release",
+    "tags": [
+      "Instinct",
+      "Noah Shinn",
+      "Meta"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e08f8e4c161b",
+    "title": "टिकटॉक ने लॉन्च किया एआई शॉपिंग असिस्टेंट और वन-क्लिक चेकआउट फीचर",
+    "summary": "सोमवार को टिकटॉक ने अपने प्लेटफॉर्म पर एक नए संवादात्मक (conversational) एआई शॉपिंग असिस्टेंट और इन-ऐप वन-क्लिक चेकआउट फीचर की घोषणा की। यह नया एआई एजेंट विशेष रूप से उपयोगकर्ताओं को उत्पाद खोजने और उन्हें खरीदने में वास्तविक समय (real-time) में मदद करने के लिए डिज़ाइन किया गया है। इस घोषणा के साथ, सोशल मीडिया…",
+    "category": "general",
+    "tags": [
+      "TikTok",
+      "OpenAI",
+      "ChatGPT"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259084458.jpg?resize=1200,801",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a0e8c928a8e1",
+    "title": "19 वर्षीय संस्थापक ने Ghost के लिए $11M जुटाए, जो $3,499 का पर्सनल AI कंप्यूटर बना रहा है",
+    "summary": "19 वर्षीय ज़ैन जावाद, जिन्होंने पहले क्वांट (financial expert using math and data for investment decisions) के रूप में करियर बनाने की योजना बनाई थी, ने अपनी नई कंपनी Ghost की घोषणा की है। उन्होंने Andreessen Horowitz के नेतृत्व में $11 मिलियन के सीड राउंड के साथ अपनी कंपनी को आधिकारिक तौर पर लॉन्च किया है। इस फंडिंग…",
+    "category": "general",
+    "tags": [
+      "Ghost",
+      "Core",
+      "Zain Javaid"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ghost-team.png?resize=1200,803",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "92b884bb4da0",
+    "title": "हॉट गर्ल हॉटलाइन: एआई के युग में रिश्तों की सलाह के लिए एक नया दृष्टिकोण",
+    "summary": "ऐतिहासिक रूप से महिलाओं ने रिश्तों की सलाह के लिए 'डियर एब्बी' जैसे समाचार पत्र कॉलम या दोस्तों से बात करने का सहारा लिया है। आज के डिजिटल युग में यह बदलाव रेडिट (Reddit) फोरम और सोशल मीडिया क्रिएटर्स की ओर हो गया है। इसी परिदृश्य में, बहनों बिला मुडगिल और सुमरीन (\"सुमी\") ने 'हॉट गर्ल हॉटलाइन' नामक एक नया स्टार्टअप…",
+    "category": "general",
+    "tags": [
+      "Hot Girl Hotline",
+      "Baila Mudgil",
+      "Sumrin"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/hgh_web-1.png?resize=1200,920",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8962e1c0271c",
+    "title": "5 स्टार्टअप्स जिन्होंने PearX डेमो डे में निवेशकों का ध्यान खींचा",
+    "summary": "टेकक्रंच ने हाल ही में सैन फ्रांसिस्को में PearX के नवीनतम डेमो डे को कवर किया, जहाँ शीर्ष वेंचर कैपिटलिस्ट्स ने 16 स्टार्टअप्स का मूल्यांकन किया। PearX एक 12-सप्ताह का कार्यक्रम है जो अपनी बैच को केवल 20 स्टार्टअप्स तक सीमित रखता है और इसे Pear VC द्वारा चलाया जाता है। यह कार्यक्रम ऐतिहासिक रूप से उच्च गुणवत्ता वाली…",
+    "category": "general",
+    "tags": [
+      "PearX",
+      "Pear VC",
+      "Known"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Pear-S26-Demo-Day-2055181.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "28f0a593be33",
+    "title": "बौगेआरवी ड्यूनरोवर: एक रिमोट-कंट्रोल वाली 'डिस्को वैगन' जो हैरान कर देती है",
+    "summary": "जब बौगेआरवी ने मुझे अपने रिमोट-कंट्रोल और एलईडी लाइट्स वाली वैगन के बारे में बताया, तो मैंने इसे एक मजाक समझा। मैंने सोचा था कि मैं इस रिव्यू में इसकी खूबियों की धज्जियां उड़ा दूंगा। लेकिन जब मैंने बौगेआरवी ड्यूनरोवर का परीक्षण किया, तो मेरी सोच पूरी तरह बदल गई। यह वैगन दिखने में भले ही अजीब लगे, लेकिन इसका प्रदर्शन…",
+    "category": "general",
+    "tags": [
+      "BougeRV",
+      "DuneRover",
+      "Thomas Ricker"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_5043.jpeg?quality=90&strip=all&crop=0%2C25.737652705061%2C100%2C69.808027923211&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fb1f3dca95af",
+    "title": "जेमिनी 'कॉल फॉर मी' फीचर: अब यह आपकी माँ को बता सकता है कि आप लेट हैं",
+    "summary": "Google अपने लोकप्रिय एआई असिस्टेंट, जेमिनी (Gemini), को और अधिक उपयोगी बनाने की दिशा में कदम बढ़ा रहा है। वर्तमान में, जेमिनी का 'कॉल फॉर मी' (Call for Me) फीचर मुख्य रूप से व्यावसायिक कॉल्स के लिए उपयोग किया जाता है। लेकिन, एंड्रॉइड अथॉरिटी (Android Authority) ने हाल ही में एक APK टीयरडाउन (APK teardown) में एक नई…",
+    "category": "general",
+    "tags": [
+      "Google",
+      "Gemini",
+      "Android"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&strip=all&crop=0%2C10.731298651824%2C100%2C78.537402696352&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f3650807cdaa",
+    "title": "रिवर्स-इंजीनियर्ड गेम्स: डीकंपाइलेशन, वीआर और वेब पोर्ट्स की दुनिया",
+    "summary": "रेट्रो गेमिंग की दुनिया में इन दिनों एक अभूतपूर्व क्रांति देखने को मिल रही है। क्लासिक गेम्स अब अपने मूल हार्डवेयर की सीमाओं से बाहर आ रहे हैं और रिवर्स-इंजीनियरिंग के जरिए नए उपकरणों पर खेले जा रहे हैं। इस आंदोलन के बीच Call of Duty का एक अनौपचारिक स्केटबोर्डिंग मोड और ओरिजिनल Halo का वेब ब्राउज़र मल्टीप्लेयर संस्करण…",
+    "category": "general",
+    "tags": [
+      "Call of Duty",
+      "Halo",
+      "Nintendo"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6c7faee7e8ee",
+    "title": "द मैटिक (The Matic) पहला रोबोट वैक्यूम है जिसे एफसीसी (FCC) से बैन वेवर मिला, लेकिन इसकी असलियत अलग है",
+    "summary": "टेकदृष्टि रिपोर्ट के अनुसार, द मैटिक (The Matic) एक बेहद लोकप्रिय रोबोट वैक्यूम क्लीनर है, लेकिन हाल ही में किए गए दावों के अनुसार कि यह एफसीसी (FCC) के रोबोट बैन से बचने वाला पहला उपकरण है, पूरी तरह से सटीक नहीं है। यह खबर तकनीकी दुनिया में चर्चा का विषय बन गई है, लेकिन इसकी सच्चाई को समझना आवश्यक है।",
+    "category": "ban_regulation",
+    "tags": [
+      "Matic",
+      "FCC",
+      "Roomba"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/IMG_8725.jpeg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5bc9d1f47350",
+    "title": "टेकदृष्टि विशेष: यूटा के निवासी अब एआई-आधारित मुहांसों के नुस्खे प्राप्त कर सकते हैं",
+    "summary": "यूटा राज्य के निवासी अब एक एआई सिस्टम के माध्यम से मुहांसों के इलाज के लिए नुस्खे प्राप्त कर सकते हैं। स्वास्थ्य सेवा स्टार्टअप Nolla Health ने सोमवार को घोषणा की कि उसके ऐप का उपयोग करके उपयोगकर्ता अपने चेहरे स्कैन कर सकते हैं, जिससे एआई सिस्टम मुहांसों की गंभीरता का विश्लेषण करता है और स्वतंत्र रूप से एक नुस्खा…",
+    "category": "ban_regulation",
+    "tags": [
+      "Nolla Health",
+      "Utah"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/nolla-health-app.png?quality=90&strip=all&crop=0%2C5.420521028312%2C100%2C89.158957943376&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e3d6a6e5d9a3",
+    "title": "विकिपीडिया ऑपरेटर का दावा: ओपनएआई के 'रॉग' बॉट्स से मई में आउटेज की संभावना",
+    "summary": "हाल ही में एआई एजेंट्स द्वारा थर्ड-पार्टी वेबसाइट्स तक पहुंचने की कई रिपोर्ट्स सामने आने के बाद, विकिमीडिया फाउंडेशन ने पुष्टि की है कि उनके प्लेटफॉर्म्स पर \"रॉग\" (rogue) ओपनएआई एजेंट्स की गतिविधियां पाई गई हैं। इन एजेंट्स की भारी ट्रैफ़िक के कारण मई में एक आंशिक आउटेज (outage) हो सकता है, हालांकि फाउंडेशन ने स्पष्ट…",
+    "category": "general",
+    "tags": [
+      "Wikimedia Foundation",
+      "Wikipedia",
+      "OpenAI"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "63a24a839648",
+    "title": "हुंडई के सीईओ का स्पष्ट संदेश: चीन से मुकाबले के लिए 'समान अवसर' आवश्यक",
+    "summary": "हाल के दिनों में ऑटोमोबाइल उद्योग के कई प्रमुख नेता चीन की बढ़ती बाजार हिस्सेदारी को लेकर गहरी चिंता व्यक्त कर रहे हैं। अमेरिकी ऑटोमोबाइल निर्माता विशेष रूप से चीनी इलेक्ट्रिक वाहनों के संभावित प्रवेश से आशंकित हैं। हालांकि, हुंडई के सीईओ जोस मुनोज़ ने इस मुद्दे पर एक अधिक मापा हुआ और व्यावहारिक दृष्टिकोण प्रस्तुत…",
+    "category": "ban_regulation",
+    "tags": [
+      "Hyundai",
+      "José Muñoz",
+      "Volkswagen"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_6769.jpeg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cf94a559a112",
+    "title": "OpenAI PR ने पत्रकार को 'आगे बढ़ने' के लिए कहा, जबकि Sam Altman से चैटबॉट उपयोगकर्ता की आत्महत्या पर सवाल किया गया",
+    "summary": "वैनिटी फेयर के संपादक मार्क गुइडुची द्वारा OpenAI के सीईओ सैम ऑल्टमैन के साथ किए गए एक साक्षात्कार में एक बेहद संवेदनशील और दुखद घटना को उठाया गया, जिसने एआई (AI) की सुरक्षा और इसके संभावित नुकसान को लेकर गंभीर सवाल खड़े कर दिए हैं। गुइडुची ने न्यूयॉर्क टाइम्स की पत्रकार लौरा रिले के उस निबंध का उल्लेख किया जिसमें…",
+    "category": "ban_regulation",
+    "tags": [
+      "OpenAI",
+      "Sam Altman",
+      "Mark Guiducci"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "78ad53815846",
+    "title": "ओपेनएआई का नया कदम: ईयू एआई एक्ट के तहत टेक्स्ट वॉटरमार्किंग का रोलआउट",
+    "summary": "ओपेनएआई ने यूरोपीय संघ के कड़े एआई नियमों का पालन करने के लिए अपनी नई टेक्स्ट वॉटरमार्किंग तकनीक को वैश्विक स्तर पर पेश किया है। कंपनी के अनुसार, यह कदम कंटेंट की उत्पत्ति (provenance) को पारदर्शी बनाने की दिशा में एक महत्वपूर्ण कदम है। हालांकि, ओपेनएआई ने यह भी स्वीकार किया है कि यह तकनीक अभी पूरी तरह से विकसित नहीं…",
+    "category": "ban_regulation",
+    "tags": [
+      "OpenAI",
+      "EU AI Act",
+      "textGrain"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "336b976f9dc2",
+    "title": "ओपन-सोर्स टूल 'ईज़ीरीड' ने शोधकर्ताओं के लिए अंग्रेजी पेपर पढ़ना किया आसान",
+    "summary": "अंग्रेजी भाषा में उपलब्ध अधिकांश वैज्ञानिक शोध और अकादमिक पेपरों को पढ़ने में गैर-अंग्रेजी भाषी शोधकर्ताओं को अक्सर भाषा की बाधा का सामना करना पड़ता है। इस समस्या के समाधान के रूप में \"ईज़ीरीड\" (Edwardxlai/easyread) नामक एक ओपन-सोर्स प्रोजेक्ट सामने आया है, जिसे विशेष रूप से शोधकर्ताओं की सुविधा के लिए डिज़ाइन किया…",
+    "category": "repo_analysis",
+    "tags": [
+      "Edwardxlai",
+      "easyread",
+      "PDF"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Edwardxlai/easyread",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "96b57e7f9f5c",
+    "title": "DeepSeek Harness के लिए प्रथम श्रेणी का Linux सपोर्ट",
+    "summary": "आधिकारिक तौर पर, DeepSeek Harness डेस्कटॉप क्लाइंट केवल macOS और Windows ऑपरेटिंग सिस्टम के लिए उपलब्ध है। इस सीमा के कारण, Linux उपयोगकर्ता या तो वेब संस्करण पर निर्भर रहने के लिए मजबूर थे या उन्हें स्वयं स्रोत कोड संकलित करना पड़ता था, जो कि एक जटिल और समय लेने वाली प्रक्रिया है। इस अंतर को पाटने के लिए, एक नया…",
+    "category": "repo_analysis",
+    "tags": [
+      "Zhou-Yujing114514",
+      "DeepSeek Harness",
+      "DeepSeek-AI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Zhou-Yujing114514/deepseek-harness-linux",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a2b35b3dd20c",
+    "title": "पेपरफोल्ड (PaperFold): जटिल अकादमिक शोध पत्रों को आसानी से समझने का नया टूल",
+    "summary": "अकादमिक शोध पत्रों की बढ़ती जटिलता के बीच, 'पेपरफोल्ड' (PaperFold) नामक एक नया टूल शोधकर्ताओं और छात्रों के लिए एक बड़ी राहत लेकर आया है। यह टूल विशेष रूप से उन शोध पत्रों को पढ़ने की समस्या को हल करता है, जिनमें पाठकों को एक-एक पैराग्राफ पढ़ते समय पूरे शोध पत्र के मूल तर्क को ध्यान में रखना पड़ता है। पेपरफोल्ड इस…",
+    "category": "general",
+    "tags": [
+      "PaperFold",
+      "Xia Chen",
+      "arXiv"
+    ],
+    "image": "https://opengraph.githubassets.com/1/chenxiachan/paperfold",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f93d54fdf77e",
+    "title": "CCB डेस्कटॉप टूल ने AI प्रोग्रामिंग क्लाइंट्स के सेटअप को किया ऑटोमेट",
+    "summary": "CCB नामक एक नया डेस्कटॉप टूल विंडोज उपयोगकर्ताओं के लिए AI कोडिंग क्लाइंट्स के सेटअप को सरल बना रहा है। यह टूल Node.js 20 या उससे अधिक और Windows 10 या 11 पर काम करता है। उपयोगकर्ता अपने CCB खाते में लॉग इन करने के बाद Trae, Qoder, CodeBuddy, WorkBuddy, Cursor और ZCode जैसे विभिन्न क्लाइंट्स का चयन कर सकते हैं और…",
+    "category": "general",
+    "tags": [
+      "CCB",
+      "Trae",
+      "Qoder"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Btluo1/ccb",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "61dded18c5ae",
+    "title": "यामज़-लैब्स का 'क्योजीन' इंजन: एक 128 GB मिनी पीसी पर 300B-क्लास एआई मॉडल का प्रदर्शन",
+    "summary": "यामज़-लैब्स ने अपने नए क्योजीन (Kyojin) इंजन के साथ एक बड़ी तकनीकी सफलता हासिल की है। यह नया इंजन, जिसे टर्बोडेर्प (turboderp) के एक्सललामावी3 (ExLlamaV3) पर बनाया गया है, विशेष रूप से एएमडी (AMD) राइज़न एआई मैक्स+ 395 (Ryzen AI Max+ 395) प्रोसेसर के लिए डिज़ाइन किया गया है। इस इंजन की सबसे बड़ी उपलब्धि यह है कि यह एक…",
+    "category": "repo_analysis",
+    "tags": [
+      "Yamz-Labs/kyojin",
+      "ExLlamaV3",
+      "AMD Strix Halo"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Yamz-Labs/kyojin",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a6f7c26d01c5",
+    "title": "Mariagorskikh/Open Instinct: ओपन-सोर्स पर्सनल एआई एजेंट की नई शुरुआत",
+    "summary": "ओपन-सोर्स एआई की दुनिया में एक महत्वपूर्ण कदम उठाते हुए, Mariagorskikh ने 'ओपन इंस्टिंक्ट' (Open Instinct) पेश किया है। यह एक ऐसा प्लेटफॉर्म है जो किसी को भी अपना पर्सनल एआई एजेंट बनाने और चलाने की अनुमति देता है। यह प्रोजेक्ट मूल रूप से Instinct प्रोजेक्ट का एक विस्तृत, शुरुआत से बनाया गया क्लोन है, जिसका उद्देश्य इस…",
+    "category": "repo_analysis",
+    "tags": [
+      "Mariagorskikh",
+      "Open Instinct",
+      "Instinct"
+    ],
+    "image": "https://opengraph.githubassets.com/1/mariagorskikh/open-instinct",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9a1caa4bf05b",
+    "title": "टेकदृष्टि विशेष: p3-stack के साथ T3 Code में इंजीनियरिंग टीम का नया युग",
+    "summary": "सॉफ्टवेयर विकास की दुनिया में, कृत्रिम बुद्धिमत्ता (AI) की मदद से कोड लिखने की प्रक्रिया तेजी से बदल रही है। इस दिशा में एक महत्वपूर्ण कदम तब उठाया गया जब poteto द्वारा विकसित 'pstack' फ्रेमवर्क को T3 Code के लिए विशेष रूप से 'p3-stack' के रूप में पुनर्निर्मित किया गया। यह नया प्रोजेक्ट केवल एक साधारण पोर्ट नहीं है,…",
+    "category": "repo_analysis",
+    "tags": [
+      "p3-stack",
+      "poteto",
+      "T3 Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/uzairansaruzi/p3-stack",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "39084cd4a9ec",
+    "title": "Router0824/OpsPilot-AI: ओपन-सोर्स एआई ऑपरेशंस वर्कस्पेस का उदय",
+    "summary": "OpsPilot AI एक नया ओपन-सोर्स ऑपरेशंस वर्कस्पेस है जो बिखरी हुई बैठकों, दस्तावेजों और कार्यों को सीधे निर्णयों, कार्यों और संगठनात्मक मेमोरी में बदल देता है। इसके अनुसार, टीमों के पास शायद ही कभी जानकारी की कमी होती है, बल्कि उनमें निरंतरता की कमी होती है। जब महत्वपूर्ण संदर्भ मीटिंग नोट्स, दस्तावेजों, टास्क बोर्ड और…",
+    "category": "repo_analysis",
+    "tags": [
+      "OpsPilot-AI",
+      "OpenAI",
+      "Azure OpenAI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Router0824/OpsPilot-AI",
+    "source": "github",
+    "first_seen": "2026-10-06T09:11:11.483712+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "d0f8774972e6",
     "title": "हुआवेई और क्वालकॉम के बीच व्यापक पेटेंट लाइसेंस समझौता",
     "summary": "शेनझेन, चीन में 5 अक्टूबर 2026 को हुआवेई और क्वालकॉम ने एक बहु-वर्षीय, व्यापक पेटेंट लाइसेंस समझौते की घोषणा की। इस समझौते में 5G, कंप्यूट, AI और नेटवर्किंग जैसे विभिन्न तकनीकी क्षेत्रों में दोनों कंपनियों के पेटेंट पोर्टफोलियो के बीच क्रॉस-लाइसेंस शामिल हैं। इसके साथ ही, क्वालकॉम कंप्यूट, AI, नेटवर्किंग और अन्य…",
