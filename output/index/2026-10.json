@@ -1,5 +1,450 @@
 [
   {
+    "id": "82331a864764",
+    "title": "गणित में एआई की नई उपलब्धियां: ओपनएआई ने फ्रंटियरमैथ पर 98% स्कोर किया हासिल",
+    "summary": "ओपनएआई ने अपने एक आंतरिक फ्रंटियर मॉडल द्वारा उत्पन्न गणितीय परिणामों की एक विस्तृत श्रृंखला जारी करने की घोषणा की है। यह मॉडल गणितीय समस्याओं को हल करने में असाधारण क्षमता का प्रदर्शन करते हुए फ्रंटियरमैथ बेंचमार्क में 98% का प्रभावशाली स्कोर प्राप्त करने में सफल रहा है, जो वर्तमान में उपलब्ध अन्य एआई मॉडलों की तुलना…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "Institute for Advanced Study",
+      "Lean"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "1fa2f64dbfdc",
+    "title": "स्ट्रैंड्स डिसाइडर 2B: एक छोटा, ओपन-सोर्स डिसीजन मॉडल जो तेज प्रयोगों के लिए तैयार किया गया है",
+    "summary": "टेकदृष्टि टेक डेस्क। हाल ही में, स्ट्रैंड्स लैब्स ने 'स्ट्रैंड्स डिसाइडर 2B' नामक एक छोटे और ओपन-सोर्स डिसीजन मॉडल की घोषणा की है। यह मॉडल विशेष रूप से तेज प्रयोगों, स्थानीय विकास और नवाचार के लिए तैयार किया गया है। यह 2 बिलियन पैरामीटर का मॉडल है, जो लगभग 106 से 115 मिलीसेकंड्स के भीतर निर्णय ले सकता है। यह गति इसे…",
+    "category": "model_release",
+    "tags": [
+      "Strands Decider 2B",
+      "TypeSafe AI",
+      "Strands Harness SDK"
+    ],
+    "image": "https://strandsagents.com/blog/og/introducing-strands-decider.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a585154abde8",
+    "title": "ओपनएआई ने पब्लिक बीटा में लॉन्च किया Decisions API",
+    "summary": "ओपनएआई ने डेवलपर्स के लिए एक नया Decisions API पब्लिक बीटा में जारी किया है, जिसे विशेष रूप से टेक्स्ट और इमेजेस को तुरंत और सटीक एक्शनेबल डिसीजन में बदलने के लिए डिज़ाइन किया गया है। यह नया API मौजूदा Responses API की तुलना में लगभग 10 गुना अधिक गति के साथ काम करता है और आने वाले हफ्तों में जनरल अवेलेबिलिटी (GA) के…",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "Decisions API"
+    ],
+    "image": "https://developers.openai.com/og/api/docs/guides/decisions.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "996b0e416b3a",
+    "title": "EmbeddingGemma 2: एक ओपन, हल्का मल्टीमॉडल एम्बेडिंग मॉडल जो डिवाइस पर ही चलता है",
+    "summary": "गूगल डीपमाइंड ने अपने नए एम्बेडिंग मॉडल, EmbeddingGemma 2, की घोषणा की है। यह मॉडल 740 मिलियन पैरामीटर के साथ आता है और इसे सीधे कंज्यूमर हार्डवेयर पर चलाने के लिए डिज़ाइन किया गया है। इसे अपाचे 2.0 लाइसेंस के तहत रिलीज़ किया गया है, जो व्यावसायिक उपयोग के लिए एक बहुत ही अनुकूल लाइसेंस है। इस मॉडल की सबसे बड़ी खासियत…",
+    "category": "model_release",
+    "tags": [
+      "EmbeddingGemma 2",
+      "Gemma 4",
+      "Gemini"
+    ],
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "7abe34959799",
+    "title": "$2 के ESP32-C3 पर बना Pi-hole-क्लास DNS एडब्लॉकर",
+    "summary": "हाल ही में एक ओपन-सोर्स प्रोजेक्ट ने टेक जगत का ध्यान अपनी ओर खींचा है। यह प्रोजेक्ट एक Pi-hole-क्लास DNS एडब्लॉकर है जो मात्र $2 के ESP32-C3 माइक्रोचिप (जिसे SuperMini भी कहा जाता है) पर चलता है। इस डिवाइस में किसी भी प्रकार के PSRAM (पैरेलल स्टैटिक रैंडम-एक्सेस मेमोरी) की आवश्यकता नहीं होती है, जो इसे एक बहुत ही…",
+    "category": "repo_analysis",
+    "tags": [
+      "ESP32-C3",
+      "Pi-hole"
+    ],
+    "image": "https://opengraph.githubassets.com/5d473b230954bb5e9546e866a2ca3be5d8ee3d9fe3fa2f1031e203d20e335be7/M-Abozaid/esp32-c3-adblock",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "455499dd8d4c",
+    "title": "Penguin Mail: Linux के लिए नया ओपन-सोर्स AI ईमेल क्लाइंट",
+    "summary": "Linux उपयोगकर्ताओं के लिए एक नए और शक्तिशाली ओपन-सोर्स ईमेल क्लाइंट के रूप में Penguin Mail ने आधिकारिक तौर पर अपना संस्करण 1.0.0 लॉन्च कर दिया है। यह नया क्लाइंट उपयोगकर्ताओं को अपने सभी ईमेल खातों को एक ही तेज़ एप्लिकेशन में प्रबंधित करने की सुविधा देता है। यह न केवल विभिन्न ईमेल सेवाओं को एक साथ लाता है, बल्कि…",
+    "category": "general",
+    "tags": [
+      "Penguin Mail"
+    ],
+    "image": "https://penguin-mail.com/brand/social-preview.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "53f4988f8b5d",
+    "title": "द डाउनलोड: 10 जलवायु तकनीक कंपनियों पर नज़र",
+    "summary": "एमआईटी टेक्नोलॉजी रिव्यू (MIT Technology Review) ने दुनिया की 10 सबसे होनहार जलवायु तकनीक कंपनियों की अपनी वार्षिक सूची जारी की है। यह सूची ऐसे समय में आई है जब दुनिया रिकॉर्ड तोड़ गर्मी और जलवायु आपदाओं का सामना कर रही है, जिससे राजनीतिक प्रगति रुक गई है।",
+    "category": "general",
+    "tags": [
+      "MIT Technology Review",
+      "The Download",
+      "Elon Musk"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-CT1026-Thumbnail.png?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "24b4f13f35dd",
+    "title": "WeLion New Energy और इसकी नई सेमी-सॉलिड-स्टेट बैटरी तकनीक",
+    "summary": "बीजिंग स्थित राष्ट्रीय उच्च-तकनीक उद्यम WeLion New Energy ने बैटरी तकनीक के क्षेत्र में एक नई दिशा तय की है। 2016 में प्रो. चेन लिकुआन, ली होंग और यू हुइगेन द्वारा स्थापित, 1,300 कर्मचारियों की इस टीम का मुख्य मिशन भविष्य के लिए सुरक्षित और बेहतर बैटरी का निर्माण करना है। आज की लिथियम-आयन बैटरी में ज्वलनशील तरल…",
+    "category": "general",
+    "tags": [
+      "WeLion New Energy",
+      "Nio",
+      "lithium-ion battery"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AP26190018414663.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "90749a0de624",
+    "title": "X-energy and its helium-cooled nuclear reactors",
+    "summary": "X-energy is developing small modular reactors to satisfy some of the planet’s most power-hungry users: industrial manufacturers that need high temperatures to produce billions of tons of concrete, plastics, fibers, and chemicals. Solar panels and wind turbines are great at producing electricity but what heavy industry…",
+    "category": "general",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/DJI_20260824135059_0984_D.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8ad8df691e41",
+    "title": "ब्रिमस्टोन की नई तकनीक: सीमेंट और महत्वपूर्ण खनिजों के उत्पादन में एक बड़ी क्रांति",
+    "summary": "2019 में स्थापित ब्रिमस्टोन नामक अमेरिकी स्टार्टअप ने औद्योगिक निर्माण के क्षेत्र में एक अनूठा दृष्टिकोण पेश किया है। यह कंपनी एक ही फीडस्टॉक और साझा उपकरणों का उपयोग करके एक साथ कई उत्पादों का निर्माण करती है। वर्तमान में, यह कंपनी दो प्रमुख औद्योगिक चुनौतियों को हल करने के लिए काम कर रही है: सीमेंट उद्योग से होने…",
+    "category": "general",
+    "tags": [
+      "Brimstone",
+      "Cody Finke"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Brimstone-Finals-0238.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a710b62c5bfa",
+    "title": "बाढ़ से बचाव का नया तरीका: WaveSave का पोर्टेबल रबर डैम 'SlamDam'",
+    "summary": "जलवायु परिवर्तन के कारण वैश्विक स्तर पर बाढ़ का खतरा तेजी से बढ़ रहा है, जिससे दुनिया की लगभग 20 प्रतिशत आबादी गंभीर जोखिम में है। विशेषज्ञों का अनुमान है कि 2100 तक यह संख्या बढ़कर 2 अरब तक पहुँच सकती है। इन प्राकृतिक आपदाओं से निपटने के लिए डच कंपनी WaveSave ने एक नया और प्रभावी समाधान पेश किया है। उन्होंने…",
+    "category": "general",
+    "tags": [
+      "WaveSave",
+      "SlamDam",
+      "Netherlands"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/flood_protection_slamdam_gilgit-baltistan.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cb8dc02bf2a7",
+    "title": "कैसे पता करें कि अमेज़ॅन को लगता है कि आपके 'फ्लैट बटक्स' हैं",
+    "summary": "हाल ही में, सोशल मीडिया प्लेटफॉर्म थ्रेड्स पर @fangirlinmegan नामक एक उपयोगकर्ता ने एक चौंकाने वाला खुलासा किया। उसने बताया कि जब वह अमेज़ॅन की सेटिंग्स देख रही थी, तो उसे यह जानकर हैरानी हुई कि कंपनी ने उसकी खरीदारी के आधार पर यह मान लिया है कि उसके 'फ्लैट बटक्स' हैं। उसने अपनी पोस्ट में लिखा, \"मैं सचमुच अवाक हूँ।…",
+    "category": "general",
+    "tags": [
+      "Amazon"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/03/Amazon-fast-delivery.jpeg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "92fa7731cf8f",
+    "title": "एप्पल और एलजी की साझेदारी से स्मार्ट होम बाजार में नई हलचल",
+    "summary": "एप्पल इंक (Apple Inc.) अब केवल स्मार्टफोन और लैपटॉप तक सीमित नहीं रहना चाहता। कंपनी ने दक्षिण कोरियाई दिग्गज एलजी कॉर्प (LG Corp.) के साथ मिलकर स्मार्ट होम बाजार में प्रवेश करने की योजना बनाई है। ब्लूमबर्ग (Bloomberg) की एक हालिया रिपोर्ट के अनुसार, दोनों कंपनियां मिलकर स्मार्ट लॉक, थर्मोस्टेट और डोरबेल जैसे उपकरण…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "LG",
+      "Amazon"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-26-at-12.45.18-PM.png?resize=1200,927",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "049bf6f5219d",
+    "title": "पूर्व रैंप इंजीनियरों ने अपने पहले उत्पाद को छोड़ने के बाद मेलीयस के लिए $25 मिलियन जुटाए",
+    "summary": "न्यूयॉर्क स्थित एआई स्टार्टअप मेलीयस ने हाल ही में फंडिंग के एक बड़े दौर की घोषणा की है। इस कंपनी ने कुल मिलाकर $25 मिलियन जुटाए हैं, जिसमें $20 मिलियन का सीरीज ए राउंड और $5 मिलियन का सीड राउंड शामिल है। इस फंडिंग का नेतृत्व प्रमुख वेंचर कैपिटल फर्म्स, जैसे कि CRV और जनरल कैटलिस्ट ने किया है। मेलीयस की स्थापना पूर्व…",
+    "category": "general",
+    "tags": [
+      "Melius",
+      "CRV",
+      "General Catalyst"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Melius.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fbca2155c53f",
+    "title": "सिलिकॉन वैली का एआई जीनियस अंडरडॉग के साथ लौटा, जो सबसे प्राइवेसी-फोकस्ड एआई असिस्टेंट है",
+    "summary": "सिलाइल वेन, जो एक 17 वर्षीय स्व-शिक्षित कोडर हैं, ने सोमवार को 'अंडरडॉग' का एक इनवाइट-ओनली बीटा संस्करण लॉन्च किया। वेन, जो अब पीटर थील के 'थील फेलो' कार्यक्रम का हिस्सा हैं, ने इस एआई असिस्टेंट को सिलिकॉन वैली में उपलब्ध सबसे प्राइवेसी-फोकस्ड विकल्पों में से एक के रूप में पेश किया है। यह लॉन्च एआई उद्योग में एक नई…",
+    "category": "general",
+    "tags": [
+      "Sigil Wen",
+      "Andrej Karpathy",
+      "Aravind Srinivas"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Conway-Underdog-Sigil-Wen-.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "c3d8360c1095",
+    "title": "कैसे एआई निर्णय मॉडल कंटेंट मॉडरेशन की दुनिया बदल सकते हैं",
+    "summary": "मसुबी (Musubi) ने मंगलवार को अपने नए लाइटवेट एआई निर्णय मॉडल PolicyLM-1.7B (पॉलिसीएलएम-1.7बी) की घोषणा की है। यह मॉडल पूरी तरह से ओपन-सोर्स है और इसे विशेष रूप से रियल-टाइम कंटेंट मॉडरेशन के लिए डिज़ाइन किया गया है। पारंपरिक बड़े भाषा मॉडलों (LLMs) के विपरीत, जो टेक्स्ट उत्पन्न करते हैं, यह नया मॉडल प्लेटफॉर्म की…",
+    "category": "model_release",
+    "tags": [
+      "Musubi",
+      "PolicyLM-1.7B",
+      "Filip Jankovic"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agents-chatbots-GettyImages-2243730029.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4e425615ccb8",
+    "title": "एआई स्टार्टअप लैम्ब्डा 4 बिलियन डॉलर जुटाने की तैयारी में, 2027 में संभावित आईपीओ से पहले",
+    "summary": "क्लाउड कंप्यूटिंग कंपनी लैम्ब्डा (Lambda) 4 बिलियन डॉलर तक की एक विशाल फंडिंग राउंड की तैयारी कर रही है, जिससे कंपनी की प्री-मनी वैल्यूएशन 14.5 बिलियन डॉलर तक पहुंचने की उम्मीद है। द वॉल स्ट्रीट जर्नल (The Wall Street Journal) की एक रिपोर्ट के अनुसार, यह संभावित रूप से कंपनी का अंतिम निजी फंडिंग राउंड हो सकता है,…",
+    "category": "general",
+    "tags": [
+      "Lambda",
+      "Nvidia",
+      "Coatue Management"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-1148109686.jpg?resize=1200,687",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "17fd99114ee0",
+    "title": "एक्सबॉक्स ने हासिल किए जीटीए 6 के स्ट्रीमिंग अधिकार",
+    "summary": "माइक्रोसॉफ्ट के गेमिंग डिवीजन में एक बड़ी हलचल देखने को मिली है। एक्सबॉक्स की सीईओ आशा शर्मा ने हाल ही में एक आंतरिक बैठक के दौरान कर्मचारियों को सूचित किया कि कंपनी ग्रैंड थेफ्ट ऑटो 6 को लेकर एक ऐसा कदम उठाने जा रही है जो कोई अन्य प्लेटफॉर्म होल्डर नहीं कर रहा है। इस खबर ने गेमिंग इंडस्ट्री में काफी दिलचस्पी पैदा कर…",
+    "category": "model_release",
+    "tags": [
+      "Microsoft",
+      "Xbox",
+      "Grand Theft Auto VI"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gta6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f6b27dd5927e",
+    "title": "टेस्ला की मॉडल 3 और मॉडल वाई बन सकती हैं आपके घर के लिए बैकअप बैटरी",
+    "summary": "टेस्ला ने अपने पावरशेयर होम बैकअप फीचर का विस्तार करते हुए इसे अपने मॉडल 3 और मॉडल वाई वाहनों के लिए भी उपलब्ध करा दिया है। इस नई सुविधा के माध्यम से, टेस्ला के मालिक अपने इलेक्ट्रिक वाहनों की बैटरी का उपयोग करके बिजली कटौती के समय अपने घरों को बिजली की आपूर्ति कर सकते हैं। यह कदम टेस्ला की ऊर्जा भंडारण और स्थिरता की…",
+    "category": "model_release",
+    "tags": [
+      "Tesla",
+      "Model 3",
+      "Model Y"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Powershare-Hero-Desktop-US-PR.jpg?quality=90&strip=all&crop=16.299072265625%2C21.997873544188%2C76.581811523438%2C68.656397166394&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b3490da4d435",
+    "title": "गूगल का विशाल परमाणु ऊर्जा सौदा: डेटा सेंटर्स की बढ़ती जरूरतों को पूरा करने की तैयारी",
+    "summary": "गूगल ने अपने डेटा सेंटर्स के लिए बिजली की बढ़ती मांग को पूरा करने के लिए एक ऐतिहासिक कदम उठाया है। कंपनी ने अमेरिकी परमाणु ऊर्जा ऑपरेटर कॉन्स्टेलेशन के साथ 20 साल का एक बड़ा समझौता किया है। इस सौदे के तहत अगले पांच वर्षों में 890 मेगावाट अतिरिक्त परमाणु क्षमता उत्पन्न की जाएगी, जो एआई (AI) के विस्तार के लिए एक…",
+    "category": "general",
+    "tags": [
+      "Google",
+      "Constellation",
+      "PJM Interconnection"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK093_Google_05.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f5bfd5a6dedf",
+    "title": "अमेज़न की सेल: पुराने मॉडल का Kindle Paperwhite 30% छूट पर उपलब्ध",
+    "summary": "अमेज़न ने अपने ई-रीडर पोर्टफोलियो में एक बड़ा डिस्काउंट पेश किया है। 2022 के Kindle Paperwhite Signature Edition पर 30 प्रतिशत की भारी छूट दी जा रही है, जिससे इसकी कीमत $249.99 से घटकर $169.99 हो गई है। हालांकि यह मॉडल तकनीकी रूप से \"लास्ट-जेन\" (पिछली पीढ़ी) माना जाता है, लेकिन इसकी मौजूदा कीमत इसे बाजार में उपलब्ध…",
+    "category": "general",
+    "tags": [
+      "Amazon",
+      "Kindle Paperwhite"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/amazon_kindle_paperwhite1B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "612ce828203e",
+    "title": "प्लेस्टेशन के दो नए डिवाइस लीक: क्या आ रहा है OLED हैंडहेल्ड?",
+    "summary": "टेक जगत में एक नई हलचल मची है, जब Wi-Fi Alliance ने हाल ही में दो नए प्लेस्टेशन उपकरणों को प्रमाणित किया। ये उपकरण, जिनके मॉडल नंबर CFI-Y2000 और CFI-Y2105 हैं, \"गेमिंग कंसोल/परिफेरल्स\" की श्रेणी में सूचीबद्ध किए गए हैं। इस लीक ने गेमिंग समुदाय के बीच काफी उत्साह पैदा कर दिया है, क्योंकि यह सीधे तौर पर सोनी के लोकप्रिय…",
+    "category": "model_release",
+    "tags": [
+      "Sony",
+      "PlayStation Portal",
+      "PlayStation"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25184511/111323_PlayStation_Portal_ADiBenedetto_0013.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "342677ae7ead",
+    "title": "Jump Trading और GPT-6 Astra: क्वांटिटेटिव ट्रेडिंग में एआई की नई क्रांति",
+    "summary": "अक्टूबर 2026 में, Jump Trading ने GPT-6 Astra का उपयोग करके लंबी और अधिक जटिल क्वांटिटेटिव रिसर्च समस्याओं को सुलझाने की दिशा में एक महत्वपूर्ण कदम उठाया है। Jump Trading एक क्वांटिटेटिव ट्रेडिंग फर्म है जो बाजार डेटा, समाचारों और वैकल्पिक डेटा स्रोतों का उपयोग करके एसेट की कीमतों की भविष्यवाणी करने वाले मॉडल बनाती…",
+    "category": "general",
+    "tags": [
+      "Jump Trading",
+      "Lucas Baker"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/01Nd05HjeHRiEqwJXFhr6Q/5441b03dbcdabb27917814ff14b1374c/og.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9964af802e9c",
+    "title": "टेकदृष्टि विशेष: एआई एजेंट्स की नई उड़ान, ओपनएआई और आयरनक्लाड की ऐतिहासिक साझेदारी",
+    "summary": "ओपनएआई ने अपने नवीनतम एआई मॉडल जीपीटी-6 एस्ट्रा (GPT-6 Astra) के साथ कंप्यूटर के उपयोग में एआई की क्षमता का एक नया प्रदर्शन किया है। इस नई तकनीक का मुख्य उद्देश्य एआई एजेंट्स को विशेष सॉफ्टवेयर का उपयोग करके जटिल व्यावसायिक समस्याओं को हल करने में अधिक सक्षम और कुशल बनाना है। इसके लिए ओपनएआई ने प्रमुख एआई…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "Ironclad",
+      "GPT-6 Astra"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "60ef2af305e7",
+    "title": "एटलासियन और ओपनएआई ने साझेदारी का किया विस्तार, एंटरप्राइज ज्ञान को एक्शन में बदलने की तैयारी",
+    "summary": "6 अक्टूबर, 2026 को एटलासियन और ओपनएआई ने अपनी रणनीतिक साझेदारी का विस्तार करते हुए एक महत्वपूर्ण घोषणा की। इस नए समझौते के तहत, एटलासियन अपने प्लेटफॉर्म और रोवो (Rovo) में ओपनएआई के अत्याधुनिक मॉडल्स को एकीकृत करेगा, जिसका मुख्य लक्ष्य एंटरप्राइज ज्ञान को सीधे उपयोगी और कार्रवाई योग्य (actionable) खुफिया जानकारी में…",
+    "category": "general",
+    "tags": [
+      "Atlassian",
+      "OpenAI",
+      "GPT-6 Astra"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6QbNTCFAGpVGjDLSMfKf9M/e571659e9694e08b73f5e73a01a0682c/atlassian-social-official.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3ff3638dc366",
+    "title": "जिउवूच्रिस/आर्टेक्स-को: एआई स्वायत्त घुसपैठ परीक्षण का कोरियाई संस्करण",
+    "summary": "अक्टूबर 2026 में एक गंभीर घटना सामने आई, जिसने साइबर सुरक्षा की दुनिया में खतरे की घंटी बजा दी। मूल आर्टेक्स (ARTEX) नामक एआई स्वायत्त घुसपैठ परीक्षण ढांचा, जो बिना किसी मानवीय मदद के जासूसी और डेटा चोरी जैसे काम करने में सक्षम है, उसका दुरुपयोग वित्तीय संस्थानों पर डेटा लीक हमलों में किया गया। इस घटना ने यह साबित कर…",
+    "category": "repo_analysis",
+    "tags": [
+      "Autumn-27/ARTEX",
+      "jiwoochris/artex-ko"
+    ],
+    "image": "https://opengraph.githubassets.com/1/jiwoochris/artex-ko",
+    "source": "github",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "54cf562ae7e2",
+    "title": "ओपनचार्ट (OpenChart) ने पेश किया एआई-संचालित ट्रेडिंगव्यू का मुफ्त और ओपन-सोर्स विकल्प",
+    "summary": "ओपनचार्ट ने एक ऐसे भविष्य की नींव रखी है जहां इंसान और एआई एजेंट मिलकर एसेट मैनेज कर सकते हैं। यह प्लेटफॉर्म पारंपरिक ट्रेडिंगव्यू का एक पूर्ण रूप से मुफ्त और ओपन-सोर्स (OSS) विकल्प है, जिसे लॉन्गसर्फ (Longsurf) द्वारा विकसित किया गया है। इसका मुख्य उद्देश्य सॉफ्टवेयर से कमाई करना नहीं है, बल्कि यह पता लगाना है कि एआई…",
+    "category": "repo_analysis",
+    "tags": [
+      "openchart",
+      "Tea",
+      "longsurf-ai"
+    ],
+    "image": "https://opengraph.githubassets.com/1/longsurf-ai/openchart",
+    "source": "github",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f8669131317c",
+    "title": "Mortiflix: एआई वीडियो निर्माण में एक नई और नियंत्रित कार्यप्रणाली",
+    "summary": "आज के समय में एआई (AI) वीडियो जनरेशन के क्षेत्र में कई नए प्रयोग हो रहे हैं। वर्तमान में उपलब्ध अधिकांश एआई वीडियो टूल्स एक साधारण प्रॉम्प्ट डालने और फिर एक स्लॉट मशीन की तरह परिणाम की प्रतीक्षा करने पर आधारित हैं। इस प्रक्रिया में रचनात्मक नियंत्रण की कमी होती है, जिससे अक्सर अप्रत्याशित और असंतोषजनक परिणाम मिलते…",
+    "category": "repo_analysis",
+    "tags": [
+      "Mortiflix",
+      "Claude",
+      "Anthropic"
+    ],
+    "image": "https://opengraph.githubassets.com/1/GTKottman/mortiflix-oss",
+    "source": "github",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "26571ef477a6",
+    "title": "ओपन-सोर्स PACT प्रोटोकॉल का उदय: एआई एजेंट्स और बिज़नेस के बीच सुरक्षित संचार का नया युग",
+    "summary": "वर्तमान तकनीकी परिदृश्य में, एआई पर्सनल एजेंट्स अब नियमित रूप से बिज़नेस एजेंट्स के साथ बातचीत कर रहे हैं। इस नई वास्तविकता ने बिज़नेस के सामने एक महत्वपूर्ण चुनौती खड़ी कर दी है: यह जानना कि कौन सा एजेंट बात कर रहा है, वह किसका प्रतिनिधित्व कर रहा है, और उसके पास क्या अधिकार हैं। इस समस्या के समाधान के रूप में,…",
+    "category": "repo_analysis",
+    "tags": [
+      "PACT",
+      "A2A",
+      "OAuth"
+    ],
+    "image": "https://opengraph.githubassets.com/1/openpactprotocol/openpactprotocol",
+    "source": "github",
+    "first_seen": "2026-10-07T08:58:39.556334+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "aea63d4435a0",
     "title": "सैन फ्रांसिस्को में सबसे समतल रास्ता खोजने वाला नया इंटरैक्टिव टूल",
     "summary": "सैन फ्रांसिस्को की प्रसिद्ध खड़ी पहाड़ियों पर चलने या साइकिल चलाने का अनुभव अब थोड़ा आसान हो सकता है। हाल ही में एक नया इंटरैक्टिव टूल सामने आया है जो शहर के भीतर किसी भी दो बिंदुओं के बीच सबसे समतल मार्ग खोजने में सक्षम है। यह टूल दूरी और चढ़ाई के बीच एक स्मार्ट संतुलन स्थापित करता है, ताकि उपयोगकर्ता अपनी पसंद और…",

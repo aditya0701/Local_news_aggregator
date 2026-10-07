@@ -3722,8 +3722,8 @@
   "gpt56": {
     "canonical_name": "GPT-5.6",
     "entity_type": "ai_model",
-    "summary": "OpenAI's GPT-5.6 introduces the Sol, Terra, and Luna models. The models are part of a new family that can natively process up to 1.5 million tokens of context and are being stress-tested for autonomous 'computer use' failures.",
-    "last_updated": "2026-07-06"
+    "summary": "GPT-5.6 is OpenAI's strongest model yet for accelerating AI research, which the company uses internally to diagnose failures, optimize training systems, and interpret results. It offers increased intelligence per token, stronger performance per dollar, and more capability on demand. OpenAI also laun",
+    "last_updated": "2026-10-07"
   },
   "gpt56 sol": {
     "canonical_name": "GPT-5.6 Sol",
@@ -3865,9 +3865,9 @@
   },
   "gemma 4": {
     "canonical_name": "Gemma 4",
-    "entity_type": "ai_model",
-    "summary": "Gemma 4 is the fourth generation of Google DeepMind's family of open models, built from the same research and technology behind Gemini. It is designed to be lightweight, fast, and capable, running on a variety of hardware from laptops to the cloud. A key feature is the introduction of Thinking varia",
-    "last_updated": "2026-07-06"
+    "entity_type": "technology",
+    "summary": "Gemma is a family of generative artificial intelligence models provided with open weights that permit responsible commercial use for tasks like question answering, summarization, and reasoning. Gemma 4 introduces built-in system prompt support for more structured and controllable conversations, and",
+    "last_updated": "2026-10-07"
   },
   "gemini diffusion": {
     "canonical_name": "Gemini Diffusion",
@@ -4412,8 +4412,8 @@
   "asha sharma": {
     "canonical_name": "Asha Sharma",
     "entity_type": "person",
-    "summary": "Asha Sharma is not mentioned in the provided material. The material describes the American Speech-Language-Hearing Association (ASHA) and its role in the field of audiology and speech-language pathology.",
-    "last_updated": "2026-07-07"
+    "summary": "Asha Sharma was born in India in 1990, and her early life was shaped by Indian cultural values, a strong emphasis on education, and the importance of hard work and resilience. She is known for her rise in the technology sector, culminating in her appointment as CEO of Microsoft Gaming in February 20",
+    "last_updated": "2026-10-07"
   },
   "dji osmo pocket 3": {
     "canonical_name": "DJI Osmo Pocket 3",
@@ -4987,9 +4987,9 @@
   },
   "illinois": {
     "canonical_name": "Illinois",
-    "entity_type": "state",
-    "summary": "Illinois is a constituent state of the United States, with Springfield as its capital and Chicago as its largest city. Founded in 1857, the state is home to Illinois State University, a top-ranked public university, and is politically divided between the Chicago area and 'downstate'.",
-    "last_updated": "2026-07-09"
+    "entity_type": "location",
+    "summary": "Illinois is in the midwestern United States. Its capital city is Springfield, and its largest city and most important cultural and economic center is Chicago.",
+    "last_updated": "2026-10-07"
   },
   "arizona": {
     "canonical_name": "Arizona",
@@ -6161,14 +6161,14 @@
   "nebius": {
     "canonical_name": "Nebius",
     "entity_type": "company",
-    "summary": "Nebius is an AI cloud company based in Amsterdam that delivers a unified platform spanning the complete AI journey. It provides a strong engineering culture rooted in designing and operating large-scale platforms that run reliably at global scale, serving AI builders and enterprises.",
-    "last_updated": "2026-07-12"
+    "summary": "Nebius is an AI cloud company that delivers a unified platform spanning the complete AI journey, from data and model training to production runtime and deployment. The company is based in Amsterdam, listed on Nasdaq, and operates worldwide.",
+    "last_updated": "2026-10-07"
   },
   "nscale": {
     "canonical_name": "Nscale",
     "entity_type": "company",
-    "summary": "Nscale is a global AI infrastructure company that provides full-stack AI infrastructure, including inference endpoints and fine-tuning workflows. The company is supported by Fortum and plans to establish a data center in Harjavalta, Finland, with a focus on infrastructure designed for scale, resilie",
-    "last_updated": "2026-07-12"
+    "summary": "Nscale is a vertically integrated AI infrastructure company building the physical and digital foundation to train, deploy, and scale AI from cloud to edge. It owns and operates the full stack spanning energy, data centers, GPU compute, and software.",
+    "last_updated": "2026-10-07"
   },
   "reed jobs": {
     "canonical_name": "Reed Jobs",
@@ -6752,8 +6752,8 @@
   "andrej karpathy": {
     "canonical_name": "Andrej Karpathy",
     "entity_type": "person",
-    "summary": "Andrej Karpathy is an AI researcher and educator and a founding member of OpenAI. He later served as the Director of AI at Tesla, where he led the computer vision team of the Autopilot. He is described as a Ti-dominant, openness-maximized researcher who does his best work building systems from first",
-    "last_updated": "2026-07-14"
+    "summary": "Andrej Karpathy is known for his expertise in training deep neural networks on large datasets. He is the creator of the simple-training repository, a fast tool for training and fine-tuning medium-sized GPT models.",
+    "last_updated": "2026-10-07"
   },
   "eureka labs": {
     "canonical_name": "Eureka Labs",
@@ -7129,9 +7129,9 @@
   },
   "lean": {
     "canonical_name": "Lean",
-    "entity_type": "repo_analysis",
-    "summary": "LEAN is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. It offers out-of-the-box alternative data and live-trading support, and its CLI is a command-line interface tool for int.",
-    "last_updated": "2026-07-15"
+    "entity_type": "technology",
+    "summary": "Lean is a methodology focused on improving business operations to enhance efficiency and deliver more value to customers. It is often applied alongside frameworks such as Scrum, Kanban, and Agile project management within software development and product management contexts.",
+    "last_updated": "2026-10-07"
   },
   "erdos problems": {
     "canonical_name": "Erdos Problems",
@@ -11547,13 +11547,10 @@
     "last_updated": "2026-09-12"
   },
   "model 3": {
-    "senses": [
-      {
-        "sense_label": "the specific vehicle model or the product line",
-        "summary": "The Tesla Model 3 is a practical, high-tech electric saloon that is considered one of the best electric cars available. It offers great performance and range for a competitive price, and its facelift improved build quality and refinement, boosting its range to around 400 miles in some versions.",
-        "last_updated": "2026-07-24"
-      }
-    ]
+    "canonical_name": "Model 3",
+    "entity_type": "product",
+    "summary": "Model 3 is a midsize electric sedan designed for affordability and performance, featuring quick acceleration, long range, and low running costs. It is available with a 16-inch touchscreen, with the Performance trim offering 528 hp and 316 miles of range.",
+    "last_updated": "2026-10-07"
   },
   "re100": {
     "canonical_name": "RE100",
@@ -12128,8 +12125,8 @@
   "claude opus 46": {
     "canonical_name": "Claude Opus 4.6",
     "entity_type": "ai_model",
-    "summary": "Claude Opus 4.6 is an upgraded model available on the Claude API and major cloud platforms. It improves on its predecessor's coding skills, can operate more reliably in larger codebases, and features a 1M token context window in beta. The model is designed for everyday work tasks like financial anal",
-    "last_updated": "2026-07-25"
+    "summary": "Claude Opus 4.6 is a legacy AI model from Anthropic. It has been succeeded by Claude Opus 5.5 and utilizes the InvokeModel Bedrock integration, featuring specific system prompts, pricing, and deployment guidelines.",
+    "last_updated": "2026-10-07"
   },
   "hive32b": {
     "canonical_name": "Hive-32B",
@@ -12425,8 +12422,8 @@
   "david holz": {
     "canonical_name": "David Holz",
     "entity_type": "person",
-    "summary": "David Holz is the Founder & CEO of Midjourney, a generative AI-powered platform that allows users to create unique artwork through text prompts. He was formerly CTO & Co-Founder of Leap Motion and has conducted neuroscience research for NASA and the Max Planck Institute.",
-    "last_updated": "2026-07-25"
+    "summary": "David Holz is an American entrepreneur and the founder and CEO of Midjourney, a highly popular AI image generation application. Prior to this, he co-founded Leap Motion, a company focused on hand-motion user interfaces, which he sold in 2019.",
+    "last_updated": "2026-10-07"
   },
   "xtra technology": {
     "canonical_name": "Xtra Technology",
@@ -19786,5 +19783,251 @@
     "entity_type": "person",
     "summary": "Drew Edwards is the Chief Executive Officer and founder of Ingo Money, Inc., a company established in 2001 that provides mobile-forward, instant deposit and payment services. He previously served as Chairman & CEO at Towne Services.",
     "last_updated": "2026-10-06"
+  },
+  "institute for advanced study": {
+    "canonical_name": "Institute for Advanced Study",
+    "entity_type": "organization",
+    "summary": "The Institute for Advanced Study, established in 1930, is a leading independent center for theoretical research and intellectual inquiry that advances the frontiers of knowledge across the sciences and humanities. It began with twenty-three members in the School of Mathematics, including Albert Eins",
+    "last_updated": "2026-10-07"
+  },
+  "strands decider 2b": {
+    "canonical_name": "Strands Decider 2B",
+    "entity_type": "product",
+    "summary": "Strands Decider 2B is a small, open-source decision model optimized for fast experimentation, local development, and innovation. It belongs to a new class of decision models, or system one models, designed to make choices rather than generate arbitrary text.",
+    "last_updated": "2026-10-07"
+  },
+  "strands harness sdk": {
+    "canonical_name": "Strands Harness SDK",
+    "entity_type": "product",
+    "summary": "The Strands Harness SDK allows developers to build an agent harness from the ground up to control the loop, tools, model, memory, and context management end to end. It provides the foundational components to construct a custom agent harness piece by piece.",
+    "last_updated": "2026-10-07"
+  },
+  "strands harness": {
+    "canonical_name": "Strands Harness",
+    "entity_type": "product",
+    "summary": "Strands Harness is a state-of-the-art, fully assembled agent harness that can be implemented with a single import. It includes benchmarked defaults for tools, context management, sessions, memory, and hooks, along with a tuned system prompt, providing an optimized agent out of the box.",
+    "last_updated": "2026-10-07"
+  },
+  "decisions api": {
+    "canonical_name": "Decisions API",
+    "entity_type": "product",
+    "summary": "The Decisions API is an AI API for constrained decisions that returns typed answers from a fixed set of options you define, providing a probability score for every option. It allows you to classify, route, and pick an agent’s next step in a single call, with pricing starting at $5 for 5,000 calls.",
+    "last_updated": "2026-10-07"
+  },
+  "embeddinggemma 2": {
+    "canonical_name": "EmbeddingGemma 2",
+    "entity_type": "product",
+    "summary": "EmbeddingGemma 2 is a highly capable model for on-device multimodal embeddings that natively maps combinations of text, images, audio, and video into a unified embedding space. It is a 740M model that is lightweight enough to run on consumer hardware. Google DeepMind introduced the original Embeddin",
+    "last_updated": "2026-10-07"
+  },
+  "sahil dua": {
+    "canonical_name": "Sahil Dua",
+    "entity_type": "person",
+    "summary": "Sahil Dua is a Product Strategist with over five years of experience turning ideas into impactful digital products. He holds a BTech in Computer Science and Engineering from Amity University, began his career in engineering building data pipelines, and later moved into product management.",
+    "last_updated": "2026-10-07"
+  },
+  "henrique schechter": {
+    "canonical_name": "Henrique Schechter",
+    "entity_type": "person",
+    "summary": "Henrique Schechter is a senior research engineer at Google DeepMind working on representation learning, computer vision, and language understanding. He previously worked on neural models for query understanding in Google Search and created voice queries for electric vehicles in Google Assistant befo",
+    "last_updated": "2026-10-07"
+  },
+  "esp32c3": {
+    "canonical_name": "ESP32-C3",
+    "entity_type": "product",
+    "summary": "The ESP32-C3 is a system-on-chip powered by 40 nm technology that integrates Wi-Fi (2.4 GHz band), Bluetooth 5 (LE), a high-performance 32-bit RISC-V single-core processor, multiple peripherals, and built-in security hardware. It provides a robust, highly-integrated platform designed to meet demands",
+    "last_updated": "2026-10-07"
+  },
+  "penguin mail": {
+    "canonical_name": "Penguin Mail",
+    "entity_type": "product",
+    "summary": "Penguin Mail is a cold email outreach platform designed to eliminate technical barriers while maximizing deliverability and conversion rates. It provides an integrated suite of features that helps users achieve 95%+ inbox placement, a 150% improvement in response rates, and a 40% reduction in cost p",
+    "last_updated": "2026-10-07"
+  },
+  "welion new energy": {
+    "canonical_name": "WeLion New Energy",
+    "entity_type": "company",
+    "summary": "Founded in 2016, Beijing WeLion New Energy Technology (WELION) is located in Doudian Town, Fangshan District, Beijing. As a national high-tech enterprise, WELION specializes in the R&D, production, marketing, and sales of solid-state lithium-ion batteries, with over 40 years of experience in the fie",
+    "last_updated": "2026-10-07"
+  },
+  "nio": {
+    "canonical_name": "Nio",
+    "entity_type": "company",
+    "summary": "NIO has research and development, design, manufacturing, and offices in San Jose, Munich, London, Shanghai, and eight other locations. The company has recruited more than 2000 world-class R&D and design professionals from nearly 40 countries. NIO's guiding philosophy, represented by its Chinese name",
+    "last_updated": "2026-10-07"
+  },
+  "xe100": {
+    "canonical_name": "Xe-100",
+    "entity_type": "product",
+    "summary": "The Xe-100 is an advanced small modular reactor and high-temperature gas-cooled reactor designed to deliver clean, safe, and reliable power, featuring pebble-bed architecture and a helium cycle to provide superior thermal efficiency.",
+    "last_updated": "2026-10-07"
+  },
+  "triso": {
+    "canonical_name": "TRISO",
+    "entity_type": "technology",
+    "summary": "TRISO is coated particle fuel technology with four decades of international experience and successful performance demonstrations in various countries, supported by research and qualification efforts at U.S. Department of Energy National Laboratories.",
+    "last_updated": "2026-10-07"
+  },
+  "brimstone": {
+    "canonical_name": "Brimstone",
+    "entity_type": "company",
+    "summary": "Brimstone is a company founded in 2019 to make critical industrial materials such as cement, steel, and aluminum more efficiently, sustainably, and at a lower cost. It utilizes a co-production strategy that employs a single feedstock and shared equipment to manufacture multiple products simultaneous",
+    "last_updated": "2026-10-07"
+  },
+  "slamdam": {
+    "canonical_name": "SlamDam",
+    "entity_type": "product",
+    "summary": "SLAMDAM® is a flexibly deployable solution designed for emergency situations such as flooding, high water, or retaining contaminated fire extinguishing water. It is intended for use by Water Authorities, Fire Departments, and disaster specialists, and can be built by two people in one hour to create",
+    "last_updated": "2026-10-07"
+  },
+  "melius": {
+    "canonical_name": "Melius",
+    "entity_type": "startup",
+    "summary": "10 hours ago · While the startup claims to have hit more than $1 million in annualized revenue within two months of coming out of stealth in July, co-founder Joowon Kim (pictured on right) admits that Melius ... Melius , an AI platform for generating ad campaigns, images, and videos, announced on Tu",
+    "last_updated": "2026-10-07"
+  },
+  "crv": {
+    "canonical_name": "CRV",
+    "entity_type": "company",
+    "summary": "CRV is a venture capital firm that invests in early-stage enterprise and consumer startups. Since 1970, the firm has invested in more than 600 startups at their most crucial stages, including DoorDash, Airtable, Patreon, Drift, and Iterable. Most investors chase patterns and playbooks. CRV pays atte",
+    "last_updated": "2026-10-07"
+  },
+  "higgsfield": {
+    "canonical_name": "Higgsfield",
+    "entity_type": "startup",
+    "summary": "About Higgsfield What we commit to Designed for every skill level Higgsfield is designed so that a first-time creator can produce their first high-quality video within minutes of signing up. Educational tutorials, sample projects, and in-platform guides help creators at every level get started and g",
+    "last_updated": "2026-10-07"
+  },
+  "krea": {
+    "canonical_name": "Krea",
+    "entity_type": "startup",
+    "summary": "Apr 16, 2026 · AI unicorns such as Midjourney and Runway aren't competitors many would dare to go up against. But CEO Victor Perez thinks his one-stop-shop visual tool, Krea, stands out. Sep 11, 2026 · Explore KREA's in-depth company profile, including funding details, key investors, leadership, and",
+    "last_updated": "2026-10-07"
+  },
+  "sigil wen": {
+    "canonical_name": "Sigil Wen",
+    "entity_type": "person",
+    "summary": "Sigil Wen is an entrepreneur and a16z partner who advocates for the integration of extraordinary immigrants into the American technology ecosystem. She is known for creating resources on securing O-1 visas, having used the visa herself to work with Naval on Airchat.",
+    "last_updated": "2026-10-07"
+  },
+  "aravind srinivas": {
+    "canonical_name": "Aravind Srinivas",
+    "entity_type": "person",
+    "summary": "Aravind Srinivas is an Indian-American computer scientist and entrepreneur who co-founded and serves as the CEO of Perplexity, an AI company with a conversational answer engine. He previously worked as a Research Scientist at OpenAI.",
+    "last_updated": "2026-10-07"
+  },
+  "naval ravikant": {
+    "canonical_name": "Naval Ravikant",
+    "entity_type": "person",
+    "summary": "Naval Ravikant is an entrepreneur, angel investor, and co-founder and chairman of AngelList. He has founded several technology companies and has invested in prominent firms such as Twitter, Uber, Postmates, and Notion.",
+    "last_updated": "2026-10-07"
+  },
+  "peter thiel": {
+    "canonical_name": "Peter Thiel",
+    "entity_type": "person",
+    "summary": "Peter Thiel is a German-American entrepreneur, venture capitalist, and business executive who co-founded PayPal and Palantir Technologies. He also served as Facebook's first outside investor and was a founding partner of Founders Fund.",
+    "last_updated": "2026-10-07"
+  },
+  "husky": {
+    "canonical_name": "Husky",
+    "entity_type": "technology",
+    "summary": "Founded in 1953, Husky is a global provider of manufacturing systems, including injection molding systems, hot runners, and mold controllers. It specializes in solutions for PET preform production, food packaging, consumer goods, and medical device manufacturing.",
+    "last_updated": "2026-10-07"
+  },
+  "policylm17b": {
+    "canonical_name": "PolicyLM-1.7B",
+    "entity_type": "ai_model",
+    "summary": "PolicyLM-1.7B is a decision model designed for Trust & Safety teams that need immediate action on messages in live chat, DMs, and usernames. It operates at classifier speed and cost while reading platform-specific policies, unlike fixed classifiers or standard LLMs.",
+    "last_updated": "2026-10-07"
+  },
+  "cybertruck": {
+    "canonical_name": "Cybertruck",
+    "entity_type": "product",
+    "summary": "The Cybertruck is a revolutionary electric truck built for adventure and comfort, featuring a durable, unique exterior and a spacious interior. It is available in various trim levels and configurations, including Long Range, AWD, and Cyberbeast, with specific details on specs, pricing, and performan",
+    "last_updated": "2026-10-07"
+  },
+  "powerwall 3": {
+    "canonical_name": "Powerwall 3",
+    "entity_type": "product",
+    "summary": "Powerwall 3 is a fully integrated solar and battery system designed to accelerate the transition to sustainable energy. It provides whole home backup, cost savings, and energy independence, and can be managed using the Tesla App.",
+    "last_updated": "2026-10-07"
+  },
+  "powerwall plus": {
+    "canonical_name": "Powerwall Plus",
+    "entity_type": "product",
+    "summary": "Powerwall Plus is an integrated solar battery system that stores energy from solar production using two separate inverters. Its design allows for simple home connection and improved surge power capability, making it suitable for whole home backup.",
+    "last_updated": "2026-10-07"
+  },
+  "kia": {
+    "canonical_name": "Kia",
+    "entity_type": "company",
+    "summary": "Kia Corporation is a South Korean multinational automobile manufacturer headquartered in Seoul, South Korea. As the country's second-largest automobile manufacturer, it offers passenger, recreational, and commercial vehicles, and provides rental and maintenance services.",
+    "last_updated": "2026-10-07"
+  },
+  "gm": {
+    "canonical_name": "GM",
+    "entity_type": "company",
+    "summary": "General Motors Company (GM) is a major automotive manufacturer with a corporate overview detailing its vision, leadership, and governance. The provided material did not contain a usable overview of the company.",
+    "last_updated": "2026-10-07"
+  },
+  "leaf": {
+    "canonical_name": "Leaf",
+    "entity_type": "product",
+    "summary": "The Nissan LEAF is an all-electric small crossover SUV offering 5-passenger seating, a 303-mile range, and fast charging capabilities. The third-generation model features a striking new crossover design, advanced connected features, and an available Bose Personal Plus Sound System.",
+    "last_updated": "2026-10-07"
+  },
+  "pjm interconnection": {
+    "canonical_name": "PJM Interconnection",
+    "entity_type": "organization",
+    "summary": "PJM Interconnection is a regional transmission organization (RTO) that coordinates the movement of wholesale electricity in all or parts of Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, West Virginia and the District o",
+    "last_updated": "2026-10-07"
+  },
+  "new jersey": {
+    "canonical_name": "New Jersey",
+    "entity_type": "location",
+    "summary": "New Jersey is a constituent state of the U.S. and one of the original 13 states, located in the Mid-Atlantic region. It is bounded by New York to the north and northeast, the Atlantic Ocean to the east and south, and Delaware and Pennsylvania to the west.",
+    "last_updated": "2026-10-07"
+  },
+  "playstation portal": {
+    "canonical_name": "PlayStation Portal",
+    "entity_type": "product",
+    "summary": "The PlayStation Portal Remote Player allows users to access and play their installed PS5 and PS4 games over Wi-Fi without needing a television. It features console-quality controls, haptic feedback, and adaptive triggers to deliver an immersive gaming experience on a portable device.",
+    "last_updated": "2026-10-07"
+  },
+  "wifi alliance": {
+    "canonical_name": "Wi-Fi Alliance",
+    "entity_type": "organization",
+    "summary": "The Wi-Fi Alliance is a worldwide network of companies that manages and promotes the Wi-Fi standard, with a vision to connect everyone and everything everywhere. It is recognized as the trusted leader and gold standard for identifying market needs and aligning the industry's work over its 25-year hi",
+    "last_updated": "2026-10-07"
+  },
+  "autumn27artex": {
+    "canonical_name": "Autumn-27/ARTEX",
+    "entity_type": "product",
+    "summary": "ARTEX is an AI-driven autonomous penetration-testing system that allows a user to configure and start an exploration task. The backend coordinates planner and worker agents while recording the exploration state, assets, traffic, and findings for review. The system also supports manual finding retest",
+    "last_updated": "2026-10-07"
+  },
+  "jiwoochrisartexko": {
+    "canonical_name": "jiwoochris/artex-ko",
+    "entity_type": "product",
+    "summary": "Jiwoochris/artex-ko is a localized Korean version of the open-source autonomous penetration testing framework ARTEX, designed to help defenders understand, detect, and block autonomous AI attacks. It is a multi-agent system built with a Go backend and Next.js frontend, based on the upstream project",
+    "last_updated": "2026-10-07"
+  },
+  "tea": {
+    "canonical_name": "Tea",
+    "entity_type": "technology",
+    "summary": "Intelligent technologies are being applied to the tea industry to revolutionize production and distribution. These include computer vision, machine learning, spectroscopic techniques, artificial sensors, big data, the Internet of Things, and blockchain.",
+    "last_updated": "2026-10-07"
+  },
+  "mortiflix": {
+    "canonical_name": "Mortiflix",
+    "entity_type": "product",
+    "summary": "Mortiflix is a product that has not posted any content as of March 4, 2026. The material provided does not contain a usable product overview for Mortiflix.",
+    "last_updated": "2026-10-07"
+  },
+  "pact": {
+    "canonical_name": "PACT",
+    "entity_type": "protocol",
+    "summary": "The PACT protocol, specified in HDTP 1.0.0, is a whitepaper-based specification for enabling AI agents to communicate directly with one another. It relies on identity and mTLS, contact cards, and a tiered tool surface governed by permission and relay modes.",
+    "last_updated": "2026-10-07"
   }
 }
