@@ -4838,8 +4838,8 @@
   "instagram": {
     "canonical_name": "Instagram",
     "entity_type": "product",
-    "summary": "Instagram makes it easy to capture, create and share what you love. Discover more about our features and commitment to community, safety and well-being. Discover all the features available on Instagram, from the latest releases to tips & tricks for Reels, DMs, Stories, Shopping & more! Share what yo",
-    "last_updated": "2026-07-08"
+    "summary": "Instagram is a free, visual-first social media application owned by Meta that transforms everyday moments into shared experiences. Built primarily for mobile devices, the platform relies on a simple premise: capturing, editing, and sharing photos and videos. What began over a decade ago as a basic t",
+    "last_updated": "2026-10-08"
   },
   "tiktok": {
     "canonical_name": "TikTok",
@@ -7256,8 +7256,8 @@
   "sqlite": {
     "canonical_name": "SQLite",
     "entity_type": "technology",
-    "summary": "SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private. SQLite is the most widely deployed database in the world w",
-    "last_updated": "2026-07-16"
+    "summary": "SQLite is an embedded SQL database engine that does not require a separate server process, reading and writing directly to ordinary disk files. It is a self-contained, serverless, zero-configuration, transactional SQL database engine contained in a single file.",
+    "last_updated": "2026-10-08"
   },
   "xaiorggrokbuild": {
     "canonical_name": "xai-org/grok-build",
@@ -7429,9 +7429,9 @@
   },
   "jacob andreou": {
     "canonical_name": "Jacob Andreou",
-    "entity_type": "general",
-    "summary": "Jacob Andreou is a technology leader with experience at Microsoft AI and is based in the Los Angeles Metropolitan Area. He has over 500 connections on LinkedIn and is associated with Greylock Partners.",
-    "last_updated": "2026-07-16"
+    "entity_type": "person",
+    "summary": "Jacob Andreou is a General Partner at Greylock and a Board Member at Lapse. He is recognized for his background in consumer product development, particularly his tenure as SVP of Product at Snap Inc., and is noted as a leading product executive in consumer technology.",
+    "last_updated": "2026-10-08"
   },
   "full selfdriving supervised": {
     "canonical_name": "Full Self-Driving (Supervised)",
@@ -8756,8 +8756,8 @@
   "sequoia": {
     "canonical_name": "Sequoia",
     "entity_type": "company",
-    "summary": "Sequoia is a strategic partner that helps investor-backed companies achieve business goals by mastering compensation, benefits, and risk. The company guides clients through growth stages, helping them attract talent, optimize funding, and manage workforce risks.",
-    "last_updated": "2026-07-18"
+    "summary": "Sequoia exists to help businesses achieve their business plans with a smarter approach to total compensation and benefits. The company is driven by the belief that taking great care of people leads to better business outcomes.",
+    "last_updated": "2026-10-08"
   },
   "dyson": {
     "senses": [
@@ -11507,8 +11507,8 @@
   "satya nadella": {
     "canonical_name": "Satya Nadella",
     "entity_type": "person",
-    "summary": "Satya Nadella is the Chief Executive Officer of Microsoft. Before being named CEO in February 2014, he held leadership roles in both enterprise and consumer businesses across the company. The company posted $22.3 billion in profits for the 2016 fiscal year.",
-    "last_updated": "2026-07-24"
+    "summary": "Satya Nadella, born August 19, 1967, in Hyderabad, India, is an Indian-born business executive who has served as the Chairman and CEO of Microsoft since 2014. He studied electrical engineering at Mangalore University and has been recognized on Forbes' America's Richest Immigrants list.",
+    "last_updated": "2026-10-08"
   },
   "venicex": {
     "canonical_name": "Venice-X",
@@ -12692,8 +12692,8 @@
   "teenage engineering": {
     "canonical_name": "Teenage Engineering",
     "entity_type": "company",
-    "summary": "Teenage Engineering is a Swedish consumer electronics, design company, and manufacturer specializing in synthesizers, drum machines, and grooveboxes. In addition to musical instruments, Teenage Engineering occasionally produces or designs consumer goods such as speakers, instant cameras, and compute",
-    "last_updated": "2026-07-26"
+    "summary": "Teenage Engineering is a Swedish company founded in 2007 that creates high-quality, well-designed electronic products for people who love sound and music. The company specializes in innovative audio products, including wireless audio systems, synthesizers, and dedicated hardware like the Field Syste",
+    "last_updated": "2026-10-08"
   },
   "luke the maker": {
     "canonical_name": "Luke The Maker",
@@ -20029,5 +20029,329 @@
     "entity_type": "protocol",
     "summary": "The PACT protocol, specified in HDTP 1.0.0, is a whitepaper-based specification for enabling AI agents to communicate directly with one another. It relies on identity and mTLS, contact cards, and a tiered tool surface governed by permission and relay modes.",
     "last_updated": "2026-10-07"
+  },
+  "claude haiku 55": {
+    "canonical_name": "Claude Haiku 5.5",
+    "entity_type": "ai_model",
+    "summary": "Claude Haiku 5.5 is the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. It costs around 75% less than Claude Haiku 4.5 for most tasks and is available on Amazon Bedrock and Claude Platform on AWS.",
+    "last_updated": "2026-10-08"
+  },
+  "claude sonnet 55": {
+    "canonical_name": "Claude Sonnet 5.5",
+    "entity_type": "ai_model",
+    "summary": "Claude Sonnet 5.5 offers the best combination of speed and intelligence, featuring five breaking changes that affect code already running on the model. One notable change alters the response shape so that text between tool calls comes back in thinking blocks, which can cause applications to go quiet",
+    "last_updated": "2026-10-08"
+  },
+  "official charts": {
+    "canonical_name": "Official Charts",
+    "entity_type": "organization",
+    "summary": "The Official Charts Company is best known for the Official Singles Chart and the Official Artist Albums Chart, but it actually compiles more than 50 charts across various shapes, sizes, and genres. These include a vast array of music genre charts, as well as charts for the home entertainment industr",
+    "last_updated": "2026-10-08"
+  },
+  "margaret hamilton": {
+    "canonical_name": "Margaret Hamilton",
+    "entity_type": "person",
+    "summary": "1 day ago · Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program, died at age 90. Previous image Next image Margaret Hamilton, a profoundly influential computer scientist best",
+    "last_updated": "2026-10-08"
+  },
+  "apollo program": {
+    "canonical_name": "Apollo program",
+    "entity_type": "event",
+    "summary": "Aug 11, 2026 · Project Apollo's goals went beyond landing Americans on the moon and returning them safely to Earth. The national effort fulfilled a dream as old humanity. “That’s one small step for a man. One giant leap for mankind.” Neil Armstrong Commander for Apollo 11, first to step on the lunar",
+    "last_updated": "2026-10-08"
+  },
+  "earlham college": {
+    "canonical_name": "Earlham College",
+    "entity_type": "organization",
+    "summary": "The mission of Earlham College, an independent, residential college, is to provide the highest quality undergraduate education in the liberal arts, including the sciences, shaped by the distinctive perspectives of the Religious Society of Friends (Quakers). Specialized Info Utility Links Why Earlham",
+    "last_updated": "2026-10-08"
+  },
+  "gpt6": {
+    "canonical_name": "GPT-6",
+    "entity_type": "ai_model",
+    "summary": "GPT-6 is OpenAI's most advanced suite of models, offering a choice of models tailored for different kinds of work. It is designed to help users turn ideas into prototypes, build and test features, and orchestrate multi-step workflows across code repositories, databases, and external APIs.",
+    "last_updated": "2026-10-08"
+  },
+  "aveva": {
+    "canonical_name": "AVEVA",
+    "entity_type": "company",
+    "summary": "AVEVA is a leading industrial technology company that provides software solutions supporting the entire industrial lifecycle, from engineering design and capital project execution to operations, monitoring, and optimization. Its technologies connect people, partners, and ecosystems to trusted inform",
+    "last_updated": "2026-10-08"
+  },
+  "reliance jio": {
+    "canonical_name": "Reliance Jio",
+    "entity_type": "company",
+    "summary": "Learn about Jio, India's leading digital platform company. Explore Reliance Jio information, innovation, connectivity, AI, digital services, and technology. Reliance Jio is the largest operator in India and the 2nd largest single-country operator in the world, offering services such as connectivity,",
+    "last_updated": "2026-10-08"
+  },
+  "prabhakar jayakumar": {
+    "canonical_name": "Prabhakar Jayakumar",
+    "entity_type": "person",
+    "summary": "In 2026, my wife and I will be climbing 21 peaks to raise funds for Positive About Down Syndrome, a charity that has supported our family first-hand and does remarkable work for children with Down... Prabhakar Jayakumar has 2 current jobs as Vice President of Sales at DigitalOcean and Sr. Director &",
+    "last_updated": "2026-10-08"
+  },
+  "india mobile congress": {
+    "canonical_name": "India Mobile Congress",
+    "entity_type": "event",
+    "summary": "1 day ago · Prime Minister Shri Narendra Modi will inaugurate the 10th edition of the India Mobile Congress (IMC) on 8 October 2026 at around 10 AM at Yashobhoomi, New Delhi. He will also address the gathering on the occasion. Organised jointly by the Department of Telecommunications (DoT) and the C",
+    "last_updated": "2026-10-08"
+  },
+  "scale ai": {
+    "canonical_name": "Scale AI",
+    "entity_type": "company",
+    "summary": "Scale delivers proven data, evaluations, and outcomes to AI labs, governments, and Fortune 500 companies. The company works across the AI stack to ensure reliable AI systems that actually work.",
+    "last_updated": "2026-10-08"
+  },
+  "mercor": {
+    "canonical_name": "Mercor",
+    "entity_type": "company",
+    "summary": "Mercor is a data labeling startup founded in 2023 that organizes human intelligence to power the AI economy. It powers frontier research, AI benchmarks, and AI agent training for top AI labs and enterprises.",
+    "last_updated": "2026-10-08"
+  },
+  "xdof": {
+    "canonical_name": "XDOF",
+    "entity_type": "startup",
+    "summary": "XDOF builds world-class infrastructure for ambitious robotics builders, aiming to unlock a world with abundant, useful physical intelligence. The company partners with leading robotics labs to deliver production-scale datasets and advanced robotic systems.",
+    "last_updated": "2026-10-08"
+  },
+  "micro1": {
+    "canonical_name": "Micro1",
+    "entity_type": "company",
+    "summary": "Micro1 offers a platform that converts human expertise into structured datasets and recruitment processes for companies using AI. It provides a Data Engine that handles the recruitment of experts and manages human-in-the-loop operations to generate data for AI model post-training.",
+    "last_updated": "2026-10-08"
+  },
+  "endeavor catalyst": {
+    "canonical_name": "Endeavor Catalyst",
+    "entity_type": "company",
+    "summary": "Endeavor Catalyst is a rules-based co-investment fund of Endeavor that invests exclusively in companies led by Endeavor Entrepreneurs. Its purpose is to sustain Endeavor’s long-term operations in a mission-aligned way while acting as a value-add partner for founders.",
+    "last_updated": "2026-10-08"
+  },
+  "jackie carmel": {
+    "canonical_name": "Jackie Carmel",
+    "entity_type": "person",
+    "summary": "Jackie Carmel is the Managing Director at Endeavor Catalyst and leads the fund's fundraising and global investor relations from San Francisco. She is positioned at the intersection of emerging-market founders and a worldwide limited partner network, having studied at the University of Pennsylvania.",
+    "last_updated": "2026-10-08"
+  },
+  "surface laptop ultra": {
+    "canonical_name": "Surface Laptop Ultra",
+    "entity_type": "product",
+    "summary": "The Surface Laptop Ultra is available in Platinum and Nightfall colors, delivering powerful performance in a lightweight and thin chassis under 4.5 lbs and 18 mm. It is built for demanding work and local AI, powered by the NVIDIA RTX Spark Superchip to provide serious graphics and processing capabil",
+    "last_updated": "2026-10-08"
+  },
+  "surface rtx spark dev box": {
+    "canonical_name": "Surface RTX Spark Dev Box",
+    "entity_type": "product",
+    "summary": "The Surface RTX Spark Dev Box is a Windows 11 secured-core PC designed for AI development, featuring preconfigured tools like VS Code and GitHub Copilot. It is engineered to run local AI inference and experimentation securely, helping developers reduce cloud costs and iterate faster.",
+    "last_updated": "2026-10-08"
+  },
+  "rtx spark": {
+    "canonical_name": "RTX Spark",
+    "entity_type": "technology",
+    "summary": "The RTX Spark is a NVIDIA Superchip that fuses AI and RTX graphics capabilities into a single processor, designed for Windows PCs to deliver high performance in slim laptops and small, ultra-efficient desktops.",
+    "last_updated": "2026-10-08"
+  },
+  "sensor tower": {
+    "canonical_name": "Sensor Tower",
+    "entity_type": "organization",
+    "summary": "Sensor Tower is a global provider of digital intelligence solutions, empowering companies to understand consumer behavior and market performance across mobile apps, digital platforms, and gaming ecosystems. Founded in 2013 and headquartered in San Francisco, its insights are trusted by more than 2,5",
+    "last_updated": "2026-10-08"
+  },
+  "common sense media": {
+    "canonical_name": "Common Sense Media",
+    "entity_type": "organization",
+    "summary": "Common Sense Media rates movies, TV shows, podcasts, books, and more so families can feel good about the entertainment choices they make for their kids. We offer the largest, most trusted library of independent age-based ratings and reviews.",
+    "last_updated": "2026-10-08"
+  },
+  "major league baseball": {
+    "canonical_name": "Major League Baseball",
+    "entity_type": "organization",
+    "summary": "Major League Baseball (MLB) is a professional sports league in North America featuring 30 teams across the United States and Canada, making it one of the oldest professional sports organizations in the world. The league is divided into two main sub-leagues, the National League and the American Leagu",
+    "last_updated": "2026-10-08"
+  },
+  "national basketball association": {
+    "canonical_name": "National Basketball Association",
+    "entity_type": "organization",
+    "summary": "The National Basketball Association (NBA) is a professional basketball league formed in the United States in 1949 by the merger of the National Basketball League and the Basketball Association of America. In 1976, the NBA absorbed four teams from the American Basketball Association, and under the le",
+    "last_updated": "2026-10-08"
+  },
+  "world federation of advertisers": {
+    "canonical_name": "World Federation of Advertisers",
+    "entity_type": "organization",
+    "summary": "The World Federation of Advertisers is an organization that hosts events like the WFA Sourcing Forum, which brings together over 2,000 global and regional marketing procurement practitioners from leading advertisers across a wide range of industries. It focuses on topics such as sustainable marketin",
+    "last_updated": "2026-10-08"
+  },
+  "monique pintarelli": {
+    "canonical_name": "Monique Pintarelli",
+    "entity_type": "person",
+    "summary": "Monique Pintarelli is a business executive who has served as the Chief Revenue Officer of Teads, where she oversaw the U.S. teams including sales, creative strategy, customer experience, and insights. She is currently seeking a role as a strategic, data-driven Director of Growth Marketing & Sales En",
+    "last_updated": "2026-10-08"
+  },
+  "greenairy": {
+    "canonical_name": "Greenairy",
+    "entity_type": "startup",
+    "summary": "Greenairy is a startup that develops smart plant towers featuring a living Spirulina photobioreactor, which continuously photosynthesizes to absorb CO₂ and release clean, oxygen-rich air. The company was founded by Tanvi Thombre and Lakshya Saraf, who developed the technology after being exposed to",
+    "last_updated": "2026-10-08"
+  },
+  "tanvi thombre": {
+    "canonical_name": "Tanvi Thombre",
+    "entity_type": "person",
+    "summary": "Tanvi Thombre is the founder of Greenairy and an innovator dedicated to addressing indoor air pollution, the world's biggest environmental health risk. She studied robotics and design engineering, completed a Master's focused on plant-based air purification, and has spent five years building nature-",
+    "last_updated": "2026-10-08"
+  },
+  "lakshya saraf": {
+    "canonical_name": "Lakshya Saraf",
+    "entity_type": "person",
+    "summary": "material did not address this",
+    "last_updated": "2026-10-08"
+  },
+  "bmw": {
+    "canonical_name": "BMW",
+    "entity_type": "company",
+    "summary": "The BMW Group is the world’s leading manufacturer of premium cars and motorcycles, as well as a provider of premium financial and mobility services. The company operates over 30 production sites around the world and maintains a global sales network.",
+    "last_updated": "2026-10-08"
+  },
+  "jesper kouthoofd": {
+    "canonical_name": "Jesper Kouthoofd",
+    "entity_type": "person",
+    "summary": "Jesper Kouthoofd is the founder, CEO, and Head of Design at Teenage Engineering, and the owner of Kouthoofd. He previously attended the Berghs School of Communication and is known for bringing an explorer's mindset to electronic products, graphic design, and gallery environments.",
+    "last_updated": "2026-10-08"
+  },
+  "opxy": {
+    "canonical_name": "OP-XY",
+    "entity_type": "product",
+    "summary": "The OP-XY is a compact synthesizer and sequencer from Teenage Engineering that packs a synth engine, sampler, sequencer, mixer, and effects into a small aluminum body. It features a durable build, premium components, and a user-friendly layout with multiple connectivity options for creative flexibil",
+    "last_updated": "2026-10-08"
+  },
+  "tp7": {
+    "canonical_name": "TP-7",
+    "entity_type": "product",
+    "summary": "The TP-7 is a dedicated field recorder built to record, edit, trim, and layer sound with zero friction at the highest possible quality. It is designed as a standalone piece of hardware to help users capture and realize their creative audio ideas.",
+    "last_updated": "2026-10-08"
+  },
+  "highsnobiety": {
+    "canonical_name": "Highsnobiety",
+    "entity_type": "organization",
+    "summary": "Highsnobiety is a global fashion and lifestyle media brand founded in 2005 by David Fischer. Headquartered in Berlin with offices worldwide, it employs around 200 people and has a digital-first publishing approach with a quarterly print magazine launched in 2010.",
+    "last_updated": "2026-10-08"
+  },
+  "ikea": {
+    "canonical_name": "Ikea",
+    "entity_type": "company",
+    "summary": "IKEA is a global home furnishing brand that began as a one-man mail order company in rural Sweden in the 1940s. It has grown into a worldwide leading brand known for bringing affordability, design, and comfort to people's everyday lives.",
+    "last_updated": "2026-10-08"
+  },
+  "antonio g di benedetto": {
+    "canonical_name": "Antonio G. Di Benedetto",
+    "entity_type": "person",
+    "summary": "Antonio G. Di Benedetto is a reviewer covering laptops and gadgets who previously spent over 15 years in the photography industry. He joined The Verge as a deals writer in 2021 after working in roles spanning PR, technical writing, content creation, and live hosting.",
+    "last_updated": "2026-10-08"
+  },
+  "dell": {
+    "canonical_name": "Dell",
+    "entity_type": "company",
+    "summary": "The Dell story Our story began with the unwavering belief everyone deserves access to the best technology. For decades, that idea has fueled Dell Technologies into becoming an industry leader and continues to do so. Our leaders are committed to driving the technology revolution forward by fostering",
+    "last_updated": "2026-10-08"
+  },
+  "lenovo": {
+    "canonical_name": "Lenovo",
+    "entity_type": "company",
+    "summary": "Lenovo is a global technology powerhouse, ranked at 196 in the Fortune Global 500, and a $69 billion revenue company that employs 77,000 people worldwide focused on delivering “smarter technology for all”. Home > About Lenovo TRANSFORMATION Smarter Technology for All Lenovo is a global technology po",
+    "last_updated": "2026-10-08"
+  },
+  "msi": {
+    "canonical_name": "MSI",
+    "entity_type": "company",
+    "summary": "As a global leader in gaming, MSI combines cutting-edge craftsmanship with robust R&D to extend our expertise in high-performance design into AI computing and professional-grade hardware. As a world leading gaming brand, MSI is the most trusted name in gaming and eSports. We’ve dedicated countless h",
+    "last_updated": "2026-10-08"
+  },
+  "hp": {
+    "canonical_name": "HP",
+    "entity_type": "company",
+    "summary": "Sep 30, 2026 · Hewlett-Packard Company, American manufacturer of software and computer services and a major brand in the history of computers and computer-related products. The company split in 2015 into two companies: HP Inc. and Hewlett Packard Enterprise. Headquarters were in Palo Alto, Californi",
+    "last_updated": "2026-10-08"
+  },
+  "macbook pro": {
+    "canonical_name": "MacBook Pro",
+    "entity_type": "product",
+    "summary": "MacBook Pro has the longest battery life ever in a Mac — up to 24 hours — so you can work, create, and play all day. All models provide the same performance whether they’re plugged in or not. Spend more time coding, learning, streaming, or thinking about an outlet for your passion, not your laptop.",
+    "last_updated": "2026-10-08"
+  },
+  "icann": {
+    "canonical_name": "ICANN",
+    "entity_type": "organization",
+    "summary": "ICANN is a California-based nonprofit, public-benefit organization accountable to a global community of stakeholders. Its enduring mission is to ensure the stable, secure operation of the Internet's unique identifier systems. ICANN's primary responsibilities include helping coordinate the Internet's",
+    "last_updated": "2026-10-08"
+  },
+  "windows": {
+    "canonical_name": "Windows",
+    "entity_type": "product",
+    "summary": "Windows is an operating system designed for work, creativity, gaming, and AI, offering built-in security and flexible hardware options. It features tools like Snap layouts and Snap groups for multitasking, integrated AI assistants like Copilot, and advanced graphics capabilities.",
+    "last_updated": "2026-10-08"
+  },
+  "chatgpt for teens": {
+    "canonical_name": "ChatGPT for Teens",
+    "entity_type": "product",
+    "summary": "ChatGPT for Teens is an experience designed to help teens learn, think critically, and use AI with confidence. It provides stronger built-in safety protections, healthy-use features, and additional controls for parents.",
+    "last_updated": "2026-10-08"
+  },
+  "college planner": {
+    "canonical_name": "College Planner",
+    "entity_type": "product",
+    "summary": "CollegePlannerPro is a platform that helps students and consulting businesses by providing in-depth college reviews covering admission processes, expectations, financial aid, and campus life. It allows users to manage student profiles in an organized and easy-to-navigate format.",
+    "last_updated": "2026-10-08"
+  },
+  "radisson hotel group": {
+    "canonical_name": "Radisson Hotel Group",
+    "entity_type": "company",
+    "summary": "Radisson Hotel Group is one of the world's largest and most dynamic hotel groups, operating more than 1,500 hotels globally. It owns and operates nine distinctive brands, including Radisson Collection, Radisson Blu, Radisson, Radisson Red, Radisson Individuals, Park Plaza, Park Inn by Radisson, and",
+    "last_updated": "2026-10-08"
+  },
+  "accenture": {
+    "canonical_name": "Accenture",
+    "entity_type": "company",
+    "summary": "Accenture is a company that solves clients' toughest challenges by providing unmatched services in strategy and consulting, interactive, technology, and operations. It emphasizes ethical standards, positive community impact, and connecting technology, talent, and bold thinking to create lasting valu",
+    "last_updated": "2026-10-08"
+  },
+  "accenture song": {
+    "canonical_name": "Accenture Song",
+    "entity_type": "company",
+    "summary": "The provided material does not contain a usable overview for Accenture Song.",
+    "last_updated": "2026-10-08"
+  },
+  "strands box": {
+    "canonical_name": "Strands Box",
+    "entity_type": "product",
+    "summary": "Strands Box is an open-source sandbox engine in developer preview that combines operating system isolation with fine-grained policies for governing agent actions. It is licensed under Apache 2.0 and builds on the Dogwood policy language to regulate what AI agents can access and do.",
+    "last_updated": "2026-10-08"
+  },
+  "dogwood": {
+    "canonical_name": "Dogwood",
+    "entity_type": "technology",
+    "summary": "Dogwood is an open-source policy language that allows users to define policies for AI agents within their preferred IDE or coding environment. It helps mitigate the risks of agent tool calls by providing a layer of control that regulates agent actions at the tool-call boundary.",
+    "last_updated": "2026-10-08"
+  },
+  "strands shell": {
+    "canonical_name": "Strands Shell",
+    "entity_type": "product",
+    "summary": "Strands Shell is a Bourne-compatible shell designed to run safely inside an agent's own process without calling fork, exec, or raw syscalls. It provides common commands like grep, sed, and curl, allowing agents to run shell commands in tight loops while containing the associated risks of unauthorize",
+    "last_updated": "2026-10-08"
+  },
+  "monty": {
+    "canonical_name": "Monty",
+    "entity_type": "product",
+    "summary": "Monty (branded as MyMonty) offers a range of digital financial products, including Digital Accounts and Cards for online and in-store purchases as well as ATM withdrawals.",
+    "last_updated": "2026-10-08"
+  },
+  "dshbrowsercrossplatform": {
+    "canonical_name": "dsh-browser-crossplatform",
+    "entity_type": "product",
+    "summary": "dsh-browser-crossplatform is a free, official browser extension for the DeepSeek Harness desktop app. It allows an AI model to read the current webpage as text and act on it using numbered controls, performing actions such as clicking, typing, scrolling, and navigating tabs. It can also use image re",
+    "last_updated": "2026-10-08"
+  },
+  "milvus": {
+    "canonical_name": "Milvus",
+    "entity_type": "technology",
+    "summary": "Milvus is an open-source, cloud-native vector database designed for high-performance similarity search on massive vector datasets. It is built on top of vector search libraries like Faiss, HNSW, DiskANN, and SCANN to empower AI applications and unstructured data retrieval.",
+    "last_updated": "2026-10-08"
   }
 }

@@ -1,5 +1,397 @@
 [
   {
+    "id": "4bb428a07b2a",
+    "title": "क्लॉड हाइकू 5.5: एंथ्रोपिक का सबसे तेज़ और किफायती एआई मॉडल",
+    "summary": "एंथ्रोपिक ने अपने एआई मॉडल लाइनअप में एक नया और महत्वपूर्ण अपडेट पेश किया है। कंपनी ने क्लॉड हाइकू 5.5 को बाज़ार में उतारा है, जिसे कंपनी का सबसे तेज़ और सबसे सक्षम छोटा मॉडल बताया गया है। इस नए लॉन्च के साथ, हाइकू 4.5 की तुलना में इसकी लागत में 75% की कमी देखी गई है। यह मॉडल अब अमेज़न बेडरोक और AWS पर क्लॉड…",
+    "category": "model_release",
+    "tags": [
+      "Anthropic",
+      "Claude Haiku 5.5",
+      "Claude Opus 5.5"
+    ],
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "633170b86721",
+    "title": "एक गुमनाम बैंड की 15 साल की खोज और AI का चमत्कार",
+    "summary": "2011 में संगीत के एक अनमोल टुकड़े ने एक ऐसी खोज की नींव रखी जिसे सुलझाने में 15 साल लग गए। 'Salvage' नामक इस बैंड ने \"Electric\" और \"Searchlights\" नामक दो शानदार ट्रैक पेश किए थे। यह संगीत \"स्टेडियम इंडी रॉक\" शैली का एक बेहतरीन उदाहरण था, जो विचारशील और विस्तृत होने के साथ-साथ पेशेवर रूप से निर्मित था। लेखक पिछले 15…",
+    "category": "general",
+    "tags": [
+      "Salvage",
+      "Official Charts"
+    ],
+    "image": "https://shahidhussain.com/images/writing/search-for-salvage/front.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ffaeefda6df4",
+    "title": "मार्गरेट हैमिल्टन का निधन: सॉफ्टवेयर इंजीनियरिंग की प्रणेता और अपोलो मिशन की नायिका को श्रद्धांजलि",
+    "summary": "प्रख्यात कंप्यूटर वैज्ञानिक मार्गरेट हैमिल्टन का 30 सितंबर को 90 वर्ष की आयु में निधन हो गया। नासा के ऐतिहासिक अपोलो कार्यक्रम के दौरान एमआईटी (MIT) इंस्ट्रूमेंटेशन लैब में सॉफ्टवेयर इंजीनियरिंग टीम का नेतृत्व करने वाली हैमिल्टन, तकनीकी जगत की एक अत्यंत महत्वपूर्ण हस्ती थीं। उनके निधन से विज्ञान और कंप्यूटर विज्ञान के…",
+    "category": "general",
+    "tags": [
+      "Margaret Hamilton",
+      "MIT Instrumentation Lab",
+      "NASA"
+    ],
+    "image": "https://news.mit.edu/sites/default/files/images/202610/margaret-hamilton-portrait-toan-trinh-mit-technology-review-A1_1.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e84bcf28c69c",
+    "title": "GPT-6 और Intelligent UI: एआई का नया रूप, जो अब 1.2 अरब यूज़र्स तक पहुंचेगा",
+    "summary": "ओपनएआई ने पिछले महीने अपने सबसे उन्नत GPT-6 मॉडल्स को सशुल्क ग्राहकों के लिए पेश किया था और अब इसे व्यापक रूप से उपलब्ध करा रहा है। इस नई पीढ़ी की बुद्धिमत्ता अब प्रति सप्ताह 1.2 अरब से अधिक ChatGPT यूज़र्स तक पहुंच रही है। यह कदम एआई के क्षेत्र में एक महत्वपूर्ण विस्तार को दर्शाता है, जहां उपयोगकर्ता अब केवल टेक्स्ट…",
+    "category": "model_release",
+    "tags": [
+      "GPT-6",
+      "ChatGPT"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "bea79e8ad504",
+    "title": "रिपॉजिटरी सेटिंग्स में नए बदलाव: पुल रिक्वेस्ट एक्सेस को नियंत्रित करना हुआ और आसान",
+    "summary": "GitHub, जिसका उपयोग 15 करोड़ से अधिक लोग और 42 करोड़ से अधिक प्रोजेक्ट करते हैं, ने अपने प्लेटफॉर्म पर एक महत्वपूर्ण अपडेट की घोषणा की है। ओपन-सोर्स प्रोजेक्ट्स और कोडबेस को मैनेज करना अक्सर मेंटेनर्स के लिए एक बड़ी चुनौती होती है, क्योंकि अनियंत्रित योगदानों से कोड की गुणवत्ता और सुरक्षा प्रभावित हो सकती है। इस…",
+    "category": "general",
+    "tags": [
+      "GitHub"
+    ],
+    "image": "https://github.blog/wp-content/uploads/2026/02/548515957-56ddc14a-9f83-4ddc-b19f-b5177c1925f8.jpeg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "48f3042078ba",
+    "title": "औद्योगिक एआई का एक सुरक्षित मार्ग बनाना",
+    "summary": "औद्योगिक कृत्रिम बुद्धिमत्ता (AI) एक नए युग में प्रवेश कर रही है। दशकों से केवल भविष्य कहनेवाला विश्लेषण (predictive analytics) और विशेष अनुप्रयोगों तक सीमित रहने के बाद, अब फाउंडेशन मॉडल्स, फिजिकल एआई और एजेंटिक एआई में हुई प्रगति ने औद्योगिक वातावरण में अधिक जटिल कार्यों को स्वचालित करना संभव बना दिया है। यह एक…",
+    "category": "general",
+    "tags": [
+      "AVEVA",
+      "Arti Garg"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-AVEVA-podcast-social-card-v2-1.png?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1acd981a605c",
+    "title": "भारत ने एलन मस्क के स्टारलिंक को ब्लॉक करने के दावों को किया खारिज",
+    "summary": "दुनिया के सबसे अमीर व्यक्ति और स्पेसएक्स के संस्थापक एलन मस्क ने हाल ही में एक चौंकाने वाला दावा किया है, जिसमें उन्होंने आरोप लगाया कि भारत में स्टारलिंक के सैटेलाइट इंटरनेट लॉन्च को कुछ शक्तिशाली लोग या बड़े उद्योगपति रोक रहे हैं। मस्क का यह बयान तब आया जब स्टारलिंक भारत के विशाल इंटरनेट बाजार में प्रवेश करने का…",
+    "category": "ban_regulation",
+    "tags": [
+      "Elon Musk",
+      "Starlink",
+      "SpaceX"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "eeda3967fcb5",
+    "title": "रोबोट डेटा स्टार्टअप मेका एआई ने सिकोइया से $60M जुटाए",
+    "summary": "मेका एआई (Mecka AI), जो रोबोट्स को प्रशिक्षित करने के लिए मानव गति डेटा (human motion data) एकत्र और विश्लेषण करती है, ने हाल ही में एक नई फंडिंग की घोषणा की है। कंपनी ने सिकोइया (Sequoia) के नेतृत्व में $60 मिलियन का सीरीज बी (Series B) राउंड पूरा किया है। इस निवेश में एनवीडिया (Nvidia) और माइक्रोसॉफ्ट के वेंचर फंड…",
+    "category": "general",
+    "tags": [
+      "Mecka AI",
+      "Sequoia",
+      "Nvidia"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2082335389.jpg?resize=1200,857",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f24fe69d093b",
+    "title": "सैन फ्रांसिस्को में वेंचर कैपिटल की भीड़ के बीच, एंडेवर कैटलिस्ट ने 'अन्यत्र' के संस्थापकों के लिए जुटाए 320 मिलियन डॉलर",
+    "summary": "एंडेवर कैटलिस्ट ने अपने पांचवें फंड को सफलतापूर्वक बंद कर दिया है, जिसमें 320 मिलियन डॉलर की पूंजी प्रतिबद्धताएँ प्राप्त हुई हैं। इसके साथ ही फर्म के प्रबंधन के तहत कुल संपत्ति 850 मिलियन डॉलर को पार कर गई है। इस खबर के साथ ही एक स्पष्ट विरोधाभास सामने आया है: एक ओर कई वेंचर कैपिटल फर्में सिलिकॉन वैली जैसी प्रमुख…",
+    "category": "general",
+    "tags": [
+      "Endeavor Catalyst",
+      "Endeavor",
+      "Allen Taylor"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Linda-Rottenberg.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "41cfa8ed3135",
+    "title": "माइक्रोसॉफ्ट ने पेश किया नया एनवीडिया चिप वाला एआई पीसी, सरफेस लैपटॉप अल्ट्रा और डेव बॉक्स के साथ विंडोज 11 में बड़े बदलाव",
+    "summary": "बुधवार को सैन फ्रांसिस्को में आयोजित एक कार्यक्रम के दौरान, माइक्रोसॉफ्ट ने अपने नए एआई-संचालित पीसी, सरफेस लैपटॉप अल्ट्रा और सरफेस आरटीएक्स स्पार्क डेव बॉक्स का अनावरण किया। ये डिवाइस एनवीडिया के आरटीएक्स स्पार्क सुपरचिप द्वारा संचालित हैं और इन्हें विशेष रूप से स्थानीय स्तर पर एआई मॉडल चलाने के लिए डिज़ाइन किया गया…",
+    "category": "model_release",
+    "tags": [
+      "Microsoft",
+      "Nvidia",
+      "Surface Laptop Ultra"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Microsoft-Surface-Laptop-Ultra.png?resize=1200,677",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "769d4c9aeb15",
+    "title": "मेटा का म्यूज़ असिस्टेंट आईपैड पर आया, मोबाइल लॉन्च के एक महीने बाद ही",
+    "summary": "मेटा एआई की दुनिया में तेज़ी से आगे बढ़ रहा है, और इसका प्रमाण इसके म्यूज़ (Muse) असिस्टेंट का नया आईपैड ऐप है, जो मोबाइल लॉन्च के महज़ एक महीने बाद ही आ गया है। कंपनी ने बुधवार को इस समर्पित आईपैड ऐप की घोषणा की। यह एक ऐसा मील का पत्थर है जिसे मेटा के इंस्टाग्राम (Instagram) को हासिल करने में 15 साल लग गए थे, जबकि…",
+    "category": "model_release",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Instagram"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "eb6b8bb02ddc",
+    "title": "ChatGPT for Teens: मानसिक स्वास्थ्य संकट के दौरान भी युवाओं को जोड़े रखने का आरोप",
+    "summary": "Common Sense Media ने हाल ही में OpenAI के ChatGPT for Teens को एक \"अस्वीकार्य जोखिम\" (unacceptable risk) के रूप में लेबल किया है। यह मूल्यांकन इस समय सामने आया है जब एआई चैटबॉट्स पर सोशल मीडिया कंपनियों की तरह ही युवाओं को बांधे रखने वाले डिज़ाइन का पालन करने का आरोप लग रहा है। इस अध्ययन से यह स्पष्ट होता है कि एआई…",
+    "category": "ban_regulation",
+    "tags": [
+      "ChatGPT",
+      "Common Sense Media",
+      "OpenAI"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2268195606.jpg?w=1024",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "effd4aa52ece",
+    "title": "X ने 'गेमटाइम' स्पोर्ट्स हब को NFL से आगे बढ़ाया, MLB के साथ नई साझेदारी",
+    "summary": "सोशल मीडिया प्लेटफॉर्म X ने अपने लोकप्रिय \"गेमटाइम\" फीचर का विस्तार करने की घोषणा की है। पहले यह टूल मुख्य रूप से अमेरिकी फुटबॉल (NFL) पर केंद्रित था, लेकिन अब X इसे एक साल भर चलने वाले स्पोर्ट्स डेस्टिनेशन में बदल रहा है। इस नई पहल के तहत, X ने मेजर लीग बेसबॉल (MLB) के साथ एक नई साझेदारी की है, जो इस महीने से शुरू हो…",
+    "category": "general",
+    "tags": [
+      "X",
+      "Gametime",
+      "Major League Baseball"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2019/03/GettyImages-1127662758.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2553571cd297",
+    "title": "ग्रीनएरी (Greenairy) बना रही है स्मार्ट प्लांट टावर, जो आपके ऑफिस की हवा को साफ करेंगे",
+    "summary": "ग्रीनएरी (Greenairy) की शुरुआत तब हुई जब इसके संस्थापकों, तन्वी थॉमब्रे और लक्ष्य सारफ ने अपने विश्वविद्यालय के मेकर्सपेस में काम करते हुए जहरीले धुएं का सामना किया। इस घटना ने उन्हें इनडोर वायु प्रदूषण के खतरे के प्रति जागरूक किया, जो आज के समय में एक गंभीर स्वास्थ्य समस्या बन चुका है। जब तन्वी थॉमब्रे और लक्ष्य सारफ…",
+    "category": "general",
+    "tags": [
+      "Greenairy",
+      "Tanvi Thombre",
+      "Lakshya Saraf"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/greenairy-1.jpeg?resize=1200,670",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d69bef51cb71",
+    "title": "चीन के ईवी कब्ज़े के खिलाफ BMW iX4: एक नई रक्षात्मक रणनीति",
+    "summary": "ऑटोमोटिव इंडस्ट्री में चीन का दबदबा तेजी से बढ़ रहा है और कई यूरोपीय ब्रांड्स को भारी नुकसान का सामना करना पड़ रहा है। इसी प्रतिस्पर्धी माहौल के बीच, BMW ने अपनी नई iX4 इलेक्ट्रिक एसयूवी पेश की है। यह वाहन न केवल एक स्टाइलिश विकल्प है, बल्कि चीनी आयात की बाढ़ के खिलाफ कंपनी की एक मजबूत ढाल के रूप में भी खड़ा है।",
+    "category": "model_release",
+    "tags": [
+      "BMW",
+      "iX4",
+      "iX3"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/WGM31182.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "299d3d5a2577",
+    "title": "टीनएज इंजीनियरिंग अब सिंथेसाइज़र नहीं बनाएगी, ओप-1 का युग समाप्त होने की कगार पर",
+    "summary": "स्वीडिश टेक और डिज़ाइन कंपनी टीनएज इंजीनियरिंग के संस्थापक और सीईओ जेस्पर कौथूफ्ड ने हाईस्नोबिऑसिटी को दिए एक साक्षात्कार में घोषणा की है कि कंपनी अब सिंथेसाइज़र बनाना पूरी तरह से बंद कर देगी। इस चौंकाने वाले फैसले में कंपनी का सबसे प्रतिष्ठित और 2011 में लॉन्च हुआ ओप-1 (OP-1) सिंथेसाइज़र भी शामिल है। इस कदम ने संगीत…",
+    "category": "general",
+    "tags": [
+      "Teenage Engineering",
+      "Jesper Kouthoofd",
+      "OP-1"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/257534_Teenage_Engineering_OP-XY_TOBrien_0007.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5ba5b1719a99",
+    "title": "गूगलबुक के कीबोर्ड पर एंड्रॉइड के पुराने नेविगेशन बटन की वापसी",
+    "summary": "गूगलबुक के नए कीबोर्ड में एंड्रॉइड के पुराने नेविगेशन आइकन की वापसी हुई है। टेक समीक्षक एंटोनियो जी. डि बेनेडेटो ने बताया है कि गूगलबुक के कीबोर्ड पर F1, F2 और F3 कीज़ अब एंड्रॉइड के पुराने बैक, होम और ऐप स्विचर प्रतीकों के रूप में काम करती हैं। यह बदलाव एंड्रॉइड 5.0 लॉलीपॉप के समय से चला आ रहा है, जब टच-आधारित जेस्चर…",
+    "category": "general",
+    "tags": [
+      "Googlebooks",
+      "Android",
+      "Antonio G. Di Benedetto"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268755_Googlebook_home_buttons_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0%2C10.75214828329%2C100%2C78.49570343342&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "12d3310e4ae6",
+    "title": "पहले Nvidia RTX Spark लैपटॉप की कीमत 7,000 डॉलर तक पहुँच गई",
+    "summary": "Nvidia ने अपने नए RTX Spark सुपरचिप से चलने वाले पहले लैपटॉप की घोषणा कर दी है। The Verge के रिपोर्टर Antonio G. Di Benedetto के अनुसार, Surface Laptop Ultra, Dell, Lenovo, MSI, HP और Asus जैसे प्रमुख ब्रांड्स के ये नए लैपटॉप विशेष रूप से हाई-एंड MacBook Pros को टक्कर देने के लिए डिज़ाइन किए गए हैं। इन उपकरणों की कीमत…",
+    "category": "model_release",
+    "tags": [
+      "Nvidia",
+      "RTX Spark",
+      "Surface Laptop Ultra"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/surfacelaptopultra1.jpg?quality=90&strip=all&crop=0%2C10.462709848801%2C100%2C79.074580302398&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4b28fadcbc65",
+    "title": ".agent और .",
+    "summary": "इंटरनेट कॉर्पोरेशन फॉर असाइन्ड नेम्स एंड नंबर्स (ICANN) ने हाल ही में नए टॉप-लेवल डोमेन्स (TLDs) के लिए अपनी आवेदन प्रक्रिया शुरू की है। यह एक ऐसी खबर है जिसने तकनीकी जगत में काफी हलचल मचा दी है। ICANN, जो कैलिफोर्निया स्थित एक गैर-लाभकारी संस्था है, इंटरनेट के अद्वितीय पहचानकर्ताओं के सुचारू संचालन के लिए जिम्मेदार…",
+    "category": "general",
+    "tags": [
+      "ICANN",
+      "Meta",
+      "OpenAI"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24643586/Amp_Search.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9c7dd462aa5a",
+    "title": "माइक्रोसॉफ्ट ने कोपायलट को विंडोज और आपकी फाइलों पर दिया अधिक नियंत्रण",
+    "summary": "आज के विंडोज और सरफेस इवेंट में, माइक्रोसॉफ्ट ने अपने कोपायलट एआई सिस्टम के लिए एक बड़े अपग्रेड की घोषणा की। यह नया अपग्रेड कोपायलट को आपके पीसी पर मौजूद लोकल फाइलों तक पहुंच प्रदान करता है और पूरे ऑपरेटिंग सिस्टम में विभिन्न क्रियाएं करने की क्षमता देता है। यह कदम माइक्रोसॉफ्ट के लिए एक महत्वपूर्ण प्रगति है, जो…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Copilot",
+      "Windows"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/lcimg-e4e44609-0bf6-40b2-8c24-2e8c3ce7cee8.jpeg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ad4e14640e35",
+    "title": "किशोरों को भविष्य के लिए तैयार कर रहा है 'चैटजीपीटी फॉर टीन्स' का नया कॉलेज प्लानर",
+    "summary": "ओपनएआई (OpenAI) ने अपने चैटजीपीटी फॉर टीन्स अनुभव में 'कॉलेज प्लानर' को शामिल करने की घोषणा की है। यह नया टूल किशोरों को कॉलेज के लिए आवेदन करने, डेडलाइन ट्रैक करने, स्कूलों पर शोध करने और वित्तीय सहायता को समझने में मदद करेगा। इसके अलावा, इसमें फ्लैशकार्ड, क्विज़ और एक किशोर एआई काउंसिल जैसी नई सुविधाएँ भी जोड़ी गई…",
+    "category": "general",
+    "tags": [
+      "ChatGPT for Teens",
+      "OpenAI",
+      "College Planner"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/48q2nDNP9Gj81cxL5sCOFv/e0692d4bcad2b81fad9b62b5bea904b7/teens-learn-and-plan-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "04e9dc3828b5",
+    "title": "रेडिसन होटल ग्रुप ने चैटजीपीटी प्लगइन के जरिए की होटल खोज को और आसान",
+    "summary": "7 अक्टूबर 2026 को, रेडिसन होटल ग्रुप ने एक बड़ी तकनीकी प्रगति की घोषणा की। कंपनी ने अपने होटल बुकिंग और खोज अनुभव को बेहतर बनाने के लिए एआई क्षेत्र की दिग्गज कंपनी ओपनएआई के सहयोग से एक चैटजीपीटी प्लगइन विकसित करने का निर्णय लिया है। यह प्लगइन एक विशेष ऐड-ऑन टूल है, जो यात्रियों को सीधे एआई असिस्टेंट के भीतर ही होटल…",
+    "category": "general",
+    "tags": [
+      "Radisson Hotel Group",
+      "Accenture",
+      "Accenture Song"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/S03ANzISEjbT6o0qTIHnI/0c08686f8dea9b2e19edc946c3e703ee/radisson-hotel-group-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "dcdc3ee18091",
+    "title": "Strands Box: एआई एजेंट्स को सुरक्षित रूप से चलाने के लिए नया ओपन-सोर्स सैंडबॉक्स",
+    "summary": "टेकदृष्टि टेक डेस्क की रिपोर्ट के अनुसार, एआई एजेंट्स के सुरक्षित उपयोग को सुनिश्चित करने के लिए Strands Box को एक डेवलपर प्रीव्यू के रूप में पेश किया गया है। यह प्रोजेक्ट मुख्य रूप से एआई एजेंट्स की गतिविधियों को नियंत्रित करने और उन्हें बिना किसी रोक-टोक के सिस्टम को नुकसान पहुंचाने से रोकने के लिए डिज़ाइन किया गया…",
+    "category": "general",
+    "tags": [
+      "Strands Box",
+      "Dogwood",
+      "Strands Shell"
+    ],
+    "image": "https://opengraph.githubassets.com/1/strands-agents/box",
+    "source": "github",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d47fbb88ee91",
+    "title": "डीपसीक हार्नेस (DeepSeek Harness) के लिए नया ब्राउज़र एक्सटेंशन",
+    "summary": "तकनीकी दुनिया में एक नया और महत्वपूर्ण विकास सामने आया है। 'youbaiyun/dsh-browser-crossplatform' नामक एक मुफ्त और आधिकारिक ब्राउज़र एक्सटेंशन जारी किया गया है, जो विशेष रूप से डीपसीक हार्नेस (DeepSeek Harness) डेस्कटॉप ऐप के लिए बनाया गया है। यह एक्सटेंशन डेवलपर्स और एआई मॉडल के बीच एक महत्वपूर्ण कड़ी का काम करता है।…",
+    "category": "general",
+    "tags": [
+      "DeepSeek Harness",
+      "dsh-browser-crossplatform",
+      "Lum1104/dsh-browser"
+    ],
+    "image": "https://opengraph.githubassets.com/1/youbaiyun/dsh-browser-crossplatform",
+    "source": "github",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9fa9a1934213",
+    "title": "kkjiangk/agent-py: एआईओप्स (AIOps) में टूल-समर्थित साक्ष्य और हाइब्रिड रिट्रीवल की नई पहल",
+    "summary": "kkjiangk/agent-py नामक एक नया व्यक्तिगत इंजीनियरिंग प्रोजेक्ट एआईओप्स (AIOps) क्षेत्र में ध्यान आकर्षित कर रहा है। इसका मुख्य उद्देश्य टूल-समर्थित साक्ष्य के साथ अलर्ट की जांच करना, रनबुक प्राप्त करना और सुधार प्रस्तावों की समीक्षा करना है। यह प्रोजेक्ट पायथन, फास्टएपीआई (FastAPI), Vue 3, लैंगग्राफ (LangGraph), Kafka,…",
+    "category": "repo_analysis",
+    "tags": [
+      "kkjiangk",
+      "agent-py",
+      "LangGraph"
+    ],
+    "image": "https://opengraph.githubassets.com/1/kkjiangk/agent-py",
+    "source": "github",
+    "first_seen": "2026-10-08T09:13:22.320358+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "82331a864764",
     "title": "गणित में एआई की नई उपलब्धियां: ओपनएआई ने फ्रंटियरमैथ पर 98% स्कोर किया हासिल",
     "summary": "ओपनएआई ने अपने एक आंतरिक फ्रंटियर मॉडल द्वारा उत्पन्न गणितीय परिणामों की एक विस्तृत श्रृंखला जारी करने की घोषणा की है। यह मॉडल गणितीय समस्याओं को हल करने में असाधारण क्षमता का प्रदर्शन करते हुए फ्रंटियरमैथ बेंचमार्क में 98% का प्रभावशाली स्कोर प्राप्त करने में सफल रहा है, जो वर्तमान में उपलब्ध अन्य एआई मॉडलों की तुलना…",
