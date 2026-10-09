@@ -5557,9 +5557,9 @@
   },
   "webassembly": {
     "canonical_name": "WebAssembly",
-    "entity_type": "technology",
-    "summary": "WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine designed as a portable compilation target for programming languages. It aims to execute at native speed by leveraging common hardware capabilities and provides a memory-safe, sandboxed execution environment that can",
-    "last_updated": "2026-07-11"
+    "entity_type": "protocol",
+    "summary": "WebAssembly, abbreviated as Wasm, is a binary instruction format for a stack-based virtual machine designed as a portable compilation target for programming languages. It enables deployment on the web for client and server applications, aiming to execute at native speed while providing a memory-safe",
+    "last_updated": "2026-10-09"
   },
   "m5stickcplus2": {
     "canonical_name": "M5StickC-Plus2",
@@ -6553,9 +6553,9 @@
   },
   "m6 chip": {
     "canonical_name": "M6 chip",
-    "entity_type": "product",
-    "summary": "The Apple M6 chip is the next generation of Apple Silicon, succeeding the M5 family. It is rumored to move to a new manufacturing node: TSMC’s 3nm process. The M6 is expected to power new products, including a rumored MacBook Ultra with a touchscreen, OLED, and Dynamic Island.",
-    "last_updated": "2026-07-13"
+    "entity_type": "technology",
+    "summary": "The M6 is a 2-nanometer chip that features new 'Super Cores' and a 170GB/s bandwidth. It enables higher clock speeds and massive energy efficiency gains, allowing for more transistors on the die without the typical thermal penalties.",
+    "last_updated": "2026-10-09"
   },
   "steelseries arctis nova pro wireless": {
     "canonical_name": "SteelSeries Arctis Nova Pro Wireless",
@@ -7472,8 +7472,8 @@
   "lightspeed venture partners": {
     "canonical_name": "Lightspeed Venture Partners",
     "entity_type": "organization",
-    "summary": "Lightspeed Venture Partners is a leading global venture capital firm that manages over $2 billion in capital commitments. It receives thousands of applications each recruiting cycle and focuses on multi-stage companies on a mission to build the future.",
-    "last_updated": "2026-07-16"
+    "summary": "Lightspeed Venture Partners is a venture capital firm that has been investing in innovative companies worldwide for over twenty years. It provides high-conviction support to bold founders from Seed to Series F and beyond, with offices in the U.S., Europe, Israel, India, and Southeast Asia.",
+    "last_updated": "2026-10-09"
   },
   "og venture partners": {
     "canonical_name": "O.G. Venture Partners",
@@ -7622,8 +7622,8 @@
   "federal communications commission": {
     "canonical_name": "Federal Communications Commission",
     "entity_type": "organization",
-    "summary": "The Federal Communications Commission (FCC) is a U.S. government body created to regulate radio, TV, satellite, and cable communications to ensure fairness of content and equality of access. The 21st century has brought political and technological complexity to the agency’s mission.",
-    "last_updated": "2026-07-16"
+    "summary": "The Federal Communications Commission (FCC) is an agency that regulates interstate and international communications by radio, television, wire, satellite, and cable across the United States. It is directed by five commissioners appointed by the President and confirmed by the U.S. Senate, with the pr",
+    "last_updated": "2026-10-09"
   },
   "nexstar": {
     "canonical_name": "Nexstar",
@@ -9326,8 +9326,8 @@
   "ben affleck": {
     "canonical_name": "Ben Affleck",
     "entity_type": "person",
-    "summary": "Ben Affleck is an executive producer, director, and actor. He is the founder of a production company and is described as being jittery but largely unscathed after recent events in Los Angeles.",
-    "last_updated": "2026-07-20"
+    "summary": "Benjamin Géza Affleck (born August 15, 1972) is an American actor and filmmaker. He has won two Academy Awards and three Golden Globe Awards. Affleck began his career as a child actor on the PBS educational series The Voyage of the Mimi.",
+    "last_updated": "2026-10-09"
   },
   "dc council": {
     "canonical_name": "D.C. Council",
@@ -10915,9 +10915,9 @@
   },
   "a16z": {
     "canonical_name": "a16z",
-    "entity_type": "company",
-    "summary": "a16z is a venture capital firm in Silicon Valley, California, investing in bold founders, innovators, and entrepreneurs building the future through technology. It is also a Substack publication with hundreds of thousands of subscribers and a venture capital firm known for its investments in technolo",
-    "last_updated": "2026-07-23"
+    "entity_type": "organization",
+    "summary": "Andreessen Horowitz (a16z) is a venture capital firm that backs entrepreneurs building the future through technology. It invests in companies across various sectors from seed to growth stages, recently raising over $15 billion in new funds.",
+    "last_updated": "2026-10-09"
   },
   "andreessen horowitz": {
     "canonical_name": "Andreessen Horowitz",
@@ -20353,5 +20353,485 @@
     "entity_type": "technology",
     "summary": "Milvus is an open-source, cloud-native vector database designed for high-performance similarity search on massive vector datasets. It is built on top of vector search libraries like Faiss, HNSW, DiskANN, and SCANN to empower AI applications and unstructured data retrieval.",
     "last_updated": "2026-10-08"
+  },
+  "whistle": {
+    "canonical_name": "Whistle",
+    "entity_type": "product",
+    "summary": "Whistle GPS pet trackers were a brand of pet tracking devices that were discontinued on August 31, 2025, following the acquisition of the brand by Tractive. The associated Whistle service is no longer active, though former owners were previously offered a free Tractive replacement along with a trans",
+    "last_updated": "2026-10-09"
+  },
+  "needle": {
+    "canonical_name": "Needle",
+    "entity_type": "product",
+    "summary": "Needles are medical instruments that vary in anatomy, gauge, length, and hub design to suit different clinical procedures. Understanding these differences in bevel geometry and gauge is essential for ensuring patient comfort, obtaining usable blood samples, and executing medical procedures successfu",
+    "last_updated": "2026-10-09"
+  },
+  "nomad": {
+    "canonical_name": "Nomad",
+    "entity_type": "person",
+    "summary": "A nomad is a member of a people who have no fixed residence but move from place to place, usually seasonally and within a well-defined territory. The term originates from the Latin and Greek words for pastoral peoples and wanderers.",
+    "last_updated": "2026-10-09"
+  },
+  "mxc": {
+    "canonical_name": "MXC",
+    "entity_type": "product",
+    "summary": "2 days ago · Discover what MXC (MXC) is, how it works, and why it matters in crypto. Explore its features, use cases, tokenomics, and tutorials with MEXC. What is MXC (MXC) Start learning about what is MXC through guides, tokenomics, trading information, and more. The MXC vision is to introduce a sy",
+    "last_updated": "2026-10-09"
+  },
+  "wxcexecexe": {
+    "canonical_name": "wxc-exec.exe",
+    "entity_type": "product",
+    "summary": "Jun 4, 2026 · A single native binary wxc-exec.exe on Windows, lxc-exec on Linux, mxc-exec-mac on macOS, built from a Cargo workspace. A versioned JSON config describing a command to run plus a policy (filesystem read-only / read-write / denied paths, network posture, UI restrictions). When an agent",
+    "last_updated": "2026-10-09"
+  },
+  "quake": {
+    "canonical_name": "Quake",
+    "entity_type": "product",
+    "summary": "Quake is a product built on 25 years of engineering and deployed across healthcare and industrial operations in over 160 countries. It is designed to work within existing systems without requiring rip-and-replace or new system training, offering real-time action and reporting at a price point of $32",
+    "last_updated": "2026-10-09"
+  },
+  "samuel king": {
+    "canonical_name": "Samuel King",
+    "entity_type": "person",
+    "summary": "Samuel is a prophet and the last judge in the Bible. He is known for anointing the first and second kings of Israel and appears in the story of David and Saul as a national leader, intercessor, and even as a ghost.",
+    "last_updated": "2026-10-09"
+  },
+  "arc institute": {
+    "canonical_name": "Arc Institute",
+    "entity_type": "organization",
+    "summary": "Arc Institute is a nonprofit research organization headquartered in Palo Alto, California. Its mission is to accelerate scientific progress, understand the root causes of complex diseases, and narrow the gap between discoveries and impact on patients through new organizational models.",
+    "last_updated": "2026-10-09"
+  },
+  "envision energy": {
+    "canonical_name": "Envision Energy",
+    "entity_type": "company",
+    "summary": "Envision Energy is a world-leading green technology company, providing renewable energy system solutions for global enterprises, governments and institutions. Home NET ZERO TECH PARTNER Energy Ventures News â® About US Racing R&D Contact Home NET ZERO TECH PARTNER Energy Ventures News About US Raci",
+    "last_updated": "2026-10-09"
+  },
+  "world economic forum": {
+    "canonical_name": "World Economic Forum",
+    "entity_type": "organization",
+    "summary": "The World Economic Forum is an independent, international organization incorporated as a Swiss not-for-profit foundation, founded in 1971. It focuses on monitoring the issues driving transformational change across economies, industries, and global issues, operating under the motto 'entrepreneurship",
+    "last_updated": "2026-10-09"
+  },
+  "sergey brin": {
+    "canonical_name": "Sergey Brin",
+    "entity_type": "person",
+    "summary": "Sergey Brin is an American computer scientist and entrepreneur who co-founded the online search engine Google. He stepped down as president of Alphabet in 2019 but remains a board member and controlling shareholder, and he also established the Sergey Brin Family Foundation.",
+    "last_updated": "2026-10-09"
+  },
+  "national medal of science": {
+    "canonical_name": "National Medal of Science",
+    "entity_type": "event",
+    "summary": "The National Medal of Science is the nation's highest honor for exemplary achievement and leadership in science, bestowed by the President of the United States. It has been awarded since 1963 to individuals making outstanding contributions to science in service of the United States.",
+    "last_updated": "2026-10-09"
+  },
+  "national medal of technology and innovation": {
+    "canonical_name": "National Medal of Technology and Innovation",
+    "entity_type": "event",
+    "summary": "The National Medal of Technology and Innovation is the nation's highest honor for technological achievement, bestowed by the President of the United States. It is awarded to individuals, teams, or companies for their outstanding contributions to America's economic, environmental, and social well-bei",
+    "last_updated": "2026-10-09"
+  },
+  "dell technologies": {
+    "canonical_name": "Dell Technologies",
+    "entity_type": "organization",
+    "summary": "Dell Technologies is an organization instrumental in changing the digital landscape, aiming to power human progress through powerful technologies. Its leaders are committed to driving the technology revolution forward by fostering a culture of innovation and inclusion.",
+    "last_updated": "2026-10-09"
+  },
+  "h1b program": {
+    "canonical_name": "H-1B program",
+    "entity_type": "regulation",
+    "summary": "The H-1B program applies to employers seeking to hire nonimmigrant aliens as workers in specialty occupations or as fashion models of distinguished merit and ability. On September 19, 2025, the U.S. Department of Labor launched Project Firewall, an enforcement initiative to safeguard the rights and",
+    "last_updated": "2026-10-09"
+  },
+  "elizabeth holmes": {
+    "canonical_name": "Elizabeth Holmes",
+    "entity_type": "person",
+    "summary": "Elizabeth Holmes is an American entrepreneur who founded and served as the CEO of the health technology company Theranos from 2003 to 2018. She is currently serving an 11-year prison sentence for a fraud conviction related to the company's misrepresentation of its blood-testing technology.",
+    "last_updated": "2026-10-09"
+  },
+  "bo lau": {
+    "canonical_name": "Bo Lau",
+    "entity_type": "person",
+    "summary": "Multiple professionals named Bo Lau exist, including one who serves as a Start-up/Field Marketing Lead at Extend, a company known for hosting unconventional events. The provided material primarily consists of generic social media and professional networking profile links.",
+    "last_updated": "2026-10-09"
+  },
+  "theranos": {
+    "canonical_name": "Theranos",
+    "entity_type": "company",
+    "summary": "Theranos was a medical diagnostic company founded in 2003 by Elizabeth Holmes that was later revealed to have falsified its data and inflated its claims. The company raised over $700 million from investors, reached a $9 billion valuation, and ultimately shut down in 2018 after Holmes was charged wit",
+    "last_updated": "2026-10-09"
+  },
+  "extend": {
+    "canonical_name": "Extend",
+    "entity_type": "company",
+    "summary": "Extend is an AI-powered commerce platform that helps brands reward high-value customers, limit abuse, and protect margins. The company leverages shopper behavior to provide operational and financial advantages, offering embedded protection and flexible return options.",
+    "last_updated": "2026-10-09"
+  },
+  "united states v elizabeth holmes": {
+    "canonical_name": "United States v. Elizabeth Holmes",
+    "entity_type": "event",
+    "summary": "In 2022, a federal jury convicted Elizabeth Holmes of conspiracy to commit fraud on investors and committing fraud on individual investors. The case stemmed from multi-million-dollar schemes to promote Theranos, and the operative indictment alleged that Holmes and Ramesh Balwani used advertisements",
+    "last_updated": "2026-10-09"
+  },
+  "nathan fielder": {
+    "canonical_name": "Nathan Fielder",
+    "entity_type": "person",
+    "summary": "Nathan Fielder is a Canadian comedian, writer, director, actor, and producer known for surreal satire and inventive cringe comedy. He was born in Vancouver, earned a Bachelor of Commerce from the University of Victoria, and studied comedy at Humber College, which later shaped the marketing strategie",
+    "last_updated": "2026-10-09"
+  },
+  "tomek korbak": {
+    "canonical_name": "Tomek Korbak",
+    "entity_type": "person",
+    "summary": "Tomek Korbak is a Member of Technical Staff at OpenAI who works on monitoring large language model agents for misalignment. Previously, he worked on AI control and safety cases at the UK AI Security Institute and on honesty post-training at Anthropic.",
+    "last_updated": "2026-10-09"
+  },
+  "openai safety and security committee": {
+    "canonical_name": "OpenAI Safety and Security Committee",
+    "entity_type": "organization",
+    "summary": "The OpenAI Safety and Security Committee is responsible for making recommendations on critical safety and security decisions for all OpenAI projects. It is led by directors Bret Taylor, Adam D’Angelo, Nicole Seligman, and Sam Altman, and includes Retired U.S. Army General Paul M. Nakasone.",
+    "last_updated": "2026-10-09"
+  },
+  "openai mission advisory council": {
+    "canonical_name": "OpenAI Mission Advisory Council",
+    "entity_type": "organization",
+    "summary": "material did not address this",
+    "last_updated": "2026-10-09"
+  },
+  "gq": {
+    "canonical_name": "GQ",
+    "entity_type": "organization",
+    "summary": "GQ, short for Gentlemen's Quarterly, is an international monthly men's fashion magazine based in New York City and founded in 1931. It serves as the global flagship of men's fashion and is known for setting standards in photography, design, journalism, and storytelling in the global men's media spac",
+    "last_updated": "2026-10-09"
+  },
+  "uc berkeley": {
+    "canonical_name": "UC Berkeley",
+    "entity_type": "organization",
+    "summary": "The University of California was founded in 1868 with a vision to contribute to the glory and happiness of advancing generations. UC Berkeley is an institution known for its commitment to excellence, featuring a wide array of faculty awards and a large library collection.",
+    "last_updated": "2026-10-09"
+  },
+  "felicis": {
+    "canonical_name": "Felicis",
+    "entity_type": "organization",
+    "summary": "Felicis is a venture capital firm that backs founders building iconic companies with a founder-first approach. Since 2006, the firm has helped create over $285 billion in value by supporting founders through seed to scale.",
+    "last_updated": "2026-10-09"
+  },
+  "01 advisors": {
+    "canonical_name": "01 Advisors",
+    "entity_type": "organization",
+    "summary": "01 Advisors is a venture and advisory firm based in San Francisco, founded in 2018. The firm provides guidance to early-stage companies and investors in the technology and innovation sectors.",
+    "last_updated": "2026-10-09"
+  },
+  "thomas kurian": {
+    "canonical_name": "Thomas Kurian",
+    "entity_type": "person",
+    "summary": "Thomas Kurian is a preeminent Indian-American business executive known for leading major transformations in the technology sector. He serves as the CEO of Google Cloud, where he has driven the company's growth into a leading enterprise platform.",
+    "last_updated": "2026-10-09"
+  },
+  "institute for advanced studies": {
+    "canonical_name": "Institute for Advanced Studies",
+    "entity_type": "organization",
+    "summary": "The Institute for Advanced Study is one of the world’s leading centers for curiosity-driven basic research. It supports researchers through various programs that provide time, space, and resources for independent study and creative work.",
+    "last_updated": "2026-10-09"
+  },
+  "princeton university": {
+    "canonical_name": "Princeton University",
+    "entity_type": "organization",
+    "summary": "Princeton University is a vibrant community of scholarship and learning dedicated to serving the nation and humanity. Its educational mission aims to prepare students to pursue meaningful lives and help address the challenges of the future.",
+    "last_updated": "2026-10-09"
+  },
+  "microsoft 365": {
+    "canonical_name": "Microsoft 365",
+    "entity_type": "product",
+    "summary": "Microsoft 365 provides access to premium apps and cloud productivity services that can be used on virtually any device, including desktops, web platforms, and PCs. It offers specialized plans for individuals, businesses, and enterprises to help users create, collaborate, and share work effectively.",
+    "last_updated": "2026-10-09"
+  },
+  "nidal hasan": {
+    "canonical_name": "Nidal Hasan",
+    "entity_type": "person",
+    "summary": "3 days ago · Hasan, a former Army officer who killed 13 people and injured 32 others during a mass shooting at Fort Hood in 2009, will be executed by firing squad. Nidal Malik Hasan, a former Army officer and psychiatrist who killed 13 people and injured 32 others during a mass shooting at Fort Hood",
+    "last_updated": "2026-10-09"
+  },
+  "fort hood": {
+    "canonical_name": "Fort Hood",
+    "entity_type": "location",
+    "summary": "Fort Hood occupies 335 square miles of Bell and Coryell Counties, 60 miles north of Austin and 50 miles south of Waco. Seven surrounding cities with a regional population of approximately 335,000 are partnered with and provide substantial quality of life support to Fort Hood. Aug 6, 2026 · From its",
+    "last_updated": "2026-10-09"
+  },
+  "starlink mobile": {
+    "canonical_name": "Starlink Mobile",
+    "entity_type": "product",
+    "summary": "Starlink Mobile, also known as Starlink Direct-to-Cell, is a satellite-to-mobile service that uses Starlink's Direct-to-Cell satellites as orbiting cell towers to connect to modern mobile phones. The service officially launched in mid-2025 and is designed to provide data, voice, video, and messaging",
+    "last_updated": "2026-10-09"
+  },
+  "800 mhz band": {
+    "canonical_name": "800 MHz band",
+    "entity_type": "protocol",
+    "summary": "The 800 MHz allocation is part of the UHF (300–1000 MHz) spectrum used worldwide for critical applications that support communications and infrastructure. Key uses of this band include LTE/5G low-band coverage, NB-IoT, and mobile public safety blocks in some countries.",
+    "last_updated": "2026-10-09"
+  },
+  "v2 starlink mobile": {
+    "canonical_name": "V2 Starlink Mobile",
+    "entity_type": "product",
+    "summary": "Starlink Mobile V2 is a rebranded Direct-to-Cell service unveiled in March 2026, featuring a fundamental hardware overhaul with 100x data density and 20x throughput per satellite. It promises full 5G-level connectivity directly to standard LTE phones without requiring specialized hardware.",
+    "last_updated": "2026-10-09"
+  },
+  "jack huynh": {
+    "canonical_name": "Jack Huynh",
+    "entity_type": "person",
+    "summary": "Jack Huynh is the senior vice president and general manager of Computing and Graphics at AMD, where he is responsible for combining the company’s high-performance CPUs, GPUs, and software to create differentiated solutions. He leads AMD’s Computing & Graphics group with an engineering and entreprene",
+    "last_updated": "2026-10-09"
+  },
+  "ryzen z3": {
+    "canonical_name": "Ryzen Z3",
+    "entity_type": "product",
+    "summary": "The Ryzen Z3 is a reported handheld processor based on AMD's upcoming Zen 6 and RDNA4m IP, configured specifically for handheld systems at a 15W power target. The chip is said to feature four Zen 6 cores and two low-power cores, paired with 12 RDNA4m CUs, though the configuration may still be subjec",
+    "last_updated": "2026-10-09"
+  },
+  "gainsborough": {
+    "canonical_name": "Gainsborough",
+    "entity_type": "product",
+    "summary": "Gainsborough Products is a supplier of oil painting restoration and conservation supplies that has been in business since 1974. Their product lineup includes cleaners, varnish removers, varnish, canvas patching and lining products, ultraviolet lights, frame glazes, and step-by-step manuals to guide",
+    "last_updated": "2026-10-09"
+  },
+  "ipad mini": {
+    "canonical_name": "iPad Mini",
+    "entity_type": "product",
+    "summary": "The iPad mini features a 100 percent recycled aluminum enclosure and a stunning all-screen design. It includes an 8.3-inch Liquid Retina display with True Tone, P3 wide color, and ultralow reflectivity.",
+    "last_updated": "2026-10-09"
+  },
+  "dynamic island": {
+    "canonical_name": "Dynamic Island",
+    "entity_type": "technology",
+    "summary": "The Dynamic Island is an alternative to the notch, introduced on the iPhone X, that incorporates a pill-shaped cutout and a hole punch cutout to house the camera hardware. It serves as a shape-changing hub for alerts and delivers real-time updates with minimal disruption to the user's workflow.",
+    "last_updated": "2026-10-09"
+  },
+  "rek": {
+    "canonical_name": "Rek",
+    "entity_type": "startup",
+    "summary": "REK is a robotics and entertainment company building real-world humanoid robot fighting and a simulation platform for virtual robot combat, training, and competition. The organization runs humanoid robot fighting events, with the first Unitree H1 robot arriving in January 2025 and the first public e",
+    "last_updated": "2026-10-09"
+  },
+  "engineai": {
+    "canonical_name": "EngineAI",
+    "entity_type": "company",
+    "summary": "EngineAI is a robotics technology company focused on developing general-purpose humanoid robots and embodied AI systems, integrating research, manufacturing, and real-world deployment into its operations. Founded in October 2023, Shenzhen EngineAI Robotics Technology Co., Ltd. is a high-tech enterpr",
+    "last_updated": "2026-10-09"
+  },
+  "california state athletic commission": {
+    "canonical_name": "California State Athletic Commission",
+    "entity_type": "organization",
+    "summary": "The California State Department of Consumer Affairs is designed to help Californians become informed consumers by learning their rights and protection. The organization verifies second, trainer, or manager licenses and provides an official state website for consumer affairs.",
+    "last_updated": "2026-10-09"
+  },
+  "cix liv": {
+    "canonical_name": "Cix Liv",
+    "entity_type": "person",
+    "summary": "Cix Liv is the CEO of REK and has over 10 years of experience in AR/VR. They are also the co-founder of YUR, a VC-backed immersive health and fitness company, and have attended events such as the Augmented World Expo 2019.",
+    "last_updated": "2026-10-09"
+  },
+  "folkston ice processing center": {
+    "canonical_name": "Folkston ICE Processing Center",
+    "entity_type": "product",
+    "summary": "The Folkston ICE Processing Center is an immigration detention facility located in Charlton County, Georgia. It is undergoing a $47 million merger with the adjacent D. Ray James Correctional Facility to form a combined 3,000-bed facility, which will be the largest immigration detention center in the",
+    "last_updated": "2026-10-09"
+  },
+  "paramount pictures": {
+    "canonical_name": "Paramount Pictures",
+    "entity_type": "company",
+    "summary": "Paramount Pictures has served as a Grand Sponsor of AIDS Walk Los Angeles since its inception in 1985, providing in-kind support and logistical expertise in support of the fight against HIV and AIDS. Paramount Global is the parent company of Paramount Pictures.",
+    "last_updated": "2026-10-09"
+  },
+  "cd projekt red": {
+    "canonical_name": "CD Projekt Red",
+    "entity_type": "company",
+    "summary": "CD Projekt Red is a global video game development company established in 2002 and headquartered in Warsaw, with teams in Kraków, Wrocław, Boston, and Vancouver. The company is formed by over 1,200 professionals and is known for creating revolutionary role-playing games with memorable stories.",
+    "last_updated": "2026-10-09"
+  },
+  "michał nowakowski": {
+    "canonical_name": "Michał Nowakowski",
+    "entity_type": "person",
+    "summary": "Michał Nowakowski is the Vice President of Business Development and a Member of the Board at CD Projekt Red. He previously served as the company's CEO and later became the Joint Studio Head.",
+    "last_updated": "2026-10-09"
+  },
+  "sophos": {
+    "canonical_name": "Sophos",
+    "entity_type": "company",
+    "summary": "Sophos is a global cybersecurity leader delivering AI-native cyber defense through Sophos Fusion, managed detection and response, and threat intelligence.",
+    "last_updated": "2026-10-09"
+  },
+  "john peterson": {
+    "canonical_name": "John Peterson",
+    "entity_type": "person",
+    "summary": "John Peterson is a local qualifier who nearly won the U.S. Open and is now playing under the U.S. flag for the first time at the Bridges Cup.",
+    "last_updated": "2026-10-09"
+  },
+  "legalon technologies": {
+    "canonical_name": "LegalOn Technologies",
+    "entity_type": "company",
+    "summary": "LegalOn is a company that integrates legal expertise with advanced AI to help businesses make decisions faster, close deals quicker, and sustain business momentum. It provides an AI assistant designed to support the complete lifecycle of legal and contracting workflows for in-house teams, from initi",
+    "last_updated": "2026-10-09"
+  },
+  "russia": {
+    "canonical_name": "Russia",
+    "entity_type": "country",
+    "summary": "Russia is a vast country stretching across eastern Europe and northern Asia, becoming an independent nation after the dissolution of the Soviet Union in 1991. It is the world's largest country by territory and spans 11 time zones with diverse environments including steppes, forests, and Arctic tundr",
+    "last_updated": "2026-10-09"
+  },
+  "alice d": {
+    "canonical_name": "Alice D",
+    "entity_type": "person",
+    "summary": "Alice D is a London-based singer-songwriter and alternative RnB artist known for her single 'Offline' and her work in the UK R&B scene. She began creating music with her father at the age of 11 using a home studio setup.",
+    "last_updated": "2026-10-09"
+  },
+  "think tank": {
+    "canonical_name": "think tank",
+    "entity_type": "organization",
+    "summary": "A think tank is an institute, corporation, or group organized for interdisciplinary research to provide policy advice through specialized knowledge and network activation. The term originated in World War II military jargon for strategic planning spaces before evolving in the 1960s to describe priva",
+    "last_updated": "2026-10-09"
+  },
+  "losalossantos": {
+    "canonical_name": "LosaLosSantos",
+    "entity_type": "person",
+    "summary": "LosaLosSantos is a Master's degree student in Data Science who has 10 repositories available on GitHub. The provided material also includes a request to block this user from interacting with repositories or sending notifications, though this is a platform action rather than a biographical detail.",
+    "last_updated": "2026-10-09"
+  },
+  "zhehao zou": {
+    "canonical_name": "Zhehao Zou",
+    "entity_type": "person",
+    "summary": "Zhehao Zou is affiliated with The Chinese University of Hong Kong and works on research projects related to environmental protection. The material lists their contact details, including phone numbers and an email address.",
+    "last_updated": "2026-10-09"
+  },
+  "jinheng zhang": {
+    "canonical_name": "Jinheng Zhang",
+    "entity_type": "person",
+    "summary": "Jinheng Zhang is a graduate student at Qingdao University of Science and Technology with research interests in computer security, cloud security, and IoT. They previously studied mechanical engineering and hold a bachelor's degree from UD.",
+    "last_updated": "2026-10-09"
+  },
+  "yuting chen": {
+    "canonical_name": "Yuting Chen",
+    "entity_type": "person",
+    "summary": "Yuting Chen is a PhD candidate in Economics at Purdue University, focusing on Behavioral and Experimental Economics and social dilemmas. They are affiliated with the Vernon Smith Experimental Economics Laboratory and are on the job market for 2026-2027.",
+    "last_updated": "2026-10-09"
+  },
+  "chenyu zhu": {
+    "canonical_name": "Chenyu Zhu",
+    "entity_type": "person",
+    "summary": "Chenyu Zhu is a Robotics engineer and M.S. student at Northwestern, working on robot software, controls, simulation, and learning. They have published research on topics including humanoid teleoperation, jailbreaking embodied LLM agents, and alleviating hallucinations in large language models.",
+    "last_updated": "2026-10-09"
+  },
+  "skillmd": {
+    "canonical_name": "SKILL.md",
+    "entity_type": "protocol",
+    "summary": "SKILL.md is a file format defined by the Agent Skills specification, an open standard published at agentskills.io/specification. It was developed by Anthropic and released on December 18, 2025, and is stewarded by the Agentic AI Foundation.",
+    "last_updated": "2026-10-09"
+  },
+  "icml 2026": {
+    "canonical_name": "ICML 2026",
+    "entity_type": "event",
+    "summary": "ICML 2026 is the Forty-Third International Conference on Machine Learning, scheduled for July 6–11, 2026, at the COEX Convention & Exhibition Center in Seoul, South Korea. The event includes an Expo/Tutorial Day on July 6, the Main Conference from July 7–9, and Workshops from July 10–11.",
+    "last_updated": "2026-10-09"
+  },
+  "hermes agent": {
+    "canonical_name": "Hermes Agent",
+    "entity_type": "ai_model",
+    "summary": "Hermes Agent is the open-source, self-hosted AI agent by Nous Research. It features persistent memory, self-created skills, and a messaging gateway for multiple platforms including Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI.",
+    "last_updated": "2026-10-09"
+  },
+  "omarqaterge": {
+    "canonical_name": "omarqaterge",
+    "entity_type": "person",
+    "summary": "Material did not address this",
+    "last_updated": "2026-10-09"
+  },
+  "brow": {
+    "canonical_name": "Brow",
+    "entity_type": "product",
+    "summary": "Ulta offers a curated selection of brow products, including pencils, gels, pomades, waxes, and powders. These products are designed to define, shape, and tame flyaways for a natural or put-together look.",
+    "last_updated": "2026-10-09"
+  },
+  "grove": {
+    "canonical_name": "Grove",
+    "entity_type": "product",
+    "summary": "Grove is a subscription service that provides vetted cleaning, personal care, and kitchen essentials free from banned ingredients. Its flagship brand, Grove Co., focuses on sustainable, bio-based formulas packaged in recyclable aluminum, glass, and tree-free paper to help users reduce plastic.",
+    "last_updated": "2026-10-09"
+  },
+  "microqian2th": {
+    "canonical_name": "Microqian2th",
+    "entity_type": "person",
+    "summary": "Microqian2th is a GitHub user whose profile and repositories are blocked to prevent interaction and notifications. The user's repository contains a curated list of plugins for DeepSeek Harness (DSH) with a Codex-style reasoning level slider.",
+    "last_updated": "2026-10-09"
+  },
+  "dsh": {
+    "canonical_name": "DSH",
+    "entity_type": "product",
+    "summary": "The material contains two distinct entities named DSH. DSH refers to a DeepSeek Harness plugin that provides a Codex-style reasoning level slider with a blue-to-violet gradient and particle effects. DSH also refers to Daikin's Packaged Heat Pumps, which are commercial units built for lower operating",
+    "last_updated": "2026-10-09"
+  },
+  "bops": {
+    "canonical_name": "Bops",
+    "entity_type": "product",
+    "summary": "bops helps CPGs and Retailers reduce lost sales, markdowns, and write-offs by improving on-shelf availability. Kraft Heinz US is partnering with bops to take a more proactive approach to on-shelf availability, using technology to anticipate potential gaps, stay ahead of what’s next, and create a bet",
+    "last_updated": "2026-10-09"
+  },
+  "fsl": {
+    "canonical_name": "FSL",
+    "entity_type": "protocol",
+    "summary": "This document provides a detailed protocol for the use of FSL-1 in stimulating human monocytic THP-1 cells, a common model for studying monocyte and macrophage biology. Mechanism of Action: The FSL-1 Signaling Pathway FSL-1 is recognized by the TLR2/TLR6 heterodimer on the cell surface. FSL-1 Protoc",
+    "last_updated": "2026-10-09"
+  },
+  "vectra core": {
+    "canonical_name": "Vectra Core",
+    "entity_type": "product",
+    "summary": "Vectra Core Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) based in Grandview, Missouri. It delivers integrated technology and logistics solutions to help government agencies and commercial clients operate smarter, move faster, and scale efficiently.",
+    "last_updated": "2026-10-09"
+  },
+  "patrick araujo": {
+    "canonical_name": "Patrick Araujo",
+    "entity_type": "person",
+    "summary": "Patrick Araujo is an individual with a lifelong passion for music that began in childhood when he discovered he could create sounds and rhythms using pots and pans. This early interest in music has persisted throughout his life, though he did not fully realize its significance until later.",
+    "last_updated": "2026-10-09"
+  },
+  "shiyu": {
+    "canonical_name": "ShiYu",
+    "entity_type": "person",
+    "summary": "ShiYu Shu is a statistician with experience at Genentech and education from The George Washington University, based in Burlingame. Shiyu Su is an electrical engineer with B.S., M.S., and Ph.D. degrees from Beijing University of Post and Telecommunication, Queen Mary University of London, and the Uni",
+    "last_updated": "2026-10-09"
+  },
+  "docflareai": {
+    "canonical_name": "docflare-ai",
+    "entity_type": "product",
+    "summary": "Docflare.ai is an open-source AI chatbot and site search solution that allows users to add a streaming RAG chatbot to their documentation by dropping a single script tag. It is built entirely on Cloudflare's native stack, including Workers AI, Vectorize, and D1, and operates for free on the free tie",
+    "last_updated": "2026-10-09"
+  },
+  "chatbase": {
+    "canonical_name": "Chatbase",
+    "entity_type": "product",
+    "summary": "Chatbase is a no-code platform for building, testing, and deploying AI agents across multiple channels. It is model-agnostic, allowing the selection of the best model for each specific task, and includes enterprise-ready security features, native integrations, and CX capabilities like widgets and hu",
+    "last_updated": "2026-10-09"
+  },
+  "customgpt": {
+    "canonical_name": "CustomGPT",
+    "entity_type": "product",
+    "summary": "CustomGPT.ai is a no-code platform that enables organizations to create AI agents from their own content to provide trusted, non-hallucinated answers. The process involves connecting data, which the platform uses to automatically build a specialized AI agent without requiring any engineering resourc",
+    "last_updated": "2026-10-09"
+  },
+  "mendable": {
+    "canonical_name": "Mendable",
+    "entity_type": "product",
+    "summary": "Mendable allows users to build and deploy secure LLM chatbots trained on their internal technical resources, such as documentation and product manuals. It is designed to reduce support tickets and improve user retention by providing an AI assistant that can be integrated directly into applications o",
+    "last_updated": "2026-10-09"
+  },
+  "portrait v2": {
+    "canonical_name": "Portrait v2",
+    "entity_type": "ai_model",
+    "summary": "Portrait v2 is a model trained specifically for image generation, with weights available in Safetensors format. It is part of an innovative conditional diffusion model designed to generate expressive and temporally coherent portrait animations.",
+    "last_updated": "2026-10-09"
+  },
+  "flux": {
+    "canonical_name": "FLUX",
+    "entity_type": "ai_model",
+    "summary": "Flux is a family of advanced text-to-image AI models that includes Flux Schnell, Flux Pro, Flux Kontext, and Flux Dev. These models are designed to generate high-quality images from text descriptions, offering options optimized for speed, professional quality, and contextual editing.",
+    "last_updated": "2026-10-09"
   }
 }
