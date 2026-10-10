@@ -6907,9 +6907,9 @@
   },
   "telegram": {
     "canonical_name": "Telegram",
-    "entity_type": "product",
-    "summary": "Telegram is a cloud-based instant messaging service famous for its lightning speed and tight security protocols. It has evolved into a powerful communication tool, surpassing the limitations of standard text messaging apps, and offers features like AI bots, bot-to-bot chats, and custom AI styles.",
-    "last_updated": "2026-07-14"
+    "entity_type": "company",
+    "summary": "Telegram is a cloud-based messaging platform built around speed, encryption, and large-group communication. It supports one-to-one chats, group conversations with up to 200,000 members, public channels, voice and video calls, file sharing, and an expanding suite of mini-apps and bots.",
+    "last_updated": "2026-10-10"
   },
   "starship": {
     "canonical_name": "Starship",
