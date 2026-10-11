@@ -20833,5 +20833,23 @@
     "entity_type": "ai_model",
     "summary": "Flux is a family of advanced text-to-image AI models that includes Flux Schnell, Flux Pro, Flux Kontext, and Flux Dev. These models are designed to generate high-quality images from text descriptions, offering options optimized for speed, professional quality, and contextual editing.",
     "last_updated": "2026-10-09"
+  },
+  "commonsenseqa": {
+    "canonical_name": "CommonsenseQA",
+    "entity_type": "product",
+    "summary": "CommonsenseQA is a dataset designed to evaluate commonsense reasoning capabilities in natural language processing models. It consists of 12,247 multiple-choice questions that require background knowledge and commonsense to answer correctly. The dataset was constructed using CONCEPTNET, a graph-based",
+    "last_updated": "2026-10-11"
+  },
+  "lightbulb computer": {
+    "canonical_name": "Lightbulb Computer",
+    "entity_type": "product",
+    "summary": "The Lightbulb Computer is a speculative device that combines a projector and computer vision in the shape of a large lightbulb. It aims to project information into the real world to augment everyday spaces, offering an alternative to smart glasses and headsets by blending ambient computation and spa",
+    "last_updated": "2026-10-11"
+  },
+  "byteification": {
+    "canonical_name": "Byteification",
+    "entity_type": "technology",
+    "summary": "Byteification is a set of techniques that transform linguistic and numerical representations into fixed-width binary formats. The methods include near-lossless embedding binarization, byte-level tokenization with exact round-trip recovery, and bit-level compression for subword tokens, achieving sign",
+    "last_updated": "2026-10-11"
   }
 }
