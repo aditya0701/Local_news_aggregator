@@ -20851,5 +20851,11 @@
     "entity_type": "technology",
     "summary": "Byteification is a set of techniques that transform linguistic and numerical representations into fixed-width binary formats. The methods include near-lossless embedding binarization, byte-level tokenization with exact round-trip recovery, and bit-level compression for subword tokens, achieving sign",
     "last_updated": "2026-10-11"
+  },
+  "sai srirampur": {
+    "canonical_name": "Sai Srirampur",
+    "entity_type": "person",
+    "summary": "Sai Srirampur is an infrastructure engineer and founder who currently leads ClickPipes, the native integration engine of ClickHouse. He previously served at Microsoft leading a Solutions Engineering team focused on scaling PostgreSQL deployments within Azure.",
+    "last_updated": "2026-10-12"
   }
 }
