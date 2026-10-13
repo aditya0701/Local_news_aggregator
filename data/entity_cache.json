@@ -1735,9 +1735,9 @@
   },
   "github copilot": {
     "canonical_name": "GitHub Copilot",
-    "entity_type": "ai_model",
-    "summary": "# Supported AI models in GitHub Copilot. Learn about the supported AI models in GitHub Copilot. * Supported AI models in Copilot. * Supported AI models in Auto model selection. The models available to you depend on your Copilot plan and where you're using Copilot, such as GitHub.com or an IDE. For a",
-    "last_updated": "2026-07-03"
+    "entity_type": "product",
+    "summary": "GitHub Copilot is an AI assistant that helps users write, understand, and ship software. It suggests code as you type, answers questions about a codebase, reviews changes, and works on assigned tasks within the GitHub development workflow.",
+    "last_updated": "2026-10-13"
   },
   "copilottunnelproxy": {
     "canonical_name": "copilot-tunnel-proxy",
@@ -1907,8 +1907,8 @@
   "vs code": {
     "canonical_name": "VS Code",
     "entity_type": "product",
-    "summary": "Visual Studio IDE   Visual Studio for Mac   Visual Studio Code. Visual Studio Products2025-12-08T11:44:56-08:00. Configure your ideal development environment with the Visual Studio family of products. Create 5-star apps in your favorite language, and deliver them to any platform. ## Products. #### V",
-    "last_updated": "2026-07-03"
+    "summary": "Visual Studio Code is a popular editor for millions of developers that offers AI-powered inline suggestions, intelligent completions, and a rich editing experience. It also supports multi-agent development, allowing users to delegate tasks to AI agents that autonomously plan, execute, and iterate on",
+    "last_updated": "2026-10-13"
   },
   "xtermjs": {
     "canonical_name": "xterm.js",
@@ -3991,9 +3991,9 @@
   },
   "openai codex": {
     "canonical_name": "OpenAI Codex",
-    "entity_type": "technology",
-    "summary": "Codex powers GitHub Copilot, which OpenAI built and launched in partnership with GitHub. Codex can interpret simple commands in natural language and create and execute code. It is a new application to Natural Language Understanding (NLU) and is considered a first foray into a new field.",
-    "last_updated": "2026-07-06"
+    "entity_type": "product",
+    "summary": "OpenAI Codex is an AI-powered coding assistant designed to solve complex engineering problems, including hard-to-find bugs, complex refactors, and new features. It operates by running multiple agents in parallel across computer and browser tools to verify work and is included in ChatGPT plans.",
+    "last_updated": "2026-10-13"
   },
   "parallel": {
     "canonical_name": "parallel()",
@@ -6926,8 +6926,8 @@
   "oneplus": {
     "canonical_name": "OnePlus",
     "entity_type": "company",
-    "summary": "OnePlus is a company with 5 employees across 2 locations. It is described as an internet-first brand offering multi-category consumer electronics, with a product portfolio that includes smartphones, wireless earbuds, wearable devices, and fast chargers.",
-    "last_updated": "2026-07-14"
+    "summary": "Apr 11, 2026 · Explore OnePlus' in-depth company profile, including leadership and competitors. OnePlus creates premium, user-centric technology that challenges market conventions and the industry status quo. Founded in 2013 around the bold Never Settle mantra, OnePlus consistently creates premium d",
+    "last_updated": "2026-10-13"
   },
   "oppo": {
     "canonical_name": "Oppo",
@@ -8531,8 +8531,8 @@
   "china": {
     "canonical_name": "China",
     "entity_type": "country",
-    "summary": "China is the largest country in East Asia, occupying nearly the entire East Asian landmass and covering about one-fourteenth of Earth's land area. It has a population of 1.41 billion, a GDP of $18.74 trillion, and its capital is Beijing.",
-    "last_updated": "2026-07-18"
+    "summary": "China is a country in East Asia and the largest of all Asian countries by land area. It is the world's most populous country, with a population of around 1.404 billion, and is a unified multi-ethnic country with the Han nationality as the main nation.",
+    "last_updated": "2026-10-13"
   },
   "us": {
     "canonical_name": "US",
@@ -11279,8 +11279,8 @@
   "go": {
     "canonical_name": "Go",
     "entity_type": "technology",
-    "summary": "GO Technology Group is a cutting-edge IT solutions provider based in Chicago, specializing in a wide range of services. The company operates with a lean team and generates revenue in the lower mid-range, indicating an opportunity for scalable, cost-efficient telecom and mobile solutions.",
-    "last_updated": "2026-07-23"
+    "summary": "Go is a general-purpose, strongly and statically typed programming language designed with systems programming in mind, initially developed at Google in 2007. It provides inbuilt support for garbage collection and concurrent programming, making it well-suited for fast, scalable backend systems.",
+    "last_updated": "2026-10-13"
   },
   "dpdk": {
     "canonical_name": "DPDK",
@@ -20857,5 +20857,323 @@
     "entity_type": "person",
     "summary": "Sai Srirampur is an infrastructure engineer and founder who currently leads ClickPipes, the native integration engine of ClickHouse. He previously served at Microsoft leading a Solutions Engineering team focused on scaling PostgreSQL deployments within Azure.",
     "last_updated": "2026-10-12"
+  },
+  "composo": {
+    "canonical_name": "Composo",
+    "entity_type": "organization",
+    "summary": "Composo provides an API for automated AI evaluations, enabling teams to test prompts, detect drift, and monitor model performance at scale. The company focuses on helping teams ship AI features and agents quickly and with high confidence by offering deterministic evaluations to track the impact of p",
+    "last_updated": "2026-10-13"
+  },
+  "xᵉ3p": {
+    "canonical_name": "Xᵉ3P",
+    "entity_type": "technology",
+    "summary": "The Xᵉ3P technology refers to the Intel GPU D-series architecture, which is optimized to power agentic AI. It supports leading open models on vLLM and the open PyTorch ecosystem via an air-cooled PCIe 5.0 card.",
+    "last_updated": "2026-10-13"
+  },
+  "unsiloed": {
+    "canonical_name": "Unsiloed",
+    "entity_type": "product",
+    "summary": "Unsiloed is a document processing system that reads pages by breaking them into typed regions such as tables, figures, and signatures. It uses attention-guided heatmaps to focus on pivot zones and processes documents via two parallel streams that fuse content and layout.",
+    "last_updated": "2026-10-13"
+  },
+  "marketyourgames": {
+    "canonical_name": "marketyour.games",
+    "entity_type": "product",
+    "summary": "Marketyour.games is a platform for indie game promotion that provides verified YouTube creators. Users can search by genre and audience size, build curated lists, and export CSV contacts using a pay-per-search model with no subscriptions required.",
+    "last_updated": "2026-10-13"
+  },
+  "libsodium": {
+    "canonical_name": "libsodium",
+    "entity_type": "technology",
+    "summary": "Libsodium is a powerful and versatile cryptography library focused on modern algorithms, secure defaults, and ease of use. It provides authenticated encryption with associated data, Diffie-Hellman key exchange, and tools like Hashicorp's Vault and Elliptic Curve Cryptography libraries.",
+    "last_updated": "2026-10-13"
+  },
+  "intel": {
+    "canonical_name": "Intel",
+    "entity_type": "company",
+    "summary": "Intel is a technology company that designs and manufactures technology to help people connect, create, and achieve great things together. The company aims to build world-changing technology that improves the life of every person on the planet and underpins everyday life.",
+    "last_updated": "2026-10-13"
+  },
+  "fma": {
+    "canonical_name": "FMA",
+    "entity_type": "technology",
+    "summary": "FMA Technology is a big data analysis software and service provider that offers an efficient and scalable graph processing platform, graph database, and graph computing solutions. The company is headquartered at the Sohu Network Building in the Haidian District of Beijing, China.",
+    "last_updated": "2026-10-13"
+  },
+  "gnu assembler": {
+    "canonical_name": "GNU assembler",
+    "entity_type": "product",
+    "summary": "The GNU Assembler (GAS) is the default assembler for the GNU operating system and a part of the GNU Binutils package. It serves as the assembler used by the GNU Compiler Collection (GCC), is portable across multiple CPU architectures, and is widely used in Unix-like operating systems.",
+    "last_updated": "2026-10-13"
+  },
+  "dori yona": {
+    "canonical_name": "Dori Yona",
+    "entity_type": "person",
+    "summary": "Dori Yona is the co-founder and CEO of SimpleClosure and a member of PEF Community. He attended the University of Haifa and started SimpleClosure after experiencing a difficult business closure and finding a lack of good advice.",
+    "last_updated": "2026-10-13"
+  },
+  "sunset": {
+    "canonical_name": "Sunset",
+    "entity_type": "company",
+    "summary": "SUNSET is a defining lifestyle brand of the modern American West that covers the region's top destinations, food and wine experiences, home and garden trends, and personalities. The iconic 120-year-old brand operates through magazines, books, events, and digital media.",
+    "last_updated": "2026-10-13"
+  },
+  "carlos garcíagalán": {
+    "canonical_name": "Carlos García-Galán",
+    "entity_type": "person",
+    "summary": "Carlos García-Galán is the Program Manager for the Moon Base, bringing more than 30 years of experience in human spaceflight to this role. He supports the overall management and development of NASA’s Moon Base initiative and previously served as the Deputy Manager for the Gateway Program.",
+    "last_updated": "2026-10-13"
+  },
+  "muse wonder": {
+    "canonical_name": "Muse Wonder",
+    "entity_type": "ai_model",
+    "summary": "Meta introduced the Muse Wonder series, which includes Muse Wonder and Muse Wonder Full, as the company's most capable models to date. They are designed to deliver state-of-the-art performance on personal and professional agentic tasks, such as navigating insurance claims, understanding leases, or a",
+    "last_updated": "2026-10-13"
+  },
+  "muse wonder full": {
+    "canonical_name": "Muse Wonder Full",
+    "entity_type": "ai_model",
+    "summary": "Muse Wonder Full is part of Meta's new Muse Wonder series, representing the company's most capable models to date. These models are built to deliver state-of-the-art performance on personal and professional agentic tasks by interpreting complex information and working through problems.",
+    "last_updated": "2026-10-13"
+  },
+  "meta model api": {
+    "canonical_name": "Meta Model API",
+    "entity_type": "product",
+    "summary": "The Meta Model API is an inference platform that gives developers direct, self-serve, and affordable access to Meta's latest models, including Muse Spark and Muse Wonder. It allows users to build agentic and multi-modal workflows, connect agents to real-time web search grounding, and run coding agen",
+    "last_updated": "2026-10-13"
+  },
+  "fable 51": {
+    "canonical_name": "Fable 5.1",
+    "entity_type": "ai_model",
+    "summary": "Claude Fable 5.1 is designed for demanding reasoning and long-horizon agentic work, extending the capabilities of Claude Fable 5. It supports stronger long-running agentic coding, multistep research, and document, spreadsheet, and slide work at the same input and output prices as Claude Fable 5.",
+    "last_updated": "2026-10-13"
+  },
+  "muse code": {
+    "canonical_name": "Muse Code",
+    "entity_type": "product",
+    "summary": "Muse Code is a fast and accessible AI terminal coding agent powered by Muse Spark. It uses multiple coordinating agents to plan, fan out, and review work in parallel, allowing users to build, debug, and ship complex coding workstreams without sacrificing quality.",
+    "last_updated": "2026-10-13"
+  },
+  "windborne systems": {
+    "canonical_name": "WindBorne Systems",
+    "entity_type": "company",
+    "summary": "WindBorne Systems is a company based in Redwood Shores, California, that designs, builds, and operates a constellation of long-duration smart weather balloons to collect atmospheric data. The company fuses this proprietary data with AI models to produce highly accurate weather forecasts and manufact",
+    "last_updated": "2026-10-13"
+  },
+  "us air force": {
+    "canonical_name": "U.S. Air Force",
+    "entity_type": "organization",
+    "summary": "The U.S. Air Force is organized under the Department of the Air Force and is directed by federal law to organize, train, and equip forces for prompt and sustained offensive and defensive air operations. It is structured into ten major commands, field operating agencies, and direct reporting units, w",
+    "last_updated": "2026-10-13"
+  },
+  "national weather service": {
+    "canonical_name": "National Weather Service",
+    "entity_type": "organization",
+    "summary": "The National Weather Service is an organization that is currently undergoing an agency-wide reorganization to streamline operations, improve service delivery, and increase efficiencies. It is responsible for issuing weather forecasts and warnings, such as those regarding remnant moisture from tropic",
+    "last_updated": "2026-10-13"
+  },
+  "weathermesh 6": {
+    "canonical_name": "WeatherMesh 6",
+    "entity_type": "ai_model",
+    "summary": "WeatherMesh-6 (wm-6) is the next generation of WindBorne's AI weather model, initialized with proprietary balloon observations from across the globe. It delivers improved forecast accuracy through enhanced data assimilation, an integrated ensemble system, and an expanded set of variables, while also",
+    "last_updated": "2026-10-13"
+  },
+  "honeyjar": {
+    "canonical_name": "Honeyjar",
+    "entity_type": "startup",
+    "summary": "Honeyjar is an AI communications partner designed to help companies seize opportunities. It turns business launches and milestones into actionable strategies by providing the necessary contacts and assets.",
+    "last_updated": "2026-10-13"
+  },
+  "obvious ventures": {
+    "canonical_name": "Obvious Ventures",
+    "entity_type": "organization",
+    "summary": "Obvious Ventures is an organization that explores ideas, essays, and insights to shape its investment strategy. It is headquartered in a red brick building in San Francisco, located on the northwest corner of Sydney Walton Square.",
+    "last_updated": "2026-10-13"
+  },
+  "brad smith": {
+    "canonical_name": "Brad Smith",
+    "entity_type": "person",
+    "summary": "Brad Smith joined Microsoft in 1993 and later became the company's general counsel, leading work to resolve antitrust controversies during the following decade. He currently serves as Microsoft's vice chair and president, leading work on issues involving the intersection between technology and socie",
+    "last_updated": "2026-10-13"
+  },
+  "united kingdom": {
+    "canonical_name": "United Kingdom",
+    "entity_type": "organization",
+    "summary": "The United Kingdom is a sovereign UN member state governed through branches of power where some aspects of government are devolved to Scotland, Wales, and Northern Ireland. The structure includes ministerial departments, such as the Ministry of Defence, as well as non-ministerial departments headed",
+    "last_updated": "2026-10-13"
+  },
+  "ai security institute": {
+    "canonical_name": "AI Security Institute",
+    "entity_type": "organization",
+    "summary": "The AI Security Institute is a directorate of the Department of Science, Innovation, and Technology dedicated to advancing state-backed research for advanced AI governance. It facilitates rigorous research to understand the capabilities and impacts of advanced AI, develops risk mitigations, and coll",
+    "last_updated": "2026-10-13"
+  },
+  "fitbit edge": {
+    "canonical_name": "Fitbit Edge",
+    "entity_type": "product",
+    "summary": "The Google Fitbit Edge is a sleek, lightweight fitness tracker designed for an active lifestyle. It features a bright, large display, over 50 workout types, automatic activity recognition, and advanced health sensors for heart rate, sleep, and recovery. It also offers up to seven days of battery lif",
+    "last_updated": "2026-10-13"
+  },
+  "google health coach": {
+    "canonical_name": "Google Health Coach",
+    "entity_type": "product",
+    "summary": "Google Health Coach is a personal AI health assistant built with Gemini that provides proactive fitness, sleep, and wellness insights. It connects user metrics to daily routines and long-term goals to build adaptive workout plans and offer ongoing support for health improvements.",
+    "last_updated": "2026-10-13"
+  },
+  "health guardian": {
+    "canonical_name": "Health Guardian",
+    "entity_type": "product",
+    "summary": "Health Guardian is a brand that offers natural supplements aimed at supporting heart, gut, and immune health. Their product line focuses on cardiovascular wellness, blood pressure support, and overall natural wellness.",
+    "last_updated": "2026-10-13"
+  },
+  "ultrahuman": {
+    "canonical_name": "Ultrahuman",
+    "entity_type": "company",
+    "summary": "Sep 22, 2026 · Explore Ultrahuman's in-depth company profile, including funding details, key investors, leadership, competitors, shareholding structure, and acquisitions. Ultrahuman is a health technology company headquartered in Bengaluru, India, that designs, manufactures and sells the Ultrahuman",
+    "last_updated": "2026-10-13"
+  },
+  "huaqin": {
+    "canonical_name": "Huaqin",
+    "entity_type": "company",
+    "summary": "Huaqin Technology, founded in 2005 and headquartered in Shanghai, China, is a globally leading, technology-driven smart product platform that provides end-to-end solutions across the entire value chain to its customers. With over 20 years of deep expertise in the smart product industry, Huaqin suppo",
+    "last_updated": "2026-10-13"
+  },
+  "meituan": {
+    "canonical_name": "Meituan",
+    "entity_type": "company",
+    "summary": "Meituan is a leading Chinese multinational technology company headquartered in Beijing, China, operating as a pioneer in the 'Retail + Technology' strategy. It functions as the world’s largest web-based platform for localized life services, on-demand delivery, and community-centric e-commerce soluti",
+    "last_updated": "2026-10-13"
+  },
+  "yandex": {
+    "canonical_name": "Yandex",
+    "entity_type": "company",
+    "summary": "Yandex is a technology company that builds intelligent products and services powered by artificial intelligence. Our goal is to help consumers and businesses better navigate the online and offline world. Since 1997, we have delivered world-class, locally relevant search and information services. How",
+    "last_updated": "2026-10-13"
+  },
+  "mechanism": {
+    "canonical_name": "Mechanism",
+    "entity_type": "company",
+    "summary": "Mechanism is a company founded in 2019 that builds profitable startups from scratch using a foundation of algorithms and advanced mathematics. It brings together top engineering minds from institutions like Princeton and MIT to drive a 100% success rate in company building.",
+    "last_updated": "2026-10-13"
+  },
+  "basecase": {
+    "canonical_name": "Basecase",
+    "entity_type": "product",
+    "summary": "Basecase is a tool designed to turn raw rent rolls and T12s into fully populated institutional investment models in minutes. It delivers a full IC-grade Excel model with live formulas, including GP/LP waterfalls, sensitivities, and debt sizing, without requiring demos, annual contracts, or training",
+    "last_updated": "2026-10-13"
+  },
+  "basegrip": {
+    "canonical_name": "Basegrip",
+    "entity_type": "product",
+    "summary": "JM BaseGrip® SD/SA is a product designed for use in roofing systems that require two or more plies of modified bitumen. It can be used as the base ply when installed over an approved substrate.",
+    "last_updated": "2026-10-13"
+  },
+  "gaming pillow": {
+    "canonical_name": "Gaming Pillow",
+    "entity_type": "product",
+    "summary": "The Gaming Pillow is a comfort-focused accessory designed for long hours of immersive play to provide unbeatable support and prevent arm tingle. It features lightweight beaded filling that conforms to any shape, a high-performance Lycra fabric, and a ball socket mount to hold the device in place.",
+    "last_updated": "2026-10-13"
+  },
+  "no mans sky": {
+    "canonical_name": "No Man's Sky",
+    "entity_type": "product",
+    "summary": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated galaxy. It is available on PS4, PC, and Xbox One.",
+    "last_updated": "2026-10-13"
+  },
+  "oneplus 16": {
+    "canonical_name": "OnePlus 16",
+    "entity_type": "product",
+    "summary": "4 days ago · The OnePlus 16 will come with Android 17, ensuring enhanced functionality and smooth multitasking. It features a huge 6.78-inches Crystal-clear Full HD+ display, perfect for both work and entertainment. Enjoy an ultra-smooth experience, perfect for gaming and high-performance tasks. One",
+    "last_updated": "2026-10-13"
+  },
+  "cmf speaker s": {
+    "canonical_name": "CMF Speaker S",
+    "entity_type": "product",
+    "summary": "The CMF Speaker S is a portable Bluetooth speaker that shares a design inspiration with the CMF Speaker M, resembling a milk carton with a gabled top and a built-in carry handle. The speaker features a matte black body, a CMF logo, a small round button on top, and an orange knob, with the smaller mo",
+    "last_updated": "2026-10-13"
+  },
+  "cmf speaker m": {
+    "canonical_name": "CMF Speaker M",
+    "entity_type": "product",
+    "summary": "The CMF Speaker M is a portable Bluetooth speaker equipped with a built-in carry handle and two drivers. It features a 70 mm woofer and a 16 mm tweeter that deliver 35 W of output, providing deep bass and clear vocals, and it is capable of playing up to 18 hours at 50% volume.",
+    "last_updated": "2026-10-13"
+  },
+  "tailwind css": {
+    "canonical_name": "Tailwind CSS",
+    "entity_type": "technology",
+    "summary": "Tailwind CSS is a utility-first CSS framework designed for rapidly building modern websites. It allows developers to compose any design directly in their HTML markup using a wide range of utility classes.",
+    "last_updated": "2026-10-13"
+  },
+  "xiryn": {
+    "canonical_name": "Xiryn",
+    "entity_type": "product",
+    "summary": "Xiryn is an open-source personal agent that runs on your own computer. It functions as a team of autonomous agents, with each agent operating in its own Linux desktop environment within Docker.",
+    "last_updated": "2026-10-13"
+  },
+  "sepehr071awesomeiranmcp": {
+    "canonical_name": "sepehr071/awesome-iran-mcp",
+    "entity_type": "product",
+    "summary": "Awesome-iran-mcp is a collection of 19 open-source Model Context Protocol (MCP) servers that provide AI agents with access to the Iranian web. It includes 308 tools for various platforms, allowing users to search, compare prices, and find deals using MCP clients.",
+    "last_updated": "2026-10-13"
+  },
+  "digikala": {
+    "canonical_name": "Digikala",
+    "entity_type": "product",
+    "summary": "Digikala is an online retail platform that started in 1385 with limited initial capital. Over 17 years, it expanded its e-commerce ecosystem by entering new business models and grew into a large operating company within the Digikala Group.",
+    "last_updated": "2026-10-13"
+  },
+  "snappfood": {
+    "canonical_name": "Snappfood",
+    "entity_type": "product",
+    "summary": "Snappfood is Iran's first online food ordering platform, operating in 170 cities. It allows customers to find menus, order, and get deliveries from over 1,500 restaurants via its website and mobile application.",
+    "last_updated": "2026-10-13"
+  },
+  "taaghche": {
+    "canonical_name": "Taaghche",
+    "entity_type": "product",
+    "summary": "Taaghche is a Persian-language digital platform headquartered in Iran that specializes in the online distribution and sale of electronic books, audiobooks, magazines, and newspapers. Its library exceeds 150,000 titles sourced from collaborations with hundreds of publishers.",
+    "last_updated": "2026-10-13"
+  },
+  "antigravity": {
+    "canonical_name": "Antigravity",
+    "entity_type": "product",
+    "summary": "Antigravity is a developer agent suite designed for the agent-first era, built to orchestrate multiple subagents across various environments. It enables complex, long-running workflows in the background while other agents handle research, implementation, and testing.",
+    "last_updated": "2026-10-13"
+  },
+  "qwen38flashnext": {
+    "canonical_name": "Qwen3.8-Flash-Next",
+    "entity_type": "ai_model",
+    "summary": "Qwen3.8-Flash-Next is a multimodal Mixture of Experts (MoE) foundation model developed by the Qwen Team at Alibaba Group. It serves as an early architectural preview of the Qwen4 model and continues the hybrid Gated DeltaNet + Gated Attention design used across the Qwen3.5 to Qwen3.8 series.",
+    "last_updated": "2026-10-13"
+  },
+  "atoll92": {
+    "canonical_name": "Atoll92",
+    "entity_type": "organization",
+    "summary": "Atoll92 is a musical artist based in Paris, France, and is part of the Fils de Vénus family. Their music spans genres such as late night electronica, Emodrill House, Trapcore, ambient, chill out, deep house, and minimal house.",
+    "last_updated": "2026-10-13"
+  },
+  "mistral vibe": {
+    "canonical_name": "Mistral Vibe",
+    "entity_type": "product",
+    "summary": "Mistral Vibe is a unified agent for productivity and coding tasks, available across web, mobile, code editors, and terminal. It merges quick conversations and multi-step agentic work into a single experience, using a fast/think toggle to set the depth of the interaction.",
+    "last_updated": "2026-10-13"
+  },
+  "agent standup": {
+    "canonical_name": "Agent Standup",
+    "entity_type": "product",
+    "summary": "Agent Standup is an unofficial, MIT-licensed community tool created by Atoll92 that visualizes Claude Code sessions as a live team meeting. It reads local session files to show which agents are working, waiting, blocked, or done, and is available as a VS Code extension, a terminal command, and a des",
+    "last_updated": "2026-10-13"
+  },
+  "vue 3": {
+    "canonical_name": "Vue 3",
+    "entity_type": "technology",
+    "summary": "Vue 3 is a JavaScript framework for building user interfaces, providing a declarative, component-based programming model that builds on standard HTML, CSS, and JavaScript. It is designed to be flexible and incrementally adoptable, making it suitable for developing user interfaces of any complexity.",
+    "last_updated": "2026-10-13"
+  },
+  "layaguard": {
+    "canonical_name": "laya-guard",
+    "entity_type": "product",
+    "summary": "Laya-guard is a free, local guardrail tool designed for AI coding agents to safely execute shell commands. It evaluates every tool call directly on the user's device in approximately 0.1 seconds, utilizing a small multilingual model to classify actions as allow, review, or block.",
+    "last_updated": "2026-10-13"
   }
 }

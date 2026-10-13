@@ -1,5 +1,451 @@
 [
   {
+    "id": "47260c634c6b",
+    "title": "DishwasherBench – क्या फ्रंटियर एआई मॉडल एक डिशवॉशर लोड कर सकते हैं?",
+    "summary": "एआई की दुनिया में नए मोर्चों की तलाश लगातार जारी है, और अब एक स्टार्टअप ने एक डिशवॉशर को बेंचमार्क के रूप में चुना है। कंपोसो नामक एक कंपनी ने 'डिशवॉशरबेंच' (DishwasherBench) पेश किया है, जो एक अनूठा परीक्षण है। यह केवल एक सॉफ्टवेयर नहीं है, बल्कि एक वास्तविक बॉश मशीन के 3D सिमुलेशन पर आधारित एक ब्राउज़र गेम है। इसका…",
+    "category": "general",
+    "tags": [
+      "Composo",
+      "Spotless",
+      "DishwasherBench"
+    ],
+    "image": "https://opengraph.githubassets.com/85b85927ac6ab2e164d25deaefffa6008e8978f962adf23442e6a93c799acbce/composo-ai/DishwasherBench",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5c767c906cd8",
+    "title": "क्या सॉफ्टवेयर इंजीनियर हमेशा से ही ब्लू-कॉलर वर्कर रहे हैं?",
+    "summary": "अर्थशास्त्र की दुनिया में कर्मचारियों को आमतौर पर दो श्रेणियों में बांटा जाता है: व्हाइट-कॉलर, जो कार्यालयों में ज्ञान-आधारित कार्य करते हैं, और ब्लू-कॉलर, जो मैनुअल लेबर या कुशल व्यापार में लगे होते हैं। पिछले कई दशकों से सॉफ्टवेयर इंजीनियरों को व्हाइट-कॉलर पेशेवरों की श्रेणी में रखा गया है। हालांकि, एक नई और…",
+    "category": "general",
+    "image": "https://ptrbrynt.com/social_previews/posts/were-we-blue-collar-workers-all-along.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "657a150f08e4",
+    "title": "Intel D270 GPU AI Accelerator: डेटा सेंटर्स के लिए 480 GB LPDDR5X मेमोरी के साथ एक नया विकल्प",
+    "summary": "Intel ने अपने डेटा सेंटर पोर्टफोलियो का विस्तार करते हुए नया D270 GPU AI Accelerator पेश किया है। यह नया ग्राफिक्स प्रोसेसिंग यूनिट (GPU) विशेष रूप से एजेंटिक एआई (Agentic AI) और लॉन्ग कॉन्टेक्स्ट (Long Context) जैसे जटिल कार्यों को संभालने के लिए डिज़ाइन किया गया है। इस लॉन्च का मुख्य उद्देश्य डेटा सेंटर्स में उच्च…",
+    "category": "model_release",
+    "tags": [
+      "Intel",
+      "D270",
+      "Xᵉ3P"
+    ],
+    "image": "https://www.intel.com/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/printlogo.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "12aa48dd8098",
+    "title": "दस्तावेज़ समीक्षा में नई तकनीक: टाइपसेफ जेव और अनसिलोड का नवाचार",
+    "summary": "दस्तावेज़ों से जानकारी निकालना हमेशा से एक जटिल प्रक्रिया रही है, जहाँ एक छोटी सी गलती भी बड़े नुकसान का कारण बन सकती है। एक निष्कर्षण पाइपलाइन किसी मूल्य को सही ढंग से पढ़ सकती है और फिर भी खराब डेटा को आगे भेज सकती है, जिससे पूरी प्रणाली की विश्वसनीयता पर सवाल उठते हैं। इस समस्या को हल करने के लिए, डायोगो अल्मेडा की…",
+    "category": "general",
+    "tags": [
+      "Unsiloed",
+      "Jev"
+    ],
+    "image": "https://www.unsiloed.ai/blog-assets/unsiloed-jev/cover.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4aaf92f254c0",
+    "title": "C में लिखा आधुनिक वेब ऐप: 1994 की तकनीक 2026 में भी है प्रासंगिक",
+    "summary": "यह कहानी एक ऐसे वेब एप्लिकेशन की है जो आधुनिक युग में पुरानी तकनीक का बेहतरीन उदाहरण पेश करता है। 'marketyour.games' नामक एक प्लेटफॉर्म, जो इंडी गेम प्रमोशन के लिए बनाया गया है, पूरी तरह से C प्रोग्रामिंग भाषा में लिखा गया है और CGI के माध्यम से सर्व किया जाता है। इस एप्लिकेशन में यूजर अकाउंट्स, Stripe के जरिए पेमेंट,…",
+    "category": "general",
+    "tags": [
+      "marketyour.games",
+      "OpenBSD",
+      "Apache"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "09fdf196ad6e",
+    "title": "vfmaddrnd231pd: x86 असेंबली का एक रहस्यमयी निर्देश",
+    "summary": "x86 प्रोसेसर आर्किटेक्चर की दुनिया में, डेवलपर्स अक्सर असेंबली निर्देशों का उपयोग करके जटिल गणितीय गणनाएं करते हैं। हाल ही में, एक अजीबोगरीब निर्देश vfmaddrnd231pd की पहचान की गई है, जो इंटेल के सॉफ्टवेयर डेवलपमेंट मैनुअल (SDM) में दर्ज है। यह निर्देश FMA (Fused Multiply-Add) सेट का हिस्सा है, लेकिन इसकी तकनीकी…",
+    "category": "repo_analysis",
+    "tags": [
+      "Intel",
+      "FMA",
+      "GNU assembler"
+    ],
+    "image": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/og.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ccf38ad05a3b",
+    "title": "मृत स्टार्टअप्स का डेटा खरीद रहे हैं AI लैब",
+    "summary": "अधिकांश स्टार्टअप्स अपनी यात्रा में सफल नहीं हो पाते हैं और अंततः बंद हो जाते हैं। लेकिन अब, इन विफल कंपनियों का डेटा कृत्रिम बुद्धिमत्ता (AI) मॉडल को प्रशिक्षित करने के लिए एक नई और मूल्यवान संपत्ति बन गया है। कीलन मिस्कल (Keelan Miskell) का उदाहरण इस उभरते हुए रुझान को स्पष्ट करता है। उन्होंने हाल ही में अपना…",
+    "category": "general",
+    "tags": [
+      "Keelan Miskell",
+      "SimpleClosure",
+      "Dori Yona"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AI-Death_Redamonti_MIT-thumb.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "2a956f245a64",
+    "title": "मंगल एक नरक हो सकता है, लेकिन चंद्रमा भी उससे बहुत दूर नहीं है",
+    "summary": "अंतरिक्ष अन्वेषण का नया अध्याय आधिकारिक तौर पर शुरू हो चुका है, जो केवल झंडे फहराने से आगे बढ़कर चंद्रमा पर स्थायी मानव बस्तियां बसाने की ओर बढ़ रहा है। संयुक्त राज्य अमेरिका और चीन के बीच यह तीव्र भू-राजनीतिक दौड़ अब निजी अंतरिक्ष उड़ान कंपनियों के एक बढ़ते उद्योग के साथ मिलकर आकार ले रही है। नासा के प्रशासक जेरेड…",
+    "category": "general",
+    "tags": [
+      "NASA",
+      "Jared Isaacman",
+      "China"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Selman-MIT-MoonBase-Jacket-thumb.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "70f69aa61f7d",
+    "title": "मेटा ने पेश किया अपना पहला फ्रंटियर मॉडल, Muse Wonder",
+    "summary": "मेटा ने सोमवार को अपने सुपरइंटेलिजेंस लैब के माध्यम से म्यूज़ वंडर (Muse Wonder) और म्यूज़ वंडर फुल (Muse Wonder Full) नामक दो नए स्टेट-ऑफ-द-आर्ट एआई मॉडल पेश किए हैं, जो कंपनी के पहले फ्रंटियर मॉडल हैं। यह कदम मेटा के कृत्रिम बुद्धिमत्ता (AI) क्षेत्र में एक महत्वपूर्ण प्रगति को दर्शाता है। पिछले मॉडल 'म्यूज़ स्पार्क'…",
+    "category": "model_release",
+    "tags": [
+      "Meta",
+      "Muse Wonder",
+      "Muse Wonder Full"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "8e8b602fc5f5",
+    "title": "विंडबोर्न सिस्टम्स को अमेरिकी वायु सेना से मिला 49 मिलियन डॉलर का बड़ा कॉन्ट्रैक्ट",
+    "summary": "रेडवुड सिटी स्थित स्टार्टअप विंडबोर्न सिस्टम्स ने अमेरिकी वायु सेना के साथ लगभग 49 मिलियन डॉलर का एक महत्वपूर्ण कॉन्ट्रैक्ट हासिल किया है। यह कॉन्ट्रैक्ट वायुमंडलीय डेटा प्रदान करने के लिए है, जिसे कंपनी के स्वायत्त मौसम गुब्बारे एकत्र करेंगे। यह सौदा बिना किसी प्रतिस्पर्धी बोली (बिना competitive bidding) के दिया गया…",
+    "category": "model_release",
+    "tags": [
+      "WindBorne Systems",
+      "U.S. Air Force",
+      "National Weather Service"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/Pic-8.jpg?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fa08cc00ea9a",
+    "title": "हनीजार: पीआर और कम्युनिकेशंस को सुव्यवस्थित करने के लिए एआई-संचालित समाधान",
+    "summary": "पत्रकारों, उद्यमियों और पीआर पेशेवरों के बीच यह आम धारणा है कि जनसंपर्क की प्रक्रिया काफी त्रुटिपूर्ण और जटिल है। इसी समस्या को सुलझाने के उद्देश्य से हनीजार नाम का एक एआई-संचालित स्टार्टअप इस सप्ताह टेकक्रंच डिसरप्ट के स्टार्टअप बैटलफील्ड 200 में भाग ले रहा है। यह स्टार्टअप कृत्रिम बुद्धिमत्ता का उपयोग करके पीआर…",
+    "category": "general",
+    "tags": [
+      "Honeyjar",
+      "Michelle Masek",
+      "Nadia Jamshidi"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/honeyjar-founders.jpg?resize=960,1200",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "da2cafd8b490",
+    "title": "माइक्रोसॉफ्ट अध्यक्ष का दावा: एआई रेगुलेशन में यूके सबसे आगे",
+    "summary": "माइक्रोसॉफ्ट के अध्यक्ष ब्रैड स्मिथ ने हाल ही में एक बीबीसी पॉडकास्ट पर एक गंभीर चेतावनी जारी की है। उन्होंने कहा कि कृत्रिम बुद्धिमत्ता (एआई) कंपनियों पर दूध और वाशिंग मशीन जैसे उपभोक्ता उत्पादों की तुलना में भी कम निगरानी है। स्मिथ ने एआई को एक \"हथियार और एक उपकरण\" दोनों बताया है, जो दुनिया की साइबर सुरक्षा को खतरे…",
+    "category": "ban_regulation",
+    "tags": [
+      "Brad Smith",
+      "Microsoft",
+      "United Kingdom"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "442144b0b35d",
+    "title": "Fitbit Edge: Google का नया वियरेबल, जो Fitbit Air और Pixel Watch के बीच की दूरी मिटाता है",
+    "summary": "सोमवार को Google ने अपने वियरेबल पोर्टफोलियो में एक नया नाम जोड़ा है - Fitbit Edge। $179.99 की कीमत के साथ, यह नया डिवाइस Google की रणनीति का हिस्सा है जो यूजर्स को एक ऐसा विकल्प देता है जो न तो बहुत बेसिक है और न ही बहुत महंगा। यह नया वियरेबल कंपनी की लाइनअप में एक महत्वपूर्ण स्थान रखता है, जो उन यूजर्स के लिए बनाया…",
+    "category": "model_release",
+    "tags": [
+      "Fitbit Edge",
+      "Fitbit Air",
+      "Pixel Watch"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4514.webp?w=1200",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "7a20cda74467",
+    "title": "स्मार्ट रिंग निर्माता Ultrahuman यूएई में जैविक-आयु (Biological Age) मॉडल लॉन्च करेगा",
+    "summary": "बेंगलुरु स्थित स्वास्थ्य प्रौद्योगिकी स्टार्टअप Ultrahuman ने सोमवार को अबू धाबी के स्वास्थ्य अधिकारियों के साथ एक महत्वपूर्ण साझेदारी की घोषणा की। इस समझौते के तहत, कंपनी यूएई के लिए एक जैविक-आयु मॉडल (biological-age model) विकसित करेगी, जो नैदानिक बायोमार्कर और पहनने योग्य उपकरणों के डेटा को मिलाकर यह अनुमान लगाएगा…",
+    "category": "model_release",
+    "tags": [
+      "Ultrahuman",
+      "Abu Dhabi Public Health Center"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/ultrahuman-ring-air.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "47c2a6e011d8",
+    "title": "TechCrunch Disrupt 2026: कल से शुरू हो रहा है टेक का सबसे बड़ा इवेंट",
+    "summary": "कल सुबह 8 बजे पैसिफिक समय (PT) के साथ, टेकक्रंच डिसरप्ट 2026 आधिकारिक तौर पर शुरू हो जाएगा। सैन फ्रांसिस्को के डाउनटाउन में स्थित मोस्कोन वेस्ट कन्वेंशन सेंटर में 10,000 से अधिक संस्थापक, निवेशक और तकनीकी पेशेवर तीन दिनों के लिए इकट्ठा होंगे। यह इवेंट 15 अक्टूबर तक चलेगा, जो मोस्कोन सेंटर के ठीक नीचे योर्बा बुरबा…",
+    "category": "general",
+    "tags": [
+      "TechCrunch Disrupt",
+      "Moscone West"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/TCD26_24Hours-16X9-Dark.png?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3ea17d5e3961",
+    "title": "पूर्व प्लॉड अधिकारी ने $26M जुटाए: नया एआई ऐप 'एंबी' सुनेगा आपकी हर बातचीत",
+    "summary": "आर्टिफिशियल इंटेलिजेंस (एआई) की दुनिया में एक नया विवाद सामने आया है। टेक कंपनियाँ मानती हैं कि एआई आपकी जितनी अधिक जानकारी इकट्ठा करेगा, वह आपकी उतनी ही बेहतर सहायता कर पाएगा। इसके लिए ऐप्स और डिवाइसों को लगातार बैकग्राउंड में आपकी गतिविधियों को सुनना, देखना या रिकॉर्ड करना पड़ता है, जिससे निजता और डेटा सुरक्षा को…",
+    "category": "general",
+    "tags": [
+      "Plaud",
+      "Ambi",
+      "Peter Mo"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ambi-by-Mistlabs.jpeg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2f3a6247486a",
+    "title": "यांडेक्स आउटेज ने शायद रूसी बॉट्स को नहीं मिटाया",
+    "summary": "पिछले कुछ दिनों में, सोशल मीडिया प्लेटफॉर्म्स पर एक वायरल चार्ट तेजी से फैल रहा है, जो क्लाउडफ्लेयर (Cloudflare) के डेटा का हवाला देते हुए रूसी बॉट ट्रैफिक में भारी गिरावट को दर्शाता है। इस चार्ट को देखकर कई लोगों ने यह अनुमान लगाया कि यूक्रेनी ड्रोन हमलों ने सफलतापूर्वक उन रूसी बॉट्स को नष्ट कर दिया है जो सोशल मीडिया…",
+    "category": "general",
+    "tags": [
+      "Yandex",
+      "Cloudflare",
+      "antibot4navalny"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_C.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c3418a4fca68",
+    "title": "मैकेनिज्म का पहला स्विच 2 केस उम्मीदों पर खरा उतरता है",
+    "summary": "निंटेंडो स्विच 2 (Nintendo Switch 2) के लॉन्च के बाद से ही कई कंपनियों ने इसके लिए नए एक्सेसरीज बनाना धीमा कर दिया था, लेकिन मैकेनिज्म (Mechanism) ने अपनी पहली पेशकश के साथ इस गैप को पाटने का प्रयास किया है। कंपनी ने अपने $49 के बेसकेस के साथ इस एक्सेसरी मार्केट में वापसी की है। यह केस न केवल कंसोल को सुरक्षित रखता…",
+    "category": "general",
+    "tags": [
+      "Nintendo",
+      "Mechanism",
+      "Basecase"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/basecase4.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "de2792450d72",
+    "title": "No Man's Sky अब iPhone और iPad पर आ रहा है",
+    "summary": "Hello Games ने आखिरकार अपने बहुप्रतीक्षित स्पेस एक्सप्लोरेशन गेम No Man's Sky को iOS प्लेटफॉर्म पर लाने की घोषणा कर दी है। यह गेम iPhone और iPad दोनों के लिए 28 अक्टूबर से उपलब्ध होगा। गेम के प्रमुख डेवलपर और संस्थापक, शॉन मरे ने एक आधिकारिक ब्लॉग पोस्ट के माध्यम से यह जानकारी साझा की। मरे ने स्पष्ट किया कि यह कोई…",
+    "category": "model_release",
+    "tags": [
+      "Hello Games",
+      "No Man's Sky",
+      "Sean Murray"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/No-Mans-Sky-iPhone-Screen-1.png?quality=90&strip=all&crop=6.0743707093822%2C0%2C87.851258581236%2C100&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "db4b47a04ddd",
+    "title": "वनप्लस 16: कंपनी के सबसे दिलचस्प और शक्तिशाली स्मार्टफोन की वापसी",
+    "summary": "वनप्लस ने हाल ही में चीनी बाजार में अपना नया प्रीमियम स्मार्टफोन वनप्लस 16 पेश किया है। यह कंपनी का पहला फ्लैगशिप फोन है जिसे उन्होंने अमेरिका और यूरोपीय बाजारों से बाहर निकलने के बाद लॉन्च किया है। तकनीकी दृष्टिकोण से यह स्मार्टफोन कंपनी के इतिहास का सबसे दिलचस्प और शक्तिशाली डिवाइस प्रतीत होता है। इस नए लॉन्च के साथ…",
+    "category": "model_release",
+    "tags": [
+      "OnePlus 16",
+      "OnePlus"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/oneplus-16.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4e5ca708cf93",
+    "title": "CMF के पहले वायरलेस स्पीकर 'म्यूजिकल मिल्क कार्टन' की तरह दिखते हैं",
+    "summary": "Nothing द्वारा स्थापित बजट-केंद्रित ब्रांड CMF, जो वर्तमान में भारत स्थित एक स्वतंत्र सब्सिडियरी के रूप में अलग हो रहा है, ने अपने पहले पोर्टेबल ब्लूटूथ स्पीकर पेश किए हैं। ये नए स्पीकर CMF की किफायती लेकिन विशिष्ट डिजाइन वाली रणनीति का विस्तार हैं, जो Nothing के मूल दर्शन से प्रेरित हैं। इन स्पीकर्स का मुख्य उद्देश्य…",
+    "category": "model_release",
+    "tags": [
+      "CMF",
+      "Nothing",
+      "CMF Speaker S"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/cmf1.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "baffc898b4fc",
+    "title": "टेकदृष्टि विशेष: Solid Glass डिज़ाइन सिस्टम से AI यूज़र इंटरफ़ेस में नई क्रांति",
+    "summary": "हाल ही में, टेकदृष्टि को Solid Glass डिज़ाइन सिस्टम के बारे में विस्तृत जानकारी प्राप्त हुई है। यह डिज़ाइन सिस्टम AI एप्लिकेशन के लिए एक नया मानक स्थापित कर रहा है। पारंपरिक डिज़ाइन अक्सर जटिलता से भरे होते हैं, लेकिन Solid Glass एक सरल और स्पष्ट दृष्टिकोण प्रदान करता है। यह सिस्टम React 19 और Tailwind CSS 4 के साथ…",
+    "category": "repo_analysis",
+    "tags": [
+      "Solid Glass",
+      "shadcn/ui",
+      "React"
+    ],
+    "image": "https://opengraph.githubassets.com/1/deeplethe/solid-glass",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4f77cfc63cf4",
+    "title": "टेकदृष्टि विशेष: Xiryn के साथ अब आपका डेटा आपके पास रहेगा, क्लाउड की कोई जरूरत नहीं",
+    "summary": "आज के समय में जहाँ बड़ी टेक कंपनियाँ अपने एआई एजेंट क्लाउड सर्वर पर चलाती हैं, वहीं एक नया ओपन-सोर्स टूल सामने आया है जो सब कुछ आपके अपने कंप्यूटर पर करने की सुविधा देता है। Xiryn नाम का यह एआई एजेंट यूज़र की प्राइवेसी को ध्यान में रखकर बनाया गया है। यह उन सभी प्रमुख कमर्शियल टूल्स की तरह ही काम करता है, लेकिन सबसे…",
+    "category": "repo_analysis",
+    "tags": [
+      "Xiryn",
+      "Muse",
+      "Grok Bot"
+    ],
+    "image": "https://opengraph.githubassets.com/1/SouravBeraAkaSpeed/xiryn",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f0fb387f15aa",
+    "title": "init-co-jp का नया 'diff-tour': गिट (Git) बदलावों को समझने का एक नया तरीका",
+    "summary": "तकनीकी दुनिया में कोड रिव्यु और बदलावों को समझने की प्रक्रिया हमेशा से महत्वपूर्ण रही है। init-co-jp ने हाल ही में 'diff-tour' नामक एक नया टूल जारी किया है, जो डेवलपर्स के लिए गिट बदलावों को पढ़ना आसान और ज्यादा इंटरैक्टिव बनाता है। यह टूल एक सामान्य गिट डिफ को एक गाइडेड टूर में बदल देता है, जिससे डेवलपर्स कोड के हर…",
+    "category": "general",
+    "tags": [
+      "diff-tour",
+      "Claude Code",
+      "Codex CLI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/init-co-jp/diff-tour",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4538ae7c6eb8",
+    "title": "ईरानी वेब को एआई की पहुंच में लाने वाला विशाल ओपन-सोर्स प्रोजेक्ट 'awesome-iran-mcp'",
+    "summary": "'sepehr071/awesome-iran-mcp' एक ओपन-सोर्स प्रोजेक्ट है जिसने एआई एजेंटों के लिए ईरानी वेब तक पहुंच को काफी आसान बना दिया है। इस रिपॉजिटरी में 19 ओपन-सोर्स मॉडल कॉन्टेक्स्ट प्रोटोकॉल (MCP) सर्वर हैं, जो कुल मिलाकर 308 टूल्स प्रदान करते हैं। इसके माध्यम से एआई मॉडल जैसे क्लॉड (Claude), कर्सर (Cursor), और कोपायलट…",
+    "category": "repo_analysis",
+    "tags": [
+      "sepehr071/awesome-iran-mcp",
+      "Digikala",
+      "Snappfood"
+    ],
+    "image": "https://opengraph.githubassets.com/1/sepehr071/awesome-iran-mcp",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2a06e1cf1bad",
+    "title": "रॉबर्टकार्ल/अनबायस्डस्ट्रैटा: क्यूवेन3.8-फ्लैश-नेक्स्ट के लिए एक नया, निर्भरता-मुक्त डिप्लॉयमेंट टूल",
+    "summary": "टेकदृष्टि की तकनीकी रिपोर्ट के अनुसार, रॉबर्टकार्ल द्वारा पेश किया गया अनबायस्डस्ट्रैटा एक अभूतपूर्व डिप्लॉयमेंट टूल है जिसे विशेष रूप से क्यूवेन3.8-फ्लैश-नेक्स्ट मॉडल के लिए डिज़ाइन किया गया है। इस टूल की सबसे बड़ी खासियत यह है कि यह पूरी तरह से निर्भरता-मुक्त (dependency-free) है। पारंपरिक एआई मॉडल्स को चलाने के लिए…",
+    "category": "repo_analysis",
+    "tags": [
+      "UnbiasedStrata",
+      "llama.cpp",
+      "Qwen3.8-Flash-Next"
+    ],
+    "image": "https://opengraph.githubassets.com/1/robertkarl/UnbiasedStrata",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ba18f94341bd",
+    "title": "Atoll92/agent-standup: एआई कोडिंग सत्रों की निगरानी के लिए नया विज़ुअल टूल",
+    "summary": "डेवलपर्स के लिए अपने एआई कोडिंग सत्रों को ट्रैक करना अक्सर एक जटिल चुनौती होती है, खासकर तब जब वे एक साथ कई एआई एजेंटों के साथ काम कर रहे हों। इस समस्या को हल करने के लिए, पेरिस, फ्रांस के एक संगीत कलाकार और डेवलपर Atoll92 ने 'Agent Standup' नामक एक नया टूल पेश किया है। यह टूल एक अनौपचारिक कम्युनिटी प्रोजेक्ट है जो…",
+    "category": "repo_analysis",
+    "tags": [
+      "Atoll92",
+      "Claude Code",
+      "OpenAI Codex"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Atoll92/agent-standup",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "64aff3462b00",
+    "title": "लोकल एआई एजेंट अब बन सकते हैं मल्टी-यूजर वेब प्रोडक्ट",
+    "summary": "स्थानीय एआई एजेंट (Local AI Agents) आजकल काफी शक्तिशाली हो गए हैं, लेकिन इनकी सबसे बड़ी सीमा यह है कि ये केवल उपयोगकर्ता के अपने टर्मिनल, स्क्रिप्ट और कंप्यूटर की फाइलों तक ही सीमित रहते हैं। इस समस्या को सुलझाने के लिए 'Harness Mate Plat' नामक एक नया ओपन-सोर्स प्लेटफॉर्म सामने आया है। यह टूल आपके व्यक्तिगत एआई एजेंट…",
+    "category": "repo_analysis",
+    "tags": [
+      "LiaosiliangCodeLife",
+      "Hermes Agent",
+      "Vue 3"
+    ],
+    "image": "https://opengraph.githubassets.com/1/liaosiliangCodeLife/harness-mate-plat",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9731425fb3e7",
+    "title": "AI कोडिंग एजेंट्स के लिए नया लोकल सेफ्टी टूल 'Laya-guard'",
+    "summary": "आर्टिफिशियल इंटेलिजेंस (AI) कोडिंग एजेंट्स अब सॉफ्टवेयर डेवलपमेंट का एक अहम हिस्सा बन गए हैं, लेकिन इनके साथ एक बड़ा सुरक्षा जोखिम भी जुड़ा हुआ है। ये एजेंट्स शेल कमांड्स रन करते हैं, पैसे ट्रांसफर कर सकते हैं, और संवेदनशील डेटा को बाहरी सर्वर पर भेज सकते हैं। हर एक कदम पर सुरक्षा जांच (safety check) होना बहुत जरूरी…",
+    "category": "general",
+    "tags": [
+      "scs0209",
+      "laya-guard",
+      "laya"
+    ],
+    "image": "https://opengraph.githubassets.com/1/scs0209/laya-guard",
+    "source": "github",
+    "first_seen": "2026-10-13T09:37:24.790682+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "9239f96f36b8",
     "title": "पोस्टग्रेएसक्यूएल (PostgreSQL) धीमा नहीं है, आपकी स्टोरेज है",
     "summary": "टेकदृष्टि के पाठकों के लिए एक महत्वपूर्ण खबर है। एसआई श्रीरामपुर ने पीओएसईटीटीई 2026 (POSETTE 2026) सम्मेलन में एक विस्तृत प्रस्तुति दी, जिसका मुख्य विषय था \"पोस्टग्रेएसक्यूएल धीमा नहीं है, आपकी स्टोरेज है।\" इस वार्ता में उन्होंने स्पष्ट किया कि जब डेटाबेस बड़े पैमाने पर काम करते हैं, तो उनकी धीमी गति का कारण अक्सर…",
