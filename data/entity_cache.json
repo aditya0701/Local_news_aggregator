@@ -12,10 +12,10 @@
     "last_updated": "2026-09-12"
   },
   "gpt4o": {
-    "canonical_name": "GPT-4o",
+    "canonical_name": "gpt-4o",
     "entity_type": "ai_model",
-    "summary": "GPT-4o is a multimodal and multilingual generative pretrained transformer model released in May 2024 by artificial intelligence (AI) developer OpenAI. It is the flagship large language model (LLM) in the GPT-4 family of AI models, which also includes GPT-4o mini, GPT-4 Turbo and the original GPT-4.",
-    "last_updated": "2026-07-01"
+    "summary": "GPT-4o (where \"o\" stands for \"omni\") is a versatile, high-intelligence flagship model that accepts both text and image inputs and produces text outputs. It is described as the best model for most tasks and is our most capable model outside of the o-series models.",
+    "last_updated": "2026-10-14"
   },
   "linux 69": {
     "canonical_name": "Linux 6.9",
@@ -3944,8 +3944,8 @@
   "gemma": {
     "canonical_name": "Gemma",
     "entity_type": "ai_model",
-    "summary": "Gemma is a family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models. Developed by Google DeepMind and other teams across Google, Gemma is named after the Latin gemma, meaning precious stone, and its model weights are supported b",
-    "last_updated": "2026-07-06"
+    "summary": "Gemma is a family of generative artificial intelligence models that can be used for various tasks, including question answering, summarization, and reasoning.",
+    "last_updated": "2026-10-14"
   },
   "12b": {
     "canonical_name": "12B",
@@ -9112,9 +9112,9 @@
   },
   "rivian": {
     "canonical_name": "Rivian",
-    "entity_type": "Rivian",
-    "summary": "Rivian offers long-range electric vehicles, including innovative EV trucks, SUVs, and vans built for adventure. The company's technology is designed to make driving safer, easier, and more fun, with features like up to 9 drive modes and intuitive software.",
-    "last_updated": "2026-07-19"
+    "entity_type": "company",
+    "summary": "See the company profile for Rivian Automotive, Inc. (RIVN) including business summary, industry/sector information, number of employees, business summary, corporate governance, key executives... The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does n",
+    "last_updated": "2026-10-14"
   },
   "rivian company": {
     "senses": [
@@ -9917,8 +9917,8 @@
   "ford": {
     "canonical_name": "Ford",
     "entity_type": "company",
-    "summary": "Ford Motor Company develops, delivers, and services a range of Ford trucks, commercial cars and vans, sport utility vehicles, and Lincoln luxury vehicles worldwide. The company operates through several segments including Ford Blue, Ford Model e, and Ford Pro, and sells vehicles, service parts, and a",
-    "last_updated": "2026-07-21"
+    "summary": "Learn about Ford Motor Company's purpose, values, brands, history, operations, DEI, philanthropy, and global social impact on our corporate site. Enter your ZIP code so we can find incentives near you. Enter your ZIP code so we can find incentives and dealers near you. Closest Dealer SUVs & Cars Cap",
+    "last_updated": "2026-10-14"
   },
   "f150 lightning": {
     "canonical_name": "F-150 Lightning",
@@ -10976,14 +10976,14 @@
   "science corporation": {
     "canonical_name": "Science Corporation",
     "entity_type": "company",
-    "summary": "Science Corporation is a neural engineering company developing advanced brain-computer interface technology. Founded by Max Hodak, the company focuses on restoring quality of life to those with debilitating conditions. It is based in San Francisco, California.",
-    "last_updated": "2026-07-23"
+    "summary": "Science Corporation is a biotechnology company that develops technologies to blur the lines between medical devices and consumer electronics, focusing on debilitating conditions. It is headquartered in Alameda, California, with secondary offices in Research Triangle Park, North Carolina and Paris, F",
+    "last_updated": "2026-10-14"
   },
   "prima": {
     "canonical_name": "PRIMA",
     "entity_type": "product",
-    "summary": "The Prima wetcast automation system manufactures a wide range of concrete products, including pipes, blocks, and manhole risers. It is a fully automated system that allows precasters to organize work stations to track and measure productivity in real time.",
-    "last_updated": "2026-07-23"
+    "summary": "PRIMA Product is a sourcing company for flatware, tableware, and lighting that manages offshore manufacturing for its clients. It also offers hemp extract containing less than 0.1% THC and plant-based skincare products.",
+    "last_updated": "2026-10-14"
   },
   "max hodak": {
     "canonical_name": "Max Hodak",
@@ -10994,8 +10994,8 @@
   "neuralink": {
     "canonical_name": "Neuralink",
     "entity_type": "company",
-    "summary": "Neuralink operates at the intersection of neurotechnology, medical devices, and advanced robotics. Founded by Elon Musk in 2016, it targets a large unmet medical need and has received FDA 'Breakthrough Device' designations for its Blindsight vision restoration technology.",
-    "last_updated": "2026-07-23"
+    "summary": "Neuralink is a neurotechnology company founded by Elon Musk that develops an implantable brain-computer interface (BCI) to help paralyzed individuals control devices with their brain activity and potentially treat neurological conditions. In clinical trials, people are using Neuralink devices to con",
+    "last_updated": "2026-10-14"
   },
   "agerelated macular degeneration": {
     "canonical_name": "age-related macular degeneration",
@@ -21175,5 +21175,263 @@
     "entity_type": "product",
     "summary": "Laya-guard is a free, local guardrail tool designed for AI coding agents to safely execute shell commands. It evaluates every tool call directly on the user's device in approximately 0.1 seconds, utilizing a small multilingual model to classify actions as allow, review, or block.",
     "last_updated": "2026-10-13"
+  },
+  "aosp": {
+    "canonical_name": "AOSP",
+    "entity_type": "organization",
+    "summary": "AOSP is the Android Open Source Project, which provides the documentation and source code for the Android operating system to the public. It serves as the foundational project for building and contributing to Android across a wide array of devices with different form factors.",
+    "last_updated": "2026-10-14"
+  },
+  "bionic libc": {
+    "canonical_name": "Bionic libc",
+    "entity_type": "technology",
+    "summary": "Bionic libc is Android's C library, math library, and dynamic linker. It includes standard C library functions like fopen and kill, as well as mathematical functions like sin and cos.",
+    "last_updated": "2026-10-14"
+  },
+  "llvm libc": {
+    "canonical_name": "LLVM libc",
+    "entity_type": "technology",
+    "summary": "LLVM-libc is a from-scratch implementation of the C standard library built as part of the LLVM project. It is designed to be modular, multiplatform, and written in modern C++ for correctness, performance, and safety.",
+    "last_updated": "2026-10-14"
+  },
+  "ledger": {
+    "canonical_name": "Ledger",
+    "entity_type": "company",
+    "summary": "Ledger is a company founded in 2014 by experts in the blockchain space to secure digital assets. It has grown to over 700 employees across 8 offices worldwide and develops products and services for individuals and companies to safely buy, store, swap, and manage their digital assets.",
+    "last_updated": "2026-10-14"
+  },
+  "cryptobilis": {
+    "canonical_name": "CryptoBilis",
+    "entity_type": "company",
+    "summary": "CryptoBilis sells hardware wallets and crypto gadgets, provides crypto education, and supports blockchain adoption. An authorized Ledger reseller, the company was involved in a major security incident where tampered hardware wallets were sold that stole $80-93 million via embedded malware, and its o",
+    "last_updated": "2026-10-14"
+  },
+  "ledger x": {
+    "canonical_name": "Ledger X",
+    "entity_type": "product",
+    "summary": "The Ledger Nano X is an advanced Bluetooth-enabled hardware wallet that allows users to securely manage thousands of cryptocurrencies, including Bitcoin, Ethereum, USDT, and Solana, across iOS, Android, and desktop computers. It provides a simple and seamless experience for managing crypto assets fr",
+    "last_updated": "2026-10-14"
+  },
+  "mark karpelès": {
+    "canonical_name": "Mark Karpelès",
+    "entity_type": "person",
+    "summary": "Mark Karpelès is a French figure born on June 1, 1985, in Chenôve, who played an important role in the early development of Bitcoin alongside Satoshi Nakamoto. He is best known as the CEO of the Mt. Gox cryptocurrency exchange, which was once a market leader but went bankrupt under deplorable condit",
+    "last_updated": "2026-10-14"
+  },
+  "grace hopper celebration": {
+    "canonical_name": "Grace Hopper Celebration",
+    "entity_type": "event",
+    "summary": "The Grace Hopper Celebration (GHC) is a global event designed to spark connection, learning, and discovery within the tech community. It features components such as Braindates, the Talent & Tech Expo, book signings, community spaces, partner sessions, and networking receptions. The event focuses on",
+    "last_updated": "2026-10-14"
+  },
+  "anitaborg": {
+    "canonical_name": "AnitaB.org",
+    "entity_type": "organization",
+    "summary": "AnitaB.org is a global nonprofit that creates programs, events, and resources to help tech workers and companies grow, connect, and shape the future of the industry. It provides practical pathways, applied learning, mentorship, and community to help individuals build tech fluency, navigate change, a",
+    "last_updated": "2026-10-14"
+  },
+  "brenda darden wilkerson": {
+    "canonical_name": "Brenda Darden Wilkerson",
+    "entity_type": "person",
+    "summary": "Brenda Darden Wilkerson is an advocate for access, opportunity, and social justice for underrepresented communities in technology. She has worked for over four decades at the intersection of technology, people, and systems, and serves as a CEO and board member with a guiding mission to build an ecos",
+    "last_updated": "2026-10-14"
+  },
+  "north korean regime": {
+    "canonical_name": "North Korean regime",
+    "entity_type": "organization",
+    "summary": "North Korea is administratively divided into nine provinces, a special province-level municipality, a special city, and two special administrative regions. The country has been ruled by one of the world’s longest-running dynastic dictatorships, with absolute authority held by the Kim family over thr",
+    "last_updated": "2026-10-14"
+  },
+  "crowdstrike": {
+    "canonical_name": "CrowdStrike",
+    "entity_type": "company",
+    "summary": "CrowdStrike is a company focused on stopping security breaches to allow customers to protect, heal, and change the world. It secures critical areas of risk including endpoints, cloud workloads, identity, and data to keep customers ahead of adversaries.",
+    "last_updated": "2026-10-14"
+  },
+  "us companies": {
+    "canonical_name": "U.S. companies",
+    "entity_type": "company",
+    "summary": "U.S. companies are major corporate entities, including tech, retail, auto, and pharma giants like Google and Apple, that drive significant economic growth by market capitalization and employee count. The United States ranks first globally and in North America as a popular country to start a company",
+    "last_updated": "2026-10-14"
+  },
+  "cerebras systems": {
+    "canonical_name": "Cerebras Systems",
+    "entity_type": "company",
+    "summary": "Cerebras Systems is an AI compute company founded in 2015 that designs wafer-scale processors and high-speed inference platforms. It offers both on-premise supercomputers for organizations and pay-as-you-go cloud services for developers and enterprises. The company is led by founder and CEO Andrew F",
+    "last_updated": "2026-10-14"
+  },
+  "andrew feldman": {
+    "canonical_name": "Andrew Feldman",
+    "entity_type": "person",
+    "summary": "Andrew D. Feldman is the Founder and CEO of Cerebras Systems, a company he established in 2015 after previously working at AMD as a Corporate Vice President and General Manager. He attended Stanford University and is based out of Sunnyvale, California. In his current role, he leads Cerebras's strate",
+    "last_updated": "2026-10-14"
+  },
+  "industrial next": {
+    "canonical_name": "Industrial Next",
+    "entity_type": "startup",
+    "summary": "Industrial Next is a startup founded in 2021 that aims to democratize advanced manufacturing technologies. Its mission is to provide autonomous manufacturing for automakers and other producers.",
+    "last_updated": "2026-10-14"
+  },
+  "allen pan": {
+    "canonical_name": "Allen Pan",
+    "entity_type": "person",
+    "summary": "Allen Pan is an American YouTuber and electrical engineer born on December 22, 1989. He creates Maker culture-oriented videos featuring gadgets and machines and graduated from the University of Southern California with a BS in electrical engineering in 2012.",
+    "last_updated": "2026-10-14"
+  },
+  "neolix": {
+    "canonical_name": "Neolix",
+    "entity_type": "company",
+    "summary": "Neolix is a company building autonomous logistics infrastructure through a connected network of L4 autonomous delivery vehicles. Its RoboVan fleets help businesses improve delivery efficiency and reduce operating complexity.",
+    "last_updated": "2026-10-14"
+  },
+  "bmw group technology office": {
+    "canonical_name": "BMW Group Technology Office",
+    "entity_type": "organization",
+    "summary": "The BMW Group Technology Office is a global network of technology offices and specialized IT and software hubs. These teams explore innovation hotspots to transform new technologies into real-world solutions supporting sustainable mobility, digital services, and customer experience.",
+    "last_updated": "2026-10-14"
+  },
+  "helix carbon": {
+    "canonical_name": "Helix Carbon",
+    "entity_type": "startup",
+    "summary": "Helix Carbon is a startup focused on closing the carbon cycle and giving heavy industry control over its own feedstocks through electrochemistry. The company also makes chiller plants more efficient through controls and mechanical upgrades, with savings measured live since 2024.",
+    "last_updated": "2026-10-14"
+  },
+  "david brown": {
+    "canonical_name": "David Brown",
+    "entity_type": "person",
+    "summary": "David Brown is a director for BPC Action. Prior to joining BPC Action, he served in several roles at the U.S. Small Business Administration, including in congressional and legislative affairs, as director of policy and planning, and as acting chief of staff.",
+    "last_updated": "2026-10-14"
+  },
+  "kash patel": {
+    "canonical_name": "Kash Patel",
+    "entity_type": "person",
+    "summary": "Kash Patel is the ninth Director of the FBI, a role he assumed on February 20, 2025. A native of New York, he earned a bachelor's degree in criminal justice and history from the University of Richmond, a juris doctor, and a certificate in international law from University College London.",
+    "last_updated": "2026-10-14"
+  },
+  "nate evans": {
+    "canonical_name": "Nate Evans",
+    "entity_type": "person",
+    "summary": "Nate Evans is the Lead for Cyber Operations, Analysis, and Research in Argonne National Laboratory’s Global Security Sciences Division. He previously managed cybersecurity and cyber defense activities at several private-sector companies, and is also known as a co-founder of Fictiv.",
+    "last_updated": "2026-10-14"
+  },
+  "yun kai": {
+    "canonical_name": "Yun Kai",
+    "entity_type": "person",
+    "summary": "Yun Kai is a Chinese actor. He is recognized by the website MDL, where he was featured in a poll asking who the most loved actor is.",
+    "last_updated": "2026-10-14"
+  },
+  "homeview": {
+    "canonical_name": "HomeView",
+    "entity_type": "product",
+    "summary": "HomeView is a new smart home device category introduced by Apple on October 13. It functions as an AI-powered hub featuring a 7-inch Liquid Retina display to provide entertainment, communication, and smart home controls, with both tabletop and wall-mounted models available starting at $299 in the Un",
+    "last_updated": "2026-10-14"
+  },
+  "halo": {
+    "canonical_name": "Halo",
+    "entity_type": "product",
+    "summary": "Aug 2, 2021 · Summary Download our capabilities overview to learn more about how HALO can help grow your business. Increase brand engagement and connect with your audiences by creating one-of-a-kind experiences with merchandise that truly amplifies your brand. Build your culture from the inside out",
+    "last_updated": "2026-10-14"
+  },
+  "nothing headphone a": {
+    "canonical_name": "Nothing Headphone A",
+    "entity_type": "product",
+    "summary": "The Nothing Headphone (a) is a sequel to Nothing's flagship over-ear headphones, launched in March 2026 as a less expensive option. It is designed to provide modern features and active noise cancellation (ANC) at a lower price point, boasting an exceptionally long battery life.",
+    "last_updated": "2026-10-14"
+  },
+  "charli xcx": {
+    "canonical_name": "Charli XCX",
+    "entity_type": "person",
+    "summary": "Charli XCX is a British singer and songwriter born in 1992, known for her experimental electro-pop music. She achieved mainstream success in 2024 with her sixth album, BRAT, and is recognized as a Grammy-winning artist for hit songs like 'Boom Clap' and 'Fancy'.",
+    "last_updated": "2026-10-14"
+  },
+  "antibot4navalny": {
+    "canonical_name": "antibot4navalny",
+    "entity_type": "organization",
+    "summary": "Antibot4Navalny is an anonymous group of disinformation researchers that has been flagging disinformation campaigns since last Fall to blunt Moscow’s efforts to confuse and misinform.",
+    "last_updated": "2026-10-14"
+  },
+  "alternative for germany": {
+    "canonical_name": "Alternative for Germany",
+    "entity_type": "organization",
+    "summary": "Alternative for Germany (AfD) is a far-right, right-wing populist, and national conservative German political party founded in 2013. The party holds eurosceptic, anti-immigrant, and pro-Russian views, and supports large-scale remigration.",
+    "last_updated": "2026-10-14"
+  },
+  "mind robotics": {
+    "canonical_name": "Mind Robotics",
+    "entity_type": "startup",
+    "summary": "Mind Robotics is building universally capable robots to transform industrial work. We're starting where the problems are hardest and the standards are least forgiving: the factory floor. We're starting where the problems are hardest and the standards are least forgiving: the factory floor. Mind is c",
+    "last_updated": "2026-10-14"
+  },
+  "doug field": {
+    "canonical_name": "Doug Field",
+    "entity_type": "person",
+    "summary": "As Ford’s chief electric vehicle (EV), digital, and design officer, Field SM '92 is tasked with leading the development of the company’s electric vehicles, while making new software platforms central to all Ford models. Across a career’s worth of pioneering product designs, Doug Field’s work has sha",
+    "last_updated": "2026-10-14"
+  },
+  "alex mashrabov": {
+    "canonical_name": "Alex Mashrabov",
+    "entity_type": "person",
+    "summary": "Alex Mashrabov is the CEO and co-founder of Higgsfield AI, having previously served as Head of Generative AI at Snap and co-founded AI Factory, which was acquired by Snap for $166 million. He founded Higgsfield in 2023 after leaving Snap.",
+    "last_updated": "2026-10-14"
+  },
+  "gptimage25": {
+    "canonical_name": "GPT-Image-2.5",
+    "entity_type": "ai_model",
+    "summary": "GPT-Image-2.5 is a state-of-the-art image model introduced by OpenAI that provides sharper details, more precise editing, faster generation, and more natural lighting. It is used to create and share images across ChatGPT Images and the GPT-Image models in the API.",
+    "last_updated": "2026-10-14"
+  },
+  "gptlive": {
+    "canonical_name": "GPT-Live",
+    "entity_type": "ai_model",
+    "summary": "GPT-Live is a new generation of voice models built on a full-duplex architecture, allowing it to listen and speak simultaneously for more natural human-AI interaction. It is now powering ChatGPT Voice and includes SynthID watermarking for supported audio generated through the API.",
+    "last_updated": "2026-10-14"
+  },
+  "govtech singapore": {
+    "canonical_name": "GovTech Singapore",
+    "entity_type": "organization",
+    "summary": "GovTech Singapore aims to empower the nation through digital transformation by developing tech-enabled solutions and smart city infrastructure to improve the lives of Singaporeans.",
+    "last_updated": "2026-10-14"
+  },
+  "singapore government": {
+    "canonical_name": "Singapore Government",
+    "entity_type": "organization",
+    "summary": "The Singapore Government operates as a sovereign republic with three organs of state: the Executive, the Legislative, and the Judiciary.",
+    "last_updated": "2026-10-14"
+  },
+  "national ai partnership": {
+    "canonical_name": "National AI Partnership",
+    "entity_type": "organization",
+    "summary": "The U.S. National Science Foundation-led National Artificial Intelligence Research Resource (NAIRR) is a scalable national infrastructure that provides the research and education communities with access to critical computing, software, data, models, educational resources, and expertise to advance AI",
+    "last_updated": "2026-10-14"
+  },
+  "erqa": {
+    "canonical_name": "ERQA",
+    "entity_type": "benchmark",
+    "summary": "The Embodied Reasoning Question Answer (ERQA) benchmark is an open-source evaluation dataset released by Google DeepMind alongside the Gemini Robotics suite. It consists of multi-modal questions focused on spatial reasoning and world knowledge within real-world robotics scenarios.",
+    "last_updated": "2026-10-14"
+  },
+  "gemini omni world model": {
+    "canonical_name": "Gemini Omni World Model",
+    "entity_type": "technology",
+    "summary": "Gemini Omni represents a shift toward building genuine world models that internally represent physical laws like gravity, inertia, and fluid dynamics. It processes the world through a three-stage pipeline by encoding objects and spatial relations as structured tokens, predicting physical changes, an",
+    "last_updated": "2026-10-14"
+  },
+  "bpy": {
+    "canonical_name": "bpy",
+    "entity_type": "technology",
+    "summary": "bpy is a Python module used for manipulating 3D objects in Blender, with key classes including bpy.ops.object for multi-object manipulation and bpy.ops.mesh for mesh operations. It also contains general utilities and supports various scene management functions.",
+    "last_updated": "2026-10-14"
+  },
+  "llava": {
+    "canonical_name": "llava",
+    "entity_type": "ai_model",
+    "summary": "LLaVA (Large Language-and-Vision Assistant) is an end-to-end trained large multimodal model that connects a vision encoder and a large language model for general-purpose visual and language understanding.",
+    "last_updated": "2026-10-14"
+  },
+  "jevcrawl": {
+    "canonical_name": "jevcrawl",
+    "entity_type": "product",
+    "summary": "jevcrawl is an MCP server and CLI tool designed to crawl websites for AI agents. It utilizes a small decision model to select specific links and passages, allowing the agent's LLM to read only relevant content at a few cents per crawl, which is 2x more effective than Crawl4AI and 10x cheaper than le",
+    "last_updated": "2026-10-14"
   }
 }

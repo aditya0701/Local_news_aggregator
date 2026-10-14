@@ -1,5 +1,411 @@
 [
   {
+    "id": "de04b7d40683",
+    "title": "AOSP सोर्स रिलीज़ में देरी: डेवलपर्स को बग रिपोर्ट करने के लिए लाइब्रेरी खुद खंगालने पर मजबूर",
+    "summary": "Android 17 के सितंबर 2026 के बिल्ड में एक गंभीर तकनीकी खामी सामने आई है, जिसने डेवलपर्स के लिए बग रिपोर्ट करना बेहद मुश्किल कर दिया है। AOSP के आधिकारिक सोर्स रिलीज़ में देरी के कारण, डेवलपर्स को इस समस्या का पता लगाने और इसे रिपोर्ट करने के लिए खुद Bionic libc जैसी लाइब्रेरी को डिसअसेंबल करना पड़ा। यह घटना Android…",
+    "category": "repo_analysis",
+    "tags": [
+      "AOSP",
+      "Bionic libc",
+      "LLVM libc"
+    ],
+    "image": "https://opengraph.githubassets.com/faa19897607d84aad613f66ea165a6363ff4d54160d84554507628d175f561b1/android/ndk/issues/2260",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "28da8c245f5d",
+    "title": "लेजर ने वॉलेट क्रिप्टो चोरी के पीछे जासूसी चिप इम्प्लांट की पुष्टि की",
+    "summary": "क्रिप्टोकरेंसी की दुनिया में सुरक्षा सबसे महत्वपूर्ण है, और हार्डवेयर वॉलेट्स डिजिटल संपत्तियों को सुरक्षित रखने का एक प्रमुख साधन हैं। लेकिन हाल ही में सामने आई एक चौंकाने वाली घटना ने इस सुरक्षा को चुनौती दी है। लेजर, जो 2014 में स्थापित एक प्रमुख हार्डवेयर वॉलेट निर्माता है, ने पुष्टि की है कि दक्षिण पूर्व एशिया…",
+    "category": "general",
+    "tags": [
+      "Ledger",
+      "CryptoBilis",
+      "Ledger X"
+    ],
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/10/12/Ledger.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "be7f075ef243",
+    "title": "ग्रेस हॉपर सेलिब्रेशन रद्द: टेक जगत को बड़ा झटका",
+    "summary": "टेक जगत के सबसे बड़े वार्षिक कार्यक्रम, ग्रेस हॉपर सेलिब्रेशन (GHC) को इस वर्ष के लिए रद्द कर दिया गया है। यह घोषणा अनीटाबी.ओआरजी (AnitaB.org) की सीईओ ब्रेंडा डार्डन विल्करसन ने की है। इस फैसले से टेक उद्योग में काम करने वाले हजारों पेशेवरों, विशेष रूप से महिलाओं, को भारी निराशा हुई है। यह कार्यक्रम टेक समुदाय में…",
+    "category": "general",
+    "tags": [
+      "Grace Hopper Celebration",
+      "AnitaB.org",
+      "Brenda Darden Wilkerson"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8c17f1f1ac30",
+    "title": "एंथ्रोपिक ने सोर्स कंट्रोल के लिए 'स्कायन' सिस्टम विकसित किया",
+    "summary": "एंथ्रोपिक ने हाल ही में बताया है कि उनके एआई मॉडल क्लॉड के कारण कोडिंग की गति बहुत तेज हो गई है, जिससे डेवलपर इंफ्रास्ट्रक्चर और सोर्स कंट्रोल में एक नई चुनौती सामने आई है। इस समस्या को सुलझाने के लिए, कंपनी ने पांच महीने के भीतर अपने पूरे मोनोरेपो (monorepo) को गिट (git) से हटाकर एक नए इन-हाउस सिस्टम 'स्कायन' (Scion)…",
+    "category": "general",
+    "tags": [
+      "Anthropic",
+      "Scion",
+      "Antique"
+    ],
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d344b849251502fade67ad16f09bb86fa6f42363-500x263.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "babd907c94f6",
+    "title": "चंद्रमा पर भविष्य की दौड़: अमेरिकी और चीनी महत्वाकांक्षाएं और पृथ्वी पर तकनीकी बदलाव",
+    "summary": "अंतरिक्ष अन्वेषण के क्षेत्र में अमेरिका और चीन के बीच एक नई और तीव्र भू-राजनीतिक दौड़ शुरू हो गई है, जिसका मुख्य लक्ष्य चंद्रमा पर स्थायी मानव बस्तियां स्थापित करना है। नासा (NASA) का लक्ष्य इस सदी के अंत तक चंद्रमा पर एक छोटा सा शहर बसाने का है, जो अंतरिक्ष विज्ञान के इतिहास में एक अभूतपूर्व कदम होगा। हालांकि, इस…",
+    "category": "general",
+    "tags": [
+      "NASA",
+      "China",
+      "MIT Technology Review"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Selman-MIT-MoonBase-Jacket-thumb.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "018d1b6a7724",
+    "title": "अमेरिकी कंपनियों में उत्तर कोरियाई हैकर्स की घुसपैठ: न्याय विभाग ने किया बड़ा खुलासा",
+    "summary": "अमेरिकी न्याय विभाग (DOJ) ने मंगलवार को एक महत्वपूर्ण घोषणा की, जिसमें बताया गया कि उत्तर कोरियाई हैकर्स अमेरिकी कंपनियों पर हमले करने के लिए तेजी से अमेरिकियों को अपना मोहरा बना रहे हैं। अभियोजकों ने इस सिलसिले में कम से कम दो लोगों को गिरफ्तार किया है और उन पर आरोप तय किए हैं। यह कदम अमेरिकी कंपनियों और सरकार के लिए…",
+    "category": "ban_regulation",
+    "tags": [
+      "U.S. Department of Justice",
+      "North Korean regime",
+      "CrowdStrike"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2299247760.jpg?resize=1200,787",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a2d00ff109e7",
+    "title": "साइंस कॉर्पोरेशन ने पहली बार स्टार्गार्ड रोग के मरीज में PRIMA चिप प्रत्यारोपित की",
+    "summary": "साइंस कॉर्पोरेशन के सीईओ मैक्स होडक ने एक अभूतपूर्व घोषणा की है कि कंपनी ने स्टार्गार्ड रोग से पीड़ित अपने पहले मरीज में PRIMA चिप प्रत्यारोपित की है। होडक, जो न्यूरल लिंक के पूर्व अध्यक्ष और सह-संस्थापक हैं, ने टेकक्रंच डिसरप्ट मंच पर इस खबर का खुलासा किया। यह घटना मेडिकल ब्रेन-कंप्यूटर इंटरफेस (BCI) के क्षेत्र में…",
+    "category": "general",
+    "tags": [
+      "Science Corporation",
+      "Max Hodak",
+      "PRIMA"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "def132e83fd3",
+    "title": "Cerebras CEO का विजन: हर घर में होगा अपना पर्सनल AI असिस्टेंट",
+    "summary": "Cerebras Systems के सीईओ और सह-संस्थापक एंड्रयू फेल्डमैन का मानना है कि हम एक ऐसे भविष्य के करीब पहुंच रहे हैं जहां आर्टिफिशियल इंटेलिजेंस (AI) हर घर में एक सामान्य उपकरण बन जाएगा। उन्होंने मंगलवार को TechCrunch Disrupt 2026 में मंच पर बोलते हुए इस दृष्टिकोण को साझा किया। फेल्डमैन ने स्पष्ट किया कि AI को एक घरेलू…",
+    "category": "general",
+    "tags": [
+      "Cerebras Systems",
+      "Andrew Feldman",
+      "Meta"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588036568_e00e978a62_k.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "3e50c6708787",
+    "title": "Industrial Next चाहता है कि फैक्ट्री रोबोट मिनटों में बदलें टास्क, हफ्तों में नहीं",
+    "summary": "सैन फ्रांसिस्को स्थित स्टार्टअप Industrial Next कारखानों में रोबोटिक्स की दुनिया में एक बड़ा बदलाव लाने की कोशिश कर रहा है। कंपनी ने हाल ही में TechCrunch Disrupt 2026 में अपने विचार प्रस्तुत किए, जहाँ उन्होंने बताया कि कैसे उनका नया सिस्टम पारंपरिक प्रोग्रामिंग और री-टूलिंग के हफ्तों के काम को कुछ ही मिनटों में समेट…",
+    "category": "general",
+    "tags": [
+      "Industrial Next",
+      "Lukas Pankau",
+      "Allen Pan"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2247792889.jpg?resize=1200,788",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6bdbe72aeb92",
+    "title": "हेलिक्स कार्बन का दावा: ब्लास्ट फर्नेस प्रदूषण को रीसायकल करके सस्ता कर सकता है लोहा",
+    "summary": "दुनिया भर में लोहा और स्टील उद्योग सबसे बड़े प्रदूषण फैलाने वाले क्षेत्रों में से एक है। कई स्टार्टअप्स ने इस समस्या को हल करने की कोशिश की है, लेकिन हेलिक्स कार्बन के सह-संस्थापक और सीईओ डेविड ब्राउन का मानना है कि वे गलत दिशा में जा रहे थे। ब्राउन ने टेकक्रंच को बताया, \"ब्लास्ट फर्नेस को नजरअंदाज किए बिना स्टील…",
+    "category": "general",
+    "tags": [
+      "Helix Carbon",
+      "David Brown",
+      "TechCrunch"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2242228718.jpeg?resize=1200,792",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9c4943e717bb",
+    "title": "एफबीआई (FBI) ने ओपेनएआई (OpenAI) कर्मचारी को गिरफ्तार किया, जिसने कॉन्फ्रेंस रूम में छिपाकर रिकॉर्डिंग डिवाइस लगाया था",
+    "summary": "ओपेनएआई (OpenAI) ने अपने सैन फ्रांसिस्को कार्यालय के एक कार्यकारी सम्मेलन कक्ष में एक परिष्कृत छिपे हुए रिकॉर्डिंग डिवाइस की खोज की और तुरंत एफबीआई (FBI) को सूचित किया। इस घटना के बाद, संघीय अभियोजकों ने एक कर्मचारी को गिरफ्तार किया, जिस पर कंपनी के संवेदनशील संचार को गुप्त रूप से रिकॉर्ड करने का आरोप है। यह घटना एआई…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "Abdulrahman Alfozan",
+      "FBI"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/openai-employee-product-recording.jpg?w=1145",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "bbbe8f21bb07",
+    "title": "कैम्ब्रिज हेवी इंडस्ट्रीज ने बनाया मेज पर रखा जा सकने वाला फ्यूजन रिएक्टर",
+    "summary": "पारंपरिक रूप से फ्यूजन ऊर्जा को विशाल औद्योगिक संयंत्रों और बड़े लेजर या चुंबकों से जोड़ा जाता रहा है। लेकिन अब, मैसाचुसेट्स के कैम्ब्रिज में एक स्टार्टअप ने चुपचाप एक ऐसी तकनीक विकसित की है जो एक मेज पर आसानी से रखी जा सकती है। कैम्ब्रिज हेवी इंडस्ट्रीज नामक यह कंपनी एमआईटी (MIT) के पास एक छोटी सी लैब से काम कर रही…",
+    "category": "general",
+    "tags": [
+      "Cambridge Heavy Industries",
+      "Yun Kai"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/nif-laser-preamplifiers.jpeg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d96808fd1be7",
+    "title": "Apple का नया HomeView विज्ञापन: साफ-सुथरे ब्रांड इमेज से बिल्कुल अलग",
+    "summary": "Apple Inc. ने अपने नए HomeView स्मार्ट डिस्प्ले को पेश करते हुए एक विज्ञापन जारी किया है, जो कंपनी की पारंपरिक ब्रांड इमेज से बिल्कुल अलग है। जहां Apple आमतौर पर अपने विज्ञापनों में साफ-सुथरे और शांत दृश्यों के लिए जाना जाता है, वहीं यह नया विज्ञापन एक परिवार की अराजक सुबह को यथार्थवादी ढंग से दर्शाता है। इस विज्ञापन…",
+    "category": "model_release",
+    "tags": [
+      "Apple",
+      "HomeView"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/family_hero.jpg?quality=90&strip=all&crop=0%2C3.1236540099735%2C100%2C93.752691980053&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1e8b87705886",
+    "title": "एप्पल म्यूज़िक को मिल सकता है नया मोनोक्रोम आइकन, iOS 27.2 बीटा में देखे गए बदलाव",
+    "summary": "एप्पल म्यूज़िक का प्रतिष्ठित लाल ऐप आइकन जल्द ही एक नया रूप ले सकता है। 9to5Mac की एक हालिया रिपोर्ट के अनुसार, कंपनी के लेटेस्ट iOS 27.2 बीटा में इस लाल आइकन की जगह एक काले और सफेद मोनोक्रोम डिज़ाइन को टेस्ट किया जा रहा है। यह संभावित बदलाव एप्पल के व्यापक विज़ुअल रिफ्रेश का हिस्सा हो सकता है, जिसकी शुरुआत पिछले…",
+    "category": "general",
+    "tags": [
+      "Apple Music",
+      "iOS"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/apple-music-new-old-icon-avstorm-twitter.jpeg?quality=90&strip=all&crop=0%2C6.369982547993%2C100%2C87.260034904014&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ffb4af635c9e",
+    "title": "माइक्रोसॉफ्ट ने गेमिंग में एआई-पावर्ड पोर्टिंग को अपनाया, नया एक्सबॉक्स लैब्स ग्रुप बना",
+    "summary": "वर्तमान में रेट्रो गेमिंग का दौर एक अभूतपूर्व और रोमांचक मोड़ पर है। गेमर्स और मॉडर्स द्वारा किए जा रहे डीकंपाइलेशन और रीकंपाइलेशन के कारण, पुराने क्लासिक गेम्स को नए डिवाइस पर पोर्ट करना या अलग-अलग गेम्स के कोड को मिलाकर एक नया अनुभव बनाना संभव हो गया है। हाल ही में, स्केटबोर्डिंग को 'कॉल ऑफ ड्यूटी' (Call of Duty)…",
+    "category": "general",
+    "tags": [
+      "Microsoft",
+      "Xbox",
+      "Asha Sharma"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/XBOX-LABS-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7e3cc8c15110",
+    "title": "Nothing Headphone A पर 33% की भारी छूट: Charli XCX के साथ बेहतरीन डील",
+    "summary": "टेक जगत में एक शानदार सौदे की खबर है। Nothing के हेडफोन A पर ग्राहकों को भारी छूट मिल रही है। यह डील उन लोगों के लिए बेहतरीन है जो कम कीमत में बेहतरीन ऑडियो अनुभव चाहते हैं।",
+    "category": "acquisition",
+    "tags": [
+      "Nothing",
+      "Nothing Headphone A",
+      "Charli XCX"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268383_Nothing_Headphones_JHiggins_0004.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4556d38e1ee4",
+    "title": "यंडेक्स पर यूक्रेनी ड्रोन हमले के बाद रूसी बॉट फार्म्स की ट्रोलिंग अनवरत जारी",
+    "summary": "यूक्रेनी सैन्य ड्रोन द्वारा रूसी टेक दिग्गज यंडेक्स के कई डेटा सेंटरों को नष्ट करने के कुछ दिनों बाद, राष्ट्रपति वोलोडिमिर ज़ेलेंस्की ने एक बड़ा दावा किया। उन्होंने कहा कि इस अभियान ने रूस के दुष्प्रचार प्रयासों को सफलतापूर्वक पंगु बना दिया है। ज़ेलेंस्की के अनुसार, सोशल मीडिया प्लेटफॉर्म्स पर अब \"सांस लेना आसान हो…",
+    "category": "general",
+    "tags": [
+      "Volodymyr Zelenskyy",
+      "Yandex",
+      "antibot4navalny"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24733136/1498885624.jpg?quality=90&strip=all&crop=0%2C10.737777045019%2C100%2C78.524445909961&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "84e0fd2e237b",
+    "title": "Rivian की स्पिन-ऑफ कंपनी Mind Robotics ने Doug Field को बनाया अपना नया अध्यक्ष",
+    "summary": "Rivian के सीईओ RJ Scaringe के 2025 में स्थापित एक गुप्त रोबोटिक्स स्टार्टअप Mind Robotics ने एक बड़ा रणनीतिक कदम उठाते हुए डग फील्ड को अपना नया अध्यक्ष नियुक्त किया है। यह नियुक्ति एक ऐसे समय में हुई है जब भौतिक एआई (Physical AI) और औद्योगिक स्वचालन को लेकर निवेशकों का उत्साह चरम पर है। कंपनी ने अब तक एक बिलियन डॉलर…",
+    "category": "general",
+    "tags": [
+      "Rivian",
+      "Mind Robotics",
+      "Doug Field"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/c60a24b2-e1cf-4857-8c59-5fb7f9f74efe-Doug_Field_portrait.webp?quality=90&strip=all&crop=0%2C3.4699921278537%2C100%2C93.060015744293&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "c5ac56773768",
+    "title": "स्कूल ज़ोन में टेस्ला की रोबोटैक्सी की गति की जांच",
+    "summary": "संयुक्त राज्य अमेरिका में स्वायत्त वाहनों (autonomous vehicles) की सुरक्षा को लेकर एक नई जांच शुरू हुई है। राष्ट्रीय राजमार्ग यातायात सुरक्षा प्रशासन (NHTSA) ने एक याचिका का मूल्यांकन शुरू किया है, जिसमें आरोप लगाया गया है कि टेस्ला की स्वचालित रोबोटैक्सी सक्रिय स्कूल ज़ोन में निर्धारित गति सीमा से अधिक गति से चल रही…",
+    "category": "ban_regulation",
+    "tags": [
+      "National Highway Traffic Safety Administration",
+      "Tesla",
+      "Waymo"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2265246335.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ffc748cb8d88",
+    "title": "Higgsfield ने AI वीडियो जनरेशन को 1 मिनट से बढ़ाकर 10 मिनट से अधिक किया",
+    "summary": "Higgsfield AI ने अपने कृत्रिम बुद्धिमत्ता (AI) संचालित वीडियो जनरेशन प्लेटफॉर्म में एक बड़ी सफलता हासिल की है। कंपनी ने अपने नए GPT-6 Astra मॉडल के साथ वीडियो बनाने की समय सीमा को पिछले एक मिनट से बढ़ाकर 10 मिनट से अधिक कर दिया है। यह कदम पेशेवर वीडियो और इमेज निर्माण को आम जनता की पहुंच में लाने के कंपनी के मिशन को…",
+    "category": "model_release",
+    "tags": [
+      "Higgsfield AI",
+      "Alex Mashrabov",
+      "GPT-6 Astra"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6QmB7YuFllKCVKPoWn7vnJ/6f3ac19d1e10d2a864481a174813c7f7/higgsfield-longer-videos-voice-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "58e4191fcfe4",
+    "title": "गूगल डीपमाइंड और सिंगापुर सरकार का सहयोग: एआई मॉडल के जरिए घोटालों का पता लगाने की नई पहल",
+    "summary": "सिंगापुर में घोटालों का संकट एक गंभीर रूप ले चुका है, जो देश की राष्ट्रीय सुरक्षा और नागरिकों की आर्थिक सुरक्षा के लिए एक बड़ा खतरा बन गया है। 2019 से लेकर अब तक, घोटालों के कारण हुए कुल नुकसान 4 बिलियन सिंगापुर डॉलर (S$4 billion) को पार कर गए हैं। आंकड़ों के अनुसार, अब कुल वित्तीय नुकसान का 80 प्रतिशत हिस्सा केवल…",
+    "category": "general",
+    "tags": [
+      "Google DeepMind",
+      "GovTech Singapore",
+      "Gemma"
+    ],
+    "image": "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w528-h297-n-nu-rw-lo",
+    "source": "rss",
+    "feed_name": "Google DeepMind Blog",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a304a4cc6439",
+    "title": "जेमिनी 4 आर्गन: भौतिक AGI की दिशा में एक महत्वपूर्ण कदम",
+    "summary": "गूगल डीपमाइंड ने जेमिनी 4 आर्गन (Gemini 4 Argon) पेश किया है, जिसे भौतिक AGI (Artificial General Intelligence) की दिशा में एक प्रमुख मील का पत्थर माना जा रहा है। यह मॉडल न केवल कोडिंग और साइबर डिफेंस में बल्कि वास्तविक दुनिया के जटिल कार्यों में भी अपनी क्षमता साबित कर रहा है। हाल ही के एक मूल्यांकन में, जेमिनी 4…",
+    "category": "model_release",
+    "tags": [
+      "Gemini 4 Argon",
+      "ERQA",
+      "Boston Dynamics Spot"
+    ],
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+    "source": "synthesized",
+    "feed_name": "Google DeepMind Blog",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "49c24b381bdd",
+    "title": "BlenderGPT3D: 3D मॉडलिंग में प्राकृतिक भाषा और विज़ुअल प्रॉम्प्ट्स का नया युग",
+    "summary": "ओपन-सोर्स कम्युनिटी से एक नई तकनीक सामने आई है जो लोकप्रिय 3D क्रिएशन सुइट ब्लेंडर के काम करने के तरीके को पूरी तरह से बदल सकती है। BlenderGPT3D नामक यह नया ऐड-ऑन, जिसे blender-ai-addon के नाम से भी जाना जाता है, ब्लेंडर के मौजूदा इंटरफेस को एक इंटरैक्टिव चैट विंडो में बदल देता है। इस टूल की मदद से, उपयोगकर्ता अब…",
+    "category": "repo_analysis",
+    "tags": [
+      "BlenderGPT3D",
+      "blender-ai-addon",
+      "OpenCode"
+    ],
+    "image": "https://opengraph.githubassets.com/1/BlenderGPT3D/blender-ai-addon",
+    "source": "github",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "887ec72243c1",
+    "title": "PDF से निकाले गए चीनी टेक्स्ट की समस्या और cjkfold का नया समाधान",
+    "summary": "जब हम किसी पीडीएफ (PDF) दस्तावेज़ से टेक्स्ट कॉपी करते हैं, तो यह देखने में बिल्कुल सही लगता है और पढ़ने में कोई परेशानी नहीं होती। लेकिन अक्सर वह टेक्स्ट 'करप्ट' (corrupted) होता है, जिसका अर्थ है कि डाउनस्ट्रीम सर्च और मैचिंग टूल्स इसे पहचानने में विफल हो जाते हैं। यह एक गंभीर तकनीकी समस्या है जो कई डेवलपर्स और डेटा…",
+    "category": "repo_analysis",
+    "tags": [
+      "cdcailf/cjkfold"
+    ],
+    "image": "https://opengraph.githubassets.com/1/cdcailf/cjkfold",
+    "source": "github",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5a76ae9f3c34",
+    "title": "Tomechat: LangChain पर आधारित ओपन-सोर्स RAG नॉलेज-बेस चैट एप्लीकेशन",
+    "summary": "Tomechat एक नया और ओपन-सोर्स चैट एप्लीकेशन है जो LangChain फ्रेमवर्क पर आधारित है। यह एक RAG (retrieval-augmented generation) नॉलेज-बेस चैट एप्लीकेशन है, जो FAISS वेक्टर सर्च का उपयोग करता है। यह एप्लीकेशन FastAPI बैकएंड और Next.js वेबयूआई को मिलाकर बनाया गया है, जिससे उपयोगकर्ता रिमोट LLM एपीआई का उपयोग करके अपने…",
+    "category": "repo_analysis",
+    "tags": [
+      "OceanOver",
+      "Tomechat",
+      "LangChain"
+    ],
+    "image": "https://opengraph.githubassets.com/1/OceanOver/Tomechat",
+    "source": "github",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "283b0886e43a",
+    "title": "jevcrawl: एआई एजेंट के लिए वेब क्रॉलिंग का नया और सस्ता तरीका",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) एजेंटों के लिए वेब क्रॉलिंग हमेशा से एक बड़ी चुनौती रही है। वर्तमान में, इन एजेंटों के पास वेबसाइटों से जानकारी निकालने के दो विकल्प हैं: या तो वे क्रॉलर द्वारा लाए गए सभी डेटा को पढ़ते हैं, जिससे जवाब नेविगेशन और बकवास (boilerplate) में दब जाता है और टोकन बर्बाद होते हैं, या फिर वे LLM को हर…",
+    "category": "general",
+    "tags": [
+      "RayenMlayeh",
+      "jevcrawl",
+      "Crawl4AI"
+    ],
+    "image": "https://opengraph.githubassets.com/1/RayenMlayeh/jevcrawl",
+    "source": "github",
+    "first_seen": "2026-10-14T07:51:29.739205+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "47260c634c6b",
     "title": "DishwasherBench – क्या फ्रंटियर एआई मॉडल एक डिशवॉशर लोड कर सकते हैं?",
     "summary": "एआई की दुनिया में नए मोर्चों की तलाश लगातार जारी है, और अब एक स्टार्टअप ने एक डिशवॉशर को बेंचमार्क के रूप में चुना है। कंपोसो नामक एक कंपनी ने 'डिशवॉशरबेंच' (DishwasherBench) पेश किया है, जो एक अनूठा परीक्षण है। यह केवल एक सॉफ्टवेयर नहीं है, बल्कि एक वास्तविक बॉश मशीन के 3D सिमुलेशन पर आधारित एक ब्राउज़र गेम है। इसका…",
