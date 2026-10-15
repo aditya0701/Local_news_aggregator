@@ -4531,9 +4531,9 @@
   },
   "docker": {
     "canonical_name": "Docker",
-    "entity_type": "technology",
-    "summary": "Docker is open-source software used to deploy applications inside virtual containers. It enables developers to package applications into standardized units for seamless deployment, encapsulating everything needed to run an application, from code to dependencies. This platform reshapes how software i",
-    "last_updated": "2026-07-07"
+    "entity_type": "product",
+    "summary": "Docker offers an all-in-one suite of integrated tools for building, securing, and deploying containerized applications. It provides a unified environment for local development, fast iteration, secure image management, and easy sharing of containerized applications via Docker Hub or other registries.",
+    "last_updated": "2026-10-15"
   },
   "xai": {
     "canonical_name": "XAI",
@@ -6992,8 +6992,8 @@
   "emma roth": {
     "canonical_name": "Emma Roth",
     "entity_type": "person",
-    "summary": "Emma Roth is a news writer at The Verge who covers the tech industry, with a focus on the streaming industry, artificial intelligence, and the relationship between government and Big Tech. Her work has been featured in publications like MakeUseOf, TechWiki, and Times Observer.",
-    "last_updated": "2026-07-14"
+    "summary": "Emma Roth is a news writer at The Verge who covers streaming, consumer tech, crypto, and social media. She previously worked as a writer and editor at MUO and focuses on topics like the streaming industry, artificial intelligence, and government interactions with Big Tech.",
+    "last_updated": "2026-10-15"
   },
   "siri ai": {
     "canonical_name": "Siri AI",
@@ -11693,8 +11693,8 @@
   "brad bourque": {
     "canonical_name": "Brad Bourque",
     "entity_type": "person",
-    "summary": "Brad Bourque is a Senior Content Editor for New Relic, based in Portland, Oregon. He is a contributor for WIRED focusing on computing hardware and peripherals, and enjoys riding his bike and supporting local sports teams.",
-    "last_updated": "2026-07-24"
+    "summary": "Brad Bourque is a freelance tech writer and lifelong Oregon native who specializes in computing, PC gaming, and virtual reality. He previously worked as a staff writer for the Digital Trends computing section, covering major conferences like E3, PAX West, and CES, before becoming a freelance writer",
+    "last_updated": "2026-10-15"
   },
   "first amendment": {
     "canonical_name": "First Amendment",
@@ -13118,8 +13118,8 @@
   "agent client protocol": {
     "canonical_name": "Agent Client Protocol",
     "entity_type": "protocol",
-    "summary": "The Agent Client Protocol enables communication between Agents and Clients by exposing methods and sending notifications. It includes an Initialization Phase and Session Setup, allowing for prompt turns and other events to be handled. The protocol is designed to be flexible, using Markdown for user-",
-    "last_updated": "2026-07-27"
+    "summary": "The Agent Client Protocol allows Agents and Clients to communicate by exposing methods that each side can call and sending notifications to inform each other of events. How the Agent Client Protocol works Initialization Phase Session Setup - either: Prompt Turn Was this page helpful? Get started wit",
+    "last_updated": "2026-10-15"
   },
   "kilbex": {
     "canonical_name": "Kilbex",
@@ -21433,5 +21433,293 @@
     "entity_type": "product",
     "summary": "jevcrawl is an MCP server and CLI tool designed to crawl websites for AI agents. It utilizes a small decision model to select specific links and passages, allowing the agent's LLM to read only relevant content at a few cents per crawl, which is 2x more effective than Crawl4AI and 10x cheaper than le",
     "last_updated": "2026-10-14"
+  },
+  "tiny little office": {
+    "canonical_name": "Tiny Little Office",
+    "entity_type": "product",
+    "summary": "Tiny Little Office is a minimal office suite that stores no accounts and keeps documents only in the URL itself, with nothing saved server-side unless the user explicitly saves it locally on their device.",
+    "last_updated": "2026-10-15"
+  },
+  "apple m5 max": {
+    "canonical_name": "Apple M5 Max",
+    "entity_type": "product",
+    "summary": "The Apple M5 Max (18-core) is a high-end system-on-a-chip (SoC) designed for premium laptops and launched in March 2026 along with the updated 14-inch and 16-inch MacBook Pro lineup. The SoC uses the 'Fusion Architecture', which uses a third-generation 3-nanometer process and advanced packaging to c",
+    "last_updated": "2026-10-15"
+  },
+  "stack allocator": {
+    "canonical_name": "Stack Allocator",
+    "entity_type": "technology",
+    "summary": "A stack allocator is a memory allocation strategy that operates on the principle of a stack data structure, allocating memory blocks in a Last-In, First-Out (LIFO) order. It requires minimal overhead in terms of code complexity and data structures, though its implementation can be complex and convol",
+    "last_updated": "2026-10-15"
+  },
+  "darpa": {
+    "canonical_name": "DARPA",
+    "entity_type": "organization",
+    "summary": "The Defense Advanced Research Projects Agency, DARPA, is an independent research and development agency within the U.S. Department of War, DOW. Created in response to the launch of Sputnik in 1957, DARPA stands as our nation’s commitment to never again face a strategic technical surprise.",
+    "last_updated": "2026-10-15"
+  },
+  "azalia mirhoseini": {
+    "canonical_name": "Azalia Mirhoseini",
+    "entity_type": "person",
+    "summary": "Azalia Mirhoseini is an Assistant Professor of Computer Science at Stanford University, where she directs the Scaling Intelligence research lab. She is also a co-founder of Ricursive Intelligence, a frontier lab focused on recursive self-improvement through AI-designed chips.",
+    "last_updated": "2026-10-15"
+  },
+  "garrett langley": {
+    "canonical_name": "Garrett Langley",
+    "entity_type": "person",
+    "summary": "Garrett Langley is an American entrepreneur and electrical engineer based in Atlanta, Georgia, who founded and currently leads Flock Safety.",
+    "last_updated": "2026-10-15"
+  },
+  "intero biosystems": {
+    "canonical_name": "Intero Biosystems",
+    "entity_type": "startup",
+    "summary": "Intero Biosystems is a biotechnology startup that creates advanced adult human stem cell-derived intestinal organoid platforms for drug discovery and development. The company develops human intestinal organoid platforms for preclinical testing, aiming to improve the process and reduce reliance on an",
+    "last_updated": "2026-10-15"
+  },
+  "madeline eiken": {
+    "canonical_name": "Madeline Eiken",
+    "entity_type": "person",
+    "summary": "Madeline Eiken is the COO and Co-Founder of Intero Biosystems and is based in Detroit, Michigan. She previously worked as a Cell Research Associate at Essent Biologics and attended the University of Michigan.",
+    "last_updated": "2026-10-15"
+  },
+  "university of michigan": {
+    "canonical_name": "University of Michigan",
+    "entity_type": "organization",
+    "summary": "Organization Charts Organizational Structure Org Charts President (753000) Audit Services (710000) Ethics, Integrity and Compliance Office (753001) General Counsel (756000) Government Relations (753300) Equity, Civil Rights, and Title IX Office (677030) Intercollegiate Athletics, Department of (7550",
+    "last_updated": "2026-10-15"
+  },
+  "drug development": {
+    "canonical_name": "drug development",
+    "entity_type": "technology",
+    "summary": "Drugs undergo laboratory and animal testing to answer basic questions about safety. Drugs are tested on people to make sure they are safe and effective. FDA review teams thoroughly examine all... 01/04/2018 Drug development is defined as the comprehensive process of bringing a new drug or device to",
+    "last_updated": "2026-10-15"
+  },
+  "umbra": {
+    "canonical_name": "Umbra",
+    "entity_type": "technology",
+    "summary": "Umbra is an American space technology company built to push the limits of what’s possible. We’re challenging what can be done in and through space — expanding access, increasing persistence, and delivering the most powerful information advantage to our customers. From sensors to spacecraft, we desig",
+    "last_updated": "2026-10-15"
+  },
+  "peter diamandis": {
+    "canonical_name": "Peter Diamandis",
+    "entity_type": "person",
+    "summary": "Peter Diamandis is the founder and executive chairman of the XPRIZE Foundation and the founder of Zero-G Corp. He has founded or co-founded over 25 companies in health, space, education, artificial intelligence, and venture capital. As the founder of the XPRIZE, Abundance, and Singularity, his missi",
+    "last_updated": "2026-10-15"
+  },
+  "genomorph": {
+    "canonical_name": "GenoMorph",
+    "entity_type": "product",
+    "summary": "1 day ago · Colossal Biosciences on October 14, 2026 unveiled GenoMorph, an artificial-intelligence platform developed to identify gene-editing targets for species with limited genomic data, and reported that the system has identifi... By Colossal Biosciences on October 14, 2026 unveiled GenoMorph ,",
+    "last_updated": "2026-10-15"
+  },
+  "mckinsey  company": {
+    "canonical_name": "McKinsey & Company",
+    "entity_type": "company",
+    "summary": "McKinsey & Company is a global management consulting firm founded in 1926 by James O. McKinsey that has provided strategic advice to corporations and other organizations for decades. The firm partners with leaders on strategy, innovation, and technology, and is known for its prestige, high-profile c",
+    "last_updated": "2026-10-15"
+  },
+  "the wall street journal": {
+    "canonical_name": "The Wall Street Journal",
+    "entity_type": "organization",
+    "summary": "The Wall Street Journal is a publication founded in July 1889 that chronicles the rise of industries and significant global events. It covers a wide range of topics including tariffs, the dollar's role as a reserve currency, and the births and deaths of major companies.",
+    "last_updated": "2026-10-15"
+  },
+  "homepod mini": {
+    "canonical_name": "HomePod Mini",
+    "entity_type": "product",
+    "summary": "The HomePod Mini is a compact smart speaker featuring room-filling sound, a backlit tinted touch surface, and a two-tone seamless mesh design. It is equipped with Siri AI to act as an intelligent assistant for smart homes and supports multiroom audio pairing, available in multiple chroma colors.",
+    "last_updated": "2026-10-15"
+  },
+  "jennifer pattison tuohy": {
+    "canonical_name": "Jennifer Pattison Tuohy",
+    "entity_type": "person",
+    "summary": "Jennifer Pattison Tuohy is a senior reviewer and journalist with over twenty years of experience covering smart home, IoT, and connected technology. She writes for The Verge, tests various smart home devices, and is recognized as an expert on the Matter smart home standard.",
+    "last_updated": "2026-10-15"
+  },
+  "iowa": {
+    "canonical_name": "Iowa",
+    "entity_type": "organization",
+    "summary": "The material provided describes several Iowa state entities, including a taxpayers watchdog organization that conducts independent financial audits of state and local governments, the Department on Aging which partners with Area Agencies on Aging to provide services for seniors, and the Attorney Gen",
+    "last_updated": "2026-10-15"
+  },
+  "nebraska": {
+    "canonical_name": "Nebraska",
+    "entity_type": "organization",
+    "summary": "The material describes Nebraska.gov, the official state website that connects citizens and businesses with government resources, and highlights the administration of Governor Jim Pillen, a veterinarian and farmer focused on cutting taxes, agriculture, and education.",
+    "last_updated": "2026-10-15"
+  },
+  "west virginia": {
+    "canonical_name": "West Virginia",
+    "entity_type": "organization",
+    "summary": "WV.gov is the official website for the State of West Virginia, developed through a public-private partnership with Tyler Technologies West Virginia, which helps build and manage online government services.",
+    "last_updated": "2026-10-15"
+  },
+  "idaho": {
+    "canonical_name": "Idaho",
+    "entity_type": "organization",
+    "summary": "Idaho's government is structured into three branches: executive, legislative, and judicial, which work together to serve the state's residents.",
+    "last_updated": "2026-10-15"
+  },
+  "montana": {
+    "canonical_name": "Montana",
+    "entity_type": "organization",
+    "summary": "Montana is a U.S. state with a population of approximately 1,084,197, governed by a three-branch system of legislative, executive, and judicial departments.",
+    "last_updated": "2026-10-15"
+  },
+  "yam store": {
+    "canonical_name": "YAM Store",
+    "entity_type": "product",
+    "summary": "Yam Store is an underground marketplace that supplies cloud infrastructure and phishing kits to support cybercrime activities. It is linked to a Chinese-language phishing ecosystem that deployed over one billion phishing emails and SMS messages to tens of thousands of organizations.",
+    "last_updated": "2026-10-15"
+  },
+  "cogui": {
+    "canonical_name": "CoGUI",
+    "entity_type": "product",
+    "summary": "CoGUI is an extensible platform developed by the GraphiK research team at LIRMM in France for using, transforming, and querying graph-based knowledge. It implements the Conceptual Graph knowledge representation model to facilitate graph-based knowledge representation and reasoning.",
+    "last_updated": "2026-10-15"
+  },
+  "letitia james": {
+    "canonical_name": "Letitia James",
+    "entity_type": "person",
+    "summary": "Letitia James is the 67th Attorney General for the State of New York. She is a lifelong public servant from Brooklyn who took office in 2019.",
+    "last_updated": "2026-10-15"
+  },
+  "rei": {
+    "canonical_name": "REI",
+    "entity_type": "company",
+    "summary": "REI Co-op is a member-owned cooperative that sells and makes high-quality outdoor gear and apparel. It offers essential classes and expert advice, and has remained committed to its community since its beginning. The company has no shareholders and has nearly 20 million members.",
+    "last_updated": "2026-10-15"
+  },
+  "barnes and noble": {
+    "canonical_name": "Barnes and Noble",
+    "entity_type": "company",
+    "summary": "Barnes & Noble, Inc. is the largest retail bookseller in the United States with approximately 700 bookstores, an online bookstore at BN.com, and the NOOK® Digital business. It also operates the SparkNotes educational service and the Paper Source stationery and gift retailer.",
+    "last_updated": "2026-10-15"
+  },
+  "gamestop": {
+    "canonical_name": "GameStop",
+    "entity_type": "company",
+    "summary": "GameStop Corp. is a specialty retailer that provides games, collectibles, and entertainment products through its stores and e-commerce platforms in the United States.",
+    "last_updated": "2026-10-15"
+  },
+  "tyler murkerson": {
+    "canonical_name": "Tyler Murkerson",
+    "entity_type": "person",
+    "summary": "Tyler Murkerson is approximately 42 years old and resides in the United States. Public records for this individual may include phone numbers, current and previous addresses, possible relatives, and associated email addresses.",
+    "last_updated": "2026-10-15"
+  },
+  "hall  lampros": {
+    "canonical_name": "Hall & Lampros",
+    "entity_type": "organization",
+    "summary": "Hall & Lampros, LLP is an Atlanta law firm that serves all of Georgia in personal injury, employment law, civil rights, and class actions. The firm has recovered over $500 million for its clients and prioritizes representing individuals who need help against large corporations or insurance companies",
+    "last_updated": "2026-10-15"
+  },
+  "quinn slack": {
+    "canonical_name": "Quinn Slack",
+    "entity_type": "person",
+    "summary": "Quinn Slack is the co-founder and chief executive of Amp, a coding-agent company, and the co-founder and former chief executive of Sourcegraph, an enterprise code-search business. His career has focused on the evolution of developer tools, transitioning from searching unfamiliar codebases to buildin",
+    "last_updated": "2026-10-15"
+  },
+  "ultrafast": {
+    "canonical_name": "Ultrafast",
+    "entity_type": "ai_model",
+    "summary": "Ultrafast is a new service tier designed to run GPT-5.6 Sol up to 14 times faster than Standard processing. Powered by Cerebras, it generates up to 750 output tokens per second to bring frontier intelligence to products and workflows where speed is critical.",
+    "last_updated": "2026-10-15"
+  },
+  "sign in with chatgpt": {
+    "canonical_name": "Sign in with ChatGPT",
+    "entity_type": "product",
+    "summary": "Sign in with ChatGPT allows users to sign in to participating apps and sites using their ChatGPT account, with usage limits to maintain control. Eligible ChatGPT Plus and Pro subscribers can also choose to use their ChatGPT plan for AI requests, with separate permissions for signing in and utilizing",
+    "last_updated": "2026-10-15"
+  },
+  "sentinelone": {
+    "canonical_name": "SentinelOne",
+    "entity_type": "company",
+    "summary": "SentinelOne is a global leader in AI security, unifying AI-powered endpoint, cloud, identity, and data protection. The company offers the Singularity Marketplace with One-Click Integrations for Unified Prevention, Detection, and Response, along with a Security Data Lake designed to give defenders a",
+    "last_updated": "2026-10-15"
+  },
+  "openai daybreak": {
+    "canonical_name": "OpenAI Daybreak",
+    "entity_type": "product",
+    "summary": "OpenAI Daybreak is a governed cyber defense stack that turns AI capabilities into an agentic defense loop. It integrates frontier models, the Codex harness, Codex Security, and trusted workflows to help defenders reduce risk faster while maintaining human control.",
+    "last_updated": "2026-10-15"
+  },
+  "gregor stewart": {
+    "canonical_name": "Gregor Stewart",
+    "entity_type": "person",
+    "summary": "Gregor Stewart brings over 20 years of experience building software, with deep expertise in data science, machine learning, and AI spanning multimodal conversational systems to high-autonomy agentic security platforms.",
+    "last_updated": "2026-10-15"
+  },
+  "third moment research": {
+    "canonical_name": "Third Moment Research",
+    "entity_type": "company",
+    "summary": "Third Moment Research is an AI lab that develops autonomous agents for cybersecurity, utilizing models like GPT-6 Astra and GPT-6.1 Sol. The company operates 10,000 agents concurrently, running them for 36 to 48 hours per session, and has processed over 1 trillion OpenAI tokens in a single day.",
+    "last_updated": "2026-10-15"
+  },
+  "gpt61 sol": {
+    "canonical_name": "GPT-6.1 Sol",
+    "entity_type": "ai_model",
+    "summary": "GPT-6.1 Sol is an upgraded AI model that offers a new balance of capability and cost for everyday professional work, delivering substantial improvements over GPT-6 Sol. It nearly matches the intelligence of GPT-6 Astra on agentic coding and computer use at one-fifth of Astra’s standard token prices,",
+    "last_updated": "2026-10-15"
+  },
+  "zfinix": {
+    "canonical_name": "Zfinix",
+    "entity_type": "company",
+    "summary": "Mar 30, 2026 · A desktop app for mirroring and controlling Android devices over USB. Built with Tauri, React, and Rust. - Zfinix/another A desktop app for mirroring and controlling Android devices over USB. Built with Tauri, React, and Rust. A desktop app for mirroring and controlling Android device",
+    "last_updated": "2026-10-15"
+  },
+  "eleven": {
+    "canonical_name": "Eleven",
+    "entity_type": "product",
+    "summary": "6 days ago · ElevenLabs turns text into speech, clones a voice from about a minute of audio, and dubs video. See models, pricing, and how it compares. What the platform does, what it costs, and where it beats or loses to OpenAI TTS, PlayHT, and Cartesia. ElevenLabs is an AI audio platform that conve",
+    "last_updated": "2026-10-15"
+  },
+  "rea": {
+    "canonical_name": "REA",
+    "entity_type": "technology",
+    "summary": "REA describes all trade and production processes using a common pattern. REA applications can even plan, monitor and control trade where money is not involved. Therefore, REA applications are ideal for businesses with special or frequently changing processes and requirements. What is difficult in tr",
+    "last_updated": "2026-10-15"
+  },
+  "rizin": {
+    "canonical_name": "Rizin",
+    "entity_type": "technology",
+    "summary": "Rizin is a free and open-source reverse engineering framework that delivers a comprehensive binary analysis experience. It focuses on usability, stability, and functional features, striving to create a welcoming environment for developers and users. Rizin is a free and open-source reverse engineerin",
+    "last_updated": "2026-10-15"
+  },
+  "jadx": {
+    "canonical_name": "jadx",
+    "entity_type": "technology",
+    "summary": "jadx - Dex to Java decompiler. Command line and GUI tools for producing Java source code from Android Dex and Apk files. Please note that in most cases jadx can't decompile all 100% of the code, so errors will occur. Check Troubleshooting guide for workarounds. Main features: jadx-gui features: Jadx",
+    "last_updated": "2026-10-15"
+  },
+  "gpuix": {
+    "canonical_name": "GPUIX",
+    "entity_type": "technology",
+    "summary": "GPUIX is React for GPUI, Zed's GPU UI framework. Build native desktop apps with React and TypeScript. No Electron, no web views. GPUIX bridges React and Solid to GPUI using a shared mutation-based runtime. Desktop apps use napi-rs; browser apps load the same Rust renderer through wasm-bindgen. GPUIX",
+    "last_updated": "2026-10-15"
+  },
+  "qwen3": {
+    "canonical_name": "Qwen3",
+    "entity_type": "ai_model",
+    "summary": "Qwen3 is the strongest open model family for local AI right now, offering eight model sizes from 0.6B to 235B, including two MoE models. It features an Apache 2.0 license and a /think toggle, with the 4B model matching the performance of the 72B model on benchmarks.",
+    "last_updated": "2026-10-15"
+  },
+  "dify": {
+    "canonical_name": "Dify",
+    "entity_type": "product",
+    "summary": "Dify is a platform for production-ready agentic workflows that allows users to build agents, knowledge pipelines, models, and tools on a single canvas. It supports deployment on Cloud, VPC, or self-hosted environments and aims to democratize AI agent development through a no-code platform.",
+    "last_updated": "2026-10-15"
+  },
+  "university of tübingen": {
+    "canonical_name": "University of Tübingen",
+    "entity_type": "organization",
+    "summary": "The University of Tübingen is an institution with approximately 2,200 employees that provides conditions for research and teaching. It is governed by a President, four Vice-Presidents, and an Executive Vice-President who leads the Central Administration.",
+    "last_updated": "2026-10-15"
+  },
+  "vhtoolbox": {
+    "canonical_name": "vh-toolbox",
+    "entity_type": "product",
+    "summary": "material did not address this",
+    "last_updated": "2026-10-15"
   }
 }
