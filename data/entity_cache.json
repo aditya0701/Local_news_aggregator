@@ -475,9 +475,9 @@
   },
   "google gemini": {
     "canonical_name": "Google Gemini",
-    "entity_type": "ai_model",
-    "summary": "# Google Gemini Explained: Overview of Gemini AI Models. *Since its launch in December 2023, Google Gemini has evolved from a single AI model into a comprehensive ecosystem that is deeply integrated into Android, Workspace and Chrome, and, since early 2026, into Apple’s iOS and Siri as well. With th",
-    "last_updated": "2026-07-02"
+    "entity_type": "product",
+    "summary": "Google Gemini is a large, capable, and multimodal AI model designed to understand, operate across, and combine various types of information. It is available in three different sizes—Ultra, Pro, and Nano—and possesses advanced coding capabilities and sophisticated reasoning.",
+    "last_updated": "2026-10-16"
   },
   "ahgcodes": {
     "canonical_name": "ahg.codes",
@@ -1894,9 +1894,9 @@
   },
   "groq": {
     "canonical_name": "Groq",
-    "entity_type": "technology",
-    "summary": "The architecture was originally introduced as a Tensor Streaming Processor (TSP) but was later rebranded as a Language Processing Unit (LPU) following the widespread adoption of large language models after the breakthrough of ChatGPT. In December 2025, Nvidia and Groq announced an agreement reported",
-    "last_updated": "2026-07-03"
+    "entity_type": "company",
+    "summary": "Founded in 2016 and headquartered in Mountain View, California, Groq designs and provides specialized AI compute solutions using custom-built Language Processing Unit (LPU) hardware to accelerate AI inference workloads.",
+    "last_updated": "2026-10-16"
   },
   "ollama": {
     "canonical_name": "ollama",
@@ -2948,8 +2948,8 @@
   "apple mlx": {
     "canonical_name": "Apple MLX",
     "entity_type": "technology",
-    "summary": "Apple MLX is an array framework for machine learning on Apple silicon, inspired by frameworks like NumPy, PyTorch, and Jax. It is designed by machine learning researchers for machine learning researchers and features a Python API closely aligned with NumPy for user familiarity. MLX is designed to be",
-    "last_updated": "2026-07-05"
+    "summary": "MLX is an open-source array framework for Apple silicon that lets AI researchers and developers experiment locally with the latest models and methods. It leverages the unified memory architecture of Apple silicon to enable local inference and fine-tuning.",
+    "last_updated": "2026-10-16"
   },
   "cuda": {
     "canonical_name": "CUDA",
@@ -4543,9 +4543,9 @@
   },
   "vllm": {
     "canonical_name": "vLLM",
-    "entity_type": "product",
-    "summary": "vLLM is a production-grade framework for serving large language models. It is designed to run LLMs on your own hardware for privacy, cost, and latency benefits. The material mentions testing frameworks with Llama-3 8B on an RTX 4090 and highlights that local serving is a compliance requirement for d",
-    "last_updated": "2026-07-07"
+    "entity_type": "technology",
+    "summary": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models. It features PagedAttention, a novel attention algorithm that manages GPU memory with near-zero waste, enabling significantly larger batch sizes and state-of-the-art serving throughput.",
+    "last_updated": "2026-10-16"
   },
   "apache20": {
     "canonical_name": "Apache-2.0",
@@ -5132,8 +5132,8 @@
   "mac studio": {
     "canonical_name": "Mac Studio",
     "entity_type": "product",
-    "summary": "The Mac Studio is a pro desktop computer featuring Thunderbolt 5 with transfer rates up to 120Gb/s, and supports Wi-Fi 6E and Bluetooth 5.3. It has 16 drive external displays, direct SDXC card offloading, and supports external PCIe expansion. The Mac Studio is powered by Apple's M4 Max chip and is d",
-    "last_updated": "2026-07-10"
+    "summary": "Mac Studio is a professional desktop computer powered by M5 Max and M5 Ultra chips. It is designed for creators, developers, and engineers, offering mind-bending graphics, faster memory and storage, and unprecedented AI capabilities.",
+    "last_updated": "2026-10-16"
   },
   "wwdc 2026": {
     "canonical_name": "WWDC 2026",
@@ -5713,21 +5713,21 @@
   },
   "bluesky": {
     "canonical_name": "Bluesky",
-    "entity_type": "technology",
-    "summary": "Bluesky technology is available as an integrated feature within SyncServer S650 and TimeProvider 4100 servers or as a dedicated BlueSky GNSS firewall. It is also described as an app touted as an alternative to the platform formerly known as Twitter, with a userbase that has recently jumped to over 2",
-    "last_updated": "2026-07-11"
+    "entity_type": "organization",
+    "summary": "Bluesky is a social app designed to not be controlled by a single company, aiming to create a cohesive and easy-to-use social media experience built by many people. It is built on the AT Protocol, an open-source toolbox for social apps, with the goal of making online public conversation function mor",
+    "last_updated": "2026-10-16"
   },
   "jay graber": {
     "canonical_name": "Jay Graber",
     "entity_type": "person",
-    "summary": "Jay Graber is the CEO of Bluesky Social. She is described as a 33-year-old leader who is disrupting social media by building a competing platform to take on Elon Musk's X. The material also notes she was born Lantian 'Jay' Graber in Tulsa, Oklahoma, to a multicultural household.",
-    "last_updated": "2026-07-11"
+    "summary": "Jay Graber is the CEO of Bluesky and the engineer behind the decentralized platform, which she describes as a \"billionaire-proof\" alternative to X and Meta-owned platforms. She is best known for steering the project, which former Twitter CEO Jack Dorsey tapped her to lead in 2021.",
+    "last_updated": "2026-10-16"
   },
   "toni schneider": {
     "canonical_name": "Toni Schneider",
     "entity_type": "person",
-    "summary": "Toni Schneider is a Partner at True Ventures, a leading early-stage venture capital firm founded in 2005. Her focus at True includes investing in a broad range of sectors such as software, connected devices, and climate tech, and she partners with founders who are passionate and driven.",
-    "last_updated": "2026-07-11"
+    "summary": "Toni Schneider is the Chief Executive Officer of Bluesky, a role he has held on an interim basis since March 2026.",
+    "last_updated": "2026-10-16"
   },
   "automattic": {
     "canonical_name": "Automattic",
@@ -6657,10 +6657,10 @@
     "last_updated": "2026-07-14"
   },
   "git": {
-    "canonical_name": "git",
+    "canonical_name": "Git",
     "entity_type": "technology",
-    "summary": "Git is a mature, actively maintained open source revision control system used by thousands of developers. It is used for tasks like setting up a repository, saving changes, inspecting a repository, undoing changes, rewriting history, and collaborating workflows.",
-    "last_updated": "2026-07-14"
+    "summary": "Git is a distributed version control system (VCS) used to track changes in source code during software development. It helps developers collaborate, manage different versions of code, and roll back to previous states if needed.",
+    "last_updated": "2026-10-16"
   },
   "jj": {
     "canonical_name": "jj",
@@ -21721,5 +21721,317 @@
     "entity_type": "product",
     "summary": "material did not address this",
     "last_updated": "2026-10-15"
+  },
+  "muse spark open": {
+    "canonical_name": "Muse Spark Open",
+    "entity_type": "ai_model",
+    "summary": "Muse Spark Open is the most capable US open-weight model to date, featuring 816B total parameters (42B active) and a 1M-token context window. It is a natively multimodal model built for coding and agentic work, excelling at long-horizon tasks and complex software engineering, and it is designed to r",
+    "last_updated": "2026-10-16"
+  },
+  "together ai": {
+    "canonical_name": "Together AI",
+    "entity_type": "company",
+    "summary": "Together AI provides a cloud platform for developing, training, fine-tuning, and deploying generative AI models using open-source technologies. It offers a full-stack platform for inference, fine-tuning, and GPU clusters, powered by cutting-edge systems research.",
+    "last_updated": "2026-10-16"
+  },
+  "amazon sagemaker ai": {
+    "canonical_name": "Amazon SageMaker AI",
+    "entity_type": "product",
+    "summary": "Amazon SageMaker is an integrated AWS service that brings together machine learning and analytics capabilities for a unified development environment. It allows users to build, train, and deploy ML models and foundation models using fully managed infrastructure, tools, and workflows.",
+    "last_updated": "2026-10-16"
+  },
+  "google cloud model garden": {
+    "canonical_name": "Google Cloud Model Garden",
+    "entity_type": "product",
+    "summary": "Google Cloud Model Garden is an AI/ML model library that helps users discover, test, customize, and deploy a wide variety of models from Google and Google partners.",
+    "last_updated": "2026-10-16"
+  },
+  "microsoft foundry models": {
+    "canonical_name": "Microsoft Foundry Models",
+    "entity_type": "product",
+    "summary": "Microsoft Foundry Models is a destination for discovering, evaluating, and deploying powerful AI models. It supports use cases such as building custom copilots, agents, and enhancing existing applications.",
+    "last_updated": "2026-10-16"
+  },
+  "hugging face transformers": {
+    "canonical_name": "Hugging Face Transformers",
+    "entity_type": "technology",
+    "summary": "Transformers is a model-definition framework for state-of-the-art machine learning models across text, computer vision, audio, video, and multimodal models. It centralizes model definitions to ensure compatibility across the majority of training frameworks.",
+    "last_updated": "2026-10-16"
+  },
+  "nieman lab": {
+    "canonical_name": "Nieman Lab",
+    "entity_type": "organization",
+    "summary": "Established in 1938, the Nieman Foundation for Journalism at Harvard administers the oldest fellowship program for journalists in the world, which has awarded fellowships to more than 1,700 journalists from 100 countries. The foundation also publishes digital journalism and publishing insights throu",
+    "last_updated": "2026-10-16"
+  },
+  "rpki": {
+    "canonical_name": "RPKI",
+    "entity_type": "technology",
+    "summary": "RPKI, or Resource Public Key Infrastructure, is a framework designed to make Border Gateway Protocol (BGP) Internet routing more secure. It provides documentation and resources to help organizations implement RPKI and improve overall Internet security.",
+    "last_updated": "2026-10-16"
+  },
+  "ripe ncc": {
+    "canonical_name": "RIPE NCC",
+    "entity_type": "organization",
+    "summary": "The RIPE NCC is a not-for-profit organization serving as the Regional Internet Registry for Europe, the Middle East, and Central Asia. It supports over 20,000 members across 76 countries, primarily Internet service providers and telecommunication organizations, by registering IP addresses and ASNs.",
+    "last_updated": "2026-10-16"
+  },
+  "pakistan telecom": {
+    "canonical_name": "Pakistan Telecom",
+    "entity_type": "company",
+    "summary": "Pakistan Telecommunication Company Limited (PTCL) is a state-owned monopoly and prime provider of telecommunication services in Pakistan, including Smart TV, Internet, and Landline. Established by the Telecommunications Ordinance of 1994, it is the largest integrated Information and Communication Te",
+    "last_updated": "2026-10-16"
+  },
+  "apple health": {
+    "canonical_name": "Apple Health",
+    "entity_type": "product",
+    "summary": "Apple Health provides intuitive health and fitness features built directly into Apple products to support users on their personal health journey. The platform offers daily and long-term health insights and is developed with clinical experts and rigorous scientific validation to protect user privacy.",
+    "last_updated": "2026-10-16"
+  },
+  "constellation": {
+    "canonical_name": "Constellation",
+    "entity_type": "company",
+    "summary": "Constellation is a leading competitive energy supplier and its affiliates serve over 2 million homes and businesses. The company provides electricity, natural gas, and a comprehensive suite of customizable energy products and services.",
+    "last_updated": "2026-10-16"
+  },
+  "vistra": {
+    "canonical_name": "Vistra",
+    "entity_type": "company",
+    "summary": "Vistra Corp. is a premier, integrated power company based in Irving, Texas, combining a customer-centric retail approach with safe, reliable power generation. It is one of the largest competitive power generators in the U.S., with a capacity of approximately 44,000 megawatts, operating in major comp",
+    "last_updated": "2026-10-16"
+  },
+  "sergio canavero": {
+    "canonical_name": "Sergio Canavero",
+    "entity_type": "person",
+    "summary": "Sergio Canavero (born 1964) is an Italian neurosurgeon known for his controversial claims about the near-term feasibility of head transplantation in humans. He made headlines in 2015 when he announced he would perform such a procedure on a human in two years' time.",
+    "last_updated": "2026-10-16"
+  },
+  "valery spiridinov": {
+    "canonical_name": "Valery Spiridinov",
+    "entity_type": "person",
+    "summary": "Valery Spiridinov is a Russian programmer who gained attention as a potential candidate for a head transplantation surgery led by Sergio Canavero. He suffers from a rare genetic disorder called Werdnig-Hoffmann disease, for which there is currently no cure.",
+    "last_updated": "2026-10-16"
+  },
+  "cal ai": {
+    "canonical_name": "Cal AI",
+    "entity_type": "product",
+    "summary": "Meet Cal AI Track your calories with just a picture Meet Cal AI, the AI-powered app for easy calorie tracking. Snap a photo, scan a barcode, or describe your meal and get instant calorie and nutrient info. Meet Cal AI, the AI-powered app for easy calorie tracking. Snap a photo, scan a barcode, or de",
+    "last_updated": "2026-10-16"
+  },
+  "myfitnesspal": {
+    "canonical_name": "MyFitnessPal",
+    "entity_type": "company",
+    "summary": "View MyFitnessPal (www.myfitnesspal.com) location in Texas, United States , revenue, industry and description. Find related and similar companies as well as employees by title and much more. Jul 31, 2026 · Explore MyFitnessPal's in-depth company profile, including funding details, key investors, lea",
+    "last_updated": "2026-10-16"
+  },
+  "apate": {
+    "canonical_name": "Apate",
+    "entity_type": "startup",
+    "summary": "Apate is a startup that provides cutting-edge scam prevention technology to help deliver secure and trusted banking experiences. The company deploys advanced conversational AI bots at scale to help governments and law enforcement protect citizens and disrupt scams.",
+    "last_updated": "2026-10-16"
+  },
+  "satlyt": {
+    "canonical_name": "Satlyt",
+    "entity_type": "startup",
+    "summary": "Satlyt is a startup that accelerates the space economy by helping satellites run software and work together in orbit. The company aims to be the Android of orbital computing by offering open software, and it develops virtual datacenters in space.",
+    "last_updated": "2026-10-16"
+  },
+  "alexa von tobel": {
+    "canonical_name": "Alexa von Tobel",
+    "entity_type": "person",
+    "summary": "Alexa von Tobel is a prominent American entrepreneur, venture capitalist, and author who is best known for founding the financial planning company LearnVest and the venture firm Inspired Capital. She is the Founder and Managing Partner of Inspired Capital Partners, a $900M Pre-Seed to Series A ventu",
+    "last_updated": "2026-10-16"
+  },
+  "chihua chien": {
+    "canonical_name": "Chi-Hua Chien",
+    "entity_type": "person",
+    "summary": "Chi-Hua Chien is the Co-Founder & Managing Partner of Goodwater Capital, a prominent venture capital firm focused on consumer technology. He is a seasoned investor and entrepreneur known for backing disruptive companies in mobile, fintech, e-commerce, and AI, and he previously served as Co-President",
+    "last_updated": "2026-10-16"
+  },
+  "karl alomar": {
+    "canonical_name": "Karl Alomar",
+    "entity_type": "person",
+    "summary": "Karl Alomar is a Managing Partner at M13, a venture capital firm, where he invests in early-stage technology companies. He is a serial entrepreneur turned venture investor who has built and sold high-growth businesses and holds an MBA from Columbia Business School and a BEng from Imperial College Lo",
+    "last_updated": "2026-10-16"
+  },
+  "stacy brownphilpot": {
+    "canonical_name": "Stacy Brown-Philpot",
+    "entity_type": "person",
+    "summary": "Stacy Brown-Philpot is the Founder and Managing Director of Cherryrock Capital, a multi-hundred-million-dollar venture firm focused on Black and Latinx founders. A Detroit native, she previously managed global operations at Google and started her career in investment banking at Goldman Sachs in 1999",
+    "last_updated": "2026-10-16"
+  },
+  "panos panay": {
+    "canonical_name": "Panos Panay",
+    "entity_type": "person",
+    "summary": "Panos Panay is a renowned Greek-American technology executive known for his role as a creative product visionary. He is most famous for creating the Microsoft Surface hardware line and leading the development of Windows 11.",
+    "last_updated": "2026-10-16"
+  },
+  "surface rt": {
+    "canonical_name": "Surface RT",
+    "entity_type": "product",
+    "summary": "The Surface RT is a hybrid tablet computer developed and manufactured by Microsoft, announced in June 2012 and released in October 2012, making it the first personal computer designed in-house by the company. It features a 10.6-inch touchscreen display, a quad-core NVIDIA Tegra 3 processor, 2GB of R",
+    "last_updated": "2026-10-16"
+  },
+  "mastodon": {
+    "canonical_name": "Mastodon",
+    "entity_type": "product",
+    "summary": "Mastodon Design offers a range of innovative products designed to meet various technical needs. Home Products Career Opportunities Contact & Support More Nov 21, 2024 · Mastodon is a decentralized social media platform designed to provide a more open, user-controlled alternative to traditional socia",
+    "last_updated": "2026-10-16"
+  },
+  "davinci resolve": {
+    "canonical_name": "DaVinci Resolve",
+    "entity_type": "product",
+    "summary": "DaVinci Resolve is the world’s only solution that combines editing, color correction, visual effects, motion graphics, audio post production and now photo editing all in one software tool! Its elegant, modern interface is fast to learn and easy for new users, yet powerful for professionals. DaVinci",
+    "last_updated": "2026-10-16"
+  },
+  "m5 ultra": {
+    "canonical_name": "M5 Ultra",
+    "entity_type": "technology",
+    "summary": "Aug 25, 2026 · M5 Ultra, the ultimate powerhouse for pro and AI workloads, uses next-generation UltraFusion technology to form a quad-die architecture for the first time in an M-series system on a chip (SoC). Text of this article August 25, 2026 PRESS RELEASE Apple introduces M6 and M5 Ultra for a b",
+    "last_updated": "2026-10-16"
+  },
+  "wordpress": {
+    "canonical_name": "WordPress",
+    "entity_type": "product",
+    "summary": "WordPress is a website creation platform that offers built-in hosting, premium themes, and other tools to help users create their sites.",
+    "last_updated": "2026-10-16"
+  },
+  "against the storm": {
+    "canonical_name": "Against the Storm",
+    "entity_type": "product",
+    "summary": "Against the Storm is a dark fantasy city builder and roguelite where players must rebuild civilization in the face of apocalyptic rains. As the Queen's Viceroy, the player leads various villagers to reclaim the wilderness and secure a future for civilization's last survivors. Progress is carried for",
+    "last_updated": "2026-10-16"
+  },
+  "call of duty modern warfare 4": {
+    "canonical_name": "Call of Duty: Modern Warfare 4",
+    "entity_type": "product",
+    "summary": "Call of Duty: Modern Warfare 4 features a conflict where war erupts on the Korean Peninsula after North Korea launches a full-scale invasion. The game is scheduled to launch on October 23, 2026, with pre-orders available to access campaign early access starting October 16, 2026.",
+    "last_updated": "2026-10-16"
+  },
+  "crusader kings iii": {
+    "canonical_name": "Crusader Kings III",
+    "entity_type": "product",
+    "summary": "Crusader Kings III is a medieval role-playing grand strategy game by Paradox Interactive where players guide their family line through the centuries. The game allows players to take command of their house and expand their dynasty through a meticulously researched Middle Ages, starting in either 867",
+    "last_updated": "2026-10-16"
+  },
+  "google chrome": {
+    "canonical_name": "Google Chrome",
+    "entity_type": "product",
+    "summary": "Google Chrome is a performance-built browser designed to work seamlessly across various devices and platforms. It offers organizational tools like tab grouping, labeling, and color coding, alongside features such as Energy Saver and Memory Saver to optimize the user experience.",
+    "last_updated": "2026-10-16"
+  },
+  "sega": {
+    "canonical_name": "Sega",
+    "entity_type": "company",
+    "summary": "SEGA SAMMY Corporation is committed to enhancing life with captivating experiences, reflecting this determination in their approach to sustainability. Corporate governance is central to their operations, and they continue to improve their practices.",
+    "last_updated": "2026-10-16"
+  },
+  "aaron sorkin": {
+    "canonical_name": "Aaron Sorkin",
+    "entity_type": "person",
+    "summary": "Aaron Sorkin is an American writer, producer, and director known for works exploring the combative worlds of politics, law, and entertainment, including The West Wing and movies like A Few Good Men and The Social Network. He grew up in Scarsdale, New York, and graduated from Syracuse University with",
+    "last_updated": "2026-10-16"
+  },
+  "lance oppenheim": {
+    "canonical_name": "Lance Oppenheim",
+    "entity_type": "person",
+    "summary": "Lance Oppenheim is an American director and producer from South Florida who blends nonfiction storytelling with heightened, cinematic formalism. His work has been screened at major international film festivals and featured at institutions like the Museum of Modern Art and the Smithsonian, and he was",
+    "last_updated": "2026-10-16"
+  },
+  "you can see everything": {
+    "canonical_name": "You Can See Everything",
+    "entity_type": "product",
+    "summary": "You Can See Everything is a film directed by Nathan Fielder and Lance Oppenheim that follows a three-year journey into the abyss with Elizabeth Holmes. The movie begins as an intimate portrait of the former Silicon Valley founder, who invites a skeptical film crew to document her every move thirty-f",
+    "last_updated": "2026-10-16"
+  },
+  "artificial": {
+    "canonical_name": "Artificial",
+    "entity_type": "product",
+    "summary": "material did not address this",
+    "last_updated": "2026-10-16"
+  },
+  "attie": {
+    "canonical_name": "Attie",
+    "entity_type": "product",
+    "summary": "Attie is Bluesky's experimental platform that initially offered AI-powered technology for building custom social feeds. It has since expanded to allow everyday users to create interactive experiences such as websites, quizzes, games, and polls.",
+    "last_updated": "2026-10-16"
+  },
+  "walkman": {
+    "canonical_name": "Walkman",
+    "entity_type": "product",
+    "summary": "The Walkman is a line of portable audio players developed by Sony. The original WM-2, released in 1981, was a compact stereo cassette player featuring a tape head in the lid and a new cassette insertion system.",
+    "last_updated": "2026-10-16"
+  },
+  "gptrosalind": {
+    "canonical_name": "GPT-Rosalind",
+    "entity_type": "ai_model",
+    "summary": "GPT-Rosalind is a purpose-built AI model designed for life sciences research, allowing researchers to ask general scientific questions and explore ideas. It is OpenAI’s life sciences brand, connecting frontier AI and scientific tools to accelerate research through the Rosalind Workbench.",
+    "last_updated": "2026-10-16"
+  },
+  "rosalind workbench": {
+    "canonical_name": "Rosalind workbench",
+    "entity_type": "product",
+    "summary": "Rosalind Workbench is an orchestrated workspace designed to accelerate scientific research for life sciences users. It provides a central environment to leverage favorite scientific tools, explore specialized biology models, and define data analysis workflows.",
+    "last_updated": "2026-10-16"
+  },
+  "ai for educators": {
+    "canonical_name": "AI for Educators",
+    "entity_type": "course",
+    "summary": "This course explores the potential of artificial intelligence in education, covering topics such as the history of AI, large language models, generative AI, prompt engineering, and the responsible use of AI in a class setting. It aims to equip learners with skills to enhance teaching and learning.",
+    "last_updated": "2026-10-16"
+  },
+  "john savva": {
+    "canonical_name": "John Savva",
+    "entity_type": "person",
+    "summary": "John Savva is a partner at Sullivan & Cromwell's Palo Alto office and a member of the Firm's General Practice Group. He has over 30 years of experience representing prominent corporations and emerging growth companies in mergers and acquisitions, private equity transactions, public and private finan",
+    "last_updated": "2026-10-16"
+  },
+  "protnlm": {
+    "canonical_name": "ProtNLM",
+    "entity_type": "ai_model",
+    "summary": "ProtNLM is a transformer-based sequence-to-sequence AI model developed by Google that takes amino acid sequences as input to perform whole-protein functional annotation. It is designed to generate high-quality predictions for tens of millions of proteins and is demonstrated via a Colab notebook.",
+    "last_updated": "2026-10-16"
+  },
+  "mailcheap": {
+    "canonical_name": "mailcheap",
+    "entity_type": "product",
+    "summary": "MailCheap is a newsletter platform that charges users for the emails they send rather than their subscriber count. Its plans start at $19 per month for 20,000 emails and include all features, with the option to pay yearly to receive two months free.",
+    "last_updated": "2026-10-16"
+  },
+  "beehiiv": {
+    "canonical_name": "beehiiv",
+    "entity_type": "product",
+    "summary": "beehiiv is a modern newsletter platform designed for creators and brands to manage growth, engagement, and monetization in a single interface. It offers tools for paid subscriptions, native advertising, and centralized analytics, available on a free plan or advanced paid tiers.",
+    "last_updated": "2026-10-16"
+  },
+  "open_scion": {
+    "canonical_name": "open_scion",
+    "entity_type": "product",
+    "summary": "OpenScion is a project that reports benchmark timings for synthetic files on Apple Silicon laptops. It provides upstream-reported operational results and functional checks, though it does not include its own performance measurements.",
+    "last_updated": "2026-10-16"
+  },
+  "scion": {
+    "canonical_name": "Scion",
+    "entity_type": "product",
+    "summary": "Scion Instruments specializes in premium gas and liquid chromatography solutions for research and industry. Founded on the history of Chrompack and Varian, it was acquired by the Techcomp group in 2014 and offers instruments designed to boost productivity and generate data confidently.",
+    "last_updated": "2026-10-16"
+  },
+  "i12bp8": {
+    "canonical_name": "i12bp8",
+    "entity_type": "person",
+    "summary": "i12bp8 is a developer with interests in web/mobile app security, bug bounties, reverse engineering, and hardware interfaces. They contribute to various open-source projects and are focused on understanding how systems work and creating small research tools.",
+    "last_updated": "2026-10-16"
+  },
+  "wii": {
+    "canonical_name": "Wii",
+    "entity_type": "product",
+    "summary": "The Nintendo Wii is a seventh-generation video game console released by Nintendo in 2006. It features motion controls, focuses on multiplayer party games, and achieved commercial success with 101 million units sold.",
+    "last_updated": "2026-10-16"
+  },
+  "gpt with taste": {
+    "canonical_name": "GPT with Taste",
+    "entity_type": "product",
+    "summary": "GPT with Taste is a shopping feature that allows businesses to share product feeds to reach shoppers through AI-powered results. Shoppers can browse products with rich results including images, pricing, and key details, while businesses can send shoppers to their site or app with no fees for purchas",
+    "last_updated": "2026-10-16"
   }
 }
