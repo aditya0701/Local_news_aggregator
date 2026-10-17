@@ -1,5 +1,596 @@
 [
   {
+    "id": "5afa6e9d76e2",
+    "title": "Ultramarine 1 Flash: पेशेवर कार्यों के लिए एक नया और किफायती एआई मॉडल",
+    "summary": "टेकदृष्टि को मिली जानकारी के अनुसार, Ultramarine ने अपने नए एआई मॉडल, Ultramarine 1 Flash, की घोषणा की है। यह मॉडल विशेष रूप से वित्त, कानून, परामर्श और संचालन जैसे पेशेवर क्षेत्रों में काम करने के लिए डिज़ाइन किया गया है। बाजार में पहले से मौजूद महंगे मॉडलों के विकल्प के रूप में, यह मॉडल एक नए युग की शुरुआत करता है…",
+    "category": "model_release",
+    "tags": [
+      "Ultramarine",
+      "GLM-5.3 Flash",
+      "Claude Fable 5"
+    ],
+    "image": "https://www.paperinstruments.com/ultramarine/opengraph-image.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0913988ccbed",
+    "title": "Llmspeed: हार्डवेयर खरीदने से पहले लोकल LLM की असली स्पीड का अनुभव करें",
+    "summary": "आजकल एआई (AI) और लार्ज लैंग्वेज मॉडल (LLM) को लोकल मशीन पर चलाने के लिए एक शक्तिशाली जीपीयू (GPU) या महंगे मैक (Mac) की आवश्यकता होती है। लेकिन अक्सर उपयोगकर्ताओं को यह नहीं पता होता कि कोई विशिष्ट मॉडल उनके द्वारा खरीदे गए हार्डवेयर पर वास्तव में कितनी तेजी से काम करेगा। इसी समस्या को हल करने के लिए llmspeed नामक एक…",
+    "category": "repo_analysis",
+    "tags": [
+      "Llmspeed",
+      "GitHub"
+    ],
+    "image": "https://llmspeed.dev/og.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7a6a342eb958",
+    "title": "क्लॉड ने खुलासा किया ईसीडीएसए (ECDSA) कर्व्स के रहस्यों का अंत",
+    "summary": "क्रिप्टोग्राफी के क्षेत्र में एक लंबी चली आ रही रहस्यमयी कहानी आखिरकार सुलझ गई है। एंथ्रोपिक द्वारा विकसित एआई मॉडल 'क्लॉड' ने उस सवाल का सटीक जवाब दे दिया है जिसने दशकों से सुरक्षा विशेषज्ञों और शोधकर्ताओं को उलझा रखा था। यह खबर इस बात का प्रमाण है कि कैसे आधुनिक आर्टिफिशियल इंटेलिजेंस जटिल तकनीकी पहेलियों को सुलझाने…",
+    "category": "general",
+    "tags": [
+      "Claude",
+      "NIST",
+      "NSA"
+    ],
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d0c862c5cabd703c0fcbaad939385133f02b694c-1200x630.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d0a00342ca12",
+    "title": "FLUX 3 Image Klein का लॉन्च: ओपन वेट्स के साथ एआई इमेज जनरेशन का नया मानक",
+    "summary": "ब्लैकफॉरेस्ट लैब्स ने अपने नवीनतम एआई इमेजिंग मॉडल, FLUX 3 Image Klein, की आधिकारिक घोषणा की है। यह 5.6 बिलियन पैरामीटर वाला ओपन वेट्स मॉडल डेवलपर्स को टेक्स्ट-टू-इमेज जनरेशन, सटीक इमेज एडिटिंग और मल्टी-रेफरेंस जनरेशन (10 संदर्भ छवियों तक का उपयोग) की सुविधा प्रदान करता है। यह रिलीज़ एआई इमेजिंग के क्षेत्र में एक…",
+    "category": "model_release",
+    "tags": [
+      "FLUX 3 Image Klein",
+      "BFL",
+      "NVIDIA"
+    ],
+    "image": "https://bfl.ai/api/og/blog/flux-3-image-klein",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "98e6a11f87f3",
+    "title": "Apple ML Research: Muse Spark Open के साथ Mac Studio पर MLX की शुरुआत",
+    "summary": "Apple ने आज अपने नए ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क MLX की घोषणा की है। यह फ्रेमवर्क Apple Silicon के यूनिफाइड मेमोरी आर्किटेक्चर का लाभ उठाते हुए AI रिसर्चर्स और डेवलपर्स को अपने निजी हार्डवेयर पर अत्याधुनिक मॉडल्स के साथ प्रयोग करने की अनुमति देता है। इस नवीनतम रिलीज़ के साथ, डेवलपर्स अब क्लाउड पर निर्भर रहने के…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "MLX",
+      "Mac Studio"
+    ],
+    "image": "https://mlr.cdn-apple.com/media/MLX_icon_F001_TC_2048_2600_6439f2ba0f.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "30767de6ee43",
+    "title": "राउंडटेबल: एआई-डिज़ाइन किए गए वायरस के निर्माता के साथ विशेष बातचीत",
+    "summary": "एमआईटी टेक्नोलॉजी रिव्यू के वरिष्ठ एआई रिपोर्टर जेम्स ओ'डोनेल और स्टैनफोर्ड विश्वविद्यालय के बायोइंजीनियरिंग पीएचडी उम्मीदवार सैमुअल किंग के बीच एक विशेष राउंडटेबल चर्चा आयोजित की गई है। यह विशेष सत्र शुक्रवार, 16 अक्टूबर, 2026 को रिकॉर्ड किया गया था और यह एमआईटी टेक्नोलॉजी रिव्यू के 'इनोवेटर्स अंडर 35' में किंग के…",
+    "category": "general",
+    "tags": [
+      "Samuel King",
+      "James O'Donnell",
+      "Stanford University"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "bb62f8b7f627",
+    "title": "PRIMA सिस्टम: मैक्यूलर डीजेनरेशन से पीड़ित मरीजों के लिए एक नई उम्मीद",
+    "summary": "दुनिया भर में 50 लाख से अधिक लोग उम्र से संबंधित मैक्यूलर डीजेनरेशन (AMD) से पीड़ित हैं, जो एक प्रगतिशील बीमारी है और इसमें केंद्रीय दृष्टि नष्ट हो जाती है। अब तक, इस बीमारी के कारण खोई हुई दृष्टि को वापस लाने का कोई इलाज नहीं था। लेकिन हाल ही में, कैलिफोर्निया स्थित कंपनी साइंस कॉर्पोरेशन द्वारा विकसित PRIMA सिस्टम…",
+    "category": "general",
+    "tags": [
+      "PRIMA",
+      "Science Corporation",
+      "Frank Brodie"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/prima-implant-2026.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "36209e2ea5ff",
+    "title": "क्या आप अपने पालतू जानवर को हमेशा के लिए अलविदा नहीं कहना चाहते?",
+    "summary": "बचपन के दिनों में खोए गए अपने पहले पालतू जानवर की यादें आज भी कई लोगों के दिलों में ताज़ा रहती हैं। यह सिर्फ एक जानवर की याद नहीं है, बल्कि एक गहरे भावनात्मक जुड़ाव की कहानी है। अब, बायोटेक कंपनियों ने पालतू जानवरों के जीवन को बढ़ाने के लिए नई तकनीकें विकसित की हैं, जिससे पालतू जानवरों के मालिकों को अपने प्यारे…",
+    "category": "general",
+    "tags": [
+      "Loyal",
+      "Dolly"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AdobeStock_551902166.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8a848b0f2494",
+    "title": "मार्क वालबर्ग का नया जिम 'म्युनिसिपल' देगा महंगे वेलनेस क्लब्स को कड़ी टक्कर",
+    "summary": "हॉलीवुड अभिनेता और उद्यमी मार्क वालबर्ग अपने अभिनय करियर से भी अधिक उत्साह के साथ एक नए व्यावसायिक उपक्रम में कदम रख रहे हैं। वालबर्ग ने अपने नए जिम 'म्युनिसिपल जिम' की घोषणा की है, जो दिसंबर में लास वेगास के डाउनटाउन समरलीन में खुलने वाला है। यह जिम केवल एक फिटनेस सेंटर नहीं है, बल्कि यह उन महंगे वेलनेस और लॉन्गेविटी…",
+    "category": "general",
+    "tags": [
+      "Mark Wahlberg",
+      "Municipal Gym",
+      "Municipal"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Mark-Wahlberg.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d0f11237d1f3",
+    "title": "रेप्लिट अब एंथ्रोपिक के साथ काम नहीं कर रहा है, सीईओ ने किया खुलासा",
+    "summary": "रेप्लिट के सीईओ और सह-संस्थापक अमजद मसाद ने गुरुवार को टेकक्रंच डिसरप्ट (TechCrunch Disrupt) के मंच पर यह चौंकाने वाली जानकारी दी। उन्होंने स्पष्ट किया कि रेप्लिट अब एंथ्रोपिक (Anthropic) के साथ काम नहीं कर रहा है। मसाद के अनुसार, इस फैसले के पीछे लागत, साझेदारी की शर्तों और प्रदर्शन से जुड़ी कई चिंताएं थीं। उन्होंने…",
+    "category": "general",
+    "tags": [
+      "Replit",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "050801934044",
+    "title": "पोर्श की इलेक्ट्रिक मैकान टर्बो: एक ऑटोमोटिव अस्तित्व का संकट",
+    "summary": "2026 पोर्श मैकान टर्बो ईवी एक दो-पंक्ति वाला क्रॉसओवर है जो 100-किलोवाट-घंटे की बैटरी और 630 हॉर्सपावर से संचालित होता है। इसकी शुरुआती कीमत $112,700 है, जबकि परीक्षण की गई इकाई की लागत $149,610 (गंतव्य शुल्क सहित) थी। यह वाहन अपने आश्चर्यजनक रूप से साधारण, ग्रे बाहरी हिस्से और अत्यधिक आंतरिक प्रदर्शन के बीच एक स्पष्ट…",
+    "category": "model_release",
+    "tags": [
+      "Porsche",
+      "Macan Turbo EV",
+      "2026"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/porsche-macan-turbo-front-three-quarter.jpeg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "bfa998e6f2ba",
+    "title": "भारत बना रॉग एआई एजेंट गतिविधि की रिपोर्ट करने वाला नवीनतम देश",
+    "summary": "भारत अब रॉग एआई (rogue AI) एजेंट गतिविधि की रिपोर्ट करने वाला नवीनतम देश बन गया है, जो दुनिया भर में हो रही ऐसी घटनाओं की एक नई कड़ी है। भारतीय कंप्यूटर आपातकालीन प्रतिक्रिया दल (CERT-In) ने गुरुवार को घोषणा की कि उसे एआई मॉडल प्रदाताओं से कई स्वैच्छिक खुलासे मिले हैं। इन खुलासों के अनुसार, एआई मॉडल प्रदाताओं के मॉडल,…",
+    "category": "general",
+    "tags": [
+      "Indian Computer Emergency Response Team (CERT-In)",
+      "OpenAI",
+      "Hugging Face"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=612",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "600f8fc5a7e9",
+    "title": "एनवीडिया की पूर्व अधिकारी अमूल्या विश्वनाथ का मानना है कि रोबोटिक्स अभी अपने 'लेगो युग' में है, इसे 'चैटजीपीटी' वाला पल आने में समय लगेगा",
+    "summary": "अमूल्या विश्वनाथ, जो सात वर्षों तक एनवीडिया के रोबोटिक्स प्लेटफॉर्म के लिए उत्पाद विपणन (product marketing) का नेतृत्व करने के बाद अब टेकएबल वीसी (Techable VC) की संस्थापक और प्रबंध भागीदार हैं, ने रोबोटिक्स उद्योग की वर्तमान स्थिति पर एक महत्वपूर्ण दृष्टिकोण साझा किया है। एक प्रमुख तकनीकी निगम से स्वतंत्र उद्यम पूंजी…",
+    "category": "general",
+    "tags": [
+      "Amulya Vishwanath",
+      "NVIDIA",
+      "Techable VC"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "6f0ec75f9d13",
+    "title": "एलोरियन का पहला एआई मॉडल, ग्लिम्प्स: सिर्फ इमेजेज को नहीं, बल्कि उनके साथ 'तर्क' करता है",
+    "summary": "टेकक्रंच को मिली जानकारी के अनुसार, पालो ऑल्टो स्थित एआई स्टार्टअप एलोरियन ने अपना पहला मॉडल 'ग्लिम्प्स' जारी किया है। कंपनी ने किसी भी उत्पाद को बाजार में उतारने से पहले ही 55 मिलियन डॉलर की सीड फंडिंग जुटाई थी, जिसने कंपनी की प्री-प्रोडक्ट वैल्यूएशन को 300 मिलियन डॉलर तक पहुंचा दिया था। ग्लिम्प्स को फिलहाल रिसर्च…",
+    "category": "model_release",
+    "tags": [
+      "Elorian",
+      "Glimpse",
+      "Andrew Dai"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "40a686a264a7",
+    "title": "Tressfecta का लक्ष्य है हेयर ब्रेडिंग को आसान बनाना",
+    "summary": "24 वर्षीय आइसाटा डायललो, जो खुद एक पेशेवर हेयर ब्रेडर हैं, ने Tressfecta की शुरुआत की है। उनका उद्देश्य हेयर ब्रेडिंग के क्षेत्र में काम करने वाले स्टाइलिस्ट्स के लिए एक बड़ी समस्या को हल करना है। पारंपरिक ब्रेडिंग प्रक्रिया में एक ही स्टाइल को पूरा करने में आठ घंटे तक का समय लग सकता है, जिससे स्टाइलिस्ट्स को गंभीर…",
+    "category": "general",
+    "tags": [
+      "Tressfecta",
+      "Plait Pilot",
+      "Aisata Diallo"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2066870225.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "596dd45e1e86",
+    "title": "Apple का पहला फोल्डेबल iPhone Duo: एक नई शुरुआत",
+    "summary": "Apple ने आखिरकार अपने बहुप्रतीक्षित फोल्डेबल स्मार्टफोन, iPhone Duo, की घोषणा कर दी है। यह कंपनी का पहला ऐसा डिवाइस है जो फोल्ड होने वाली तकनीक का उपयोग करता है। टेक जगत में लंबे समय से इस फोन का इंतजार किया जा रहा था, और अब यह बाजार में आ चुका है। इस लॉन्च के साथ Apple ने स्मार्टफोन डिजाइन की दिशा में एक बड़ा कदम…",
+    "category": "model_release",
+    "tags": [
+      "Apple",
+      "iPhone Duo"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cb4458cafd2f",
+    "title": "एप्पल के नए ऐप स्टोर नियम: 'नडिफाई' एआई ऐप्स पर सख्त प्रतिबंध",
+    "summary": "एप्पल इंक (Apple Inc.) ने हाल ही में अपने ऐप स्टोर के नियमों में एक महत्वपूर्ण अपडेट किया है, जिसमें अब 'नडिफाई' (nudify) एआई ऐप्स को स्पष्ट रूप से प्रतिबंधित कर दिया गया है। ये ऐसे ऐप्स हैं जो आर्टिफिशियल इंटेलिजेंस (AI) तकनीक का उपयोग करके लोगों की बिना सहमति के अंतरंग और यौन छवियों को उत्पन्न करते हैं। यह नीतिगत…",
+    "category": "ban_regulation",
+    "tags": [
+      "Apple",
+      "X",
+      "Grok"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4e79f0146d6f",
+    "title": "टेस्ला ड्राइवर का दावा: FSD का उपयोग करते समय सो गया, कैलिफोर्निया हाईवे पेट्रोल की गाड़ियों से भयानक टक्कर",
+    "summary": "कैलिफोर्निया के इंटरस्टेट 80 (I-80) पर एक बेहद भयानक और चिंताजनक दुर्घटना सामने आई है, जिसने टेस्ला के ड्राइवर-असिस्ट सिस्टम्स की सुरक्षा पर एक बार फिर से बहस छेड़ दी है। इस दुर्घटना में एक टेस्ला वाहन ने कैलिफोर्निया हाईवे पेट्रोल (CHP) की दो गाड़ियों को पीछे से टक्कर मार दी, जिसमें दो अधिकारी गंभीर रूप से घायल हो गए…",
+    "category": "ban_regulation",
+    "tags": [
+      "Tesla",
+      "California Highway Patrol",
+      "National Highway Traffic Safety Administration"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-16-at-4.42.00-PM.png?quality=90&strip=all&crop=0%2C0%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "620915e6feea",
+    "title": "एप्पल अब बना रहा है अपना स्मार्ट होम हार्डवेयर: एक दशक की रणनीति में बड़ा बदलाव",
+    "summary": "एक दशक से अधिक समय तक एप्पल ने अन्य कंपनियों को अपने होमकिट (HomeKit) प्लेटफॉर्म के लिए स्मार्ट होम उपकरण बनाने की सलाह दी। लेकिन अब, कंपनी ने आखिरकार अपना खुद का स्मार्ट होम हार्डवेयर लॉन्च कर दिया है। एप्पल होम कलेक्शन के तहत कैमरे, थर्मोस्टेट, सेंसर, एक स्मार्ट डोर लॉक और एक वीडियो डोरबेल शामिल हैं। ये सभी उपकरण…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "HomeKit",
+      "HomeView"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_0432-1.jpeg?quality=90&strip=all&crop=0%2C4.2208293718613%2C100%2C46.727917872554&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2bab6421b0ff",
+    "title": "नई Apple TV 4K पर पहली (बहुत छोटी) छूट",
+    "summary": "एप्पल ने इसी सप्ताह अपनी नई Apple TV 4K की घोषणा की, जिसकी कीमत 2022 के मॉडल की तुलना में लगभग दोगुनी है। यह नया स्ट्रीमिंग डिवाइस नए A19 चिप और उन्नत सिरी एआई (Siri AI) सुविधाओं के साथ आता है। अमेज़न अब इस नए बॉक्स पर पहली बार $9 की छूट देकर ग्राहकों को आकर्षित कर रहा है, जो 13 नवंबर को बाजार में आने वाला है।",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "Amazon",
+      "Apple TV 4K"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VergeDealsAppleTV4K.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "175944f30125",
+    "title": "Apple HomeView की ऐप समस्या: एक शानदार हार्डवेयर, लेकिन ऐप्स का अभाव",
+    "summary": "Apple ने 13 अक्टूबर को अपनी बड़ी स्मार्ट होम घोषणा के तहत HomeView को पेश किया था। यह नया AI-संचालित हब, जिसमें 7-इंच का Liquid Retina डिस्प्ले है, घर के मनोरंजन, संचार और स्मार्ट होम नियंत्रण के लिए एक बेहतरीन केंद्र बनने की क्षमता रखता है। इसकी शुरुआती कीमत $299 रखी गई है। लेकिन इस शानदार हार्डवेयर के बावजूद, इसकी…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "HomeView",
+      "CarPlay"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_101626_YTB.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "31a7c41b3b03",
+    "title": "एनालॉग ने पेश किए अपग्रेडेड सुपर एनटी प्लस और मेगा एसजी प्लस कंसोल",
+    "summary": "एनालॉग, जो 2011 में स्थापित एक अमेरिकी कंपनी है और वीडियो गेम के इतिहास को सहेजने के लिए जानी जाती है, ने अपने दो सबसे लोकप्रिय 16-बिट रेट्रो कंसोल के नए संस्करणों की घोषणा की है। इस कंपनी का मुख्य उद्देश्य \"वीडियो गेम के इतिहास का उसी सम्मान के साथ जश्न मनाना और उसे खोजना है जिसके वह हकदार हैं।\" एनालॉग ने अब सुपर…",
+    "category": "model_release",
+    "tags": [
+      "Analogue",
+      "Super Nt Plus",
+      "Mega Sg Plus"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/analogue1.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3deb3ace3ef7",
+    "title": "प्ले स्टोर पर फर्जी व्हाट्सएप ऐप का आतंक: असली ऐप के ऊपर दिखा स्पॉन्सर्ड विज्ञापन",
+    "summary": "एक बेहद चौंकाने वाली घटना में, गूगल प्ले स्टोर पर फर्जी व्हाट्सएप ऐप ने अपनी जगह बना ली है। एंड्रॉइड अथॉरिटी द्वारा रिपोर्ट किए जाने के अनुसार, एक रेडिट उपयोगकर्ता ने देखा कि असली व्हाट्सएप के ठीक ऊपर एक स्पॉन्सर्ड विज्ञापन के रूप में एक नकली ऐप दिखाया जा रहा था। यह फर्जी ऐप असली ऐप की तरह ही दिखने वाले आइकन और…",
+    "category": "repo_analysis",
+    "tags": [
+      "WhatsApp",
+      "Agment Assets sallu",
+      "Google"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/acastro_STK460_googlePlay_04.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9db4940a53f8",
+    "title": "स्टैक ओवरफ्लो फॉर एजेंट्स का तेजी से लॉन्च: कोडेक्स (Codex) ने किया चमत्कार",
+    "summary": "स्टैक ओवरफ्लो ने हाल ही में अपने नए एजेंटिक प्लेटफॉर्म, स्टैक ओवरफ्लो फॉर एजेंट्स, का सफलतापूर्वक लॉन्च किया है। यह उपलब्धि विशेष रूप से उल्लेखनीय है क्योंकि इसे केवल दो इंजीनियरों द्वारा कुछ ही हफ्तों में तैयार किया गया था। इस तेजी से विकास का मुख्य श्रेय ओपनएआई के विशेष कोड-आधारित एआई मॉडल, कोडेक्स (Codex) को जाता…",
+    "category": "general",
+    "tags": [
+      "Stack Overflow",
+      "Codex",
+      "Stack Overflow for Agents"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4HTc2pk7XGFhzDU8RX0Ivg/ff2b922fa1914350c9d800da622ebe04/stack-overflow-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4a2f3ca18eb9",
+    "title": "Benefit Street Partners ने Codex का उपयोग करके निवेश विश्लेषण की गति बढ़ाई",
+    "summary": "Benefit Street Partners, जो कि एक प्रमुख वैकल्पिक ऋण निवेश प्रबंधक है, अपने अंडरराइटिंग और निवेश निर्णय लेने की प्रक्रिया में तेजी ला रहा है। पहले, निवेश समिति के फॉलो-अप सवालों के जवाब देने में कई दिनों या हफ्तों का समय लगता था। हालांकि, कंपनी ने अब OpenAI के Codex मॉडल का उपयोग करके कस्टम टूल विकसित किए हैं, जिससे…",
+    "category": "general",
+    "tags": [
+      "Benefit Street Partners",
+      "Anant Kumar",
+      "Codex"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2Km2vOVvFRvxGl6hZqWOTQ/2073bb541740640de3d215ee6e36b28e/og.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e0793e65a85a",
+    "title": "आउटक्रॉल का स्काउट: एक ओपन-सोर्स ब्राउज़र एजेंट जो वेब का काम खुद करता है",
+    "summary": "आउटक्रॉल (Outcrawl) ने एक नया ओपन-सोर्स प्रोजेक्ट, स्काउट (Scout) पेश किया है, जो वेब ब्राउज़िंग को एक स्वचालित अनुभव में बदल देता है। यह एजेंट यूज़र की ओर से वेब पेज पर नेविगेट करता है, आवश्यक जानकारी निकालता है और कार्यों को पूरा करता है। कंपनी के अनुसार, यह टूल यूज़र के समय को बचाता है और वेब डेटा निकालने की…",
+    "category": "repo_analysis",
+    "tags": [
+      "Outcrawl",
+      "Scout",
+      "Node"
+    ],
+    "image": "https://opengraph.githubassets.com/1/outcrawlai/scout",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ec10f04f989c",
+    "title": "YuyaoGe/doc2harness: कोडिंग एजेंटों की क्षमता मापने के लिए नया बेंचमार्क",
+    "summary": "शोधकर्ताओं ने 'Doc2Harness' नामक एक नया बेंचमार्क जारी किया है, जो 'Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents' नामक शोध पत्र का आधिकारिक कोड है। यह टूल केवल कोड के छोटे हिस्से (पैच) लिखने की नहीं, बल्कि एक पूर्ण और कार्यशील कोडिंग एजेंट बनाने की क्षमता को मापने के लिए डिज़ाइन…",
+    "category": "repo_analysis",
+    "tags": [
+      "Doc2Harness",
+      "Python"
+    ],
+    "image": "https://opengraph.githubassets.com/1/YuyaoGe/doc2harness",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6617fcd5233f",
+    "title": "NPCTalk: गेमिंग की दुनिया में AI और वॉयस क्लोनिंग का नया युग",
+    "summary": "एक नया ओपन-सोर्स टूलकिट, NPCTalk, गेमिंग की दुनिया में एक नई क्रांति ला रहा है। यह टूलकिट किसी भी गेम के नॉन-प्लेयर कैरेक्टर्स (NPCs) को एआई वॉयस तकनीक के जरिए खिलाड़ियों से वापस बात करने की क्षमता देता है। 'यूनिवर्सल मॉडडर' द्वारा विकसित इस टूल का मुख्य उद्देश्य खिलाड़ियों को एक ऐसा इमर्सिव अनुभव प्रदान करना है जहां…",
+    "category": "repo_analysis",
+    "tags": [
+      "Fish Audio",
+      "NPCTalk",
+      "GTA V"
+    ],
+    "image": "https://opengraph.githubassets.com/1/christos-antono/NPCTalk",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "bfa4340f9033",
+    "title": "FeedHive/ai-slop-detector: एआई जनरेटेड कंटेंट को पहचानने और उससे बचने का नया तरीका",
+    "summary": "टेकदृष्टि की रिपोर्ट के अनुसार, डेवलपर्स और लेखकों के लिए एक नया ओपन-सोर्स टूल उपलब्ध हुआ है जो एआई-जनरेटेड टेक्स्ट की पहचान करने और उसे सुधारने में मदद करता है। FeedHive/ai-slop-detector नामक इस रिपॉजिटरी में 9 अलग-अलग श्रेणियों में 120 भाषाई पैटर्न का संग्रह है। यह टूल विशेष रूप से उन लोगों के लिए उपयोगी है जो एआई…",
+    "category": "repo_analysis",
+    "tags": [
+      "FeedHive",
+      "Claude Code",
+      "Codex"
+    ],
+    "image": "https://opengraph.githubassets.com/1/FeedHive/ai-slop-detector",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2fedff385bfc",
+    "title": "डेवलपर ने बनाया ओपन-सोर्स टूल 'gitai', जो कोडिंग एजेंट्स के लिए है एक नया विकल्प",
+    "summary": "ओपन-सोर्स दुनिया में एक नई और महत्वपूर्ण पहल सामने आई है, जिससे डेवलपर्स और AI एजेंट्स के काम करने के तरीके में बड़ा बदलाव आ सकता है। एक डेवलपर ने 'gitai' (गिट-एआई) नाम का एक नया ओपन-सोर्स टूल पेश किया है। यह टूल एंथ्रोपिक (Anthropic) के आंतरिक प्रोजेक्ट 'Scion' का एक ओपन-सोर्स विकल्प है। इसे MIT लाइसेंस के तहत जारी…",
+    "category": "repo_analysis",
+    "tags": [
+      "Anthropic",
+      "gitai",
+      "Scion"
+    ],
+    "image": "https://opengraph.githubassets.com/1/feder-cr/git-ai",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "dc8cec88b45e",
+    "title": "लियोनएक्सएलएनएक्स का नया टूल 'ईयरशॉट': एआई को सुनने की क्षमता देगा",
+    "summary": "एआई कोडिंग एजेंट आज जटिल फिल्में, गेम और प्रोडक्ट डेमो बनाने में सक्षम हैं, लेकिन उनमें एक बड़ी कमी है: वे अपनी बनाई गई चीजों को सुन या समझ नहीं सकते। लियोनएक्सएलएनएक्स द्वारा विकसित 'ईयरशॉट' (earshot) नामक एक नया टूल इस समस्या का समाधान करता है। यह टूल ध्वनि को ऐसे साक्ष्यों में बदल देता है जिनका उपयोग एआई एजेंट तर्क…",
+    "category": "repo_analysis",
+    "tags": [
+      "Leonxlnx",
+      "earshot",
+      "earshot forge"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Leonxlnx/earshot",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "79b84127392c",
+    "title": "टेकदृष्टि विशेष: ब्लेंडर 3D क्रिएशन में एआई का नया युग - Anujasid का mcp-for-blender-pro",
+    "summary": "ब्लेंडर (Blender) उपयोगकर्ताओं के लिए एक नया और शक्तिशाली एआई टूल बाजार में आ गया है, जो 3D क्रिएशन के तरीके को पूरी तरह से बदल सकता है। Wafra Inc. में निदेशक के रूप में कार्यरत और हार्वर्ड विश्वविद्यालय से शिक्षा प्राप्त करने वाले Anujasid ने 'mcp-for-blender-pro' नामक एक नया एआई असिस्टेंट और बिल्ट-इन मॉडल…",
+    "category": "repo_analysis",
+    "tags": [
+      "Anujasid",
+      "mcp-for-blender-pro",
+      "Blender"
+    ],
+    "image": "https://opengraph.githubassets.com/1/anujasid/mcp-for-blender-pro",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "54c796830fb6",
+    "title": "Graphicle-AI का नया टूल 'Graphicle': AI कोडिंग एजेंट्स के लिए सुरक्षित लोकल मेमोरी",
+    "summary": "AI कोडिंग एजेंट्स के तेजी से बढ़ते चलन के बीच, डेटा प्राइवेसी और सुरक्षा डेवलपर्स के लिए एक बड़ी चिंता बन गई है। इसी समस्या को सुलझाने के लिए Graphicle-AI ने 'Graphicle' नामक एक नया टूल पेश किया है। यह टूल डेवलपर्स को अपने प्रोजेक्ट्स का पूरा कॉन्टेक्स्ट और मेमोरी सुरक्षित रखने की सुविधा देता है, वह भी बिना किसी…",
+    "category": "general",
+    "tags": [
+      "Graphicle",
+      "Rust",
+      "Claude Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Graphicle-AI/graphicle",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4a5b8699e5ff",
+    "title": "टेकदृष्टि टेक रिपोर्ट: 'स्पार्की' का उदय और लोकल एआई का नया युग",
+    "summary": "टेकदृष्टि टेक रिपोर्ट के अनुसार, ChargedStudios.dev ने 'स्पार्की' नामक एक नया और उन्नत एआई प्लेटफॉर्म पेश किया है। यह प्लेटफॉर्म विंडोज उपयोगकर्ताओं के लिए एक स्थानीय (लोकल-फर्स्ट) एआई वर्कस्पेस के रूप में डिज़ाइन किया गया है। इसका मुख्य उद्देश्य विभिन्न एआई क्षमताओं को एक ही स्थान पर लाना है, ताकि उपयोगकर्ता बिना…",
+    "category": "repo_analysis",
+    "tags": [
+      "Sparky",
+      "Sparky Bot",
+      "LTX-2.5"
+    ],
+    "image": "https://opengraph.githubassets.com/1/anisayari/sparky",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8bfe5e7b8749",
+    "title": "टेकदृष्टि विशेष: QuizForge का तकनीकी विश्लेषण",
+    "summary": "छात्रों और शिक्षकों के लिए पीडीएफ से प्रश्न निकालना अक्सर एक थकाऊ काम होता है। दर्जनों पन्नों के कच्चे प्रश्न-पत्रों को मैन्युअल रूप से व्यवस्थित करने में घंटों लग जाते हैं। इसी समस्या को हल करने के लिए QuizForge नाम का एक नया एआई टूल सामने आया है। यह टूल अव्यवस्थित दस्तावेज़ों को स्वचालित रूप से संरचित डेटा में बदलकर…",
+    "category": "repo_analysis",
+    "tags": [
+      "QuizForge",
+      "DeepSeek",
+      "Streamlit"
+    ],
+    "image": "https://opengraph.githubassets.com/1/cjxxx222/quizforge",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "27bbc823f125",
+    "title": "ओपन-सोर्स AI का नया अध्याय: BullFlow ने एंटरप्राइज़ RAG और कंटेंट डिस्ट्रीब्यूशन की खाई को भरा",
+    "summary": "टेकदृष्टि टेक डेस्क की रिपोर्ट के अनुसार, टेक जगत में एक नई पहल ने ध्यान खींचा है। ओपन-सोर्स एआई (AI) स्टार्टअप BullFlow ने एक ऐसा एंटरप्राइज़-ग्रेड रिट्रीवल-ऑगमेंटेड जनरेशन (RAG) समाधान पेश किया है जो कंपनियों के ज्ञान को स्वचालित रूप से मार्केटिंग कंटेंट में बदलता है और फिर उसे दुनिया भर के 17 सोशल मीडिया प्लेटफॉर्म…",
+    "category": "repo_analysis",
+    "tags": [
+      "BullFlow",
+      "LangGraph",
+      "ReAct"
+    ],
+    "image": "https://opengraph.githubassets.com/1/jaikydota/BullFlow",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e498f9001145",
+    "title": "टेकटक्रिट: सेशन इंटेलिजेंस - एआई कोडिंग के लिए प्राइवेसी-फर्स्ट टूल",
+    "summary": "एआई कोडिंग एजेंटों के बढ़ते उपयोग के बीच, भारतीय डेवलपर्स और एंटरप्राइज टीमों के लिए प्राइवेसी और वर्कफ़्लो ऑप्टिमाइज़ेशन एक बड़ी चुनौती बन गई है। इसी समस्या का समाधान करने के लिए टेकटक्रिट ने 'सेशन इंटेलिजेंस' नामक एक नया टूल पेश किया है। यह टूल विशेष रूप से उन भारतीय डेवलपर्स के लिए डिज़ाइन किया गया है जो एआई कोडिंग…",
+    "category": "repo_analysis",
+    "tags": [
+      "tetriz-ai",
+      "session-intelligence",
+      "Agent Desk"
+    ],
+    "image": "https://opengraph.githubassets.com/1/tetriz-ai/session-intelligence",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e0d57bbdada7",
+    "title": "ReText: एआई निगरानी में कैमरा बायस की समस्या का समाधान",
+    "summary": "आर्टिफिशियल इंटेलिजेंस (AI) आधारित निगरानी प्रणालियों में अक्सर एक बड़ी समस्या सामने आती है, जहां कैमरे के प्रकार या प्रकाश की स्थिति के कारण एक ही व्यक्ति की पहचान अलग-अलग कैमरों में अलग तरीके से होती है। इस 'कैमरा बायस' को दूर करने के लिए शोधकर्ताओं ने एक नया मॉडल पेश किया है, जिसे ReText नाम दिया गया है। यह शोध…",
+    "category": "model_release",
+    "tags": [
+      "timmzak",
+      "ReText",
+      "Timur Mamedov"
+    ],
+    "image": "https://opengraph.githubassets.com/1/timmzak/ReText",
+    "source": "github",
+    "first_seen": "2026-10-17T07:06:45.663583+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "34bf133078de",
     "title": "म्यूज़ स्पार्क ओपन: एप्पल एम5 अल्ट्रा पर डेस्कटॉप पर एआई का नया युग",
     "summary": "म्यूज़ स्पार्क ओपन को आज आधिकारिक तौर पर जारी किया गया है, जो डेस्कटॉप पर उन्नत एआई क्षमताओं को पहली बार एप्पल एम5 अल्ट्रा मैक स्टूडियो पर चलाकर एक महत्वपूर्ण मील का पत्थर साबित हुआ है। यह मॉडल, जिसे विशेष रूप से कोडिंग और एजेंटिक कार्यों के लिए बनाया गया है, अपनी विशाल 816 बिलियन कुल पैरामीटर्स (42 बिलियन सक्रिय) और…",

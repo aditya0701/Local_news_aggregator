@@ -2180,8 +2180,8 @@
   "streamlit": {
     "canonical_name": "Streamlit",
     "entity_type": "technology",
-    "summary": "## Who We Are. We are a UK consultancy who specialise in Data, Analytics, AI, and Cloud Native App Dev on Microsoft Fabric, Databricks & Azure. ## What We Do. We help small teams achieve big things! Whether a global brand, or an ambitious scale-up, we help the small teams who power them, to achieve",
-    "last_updated": "2026-07-03"
+    "summary": "Streamlit is an open-source Python framework for data scientists and AI/ML engineers to deliver interactive data apps in only a few lines of code. It is designed to bridge experimentation and production, allowing users to write production-level code while producing shareable artifacts.",
+    "last_updated": "2026-10-17"
   },
   "janvi chauhan": {
     "canonical_name": "Janvi Chauhan",
@@ -4471,9 +4471,9 @@
   },
   "sonnet": {
     "canonical_name": "Sonnet",
-    "entity_type": "repo_analysis",
-    "summary": "Sonnet is a TensorFlow-based neural network library designed for machine learning research. Built by DeepMind researchers, it provides simple, composable abstractions for constructing neural networks for various purposes like unsupervised or reinforcement learning. The library centers around a progr",
-    "last_updated": "2026-07-07"
+    "entity_type": "ai_model",
+    "summary": "Claude Sonnet 5.5 is a model that offers a balance of speed and intelligence, featuring a specific context window and output limits. It introduced behavioral changes, such as text between tool calls being returned in thinking blocks, which requires adjustments for applications streaming text to user",
+    "last_updated": "2026-10-17"
   },
   "haiku": {
     "canonical_name": "Haiku",
@@ -5156,8 +5156,8 @@
   "sol": {
     "canonical_name": "Sol",
     "entity_type": "ai_model",
-    "summary": "Sol is a next-generation model from OpenAI, part of the GPT-5.6 series, designed with stronger capabilities in coding, science, and cybersecurity. It is paired with the company's most advanced safety stack to protect against higher-risk activities and repeated misuse.",
-    "last_updated": "2026-07-10"
+    "summary": "The GPT-6 Sol release offers six models, each with different intelligence, performance, and pricing characteristics. Metrics such as intelligence and output speed are compared against models of the same class, and the release is proprietary as of September 2026.",
+    "last_updated": "2026-10-17"
   },
   "artificial analysis intelligence index": {
     "canonical_name": "Artificial Analysis Intelligence Index",
@@ -22033,5 +22033,329 @@
     "entity_type": "product",
     "summary": "GPT with Taste is a shopping feature that allows businesses to share product feeds to reach shoppers through AI-powered results. Shoppers can browse products with rich results including images, pricing, and key details, while businesses can send shoppers to their site or app with no fees for purchas",
     "last_updated": "2026-10-16"
+  },
+  "ultramarine": {
+    "canonical_name": "Ultramarine",
+    "entity_type": "company",
+    "summary": "Ultramarine and Pigments Limited is a top manufacturer of inorganic pigments and surfactants. We aim to consistently meet our customers’ needs by offering high-quality products and services, all while upholding a strong commitment to social responsibility. Leading manufacturer of inorganic pigments",
+    "last_updated": "2026-10-17"
+  },
+  "glm53 flash": {
+    "canonical_name": "GLM-5.3 Flash",
+    "entity_type": "ai_model",
+    "summary": "GLM-5.3-Flash Description GLM-5.3-Flash is a natively multimodal mixture-of-experts model with 320B total parameters and 18B active parameters. It uses a hybrid architecture combining sparse and linear attention and Manifold-Constrained Hyper-Connections for coding, reasoning, agentic, and multimoda",
+    "last_updated": "2026-10-17"
+  },
+  "llmspeed": {
+    "canonical_name": "Llmspeed",
+    "entity_type": "product",
+    "summary": "llmspeed is a tool that allows users to benchmark the performance of local large language models on specific hardware before making a purchase. It provides real-time, measured performance data and estimates for various LLMs, including wait times before the first token is generated.",
+    "last_updated": "2026-10-17"
+  },
+  "nist": {
+    "canonical_name": "NIST",
+    "entity_type": "organization",
+    "summary": "The National Institute of Standards and Technology (NIST) was founded in 1901 and is part of the U.S. Department of Commerce. It is one of the nation's oldest physical science laboratories, established by Congress to improve U.S. industrial competitiveness.",
+    "last_updated": "2026-10-17"
+  },
+  "jerry solinas": {
+    "canonical_name": "Jerry Solinas",
+    "entity_type": "person",
+    "summary": "Jerry Solinas is a researcher. His latest paper is 'How to Make a Mint: The Cryptography of Anonymous Electronic Cash', and he has published other research papers on Academia.edu and Semantic Scholar.",
+    "last_updated": "2026-10-17"
+  },
+  "alfred menezes": {
+    "canonical_name": "Alfred Menezes",
+    "entity_type": "person",
+    "summary": "Alfred Menezes is a Distinguished Professor Emeritus in the Department of Combinatorics and Optimization at the University of Waterloo in Canada. His research field is cryptography, with a focus on elliptic curve cryptography, key agreement protocols, provable security, and post-quantum cryptography",
+    "last_updated": "2026-10-17"
+  },
+  "ecdsa": {
+    "canonical_name": "ECDSA",
+    "entity_type": "technology",
+    "summary": "ECDSA is a digital signing signature algorithm that operates more efficiently than other algorithms by using smaller keys to create the same level of security. It is used to create ECDSA certificates, which are electronic documents used for authentication, and was standardized in 2005, making it new",
+    "last_updated": "2026-10-17"
+  },
+  "flux 3 image klein": {
+    "canonical_name": "FLUX 3 Image Klein",
+    "entity_type": "ai_model",
+    "summary": "FLUX 3 Image Klein is a 5.6B parameter open weights model designed for text-to-image generation, image editing, and multi-reference generation using up to 10 reference images. It shares core capabilities with the full FLUX 3 Image model, including native 4K generation, pixel-perfect editing, and bou",
+    "last_updated": "2026-10-17"
+  },
+  "ideogram v45": {
+    "canonical_name": "Ideogram V4.5",
+    "entity_type": "ai_model",
+    "summary": "Ideogram V4.5 is a text-to-image and editing model built for posters, logos, and design-ready visuals with accurate text rendering. It generates from a prompt or edits an existing image using up to four reference images at 1K or 2K resolution, offering low, medium, and high quality tiers to trade sp",
+    "last_updated": "2026-10-17"
+  },
+  "flux2": {
+    "canonical_name": "FLUX.2",
+    "entity_type": "ai_model",
+    "summary": "FLUX.2 is a model family offering a range from sub-second generation to highest quality, featuring multi-reference editing, color control, and up to 4MP output. It is capable of producing highly realistic and detailed visuals across various use cases, including character consistency, cinematic light",
+    "last_updated": "2026-10-17"
+  },
+  "qwenimage 21": {
+    "canonical_name": "Qwen-Image 2.1",
+    "entity_type": "ai_model",
+    "summary": "Qwen-Image-2.1 is a unified text-to-image generation and image editing model in the Qwen family that balances generation quality, inference efficiency, and versatility. Its visual generation component has just 7B parameters across 32 Single-Stream DiT layers, and it is available as an open-source re",
+    "last_updated": "2026-10-17"
+  },
+  "krea 2": {
+    "canonical_name": "Krea 2",
+    "entity_type": "ai_model",
+    "summary": "Krea 2 is Krea AI's in-house AI image foundation model for generating expressive images with stronger aesthetic diversity, style references, moodboards, and creative control. It is now open source and can create consistent characters, products, and materials across references, with edits completed i",
+    "last_updated": "2026-10-17"
+  },
+  "mistral medium 35": {
+    "canonical_name": "Mistral Medium 3.5",
+    "entity_type": "ai_model",
+    "summary": "Mistral Medium 3.5 is a dense 128B parameter model with a 256k context window designed to handle instruction-following, reasoning, and coding in a single set of weights. It serves as Mistral's first flagship merged model, replacing its predecessors Mistral Medium 3.1 and Magistral in Le Chat, as wel",
+    "last_updated": "2026-10-17"
+  },
+  "m3 ultra": {
+    "canonical_name": "M3 Ultra",
+    "entity_type": "product",
+    "summary": "The M3 Ultra is Apple's highest-performing chip, featuring up to a 32-core CPU with 24 performance cores and eight efficiency cores. It delivers up to 1.5x the performance of the M2 Ultra and up to 2.6x the performance of the M1 Ultra, while maintaining the power-efficiency of Apple silicon and supp",
+    "last_updated": "2026-10-17"
+  },
+  "rdma": {
+    "canonical_name": "RDMA",
+    "entity_type": "protocol",
+    "summary": "RDMA (Remote Direct Memory Access) is a technology that enables direct data transfer between the memory of two computers without involving either computer's operating system. The provided material outlines that an overview of RDMA includes its functionality, operation, main protocols, comparisons wi",
+    "last_updated": "2026-10-17"
+  },
+  "loyal": {
+    "canonical_name": "Loyal",
+    "entity_type": "company",
+    "summary": "Sep 30, 2026 · Learn about Loyal, a top-ranked company within its industry. Explore their Forbes profile to discover more about them and their industry recognitions. Tailored specifically for healthcare, Loyal’s platform delivers intuitive, industry-specific solutions that allow health systems to bu",
+    "last_updated": "2026-10-17"
+  },
+  "dolly": {
+    "canonical_name": "Dolly",
+    "entity_type": "animal",
+    "summary": "Oct 10, 2026 · Dolly, female Finn Dorset sheep that lived from 1996 to 2003, the first clone of an adult mammal, produced by British developmental biologist Ian Wilmut and colleagues of the Roslin Institute, near Edinburgh, Scotland. Dolly the sheep was the first cloned mammal ever to be created fro",
+    "last_updated": "2026-10-17"
+  },
+  "municipal gym": {
+    "canonical_name": "Municipal Gym",
+    "entity_type": "product",
+    "summary": "Municipal Gym is a premium fitness club coming soon to Downtown Summerlin in Las Vegas. The 32,000-square-foot club features premium training, advanced recovery, and elevated amenities in one destination.",
+    "last_updated": "2026-10-17"
+  },
+  "amjad masad": {
+    "canonical_name": "Amjad Masad",
+    "entity_type": "person",
+    "summary": "Amjad Masad is the Founder and CEO of Replit, a company based in San Francisco. He previously worked as a Software Engineer at Facebook and attended Princess Sumaya University for Technology. He is also recognized as #102 on Forbes' 2026 America's Richest Immigrants list.",
+    "last_updated": "2026-10-17"
+  },
+  "porsche": {
+    "canonical_name": "Porsche",
+    "entity_type": "company",
+    "summary": "Porsche AG is a vehicle manufacturer with locations, facts, and figures available on its official Newsroom. The company notes that vehicle parameters, consumption, and emissions can be influenced by additional equipment, weather, traffic, and driving behavior.",
+    "last_updated": "2026-10-17"
+  },
+  "macan turbo ev": {
+    "canonical_name": "Macan Turbo EV",
+    "entity_type": "product",
+    "summary": "The all-electric Macan features exclusive Turbo characteristics and a gently sloping flyline, positioning it as a dynamic SUV. It offers impressive E-Performance and includes the new Porsche DI user interface, which provides intuitive operation and customizable widgets.",
+    "last_updated": "2026-10-17"
+  },
+  "amulya vishwanath": {
+    "canonical_name": "Amulya Vishwanath",
+    "entity_type": "person",
+    "summary": "Amulya Vishwanath is the Founder and Managing Partner of Techable VC, an early-stage venture capital firm focused on startups building Physical AI and frontier technologies. She is an engineer by training who previously worked at NVIDIA and Intel, and she enrolled in the UC Berkeley Haas MBA for Exe",
+    "last_updated": "2026-10-17"
+  },
+  "glimpse": {
+    "canonical_name": "Glimpse",
+    "entity_type": "ai_model",
+    "summary": "Glimpse is Elorian's visual reasoning model designed for image and video understanding, featuring a 220,000-token context window. It is capable of tracking objects across motion and viewpoints, interpreting spatial relationships, and reasoning about physical cause and effect for applications like sc",
+    "last_updated": "2026-10-17"
+  },
+  "plait pilot": {
+    "canonical_name": "Plait Pilot",
+    "entity_type": "product",
+    "summary": "1 day ago · Tressfecta is developing tech-driven tools for textured hair care, launching with Plait Pilot to automate prep work for braiding. Plait Pilot is designed to quickly and evenly separate synthetic braiding hair from bulk packs, cutting down manual pre-parting time. The innovation targets p",
+    "last_updated": "2026-10-17"
+  },
+  "full selfdriving": {
+    "canonical_name": "Full Self-Driving",
+    "entity_type": "product",
+    "summary": "Full Self-Driving (Supervised) is Tesla’s paid driver-assistance software that operates under the driver’s supervision to handle lane changes, turns, and navigation around other vehicles and objects. It is designed for use during quick errands, daily commutes, and road trips.",
+    "last_updated": "2026-10-17"
+  },
+  "lg electronics": {
+    "canonical_name": "LG Electronics",
+    "entity_type": "company",
+    "summary": "LG Electronics, Inc. engages in the manufacturing of display devices, home appliances, multimedia goods, electronic parts, and software, and has operated subsidiaries in over 80 countries since its founding in 1958. It develops, manufactures, and markets electronics, chemicals, household appliances,",
+    "last_updated": "2026-10-17"
+  },
+  "a19 chip": {
+    "canonical_name": "A19 chip",
+    "entity_type": "technology",
+    "summary": "Oct 5, 2026 · Benchmarks, specifications, and user reviews for Apple A19. Compare the CPU with other processors and find out how it performs in tests. Sep 23, 2025 · A19: The standard A19 chip, while not having the same cache size, still offers a modest performance increase over its predecessor (the",
+    "last_updated": "2026-10-17"
+  },
+  "analogue": {
+    "canonical_name": "Analogue",
+    "entity_type": "company",
+    "summary": "Analogue develops and markets video game hardware devices and accessories. Its products include Analogue Nt, Analogue CMVS Slim, Analogue Arcade Stick, Walnut Analogue CMVS, dust cover, Neo Geo extension cable, Walnut Analogue Arcade Stick, and more. Analogue is a company focused on video game prese",
+    "last_updated": "2026-10-17"
+  },
+  "super nt plus": {
+    "canonical_name": "Super Nt Plus",
+    "entity_type": "product",
+    "summary": "The definitive way to play original Super Nintendo & Super Famicom. A continuation of the original Super Nt - now with Bluetooth and 2.4g, evolved industrial design, OS, packaging, and more. Reimagining continued. At its core: an FPGA designed in house from scratch and backed by more than a decade o",
+    "last_updated": "2026-10-17"
+  },
+  "mega sg plus": {
+    "canonical_name": "Mega Sg Plus",
+    "entity_type": "product",
+    "summary": "A continuation of the original Mega Sg - now with Bluetooth and 2.4g, evolved industrial design, OS, packaging, and more. Reimaginging continued. At its core: an FPGA designed in house from scratch and backed by more than a decade of development. Rock solid. No emulation. Purpose-built 1080p for 2D",
+    "last_updated": "2026-10-17"
+  },
+  "agment assets sallu": {
+    "canonical_name": "Agment Assets sallu",
+    "entity_type": "company",
+    "summary": "Sallu operates as a social network platform focused on the medical sector, serving doctors and medical students. The platform allows verified medical professionals to connect, share clinical cases, and discuss medical knowledge in a secure environment. It was founded in 2025 and is based in Sao Jose",
+    "last_updated": "2026-10-17"
+  },
+  "benefit street partners": {
+    "canonical_name": "Benefit Street Partners",
+    "entity_type": "company",
+    "summary": "Benefit Street Partners is a private credit investment manager and an early pioneer in the alternative credit space. Founded as a Franklin Templeton company, it specializes in strategies such as direct lending, real estate debt, and structured credit, utilizing a global platform and long-standing lo",
+    "last_updated": "2026-10-17"
+  },
+  "outcrawl": {
+    "canonical_name": "Outcrawl",
+    "entity_type": "company",
+    "summary": "Outcrawl is an API platform that provides AI agents with web access, allowing them to turn web pages into clean data and run real browsers in the cloud. It operates on a pay-for-what-you-use model and offers 1,000 free credits monthly, which equates to roughly 1,000 pages or 16 hours of browser time",
+    "last_updated": "2026-10-17"
+  },
+  "scout": {
+    "canonical_name": "Scout",
+    "entity_type": "product",
+    "summary": "Scout is a prerelease desktop AI application for Windows and macOS designed to take autonomous action on a user's behalf. It is capable of reading and writing files, running shell commands, controlling a browser, and querying Microsoft 365 data.",
+    "last_updated": "2026-10-17"
+  },
+  "node": {
+    "canonical_name": "Node",
+    "entity_type": "technology",
+    "summary": "Node.js is a free, open-source, cross-platform JavaScript runtime environment used to build scalable network applications. It utilizes an asynchronous, event-driven model rather than OS threads, which eliminates the risk of deadlocking and allows for efficient concurrent connection handling.",
+    "last_updated": "2026-10-17"
+  },
+  "fish audio": {
+    "canonical_name": "Fish Audio",
+    "entity_type": "product",
+    "summary": "Fish Audio is a voice AI platform that provides text-to-speech and audio transcription models. Core features are accessible via a web app, REST API, and official SDK, with the s2.1-pro model recommended for production projects.",
+    "last_updated": "2026-10-17"
+  },
+  "gta v": {
+    "canonical_name": "GTA V",
+    "entity_type": "product",
+    "summary": "\"Grand Theft Auto V\" (GTA V) is a critically acclaimed open-world action-adventure game developed by Rockstar North and published by Rockstar Games. It was initially released in 2013 for PlayStation 3 and Xbox 360, with subsequent versions released for PlayStation 4, Xbox One, PC, PlayStation 5, and",
+    "last_updated": "2026-10-17"
+  },
+  "feedhive": {
+    "canonical_name": "FeedHive",
+    "entity_type": "organization",
+    "summary": "FeedHive is an AI social media management tool designed for founders and small teams. It helps create, schedule, and automate social media posts across various channels using AI agents and workflows.",
+    "last_updated": "2026-10-17"
+  },
+  "gitai": {
+    "canonical_name": "gitai",
+    "entity_type": "product",
+    "summary": "At GITAI, we are reshaping the landscape of space exploration with our groundbreaking robotic technologies. Our mission is not just to make space operations safer and more cost-effective, but also to leave an indelible mark on the future of humanity. Robotics Startup for Space Development SCROLL ABO",
+    "last_updated": "2026-10-17"
+  },
+  "leonxlnx": {
+    "canonical_name": "Leonxlnx",
+    "entity_type": "person",
+    "summary": "Leonxlnx is associated with the development of an anti-laziness skill for AI agents. The core of this skill is the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth.",
+    "last_updated": "2026-10-17"
+  },
+  "earshot": {
+    "canonical_name": "earshot",
+    "entity_type": "product",
+    "summary": "Earshot is a voice-first feedback widget designed for SaaS applications. It allows users to speak instead of typing, utilizes an agent to ask a targeted follow-up grounded in contextual data, and delivers a structured report to Linear, Jira, or a direct inbox.",
+    "last_updated": "2026-10-17"
+  },
+  "earshot fit": {
+    "canonical_name": "earshot fit",
+    "entity_type": "product",
+    "summary": "The material provided for 'earshot fit' does not describe a product but rather defines a specific musical scope. It is characterized as a hard-rock and metal-adjacent genre featuring alternative metal, heavy modern rock production, and recurring use of distorted, weighty arrangements.",
+    "last_updated": "2026-10-17"
+  },
+  "anujasid": {
+    "canonical_name": "Anujasid",
+    "entity_type": "person",
+    "summary": "Anujasid is a director at Wafra Inc. with a background in education from Harvard University. They are based in New York and have over 500 connections on LinkedIn.",
+    "last_updated": "2026-10-17"
+  },
+  "mcpforblenderpro": {
+    "canonical_name": "mcp-for-blender-pro",
+    "entity_type": "product",
+    "summary": "mcp-for-blender-pro is an AI assistant and built-in Model Context Protocol (MCP) server for Blender. It allows users to inspect scenes, build objects, edit materials, and manage complex multi-step workflows through a visual chat workspace.",
+    "last_updated": "2026-10-17"
+  },
+  "claude desktop": {
+    "canonical_name": "Claude Desktop",
+    "entity_type": "product",
+    "summary": "Claude Desktop is a tool designed for organizations that have security, regulatory, or contractual requirements preventing them from sending data through Anthropic’s first-party products like claude.ai or the Claude API. It is designed to run against an organization's own cloud infrastructure to hel",
+    "last_updated": "2026-10-17"
+  },
+  "sparky bot": {
+    "canonical_name": "Sparky Bot",
+    "entity_type": "product",
+    "summary": "Sparky is a premium, unified platform developed by ChargedStudios.dev that consolidates ten separate bots into one fast, feature-rich system. It provides server backups, anti-raid protection, tickets, moderation, embeds, automation, and leveling tools managed from a single dashboard.",
+    "last_updated": "2026-10-17"
+  },
+  "ltx25": {
+    "canonical_name": "LTX-2.5",
+    "entity_type": "ai_model",
+    "summary": "What's new in LTX-2.5? It adds a better video decoder for cleaner motion, native multi-shot scenes that stay consistent across cuts, stronger prompt understanding, automatic clip duration, beta precise video editing, native 4K HDR and RAW support, and a faster, higher-quality distilled model. LTX-2.",
+    "last_updated": "2026-10-17"
+  },
+  "quizforge": {
+    "canonical_name": "QuizForge",
+    "entity_type": "product",
+    "summary": "QuizForge is an AI-powered quiz generator that automatically creates quizzes from your documents. Users can upload a PDF, PowerPoint, Word document, or paste text, and the tool uses artificial intelligence to generate high-quality multiple choice and true/false questions in under 30 seconds.",
+    "last_updated": "2026-10-17"
+  },
+  "bullflow": {
+    "canonical_name": "BullFlow",
+    "entity_type": "product",
+    "summary": "BullFlow provides options flow, gamma exposure, dark pool, and alert tools for traders. It operates on a freeform canvas called Terminal, where users can add tools, move them by dragging their title bars, and resize them from the window edges.",
+    "last_updated": "2026-10-17"
+  },
+  "tetrizai": {
+    "canonical_name": "tetriz-ai",
+    "entity_type": "company",
+    "summary": "Tetriz is a self-improving enterprise operating system designed for AI-native engineering teams. It aims to help development gains compound across sprints by capturing tacit organizational knowledge, improving quality, and reducing the AI Tax.",
+    "last_updated": "2026-10-17"
+  },
+  "timmzak": {
+    "canonical_name": "timmzak",
+    "entity_type": "person",
+    "summary": "Tymoteusz Żak, known as @timmzak, is a researcher who has received significant media attention for their work on DynaMix, a method for generalizable person re-identification. Their team is currently preparing additional papers on person re-identification and tracking.",
+    "last_updated": "2026-10-17"
+  },
+  "retext": {
+    "canonical_name": "ReText",
+    "entity_type": "ai_model",
+    "summary": "ReText is a novel method trained on a mixture of multi-camera Re-ID data and single-camera data, where the single-camera data is complemented by textual descriptions to enrich semantic cues.",
+    "last_updated": "2026-10-17"
+  },
+  "vadim konushin": {
+    "canonical_name": "Vadim Konushin",
+    "entity_type": "person",
+    "summary": "Vadim Konushin is the Co-founder and CEO of Tevian, where he works on computer vision systems spanning 3D scene modeling and facial analysis. He previously developed GrowCut for multi-label image segmentation and has also worked on neural network models for facial image descriptors.",
+    "last_updated": "2026-10-17"
+  },
+  "lomonosov moscow state university": {
+    "canonical_name": "Lomonosov Moscow State University",
+    "entity_type": "organization",
+    "summary": "Lomonosov Moscow State University is one of the oldest and largest classical universities in Russia, established in 1755 and named after Academician Mikhail Lomonosov in 1940. It offers diverse programs for students and researchers worldwide and is a major Russian institution of higher education.",
+    "last_updated": "2026-10-17"
   }
 }
