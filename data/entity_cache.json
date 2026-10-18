@@ -5857,9 +5857,9 @@
   },
   "fcc": {
     "canonical_name": "FCC",
-    "entity_type": "ban_regulation",
-    "summary": "The Federal Communications Commission (FCC) enacted a sweeping ban on March 24, 2026, prohibiting the authorization of new consumer-grade routers and modems from foreign manufacturers deemed a national security risk. The landscape for drone operations in the United States just underwent a seismic sh",
-    "last_updated": "2026-07-11"
+    "entity_type": "organization",
+    "summary": "The Federal Communications Commission (FCC) regulates interstate and international communications by radio, television, wire, satellite, and cable in all 50 states, the District of Columbia, and U.S. territories. The agency is directed by five commissioners appointed by the President and confirmed b",
+    "last_updated": "2026-10-18"
   },
   "xtra": {
     "canonical_name": "Xtra",
@@ -13430,8 +13430,8 @@
   "the verge": {
     "canonical_name": "The Verge",
     "entity_type": "organization",
-    "summary": "The Verge is about technology and how it makes us feel. Founded in 2011, it offers its audience everything from breaking news to reviews to award-winning features and investigations.",
-    "last_updated": "2026-07-29"
+    "summary": "The Verge is a technology publication founded in 2011 that focuses on how technology impacts culture and daily life. It provides a wide range of content, including breaking news, reviews, features, and investigations across its website, video, and podcasts.",
+    "last_updated": "2026-10-18"
   },
   "vox": {
     "canonical_name": "Vox",
@@ -22357,5 +22357,179 @@
     "entity_type": "organization",
     "summary": "Lomonosov Moscow State University is one of the oldest and largest classical universities in Russia, established in 1755 and named after Academician Mikhail Lomonosov in 1940. It offers diverse programs for students and researchers worldwide and is a major Russian institution of higher education.",
     "last_updated": "2026-10-17"
+  },
+  "sphinx": {
+    "canonical_name": "Sphinx",
+    "entity_type": "product",
+    "summary": "Discover the Sphinx Element 3 - a 3-way loudspeaker with Zero Gravity™ Bass, PAC™ crossover, and sculptural design for pure, precise sound performance. Every curve, component and technology serves a singular purpose: bringing listeners closer to the performance. Inspired by the form of a harp, the E",
+    "last_updated": "2026-10-18"
+  },
+  "pele": {
+    "canonical_name": "Pele",
+    "entity_type": "product",
+    "summary": "The Pele product is a soccer equipment and apparel brand sold through SOCCER.COM. It is supported by AI-first customer support automation featuring documentation, guides, and product updates.",
+    "last_updated": "2026-10-18"
+  },
+  "michal luria": {
+    "canonical_name": "Michal Luria",
+    "entity_type": "person",
+    "summary": "Dr. Michal Luria is a Senior Research Fellow at the Center for Democracy & Technology, leading research on evaluating and designing sociotechnical systems. She holds a Ph.D. in Human-Computer Interaction from Carnegie Mellon University, and her human-centered research explores and critiques emerging",
+    "last_updated": "2026-10-18"
+  },
+  "aliya bhatia": {
+    "canonical_name": "Aliya Bhatia",
+    "entity_type": "person",
+    "summary": "Aliya Bhatia serves as the Director of Partnerships & Coalitions at American Promise. She completed her Masters in Public Policy from Harvard Kennedy School as a Sheila C. Johnson Leadership Fellow and is a graduate of the School of Foreign Service at Georgetown University.",
+    "last_updated": "2026-10-18"
+  },
+  "danah boyd": {
+    "canonical_name": "Danah Boyd",
+    "entity_type": "person",
+    "summary": "Danah Boyd is a Principal Researcher at Microsoft Research and the Founder of Data & Society. She previously worked in industry at companies like Google, Yahoo!, and Tribe.net before completing a Ph.D. at the Berkeley iSchool.",
+    "last_updated": "2026-10-18"
+  },
+  "peppy": {
+    "canonical_name": "Peppy",
+    "entity_type": "product",
+    "summary": "Peppy is a global employee healthcare benefit that provides people with unlimited, easy access to specialist clinicians through an app. It offers private and confidential support across key life stages, aiming to make expert-led healthcare simple, human, and stigma-free.",
+    "last_updated": "2026-10-18"
+  },
+  "form energy": {
+    "canonical_name": "Form Energy",
+    "entity_type": "organization",
+    "summary": "Form Energy is an energy storage company founded in 2017 by industry veterans to reshape the global electric system. The organization focuses on creating low-cost, multi-day energy storage systems to strengthen the electric grid and communities.",
+    "last_updated": "2026-10-18"
+  },
+  "replit": {
+    "canonical_name": "Replit",
+    "entity_type": "company",
+    "summary": "Replit is a company building a platform to make software creation accessible to everyone, not just programmers. Their mission is to make turning an idea into working software as intuitive as drawing a picture or writing a story. They aim to eliminate barriers between imagination and implementation t",
+    "last_updated": "2026-10-18"
+  },
+  "ember": {
+    "canonical_name": "Ember",
+    "entity_type": "company",
+    "summary": "Discover the story of Ember®, why we designed precision temperature control technology, & how we plan to change the way the world eats & drinks. Ember A better morning ritual, built from a simple idea: your drink should stay exactly how you like it. Founder note As a lifelong coffee lover and invent",
+    "last_updated": "2026-10-18"
+  },
+  "ember app": {
+    "canonical_name": "Ember app",
+    "entity_type": "product",
+    "summary": "Ember imports your Gmail, Calendar, and Google Contacts in the background, and you can bring the rest in from a LinkedIn export or CSV. It reads new threads and meetings, triages who needs you, catches promises, and drafts replies — quietly, until there's something worth surfacing. Each morning you",
+    "last_updated": "2026-10-18"
+  },
+  "mercedesamg gt suv": {
+    "canonical_name": "Mercedes-AMG GT SUV",
+    "entity_type": "product",
+    "summary": "The Mercedes-AMG GT SUV is a full-size, high-performance electric SUV built on the AMG.EA architecture. It combines sports-car DNA with the versatility of a full-size SUV, featuring a low center of gravity, a sporty seating position, and a precisely tuned suspension across its GT 53, GT 55, and GT 6",
+    "last_updated": "2026-10-18"
+  },
+  "porsche cayenne turbo electric": {
+    "canonical_name": "Porsche Cayenne Turbo Electric",
+    "entity_type": "product",
+    "summary": "The Porsche Cayenne Turbo Electric is an electric SUV that combines performance with day-to-day usability, long-distance comfort, and off-road capability. It features the largest display area in a Porsche, interactive mood modes, new-generation seats, and a combined electric energy consumption rangi",
+    "last_updated": "2026-10-18"
+  },
+  "lucid gravity": {
+    "canonical_name": "Lucid Gravity",
+    "entity_type": "product",
+    "summary": "The Lucid Gravity GT-S is a high-performance luxury electric SUV with seating for up to seven and exceptional driving dynamics. It is designed to deliver extreme performance and unprecedented versatility, with a starting price of $125,900 and an available launch date of late 2026.",
+    "last_updated": "2026-10-18"
+  },
+  "america pac": {
+    "canonical_name": "America PAC",
+    "entity_type": "organization",
+    "summary": "America PAC is a super PAC created in 2024 by Elon Musk, who co-founded Tesla and SpaceX and owns the X social media platform. The PAC is described as Pro-Republican and spent $261.2 million in 2024.",
+    "last_updated": "2026-10-18"
+  },
+  "chris gober": {
+    "canonical_name": "Chris Gober",
+    "entity_type": "person",
+    "summary": "Chris Gober is a 7th-generation Texan, an alumnus of Texas A&M University, and a husband and father of two daughters living in Austin. He is a political candidate focused on responsible growth, supporting hardworking Texans, and protecting rural communities.",
+    "last_updated": "2026-10-18"
+  },
+  "sheena vasani": {
+    "canonical_name": "Sheena Vasani",
+    "entity_type": "person",
+    "summary": "Sheena Vasani created a site to share projects and resources related to mental health, creativity, and learning while expressing herself. She is the founder of The Desi Wellbeing Project and is passionate about creating an emotionally healthy world, gender issues, art, and cats.",
+    "last_updated": "2026-10-18"
+  },
+  "radiolab": {
+    "canonical_name": "Radiolab",
+    "entity_type": "product",
+    "summary": "The RadioLab is a modular RF experimentation platform built from proven RF and control blocks. It allows users to reconfigure these blocks for fast experimentation, hands-on RF learning, or testing their own designs.",
+    "last_updated": "2026-10-18"
+  },
+  "dolly partons america": {
+    "canonical_name": "Dolly Parton's America",
+    "entity_type": "product",
+    "summary": "Dolly Parton's America is a 9-episode audio series hosted by Jad Abumrad. It offers a deeply personal, historical, and musical rethinking of the icon through a journey into the Dollyverse, featuring bonus episodes with other musicians.",
+    "last_updated": "2026-10-18"
+  },
+  "walter piecyk": {
+    "canonical_name": "Walter Piecyk",
+    "entity_type": "person",
+    "summary": "Walter Piecyk is a Partner and TMT Analyst at LightShed Partners and a General Partner at LightShed Ventures. Prior to his current roles, he spent nearly a decade as a Managing Director and TMT Analyst at BTIG, following senior analyst positions at Pali Capital, Fulcrum Global Partners, and PaineWeb",
+    "last_updated": "2026-10-18"
+  },
+  "tmobile": {
+    "canonical_name": "T-Mobile",
+    "entity_type": "company",
+    "summary": "T-Mobile is a company that brands itself as the Un-carrier, focusing on putting people first. It emphasizes community projects, disaster relief efforts, and green initiatives, while fostering an innovative family-like work environment.",
+    "last_updated": "2026-10-18"
+  },
+  "verizon": {
+    "canonical_name": "Verizon",
+    "entity_type": "company",
+    "summary": "Headquartered in New York City, Verizon is a major telecommunications provider serving countries worldwide and nearly all of the Fortune 500. It generated $138.2 billion in revenue in 2025 under CEO Dan H. Schulman and maintains a strong focus on continuous innovation to meet customer needs.",
+    "last_updated": "2026-10-18"
+  },
+  "echostar": {
+    "canonical_name": "EchoStar",
+    "entity_type": "company",
+    "summary": "EchoStar is a fully integrated global communications and content delivery leader with thousands of employees across a dozen countries. The company drives innovation in satellite, mobile, and video technologies, aiming to change the way the world communicates and connect people and things.",
+    "last_updated": "2026-10-18"
+  },
+  "delta air lines": {
+    "canonical_name": "Delta Air Lines",
+    "entity_type": "company",
+    "summary": "Delta Air Lines is an airline company that serves more than 160 million customers per year, traveling to over 350 destinations. The company has a workforce of 100,000 employees who operate up to 5,000 peak day flights to more than 290 destinations on six continents.",
+    "last_updated": "2026-10-18"
+  },
+  "jpmorgan chase": {
+    "canonical_name": "JPMorgan Chase",
+    "entity_type": "company",
+    "summary": "JPMorgan Chase provides high-quality service to millions of consumers, small businesses, and corporate, institutional, and government clients in the U.S. and around the world. The company is guided by fundamental business principles, leadership, and a history that shapes its operations.",
+    "last_updated": "2026-10-18"
+  },
+  "carscom": {
+    "canonical_name": "Cars.com",
+    "entity_type": "company",
+    "summary": "Cars.com is a digital marketplace launched in 1998 and headquartered in Chicago that connects vehicle shoppers with automotive dealers. The company provides data, resources, and digital tools to help consumers make informed buying decisions.",
+    "last_updated": "2026-10-18"
+  },
+  "azrinaldi": {
+    "canonical_name": "azrinaldi",
+    "entity_type": "person",
+    "summary": "Azrinaldi is an individual with a presence on Instagram and Facebook, where they share content related to sports. They can be contacted via email for business inquiries.",
+    "last_updated": "2026-10-18"
+  },
+  "geministealthbridge": {
+    "canonical_name": "gemini-stealth-bridge",
+    "entity_type": "product",
+    "summary": "Gemini-Stealth-Bridge is an unofficial, OpenAI-compatible proxy that allows coding agents and other API clients to connect to a Gemini Web account. It translates OpenAI-style messages and tool definitions into Gemini Web requests, returning results in JSON or Server-Sent Events format.",
+    "last_updated": "2026-10-18"
+  },
+  "opr": {
+    "canonical_name": "opr",
+    "entity_type": "product",
+    "summary": "OPR air terminals are especially effective for the protection of classified industrial sites, administrative or public buildings, historical monuments and open-air sites such as sports grounds. OPR lightning protection systems are offered as part of ABB's external lightning protection solutions.",
+    "last_updated": "2026-10-18"
+  },
+  "danielxu0208": {
+    "canonical_name": "Danielxu0208",
+    "entity_type": "person",
+    "summary": "Danielxu0208 is an undergraduate student at USYD with one repository available on GitHub. The provided material also includes various GitHub support prompts and unrelated project descriptions, but no further details about the person are available.",
+    "last_updated": "2026-10-18"
   }
 }

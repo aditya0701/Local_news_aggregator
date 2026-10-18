@@ -1,5 +1,340 @@
 [
   {
+    "id": "d3c35db34ec3",
+    "title": "शो एचएन: स्फिंक्स - एक हुक जो आपके एआई के कोड को शिप करने से पहले आपका क्विज़ लेता है",
+    "summary": "टेकदृष्टि के पाठकों के लिए यह जानना महत्वपूर्ण है कि 'Sphinx' नामक एक नया गिट हुक टूल डेवलपर समुदाय में चर्चा का विषय बन गया है। यह टूल एजेंट-असिस्टेड डेवलपमेंट की प्रक्रिया को और अधिक सुरक्षित और पारदर्शी बनाने के लिए डिज़ाइन किया गया है। इस टूल के पीछे की सोच को सन त्ज़ु के एक प्रसिद्ध उद्धरण \"Outsource your…",
+    "category": "repo_analysis",
+    "tags": [
+      "Sphinx",
+      "OpenRouter",
+      "OpenAI"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9b13d6a721a0",
+    "title": "DeepSeek का नया V4.1-Flash-1017 मॉडल: लागत और गति में एक बड़ी छलांग",
+    "summary": "DeepSeek ने अपने प्रमुख लार्ज लैंग्वेज मॉडल, DeepSeek-V4.1-Flash में एक नया अपडेट पेश किया है, जिसे DeepSeek-V4.1-Flash-1017 के नाम से जाना जाता है। कंपनी के अनुसार, यह एक छोटा अपडेट है, लेकिन यह तर्क, कोडिंग, एजेंटिक कार्यों और विज़ुअल बेंचमार्क में काफी सुधार लाता है। इस नए अपडेट के साथ, उपयोगकर्ता अब कम समय में और…",
+    "category": "model_release",
+    "tags": [
+      "DeepSeek",
+      "DeepSeek-V4.1-Flash-1017"
+    ],
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6881e07bf0c9",
+    "title": "पेले: मर्मेड डायग्राम्स के लिए एक हल्का और थीम-फ्रेंडली एसवीजी रेंडरर",
+    "summary": "टेकदृष्टि के पाठकों के लिए एक नई तकनीकी जानकारी। पेले एक हल्का और ओपन-सोर्स सॉफ्टवेयर है जिसे मर्मेड सिंटैक्स को स्केलेबल वेक्टर ग्राफिक्स (SVG) में बदलने के लिए डिज़ाइन किया गया है। इसे मूल रूप से ऑब्सीडियन के लिए बनाया गया था ताकि इसके डायग्राम्स को एप्लिकेशन की थीम के साथ बेहतर तरीके से मैच किया जा सके। इस…",
+    "category": "repo_analysis",
+    "tags": [
+      "Pele",
+      "Mermaid",
+      "Obsidian"
+    ],
+    "image": "https://pele.run/social.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "741c9c2a9484",
+    "title": "सोशल मीडिया पर नाबालिगों के प्रतिबंध की विफलता और डिजिटल सुरक्षा के नए विकल्प",
+    "summary": "पिछले कुछ समय से दुनिया भर के कई देश बच्चों और किशोरों के लिए सोशल मीडिया के उपयोग पर रोक लगाने की दिशा में कदम उठा रहे हैं। हाल ही में, फ्रांस ने 15 वर्ष से कम उम्र के बच्चों के लिए सोशल मीडिया प्लेटफॉर्म्स पर प्रतिबंध लगा दिया था, जिसे बाद में देश की शीर्ष अदालत ने मानवाधिकारों के आधार पर रोक दिया। इसके साथ ही,…",
+    "category": "ban_regulation",
+    "tags": [
+      "Michal Luria",
+      "Aliya Bhatia",
+      "Danah Boyd"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2250456863.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "4e49d2c173fe",
+    "title": "मेटा ने एआई ट्रेनिंग के लिए स्क्रैपिंग संबंधी विवादित खंड हटाया",
+    "summary": "टेकक्रंच और अन्य तकनीकी समाचार आउटलेट्स की रिपोर्ट के अनुसार, मेटा ने अपने वाणिज्यिक उपयोग की शर्तों (Terms of Use) में एक बदलाव किया था, जिसने कृत्रिम बुद्धिमत्ता (AI) के लिए डेटा स्क्रैपिंग के संबंध में चिंताएं बढ़ा दी थीं। यह नया खंड स्पष्ट रूप से मेटा को किसी भी व्यवसायिक खाते के डोमेन, वेब पेजों या यूआरएल की…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Nieman Lab",
+      "The Verge"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "b769f5e984a3",
+    "title": "एंथ्रोपिक की नई रिपोर्ट: कार्यबल में आया बड़ा बदलाव और AI का बढ़ता प्रभाव",
+    "summary": "एंथ्रोपिक, जो एक प्रमुख AI सुरक्षा और अनुसंधान कंपनी है, ने शुक्रवार को अपनी एक विस्तृत रिपोर्ट जारी की है। इस रिपोर्ट के अनुसार, पिछले एक वर्ष में कंपनी के काम करने के तरीकों और कर्मचारियों की भूमिकाओं में काफी बड़े बदलाव देखने को मिले हैं। यह रिपोर्ट न केवल एंथ्रोपिक के आंतरिक माहौल को उजागर करती है, बल्कि यह भी…",
+    "category": "general",
+    "tags": [
+      "Anthropic",
+      "Claude"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "51c1c9a5e48b",
+    "title": "रीप्लिट ने ओपनएआई को बनाया अपना नया डिफ़ॉल्ट पार्टनर, सीईओ ने किया टेकक्रंच डिसरप्ट में ऐलान",
+    "summary": "रीप्लिट, जो स्टार्टअप फाउंडर्स और डेवलपर्स के बीच एक लोकप्रिय एआई कोडिंग प्लेटफॉर्म है, अब एंथ्रोपिक के बजाय ओपनएआई के साथ काम कर रहा है। कंपनी के सीईओ और सह-संस्थापक अमजद मसाद ने गुरुवार को टेकक्रंच डिसरप्ट में मंच से इस बदलाव की घोषणा की। मसाद ने स्पष्ट किया कि एंथ्रोपिक को प्लेटफॉर्म से पूरी तरह से नहीं हटाया गया…",
+    "category": "general",
+    "tags": [
+      "Replit",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "9c715d5779cd",
+    "title": "एम्बर मग 3: स्मार्ट मग की दुनिया में एक नया और उपयोगी कदम",
+    "summary": "सर्दियों की शुरुआत के साथ ही गर्म पेय पदार्थों की मांग बढ़ जाती है। एम्बर ने अपने स्मार्ट मग का तीसरा संस्करण लॉन्च किया है, जो उपयोगकर्ताओं की उस पुरानी समस्या को हल करता है जहाँ कुछ ही मिनटों में उनका पसंदीदा पेय ठंडा हो जाता है। यह नया मग न केवल पेय को लंबे समय तक गर्म रखता है, बल्कि इसमें एक नया हार्डवेयर अपग्रेड…",
+    "category": "general",
+    "tags": [
+      "Ember",
+      "Ember app",
+      "Ember Mug 3"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ember_Table-with-Phone-Dark-Black-10oz_030326.png?w=1200",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "bb38f1891d15",
+    "title": "TikTok ने एलेक्स गिब्नी की एलन मस्क डॉक्यूमेंट्री के अकाउंट पर लगाया बैन",
+    "summary": "एलेक्स गिब्नी द्वारा निर्देशित और निर्मित एलन मस्क पर आधारित आगामी डॉक्यूमेंट्री के आधिकारिक प्रमोशनल अकाउंट को टिकटॉक ने स्थायी रूप से बंद कर दिया है। यह कार्रवाई फिल्म की व्यापक रिलीज से कुछ ही दिन पहले की गई है। द हॉलीवुड रिपोर्टर की रिपोर्ट के अनुसार, फिल्म के डिस्ट्रीब्यूटर, ब्लीकर स्ट्रीट (Bleecker Street) को…",
+    "category": "ban_regulation",
+    "tags": [
+      "TikTok",
+      "Bleecker Street",
+      "Alex Gibney"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2194418432.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3fc6af837124",
+    "title": "मर्सिडीज-AMG की पहली ग्राउंड-अप इलेक्ट्रिक SUV: 1,150hp का नया इलेक्ट्रिक बीस्ट",
+    "summary": "मर्सिडीज-AMG ने अपनी 59 साल की विरासत में पहली बार पूरी तरह से इन-हाउस विकसित एक पूर्ण आकार की इलेक्ट्रिक SUV का अनावरण किया है। 2028 मॉडल की यह नई गाड़ी, जिसे GT SUV कहा गया है, मर्सिडीज के हाई-परफॉरमेंस AMG.EA आर्किटेक्चर पर आधारित है। यह वाहन स्पोर्ट्स कार के हैंडलिंग और एक पूर्ण आकार की SUV की व्यावहारिकता का…",
+    "category": "model_release",
+    "tags": [
+      "Mercedes-AMG",
+      "Mercedes-AMG GT SUV",
+      "Porsche Cayenne Turbo Electric"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/26C0332_071.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1b9b6ec35709",
+    "title": "एलोन मस्क ने 1 मिलियन डॉलर के वोटर गिवअवे विवाद पर किया समझौता",
+    "summary": "साल 2024 में, एलोन मस्क ने एक बड़ा चुनावी दांव खेलते हुए एक स्विंग स्टेट में प्रतिदिन 1 मिलियन डॉलर एक रैंडम रूप से चुने गए पंजीकृत वोटर को देने की घोषणा की थी। यह पहल मस्क और 'द बोरिंग कंपनी' के सह-संस्थापक द्वारा स्थापित प्रो-रिपब्लिकन सुपर पीएसी, अमेरिका पीएसी (America PAC) से जुड़ी थी, जिसने 2024 के चुनावों को…",
+    "category": "ban_regulation",
+    "tags": [
+      "Elon Musk",
+      "America PAC",
+      "Chris Gober"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ce81f3c6c7b6",
+    "title": "Pikmin 4 पर $20 की भारी छूट: Nintendo Switch 2 अपग्रेड के लिए शानदार मौका",
+    "summary": "यदि आप इस वीकेंड खेलने के लिए एक शानदार गेम की तलाश में हैं, तो वॉलमार्ट पर एक बेहतरीन डील उपलब्ध है। वॉलमार्ट ने Nintendo Switch के लिए Pikmin 4 की डिजिटल कॉपी पर भारी छूट दी है। यह गेम अपने सामान्य मूल्य से $20 कम पर उपलब्ध है, जो इसे एक आकर्षक विकल्प बनाता है। टेक पत्रकार ब्रैड बोर्क ने इस शानदार सौदे की जानकारी दी…",
+    "category": "general",
+    "tags": [
+      "Pikmin 4",
+      "Walmart",
+      "Nintendo"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24018761/Nintendo_Direct_9.13.2022_60_17_screenshot.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "79e800af7ff3",
+    "title": "पॉडकास्टिंग के जनक जाद अबुमराद: एक सांस्कृतिक क्रांति",
+    "summary": "पॉडकास्टिंग की दुनिया में जाद अबुमराद का नाम एक मील के पत्थर की तरह है। हाल ही में, द वर्ज के एक विशेष साक्षात्कार में उन्होंने अपने जीवन और रुचियों के बारे में खुलकर बात की, जिसमें एक तितली वाले चाकू (butterfly knife) और एक अच्छे स्प्रिंग वाले तकिए के प्रति उनका प्रेम भी शामिल था। यह साक्षात्कार उनके सार्वजनिक रूप से…",
+    "category": "general",
+    "tags": [
+      "Jad Abumrad",
+      "Radiolab",
+      "Dolly Parton's America"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Jad-WideEyedPortrait-14-Full.jpg?quality=90&strip=all&crop=0%2C10.752461979556%2C100%2C78.495076040888&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "26c06698b2a0",
+    "title": "स्पेसएक्स की महत्वाकांक्षी और महंगी जुआ: एटीएंडटी, टी-मोबाइल और वेरिज़ोन को चुनौती देने की तैयारी",
+    "summary": "स्पेसएक्स अब एक प्रमुख अमेरिकी वायरलेस कैरियर बनने की दिशा में कदम बढ़ा रहा है, जो एटीएंडटी, वेरिज़ोन और टी-मोबाइल के लिए एक बड़ी चुनौती है।",
+    "category": "general",
+    "tags": [
+      "SpaceX",
+      "LightShed Partners",
+      "Walter Piecyk"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_SpaceX_Telecom.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "79619743255e",
+    "title": "वेबसाइट्स ने AI एजेंट्स के लिए अपने दरवाजे बंद किए",
+    "summary": "आर्टिफिशियल इंटेलिजेंस (AI) की दुनिया में स्वायत्त एजेंट्स (Autonomous Agents) को लेकर एक नई और महत्वपूर्ण बहस छिड़ गई है। OpenAI, Meta, Google, Instinct और xAI जैसी बड़ी टेक कंपनियां अपने नए एआई एजेंट्स के जरिए यह वादा कर रही हैं कि ये टूल आपके लिए इंटरनेट खंगालेंगे, डिनर रिजर्वेशन बुक करेंगे, इनबॉक्स साफ करेंगे और…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "Meta",
+      "Google"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "88e74690a415",
+    "title": "बोस के नए वायर्ड इयरबड्स: सादगी और बेहतरीन तकनीक का शानदार संगम",
+    "summary": "2016 में एप्पल द्वारा आईफोन से हेडफोन जैक हटाने के बाद उपभोक्ताओं ने ब्लूटूथ इयरबड्स की ओर रुख किया था। हालांकि, पांच साल की गिरावट के बाद अब वायर्ड इयरबड्स की बिक्री में फिर से उछाल आया है। इस बदलते बाजार में बोस कॉर्पोरेशन ने भी वापसी की है और अपने नए 'बोस नॉइज़ कैंसलिंग वायर्ड इयरबड्स' पेश किए हैं। ये इयरबड्स न…",
+    "category": "model_release",
+    "tags": [
+      "Bose",
+      "Noise Cancelling Wired Earbuds"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bose-Noise-Cancelling-Wired-Earbuds_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "6e5bf6774929",
+    "title": "एप्पल के होमव्यू ने दी ऑनलाइन रेसिपी लेखकों के लिए नई चुनौती",
+    "summary": "एप्पल इंक ने हाल ही में बाजार में एक नया स्मार्ट डिस्प्ले पेश किया है, जिसका नाम होमव्यू है। 13 अक्टूबर को पेश किए गए इस डिवाइस की शुरुआती कीमत ₹39,900 तय की गई है। यह एक एआई-पावर्ड स्मार्ट हब है, जिसमें 7-इंच का लिक्विड रेटिना डिस्प्ले लगा हुआ है। एप्पल ने इसके टेबलटॉप और वॉल-माउंटेड दोनों मॉडल उपलब्ध कराए हैं, जो…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "HomeView"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-HomeView-Cooking_73277b.png?quality=90&strip=all&crop=0%2C17.277486910995%2C100%2C65.44502617801&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7a6a0e30e318",
+    "title": "Blender 3D के लिए नया AI असिस्टेंट और MCP सर्वर",
+    "summary": "3D मॉडलिंग और डिज़ाइन की दुनिया में एक नया और महत्वपूर्ण टूल सामने आया है। यह एक AI असिस्टेंट और MCP (Model Context Protocol) सर्वर है जिसे खास तौर पर Blender 3D सॉफ्टवेयर के लिए डिज़ाइन किया गया है। इसका मुख्य उद्देश्य 3D आर्टिस्ट्स को अपने दृश्यों (scenes) को आसानी से देखने, ऑब्जेक्ट्स बनाने, मटीरियल बदलने और बिना…",
+    "category": "repo_analysis",
+    "tags": [
+      "blender-ai-mcp-addon",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "image": "https://opengraph.githubassets.com/1/anujasid/blender-ai-mcp-addon",
+    "source": "github",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d4f6e31122d4",
+    "title": "raullenchai/esp32-thinks",
+    "summary": "A multi-model Muse: personal AI voice assistant on ESP32 - wake word or knob, any OpenAI-compatible brain (STT/chat/TTS mix-and-match), streaming replies, out of the box. Built on muse-gadget-sdk.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/raullenchai/esp32-thinks",
+    "source": "github",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "cabaa00a57e8",
+    "title": "ओपन-सोर्स टूल 'जेमिनी स्टेल्थ ब्रिज' ने कोडिंग एजेंट्स को दी जेमिनी वेब तक सीधी पहुंच",
+    "summary": "हाल ही में, डेवलपर एज़रीनाल्डी ने एक नया ओपन-सोर्स टूल, 'azrinaldi/gemini-stealth-bridge' पेश किया है। यह टूल मुख्य रूप से कोडिंग एजेंट्स और अन्य API क्लाइंट्स के बीच एक पुल (bridge) के रूप में काम करता है, जिससे वे जेमिनी वेब (Gemini Web) तक पहुंच सकते हैं। जेमिनी के कुछ वेब संस्करणों के लिए आधिकारिक API की कमी एक…",
+    "category": "repo_analysis",
+    "tags": [
+      "azrinaldi",
+      "gemini-stealth-bridge"
+    ],
+    "image": "https://opengraph.githubassets.com/1/azrinaldi/gemini-stealth-bridge",
+    "source": "github",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "8fb521d43484",
+    "title": "वकांडी/ओपेंकोड-रस्ट: डॉकर के बिना लोकल एआई कोडिंग एजेंट",
+    "summary": "ओपन-सोर्स एआई कोडिंग एजेंट की दुनिया में एक नया और महत्वपूर्ण कदम उठाया गया है। वकांडी/ओपेंकोड-रस्ट प्रोजेक्ट ने ओपनकोड को एक नई दिशा दी है, जिससे डेवलपर्स अब कंटेनर रनटाइम के बिना अपने स्थानीय मशीनों पर शक्तिशाली एआई एजेंट चला सकते हैं। यह टूल तीन अलग-अलग इंटरफेस प्रदान करता है: CLI, TUI और एक HTTP सर्वर। इसके अलावा,…",
+    "category": "repo_analysis",
+    "tags": [
+      "opencode-rust",
+      "OpenCode",
+      "opr"
+    ],
+    "image": "https://opengraph.githubassets.com/1/vakandi/opencode-rust",
+    "source": "github",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a0d087706fb6",
+    "title": "Danielxu0208 द्वारा RSI Eval: एजेंट बेंचमार्क के लिए एक नया पायथन टूल",
+    "summary": "टेक जगत में एजेंटिक एआई (Agentic AI) के विकास के साथ नए मूल्यांकन ढांचे की आवश्यकता बढ़ गई है। इसी दिशा में, USYD के एक छात्र Danielxu0208 ने RSI Eval नामक एक हल्का पायथन SDK और CLI पेश किया है। यह टूल डेवलपर्स को उनके द्वारा बनाए गए सुधार लूप्स (improvement loops) का आसानी से मूल्यांकन करने की अनुमति देता है।",
+    "category": "repo_analysis",
+    "tags": [
+      "Danielxu0208",
+      "RSI Eval"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Danielxu0208/rsi_eval",
+    "source": "github",
+    "first_seen": "2026-10-18T07:20:57.335170+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "5afa6e9d76e2",
     "title": "Ultramarine 1 Flash: पेशेवर कार्यों के लिए एक नया और किफायती एआई मॉडल",
     "summary": "टेकदृष्टि को मिली जानकारी के अनुसार, Ultramarine ने अपने नए एआई मॉडल, Ultramarine 1 Flash, की घोषणा की है। यह मॉडल विशेष रूप से वित्त, कानून, परामर्श और संचालन जैसे पेशेवर क्षेत्रों में काम करने के लिए डिज़ाइन किया गया है। बाजार में पहले से मौजूद महंगे मॉडलों के विकल्प के रूप में, यह मॉडल एक नए युग की शुरुआत करता है…",
