@@ -2216,8 +2216,8 @@
   "model context protocol": {
     "canonical_name": "Model Context Protocol",
     "entity_type": "protocol",
-    "summary": "*   [Specification](https://modelcontextprotocol.io/specification/2025-06-18). *   [Architecture](https://modelcontextprotocol.io/specification/2025-06-18/architecture). *   [Overview](https://modelcontextprotocol.io/specification/2025-06-18/basic). *   [Authorization](https://modelcontextprotocol.i",
-    "last_updated": "2026-07-03"
+    "summary": "The Model Context Protocol (MCP) is an open protocol designed for AI assistants and development tools to interact with external data and services. It is supported by a wide range of clients and servers, including AI assistants like Claude and ChatGPT, as well as development tools like Visual Studio",
+    "last_updated": "2026-10-19"
   },
   "dom": {
     "canonical_name": "DOM",
@@ -9881,8 +9881,8 @@
   "2k": {
     "canonical_name": "2K",
     "entity_type": "company",
-    "summary": "The provided material does not contain information about a '2K' company. It discusses Disney, stock, Berkshire Hathaway, and other unrelated topics, but does not mention a company named 2K or provide an overview of one.",
-    "last_updated": "2026-07-21"
+    "summary": "2K is an American video game publisher based in Novato, California, founded in January 2005 as a subsidiary of Take-Two Interactive. It operates under the 2K Games and 2K Sports labels to develop and publish sports-based video game franchises, including the NBA 2K, NHL 2K, WWE 2K, and MLB 2K series.",
+    "last_updated": "2026-10-19"
   },
   "borderlands 3": {
     "canonical_name": "Borderlands 3",
@@ -10150,9 +10150,9 @@
   },
   "remotion": {
     "canonical_name": "Remotion",
-    "entity_type": "technology",
-    "summary": "Remotion is a tool for creating motion graphics by generating code-as-video. It allows users to create video content by writing prompts, which the tool then processes to produce the final video, including storyboarding and sound design.",
-    "last_updated": "2026-07-21"
+    "entity_type": "product",
+    "summary": "Remotion is a platform for creating videos and motion graphics using React. It supports bulk rendering, server-side and client-side rendering, and allows users to build video editors and automated video products.",
+    "last_updated": "2026-10-19"
   },
   "textbooktonote": {
     "canonical_name": "textbook-to-note",
@@ -22531,5 +22531,251 @@
     "entity_type": "person",
     "summary": "Danielxu0208 is an undergraduate student at USYD with one repository available on GitHub. The provided material also includes various GitHub support prompts and unrelated project descriptions, but no further details about the person are available.",
     "last_updated": "2026-10-18"
+  },
+  "hybridagents": {
+    "canonical_name": "HybridAgents",
+    "entity_type": "ai_model",
+    "summary": "HybridAgents are agents that dynamically navigate between latent reasoning and text-based interaction. They were introduced by researchers from Stanford, Together AI, UIUC, and Meta, including James Zou.",
+    "last_updated": "2026-10-19"
+  },
+  "william gibson": {
+    "canonical_name": "William Gibson",
+    "entity_type": "person",
+    "summary": "William Gibson is an American-Canadian science fiction writer and a leader of the cyberpunk movement. He is known for his debut novel Neuromancer (1984) and has written more than 20 short stories and 12 critically acclaimed novels throughout his career.",
+    "last_updated": "2026-10-19"
+  },
+  "autodesk": {
+    "canonical_name": "Autodesk",
+    "entity_type": "company",
+    "summary": "Autodesk is a Nasdaq-listed design-and-make software company that creates 3D design, engineering, and entertainment software. The company's mission is to empower people to design and make anything across various industries, including architecture, engineering, construction, and media.",
+    "last_updated": "2026-10-19"
+  },
+  "eric gullichsen": {
+    "canonical_name": "Eric Gullichsen",
+    "entity_type": "person",
+    "summary": "Eric Gullichsen is a fifth-generation member of the Smiley family who is now president of Mohonk Mountain House. After a career in journalism and media relations, he studied hospitality at NYU and Cornell to become more involved in his family's business.",
+    "last_updated": "2026-10-19"
+  },
+  "scott fisher": {
+    "canonical_name": "Scott Fisher",
+    "entity_type": "person",
+    "summary": "Scott Fisher is a pioneering artist and technologist known for his foundational work in virtual reality (VR), augmented reality (AR), and interactive media. He is the President and Co-Founder of Creator Nation and currently serves as Professor and Chair of the Interactive Media Division at the Unive",
+    "last_updated": "2026-10-19"
+  },
+  "basigo": {
+    "canonical_name": "BasiGo",
+    "entity_type": "startup",
+    "summary": "Headquartered in Nairobi, BasiGo is starting a sustainable mobility revolution in African cities. The company brings together experts in electric vehicles, public transport, the power sector, asset finance, software, and data science.",
+    "last_updated": "2026-10-19"
+  },
+  "mayank banerjee": {
+    "canonical_name": "Mayank Banerjee",
+    "entity_type": "person",
+    "summary": "Mayank Banerjee is the Co-Founder and CEO at Even. Additionally, he previously served as the Co-founder at Compass News and studied at the University of Oxford, having joined Even Healthcare in 2020.",
+    "last_updated": "2026-10-19"
+  },
+  "benchmark": {
+    "canonical_name": "Benchmark",
+    "entity_type": "organization",
+    "summary": "Benchmark is a venture capital firm that has raised significant capital, including a $2 billion haul to launch its first-ever growth fund. The firm's partners have discussed investing in a frenzied market and have noted that the AI boom is eroding the traditional venture pact against backing rival s",
+    "last_updated": "2026-10-19"
+  },
+  "characterai": {
+    "canonical_name": "Character.AI",
+    "entity_type": "startup",
+    "summary": "Character.AI is a startup that offers users the ability to chat for free with millions of characters, ranging from real-world figures and historical personalities to fictional icons. The company provides proprietary generative language models capable of dynamic text generation, enabling interactive",
+    "last_updated": "2026-10-19"
+  },
+  "rj scaringe": {
+    "canonical_name": "RJ Scaringe",
+    "entity_type": "person",
+    "summary": "RJ Scaringe is the founder and CEO of Rivian Automotive, an electric vehicle manufacturer. He is a visionary engineer who transformed a childhood passion for cars into a mission to create sustainable transportation.",
+    "last_updated": "2026-10-19"
+  },
+  "vw group": {
+    "canonical_name": "VW Group",
+    "entity_type": "organization",
+    "summary": "Through its brands, business units, and financial services, the Volkswagen Group develops technologies and mobility solutions for the electric, digital, and autonomous mobility of the future. It is pursuing a clear strategic roadmap up to 2035 to play an active role in shaping the transformation of",
+    "last_updated": "2026-10-19"
+  },
+  "arm": {
+    "canonical_name": "Arm",
+    "entity_type": "company",
+    "summary": "Arm powers the compute foundation of modern life with more than 350 billion Arm-based chips shipped to date. The world's most innovative companies build on Arm to meet the growing compute demand that drives the AI era.",
+    "last_updated": "2026-10-19"
+  },
+  "tsmc": {
+    "canonical_name": "TSMC",
+    "entity_type": "company",
+    "summary": "Established in 1987 by Dr. Morris Chang, TSMC pioneered the pure-play foundry business model with an exclusive focus on manufacturing its customers' products.",
+    "last_updated": "2026-10-19"
+  },
+  "tyler harpe": {
+    "canonical_name": "Tyler Harpe",
+    "entity_type": "person",
+    "summary": "Tyler Harpe is an Immigration and Customs Enforcement agent and the husband of Amber Harpe, a former Savannah Police Department officer. He acknowledged that his wife's account was used for ICE-related searches.",
+    "last_updated": "2026-10-19"
+  },
+  "savannah police department": {
+    "canonical_name": "Savannah Police Department",
+    "entity_type": "organization",
+    "summary": "The Savannah Police Department is a municipal law enforcement agency led by a Chief of Police and various assistant chiefs. It oversees specialized units including investigations, field operations, professional standards, specialized operations, strategic initiatives, and numerous collateral duty un",
+    "last_updated": "2026-10-19"
+  },
+  "flock": {
+    "canonical_name": "Flock",
+    "entity_type": "product",
+    "summary": "Flock is a team communication and online collaboration platform that offers team messaging, project management, and built-in video and voice calling. It uses channels to organize conversations and streamline decision-making across cross-functional work.",
+    "last_updated": "2026-10-19"
+  },
+  "power to the players act": {
+    "canonical_name": "Power To The Players Act",
+    "entity_type": "regulation",
+    "summary": "The Power To The Players Act is a proposed bill introduced by Rep. Ritchie Torres that directs the Federal Trade Commission to establish regulations protecting consumer video game ownership rights. The legislation aims to safeguard the ability of consumers to own, play, and resell the video games th",
+    "last_updated": "2026-10-19"
+  },
+  "legion go s": {
+    "canonical_name": "Legion Go S",
+    "entity_type": "product",
+    "summary": "The Legion Go S is a handheld gaming device that features Legion ColdFront technology to manage heat and maintain performance. It includes a layout with dual joysticks, function buttons, and USB-C ports supporting high-speed data and video output.",
+    "last_updated": "2026-10-19"
+  },
+  "steam deck oled": {
+    "canonical_name": "Steam Deck OLED",
+    "entity_type": "product",
+    "summary": "The Steam Deck OLED features a display designed specifically for gaming, offering striking contrast, brilliant clarity, and a larger picture with more colors, pure blacks, and amazing motion rendition. It also provides 30-50% more battery life compared to previous models by fitting a bigger battery",
+    "last_updated": "2026-10-19"
+  },
+  "steamos": {
+    "canonical_name": "SteamOS",
+    "entity_type": "technology",
+    "summary": "SteamOS is Valve's Linux-based operating system optimized for gaming, which retains the power and flexibility of a PC. It powers devices like the Steam Deck and combines a console-style gaming interface with a full desktop environment, allowing users to play Steam and non-Steam games, install apps,",
+    "last_updated": "2026-10-19"
+  },
+  "asus rog ally x20": {
+    "canonical_name": "Asus ROG Ally X20",
+    "entity_type": "product",
+    "summary": "The Asus ROG Ally X20 is a 2026 gaming handheld PC featuring a 7.4-inch Nebula HDR Display with OLED and TMR Joysticks. It is powered by the AMD Ryzen AI Z2 Extreme processor and is offered in a special bundle that includes the ROG XREAL R1 Edition 20 Glasses, a custom Pelican protective case, an ex",
+    "last_updated": "2026-10-19"
+  },
+  "ryzen z1 extreme": {
+    "canonical_name": "Ryzen Z1 Extreme",
+    "entity_type": "technology",
+    "summary": "The Ryzen Z1 Extreme is a high-end mobile processor launched in May 2023 as part of the Ryzen Z Series. It uses the Zen 4 (Phoenix) architecture and Socket FP8, featuring eight cores, 16 threads, and RDNA 3 integrated graphics with 12 compute units.",
+    "last_updated": "2026-10-19"
+  },
+  "licincan": {
+    "canonical_name": "LiCinCan",
+    "entity_type": "person",
+    "summary": "LiCinCan is a people search service used by over 130,000 individuals across 90+ countries to identify the correct person when multiple people share the same name. Users type a full name into a single box and answer three quick questions, such as age range, location, and an extra detail, to narrow do",
+    "last_updated": "2026-10-19"
+  },
+  "deepseekv4": {
+    "canonical_name": "DeepSeek-V4",
+    "entity_type": "ai_model",
+    "summary": "DeepSeek-V4 is a series of Mixture-of-Experts (MoE) language models, featuring DeepSeek-V4-Pro with 1.6T parameters and DeepSeek-V4-Flash with 284B parameters. Both models support a context length of one million tokens and are available as a preview version.",
+    "last_updated": "2026-10-19"
+  },
+  "deepseekr1": {
+    "canonical_name": "DeepSeek-R1",
+    "entity_type": "ai_model",
+    "summary": "DeepSeek-R1 is a generative AI model released in January 2025 by the Chinese startup DeepSeek. It is recognized for its innovative architecture, cost-effectiveness, and exceptional performance across multiple domains, particularly for complex reasoning and long-context comprehension.",
+    "last_updated": "2026-10-19"
+  },
+  "lm studio": {
+    "canonical_name": "LM Studio",
+    "entity_type": "product",
+    "summary": "LM Studio is a local LLM platform designed for Mac, Linux, and Windows that allows users to discover, download, and run open models. It includes a headless daemon called llmster for servers, cloud instances, and CI, and is built for creativity, work, and code.",
+    "last_updated": "2026-10-19"
+  },
+  "myagent": {
+    "canonical_name": "MyAgent",
+    "entity_type": "product",
+    "summary": "MyAgent is Cisco's new enterprise AI super-agent that moves beyond chat into supervised autonomous execution. It is currently rolling out to 90,000 employees and aims to bring personalized, secure, and ambient intelligence into the flow of work.",
+    "last_updated": "2026-10-19"
+  },
+  "ztt0216": {
+    "canonical_name": "ztt0216",
+    "entity_type": "person",
+    "summary": "The material provided does not contain a usable overview of the ztt0216 person.",
+    "last_updated": "2026-10-19"
+  },
+  "xiao": {
+    "canonical_name": "XIAO",
+    "entity_type": "product",
+    "summary": "The Seeed Studio XIAO Series is a collection of thumb-sized, high-performance microcontrollers (MCUs) designed for compact projects requiring wireless connectivity. The ultra-compact ESP32-XIAO development boards measure only 21 × 17.5 mm and are specifically ideal for battery-powered IoT button app",
+    "last_updated": "2026-10-19"
+  },
+  "devkit": {
+    "canonical_name": "DevKit",
+    "entity_type": "product",
+    "summary": "DevKit is a development tool that tailors LLMs to specific developer needs, provides automatic code previews, and includes a suite of over 30 mini-tools to perform various coding tasks. It is designed to help with data wrangling and SQL query management, offering a more robust alternative to standar",
+    "last_updated": "2026-10-19"
+  },
+  "litellm": {
+    "canonical_name": "LiteLLM",
+    "entity_type": "product",
+    "summary": "LiteLLM provides a unified gateway for engineers to access over 100 AI model endpoints, streamlining the complexities of managing multiple LLM models. It enables teams to quickly deploy new models and switch backend models with simple configuration updates in the gateway, eliminating the need for co",
+    "last_updated": "2026-10-19"
+  },
+  "el4cteo": {
+    "canonical_name": "EL4CTEO",
+    "entity_type": "organization",
+    "summary": "EL4CTEO is a community-driven entity focused on developing a local MCP server for Roblox Studio. Their server connects AI assistants like Claude to the Roblox development environment, providing developers with 31 tools, a push-based SSE bridge, and editor-safe script editing capabilities.",
+    "last_updated": "2026-10-19"
+  },
+  "bsk": {
+    "canonical_name": "bsk",
+    "entity_type": "protocol",
+    "summary": "The following sections detail its mechanism of action, summarize key quantitative data from preclinical studies, and provide detailed protocols for investigating its potential as a radiosensitizing agent in cancer research. NVP-BSK805 Dihydrochloride: Application Notes\nand Protocols for Radiosensiti",
+    "last_updated": "2026-10-19"
+  },
+  "browserskill": {
+    "canonical_name": "BrowserSkill",
+    "entity_type": "technology",
+    "summary": "Jun 22, 2026 · BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using the accounts you are already signed into. Ask it to read pages, fill forms, work through a website, capture a long screenshot, or investigate a failing request. Let AI agents use your real, logged-in browser withou",
+    "last_updated": "2026-10-19"
+  },
+  "shadowswaps": {
+    "canonical_name": "ShadowSwaps",
+    "entity_type": "organization",
+    "summary": "ShadowSwaps is an organization that supplies default community files and funding links for its repositories. It provides a public repository that contains the default Ko-fi support link, which GitHub inherits if a repository lacks its own funding file.",
+    "last_updated": "2026-10-19"
+  },
+  "higher colleges of technology": {
+    "canonical_name": "Higher Colleges of Technology",
+    "entity_type": "organization",
+    "summary": "Higher Colleges of Technology (HCT) is the UAE's largest applied higher educational institution, founded in 1988. It operates across multiple campuses in various emirates and serves as the nation's first approved university economic free zone.",
+    "last_updated": "2026-10-19"
+  },
+  "machinelearningforcybersecurity": {
+    "canonical_name": "machine-learning-for-cybersecurity",
+    "entity_type": "product",
+    "summary": "Machine learning for cybersecurity involves using quantitative methods to analyze research and published works to gain an overview of the state of the field. It provides an in-depth analysis of core ML paradigms and evaluates their relevance and effectiveness in various cybersecurity applications.",
+    "last_updated": "2026-10-19"
+  },
+  "escudero": {
+    "canonical_name": "escudero",
+    "entity_type": "person",
+    "summary": "Chiz Escudero, born Francis Joseph Escudero on October 10, 1969, is a prominent Filipino politician who rose to prominence through a meteoric ascent in national politics.",
+    "last_updated": "2026-10-19"
+  },
+  "gazelle": {
+    "canonical_name": "Gaze-LLE",
+    "entity_type": "ai_model",
+    "summary": "Gaze-LLE is a transformer approach for estimating gaze targets that leverages pretrained visual foundation models, featuring a streamlined architecture with a lightweight gaze decoder on top of a frozen visual encoder.",
+    "last_updated": "2026-10-19"
+  },
+  "depth anything v2": {
+    "canonical_name": "Depth Anything V2",
+    "entity_type": "ai_model",
+    "summary": "Depth Anything V2 is a model introduced by Lihe Yang et al. that uses the same architecture as the original Depth Anything model, but employs synthetic data and a larger capacity teacher model to achieve much finer and robust depth predictions.",
+    "last_updated": "2026-10-19"
+  },
+  "harshpreethand": {
+    "canonical_name": "HarshpreetHand",
+    "entity_type": "product",
+    "summary": "HarshpreetHand is a font created from handwritten college notes. The tool processes uploaded page photos to find each letter, which are then redrawn along the pen's path using a single steady ballpoint nib.",
+    "last_updated": "2026-10-19"
   }
 }
