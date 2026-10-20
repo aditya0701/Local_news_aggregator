@@ -2936,8 +2936,8 @@
   "pytorch": {
     "canonical_name": "PyTorch",
     "entity_type": "technology",
-    "summary": "PyTorch is an open-source deep learning framework and ecosystem, serving as the community home for the PyTorch Foundation. As a member, you can collaborate on training, events, developer tooling, and academic research, and access resources for stable, secure, and long-lasting codebases. The framewor",
-    "last_updated": "2026-07-05"
+    "summary": "PyTorch is a Python-based deep learning library that runs on CPU by default and supports GPU acceleration using CUDA. It follows a define-by-run approach, creating dynamic computation graphs during execution, which makes debugging and customization easier.",
+    "last_updated": "2026-10-20"
   },
   "gguf": {
     "canonical_name": "GGUF",
@@ -6943,15 +6943,15 @@
   },
   "best buy": {
     "canonical_name": "Best Buy",
-    "entity_type": "model_release",
-    "summary": "The material describes Best Buy's services, including the Best Buy Membership, Protection, and Business programs. It also lists various deals and promotions, such as a $50 bonus discount for pre-orders, savings on Surface Laptops, and discounts on select Samsung phones, headphones, and speakers.",
-    "last_updated": "2026-07-14"
+    "entity_type": "company",
+    "summary": "Best Buy (NYSE: BBY) is the world's largest specialty consumer electronics retailer. The company's purpose is to enrich lives through technology by providing customers with a unique mix of advice, products, and services in its stores, online, and in homes.",
+    "last_updated": "2026-10-20"
   },
   "bh photo": {
     "canonical_name": "B&H Photo",
-    "entity_type": "model_release",
-    "summary": "The material provides information about B&H Photo-Video, noting that it has a large number of verified reviews on ConsumerAffairs. It also mentions a specific deal: a $300 discount on 12-inch MacBook models and highlights a guide for new iOS 26 features.",
-    "last_updated": "2026-07-14"
+    "entity_type": "company",
+    "summary": "B&H Foto & Electronics is a prominent non-chain electronics retailer founded in 1973 and headquartered in New York City. The company specializes in a vast array of photo and video equipment, computers, lighting, audio gear, and mobile devices, having grown from a small neighborhood shop on a philoso",
+    "last_updated": "2026-10-20"
   },
   "shokz openrun pro": {
     "canonical_name": "Shokz OpenRun Pro",
@@ -8535,10 +8535,13 @@
     "last_updated": "2026-10-13"
   },
   "us": {
-    "canonical_name": "US",
-    "entity_type": "country",
-    "summary": "The material did not address this question.",
-    "last_updated": "2026-07-18"
+    "senses": [
+      {
+        "sense_label": "US",
+        "summary": "The provided material did not address this query.",
+        "last_updated": "2026-10-20"
+      }
+    ]
   },
   "xi jinping": {
     "canonical_name": "Xi Jinping",
@@ -12907,9 +12910,9 @@
   },
   "mac": {
     "canonical_name": "Mac",
-    "entity_type": "organization",
-    "summary": "On a Mac, you can organize desktop files by grouping them into folders, aligning and sorting them, or adjusting spacing, icon size, and text size. Stacks is a feature that helps keep files organized in tidy groups on the desktop by grouping them by kind, date, or tags. You can create a new folder wi",
-    "last_updated": "2026-07-27"
+    "entity_type": "product",
+    "summary": "Mac refers to a line of Apple computers including the MacBook Neo, MacBook Air, MacBook Pro, iMac, Mac mini, and Mac Studio, which are supercharged by Apple silicon. These devices are marketed as thin, fast, powerful, and portable for demanding tasks, creativity, and productivity.",
+    "last_updated": "2026-10-20"
   },
   "scriptc": {
     "canonical_name": "scriptc",
@@ -13874,8 +13877,8 @@
   "homebrew": {
     "canonical_name": "Homebrew",
     "entity_type": "organization",
-    "summary": "Homebrew is a free and open-source software package management system that simplifies software installation on macOS and Linux. It is also described as a venture capital firm that invests in early-stage companies and supports founders through market strategy.",
-    "last_updated": "2026-07-29"
+    "summary": "Homebrew is a non-profit project run entirely by volunteers, not employees. It is a package manager that installs command-line tools and applications across macOS, Linux, and WSL.",
+    "last_updated": "2026-10-20"
   },
   "vinvai": {
     "canonical_name": "VinvAI",
@@ -22777,5 +22780,491 @@
     "entity_type": "product",
     "summary": "HarshpreetHand is a font created from handwritten college notes. The tool processes uploaded page photos to find each letter, which are then redrawn along the pen's path using a single steady ballpoint nib.",
     "last_updated": "2026-10-19"
+  },
+  "tywr": {
+    "canonical_name": "tywr",
+    "entity_type": "person",
+    "summary": "Tywr is a software developer who has contributed to multiple repositories including tywr/Nordwand-Mono, tywr/orbital-bass-engine, and tywr/tywr.github.io. Their projects include a compact monospace neo-grotesque font for developers, a free bass signal-chain standalone/plugin, a VST attempt to digiti",
+    "last_updated": "2026-10-20"
+  },
+  "gdpr": {
+    "canonical_name": "GDPR",
+    "entity_type": "regulation",
+    "summary": "Regulation (EU) 2016/679, the General Data Protection Regulation (GDPR), is an EU law with mandatory rules for how organizations and companies must use personal data. It protects individuals when their data is being processed by the private sector and most of the public sector.",
+    "last_updated": "2026-10-20"
+  },
+  "ccpa": {
+    "canonical_name": "CCPA",
+    "entity_type": "regulation",
+    "summary": "The California Consumer Privacy Act of 2018 (CCPA) is a law that gives consumers more control over the personal information that businesses collect about them. The CCPA regulations provide guidance on how to implement this law.",
+    "last_updated": "2026-10-20"
+  },
+  "minimax": {
+    "canonical_name": "MiniMax",
+    "entity_type": "company",
+    "summary": "MiniMax is a leading global technology company pioneering large language models (LLMs) in Asia. We develop proprietary multi-modal AI models including text, speech, music, images, and video (Hailuo). MiniMax is a global AI foundation model company. Founded in early 2022, we are committed to advancin",
+    "last_updated": "2026-10-20"
+  },
+  "minimax m31 flash": {
+    "canonical_name": "MiniMax M3.1 Flash",
+    "entity_type": "ai_model",
+    "summary": "1 day ago · Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%. Today, we officia",
+    "last_updated": "2026-10-20"
+  },
+  "m plan": {
+    "canonical_name": "M Plan",
+    "entity_type": "product",
+    "summary": "Since 1996, M-PLAN has championed healthy living. We offer top-notch products for your wellness and joy, while also opening doors to business opportunities to realize your dreams. Get In Touch Connect with us for further assistance. Privacy Policy Terms & Conditions English About Us Timeline Awards",
+    "last_updated": "2026-10-20"
+  },
+  "minimax code": {
+    "canonical_name": "MiniMax Code",
+    "entity_type": "product",
+    "summary": "MiniMax Code is a desktop AI Agent app that brings chat, project context, file operations, terminal sessions, browser previews, skills, memory, and automation into one local workspace. MiniMax Code is a desktop AI Agent app for software development, everyday workflows, automation, and remote collabo",
+    "last_updated": "2026-10-20"
+  },
+  "space bunny": {
+    "canonical_name": "Space Bunny 🐰",
+    "entity_type": "ai_model",
+    "summary": "Who is Space Bunny? 🐰🌕 Something's hopping onto Together AI 🔜⏳ 19 Oct 2026 04:49:40 See what’s happening and join the conversation A mysterious AI model called Space Bunny suddenly appeared on OpenRouter — and the results are absolutely wild. 🐰 In this Research Report, we investigate the Space Bunny",
+    "last_updated": "2026-10-20"
+  },
+  "vite": {
+    "canonical_name": "Vite+",
+    "entity_type": "product",
+    "summary": "Vite+ is a free, open-source tool under the MIT license that unifies the entire web development workflow into a single command-line interface. It manages runtime, package managers, and the frontend stack to keep development and CI fast while maintaining consistency across repositories.",
+    "last_updated": "2026-10-20"
+  },
+  "vitest": {
+    "canonical_name": "Vitest",
+    "entity_type": "product",
+    "summary": "Vitest is a fast, Vite-native testing framework designed to make testing work seamlessly for Vite apps. It is also compatible with Jest, supports backend code, and allows users to reuse Vite's config and plugins, though it is not required to use Vite to utilize the framework.",
+    "last_updated": "2026-10-20"
+  },
+  "prettier": {
+    "canonical_name": "Prettier",
+    "entity_type": "product",
+    "summary": "Prettier is an opinionated code formatter that supports many languages and integrates with most editors. It offers few configuration options to ensure consistent code formatting across development teams.",
+    "last_updated": "2026-10-20"
+  },
+  "tsdown": {
+    "canonical_name": "tsdown",
+    "entity_type": "product",
+    "summary": "tsdown is a library bundler designed for simplicity and speed, built on top of the Rust-based Rolldown bundler. It provides a complete, out-of-the-box solution for library authors, preconfiguring everything needed to generate declaration files and build libraries efficiently.",
+    "last_updated": "2026-10-20"
+  },
+  "ccadb": {
+    "canonical_name": "CCADB",
+    "entity_type": "organization",
+    "summary": "The Common CA Database (CCADB) is a repository of information about Certification Authorities (CAs) whose root and intermediate certificates are included within the products and services of several Root Store Operators. Root Store Operators use the CCADB to help manage these CAs in their root stores",
+    "last_updated": "2026-10-20"
+  },
+  "cve2026111943": {
+    "canonical_name": "CVE-2026-111943",
+    "entity_type": "event",
+    "summary": "7 hours ago · Timeline Highlight events First article Feedly found the first article mentioning CVE-2026-111943. See article Go’s certificate verification rejects (filters out) certificate chains that include a small set of distrusted intermediate certificates identified by specific SPKIs, preventin",
+    "last_updated": "2026-10-20"
+  },
+  "danfoss": {
+    "canonical_name": "Danfoss",
+    "entity_type": "company",
+    "summary": "Danfoss is a world-leading supplier of technologies for various industries and markets, holding market-leading positions in more than 100 countries. The company is known for its strong growth, high profitability, and massive investments in innovation and digitalization.",
+    "last_updated": "2026-10-20"
+  },
+  "intermarché": {
+    "canonical_name": "Intermarché",
+    "entity_type": "organization",
+    "summary": "Intermarché is the historical brand of the Groupement Mousquetaires, adopted in 1973, operating with 2,649 points of sale in France. It promotes a unique retail positioning of 'Producteurs & Commerçants' by controlling the entire supply chain from farm to table to offer healthy and accessible produc",
+    "last_updated": "2026-10-20"
+  },
+  "les mousquetaires": {
+    "canonical_name": "Les Mousquetaires",
+    "entity_type": "organization",
+    "summary": "Le Groupement Mousquetaires is a major player in European retail offering diverse business areas, career paths, and faster access to responsibilities. Its brands cover various everyday sectors, including food, DIY, and mobility, with a shared ambition of offering quality products and services at fai",
+    "last_updated": "2026-10-20"
+  },
+  "dominique schelcher": {
+    "canonical_name": "Dominique Schelcher",
+    "entity_type": "person",
+    "summary": "Dominique Schelcher has been at the helm of the Système U brand since 2018. His leadership shapes the cooperative functioning of the group, which also influences its wealth composition and income structure, operating under transparency standards that differ from listed companies in the French retail",
+    "last_updated": "2026-10-20"
+  },
+  "copeland": {
+    "canonical_name": "Copeland",
+    "entity_type": "company",
+    "summary": "Copeland is a global climate technologies company founded in 1921, specializing in energy-efficient compression technologies and controls solutions. It is a re-energized standalone company with a legacy of industry leadership, committed to protecting the planet through innovation.",
+    "last_updated": "2026-10-20"
+  },
+  "dixell": {
+    "canonical_name": "Dixell",
+    "entity_type": "company",
+    "summary": "Dixell technology is a leader in electronic regulation and control for refrigeration, air conditioning, heating, and retail, focusing on maximizing energy savings through technological innovation. As the global leader in sustainable heating, cooling, and refrigeration solutions, it helps customers r",
+    "last_updated": "2026-10-20"
+  },
+  "xweb": {
+    "canonical_name": "XWEB",
+    "entity_type": "product",
+    "summary": "XWEB EVO is a product designed for the retail environment, featuring a powerful hardware platform, Web technology architecture, and dedicated functions such as alarm management and high connectivity. It offers a user interface compatible with modern Web browsers, HD, touch-screens, and tablets, ensu",
+    "last_updated": "2026-10-20"
+  },
+  "james temple": {
+    "canonical_name": "James Temple",
+    "entity_type": "person",
+    "summary": "James Temple is a Chief Design Officer and Global Gen AI Creative Lead at Accenture Song, with over 25 years of experience leading creative, design, and technology teams. He is based in London and has previously served on the Advisory Board at Milo.",
+    "last_updated": "2026-10-20"
+  },
+  "xenergy": {
+    "canonical_name": "X-energy",
+    "entity_type": "company",
+    "summary": "X-energy is a leading developer of advanced nuclear energy technology that provides scalable and clean solutions to meet unprecedented electricity demand growth. The company's technology is based on decades of operational experience and research in high-temperature gas reactors and TRISO fuel to del",
+    "last_updated": "2026-10-20"
+  },
+  "richard feynman": {
+    "canonical_name": "Richard Feynman",
+    "entity_type": "person",
+    "summary": "Richard Feynman was an American theoretical physicist born in New York City in 1918 who grew up in Far Rockaway, Queens. He attended the Massachusetts Institute of Technology as an undergraduate and received his Ph.D. from Princeton University, and he was widely regarded as the most brilliant and in",
+    "last_updated": "2026-10-20"
+  },
+  "caltech": {
+    "canonical_name": "Caltech",
+    "entity_type": "organization",
+    "summary": "Caltech is an independent, privately supported science and engineering institution with a 124-acre campus in Pasadena, California. Its mission is to expand human knowledge and benefit society through research integrated with education, focusing on fundamental scientific questions and pressing societ",
+    "last_updated": "2026-10-20"
+  },
+  "american physical society": {
+    "canonical_name": "American Physical Society",
+    "entity_type": "organization",
+    "summary": "The American Physical Society (APS) is a nonprofit membership organization that represents more than 50,000 physicists in academia, national laboratories, and industry worldwide. It works to advance and diffuse the knowledge of physics through research journals, scientific meetings, and education, o",
+    "last_updated": "2026-10-20"
+  },
+  "encyclopædia britannica": {
+    "canonical_name": "Encyclopædia Britannica",
+    "entity_type": "product",
+    "summary": "Encyclopædia Britannica is a major English-language work of reference that has been published since 1768 and is currently owned by Encyclopædia Britannica, Inc. It features editorial offices in Chicago and thousands of contributors worldwide, with its 2010 version of the 15th edition spanning 32 vol",
+    "last_updated": "2026-10-20"
+  },
+  "blackwall": {
+    "canonical_name": "Blackwall",
+    "entity_type": "company",
+    "summary": "Blackwall is a security infrastructure company focused on protecting web ecosystems from automated threats, while optimizing performance, operational costs, and revenue for hosting environments. The company empowers Hosting Service Providers and site owners to create the best, most secure experience",
+    "last_updated": "2026-10-20"
+  },
+  "avp": {
+    "canonical_name": "AVP",
+    "entity_type": "organization",
+    "summary": "AVP empowers lesbian, gay, bisexual, transgender, queer, and HIV-affected communities and allies to end all forms of violence through organizing and education, and supports survivors through counseling and advocacy. The organization envisions a world in which all lesbian, gay, bisexual, transgender,",
+    "last_updated": "2026-10-20"
+  },
+  "dawn capital": {
+    "canonical_name": "Dawn Capital",
+    "entity_type": "organization",
+    "summary": "Dawn Capital is an investment firm that partners with businesses to help them evolve and grow in unique ways. The firm is described as an invaluable partner that brings huge value, insights, and a deep investment in the success of the companies it works with.",
+    "last_updated": "2026-10-20"
+  },
+  "mmc ventures": {
+    "canonical_name": "MMC Ventures",
+    "entity_type": "organization",
+    "summary": "MMC Ventures is a London-based venture capital firm that invests in technology companies at the Seed and Series A stages. The firm commits to a deep understanding of each company's underlying technology and business model to help make better decisions and be more effective partners in catalyzing the",
+    "last_updated": "2026-10-20"
+  },
+  "nikita rozenberg": {
+    "canonical_name": "Nikita Rozenberg",
+    "entity_type": "person",
+    "summary": "Nikita Rozenberg is the CEO/CBO and Co-founder at BotGuard. She attended Saint Petersburg State University. The material also mentions a Blackwall investment in which Nikita Rozenberg, Denis Prochko, and the team were involved.",
+    "last_updated": "2026-10-20"
+  },
+  "akamai": {
+    "canonical_name": "Akamai",
+    "entity_type": "company",
+    "summary": "Akamai is a cybersecurity, cloud computing, and content-delivery infrastructure company that has been solving the internet's toughest challenges for over 25 years. Founded in 1998 and publicly traded since 1999, it operates one of the world's largest and most distributed computing platforms with ser",
+    "last_updated": "2026-10-20"
+  },
+  "imperva": {
+    "canonical_name": "Imperva",
+    "entity_type": "company",
+    "summary": "Imperva is an analyst-recognized cybersecurity leader that champions the fight to secure data and applications wherever they reside. It is a leading provider of cybersecurity solutions that protect business-critical data and applications in the cloud and on-premises, focusing on securing web applica",
+    "last_updated": "2026-10-20"
+  },
+  "zomato": {
+    "canonical_name": "Zomato",
+    "entity_type": "company",
+    "summary": "Founded in 2008, Zomato began as a food search and discovery platform and has since grown into a comprehensive food-tech ecosystem in India. Following its IPO in 2021, the company expanded beyond food delivery to launch new businesses catering to India's evolving lifestyle needs.",
+    "last_updated": "2026-10-20"
+  },
+  "swiggy": {
+    "canonical_name": "Swiggy",
+    "entity_type": "company",
+    "summary": "Swiggy is a consumer-first company that pioneered the hyperlocal commerce industry in India, launching food delivery in 2014 and quick commerce in 2020. It aims to elevate the quality of life for urban consumers by offering unparalleled convenience through a unified app.",
+    "last_updated": "2026-10-20"
+  },
+  "ekart": {
+    "canonical_name": "Ekart",
+    "entity_type": "product",
+    "summary": "Ekart is India's largest logistics and supply chain company, providing end-to-end fulfillment services and delivering shipments across the country. Based in Bangalore, it is expanding its logistics services to brands, sellers, platforms, and consumers outside of the Flipkart Group.",
+    "last_updated": "2026-10-20"
+  },
+  "irene solaiman": {
+    "canonical_name": "Irene Solaiman",
+    "entity_type": "person",
+    "summary": "Irene Solaiman is an AI strategist, researcher, and policy expert. She serves as Chief Policy Officer and SVP of Strategy at Hugging Face, where she develops company strategy and manages geopolitical considerations.",
+    "last_updated": "2026-10-20"
+  },
+  "firmus": {
+    "canonical_name": "Firmus",
+    "entity_type": "company",
+    "summary": "Firmus Technologies Group is a global developer and operator that powers the green AI revolution, providing fit-for-purpose platforms and sovereign AI projects. Founded in 2019, the company designs systems for large-scale GPU deployments and focuses on strengthening regional energy systems through i",
+    "last_updated": "2026-10-20"
+  },
+  "aws annapurna labs": {
+    "canonical_name": "AWS Annapurna Labs",
+    "entity_type": "organization",
+    "summary": "AWS Annapurna Labs, an Amazon company since 2015, is a semiconductor company that designs and develops high-performance, custom-designed silicon for Amazon Web Services. Their innovations are critical to AWS's infrastructure and power a wide range of services.",
+    "last_updated": "2026-10-20"
+  },
+  "upstarts media": {
+    "canonical_name": "Upstarts Media",
+    "entity_type": "organization",
+    "summary": "Upstarts is a flagship newsletter founded in February 2025 by veteran tech reporter Alex Konrad. It serves as an independent voice for the startup ecosystem, focusing on emerging startups before they become widely known.",
+    "last_updated": "2026-10-20"
+  },
+  "luka": {
+    "canonical_name": "Luka",
+    "entity_type": "company",
+    "summary": "See insights on Luka including office locations, competitors, revenue, financials, executives, subsidiaries and more at Craft. We are an international company that successfully realises complex projects in the field of electrotechnical products and solutions. As a development partner for energy tech",
+    "last_updated": "2026-10-20"
+  },
+  "baseus": {
+    "canonical_name": "Baseus",
+    "entity_type": "company",
+    "summary": "Baseus is a Shenzhen-based consumer electronics brand founded in 2011 that focuses on practical, visually appealing products. It integrates design, research and development, production, and sales, and has earned over 140 design awards including IF and Red Dot recognitions.",
+    "last_updated": "2026-10-20"
+  },
+  "security primesentinel u2 pro outdoor 3k dual camera": {
+    "canonical_name": "Security PrimeSentinel U2 Pro Outdoor 3K Dual Camera",
+    "entity_type": "product",
+    "summary": "The Baseus U2 Pro is a security camera featuring a pair of 3K waterproof cameras and a bright spotlight. It is designed to track and follow moving targets, helping to deter intruders rather than just recording them.",
+    "last_updated": "2026-10-20"
+  },
+  "brad gerstner": {
+    "canonical_name": "Brad Gerstner",
+    "entity_type": "person",
+    "summary": "May 27, 2022 · Brad Gerstner is #21 on Forbes' 2026 The Midas List: Top Tech Investors list. Read more about Brad Gerstner, their experience, their asset summary, and more here. View Brad Gerstner’s profile on LinkedIn, a professional community of 1 billion members. Brad Gerstner Bradley Thomas Gers",
+    "last_updated": "2026-10-20"
+  },
+  "michael dell": {
+    "canonical_name": "Michael Dell",
+    "entity_type": "person",
+    "summary": "Michael Dell is chairman and chief executive officer of Dell Technologies, an innovator and technology leader providing the essential infrastructure for organizations to build their digital future, transform IT and protect their most important information. Michael Dell is chairman and chief executiv",
+    "last_updated": "2026-10-20"
+  },
+  "susan dell": {
+    "canonical_name": "Susan Dell",
+    "entity_type": "person",
+    "summary": "Susan Dell is the co-founder and chair of the Michael & Susan Dell Foundation, which was established in 1999 to accelerate opportunities for families and build pathways to change lives globally. For over 25 years, Susan has guided the foundation’s strategic priorities and rapid growth. Susan Dell is",
+    "last_updated": "2026-10-20"
+  },
+  "ray dalio": {
+    "canonical_name": "Ray Dalio",
+    "entity_type": "person",
+    "summary": "1 day ago · Ray Dalio is #62 on Forbes' 2026 Forbes 400 list. Read more about Ray Dalio, their experience, their asset summary, and more here. 4 days ago · Overview Dalio is the founder of Bridgewater Associates, a hedge fund firm that has about $102 billion in assets under management. The Westport,",
+    "last_updated": "2026-10-20"
+  },
+  "barbara dalio": {
+    "canonical_name": "Barbara Dalio",
+    "entity_type": "person",
+    "summary": "Barbara Dalio is the Founder of Dalio Education, and currently serves as its CEO. Dalio Education collaborates with public school educators, schools, non-profit organizations, and communities across Connecticut to advance positive outcomes for young people. Learn how Barbara Dalio, after volunteerin",
+    "last_updated": "2026-10-20"
+  },
+  "trump accounts": {
+    "canonical_name": "Trump Accounts",
+    "entity_type": "product",
+    "summary": "Jul 7, 2026 · Trump Accounts are a historic new savings tool created under the One Big Beautiful Bill to give children in America a real financial head start. The Working Families Tax Cuts allows parents, guardians and other authorized individuals to establish a new type of individual retirement acc",
+    "last_updated": "2026-10-20"
+  },
+  "environmental defense fund": {
+    "canonical_name": "Environmental Defense Fund",
+    "entity_type": "organization",
+    "summary": "The Environmental Defense Fund is a global environmental organization that develops solutions to major environmental issues such as climate change and air pollution. It is known for scientific research that contributed to the recovery of the bald eagle population and for work to protect children fro",
+    "last_updated": "2026-10-20"
+  },
+  "atlas public policy": {
+    "canonical_name": "Atlas Public Policy",
+    "entity_type": "organization",
+    "summary": "Atlas Public Policy develops dashboards and analytical tools to address policy questions, empowering decision-makers to serve the public interest. The organization provides data and builds analytical capacity for organizations tackling critical problems related to climate change and disinformation.",
+    "last_updated": "2026-10-20"
+  },
+  "matt mcgovren": {
+    "canonical_name": "Matt McGovren",
+    "entity_type": "person",
+    "summary": "Matt McGovren is the Co-Founder of Miles and is based out of New York. He previously worked at Amazon's Ring as a Director of Business Development, a role he held starting in April 2021 where he oversaw business strategies and partnerships to enhance the company's market presence.",
+    "last_updated": "2026-10-20"
+  },
+  "wf1000xm6": {
+    "canonical_name": "WF-1000XM6",
+    "entity_type": "product",
+    "summary": "The Sony WF-1000XM6 features the HD Noise Cancelling Processor QN3e, which is 3x faster than the processor used in the WF-1000XM5, delivering cleaner, richer audio. Co-created with mastering audio engineers, the earbuds provide next-generation noise cancellation, studio-level sound, and improved cal",
+    "last_updated": "2026-10-20"
+  },
+  "wf1000xm5": {
+    "canonical_name": "WF-1000XM5",
+    "entity_type": "product",
+    "summary": "The Sony WF-1000XM5 are premium truly wireless noise canceling earbuds that combine the HD Noise Cancelling Processor QN2e and Integrated Processor V2 with Multi Noise Sensor technology. They utilize dual processors, three microphones per earbud, a new Dynamic Driver X, and innovative Noise Isolatio",
+    "last_updated": "2026-10-20"
+  },
+  "greg joswiak": {
+    "canonical_name": "Greg Joswiak",
+    "entity_type": "person",
+    "summary": "Greg \"Joz\" Joswiak is Apple's senior vice president of Worldwide Marketing, reporting to CEO John Ternus. He has been with Apple since 1986 and played a pivotal role in developing and launching consumer products like the original iPod and iPhone. He began his career at Apple working on early Macinto",
+    "last_updated": "2026-10-20"
+  },
+  "marble hill nuclear power plant": {
+    "canonical_name": "Marble Hill Nuclear Power Plant",
+    "entity_type": "product",
+    "summary": "Marble Hill was an unfinished nuclear power plant located in Saluda Township, Jefferson County, Indiana, developed by the Public Service Company of Indiana (PSI). The project was cancelled in 1984 after $2.5 billion had been spent, following significant environmental controversies and sustained loca",
+    "last_updated": "2026-10-20"
+  },
+  "japan aerospace exploration agency jaxa": {
+    "canonical_name": "Japan Aerospace Exploration Agency (JAXA)",
+    "entity_type": "organization",
+    "summary": "2 days ago · The Japan Aerospace Exploration Agency (JAXA) performs various activities related to aerospace as an organization, from basic research in the aerospace field to development and utilization. This is where you can find reports and information about JAXA missions based on your area such as",
+    "last_updated": "2026-10-20"
+  },
+  "mmx": {
+    "canonical_name": "MMX",
+    "entity_type": "mission",
+    "summary": "The MMX mission aims to develop technology that will pave the way for the next generation of space exploration, including round-trip travel to the Martian sphere, landing and operations on the surface of a celestial body, advanced sampling capabilities, and long-distance communication. The unexplore",
+    "last_updated": "2026-10-20"
+  },
+  "phobos": {
+    "canonical_name": "Phobos",
+    "entity_type": "planet",
+    "summary": "Nov 3, 2024 · It orbits Mars three times a day, and is so close to the planet's surface that in some locations on Mars it cannot always be seen. Phobos was nearly shattered by a giant impact, and has gouges from thousands of meteorite impacts. Phobos is the larger of Mars' two moons. It orbits Mars",
+    "last_updated": "2026-10-20"
+  },
+  "mars": {
+    "canonical_name": "Mars",
+    "entity_type": "planet",
+    "summary": "6 days ago · The fourth planet from the Sun, Mars is one of Earth's two closest planetary neighbors (Venus is the other). Mars is one of the easiest planets to spot in the night sky — it looks like a bright red point of light. Mars is the fourth planet from the Sun, and the seventh largest. It’s the",
+    "last_updated": "2026-10-20"
+  },
+  "hiroshi yamakawa": {
+    "canonical_name": "Hiroshi Yamakawa",
+    "entity_type": "person",
+    "summary": "President Japan Aerospace Exploration Agency Hiroshi Yamakawa was born in Geneva, Switzerland in 1965. He received master’s degree of engineering in 1990 and earned Ph. D from the Department of Aeronautics, School of Engineering in 1993 both from the University of Tokyo. Hiroshi Yamakawa was born in",
+    "last_updated": "2026-10-20"
+  },
+  "yasuhiro kawakatsu": {
+    "canonical_name": "Yasuhiro Kawakatsu",
+    "entity_type": "person",
+    "summary": "This paper presents the nominal trajectories and an overview of the mission analysis work and approaches. EQUULEUS trajectory exploits the Earth -Sun -Moon dynamics to capture the spacecraft into... Yasuhiro Kawakatsu graduated the doctor course of the University of Tokyo, department of aeronautics",
+    "last_updated": "2026-10-20"
+  },
+  "yoshihiro seki": {
+    "canonical_name": "Yoshihiro Seki",
+    "entity_type": "person",
+    "summary": "Read the full biography of Yoshihiro Seki, including facts, birthday, life story, profession, family and more. Yoshihiro Seki is a Japanese politician serving in the House of Representatives in the Diet as a member of the Liberal Democratic Party. A native of Komatsushima, Tokushima and graduate of",
+    "last_updated": "2026-10-20"
+  },
+  "h3": {
+    "canonical_name": "H3",
+    "entity_type": "product",
+    "summary": "H3C's sub-brand for the SMB market, delivers products and services that are easy to deploy, manage, and use, powered by intelligent connectivity and AI technology. Login Welcome user New H3C 退出 English Country / Region Contact our sales team for assistance Locate our nearest offices Find certified p",
+    "last_updated": "2026-10-20"
+  },
+  "cobol": {
+    "canonical_name": "COBOL",
+    "entity_type": "technology",
+    "summary": "COBOL is a high-level programming language developed in 1959 by CODASYL for business data processing. It must be converted into machine code using a compiler, which checks for syntax errors before translating the code into a binary stream that computers can execute.",
+    "last_updated": "2026-10-20"
+  },
+  "fortran": {
+    "canonical_name": "Fortran",
+    "entity_type": "technology",
+    "summary": "Fortran, derived from Formula Translating System, is a general-purpose, imperative programming language used for numeric and scientific computing. It was originally developed by IBM in the 1950s for scientific and engineering applications.",
+    "last_updated": "2026-10-20"
+  },
+  "visual basic": {
+    "canonical_name": "Visual Basic",
+    "entity_type": "technology",
+    "summary": "Visual Basic is an object-oriented programming language developed by Microsoft for the Microsoft .NET Framework. It is designed to be an approachable and easy-to-learn high-level language that makes it fast and easy to create type-safe .NET applications.",
+    "last_updated": "2026-10-20"
+  },
+  "dialogflow cx": {
+    "canonical_name": "Dialogflow CX",
+    "entity_type": "product",
+    "summary": "Dialogflow CX is a natural language understanding platform built on generative models that allows users to design and integrate conversational user interfaces. It can control conversations and analyze multiple types of input, including text or audio, for mobile apps, web applications, devices, bots,",
+    "last_updated": "2026-10-20"
+  },
+  "jambonz": {
+    "canonical_name": "jambonz",
+    "entity_type": "company",
+    "summary": "Jambonz is a company built by telecom veterans to provide infrastructure for voice AI teams. Their mission is to empower the next generation of voice AI platforms by offering full deployment freedom, AI choice, and predictable scale without black boxes or per-minute surprises.",
+    "last_updated": "2026-10-20"
+  },
+  "pipecat": {
+    "canonical_name": "Pipecat",
+    "entity_type": "technology",
+    "summary": "Pipecat is an open-source Python framework for building voice and multimodal AI agents. It orchestrates AI services, network transports, and audio processing to enable ultra-low latency conversations that feel natural and responsive.",
+    "last_updated": "2026-10-20"
+  },
+  "memtensor": {
+    "canonical_name": "MemTensor",
+    "entity_type": "organization",
+    "summary": "MemTensor is a technology company developing a memory operating system called MemOS, designed to provide long-term, persistent memory for Large Language Models and AI agents. The company was co-founded by CEO Feiyu Xiong and secured a Pre-A+ financing round led by Oriental Fortune Capital in 2026.",
+    "last_updated": "2026-10-20"
+  },
+  "bifrost": {
+    "canonical_name": "Bifrost",
+    "entity_type": "product",
+    "summary": "Bifrost is a high-performance AI gateway designed to deliver powerful insights with vast therapeutic implications. It supports a wide range of AI providers through a consistent OpenAI-compatible interface, allowing users to switch between providers without modifying their application code.",
+    "last_updated": "2026-10-20"
+  },
+  "scrawl": {
+    "canonical_name": "scrawl",
+    "entity_type": "product",
+    "summary": "Scrawl is described as a free, open-source, local-first visual canvas for diagrams, whiteboards, sketches, and visual thinking. It is also mentioned as an adult drawing game where players sketch a phrase and pass it on to watch how it goes horribly wrong.",
+    "last_updated": "2026-10-20"
+  },
+  "macos": {
+    "canonical_name": "macOS",
+    "entity_type": "product",
+    "summary": "macOS is a Unix-based operating system developed by Apple Inc. that powers Macintosh computers. It is known for its reliability, security, and user-friendly interface, and it offers seamless integration with other Apple devices alongside a wide range of built-in applications for productivity, commun",
+    "last_updated": "2026-10-20"
+  },
+  "sparkle": {
+    "canonical_name": "Sparkle",
+    "entity_type": "technology",
+    "summary": "The provided material did not contain a usable overview for Sparkle.",
+    "last_updated": "2026-10-20"
+  },
+  "alextnetto": {
+    "canonical_name": "alextnetto",
+    "entity_type": "person",
+    "summary": "Alex Netto is the founder and CEO of blockful, which focuses on Ethereum governance and access-control security. He is a 20-year-old developer and math enthusiast from Brazil who is actively studying machine learning, data science, and blockchain.",
+    "last_updated": "2026-10-20"
+  },
+  "res": {
+    "canonical_name": "RES",
+    "entity_type": "product",
+    "summary": "RES operates in over 24 countries, delivering services across the full renewable energy project lifecycle. Explore countries where we have dedicated local content and learn more about our teams and operations. Our passionate and experienced people deliver successful clean energy projects globally. W",
+    "last_updated": "2026-10-20"
+  },
+  "paulmil11": {
+    "canonical_name": "paulmil11",
+    "entity_type": "person",
+    "summary": "paulmil11 is a GitHub user known for developing projects such as a self-hosted Instagram comment auto-DM starter and agent-first slide decks. The user's profile also lists various skills and strategies, including strategy consulting methodologies and community migration toolkits.",
+    "last_updated": "2026-10-20"
+  },
+  "decks": {
+    "canonical_name": "Decks",
+    "entity_type": "product",
+    "summary": "Decks are outdoor structures designed to match personal preferences and outdoor space usage. Products like TimberTech Decking offer real wood aesthetics with low maintenance, resisting moisture, mold, and insect damage while featuring a high recycled content percentage.",
+    "last_updated": "2026-10-20"
+  },
+  "themachine": {
+    "canonical_name": "the-machine",
+    "entity_type": "product",
+    "summary": "The Machine is an artificial superintelligence built by Harold Finch and Nathan Ingram for a secret U.S. government operation called Northern Lights. It analyzes and predicts human behavior to foresee future crimes and terrorist attacks.",
+    "last_updated": "2026-10-20"
   }
 }

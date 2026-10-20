@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-19T08:10:31.871312+00:00",
-  "total": 2940,
+  "generated": "2026-10-20T08:10:07.100338+00:00",
+  "total": 2977,
   "categories": {
-    "general": 1673,
-    "repo_analysis": 546,
-    "acquisition": 77,
-    "ban_regulation": 275,
-    "model_release": 369
+    "repo_analysis": 555,
+    "general": 1693,
+    "model_release": 375,
+    "ban_regulation": 277,
+    "acquisition": 77
   },
   "shards": [
     {
       "month": "2026-10",
       "file": "2026-10.json",
-      "count": 523
+      "count": 560
     },
     {
       "month": "2026-09",
