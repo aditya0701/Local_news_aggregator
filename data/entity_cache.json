@@ -1889,8 +1889,8 @@
   "openai": {
     "canonical_name": "OpenAI",
     "entity_type": "company",
-    "summary": "OpenAI is an AI research and deployment company structured with a nonprofit OpenAI Foundation and a for-profit OpenAI Group operating as a public benefit corporation. Its mission is to ensure that artificial general intelligence benefits all of humanity.",
-    "last_updated": "2026-09-06"
+    "summary": "OpenAI is an AI research and deployment company composed of a nonprofit Foundation and a for-profit Group that operates as a public benefit corporation. The Foundation governs the Group, and together they work to advance the mission of ensuring that artificial general intelligence benefits all of hu",
+    "last_updated": "2026-10-21"
   },
   "groq": {
     "canonical_name": "Groq",
@@ -3113,8 +3113,8 @@
   "financial times": {
     "canonical_name": "Financial Times",
     "entity_type": "organization",
-    "summary": "The Financial Times is a news organization that reduced application review time by 80% with Jotform Enterprise. It also covers tech news, such as the NHTSA's plans to ease rules for autonomous vehicles, which were championed by Musk.",
-    "last_updated": "2026-07-06"
+    "summary": "The FT Group employs more than 2,900 people worldwide, including 700 journalists in 40 countries. It includes the Financial Times, FT Specialist, and a number of services and joint ventures. The group provides essential news and analysis to ambitious individuals and companies around the world, along",
+    "last_updated": "2026-10-21"
   },
   "finland": {
     "canonical_name": "Finland",
@@ -6320,8 +6320,8 @@
   "fbi": {
     "canonical_name": "FBI",
     "entity_type": "organization",
-    "summary": "The FBI was first established on July 26, 1908, and was initially named the Bureau of Investigation. It is the largest 1811 agency in the United States with National Security, Counterterrorism & Major Fraud responsibilities and is the largest 1811 special agent agency.",
-    "last_updated": "2026-07-12"
+    "summary": "The FBI is a federal agency with a structure that includes a Director confirmed by the Senate, a Deputy Director, five headquarters branches, 56 field offices, roughly 350 resident agencies, and 63 international posts. It maintains a workforce of about 33,000 people and is unique in its dual role as",
+    "last_updated": "2026-10-21"
   },
   "intelligence community": {
     "canonical_name": "intelligence community",
@@ -6985,9 +6985,9 @@
   },
   "9to5google": {
     "canonical_name": "9to5Google",
-    "entity_type": "company",
-    "summary": "9to5Google is a technology news site that chronicles new developments and explains their significance. It is committed to covering Google's impact on Search, Assistant, Android, Chrome, Pixel, and Nest hardware, and aims to be a top influencer in the tech community.",
-    "last_updated": "2026-07-14"
+    "entity_type": "organization",
+    "summary": "9to5Google is a technology news organization focused on chronicling what is new and explaining why it matters regarding Google's products and services. It is part of the 9to5 Network, which strives to be a top influencer in the technology community by breaking exclusive news and delivering digestibl",
+    "last_updated": "2026-10-21"
   },
   "emma roth": {
     "canonical_name": "Emma Roth",
@@ -23266,5 +23266,233 @@
     "entity_type": "product",
     "summary": "The Machine is an artificial superintelligence built by Harold Finch and Nathan Ingram for a secret U.S. government operation called Northern Lights. It analyzes and predicts human behavior to foresee future crimes and terrorist attacks.",
     "last_updated": "2026-10-20"
+  },
+  "permit pending": {
+    "canonical_name": "Permit Pending",
+    "entity_type": "product",
+    "summary": "An EAD work permit pending status means that an applicant has submitted an Employment Authorization Document but is waiting for USCIS to make a decision on their employment authorization. This pending status affects an individual's immigration timeline and can create uncertainty regarding when they",
+    "last_updated": "2026-10-21"
+  },
+  "shinyhunters": {
+    "canonical_name": "ShinyHunters",
+    "entity_type": "organization",
+    "summary": "ShinyHunters is a data-theft and extortion collective that has operated under that name since spring 2020, with some analysts suggesting it has been active since at least 2019. It steals data from SaaS, cloud, and enterprise applications using methods like voice phishing, stolen OAuth tokens, and co",
+    "last_updated": "2026-10-21"
+  },
+  "rey": {
+    "canonical_name": "Rey",
+    "entity_type": "person",
+    "summary": "Rey Skywalker, known simply as Rey during the First Order-Resistance War, is a human female Jedi Master who fought on the side of the Resistance. A former scavenger from the planet Jakku, she discovered her connection to the Force through her interactions with the droid BB-8 and subsequently sought",
+    "last_updated": "2026-10-21"
+  },
+  "pepijn van der stap": {
+    "canonical_name": "Pepijn van der Stap",
+    "entity_type": "person",
+    "summary": "Pepijn van der Stap is a security researcher who enriches Nuclei JSON output with ripeSTAT/WHOIS contact information to streamline responsible disclosure. He advocates for understanding offensive techniques to build stronger defenses, a philosophy shaped by his experiences on both sides of the secur",
+    "last_updated": "2026-10-21"
+  },
+  "krebsonsecurity": {
+    "canonical_name": "KrebsOnSecurity",
+    "entity_type": "organization",
+    "summary": "KrebsOnSecurity is an independent, investigative cybersecurity news site headquartered in the United States with a global readership. Launched in late 2009 by former Washington Post reporter Brian Krebs, it provides in-depth coverage of cybersecurity threats, cybercrime, and related topics.",
+    "last_updated": "2026-10-21"
+  },
+  "quanta magazine": {
+    "canonical_name": "Quanta Magazine",
+    "entity_type": "organization",
+    "summary": "Quanta Magazine is an editorially independent online publication launched by the Simons Foundation in 2012 to enhance public understanding of science. Its reporters focus on developments in mathematics, theoretical physics, theoretical computer science, and the basic life sciences.",
+    "last_updated": "2026-10-21"
+  },
+  "perimeter institute for theoretical physics": {
+    "canonical_name": "Perimeter Institute for Theoretical Physics",
+    "entity_type": "organization",
+    "summary": "Perimeter Institute is a world-leading center for theoretical physics, dedicated to unraveling the deepest mysteries of the universe. It serves as a global hub where scientists explore fundamental questions about space, time, and the universe through groundbreaking research and innovative training p",
+    "last_updated": "2026-10-21"
+  },
+  "webrtc": {
+    "canonical_name": "WebRTC",
+    "entity_type": "protocol",
+    "summary": "WebRTC is an open standard that allows developers to add real-time communication capabilities to their applications. It supports video, voice, and generic data to be sent directly between peers.",
+    "last_updated": "2026-10-21"
+  },
+  "epfl": {
+    "canonical_name": "EPFL",
+    "entity_type": "organization",
+    "summary": "EPFL is structured as a Direction, Schools, Colleges, an EPFL Assembly, a Council of EPFL Teachers, Centers and Central Services. The institution collaborates with a broad network of partners, including other universities, secondary schools, industry, politicians, and the general public.",
+    "last_updated": "2026-10-21"
+  },
+  "faav": {
+    "canonical_name": "FAAV",
+    "entity_type": "product",
+    "summary": "KOWOV manufactures the FAAV ceramic A valve, a fully ceramic-lined, hard-sealed shutoff valve for duties where scaling, blockage or downstream erosion is a concern. KOWOV manufactures the FAAV ceramic A valve, a fully ceramic-lined, hard-sealed shutoff valve for duties where scaling, blockage or dow",
+    "last_updated": "2026-10-21"
+  },
+  "johannes lachner": {
+    "canonical_name": "Johannes Lachner",
+    "entity_type": "person",
+    "summary": "In addition to his research, Johannes is a Lab Professor for “2.671, Measurement and Instrumentation,” one of MIT MechE’s flagship undergraduate courses. Before MIT, Johannes spent nine years at KUKA, where he led research in physical Human-Robot Interaction. Johannes is a postdoctoral researcher in",
+    "last_updated": "2026-10-21"
+  },
+  "noah geiger": {
+    "canonical_name": "Noah Geiger",
+    "entity_type": "person",
+    "summary": "653 Followers, 4,170 Following, 141 Posts - Noah Geiger (@ngeiger) on Instagram: \"\" Noah Geiger - Waubonsee Community College - gochiefs.com ... Noah Geiger View the profiles of professionals named \"Noah Geiger\" on LinkedIn. There are 20+ professionals named \"Noah Geiger\", who use LinkedIn to exchan",
+    "last_updated": "2026-10-21"
+  },
+  "us commerce department": {
+    "canonical_name": "U.S. Commerce Department",
+    "entity_type": "organization",
+    "summary": "The U.S. Commerce Department administers critical programs through its 12 bureaus and nearly 47,000 employees located across all 50 states, territories, and more than 86 countries. Its mission is to create the conditions for economic growth and opportunity by promoting job creation, economic growth,",
+    "last_updated": "2026-10-21"
+  },
+  "joe gebbia": {
+    "canonical_name": "Joe Gebbia",
+    "entity_type": "person",
+    "summary": "Joe Gebbia is the co-founder of Airbnb and Samara, a company that develops prefabricated homes. He is an entrepreneur obsessed with igniting new ideas and previously double majored in graphic design and industrial design.",
+    "last_updated": "2026-10-21"
+  },
+  "jack hartung": {
+    "canonical_name": "Jack Hartung",
+    "entity_type": "person",
+    "summary": "Jack Hartung is a senior advisor at Chipotle Mexican Grill, Inc., and a member of the Board since June 2025. He most recently served as President and Chief Strategy Officer of Chipotle and has extensive experience in executive leadership, financial oversight, and business transformation.",
+    "last_updated": "2026-10-21"
+  },
+  "james murdoch": {
+    "canonical_name": "James Murdoch",
+    "entity_type": "person",
+    "summary": "James Murdoch is a former CEO of 21st Century Fox and a senior executive within the Murdoch family media empire. He has since pivoted to independent investing and entrepreneurship through his family investment firm, Lupa Systems.",
+    "last_updated": "2026-10-21"
+  },
+  "donald harrison": {
+    "canonical_name": "Donald Harrison",
+    "entity_type": "person",
+    "summary": "Donald Harrison is a Managing Partner at Gradient Ventures and the President of Global Partnerships and Corporate Development at Google. He is known for his expertise in artificial intelligence, enterprise software, and guiding startups from inception to growth.",
+    "last_updated": "2026-10-21"
+  },
+  "steve jurvetson": {
+    "canonical_name": "Steve Jurvetson",
+    "entity_type": "person",
+    "summary": "Steve Jurvetson is an early-stage venture capitalist with a focus on founder-led, mission-driven companies. He led founding investments in several companies that had successful IPOs and others that were billion-dollar acquisitions, including Planet Labs, SpaceX, and Tesla.",
+    "last_updated": "2026-10-21"
+  },
+  "luke nosek": {
+    "canonical_name": "Luke Nosek",
+    "entity_type": "person",
+    "summary": "Luke Nosek is a seminal figure in Silicon Valley, renowned as a co-founder of PayPal and a visionary venture capitalist. He is the Co-Founder and Partner at Gigafund and has had 6 past jobs including Co-founder, VP, Bus Dev, Marketing, and Strategy at PayPal.",
+    "last_updated": "2026-10-21"
+  },
+  "gwynne shotwell": {
+    "canonical_name": "Gwynne Shotwell",
+    "entity_type": "person",
+    "summary": "Gwynne Shotwell is an American aerospace executive who has served as president and chief operating officer of SpaceX since 2008. She is recognized for the operational leadership that turned SpaceX from a startup into the world's leading commercial space company.",
+    "last_updated": "2026-10-21"
+  },
+  "moderna": {
+    "canonical_name": "Moderna",
+    "entity_type": "company",
+    "summary": "Oct 10, 2026 · Moderna, Inc. is a biotechnology company specializing in messenger RNA (mRNA) medicines and is known for developing one of the first COVID-19 vaccines authorized for emergency use. See the company profile for Moderna, Inc. (MRNA) including business summary, industry/sector information",
+    "last_updated": "2026-10-21"
+  },
+  "google builtin": {
+    "canonical_name": "Google Built-in",
+    "entity_type": "product",
+    "summary": "Cars with Google built-in run Google services natively on the vehicle's infotainment system. This means Google Maps, Google Play, Google Assistant, compatible media apps, and selected vehicle controls are available without starting with an Android phone, and on eligible vehicles, Gemini and EV-aware",
+    "last_updated": "2026-10-21"
+  },
+  "chevrolet corvette eray": {
+    "canonical_name": "Chevrolet Corvette E-Ray",
+    "entity_type": "product",
+    "summary": "The 2026 Chevrolet Corvette E-Ray is a coupe and convertible that combines a powerful V-8 engine with an electric motor to deliver enhanced performance and drivability. Its specifications, pricing, and features are covered in the 2026 review, which also notes the vehicle's testing performance on the",
+    "last_updated": "2026-10-21"
+  },
+  "chevrolet silverado ev": {
+    "canonical_name": "Chevrolet Silverado EV",
+    "entity_type": "product",
+    "summary": "The 2027 Chevrolet Silverado EV is an electric truck designed to deliver exceptional range, capability, and innovative technology for various journeys. The 2026 review of the Silverado EV covers its performance, pricing, and features, highlighting its all-wheel-drive system that provides enhanced ha",
+    "last_updated": "2026-10-21"
+  },
+  "ann altman": {
+    "canonical_name": "Ann Altman",
+    "entity_type": "person",
+    "summary": "Ann Altman is the sister of OpenAI CEO Sam Altman. She is the plaintiff in a lawsuit filed in Missouri district court in 2025, in which she alleges that her brother abused her when she was between the ages of 3 and 12.",
+    "last_updated": "2026-10-21"
+  },
+  "jefferies": {
+    "canonical_name": "Jefferies",
+    "entity_type": "company",
+    "summary": "Jefferies is defined by its partnership culture, the depth of insight it delivers to clients, and its flat entrepreneurial structure. The firm operates with a nimble, entrepreneurial structure and culture relentlessly focused on delivering for its clients. It forges deep client partnerships built on",
+    "last_updated": "2026-10-21"
+  },
+  "imogen heap": {
+    "canonical_name": "Imogen Heap",
+    "entity_type": "person",
+    "summary": "Imogen Heap is a British singer-songwriter from the London Borough of Havering who began playing music at an early age. She became classically trained in several instruments, including piano, cello, and clarinet, by the age of 13, and later composed music for her first album, 'iMegaphone,' released",
+    "last_updated": "2026-10-21"
+  },
+  "jimmy butler": {
+    "canonical_name": "Jimmy Butler",
+    "entity_type": "person",
+    "summary": "Jimmy Butler is an American professional basketball player born in Houston in September 1989, known for his hard-nosed intensity and standout postseason performances. Also nicknamed 'Jimmy Buckets' and 'Playoff Jimmy,' he led the Miami Heat to two NBA Finals appearances in 2020 and 2023.",
+    "last_updated": "2026-10-21"
+  },
+  "super intelligence": {
+    "canonical_name": "Super Intelligence",
+    "entity_type": "product",
+    "summary": "NIST’s super intelligence efforts focus on driving research and development, testing and evaluation, development of guidelines and standards, and implementation and application of best practices. As per the Sept. 29, 2026, Executive Order 14434, NIST is working to update its communications to incorp",
+    "last_updated": "2026-10-21"
+  },
+  "vo2 max": {
+    "canonical_name": "VO2 Max",
+    "entity_type": "product",
+    "summary": "VO2 max equipment ranges from $50,000+ stationary clinical metabolic carts to $400 consumer smartwatches that claim to measure the same metric. The landscape is confusing because these devices do not actually measure the same thing, with some providing direct measurements and others providing estima",
+    "last_updated": "2026-10-21"
+  },
+  "oura ring gen 3": {
+    "canonical_name": "Oura Ring Gen 3",
+    "entity_type": "product",
+    "summary": "The Oura Ring Generation 3 is a highly accurate wearable device that has recently received hardware and software updates. It is positioned at the intersection of advanced wearables and comprehensive health tracking, with detailed reviews examining its validation data and subscription model.",
+    "last_updated": "2026-10-21"
+  },
+  "ted taylor": {
+    "canonical_name": "Ted Taylor",
+    "entity_type": "person",
+    "summary": "Ted Taylor was born in 1925 in Mexico City, Mexico, and served on active duty in the United States Navy from 1943 to 1946. He earned a bachelor’s degree from the California Institute of Technology in 1945, a master’s degree from the University of California, Berkeley, and a Ph.D. in theoretical phys",
+    "last_updated": "2026-10-21"
+  },
+  "terminal x": {
+    "canonical_name": "Terminal X",
+    "entity_type": "company",
+    "summary": "View Terminal X (www.theterminalx.com) location in New York, United States , revenue, industry and description. Find related and similar companies as well as employees by title and much more. Terminal X is an e-commerce platform offering real-time fashion products and accessories from brands all ove",
+    "last_updated": "2026-10-21"
+  },
+  "kahoot tools": {
+    "canonical_name": "Kahoot Tools",
+    "entity_type": "product",
+    "summary": "Kahoot! is an educational platform that allows users to create learning games in minutes from scratch, templates, or a bank of existing questions. It supports live and virtual hosting through video conferencing tools and provides distance learning features, game reports, and access to over 100 milli",
+    "last_updated": "2026-10-21"
+  },
+  "mediafire": {
+    "canonical_name": "MediaFire",
+    "entity_type": "organization",
+    "summary": "MediaFire is a file hosting, synchronization, and cloud storage company based in Texas, founded in 2006. It provides a complete digital management solution for individuals, offering client software for various operating systems and serving over 150 million users monthly.",
+    "last_updated": "2026-10-21"
+  },
+  "touri": {
+    "canonical_name": "touri",
+    "entity_type": "product",
+    "summary": "Oct 4, 2026 · Our brand guide is designed to provide up-to-date & unbiased information about Touri products. Our goal is to empower you with data-driven insights, enabling you to make better shopping decisions efficiently to save time. Touri has carved a niche by offering solutions that address comm",
+    "last_updated": "2026-10-21"
+  },
+  "tauri": {
+    "canonical_name": "Tauri",
+    "entity_type": "technology",
+    "summary": "Tauri is a framework for building tiny, fast binaries for all major desktop and mobile platforms. Developers can integrate any frontend framework that compiles to HTML, JavaScript, and CSS for building their user experience while leveraging languages such as Rust, Swift, and Kotlin for backend logic",
+    "last_updated": "2026-10-21"
+  },
+  "agentmemory": {
+    "canonical_name": "AgentMemory",
+    "entity_type": "product",
+    "summary": "AgentMemory is a persistent memory solution designed for AI coding agents, allowing them to remember information without requiring re-explanation. It is built on the iii engine and supports a wide range of clients including Claude Code, GitHub Copilot CLI, Cursor, and Gemini CLI. The product is avai",
+    "last_updated": "2026-10-21"
   }
 }
