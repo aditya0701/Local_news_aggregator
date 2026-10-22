@@ -1,5 +1,515 @@
 [
   {
+    "id": "2c1d6d14bfd1",
+    "title": "OpenAI CLI: अपने टर्मिनल से सीधे OpenAI API का उपयोग करने का नया तरीका",
+    "summary": "OpenAI ने अपने API के साथ काम करने वाले डेवलपर्स के लिए एक नया और आधिकारिक कमांड-लाइन टूल, OpenAI CLI, जारी किया है। यह टूल उपयोगकर्ताओं को सीधे शेल वातावरण से ही OpenAI की विभिन्न सेवाओं, जैसे कि टेक्स्ट जनरेशन, इमेज प्रोसेसिंग और स्पीच रिकग्निशन, का उपयोग करने की अनुमति देता है। यह एक ओपन-सोर्स प्रोजेक्ट है जिसे…",
+    "category": "model_release",
+    "tags": [
+      "OpenAI",
+      "openai/openai-cli",
+      "Go"
+    ],
+    "image": "https://opengraph.githubassets.com/73c5c7ce73d5174e0cee35796f4f749bc4cdb5ea6af4a70447b770adfa0ede1d/openai/openai-cli",
+    "source": "synthesized",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "9c3fe8f01f4a",
+    "title": "GitLab ने जारी किया महत्वपूर्ण सुरक्षा पैच",
+    "summary": "21 अक्टूबर 2026 को, GitLab ने एक महत्वपूर्ण सुरक्षा अपडेट जारी किया है। कंपनी ने Community Edition (CE) और Enterprise Edition (EE) दोनों के लिए कई पैच संस्करण (19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10, 18.11.13) जारी किए हैं। इस अपडेट का मुख्य उद्देश्य एक गंभीर सुरक्षा खामी को ठीक करना है, जो सर्वर पर अनधिकृत…",
+    "category": "model_release",
+    "tags": [
+      "GitLab",
+      "GitLab Community Edition"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "871d740e46f9",
+    "title": "PyPI पर Compromised LiteLLM 1.107.0 ने Credential Stealer और Backdoor इंस्टॉल किया",
+    "summary": "टेकदृष्टि की नवीनतम रिपोर्ट के अनुसार, LiteLLM 1.107.0 के PyPI रिलीज़ में एक गंभीर सुरक्षा खामी पाई गई है। यह पैकेज, जिसका उपयोग डेवलपर्स द्वारा 100 से अधिक AI मॉडल एंडपॉइंट्स तक पहुंचने के लिए किया जाता है, अब एक दुर्भावनापूर्ण (malicious) संस्करण के रूप में पहचाना गया है। PyPI ने इस रिलीज़ को 21 अक्टूबर 2026 को…",
+    "category": "repo_analysis",
+    "tags": [
+      "LiteLLM",
+      "PyPI",
+      "Docker Hub"
+    ],
+    "image": "https://safedep.io/images/litellm-pypi-compromise-credential-stealer-backdoor-banner.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5699ea0146a9",
+    "title": "रेलवे प्लेटफॉर्म पर सुरक्षा उल्लंघन: एन्क्रिप्टेड सीक्रेट्स तक संभावित अनधिकृत पहुंच",
+    "summary": "आज सुबह रेलवे ने अपने सिस्टम में संदिग्ध गतिविधि का पता लगाया। कंपनी के अनुसार, उनके उन सिस्टम में असामान्य गतिविधि देखी गई जो ग्राहकों के पर्यावरण चर (environment variables) को स्टोर करते हैं। इस जांच के बाद यह संकेत मिला है कि एक अनधिकृत तीसरे पक्ष ने एन्क्रिप्टेड पर्यावरण चर तक पहुंच बनाई होगी और कुछ मामलों में,…",
+    "category": "general",
+    "tags": [
+      "Railway",
+      "AI inference providers"
+    ],
+    "image": "https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0ef7b7288d26",
+    "title": "एलएलएम (LLM) द्वारा कॉन्फिडेंस स्कोरिंग: एक तकनीकी भ्रम",
+    "summary": "वर्तमान समय में एलएलएम-आधारित एजेंट (LLM-based agents) कोड लिखने और पेपर संक्षेप करने जैसे जटिल कार्यों को आसानी से कर सकते हैं। जब उनसे किसी भविष्यवाणी या संभावना के बारे में पूछा जाता है, तो वे तुरंत एक कॉन्फिडेंस स्कोर या प्रायिकता (probability) भी प्रदान कर देते हैं। हालांकि, गेमचेंजर लॉ एडवाइजर्स के संस्थापक अमृत…",
+    "category": "general",
+    "tags": [
+      "Amrut Joshi"
+    ],
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "070d0360182f",
+    "title": "अब हर मेनू में डिफ़ॉल्ट रूप से नहीं दिखेंगे आइकन",
+    "summary": "एप्पल ने अपने नवीनतम डेस्कटॉप ऑपरेटिंग सिस्टम, macOS गोल्डन गेट (macOS 27) में एक महत्वपूर्ण और बहुप्रतीक्षित यूज़र इंटरफ़ेस (UI) बदलाव को आधिकारिक तौर पर लागू किया है। कंपनी ने एक ऐसे डिज़ाइन विकल्प को पूरी तरह से हटा दिया है जो पिछले संस्करण में भारी आलोचना का विषय बना था। अब, एप्पल के डेस्कटॉप ऑपरेटिंग सिस्टम में…",
+    "category": "general",
+    "tags": [
+      "Apple",
+      "macOS Tahoe",
+      "macOS Golden Gate"
+    ],
+    "image": "https://cdn.jim-nielsen.com/blog/2026/macos-golden-gate-hig-icons.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "26ff3c995518",
+    "title": "असंभव की ओर: मानव कल्पना और तकनीक का नया युग",
+    "summary": "टेकदृष्टि के 2026 के विशेष 'Impossible issue' में आपका स्वागत है। यह अंक उन साहसिक मानव प्रयासों की पड़ताल करता है जिनका उद्देश्य जीवन को बेहतर, सुरक्षित और अधिक आनंदमय बनाना है। इस संस्करण में सिंथेटिक ब्लड, चंद्रमा पर शहर, और संज्ञानात्मक अमरता जैसे विषयों को शामिल किया गया है। साथ ही, एआई की 'ना' कहने की क्षमता,…",
+    "category": "general",
+    "tags": [
+      "The Download",
+      "Elon Musk",
+      "Starlink"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-ND26-Instagram-Portrait.png?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "caf65a67c881",
+    "title": "परमाणु ऊर्जा से चलने वाले अंतरिक्ष यान: मंगल मिशन की नई उम्मीद",
+    "summary": "हाल ही में अपोलो 2 क्रू के चंद्रमा के ऐतिहासिक स्लिंगशॉट से ठीक पहले, नासा (NASA) ने अपने सबसे महत्वाकांक्षी मिशनों में से एक की घोषणा की है। स्पेस रिएक्टर-1 फ्रीडम (SR-1) एक ऐसा पहला परमाणु-रिएक्टर-संचालित अंतरग्रहीय अंतरिक्ष यान होगा जो पृथ्वी की कक्षा से बाहर यात्रा करेगा। इस मिशन का मुख्य उद्देश्य परमाणु…",
+    "category": "general",
+    "tags": [
+      "NASA",
+      "Space Reactor-1 Freedom",
+      "Simon Middleburgh"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1cac1afee099",
+    "title": "अंतर-प्रजाति संचार: जानवरों की भाषा को समझने की ओर एक कदम",
+    "summary": "मनुष्य इस ब्रह्मांड में संवाद करने वाली एकमात्र प्रजाति नहीं है। हमारे पालतू कुत्ते, जंगली पक्षी और गहरे समुद्र की मछलियां भी अपनी-अपनी भाषा में एक-दूसरे से बात करती हैं। अब, वैज्ञानिक इन ध्वनियों, इशारों और गंधों के पीछे छिपे अर्थ को समझने का प्रयास कर रहे हैं। यह शोध केवल एक वैज्ञानिक जिज्ञासा नहीं है, बल्कि यह हमें…",
+    "category": "general",
+    "tags": [
+      "Con Slobodchikoff",
+      "Zoolingua",
+      "Earth Species Project"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Interspecies-Final.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fa40bfe52185",
+    "title": "ठोस-अवस्था बैटरी: ऊर्जा भंडारण का भविष्य या एक और दशक का इंतजार?",
+    "summary": "पिछले एक दशक से, ऑटोमोबाइल और इलेक्ट्रॉनिक्स उद्योगों में ठोस-अवस्था बैटरी को एक क्रांतिकारी तकनीक के रूप में देखा जा रहा है जो पारंपरिक लिथियम-आयन बैटरी की कमियों को दूर कर सकती है। ये बैटरी तरल इलेक्ट्रोलाइट के बजाय ठोस सामग्री का उपयोग करती हैं, जो न केवल आग लगने के जोखिम को कम करती हैं बल्कि ऊर्जा घनत्व को भी…",
+    "category": "general",
+    "tags": [
+      "Solid-state battery",
+      "lithium-ion battery"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Solid-State-Final.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3aef7061a648",
+    "title": "टेस्ला ने साल के अंत तक बेचने की घोषणा की Cybercab, लेकिन सुरक्षा जांच जारी",
+    "summary": "टेस्ला ने बुधवार को घोषणा की कि वह साल के अंत तक अपने नए स्वायत्त वाहन Cybercab को ग्राहकों को बेचना शुरू कर देगी। यह घोषणा ऐसे समय में हुई है जब अमेरिकी संघीय नियामक इस बात की जांच कर रहे हैं कि क्या यह वाहन आवश्यक सुरक्षा मानकों को पूरा करता है। यह कदम कंपनी के रोबोटैक्सी और स्वायत्त ड्राइविंग के क्षेत्र में एक बड़े…",
+    "category": "ban_regulation",
+    "tags": [
+      "Tesla",
+      "Cybercab",
+      "Lars Moravy"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Cybercab_76.jpg?resize=1200,675",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 4
+  },
+  {
+    "id": "86c6486674bc",
+    "title": "मेटा का नया एआई निवेश: कंपनी ने उठाया गैर-मतदान वाले शेयरों का सहारा",
+    "summary": "मेटा ने अपने एआई बुनियादी ढांचे के विस्तार के लिए एक अभूतपूर्व वित्तीय कदम उठाया है। कंपनी अब एक नई श्रेणी के गैर-मतदान वाले शेयर (non-voting stock) जारी करने की योजना बना रही है, जिसे सभी मौजूदा शेयरधारकों को स्टॉक लाभांश के रूप में वितरित किया जाएगा। यह कदम कंपनी के कृत्रिम बुद्धिमत्ता के क्षेत्र में भारी निवेश और…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Susan Li"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "8cb57701c17f",
+    "title": "Airbnb ने मेहमानों के लिए अनिवार्य कामों पर लगाई रोक, होम्स के मालिकों ने जताया विरोध",
+    "summary": "Airbnb ने अपने प्लेटफॉर्म के नियमों में एक बड़ा बदलाव किया है, जिसके तहत अब होस्ट्स मेहमानों को उनके ठहरने के बाद कोई भी अनिवार्य काम करने के लिए मजबूर नहीं कर सकते। कंपनी ने स्पष्ट किया है कि 20 नवंबर या उसके बाद से होने वाली सभी बुकिंग्स के लिए यह नया नियम लागू होगा। इस नई नीति के अनुसार, मेहमानों को बिस्तर की…",
+    "category": "general",
+    "tags": [
+      "Airbnb",
+      "hosts"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2018/09/GettyImages-733478305.jpg?resize=1200,713",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "063c29a16ff7",
+    "title": "टेकक्रंच फाउंडर समिट 2026: स्टार्टअप जगत का नया केंद्र बोस्टन में",
+    "summary": "टेकक्रंच ने अपने आगामी फाउंडर समिट 2026 की घोषणा की है, जो 4 नवंबर को बोस्टन के ऐतिहासिक सोवा पावर स्टेशन में आयोजित होने जा रहा है। यह आयोजन क्षेत्रीय स्टार्टअप इकोसिस्टम के लिए महत्वपूर्ण है, क्योंकि इसमें विभिन्न चरणों के संस्थापक और शीर्ष निवेशक एक साथ आएंगे। यह समिट टेकक्रंच के अन्य बड़े आयोजनों, जैसे टेकक्रंच…",
+    "category": "general",
+    "tags": [
+      "TechCrunch",
+      "TechCrunch Founder Summit"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/54657603888_9ade234c98_k.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "21039cf53586",
+    "title": "मेटा ने बताया कि उसके एआई ऐप म्यूज़ के 10 मिलियन से ज़्यादा यूज़र्स हो गए हैं",
+    "summary": "मेटा के एआई ऐप म्यूज़ ने आधिकारिक तौर पर 10 मिलियन (एक करोड़) यूज़र्स का आंकड़ा पार कर लिया है। इस बात की पुष्टि कंपनी के सीईओ मार्क जुकरबर्ग ने बुधवार को कंपनी की तीसरी तिमाही की अर्निंग कॉल के दौरान की। इससे पहले, मार्केट इंटेलिजेंस फर्म सेंसर टावर ने भी अपने अनुमान में इसी तरह के यूज़र बेस का आकलन किया था। म्यूज़…",
+    "category": "general",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Mark Zuckerberg"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-finger-on-app-GettyImages-2293791808.jpg?w=1024",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "27111edd5327",
+    "title": "साल भर की पुरानी AI लैब 'Flapping Airplanes' ने 6 अरब डॉलर की वैल्यूएशन पर 1 अरब डॉलर जुटाए",
+    "summary": "Silicon Valley में एक साल से भी कम पुरानी एआई रिसर्च लैब, Flapping Airplanes ने 1 अरब डॉलर का नया फंडिंग राउंड हासिल कर तकनीकी दुनिया का ध्यान अपनी ओर खींचा है। कंपनी ने यह निवेश इंडेक्स और लक्स के सह-नेतृत्व में प्राप्त किया है, जिसने इसकी वैल्यूएशन को 6 अरब डॉलर तक पहुंचा दिया है। यह खबर इसलिए महत्वपूर्ण है क्योंकि…",
+    "category": "general",
+    "tags": [
+      "Flapping Airplanes",
+      "Index",
+      "Lux"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "dc1c99f7973e",
+    "title": "Recursive ने लॉन्च किया Flint, एक लैपटॉप कोडिंग मॉडल जिसे काफी हद तक AI ने बनाया है",
+    "summary": "Recursive, एक AI स्टार्टअप जिसकी स्थापना पिछले साल हुई थी, ने आखिरकार अपना पहला मॉडल 'Flint' लॉन्च कर दिया है। इस कंपनी का नेतृत्व सीईओ रिचर्ड सोचर कर रहे हैं, जो पहले सेल्सफोर्स के मुख्य वैज्ञानिक थे। Recursive ने पिछले मई में GV, Nvidia और AMD Ventures जैसे बड़े निवेशकों से $650 मिलियन की फंडिंग $4.65 बिलियन के…",
+    "category": "model_release",
+    "tags": [
+      "Recursive",
+      "Flint",
+      "Eureka Machine"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2157738833.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "84ad5b5c753b",
+    "title": "यूट्यूब ने स्पष्ट किया: आम यूजर्स के लिए डिसलाइक बटन नहीं छिपा रहा",
+    "summary": "मंगलवार को टेक न्यूज़ आउटलेट्स ने रिपोर्ट किया कि यूट्यूब पर आम यूजर्स के लिए डिसलाइक बटन को छिपाने का परीक्षण किया जा रहा है। एक्स (पूर्व में ट्विटर) पर कम से कम दो यूजर्स ने स्क्रीनशॉट शेयर किए, जिनमें डिसलाइक बटन को तीन-डॉट वाले मेन्यू में जाते हुए दिखाया गया था। इस वायरल भ्रम के बाद, बुधवार को यूट्यूब की प्रवक्ता…",
+    "category": "general",
+    "tags": [
+      "YouTube",
+      "Kimberly Taylor"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK092_03.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "eaa3fbf80042",
+    "title": "डेटा सेंटर: एक नई पर्यावरणीय चुनौती",
+    "summary": "टेक्सास, जो कि जनरेटिव आर्टिफिशियल इंटेलिजेंस (AI) के भौतिक बुनियादी ढांचे का प्रमुख केंद्र बन गया है, वर्तमान में एक गंभीर पर्यावरणीय संकट का सामना कर रहा है। नए डेटा सेंटर्स की बढ़ती संख्या के कारण बिजली की मांग में भारी वृद्धि हुई है। ह्यूस्टन एडवांस्ड रिसर्च सेंटर (HARC) की हालिया रिपोर्ट के अनुसार, यदि इस ऊर्जा…",
+    "category": "general",
+    "tags": [
+      "Texas",
+      "Houston Advanced Research Center",
+      "HARC"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "31d21f169841",
+    "title": "मेटा का वित्तीय खुलासा: चाइल्ड सेफ्टी सेटलमेंट के बिना कंपनी का ऑपरेटिंग इनकम $22.89 बिलियन होता",
+    "summary": "मेटा ने अपने तीसरे तिमाही के वित्तीय परिणाम जारी किए हैं, जिनमें एक चौंकाने वाला वित्तीय खुलासा सामने आया है। कंपनी ने अमेरिकी अटॉर्नी जनरल्स के साथ हुए एक ऐतिहासिक समझौते के तहत $9.89 बिलियन का भुगतान किया है। मेटा के अनुसार, यदि यह सेटलमेंट खर्च नहीं होता, तो कंपनी का ऑपरेटिंग इनकम $22.89 बिलियन होता। यह आंकड़ा…",
+    "category": "ban_regulation",
+    "tags": [
+      "Meta",
+      "US attorneys general",
+      "YouTube"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS487_ANTITRUST_2__STK043_META.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0efdcaa8b19e",
+    "title": "PHP: इंटरनेट को ठप करने वाले तीन अक्षर",
+    "summary": "आज इंटरनेट पर एक अभूतपूर्व तकनीकी संकट ने तहलका मचा दिया है। 4chan, DeviantArt, विकिपीडिया और यहां तक कि एक स्थानीय बार के डॉगी ब्लॉग जैसी विविध वेबसाइटें अचानक बड़े पैमाने पर आउटेज का सामना कर रही हैं। इन व्यापक इंटरनेट आउटेज का मूल कारण PHP प्रोग्रामिंग भाषा में पाई गई दो महत्वपूर्ण कमियां, जिन्हें PHP2Shell…",
+    "category": "general",
+    "tags": [
+      "PHP",
+      "WordPress",
+      "OpenAI"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f0eb317dc7b3",
+    "title": "बोस ने स्कलकैंडी का अधिग्रहण किया, नए दर्शकों तक पहुँचने के लिए ब्रांड को अलग रखा",
+    "summary": "बोस कॉर्पोरेशन ने आज आधिकारिक तौर पर स्कलकैंडी का अधिग्रहण करने की घोषणा की है। यह कदम ऑडियो उपकरण बाजार में एक महत्वपूर्ण बदलाव का संकेत है, क्योंकि बोस अब अपने प्रतिस्पर्धी रहे स्कलकैंडी को खरीदकर अपने उत्पाद पोर्टफोलियो का विस्तार कर रहा है। हालांकि दोनों कंपनियां उपभोक्ता ऑडियो क्षेत्र में एक-दूसरे की…",
+    "category": "acquisition",
+    "tags": [
+      "Bose",
+      "Skullcandy",
+      "Lila Snyder"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/skullcandy1.jpg?quality=90&strip=all&crop=0%2C10.717271201674%2C100%2C78.565457596651&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "4ab93569e260",
+    "title": "एटीएंडटी (AT&T) और ओपनएआई (OpenAI) की साझेदारी: कानूनी कार्यों में एआई का नया युग",
+    "summary": "एटीएंडटी (AT&T) अपने इन-हाउस कानूनी विभाग को आधुनिक बनाने के लिए एक नई पहल कर रहा है। कंपनी दुनिया भर में सैकड़ों वकीलों और कानूनी पेशेवरों को काम पर रखती है, जिन्हें अक्सर विभिन्न टीमों से तथ्य, दस्तावेज और प्रासंगिक पिछले काम इकट्ठा करने पड़ते हैं। सूचना के इस बिखराव को दूर करने के लिए, एटीएंडटी ने ओपनएआई (OpenAI)…",
+    "category": "general",
+    "tags": [
+      "AT&T",
+      "OpenAI",
+      "David McAtee"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7A9Q6VjM9BmwoYsZ7L7toJ/4580ebfb0fa44bf3be43f5980ba0627c/att-legal-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2ed22a61b2f1",
+    "title": "OpenAI के नए उपयोग नीति अपडेट और सुरक्षा मानक",
+    "summary": "हाल के महीनों में, OpenAI ने अपने ग्राहकों और पार्टनर्स के साथ मिलकर काम किया है ताकि मॉडल्स प्रदान करने वाली सेवाओं में सुरक्षा नीतियों को एक समान बनाया जा सके। कंपनी अपनी उपयोग नीतियों को अपडेट कर रही है ताकि डेवलपर्स के लिए इन आवश्यकताओं को समझना और उनका पालन करना आसान हो सके। GPT-6 Astra जैसे मॉडल्स के आने से…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "GPT-6 Astra"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7hrvP09oiCE5WV3cXxae4u/7154e71ae6c6e9d4c8306c4d1843e5bf/broad-access-through-consistent-standards-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d3f519557f32",
+    "title": "पैच द प्लैनेट: एआई द्वारा खोजी गई पीएचपी कमजोरियों पर वैश्विक समन्वय",
+    "summary": "हाल ही में, पीएचपी (PHP) भाषा में गंभीर कमजोरियों की खोज ने तकनीकी जगत का ध्यान आकर्षित किया है। पीएचपी एक ओपन-सोर्स प्रोग्रामिंग भाषा है जो वेब डेवलपमेंट के लिए व्यापक रूप से उपयोग की जाती है। ओपनएआई के 'कैलिफ़' (Calif) टीम ने अपने GPT-5.6 Sol मॉडल का उपयोग करके इन महत्वपूर्ण खामियों की पहचान की। इसके साथ ही, सुरक्षा…",
+    "category": "general",
+    "tags": [
+      "Patch the Planet",
+      "PHP",
+      "Calif"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/xq2rRszwLvIAxOynZi2qa/b1cf094a0d095f67821bf4b8cfaba0b9/coordinated-disclosure-of-critical-vulnerabilities-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fd6f5ad7f858",
+    "title": "ChatGPT Ads का 26 नए देशों में विस्तार, 100,000 से अधिक विज्ञापनदाताओं ने किया इस्तेमाल",
+    "summary": "OpenAI ने अपने AI असिस्टेंट ChatGPT में विज्ञापनों का विस्तार करते हुए इसे 26 नए देशों में लॉन्च कर दिया है, जिससे अब विज्ञापनों की उपलब्धता बढ़कर 89 देशों तक पहुंच गई है। यह घोषणा कंपनी द्वारा की गई है, जो यह दर्शाती है कि कैसे दुनिया का सबसे लोकप्रिय AI टूल अब एक प्रमुख विज्ञापन प्लेटफॉर्म में तब्दील हो रहा है। इस…",
+    "category": "general",
+    "tags": [
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6Fq2uj7xCpKHENjyeojn9c/d3771e7cecdfb77c28c7560de9413de1/chatgpt-ads-expands-26-new-countries-social.png?w=1600&h=900&fit=fill",
+    "source": "synthesized",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "1de8e62ff715",
+    "title": "लाखों मस्तिष्क कोशिकाओं के डेटा से अल्जाइमर और पार्किंसंस के नए सुराग खोजने में एआई एजेंटों की भूमिका",
+    "summary": "आधुनिक जैविक प्रयोगों से उत्पन्न विशाल डेटा का विश्लेषण करना वैज्ञानिकों के लिए एक बड़ी चुनौती बन गया है। अल्जाइमर और पार्किंसंस जैसी जटिल बीमारियों के परिणामों को समझने में आमतौर पर महीनों की मेहनत लगती है। हालांकि, अब ओपनएआई, पर्टर्बएआई और स्क्रिप्स रिसर्च के बीच हुए एक नए सहयोग ने इस प्रक्रिया को काफी तेज कर दिया…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "PerturbAI",
+      "Scripps Research"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "b2deaf97c98c",
+    "title": "फ्रंटियर एआई का लोकतांत्रिक शासन: साइबर रक्षकों को सशक्त बनाने की नई रूपरेखा",
+    "summary": "कृत्रिम बुद्धिमत्ता (AI) अब साइबर सुरक्षा के परिदृश्य को पूरी तरह से बदल रही है। ओपेनएआई (OpenAI) ने हाल ही में एक महत्वपूर्ण ब्लूप्रिंट प्रकाशित किया है, जो एआई के दोहरे स्वरूप को उजागर करता है। एक तरफ, एआई रक्षकों को कमजोरियों का पता लगाने और घुसपैठ का जवाब देने में मदद कर सकता है। दूसरी तरफ, दुर्भावनापूर्ण तत्व…",
+    "category": "general",
+    "tags": [
+      "OpenAI",
+      "frontier AI"
+    ],
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4fQCOyqbS5WVftYzLdd8UX/260b8061c6c8641dd0102042cb1acc32/empowering-cyber-defenders-social.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "11480f126425",
+    "title": "स्टेलिमैप (Stalemap) एआई एजेंट्स के लिए अपडेटेड लाइब्रेरीज़ के गैप को पाटने वाला नया टूल",
+    "summary": "एआई कोडिंग एजेंट्स, जो सॉफ्टवेयर डेवलपमेंट को तेज करने के लिए लोकप्रिय हो रहे हैं, एक नई चुनौती का सामना कर रहे हैं। ये एजेंट्स अपनी ट्रेनिंग के डेटा के आधार पर काम करते हैं, जो एक निश्चित कटऑफ तिथि तक सीमित होता है। जब प्रोजेक्ट्स में नई लाइब्रेरी वर्ज़न (जैसे zod 4 या Next 16) का उपयोग किया जाता है, तो एआई एजेंट्स इन…",
+    "category": "general",
+    "tags": [
+      "stalemap",
+      "Claude Code",
+      "Cursor"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Umair/stalemap",
+    "source": "github",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1750a5a142af",
+    "title": "stkoecn/im-mcp: स्थानीय चैट इतिहास के लिए एक नया AI-संचालित टूल",
+    "summary": "stkoecn द्वारा GitHub पर एक नया टूल पेश किया गया है जो AI सहायकों को स्थानीय चैट इतिहास खोजने की क्षमता देता है। यह टूल बिना किसी क्लाउड अपलोड या गोपनीयता जोखिम के काम करता है।",
+    "category": "general",
+    "tags": [
+      "stkoecn",
+      "im-mcp",
+      "Model Context Protocol"
+    ],
+    "image": "https://opengraph.githubassets.com/1/stkoecn/im-mcp",
+    "source": "github",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0b1cf0ced033",
+    "title": "tomtomsatnav/agent-orchestration-standard: Claude Code के लिए नया ओपन-सोर्स डैशबोर्ड",
+    "summary": "tomtomsatnav द्वारा एक नया ओपन-सोर्स टूल, agent-orchestration-standard, डेवलपर्स के लिए उपलब्ध कराया गया है। यह टूल विशेष रूप से Claude Code सत्रों के लिए एक लाइव, लोकल-फर्स्ट डैशबोर्ड प्रदान करता है। इस डैशबोर्ड के माध्यम से डेवलपर्स अपने AI कोडिंग वातावरण का रीयल-टाइम दृश्य देख सकते हैं। इसमें AOS-1 एजेंट…",
+    "category": "repo_analysis",
+    "tags": [
+      "tomtomsatnav",
+      "agent-orchestration-standard",
+      "Claude Code"
+    ],
+    "image": "https://opengraph.githubassets.com/1/tomtomsatnav/agent-orchestration-standard",
+    "source": "github",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e67495d51e8f",
+    "title": "क्लेड सुपर साइडबार: एक ही पैनल में देखें एजेंट ट्री और टास्क फ्लो",
+    "summary": "ज़फ़र-लियू, जो एक एआई प्रोडक्ट मैनेजर और टूल बिल्डर हैं, ने 'क्लेड सुपर साइडबार' (claude-super-sidebar) नामक एक नया टूल पेश किया है। यह टूल एंथ्रोपिक के 'क्लेड कोड' और ओपनएआई के 'कोडेक्स' के लिए एक यूनिफाइड विज़ुअल साइडबार प्रदान करता है। इसके माध्यम से डेवलपर्स मुख्य एजेंट, सब-एजेंट संबंधों, और निष्पादन विवरण को एक…",
+    "category": "repo_analysis",
+    "tags": [
+      "Claude Super Sidebar",
+      "Claude Code",
+      "Codex"
+    ],
+    "image": "https://opengraph.githubassets.com/1/Zafer-Liu/claude-super-sidebar",
+    "source": "github",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "71c43ba9d945",
+    "title": "चीन टेलीकॉम का नया एआई मॉडल Xing4.0-29B-Intent प्राकृतिक भाषा को JSON में बदलता है",
+    "summary": "चीन टेलीकॉम आर्टिफिशियल इंटेलिजेंस टेक्नोलॉजी कंपनी लिमिटेड ने अपने नए एआई मॉडल Xing4.0-29B-Intent की घोषणा की है। यह मॉडल प्राकृतिक भाषा को संरचित JSON प्रारूप में बदलने की क्षमता रखता है। यह ओपन-सोर्स मॉडल अपाचे 2.0 लाइसेंस के तहत उपलब्ध है। यह एआई मॉडल व्यावसायिक प्रणालियों के लिए विशेष रूप से डिज़ाइन किया गया है।",
+    "category": "model_release",
+    "tags": [
+      "Xing4.0-29B-Intent",
+      "Xing4.0-29B-A4B",
+      "China Telecom Artificial Intelligence Technology Co., Ltd."
+    ],
+    "image": "https://opengraph.githubassets.com/1/XingChen-AGI/Xing4.0-29B-Intent",
+    "source": "github",
+    "first_seen": "2026-10-22T07:49:08.576975+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "3e2f34074954",
     "title": "परमिट पेंडिंग: शहर निर्माण का नया खेल जहाँ आप भगवान नहीं, बल्कि एक चुने हुए मेयर हैं",
     "summary": "एक नए वेब-आधारित सिटी-बिल्डिंग गेम ने गेमिंग समुदाय का ध्यान खींचा है, जो शहर प्रबंधन के पारंपरिक दृष्टिकोण को पूरी तरह से बदल देता है। 'परमिट पेंडिंग' (Permit Pending) खिलाड़ियों को किसी सर्वशक्तिमान देवता की भूमिका निभाने के बजाय, एक निर्वाचित मेयर के रूप में प्रस्तुत करता है। इस खेल में, हर अपार्टमेंट ब्लॉक, बस लेन…",

@@ -3536,8 +3536,8 @@
   "railway": {
     "canonical_name": "Railway",
     "entity_type": "company",
-    "summary": "Railway is a company focused on providing integrated logistics and supply chain solutions, particularly for businesses in manufacturing and distribution. The company leverages its rail-ready locations and recognition of safety excellence to offer compliance and risk mitigation solutions. With revenu",
-    "last_updated": "2026-07-06"
+    "summary": "Canadian National Railway (CN) is North America's most strategically positioned freight railroad, providing an integrated network across Canada and the United States.",
+    "last_updated": "2026-10-22"
   },
   "tq ventures": {
     "canonical_name": "TQ Ventures",
@@ -4249,9 +4249,9 @@
   },
   "gitlab": {
     "canonical_name": "GitLab",
-    "entity_type": "general",
-    "summary": "GitLab is the open-source DevSecOps platform that provides a complete software development lifecycle toolchain including source control, CI/CD, security scanning, and project management in a single application. It is a web-based DevOps platform that enables teams to manage the entire software develo",
-    "last_updated": "2026-07-07"
+    "entity_type": "product",
+    "summary": "Teams and agents ship trusted software faster with GitLab, the intelligent orchestration platform with context and governance for the entire software lifecycle. One platform for speed with control across your software lifecycle. Learn how to harden your software factory and let AI agents earn autono",
+    "last_updated": "2026-10-22"
   },
   "challenger": {
     "canonical_name": "Challenger",
@@ -5276,8 +5276,8 @@
   "elon musk": {
     "canonical_name": "Elon Musk",
     "entity_type": "person",
-    "summary": "Elon Musk is the richest person in the world and ranks first on Forbes' 2026 America's Richest Immigrants list. He co-founded and leads Tesla, SpaceX, Neuralink, and The Boring Company.",
-    "last_updated": "2026-09-07"
+    "summary": "Elon Musk is the richest person in the world and the founder of companies including SpaceX, Tesla Motors, and social media site X. The South African–born entrepreneur started his first businesses in the 1990s and became an American citizen in 2002.",
+    "last_updated": "2026-10-22"
   },
   "mythosfable": {
     "canonical_name": "Mythos/Fable",
@@ -7526,8 +7526,8 @@
   "skullcandy": {
     "canonical_name": "Skullcandy",
     "entity_type": "company",
-    "summary": "Skullcandy is the original lifestyle audio brand based in Park City, Utah, with 343 employees. It is driven by a mission to not just listen to music but to feel it, combining premium Bose technologies with its patented Crusher® Bass.",
-    "last_updated": "2026-07-16"
+    "summary": "Skullcandy, Inc. provides audio equipment, including headphones, earbuds, speakers, and other related products. The company is headquartered in Park City, Utah, and was founded in 2003.",
+    "last_updated": "2026-10-22"
   },
   "bose": {
     "canonical_name": "Bose",
@@ -8633,8 +8633,8 @@
   "wiz": {
     "canonical_name": "Wiz",
     "entity_type": "company",
-    "summary": "Wiz is a company that provides security teams with insights to mitigate risks and unlock innovation across their business. The company, now part of Google Cloud, aims to help organizations create secure cloud and AI environments by creating a normalizing layer between cloud environments.",
-    "last_updated": "2026-07-18"
+    "summary": "\" At Wiz, we believe security should accelerate progress. By combining deep understanding of cloud environments with rich context across code, cloud, and runtime, we enable teams to build AI-powered applications securely from the start and strengthen them continuously as they evolve. Now part of Goo",
+    "last_updated": "2026-10-22"
   },
   "endeavor greece": {
     "canonical_name": "Endeavor Greece",
@@ -13007,8 +13007,8 @@
   "cybercab": {
     "canonical_name": "Cybercab",
     "entity_type": "product",
-    "summary": "The Tesla Cybercab is a two-seat fully autonomous EV coupe designed for ride-hailing, launching in 2026 with a price tag of $30,000. It features a 35 kWh battery, 320 km (199 mi) range, 120 km/h (75 mph) top speed, and Full Self-Driving (FSD) technology.",
-    "last_updated": "2026-07-27"
+    "summary": "The Cybercab is a fully autonomous, battery-electric vehicle designed for robotaxi transportation. It features a futuristic, science-fiction-inspired design that prioritizes aerodynamics, efficiency, and passenger comfort.",
+    "last_updated": "2026-10-22"
   },
   "model y": {
     "canonical_name": "Model Y",
@@ -13192,9 +13192,9 @@
   },
   "att": {
     "canonical_name": "AT&T",
-    "entity_type": "organization",
-    "summary": "AT&T, Inc. is a holding company that provides telecommunications and technology services, operating through Communications and Latin America segments. The Communications segment offers wireless, wireline telecom, and broadband services to businesses and consumers in the US and globally, while the La",
-    "last_updated": "2026-07-28"
+    "entity_type": "company",
+    "summary": "AT&T Inc. provides telecommunications and technology services worldwide. It operates through two segments, Communications and Latin America, offering wireless voice and data communications services.",
+    "last_updated": "2026-10-22"
   },
   "nsa": {
     "canonical_name": "NSA",
@@ -13966,9 +13966,9 @@
   },
   "gpt6 astra": {
     "canonical_name": "GPT-6 Astra",
-    "entity_type": "ai_model",
-    "summary": "GPT-6 Astra is a highly intelligent and aligned AI model that is state-of-the-art in computer use, browsing, software engineering, cybersecurity, science, and professional work. It excels at adhering to existing templates, creating structured documents, and has achieved top scores on benchmarks like",
-    "last_updated": "2026-09-06"
+    "entity_type": "product",
+    "summary": "GPT-6 Astra is described as the world's most intelligent and aligned model, developed by OpenAI. It integrates advancements from pre-training, reinforcement learning, and alignment research to deliver state-of-the-art capabilities across computer use, browsing, software engineering, cybersecurity, s",
+    "last_updated": "2026-10-22"
   },
   "claude fable 51": {
     "canonical_name": "Claude Fable 5.1",
@@ -23494,5 +23494,263 @@
     "entity_type": "product",
     "summary": "AgentMemory is a persistent memory solution designed for AI coding agents, allowing them to remember information without requiring re-explanation. It is built on the iii engine and supports a wide range of clients including Claude Code, GitHub Copilot CLI, Cursor, and Gemini CLI. The product is avai",
     "last_updated": "2026-10-21"
+  },
+  "openaiopenaicli": {
+    "canonical_name": "openai/openai-cli",
+    "entity_type": "product",
+    "summary": "The OpenAI CLI is a command-line tool that allows users to interact with the OpenAI API directly from their terminal. It supports Responses, structured outputs, images, speech, and shell workflows, and requires an API key to function.",
+    "last_updated": "2026-10-22"
+  },
+  "gitlab community edition": {
+    "canonical_name": "GitLab Community Edition",
+    "entity_type": "product",
+    "summary": "Learn how CE compares with EE today, how the Free tier and upgrades work, and where to install, contribute, or explore GitLab. One platform for speed with control across your software lifecycle. Learn how to harden your software factory and let AI agents earn autonomy, without trading away security.",
+    "last_updated": "2026-10-22"
+  },
+  "docker hub": {
+    "canonical_name": "Docker Hub",
+    "entity_type": "organization",
+    "summary": "Docker Hub utilizes a Roles Based Access Control system to allow organizations and teams to group and manage user permissions for image repositories. This system enables distributed teams to own their own repositories while collaborating across the organization to accelerate development workflows.",
+    "last_updated": "2026-10-22"
+  },
+  "ghcr": {
+    "canonical_name": "GHCR",
+    "entity_type": "organization",
+    "summary": "GHCR operates across South and Central America, Europe, Asia, Africa, and the Middle East to protect vulnerable children through lawful intervention and survivor-centered aftercare. The organization works alongside governmental, tribal, and local authorities, and its tactical and operational unit is",
+    "last_updated": "2026-10-22"
+  },
+  "berriailitellm": {
+    "canonical_name": "BerriAI/litellm",
+    "entity_type": "repository",
+    "summary": "BerriAI/litellm is an open-source AI Gateway that provides a unified interface to call over 100 LLM providers using OpenAI format. It features a Rust core with a Python SDK, and supports capabilities like cost tracking, guardrails, load balancing, and logging.",
+    "last_updated": "2026-10-22"
+  },
+  "amrut joshi": {
+    "canonical_name": "Amrut Joshi",
+    "entity_type": "person",
+    "summary": "Founder of GameChanger Law Advisors, Amrut brings over two decades of legal expertise across venture capital, M&A, deeptech, impact investing, and sports law. Founder & Managing Partner amrut@gamechangerlaw.com Amrut Joshi is one of India's foremost authorities on venture capital law, startup legal",
+    "last_updated": "2026-10-22"
+  },
+  "macos golden gate": {
+    "canonical_name": "macOS Golden Gate",
+    "entity_type": "product",
+    "summary": "macOS Golden Gate (macOS 27) is a version of Apple's desktop operating system that introduces all-new Siri AI powered by Apple Intelligence. It features a more responsive and delightful experience with next-generation Apple Intelligence enhancements, new refined Liquid Glass design, and Visual Intel",
+    "last_updated": "2026-10-22"
+  },
+  "astrolab": {
+    "canonical_name": "Astrolab",
+    "entity_type": "company",
+    "summary": "Astrolab is a company singularly focused on designing, building, and operating a fleet of multi-purpose commercial planetary rovers to extend humanity's presence in the solar system. From its inception, the company has been committed to designing and creating the FLEX Rover, a lunar terrain vehicle",
+    "last_updated": "2026-10-22"
+  },
+  "flip": {
+    "canonical_name": "FLIP",
+    "entity_type": "product",
+    "summary": "The FLIP is a pocket-sized phone designed to make a statement, featuring a 50MP selfie camera, a sleek and durable design, and powerful Galaxy AI tools.",
+    "last_updated": "2026-10-22"
+  },
+  "space reactor1 freedom": {
+    "canonical_name": "Space Reactor-1 Freedom",
+    "entity_type": "product",
+    "summary": "Space Reactor-1 Freedom is a pathfinder mission and the first fission-powered spacecraft to travel beyond Earth’s orbit. It will demonstrate nuclear electric propulsion and deliver the SkyFall payload, while also developing technologies for future lunar and Martian surface power and outer solar syst",
+    "last_updated": "2026-10-22"
+  },
+  "simon middleburgh": {
+    "canonical_name": "Simon Middleburgh",
+    "entity_type": "person",
+    "summary": "Simon Middleburgh was appointed to the Nuclear Futures Institute in March 2018, where his research focuses on developing new nuclear materials and investigating their behavior in extreme environments. He is a Fellow of the Institute of Materials, Minerals and Mining (FIMMM) and has participated in a",
+    "last_updated": "2026-10-22"
+  },
+  "draco": {
+    "canonical_name": "DRACO",
+    "entity_type": "project",
+    "summary": "The Demonstration Rocket for Agile Cislunar Operations (DRACO) is a program designed to advance nuclear propulsion technology for critical space missions. It aims to develop nuclear thermal rockets (NTRs), which use a nuclear reactor to heat propellant to extreme temperatures to produce thrust with",
+    "last_updated": "2026-10-22"
+  },
+  "zoolingua": {
+    "canonical_name": "Zoolingua",
+    "entity_type": "organization",
+    "summary": "Zoolingua is an organization focused on advancing groundbreaking research in animal-human communication. The organization partners with animal shelters, rescue organizations, veterinary clinics, and adoption agencies in the United States.",
+    "last_updated": "2026-10-22"
+  },
+  "lithiumion battery": {
+    "canonical_name": "lithium-ion battery",
+    "entity_type": "product",
+    "summary": "Lithium-ion batteries are highly commercialized rechargeable batteries commonly used in electronic devices such as smartphones and laptops. They operate at a higher voltage of 3.7 V compared to lead-acid batteries and feature a three-layer design consisting of a lithium compound anode, a graphite ca",
+    "last_updated": "2026-10-22"
+  },
+  "airbnb": {
+    "canonical_name": "Airbnb",
+    "entity_type": "company",
+    "summary": "Airbnb was founded in 2007 in San Francisco and became a publicly traded company in December 2020. It has grown to include over 5.5 million hosts and has facilitated over 2.5 billion guest arrivals globally.",
+    "last_updated": "2026-10-22"
+  },
+  "hosts": {
+    "canonical_name": "hosts",
+    "entity_type": "organization",
+    "summary": "Hosts Global is a worldwide leader in destination management services that evolved from USA Hosts, expanding to 6 continents. The company provides full-service destination management with over 60 years of operational excellence.",
+    "last_updated": "2026-10-22"
+  },
+  "flapping airplanes": {
+    "canonical_name": "Flapping Airplanes",
+    "entity_type": "startup",
+    "summary": "Flapping Airplanes is a foundational AI research lab devoted to solving the data efficiency problem. It pursues radical new approaches and is focused on finding ways to train large models with less data.",
+    "last_updated": "2026-10-22"
+  },
+  "lux": {
+    "canonical_name": "Lux",
+    "entity_type": "organization",
+    "summary": "Lux Research helps leaders make better decisions about growth, technology, and innovation. The company combines deep scientific research, consumer insight, and expert advisory to give clients the clarity to move forward with confidence.",
+    "last_updated": "2026-10-22"
+  },
+  "gv": {
+    "canonical_name": "GV",
+    "entity_type": "organization",
+    "summary": "GV is an independent venture capital firm founded in 2009 that operates with Alphabet as its sole limited partner. It provides seed, venture, and growth-stage funding to innovative technology companies.",
+    "last_updated": "2026-10-22"
+  },
+  "kleiner perkins": {
+    "canonical_name": "Kleiner Perkins",
+    "entity_type": "organization",
+    "summary": "Kleiner Perkins is an American venture capital firm that specializes in investing in early stage and growth companies. It partners with founders from inception to IPO and beyond to maximize the potential of their ideas.",
+    "last_updated": "2026-10-22"
+  },
+  "valor": {
+    "canonical_name": "Valor",
+    "entity_type": "organization",
+    "summary": "ValorUS is a California-based national organization and California's sexual assault coalition committed to advancing equity and ending sexual violence. It is a 501(c)(3) tax-exempt organization formerly known as the California Coalition Against Sexual Assault (CALCASA).",
+    "last_updated": "2026-10-22"
+  },
+  "atreides": {
+    "canonical_name": "Atreides",
+    "entity_type": "organization",
+    "summary": "Atreides transforms complex data into structured insight for mission-critical decisions. The company builds systems that turn massive scale data into actionable clarity for operators across land, sea, air, cyber, and space.",
+    "last_updated": "2026-10-22"
+  },
+  "asher spector": {
+    "canonical_name": "Asher Spector",
+    "entity_type": "person",
+    "summary": "Asher Spector is a statistics PhD at Stanford and the co-founder of Flapping Airplanes. His work is supported by the NSF and Citadel GQS, and he has previously interned at Meta and Bridgewater.",
+    "last_updated": "2026-10-22"
+  },
+  "a": {
+    "canonical_name": "A*",
+    "entity_type": "organization",
+    "summary": "material did not address this",
+    "last_updated": "2026-10-22"
+  },
+  "eureka machine": {
+    "canonical_name": "Eureka Machine",
+    "entity_type": "technology",
+    "summary": "The Eureka Machine is a framework that details how artificial intelligence is accelerating scientific discovery across diverse fields such as medicine, biology, economics, and astronomy. Authored by Richard Socher, it serves as a blueprint for automating the scientific method and argues that speedin",
+    "last_updated": "2026-10-22"
+  },
+  "kimberly taylor": {
+    "canonical_name": "Kimberly Taylor",
+    "entity_type": "person",
+    "summary": "Kimberly Taylor is a model and actress of mixed German and Native American descent, known for her role in the film Frankenhooker and as the December 1988 Pet of the Month in Penthouse. She is also a leader who has shaped work across global culture, community strategy, talent engagement, recruiting,",
+    "last_updated": "2026-10-22"
+  },
+  "houston advanced research center": {
+    "canonical_name": "Houston Advanced Research Center",
+    "entity_type": "organization",
+    "summary": "The Houston Advanced Research Center (HARC) develops sustainability solutions intended to improve quality of life for future generations. The organization conducts research, planning, and technical assistance on energy technologies to foster economic development and reduce environmental risks.",
+    "last_updated": "2026-10-22"
+  },
+  "us attorneys general": {
+    "canonical_name": "US attorneys general",
+    "entity_type": "organization",
+    "summary": "The Office of the Attorney General was created by the Judiciary Act of 1789 and evolved into the head of the Department of Justice and the chief law enforcement officer of the Federal Government. The Attorney General represents the United States in legal matters and provides advice and opinions to t",
+    "last_updated": "2026-10-22"
+  },
+  "php": {
+    "canonical_name": "PHP",
+    "entity_type": "technology",
+    "summary": "Jul 11, 2025 · PHP stands for Hypertext Preprocessor. It is an open-source, widely used language for web development. Developers can create dynamic and interactive websites by embedding PHP code into HTML. PHP can handle data processing, session management, form handling, and database integration. T",
+    "last_updated": "2026-10-22"
+  },
+  "4chan": {
+    "canonical_name": "4chan",
+    "entity_type": "product",
+    "summary": "Apr 24, 2025 · Over time, 4chan became synonymous with cyber harassment, coordinated trolling, and doxing campaigns. One of the author’s earliest brushes with this darker side came in college, when a prank involving their phone number spiraled into a harassment campaign. Deepinder Goyal, founder of",
+    "last_updated": "2026-10-22"
+  },
+  "lila snyder": {
+    "canonical_name": "Lila Snyder",
+    "entity_type": "person",
+    "summary": "Lila Snyder is the chief executive officer of Bose Corporation, overseeing the company's consumer electronics, automotive, and audio technology businesses. She also serves as a member of the Bose Board of Directors.",
+    "last_updated": "2026-10-22"
+  },
+  "david mcatee": {
+    "canonical_name": "David McAtee",
+    "entity_type": "person",
+    "summary": "David R. McAtee is the Senior Executive Vice President and General Counsel for AT&T Inc. He has served as AT&T’s worldwide general counsel since 2015 and is a trusted advisor to the company’s operations and strategic objectives.",
+    "last_updated": "2026-10-22"
+  },
+  "patch the planet": {
+    "canonical_name": "Patch the Planet",
+    "entity_type": "organization",
+    "summary": "Patch the Planet is a Daybreak initiative developed with Trail of Bits to help open-source maintainers strengthen critical software. It pairs AI-assisted security research with expert human review to identify and fix vulnerabilities while reducing the burden on maintainers.",
+    "last_updated": "2026-10-22"
+  },
+  "calif": {
+    "canonical_name": "Calif",
+    "entity_type": "organization",
+    "summary": "Calif is a security team that partners with frontier labs and stays with customers long-term to identify and fix security flaws. Half of their work focuses on securing AI by attacking models, agents, and surrounding systems, while the other half involves traditional security engineering.",
+    "last_updated": "2026-10-22"
+  },
+  "perturbai": {
+    "canonical_name": "PerturbAI",
+    "entity_type": "company",
+    "summary": "PerturbAI is an AI-native therapeutics company that uses in vivo CRISPR perturbation and AI to map how disease genes affect cells, circuits, and intact organisms. The company generates organism-scale perturbation atlases linking genes to cells, circuits, and disease to train AI models that predict h",
+    "last_updated": "2026-10-22"
+  },
+  "scripps research": {
+    "canonical_name": "Scripps Research",
+    "entity_type": "organization",
+    "summary": "Scripps Research is a nonprofit institute founded 100 years ago in La Jolla, California, that unravels the complexities of human health and disease to create new medicines. The organization pursues a first-of-its-kind nonprofit research model to generate scientific insights that lead to better ways",
+    "last_updated": "2026-10-22"
+  },
+  "stkoecn": {
+    "canonical_name": "stkoecn",
+    "entity_type": "person",
+    "summary": "stkoecn is a GitHub user with six available repositories. Their work includes a fast, local, read-only MCP Server for WeChat and DingTalk chat history with FTS5 search, and a full-stack ecommerce application on Cloudflare Workers.",
+    "last_updated": "2026-10-22"
+  },
+  "immcp": {
+    "canonical_name": "im-mcp",
+    "entity_type": "product",
+    "summary": "im-mcp is a local, read-only Model Context Protocol (MCP) server written in Python. It is designed to read and decrypt local WeChat and DingTalk SQLite data, perform FTS5-based retrieval, and expose separate MCP tool entry points for each client.",
+    "last_updated": "2026-10-22"
+  },
+  "uv": {
+    "canonical_name": "uv",
+    "entity_type": "technology",
+    "summary": "UV (ultraviolet) image sensors are being developed for various space-borne astronomy missions, with a large range in maturity. Some systems have flown numerous times and continue to undergo refinements, while others are potentially breakthrough novel devices requiring further development.",
+    "last_updated": "2026-10-22"
+  },
+  "agentorchestrationstandard": {
+    "canonical_name": "agent-orchestration-standard",
+    "entity_type": "product",
+    "summary": "agent-orchestration-standard is an open-source AI agents skill for AI coding assistants such as Claude Code, Codex CLI, and ChatGPT, built by tomtomsatnav. It includes the AOS-1 agent orchestration spec and offers a live, local-first dashboard for Claude Code sessions featuring a project graph, toke",
+    "last_updated": "2026-10-22"
+  },
+  "aosorchestrator": {
+    "canonical_name": "aos-orchestrator",
+    "entity_type": "product",
+    "summary": "aos-orchestrator is an installable operating layer for Claude Code that plans, routes, and guards every prompt. It allows users to decompose requests into tasks, decide on workflow execution, and refuse to declare things complete without evidence, operating using only the Python standard library.",
+    "last_updated": "2026-10-22"
+  },
+  "zaferliu": {
+    "canonical_name": "Zafer-Liu",
+    "entity_type": "person",
+    "summary": "Zafer Liu is an AI product manager, business analyst, and AI tool builder who focuses on creating data-driven AI products, analytics agents, and workflow automation tools. His professional experience spans roles in interactive entertainment research, market analysis, business diagnostics, management",
+    "last_updated": "2026-10-22"
+  },
+  "xing4029ba4b": {
+    "canonical_name": "Xing4.0-29B-A4B",
+    "entity_type": "ai_model",
+    "summary": "Xing4.0-29B-A4B is a next-generation large language model in the Xing series developed by China Telecom Artificial Intelligence Technology Co., Ltd. It features 29 billion total parameters with only 4 billion activated per token, natively supports a 256K context length, and is an open-weight model a",
+    "last_updated": "2026-10-22"
   }
 }
