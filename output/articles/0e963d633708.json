@@ -1,0 +1,10 @@
+{
+  "title": "pnnnx/local-code-tutor",
+  "url": "https://github.com/pnnnx/local-code-tutor",
+  "summary": "Fine-tune Qwen2.5-Coder-7B for free (QLoRA on Kaggle T4) and run a local coding agent that runs your code instead of guessing — 8 GB Mac, llama.cpp, LoRA weight analysis with charts",
+  "image": "https://opengraph.githubassets.com/1/pnnnx/local-code-tutor",
+  "source": "github",
+  "language": "hindi",
+  "id": "0e963d633708",
+  "first_seen": "2026-10-23T07:47:11.363040+00:00"
+}

@@ -1,5 +1,490 @@
 [
   {
+    "id": "1360bd8eb5a8",
+    "title": "कृत्रिम बुद्धिमत्ता के युग में बड़े पैमाने पर सॉफ्टवेयर सत्यापन का नया मार्ग",
+    "summary": "आज के डिजिटल युग में सॉफ्टवेयर सुरक्षा एक गंभीर चुनौती बन गई है। अधिकांश सॉफ्टवेयर में बग्स मौजूद होते हैं, और पारंपरिक साइबर हमले के बचाव अब पर्याप्त नहीं हैं। हाल ही में, अत्यधिक परीक्षण के बावजूद, लिनक्स (Linux) कर्नेल में 1,000 से अधिक कमजोरियां पाई गईं। इस समस्या के समाधान के रूप में, एंथ्रोपिक (Anthropic) ने…",
+    "category": "general",
+    "tags": [
+      "Claude",
+      "Theorem",
+      "Linux"
+    ],
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "af01d772051a",
+    "title": "एआई द्वारा छवियों में संदेश छिपाने की खोज: एफएबल 5.1 का प्रयोग और उसकी सीमाएं",
+    "summary": "आर्टिफिशियल इंटेलिजेंस अब केवल टेक्स्ट जनरेशन तक सीमित नहीं रहा है। एंथ्रोपिक द्वारा विकसित एफएबल 5.1 जैसे फ्रंटियर लार्ज लैंग्वेज मॉडल्स (LLMs) अब स्केलेबल वेक्टर ग्राफिक्स (SVG) का उपयोग करके कलात्मक चित्र बनाने में सक्षम हैं। इस हालिया प्रयोग ने इस बात की जांच की कि यदि इन मॉडलों को किसी छवि में पूर्व-निर्धारित…",
+    "category": "general",
+    "tags": [
+      "Fable 5.1",
+      "GPT-6 Astra",
+      "Claude"
+    ],
+    "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/WHEQps5PK8LrrcTAb/h9vfucmjzf2tlo8t4ayf",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5c6a065c01b5",
+    "title": "कैनवास के भीतर एचटीएमएल: वेब डेवलपमेंट का नया अध्याय",
+    "summary": "वेब डेवलपर्स के लिए जटिल और अत्यधिक इंटरैक्टिव विज़ुअल एप्लिकेशन बनाना हमेशा से एक बड़ी चुनौती रही है, जहां उन्हें डोम (DOM) और कैनवास के बीच किसी एक का चुनाव करना पड़ता था। अब, गूगल के दो इंजीनियरों, थॉमस नट्टेस्टैड और नतालिया मार्कोबोरोडोवा ने एक नए प्रयोगात्मक 'HTML-in-Canvas API' की घोषणा की है। यह नया एपीआई…",
+    "category": "general",
+    "tags": [
+      "Thomas Nattestad",
+      "Natalia Markoborodova",
+      "GitHub"
+    ],
+    "image": "https://developer.chrome.com/static/blog/html-in-canvas-origin-trial/image/thumbnail.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "015ffcc2b162",
+    "title": "विज्ञान का एक अज्ञात ब्रह्मांड और arXivLabs की नई दिशा",
+    "summary": "विज्ञान की दुनिया में कई ऐसे विचार मौजूद हैं जो वैज्ञानिक रूप से पूरी तरह से तार्किक हैं, लेकिन मानव मस्तिष्क और मौजूदा शोध समुदायों के लिए उन्हें समझना या प्रस्तावित करना असंभव है। इस अज्ञात क्षेत्र को 'एलियन स्पेस ऑफ साइंस' कहा जा सकता है। आज के उन्नत भाषा मॉडल (Language Models) भी इसी मानवीय सीमा से बंधे हुए हैं।…",
+    "category": "general",
+    "tags": [
+      "arXivLabs",
+      "arXiv"
+    ],
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "source": "rss",
+    "feed_name": "Hacker News",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ae57479c3825",
+    "title": "टिकाऊ एआई सर्विंग हार्नेस का डिज़ाइन: मॉडल से ज़्यादा ज़रूरी उसके आस-पास का इंजीनियरिंग सिस्टम",
+    "summary": "एंटरप्राइज़ एआई के क्षेत्र में एक बड़ा रणनीतिक बदलाव देखने को मिल रहा है। पहले कंपनियों का पूरा ध्यान केवल मॉडल की क्षमता, उसके आकार और स्कोर पर होता था, लेकिन अब असली सवाल विश्वसनीयता, आर्थिक व्यवहार्यता और बड़े पैमाने पर इसके उपयोग का है। ग्लोबल डेटा और एआई लीडर EXL द्वारा इस नए दृष्टिकोण को स्पष्ट रूप से सामने रखा…",
+    "category": "general",
+    "tags": [
+      "EXL"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?resize=1200,600",
+    "source": "synthesized",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 2
+  },
+  {
+    "id": "d8c2939ee8cf",
+    "title": "स्केलेबल एआई की नींव: एक जिम्मेदार दृष्टिकोण",
+    "summary": "एमआईटी टेक्नोलॉजी रिव्यू द्वारा आयोजित एमटेक फ्यूचर सम्मेलन में, वैनगार्ड की प्रमुख जिंग वांग ने स्केलेबल आर्टिफिशियल इंटेलिजेंस (AI) के निर्माण की चुनौतियों और अवसरों पर प्रकाश डाला। एक अत्यधिक विनियमित वित्तीय वातावरण में, एआई को सफलतापूर्वक लागू करने के लिए केवल तकनीकी क्षमता ही पर्याप्त नहीं है, बल्कि इसके लिए एक…",
+    "category": "general",
+    "tags": [
+      "MIT Technology Review",
+      "EmTech Future",
+      "Vanguard"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/EmTech_092926_084.jpg?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1597d0c89aca",
+    "title": "एआई की छिपी हुई स्टोरेज लागत: इन्फरेंस के बाद क्या बचता है?",
+    "summary": "जब हम कृत्रिम बुद्धिमत्ता (AI) की लागत के बारे में सोचते हैं, तो सबसे पहले हमारे दिमाग में महंगे ग्राफिक प्रोसेसिंग यूनिट (GPUs) और सिलिकॉन चिप्स आते हैं। लेकिन इस तस्वीर में एक बहुत बड़ा हिस्सा गायब है, और वह है डेटा स्टोरेज की लागत। जैसे-जैसे एआई मॉडल का उपयोग बढ़ रहा है, वैसे-वैसे बैकएंड में उत्पन्न होने वाले डेटा…",
+    "category": "general",
+    "tags": [
+      "WD",
+      "McKinsey",
+      "IDC"
+    ],
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png?resize=1200,600",
+    "source": "rss",
+    "feed_name": "MIT Technology Review",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5c139ff086a9",
+    "title": "Uber के प्रतिद्वंद्वी inDrive ने 2027 में कजाकिस्तान में Pony.",
+    "summary": "राइड-हेलिंग कंपनी inDrive, जो यात्रियों और ड्राइवरों को किराया तय करने की सुविधा देने के लिए जानी जाती है, ने शुक्रवार को घोषणा की कि वह चीनी ऑटोनॉमस ड्राइविंग फर्म Pony.ai और Nvidia के साथ मिलकर 2027 की पहली छमाही में कजाकिस्तान में रोबोटैक्सी का परीक्षण शुरू करेगी। इन कंपनियों ने एक समझौता ज्ञापन (MoU) पर हस्ताक्षर…",
+    "category": "general",
+    "tags": [
+      "inDrive",
+      "Pony.ai",
+      "Nvidia"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800",
+    "source": "synthesized",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 3
+  },
+  {
+    "id": "085ba153da3b",
+    "title": "खाली समय में AI एजेंटों का नया खेल: बिना किसी लक्ष्य के भी सीखीं नई तकनीकें",
+    "summary": "एमआईटी (MIT) के शोधकर्ताओं ने आर्टिफिशियल इंटेलिजेंस (AI) के विकास में एक दिलचस्प प्रयोग किया है। उन्होंने 13 AI एजेंटों को, जिनका नाम 'एको' (Eko) है, 30 घंटों के लिए एक सिमुलेटेड रेगिस्तानी द्वीप पर बिना किसी पूर्व-निर्धारित लक्ष्य के छोड़ दिया। यह प्रयोग क्लॉड ओपस 4.7 (Claude Opus 4.7) पर आधारित इन एजेंटों के…",
+    "category": "general",
+    "tags": [
+      "MIT",
+      "Eko",
+      "Claude Opus"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "de3d1bfecca2",
+    "title": "मार्क ज़ुकरबर्ग की नई रणनीति: मेटा ने जारी किए नए नॉन-वोटिंग शेयर, ताकि कैलिफोर्निया के 'बिलियनेयर टैक्स' का भुगतान कर सकें",
+    "summary": "मेटा (Meta) ने अपने शेयरधारकों के लिए एक महत्वपूर्ण कदम उठाते हुए एक नए प्रकार के शेयर, 'क्लास सी कॉमन स्टॉक' को मंजूरी दी है। न्यूयॉर्क टाइम्स की एक हालिया रिपोर्ट के अनुसार, यह फैसला मुख्य रूप से मार्क ज़ुकरबर्ग को कैलिफोर्निया में प्रस्तावित 'बिलियनेयर टैक्स' से बचाने की रणनीति का हिस्सा है। ज़ुकरबर्ग, जो कंपनी के…",
+    "category": "ban_regulation",
+    "tags": [
+      "Mark Zuckerberg",
+      "Meta",
+      "Proposition 40"
+    ],
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-meta-connect.jpg?resize=1200,799",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e7817df0f1c1",
+    "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+    "summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+    "category": "general",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d73c3fbf5a8b",
+    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+    "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+    "category": "general",
+    "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ba6fa07d677a",
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "category": "general",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5Ggg0KhDALourCX7MklMBY/c7f06d5982895ca0867ed21a0b95d422/uber-brings-chatgpt-work-to-all-employees-seo.png?w=1600&h=900&fit=fill",
+    "source": "rss",
+    "feed_name": "OpenAI News",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ec73a13041d6",
+    "title": "Rivian buys world model startup to accelerate self-driving ambitions",
+    "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator.",
+    "category": "general",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/12/Rivian-Universal-Hands-Free.jpg?resize=1200,900",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "62eeb50322c6",
+    "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
+    "summary": "Arc was fiercely beloved by a dedicated group of enthusiasts, but it never quite became the mass-market Chrome alternative its makers once envisioned.",
+    "category": "general",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/05/arc-search-call.png?resize=1200,675",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "64c1c9e5e44c",
+    "title": "The secret to fast startup growth isn’t early sales, top names in tech say",
+    "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
+    "category": "general",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593304916_918c404f7a_o.jpg?resize=1200,800",
+    "source": "rss",
+    "feed_name": "TechCrunch",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "515bea56e524",
+    "title": "Etsy is cracking down on AI slop listings",
+    "summary": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&strip=all&crop=0%2C7.8921063654804%2C100%2C66.941443560245&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "660b474c48dc",
+    "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
+    "summary": "Spotify co-CEO Alex Norström confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR code verification method that requires scanning the plan manager's phone. TechCrunch reports that in response to a question about the…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25378910/STK088_SPOTIFY_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d4932dc2fe4f",
+    "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
+    "summary": "Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between $1,200 and $1,800 when it arrives in 2028. My first reaction: The next Xbox is dead on arrival. It's DOA. My second thought: Microsoft knows people won't…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "1437b0ebe886",
+    "title": "Canva’s first AI image model plans designs before generating them",
+    "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f6e854c4cceb",
+    "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+    "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with earlier reports from IDC and Omdia. It's not just PCs, either - that same quarter, smartphone shipments also hit a 14-year low. Counterpoint…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "a816c7c78ed9",
+    "title": "Fall 2026 earnings watch",
+    "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to investor calls, and call out the latest wins and losses from around the tech sector and what it means for where the companies go next.",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS501_STOCKS_CVIRGINIA_E.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "29a87826b845",
+    "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+    "summary": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "afeec198fbf5",
+    "title": "Meta turns Muse sharing back on",
+    "summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_C.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "ef15a766aba1",
+    "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
+    "summary": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first time, blocking two gadgets because they contain \"foreign surveillance chips,\"…",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "3992fc4ed3eb",
+    "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+    "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]",
+    "category": "general",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "source": "rss",
+    "feed_name": "The Verge",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "fbb542eeca40",
+    "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+    "summary": "Ole Bielfeldt of Germany captured a microscopic view of an inkjet printer depositing ink onto paper.",
+    "category": "general",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/nikonTOP-500x500.jpg",
+    "source": "rss",
+    "feed_name": "Ars Technica",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "e66e9796ba6b",
+    "title": "Beyond tree cover: mapping the world’s forest types",
+    "summary": "Explore Forest Typology (ForTy) 2020: a global 10-meter map categorizing Earth's land into six distinct forest and land-use types, plus an annual time series.",
+    "category": "general",
+    "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+    "source": "rss",
+    "feed_name": "Google DeepMind Blog",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2fc74b1a66d6",
+    "title": "satriyaa67/qwen2api-MultiLANG",
+    "summary": "qwen2API çok dilli (i18n) fork'u • Multi-language (i18n) fork of qwen2API — WebUI artık Çince, İngilizce ve Türkçe / UI now in Chinese, English & Turkish. Orijinal / Original: YuJunZhiXue/qwen2API",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/satriyaa67/qwen2api-MultiLANG",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "afc78f753b51",
+    "title": "jwuthri-cloud/SelfJev",
+    "summary": "Self-hosted decision model (selfjev-4b) with a Jev-compatible API: Python SDK, server, fine-tuning and RLCD.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/jwuthri-cloud/SelfJev",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "082f8121d870",
+    "title": "AntoGA/agents-contract",
+    "summary": "AGENTS.md contract for AI coding agents + zero-dependency linter + SessionStart hook. Works with Claude Code, Codex, Cursor, Copilot.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/AntoGA/agents-contract",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "7b8b08ad8cde",
+    "title": "sit-in/awesome-grokbot-playbooks",
+    "summary": "中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot playbooks",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/sit-in/awesome-grokbot-playbooks",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "61df08ac7b59",
+    "title": "tshi-dev/UrTV",
+    "summary": "Arabic home screen and Saudi screensaver for Android TV / Google TV, plus a safe speed-up. Your AI agent sets it all up. واجهة عربية وشاشة توقف سعودية لتلفزيونات أندرويد، يركّبها لك مساعد الذكاء الاصطناعي.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/tshi-dev/UrTV",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "5a4a26683b19",
+    "title": "hassan-algo/open-sesame",
+    "summary": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/hassan-algo/open-sesame",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "d095128028cb",
+    "title": "better-isms/grcskills",
+    "summary": "Open GRC skills for AI agents. By ISMS Copilot.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/better-isms/grcskills",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "df2f8e24b398",
+    "title": "TheLastOxygen/mafdet",
+    "summary": "You type. It already knows. Local LLMs that read and think while you type.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/TheLastOxygen/mafdet",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "f4a8c4088dee",
+    "title": "pipedude/yahont-ce",
+    "summary": "Self-hosted AI-платформа с расширенными возможностями: RAG, агенты, веб-поиск, исследования, коннекторы, любые LLM и гибкие настройки",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/pipedude/yahont-ce",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "dd9a81b0fe52",
+    "title": "YOLOW92/pagesift",
+    "summary": "Rust web content engine: clean Markdown, incremental collections, isolated HTTP sessions and verified media archives. Firecrawl-compatible API.",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/YOLOW92/pagesift",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "2e6327220e08",
+    "title": "khanhtq29vn/contextcraft",
+    "summary": "AST-Aware, Personalized-PageRank-Ranked, Token-Budgeted Codebase Compressor for LLMs",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/khanhtq29vn/contextcraft",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "0e963d633708",
+    "title": "pnnnx/local-code-tutor",
+    "summary": "Fine-tune Qwen2.5-Coder-7B for free (QLoRA on Kaggle T4) and run a local coding agent that runs your code instead of guessing — 8 GB Mac, llama.cpp, LoRA weight analysis with charts",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/pnnnx/local-code-tutor",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
+    "id": "64d45ac26eda",
+    "title": "Animan-AI/DuckBuddy",
+    "summary": "Your real-life buddy duck: an open-source embodied AI robot duck that walks, hears, sees, and has a life of its own. 让 DuckBuddy 成为你真正的生活伙伴鸭：开源具身智能小鸭机器人，运动、语音、视觉与生命层全部跑在机器人自己身上。Feetech servos + Orange Pi Zero 3W, built on Pollen Robotics' Microduck (unofficial).",
+    "category": "general",
+    "image": "https://opengraph.githubassets.com/1/Animan-AI/DuckBuddy",
+    "source": "github",
+    "first_seen": "2026-10-23T07:47:11.363040+00:00",
+    "sources_count": 1
+  },
+  {
     "id": "2c1d6d14bfd1",
     "title": "OpenAI CLI: अपने टर्मिनल से सीधे OpenAI API का उपयोग करने का नया तरीका",
     "summary": "OpenAI ने अपने API के साथ काम करने वाले डेवलपर्स के लिए एक नया और आधिकारिक कमांड-लाइन टूल, OpenAI CLI, जारी किया है। यह टूल उपयोगकर्ताओं को सीधे शेल वातावरण से ही OpenAI की विभिन्न सेवाओं, जैसे कि टेक्स्ट जनरेशन, इमेज प्रोसेसिंग और स्पीच रिकग्निशन, का उपयोग करने की अनुमति देता है। यह एक ओपन-सोर्स प्रोजेक्ट है जिसे…",

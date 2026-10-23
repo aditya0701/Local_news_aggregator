@@ -6071,8 +6071,8 @@
   "riscv": {
     "canonical_name": "RISC-V",
     "entity_type": "technology",
-    "summary": "RISC-V is an open-source instruction set architecture (ISA) used to develop custom processors for a variety of applications, from embedded designs to supercomputers. Unlike proprietary architectures, it is open-source and was originally developed at the University of California, Berkeley.",
-    "last_updated": "2026-07-12"
+    "summary": "RISC-V is an open-source computing architecture that is paving the way for a new era of technology. The technology is characterized by its underlying principles, technical aspects, and ongoing evolution, which are explored alongside its limitations and future prospects.",
+    "last_updated": "2026-10-23"
   },
   "rv32imc": {
     "canonical_name": "RV32IMC",
@@ -9734,8 +9734,8 @@
   "colossal biosciences": {
     "canonical_name": "Colossal Biosciences",
     "entity_type": "company",
-    "summary": "Colossal Biosciences is a genetics and biosciences company founded by Ben Lamm and geneticist George Church. The company is led by CEO Ben Lamm and focuses on combining the science of genetics with the business of discovery to reawaken lost species and advance the economies of biology.",
-    "last_updated": "2026-07-21"
+    "summary": "Ben Lamm is the Co-Founder and CEO Of Colossal Biosciences, the world’s first de-extinction company. He is a serial technology entrepreneur driven to solve the most complex challenges facing our planet. For over two decades, Ben has built disruptive businesses that future-proof our world. At Colossa",
+    "last_updated": "2026-10-23"
   },
   "ben lamm": {
     "canonical_name": "Ben Lamm",
@@ -23752,5 +23752,71 @@
     "entity_type": "ai_model",
     "summary": "Xing4.0-29B-A4B is a next-generation large language model in the Xing series developed by China Telecom Artificial Intelligence Technology Co., Ltd. It features 29 billion total parameters with only 4 billion activated per token, natively supports a 256K context length, and is an open-weight model a",
     "last_updated": "2026-10-22"
+  },
+  "theorem": {
+    "canonical_name": "Theorem",
+    "entity_type": "organization",
+    "summary": "Theorem is an organization that focuses on finding and attracting top talent to support its operations. It has been active in the market since 2014, having priced and purchased billions of dollars in loan volume through its investment programs.",
+    "last_updated": "2026-10-23"
+  },
+  "thomas nattestad": {
+    "canonical_name": "Thomas Nattestad",
+    "entity_type": "person",
+    "summary": "Thomas Nattestad is a Product Manager at Google who is based in Needham, Massachusetts. He attended the Franklin W. Olin College of Engineering.",
+    "last_updated": "2026-10-23"
+  },
+  "exl": {
+    "canonical_name": "EXL",
+    "entity_type": "company",
+    "summary": "EXL is a global leader in data and AI with over 25 years of expertise in business process services, helping enterprises transform. The company focuses on redefining possibilities for its clients through data intelligence and various AI applications.",
+    "last_updated": "2026-10-23"
+  },
+  "jing wang": {
+    "canonical_name": "Jing Wang",
+    "entity_type": "person",
+    "summary": "Jing Wang is an Assistant Professor whose research lies in the intersection among global communication, technology, and culture. She specializes in the anthropology of Islam, race & ethnicity, gender and feminist studies, and digital studies such as online forums and podcasts.",
+    "last_updated": "2026-10-23"
+  },
+  "mckinsey": {
+    "canonical_name": "McKinsey",
+    "entity_type": "organization",
+    "summary": "McKinsey & Company has a long history of helping communities and nurturing talent. In 2020, the firm made a 10-year, $2 billion commitment to social responsibility, focusing on growing economic opportunity for all.",
+    "last_updated": "2026-10-23"
+  },
+  "idc": {
+    "canonical_name": "IDC",
+    "entity_type": "organization",
+    "summary": "IDC is a provider of technology intelligence that has served as a source of truth for global leaders for over 60 years. The organization leverages rigorous methodologies, proprietary datasets, and expert analysts to deliver trusted intelligence that is integrated into modern workflows.",
+    "last_updated": "2026-10-23"
+  },
+  "ai inference": {
+    "canonical_name": "AI inference",
+    "entity_type": "technology",
+    "summary": "AI inference is the process of using a trained AI model to make predictions or generate outputs when processing new data. It encompasses any real-world instance where an artificial intelligence model applies learned patterns to make decisions.",
+    "last_updated": "2026-10-23"
+  },
+  "indrive": {
+    "canonical_name": "inDrive",
+    "entity_type": "company",
+    "summary": "inDrive began as a grassroots movement opposing unfair taxi pricing and has since expanded into a global platform. It is led by CEO and founder Arsen, who oversees a global team of nearly 3,000 employees dedicated to fair-pay income opportunities and increasing social mobility.",
+    "last_updated": "2026-10-23"
+  },
+  "yuri misnik": {
+    "canonical_name": "Yuri Misnik",
+    "entity_type": "person",
+    "summary": "Yuri Misnik is the Global Head of Digital Platforms at HSBC, where he drives technology definition, architecture, implementation, and innovation of retail digital capabilities. He previously served as Chief Technology Officer at inDrive, Managing Director of Information Technology at HSBC, and joine",
+    "last_updated": "2026-10-23"
+  },
+  "proposition 40": {
+    "canonical_name": "Proposition 40",
+    "entity_type": "regulation",
+    "summary": "Proposition 40 is California's billionaire wealth tax proposal. It would authorize a one-time, 5% wealth tax on state residents with a net worth above $1 billion.",
+    "last_updated": "2026-10-23"
+  },
+  "warhound": {
+    "canonical_name": "Warhound",
+    "entity_type": "company",
+    "summary": "A new breed of dominance [ WRHND ] For generations, working dogs have protected America’s police officers, firefighters, search-and-rescue teams, and warfighters. Warhound is developing technology to advance their health, safety, and performance, combining licensed technology from Colossal Bioscienc",
+    "last_updated": "2026-10-23"
   }
 }

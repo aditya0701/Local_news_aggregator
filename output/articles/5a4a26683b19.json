@@ -1,0 +1,10 @@
+{
+  "title": "hassan-algo/open-sesame",
+  "url": "https://github.com/hassan-algo/open-sesame",
+  "summary": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
+  "image": "https://opengraph.githubassets.com/1/hassan-algo/open-sesame",
+  "source": "github",
+  "language": "hindi",
+  "id": "5a4a26683b19",
+  "first_seen": "2026-10-23T07:47:11.363040+00:00"
+}
