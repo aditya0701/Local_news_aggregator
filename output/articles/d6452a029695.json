@@ -1,0 +1,12 @@
+{
+  "title": "Twelve years of distributed SQLite",
+  "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+  "summary": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
+  "image": "",
+  "published": "Sat, 24 Oct 2026 01:16:58 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "d6452a029695",
+  "first_seen": "2026-10-24T07:28:18.871549+00:00"
+}

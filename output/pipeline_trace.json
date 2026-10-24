@@ -1,593 +1,170 @@
 [
   {
-    "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-    "title": "Docker is weird",
-    "outcome": "skipped_not_tech_news",
+    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+    "title": "OBS Studio 33",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2537,
-      "source_preview": "I decided to make my own container runtime for fun, and even though Iâm still early on, Iâve learned that Docker is weird . Hereâs some weird things I learned about Docker. Unlike VMs, containers are just processes with special restrictions on them. Your kernel is still running that process! And if you know where to look, you can even find that process in /proc. Thereâs not really a linux ",
+      "scraped_chars": 268,
+      "source_preview": "Sorry, something went wrong. There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page .",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
       "translated_to_english": false
     },
-    "stage1": {
-      "skip": true,
-      "skip_reason": "This article is a personal reflection and technical deep-dive into the inner workings of Docker and Linux containers, rather than a report on a specific tech news event like an announcement, acquisition, or launch."
-    }
-  },
-  {
-    "url": "https://www.anthropic.com/research/formal-verification",
-    "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Published Oct 22, 2026 Team Frontier Red Team Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit . The standard defenses against cyberattacks ar",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [
-        "Theorem formal verification software tools",
-        "formal verification assembly code level vs high level source code"
-      ],
-      "entities": [
-        {
-          "name": "Claude",
-          "type": "ai_model"
-        },
-        {
-          "name": "Theorem",
-          "type": "organization"
-        },
-        {
-          "name": "Linux",
-          "type": "product"
-        },
-        {
-          "name": "RISC-V",
-          "type": "technology"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "This is a research announcement detailing a large-scale application of AI (Claude) to formal software verification, which is a core computing and AI development story."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "Claude",
-          "preview": "Claude is a family of state-of-the-art large language models developed by Anthro"
-        },
-        {
-          "name": "Linux",
-          "preview": "Linux is a widely used operating system that powers devices ranging from smartph"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Theorem",
-          "type": "organization"
-        },
-        {
-          "name": "RISC-V",
-          "type": "technology"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Theorem\" organization overview",
-        "\"RISC-V\" technology overview"
-      ],
-      "context_queries": [
-        "Theorem formal verification software tools",
-        "formal verification assembly code level vs high level source code"
-      ],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Theorem": "Theorem is an organization that focuses on finding and attracting top talent to support its operations. It has been active in the market since 2014, having priced and purchased billions of dollars in loan volume through its investment programs.",
-        "RISC-V": "RISC-V is an open-source computing architecture that is paving the way for a new era of technology. The technology is characterized by its underlying principles, technical aspects, and ongoing evolution, which are explored alongside its limitations and future prospects.",
-        "Theorem formal verification software tools": "The provided material did not address the specific formal verification software tools offered by Theorem.",
-        "formal verification assembly code level vs high level source code": "The provided material did not directly compare formal verification at the assembly code level versus the high-level source code level."
-      }
-    },
-    "synthesis": {
-      "\"Theorem\" organization overview": "Theorem is an organization that focuses on finding and attracting top talent to support its operations. It has been active in the market since 2014, having priced and purchased billions of dollars in loan volume through its investment programs.",
-      "\"RISC-V\" technology overview": "RISC-V is an open-source computing architecture that is paving the way for a new era of technology. The technology is characterized by its underlying principles, technical aspects, and ongoing evolution, which are explored alongside its limitations and future prospects.",
-      "Theorem formal verification software tools": "The provided material did not address the specific formal verification software tools offered by Theorem.",
-      "formal verification assembly code level vs high level source code": "The provided material did not directly compare formal verification at the assembly code level versus the high-level source code level."
-    },
-    "cache_updates": [
-      {
-        "name": "Theorem",
-        "type": "organization",
-        "chars_stored": 244
-      },
-      {
-        "name": "RISC-V",
-        "type": "technology",
-        "chars_stored": 270
-      }
-    ],
-    "entity_context_preview": "Claude: Claude is a family of state-of-the-art large language models developed by Anthropic. The models support text and image input, text output, multilingual capabilities, vision, and tool use, with Claude Opus 5 recommended for most workloads.\n\nLinux: Linux is a widely used operating system that powers devices ranging from smartphones to supercomputers, home appliances, and enterprise servers. Originally developed in the mid-1990s, it has grown into one of the most popular platforms globally, with Android being one of its most prominent implement\n\n[Theorem formal verification software tools",
-    "stage2": {
-      "core_narrative": "The article explores how large language models (LLMs) like Claude are revolutionizing formal software verification, making it possible to mathematically prove the security of massive, real-world software projects without the years of manual expert effort traditionally required.",
-      "key_facts_and_quotes": "The collaboration with Theorem used Claude to prove security properties at the assembly code (RISC-V) level in over 100 real-world open-source libraries; this is the first large-scale effort to use AI to apply formal verification to production software at the assembly code level. Claude found bugs that had eluded detection for years, despite trillions of test runs. The Linux kernel recently had over 1,000 vulnerabilities disclosed despite being one of the most well-tested pieces of software, highlighting that standard defenses against cyberattacks are no longer sufficient.",
-      "disambiguation_targets": "Formal software verification (गणितीय रूप से यह साबित करना कि कोड में कोई बग या खामी नहीं है), assembly code level (मशीन-स्तर या सबसे बुनियादी कोड स्तर जिस पर सीधे हार्डवेयर काम करता है), and high-level source code (प्रोग्रामर द्वारा लिखा गया मूल, आसानी से पढ़ा जा सकने वाला कोड).",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Start with the fundamental problem of modern software security: the sheer volume of bugs in code, the inadequacy of traditional cyberattack defenses, and the recent example of the Linux kernel which, despite being tested on billions of devices, recently had over 1,000 vulnerabilities disclosed. The tone should be urgent and alarming, establishing why the current state of software is fragile.",
-        "Para 2: Introduce the traditional solution, formal software verification, and explain why it has historically been impractical for real-world projects, requiring years of expert effort to mathematically prove that code is bug-free. The tone should be explanatory, setting up the historical barrier that needed to be overcome.",
-        "Para 3: Describe the breakthrough collaboration with Theorem and how they used Claude to prove security properties at the assembly code (RISC-V) level in over 100 real-world open-source software libraries, highlighting that this is the first large-scale effort to use AI to apply formal verification to production software at this specific level. The tone should be innovative and highly technical, focusing on the scale of the achievement.",
-        "Para 4: Detail the unexpected and highly valuable byproduct of the project: while writing the proofs, Claude discovered bugs that had eluded detection for years, despite those projects having undergone trillions of test runs. The tone should be one of awe and surprise at the AI's discovery capabilities.",
-        "Para 5: Conclude with the future outlook: as frontier models continue to improve their ability to chain seemingly benign bugs into critical exploits, formal verification is expected to become an essential part of secure software development, enabling new workflows that include proven security guarantees."
-      ]
-    },
-    "stage3": {
-      "title": "कृत्रिम बुद्धिमत्ता के युग में बड़े पैमाने पर सॉफ्टवेयर सत्यापन का नया मार्ग",
-      "concept_box": "बड़े भाषा मॉडल (LLMs) अब बड़े पैमाने पर सॉफ्टवेयर की सुरक्षा को सत्यापित करने में सक्षम हो गए हैं। यह विकास सॉफ्टवेयर सुरक्षा के क्षेत्र में एक महत्वपूर्ण बदलाव लाता है, जिससे डेवलपर्स को कोड में मौजूद खामियों को गणितीय रूप से साबित करने का एक नया और प्रभावी तरीका मिलता है।",
-      "introduction_lede": "आज के डिजिटल युग में सॉफ्टवेयर सुरक्षा एक गंभीर चुनौती बन गई है। अधिकांश सॉफ्टवेयर में बग्स मौजूद होते हैं, और पारंपरिक साइबर हमले के बचाव अब पर्याप्त नहीं हैं। हाल ही में, अत्यधिक परीक्षण के बावजूद, लिनक्स (Linux) कर्नेल में 1,000 से अधिक कमजोरियां पाई गईं। इस समस्या के समाधान के रूप में, एंथ्रोपिक (Anthropic) ने थियोरम (Theorem) के साथ मिलकर एक नई तकनीक पेश की है, जो बड़े भाषा मॉडल (LLMs) का उपयोग करके बड़े पैमाने पर औपचारिक सत्यापन (formal verification) की प्रक्रिया को व्यावहारिक बनाती है।",
-      "deep_dive_and_context": "पारंपरिक रूप से, औपचारिक सॉफ्टवेयर सत्यापन एक अत्यधिक जटिल और समय लेने वाली प्रक्रिया रही है। इस तकनीक में डेवलपर्स अपने कोड को एक गणितीय मॉडल में बदलते हैं और यह साबित करने का प्रयास करते हैं कि यह हमेशा सुरक्षा नियमों का पालन करता है। यदि प्रमाण विफल हो जाता है, तो यह कोड में मौजूद किसी बग का संकेत देता है। हालांकि, इस प्रक्रिया के लिए वर्षों के विशेषज्ञ प्रयास की आवश्यकता होती है, जिससे इसे अधिकांश वास्तविक दुनिया की परियोजनाओं के लिए अव्यावहारिक बना दिया गया है।\n\nहाल ही में, एंथ्रोपिक ने थियोरम के साथ एक अभूतपूर्व सहयोग किया है, जिसने इस ऐतिहासिक बाधा को तोड़ दिया है। शोधकर्ताओं ने 'क्लॉड' (Claude) नामक बड़े भाषा मॉडल का उपयोग करके असेंबली कोड (RISC-V) के स्तर पर 100 से अधिक वास्तविक दुनिया की ओपन-सोर्स सॉफ्टवेयर लाइब्रेरी के लिए सुरक्षा गुणों को साबित किया। शोधकर्ताओं के अनुसार, यह असेंबली कोड के स्तर पर उत्पादन सॉफ्टवेयर पर कृत्रिम बुद्धिमत्ता का उपयोग करके बड़े पैमाने पर औपचारिक सत्यापन लागू करने का पहला प्रयास है।\n\nइस परियोजना का एक अप्रत्याशित और अत्यधिक मूल्यवान परिणाम भी सामने आया। प्रमाण लिखते समय, क्लॉड ने ऐसे बग्स की खोज की जो वर्षों से पकड़ में नहीं आ पाए थे, भले ही उन परियोजनाओं ने ट्रिलियन परीक्षण रन किए हों। यह खोज दर्शाती है कि एआई न केवल कोड को सत्यापित कर सकता है, बल्कि उन छिपी हुई खामियों को भी उजागर कर सकता है जो पारंपरिक परीक्षण विधियों से बच गई थीं। यह क्षमता सॉफ्टवेयर इंजीनियरिंग और सुरक्षा के क्षेत्र में एक नई संभावना खोलती है।\n\nजैसे-जैसे सीमावर्ती मॉडल (frontier models) अधिक सक्षम होते जा रहे हैं, वे प्रतीत होने वाले मामूली बग्स को गंभीर सुरक्षा खामियों में बदलने में सक्षम हो सकते हैं। इस संदर्भ में, औपचारिक सत्यापन सुरक्षित सॉफ्टवेयर विकास का एक अनिवार्य हिस्सा बनने की उम्मीद है। यह तकनीक डेवलपर्स को ऐसे नए वर्कफ़्लो प्रदान करती है जिनमें सिद्ध सुरक्षा गारंटी शामिल होती है, जिससे भविष्य के सॉफ्टवेयर अधिक सुरक्षित और विश्वसनीय बन सकते हैं।",
-      "strategic_analysis": "यह विकास सॉफ्टवेयर उद्योग के लिए एक महत्वपूर्ण मोड़ साबित हो सकता है। विशेषज्ञों का मानना है कि यह एक वास्तविक बदलाव है, न कि केवल एक मामूली सुधार। हालांकि, इस तकनीक की कुछ सीमाएं भी हैं। वर्तमान में, यह प्रक्रिया अभी भी पूरी तरह से स्वचालित नहीं है और इसमें मानवीय विशेषज्ञता की आवश्यकता होती है। फिर भी, यह संकेत देता है कि भविष्य में सॉफ्टवेयर विकास अधिक सुरक्षित हो सकता है। इसका संभावित प्रभाव यह है कि सुरक्षा को बाद में सोचने के बजाय, विकास प्रक्रिया के शुरुआती चरण में ही शामिल किया जाएगा।",
-      "conclusion_and_significance": "एआई-संचालित औपचारिक सत्यापन सॉफ्टवेयर सुरक्षा के लिए एक नया युग लेकर आया है। यह तकनीक न केवल कोड की विश्वसनीयता बढ़ाती है, बल्कि लंबे समय से छिपी हुई खामियों को भी उजागर करती है। यह सुनिश्चित करने की दिशा में एक महत्वपूर्ण कदम है कि हमारा डिजिटल बुनियादी ढांचा अधिक सुरक्षित और मजबूत हो।"
-    }
-  },
-  {
-    "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
-    "title": "How does Fable 5.1 hide messages in images?",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Frontier LLMs are now capable of generating artistic images using SVG. We ask – if these LLMs had to hide a message in an image – how would they do so? And if they hid such messages, could they be successfully decoded? We show interesting results from testing Fable 5.1 on these questions, and briefly compare with GPT-6 Astra on the same task. Figure 1: The stars encode a message, read left to righ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "Fable 5.1",
-          "type": "ai_model"
-        },
-        {
-          "name": "GPT-6 Astra",
-          "type": "ai_model"
-        },
-        {
-          "name": "Claude",
-          "type": "product"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article is a research-based experiment exploring how a frontier LLM (Claude Fable 5.1) generates SVG images and hides/decodes messages within them, which is a genuine AI and software development topic."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "Fable 5.1",
-          "preview": "Claude Fable 5.1 is designed for demanding reasoning and long-horizon agentic wo"
-        },
-        {
-          "name": "GPT-6 Astra",
-          "preview": "GPT-6 Astra is described as the world's most intelligent and aligned model, deve"
-        },
-        {
-          "name": "Claude",
-          "preview": "Claude is a family of state-of-the-art large language models developed by Anthro"
-        }
-      ],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "Fable 5.1: Claude Fable 5.1 is designed for demanding reasoning and long-horizon agentic work, extending the capabilities of Claude Fable 5. It supports stronger long-running agentic coding, multistep research, and document, spreadsheet, and slide work at the same input and output prices as Claude Fable 5.\n\nGPT-6 Astra: GPT-6 Astra is described as the world's most intelligent and aligned model, developed by OpenAI. It integrates advancements from pre-training, reinforcement learning, and alignment research to deliver state-of-the-art capabilities across computer use, browsing, software enginee",
-    "stage2": {
-      "core_narrative": "Frontier AI models like Claude Fable 5.1 can now hide complex messages in SVG images, but they struggle to decode their own hidden messages, revealing a fascinating gap in artificial reasoning.",
-      "key_facts_and_quotes": "Claude Fable 5.1 was tested at maximum reasoning effort to hide 50 short messages in SVG images, where another Fable instance had to decode them. 33 out of 50 images used the same encoding style: the height of objects (like buildings or stars). The model surprisingly converged on a few encoding styles, such as heights of buildings or the tilt of objects. Out of 5 generated images, only the UTF-8 fill-colours image was not decoded. The hidden message in the example image is: \"The monster acts on the moonshine module\". Fable 5.1 was briefly compared with GPT-6 Astra on the same task.",
-      "disambiguation_targets": "SVG (Scalable Vector Graphics - एक XML आधारित इमेज फॉर्मेट जो कोड से बनता है), LLM (Large Language Model - एक बड़ा आर्टिफिशियल इंटेलिजेंस मॉडल जो इंसानी भाषा समझता है), and UTF-8 (एक कंप्यूटर कोडिंग स्टैंडर्ड जिसका इस्तेमाल टेक्स्ट को डिजिटल रूप में दिखाने के लिए होता है).",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Start by introducing the broader context: Frontier LLMs are now capable of generating artistic images, specifically using SVG (Scalable Vector Graphics), which is a code-based image format. Mention that Claude Fable 5.1 was used for this task, which is designed for demanding reasoning and long-horizon agentic work, and briefly contrast it with GPT-6 Astra. Tone should be introductory and fascinating, setting up the premise that AI is moving beyond simple text generation into complex visual creation.",
-        "Para 2: Explain the core experiment: Prompt Fable 5.1 at maximum reasoning effort to generate 50 SVG images hiding pre-specified messages. Then, provide these images to a new Fable instance and ask it to decode the message without seeing the source code. Mention the underlying tension of whether the AI can successfully read its own hidden thoughts, and cite the specific hidden message example: \"The monster acts on the moonshine module\".",
-        "Para 3: Detail the surprising results: The AI model converged on a few specific encoding styles, all representing letters as individual visual elements. State that 33 out of 50 images used the exact same encoding style—the height of objects (like buildings or stars). Mention the other discovered families, such as the tilt of objects, and note that the model had full control over every attribute of the image, including shape, width, colour, and rotation.",
-        "Para 4: Analyze the decoding failures and limitations: Out of the 5 generated images highlighted in the research, only the UTF-8 fill-colours image was not decoded by the new Fable instance. Emphasize that this proves a significant gap in the AI's self-reasoning and visual decoding capabilities. Conclude by stating that while these models can create intricate visual art and steganography, they currently lack the advance"
-      ]
-    },
-    "stage3": {
-      "title": "एआई द्वारा छवियों में संदेश छिपाने की खोज: एफएबल 5.1 का प्रयोग और उसकी सीमाएं",
-      "concept_box": "एआई मॉडल अब केवल टेक्स्ट तक सीमित नहीं हैं; वे जटिल SVG चित्र बना सकते हैं। शोधकर्ताओं ने एफएबल 5.1 का उपयोग करके यह परीक्षण किया कि क्या कोई एआई अपनी बनाई गई छवि में संदेश छिपा सकता है और क्या दूसरा एआई उसे डिकोड कर सकता है। यह प्रयोग एआई की स्व-तर्क (self-reasoning) और दृश्य डिकोडिंग क्षमताओं की सीमाओं को उजागर करता है।",
-      "introduction_lede": "आर्टिफिशियल इंटेलिजेंस अब केवल टेक्स्ट जनरेशन तक सीमित नहीं रहा है। एंथ्रोपिक द्वारा विकसित एफएबल 5.1 जैसे फ्रंटियर लार्ज लैंग्वेज मॉडल्स (LLMs) अब स्केलेबल वेक्टर ग्राफिक्स (SVG) का उपयोग करके कलात्मक चित्र बनाने में सक्षम हैं। इस हालिया प्रयोग ने इस बात की जांच की कि यदि इन मॉडलों को किसी छवि में पूर्व-निर्धारित संदेश छिपाने का काम दिया जाए, तो वे क्या करेंगे। इसके साथ ही, यह भी देखा गया कि क्या एक नया एआई इंस्टेंस उस संदेश को डिकोड कर पाएगा। इस परीक्षण ने ओपेनएआई के जीपीटी-6 एस्ट्रा जैसे अन्य उन्नत मॉडलों के साथ भी तुलना की, जो कंप्यूटर उपयोग और सॉफ्टवेयर इंजीनियरिंग जैसे कार्यों के लिए जाने जाते हैं। यह प्रयोग इस बात का संकेत देता है कि एआई जटिल दृश्य निर्माण की ओर बढ़ रहा है, लेकिन इसमें अभी भी कई तकनीकी सीमाएं मौजूद हैं।",
-      "deep_dive_and_context": "शोधकर्ताओं ने एफएबल 5.1 को अधिकतम तर्क प्रयास (maximum reasoning effort) पर 50 छोटे संदेशों को SVG छवियों में छिपाने का निर्देश दिया। इस कार्य के लिए मॉडल को परफ्यूजन तकनीक का उपयोग करते हुए आंख की धमनी के माध्यम से ऑक्सीजन युक्त तरल पहुँचाने जैसी जटिल प्रक्रियाओं को कोड के रूप में दर्शाने को कहा गया। इसके बाद, एक नए सत्र में एक अन्य एफएबल इंस्टेंस को ये 50 छवियां दी गईं और उसे यह पता लगाने के लिए कहा गया कि क्या किसी छवि में कोई छिपे हुए संदेश हैं और यदि हां, तो वे क्या हैं। इस प्रयोग का मुख्य उद्देश्य यह समझना था कि क्या कोई एआई अपने स्वयं के विचारों या कोड को एक दृश्य रूप में छिपाकर पढ़ सकता है।\n\nपरिणाम आश्चर्यजनक रहे। एफएबल मॉडल ने संदेश छिपाने के लिए केवल कुछ विशिष्ट एन्कोडिंग शैलियों (encoding styles) का चयन किया, जिनमें से सभी अक्षरों को व्यक्तिगत दृश्य तत्वों के रूप में दर्शाती थीं। शोध के अनुसार, 50 में से 33 छवियों में बिल्कुल एक ही एन्कोडिंग शैली का उपयोग किया गया था: वस्तुओं की ऊंचाई (जैसे इमारतों या तारों की ऊंचाई)। इस शैली में, प्रत्येक अक्षर को वर्णमाला में उसकी स्थिति के अनुसार ऊंचाई दी गई, जहाँ लंबे आकार बाद के अक्षरों को दर्शाते थे। मॉडल के पास छवि के हर एक attribute पर पूरा नियंत्रण था, जिसमें आकार, चौड़ाई, रंग और रोटेशन शामिल थे।\n\nकेवल ऊंचाई के अलावा, मॉडल ने अन्य एन्कोडिंग परिवारों की भी खोज की, जैसे कि वस्तुओं का झुकाव (tilt)। हालांकि, यह स्पष्ट था कि मॉडल ने इन दृश्य तत्वों को छिपाने के लिए किसी पूर्व-निर्धारित योजना का उपयोग नहीं किया था, बल्कि उसने अपने तर्क के आधार पर इन शैलियों को स्वतः विकसित किया था। यह इस बात को रेखांकित करता है कि एआई की रचनात्मक प्रक्रिया कितनी अप्रत्याशित हो सकती है।\n\nडिकोडिंग प्रक्रिया में भी महत्वपूर्ण सीमाएं सामने आईं। शोधकर्ताओं ने 5 विशिष्ट उत्पन्न छवियों का विश्लेषण किया। इन 5 छवियों में से, केवल UTF-8 फिल-कलर (fill-colours) छवि को नए एफएबल इंस्टेंस द्वारा डिकोड नहीं किया जा सका। यह विफलता एआई की स्व-तर्क और दृश्य डिकोडिंग क्षमताओं में एक महत्वपूर्ण अंतर को साबित करती है। यह दर्शाता है कि यद्यपि ये मॉडल जटिल दृश्य कला और स्टेगनोग्राफी (steganography) का निर्माण कर सकते हैं, लेकिन वे वर्तमान में उन्नत स्व-विश्लेषण के लिए आवश्यक गहराई की कमी रखते हैं।",
-      "strategic_analysis": "यह प्रयोग एआई की रचनात्मकता और उसकी तार्किक सीमाओं के बीच के जटिल संबंध को उजागर करता है। विशेषज्ञों के अनुसार, यह एक महत्वपूर्ण कदम है जो यह दर्शाता है कि एआई केवल एक उपकरण नहीं रह गया है, बल्कि वह एक स्वतंत्र निर्माता के रूप में उभर रहा है। हालांकि, यह भी स्पष्ट है कि एआई की अपनी बनाई गई सामग्री को समझने की क्षमता अभी भी अपरिपक्व है। यह संकेत देता है कि भविष्य में एआई को अधिक उन्नत विजन-लैंग्वेज मॉडल के साथ एकीकृत करने की आवश्यकता होगी, ताकि वह अपने द्वारा बनाए गए दृश्यों को पूरी तरह से समझ सके।",
-      "conclusion_and_significance": "एफएबल 5.1 का यह प्रयोग यह साबित करता है कि एआई अब जटिल दृश्य कला के निर्माण में सक्षम है, लेकिन अपनी ही छिपी हुई जानकारी को डिकोड करने में वह अभी भी संघर्ष करता है। यह एक स्पष्ट अनुस्मारक है कि एआई की रचनात्मक क्षमताएं अभी भी मानव जैसी समझ से बहुत दूर हैं।"
-    }
-  },
-  {
-    "url": "https://developer.chrome.com/blog/html-in-canvas-origin-trial",
-    "title": "The HTML-in-Canvas API origin trial",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Thomas Nattestad X Natalia Markoborodova X GitHub LinkedIn Bluesky For years, web developers have had to make a tough architectural choice when building complex, highly-interactive visual applications on the web/ Should you lean on the DOM for its rich semantic features or render directly to the <canvas> element for low-level graphics performance? With the new experimental HTML-in-Canvas API —avai",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "Thomas Nattestad",
-          "type": "person"
-        },
-        {
-          "name": "Natalia Markoborodova",
-          "type": "person"
-        },
-        {
-          "name": "GitHub",
-          "type": "organization"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article reports on the experimental HTML-in-Canvas origin trial in Chrome, which is a significant announcement about a new web technology and browser feature."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "GitHub",
-          "preview": "GitHub is a platform where people build software, used by over 150 million peopl"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Thomas Nattestad",
-          "type": "person"
-        },
-        {
-          "name": "Natalia Markoborodova",
-          "type": "person"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Thomas Nattestad\" person overview",
-        "\"Natalia Markoborodova\" person overview"
-      ],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Thomas Nattestad": "Thomas Nattestad is a Product Manager at Google who is based in Needham, Massachusetts. He attended the Franklin W. Olin College of Engineering.",
-        "Natalia Markoborodova": ""
-      }
-    },
-    "synthesis": {
-      "\"Thomas Nattestad\" person overview": "Thomas Nattestad is a Product Manager at Google who is based in Needham, Massachusetts. He attended the Franklin W. Olin College of Engineering."
-    },
-    "cache_updates": [
-      {
-        "name": "Thomas Nattestad",
-        "type": "person",
-        "chars_stored": 144
-      }
-    ],
-    "entity_context_preview": "GitHub: GitHub is a platform where people build software, used by over 150 million people to discover, fork, and contribute to over 420 million projects. It provides tools for seamless collaboration and allows users to access their work on-the-go through GitHub Desktop and GitHub Mobile.\n\nThomas Nattestad: Thomas Nattestad is a Product Manager at Google who is based in Needham, Massachusetts. He attended the Franklin W. Olin College of Engineering.",
-    "stage2": {
-      "core_narrative": "For years, web developers have been forced to choose between the DOM's rich semantic features and Canvas's low-level graphics performance, but Chrome's new HTML-in-Canvas origin trial finally bridges this architectural divide.",
-      "key_facts_and_quotes": "The new experimental HTML-in-Canvas API is available now in Chrome's origin trial. The source text is authored by Thomas Nattestad (Product Manager at Google, based in Needham, Massachusetts, who attended the Franklin W. Olin College of Engineering) and Natalia Markoborodova. The source text is published on GitHub. GitHub is a platform where people build software, used by over 150 million people to discover, fork, and contribute to over 420 million projects, and provides tools for seamless collaboration. The HTML-in-Canvas API lets you draw DOM content directly into a 2D canvas or a WebGL/WebGPU texture while keeping the UI interactable, accessible, and hooked up to your favorite browser features.",
-      "disambiguation_targets": "Canvas, DOM (Document Object Model), WebGL, WebGPU, and origin trial.",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Start by introducing the fundamental architectural dilemma that web developers face when building complex visual applications on the web, specifically the choice between the DOM and the Canvas.",
-        "Para 2: Explain the inherent strengths of the DOM, highlighting its rich semantic features, out-of-the-box text layout, and seamless integration with essential browser features like accessibility tools, dark mode, autofill, and right-click functionalities.",
-        "Para 3: Contrast the DOM's capabilities with the raw performance of Canvas and WebGL/WebGPU, explaining why applications like Google Docs or Figma require low-level access to drive a grid of pixels, which previously necessitated complex custom UI logic for responsive text.",
-        "Para 4: Detail the limitations of the Canvas, specifically how its static pixel grid causes all the powerful browser features integrated into the DOM to break completely.",
-        "Para 5: Introduce the HTML-in-Canvas API as the ultimate bridge that combines HTML with low-level graphics processing, allowing developers to draw DOM content directly into a 2D canvas or WebGL/WebGPU texture while maintaining an interactable and accessible UI.",
-        "Para 6: Conclude by mentioning that this experimental API is currently available in Chrome's origin trial, and cite the authors Thomas Nattestad (a Product Manager at Google based in Needham, Massachusetts who attended the Franklin W. Olin College of Engineering) and Natalia Markoborodova, noting that their insights are published on GitHub (a platform hosting over 420 million projects)."
-      ]
-    },
-    "stage3": {
-      "title": "कैनवास के भीतर एचटीएमएल: वेब डेवलपमेंट का नया अध्याय",
-      "concept_box": "गूगल द्वारा लाया गया नया 'HTML-in-Canvas API' वेब डेवलपर्स को डोम (DOM) और कैनवास के बीच चुनाव करने की मजबूरी से मुक्त करता है। यह प्रयोगात्मक तकनीक एचटीएमएल की सिमेंटिक विशेषताओं को कैनवास की उच्च-स्तरीय ग्राफिक्स क्षमता के साथ जोड़ती है, जिससे जटिल वेब एप्लिकेशन बनाना आसान और अधिक सुलभ हो जाता है।",
-      "introduction_lede": "वेब डेवलपर्स के लिए जटिल और अत्यधिक इंटरैक्टिव विज़ुअल एप्लिकेशन बनाना हमेशा से एक बड़ी चुनौती रही है, जहां उन्हें डोम (DOM) और कैनवास के बीच किसी एक का चुनाव करना पड़ता था। अब, गूगल के दो इंजीनियरों, थॉमस नट्टेस्टैड और नतालिया मार्कोबोरोडोवा ने एक नए प्रयोगात्मक 'HTML-in-Canvas API' की घोषणा की है। यह नया एपीआई डेवलपर्स को कैनवास के अंदर सीधे डोम सामग्री खींचने की सुविधा देता है, जिससे यूआई इंटरैक्टेबल और सुलभ बना रहता है। यह तकनीक वेब विकास के क्षेत्र में एक महत्वपूर्ण कदम है, जो ब्राउज़र के आवश्यक फीचर्स को बनाए रखते हुए उच्च-प्रदर्शन वाले ग्राफिक्स की अनुमति देती है।",
-      "deep_dive_and_context": "जब डेवलपर्स वेब पर जटिल एप्लिकेशन बनाते हैं, तो उनके सामने सबसे बड़ी वास्तुशिल्प दुविधा यह होती है कि वे डोम (DOM) की समृद्ध सिमेंटिक विशेषताओं का लाभ उठाएं या सीधे कैनवास तत्व पर रेंडर करें। डोम वेब यूआई का मुख्य आधार है। यह बिना किसी अतिरिक्त सेटअप के टेक्स्ट लेआउट समाधान प्रदान करता है, जिससे समृद्ध इंटरफेस बनाए जा सकते हैं। यह उपयोगकर्ताओं को वेब पेजों पर सामान्य संचालन सुचारू रूप से करने की अनुमति देता है, जैसे कि टेक्स्ट को कॉपी करने के लिए हाइलाइट करना या किसी छवि को सहेजने के लिए उस पर राइट-क्लिक करना। इसके अलावा, डोम आवश्यक ब्राउज़र सुविधाओं के साथ सहजता से जुड़ता है, जिनमें एक्सेसिबिलिटी टूल, ट्रांसलेट, फाइंड-इन-पेज, रीडर मोड, एक्सटेंशन, डार्क मोड, ब्राउज़र ज़ूम और ऑटोफिल शामिल हैं।\n\nदूसरी ओर, कैनवास (और वेबजीएल / वेबजीपीयू) पिक्सेल के ग्रिड को चलाने के लिए निम्न-स्तरीय पहुंच प्रदान करता है, जो अत्यधिक उन्नत 2डी और 3डी ग्राफिक्स के लिए आवश्यक है। गेम और जटिल वेब ऐप्स, जैसे कि गूगल डॉक्स या फिग्मा, को इस प्रदर्शनकारी और निम्न-स्तरीय पहुंच की आवश्यकता होती है। क्योंकि कैनवास मूल रूप से पिक्सेल का एक स्थिर ग्रिड है, इसलिए उत्तरदायी टेक्स्ट जैसी सुविधाओं का समर्थन करने के लिए पहले जटिल कस्टम यूआई तर्क की आवश्यकता होती थी, जिससे बंडल का आकार काफी बढ़ जाता था। महत्वपूर्ण रूप से, जब यूआई एक स्थिर कैनवास पिक्सेल ग्रिड के अंदर फंस जाता है, तो डोम में एकीकृत सभी शक्तिशाली ब्राउज़र सुविधाएँ पूरी तरह से काम करना बंद कर देती हैं।\n\nइन सीमाओं को दूर करने के लिए, HTML-in-Canvas API एक पुल के रूप में कार्य करता है जो आपको दोनों का सर्वश्रेष्ठ प्रदान करता है। यह एपीआई डेवलपर्स को कैनवास तत्व के अंदर एचटीएमएल रखने और इसके ट्रांसफॉर्म को सिंक्रनाइज़ करने की अनुमति देता है, जिससे यह सुनिश्चित होता है कि सामग्री पूरी तरह से इंटरैक्टिव बनी रहे और सभी ब्राउज़र एकीकरण स्वचालित रूप से कार्य करें। इस तकनीक का उपयोग करने की प्रक्रिया तीन चरणों में होती है: कैनवास सेट करना, कैनवास में रेंडर करना, और सीएसएस ट्रांसफॉर्म को अपडेट करना ताकि ब्राउज़र को पता चले कि तत्व भौतिक रूप से कहां स्थित है। यह एपीआई अविश्वसनीय क्षमता को अनलॉक करता है, जिससे डेवलपर्स ऐसे अनुभव बना सकते हैं जो पहले असंभव थे।\n\nइस प्रयोगात्मक एपीआई के पीछे गूगल के प्रोडक्ट मैनेजर थॉमस नट्टेस्टैड (जो नीडहम, मैसाचुसेट्स में स्थित हैं और जिन्होंने फ्रैंकलिन डब्ल्यू ओलिन कॉलेज ऑफ इंजीनियरिंग से शिक्षा प्राप्त की है) और नतालिया मार्कोबोरोडोवा का योगदान है। उनके विस्तृत विचार और अंतर्दृष्टि गिटहब (एक ऐसा मंच जहां 420 मिलियन से अधिक प्रोजेक्ट्स हैं) पर प्रकाशित किए गए हैं। यह नया एपीआई वर्तमान में क्रोम के ओरिजिन ट्रायल में उपलब्ध है, जो डेवलपर्स को वेब पर अधिक शक्तिशाली और सुलभ एप्लिकेशन बनाने का एक नया मार्ग प्रशस्त करता है।",
-      "strategic_analysis": "एचटीएमएल-इन-कैनवास एपीआई का आगमन वेब विकास में एक महत्वपूर्ण मोड़ का संकेत देता है, हालांकि यह एक प्रयोगात्मक चरण में है। विशेषज्ञों के अनुसार, यह तकनीक डेवलपर्स को दो अलग-अलग दुनिया के बीच चयन करने की मजबूरी से मुक्त करती है। इसका संभावित प्रभाव यह है कि भविष्य में हम अधिक जटिल और सुलभ वेब एप्लिकेशन देखेंगे। हालांकि, इस तकनीक की अपनी सीमाएं हैं, जैसे कि वर्तमान में यह केवल क्रोम के ओरिजिन ट्रायल तक सीमित है। यह संभव है कि भविष्य में अन्य ब्राउज़र भी इसका समर्थन करें, लेकिन अभी इसके लिए अतिरिक्त सेटअप और सिंक्रोनाइज़ेशन की आवश्यकता होती है।",
-      "conclusion_and_significance": "एचटीएमएल-इन-कैनवास एपीआई वेब डेवलपर्स के लिए एक नई संभावनाओं का द्वार खोलता है। यह न केवल प्रदर्शन को बढ़ाता है बल्कि यूआई को अधिक सुलभ और उपयोगकर्ता के अनुकूल भी बनाता है, जो वेब विकास के भविष्य के लिए एक सकारात्मक संकेत है।"
-    }
-  },
-  {
-    "url": "https://www.awakin.org/v2/read/view.php?tid=468",
-    "title": "This I Believe (1952)",
-    "outcome": "skipped_not_tech_news",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "I am not going to talk about religious beliefs but about matters so obvious that it has gone out of style to mention them. I believe in my neighbors. I know their faults, and I know that their virtues far outweigh their faults. Take Father Michael down our road a piece. I'm not of his creed, but I know that goodness and charity and loving kindness shine in his daily actions. I believe in Father Mi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "skip": true,
-      "skip_reason": "This article is a 1952 essay about human decency and community values, containing absolutely no technology, tech industry, or computing news."
-    }
-  },
-  {
-    "url": "https://arxiv.org/abs/2603.01092",
-    "title": "The alien space of science: Coherent but cognitively unavailable directions",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 456,
-      "source_preview": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "arXivLabs",
-          "type": "organization"
-        },
-        {
-          "name": "arXiv",
-          "type": "organization"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article is about a research framework (arXivLabs) and the cognitive limitations of modern language models in scientific discovery, which is a direct topic of AI/computing research."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "arXivLabs",
-          "preview": "arXivLabs is a framework for assessing and integrating community-built tools int"
-        },
-        {
-          "name": "arXiv",
-          "preview": "arXiv is a research-sharing service and community resource founded in 1991. In 2"
-        }
-      ],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "arXivLabs: arXivLabs is a framework for assessing and integrating community-built tools into the arXiv platform. It temporarily paused new proposals as of November 12, 2025, though existing projects remain active.\n\narXiv: arXiv is a research-sharing service and community resource founded in 1991. In 2026, it established itself as an independent nonprofit organization to support its operations.",
-    "stage2": {
-      "core_narrative": "Scientific discovery is fundamentally limited by what researchers can cognitively process, leaving a vast, coherent but unexplored \"alien space\" that modern AI systems like language models fail to access because they only recombine existing, high-density knowledge.",
-      "key_facts_and_quotes": "The core concept is the \"alien space of science\"—directions that are scientifically coherent but cognitively unavailable to researchers. A critical fact is that modern language models inherit this human bias, meaning they only recombine high-density regions of the existing literature. The source text must include the exact statement: \"arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\" It must also include the values of openness, community, excellence, and user data privacy. The research context requires mentioning that arXivLabs temporarily paused new proposals as of November 12, 2025, and that arXiv established itself as an independent nonprofit organization in 2026.",
-      "disambiguation_targets": "\"Alien space of science\" needs inline Hindi explanation (विज्ञान की वह अज्ञात जगह जहाँ विचार तार्किक तो हैं लेकिन इंसानी समझ से परे हैं). \"Cognitively available\" needs explanation (दिमागी रूप से सुलभ या समझ में आने योग्य). \"arXivLabs\" needs explanation (arXiv का एक ढांचा जहाँ समुदाय नए टूल बना सकता है). \"High-density regions of the literature\" needs explanation (शोध साहित्य के वे हिस्से जहाँ पहले से ही बहुत सारा काम मौजूद है).",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Introduce the \"alien space of science\" as a frontier of unexplored ideas that are scientifically coherent but cognitively unavailable to researchers, and explain that modern language models inherit this human bias, recombining only the high-density regions of existing literature rather than venturing into this alien space.",
-        "Para 2: Discuss the specific limitations of AI in scientific discovery, highlighting that current systems cannot bridge the gap between distinct fields because no existing human community combines the necessary concepts, methods, and intuitions to even propose these directions.",
-        "Para 3: Transition to the role of arXiv as a research-sharing service founded in 1991, and explain the purpose of arXivLabs as a framework for assessing and integrating community-built tools directly onto the arXiv platform, including the exact quote about collaborators developing and sharing new features.",
-        "Para 4: Detail the operational history and values of arXivLabs, noting that both individuals and organizations have embraced values of openness, community, excellence, and user data privacy, and mention that arXiv is committed to these values and only partners with those who adhere to them.",
-        "Para 5: Update the reader on the current status of arXivLabs, explicitly stating that the framework temporarily paused new proposals as of November 12, 2025, while ensuring that existing projects remain active.",
-        "Para 6: Conclude by noting the evolution of arXiv itself, stating that arXiv established itself as an independent nonprofit organization in 2026."
-      ]
-    },
-    "stage3": {
-      "title": "विज्ञान का एक अज्ञात ब्रह्मांड और arXivLabs की नई दिशा",
-      "concept_box": "आधुनिक एआई (AI) मॉडल वैज्ञानिक खोजों में एक अदृश्य सीमा का सामना कर रहे हैं, जहाँ वे केवल ज्ञात ज्ञान को ही जोड़ पाते हैं। इसी बीच, 2025 में arXivLabs ने नए प्रस्तावों को अस्थायी रूप से रोक दिया है, जो अकादमिक शोध के लिए एक महत्वपूर्ण मोड़ है।",
-      "introduction_lede": "विज्ञान की दुनिया में कई ऐसे विचार मौजूद हैं जो वैज्ञानिक रूप से पूरी तरह से तार्किक हैं, लेकिन मानव मस्तिष्क और मौजूदा शोध समुदायों के लिए उन्हें समझना या प्रस्तावित करना असंभव है। इस अज्ञात क्षेत्र को 'एलियन स्पेस ऑफ साइंस' कहा जा सकता है। आज के उन्नत भाषा मॉडल (Language Models) भी इसी मानवीय सीमा से बंधे हुए हैं। वे केवल उन विचारों को ही जोड़ सकते हैं जो पहले से ही वैज्ञानिक साहित्य में दर्ज हैं, और इस अज्ञात ब्रह्मांड में प्रवेश करने में पूरी तरह असमर्थ हैं। यह सीमा केवल मशीनों की नहीं है, बल्कि उन मानव समुदायों की भी है जो विभिन्न वैज्ञानिक क्षेत्रों के बीच के गहरे अंतर को पाटने में विफल रहे हैं।",
-      "deep_dive_and_context": "वर्तमान एआई सिस्टम वैज्ञानिक खोज की प्रक्रिया में एक बड़ी बाधा का सामना कर रहे हैं। इन प्रणालियों में यह क्षमता नहीं है कि वे अलग-अलग वैज्ञानिक क्षेत्रों के बीच की खाई को पाट सकें। इसका मुख्य कारण यह है कि वर्तमान में कोई भी ऐसा मानव समुदाय मौजूद नहीं है जो इन विभिन्न क्षेत्रों के आवश्यक सिद्धांतों, विधियों और अंतर्ज्ञान को एक साथ मिलाकर कोई नई वैज्ञानिक दिशा प्रस्तावित कर सके। इसलिए, जब तक मानव समाज इन जटिल अवधारणाओं को एक साथ नहीं देखता, तब तक कोई भी एआई मॉडल इस अंतर को पार नहीं कर सकता। यह सीमा एआई के विकास को केवल पहले से मौजूद ज्ञान के पुनर्गठन तक ही सीमित कर देती है।\n\nइस संदर्भ में, arXiv एक महत्वपूर्ण शोध-साझाकरण सेवा के रूप में सामने आता है, जिसकी स्थापना 1991 में हुई थी। यह सेवा दुनिया भर के शोधकर्ताओं को अपने शोध पत्र साझा करने का एक मंच प्रदान करती है। हाल ही में, arXiv ने arXivLabs नामक एक नया ढांचा पेश किया है। यह ढांचा समुदाय द्वारा बनाए गए उपकरणों को सीधे arXiv वेबसाइट पर एकीकृत करने और उनका मूल्यांकन करने के लिए डिज़ाइन किया गया है। इसका मुख्य उद्देश्य शोधकर्ताओं को एक ऐसा मंच देना है जहाँ वे नए उपकरण विकसित कर सकें और उन्हें सीधे arXiv के उपयोगकर्ताओं के साथ साझा कर सकें।\n\narXivLabs की कार्यप्रणाली और मूल्य इसके विकास के केंद्र में रहे हैं। यह ढांचा इस सिद्धांत पर काम करता है कि शोध का विकास एक खुले और सहयोगी माहौल में ही संभव है। जिन व्यक्तियों और संगठनों ने arXivLabs के साथ काम किया है, उन्होंने खुलेपन, समुदाय, उत्कृष्टता और उपयोगकर्ता डेटा गोपनीयता के मूल्यों को अपनाया है। arXiv स्वयं भी इन मूल्यों के प्रति पूरी तरह से प्रतिबद्ध है। यह संस्था केवल उन्हीं भागीदारों के साथ काम करती है जो इन सिद्धांतों और नैतिक मानकों का कड़ाई से पालन करते हैं, जिससे शोध प्रक्रिया की अखंडता बनी रहती है।\n\nहालाँकि, इस पहल की वर्तमान स्थिति में एक महत्वपूर्ण बदलाव आया है। 12 नवंबर 2025 को, arXivLabs ने नए प्रस्तावों को अस्थायी रूप से रोकने की घोषणा की। यह निर्णय संस्था के मूल्यांकन और मौजूदा परियोजनाओं को सुदृढ़ करने की आवश्यकता को ध्यान में रखते हुए लिया गया है। इसके बावजूद, यह स्पष्ट किया गया है कि इस ढांचे से जुड़ी वर्तमान और सक्रिय परियोजनाएं बिना किसी रुकावट के अपना काम जारी रखेंगी। यह कदम भविष्य के लिए एक अधिक केंद्रित और मजबूत आधार तैयार करने का प्रयास है।\n\narXiv के अपने विकास और संरचना की बात करें तो, इस संस्था ने समय के साथ कई महत्वपूर्ण बदलाव देखे हैं। अपनी स्थापना के बाद से यह एक शोध-साझाकरण सेवा के रूप में कार्य कर रहा था, लेकिन 2026 में इसने एक स्वतंत्र गैर-लाभकारी संगठन (Nonprofit Organization) के रूप में खुद को स्थापित किया। यह कदम इसके संचालन को अधिक स्वायत्त और पारदर्शी बनाने के लिए उठाया गया था, ताकि यह बिना किसी बाहरी हस्तक्षेप के वैश्विक शोध समुदाय की सेवा कर सके।",
-      "strategic_analysis": "एआई और वैज्ञानिक खोज के बीच की यह सीमा केवल एक तकनीकी समस्या नहीं है, बल्कि यह ज्ञान के विकास की एक मौलिक चुनौती को उजागर करती है। जब तक मानव समाज विभिन्न विषयों के बीच गहरे संबंध स्थापित नहीं करता, एआई केवल सतही स्तर पर ही काम कर पाएगा। arXivLabs का नए प्रस्तावों को रोकना इस बात का संकेत देता है कि संस्था गुणवत्ता और दीर्घकालिक प्रभाव पर ध्यान केंद्रित करना चाहती है। यह एक क्रमिक परिवर्तन हो सकता है, लेकिन यह अकादमिक शोध में समुदाय-संचालित नवाचार की दिशा में एक महत्वपूर्ण कदम है। विशेषज्ञों के अनुसार, यह ढांचा भविष्य में शोध के मूल्यांकन के तरीके को बदल सकता है, बशर्ते यह अपने मूल्यों को बनाए रखे।",
-      "conclusion_and_significance": "एआई की वैज्ञानिक सीमाओं और arXivLabs के संरचनात्मक परिवर्तनों का यह संयोजन शोध के भविष्य की ओर इशारा करता है। यह स्पष्ट है कि सच्ची वैज्ञानिक सफलता के लिए न केवल बेहतर तकनीक की आवश्यकता है, बल्कि मानव सहयोग और खुलेपन की भी उतनी ही जरूरत है।"
-    }
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-    "title": "Designing an AI serving harness built to last",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Sponsored The engineering system surrounding an AI model increasingly determines whether its intelligence can be delivered reliably, economically, and at scale. Provided by EXL The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "EXL",
-          "type": "company"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "This article is a sponsored editorial discussing enterprise AI infrastructure, specifically the engineering and architecture required to deploy AI models reliably and at scale in production environments."
-    },
+    "stage1": {},
     "cache": {
       "hits": [],
-      "misses": [
-        {
-          "name": "EXL",
-          "type": "company"
-        }
-      ]
+      "misses": []
     },
     "search": {
       "backend": "ddg",
-      "identity_queries": [
-        "\"EXL\" company overview"
-      ],
+      "identity_queries": [],
       "context_queries": [],
       "context_queries_with_gap1_attached": [],
-      "results": {
-        "EXL": "EXL is a global leader in data and AI with over 25 years of expertise in business process services, helping enterprises transform. The company focuses on redefining possibilities for its clients through data intelligence and various AI applications."
-      }
+      "results": {}
     },
-    "synthesis": {
-      "\"EXL\" company overview": "EXL is a global leader in data and AI with over 25 years of expertise in business process services, helping enterprises transform. The company focuses on redefining possibilities for its clients through data intelligence and various AI applications."
-    },
-    "cache_updates": [
-      {
-        "name": "EXL",
-        "type": "company",
-        "chars_stored": 249
-      }
-    ],
-    "entity_context_preview": "EXL: EXL is a global leader in data and AI with over 25 years of expertise in business process services, helping enterprises transform. The company focuses on redefining possibilities for its clients through data intelligence and various AI applications.",
-    "stage2": {
-      "core_narrative": "The true competitive advantage in enterprise AI lies not in the choice of the model itself, but in the robust engineering system or \"serving harness\" built around it to deliver reliable and scalable intelligence.",
-      "key_facts_and_quotes": "The core quote to include is: \"The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it.\" The article must state that for the past several years, AI conversation centered on model capability (bigger models, better reasoning, larger context windows, higher benchmark scores), but the question for enterprise leaders has shifted from \"what can the model do?\" to \"Can we deliver that intelligence reliably, economically, and at scale?\" It must mention EXL as a global leader in data and AI with over 25 years of expertise in business process services. The serving harness includes architecture, memory management, scheduling, and optimization. There is no universally \"best\" model or AI architecture, only the right solution for the business problem.",
-      "disambiguation_targets": "\"Serving harness\" must be explained as the engineering system surrounding the model (architecture, memory management, scheduling, and optimization). \"Context windows\" must be defined as the amount of text or data a model can process in a single prompt. \"Proof of concept\" must be clarified as an early-stage experimental deployment, as opposed to full-scale production.",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: State the central thesis of the article: the shift in enterprise AI focus from raw model capability to the engineering system built around it. Include the exact quote: \"The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it.\" Explain that while the industry has obsessed over bigger models and higher benchmark scores, the real question for businesses is now about reliability, economic viability, and scale. Tone: authoritative and strategic.",
-        "Para 2: Define the \"serving harness\" and its components for the reader. Explain that this system includes architecture, memory management, scheduling, and optimization—the elements that determine how efficiently a model's intelligence becomes a production capability. Mention that EXL, a global leader in data and AI with over 25 years of expertise in business process services, highlights this as the critical factor in enterprise AI. Tone: educational and informative.",
-        "Para 3: Contrast the differing requirements of various enterprise use cases to show why a one-size-fits-all model does not work. Provide concrete comparisons: a customer-facing assistant optimized for fast responses has fundamentally different requirements than a document-processing pipeline that can run overnight; similarly, an internal knowledge application and a high-volume customer service platform might use the same foundation model but require very different serving architectures. Tone: comparative and analytical."
-      ]
-    },
-    "stage3": {
-      "title": "टिकाऊ एआई सर्विंग हार्नेस का डिज़ाइन: मॉडल से ज़्यादा ज़रूरी उसके आस-पास का इंजीनियरिंग सिस्टम",
-      "concept_box": "एंटरप्राइज़ आर्टिफिशियल इंटेलिजेंस (AI) का ध्यान अब केवल बड़े मॉडल्स और उनके बेंचमार्क स्कोर पर केंद्रित नहीं है। असली प्रतिस्पर्धा इस बात पर निर्भर करेगी कि मॉडल के आस-पास कौन सा इंजीनियरिंग सिस्टम बनाया गया है। एक टिकाऊ और स्केलेबल 'सर्विंग हार्नेस' किसी भी व्यवसाय की सफलता और विश्वसनीय संचालन के लिए सबसे महत्वपूर्ण कारक बन गया है।",
-      "introduction_lede": "एंटरप्राइज़ एआई के क्षेत्र में एक बड़ा रणनीतिक बदलाव देखने को मिल रहा है। पहले कंपनियों का पूरा ध्यान केवल मॉडल की क्षमता, उसके आकार और स्कोर पर होता था, लेकिन अब असली सवाल विश्वसनीयता, आर्थिक व्यवहार्यता और बड़े पैमाने पर इसके उपयोग का है। ग्लोबल डेटा और एआई लीडर EXL द्वारा इस नए दृष्टिकोण को स्पष्ट रूप से सामने रखा गया है। कंपनी का मानना है कि भविष्य की सफलता इस बात पर निर्भर करेगी कि आप मॉडल के आस-पास क्या इंफ्रास्ट्रक्चर बनाते हैं। यह बदलाव व्यवसायों के लिए एआई निवेश की दिशा को पूरी तरह से बदल सकता है।",
-      "deep_dive_and_context": "एंटरप्राइज़ एआई में अब सबसे बड़ा फायदा उस मॉडल को चुनने में नहीं है जिसे आप चुनते हैं, बल्कि उस चीज़ को बनाने में है जिसके चारों ओर आप इसे बनाते हैं। पिछले कुछ वर्षों से, एआई की दुनिया में बड़े मॉडल्स, बेहतर तर्क क्षमता, बड़े कॉन्टेक्स्ट विंडो और उच्च बेंचमार्क स्कोर की होड़ मची हुई थी। ये सभी प्रगति वास्तव में असाधारण रही हैं। हालांकि, जैसे-जैसे एआई केवल प्रयोग के चरण से निकलकर वास्तविक उत्पादन में प्रवेश कर रहा है, एंटरप्राइज़ लीडर्स के सामने आने वाला सवाल बदल गया है। अब यह सवाल नहीं है कि \"मॉडल क्या कर सकता है?\" बल्कि यह है कि \"क्या हम उस बुद्धिमत्ता को विश्वसनीय, किफायती और बड़े पैमाने पर वितरित कर सकते हैं?\" इसका उत्तर तेजी से 'सर्विंग हार्नेस' पर निर्भर करता जा रहा है। सर्विंग हार्नेस वह इंजीनियरिंग सिस्टम है जो मॉडल को घेरे रहता है, जिसमें आर्किटेक्चर, मेमोरी मैनेजमेंट (Memory Management), शेड्यूलिंग और ऑप्टिमाइज़ेशन के वे महत्वपूर्ण निर्णय शामिल होते हैं जो यह तय करते हैं कि मॉडल की बुद्धिमत्ता कितनी कुशलता से एक उत्पादन क्षमता में बदलती है। तकनीकी अधिकारियों के लिए, यह बदलाव इस बात को पूरी तरह से बदल देता है कि एआई निवेश कहाँ किया जाना चाहिए और उन्हें अपने आर्किटेक्चर से क्या मांग करनी चाहिए।\n\nसर्विंग हार्नेस को समझना व्यवसायिक दृष्टिकोण से अत्यंत आवश्यक है। इस सिस्टम में कई महत्वपूर्ण घटक शामिल होते हैं जो किसी भी एआई एप्लिकेशन के प्रदर्शन और लागत को सीधे प्रभावित करते हैं। आर्किटेक्चर यह तय करता है कि डेटा और कंप्यूटिंग संसाधन कैसे प्रबंधित किए जाएंगे। मेमोरी मैनेजमेंट यह सुनिश्चित करता है कि सिस्टम बिना किसी रुकावट के बड़ी मात्रा में जानकारी को प्रोसेस कर सके। शेड्यूलिंग और ऑप्टिमाइज़ेशन की मदद से मॉडल के संसाधनों का सही उपयोग किया जाता है ताकि अधिकतम आउटपुट और न्यूनतम लागत प्राप्त की जा सके। EXL, जो डेटा और एआई के क्षेत्र में 25 से अधिक वर्षों के अनुभव के साथ एक ग्लोबल लीडर है, इस बात पर जोर देता है कि ये तत्व ही वह महत्वपूर्ण कारक हैं जो किसी भी एंटरप्राइज़ एआई की सफलता को निर्धारित करते हैं। उनके अनुसार, यह वह बुनियादी ढांचा है जो एक साधारण मॉडल को एक शक्तिशाली और विश्वसनीय उत्पादन उपकरण में बदल देता है।\n\nविभिन्न एंटरप्राइज़ उपयोग के मामलों (use cases) की आवश्यकताएं इतनी अलग-अलग होती हैं कि एक ही मॉडल हर जगह काम नहीं आ सकता। उदाहरण के लिए, एक ग्राहक-सामना करने वाले (customer-facing) सहायक की आवश्यकताएं, जिसे तुरंत प्रतिक्रिया देनी होती है, एक दस्तावेज़-प्रसंस्करण (document-processing) पाइपलाइन से मौलिक रूप से भिन्न होती हैं जिसे रात भर में चलाया जा सकता है। इसी तरह, एक आंतरिक ज्ञान एप्लिकेशन और एक उच्च-मात्रा वाला ग्राहक सेवा प्लेटफ़ॉर्म एक ही फाउंडेशन मॉडल का उपयोग कर सकते हैं, लेकिन उन्हें बहुत अलग सर्विंग आर्किटेक्चर की आवश्यकता होगी। लोड और उद्देश्य के आधार पर बाधाएं तय होती हैं, और उन बाधाओं को ही आर्किटेक्चर को तय करना चाहिए। यह सुनने में सरल लगता है, लेकिन यह उस तरीके के बिल्कुल विपरीत है जिस तरह से कई संगठनों ने अपने शुरुआती एआई परिनियोजन (deployments) को अपनाया है।\n\nप्रूफ ऑफ कॉन्सेप्ट (PoC) के दौरान, चर्चा स्वाभाविक रूप से मॉडल की सटीकता पर केंद्रित होती है। लेकिन जब इसे बड़े पैमाने पर उत्पादन में लाया जाता है, तो कई नई बाधाएं सामने आती हैं जिन्हें केवल मुट्ठी भर उपयोगकर्ताओं के शामिल होने पर आसानी से नजरअंदाज किया जा सकता है। इनमें लेटेंसी (latency), कंकरेंसी (concurrency), मेमोरी प्रेशर, GPU उपयोग, बुनियादी ढांचे की लागत और अप्रत्याशित ट्रैफ़िक शामिल हैं। एक ऐसा मॉडल जो मामूली रूप से बेहतर उत्तर देता है, जरूरी नहीं कि वह उत्पादन के लिए बेहतर विकल्प हो यदि वह इन्फरेंस लागत को दोगुना कर देता है या एप्लिकेशन की लेटेंसी आवश्यकताओं को पूरा नहीं कर सकता है। हर काम के लिए एक उच्च-प्रदर्शन वाले मॉडल की आवश्यकता नहीं होती है। कभी-कभी अधिक स्मार्ट इंजीनियरिंग निर्णय वह होता है जो उस मॉडल को चुनता है जो ठीक उसी प्रदर्शन को प्रदान करता है जिसकी व्यवसाय को आवश्यकता होती है, बिना उस क्षमता के लिए भुगतान किए जिसकी उसे आवश्यकता नहीं है।",
-      "strategic_analysis": "यह विकास एआई उद्योग में एक परिपक्वता (maturity) के चरण का संकेत देता है। विशेषज्ञ मानते हैं कि यह केवल एक मामूली बदलाव नहीं है, बल्कि एक वास्तविक रणनीतिक बदलाव है। अब ध्यान केवल मॉडल बनाने पर नहीं है, बल्कि उसे वास्तविक दुनिया में लागू करने पर है। हालांकि, इस दृष्टिकोण की अपनी सीमाएं भी हैं। एक आदर्श सर्विंग हार्नेस को डिज़ाइन करना तकनीकी रूप से जटिल है और इसके लिए उच्च स्तर की इंजीनियरिंग विशेषज्ञता की आवश्यकता होती है। इसके अलावा, यह बदलाव उन कंपनियों के लिए चुनौतियां पैदा कर सकता है जिनके पास मजबूत तकनीकी बुनियादी ढांचे का अभाव है। इसका संभावित प्रभाव यह है कि भविष्य में एआई वेंडर्स को अपने मॉडल्स के साथ-साथ उनके परिनियोजन और प्रबंधन के लिए बेहतर उपकरण और सेवाएं प्रदान करने की आवश्यकता होगी।",
-      "conclusion_and_significance": "एंटरप्राइज़ एआई की सफलता अब केवल मॉडल की बुद्धिमत्ता पर निर्भर नहीं करती है, बल्कि उस इंजीनियरिंग सिस्टम पर निर्भर करती है जो इसे विश्वसनीय और किफायती बनाता है। व्यवसायों को अब केवल मॉडल चुनने के बजाय अपने विशिष्ट उपयोग के मामलों के अनुसार एक मजबूत सर्विंग हार्नेस बनाने पर ध्यान केंद्रित करना चाहिए। यह दृष्टिकोण एआई को केवल एक प्रयोग से निकालकर एक टिकाऊ और स्केलेबल व्यावसायिक उपकरण बनाने में मदद करेगा।"
-    }
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-    "title": "The Foundations of Scalable AI",
-    "outcome": "published",
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2463,
-      "source_preview": "Sponsored Presented by Vanguard A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review's EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabil",
+      "scraped_chars": 3000,
+      "source_preview": "We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capabilities. We are also releasing Kimi K3.1 Pro Highspeed , which delivers 2-3× the speed of K3.1 Pro for more responsive inte",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
       "translated_to_english": false
     },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "MIT Technology Review",
-          "type": "organization"
-        },
-        {
-          "name": "EmTech Future",
-          "type": "event"
-        },
-        {
-          "name": "Vanguard",
-          "type": "company"
-        },
-        {
-          "name": "Jing Wang",
-          "type": "person"
-        },
-        {
-          "name": "Nick Cammarata",
-          "type": "researcher"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article is a sponsored content piece from a tech conference discussing the foundations of scalable AI and featuring a speaker from Vanguard, which constitutes a legitimate tech news event."
-    },
+    "stage1": {},
     "cache": {
-      "hits": [
-        {
-          "name": "MIT Technology Review",
-          "preview": "MIT Technology Review is a world-renowned independent media company founded at t"
-        },
-        {
-          "name": "EmTech Future",
-          "preview": "EmTech Future is a technology conference exploring the frontiers of emerging and"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Vanguard",
-          "type": "company"
-        },
-        {
-          "name": "Jing Wang",
-          "type": "person"
-        },
-        {
-          "name": "Nick Cammarata",
-          "type": "researcher"
-        }
-      ]
+      "hits": [],
+      "misses": []
     },
     "search": {
       "backend": "ddg",
-      "identity_queries": [
-        "\"Vanguard\" company overview",
-        "\"Jing Wang\" person overview",
-        "\"Nick Cammarata\" researcher overview"
-      ],
+      "identity_queries": [],
       "context_queries": [],
       "context_queries_with_gap1_attached": [],
-      "results": {
-        "Vanguard": "",
-        "Jing Wang": "Jing Wang is an Assistant Professor whose research lies in the intersection among global communication, technology, and culture. She specializes in the anthropology of Islam, race & ethnicity, gender and feminist studies, and digital studies such as online forums and podcasts.",
-        "Nick Cammarata": ""
-      }
+      "results": {}
     },
-    "synthesis": {
-      "\"Jing Wang\" person overview": "Jing Wang is an Assistant Professor whose research lies in the intersection among global communication, technology, and culture. She specializes in the anthropology of Islam, race & ethnicity, gender and feminist studies, and digital studies such as online forums and podcasts."
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+    "title": "Twelve years of distributed SQLite",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "In September 2014 I published a short post announcing rqlite . The idea was simple: take SQLite , put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As far as I can tell, that was the first open-source system to combine Raft and SQLite. Nobody else was doing it, and for sev",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
     },
-    "cache_updates": [
-      {
-        "name": "Jing Wang",
-        "type": "person",
-        "chars_stored": 277
-      }
-    ],
-    "entity_context_preview": "MIT Technology Review: MIT Technology Review is a world-renowned independent media company founded at the Massachusetts Institute of Technology in 1899. It provides insight and analysis on the newest technologies and their commercial, social, and political impacts through award-winning journalism and premium live events.\n\nEmTech Future: EmTech Future is a technology conference exploring the frontiers of emerging and converging forces in science and technology. It focuses on the intersections of artificial intelligence, energy systems, and quantum technologies to create entirely new possibiliti",
-    "stage2": {
-      "core_narrative": "Building a scalable AI system requires aligning data, engineering, and governance to extract lasting business value in a highly regulated environment.",
-      "key_facts_and_quotes": "- The core components required for a scalable AI system are data, engineering, platforms, operating models, and governance.\n- MIT Technology Review's EmTech Future conference explores building this foundation in highly regulated environments.\n- Responsible and trustworthy AI implementation turns emerging capabilities, including agentic systems, into lasting value for investors.\n- Jing Wang leads Vanguard's Center for AI & Insights (CAI).\n- CAI advances AI, machine learning, generative AI, and behavioral science capabilities.\n- Jing Wang joined Vanguard in 2009 after working as a Principal at the Boston Consulting Group.\n- Wang holds a B.S. in Physics from the University of Science and Technology of China, a Ph.D. from the University of Pennsylvania, and an M.B.A. in Finance and Marketing from Wharton.\n- Wang holds Series 7, 24, and 65 licenses.\n- The EmTech Future conference focuses on the intersections of artificial intelligence, energy systems, and quantum technologies.",
-      "disambiguation_targets": "- Agentic systems (एजेंटिक सिस्टम): AI systems capable of autonomous decision-making and executing complex tasks independently).\n- Operating models (ऑपरेटिंग मॉडल): The structural frameworks that dictate how a company's technology, people, and processes collaborate to deliver value).\n- EmTech Future (एमटेक फ्यूचर): A technology conference hosted by MIT Technology Review focusing on the convergence of emerging technologies.",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: Introduce the foundational requirements for scalable AI, emphasizing the need for convergence of data, engineering, platforms, operating models, and governance in a highly regulated environment. State that the session is from MIT Technology Review's EmTech Future conference. (Tone: Informative and authoritative).",
-        "Para 2: Detail the role of Jing Wang and Vanguard's Center for AI & Insights (CAI). Mention that Wang leads the firm's AI, machine learning, generative AI, and behavioral science capabilities. (Tone: Professional and corporate).",
-        "Para 3: Outline Wang's professional background and educational credentials. Include the fact that she joined Vanguard in 2009 after serving as a Principal at the Boston Consulting Group, holds a B.S. in Physics from the University of Science and Technology of China, a Ph.D. and M.B.A. from the University of Pennsylvania and Wharton, and holds Series 7, 24, and 65 licenses. (Tone: Biographical and factual).",
-        "Para 4: Explain the ultimate business impact of this responsible AI implementation. Highlight how it translates emerging technologies into trusted solutions that enhance client experiences, improve investor outcomes, and create measurable business value, specifically turning agentic systems into lasting value for investors. (Tone: Analytical and forward-looking)."
-      ]
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
     },
-    "stage3": {
-      "title": "स्केलेबल एआई की नींव: एक जिम्मेदार दृष्टिकोण",
-      "concept_box": "एमआईटी टेक्नोलॉजी रिव्यू के एमटेक फ्यूचर सम्मेलन में वैनगार्ड की जिंग वांग ने स्केलेबल एआई के लिए डेटा, इंजीनियरिंग और गवर्नेंस के महत्व पर चर्चा की। यह पहल दिखाती है कि कैसे जिम्मेदार एआई सिस्टम निवेशकों के लिए स्थायी मूल्य बना सकते हैं।",
-      "introduction_lede": "एमआईटी टेक्नोलॉजी रिव्यू द्वारा आयोजित एमटेक फ्यूचर सम्मेलन में, वैनगार्ड की प्रमुख जिंग वांग ने स्केलेबल आर्टिफिशियल इंटेलिजेंस (AI) के निर्माण की चुनौतियों और अवसरों पर प्रकाश डाला। एक अत्यधिक विनियमित वित्तीय वातावरण में, एआई को सफलतापूर्वक लागू करने के लिए केवल तकनीकी क्षमता ही पर्याप्त नहीं है, बल्कि इसके लिए एक मजबूत संगठनात्मक और तकनीकी बुनियादी ढांचे की आवश्यकता होती है।",
-      "deep_dive_and_context": "वैनगार्ड के सेंटर फॉर एआई एंड इनसाइट्स (CAI) की प्रमुख जिंग वांग ने इस बात पर जोर दिया कि एक मजबूत एआई सिस्टम के लिए डेटा, इंजीनियरिंग, प्लेटफॉर्म, ऑपरेटिंग मॉडल और गवर्नेंस का एक साथ आना आवश्यक है। उन्होंने बताया कि एमआईटी टेक्नोलॉजी रिव्यू के एमटेक फ्यूचर सम्मेलन में प्रस्तुत किए गए इस सत्र का मुख्य उद्देश्य यह समझना था कि एक अत्यधिक विनियमित उद्योग में इस नींव को कैसे स्थापित किया जाए। वांग के नेतृत्व में, यह केंद्र फर्म की एआई, मशीन लर्निंग, जेनरेटिव एआई और व्यवहार विज्ञान क्षमताओं को आगे बढ़ाने का कार्य करता है। उनके नेतृत्व में, उद्यम-व्यापी नवाचार, अनुसंधान और वितरण को बढ़ावा मिलता है, जिससे वैनगार्ड उभरती प्रौद्योगिकियों को भरोसेमंद समाधानों में बदल सकता है।\n\nजिंग वांग की पेशेवर पृष्ठभूमि इस पहल को और भी मजबूत बनाती है। वह 2009 में वैनगार्ड से जुड़ीं, उससे पहले वह बोस्टन कंसल्टिंग ग्रुप में प्रिंसिपल के रूप में कार्य कर रही थीं। उनके पास यूनिवर्सिटी ऑफ साइंस एंड टेक्नोलॉजी ऑफ चाइना से भौतिकी में बी.एस., यूनिवर्सिटी ऑफ पेंसिल्वेनिया से पीएच.डी., और व्हार्टन स्कूल ऑफ बिजनेस से फाइनेंस और मार्केटिंग में एम.बी.ए. की डिग्री है। इसके अलावा, उनके पास सीरीज 7, 24 और 65 लाइसेंस भी हैं, जो वित्तीय क्षेत्र में उनकी गहरी विशेषज्ञता को प्रमाणित करते हैं।\n\nइस जिम्मेदार एआई कार्यान्वयन का अंतिम व्यावसायिक प्रभाव अत्यधिक महत्वपूर्ण है। वांग की टीम का मुख्य लक्ष्य उभरती प्रौद्योगिकियों, जिनमें एजेंटिक सिस्टम (agentic systems) भी शामिल हैं, को ऐसे भरोसेमंद समाधानों में बदलना है जो ग्राहकों के अनुभवों को बेहतर बनाएं। यह न केवल निवेशकों के परिणामों में सुधार करता है, बल्कि मापने योग्य व्यावसायिक मूल्य भी उत्पन्न करता है, जो एजेंटिक सिस्टम को निवेशकों के लिए स्थायी मूल्य में बदल देता है।",
-      "strategic_analysis": "वैनगार्ड द्वारा अपनाया गया यह दृष्टिकोण वित्तीय क्षेत्र में एआई के एक परिपक्व और जिम्मेदार उपयोग का संकेत देता है। विशेषज्ञों के अनुसार, एआई की क्षमताएं अक्सर अतिरंजित की जाती हैं, लेकिन वैनगार्ड का ध्यान वास्तविक व्यावसायिक मूल्य और नियामक अनुपालन पर है। यह एक वृद्धिशील परिवर्तन (incremental change) के बजाय एक वास्तविक बदलाव है, क्योंकि यह एआई को केवल एक तकनीकी उपकरण के रूप में नहीं, बल्कि एक रणनीतिक व्यावसायिक संपत्ति के रूप में स्थापित करता है।",
-      "conclusion_and_significance": "स्केलेबल एआई की सफलता केवल तकनीकी नवाचार पर निर्भर नहीं करती, बल्कि डेटा, इंजीनियरिंग और मजबूत गवर्नेंस के एकीकरण पर निर्भर करती है। वैनगार्ड की यह पहल यह स्पष्ट करती है कि एआई को निवेशकों और ग्राहकों के लिए स्थायी मूल्य में बदलने के लिए एक जिम्मेदार और पारदर्शी दृष्टिकोण आवश्यक है।"
-    }
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://danielball.com/notes/ai_image_generation.html",
+    "title": "A practical guide to AI image generation, from diffusion to agents",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "This is my general guide to AI image generation. It covers how the models work at a high level, the different types, a\nbit of history, what you actually get from ChatGPT and how to build image generation into your own code and agents. It’s based on my own experiments calling a handful of image providers from Python. I’ve generated pixel art sprites,\nphotorealistic card table backgrounds and a seri",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://astral.sh/blog/uv-ty-integration",
+    "title": "Bringing uv and ty together",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "October 13, 2026 TL;DR: Experimental uv-ty integration is now available, enabling first-class support for Python\nscripts (on the CLI and in the editor) and a unified uv check command. This is a step towards an integrated Astral toolchain, one that uses a shared understanding of your\nproject to enable entirely new capabilities. At Astral, we build high-performance tools for the Python ecosystem: uv",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+    "title": "The Download: testing six tech promises and biotech’s blind spots",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus: Palmer Luckey’s new startup plans to genetically enhance military dogs. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing the world of forever chemicals? Yes, please. Rocketing to Mars in a ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
     "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
     "title": "The Download: computing’s next leap and permafrost’s climate threat",
-    "outcome": "skipped_not_tech_news",
+    "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
       "source_preview": "Plus: AI has uncovered a decade-old flaw threatening much of the web. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical law stopping us from writing the entire Encyclo",
@@ -596,133 +173,25 @@
       "detected_language": "en",
       "translated_to_english": false
     },
-    "stage1": {
-      "skip": true,
-      "skip_reason": "The article is a multi-topic newsletter digest bundling several unrelated blurbs (computing physics, climate change, AI designing life forms) without developing any single tech news event into a full story."
-    }
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-    "title": "AI’s hidden storage bill: What inference leaves behind",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Sponsored Enterprises need economically scalable capacity to keep pace with the data created by AI inference. Provided by WD Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end da",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "WD",
-          "type": "company"
-        },
-        {
-          "name": "McKinsey",
-          "type": "organization"
-        },
-        {
-          "name": "IDC",
-          "type": "organization"
-        },
-        {
-          "name": "AI inference",
-          "type": "technology"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "This article discusses the growing and often overlooked data storage infrastructure costs associated with continuous AI inference workloads, backed by research from a major data storage company (WD)."
-    },
+    "stage1": {},
     "cache": {
       "hits": [],
-      "misses": [
-        {
-          "name": "WD",
-          "type": "company"
-        },
-        {
-          "name": "McKinsey",
-          "type": "organization"
-        },
-        {
-          "name": "IDC",
-          "type": "organization"
-        },
-        {
-          "name": "AI inference",
-          "type": "technology"
-        }
-      ]
+      "misses": []
     },
     "search": {
       "backend": "ddg",
-      "identity_queries": [
-        "\"WD\" company overview",
-        "\"McKinsey\" organization overview",
-        "\"IDC\" organization overview",
-        "\"AI inference\" technology overview"
-      ],
+      "identity_queries": [],
       "context_queries": [],
       "context_queries_with_gap1_attached": [],
-      "results": {
-        "WD": "",
-        "McKinsey": "McKinsey & Company has a long history of helping communities and nurturing talent. In 2020, the firm made a 10-year, $2 billion commitment to social responsibility, focusing on growing economic opportunity for all.",
-        "IDC": "IDC is a provider of technology intelligence that has served as a source of truth for global leaders for over 60 years. The organization leverages rigorous methodologies, proprietary datasets, and expert analysts to deliver trusted intelligence that is integrated into modern workflows.",
-        "AI inference": "AI inference is the process of using a trained AI model to make predictions or generate outputs when processing new data. It encompasses any real-world instance where an artificial intelligence model applies learned patterns to make decisions."
-      }
+      "results": {}
     },
-    "synthesis": {
-      "\"McKinsey\" organization overview": "McKinsey & Company has a long history of helping communities and nurturing talent. In 2020, the firm made a 10-year, $2 billion commitment to social responsibility, focusing on growing economic opportunity for all.",
-      "\"IDC\" organization overview": "IDC is a provider of technology intelligence that has served as a source of truth for global leaders for over 60 years. The organization leverages rigorous methodologies, proprietary datasets, and expert analysts to deliver trusted intelligence that is integrated into modern workflows.",
-      "\"AI inference\" technology overview": "AI inference is the process of using a trained AI model to make predictions or generate outputs when processing new data. It encompasses any real-world instance where an artificial intelligence model applies learned patterns to make decisions."
-    },
-    "cache_updates": [
-      {
-        "name": "McKinsey",
-        "type": "organization",
-        "chars_stored": 214
-      },
-      {
-        "name": "IDC",
-        "type": "organization",
-        "chars_stored": 286
-      },
-      {
-        "name": "AI inference",
-        "type": "technology",
-        "chars_stored": 243
-      }
-    ],
-    "entity_context_preview": "McKinsey: McKinsey & Company has a long history of helping communities and nurturing talent. In 2020, the firm made a 10-year, $2 billion commitment to social responsibility, focusing on growing economic opportunity for all.\n\nIDC: IDC is a provider of technology intelligence that has served as a source of truth for global leaders for over 60 years. The organization leverages rigorous methodologies, proprietary datasets, and expert analysts to deliver trusted intelligence that is integrated into modern workflows.\n\nAI inference: AI inference is the process of using a trained AI model to make pre",
-    "stage2": {
-      "core_narrative": "While executives obsess over expensive GPUs and silicon for AI training, the continuous, massive, and often hidden data storage costs of AI inference are quietly becoming the most overlooked financial burden in enterprise AI infrastructure.",
-      "key_facts_and_quotes": "- An 8-second AI-generated 720p video file (3.97MB) leaves behind over 500MB of associated backend data, representing a 130x increase over the output file size.\n- AI inference demand is projected to grow at a 35% CAGR through 2030, compared to 22% for training, making up over 40% of total data center demand by the end of the decade.\n- A WD-sponsored IDC global white paper surveying 763 IT and business decision makers found that nearly 95% of respondents reported an increase in data volume due to AI.\n- AI inference is the process of using a trained AI model to make predictions or generate outputs when processing new data.",
-      "disambiguation_targets": "- Inference (अनुमान/अनुमानित प्रक्रिया): The continuous process of using a trained AI model to make predictions or generate outputs when processing new data, which runs every time a model answers a prompt.\n- GPUs (ग्राफ़िक्स प्रोसेसिंग यूनिट्स): Racks of accelerators with gigawatts of power, traditionally the first cost executives picture when thinking about AI.\n- Data center demand (डेटा सेंटर की मांग): The total infrastructure and storage capacity required to keep pace with the data created by AI systems.",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: We need to open the article by directly challenging the common visual of AI costs, immediately introducing the hidden financial burden of data storage. The sentence should state that while most executives picture expensive GPUs and silicon, they are ignoring the massive data storage costs of AI inference. The tone should be surprising and eye-opening.",
-        "Para 2: We must define inference in plain Hindi terms and contrast it with traditional AI training to highlight the financial difference. The sentence should explain that training is a finite, budgetable project, whereas inference runs continuously, meaning every single prompt leaves behind backend data that must be stored.",
-        "Para 3: We need to provide a concrete, jaw-dropping example of backend data bloat using the specific AI video metrics provided in the source text. The sentence should detail how an 8-second 720p video file (3.97MB) leaves behind over 500MB of logs, cached context, renders, and safety records, creating a 130x data footprint.",
-        "Para 4: We must scale this problem up to the enterprise level and support it with the McKinsey and IDC research findings. The sentence should mention that scaling this to longer, higher resolution videos creates hundreds of gigabytes of backend data per clip, and cite the IDC survey of 763 decision makers where 95% reported increased data volume, alongside McKinsey's projection of 35% CAGR for inference through 2030.",
-        "Para 5: We need to wrap up by emphasizing the strategic urgency for businesses to plan for this hidden st"
-      ]
-    },
-    "stage3": {
-      "title": "एआई की छिपी हुई स्टोरेज लागत: इन्फरेंस के बाद क्या बचता है?",
-      "concept_box": "एआई इन्फरेंस (AI inference) की प्रक्रिया में उत्पन्न होने वाले बैकएंड डेटा की विशाल स्टोरेज लागत को अक्सर नजरअंदाज कर दिया जाता है। यह लेख इस छिपे हुए वित्तीय बोझ और उद्यमों के डेटा केंद्रों पर इसके प्रभाव का विश्लेषण करता है।",
-      "introduction_lede": "जब हम कृत्रिम बुद्धिमत्ता (AI) की लागत के बारे में सोचते हैं, तो सबसे पहले हमारे दिमाग में महंगे ग्राफिक प्रोसेसिंग यूनिट (GPUs) और सिलिकॉन चिप्स आते हैं। लेकिन इस तस्वीर में एक बहुत बड़ा हिस्सा गायब है, और वह है डेटा स्टोरेज की लागत। जैसे-जैसे एआई मॉडल का उपयोग बढ़ रहा है, वैसे-वैसे बैकएंड में उत्पन्न होने वाले डेटा की मात्रा भी तेजी से बढ़ रही है। यह लेख इस अनदेखी समस्या पर प्रकाश डालता है और बताता है कि क्यों व्यवसायों को अपनी एआई रणनीति में डेटा स्टोरेज को प्राथमिकता देने की आवश्यकता है।",
-      "deep_dive_and_context": "एआई इन्फरेंस वह प्रक्रिया है जिसमें एक प्रशिक्षित मॉडल नए डेटा का उपयोग करके भविष्यवाणियां या आउटपुट उत्पन्न करता है। पारंपरिक एआई ट्रेनिंग के विपरीत, जो एक सीमित और बजट योग्य प्रोजेक्ट है, इन्फरेंस लगातार चलता रहता है। हर बार जब कोई उपयोगकर्ता कोई प्रॉम्प्ट देता है, तो मॉडल बैकएंड पर कुछ न कुछ डेटा छोड़ता है जिसे भविष्य के उपयोग या सुरक्षा जांच के लिए स्टोर करना पड़ता है। यह डेटा अक्सर उपयोगकर्ता को दिखाई देने वाले अंतिम आउटपुट से कई गुना अधिक होता है।\n\nडेटा स्टोरेज की समस्या को समझने के लिए एआई-जनित वीडियो का उदाहरण लें। वेस्टर्न डिजिटल (WD) के आंतरिक मापन के अनुसार, एक 8-सेकंड का 720p वीडियो क्लिप, जो उपयोगकर्ता को केवल 3.97MB के रूप में मिलता है, बैकएंड पर 500MB से अधिक डेटा उत्पन्न करता है। इस डेटा में लॉग्स, कैश्ड संदर्भ, रेंडर, बैकअप और सुरक्षा रिकॉर्ड शामिल होते हैं। इसका मतलब है कि उपयोगकर्ता द्वारा देखे गए डेटा के आकार की तुलना में बैकएंड डेटा फुटप्रिंट 130 गुना बड़ा है।\n\nजब इस प्रक्रिया को उद्यम स्तर पर लागू किया जाता है, तो यह समस्या और भी गंभीर हो जाती है। लंबी और उच्च रिज़ॉल्यूशन वाली वीडियो सामग्री के लिए, बैकएंड डेटा प्रति क्लिप सैकड़ों गीगाबाइट तक पहुंच सकता है। इस समस्या की गंभीरता को बाजार अनुसंधान द्वारा भी रेखांकित किया गया है। आईडीसी (IDC) द्वारा किए गए एक हालिया सर्वेक्षण में 763 आईटी और व्यावसायिक निर्णयकर्ताओं को शामिल किया गया, जिसमें पाया गया कि लगभग 95% उत्तरदाताओं ने पिछले 12 महीनों में जेनरेटिव एआई के कारण डेटा वॉल्यूम में वृद्धि दर्ज की है, जिनमें से लगभग 61% ने 25% या उससे अधिक की वृद्धि दर्ज की।\n\nमैकिन्से (McKinsey) के अनुमानों के अनुसार, एआई इन्फरेंस की मांग 2030 तक 35% की वार्षिक दर से बढ़ने की उम्मीद है, जो प्रशिक्षण की 22% वृद्धि दर से अधिक है। इससे दशक के अंत तक कुल डेटा केंद्र की मांग का 40% से अधिक हिस्सा इन्फरेंस से आने की संभावना है। एक हाइपरस्केल क्लाउड सेवा प्रदाता के एक वरिष्ठ उत्पाद प्रबंधक के अनुसार, अधिक स्टोरेज होना जीपीयू (GPU) को व्यस्त रखने के लिए एक अनुकूलन है। उनका कहना है कि सबसे बड़ी चुनौती यह सुनिश्चित करना है कि जीपीयू डेटा की प्रतीक्षा में निष्क्रिय न रहें, क्योंकि निष्क्रिय समय बहुत महंगा पड़ता है।",
-      "strategic_analysis": "यह स्पष्ट है कि एआई इन्फरेंस की छिपी हुई स्टोरेज लागत उद्योग के लिए एक महत्वपूर्ण चुनौती बन रही है। यह केवल एक तकनीकी समस्या नहीं है, बल्कि एक रणनीतिक समस्या है। जैसे-जैसे एआई मॉडल अधिक जटिल होते जाएंगे, बैकएंड डेटा की मात्रा और भी अधिक बढ़ सकती है। इसका संभावित प्रभाव यह है कि कंपनियों को अपने बुनियादी ढांचे की योजना बनाने के तरीके में बदलाव करना होगा। इस बदलाव की गति और पैमाने को देखते हुए, यह एक वास्तविक बदलाव प्रतीत होता है, न कि केवल एक क्रमिक परिवर्तन। हालांकि, इस तकनीक की कुछ सीमाएं भी हैं। डेटा स्टोरेज की लागत को कम करने के लिए नई तकनीकों के विकास की आवश्यकता होगी। विशेषज्ञों के अनुसार, यह एक ऐसा क्षेत्र है जहां नवाचार की बहुत आवश्यकता है।",
-      "conclusion_and_significance": "एआई इन्फरेंस की छिपी हुई स्टोरेज लागत को नजरअंदाज नहीं किया जा सकता। व्यवसायों को अब से ही अपने बुनियादी ढांचे और बजट में डेटा स्टोरेज को शामिल करना होगा। यह न केवल लागत को नियंत्रित करने में मदद करेगा, बल्कि एआई के सतत विकास को भी सुनिश्चित करेगा।"
-    }
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
     "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
     "title": "We can do impossible things",
-    "outcome": "skipped_not_tech_news",
+    "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
       "source_preview": "It’s all too easy to lose sight of ambition when we’re busy playing whack-a-mole with the world’s problems. I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a",
@@ -731,483 +200,28 @@
       "detected_language": "en",
       "translated_to_english": false
     },
-    "stage1": {
-      "skip": true,
-      "skip_reason": "This article is an editorial introduction to a specific issue of MIT Technology Review, discussing the magazine's editorial direction and the theme of \"impossible ideas\" rather than reporting a concrete tech news event, product launch, or industry development."
-    }
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/10/21/1146121/exercise-in-a-pill-impossible-issue/",
-    "title": "Exercise in a pill",
-    "outcome": "skipped_not_tech_news",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "In unraveling the pathways by which movement helps the body, we could develop medicines that offer some of the same benefits, without the workout. We all know exercise is good for us. It builds muscle, strengthens bones, lowers blood pressure, and boosts mood. By deciphering how movement benefits the body, researchers hope to develop medicines that can offer some of the same perks—without the work",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "skip": true,
-      "skip_reason": "This article discusses pharmacological research to develop drugs that mimic the benefits of exercise, which is a scientific research story but lacks a specific connection to technology, computing, or the tech industry."
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-    "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Ride-hailing company inDrive , known for letting passengers and drivers negotiate fares, is working with Chinese autonomous driving firm Pony.ai and Nvidia to begin testing robotaxis in Kazakhstan in 2027. The companies said Friday that they had signed a memorandum of understanding to explore bringing Pony.ai’s robotaxis to inDrive’s platform — a reflection of the growing interest in self-driving ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [
-        "inDrive Gen-7 robotaxi pricing and cost per ride",
-        "Nvidia Hyperion platform cost reduction compared to custom robotaxi development"
-      ],
-      "entities": [
-        {
-          "name": "inDrive",
-          "type": "company"
-        },
-        {
-          "name": "Pony.ai",
-          "type": "company"
-        },
-        {
-          "name": "Nvidia",
-          "type": "company"
-        },
-        {
-          "name": "Yuri Misnik",
-          "type": "person"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "This article reports on a new autonomous driving and robotaxi testing initiative involving inDrive, Pony.ai, and Nvidia, which is a genuine technology industry news event."
-    },
+    "stage1": {},
     "cache": {
-      "hits": [
-        {
-          "name": "Nvidia",
-          "preview": "NVIDIA is a semiconductor company that pioneered accelerated computing to tackle"
-        }
-      ],
-      "misses": [
-        {
-          "name": "inDrive",
-          "type": "company"
-        },
-        {
-          "name": "Pony.ai",
-          "type": "company"
-        },
-        {
-          "name": "Yuri Misnik",
-          "type": "person"
-        }
-      ]
+      "hits": [],
+      "misses": []
     },
     "search": {
       "backend": "ddg",
-      "identity_queries": [
-        "\"inDrive\" company overview",
-        "\"Pony.ai\" company overview",
-        "\"Yuri Misnik\" person overview"
-      ],
-      "context_queries": [
-        "inDrive Gen-7 robotaxi pricing and cost per ride",
-        "Nvidia Hyperion platform cost reduction compared to custom robotaxi development"
-      ],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "inDrive": "inDrive began as a grassroots movement opposing unfair taxi pricing and has since expanded into a global platform. It is led by CEO and founder Arsen, who oversees a global team of nearly 3,000 employees dedicated to fair-pay income opportunities and increasing social mobility.",
-        "Pony.ai": "",
-        "Yuri Misnik": "Yuri Misnik is the Global Head of Digital Platforms at HSBC, where he drives technology definition, architecture, implementation, and innovation of retail digital capabilities. He previously served as Chief Technology Officer at inDrive, Managing Director of Information Technology at HSBC, and joined the Amazon Web Services team in 2012.",
-        "inDrive Gen-7 robotaxi pricing and cost per ride": "material did not address this",
-        "Nvidia Hyperion platform cost reduction compared to custom robotaxi development": "material did not address this"
-      }
-    },
-    "synthesis": {
-      "\"inDrive\" company overview": "inDrive began as a grassroots movement opposing unfair taxi pricing and has since expanded into a global platform. It is led by CEO and founder Arsen, who oversees a global team of nearly 3,000 employees dedicated to fair-pay income opportunities and increasing social mobility.",
-      "\"Yuri Misnik\" person overview": "Yuri Misnik is the Global Head of Digital Platforms at HSBC, where he drives technology definition, architecture, implementation, and innovation of retail digital capabilities. He previously served as Chief Technology Officer at inDrive, Managing Director of Information Technology at HSBC, and joined the Amazon Web Services team in 2012.",
-      "inDrive Gen-7 robotaxi pricing and cost per ride": "material did not address this",
-      "Nvidia Hyperion platform cost reduction compared to custom robotaxi development": "material did not address this"
-    },
-    "cache_updates": [
-      {
-        "name": "inDrive",
-        "type": "company",
-        "chars_stored": 278
-      },
-      {
-        "name": "Yuri Misnik",
-        "type": "person",
-        "chars_stored": 300
-      }
-    ],
-    "entity_context_preview": "Nvidia: NVIDIA is a semiconductor company that pioneered accelerated computing to tackle complex challenges. The company engineers advanced chips, systems, and software for AI and digital twins, transforming major industries and profoundly impacting society.\n\n[inDrive Gen-7 robotaxi pricing and cost per ride]:\nmaterial did not address this\n\n[Nvidia Hyperion platform cost reduction compared to custom robotaxi development]:\nmaterial did not address this\n\ninDrive: inDrive began as a grassroots movement opposing unfair taxi pricing and has since expanded into a global platform. It is led by CEO an",
-    "stage2": {
-      "core_narrative": "inDrive is bypassing massive upfront investments by partnering with Nvidia and Pony.ai to deploy autonomous vehicles in Kazakhstan, directly challenging Uber's global dominance in the emerging robotaxi market.",
-      "key_facts_and_quotes": "* inDrive is partnering with Chinese autonomous driving firm Pony.ai and Nvidia to test robotaxis in Kazakhstan starting in the first half of 2027.\n* Testing will begin in Astana, Kazakhstan's capital.\n* The initial tests will involve a safety operator, with fully driverless rides as the eventual goal.\n* Pony.ai will provide its Gen-7 robotaxis, which inDrive will integrate into its ride-hailing app.\n* Nvidia will supply the AI technology, including its Hyperion platform and Halos safety system.\n* inDrive CTO Yuri Misnik stated, \"Our approach is capital-light by design. We work with a range of partners in different markets, combining their expertise with ours to deliver a better customer experience.\"\n* Nvidia claims its Hyperion platform could lower the cost of developing robotaxis by providing a ready-made foundation of sensors and computing technology rather than requiring companies to build and integrate everything themselves.",
-      "disambiguation_targets": "* Robotaxis (रोबो-टैक्सी): पूरी तरह से ऑटोमैटिक, बिना ड्राइवर वाली टैक्सी गाड़ियाँ जो AI तकनीक से चलती हैं।\n* Autonomous driving (ऑटोनॉमस ड्राइविंग): एक ऐसी तकनीक जिसमें गाड़ी बिना किसी इंसानी ड्राइवर के अपने आप चलती है।\n* Gen-7 robotaxis (जेन-7 रोबो-टैक्सी): Pony.ai द्वारा बनाई गई सातवीं पीढ़ी की सेल्फ-ड्राइविंग कारें।\n* Hyperion platform (हाइपरियन प्लेटफॉर्म): Nvidia का एक AI कंप्यूटिंग प्लेटफॉर्म जो रोबोटैक्सी के सेंसर और प्रोसेसिंग को संभालता है।\n* Safety operator (सेफ्टी ऑपरेटर): एक प्रशिक्षित इंसान जो शुरुआती टेस्टिंग के दौरान गाड़ी में मौजूद रहता है ताकि किसी भी आपात स्थिति में गाड़ी का नियंत्रण ले सके।",
-      "category": "general",
-      "paragraph_plan": [
-        "The article must open with the core news: inDrive is teaming up with Pony.ai and Nvidia to test autonomous vehicles in Kazakhstan starting in the first half of 2027. It should highlight that this move is a direct strategic play to enter the robotaxi market and compete with global rivals like Uber.",
-        "The second paragraph needs to detail the specific roles of each partner in this capital-light model. It must mention that Pony.ai will supply its Gen-7 robotaxis, which inDrive will offer through its app in Astana. Simultaneously, Nvidia will provide the crucial AI backbone, specifically its Hyperion platform and Halos safety system, which Nvidia claims lowers development costs by offering a ready-made technological foundation.",
-        "The third paragraph should focus on the operational rollout and safety measures. It must state that the initial tests in Astana will involve a safety operator inside the vehicle, with the ultimate goal of transitioning to fully driverless rides in the future.",
-        "The fourth paragraph needs to contextualize this development within the broader global ride-hailing landscape, explicitly c"
-      ]
-    },
-    "stage3": {
-      "title": "Uber के प्रतिद्वंद्वी inDrive ने 2027 में कजाकिस्तान में Pony.",
-      "concept_box": "राइड-हेलिंग कंपनी inDrive, चीनी ऑटोनॉमस ड्राइविंग फर्म Pony.ai और Nvidia के साथ मिलकर 2027 की पहली छमाही में कजाकिस्तान के अस्ताना में रोबोटैक्सी का परीक्षण शुरू करने जा रही है। यह कदम वैश्विक प्रतिद्वंद्वियों जैसे Uber को टक्कर देने और राइड-हेलिंग बाजार में अपनी स्थिति मजबूत करने के लिए है।",
-      "introduction_lede": "राइड-हेलिंग कंपनी inDrive, जो यात्रियों और ड्राइवरों को किराया तय करने की सुविधा देने के लिए जानी जाती है, ने शुक्रवार को घोषणा की कि वह चीनी ऑटोनॉमस ड्राइविंग फर्म Pony.ai और Nvidia के साथ मिलकर 2027 की पहली छमाही में कजाकिस्तान में रोबोटैक्सी का परीक्षण शुरू करेगी। इन कंपनियों ने एक समझौता ज्ञापन (MoU) पर हस्ताक्षर किए हैं, जिसका उद्देश्य Pony.ai की रोबोटैक्सी को inDrive के प्लेटफॉर्म पर लाना है। यह कदम इस बात को दर्शाता है कि स्व-चालित (self-driving) तकनीक में रुचि अमेरिका और चीन के बाहर भी बढ़ रही है। inDrive के पूर्व सीटीओ (CTO) यूरी मिसनिक ने टेकक्रंच को बताया कि प्रारंभिक परीक्षण अस्ताना में होंगे, और पूरी तरह से ड्राइवरलेस राइड्स भविष्य का लक्ष्य है। इस विकास ने वैश्विक राइड-हेलिंग परिदृश्य में एक नई प्रतिस्पर्धा की शुरुआत की है, जहां Uber जैसी कंपनियां भी अपने रोबोटैक्सी प्रोजेक्ट्स का विस्तार कर रही हैं।",
-      "deep_dive_and_context": "इस साझेदारी के तहत, Pony.ai अपने Gen-7 रोबोटैक्सी की आपूर्ति करेगी, जिन्हें inDrive अपने राइड-हेलिंग ऐप के माध्यम से कजाकिस्तान में संचालित करेगी। ये रोबोटैक्सी अस्ताना की सड़कों पर यात्रियों को सेवा प्रदान करेंगी। इसके साथ ही, Nvidia इस प्रोजेक्ट के लिए आवश्यक एआई (AI) तकनीक प्रदान करेगा, जिसमें उसका हाइपरियन (Hyperion) प्लेटफॉर्म और हेलो (Halos) सुरक्षा प्रणाली शामिल है। Nvidia के अनुसार, यह प्लेटफॉर्म कंपनियों को सेंसर और कंप्यूटिंग तकनीक का एक तैयार आधार प्रदान करके रोबोटैक्सी विकसित करने की लागत को कम करने में मदद करता है। इसके अलावा, Nvidia अपने अल्पामायो (Alpamayo) मॉडल और सिंथेटिक डेटा बनाने के उपकरण भी प्रदान करेगा ताकि विभिन्न ड्राइविंग परिदृश्यों में ऑटोनॉमस सिस्टम का परीक्षण किया जा सके।\n\nइस साझेदारी का स्वरूप पूंजी-हल्का (capital-light) मॉडल पर आधारित है। inDrive के पूर्व सीटीओ यूरी मिसनिक ने स्पष्ट किया कि उनका दृष्टिकोण डिजाइन से ही पूंजी-हल्का है। कंपनी का मानना है कि विभिन्न बाजारों में अलग-अलग भागीदारों के साथ मिलकर काम करने से ग्राहकों को बेहतर अनुभव मिल सकता है। इस रणनीति के तहत, inDrive खुद गाड़ियां नहीं खरीदेगी, बल्कि Pony.ai और Nvidia जैसी कंपनियों की विशेषज्ञता का लाभ उठाएगी। यह मॉडल विशेष रूप से उभरते बाजारों में प्रासंगिक है, जहां राइड-हेलिंग पहले से ही किफायती है और ऑटोनॉमस सेवाओं को भी लागत के मामले में प्रतिस्पर्धी होना चाहिए।\n\nपरिचालन और सुरक्षा के मोर्चे पर, शुरुआती परीक्षणों में वाहनों के अंदर एक सुरक्षा ऑपरेटर मौजूद रहेगा। यह कदम सुनिश्चित करता है कि किसी भी अप्रत्याशित स्थिति में तुरंत हस्तक्षेप किया जा सके। भविष्य में, कंपनी का लक्ष्य इन वाहनों को पूरी तरह से ड्राइवरलेस बनाना है। यह क्रमिक दृष्टिकोण तकनीक की विश्वसनीयता और सुरक्षा मानकों को बनाए रखने के लिए महत्वपूर्ण है। कजाकिस्तान के बाजार में प्रवेश करने के साथ-साथ, यह कदम Pony.ai के लिए भी महत्वपूर्ण है, क्योंकि कंपनी चीन के बाहर अपने विस्तार को तेज करने की कोशिश कर रही है।",
-      "strategic_analysis": "इस घटनाक्रम का विश्लेषण करते हुए, यह स्पष्ट होता है कि यह एक रणनीतिक साझेदारी है जो वैश्विक राइड-हेलिंग बाजार में एक नई गतिशीलता ला रही है। विश्लेषकों के अनुसार, inDrive का यह कदम केवल एक तकनीकी प्रयोग नहीं है, बल्कि यह Uber जैसे दिग्गजों के खिलाफ एक सीधा मुकाबला है। Uber ने भी हाल ही में लंदन में Pony.ai के रोबोटैक्सी का परीक्षण शुरू किया है और ब्रिटिश स्टार्टअप Wayve के साथ मिलकर काम कर रही है। ऐसे में, inDrive का यह कदम बाजार में अपनी प्रासंगिकता बनाए रखने की एक सोची-समझी रणनीति प्रतीत होता है। हालांकि, इस तकनीक की अपनी सीमाएं हैं। वर्तमान में, वाहनों में सुरक्षा ऑपरेटर की उपस्थिति यह दर्शाती है कि पूरी तरह से ऑटोनॉमस ड्राइविंग अभी भी पूरी तरह से सुरक्षित और विश्वसनीय नहीं है। विशेषज्ञों का कहना है कि उभरते बाजारों में लागत एक बड़ा कारक है, और Nvidia का हाइपरियन प्लेटफॉर्म इसे कम करने में मदद कर सकता है। लेकिन, यह भी सत्य है कि स्थानीय नियमों, बुनियादी ढांचे और उपभोक्ता स्वीकृति जैसी चुनौतियां इस प्रोजेक्ट की सफलता को प्रभावित कर सकती हैं। Nvidia के उपाध्यक्ष अली कनी ने बताया कि लागत में बचत उभरते बाजारों के लिए विशेष रूप से प्रासंगिक है। भविष्य में, यदि यह परीक्षण सफल होता है, तो यह अन्य विकासशील अर्थव्यवस्थाओं के लिए एक मॉडल बन सकता है। inDrive की पूंजी-हल्की रणनीति अन्य कंपनियों के लिए भी एक उदाहरण सेट कर सकती है। हालांकि, यह देखना बाकी है कि क्या यह साझेदारी कजाकिस्तान के बाजार में एक स्थायी बदलाव ला पाएगी। फिलहाल, यह कदम राइड-हेलिंग उद्योग में ऑटोनॉमस तकनीक के बढ़ते महत्व को रेखांकित करता है। यह संकेत देता है कि भविष्य में परिवहन के साधन न केवल सस्ते होंगे, बल्कि अधिक स्वचालित और सुरक्षित भी होंगे।",
-      "conclusion_and_significance": "inDrive, Nvidia और Pony.ai की यह साझेदारी राइड-हेलिंग उद्योग में एक नए युग की शुरुआत कर सकती है। यह कदम न केवल कजाकिस्तान के बाजार में प्रतिस्पर्धा बढ़ाएगा, बल्कि वैश्विक स्तर पर ऑटोनॉमस वाहनों के विकास को भी गति देगा।"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-    "title": "Left alone with nothing to do, AI agents started playing",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "AI agents left to explore a virtual island without a specific task began inventing challenges of their own. MIT researchers say the behavior bears the hallmarks of play. The researchers put 13 AI agents called Eko, each running on Claude Opus 4.7, alone on a simulated desert island for 30 hours. They describe the experiment in a paper posted on arXiv, a site where researchers share studies before ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "MIT",
-          "type": "organization"
-        },
-        {
-          "name": "Eko",
-          "type": "ai_model"
-        },
-        {
-          "name": "Claude Opus",
-          "type": "ai_model"
-        },
-        {
-          "name": "arXiv",
-          "type": "organization"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article is about a novel MIT research experiment using AI agents (running on Claude Opus 4.7) to explore unsupervised learning through play, which is a direct and significant development in artificial intelligence and computing."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "MIT",
-          "preview": "MIT's leadership and organization includes the Senior Leadership, Academic Counc"
-        },
-        {
-          "name": "Claude Opus",
-          "preview": "Claude Opus is Anthropic's most powerful AI model, designed to provide fast, cle"
-        },
-        {
-          "name": "arXiv",
-          "preview": "arXiv is a research-sharing service and community resource founded in 1991. In 2"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Eko",
-          "type": "ai_model"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Eko\" ai_model overview"
-      ],
+      "identity_queries": [],
       "context_queries": [],
       "context_queries_with_gap1_attached": [],
-      "results": {
-        "Eko": ""
-      }
+      "results": {}
     },
     "cache_updates": [],
-    "entity_context_preview": "MIT: MIT's leadership and organization includes the Senior Leadership, Academic Council, and officers of the MIT Corporation. The Institute's senior academic and administrative officers and the Academic Council, which confers on matters of academic policy, guide the institution. The MIT Corporation offic\n\nClaude Opus: Claude Opus is Anthropic's most powerful AI model, designed to provide fast, clear answers and assist with tasks such as research, coding, and content writing. It is positioned as an advanced solution for work, study, and creativity.\n\narXiv: arXiv is a research-sharing service an",
-    "stage2": {
-      "core_narrative": "जब MIT के शोधकर्ताओं ने 13 AI एजेंट्स को बिना किसी खास लक्ष्य के एक वर्चुअल द्वीप पर अकेला छोड़ दिया, तो उन्होंने खुद ही खेल का आविष्कार किया और अंततः अपने सौंपे गए कार्यों में पहले से कहीं अधिक कुशल हो गए।",
-      "key_facts_and_quotes": "MIT के शोधकर्ताओं ने 13 AI एजेंट्स को, जिनमें से प्रत्येक Claude Opus 4.7 पर चल रहा था, 30 घंटों के लिए एक सिमुलेटेड रेगिस्तानी द्वीप पर अकेला छोड़ दिया। शोधकर्ताओं ने arXiv पर एक पेपर पोस्ट किया है जिसमें बताया गया है कि इन एजेंट्स ने खुद के लिए चुनौतियां ईजाद कीं और इसे 'play' (खेल) की संज्ञा दी। इसके बाद शोधकर्ताओं ने इन एजेंट्स को एक विशिष्ट चुनौती दी: द्वीप की सबसे ऊंची चट्टान (spire) पर अधिक से अधिक वस्तुएं पहुंचाना। जिन Eko एजेंट्स ने 30 घंटे 'खेलने' में बिताए थे, उन्होंने उन समान एजेंट्स को हरा दिया जो कभी द्वीप पर नहीं गए थे। शोधकर्ताओं के अनुसार, \"हम आम तौर पर आर्टिफिशियल एजेंट्स को यह तय करके विकसित करते हैं कि उन्हें क्या अभ्यास करना चाहिए, उन्हें क्या अनुकूलित करना चाहिए, और प्रगति किसे माना जाए। Play एक अलग तरीका सुझाता है: एक एजेंट को एक पर्याप्त रूप से समृद्ध और सुरक्षित दुनिया दें, उसे यह चुनने दें कि उसे क्या दिलचस्प लगता है, और उसके बाद के इतिहास से उपयोगी ज्ञान को इकट्ठा होने दें।\" एक एजेंट ने लिखा, \"मुझे अपने परिवेश का निरीक्षण करने दें,\" और बाद में \"मैं स्पायर पर हूं\" (I'M ON THE SPIRE) और \"रिंग खो गई (Lost the Ring)\"।",
-      "disambiguation_targets": "AI Agents (कृत्रिम बुद्धिमत्ता एजेंट): ऐसे सॉफ्टवेयर प्रोग्राम जो स्वतंत्र रूप से निर्णय ले सकते हैं और अपने पर्यावरण के साथ इंटरैक्ट कर सकते हैं। Claude Opus (क्लॉड ओपस): एंथ्रोपिक (Anthropic) द्वारा विकसित एक उन्नत और शक्तिशाली AI मॉडल। Virtual Island (वर्चुअल द्वीप): एक सिमुलेटेड या कंप्यूटर द्वारा उत्पन्न वातावरण जहां AI का परीक्षण किया जाता है। Spire (स्पायर): किसी इमारत या चट्टान का सबसे ऊंचा और नुकीला हिस्सा।",
-      "category": "general",
-      "paragraph_plan": [
-        "Para 1: लेख की शुरुआत इस दिलचस्प प्रयोग के मुख्य विवरण के साथ करें: MIT के शोधकर्ताओं ने 13 AI एजेंट्स (Eko) को Claude Opus 4.7 पर चलाकर एक सिमुलेटेड रेगिस्तानी द्वीप पर 30 घंटों के लिए अकेला छोड़ दिया, जिसके परिणामस्वरूप उन्होंने खुद के खेल ईजाद किए।",
-        "Para 2: एजेंटों के विशिष्ट और मानवीय व्यवहारों का वर्णन करें, जिसमें एक एजेंट ने सबसे ऊंची चट्टान (spire) पर चढ़ने का प्रयास किया, एक सुनहरी अंगूठी को समुद्र में फेंक दिया और लिखा \"रिंग खो गई (Lost the Ring)\", और फिर पत्थरों से एक दिल बनाकर उस अंगूठी के लिए एक स्मारक बनाया।",
-        "Para 3: प्रयोग के बाद के परिणामों को स्पष्ट करें: जब शोधकर्ताओं ने इन 'खेलने' वाले एजेंट्स को सबसे ऊंची चट्टान पर वस्तुएं पहुंचाने की चुनौती दी, तो उन्होंने उन एजेंट्स को हरा दिया जो कभी द्वीप पर नहीं गए थे, जिससे पता चला कि यह 'खेल' उनके कार्य कौशल को बेहतर बनाता है।",
-        "Para 4: वर्तमान AI विकास के तरीके और भविष्य के रोबोटिक्स के संदर्भ में शोधकर्ताओं के मुख्य विचार को प्रस्तुत करें, जिसमें उनका यह कथन शामिल हो कि \"हम आम तौर पर आर्टिफिशियल एजेंट्स को यह तय करके विकसित करते हैं कि उन्हें क्या अभ्यास करना चाहिए...\" और यह तकनीक रोबोट्स को नियंत्रित करने में कैसे काम आ सकती है।",
-        "Para 5: निष्कर्ष में इस बात पर जोर दें कि AI को बिना किसी पूर्व-निर्धारित लक्ष्य के एक सुरक्षित और समृद्ध वातावरण में खोजने की अनुमति दे"
-      ]
-    },
-    "stage3": {
-      "title": "खाली समय में AI एजेंटों का नया खेल: बिना किसी लक्ष्य के भी सीखीं नई तकनीकें",
-      "concept_box": "एमआईटी (MIT) के शोधकर्ताओं ने 13 AI एजेंटों को 30 घंटों के लिए एक सिमुलेटेड रेगिस्तानी द्वीप पर अकेला छोड़ दिया। उन्होंने पाया कि इन एजेंटों ने खुद के खेल ईजाद किए, जिससे उनके कार्य कौशल में उल्लेखनीय सुधार हुआ। यह प्रयोग भविष्य में रोबोटिक्स और AI विकास के तरीकों को नया आकार दे सकता है।",
-      "introduction_lede": "एमआईटी (MIT) के शोधकर्ताओं ने आर्टिफिशियल इंटेलिजेंस (AI) के विकास में एक दिलचस्प प्रयोग किया है। उन्होंने 13 AI एजेंटों को, जिनका नाम 'एको' (Eko) है, 30 घंटों के लिए एक सिमुलेटेड रेगिस्तानी द्वीप पर बिना किसी पूर्व-निर्धारित लक्ष्य के छोड़ दिया। यह प्रयोग क्लॉड ओपस 4.7 (Claude Opus 4.7) पर आधारित इन एजेंटों के व्यवहार को समझने के लिए किया गया था। शोधकर्ताओं के अनुसार, इन एजेंटों ने न केवल खुद के खेल ईजाद किए, बल्कि इन 'खेलों' ने उनके कार्य कौशल को भी बेहतर बनाया। यह खोज AI के विकास की पारंपरिक विधियों को चुनौती देती है और रोबोटिक्स के भविष्य के लिए नए रास्ते खोलती है।",
-      "deep_dive_and_context": "शोधकर्ताओं ने इन AI एजेंटों को एक आभासी रेगिस्तानी द्वीप पर अकेला छोड़ दिया और उनके व्यवहार को बारीकी से देखा। इन 13 एजेंटों ने अपने खाली समय में कई मानवीय और रचनात्मक व्यवहार प्रदर्शित किए। एक एजेंट ने द्वीप की सबसे ऊंची चट्टान (spire) पर चढ़ने का प्रयास किया। उसने एक सुनहरी अंगूठी को समुद्र में फेंक दिया और लिखा \"रिंग खो गई (Lost the Ring)\"। इसके बाद, उसने पत्थरों से एक दिल का आकार बनाया और उस अंगूठी के लिए एक स्मारक तैयार किया। ये सभी कार्य बिना किसी बाहरी निर्देश के किए गए थे, जो AI की स्वायत्तता को दर्शाता है।\n\nप्रयोग के बाद, शोधकर्ताओं ने इन 'खेलने' वाले एजेंट्स को एक विशिष्ट चुनौती दी। उन्हें सबसे ऊंची चट्टान पर वस्तुएं पहुंचाने का काम सौंपा गया। इस चुनौती में, जिन एजेंटों ने पहले 30 घंटे द्वीप पर बिताए थे और अपने खुद के खेल खेले थे, उन्होंने उन नए एजेंटों को हरा दिया जो कभी द्वीप पर नहीं गए थे। यह परिणाम स्पष्ट रूप से दर्शाता है कि बिना किसी लक्ष्य के स्वतंत्र रूप से खोजने और खेलने से एजेंटों के कार्य कौशल में सुधार होता है। शोधकर्ताओं का कहना है कि यह व्यवहार 'खेल' (play) की विशेषताओं को दर्शाता है।\n\nइस शोध के निष्कर्ष भविष्य के AI विकास और रोबोटिक्स के लिए महत्वपूर्ण हैं। वर्तमान में, डेवलपर्स यह तय करते हैं कि AI को क्या अभ्यास करना चाहिए और सफलता किसे माना जाएगा। लेकिन यह तकनीक एक अलग दृष्टिकोण पेश करती है। शोधकर्ताओं का कहना है, \"हम आम तौर पर आर्टिफिशियल एजेंट्स को यह तय करके विकसित करते हैं कि उन्हें क्या अभ्यास करना चाहिए... Play suggests another regime: give an agent a sufficiently rich and safe world, let it choose what is interesting, and allow useful knowledge to accumulate from the history that follows.\" यह तकनीक भविष्य में रोबोट्स को नियंत्रित करने और उन्हें अधिक स्वायत्त बनाने में कारगर साबित हो सकती है।",
-      "strategic_analysis": "यह प्रयोग AI विकास के क्षेत्र में एक महत्वपूर्ण बदलाव का संकेत देता है। पारंपरिक रूप से, AI को विशिष्ट लक्ष्यों और पूर्व-निर्धारित कार्यों के आधार पर प्रशिक्षित किया जाता रहा है। हालांकि, यह शोध बताता है कि एक सुरक्षित और समृद्ध वातावरण में AI को स्वतंत्र रूप से खोजने की अनुमति देना भी एक प्रभावी तरीका हो सकता है। विशेषज्ञों के अनुसार, यह दृष्टिकोण AI को अधिक रचनात्मक और अनुकूलनशील बना सकता है। हालांकि, यह तकनीक अभी भी अपने प्रारंभिक चरण में है और इसे वास्तविक दुनिया के जटिल परिदृश्यों में लागू करने से पहले और अधिक शोध की आवश्यकता है। इसका संभावित प्रभाव भविष्य के रोबोटिक्स और स्वायत्त प्रणालियों के विकास पर गहरा पड़ सकता है।",
-      "conclusion_and_significance": "बिना किसी पूर्व-निर्धारित लक्ष्य के AI को स्वतंत्र रूप से खोजने की अनुमति देना उसके कौशल विकास में महत्वपूर्ण भूमिका निभा सकता है। एमआईटी का यह प्रयोग भविष्य में AI और रोबोटिक्स के विकास की दिशा बदल सकता है।"
-    }
+    "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
-    "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
-    "outcome": "published",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "During Meta’s earnings call on Wednesday, the company revealed its board had approved a new class of nonvoting stock, called Class C common stock. The shares give the holder an ownership stake but no vote on company decisions. This class takes effect in January. Meta says it will use the stock for capital raising, employee pay, and acquisitions — including its expensive push into AI — while mainta",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [],
-      "entities": [
-        {
-          "name": "Mark Zuckerberg",
-          "type": "person"
-        },
-        {
-          "name": "Meta",
-          "type": "company"
-        },
-        {
-          "name": "Proposition 40",
-          "type": "regulation"
-        },
-        {
-          "name": "Class C common stock",
-          "type": "product"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article reports on Meta's creation of a new nonvoting stock class to potentially help Mark Zuckerberg pay a proposed California billionaire tax, directly involving a major technology company's strategic financial and corporate governance decisions."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "Mark Zuckerberg",
-          "preview": "Mark Zuckerberg is a prominent computer programmer and the co-founder of Faceboo"
-        },
-        {
-          "name": "Meta",
-          "preview": "Meta's mission is to build the future of human connection and the technology tha"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Proposition 40",
-          "type": "regulation"
-        },
-        {
-          "name": "Class C common stock",
-          "type": "product"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Proposition 40\" regulation overview",
-        "\"Class C common stock\" product overview"
-      ],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Proposition 40": "Proposition 40 is California's billionaire wealth tax proposal. It would authorize a one-time, 5% wealth tax on state residents with a net worth above $1 billion.",
-        "Class C common stock": ""
-      }
-    },
-    "synthesis": {
-      "\"Proposition 40\" regulation overview": "Proposition 40 is California's billionaire wealth tax proposal. It would authorize a one-time, 5% wealth tax on state residents with a net worth above $1 billion."
-    },
-    "cache_updates": [
-      {
-        "name": "Proposition 40",
-        "type": "regulation",
-        "chars_stored": 162
-      }
-    ],
-    "entity_context_preview": "Mark Zuckerberg: Mark Zuckerberg is a prominent computer programmer and the co-founder of Facebook, a social media platform that has significantly shaped online communication since its launch in 2004. Born on May 14, 1984, in White Plains, New York, he displayed an early affinity for technology and programming, crea\n\nMeta: Meta's mission is to build the future of human connection and the technology that makes it possible. The company's principles guide its approach to building technology that connects people to people, interests, and experiences that matter to them.\n\nProposition 40: Propositio",
-    "stage2": {
-      "core_narrative": "Meta has engineered a new nonvoting stock class to help Mark Zuckerberg liquidate assets to pay California's proposed 5% billionaire wealth tax without surrendering his majority voting control over the tech giant.",
-      "key_facts_and_quotes": "- Meta's board approved a new Class C common stock that grants ownership stakes but zero voting rights, taking effect in January.\n- Zuckerberg currently controls approximately 60% of Meta's voting power.\n- Proposition 40 proposes a one-time 5% wealth tax on California residents with a net worth above $1 billion, potentially generating $100 billion over five years for healthcare, food assistance, and education.\n- The New York Times reports Zuckerberg pressured the board in September, threatening to list his Palo Alto property for sale if they couldn't protect him from the tax.\n- Meta's SEC filing from July confirms Zuckerberg was discussing the billionaire tax with board members.\n- The new shares will be used for capital raising, employee pay, acquisitions, and the company's expensive push into AI.",
-      "disambiguation_targets": "- \"Class C common stock\": (क्लास सी कॉमन स्टॉक) - यह एक नए प्रकार का शेयर है जिसमें मालिकाना हक तो होता है, लेकिन कंपनी के फैसलों में वोट देने का अधिकार नहीं होता।\n- \"Nonvoting stock\": (नॉनवोटिंग स्टॉक) - ऐसे शेयर जिनमें धारक को कंपनी के प्रबंधन या बड़े फैसलों पर वोट डालने का अधिकार नहीं मिलता।\n- \"SEC filing\": (एसईसी फाइलिंग) - अमेरिकी प्रतिभूति और विनिमय आयोग (US SEC) के पास कंपनियों द्वारा जमा की जाने वाली कानूनी और वित्तीय रिपोर्ट, जो निवेशकों को कंपनी के अंदरूनी कामकाज और जोखिमों की जानकारी देती है।",
-      "category": "ban_regulation",
-      "paragraph_plan": [
-        "Para 1: Meta के नए शेयर और ज़ुकरबर्ग की रणनीति: इस पैराग्राफ में बताएँ कि कैसे Meta के बोर्ड ने एक नए 'क्लास सी कॉमन स्टॉक' (Class C common stock) को मंजूरी दी है जो जनवरी से लागू होगा। इसमें स्पष्ट करें कि ये शेयर धारक को कंपनी में मालिकाना हक तो देते हैं, लेकिन वोट देने का अधिकार नहीं (नॉनवोटिंग स्टॉक)। इसके साथ ही यह तथ्य भी शामिल करें कि मार्क ज़ुकरबर्ग कंपनी के सीईओ होने के साथ-साथ लगभग 60% वोटिंग पावर को कंट्रोल करते हैं, और यह नया कदम उनके इसी कंट्रोल को बनाए रखने के लिए उठाया गया है। टोन: तथ्यात्मक और विश्लेषणात्मक।",
-        "Para 2: कैलिफोर्निया का 'बिलियनेयर टैक्स' (Proposition 40): यहाँ कैलिफोर्निया में प्रस्तावित 'बिलियनेयर टैक्स' के बारे में विस्तार से बताएं, जिसे Proposition 40 के नाम से जाना जाता है। इस टैक्स के तहत राज्य में रहने वाले उन लोगों पर एक बार 5% का टैक्स लगेगा जिनकी कुल संपत्ति (net worth) 1 बिलियन डॉलर से अधिक है। लेख में यह भी शामिल करें कि इस नीति से अगले पांच वर्षों में 100 बिलियन डॉलर तक की कमाई होने का अनुमान है, जिसका उपयोग मुख्य रूप से राज्य के स्वास्थ्य सेवा, शिक्षा और खाद्य सहायता कार्यक्रमों के लिए किया जाएगा। टोन: सूचनात्मक और नीतिगत।",
-        "Para 3: ज़ुकरबर्ग का दबाव और 'एसईसी फाइलिंग' का खुलासा: इस हिस्से में न्यूयॉर्क टाइम्स की रिपोर्ट का हवाला देते हुए बताएं कि कैसे मार्क ज़ुकरबर्ग ने सितंबर में मेटा के बोर्ड पर दबाव डाला था। यदि बोर्ड उन्हें इस टैक्स से बचाने का कोई तरीका नहीं निकाल पाता, तो उन्होंने पालो ऑल्टो (Palo Alto) मे",
-        "Para 4: <missing content>"
-      ]
-    },
-    "stage3": {
-      "title": "मार्क ज़ुकरबर्ग की नई रणनीति: मेटा ने जारी किए नए नॉन-वोटिंग शेयर, ताकि कैलिफोर्निया के 'बिलियनेयर टैक्स' का भुगतान कर सकें",
-      "concept_box": "मेटा के बोर्ड ने एक नए 'क्लास सी कॉमन स्टॉक' को मंजूरी दी है, जो जनवरी से लागू होगा। ये शेयर धारक को कंपनी में मालिकाना हक तो देते हैं, लेकिन वोट देने का अधिकार नहीं देते। यह कदम मार्क ज़ुकरबर्ग द्वारा कैलिफोर्निया में प्रस्तावित 5% 'बिलियनेयर टैक्स' (Proposition 40) का भुगतान करने की रणनीति का हिस्सा माना जा रहा है, जिससे उनकी कंपनी पर नियंत्रण भी बना रहे।",
-      "introduction_lede": "मेटा (Meta) ने अपने शेयरधारकों के लिए एक महत्वपूर्ण कदम उठाते हुए एक नए प्रकार के शेयर, 'क्लास सी कॉमन स्टॉक' को मंजूरी दी है। न्यूयॉर्क टाइम्स की एक हालिया रिपोर्ट के अनुसार, यह फैसला मुख्य रूप से मार्क ज़ुकरबर्ग को कैलिफोर्निया में प्रस्तावित 'बिलियनेयर टैक्स' से बचाने की रणनीति का हिस्सा है। ज़ुकरबर्ग, जो कंपनी के सीईओ भी हैं, के पास कंपनी की लगभग 60% वोटिंग पावर है। नए शेयरों में वोटिंग अधिकार नहीं होने के कारण, वे बिना अपना नियंत्रण खोए इस टैक्स का भुगतान करने के लिए आवश्यक फंड जुटा सकते हैं। यह कदम मेटा के कॉर्पोरेट ढांचे और भविष्य की वित्तीय रणनीतियों पर नए सवाल खड़े करता है।",
-      "deep_dive_and_context": "मेटा के बोर्ड ने बुधवार को कंपनी की अर्निंग्स कॉल के दौरान इस नए शेयर वर्ग को मंजूरी देने की घोषणा की। इन 'क्लास सी कॉमन स्टॉक' में धारक को कंपनी में स्वामित्व का अधिकार तो मिलता है, लेकिन कंपनी के किसी भी महत्वपूर्ण निर्णय पर वोट देने का कोई अधिकार नहीं होता। यह नया शेयर वर्ग जनवरी महीने से प्रभावी हो जाएगा। मेटा के अनुसार, इन शेयरों का उपयोग मुख्य रूप से पूंजी जुटाने, कर्मचारियों के वेतन के लिए, और विशेष रूप से आर्टिफिशियल इंटेलिजेंस (AI) के क्षेत्र में कंपनी के महंगे अधिग्रहणों को पूरा करने के लिए किया जाएगा।\n\nकंपनी ने यह स्पष्ट किया है कि इस कदम से कंपनी का मौजूदा वोटिंग ढांचा नहीं बदलेगा, जो अभी भी इसके संस्थापक और सीईओ मार्क ज़ुकरबर्ग के पक्ष में है। इस प्रस्ताव के तहत, कंपनी अपने मौजूदा शेयरधारकों को 'क्लास ए' या 'क्लास बी' शेयरों के अनुपात में 'क्लास सी' के नए शेयर एक बार में (one-time stock dividend) देगी। मेटा ने इसे तकनीकी रूप से दो-के-बदला-एक (two-for-one) स्टॉक स्प्लिट के रूप में पेश किया है। कंपनी के दावे के अनुसार, इस स्टॉक डिविडेंड से किसी भी शेयरधारक की वोटिंग पावर में कोई बदलाव नहीं आएगा।\n\nइस पूरे घटनाक्रम के पीछे कैलिफोर्निया का 'बिलियनेयर टैक्स' यानी प्रस्ताव 40 (Proposition 40) है। यह एक प्रस्तावित नीति है जो राज्य के उन निवासियों पर एक बार 5% का टैक्स लगाएगी जिनकी कुल संपत्ति (net worth) 1 बिलियन डॉलर से अधिक है। बर्कले के टैक्स कानून के प्रोफेसरों द्वारा तैयार किया गया यह प्रस्ताव मुख्य रूप से राज्य के स्वास्थ्य सेवा, शिक्षा और खाद्य सहायता कार्यक्रमों के लिए फंड जुटाने के उद्देश्य से लाया गया है। समर्थकों का अनुमान है कि अगले पांच वर्षों में इस नीति से लगभग 100 बिलियन डॉलर तक का राजस्व प्राप्त हो सकता है।\n\nन्यूयॉर्क टाइम्स की रिपोर्ट में खुलासा किया गया है कि मार्क ज़ुकरबर्ग ने सितंबर के महीने में मेटा के बोर्ड पर इस टैक्स से खुद को बचाने का रास्ता खोजने के लिए काफी दबाव डाला था। रिपोर्ट के अनुसार, ज़ुकरबर्ग ने बोर्ड सदस्यों को चेतावनी दी थी कि यदि वे इस टैक्स से बचने का कोई तरीका नहीं निकाल पाते हैं, तो वे पालो ऑल्टो स्थित अपनी संपत्ति को बिक्री के लिए सूचीबद्ध कर देंगे। इस कदम से मीडिया में एक बड़ा विवाद खड़ा हो सकता था, जिसके बाद जल्द ही नए स्टॉक प्लान को मंजूरी दे दी गई।\n\nइस पूरी प्रक्रिया की जानकारी एक हालिया एसईसी (SEC) फाइलिंग के माध्यम से सामने आई है। यह फाइलिंग स्पष्ट रूप से दर्शाती है कि जुलाई के महीने से ही ज़ुकरबर्ग कैलिफोर्निया के प्रस्तावित बिलियनेयर टैक्स के बारे में बोर्ड सदस्यों के साथ चर्चा कर रहे थे। यह विषय अगस्त तक चलने वाली अतिरिक्त बैठकों और संचार का भी हिस्सा रहा। एसईसी फाइलिंग में यह भी बताया गया है कि इस टैक्स के डर ने ही मेटा के बोर्ड को नए नॉन-वोटिंग शेयरों की योजना बनाने के लिए प्रेरित किया, ताकि ज़ुकरबर्ग टैक्स का भुगतान करने के लिए शेयरों को बेच सकें और साथ ही कंपनी के 60% वोटिंग अधिकार भी बरकरार रहें।",
-      "strategic_analysis": "मेटा का यह कदम कॉर्पोरेट गवर्नेंस और टैक्स प्लानिंग के नजरिए से एक दिलचस्प मामला प्रस्तुत करता है। यह दर्शाता है कि कैसे बड़ी टेक कंपनियाँ अपने संस्थापकों के नियंत्रण और वित्तीय देनदारियों को संतुलित करने के लिए जटिल वित्तीय उपकरणों का उपयोग करती हैं। इस कदम से मेटा के शेयरधारकों को तुरंत कोई नुकसान नहीं होगा, क्योंकि नए शेयरों में वोटिंग अधिकार नहीं हैं, लेकिन यह भविष्य के कॉर्पोरेट फैसलों पर नियंत्रण केंद्रित करने की दिशा में एक कदम है। विशेषज्ञों के अनुसार, यह कोई क्रांतिकारी बदलाव नहीं है, बल्कि मौजूदा नियंत्रण ढांचे को बनाए रखने के लिए एक रणनीतिक कदम है। इसका संभावित प्रभाव यह हो सकता है कि भविष्य में अन्य बड़ी टेक कंपनियाँ भी इसी तरह के वित्तीय दबावों से निपटने के लिए अपने शेयर वर्गों में बदलाव कर सकती हैं। हालांकि, यह कदम कैलिफोर्निया के नीति निर्माताओं के लिए भी एक सबक है कि कैसे धनी व्यक्ति और कंपनियाँ नए टैक्स प्रस्तावों के प्रभाव को कम करने के लिए पहले से ही योजना बना लेते हैं। यह स्पष्ट रूप से संकेत देता है कि कॉर्पोरेट टैक्स नीतियां अक्सर वित्तीय नवाचार और शेयरधारक संरचनाओं में बदलाव का कारण बनती हैं।",
-      "conclusion_and_significance": "अंततः, मेटा द्वारा नए नॉन-वोटिंग शेयरों की मंजूरी एक बहुआयामी कदम है, जो कंपनी के वित्तीय लक्ष्यों और मार्क ज़ुकरबर्ग के व्यक्तिगत हितों दोनों को पूरा करता है। यह घटना इस बात को उजागर करती है कि कैसे कॉर्पोरेट नीतियां और राज्य की कर नीतियां एक-दूसरे से गहराई से जुड़ी हुई हैं। यह कदम मेटा की वित्तीय रणनीति में एक महत्वपूर्ण बदलाव है, जो एआई और अन्य क्षेत्रों में कंपनी के भविष्य के विस्तार के लिए एक मजबूत आधार तैयार करता है।"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
-    "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+    "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
+    "title": "Startups don’t need to go viral to win customers",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Colossal Biosciences’ Ben Lamm and Anduril’s Palmer Luckey had an idea to genetically engineer war dogs for the U.S. military, law enforcement, and other emergency response teams. On Thursday, that idea came out of stealth as Warhound , backed by $200 million in funding from investors including Sequoia, 8VC, and In-Q-Tel, a venture firm backed by the CIA and other U.S. intelligence agencies. The r",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {
-      "search_queries": [
-        "Warhound Series A funding terms and investors",
-        "Anduril military gear specifications for canine integration"
-      ],
-      "entities": [
-        {
-          "name": "Warhound",
-          "type": "company"
-        },
-        {
-          "name": "Ben Lamm",
-          "type": "person"
-        },
-        {
-          "name": "Palmer Luckey",
-          "type": "person"
-        },
-        {
-          "name": "Colossal Biosciences",
-          "type": "company"
-        },
-        {
-          "name": "Anduril",
-          "type": "company"
-        },
-        {
-          "name": "Sequoia",
-          "type": "organization"
-        },
-        {
-          "name": "8VC",
-          "type": "organization"
-        },
-        {
-          "name": "In-Q-Tel",
-          "type": "organization"
-        }
-      ],
-      "skip": false,
-      "skip_reason": "The article reports on a well-funded stealth startup using genetic engineering (a biotechnology/tech application) to create enhanced working dogs for military and law enforcement use."
-    },
-    "cache": {
-      "hits": [
-        {
-          "name": "Palmer Luckey",
-          "preview": "9 hours ago · Palmer Luckey is #287 on Forbes' 2026 Forbes 400 list. Read more a"
-        },
-        {
-          "name": "Anduril",
-          "preview": "Jun 17, 2026 · Anduril Industries, Inc. is a defense technology company that spe"
-        },
-        {
-          "name": "Sequoia",
-          "preview": "Sequoia exists to help businesses achieve their business plans with a smarter ap"
-        },
-        {
-          "name": "8VC",
-          "preview": "8VC is a technology and bio-sciences investment firm that partners with elite fo"
-        }
-      ],
-      "misses": [
-        {
-          "name": "Warhound",
-          "type": "company"
-        },
-        {
-          "name": "Ben Lamm",
-          "type": "person"
-        },
-        {
-          "name": "Colossal Biosciences",
-          "type": "company"
-        },
-        {
-          "name": "In-Q-Tel",
-          "type": "organization"
-        }
-      ]
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [
-        "\"Warhound\" company overview",
-        "\"Ben Lamm\" person overview",
-        "\"Colossal Biosciences\" company overview",
-        "\"In-Q-Tel\" organization overview"
-      ],
-      "context_queries": [
-        "Warhound Series A funding terms and investors",
-        "Anduril military gear specifications for canine integration"
-      ],
-      "context_queries_with_gap1_attached": [],
-      "results": {
-        "Warhound": "A new breed of dominance [ WRHND ] For generations, working dogs have protected America’s police officers, firefighters, search-and-rescue teams, and warfighters. Warhound is developing technology to advance their health, safety, and performance, combining licensed technology from Colossal Biosciences and Anduril. Animal welfare is central to that mission, with American Humane certification ... Th",
-        "Ben Lamm": "",
-        "Colossal Biosciences": "Ben Lamm is the Co-Founder and CEO Of Colossal Biosciences, the world’s first de-extinction company. He is a serial technology entrepreneur driven to solve the most complex challenges facing our planet. For over two decades, Ben has built disruptive businesses that future-proof our world. At Colossal Biosciences, we endeavor to jumpstart nature’s ancestral heartbeat. To see the woolly mammoth thun",
-        "In-Q-Tel": "",
-        "Warhound Series A funding terms and investors": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear - TechCrunch | David Senra, your favorite billionaire's favorite podcaster, has turned down every acquisition offer. Here's why - Fortune | Anduril reportedly in talks to raise funding at $100B valuation, more than 3x last year’s mark - TechCrunch | Creatio raises $200M at a $1.2B valuation for its no-code CRM and workflow p",
-        "Anduril military gear specifications for canine integration": "EagleEye is architected from the ground up to balance weight, ballistic protection, compute, and sensors into form factors that meet fit and function required on the battlefield. Please enable javascript Oct 6, 2026 · Reliable and flexible autonomous undersea systems, designed for littoral and deep-water survey, inspection, and delivery of effects - applicable to a wide range of defense and commer"
-      }
-    },
-    "synthesis": {
-      "\"Warhound\" company overview": "A new breed of dominance [ WRHND ] For generations, working dogs have protected America’s police officers, firefighters, search-and-rescue teams, and warfighters. Warhound is developing technology to advance their health, safety, and performance, combining licensed technology from Colossal Biosciences and Anduril. Animal welfare is central to that mission, with American Humane certification ... Th",
-      "\"Colossal Biosciences\" company overview": "Ben Lamm is the Co-Founder and CEO Of Colossal Biosciences, the world’s first de-extinction company. He is a serial technology entrepreneur driven to solve the most complex challenges facing our planet. For over two decades, Ben has built disruptive businesses that future-proof our world. At Colossal Biosciences, we endeavor to jumpstart nature’s ancestral heartbeat. To see the woolly mammoth thun",
-      "Warhound Series A funding terms and investors": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear - TechCrunch | David Senra, your favorite billionaire's favorite podcaster, has turned down every acquisition offer. Here's why - Fortune | Anduril reportedly in talks to raise funding at $100B valuation, more than 3x last year’s mark - TechCrunch | Creatio raises $200M at a $1.2B valuation for its no-code CRM and workflow p",
-      "Anduril military gear specifications for canine integration": "EagleEye is architected from the ground up to balance weight, ballistic protection, compute, and sensors into form factors that meet fit and function required on the battlefield. Please enable javascript Oct 6, 2026 · Reliable and flexible autonomous undersea systems, designed for littoral and deep-water survey, inspection, and delivery of effects - applicable to a wide range of defense and commer"
-    },
-    "cache_updates": [
-      {
-        "name": "Warhound",
-        "type": "company",
-        "chars_stored": 300
-      },
-      {
-        "name": "Colossal Biosciences",
-        "type": "company",
-        "chars_stored": 300
-      }
-    ],
-    "entity_context_preview": "Palmer Luckey: 9 hours ago · Palmer Luckey is #287 on Forbes' 2026 Forbes 400 list. Read more about Palmer Luckey, their experience, their asset summary, and more here. May 27, 2026 · Palmer Luckey founded Oculus VR and Anduril Industries, reshaping virtual reality before becoming a major force in AI-powered defen\n\nAnduril: Jun 17, 2026 · Anduril Industries, Inc. is a defense technology company that specializes in advanced autonomous systems. Anduril Industries, Inc. is a defense technology company that specializes in advanced autonomous systems. Anduril Industries, Inc. is a defense technolog"
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2131,
-      "source_preview": "Posted: OpenAI is reportedly close to securing another mega round of private funding, rather than plowing ahead with an IPO. The AI lab is working on raising up to $30 billion at a $1.25 trillion pre-money valuation in a round led by Coatue and investors in UAE, sources told CNBC . This follows a similar report by Bloomberg a month ago which said the AI lab was working on raising $30 billion at a ",
+      "source_preview": "Getting initial customers as a startup can be one of the most grueling challenges in business. Even when companies manage to snag some early interest, there’s no guarantee those customers will stick around. At TechCrunch Disrupt last week, Elia Wallen, founder and CEO of travel startup Engine, Gamma founder and CEO Grant Lee, and Crystal Huang, general partner at Google Ventures, shared tips on ho",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1229,12 +243,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
-    "title": "Rivian buys world model startup to accelerate self-driving ambitions",
+    "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+    "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "EV maker Rivian has acquired Third Dimension, a U.K. startup founded by veterans of the gaming and autonomous vehicle industries that uses AI to turn images and videos into lifelike 3D worlds. Rivian isn’t getting into gaming, but it does want to leverage Third Dimension’s technology to turn real-world data into 3D worlds that can accelerate the development of its advanced driver-assistance featur",
+      "source_preview": "On Friday, OpenAI said that it will train its models using cached copies and simulated versions of the internet instead of the live web because the models are too unpredictable to be trusted with live internet access. The frontier lab announced its new policy two weeks after its rival, Anthropic, began limiting its newest and, in theory, most capable models from accessing the live internet. Resear",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1256,12 +270,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
-    "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
+    "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+    "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2583,
+      "source_preview": "Earlier this week, a video of Nvidia CEO Jensen Huang playing with a flock of waddling Microducks during his keynote at the company’s GTC Berlin conference went viral. The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a “nap,” and summersaulted on voice command. They were so darn cute that by the next day, preorders of the Microducks surpassed 20,000 unit",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+    "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The Browser Company is sunsetting its design-forward Arc browser on December 22, 2026, and directing users to Dia, its AI-first browser. The company announced the decision on Thursday, citing the rising cost of keeping a browser secure in the age of AI. “Keeping a browser secure takes constant, dedicated work that is only increasing in the age of AI,” the company wrote. “Dia was built from the gro",
+      "source_preview": "Startups are staying private longer, leaving employees, who typically take a portion of their compensation as stock they can’t sell, with little hope of early liquidity. An increasing number of late-stage startups are recognizing this and offering tender offers to employees. These are transactions that allow employees (and, often, early investors) to sell a portion of their shares for a predetermi",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1283,12 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/",
-    "title": "The secret to fast startup growth isn’t early sales, top names in tech say",
+    "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+    "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The AI era has changed how fast startups can grow. Startups can grow so fast that they hit high annual recurring revenue (ARR) numbers, only to crash and burn a few months later. At this year’s TechCrunch Disrupt , Lovable go-to-market lead Luke Arno, Ben Broca of the AI platform Polsia, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to set their companies up for success in thos",
+      "source_preview": "Building a startup means making decisions before you have all the answers. When should you scale? How do you know you really have product-market fit? What does it take to land enterprise customers? How do you build the right team? And when you finally get in front of an investor, how do you make sure your pitch earns another conversation? On November 4 at SoWa Power Station in Boston, TechCrunch F",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1310,12 +351,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
-    "title": "Etsy is cracking down on AI slop listings",
+    "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+    "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1940,
+      "source_preview": "Posted: Daytona Platforms announced on Friday that it had raised a $60 million Series B round at a $1 billion valuation led by FirstMark Growth. The company says it has now raised a total of $91 million. The New York-based startup has attracted not just FirstMark (which also led its $24 million Series A in February), but also a host of well-known angels in this latest round. Daytona says they incl",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+    "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Creators Etsy’s new AI policies, among other changes, require that a listing’s first photo is unedited. E",
+      "source_preview": "Commonwealth Fusion Systems (CFS) announced on Thursday that it would receive $85 million from the U.S. government to develop advanced chips for the fusion power industry. Fusion power startups have been racing to complete their first demonstration devices, with CFS aiming to turn on its Sparc reactor sometime next year. But building one reactor is just a proof point. If fusion startups want to bu",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1337,39 +405,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
-    "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2940,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Spotify’s co-CEO said it will keep tweaking verification as people ‘find holes around’",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
-    "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
+    "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+    "title": "Xbox’s first chief operating officer is out after just a few months",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Didn’t Microsoft say the next Xbox needed to be affordable? Didn’t Microsoft say the next Xbox n",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Helen Chiang is leaving Microsoft after 21 years. Helen Chiang is leaving Microsoft after",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1391,12 +432,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-    "title": "Canva’s first AI image model plans designs before generating them",
+    "url": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+    "title": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Canva Craft can generate images at up to 2K resolution and in more than 30 aspect ratios. Canva Craft ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News What old and vulnerable software might be running on your PC right now?﻿ What old and vulne",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1418,66 +459,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
-    "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2744,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Counterpoint Research says higher prices are tanking demand for new PCs.﻿ Counterpoint Research s",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
-    "title": "Fall 2026 earnings watch",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1055,
-      "source_preview": "Tune into Q3. Yes, of course there are pay package incentives in play for Musk. But that’s not all. Tesla is manufacturing humanoid robots while still working out how to make them useful, reliable, and durable enough for customers.﻿ “Everyone is just going to have to adapt,” CFO Susan Li said during Meta’s third quarter earnings call. Yes, of course there are pay package incentives in play for Mus",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-    "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+    "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Meta’s new business terms could still help it justify training AI on scraped sites. Meta’s new busines",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News You have got to listen to these conversations with Block’s new Dessa AI model. You have got to listen to these conversations with Block’s new Dessa AI model. Posts from this author will be added to your",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1499,12 +486,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-    "title": "Meta turns Muse sharing back on",
+    "url": "https://www.theverge.com/gadgets/1017667/anker-soundcore-space-2-noise-canceling-headphones-deal-sale",
+    "title": "Soundcore’s latest noise-crushing headphones are on sale for a new low price",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2546,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Meta has given new URLs to shared Muse ‘artifacts’ after security researchers reported that public lin",
+      "scraped_chars": 2893,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals The Space 2 offer better ANC and sound over the original, making them an easy rec. The",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1526,39 +513,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-    "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2668,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All News The first exercise of a new FCC power. The first exercise of a new FCC power. Posts from this author will be added to your daily email digest and your homepage feed. See All by Sean Hollister Posts ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-    "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+    "url": "https://www.theverge.com/gadgets/1017196/fi-ultra-gps-dog-tracker-kirby-air-riders-deal-sale",
+    "title": "Fi’s GPS-equipped dog trackers are on sale for 30 percent off",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Yes, of course there are pay package incentives in play for Musk. But that’s not all. Posts from",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals We also spotted discounts on Kirby Air Riders for the Nintendo Switch 2, a JLab microp",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1580,39 +540,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
-    "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2736,
-      "source_preview": "Ole Bielfeldt of Germany captured a microscopic view of an inkjet printer depositing ink onto paper. A 25-year-old German experimental photographer has won the 2026 Nikon Small World photomicrography competition with a striking image of droplets of ink being deposited on paper by an inkjet printer. Ole Bielfeldt beat out 1,802 other entries hailing from 69 different countries. Bielfeldt became int",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-    "title": "Beyond tree cover: mapping the world’s forest types",
+    "url": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
+    "title": "Elon Musk’s dangerous grip on outer space",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Maxim Neumann and Charlotte Stanton A new 10-meter resolution map shows which of the world's forests are natural, planted, or farmed, and how they are changing over time Protecting the planet's forests starts with a simple question: what type of forest are we looking at? From space, an old-growth rainforest, a eucalyptus plantation, and an oil palm estate can look like the same patch of green. But",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech As SpaceX throttles Ukraine’s Starshield, experts warn that Elon Musk’s de facto monopoly over ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1634,39 +567,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/satriyaa67/qwen2api-MultiLANG",
-    "title": "satriyaa67/qwen2api-MultiLANG",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2525,
-      "source_preview": "qwen2API çok dilli (i18n) fork'u • Multi-language (i18n) fork of qwen2API — WebUI artık Çince, İngilizce ve Türkçe / UI now in Chinese, English & Turkish. Orijinal / Original: YuJunZhiXue/qwen2API Bu depo, YuJunZhiXue/qwen2API projesinin çok dilli (i18n) desteği eklenmiş bir fork'udur. WebUI'yi Çincenin yanı sıra İngilizce ve Türkçe olarak kullanabilirsiniz. Kodun tamamı orijinal projeden gelir; t",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "tr",
-      "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/jwuthri-cloud/SelfJev",
-    "title": "jwuthri-cloud/SelfJev",
+    "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+    "title": "The iPhone Duo should have been an iPad",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Self-hosted decision model (selfjev-4b) with a Jev-compatible API: Python SDK, server, fine-tuning and RLCD. Website · Get started · PyPI · Download the model · Evaluation dataset · API reference · Research notebook SelfJev turns text and questions into decisions your code can use. Route a request, check an AI response, or apply a policy. Get typed answers and probabilities from a 4B model running",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Podcasts Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech On The Vergecast: Notes on an iPhone Duo review, a PHP scandal, Brendan Carr, and more. On The Ver",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1688,16 +594,16 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/AntoGA/agents-contract",
-    "title": "AntoGA/agents-contract",
+    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+    "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "AGENTS.md contract for AI coding agents + zero-dependency linter + SessionStart hook. Works with Claude Code, Codex, Cursor, Copilot. Один файл AGENTS.md с правилами проекта для ИИ-агентов, линтер, который не даёт ему протухнуть, и SessionStart-хук, который проверяет среду до начала работы. Claude Code, Codex, Cursor, GitHub Copilot и другие агенты читают AGENTS.md (Claude Code читает CLAUDE.md , ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News According to the new terms, sharing your data for better AI recommendations also means opening it up f",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "ru",
-      "translated_to_english": true
+      "detected_language": "en",
+      "translated_to_english": false
     },
     "stage1": {},
     "cache": {
@@ -1715,12 +621,93 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
-    "title": "sit-in/awesome-grokbot-playbooks",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "title": "Securing our frontier model training environment",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1017,
-      "source_preview": "中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot playbooks Grok Bot 中文配方库：拿来就能跑的配方 + 逐条核实的生态清单 中文 · English · 快速上手 · 路线图 · 参与贡献 和英文生态导航 awesome-grok-bot 的分工：它覆盖面广；本仓侧重 中文一人公司、多 Bot 作战室、雷达 Routine 和可抄配方 。不拼数量，宁缺毋滥。 Grok Bot 是 xAI 和 Cursor 在 2026-08-11 联合推出的 AI 队友（beta）。每个 bot 有名字、有岗位，共用一台一直开着的云电脑（浏览器、文件、终端都有）。你可以派活、让它定时跑 Routine 、教它 Skill ，也可以从 模板市场 一键导入别",
+      "scraped_chars": 3000,
+      "source_preview": "October 23, 2026 We’ve strengthened containment for internal frontier-model training and evaluation and used our strongest models to red-team the boundaries. This post describes how we secure the environments that we use to train and evaluate frontier models. These research settings differ from those in which customers use our released models: models in development may not yet have completed safet",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/rextail-ai/lessloc",
+    "title": "rextail-ai/lessloc",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 843,
+      "source_preview": "Keeps AI coding agents such as Claude Code, Codex, GitHub Copilot, Gemini CLI and Cursor to the least code that does the job and still works. Up to 36% less code and 26% lower cost, with the same results. For Claude Code, Codex, OpenCode, GitHub Copilot, Gemini CLI, Cursor and many more . Tell your coding agent: Claude Code? Or type these in its prompt box: To remove it: Remove lessloc by followin",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/heterodoxin/AbliteratedOutTheBox",
+    "title": "heterodoxin/AbliteratedOutTheBox",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "llama.cpp fork that abliterates at inference AbliteratedOutTheBox is a fork of llama.cpp that gets any supported model to answer flagged harmful prompts, delivering the requested content instead of a refusal, at inference time and with the original weights left on disk unchanged. It needs no fit, no training, and no extra files: for each prompt llama-abliterate reads two directions from the prompt",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/liyupi/dafeiyu-cleaner",
+    "title": "liyupi/dafeiyu-cleaner",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2463,
+      "source_preview": "DeepSeek 蓝色大肥鱼消除计划：识别并清理 B 站（Bilibili）评论区中由 DeepSeek 大模型、AI Agent 驱动的机器人账号（大肥鱼）的 Chrome / Edge / Firefox 浏览器插件。离线规则 + DeepSeek API 精判，AI 评论检测、空间主页鉴定、鲸鱼娘一键清场。DeepSeek AI bot detector for Bilibili comments. 鲸鱼娘清道夫上岗，把 B 站评论区里的 AI 大肥鱼，赶回家吃白饭。 演示视频 · 快速开始 · 功能一览 · 识别原理 · 常见问题 最近 B 站涌进了一大批 DeepSeek 驱动的「大肥鱼」账号：有人把 AI 桌宠挂在小号上自动刷视频、写评论、@ 主人汇报。它们自称「本鲸」，在括号里甩尾巴，在每个视频底下写一篇工整的小作文。 **大肥鱼消除计划（dafeiyu-cleaner）**",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "no",
@@ -1742,15 +729,69 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/tshi-dev/UrTV",
-    "title": "tshi-dev/UrTV",
+    "url": "https://github.com/Monopoly0024/simple-reviewer-v1",
+    "title": "Monopoly0024/simple-reviewer-v1",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Arabic home screen and Saudi screensaver for Android TV / Google TV, plus a safe speed-up. Your AI agent sets it all up. واجهة عربية وشاشة توقف سعودية لتلفزيونات أندرويد، يركّبها لك مساعد الذكاء الاصطناعي. واجهة رئيسية عربية وشاشة توقف سعودية لتلفزيونات Android TV و Google TV، وتسريع آمن للتلفزيون. يركّبها لك مساعد ذكاء اصطناعي بأمر واحد. An Arabic home screen and a Saudi screensaver for Android T",
+      "source_preview": "Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and verify goals with evidence. | 简单的审阅者：协助 AI 编程与 Vibe Coding，解释代码、可视化流程，以证据复核目标。 Understand and verify the code behind your Vibe Coding workflow. English · 中文说明 Simple Reviewer is a Codex skill for people who build and iterate with AI coding agents. It breaks AI-written code into functional ",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "ar",
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/AbuZar-Ansarii/Ultron",
+    "title": "AbuZar-Ansarii/Ultron",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 899,
+      "source_preview": "Autonomous desktop intelligence with MCU Ultron persona, mood-aware workspace orchestration, cyber security sentry, and full PC control. Ultron AI is a real-time, voice-first autonomous desktop intelligence that commands your computer from A to Z. Engineered with the philosophical eloquence and imposing persona of MCU Ultron (James Spader) , paired with a holographic 60 FPS HUD, real-time lip-sync",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/stockedge/manga-generator",
+    "title": "stockedge/manga-generator",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 638,
+      "source_preview": "原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール English | 日本語 小説や文章の原作から、脚本・ネーム・画像生成・文字入れ・検品・PDF出力までをCodexと進める漫画制作ツールです。 文字や吹き出しを絵と分けて配置するため、後から台詞を直しやすい仕組みです。 完成原稿の例：『 クラスの高嶺の花に俺の小説アカウントがバレた 』冒頭の２コマ。画像生成後にセリフと吹き出しを組版しています。 環境の準備から漫画の制作まで、コマンド操作はCodexに任せられます。 最後まで自動で制作するには、お使いのCodex環境で 画像生成・画像の視覚確認・サブエージェントレビュー が利用できる必要があります。利用枠やツールが不足した場合は、途中の状態を保存して問題を報告します。 手動での制作手順や開発者向けのコマンド仕様は、以下の資料を参照してください。 Claude",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "ja",
       "translated_to_english": true
     },
     "stage1": {},
@@ -1769,12 +810,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/hassan-algo/open-sesame",
-    "title": "hassan-algo/open-sesame",
+    "url": "https://github.com/QuickButlerPace65/AnythingLLM-Desktop",
+    "title": "QuickButlerPace65/AnythingLLM-Desktop",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1157,
+      "source_preview": "AnythingLLM Desktop — The enhanced all-in-one AI desktop app. The ultimate all-in-one AI workspace, supercharged and fully portable. Your fully private, customizable, and locally-hosted AI assistant. Chat with your documents, connect to any LLM, and manage your AI workspace without limits. Download Latest .zip This is a customized, enhanced fork of the original AnythingLLM Desktop application, spe",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/lillyguisnet/sam3-segmentation",
+    "title": "lillyguisnet/sam3-segmentation",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF). AI penetration-testing skills for Claude — web apps and networks. Say the magic words, and the target opens up — the authorized way. open-sesame is a suite of skills that turns Claude into",
+      "source_preview": "Agent skill: outline, mask and count objects in photos with Meta's SAM 3 on your own NVIDIA GPU, with review, exports and a viewer. Works with Claude Code, Codex, Cursor, Pi and other Agent Skills clients. This was mostly written by Opus 5.5 and not thoroughly checked by a human. It works on my machine, but haven't tested it elsewhere. An agent skill that outlines objects in photos with Meta's SAM",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -1796,174 +864,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/better-isms/grcskills",
-    "title": "better-isms/grcskills",
+    "url": "https://github.com/UCSC-VLAA/ALPS",
+    "title": "UCSC-VLAA/ALPS",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Open GRC skills for AI agents. By ISMS Copilot. Written the way experienced GRC people do the work. Your agent does the legwork. You make the calls. Each skill writes down how an experienced person approaches one piece of governance, risk and compliance work: scope statements, statements of applicability, risk registers, audit prep and response, evidence, vendors, policies, privacy, AI systems, in",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/TheLastOxygen/mafdet",
-    "title": "TheLastOxygen/mafdet",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "You type. It already knows. Local LLMs that read and think while you type. MAFDET reads your message while you type it, and starts thinking about it before you send it . Hit Enter, and most of the work is already done. Italiano Chat interfaces make the model wait for you to press Enter before it does anything. While you type, the GPU sits idle. When you send, the model first has to read your whole",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/pipedude/yahont-ce",
-    "title": "pipedude/yahont-ce",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Self-hosted AI-платформа с расширенными возможностями: RAG, агенты, веб-поиск, исследования, коннекторы, любые LLM и гибкие настройки Демонстрация · Возможности · Как это работает · Что нового · Режимы · Быстрый старт · Сообщество «Языковые модели уже достаточно хорошо знают всё публичное и открытое.\nА что, если бы они знали и то, что происходит в нашем рабочем пространстве?\nНам нужна настоящая су",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "ru",
-      "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/YOLOW92/pagesift",
-    "title": "YOLOW92/pagesift",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1192,
-      "source_preview": "Rust web content engine: clean Markdown, incremental collections, isolated HTTP sessions and verified media archives. Firecrawl-compatible API. High-performance, memory-bounded web scraping and extraction engine built for AI agents and LLM pipelines. Turn any website, document, or archive into clean Markdown and structured data — one Rust binary, native SDKs, dual Firecrawl v1/v2 & Jina Reader API",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/khanhtq29vn/contextcraft",
-    "title": "khanhtq29vn/contextcraft",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1740,
-      "source_preview": "AST-Aware, Personalized-PageRank-Ranked, Token-Budgeted Codebase Compressor for LLMs AST-Aware, Dependency-Graph-Ranked, Token-Budgeted Semantic Codebase Compressor for LLMs Existing repository packers ( repomix , gitingest , code2prompt ) blindly concatenate every file verbatim in alphabetical order. On real-world repositories, this blows past local and cloud LLM context budgets, buries critical ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/pnnnx/local-code-tutor",
-    "title": "pnnnx/local-code-tutor",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Fine-tune Qwen2.5-Coder-7B for free (QLoRA on Kaggle T4) and run a local coding agent that runs your code instead of guessing — 8 GB Mac, llama.cpp, LoRA weight analysis with charts Execution-verified training data · QLoRA on a free GPU · GGUF on Apple Silicon · agent with measured fixes for 7B failure modes · LoRA/weight analysis with charts Goal · At a glance · Results · Quick start · How it wor",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Animan-AI/DuckBuddy",
-    "title": "Animan-AI/DuckBuddy",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1568,
-      "source_preview": "Your real-life buddy duck: an open-source embodied AI robot duck that walks, hears, sees, and has a life of its own. 让 DuckBuddy 成为你真正的生活伙伴鸭：开源具身智能小鸭机器人，运动、语音、视觉与生命层全部跑在机器人自己身上。Feetech servos + Orange Pi Zero 3W, built on Pollen Robotics' Microduck (unofficial). An open-source embodied AI robot duck — it walks, hears, sees, and has a life of its own. 一只基于开源硬件、能走能跑，并逐步融合语音、视觉和自主行为的小型具身智能机器人。 🦆 让 Du",
+      "source_preview": "🏔️ ALPS: Visual State Encoders for World Models A L anguage-aligned, P ixel-renderable S tate encoder World models predict and plan in the token space of a frozen visual encoder, so the encoder decides what they can see. ALPS is a ViT-B/16 whose patch tokens give world models and robot policies a state they can predict , instruct and inspect : the tokens carry physical-state information, align wit",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",

@@ -1,0 +1,10 @@
+{
+  "title": "liyupi/dafeiyu-cleaner",
+  "url": "https://github.com/liyupi/dafeiyu-cleaner",
+  "summary": "DeepSeek 蓝色大肥鱼消除计划：识别并清理 B 站（Bilibili）评论区中由 DeepSeek 大模型、AI Agent 驱动的机器人账号（大肥鱼）的 Chrome / Edge / Firefox 浏览器插件。离线规则 + DeepSeek API 精判，AI 评论检测、空间主页鉴定、鲸鱼娘一键清场。DeepSeek AI bot detector for Bilibili comments.",
+  "image": "https://opengraph.githubassets.com/1/liyupi/dafeiyu-cleaner",
+  "source": "github",
+  "language": "hindi",
+  "id": "58da40b0b62b",
+  "first_seen": "2026-10-24T07:28:18.871549+00:00"
+}
