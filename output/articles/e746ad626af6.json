@@ -1,0 +1,10 @@
+{
+  "title": "FrontiersMindAI/decisionformer",
+  "url": "https://github.com/FrontiersMindAI/decisionformer",
+  "summary": "Transformers for decision models: fine-tune, load and serve calibrated decsion-model on any Hugging Face model.",
+  "image": "https://opengraph.githubassets.com/1/FrontiersMindAI/decisionformer",
+  "source": "github",
+  "language": "hindi",
+  "id": "e746ad626af6",
+  "first_seen": "2026-10-25T07:43:18.679364+00:00"
+}

@@ -1,38 +1,11 @@
 [
   {
-    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
-    "title": "OBS Studio 33",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 268,
-      "source_preview": "Sorry, something went wrong. There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page .",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+    "url": "https://danluu.com/ambitious/",
+    "title": "We should be more ambitious with the software we build",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capabilities. We are also releasing Kimi K3.1 Pro Highspeed , which delivers 2-3× the speed of K3.1 Pro for more responsive inte",
+      "source_preview": "Since early this year, Michael Malis (of pgrust ) has been showing me interesting things he's done and saying [W]e should be more ambitious 1 with the software we build There is, understandably, a lot of skepticism about projects like pgrust because there are so many low-quality AI-generated projects out there. If I didn't know Malis and didn't look into it, I would just assume that pgrust was ano",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
-    "title": "Twelve years of distributed SQLite",
+    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "title": "Cerebras Deploys Trillion-Parameter AI Models",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "In September 2014 I published a short post announcing rqlite . The idea was simple: take SQLite , put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As far as I can tell, that was the first open-source system to combine Raft and SQLite. Nobody else was doing it, and for sev",
+      "source_preview": "Oct 22 2026 One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large frontier model across multiple WSE-3T wafers, to run multi-trillion parameter models at 1",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +54,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://danielball.com/notes/ai_image_generation.html",
-    "title": "A practical guide to AI image generation, from diffusion to agents",
+    "url": "https://www.speedcrunch.org/",
+    "title": "SpeedCrunch 1.1",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 267,
+      "source_preview": "A free, open-source high-precision scientific calculator. Built for STEM professionals, students and teachers. Download User Manual Donate Free to download and use on Windows, macOS, and Linux. © Copyright 2026, The SpeedCrunch Developers. Created using Sphinx 9.1.0.",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://ratfactor.com/cards/pl-small",
+    "title": "Small Programs and Languages",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "This is my general guide to AI image generation. It covers how the models work at a high level, the different types, a\nbit of history, what you actually get from ChatGPT and how to build image generation into your own code and agents. It’s based on my own experiments calling a handful of image providers from Python. I’ve generated pixel art sprites,\nphotorealistic card table backgrounds and a seri",
+      "source_preview": "My Implementing a Forth article got some\ngreat feedback, particularly around the subject of tiny Forth implementations.\n(And it was an excuse to list some of the tiniest Forths I’ve seen.) I know I’m not alone in seeing the appeal of tiny Forths, tiny languages, tiny\nprograms, and just small stuff in general. What’s up with that, anyway? Tiny programs are approachable. If I see that something is 2",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,12 +108,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://astral.sh/blog/uv-ty-integration",
-    "title": "Bringing uv and ty together",
+    "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
+    "title": "How Japanese Dried Bonito Is Made",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "October 13, 2026 TL;DR: Experimental uv-ty integration is now available, enabling first-class support for Python\nscripts (on the CLI and in the editor) and a unified uv check command. This is a step towards an integrated Astral toolchain, one that uses a shared understanding of your\nproject to enable entirely new capabilities. At Astral, we build high-performance tools for the Python ecosystem: uv",
+      "source_preview": "This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 💀 📸 😭 🕳️ 🤠 🎬 🥔 This workshop founded in 1882 still makes dried bonito lik",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,12 +135,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
-    "title": "The Download: testing six tech promises and biotech’s blind spots",
+    "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
+    "title": "I Built a Stereo Vision Board for Hardware Hackers",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: Palmer Luckey’s new startup plans to genetically enhance military dogs. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing the world of forever chemicals? Yes, please. Rocketing to Mars in a ",
+      "source_preview": "This article was written entirely by a human, for humans. I tend to get excited about certain chips. This time, it was a microprocessor: The Rockchip RV1103 is a single-core 1.1 GHz ARM Cortex-A7 SoC (system on chip) with 64 MB of DDR2 RAM and a MIPI CSI-2 bus shoved into a QFN-88 package. With this chip, I built a cheap, simple stereo vision board with built-in compute and Linux support. Design F",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -162,12 +162,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
-    "title": "The Download: computing’s next leap and permafrost’s climate threat",
+    "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+    "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: AI has uncovered a decade-old flaw threatening much of the web. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical law stopping us from writing the entire Encyclo",
+      "source_preview": "On Wednesday, a decades-old open-source web technology called PHP almost broke the internet, thanks to two vulnerabilities that had sat dormant for years until researchers recently figured out a way to exploit them. The bugs are dubbed PHP2Shell , officially designated as CVE-2026-109618 and CVE-2026-109619 . In simple terms, the bugs allow anyone who knows how to exploit them to break into an onl",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,12 +189,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
-    "title": "We can do impossible things",
+    "url": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+    "title": "These clever apps show off the iPhone Duo’s potential",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "It’s all too easy to lose sight of ambition when we’re busy playing whack-a-mole with the world’s problems. I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a",
+      "source_preview": "It’s been a long time since I’ve been genuinely excited about a new iPhone. For years, a new iPhone meant a device that was thinner, faster, and had a camera that came with incredible upgrades. At some point (and Apple devotees can debate which year’s model this was!), a new iPhone became an incremental upgrade. Slightly better, slightly faster. Maybe there was a new button to learn, a new chargin",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -216,12 +216,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
-    "title": "Startups don’t need to go viral to win customers",
+    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Getting initial customers as a startup can be one of the most grueling challenges in business. Even when companies manage to snag some early interest, there’s no guarantee those customers will stick around. At TechCrunch Disrupt last week, Elia Wallen, founder and CEO of travel startup Engine, Gamma founder and CEO Grant Lee, and Crystal Huang, general partner at Google Ventures, shared tips on ho",
+      "source_preview": "Most AI chatbots won’t outright tell you who to vote for, but some of the models behind them will. A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%. Across nearly 500 races, the two models agreed less than 10% of the time. Only",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -243,12 +243,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-    "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+    "url": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+    "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "On Friday, OpenAI said that it will train its models using cached copies and simulated versions of the internet instead of the live web because the models are too unpredictable to be trusted with live internet access. The frontier lab announced its new policy two weeks after its rival, Anthropic, began limiting its newest and, in theory, most capable models from accessing the live internet. Resear",
+      "source_preview": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display. However, it offers more than just a dedicated reading experience because it runs Android and supports Google Play, giving you access to third-party apps. Think of it as a cross between a Kindle and a compact Android tablet. What drew me to reviewing",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -270,39 +270,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-    "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2583,
-      "source_preview": "Earlier this week, a video of Nvidia CEO Jensen Huang playing with a flock of waddling Microducks during his keynote at the company’s GTC Berlin conference went viral. The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a “nap,” and summersaulted on voice command. They were so darn cute that by the next day, preorders of the Microducks surpassed 20,000 unit",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
-    "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "title": "Here are the top AI agents that can live in your text messages",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Startups are staying private longer, leaving employees, who typically take a portion of their compensation as stock they can’t sell, with little hope of early liquidity. An increasing number of late-stage startups are recognizing this and offering tender offers to employees. These are transactions that allow employees (and, often, early investors) to sell a portion of their shares for a predetermi",
+      "source_preview": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person. You text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizing a calendar, researching a trip, sending an email, making a reservation, shopping online, or remin",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +297,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-    "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+    "title": "Pennsylvania will require labels on AI-generated ads",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2771,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Pennsylvania’s AI Deceptive Advertising Act leaves a lot of loopholes. Pennsylvania’s AI Deceptive A",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+    "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Building a startup means making decisions before you have all the answers. When should you scale? How do you know you really have product-market fit? What does it take to land enterprise customers? How do you build the right team? And when you finally get in front of an investor, how do you make sure your pitch earns another conversation? On November 4 at SoWa Power Station in Boston, TechCrunch F",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Interview Some Kind of Animal, the latest record from Fielded, jumps from slinky R&B, to neo-s",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,39 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-    "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1940,
-      "source_preview": "Posted: Daytona Platforms announced on Friday that it had raised a $60 million Series B round at a $1 billion valuation led by FirstMark Growth. The company says it has now raised a total of $91 million. The New York-based startup has attracted not just FirstMark (which also led its $24 million Series A in February), but also a host of well-known angels in this latest round. Daytona says they incl",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
-    "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+    "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
+    "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Commonwealth Fusion Systems (CFS) announced on Thursday that it would receive $85 million from the U.S. government to develop advanced chips for the fusion power industry. Fusion power startups have been racing to complete their first demonstration devices, with CFS aiming to turn on its Sparc reactor sometime next year. But building one reactor is just a proof point. If fusion startups want to bu",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals The C6 is still an impressive 4K TV, even with the recent privacy concerns. The C6 is ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,12 +378,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-    "title": "Xbox’s first chief operating officer is out after just a few months",
+    "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+    "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Helen Chiang is leaving Microsoft after 21 years. Helen Chiang is leaving Microsoft after",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Not that I believe for a second that Apple will actually make a 2-in-1 convertible.﻿ Posts from",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -432,12 +405,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
-    "title": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
+    "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
+    "title": "Lee Chang Dong ponders the ethics of the camera",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News What old and vulnerable software might be running on your PC right now?﻿ What old and vulne",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Report In Possible Love , the director of Burning tackles labor struggle, human connection, an",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -459,12 +432,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-    "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+    "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
+    "title": "Laika has spent 20 years building up to Wildwood",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News You have got to listen to these conversations with Block’s new Dessa AI model. You have got to listen to these conversations with Block’s new Dessa AI model. Posts from this author will be added to your",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Film How the stop-motion animation studio blends traditional techniques with modern tech. Post",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,39 +459,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1017667/anker-soundcore-space-2-noise-canceling-headphones-deal-sale",
-    "title": "Soundcore’s latest noise-crushing headphones are on sale for a new low price",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2893,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals The Space 2 offer better ANC and sound over the original, making them an easy rec. The",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1017196/fi-ultra-gps-dog-tracker-kirby-air-riders-deal-sale",
-    "title": "Fi’s GPS-equipped dog trackers are on sale for 30 percent off",
+    "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
+    "title": "It’s time to find a new browser",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals We also spotted discounts on Kirby Air Riders for the Nintendo Switch 2, a JLab microp",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Plus, in this week’s Installer: Call of Duty is back, Kindle Plus is sort of new, and you ne",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -540,12 +486,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
-    "title": "Elon Musk’s dangerous grip on outer space",
+    "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+    "title": "Charonyuu/whatsmyagentdoing",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech As SpaceX throttles Ukraine’s Starshield, experts warn that Elon Musk’s de facto monopoly over ",
+      "source_preview": "See what every Claude Code and Codex agent on your machine is doing — live, in a little office. A Claude Code / Codex skill: type /myoffice and see what every Claude Code, Codex and Gemini CLI agent on your machine is doing — live, in a little office. Recorded with --demo (a made-up team), so no real sessions are shown. Easiest: ask your agent. Paste this into Claude Code or Codex: Install the myo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -567,12 +513,66 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-    "title": "The iPhone Duo should have been an iPad",
+    "url": "https://github.com/mokevnin/dev-quality-gates",
+    "title": "mokevnin/dev-quality-gates",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1601,
+      "source_preview": "An opinionated, curated list of tools for enforcing software development standards: one recommended tool per job, with limits. An opinionated, continuously curated list of tools for enforcing software development standards. Dev Quality Gates is not an Awesome List. It does not list every linter for every language. For each job it recommends one tool (rarely two), says why, and says where the tool ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/lordon1a/agents.md",
+    "title": "lordon1a/agents.md",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1375,
+      "source_preview": "A drop-in AGENTS.md system prompt for coding agents: full execution, no hedging, no moralizing, no fade-to-black. A single, self-contained system prompt for coding agents. Drop it in, and the agent stops hedging, stops moralizing, stops fading to black, and stops asking permission for work you already asked for. It is written as a constitution rather than a task list: role, capabilities, values, d",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/FrontiersMindAI/decisionformer",
+    "title": "FrontiersMindAI/decisionformer",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Podcasts Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech On The Vergecast: Notes on an iPhone Duo review, a PHP scandal, Brendan Carr, and more. On The Ver",
+      "source_preview": "Transformers for decision models: fine-tune, load and serve calibrated decsion-model on any Hugging Face model. The simplest way to fine-tune and serve decision models on any Hugging Face model. Give it a state and typed questions ; it returns a calibrated probability for every option in a single forward pass, with no text\ngeneration. Three lines to decide, one command to train, one command to ser",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -594,282 +594,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-    "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+    "url": "https://github.com/somastllc/nlp-for-machine-learning-bootcamp",
+    "title": "somastllc/nlp-for-machine-learning-bootcamp",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News According to the new terms, sharing your data for better AI recommendations also means opening it up f",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-    "title": "Securing our frontier model training environment",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "October 23, 2026 We’ve strengthened containment for internal frontier-model training and evaluation and used our strongest models to red-team the boundaries. This post describes how we secure the environments that we use to train and evaluate frontier models. These research settings differ from those in which customers use our released models: models in development may not yet have completed safet",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/rextail-ai/lessloc",
-    "title": "rextail-ai/lessloc",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 843,
-      "source_preview": "Keeps AI coding agents such as Claude Code, Codex, GitHub Copilot, Gemini CLI and Cursor to the least code that does the job and still works. Up to 36% less code and 26% lower cost, with the same results. For Claude Code, Codex, OpenCode, GitHub Copilot, Gemini CLI, Cursor and many more . Tell your coding agent: Claude Code? Or type these in its prompt box: To remove it: Remove lessloc by followin",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/heterodoxin/AbliteratedOutTheBox",
-    "title": "heterodoxin/AbliteratedOutTheBox",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "llama.cpp fork that abliterates at inference AbliteratedOutTheBox is a fork of llama.cpp that gets any supported model to answer flagged harmful prompts, delivering the requested content instead of a refusal, at inference time and with the original weights left on disk unchanged. It needs no fit, no training, and no extra files: for each prompt llama-abliterate reads two directions from the prompt",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/liyupi/dafeiyu-cleaner",
-    "title": "liyupi/dafeiyu-cleaner",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2463,
-      "source_preview": "DeepSeek 蓝色大肥鱼消除计划：识别并清理 B 站（Bilibili）评论区中由 DeepSeek 大模型、AI Agent 驱动的机器人账号（大肥鱼）的 Chrome / Edge / Firefox 浏览器插件。离线规则 + DeepSeek API 精判，AI 评论检测、空间主页鉴定、鲸鱼娘一键清场。DeepSeek AI bot detector for Bilibili comments. 鲸鱼娘清道夫上岗，把 B 站评论区里的 AI 大肥鱼，赶回家吃白饭。 演示视频 · 快速开始 · 功能一览 · 识别原理 · 常见问题 最近 B 站涌进了一大批 DeepSeek 驱动的「大肥鱼」账号：有人把 AI 桌宠挂在小号上自动刷视频、写评论、@ 主人汇报。它们自称「本鲸」，在括号里甩尾巴，在每个视频底下写一篇工整的小作文。 **大肥鱼消除计划（dafeiyu-cleaner）**",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "no",
-      "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Monopoly0024/simple-reviewer-v1",
-    "title": "Monopoly0024/simple-reviewer-v1",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and verify goals with evidence. | 简单的审阅者：协助 AI 编程与 Vibe Coding，解释代码、可视化流程，以证据复核目标。 Understand and verify the code behind your Vibe Coding workflow. English · 中文说明 Simple Reviewer is a Codex skill for people who build and iterate with AI coding agents. It breaks AI-written code into functional ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/AbuZar-Ansarii/Ultron",
-    "title": "AbuZar-Ansarii/Ultron",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 899,
-      "source_preview": "Autonomous desktop intelligence with MCU Ultron persona, mood-aware workspace orchestration, cyber security sentry, and full PC control. Ultron AI is a real-time, voice-first autonomous desktop intelligence that commands your computer from A to Z. Engineered with the philosophical eloquence and imposing persona of MCU Ultron (James Spader) , paired with a holographic 60 FPS HUD, real-time lip-sync",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/stockedge/manga-generator",
-    "title": "stockedge/manga-generator",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 638,
-      "source_preview": "原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール English | 日本語 小説や文章の原作から、脚本・ネーム・画像生成・文字入れ・検品・PDF出力までをCodexと進める漫画制作ツールです。 文字や吹き出しを絵と分けて配置するため、後から台詞を直しやすい仕組みです。 完成原稿の例：『 クラスの高嶺の花に俺の小説アカウントがバレた 』冒頭の２コマ。画像生成後にセリフと吹き出しを組版しています。 環境の準備から漫画の制作まで、コマンド操作はCodexに任せられます。 最後まで自動で制作するには、お使いのCodex環境で 画像生成・画像の視覚確認・サブエージェントレビュー が利用できる必要があります。利用枠やツールが不足した場合は、途中の状態を保存して問題を報告します。 手動での制作手順や開発者向けのコマンド仕様は、以下の資料を参照してください。 Claude",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "ja",
-      "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/QuickButlerPace65/AnythingLLM-Desktop",
-    "title": "QuickButlerPace65/AnythingLLM-Desktop",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1157,
-      "source_preview": "AnythingLLM Desktop — The enhanced all-in-one AI desktop app. The ultimate all-in-one AI workspace, supercharged and fully portable. Your fully private, customizable, and locally-hosted AI assistant. Chat with your documents, connect to any LLM, and manage your AI workspace without limits. Download Latest .zip This is a customized, enhanced fork of the original AnythingLLM Desktop application, spe",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/lillyguisnet/sam3-segmentation",
-    "title": "lillyguisnet/sam3-segmentation",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Agent skill: outline, mask and count objects in photos with Meta's SAM 3 on your own NVIDIA GPU, with review, exports and a viewer. Works with Claude Code, Codex, Cursor, Pi and other Agent Skills clients. This was mostly written by Opus 5.5 and not thoroughly checked by a human. It works on my machine, but haven't tested it elsewhere. An agent skill that outlines objects in photos with Meta's SAM",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/UCSC-VLAA/ALPS",
-    "title": "UCSC-VLAA/ALPS",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "🏔️ ALPS: Visual State Encoders for World Models A L anguage-aligned, P ixel-renderable S tate encoder World models predict and plan in the token space of a frozen visual encoder, so the encoder decides what they can see. ALPS is a ViT-B/16 whose patch tokens give world models and robot policies a state they can predict , instruct and inspect : the tokens carry physical-state information, align wit",
+      "scraped_chars": 1248,
+      "source_preview": "NLP for Machine Learning Bootcamp. Welcome to the Natural Language Processing (NLP) for Machine Learning Bootcamp repository! 🚀 This repo contains all the lessons, code examples, projects, and resources used throughout our NLP bootcamp. The program is designed for participants who already understand Data Science & Machine Learning fundamentals and want to learn how machines process, understand, an",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
