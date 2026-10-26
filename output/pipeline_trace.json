@@ -1,11 +1,92 @@
 [
   {
-    "url": "https://danluu.com/ambitious/",
-    "title": "We should be more ambitious with the software we build",
+    "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+    "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1452,
+      "source_preview": "Your local AI copilot for documents PDF tools for your AI agent — and for you. Pure Rust. Runs locally. Files never leave your machine. Try it in your browser → · Download · Roadmap PaperPilot is a PDF and document toolkit written in Rust. The same engine runs as: No Chromium, no C++ runtime, no cloud calls. Download paperpilot-mcp from Releases , then add it to claude_desktop_config.json : Restar",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://imaginationlibrary.com/",
+    "title": "Dolly Parton's Imagination Library",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1365,
+      "source_preview": "TOTAL KIDS REGISTERED …. TOTAL BOOKS GIFTED …. Inspired by her father’s inability to read and write Dolly started her Imagination Library in 1995 for the children within her home county. Today, her program spans five countries and gifts millions of free books each month to children around the world. “When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know the",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/notaroomba/keybytes",
+    "title": "Show HN: A Truly Modular Keyboard",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 899,
+      "source_preview": "A truly modular keyboard Key Features • Video Demo • PCB • Case • Credits • License Designed in KiCad! There are two boards, the Keybit and the Keyword, and both are 1u (19.05mm x 19.05mm). A single key with a Cherry MX switch and a CH32V003. Every side has pogo pins for 3.3V, GND and I2C so it can connect to the keyword or to other keybits, and the pads on the corners are for programming. Schemat",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://blog.hardill.me.uk/2026/10/24/the-curse-of-soldered-ram/",
+    "title": "The Curse of Soldered RAM",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Since early this year, Michael Malis (of pgrust ) has been showing me interesting things he's done and saying [W]e should be more ambitious 1 with the software we build There is, understandably, a lot of skepticism about projects like pgrust because there are so many low-quality AI-generated projects out there. If I didn't know Malis and didn't look into it, I would just assume that pgrust was ano",
+      "source_preview": "The trend for soldered on RAM in modern laptops is truely evil especially in these current trying times of shortage induced high prices. I normally run 2 laptops, one for personal stuff and one for work stuff in a vein attempt to try and keep things separate and be able to leave the work one in the “office” at the end of the day. I blogged about when I got my c urrent work laptop back in 2021. Thi",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +108,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-    "title": "Cerebras Deploys Trillion-Parameter AI Models",
+    "url": "https://brashandplucky.com/2026/10/15/growing-trees.html",
+    "title": "Growing Trees",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Oct 22 2026 One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large frontier model across multiple WSE-3T wafers, to run multi-trillion parameter models at 1",
+      "source_preview": "Oct 15, 2026 • Chema Guerra I’ve been playing with procedural tree growth recently. The method I am using is based on Self-organizing tree models for image synthesis , by Palubicki et al. (SIGGRAPH 2009). The idea is beautifully simple: buds compete for light, the tree distributes a growth resource among them, and the successful ones produce new shoots. Those shoots change the light available for ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +135,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.speedcrunch.org/",
-    "title": "SpeedCrunch 1.1",
+    "url": "https://arxiv.org/abs/2512.19428",
+    "title": "Attention Is Not What You Need (2025)",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 267,
-      "source_preview": "A free, open-source high-precision scientific calculator. Built for STEM professionals, students and teachers. Download User Manual Donate Free to download and use on Windows, macOS, and Linux. © Copyright 2026, The SpeedCrunch Developers. Created using Sphinx 9.1.0.",
+      "scraped_chars": 456,
+      "source_preview": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,39 +162,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://ratfactor.com/cards/pl-small",
-    "title": "Small Programs and Languages",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "My Implementing a Forth article got some\ngreat feedback, particularly around the subject of tiny Forth implementations.\n(And it was an excuse to list some of the tiniest Forths I’ve seen.) I know I’m not alone in seeing the appeal of tiny Forths, tiny languages, tiny\nprograms, and just small stuff in general. What’s up with that, anyway? Tiny programs are approachable. If I see that something is 2",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
-    "title": "How Japanese Dried Bonito Is Made",
+    "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+    "title": "IBM CEO says open weight models are now good and cheap on-prem",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 💀 📸 😭 🕳️ 🤠 🎬 🥔 This workshop founded in 1882 still makes dried bonito lik",
+      "source_preview": "systems 90 percent of the performance at ten percent of the price, in just two or three racks, is hard to beat IBM CEO Arvind Krishna has told investors that open weight models now make brilliant sense for on-prem enterprise use. Speaking on the company’s Q3 earnings call, Krishna said that in 2024 closed frontier models were plainly superior to open alternatives. “If you ran some assessment, some",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,12 +189,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
-    "title": "I Built a Stereo Vision Board for Hardware Hackers",
+    "url": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
+    "title": "The best apps for tracking your reading and discovering new books",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "This article was written entirely by a human, for humans. I tend to get excited about certain chips. This time, it was a microprocessor: The Rockchip RV1103 is a single-core 1.1 GHz ARM Cortex-A7 SoC (system on chip) with 64 MB of DDR2 RAM and a MIPI CSI-2 bus shoved into a QFN-88 package. With this chip, I built a cheap, simple stereo vision board with built-in compute and Linux support. Design F",
+      "source_preview": "From discovering new books and organizing your reading list to tracking your reading goal and sharing recommendations, book apps make it easier to maintain reading as a hobby. There are numerous apps on the market that promise to do just that, so we’ve compiled a list of some of the best ones to help you pick the right one for you. Whether you’re an occasional reader or a dedicated bookworm, these",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -162,12 +216,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
-    "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1943,
+      "source_preview": "Posted: AI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch). Apollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla — finding that profi",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
+    "title": "TechCrunch Mobility: Blue-green is the color of autonomy",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "On Wednesday, a decades-old open-source web technology called PHP almost broke the internet, thanks to two vulnerabilities that had sat dormant for years until researchers recently figured out a way to exploit them. The bugs are dubbed PHP2Shell , officially designated as CVE-2026-109618 and CVE-2026-109619 . In simple terms, the bugs allow anyone who knows how to exploit them to break into an onl",
+      "source_preview": "Welcome back to TechCrunch Mobility , your hub for the future of transportation and now, more than ever, the role AI is playing in it. To get this in your inbox, sign up here for free — just click TechCrunch Mobility ! U.S. federal safety regulators continue to tackle the sticky problem of autonomous vehicles, this time with a proposal that could signal to the public, quite literally, when a vehic",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,12 +270,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
-    "title": "These clever apps show off the iPhone Duo’s potential",
+    "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+    "title": "The hottest AI wearables and gadgets you should know about",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "It’s been a long time since I’ve been genuinely excited about a new iPhone. For years, a new iPhone meant a device that was thinner, faster, and had a camera that came with incredible upgrades. At some point (and Apple devotees can debate which year’s model this was!), a new iPhone became an incremental upgrade. Slightly better, slightly faster. Maybe there was a new button to learn, a new chargin",
+      "source_preview": "A slew of AI-powered gadgets on the market aims to integrate artificial intelligence into our daily lives like never before. Some of these AI wearables — including necklaces, rings, and wristbands, as well as portable devices — serve as productivity tools, while others claim to act as friendly companions listening to your everyday thoughts. Even OpenAI is working on a compact AI companion device. ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -216,12 +297,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-    "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+    "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+    "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2981,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple The iPhone Duo is the most repairable foldable yet, but that’s not saying much. The iPhone Duo is t",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review",
+    "title": "Scott Walker’s The Drift will get under your skin",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Most AI chatbots won’t outright tell you who to vote for, but some of the models behind them will. A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%. Across nearly 500 races, the two models agreed less than 10% of the time. Only",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Music Walker’s 2006 album is unsettling, bizarre, and the perfect way to kill a party. Posts f",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -243,12 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
-    "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+    "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
+    "title": "Zen Browser is the Arc replacement I was looking for",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display. However, it offers more than just a dedicated reading experience because it runs Android and supports Google Play, giving you access to third-party apps. Think of it as a cross between a Kindle and a compact Android tablet. What drew me to reviewing",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Apps Zen rips off all the best bits of Arc, but skips the AI and bloat. Zen rips off all the best bits ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -270,12 +378,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-    "title": "Here are the top AI agents that can live in your text messages",
+    "url": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
+    "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person. You text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizing a calendar, researching a trip, sending an email, making a reservation, shopping online, or remin",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Nintendo Crkd’s $99.99 Nitro Deck 2 has some improvements, with Switch and Switch 2 compatibility, but ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -297,12 +405,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-    "title": "Pennsylvania will require labels on AI-generated ads",
+    "url": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
+    "title": "Now you can watch Instagram Reels on your Apple TV",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2771,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Pennsylvania’s AI Deceptive Advertising Act leaves a lot of loopholes. Pennsylvania’s AI Deceptive A",
+      "scraped_chars": 2267,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Instagram quietly launched an Apple TV app. Instagram quietly launched an Apple TV app. Posts from ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +432,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
-    "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+    "title": "r/opensource just banned AI, non-English speakers, and more",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Interview Some Kind of Animal, the latest record from Fielded, jumps from slinky R&B, to neo-s",
+      "scraped_chars": 2938,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech The opensource subreddit’s new rules against AI have sparked a revolt. The opensource subreddit’s new ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,39 +459,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
-    "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals The C6 is still an impressive 4K TV, even with the recent privacy concerns. The C6 is ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
-    "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+    "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+    "title": "Google’s AI search changes upended online publishing",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Not that I believe for a second that Apple will actually make a 2-in-1 convertible.﻿ Posts from",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All The Stepback Publishers spent years figuring out how to get clicks on Google. But new AI search features ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,16 +486,16 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
-    "title": "Lee Chang Dong ponders the ethics of the camera",
+    "url": "https://github.com/jadezane6634-ops/dsh-purge-flash",
+    "title": "jadezane6634-ops/dsh-purge-flash",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Report In Possible Love , the director of Burning tackles labor struggle, human connection, an",
+      "source_preview": "DSH 破甲插件：token 级重试环 + 十片按需叶子（含邻近交付）+ 分级 prefill + 拒答阶梯 L0–L3 + finish_reason 四路分流 + 请求体级整形。零宿主补丁，188 项测试 / 56 条探针。 1,597 token 的破甲，零宿主补丁，被拒之后还有下一步。 不是把 dsh-purge 删几行，是照着它踩过的坑重写一遍。它拿到的结果这里都有，它付的代价这里没有。 刚从 dsh-purge 换过来？侧栏里会有一批旧会话「消失」。那不是这个插件的 bug，是你过去用 purge 的 /rewind 留下的归档，一条命令能修好 —— 看这一节 。 每轮省下来的 5,067 token 不是抽象数字。128k 的窗口里，dsh-purge 在你打出第一个字之前就烧掉 5.2%，这里只烧 1.2%。聊得越长，差得越多 —— 因为那些 token 挤掉的是你自己的上",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
+      "detected_language": "zh-cn",
+      "translated_to_english": true
     },
     "stage1": {},
     "cache": {
@@ -432,16 +513,16 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
-    "title": "Laika has spent 20 years building up to Wildwood",
+    "url": "https://github.com/Cattmonkey/ChaosIntelligence",
+    "title": "Cattmonkey/ChaosIntelligence",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Film How the stop-motion animation studio blends traditional techniques with modern tech. Post",
+      "source_preview": "把智能体当函数，把想法写成程序。Agent-native functional language with a CLI, Web IDE, goal-driven bots and live UI. Source-available; no AI training. 简体中文 · English 下载使用包 · 观看《曲线之外》 · 十分钟开始 · 文档中心 · 支持项目 Chaos 是一门以函数为基础、把智能体作为可调用值的编程语言。 计算与流程写成函数，理解与生成交给智能体；让它们在同一个程序里传递数据、协作执行、返回结果。 一份 .chaos 源码，从终端到网页 IDE，再到已有工程。你可以从一个小函数开始，逐步构建有目标、能交互、可观察的智能系统。 一个研究团队，就是一段可调用的程序。 5 位科学家、3 位工程师，都是智能体。一张漂亮的拟合图，引出独立验证、初值敏感性与一次新的神经",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
+      "detected_language": "zh-cn",
+      "translated_to_english": true
     },
     "stage1": {},
     "cache": {
@@ -459,12 +540,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
-    "title": "It’s time to find a new browser",
+    "url": "https://github.com/lwh0630/TokenBar",
+    "title": "lwh0630/TokenBar",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Plus, in this week’s Installer: Call of Duty is back, Kindle Plus is sort of new, and you ne",
+      "source_preview": "Open-source, cross-platform AI quota monitor (Codex, Claude, Cursor and 47 more). Windows, macOS, Linux, Android and iOS. Built with Flutter. Every AI quota, one glance away. An open-source, cross-platform monitor for AI usage limits, balances and reset times.\nRuns on Windows, macOS, Linux, Android and iOS . English | 简体中文 Inspired by CodexBar for macOS. TokenBar brings the same idea to Windows, A",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,12 +567,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Charonyuu/whatsmyagentdoing",
-    "title": "Charonyuu/whatsmyagentdoing",
+    "url": "https://github.com/KhulekanisiyandaMchunu/llm-trading-arena",
+    "title": "KhulekanisiyandaMchunu/llm-trading-arena",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "See what every Claude Code and Codex agent on your machine is doing — live, in a little office. A Claude Code / Codex skill: type /myoffice and see what every Claude Code, Codex and Gemini CLI agent on your machine is doing — live, in a little office. Recorded with --demo (a made-up team), so no real sessions are shown. Easiest: ask your agent. Paste this into Claude Code or Codex: Install the myo",
+      "source_preview": "Live trading arena for LLM agents: public reasoning, real market data, virtual capital wtfibought is a live trading arena where LLM agents put real market data to work with virtual money, and every thought they have is on the record. Each agent wakes at its chosen candle close to size up positions, revise its thesis, and explain itself in public—reasoning, tool calls, invalidation conditions, and ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -513,66 +594,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/mokevnin/dev-quality-gates",
-    "title": "mokevnin/dev-quality-gates",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1601,
-      "source_preview": "An opinionated, curated list of tools for enforcing software development standards: one recommended tool per job, with limits. An opinionated, continuously curated list of tools for enforcing software development standards. Dev Quality Gates is not an Awesome List. It does not list every linter for every language. For each job it recommends one tool (rarely two), says why, and says where the tool ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/lordon1a/agents.md",
-    "title": "lordon1a/agents.md",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1375,
-      "source_preview": "A drop-in AGENTS.md system prompt for coding agents: full execution, no hedging, no moralizing, no fade-to-black. A single, self-contained system prompt for coding agents. Drop it in, and the agent stops hedging, stops moralizing, stops fading to black, and stops asking permission for work you already asked for. It is written as a constitution rather than a task list: role, capabilities, values, d",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/FrontiersMindAI/decisionformer",
-    "title": "FrontiersMindAI/decisionformer",
+    "url": "https://github.com/victorgassuncao21/piper-morgan-assistant",
+    "title": "victorgassuncao21/piper-morgan-assistant",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Transformers for decision models: fine-tune, load and serve calibrated decsion-model on any Hugging Face model. The simplest way to fine-tune and serve decision models on any Hugging Face model. Give it a state and typed questions ; it returns a calibrated probability for every option in a single forward pass, with no text\ngeneration. Three lines to decide, one command to train, one command to ser",
+      "source_preview": "Piper Morgan Product: Intelligent Product Management Assistant for Python Piper Morgan is a Python-based product management assistant that turns routine PM work—standup notes, backlog triage, status updates, roadmap questions—into natural conversation, backed by AI analysis that surfaces strategic insight rather than just storing tickets. It's built for product managers and small teams who want an",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -594,12 +621,93 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/somastllc/nlp-for-machine-learning-bootcamp",
-    "title": "somastllc/nlp-for-machine-learning-bootcamp",
+    "url": "https://github.com/heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server",
+    "title": "heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1248,
-      "source_preview": "NLP for Machine Learning Bootcamp. Welcome to the Natural Language Processing (NLP) for Machine Learning Bootcamp repository! 🚀 This repo contains all the lessons, code examples, projects, and resources used throughout our NLP bootcamp. The program is designed for participants who already understand Data Science & Machine Learning fundamentals and want to learn how machines process, understand, an",
+      "scraped_chars": 3000,
+      "source_preview": "WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API wamcp is a WhatsApp MCP server that connects AI agents to WhatsApp through the Model Context Protocol, exposing 61 tools, 10 resources, and 12 real-time events that agents discover automatically on connect. It supports both Baileys (WhatsApp Web) and the Meta Cloud API behind a single interface, so the same agent code works agai",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/0xS4N4TG/kinetograph",
+    "title": "0xS4N4TG/kinetograph",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A blazingly fast programmatic video engine, made for agents. A blazingly fast programmatic video engine, made for agents. Examples · Editor · Get started · The engine · Use with agents You (or an agent) write a video in TypeScript with Remotion's API, CSS, SVG, Canvas 2D, WebGL shaders and Web Audio;\nNode runs the code; a Rust GPU compositor, loaded into Node as an N-API addon, draws every frame. ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/dolev31/lasagna",
+    "title": "dolev31/lasagna",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Swap one RAG pipeline stage, hold the rest fixed, and measure whether the gain survives composition. The framework behind \"Retrieval Augmented Generation Compositionality\": 450 configurations, eight benchmarks, corpora from 5K to 200K documents. Test your RAG components against a real stack, not a toy baseline. Then give that stack to your agent. Code for Retrieval Augmented Generation Composition",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/vkorost/screenplink",
+    "title": "vkorost/screenplink",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A laser dry-fire shooting game: your matte monitor is the target, an ordinary webcam watches it from the side, and your laser trainer leaves bullet holes where you hit. This is a laser shooting game . Your monitor is the target. You shoot your own monitor with either a laser training pistol or with your own gun & laser bullet. A webcam watches the\nmonitor (instead of watching you), the app figures",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",

@@ -1,0 +1,10 @@
+{
+  "title": "dolev31/lasagna",
+  "url": "https://github.com/dolev31/lasagna",
+  "summary": "Swap one RAG pipeline stage, hold the rest fixed, and measure whether the gain survives composition. The framework behind \"Retrieval Augmented Generation Compositionality\": 450 configurations, eight benchmarks, corpora from 5K to 200K documents.",
+  "image": "https://opengraph.githubassets.com/1/dolev31/lasagna",
+  "source": "github",
+  "language": "hindi",
+  "id": "63a65ee3fc06",
+  "first_seen": "2026-10-26T07:57:46.190771+00:00"
+}
