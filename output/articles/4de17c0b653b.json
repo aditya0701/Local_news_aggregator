@@ -1,0 +1,10 @@
+{
+  "title": "gkjuwon-tech/ouroboros",
+  "url": "https://github.com/gkjuwon-tech/ouroboros",
+  "summary": "Runs multi-B LLMs on a 2GB laptop MX150 (beating RTX 4060 in token decode) & hits 23.35 TFLOPS on A100 — zero-dependency single-file Rust GPU compiler",
+  "image": "https://opengraph.githubassets.com/1/gkjuwon-tech/ouroboros",
+  "source": "github",
+  "language": "hindi",
+  "id": "4de17c0b653b",
+  "first_seen": "2026-10-28T08:47:05.860252+00:00"
+}
