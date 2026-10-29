@@ -1,0 +1,12 @@
+{
+  "title": "OpenAI's agents talked to each other through the CPU Cache",
+  "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+  "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altman's warning: the more powerful the model, the harder it is to contain.",
+  "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_misalign-2.png",
+  "published": "Mon, 26 Oct 2026 21:24:18 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "e7a641e67972",
+  "first_seen": "2026-10-29T08:43:33.697892+00:00"
+}
