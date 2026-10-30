@@ -1,0 +1,10 @@
+{
+  "title": "PeaceOfElf37336/resilient-telegram-rpocket-bot",
+  "url": "https://github.com/PeaceOfElf37336/resilient-telegram-rpocket-bot",
+  "summary": "A Telegram bot built around what happens when the API doesn't answer — retry with jittered backoff, structured logging, systemd deployment. Runs with --demo, no token needed.",
+  "image": "https://opengraph.githubassets.com/1/PeaceOfElf37336/resilient-telegram-rpocket-bot",
+  "source": "github",
+  "language": "hindi",
+  "id": "6b88e2e9cdad",
+  "first_seen": "2026-10-30T08:49:07.947158+00:00"
+}

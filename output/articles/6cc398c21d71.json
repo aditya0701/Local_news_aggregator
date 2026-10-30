@@ -1,0 +1,10 @@
+{
+  "title": "jackwener/DeepseekHarness-Android",
+  "url": "https://github.com/jackwener/DeepseekHarness-Android",
+  "summary": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+  "image": "https://opengraph.githubassets.com/1/jackwener/DeepseekHarness-Android",
+  "source": "github",
+  "language": "hindi",
+  "id": "6cc398c21d71",
+  "first_seen": "2026-10-30T08:49:07.947158+00:00"
+}
