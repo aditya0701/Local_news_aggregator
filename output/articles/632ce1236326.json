@@ -1,0 +1,12 @@
+{
+  "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
+  "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+  "summary": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/applebees-501705240.jpg?resize=1200,899",
+  "published": "Fri, 30 Oct 2026 21:48:53 +0000",
+  "source": "rss",
+  "feed_name": "TechCrunch",
+  "language": "hindi",
+  "id": "632ce1236326",
+  "first_seen": "2026-10-31T08:36:47.152314+00:00"
+}
