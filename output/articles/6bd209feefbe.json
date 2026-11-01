@@ -1,0 +1,12 @@
+{
+  "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+  "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+  "summary": "CVE-2026-98432 is a CVSS 9.8 remote use-after-free in Linux's IPv4 TCP handshake, fixed upstream Oct 15. Ubuntu and RHEL haven't shipped a fixed kernel yet.",
+  "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
+  "published": "Sat, 31 Oct 2026 19:16:30 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "6bd209feefbe",
+  "first_seen": "2026-11-01T09:28:14.054237+00:00"
+}
