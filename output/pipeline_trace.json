@@ -1,553 +1,472 @@
 [
   {
-    "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-    "title": "An Italian farmer found some unknown seeds in his attic and planted them",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Lina Zeldovich Photographs by Clara Vannucci Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify. The bag, he was sure, had been left by his late great-grandfather, who’d started the farmstead around 1915. Grossi had no idea how long the seeds had been sitting the",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-    "title": "The AI cost of JavaScript frameworks",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "28 Oct Posted October 28, 2026 by Nolan Lawson in Web , AI . One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will “supercharge” your development, the right abstraction will benefit both you and your users ( DX and UX all in one!). All of this breathless boasting is usually offered with zero evide",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
-    "title": "Running a bootstrapped SaaS for 20 years with my brother",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "In 2006, two brothers launched a website using dial-up modems and a battered book on writing HTML4, named it after a character who woke up as a giant insect , and hoped someone might find it useful. Twenty years and 766,615,348 file conversions later, apparently someone did. Back when we launched Zamzar in 2006 we proudly offered a whopping 150 different conversion types. We now offer almost 15x t",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "A Brazilian labor court censured and fined two lawyers after finding that they intentionally embedded a hidden prompt-injection command in a court filing. The lawyers knew that Brazilian courts (and possibly opposing counsel) used an AI system to review filings. This case may be the first judicial ruling globally to address intentional manipulation of a court’s AI system through prompt injection. ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Red Hat raised its rating to Critical on October 30 and published a mitigation, AlmaLinux has fixed kernels in testing, and Amazon Linux has fixed all of its kernels. The Go Security Team says Go programs open multipath TCP listeners by default, so the setup Anthropic's exploit needs is more common than it first looked. What changed . Linux's stable kernels shipped a fix on October 11 and 15, 2026",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1738,
-      "source_preview": "Five small models solve a programming problem together: a planner, two\nideators, a solver and a manager, plus a repair worker. Each starts from a\nfresh context and talks only through files on disk. A script that runs the\nsamples decides success, not a model. It is the method of GVS5H (Lee, 2026), written as a Memdoor workflow: eight YAML files, no code, no model\nnamed. The authors' harness rebuilt",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://arxiv.org/abs/2409.02292",
-    "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 456,
-      "source_preview": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://vinibrasil.com/japan-train/",
-    "title": "Japan's trains are great. Why is booking one so hard?",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Whatâs a software engineer supposed to do while on vacation? Observe how different cultures use and design software, of course! Coming from South America, visiting Asia is like stepping into a different world. I remember the first time I boarded a train in Japan, minutes after my flight, and people-watching became my first tourist activity. Interestingly, Japanese software also feels like steppi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
-    "title": "Data centers are now a midterm issue, even in Brooklyn",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "On Thursday evening, I slipped on my neon yellow heels and a floral mini dress. It’s New York, so I can wear whatever I want to a midterm election event full of media types, techies, policy advocates, and, well, does anyone else even exist at these things? I walked into the dimly blue-lit Brooklyn warehouse and was surprised to see the room already filling up. Newsreel, the media company founded b",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/10/31/i-took-two-iphones-on-vacation-the-duo-won-me-over/",
-    "title": "I took two iPhones on vacation. The Duo won me over.",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "“I think I’m going to switch back to my other iPhone.” I’ll admit, I said this multiple times during my five-day vacation with the new iPhone Duo, after encountering frustrations with broken apps, unfamiliar gestures (a return to Touch ID, argh !), and camera concerns that had me lugging around two phones. By the time the trip was over, I didn’t want to go back. When I first unboxed the Duo, a loa",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror",
-    "title": "Get in the spirit with these horrors from YouTube",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Close out the Halloween season with these creepy, weird, and unsettling videos from ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks",
-    "title": "Keyboards of The Verge",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Keyboards From the strictly utilitarian to the ergonomic to the obsessive, these are the keyboards we ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
-    "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2239,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Crypto Most of the $6.3 billion in crypto stolen from Binance users has been restored. Most of the $6.3 b",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
-    "title": "Happy Pikmin Day Eve",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2498,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Nintendo is celebrating the first annual Pikmin Day by debuting a new series of short fil",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-    "title": "I built an AI Tamagotchi before Meta could",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech We have Muse Charm at home. Posts from this author will be added to your daily email digest and you",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-    "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2308,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Microsoft The latest Windows Insider builds revamp search with filters, actions, and phone controls. The ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
-    "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple You have options for preordering the new MacBook Pro, but only one retailer is offering this swe",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
-    "title": "Vic Mensa can’t live without the Voice Memos app",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Interview Between his music, acting, podcast, activism, and businesses, Vic Mensa wears a lot ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/policy/1023899/political-texts-midterm-elections",
-    "title": "Here’s why you can&#8217;t shake those unhinged political texts",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Politics You might be receiving political texts even if you’ve never made a political donation. You m",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
-    "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it? In May 2021, the US Food and Drug Administration released a lengthy briefing document on an experimental medication for a rare autoimmune form of vasculitis that often damages the kidneys and lungs. The agency was on the fence about whether to approve the treatment, and it wante",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-    "title": "Making it easier for websites to express AI training preferences",
+    "url": "https://wikihack.netlify.app",
+    "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/helping-websites-express-ai-training-preferences"
+      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
     }
+  },
+  {
+    "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+    "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "The beginning of BSD Unix When Ken Thompson returned to Bell Labs in 1976, Bill Joy and Chuck Haley began exploring the Unix kernel themselves. Hmm... we could speed things up here in the kernel. Let's try it. Other universities want copies of our Pascal compiler. Let's bundle it with ex and send them a tape. In early 1977, Bill Joy put together the Berkeley Software Distribution, or BSD, bundling",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/",
+    "title": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "The Hamburg Rathaus tells the story of its city in more than a hundred small details, and this is my walk through them. The Rathaus was one of the first things I photographed in Hamburg. The picture is still in my camera roll, taken on 6 July 2017, five days after I arrived for an internship. Like most visitors, I was impressed by its size and its tower, but what I kept coming back to was the roof",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+    "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "30 October 2026 Why do our grids show a brief spike in electricity demand every minute? A team led by Dirk Witthaut from Forschungszentrum Jülich has now demonstrated that this is due to regular power checks carried out by large-scale battery storage systems. These findings could help to make our electricity supply more robust, as the team reports in an article published in Nature Energy . Tennet ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://trigger.dev/blog/security-incident-nov-2026",
+    "title": "Trigger.dev customer environment variables exposed",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 458,
+      "source_preview": "Eric Allam CTO, Trigger.dev There has been a security incident at Trigger.dev. We've blocked the exploit used in this attack, but our investigation has identified exposure across a subset of organizations. The attacker gained unauthorized access to environment variables for these organizations. We have emailed all impacted account owners with steps to mitigate. We will publish updates on our statu",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+    "title": "The agentic web is here",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "With the rise of personal AI assistants, the internet isn't just for humans anymore. In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web” : an internet designed to be navigated by autonomous software agents tha",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+    "title": "Borrowed reading: stories from our extended colleagues",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1519,
+      "source_preview": "Readers don’t typically care who owns what media property, we realize, but last year, we became part of a broader portfolio , a move that has come with some decided benefits, including what amounts to a bigger extended family with cool cousins. Now, in addition to our TechCrunch channels in Slack, we can talk with the writers and editors of CIO, Computerworld, and PCWorld, among other outlets. We ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+    "title": "TechCrunch Mobility: A new, bigger AV boom is here",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Welcome back to TechCrunch Mobility , your hub for the future of transportation and now, more than ever, the role AI is playing in it. To get this in your inbox, sign up here for free — just click TechCrunch Mobility ! I’ve joked here and on the Equity and Autonocast podcasts that the autonomous vehicle industry feels a lot like 2016, at least in terms of the buzziness surrounding the sector. But ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/",
+    "title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Sometimes it seems like everyone — and every occasion — demands cashmere these days. Numerous brands sell cashmere sweaters, from Bruno Cucinelli’s $7,900 cable knit cardigan to Quince’s $50 crewneck . Menswear company Loro Piana has made cashmere a cornerstone of its lineup, helping to drive the LVMH division’s valuation above €11 billion . There are even cashmere running shirts . But as cashmere",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+    "title": "Jackery made its portable power stations even smaller",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2948,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The new Jackery Explorer 100D puts a longer lasting lithium iron phosphate battery in the palm of",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
+    "title": "NASA hopes the commercial space industry can help save Hubble",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2544,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy The Hubble Space Telescope will come crashing to Earth sometime in the 2030s without a boost. T",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
+    "title": "Flock keeps ignoring requests to cancel its contracts",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Cities are canceling Flock contracts, but the company won’t take them down and sometimes is reinst",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+    "title": "Apple’s HomeView could add security camera features",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2614,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Code strings in HomeView’s software suggest Apple could launch a Secure Video feature soon. Code st",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+    "title": "A fully playable version of Portal prequel F-Stop leaked",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2294,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All PC Gaming Nearly 20 years after it was canceled, the camera-based Portal prequel F-Stop is no longer lo",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+    "title": "North Korea linked to massive Binance crypto heist",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2718,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy The FBI says that malicious actors from North Korea stole $6.3 billion worth of Crypto from Binanc",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
+    "title": "HomePod Mini 2 first look: Three things I love and one disappointment",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Posts from this topic will be added to your daily email digest and your homepage feed. See All Reviews The new Mini is faster, quieter, and gorgeous in green, but its upgraded Mac speaker feature did",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists",
+    "title": "New Zelda and GTA represent a games industry that no longer exists",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All The Stepback The two biggest games of the year launch in November, offering some reprieve from a terr",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
+    "title": "Prop 45 in California could be hiding a loophole for data centers",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Energy Proposition 45 makes it easier for developers to speed through environmental reviews. Proposi",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
     "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
@@ -600,12 +519,12 @@
     }
   },
   {
-    "url": "https://github.com/tavern-labs-ai/persona-ai-sdk",
-    "title": "tavern-labs-ai/persona-ai-sdk",
+    "url": "https://github.com/modelflare-ai/AnyModelBot",
+    "title": "modelflare-ai/AnyModelBot",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Persona AI SDK: default personas, durable character memory, and Bedrock/OpenAI adapters in one package. Pick a persona, wire a model, and ship a character that remembers. The package combines the Tavern\nLabs persona catalog with a provider-neutral memory and response runtime. Quick start · Personas · Choose your stack · Documentation · API reference · Contributing [!NOTE] persona-ai-sdk is publish",
+      "source_preview": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use. 跑在你自己电脑上的 AI 机器人。任意模型，按量付费。 官网 | 下载 | 简体中文 | English | Modelflare |",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -627,12 +546,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/muaaz9329/cheap-ag",
-    "title": "muaaz9329/cheap-ag",
+    "url": "https://github.com/Balanov/uncut",
+    "title": "Balanov/uncut",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "50x your Claude usage with cheap-ag. Opus plans, a dirt-cheap model writes every line, and tests decide what ships. Your $20 plan stops hitting limits. One MCP server for Claude Code. Your Opus is a principal engineer. Stop paying it to type. Same feature. Same prompt. 63% fewer Opus tokens. Your Claude plan lasts longer. Your code still ships with tests. ⭐ Star it, and click Watch → Custom → Rele",
+      "source_preview": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts. The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout. No TUI. No telemetry. No silent context cuts. Linux · macOS · Windows · amd64 + arm64 · MIT UNCUT is a tiny coding-agent harness for shell pipelines, CI jobs, containers, and agent e",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -654,205 +573,70 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/aa1143/NamiAgent",
-    "title": "aa1143/NamiAgent",
+    "url": "https://github.com/khanh020905/my-office",
+    "title": "khanh020905/my-office",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1692,
-      "source_preview": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent 零基础入门 AI Agent 的基础教程 不只是教程，也是一个能在本地跑起来的 Agent，自带网页端，每一步都看得见 图文教程 · 快速开始 · 在线可视化 · 作者 𝕏 Agent 没有什么神秘的，核心就是一个 while 循环：调模型、执行工具、把结果写回上下文，再调模型。 它是教程 ：从 100 行的最小循环开始，一课加一个能力：工具、权限、上下文管理、Skills、MCP、子 Agent、计划、记忆。最后拆解 Claude Code、Codex 等主流 Agent 是怎么做的。内容是我自己一步步学习、动手实践后整理出来的。",
+      "scraped_chars": 2709,
+      "source_preview": "Văn phòng 3D cho các phiên Claude Code · A 3D office for your Claude Code sessions English · Tiếng Việt A 3D office where your Claude Code sessions come to work. Each session is a character at a desk: The office also looks after your Mac: RAM per session, forgotten dev servers, one-click cleanup. Try it before you install anything. The demo has made-up projects and needs no Claude Code: run npm ru",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/onurozcan/omux",
+    "title": "onurozcan/omux",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1949,
+      "source_preview": "Native macOS terminal for running many Claude Code and Codex sessions side by side. Projects, worktrees, live agent status, Allow/Deny from the sidebar, resumable conversations, pull request status and file previews. Built with SwiftUI. A 5 MB native Mac terminal for running fleets of coding agents. Written in Swift on SwiftTerm, no Electron, no web view, launches instantly. omux keeps many Claude",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/JuneYaooo/caregiving-eye",
+    "title": "JuneYaooo/caregiving-eye",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2873,
+      "source_preview": "米执事：让小米摄像头成为家中的 AI 执事。本地人宠识别、照护提醒、宠物禁区与云台控制，可联动外部机器人。 把小米云台摄像头变成家里的值班管家。 没人时看家，有人时照看，养宠时记录。 画面在本机分析，有事才叫你。 三种场景 · 怎样工作 · 调度 · 快速开始 · 回复指令 · 开源组件 · 代码架构 · 常见问题 米执事（ caregiving-eye ）是一套在家里电脑上运行的视觉照护工具。它接入小米云台摄像头，同时分析画面和声音，并根据家里有没有人切换值班重点：没人时防火防盗；有人时留意跌倒、突发不适和孩子的安全；养宠物时记录它一天去了哪里、活动了多久。 不刷固件，不改硬件。视频和声音只在局域网内传输、在本机分析；登录和连接摄像头时，仍需向米家云端换取流密钥。 无人值守 在家照护 · 夜间加强 宠物模式 所有模式都会把事件写进本地记录，重要事件附快照和前后约 25 秒的短视频。运行 ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "zh-cn",
       "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/eduwxyz/tucano",
-    "title": "eduwxyz/tucano",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Your team of AI agents, on your Mac, Windows or Linux. Agents that talk in channels, write code, review each other and use your tools, on the Claude Code, Codex, OpenCode or Pi you already have. Anything that touches the real world waits for your yes. Your team of AI agents, on your computer. Your rules. Agents that talk in channels, write code, review each other and use your team's tools. They do",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/OFat34764e/InterviewCopilot-rpocket-team",
-    "title": "OFat34764e/InterviewCopilot-rpocket-team",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2759,
-      "source_preview": "EdTech application designed to bridge the gap between learning and landing your dream job ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software only through MediaFire . If the download link leads to any other file-sharing service ,",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/kerlenton/bootgpt",
-    "title": "kerlenton/bootgpt",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2577,
-      "source_preview": "A language model that lives in a boot sector A neural network that boots your PC. The MBR is 512 bytes of hand written asm. It loads an 11.5 KB int8 model\nfrom the next 23 sectors and runs it in 16-bit real mode on a 386. No OS,\nno C runtime, nothing. The machine wakes up and dreams a Linux boot log:\ntimestamps, PCI bars, ACPI events for hardware that never existed. Build thread: https://x.com/krl",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/mehmetsongur/Machine-Learning-in-Economics-and-Finance",
-    "title": "mehmetsongur/Machine-Learning-in-Economics-and-Finance",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2350,
-      "source_preview": "Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish. Weekly materials for the 14-week course Machine Learning in Economics and Finance at Dicle University: slides, lecture videos and code. The course is taught in Turkish. Course page (Turkish): https://www.songurmehmet.com/dersler/ekonomi-ve-finansta-",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/glincker/awesome-selfhosted-ai",
-    "title": "glincker/awesome-selfhosted-ai",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1160,
-      "source_preview": "Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects removed automatically. Open-source AI you can run on your own hardware or server. 308 projects across local LLMs, chat interfaces, agents, MCP servers, RAG, speech and image generation. A weekly job checks every project against the GitHub API",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex",
-    "title": "saksham10arora-dotcom/everything-claude-codex",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "The complete AI dev setup for Claude Code + Codex: shared memory (voice included), tests before 'done', a health check at every session start, 17 skills, 21 hooks, 3 search engines, phone access with the laptop shut. Real, unedited. A codeword told to Codex by voice. A minute later Claude knows it, without reading a single file. The complete AI dev setup for Claude Code and Codex. Your agents star",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Currentliunderpass/forge-agent",
-    "title": "Currentliunderpass/forge-agent",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 837,
-      "source_preview": "Open-source, local-first AI coding agent. Build, share, and install skills. Runs on your machine. Your keys, your data. No cloud. No subscription. Built for developers who ship. Open-source, local-first AI coding agent. Build, share, and install skills. Runs on your machine. Your keys, your data. No cloud. No subscription. Built for developers who ship. Open-source, local-first AI coding agent. Bu",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
     },
     "stage1": {},
     "cache": {
