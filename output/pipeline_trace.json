@@ -1,472 +1,711 @@
 [
   {
-    "url": "https://wikihack.netlify.app",
-    "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "title": "Astra can read and write weights to improve Qwen",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Rikiya Takehi * Jayden Teoh * Alex Zhang Omar Khattab MIT CSAIL MIT CSAIL MIT CSAIL MIT CSAIL November 2, 2026 We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability. Just by looking at the raw weights, GPT-6 Astra",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "title": "Nvidia – open-source auto-ontology",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows. Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://erici.eu",
+    "title": "European RISC-V Industrial Computing Initiative",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "European RISC-V Industrial Computing Initiative RVA23 silicon has arrived. The industrial computer built on it has not. ERICI coordinates a reference stack, from firmware to real-time and general-purpose operating systems: it fixes the interfaces between the layers and verifies that they boot together on real RVA23 hardware. A box that boots it is ERICI-compatible . Why now Today's industrial comp",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://knlb.dev/essays/surrender",
+    "title": "Resisting Cognitive Surrender",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Working Notes: a commonplace notebook for recording & exploring ideas. Home . Site Map . Subscribe . More at expLog . — Kunal This particular note is around exploring cognitive surrender : uncritically accepting whatever agents output without actually thinking , exploring or considering alternatives. Working this way is extremely fast, not particularly taxing, and unsurprisingly seductive. And yet",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "One month into the attempted rebrand of “AI,” the term is not catching on. But it’s sure to muddy our national conversation about AI anyway. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . At the end of September, President Trump signed an executive order that contained just one directive, ordering governmen",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+    "title": "Raising the quality of insights in agentic analytics",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Sponsored The top reason analytics agents produce substandard insights is a lack of business context, prompting investment in semantic layers and governance, rather than bigger models. In partnership with Snowflake In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+    "title": "Stop counting tokens, start counting what ships",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Sponsored Why rationing agentic coding backfires, and what to measure instead. Provided by HPE When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. W",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
+    "title": "The Download: the agentic web arrives and the drive for safer roads",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus: A $1 trillion tech selloff has deepened fears of an AI bubble. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by autonomous software agents that address our every need, without requiri",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+    "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Apple’s AI-powered “Audio Intelligence” technology for the Apple Watch is now rolling out into beta testing, initially for developers in the iOS 27.3 update, after first being announced at the company’s Surprise and Shine hardware event in September. The technology includes a set of four opt-in AI features that allow Apple Watch Series 12 wearers to detect important sounds, identify songs, catch u",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+    "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Apple’s services business remains at record levels, but it’s facing growing pressure . The central part of that business, Apple’s App Store, has faced regulatory pressure and a slump in mobile gaming, which have hurt services growth . However, on Monday’s earnings call, Apple signaled that it may look to boost services revenue through third-party apps. What does that mean, exactly? Unfortunately, ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+    "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1894,
+      "source_preview": "Posted: Ukrainian drone teams have a new way to spy on the drones that spy on them. A Kyiv equipment startup called CODE380 has been gaining attention for a pocket-sized receiver, the D·Vision SDR, that picks up live camera video from many Russian drones and shows it on a screen. Those drones send their video over the air without any scrambling, so anyone with the right receiver can watch along. A",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
+    "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Hinge is testing a cheaper subscription plan as its parent company Match Group looks for new ways to get users to pay for dating apps at a time when people are increasingly tired of subscriptions and, in some cases, dating apps altogether. During its third-quarter 2026 earnings call on Monday, Match Group said the new Hinge tier will include features such as additional filters and custom location ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+    "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2945,
+      "source_preview": "Apple Chief Operating Officer Sabih Khan acknowledged the shipping delays plaguing the new iPhone Duo during the company’s fiscal fourth-quarter earnings call on Monday, but offered little clarity on when customers can expect relief. The delays were just one point of concern during an earnings call filled with questions about the rising costs of memory chips, driven by soaring demand from the AI i",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
+    "title": "Apple’s inventory surges 154% as memory chip costs climb",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Apple’s stockpiling of inventory, particularly computer memory, continued in its fiscal fourth quarter, according to earnings reported Monday. The company reported that its inventory increased significantly in the quarter, growing from $11.09 billion in Q3 to $14.54 billion in Q4, a jump of 31.1%. Year-over-year, inventory grew 154.3% from $5.72 billion in the fourth quarter of 2025. Apple’s forec",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings",
+    "title": "Apple set an iPhone sales record even without a new standard iPhone",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple iPhone revenue jumped 17 percent with Pro-only models during this year’s refresh. iPhone revenue ju",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates",
+    "title": "Meta will end Quest 2 OS updates in 2027",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2418,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Meta The Quest 2 and Pro were discontinued in 2024, and next year, Meta will stop releasing OS updates fo",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+    "title": "One of Google’s Android partners turned 1.3 million set-top boxes into a botnet",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Google says a manufacturer ‘intentionally’ hijacked its devices with malware. Google says a man",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027",
+    "title": "BMW is taking on Tesla’s FSD with urban driver assist starting in 2027",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All Autonomous Cars Posts from this topic will be added to your daily email digest and your homepage feed. See All Cars BMW will bring navigation-guided city driving to select models via software upd",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale",
+    "title": "The Apple Watch Ultra 4 is $100 off, matching its best price to date",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals We also found a good deal on Ugreen’s soccer ball-shaped Bluetooth tracker with seven ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+    "title": "Anthropic clamps down on Claude’s AI video game clones",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2883,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Anthropic is steering Claude away from re-creating specific titles, but users can still use",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/news/1024649/xbox-chief-operating-officer-helen-chiang-depature-comments",
+    "title": "Xbox&#8217;s former COO has ‘serious concerns’ about her abrupt departure",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Helen Chiang is setting the record straight on her sudden exit from Microsoft. Helen Chiang is set",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+    "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Science As public opinion has soured on data centers, it’s selling ‘AI campuses’ as protectors, instead of ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
+    "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "The Smithsonian’s National Air and Space Museum has all of its “space” back open. After seven years of work and nearly $1 billion, the Smithsonian has completed the renovation of the National Air and Space Museum’s flagship building in Washington, DC. On October 30, the museum debuted its last-to-open spaceflight exhibition , returning “home” with a gallery devoted to establishing a spacefaring ci",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
+    "title": "Why large dogs age faster than small ones, and other October research highlights",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more. It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. October’s list includes an epigenetic mechanism for why large dogs age fast",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "title": "Scaling Git at OpenAI",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/scaling-git-at-openai"
     }
   },
   {
-    "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
-    "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/grid-protectors-program",
+    "title": "Introducing the Grid Protectors Program",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "The beginning of BSD Unix When Ken Thompson returned to Bell Labs in 1976, Bill Joy and Chuck Haley began exploring the Unix kernel themselves. Hmm... we could speed things up here in the kernel. Let's try it. Other universities want copies of our Pascal compiler. Let's bundle it with ex and send them a tape. In early 1977, Bill Joy put together the Berkeley Software Distribution, or BSD, bundling",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/grid-protectors-program"
+    }
   },
   {
-    "url": "https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/",
-    "title": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "title": "Rewarding defenders with bigger bug bounties",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "The Hamburg Rathaus tells the story of its city in more than a hundred small details, and this is my walk through them. The Rathaus was one of the first things I photographed in Hamburg. The picture is still in my camera roll, taken on 6 July 2017, five days after I arrived for an internship. Like most visitors, I was impressed by its size and its tower, but what I kept coming back to was the roof",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+    }
   },
   {
-    "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
-    "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/lifeval",
+    "title": "LifeVal",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "30 October 2026 Why do our grids show a brief spike in electricity demand every minute? A team led by Dirk Witthaut from Forschungszentrum Jülich has now demonstrated that this is due to regular power checks carried out by large-scale battery storage systems. These findings could help to make our electricity supply more robust, as the team reports in an article published in Nature Energy . Tennet ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/lifeval"
+    }
   },
   {
-    "url": "https://trigger.dev/blog/security-incident-nov-2026",
-    "title": "Trigger.dev customer environment variables exposed",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/qodo-codex-plugin",
+    "title": "Qodo builds context into AI code review with Codex",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 458,
-      "source_preview": "Eric Allam CTO, Trigger.dev There has been a security incident at Trigger.dev. We've blocked the exploit used in this attack, but our investigation has identified exposure across a subset of organizations. The attacker gained unauthorized access to environment variables for these organizations. We have emailed all impacted account owners with steps to mitigate. We will publish updates on our statu",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/qodo-codex-plugin"
+    }
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-    "title": "The agentic web is here",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/dan-driscoll-joins-openai",
+    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "With the rise of personal AI assistants, the internet isn't just for humans anymore. In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web” : an internet designed to be navigated by autonomous software agents tha",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
-    "title": "Borrowed reading: stories from our extended colleagues",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1519,
-      "source_preview": "Readers don’t typically care who owns what media property, we realize, but last year, we became part of a broader portfolio , a move that has come with some decided benefits, including what amounts to a bigger extended family with cool cousins. Now, in addition to our TechCrunch channels in Slack, we can talk with the writers and editors of CIO, Computerworld, and PCWorld, among other outlets. We ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-    "title": "TechCrunch Mobility: A new, bigger AV boom is here",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Welcome back to TechCrunch Mobility , your hub for the future of transportation and now, more than ever, the role AI is playing in it. To get this in your inbox, sign up here for free — just click TechCrunch Mobility ! I’ve joked here and on the Equity and Autonocast podcasts that the autonomous vehicle industry feels a lot like 2016, at least in terms of the buzziness surrounding the sector. But ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/",
-    "title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Sometimes it seems like everyone — and every occasion — demands cashmere these days. Numerous brands sell cashmere sweaters, from Bruno Cucinelli’s $7,900 cable knit cardigan to Quince’s $50 crewneck . Menswear company Loro Piana has made cashmere a cornerstone of its lineup, helping to drive the LVMH division’s valuation above €11 billion . There are even cashmere running shirts . But as cashmere",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
-    "title": "Jackery made its portable power stations even smaller",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2948,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The new Jackery Explorer 100D puts a longer lasting lithium iron phosphate battery in the palm of",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
-    "title": "NASA hopes the commercial space industry can help save Hubble",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2544,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy The Hubble Space Telescope will come crashing to Earth sometime in the 2030s without a boost. T",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
-    "title": "Flock keeps ignoring requests to cancel its contracts",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Cities are canceling Flock contracts, but the company won’t take them down and sometimes is reinst",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
-    "title": "Apple’s HomeView could add security camera features",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2614,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Code strings in HomeView’s software suggest Apple could launch a Secure Video feature soon. Code st",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
-    "title": "A fully playable version of Portal prequel F-Stop leaked",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2294,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All PC Gaming Nearly 20 years after it was canceled, the camera-based Portal prequel F-Stop is no longer lo",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
-    "title": "North Korea linked to massive Binance crypto heist",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2718,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy The FBI says that malicious actors from North Korea stole $6.3 billion worth of Crypto from Binanc",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
-    "title": "HomePod Mini 2 first look: Three things I love and one disappointment",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Posts from this topic will be added to your daily email digest and your homepage feed. See All Reviews The new Mini is faster, quieter, and gorgeous in green, but its upgraded Mac speaker feature did",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists",
-    "title": "New Zelda and GTA represent a games industry that no longer exists",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All The Stepback The two biggest games of the year launch in November, offering some reprieve from a terr",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
-    "title": "Prop 45 in California could be hiding a loophole for data centers",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Energy Proposition 45 makes it easier for developers to speed through environmental reviews. Proposi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/dan-driscoll-joins-openai"
+    }
   },
   {
     "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
@@ -489,42 +728,12 @@
     }
   },
   {
-    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-    "title": "How we detect frontier model misalignment",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/how-we-detect-frontier-model-misalignment"
-    }
-  },
-  {
-    "url": "https://openai.com/index/ropes-gray-ai-diligence",
-    "title": "How Ropes & Gray is developing AI for transactional diligence",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/ropes-gray-ai-diligence"
-    }
-  },
-  {
-    "url": "https://openai.com/index/credit-saison",
-    "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/credit-saison"
-    }
-  },
-  {
-    "url": "https://github.com/modelflare-ai/AnyModelBot",
-    "title": "modelflare-ai/AnyModelBot",
+    "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+    "title": "Speeding up planning decisions with AI",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use. 跑在你自己电脑上的 AI 机器人。任意模型，按量付费。 官网 | 下载 | 简体中文 | English | Modelflare |",
+      "source_preview": "Owen Larter and David Thacker PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%. PlanAssist - an AI planning tool that handles the heavy lifting of routine applications so officers can focus their expertise where it matters most - is to be made available to an additional 12 local planning authorities across England. In early pilot test",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -546,12 +755,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Balanov/uncut",
-    "title": "Balanov/uncut",
+    "url": "https://github.com/SAOS-3624/dsh-see-now",
+    "title": "SAOS-3624/dsh-see-now",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts. The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout. No TUI. No telemetry. No silent context cuts. Linux · macOS · Windows · amd64 + arm64 · MIT UNCUT is a tiny coding-agent harness for shell pipelines, CI jobs, containers, and agent e",
+      "source_preview": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token AI 不再\"听你描述屏幕\"，而是自己看 —— 而且只传\"画面变了\"的那几帧。 一个给 DSH 用的实时视觉插件：把你的屏幕（或摄像头 / 视频文件）变成一串 按变化量筛选过 的画面，压进一张几帧拼成的图，交给模型。 静止的屏幕几乎不花钱；一镜到底的视频按\"运动量\"给帧；硬切幻灯片每切一次留一帧。 Apache License 2.0 —— 随便用。个人、公司内部、闭源产品、SaaS、二次分发都可以， 不需要问我要授权，也不收费 。只要保留 LICENSE 和 NOTICE 这两份文件。 如果你觉得它替你省了时间，欢迎扫码打赏 —— 纯自愿， 不影响上面任何一个字 ： 提交 PR 前读一下 CONTRIBUTING.md —— 现在 不需要签 CLA 了，\n按 Apache-2.0 的规矩来就行。 调试",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "zh-cn",
+      "translated_to_english": true
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
+    "title": "Interactive-Active-AI/NextTransformer",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2775,
+      "source_preview": "🌅 A comprehensive, cutting-edge open-source framework for next-generation Transformers, with compute-matched benchmarking and a platform for autonomous architecture research. English · 简体中文 When the training budget is fixed, how should a language model spend its computation? NextTransformer trains\nrecurrent depth, sparse and linear attention, residual-stream variants and hybrids on the same data, ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -573,12 +809,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/khanh020905/my-office",
-    "title": "khanh020905/my-office",
+    "url": "https://github.com/Balanov/skein",
+    "title": "Balanov/skein",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2709,
-      "source_preview": "Văn phòng 3D cho các phiên Claude Code · A 3D office for your Claude Code sessions English · Tiếng Việt A 3D office where your Claude Code sessions come to work. Each session is a character at a desk: The office also looks after your Mac: RAM per session, forgotten dev servers, one-click cleanup. Try it before you install anything. The demo has made-up projects and needs no Claude Code: run npm ru",
+      "scraped_chars": 3000,
+      "source_preview": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection. Fail-closed orchestration for local agent swarms. Skein executes explicit task graphs with bounded concurrency and a persistent epoch fence . An emergency stop invalidates queued work and rejects late completions from the old epoch instead of merely labeling a task canceled. Independent open-source project by Par",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -600,12 +836,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/onurozcan/omux",
-    "title": "onurozcan/omux",
+    "url": "https://github.com/yc-software/minecraft-agent-harness",
+    "title": "yc-software/minecraft-agent-harness",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1949,
-      "source_preview": "Native macOS terminal for running many Claude Code and Codex sessions side by side. Projects, worktrees, live agent status, Allow/Deny from the sidebar, resumable conversations, pull request status and file previews. Built with SwiftUI. A 5 MB native Mac terminal for running fleets of coding agents. Written in Swift on SwiftTerm, no Electron, no web view, launches instantly. omux keeps many Claude",
+      "scraped_chars": 2283,
+      "source_preview": "Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and shell sandboxes. LLM agents that play Minecraft. Quickstart · Configuration · Tools · Teams · Bed Wars example Point an LLM at a Minecraft server and give it something to do. It plays through Mineflayer , so it walks, mines, crafts, builds, fights and chats like a\nregular player. pi handles the model session. We'",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -627,12 +863,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/JuneYaooo/caregiving-eye",
-    "title": "JuneYaooo/caregiving-eye",
+    "url": "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
+    "title": "duyunzhoudyz/dyz-med-paper-skills",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2873,
-      "source_preview": "米执事：让小米摄像头成为家中的 AI 执事。本地人宠识别、照护提醒、宠物禁区与云台控制，可联动外部机器人。 把小米云台摄像头变成家里的值班管家。 没人时看家，有人时照看，养宠时记录。 画面在本机分析，有事才叫你。 三种场景 · 怎样工作 · 调度 · 快速开始 · 回复指令 · 开源组件 · 代码架构 · 常见问题 米执事（ caregiving-eye ）是一套在家里电脑上运行的视觉照护工具。它接入小米云台摄像头，同时分析画面和声音，并根据家里有没有人切换值班重点：没人时防火防盗；有人时留意跌倒、突发不适和孩子的安全；养宠物时记录它一天去了哪里、活动了多久。 不刷固件，不改硬件。视频和声音只在局域网内传输、在本机分析；登录和连接摄像头时，仍需向米家云端换取流密钥。 无人值守 在家照护 · 夜间加强 宠物模式 所有模式都会把事件写进本地记录，重要事件附快照和前后约 25 秒的短视频。运行 ",
+      "scraped_chars": 3000,
+      "source_preview": "医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical writing & research skills. 简体中文 · English 32 medical writing and research skills for Claude Code and Codex. 面向中国医生与医学研究生，支持中文沟通、中英论文写作、PubMed 文献检索与审稿修回。 中文文档站 · English docs · 32 个技能索引 · 版本发布 ⭐ 点亮 Star，把这个科研帮手收进工具箱 临床、轮转、课题已经够忙了，写论文多一个得力帮手。 能帮你做什么 · 为你定制 · 任务与示例 安装使用 · 项目状态 · 许可与联系 DYZ MedPape",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "no",
+      "translated_to_english": true
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/weir36/novel-config-copilot",
+    "title": "weir36/novel-config-copilot",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1167,
+      "source_preview": "网文平台资源配置决策助手：GraphRAG 两阶段检索 + ReAct Agent + 规则引擎兜底，方案合法率 60%→100% 面向网文平台编辑的资源配置决策系统。把散落在政策文档里的配置知识结构化成知识图谱，\n用 GraphRAG 做检索、ReAct Agent 做多步推理、确定性规则引擎做兜底校验，\n回答「这个配置项怎么开」「给这本书配一套方案」「作者为什么没拿到全勤」。 项目里的政策、比例、金额、门槛、作品和作者全部是模拟数据，不代表任何真实平台。 想要真实的生成质量，复制 .env.example 为 .env 填上 LLM_API_KEY （任意\nOpenAI-compatible 网关：DeepSeek / 豆包方舟 / 通义千问 / 自建 vLLM 都行），然后： 想跑生产形态的组件： make up （Neo4j + Redis + Elasticsearch）+ ma",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "zh-cn",

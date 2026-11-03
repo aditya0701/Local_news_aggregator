@@ -1,0 +1,12 @@
+{
+  "title": "Astra can read and write weights to improve Qwen",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "summary": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.",
+  "image": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+  "published": "Mon, 02 Nov 2026 18:21:28 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "3c51f6aa7437",
+  "first_seen": "2026-11-03T09:46:44.543216+00:00"
+}
