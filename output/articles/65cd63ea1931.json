@@ -1,0 +1,10 @@
+{
+  "title": "gh9ko8y/graphmemory",
+  "url": "https://github.com/gh9ko8y/graphmemory",
+  "summary": "Bitemporal AI memory system: six-variable decay, time-graded recall, TTL expiry, dedupe, competitive retrieval (Neo4j + PostgreSQL + Redis)",
+  "image": "https://opengraph.githubassets.com/1/gh9ko8y/graphmemory",
+  "source": "github",
+  "language": "hindi",
+  "id": "65cd63ea1931",
+  "first_seen": "2026-11-04T09:32:28.384335+00:00"
+}

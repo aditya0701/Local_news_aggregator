@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-    "title": "Astra can read and write weights to improve Qwen",
+    "url": "https://sw.kovidgoyal.net/kitty/changelog/",
+    "title": "Kitty 0.50",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Rikiya Takehi * Jayden Teoh * Alex Zhang Omar Khattab MIT CSAIL MIT CSAIL MIT CSAIL MIT CSAIL November 2, 2026 We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability. Just by looking at the raw weights, GPT-6 Astra",
+      "source_preview": "kitty is a feature-rich, cross-platform, fast , GPU based terminal.\nTo update kitty , follow the instructions . kitty windows can now be docked to an edge of another window or\nof the tab. Docked windows are placed outside the layout, making them perfect\nfor status bars, file trees or a shell kept next to your editor. A dock\nattached to a window follows it around, moving with it to other tabs and c",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/NVIDIA/auto-ontology",
-    "title": "Nvidia – open-source auto-ontology",
+    "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+    "title": "C++26 Disapproved",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows. Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a",
+      "source_preview": "On October 23, 2026, the unthinkable happened. It was supposed to be a mere formality: C++26 was up for a vote by the ISO National Bodies (NBs). The options are always approval, rejection, or abstention. Comments are also allowed. Since 1998, this process had run quietly and smoothly. Not so on October 23, 2026. After a twelve-week voting period, the result is in: Disapproved ! I would like to men",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +54,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://erici.eu",
-    "title": "European RISC-V Industrial Computing Initiative",
+    "url": "https://www.interdb.jp/pg/index.html",
+    "title": "The Internals of PostgreSQL",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "European RISC-V Industrial Computing Initiative RVA23 silicon has arrived. The industrial computer built on it has not. ERICI coordinates a reference stack, from firmware to real-time and general-purpose operating systems: it fixes the interfaces between the layers and verifies that they boot together on real RVA23 hardware. A box that boots it is ERICI-compatible . Why now Today's industrial comp",
+      "source_preview": "After a temporary stay in Japan to focus on my health and personal responsibilities, I am fully recovered, ready, and excited to work abroad again. I am highly interested in returning to Europe, as well as opportunities in the Southern Hemisphere and Southeast Asia. Looking for: If your team is hiring, letâs connect! Please feel free to reach out via e-Mail(hironobu @ interdb.jp or interdb.mx @ ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +81,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://knlb.dev/essays/surrender",
-    "title": "Resisting Cognitive Surrender",
+    "url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
+    "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Working Notes: a commonplace notebook for recording & exploring ideas. Home . Site Map . Subscribe . More at expLog . — Kunal This particular note is around exploring cognitive surrender : uncritically accepting whatever agents output without actually thinking , exploring or considering alternatives. Working this way is extremely fast, not particularly taxing, and unsurprisingly seductive. And yet",
+      "source_preview": "Care and Treatment Learn about Dana-Farber’s expert cancer care and the innovative treatment options we offer for adults and children. Collaborating with BIDMC Dana-Farber's collaboration with Beth Israel Deaconess Medical Center (BIDMC) is an important step in shaping the future of cancer care. Learn what to expect during this transition. Find Clinical Trials Search clinical trials for adult and ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,12 +108,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+    "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+    "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "One month into the attempted rebrand of “AI,” the term is not catching on. But it’s sure to muddy our national conversation about AI anyway. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . At the end of September, President Trump signed an executive order that contained just one directive, ordering governmen",
+      "source_preview": "Plus: Today’s midterms will test AI’s influence on US politics. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. While game theory predicts how rational actors beh",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,12 +135,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-    "title": "Raising the quality of insights in agentic analytics",
+    "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+    "title": "Data centers are turning to old jet engines as the wait for power grows",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Sponsored The top reason analytics agents produce substandard insights is a lack of business context, prompting investment in semantic layers and governance, rather than bigger models. In partnership with Snowflake In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even ",
+      "source_preview": "Stuck in years-long lines for grid connections and new turbines, some AI data centers are making their own electricity with converted jet engines, the New York Times reported Tuesday. The engines, pulled from retired aircraft and rebuilt to burn natural gas, aren’t anyone’s idea of a permanent power plant. But they’re another sign of how far power supply has fallen behind the AI buildout. For comp",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -162,12 +162,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
-    "title": "Stop counting tokens, start counting what ships",
+    "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+    "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Sponsored Why rationing agentic coding backfires, and what to measure instead. Provided by HPE When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. W",
+      "source_preview": "Ballistic Ventures, the cybersecurity-focused venture capital firm co-founded by former Kleiner Perkins partner Ted Schlein (pictured above, second from the right), is seeking to raise $490 million across two new funds, TechCrunch has learned through regulatory filings. The San Francisco-based VC firm filed with the U.S. Securities and Exchange Commission this week to raise $360 million for its th",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,12 +189,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
-    "title": "The Download: the agentic web arrives and the drive for safer roads",
+    "url": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
+    "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: A $1 trillion tech selloff has deepened fears of an AI bubble. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by autonomous software agents that address our every need, without requiri",
+      "source_preview": "Crypto giant Binance says North Korean hackers used fake social media profiles and the lure of a potential job offer as part of a months-long scheme aimed at tricking an employee into downloading malicious software onto their laptop. Researchers have repeatedly warned about long-running social engineering attacks that can go on for months. This latest attack allowed the hackers to patiently worm t",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -216,12 +216,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-    "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+    "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
+    "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Apple’s AI-powered “Audio Intelligence” technology for the Apple Watch is now rolling out into beta testing, initially for developers in the iOS 27.3 update, after first being announced at the company’s Surprise and Shine hardware event in September. The technology includes a set of four opt-in AI features that allow Apple Watch Series 12 wearers to detect important sounds, identify songs, catch u",
+      "source_preview": "Just days after warning investors about declining search traffic and a weaker-than-expected revenue forecast, Reddit is looking for more ways to make money from its existing users. On Tuesday, the company announced that it’s beginning to test ad placements in its search results pages, allowing advertisers to reach users as they search for products, recommendations, and other information on its pla",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -243,12 +243,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-    "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+    "url": "https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/",
+    "title": "Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Apple’s services business remains at record levels, but it’s facing growing pressure . The central part of that business, Apple’s App Store, has faced regulatory pressure and a slump in mobile gaming, which have hurt services growth . However, on Monday’s earnings call, Apple signaled that it may look to boost services revenue through third-party apps. What does that mean, exactly? Unfortunately, ",
+      "source_preview": "In the lead-up to a presidential election that would irrefutably transform American culture, Hillary Clinton took the stage at a rally in Virginia as she campaigned to become the first female president. “We’re going to have a lot of jobs — jobs from building infrastructure to coding. Creating new apps,” she said. “I don’t know who created Pokémon GO, but I’m trying to figure out how we get them to",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -270,39 +270,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
-    "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1894,
-      "source_preview": "Posted: Ukrainian drone teams have a new way to spy on the drones that spy on them. A Kyiv equipment startup called CODE380 has been gaining attention for a pocket-sized receiver, the D·Vision SDR, that picks up live camera video from many Russian drones and shows it on a screen. Those drones send their video over the air without any scrambling, so anyone with the right receiver can watch along. A",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
-    "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
+    "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+    "title": "AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Hinge is testing a cheaper subscription plan as its parent company Match Group looks for new ways to get users to pay for dating apps at a time when people are increasingly tired of subscriptions and, in some cases, dating apps altogether. During its third-quarter 2026 earnings call on Monday, Match Group said the new Hinge tier will include features such as additional filters and custom location ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Posts from this topic will be added to your daily email digest and your homepage feed. See All News AMD thinks over 80 percent of its revenue will eventually come from its data center business alo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,39 +297,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
-    "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2945,
-      "source_preview": "Apple Chief Operating Officer Sabih Khan acknowledged the shipping delays plaguing the new iPhone Duo during the company’s fiscal fourth-quarter earnings call on Monday, but offered little clarity on when customers can expect relief. The delays were just one point of concern during an earnings call filled with questions about the rising costs of memory chips, driven by soaring demand from the AI i",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
-    "title": "Apple’s inventory surges 154% as memory chip costs climb",
+    "url": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news",
+    "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Apple’s stockpiling of inventory, particularly computer memory, continued in its fiscal fourth quarter, according to earnings reported Monday. The company reported that its inventory increased significantly in the quarter, growing from $11.09 billion in Q3 to $14.54 billion in Q4, a jump of 31.1%. Year-over-year, inventory grew 154.3% from $5.72 billion in the fourth quarter of 2025. Apple’s forec",
+      "source_preview": "Ahead of the release of Rockstar Games’ Grand Theft Auto VI , Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time . The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and some modern improvements like a jump button, a way to sprint, full voice acting, and a “Thr",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -378,12 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings",
-    "title": "Apple set an iPhone sales record even without a new standard iPhone",
+    "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+    "title": "The biggest modding site in PC gaming is taking a stance on AI",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple iPhone revenue jumped 17 percent with Pro-only models during this year’s refresh. iPhone revenue ju",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Nexus Mods says that authors of newly uploaded mods will have to declare whether AI was ‘used in the",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,39 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates",
-    "title": "Meta will end Quest 2 OS updates in 2027",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2418,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Meta The Quest 2 and Pro were discontinued in 2024, and next year, Meta will stop releasing OS updates fo",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
-    "title": "One of Google’s Android partners turned 1.3 million set-top boxes into a botnet",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+    "title": "Please stop asking me when the AI bubble will pop",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Google says a manufacturer ‘intentionally’ hijacked its devices with malware. Google says a man",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech I’m getting some real mixed messages here, boys! I’m getting some real mixed messages here, boys! ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -459,12 +378,93 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027",
-    "title": "BMW is taking on Tesla’s FSD with urban driver assist starting in 2027",
+    "url": "https://www.theverge.com/tech/1025971/canva-changes-layoffs",
+    "title": "Canva is announcing changes and layoffs affecting 22 percent of its staff",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2831,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Creators Some Canva workers may have different roles, be asked to relocate, or be laid off. Some Canva wo",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access",
+    "title": "Sonos adds new Presets and prepares for the 27voice AI beta",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2877,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apps Early access testing for the Sonos AI voice assistant is right around the corner. Early access testi",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions",
+    "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2482,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All PC Gaming Valve admits that it’s now taking ‘up to 12 business days’ to review games. Valve admits that",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
+    "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All Autonomous Cars Posts from this topic will be added to your daily email digest and your homepage feed. See All Cars BMW will bring navigation-guided city driving to select models via software upd",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple The watchOS 27.3 beta adds Live Rewind and Siri Recap to the Apple Watch Series 12 and Ultra 4. ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,12 +486,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale",
-    "title": "The Apple Watch Ultra 4 is $100 off, matching its best price to date",
+    "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+    "title": "Those Jeff Bezos hair transplant photos are very fake",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals We also found a good deal on Ugreen’s soccer ball-shaped Bluetooth tracker with seven ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News In the era of easy AI fakery, edited paparazzi photos are a reminder that not everything is what it se",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -513,139 +513,44 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-    "title": "Anthropic clamps down on Claude’s AI video game clones",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "title": "Accelerating engineering for the physical world",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 2883,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Anthropic is steering Claude away from re-creating specific titles, but users can still use",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/accelerating-engineering-for-the-physical-world"
+    }
   },
   {
-    "url": "https://www.theverge.com/news/1024649/xbox-chief-operating-officer-helen-chiang-depature-comments",
-    "title": "Xbox&#8217;s former COO has ‘serious concerns’ about her abrupt departure",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/cisco-cyber",
+    "title": "How Cisco defends at machine speed with OpenAI",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Helen Chiang is setting the record straight on her sudden exit from Microsoft. Helen Chiang is set",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/cisco-cyber"
+    }
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-    "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/heimstaden",
+    "title": "Heimstaden is changing residential real estate management with AI",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Science As public opinion has soured on data centers, it’s selling ‘AI campuses’ as protectors, instead of ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/heimstaden"
+    }
   },
   {
-    "url": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
-    "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "The Smithsonian’s National Air and Space Museum has all of its “space” back open. After seven years of work and nearly $1 billion, the Smithsonian has completed the renovation of the National Air and Space Museum’s flagship building in Washington, DC. On October 30, the museum debuted its last-to-open spaceflight exhibition , returning “home” with a gallery devoted to establishing a spacefaring ci",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
-    "title": "Why large dogs age faster than small ones, and other October research highlights",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more. It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. October’s list includes an epigenetic mechanism for why large dogs age fast",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
+    }
   },
   {
     "url": "https://openai.com/index/scaling-git-at-openai",
@@ -698,42 +603,12 @@
     }
   },
   {
-    "url": "https://openai.com/index/dan-driscoll-joins-openai",
-    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/dan-driscoll-joins-openai"
-    }
-  },
-  {
-    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-    "title": "Community safety report and new protections for teens",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/community-safety-report-and-new-protections-for-teens"
-    }
-  },
-  {
-    "url": "https://openai.com/index/fair-use-benefits-everyone",
-    "title": "Fair use benefits everyone",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/fair-use-benefits-everyone"
-    }
-  },
-  {
-    "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-    "title": "Speeding up planning decisions with AI",
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "title": "Agentic cheminformatics with Google Antigravity",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Owen Larter and David Thacker PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%. PlanAssist - an AI planning tool that handles the heavy lifting of routine applications so officers can focus their expertise where it matters most - is to be made available to an additional 12 local planning authorities across England. In early pilot test",
+      "source_preview": "Zoi Tsangalidou, Ruijie (Kelly) Zhang, Sukhdeep Singh and Michael V. LeVine Designing new medicines requires curating complex data from charts, figures and literature, training predictive models, and proposing candidate molecules to synthesize â a workflow that typically takes multiple days for a single iteration. Here we show how Google Antigravity , equipped with our new Cheminformatics Skills",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -755,12 +630,66 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/SAOS-3624/dsh-see-now",
-    "title": "SAOS-3624/dsh-see-now",
+    "url": "https://github.com/gh9ko8y/graphmemory",
+    "title": "gh9ko8y/graphmemory",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token AI 不再\"听你描述屏幕\"，而是自己看 —— 而且只传\"画面变了\"的那几帧。 一个给 DSH 用的实时视觉插件：把你的屏幕（或摄像头 / 视频文件）变成一串 按变化量筛选过 的画面，压进一张几帧拼成的图，交给模型。 静止的屏幕几乎不花钱；一镜到底的视频按\"运动量\"给帧；硬切幻灯片每切一次留一帧。 Apache License 2.0 —— 随便用。个人、公司内部、闭源产品、SaaS、二次分发都可以， 不需要问我要授权，也不收费 。只要保留 LICENSE 和 NOTICE 这两份文件。 如果你觉得它替你省了时间，欢迎扫码打赏 —— 纯自愿， 不影响上面任何一个字 ： 提交 PR 前读一下 CONTRIBUTING.md —— 现在 不需要签 CLA 了，\n按 Apache-2.0 的规矩来就行。 调试",
+      "scraped_chars": 1159,
+      "source_preview": "Bitemporal AI memory system: six-variable decay, time-graded recall, TTL expiry, dedupe, competitive retrieval (Neo4j + PostgreSQL + Redis) 双时态 AI 记忆系统 — 给 AI 代理一个会积累、会遗忘、会随时间变化的长期记忆库。 A bitemporal memory service for AI agents: facts with two time axes, a six-variable\nimportance/decay model, time-graded recall, TTL-based expiry, deduplication, and a\ncompetitive retrieval layer on top of Graphiti (",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/capri-com/Capri-AI",
+    "title": "capri-com/Capri-AI",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2266,
+      "source_preview": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more. 🌃 Capri — a cyberpunk AI agent for your desktop. One app for Claude Code, Codex, Antigravity & any AI assistant. Features · Quick Start · What You Can Ask · How It Works · Roadmap · FAQ Beware that Capri may try to take over your human CPU. We take no responsibility for her actions. Capri i",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/KKKKhazix/agent-autoloop",
+    "title": "KKKKhazix/agent-autoloop",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2772,
+      "source_preview": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 中文 | English 上手 · 场景模板 · 插件 · 内核 · 文档 平时我们用 Claude Code、Codex 这类命令行 Agent，大多是“人守着终端用”：你输一句话，盯着它跑，等它问你下一步；一旦关掉窗口或者人走开，事情就断了。 Agent Autoloop 是一个极轻量的自动化中台。它把任务调度做成一个零外部依赖的 内核 ，把事件来源、Agent、通知通道，甚至代码上线流水线全部拆成可随时插拔的 插件 。 支持 macOS 和 Linux。运行前需要装好 Node 24、Git、curl，以及任意一个你已经登录好的命令行 Agent，不需要 GitHub 账号。也可以直",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "zh-cn",
@@ -782,39 +711,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
-    "title": "Interactive-Active-AI/NextTransformer",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2775,
-      "source_preview": "🌅 A comprehensive, cutting-edge open-source framework for next-generation Transformers, with compute-matched benchmarking and a platform for autonomous architecture research. English · 简体中文 When the training budget is fixed, how should a language model spend its computation? NextTransformer trains\nrecurrent depth, sparse and linear attention, residual-stream variants and hybrids on the same data, ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Balanov/skein",
-    "title": "Balanov/skein",
+    "url": "https://github.com/ElysiumForge-Labs/elysium-chain-mcp",
+    "title": "ElysiumForge-Labs/elysium-chain-mcp",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection. Fail-closed orchestration for local agent swarms. Skein executes explicit task graphs with bounded concurrency and a persistent epoch fence . An emergency stop invalidates queued work and rejects late completions from the old epoch instead of merely labeling a task canceled. Independent open-source project by Par",
+      "source_preview": "MCP server for AI agents to read and interact with Elysium, Kinetiq’s Arbitrum Orbit L2 on Hyperliquid MCP server so AI agents can read and interact with the Elysium chain (Kinetiq's Arbitrum Orbit L2 for Hyperliquid). Part of ElysiumForge Labs . An agent can read blocks, balances, contracts, and logs over JSON-RPC, and can query the block explorer when that API is configured. Sending transactions",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -836,43 +738,16 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/yc-software/minecraft-agent-harness",
-    "title": "yc-software/minecraft-agent-harness",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2283,
-      "source_preview": "Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and shell sandboxes. LLM agents that play Minecraft. Quickstart · Configuration · Tools · Teams · Bed Wars example Point an LLM at a Minecraft server and give it something to do. It plays through Mineflayer , so it walks, mines, crafts, builds, fights and chats like a\nregular player. pi handles the model session. We'",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
-    "title": "duyunzhoudyz/dyz-med-paper-skills",
+    "url": "https://github.com/Juneo-Lab/decision-forge",
+    "title": "Juneo-Lab/decision-forge",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical writing & research skills. 简体中文 · English 32 medical writing and research skills for Claude Code and Codex. 面向中国医生与医学研究生，支持中文沟通、中英论文写作、PubMed 文献检索与审稿修回。 中文文档站 · English docs · 32 个技能索引 · 版本发布 ⭐ 点亮 Star，把这个科研帮手收进工具箱 临床、轮转、课题已经够忙了，写论文多一个得力帮手。 能帮你做什么 · 为你定制 · 任务与示例 安装使用 · 项目状态 · 许可与联系 DYZ MedPape",
+      "source_preview": "Compile organizational policy into verifiable decision training data. Compile organizational policy into verifiable decision training data. Every organization's judgment, turned into the data that makes AI agents trustworthy. Why Decision Forge · See it in action · Quickstart · How it works · Documentation · Roadmap · Contributing · Changelog English · 简体中文 For three hundred years, every organizat",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "no",
-      "translated_to_english": true
+      "detected_language": "en",
+      "translated_to_english": false
     },
     "stage1": {},
     "cache": {
@@ -890,16 +765,43 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/weir36/novel-config-copilot",
-    "title": "weir36/novel-config-copilot",
+    "url": "https://github.com/AKMaasif/Meta-Ai-Global-Hackathon-Ran-Sentinel-",
+    "title": "AKMaasif/Meta-Ai-Global-Hackathon-Ran-Sentinel-",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1167,
-      "source_preview": "网文平台资源配置决策助手：GraphRAG 两阶段检索 + ReAct Agent + 规则引擎兜底，方案合法率 60%→100% 面向网文平台编辑的资源配置决策系统。把散落在政策文档里的配置知识结构化成知识图谱，\n用 GraphRAG 做检索、ReAct Agent 做多步推理、确定性规则引擎做兜底校验，\n回答「这个配置项怎么开」「给这本书配一套方案」「作者为什么没拿到全勤」。 项目里的政策、比例、金额、门槛、作品和作者全部是模拟数据，不代表任何真实平台。 想要真实的生成质量，复制 .env.example 为 .env 填上 LLM_API_KEY （任意\nOpenAI-compatible 网关：DeepSeek / 豆包方舟 / 通义千问 / 自建 vLLM 都行），然后： 想跑生产形态的组件： make up （Neo4j + Redis + Elasticsearch）+ ma",
+      "scraped_chars": 3000,
+      "source_preview": "RAN Sentinel: AI co-engineer for mobile networks An AI co-engineer for mobile networks, built on Meta's Muse models. An illustrative workflow animation, not a live connection or a recording. The prototype operates on a simulated network. Explore the project: Run it locally · Demo walkthrough · Verified investigation Watch the technical demo → See the application and its engineering workflow. The p",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "zh-cn",
-      "translated_to_english": true
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/rmr2024/finextract",
+    "title": "rmr2024/finextract",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1836,
+      "source_preview": "Benchmark and fix LLM hallucinations when extracting figures from SEC 10-K filings A benchmark and pipeline for extracting financial figures from SEC 10-K filings with LLMs, and for\nmeasuring exactly how the extraction fails. Key finding. When gpt-oss-120b gets a figure wrong, it usually quotes a real line from the filing\nand then miscopies the number : one digit changed, or the decimals dropped. ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
     },
     "stage1": {},
     "cache": {
