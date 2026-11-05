@@ -1,0 +1,10 @@
+{
+  "title": "wiva-hq/CodeRail",
+  "url": "https://github.com/wiva-hq/CodeRail",
+  "summary": "Self-hosted remote control for your coding agents: Claude Code and Codex chats, approvals, terminals, files, git and dev-server previews for every computer you own, from the browser or your phone. One Docker container on your own server.",
+  "image": "https://opengraph.githubassets.com/1/wiva-hq/CodeRail",
+  "source": "github",
+  "language": "hindi",
+  "id": "08b6feac7739",
+  "first_seen": "2026-11-05T09:41:51.133813+00:00"
+}
