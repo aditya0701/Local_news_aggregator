@@ -1,0 +1,12 @@
+{
+  "title": "Claude Code sends your email address to websites",
+  "url": "https://github.com/anthropics/claude-code/issues/107757",
+  "summary": "Bug Description I receive dozens of scam emails per day because claude code divulged my email to arbitrary 3rd parties in the User-Agent request header while conducting web searches without my perm...",
+  "image": "https://opengraph.githubassets.com/f0f88840ebbf509705b9123518b4a38e185e934b5ff6957d52b8e8580f4e475f/anthropics/claude-code/issues/107757",
+  "published": "Thu, 05 Nov 2026 22:17:15 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "3b58ffb304e7",
+  "first_seen": "2026-11-06T09:35:31.714871+00:00"
+}

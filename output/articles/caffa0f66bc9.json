@@ -1,0 +1,10 @@
+{
+  "title": "prabeakarve/microgpt",
+  "url": "https://github.com/prabeakarve/microgpt",
+  "summary": "A from-scratch, dependency-free GPT implementation in pure NumPy: byte-level tokenizer, multi-head self-attention, Adam trainer, and top-k sampler.",
+  "image": "https://opengraph.githubassets.com/1/prabeakarve/microgpt",
+  "source": "github",
+  "language": "hindi",
+  "id": "caffa0f66bc9",
+  "first_seen": "2026-11-06T09:35:31.714871+00:00"
+}
