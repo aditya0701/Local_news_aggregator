@@ -1,0 +1,12 @@
+{
+  "title": "Libghostty 1.0",
+  "url": "https://mitchellh.com/writing/libghostty-1-0",
+  "summary": "libghostty-vt 1.0 is here. libghostty is a portable, high-performance C library for terminal emulation, extracted directly from the core of Ghostty. The 1.0 release means both the library itself and the C ABI are now stable.",
+  "image": "",
+  "published": "Fri, 06 Nov 2026 23:30:52 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "68be897c8b54",
+  "first_seen": "2026-11-07T08:59:57.115572+00:00"
+}
