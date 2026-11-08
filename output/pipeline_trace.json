@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://mitchellh.com/writing/libghostty-1-0",
-    "title": "Libghostty 1.0",
+    "url": "https://clj.rs/",
+    "title": "Clj.rs – a Clojure dialect implemented in Rust",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "libghostty-vt 1.0 is here. libghostty is a\nportable, high-performance C library for terminal emulation, extracted\ndirectly from the core of Ghostty. The 1.0 release means both the library\nitself and the C ABI are now stable. A little over a year ago, I wrote that libghostty is coming . At the time,\nthe Zig module had just been merged, the C API didn't exist, and nobody\nbut Ghostty was a consumer. ",
+      "scraped_chars": 316,
+      "source_preview": "cljrs is an experimental Clojure dialect targeting the Rust ecosystem. It aims to be a capable Lisp runtime with persistent data structures, a hosted macro system, and native interop â compiled or interpreted, suitable for use as an agentic coding runtime. Available on crates.io . Early stage; expect rough edges.",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,554 +27,375 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "We tested whether fast, cheap decision models like Jev and GPT-6 Luna could grade identity resolution as well as frontier LLMs, and found that pairing Jev with Claude Opus gets close to Opus-level accuracy for much less. Nov 4, 2026 Share We wanted to test whether LLMs and decision models, specifically Jev and Luna, could solve a hard problem that we encounter regularly (grading identity resolutio",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
-    "title": "Asahi Linux Progress Linux 7.3",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Well here we are again. Linux 7.3 is out and it’s been an eventful few months, so\nlet’s get stuck in to another Asahi Linux progress report! As always, upstreaming work continues to progress. Aside from the usual patches for\nlow-level SoC blocks, two major drivers made it on to the list this cycle: macaudio\nand avd. Getting macaudio ready for submission has been a challenge. The audio subsystem\non",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.anthropic.com/research/components-of-agent-memory",
-    "title": "The Components of Agent Memory",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Published Nov 6, 2026 Team Engineering Topics Engineering Mar 24, 2026 Søren Kierkegaard wrote that life can only be understood backward , but it must be lived forward . We’ve encountered a similar bind when designing memory for AI agents. As humans, we encode memory constantly as we go about our lives. The hippocampus plays a central role in this, capturing experiences in the moment so that memor",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-    "title": "Tesla to wind down Cybertruck production",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Tesla will wind down Cybertruck production at its Texas gigafactory around mid-2027, CEO Elon Musk said on Friday, after years of persistently weak sales for a futuristic model once touted as a rival to legacy pickup trucks that ultimately only sold in just a handful of markets because of its heavy, angular design. Musk said in an X post the production wind-down would enable the automaker to accom",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-    "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Plus: Almost $2.5 trillion has been wiped off tech stocks. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed up for the waitlist. I wanted my apartment to feel like The Jetsons , even if just ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
-    "title": "Sequoia shutting down its Scouts program marks the end of an era",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Sequoia this week announced a broad overhaul in a memo posted to X, a move that includes closing its London office and shutting down its scout program. Observers warn that it would be a mistake to read too much into the London closure, since the British capital has a thriving AI scene. On the other hand, the decision to end scouts says more about where venture investing is headed. That’s partly be",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
-    "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Right before the midterm elections, OpenAI hired Jessica Schumer , daughter of Democratic Sen. Chuck Schumer. The company also said it would start calling its data centers “ compute campuses .” For the past two years, many of Silicon Valley’s biggest names have built closer ties with President Donald Trump and his administration. Several attended White House events, some companies scaled back dive",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2153,
-      "source_preview": "Posted: OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn’t closed yet, according to the outlet. The round is expected to close in the coming weeks and could total about $20 billion, a so",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool publicly exposed to the internet for anyone to access, potentially allowing outsiders to launch cyberattacks against unsuspecting targets. The hacking software, called Artex, is an open source autonomous penetration testing tool, meaning software that automatically probes computer systems for weaknesses, and ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-    "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Meta recently launched its Muse agents — a new generation of cuddly agentic helpers. Now, the company has launched Spaces, a new way to communicate and collaborate with them. As far as I can tell, Spaces are basically breakout conversations that revolve around a particular topic — although Meta refers to them as “custom experiences.” They live in the sidebar of the interface where you interact wit",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
-    "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1817,
-      "source_preview": "Posted: Batteries are everywhere, even on the battlefield, which helps explain the Pentagon’s recent interest in building more domestic manufacturing capacity. The 12-year-old, North Andover, Massachusetts-based startup 6K announced Thursday that it won conditional approval for a $250 million loan from the Department of Defense to build a factory in Tennessee. The plant will use a unique microwave",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
-    "title": "Fox completes its $22B acquisition of Roku",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2114,
-      "source_preview": "Posted: Fox has completed its $22 billion acquisition of Roku, wrapping up one of the biggest media deals in recent years and giving the company a major boost in the streaming and connected TV space. Announced Friday, the deal brings the streaming company founded in 2002 formally under Fox’s ownership. Fox says the combined company now ranks as the third-largest television business in the U.S. by ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
-    "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "SpaceX has declared that it’s going to make Starlink Mobile a “major” mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next big challenge is building out its 5G network here on Earth. As part of its plans to rival AT&T, Verizon, and T-Mobile, SpaceX has inked a deal with Qualcomm , which will deploy its cellular technology across tens",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
-    "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2738,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping The 4K Criterion Collection set is available to grab for $25. The 4K Criterion",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-    "title": "All the latest updates on AI data centers",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead of the 2026 midterms , and voters largely opposed data c",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
-    "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2892,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals This Verge-favorite microphone for podcasting is discounted, along with other audio pr",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
-    "title": "Lame-duck Congress might actually do something: speed up energy projects",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Climate The Senate will vote to push through a giant — and controversial — permitting reform bill. P",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1028854/amazon-melania-the-series-mgm-studios-prime-video",
-    "title": "Amazon is now making a Melania Trump TV series",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2526,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Melania Trump is the focus of a new two-part Prime Video show debuting later this month. Me",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
-    "title": "Just about anyone can rent access to White House IP addresses",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Security researchers discovered residential proxy activity on the White House’s network. Security ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://arstechnica.com/culture/2026/11/the-folks-behind-john-wick-are-back-with-karoshi-trailer/",
-    "title": "The folks behind John Wick are back with Karōshi trailer",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2251,
-      "source_preview": "Stuntman/director Chad Stahelski and 87Eleven bring us an action-packed dystopian, futuristic thriller. Those of us missing the John Wick universe can take heart, because Chad Stahelski—who created that franchise—is coming back early next year with a new dystopian action film. It’s called Karōshi (a Japanese term that means “death overwork”), and Lionsgate released a killer trailer that puts this ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-    "title": "Measuring how AI agents handle everyday wet-lab science",
+    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      "scrape_error": "403 Client Error: Forbidden for url: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
     }
+  },
+  {
+    "url": "https://nfsu2.xyz/",
+    "title": "Need for Speed Underground 2 online in the browser",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://nfsu2.xyz/"
+    }
+  },
+  {
+    "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+    "title": "GitHub New pull request overview page in public preview",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2345,
+      "source_preview": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still need to work out what to do next. As people need to review more and more pull requests, time spent scrolling adds up. So we’ve begun to rethink the entire experience, beginning with addressing a familiar challenge: finding ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+    "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1812,
+      "source_preview": "Posted: A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports. The New York Times, which had previously said Nvidia’s chief executive had been the target of Chinese intelligence, was the first to report on the memo , which was reportedly based on U.",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
+    "title": "Parents want safer phones for kids. These companies are answering the call.",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "As parents become increasingly concerned about the potential dangers of unrestricted smartphone access for children, a growing number of companies are developing devices specifically designed for kids. Today’s kid-friendly phones typically feature touchscreens, cameras, and communication capabilities similar to regular smartphones. However, the software on these devices is heavily modified to remo",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+    "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1493,
+      "source_preview": "Posted: Binance’s chief financial officer Kaiser Ng is leaving the cryptocurrency exchange. According to Bloomberg , co-CEO Yi He said in a statement that Ng’s departure will allow him to “pursue a new venture after more than five years at Binance,” and that a transition plan has been “implemented over the last half year.” The announcement comes barely more than a week after hackers stole $6.3 bil",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/",
+    "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "In October, Amazon announced its refreshed Kindle lineup, its first significant design overhaul in years. The highlights included a new edge-to-edge design that eliminated traditional raised bezels, thinner and lighter Paperwhite and Colorsoft models with better displays, and page-turning accessories like a Bluetooth remote and a magnetic cover with page-turn buttons. However, given the impact of ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
+    "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Science What started as a test to understand how sun exposure was aging my skin took a turn that I was",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale",
+    "title": "Costco members can get $5 off the reimagined Ocarina of Time",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2481,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Nintendo has lovingly updated the legendary ’98 title with new visuals, modern mechan",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
+    "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Interview The founder of Discogs talks coffee, Rez, and (of course) records. Posts from this author wil",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+    "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Reviews I tested the new AI-powered tool on ingredient swaps, recipe scaling, and a missing Bundt pan. Post",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+    "title": "AI broke the cybersecurity world. What’s next?",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Podcasts Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Going inside the security ‘dark ages’ with Alex Stamos. Posts from this author will be added to yo",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1029460/elon-musk-cybertruck-death-election-backlash",
+    "title": "Good riddance, Cybertruck!",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech We’ll always have our comically oversized windshield wiper. We’ll always have our comica",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1028930/zelda-ocarina-godzilla-minus-zero-affinity-installer",
+    "title": "Zelda is back and better than ever",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Plus, in this week’s Installer: Godzilla is back too, a couple of new phone accessories, and th",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+    "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Anthropic AI is dramatically speeding up Anthropic’s research, even as the company calls for slowing down AI development. AI is dramatically speeding up Anthropic’s research, even as the company calls for sl",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
     "url": "https://openai.com/index/australian-universities-ai-native-graduates",
@@ -617,68 +438,74 @@
     }
   },
   {
-    "url": "https://github.com/hussein1labtop-jpg/ai-manus",
-    "title": "hussein1labtop-jpg/ai-manus",
-    "outcome": "stage2_failed",
+    "url": "https://github.com/Zenithopal/LooseEnds-resp",
+    "title": "Zenithopal/LooseEnds-resp",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 2820,
-      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)"
+    }
   },
   {
-    "url": "https://github.com/voyager-so/vork",
-    "title": "voyager-so/vork",
-    "outcome": "stage2_failed",
+    "url": "https://github.com/bytedance/axion1_0",
+    "title": "bytedance/axion1_0",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Headless 3D and VFX engine for agents. Research preview. vork, the Voyager rendering kernel, is a headless 3D and VFX engine built for agents. Watch the film : a car drives into the night as the forest\nturns into glowing cyan wireframe, drawn from real triangle edges by a scene shader. Credit: “Car Concept” by Unity Fan, glTF adaptation by Eric Chadwick / Darmstadt Graphics Group, CC BY 4.0 . Chan",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)"
+    }
   },
   {
-    "url": "https://github.com/adn-dan/taxonero",
-    "title": "adn-dan/taxonero",
+    "url": "https://github.com/quyetcao/ai-manus",
+    "title": "quyetcao/ai-manus",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)"
+    }
+  },
+  {
+    "url": "https://github.com/shanselman/sandbox-mcp",
+    "title": "shanselman/sandbox-mcp",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)"
+    }
+  },
+  {
+    "url": "https://github.com/dhruvthakur11/youtube-ai-video-editing-system",
+    "title": "dhruvthakur11/youtube-ai-video-editing-system",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)"
+    }
+  },
+  {
+    "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+    "title": "dabingfy-dot/solo-to-team-skills",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)"
+    }
+  },
+  {
+    "url": "https://github.com/Turboheartblaze/resp-fortuna-vision-public-preview",
+    "title": "Turboheartblaze/resp-fortuna-vision-public-preview",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Self-hosted AI species identification for your photos: Immich, local folders or photo apps. Never modifies your pictures. English · Français Self-hosted AI species identification for your photos (birds, mammals, reptiles, amphibians, insects, spiders,\nfish, plants, fungi and lichens): an Immich library, a local folder or a photo application\n(darktable, Lightroom Classic, RawTherapee, RapidRAW). Yo",
-      "scrape_error": null,
-      "used_summary_fallback": false,
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "used_summary_fallback": true,
       "detected_language": "en",
       "translated_to_english": false
     },
