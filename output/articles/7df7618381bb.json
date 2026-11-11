@@ -1,0 +1,10 @@
+{
+  "title": "onlyreadai/onlyread",
+  "url": "https://github.com/onlyreadai/onlyread",
+  "summary": "Make AI browser agents read-only: a Chrome extension that refuses writes (send, post, edit, delete) before they leave the browser.",
+  "image": "https://opengraph.githubassets.com/1/onlyreadai/onlyread",
+  "source": "github",
+  "language": "hindi",
+  "id": "7df7618381bb",
+  "first_seen": "2026-11-11T09:39:23.107586+00:00"
+}
