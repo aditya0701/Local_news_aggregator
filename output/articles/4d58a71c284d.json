@@ -1,0 +1,10 @@
+{
+  "title": "agentes-chat/agentes-chat",
+  "url": "https://github.com/agentes-chat/agentes-chat",
+  "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+  "image": "https://opengraph.githubassets.com/1/agentes-chat/agentes-chat",
+  "source": "github",
+  "language": "hindi",
+  "id": "4d58a71c284d",
+  "first_seen": "2026-11-12T10:00:37.979046+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Critical RCE Vulnerability in Apache HTTP Server",
+  "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+  "summary": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
+  "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
+  "published": "Thu, 12 Nov 2026 02:11:11 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "5b070766ec4d",
+  "first_seen": "2026-11-12T10:00:37.979046+00:00"
+}

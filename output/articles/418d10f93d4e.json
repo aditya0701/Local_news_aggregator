@@ -1,0 +1,10 @@
+{
+  "title": "huawei-csl/MACaQ",
+  "url": "https://github.com/huawei-csl/MACaQ",
+  "summary": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch.",
+  "image": "https://opengraph.githubassets.com/1/huawei-csl/MACaQ",
+  "source": "github",
+  "language": "hindi",
+  "id": "418d10f93d4e",
+  "first_seen": "2026-11-12T10:00:37.979046+00:00"
+}

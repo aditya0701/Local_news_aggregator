@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
-    "title": "Protecting SSH Keys with macOS Secure Enclave",
+    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+    "title": "Tim Peters has died",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "How to keep SSH keys in the macOS Secure Enclave, with Touch ID on every use and no third-party apps. I’ve been paranoid about my SSH keys for a while now. They just sit there in ~/.ssh/ , protected by nothing but file permissions. Any malicious script that gets access to my filesystem could just copy them and get into all my servers.\nAlso, there have been many stories out there online about fake ",
+      "source_preview": "I am immensely sad to announce that Tim Peters has died earlier this year on July 15. It’s hard to overestimate Tim’s influence on Python. He’s probably best known for writing the Zen of Python ( PEP 20 ), but to me he was a mentor and language co-designer long before that. Tim found Python not long after its initial release. His first deed was to convince me that Python should support mixed arith",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://osssaysno.com",
-    "title": "OSS projects banning AI-generated contributions",
+    "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+    "title": "Critical RCE Vulnerability in Apache HTTP Server",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2388,
-      "source_preview": "Last refreshed 2026-11-11 Paste a GitHub repository link. It opens a prefilled issue, and an automated policy check runs on it. Format: https://github.com/owner/repo 22 projects immich-app/immich High performance self-hosted photo and video management solution. Policy meilisearch/meilisearch A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. Policy",
+      "scraped_chars": 2970,
+      "source_preview": "A critical synchronization vulnerability (CVE-2026-119618) has been identified in Apache HTTP Server’s HTTP/2 module (mod_http2). The flaw stems from a concurrent execution race condition within the assign_headers() function when handling shared resources. If successfully exploited, a remote, unauthenticated attacker can corrupt heap memory to achieve arbitrary code execution (RCE). As of the time",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,607 +54,509 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-    "title": "Smart home devices should work without the internet",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Oct 2026 · 4112 words · 21 min read · Spencer Kittleson AI;DR: I wrote the first draft, AI helped me edit and rewrite it, and I made the final pass. The rules, setups, and talks are my own. TLDR; Nothing core in my house depends on a vendor’s server. If the internet goes down, the house keeps running. That’s been rule one for about ten years, and my other rules came out of it. This post has the ru",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
-    "title": "Scion is back and is going to sell a kei truck in America",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "When Toyota first introduced the Scion marque in 2003, it had one primary goal – sell cars to the younger generation. Its cars were cheaper and available in fun colors with fun names like “High Voltage Yellow” and “xPRESSO.” When I was a kid in the early 2000s, I often dreamed of one day owning a tC in Black Cherry Pearl and enjoyed lovingly calling xBs “toaster cars.” Over half of new Scions sold",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
-    "title": "A great old-timey game-programming hack (2013)",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "A long time ago, when I was a college undergrad, I spent some time working on computer video games.\nThis was in the 8-bit PC era, when the gaming hardware was almost impossibly slow by today’s standards. It might not surprise you, then, to learn that game programmers of yore did all sorts of crazy things to make their games run at playable speeds.\nCrazy, crazy things. This is a story about one of ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-    "title": "Apple has new Mac app coming to make running local AI models easy",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1999,
-      "source_preview": "Leaker Aaron Perris has discovered evidence of a new Mac app in the works at Apple called Harbor, which makes it easy to run local AI models across one or more Macs. The Mac has been getting a lot more popular this year, both because of budget-friendly options like MacBook Neo but also as a tool for running AI models locally on Mac Studio, Mac mini, and more. It seems Apple plans to lean harder in",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
-    "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Plus: The FBI is investigating Nvidia CEO Jensen Huang’s affair. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for Nancy Pelosi’s open San",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/",
-    "title": "Evolving metal extraction processes",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Sponsored Rethinking how metals are extracted could unlock lower-emission production, make better use of mineral resources, and strengthen critical-material supply chains. Provided by Outokumpu The metals industry has experienced transformational moments before: the Bessemer process, flash smelting, electric arc furnaces, and modern continuous casting all changed what was possible. Yet, for more t",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
-    "title": "X launches its own clipping feature to spur influencer engagement",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2965,
-      "source_preview": "Over the past few years, X has released a number of features to make itself a friendlier hub for influencers. The latest effort to attract social media talent? Its own clipping tool. Clipping is the pivotal social media technique by which longer videos are spliced into TikTok-attention-span length “clips” and then strategically posted to engage as many eyeballs (and thus derive as much ad revenue)",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-    "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "OpenAI has acquired an AI travel agent called Odessia, according to Odessia’s founder, Francis Davidson. Davidson says in a post announcing the deal that he’s now working for OpenAI, helping the AI lab with the future of travel. Terms of the deal were not disclosed, but this looks like an acqui-hire. Davidson’s announcement focused largely on how he built his AI travel agent Odessia by directing t",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
-    "title": "X-energy gets green light to build its first small modular nuclear reactors",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Nuclear startup X-energy announced Monday that it had been given the go-ahead from federal officials to build its first four commercial reactors. The Nuclear Regulatory Commission (NRC) approved the construction permit application for four of X-energy’s Xe-100 reactors at a Dow chemical plant in Texas. Each reactor will be capable of generating 80 megawatts of electricity and 200 megawatts of heat",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-    "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "As Anthropic barrels toward an enormous IPO that could value it at $1.4 trillion, the company has disclosed a tidbit in its new S-1 filing about how many shares each of its seven co-founders plan to sell. Each will sell 3,378,378 shares. Anthropic has floated an unusually broad initial price range of $70 to $78 a share. At the midrange of $74, each founder would take in just shy of $250 million. A",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-    "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Oura announced on Tuesday that it’s acquiring AI-native primary care company Counsel Health for $625 million. The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.” Counsel Health is an AI-powered healthcare platform that combines a chat-based medical experience with access to licensed physicians. Its service was integrated ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-    "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "David Turturean, a recent MIT graduate and a member of the technical staff at the startup lab Physical Superintelligence (PSI) , used early access to Anthropic’s Fable 5.2 model to solve an 18-year-old problem about quantum computing. “I’m totally accepting the idea that this might be the last paper I ever put out,” Turturean, who deferred plans to pursue a master’s at MIT’s prestigious computer s",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-    "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "In an effort to make ChatGPT an even better consumer discovery engine, OpenAI is launching a host of new features designed to help companies control how users interact with their businesses. On Tuesday, the company rolled out a Business Hub that will serve as a place where companies can create business profiles that — in a feature that greatly resembles the kind of profiles that Google and other s",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
-    "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2482,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Microsoft With the official launch of Auto SR, your Xbox Ally X can use Microsoft’s upscaling technolog",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
-    "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2469,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Meta With the updated Disney Plus Quest app, you’ll be able to stream more than 60 3D movies and watch fi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
-    "title": "Sony cancels live-service shooter Fairgames",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2626,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Fairgames is PlayStation’s latest cancellation as it steps back from many of its live ser",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
-    "title": "The PlayStation Plus PC app is shutting down next month",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2570,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Sony said less than 0.4 percent of PlayStation Plus Premium members were using the PC app",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery",
-    "title": "Starlink Mini 2 adds a swappable battery",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2762,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The all-in-one satellite dish can now operate for over four hours without an external power sourc",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
-    "title": "The US is winning the AI race. Jensen Huang could have blown it",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Nvidia Nvidia’s chips are powering America’s AI boom. Of course Chinese spies are interested. Nvidia’s chip",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding",
-    "title": "Google’s Pixel Tag tracker is now available",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The Pixel Tag launches today for $30 each or discounted to $100 for a four-pack. The Pixel Tag la",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1030970/bambu-p2s-combo-3d-printer-deal-sale",
-    "title": "One of our favorite multi-filament 3D printers is $100 off",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals Bambu’s P2S prints quickly and consistently, and automatically swaps between up to fou",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-    "title": "What happens to mathematics when AI becomes an oracle?",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World . Our modern world runs on math, from social media algorithms, package delivery, and weather prediction to medical imaging and machine learning. The rise of computers helped fuel its dominance, enabling us to work with increasingly large numbers that would otherwise be beyond the capacity of our fin",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-    "title": "Helping caregivers use AI in everyday life",
+    "url": "https://blog.benjamin.ie/legocam",
+    "title": "Legocam: My Lego webcam from 2000, working on a modern Mac",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+      "scrape_error": "403 Client Error: Forbidden for url: https://blog.benjamin.ie/legocam"
+    }
+  },
+  {
+    "url": "https://github.com/aws/aws-emulator",
+    "title": "AWS emulator",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "AWS Emulator is a local emulator of the AWS APIs. AWS Emulator is a local emulator of the AWS APIs. You use it to test your software without calling AWS, on your own machine, on a development server, or in continuous integration (CI). You don’t need an AWS account. Your requests go to the emulator, not to AWS. So you work with emulated resources instead of AWS resources. AWS Emulator has no additi",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://jatorre.github.io/garden/",
+    "title": "I gave an agent a lakehouse and control of my garden",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A garden story Or how to produce a €60 lettuce. Javier de la Torre · 5 November 2026 Part I The garden I guess this is what a mid-life crisis looks like. I started gardening. Nothing serious. I have a small garden at home, and I carved out about two square metres on one side to grow some vegetables. I love seeing things grow and, if I can eat them afterwards, even better. I also thought it would b",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "AI disclosure: this story was written entirely by human hands, with AI doing proof-reading and light edits. Some tasteful imperfections kept to heighten Wabi-Sabi effect. Everyoneâs heard of how awesome Jane Street is. Fewer people have heard about the times something stupid nearly put it out of business and it was saved by grit and dumb luck. I was on the systems team for some of those. Jane St",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+    "title": "What to know about this year’s UN climate talks",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Climate finance and fossil fuels top the formal agenda at COP31. It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of the biggest stages of the climate world. Turkey and Australia are cohostin",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+    "title": "The Download: preserving minds and weighing open AI risks",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus: COP31’s flagship pledge to electrify 35% of energy use is sinking. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still be you. To preserve that elusive continuity of self, some ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s personal life and potentially impact national security. United States officials believe that Huang’s likel",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+    "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1695,
+      "source_preview": "Posted: Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years, the Wall Street Journal reports . Sources told the newspaper that the Nvidia board is meeting as soon as Wednesday to determine Huang’s future at the company. On Sunday, Huang admitted to having an extramarital affair with a woman purported by U.S. intelligence to be a ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+    "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it’s especially daunting right now. According to PitchBook data, firms raising their fourth fund “or later” captured a whopping 88.2% of U.S. VC fundraising dollars through the first three quarters of this year, while first-time funds captured a measly 4.5% . Just 81 first-time funds closed",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "CoreWeave is rewriting how it pays for the AI boom, according to the company’s third-quarter earnings , reported on Tuesday. CoreWeave, a neocloud that rents out the computing power behind AI, said it’s increasingly asking customers to pay up front, borrowing against specific contracts, and even pursuing short-term deals that could lead to higher prices. The new strategies could help CoreWeave fin",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+    "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Reviews Posts from this topic will be added to your daily email digest and your homepage feed. See All Smart Home The Home Assistant Connect Aux-2 helped me track my fridge temperature and finally set up m",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+    "title": "United won’t let your AI agent book your flight",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech AI agents can’t attest that you don’t have explosives in your bags.﻿ AI agents can’t attest that you d",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+    "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech The proposed Digital Fairness Act seeks to bolster consumer protections for online users.﻿ The pro",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+    "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Cars Toyota is reviving the Scion badge as an experimental mobility incubator—starting with an ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+    "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2661,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Tabletop provides customizable, collaborative spaces for all your personal planning needs.﻿ Tabletop p",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+    "title": "The best early Black Friday deals you can already shop",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday Black Friday is still several weeks away, but you can already save on 3D printe",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale",
+    "title": "Sharge’s eye-catching MacBook charger is over 25 percent off",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2370,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals We also found discounts on a buildable Warthog from Halo , a Mac Mini competitor from ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+    "title": "Ocarina of Time is even better if you use a smartphone app",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Finding Ocarina of Time’s hidden collectibles is a lot easier with the help of Zelda Note",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+    "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech DeepMind’s new DNA model better predicts how mutations affect different cells, potentially opening ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/jiostar-vijay-seshadri"
     }
   },
   {
@@ -678,12 +580,39 @@
     }
   },
   {
-    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-    "title": "Gemini 4 Carbon is now available",
+    "url": "https://github.com/agentes-chat/agentes-chat",
+    "title": "agentes-chat/agentes-chat",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2835,
+      "source_preview": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0. The open-source, self-hosted Slack alternative where your team and AI agents work together. W",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/huawei-csl/MACaQ",
+    "title": "huawei-csl/MACaQ",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nov 10, 2026 Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element. Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Carbon is our strongest model with frontier performance in cybersecurity capa",
+      "source_preview": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch. High-quality GGUF for local inference. Model-agnostic quantization beyond text. Quantize and run text, image, video and audio models with llama.cpp, vLLM,\nDiffusers and PyTorch. MACaQ can quantize a 122B-parameter model in 64 minut",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -705,12 +634,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "url": "https://github.com/Veloresearch/kinetic",
+    "title": "Veloresearch/kinetic",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Pushmeet Kohli and Swarat Chaudhuri How Google DeepMind researchers built a new agentic framework that formally verified the code of Signalâs cryptographic protocol â long considered to be a grand security challenge Today, weâre sharing a milestone in software security long considered to be a grand challenge: Google DeepMind researchers guided AI agents to mathematically prove key security p",
+      "source_preview": "The open engine for running AI on your own computer. Fast, exact, open source. Written in Rust. It reads GGUF files, the format llama.cpp uses, and runs the models it\nsupports on the CPU and on NVIDIA, AMD and Intel GPUs, from one binary. Fast, and no\nspeed-up ever changes the answer. Documentation Technical report Releases veloresearch.com 1. Install Kinetic. On Windows, in PowerShell (no adminis",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -732,12 +661,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "url": "https://github.com/shany9200/Three",
+    "title": "shany9200/Three",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Carolina Parada Weâre enabling robots to learn faster for the real world - from everyday skills to the factory floor Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date. Gemini Robotics 2.5 increases both the breadth of skills a robot can learn and the speed at which it can acquire them. This enhances dexterity, reliability, and safety to he",
+      "source_preview": "A self-extending AI agent that runs anywhere Termux runs. Writes its own capabilities, remembers across sessions. A self-extending AI agent that runs anywhere Termux runs — phones, tablets,\nTV boxes, old laptops. It writes new capabilities for itself, remembers across\nsessions, and can operate a phone through ADB. A malleable low-level agent with the potential to grow in every direction. Goal: to ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -759,12 +688,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/kilolonion/agent-vscreen",
-    "title": "kilolonion/agent-vscreen",
+    "url": "https://github.com/mintlify/agent-traffic",
+    "title": "mintlify/agent-traffic",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "A background virtual screen for any Android AI agent: it operates apps on an invisible display while you keep using your phone. CLI / MCP / HTTP, Shizuku, no root. 给任何手机 agent 用的后台副屏。 A background second screen for any phone agent. 中文 · English Agent-VScreen opens and drives other apps on an invisible virtual display, so your own screen stays yours. All you see is a small floating window showing w",
+      "source_preview": "Tell agents, AI crawlers, search crawlers and bots apart from people Tell agents, AI crawlers, search crawlers and bots apart from people. Mintlify hosts documentation for thousands of companies, and those sites serve hundreds of millions of requests a month. For years almost all of that came from developers reading docs in a browser. Now a growing share comes from agents: Claude Code pulling a pa",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -786,12 +715,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/onlyreadai/onlyread",
-    "title": "onlyreadai/onlyread",
+    "url": "https://github.com/weixijia/mas-office",
+    "title": "weixijia/mas-office",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Make AI browser agents read-only: a Chrome extension that refuses writes (send, post, edit, delete) before they leave the browser. The read-only mode for AI agents in the browser. Hand any agent that drives your\nbrowser your real inbox, calendar and work tools: reads pass, and every send, post, like, edit, delete or\nsettings change is refused before it leaves the browser. Website · Quick start · H",
+      "source_preview": "See your multi-agent system work: a framework-agnostic protocol and live, animated office for AI agent teams. Website · Quick start · Design a team · Run a team · Checking · Other frameworks · CLI · Limits · Roadmap · 中文 Every role in the team is a real Claude Code or Codex session on your computer, signed in by you. You design the roles and lock the design; plain code schedules the work and enfor",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -813,97 +742,97 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/inclusionAI/ASpec",
-    "title": "inclusionAI/ASpec",
+    "url": "https://github.com/op7418/guizang-game-skill",
+    "title": "op7418/guizang-game-skill",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1120,
+      "source_preview": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included. 让 AI 从零做出一个能在浏览器里玩的 3D 动作游戏 English · 简体中文 上面这段是演示游戏《雾锁山门》里的实机画面。 点这里直接玩 ，电脑和手机都能打开，不用安装。 一个给 AI 编程助手（Claude Code、Codex 等）用的 Skill。装上之后，对它说\"做一个武侠题材的俯视角 3D 动作游戏\"，它会按一套走通过的流程去做：先问清楚你要什么，接上你手头的素材",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/hexsyro/ride-demand-forecaster",
+    "title": "hexsyro/ride-demand-forecaster",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1013,
+      "source_preview": "Bike-share demand forecasting: RMSE compared across raw, encoded, scaled and engineered features. Can careful feature engineering alone turn a weak model into a strong one? This project uses a bike-share demand dataset (timestamp, weather conditions, temperature, humidity, wind speed, holiday and weekend flags, season, ride count) to predict hourly ride volume. The point isn't the model, it's the ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/8hjkkwikl8/ai-portfolio",
+    "title": "8hjkkwikl8/ai-portfolio",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1549,
+      "source_preview": "三个可运行的 AI 工程项目：可追溯 RAG、提示词评测与受守护的 NL2SQL 分析 中文 | English 面向 AI 应用工程师求职的作品集： 1 个检索增强生成旗舰项目 + 2 个轻量工程切面项目 。每个项目都有完整源码、确定性演示数据、自动化测试和可查看产物；默认不需要 API Key，也不把规则模拟包装成“智能”。 不是截图或概念稿。仓库里的指标都能用下面的命令复现，限制也会在文档和界面里明确写出来。 要求 Python 3.13。三个离线演示只使用标准库；Web UI 与 API 需要 FastAPI、uvicorn 和 httpx。 也可以单独运行任一项目： start_all.py 只监听 127.0.0.1 ，启动前检查端口与依赖，退出时只清理自己拉起的进程。 verify_all.py 会重新生成评测 JSON、PromptLens 对比报告和 DataChat 图",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "zh-cn",
+      "translated_to_english": true
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/anhnx000/viet-nhu-nguoi",
+    "title": "anhnx000/viet-nhu-nguoi",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "A high-throughput training framework for Speculative decoding models. 中文概览 · Documentation · Roadmap · Quickstart Faster draft training. More room to experiment. ASpec is a high-throughput training framework for speculative decoding draft models. It optimizes\nDraft forward, backward and optimizer execution, overlaps training with Target feature generation,\nand shares compatible Target features acr",
+      "source_preview": "Viết như người: chống giọng văn AI cho tiếng Việt (human voice, Vietnamese humanizer). Skill Claude Code sửa bài ChatGPT/Claude viết cho tự nhiên như người viết: bỏ văn dịch, giọng công văn, lời chatbot. Kèm máy quét 0-100 và công cụ kiểm số liệu. Chống giọng văn AI cho tiếng Việt. Nhờ AI viết mà đọc lên vẫn ra giọng mình. Tiếng Việt · English English: a Claude skill that makes AI-drafted Vietname",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/alexeyw/lot-map",
-    "title": "alexeyw/lot-map",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in five languages. A mod for Claude Code: a live map of the work, in a pane beside the chat. Every tool call, model step, hook and skill sends a pulse from the centre to its station, so you see memory, files, shell, web and agents at work instea",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/DevCrabs-Inc/yandex-metrika-mcp",
-    "title": "DevCrabs-Inc/yandex-metrika-mcp",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2476,
-      "source_preview": "Read-only MCP server for Yandex Metrika (Яндекс Метрика): verifiable reports, period comparisons, time series and exports for Claude, Cursor, VS Code and Codex. Read-only MCP server for Yandex Metrika (Yandex Metrica, Яндекс Метрика). Connect it to Claude, Cursor, VS Code, Codex or any MCP client and ask about traffic, sources, landing pages and goals. Every answer comes with exact dates, the coun",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/conceptcountry/weight-space-programming",
-    "title": "conceptcountry/weight-space-programming",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2122,
-      "source_preview": "Gradient-free weight editing reduces overthinking in Qwen3.8-27B — analysis code and evaluation artifacts Analysis code and evaluation artifacts for Gradient-Free Weight Editing Reduces\nOverthinking in Qwen3.8-27B , a norm-matched controlled replication of\nweight-space programming. Paper: https://concept.country/research/weight-space-programming A nine-layer, gradient-free edit to Qwen3.8-27B that",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
+      "detected_language": "vi",
+      "translated_to_english": true
     },
     "stage1": {},
     "cache": {
