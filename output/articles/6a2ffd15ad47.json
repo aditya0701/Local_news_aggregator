@@ -1,0 +1,10 @@
+{
+  "title": "pktq/lasik",
+  "url": "https://github.com/pktq/lasik",
+  "summary": "BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target.",
+  "image": "https://opengraph.githubassets.com/1/pktq/lasik",
+  "source": "github",
+  "language": "hindi",
+  "id": "6a2ffd15ad47",
+  "first_seen": "2026-11-13T09:48:30.447654+00:00"
+}

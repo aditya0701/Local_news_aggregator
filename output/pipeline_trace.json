@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-    "title": "Tim Peters has died",
+    "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+    "title": "The Dawn of the Data Intelligence Engineer",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "I am immensely sad to announce that Tim Peters has died earlier this year on July 15. It’s hard to overestimate Tim’s influence on Python. He’s probably best known for writing the Zen of Python ( PEP 20 ), but to me he was a mentor and language co-designer long before that. Tim found Python not long after its initial release. His first deed was to convince me that Python should support mixed arith",
+      "source_preview": "Nov 11, 2026 · 12 min read I asked Nick Ursa, our lead data engineer (and MotherDuck co-founder), how AI had changed his job. His answer: \"This is the first time in my career with no backlog.\" You'd think that would leave him with plenty of time on his hands, but he's busier than ever. While the backlog is gone, the answers still have to be right, and a human still has to decide how much quality c",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,49 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-    "title": "Critical RCE Vulnerability in Apache HTTP Server",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2970,
-      "source_preview": "A critical synchronization vulnerability (CVE-2026-119618) has been identified in Apache HTTP Server’s HTTP/2 module (mod_http2). The flaw stems from a concurrent execution race condition within the assign_headers() function when handling shared resources. If successfully exploited, a remote, unauthenticated attacker can corrupt heap memory to achieve arbitrary code execution (RCE). As of the time",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://blog.benjamin.ie/legocam",
-    "title": "Legocam: My Lego webcam from 2000, working on a modern Mac",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://blog.benjamin.ie/legocam"
-    }
-  },
-  {
-    "url": "https://github.com/aws/aws-emulator",
-    "title": "AWS emulator",
+    "url": "https://brave.com/blog/search-api-agentic-payments/",
+    "title": "Brave Search API now accepts agentic payments via the x402 protocol",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "AWS Emulator is a local emulator of the AWS APIs. AWS Emulator is a local emulator of the AWS APIs. You use it to test your software without calling AWS, on your own machine, on a development server, or in continuous integration (CI). You don’t need an AWS account. Your requests go to the emulator, not to AWS. So you work with emulated resources instead of AWS resources. AWS Emulator has no additi",
+      "source_preview": "Published Nov 12, 2026 The Brave Search API , our developer tool for building applications with data from the Web, is adding support for instant, pay-as-you-go, agentic payments enabled by the open x402 payment protocol. Developers and autonomous AI agents that specifically require agentic search can now programmatically query Brave’s independent search index, ground agent responses, and settle re",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -91,12 +54,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://jatorre.github.io/garden/",
-    "title": "I gave an agent a lakehouse and control of my garden",
+    "url": "https://github.com/simpsoka/zigzag",
+    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "A garden story Or how to produce a €60 lettuce. Javier de la Torre · 5 November 2026 Part I The garden I guess this is what a mid-life crisis looks like. I started gardening. Nothing serious. I have a small garden at home, and I carved out about two square metres on one side to grow some vegetables. I love seeing things grow and, if I can eat them afterwards, even better. I also thought it would b",
+      "source_preview": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP. Visit zigzag.diy ZigZag is a visual embroidery editor built in Rust for performance, with\nbuilt-in MCP (Model Context Protocol) support so AI agents can create and\nedit designs alongside you. Turn SVG artwork into stitches, fine-tun",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -118,12 +81,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
-    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "title": "Gemini 4 Hydrogen and Orchestrator",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "AI disclosure: this story was written entirely by human hands, with AI doing proof-reading and light edits. Some tasteful imperfections kept to heighten Wabi-Sabi effect. Everyoneâs heard of how awesome Jane Street is. Fewer people have heard about the times something stupid nearly put it out of business and it was saved by grit and dumb luck. I was on the systems team for some of those. Jane St",
+      "source_preview": "Explore our next generation products Products Built for developers and teams in the agent-first era Developer Use Cases Other Roles Everything you need to stay up-to-date and get help Explore our next generation products Products Built for developers and teams in the agent-first era Developer Use Cases Other Roles Everything you need to stay up-to-date and get help Today, weâre rolling out Gemin",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -145,12 +108,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
-    "title": "What to know about this year’s UN climate talks",
+    "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+    "title": "Microsoft Outlook/365 still down after 12 hours",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 46,
+      "source_preview": "See what’s happening and join the conversation",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Climate finance and fossil fuels top the formal agenda at COP31. It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of the biggest stages of the climate world. Turkey and Australia are cohostin",
+      "source_preview": "Today, we're open-sourcing Edge0-145B and Edge0-120B , together with our unified inference framework and deployment tools. Edge0-145B is the world's first open-source on-device AI model with 145 billion parameters. It brings coding, reasoning, and agent capabilities that rival frontier cloud models to your own computer. On-device AI has long forced a tradeoff between model capability and what the ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -172,12 +162,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
-    "title": "The Download: preserving minds and weighing open AI risks",
+    "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+    "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: COP31’s flagship pledge to electrify 35% of energy use is sinking. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still be you. To preserve that elusive continuity of self, some ",
+      "source_preview": "Carlyn Kranking | Associate Web Editor, Science Matthew Holman , a senior astrophysicist at the Smithsonian Astrophysical Observatory, was sifting through data from the Vera C. Rubin Observatory in Chile when something odd caught his eye. Running a custom-made computer program, he and his colleague Kevin Napier had already spotted more than 2,000 little bright dots in the telescope data, correspon",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -199,12 +189,66 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "The Chip Security Act is getting renewed attention following Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy. Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
+    "title": "The Download: COP31’s climate challenge and the quest for immortality",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus: Nvidia is reportedly preparing to oust CEO Jensen Huang. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the annual UN climate talks. But this year’s negotiations are taking place against a particularly tens",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
     "title": "The unfolding Jensen Huang scandal: a timeline",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s personal life and potentially impact national security. United States officials believe that Huang’s likel",
+      "source_preview": "Nvidia co-founder and now former CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond Huang’s personal life and U.S. national security. U.S. officials believe that one of Huang’s likely r",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -226,39 +270,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-    "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1695,
-      "source_preview": "Posted: Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years, the Wall Street Journal reports . Sources told the newspaper that the Nvidia board is meeting as soon as Wednesday to determine Huang’s future at the company. On Sunday, Huang admitted to having an extramarital affair with a woman purported by U.S. intelligence to be a ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
-    "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
+    "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+    "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it’s especially daunting right now. According to PitchBook data, firms raising their fourth fund “or later” captured a whopping 88.2% of U.S. VC fundraising dollars through the first three quarters of this year, while first-time funds captured a measly 4.5% . Just 81 first-time funds closed",
+      "source_preview": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. It’s an ambitious plan, but it rests on a string of planned projects that are already starting to show cracks. Nebius plans to fund the buildout by relying on customer pre-payments and loans backed by customer contracts — essentially us",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -280,12 +297,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-    "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+    "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+    "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "CoreWeave is rewriting how it pays for the AI boom, according to the company’s third-quarter earnings , reported on Tuesday. CoreWeave, a neocloud that rents out the computing power behind AI, said it’s increasingly asking customers to pay up front, borrowing against specific contracts, and even pursuing short-term deals that could lead to higher prices. The new strategies could help CoreWeave fin",
+      "source_preview": "Google Search is getting better at understanding complicated questions, including those with multiple parts, highly specific requests, or confusing typos. The updates are coming via the company’s newly released Gemini 4 Hydrogen model, which Google claims is its “biggest model improvement to Search yet.” While Google’s frontier models, Gemini 4 Carbon and Gemini 4 Argon, are best at deep reasoning",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -307,12 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
-    "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+    "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+    "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Reviews Posts from this topic will be added to your daily email digest and your homepage feed. See All Smart Home The Home Assistant Connect Aux-2 helped me track my fridge temperature and finally set up m",
+      "source_preview": "Nectar , an AI-powered operating system for marketing, is launching a new AI agent designed to take a lot of the manual work out of influencer marketing, from finding the right creators to contacting them, managing partnerships, and tracking results. Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manag",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -334,12 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-    "title": "United won’t let your AI agent book your flight",
+    "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+    "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech AI agents can’t attest that you don’t have explosives in your bags.﻿ AI agents can’t attest that you d",
+      "source_preview": "Hugging Face CEO Clément Delangue briefly commented on Nvidia CEO Jensen Huang’s departure on Thursday, calling it a “really sad day.” Nvidia had announced its plan to acquire the platform for open source AI models in September for $12.9 billion, making it the second-largest acquisition in the company’s history, just behind that of chipmaker Groq’s assets for $20 billion in December 2025. “This wh",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -361,12 +378,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
-    "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+    "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+    "title": "Donald Trump really wants Tim Cook to run Nvidia",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech The proposed Digital Fairness Act seeks to bolster consumer protections for online users.﻿ The pro",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Nvidia is looking for a new CEO, and President Trump says the former Apple CEO would be ‘a great ca",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -388,12 +405,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
-    "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+    "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+    "title": "Xbox announces Wolfenstein 3",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2526,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Xbox CEO Asha Sharma revealed a new entry in the Wolfenstein series with a brief tease. Xbox CEO A",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+    "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Cars Toyota is reviving the Scion badge as an experimental mobility incubator—starting with an ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Whoop’s new Humans platform is like Instagram Stories with updates from your friends’ fitness tra",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -415,12 +459,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
-    "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+    "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+    "title": "Humble Bundle redesign removes two-factor verification from settings",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2661,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Tabletop provides customizable, collaborative spaces for all your personal planning needs.﻿ Tabletop p",
+      "scraped_chars": 2428,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News A new look for the Humble Bundle storefront is missing an important security feature that",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -442,12 +486,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-    "title": "The best early Black Friday deals you can already shop",
+    "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+    "title": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday Black Friday is still several weeks away, but you can already save on 3D printe",
+      "scraped_chars": 2494,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Xbox Insiders get to test the new features today. Xbox Insiders get to test the new features today",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -469,12 +513,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale",
-    "title": "Sharge’s eye-catching MacBook charger is over 25 percent off",
+    "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
+    "title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2370,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Deals We also found discounts on a buildable Warthog from Halo , a Mac Mini competitor from ",
+      "scraped_chars": 2901,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Wearable Oura’s last-gen smart ring sports the same sensors and software as the latest versi",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -496,123 +540,52 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
-    "title": "Ocarina of Time is even better if you use a smartphone app",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Finding Ocarina of Time’s hidden collectibles is a lot easier with the help of Zelda Note",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-    "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech DeepMind’s new DNA model better predicts how mutations affect different cells, potentially opening ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://openai.com/index/jiostar-vijay-seshadri",
-    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/jiostar-vijay-seshadri"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/amplitude"
     }
   },
   {
-    "url": "https://openai.com/index/cogent-security",
-    "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+    "url": "https://openai.com/business/customer-stories/gondola",
+    "title": "Gondola doubles revenue as its team builds more with Codex",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/cogent-security"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/gondola"
     }
   },
   {
-    "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-    "title": "ChatGPT Enterprise now available in AWS Marketplace",
+    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "title": "Holiday Extras is rethinking what it can build with Codex",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/holidays-extras-codex"
     }
   },
   {
-    "url": "https://github.com/agentes-chat/agentes-chat",
-    "title": "agentes-chat/agentes-chat",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/children-first-declaration",
+    "title": "Supporting research on AI and children’s safety",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 2835,
-      "source_preview": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0. The open-source, self-hosted Slack alternative where your team and AI agents work together. W",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/children-first-declaration"
+    }
   },
   {
-    "url": "https://github.com/huawei-csl/MACaQ",
-    "title": "huawei-csl/MACaQ",
+    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+    "title": "hitkeeen/blender-ai-mcp-addon",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch. High-quality GGUF for local inference. Model-agnostic quantization beyond text. Quantize and run text, image, video and audio models with llama.cpp, vLLM,\nDiffusers and PyTorch. MACaQ can quantize a 122B-parameter model in 64 minut",
+      "source_preview": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -634,12 +607,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Veloresearch/kinetic",
-    "title": "Veloresearch/kinetic",
+    "url": "https://github.com/molly554/whiteboard-ai-tutor",
+    "title": "molly554/whiteboard-ai-tutor",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The open engine for running AI on your own computer. Fast, exact, open source. Written in Rust. It reads GGUF files, the format llama.cpp uses, and runs the models it\nsupports on the CPU and on NVIDIA, AMD and Intel GPUs, from one binary. Fast, and no\nspeed-up ever changes the answer. Documentation Technical report Releases veloresearch.com 1. Install Kinetic. On Windows, in PowerShell (no adminis",
+      "source_preview": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测 An open-source AI tutor that teaches on a whiteboard — and a benchmark of which LLM does it best. It writes, draws and erases while it explains, and the student can interrupt. One frozen prompt. Six models. 288 lessons drawn str",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -661,12 +634,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/shany9200/Three",
-    "title": "shany9200/Three",
+    "url": "https://github.com/pktq/lasik",
+    "title": "pktq/lasik",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "A self-extending AI agent that runs anywhere Termux runs. Writes its own capabilities, remembers across sessions. A self-extending AI agent that runs anywhere Termux runs — phones, tablets,\nTV boxes, old laptops. It writes new capabilities for itself, remembers across\nsessions, and can operate a phone through ADB. A malleable low-level agent with the potential to grow in every direction. Goal: to ",
+      "source_preview": "BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target. English · 简体中文 · 日本語 · 한국어 · Español Static deobfuscation for anti-agent hardening. LASIK removes BLA protection layers so coding agents and analysis tools can read the real program. ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -688,123 +661,42 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/mintlify/agent-traffic",
-    "title": "mintlify/agent-traffic",
+    "url": "https://github.com/IluvatarLabs/sitrep",
+    "title": "IluvatarLabs/sitrep",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1938,
+      "source_preview": "One live console to monitor Claude Code and Codex agents across machines, track context and spend, and unblock sessions that need you. Every Claude Code and Codex session, on every machine, in one live view. Try it · Install · Tour · How it works · Operations “Who will guard the guards themselves?” — Juvenal, Satires You run coding agents on a laptop, a workstation and a server. SITREP shows all o",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/DeskLabs-OpenSource/DeskVoice",
+    "title": "DeskLabs-OpenSource/DeskVoice",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Tell agents, AI crawlers, search crawlers and bots apart from people Tell agents, AI crawlers, search crawlers and bots apart from people. Mintlify hosts documentation for thousands of companies, and those sites serve hundreds of millions of requests a month. For years almost all of that came from developers reading docs in a browser. Now a growing share comes from agents: Claude Code pulling a pa",
+      "source_preview": "Central telefônica open source operada por agentes de IA. Atende, executa ferramentas durante a ligação, consulta um humano e segue trabalhando depois que a chamada termina. Self-hosted. Português · English · Español Central telefônica open source operada por agentes de IA, instalada na sua VPS. O agente atende a ligação, executa ferramentas durante a conversa, pede aprovação a um humano\nquando pr",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/weixijia/mas-office",
-    "title": "weixijia/mas-office",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "See your multi-agent system work: a framework-agnostic protocol and live, animated office for AI agent teams. Website · Quick start · Design a team · Run a team · Checking · Other frameworks · CLI · Limits · Roadmap · 中文 Every role in the team is a real Claude Code or Codex session on your computer, signed in by you. You design the roles and lock the design; plain code schedules the work and enfor",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/op7418/guizang-game-skill",
-    "title": "op7418/guizang-game-skill",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1120,
-      "source_preview": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included. 让 AI 从零做出一个能在浏览器里玩的 3D 动作游戏 English · 简体中文 上面这段是演示游戏《雾锁山门》里的实机画面。 点这里直接玩 ，电脑和手机都能打开，不用安装。 一个给 AI 编程助手（Claude Code、Codex 等）用的 Skill。装上之后，对它说\"做一个武侠题材的俯视角 3D 动作游戏\"，它会按一套走通过的流程去做：先问清楚你要什么，接上你手头的素材",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/hexsyro/ride-demand-forecaster",
-    "title": "hexsyro/ride-demand-forecaster",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1013,
-      "source_preview": "Bike-share demand forecasting: RMSE compared across raw, encoded, scaled and engineered features. Can careful feature engineering alone turn a weak model into a strong one? This project uses a bike-share demand dataset (timestamp, weather conditions, temperature, humidity, wind speed, holiday and weekend flags, season, ride count) to predict hourly ride volume. The point isn't the model, it's the ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/8hjkkwikl8/ai-portfolio",
-    "title": "8hjkkwikl8/ai-portfolio",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1549,
-      "source_preview": "三个可运行的 AI 工程项目：可追溯 RAG、提示词评测与受守护的 NL2SQL 分析 中文 | English 面向 AI 应用工程师求职的作品集： 1 个检索增强生成旗舰项目 + 2 个轻量工程切面项目 。每个项目都有完整源码、确定性演示数据、自动化测试和可查看产物；默认不需要 API Key，也不把规则模拟包装成“智能”。 不是截图或概念稿。仓库里的指标都能用下面的命令复现，限制也会在文档和界面里明确写出来。 要求 Python 3.13。三个离线演示只使用标准库；Web UI 与 API 需要 FastAPI、uvicorn 和 httpx。 也可以单独运行任一项目： start_all.py 只监听 127.0.0.1 ，启动前检查端口与依赖，退出时只清理自己拉起的进程。 verify_all.py 会重新生成评测 JSON、PromptLens 对比报告和 DataChat 图",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "zh-cn",
+      "detected_language": "pt",
       "translated_to_english": true
     },
     "stage1": {},
@@ -823,16 +715,16 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/anhnx000/viet-nhu-nguoi",
-    "title": "anhnx000/viet-nhu-nguoi",
+    "url": "https://github.com/Pinnaclesys/Voice-Changer-2026",
+    "title": "Pinnaclesys/Voice-Changer-2026",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Viết như người: chống giọng văn AI cho tiếng Việt (human voice, Vietnamese humanizer). Skill Claude Code sửa bài ChatGPT/Claude viết cho tự nhiên như người viết: bỏ văn dịch, giọng công văn, lời chatbot. Kèm máy quét 0-100 và công cụ kiểm số liệu. Chống giọng văn AI cho tiếng Việt. Nhờ AI viết mà đọc lên vẫn ra giọng mình. Tiếng Việt · English English: a Claude skill that makes AI-drafted Vietname",
+      "scraped_chars": 2784,
+      "source_preview": "AI-powered voice conversion and real-time voice changer. Transform your voice with neural models, custom presets, and low latency. A fast, neural-network-based voice changer for Windows, written in C++. Works in real time with your microphone and can also convert audio files. No installation, no Python: download the .exe and run it. DOWNLOAD NOW That's it, no installer and no extra software needed",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "vi",
-      "translated_to_english": true
+      "detected_language": "en",
+      "translated_to_english": false
     },
     "stage1": {},
     "cache": {
