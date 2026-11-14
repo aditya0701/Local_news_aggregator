@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
-    "title": "The Dawn of the Data Intelligence Engineer",
+    "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+    "title": "Ggml v1.0.0",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nov 11, 2026 · 12 min read I asked Nick Ursa, our lead data engineer (and MotherDuck co-founder), how AI had changed his job. His answer: \"This is the first time in my career with no backlog.\" You'd think that would leave him with plenty of time on his hands, but he's busier than ever. While the backlog is gone, the answers still have to be right, and a human still has to decide how much quality c",
+      "source_preview": "Sorry, something went wrong. There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . ggml 1.0.0 prunes the deprecated public API and the legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and brings broad performance work across backends: few-row quantized matmuls and MoE fusion on CUDA/Metal, a Vulkan prefill Fl",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://brave.com/blog/search-api-agentic-payments/",
-    "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+    "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+    "title": "FAA issues national ground stop – lifted 4.5 hours later",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Published Nov 12, 2026 The Brave Search API , our developer tool for building applications with data from the Web, is adding support for instant, pay-as-you-go, agentic payments enabled by the open x402 payment protocol. Developers and autonomous AI agents that specifically require agentic search can now programmatically query Brave’s independent search index, ground agent responses, and settle re",
+      "source_preview": "U.S. air traffic was brought to a standstill Friday after the Federal Aviation Administration ordered a nationwide ground stop for departing flights that lasted more than four hours. The FAA lifted the ground stop at 8:15 p.m. ET, after more than 7,000 flights were canceled and airports across the country became packed with stranded, irritated passengers. The sudden and stunning alert was issued a",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +54,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/simpsoka/zigzag",
-    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+    "url": "https://www.joshka.net/cell-borders/",
+    "title": "Terminal borders that don't cost a cell",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP. Visit zigzag.diy ZigZag is a visual embroidery editor built in Rust for performance, with\nbuilt-in MCP (Model Context Protocol) support so AI agents can create and\nedit designs alongside you. Turn SVG artwork into stitches, fine-tun",
+      "source_preview": "This post (and the code behind it) was written with a lot of help from AI. I'm not going to\napologize for that. If that bothers you, feel free to close the tab. I maintain Ratatui , so I see a lot of the TUIs people build. Many of them end up looking fairly\nsame-ish: plain boxes on a boring background, missing a bunch of the things that good design in\nother mediums brings us. Borders are part of t",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +81,76 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "url": "https://monkeyisland.pages.dev/",
+    "title": "Monkey Island: all 13 versions side by side",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2330,
+      "source_preview": "Every screen was captured in ScummVM, except the Atari ST monochrome screens, which come from the Hatari emulator. Each capture was scaled to 1600x1200 with nearest-neighbour pixels and 4:3 aspect correction, so every original pixel keeps the shape it had on a period monitor. The twelve moments are the same in every version, with the same framing, so switching versions changes the machine, not the",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.nature.com/articles/d41586-026-03638-3",
+    "title": "Found: A protein that drives ageing without unleashing inflammation",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2301,
+      "source_preview": "Age-related stiffening and scarring of liver tissue (pictured) declined in mice that were bioengineered to lack a certain enzyme. Credit: Ziad M. El-Zaatari/Science Photo Library Researchers have found an enzyme that drives ageing in the body’s tissues 1 . Drugs that reduce the levels of this protein might one day combat the effects of ageing without impairing the body’s immune defences. Access Na",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+    "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+    }
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Explore our next generation products Products Built for developers and teams in the agent-first era Developer Use Cases Other Roles Everything you need to stay up-to-date and get help Explore our next generation products Products Built for developers and teams in the agent-first era Developer Use Cases Other Roles Everything you need to stay up-to-date and get help Today, weâre rolling out Gemin",
+      "source_preview": "Plus: A major Microsoft outage has disrupted services worldwide. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries of Silicon Valley have built careers claiming to see the future. Yet five weeks before ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,39 +172,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
-    "title": "Microsoft Outlook/365 still down after 12 hours",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 46,
-      "source_preview": "See what’s happening and join the conversation",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-    "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+    "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+    "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Today, we're open-sourcing Edge0-145B and Edge0-120B , together with our unified inference framework and deployment tools. Edge0-145B is the world's first open-source on-device AI model with 145 billion parameters. It brings coding, reasoning, and agent capabilities that rival frontier cloud models to your own computer. On-device AI has long forced a tradeoff between model capability and what the ",
+      "source_preview": "People with experimental brain implants are pushing for more recognition and respect. Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be recognized for ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -162,12 +199,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
-    "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+    "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+    "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Carlyn Kranking | Associate Web Editor, Science Matthew Holman , a senior astrophysicist at the Smithsonian Astrophysical Observatory, was sifting through data from the Vera C. Rubin Observatory in Chile when something odd caught his eye. Running a custom-made computer program, he and his colleague Kevin Napier had already spotted more than 2,000 little bright dots in the telescope data, correspon",
+      "source_preview": "Amazon recently unveiled its refreshed Kindle lineup , introducing a new basic Kindle , Paperwhite, and Colorsoft. The new Kindle Colorsoft starts at $290, while the Signature Edition, which I’ve spent the past few weeks testing, costs $320. The base model comes with 16GB of storage, while the Signature Edition doubles that to 32GB and is available in graphite or a maroon-like Fig finish with an a",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,12 +226,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The Chip Security Act is getting renewed attention following Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy. Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even",
+      "source_preview": "It was the resignation heard across the world. Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down . “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Over the last several years, Nvidia has been a prolific investor , pouring tens of billions into startups annually and participating in 105 r",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -216,12 +253,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
-    "title": "The Download: COP31’s climate challenge and the quest for immortality",
+    "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+    "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: Nvidia is reportedly preparing to oust CEO Jensen Huang. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the annual UN climate talks. But this year’s negotiations are taking place against a particularly tens",
+      "source_preview": "Anyone who has weathered a hurricane can tell you that the oceans — which fuel the storms — contain a tremendous amount of energy. Thanks to global warming, they’re holding more than ever. A new startup wants to harness that energy to power data centers. Drogue , which has kept a low profile until now, is building a system that harvests heat from the ocean to power data centers on board floating v",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -243,12 +280,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nvidia co-founder and now former CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond Huang’s personal life and U.S. national security. U.S. officials believe that one of Huang’s likely r",
+      "source_preview": "ChatGPT can now shop for you. On Friday, OpenAI launched a new wallet feature that lets its agents, called dots , help you decide what to buy and then complete the purchase on your behalf. The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Mastercard, or American Express. OpenAI says that users are fully in control o",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -270,12 +307,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-    "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+    "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+    "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. It’s an ambitious plan, but it rests on a string of planned projects that are already starting to show cracks. Nebius plans to fund the buildout by relying on customer pre-payments and loans backed by customer contracts — essentially us",
+      "source_preview": "Uber is notifying thousands of drivers that their personal and driver’s license information was stolen during an October data breach at one of the company’s tech providers. In notices filed this week with several U.S. attorneys general, including California , the ride-hail giant said it was notified on October 9 by the provider that hackers broke in and stole internal credentials, which were used ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -297,12 +334,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-    "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+    "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+    "title": "Amazon has a plan to index the world’s online shopping data",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Google Search is getting better at understanding complicated questions, including those with multiple parts, highly specific requests, or confusing typos. The updates are coming via the company’s newly released Gemini 4 Hydrogen model, which Google claims is its “biggest model improvement to Search yet.” While Google’s frontier models, Gemini 4 Carbon and Gemini 4 Argon, are best at deep reasoning",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Listing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +361,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-    "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+    "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+    "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nectar , an AI-powered operating system for marketing, is launching a new AI agent designed to take a lot of the manual work out of influencer marketing, from finding the right creators to contacting them, managing partnerships, and tracking results. Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manag",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Speakers Nothing’s funky, compact Bluetooth speaker launched in October and is already on sale ahead o",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,12 +388,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-    "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+    "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
+    "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2794,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Preloading is already underway for Rockstar’s anticipated open-world game, but you’re",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
+    "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Hugging Face CEO Clément Delangue briefly commented on Nvidia CEO Jensen Huang’s departure on Thursday, calling it a “really sad day.” Nvidia had announced its plan to acquire the platform for open source AI models in September for $12.9 billion, making it the second-largest acquisition in the company’s history, just behind that of chipmaker Groq’s assets for $20 billion in December 2025. “This wh",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News A pair of dials underneath the T1 HE let you fine-tune where its trackball is positioned under yo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -378,12 +442,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
-    "title": "Donald Trump really wants Tim Cook to run Nvidia",
+    "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+    "title": "Jensen Huang was reckless with the environment, too",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Nvidia is looking for a new CEO, and President Trump says the former Apple CEO would be ‘a great ca",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Climate Nvidia’s environmental footprint extends way beyond its own offices. Nvidia’s environmental fo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,39 +469,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
-    "title": "Xbox announces Wolfenstein 3",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2526,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Xbox CEO Asha Sharma revealed a new entry in the Wolfenstein series with a brief tease. Xbox CEO A",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
-    "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
+    "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
+    "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Whoop’s new Humans platform is like Instagram Stories with updates from your friends’ fitness tra",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The Camp Snap CS-8 Micro is just three inches long and adds a tiny LCD screen that’s only used as",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -459,12 +496,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
-    "title": "Humble Bundle redesign removes two-factor verification from settings",
+    "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+    "title": "The new Apple TV has a YouTube problem",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2428,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News A new look for the Humble Bundle storefront is missing an important security feature that",
+      "scraped_chars": 2269,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming A software update and a reboot should get YouTube working on your new Apple TV 4K.﻿ A software ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,12 +523,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
-    "title": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
+    "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+    "title": "Microsoft&#8217;s massive Outlook outage might be over",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2494,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Xbox Insiders get to test the new features today. Xbox Insiders get to test the new features today",
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Microsoft Nearly a day after the global email outage started, Microsoft said the issue has been addressed",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -513,31 +550,14 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
-    "title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/business/customer-stories/shield",
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 2901,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Wearable Oura’s last-gen smart ring sports the same sensors and software as the latest versi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/shield"
+    }
   },
   {
     "url": "https://openai.com/business/customer-stories/amplitude",
@@ -580,12 +600,12 @@
     }
   },
   {
-    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-    "title": "hitkeeen/blender-ai-mcp-addon",
+    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "title": "Opening the datasets behind our AI weather models",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in ",
+      "source_preview": "WeatherNext team We are releasing PARDIG and SatWeave to help researchers and developers build new weather, hydrology, and climate applications. Understanding and predicting the planetâs weather and water cycle starts with how well we can observe the Earth right now. Satellites and ground instruments monitor the planet continuously and in great detail. But converting these raw measurements into ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -607,12 +627,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/molly554/whiteboard-ai-tutor",
-    "title": "molly554/whiteboard-ai-tutor",
+    "url": "https://github.com/SortGuardian/ai--manus",
+    "title": "SortGuardian/ai--manus",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测 An open-source AI tutor that teaches on a whiteboard — and a benchmark of which LLM does it best. It writes, draws and erases while it explains, and the student can interrupt. One frozen prompt. Six models. 288 lessons drawn str",
+      "scraped_chars": 2820,
+      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -634,12 +654,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/pktq/lasik",
-    "title": "pktq/lasik",
+    "url": "https://github.com/Feathershosmash/ai--manus",
+    "title": "Feathershosmash/ai--manus",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target. English · 简体中文 · 日本語 · 한국어 · Español Static deobfuscation for anti-agent hardening. LASIK removes BLA protection layers so coding agents and analysis tools can read the real program. ",
+      "scraped_chars": 2820,
+      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -661,66 +681,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/IluvatarLabs/sitrep",
-    "title": "IluvatarLabs/sitrep",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1938,
-      "source_preview": "One live console to monitor Claude Code and Codex agents across machines, track context and spend, and unblock sessions that need you. Every Claude Code and Codex session, on every machine, in one live view. Try it · Install · Tour · How it works · Operations “Who will guard the guards themselves?” — Juvenal, Satires You run coding agents on a laptop, a workstation and a server. SITREP shows all o",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/DeskLabs-OpenSource/DeskVoice",
-    "title": "DeskLabs-OpenSource/DeskVoice",
+    "url": "https://github.com/berkantay/gpucanvas",
+    "title": "berkantay/gpucanvas",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Central telefônica open source operada por agentes de IA. Atende, executa ferramentas durante a ligação, consulta um humano e segue trabalhando depois que a chamada termina. Self-hosted. Português · English · Español Central telefônica open source operada por agentes de IA, instalada na sua VPS. O agente atende a ligação, executa ferramentas durante a conversa, pede aprovação a um humano\nquando pr",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "pt",
-      "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Pinnaclesys/Voice-Changer-2026",
-    "title": "Pinnaclesys/Voice-Changer-2026",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2784,
-      "source_preview": "AI-powered voice conversion and real-time voice changer. Transform your voice with neural models, custom presets, and low latency. A fast, neural-network-based voice changer for Windows, written in C++. Works in real time with your microphone and can also convert audio files. No installation, no Python: download the .exe and run it. DOWNLOAD NOW That's it, no installer and no extra software needed",
+      "source_preview": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them. Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects,\nmoves and resizes them, shaders and transitions run on them, and an AI agent can read them and\npoint a",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",

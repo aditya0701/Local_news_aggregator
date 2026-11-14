@@ -1,0 +1,12 @@
+{
+  "title": "Ggml v1.0.0",
+  "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+  "summary": "Overview ggml 1.0.0 prunes the deprecated public API and the legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and brings broad performance work across backends: few-row quan...",
+  "image": "https://opengraph.githubassets.com/398ed72e9316d12d32e3371787d19fb096c1afc67fd25fc61f9c70d69c03087c/ggml-org/ggml/releases/tag/v1.0.0",
+  "published": "Sat, 14 Nov 2026 02:28:29 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "6c41dcbf34a2",
+  "first_seen": "2026-11-14T09:09:30.225196+00:00"
+}
