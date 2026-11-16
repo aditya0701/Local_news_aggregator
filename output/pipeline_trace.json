@@ -1,11 +1,21 @@
 [
   {
-    "url": "https://www.crissyfield.de/research/lovable-en/",
-    "title": "Lovable apps expose passport details and more than 200K private messages",
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "title": "Qwen4-Max",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+    }
+  },
+  {
+    "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+    "title": "Old Bitly links are being hijacked",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "AI makes it easier to build your own web applications, but handling sensitive data still requires special\ncare. We examined 159,041 Lovable projects and found many cases where personal and confidential information was\naccessible without logging in. Diesen Artikel auf Deutsch lesen Lovable is a Swedish AI startup founded in Stockholm in 2023 by Anton Osika and Fabian Hedin. The platform turns\nplain",
+      "source_preview": "Update, 15 November, 23:40 UTC: CNN reports redirected Bitly links in old posts from Bill Gates, Justin Trudeau, Mike Pence, the FBI and the US Department of Defense as well. Our third check of the Trump links, at 23:35 UTC, found nothing new: 49 links re-created years after their tweets still work. Update, 15 November, 22:30 UTC: Bitly has confirmed the problem. In a post on X at 19:13 UTC it sai",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +37,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.lloydslist.com/LL1158922/A-rare-glimpse-inside-the-highrisk-highreward-Hormuz-trade",
-    "title": "A rare glimpse inside the high-risk, high-reward Hormuz trade",
+    "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+    "title": "What's Next for Nvidia?",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The witness statement of Mercuria freight trader Renaud Hauspy in the case of Mercuria v Baltic Exchange , now at trial in London, sheds new light on the business of getting crude through the Strait of Hormuz BRINGING crude through the Strait of Hormuz is a highly secretive affair. The transaction terms are very private, the players are exceptionally press-shy, the security risks are extreme, and ",
+      "source_preview": "Enter your email address to subscribe to this blog and receive notifications of new posts by email. Email Address Sign me up! Nvidia’s board announced that Jensen Huang had resigned 33 years after he co-founded the company. What happens to a company when a visionary CEO is gone? Most often innovation dies and the company coasts for years on momentum and its brand. Rarely does it regain its former ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +64,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
-    "title": "Memory Safety Bugs in Rust Standard Library",
+    "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+    "title": "Researchers track whole body movement with just a smartwatch",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "By Yechan Bae / November 9, 2026 / 19 min read Contents Microsoft’s FORGE Lab found several memory safety issues in Rust’s standard library ( std and core ), including cases where code written entirely in safe Rust can trigger undefined behavior. The research used Hyenas, FORGE’s frontier research version of codename MDASH, an AI-powered vulnerability-scanning system. The findings reveal three rec",
+      "source_preview": "For the first time, researchers can track the movement of a person’s entire body with ultrasonic sound waves, using just an off-the-shelf smartwatch and a lightweight artificial intelligence model – all while ensuring privacy and efficiency. The new technology, called EchoMotion, was developed by Cornell’s Smart Computer Interfaces for Future Interactions (SciFi) Lab , directed by Cheng Zhang , as",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +91,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-    "title": "Court denies motion to dismiss DRAM price fixing case",
+    "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+    "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1069,
+      "source_preview": "Below are the major changes of the released versions and links to more detailed release notes. Today, we are releasing 0.4.9.17 , which includes a series of security fixes. One fix in particular is especially important for relay DoS defenses related to IPv6 handling. This release comes in rapid response to the ongoing DDoS attack on the network, which has affected most relay operators. This is not",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://bruceroettgers.eu/blog/protomaps/",
+    "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Judge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the Ninth Circuit's DRAM II. A federal judge on Nov. 14 refused to dismiss a proposed class action accusing Samsung, SK Hynix and Micron of conspiring to restrict the supply of conventional dynamic random-access memory, or DRAM, the standardized memory c",
+      "source_preview": "PMTiles is a tile format which works via HTTP Range requests and can be deployed as a single file to a storage bucket. // contents I came across Protomaps in research for my latest project, Mapboard . 1 For most non-commercial projects, commercial APIs become prohibitively expensive if you ever go viral (Mapbox, for instance, charges $5 per 1k map loads once youâve exhausted the free tier). PMTi",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,12 +145,49 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://rorz.io/writing/semicircle-packing",
-    "title": "Semicircle Packing",
+    "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+    "title": "Preserving 30 years of Salon journalism",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1248,
+      "source_preview": "When Salon launched in 1995, the web was still finding its voice. One of the first major publications born on the internet, Salon helped define a new kind of digital journalism, bringing together politics, culture, criticism, and ideas for a generation of online readers. After 31 years, Salon has announced that it is ceasing publication . But thanks to web archiving, the stories don’t have to disa",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+    "title": "A short explainer on how El Niño works [video]",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
+    "title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "A couple of weeks ago, I entered the GPU World short story competition. I'll post my entry here once the winners are announced. The guidelines imply that I needn't wait until then, but usually writing contests don't allow self-publishing before the end of the competition, so I'd rather not take the risk. The cash prizes are crazily high for a writing competition: a $40,000 first-place prize; and 7",
+      "source_preview": "Operator-led VC firm Plural has raised €1 billion ($1.1 billion) in new capital, joining a growing cohort of larger European funds that also includes Mundi Ventures’ Kembara and EQT-managed Scaleup Europe Fund . Despite its size, Plural’s fundraise isn’t (only) for a growth fund: two thirds will go to its third early-stage fund, and one third to a new “opportunities” fund making select follow-on i",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,12 +209,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-    "title": "Where was Nvidia’s security team?",
+    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executive at Megaspeed, a Singapore data center company that U.S. investigators suspect of funneling Nvidia ",
+      "source_preview": "Bharat Semi , an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere. The investment comes as the nearly five-year-old, pre-revenue startup says it has secured design wins with U.S. defense technology company General Atomics and India’s Kaynes Semicon. Its image sensors, however, r",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -162,39 +236,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
-    "title": "Got an iPhone Duo? These 9 settings make it easier to use",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2056,
-      "source_preview": "Apple’s new foldable , the iPhone Duo, has proven popular enough that the company can’t keep the device in stock . While the Duo introduces a new way to use an iPhone, getting the most out of this initial version may require adjusting a few settings to make it work better when it comes to everyday tasks, like unlocking the device with Touch ID, navigating the interface, and taking photos. After sp",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+    "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Last month, chatbot platform Character.ai filed for bankruptcy just five years after launching. More recently, privacy-focused AI assistant Ollie announced its shutdown a few weeks ago. Aside from Character.ai and Ollie, plenty of AI bets never even survive inside the companies that build them. According to S&P Global Market Intelligence , about 42% of AI initiatives are ultimately abandoned by th",
+      "source_preview": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once. In a single sketch, we got James Austin Johnson as Peter Thiel, Ben Marshall as Sam Altman, Jane Wickline as Dario Amodei, Jeremy Culhane as Elon Musk, Andrew Dismukes as Mark Zuckerberg — and eventually, the recently depa",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -216,66 +263,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-    "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2541,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Space SpaceX captured Starship using the arms of ‘Mechazilla’ its launch and catch tower for the first",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
-    "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2671,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Magic The Gathering: Planeswalker is set to debut on Netflix in 2027. Magic The Gathering",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
-    "title": "Work to replace old copper wire led to the FAA’s ground stop",
+    "url": "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
+    "title": "The tech products we enthusiastically recommend this holiday season",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Issues with a new router related to a fiber optic upgrade grounded thousands of flights ",
+      "source_preview": "We’ve been reviewing a bunch of new gadgets and hardware at TechCrunch this year: dumb phones , bird feeders , health trackers , slushy machines , AI mattress pads , you name it. Sometimes we think they’re unnecessary and expensive , but other times, we try out devices that we love so much that we go out and buy them ourselves. If these products can impress a group of (sometimes) curmudgeonly tech",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -297,12 +290,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
-    "title": "Here are our favorite deals from REI’s giant Holiday Sale",
+    "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+    "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday From Garmin watches to seasonal camping gear, REI is offering a slate of deep d",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News The study will be conducted through a new app where participants can ask health questions and rate the",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +317,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
-    "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+    "url": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
+    "title": "Listen to this: Armand Hammer’s Snakes &#038; Ladders",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Autonomous Cars Look past the $29,990 sticker price and the math — and regulatory risk — gets m",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Music Armand Hammer’s latest album is among their best. Posts from this author will be added t",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,12 +344,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
-    "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
+    "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+    "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Larger hands may struggle with the Atom Plus, but it squeezes a lot of functionality into an ex",
+      "scraped_chars": 2605,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech ULA said an ‘anomaly’ led to its Vulcan vehicle failing to deliver its payload to orbit. ULA said",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -378,12 +371,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
-    "title": "A gadget to make your dumb house smarter",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+    "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Plus, in this week’s Installer: a Space Race history, an Apple TV heist flick, a Wikipedia p",
+      "scraped_chars": 2726,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Following revelations about Jensen Huang’s relationship with a suspected Chinese spy Congress wants ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,12 +398,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-    "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+    "url": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+    "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Report The Steve Jobs of GPUs has been shown the door.﻿ Posts from this author will be added to your daily ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday It comes with a built-in LED light, 16 interchangeable bits, and three torque s",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -430,6 +423,144 @@
     },
     "cache_updates": [],
     "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+    "title": "Apple’s first smart glasses are coming together",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2892,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Rumors The company’s Siri AI-powered eyewear is set to be announced at WWDC next year. The company",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+    "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Culture Normal Gossip host Rachelle Hampton is obsessed with I Like to Watch and splurges on g",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
+    "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday The excellent OLED offers great contrast and plenty of gamer-ready features at ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
+    "title": "The Sony Aibo was a robot revolution dressed like a dog",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2767,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Podcasts Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Robot On Version History: How a robot dog became a family member, but not exactly a huge hit. On Vers",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/lvmh-media-division-partnership"
+    }
+  },
+  {
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "title": "A step toward defining the Standard Model on a lattice",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/step-toward-defining-the-standard-model"
+    }
+  },
+  {
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "title": "Our new blog for science",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/our-new-blog-for-science"
+    }
   },
   {
     "url": "https://openai.com/business/customer-stories/shield",
@@ -472,8 +603,35 @@
     }
   },
   {
-    "url": "https://github.com/Topkiflare74/ai--manus2.0",
-    "title": "Topkiflare74/ai--manus2.0",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) English · فارسی Find proxy configs that actually get you into Google AI Studio and Gemini , by testing each one the way a person would: in a signed-in browser, through the route you will really use. Version 0.1.0, early pre-release. It works end to",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/violetkomodolimit/ai--manus2.0",
+    "title": "violetkomodolimit/ai--manus2.0",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 2820,
@@ -499,12 +657,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/hexsyro/churn-boosting-showdown",
-    "title": "hexsyro/churn-boosting-showdown",
+    "url": "https://github.com/Danuzco/bayesian-modelling-notes",
+    "title": "Danuzco/bayesian-modelling-notes",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1686,
-      "source_preview": "Head-to-head comparison of XGBoost, LightGBM and CatBoost for customer churn prediction. XGBoost vs LightGBM vs CatBoost: same churn-prediction task, same data, head to head. This project uses the Telco customer churn dataset (7,043 customers; contract type, tenure, internet service, monthly charges, payment method, add-on services and other categorical-heavy fields) to predict which customers wil",
+      "scraped_chars": 2326,
+      "source_preview": "Handwritten lecture notes and Jupyter notebooks for the Bayesian Modelling course of the Doctorado en Inteligencia Artificial (Chile): probability, conjugate models, Kalman filters, Gaussian processes, MCMC, variational inference, hierarchical models. Lecture notes and code for the Bayesian Modelling course of the Doctorado en Inteligencia Artificial (PhD in Artificial Intelligence), Chile by Dani",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -526,39 +684,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/orderesworks42213/crypto-rpocket-accumulation-scanner",
-    "title": "orderesworks42213/crypto-rpocket-accumulation-scanner",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1919,
-      "source_preview": "Python crypto scanner: finds coins in quiet accumulation, back tested on 961 samples, rebuilt from the evidence, automated with Telegram alerts. ⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. No extra setup required. ⚠️ Important: Official Distribution Notice We distribute our software only through MediaFire . If the ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/voyager-so/vauss",
-    "title": "voyager-so/vauss",
+    "url": "https://github.com/Timaga/noda-local-ai-notes",
+    "title": "Timaga/noda-local-ai-notes",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Fast Gaussian splat reconstruction for Blender, agents, and reusable 3D worlds The fastest Gaussian splat trainer. 5.4× faster training than gsplat-MCMC, with better perceptual quality on all seven comparison scenes. About half the GPU memory. Built for you and your agent. Give it a video. Get a world you can explore, film, bring into Blender—or turn into a playable voxel level. Picture 2 World: a",
+      "source_preview": "Local-first AI note-taking app for Windows: Markdown notes, a personal knowledge base, knowledge graph, semantic search and chat with cited sources. Local AI for your Markdown notes. Capture an idea. Find its connections. Ask your own library. Windows x64 · local inference · Markdown files · noncommercial source license Download Windows Setup (x64) · 1.0.2 release notes · User guide · Build from s",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
