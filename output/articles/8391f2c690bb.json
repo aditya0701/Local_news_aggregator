@@ -1,0 +1,10 @@
+{
+  "title": "punit2911/meridian-multimodal-rag",
+  "url": "https://github.com/punit2911/meridian-multimodal-rag",
+  "summary": "Evidence-grounded multimodal RAG for industrial maintenance documentation, with hybrid retrieval, citations, conflict resolution, claim verification and abstention. Includes an optional tool-using LLM agent and deterministic offline mode.",
+  "image": "https://opengraph.githubassets.com/1/punit2911/meridian-multimodal-rag",
+  "source": "github",
+  "language": "hindi",
+  "id": "8391f2c690bb",
+  "first_seen": "2026-11-17T10:54:15.950748+00:00"
+}

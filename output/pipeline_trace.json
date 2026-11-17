@@ -1,536 +1,681 @@
 [
   {
-    "url": "https://qwen.ai/blog?id=qwen4-max",
-    "title": "Qwen4-Max",
+    "url": "https://www.cs.cmu.edu/learn/",
+    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1881,
+      "source_preview": "About Education Research News & Events Industry & Entrepreneurship Giving Free lectures now on YouTube. Free courseware coming next. Watch our faculty teach across AI, robotics, systems, biology, and more, from seven departments that lead their fields. 10-605 William Cohen 15-110 Franceska Xhakaj 17-214 Hammad Ahmad 15-442 Tianqi Chen and Zhihao Jia 17-635 Swarnalatha Ashok and Scott Pavetti 17-64",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+    "title": "Optimizely compromised, served malware on Zoom, GitLab",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations through the Optimizely Web experimentation platform. The list includes some of the most visited sites in the world: Zoom, the BBC, CNN, Salesforce, GitLab, IKEA, HSBC, Equifax, Air France-KLM, Ledger and Peacock . This is exactly the kind of attack Report URI is designed to detect. Our platform can identify unexp",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://support.apple.com/en-us/149699",
+    "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Starting in macOS 27.3, when some apps ask for Full Disk Access or System & App Protection Override, you have the option to choose only specific protected folders or apps for the app to access. This puts you in control of what data is accessible to the app. Apps that might ask for Full Disk Access or System & App Protection Override include backup apps, disk cleaners, file indexers, security apps,",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+    "title": "How the Claude Code team thinks about verification",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest. On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude . At this scale, how we equip our agents to verify their work with evidence becomes extremely important. Verification loops are the building",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+    "title": "Why 3dfx 1 cards had such a washed out color output?",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 46,
+      "source_preview": "See what’s happening and join the conversation",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+    "title": "The open-source movement wants Jensen Huang back",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Supporters are signing a petition to reinstate Huang. But findings on Nvidia chips in China and a new Commerce rule are threatening open-source AI’s reputation and progress regardless. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circu",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+    "title": "Building trustworthy AI by fencing it in, not predicting it",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Sponsored While we’re used to predictable technology, AI challenges that assumption. Therefore, the goal must be bounded, observable, and controllable AI. Provided by UL Solutions In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+    "title": "The Download: testing tech promises and searching for cognitive immortality",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Plus: Jensen Huang is considering a comeback as Nvidia CEO. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. How do you measure progress towards the future? In the Impossible issue of MIT Technology Review , our series “ Are we there yet? ” examines how far six potentially transformative technologies have com",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1922,
+      "source_preview": "Posted: Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue. The startup came out of stealth in Augu",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+    "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Cybersecurity and automation giant Infoblox has confirmed a cybersecurity incident, during which hackers accessed company information through one of its technology vendors. Infoblox is a privately held cyber giant that provides companies cybersecurity and networking services, such as domain name resolution and identity and user access management. In a statement, a spokesperson for Infoblox told Te",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. For the first time, Kress will be running through the numbers and sharing guidance without Nvidia’s charismatic but now-disgraced founder Jensen Huang. Huang was forced to resign last week after he admitted to having an affair with ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "OpenAI is facing a new lawsuit from the California Attorney General’s office , alleging that the company’s training practices and lax security pose an ongoing danger to the public. At the center of the case is the July 2026 Hugging Face compromise , in which a pre-release model within OpenAI compromised both companies’ security systems to complete a training benchmark. In its official report on th",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+    "title": "Uber says hackers stole information on close to 150,000 driver’s licenses during data breach",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Uber is notifying close to 150,000 drivers that their personal and driver’s license information was stolen during an October data breach at one of the company’s tech providers. In notices filed this week with several U.S. attorneys general, including California and Iowa , the ride-hailing giant said it was notified on October 9 by the provider that hackers broke in and stole internal credentials, ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
+    "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "One of the top complaints from tech reviewers about Apple’s new foldable, the iPhone Duo, has been its reliance on Touch ID, a technology that’s been largely replaced by Face ID across the company’s iPhone lineup. With Monday’s release of iOS 27.3 beta for developers, Apple is addressing that complaint with a new “face unlock” feature that lets iPhone Duo users unlock their phones using the front ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+    "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "U.S. President Donald Trump told reporters on Monday that he does not believe the country’s national security was put at risk as a result of former Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy. “It was not put at risk,” Trump said when asked by reporters in light of his own friendship with Huang. “Our country is now stronger than ever before. And you know, China plays games with us",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+    "title": "Island is a new screen-time app that turns staying off your phone into a game",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "A new startup is taking a different approach to helping people manage their screen time. Instead of blocking apps or restricting the phone’s use after a set period, an app called Island encourages you to meet your screen time goals by way of a farming simulator game. Yes, a game! Island works by rewarding you when you’re disciplined enough to meet your goals with a “credit score” that increases yo",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/",
+    "title": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin gigafactory expansion",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Just two months after putting its first Cybercabs on the road, Tesla is making a multibillion-dollar bet on mass production of the golden-hued, two-seat autonomous vehicles. The company announced Monday that it will spend €3 billion ($3.3 billion) to expand its Berlin gigafactory, with plans to begin building Cybercabs there in 2029. The new building in Grünheide, just east of Berlin, will be capa",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+    "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2219,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Arion Kurtaj leaked 90 videos of GTA VI years before its release. Arion Kurtaj leaked 90 ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+    "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2271,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Transportation Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Mass Transit Is everything down right now? Is everything down right now? Posts from this author",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
+    "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Get Huge: Looksmaxxing to Death gets at the heart of how influencers are radicalizi",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+    "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Altman suggested we all ‘share this memory’ and said, ‘I think the home tinkering is great.’ Altman su",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
+    "title": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2465,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Sony is celebrating the shopping holiday with discounts on titles both new and old. S",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy They may have a point.﻿ They may have a point.﻿ Posts from this author will be added to your dail",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/",
+    "title": "Meet the new James Bond: Robert Pattinson",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Producers cite “his fearlessness as an actor, his self-deprecating wit” and continual reinvention as factors. The Internet has been abuzz for months about which actor would replace Daniel Craig as British agent 007 James Bond in the franchise. We finally have the answer: Robert Pattinson , who built on his 2005 role as the doomed Cedric Diggory in Harry Potter and the Goblet of Fire into an illust",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/strengthening-online-child-safety",
+    "title": "Strengthening the fight against online child sexual abuse with new tools and support",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/strengthening-online-child-safety"
     }
   },
   {
-    "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
-    "title": "Old Bitly links are being hijacked",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Update, 15 November, 23:40 UTC: CNN reports redirected Bitly links in old posts from Bill Gates, Justin Trudeau, Mike Pence, the FBI and the US Department of Defense as well. Our third check of the Trump links, at 23:35 UTC, found nothing new: 49 links re-created years after their tweets still work. Update, 15 November, 22:30 UTC: Bitly has confirmed the problem. In a post on X at 19:13 UTC it sai",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-    "title": "What's Next for Nvidia?",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Enter your email address to subscribe to this blog and receive notifications of new posts by email. Email Address Sign me up! Nvidia’s board announced that Jensen Huang had resigned 33 years after he co-founded the company. What happens to a company when a visionary CEO is gone? Most often innovation dies and the company coasts for years on momentum and its brand. Rarely does it regain its former ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
-    "title": "Researchers track whole body movement with just a smartwatch",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "For the first time, researchers can track the movement of a person’s entire body with ultrasonic sound waves, using just an off-the-shelf smartwatch and a lightweight artificial intelligence model – all while ensuring privacy and efficiency. The new technology, called EchoMotion, was developed by Cornell’s Smart Computer Interfaces for Future Interactions (SciFi) Lab , directed by Cheng Zhang , as",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-    "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1069,
-      "source_preview": "Below are the major changes of the released versions and links to more detailed release notes. Today, we are releasing 0.4.9.17 , which includes a series of security fixes. One fix in particular is especially important for relay DoS defenses related to IPv6 handling. This release comes in rapid response to the ongoing DDoS attack on the network, which has affected most relay operators. This is not",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://bruceroettgers.eu/blog/protomaps/",
-    "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "PMTiles is a tile format which works via HTTP Range requests and can be deployed as a single file to a storage bucket. // contents I came across Protomaps in research for my latest project, Mapboard . 1 For most non-commercial projects, commercial APIs become prohibitively expensive if you ever go viral (Mapbox, for instance, charges $5 per 1k map loads once youâve exhausted the free tier). PMTi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
-    "title": "Preserving 30 years of Salon journalism",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1248,
-      "source_preview": "When Salon launched in 1995, the web was still finding its voice. One of the first major publications born on the internet, Salon helped define a new kind of digital journalism, bringing together politics, culture, criticism, and ideas for a generation of online readers. After 31 years, Salon has announced that it is ceasing publication . But thanks to web archiving, the stories don’t have to disa",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
-    "title": "A short explainer on how El Niño works [video]",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "title": "Science at the Frontier: How scientists use ChatGPT",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/science-at-the-frontier"
     }
   },
   {
-    "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
-    "title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/business/customer-stories/revolut",
+    "title": "How Revolut raises ambition without lowering the bar",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Operator-led VC firm Plural has raised €1 billion ($1.1 billion) in new capital, joining a growing cohort of larger European funds that also includes Mundi Ventures’ Kembara and EQT-managed Scaleup Europe Fund . Despite its size, Plural’s fundraise isn’t (only) for a growth fund: two thirds will go to its third early-stage fund, and one third to a new “opportunities” fund making select follow-on i",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Bharat Semi , an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere. The investment comes as the nearly five-year-old, pre-revenue startup says it has secured design wins with U.S. defense technology company General Atomics and India’s Kaynes Semicon. Its image sensors, however, r",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-    "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once. In a single sketch, we got James Austin Johnson as Peter Thiel, Ben Marshall as Sam Altman, Jane Wickline as Dario Amodei, Jeremy Culhane as Elon Musk, Andrew Dismukes as Mark Zuckerberg — and eventually, the recently depa",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
-    "title": "The tech products we enthusiastically recommend this holiday season",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "We’ve been reviewing a bunch of new gadgets and hardware at TechCrunch this year: dumb phones , bird feeders , health trackers , slushy machines , AI mattress pads , you name it. Sometimes we think they’re unnecessary and expensive , but other times, we try out devices that we love so much that we go out and buy them ourselves. If these products can impress a group of (sometimes) curmudgeonly tech",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-    "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News The study will be conducted through a new app where participants can ask health questions and rate the",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
-    "title": "Listen to this: Armand Hammer’s Snakes &#038; Ladders",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Column Posts from this topic will be added to your daily email digest and your homepage feed. See All Music Armand Hammer’s latest album is among their best. Posts from this author will be added t",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
-    "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2605,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech ULA said an ‘anomaly’ led to its Vulcan vehicle failing to deliver its payload to orbit. ULA said",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-    "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2726,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Following revelations about Jensen Huang’s relationship with a suspected Chinese spy Congress wants ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
-    "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday It comes with a built-in LED light, 16 interchangeable bits, and three torque s",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
-    "title": "Apple’s first smart glasses are coming together",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2892,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple Rumors The company’s Siri AI-powered eyewear is set to be announced at WWDC next year. The company",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
-    "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Culture Normal Gossip host Rachelle Hampton is obsessed with I Like to Watch and splurges on g",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
-    "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday The excellent OLED offers great contrast and plenty of gamer-ready features at ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
-    "title": "The Sony Aibo was a robot revolution dressed like a dog",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2767,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Podcasts Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Robot On Version History: How a robot dog became a family member, but not exactly a huge hit. On Vers",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/revolut"
+    }
   },
   {
     "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -543,68 +688,45 @@
     }
   },
   {
-    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-    "title": "A step toward defining the Standard Model on a lattice",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "title": "Our first phase of embedded assessments",
     "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/step-toward-defining-the-standard-model"
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/our-first-phase-of-embedded-assessments"
     }
   },
   {
-    "url": "https://openai.com/index/our-new-blog-for-science",
-    "title": "Our new blog for science",
-    "outcome": "skipped_no_content",
+    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+    "title": "sybil-solutions/inference-optimisation-skill",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/our-new-blog-for-science"
-    }
+      "scraped_chars": 2152,
+      "source_preview": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization An agent skill for hill-climbing the speed of a local LLM server on any hardware and any quantization. It covers: It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://openai.com/business/customer-stories/shield",
-    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/shield"
-    }
-  },
-  {
-    "url": "https://openai.com/business/customer-stories/amplitude",
-    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/amplitude"
-    }
-  },
-  {
-    "url": "https://openai.com/business/customer-stories/gondola",
-    "title": "Gondola doubles revenue as its team builds more with Codex",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/gondola"
-    }
-  },
-  {
-    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-    "title": "Holiday Extras is rethinking what it can build with Codex",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/holidays-extras-codex"
-    }
-  },
-  {
-    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+    "title": "weldbladesmithwharf/Gemini-Config-Checker-",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
@@ -630,12 +752,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/violetkomodolimit/ai--manus2.0",
-    "title": "violetkomodolimit/ai--manus2.0",
+    "url": "https://github.com/Domush/antigravity-plugin-context-mode",
+    "title": "Domush/antigravity-plugin-context-mode",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2820,
-      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
+      "scraped_chars": 2260,
+      "source_preview": "Reduce context size by 90%+ *and* make your agent smarter. Antigravity Context Mode is a local-first plugin built specifically for the Google Antigravity App. It prevents terminal commands, build logs, and multi-megabyte files from flooding your conversation history, saving thousands of tokens per turn and stopping \"agent amnesia\" in its tracks. Stop context bloat. Save 90%+ of your prompt tokens.",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -657,39 +779,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/Danuzco/bayesian-modelling-notes",
-    "title": "Danuzco/bayesian-modelling-notes",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2326,
-      "source_preview": "Handwritten lecture notes and Jupyter notebooks for the Bayesian Modelling course of the Doctorado en Inteligencia Artificial (Chile): probability, conjugate models, Kalman filters, Gaussian processes, MCMC, variational inference, hierarchical models. Lecture notes and code for the Bayesian Modelling course of the Doctorado en Inteligencia Artificial (PhD in Artificial Intelligence), Chile by Dani",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Timaga/noda-local-ai-notes",
-    "title": "Timaga/noda-local-ai-notes",
+    "url": "https://github.com/punit2911/meridian-multimodal-rag",
+    "title": "punit2911/meridian-multimodal-rag",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Local-first AI note-taking app for Windows: Markdown notes, a personal knowledge base, knowledge graph, semantic search and chat with cited sources. Local AI for your Markdown notes. Capture an idea. Find its connections. Ask your own library. Windows x64 · local inference · Markdown files · noncommercial source license Download Windows Setup (x64) · 1.0.2 release notes · User guide · Build from s",
+      "source_preview": "Evidence-grounded multimodal RAG for industrial maintenance documentation, with hybrid retrieval, citations, conflict resolution, claim verification and abstention. Includes an optional tool-using LLM agent and deterministic offline mode. Meridian answers questions about industrial maintenance documentation : PDF manuals (text, tables, charts, diagrams, warnings), scanned pages, Word service bulle",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/aryamandarda/tamserve",
+    "title": "aryamandarda/tamserve",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks. Live, multi-camera tracking with SAM 2, on one GPU or many. SAM 2 and its smaller sibling EdgeTAM can track anything you point at, but their code was written for one recorded video at a time. tamserve i",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",

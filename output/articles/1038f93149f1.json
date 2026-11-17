@@ -1,0 +1,10 @@
+{
+  "title": "Domush/antigravity-plugin-context-mode",
+  "url": "https://github.com/Domush/antigravity-plugin-context-mode",
+  "summary": "Reduce context size by 90%+ *and* make your agent smarter. Antigravity Context Mode is a local-first plugin built specifically for the Google Antigravity App. It prevents terminal commands, build logs, and multi-megabyte files from flooding your conversation history, saving thousands of tokens per turn and stopping \"agent amnesia\" in its tracks.",
+  "image": "https://opengraph.githubassets.com/1/Domush/antigravity-plugin-context-mode",
+  "source": "github",
+  "language": "hindi",
+  "id": "1038f93149f1",
+  "first_seen": "2026-11-17T10:54:15.950748+00:00"
+}

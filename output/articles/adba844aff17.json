@@ -1,0 +1,12 @@
+{
+  "title": "Building trustworthy AI by fencing it in, not predicting it",
+  "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+  "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/BA5098150_Post-NEXUS_MIT_1920x1080.jpg?resize=1200,600",
+  "published": "Mon, 16 Nov 2026 16:04:28 +0000",
+  "source": "rss",
+  "feed_name": "MIT Technology Review",
+  "language": "hindi",
+  "id": "adba844aff17",
+  "first_seen": "2026-11-17T10:54:15.950748+00:00"
+}

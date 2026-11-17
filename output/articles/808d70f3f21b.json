@@ -1,0 +1,12 @@
+{
+  "title": "Why 3dfx 1 cards had such a washed out color output?",
+  "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+  "summary": "Both NeXT and 3DFX tried to “do the right thing” with color spaces, and it wound up generally making them look worse than competing options. I didn’t really understand it properly until years later. It is natural to think that a pixel with a value of 1.0 is emitting twice the photons as a pixel wi…",
+  "image": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg",
+  "published": "Tue, 17 Nov 2026 00:16:24 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "808d70f3f21b",
+  "first_seen": "2026-11-17T10:54:15.950748+00:00"
+}
