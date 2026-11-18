@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-17T10:56:39.320107+00:00",
-  "total": 3927,
+  "generated": "2026-11-18T10:27:15.212734+00:00",
+  "total": 3964,
   "categories": {
-    "general": 2622,
+    "general": 2659,
     "ban_regulation": 281,
     "model_release": 382,
     "repo_analysis": 562,
@@ -12,7 +12,7 @@
     {
       "month": "2026-11",
       "file": "2026-11.json",
-      "count": 589
+      "count": 626
     },
     {
       "month": "2026-10",
