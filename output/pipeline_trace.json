@@ -1,570 +1,637 @@
 [
   {
-    "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
-    "title": "Codeberg.org Not Reachable",
+    "url": "https://verialabs.com/ruby2shell/",
+    "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
     "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1669,
+      "source_preview": "A one-byte heap overflow to remote code execution in Ruby's string case conversion. Reachable without authentication in the default configuration of common Ruby web frameworks and self-hosted software. The bug is reachable from the following frameworks in their default configuration. Other frameworks are not exposed by default, but application code that upcases strings received in a legacy encodin",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.php.net/releases/8.6/en.php",
+    "title": "What's New in PHP 8.6",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "PHP 8.6 is a major update of the PHP language , with new features including Partial Function Application , a new Duration class, a Polling API , and a new clamp() function PHP 8.6 has not been released yet. It will be released on November 19, 2026. More expressive code , stronger types , and scalable I/O . Allows some of a function's arguments to be provided in advance, returning a Closure that ac",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+    "title": "Distributed, high-performance blob storage on SQLite",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "19 Nov 2026 TLDR; We built Blobasaur, a sharded, distributed, lightweight blob storage server on top of SQLite to solve our high-throughput blob read/write usecase. JSON blobs varying from a few KBs to MBs are now written and read thousands of times per second on commodity hardware while maintaining single-digit millisecond latency. On Kite , our trading platform with ~20 million customers, users ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
+    "title": "SSD prices will start going down the second half of next year",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Published September 17, 2026 • 11 min read • Forecasts and price data checked September 2026 Photo: Sandisk on Unsplash . It is the question we get asked more than any other right now, and it is the most searched phrase that brings people to this blog. So here is the straight answer: SSD prices should start to ease in the second half of 2027. Hard drives will take longer, probably into 2028, becau",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://kapteko.com/15-million-webservers/",
+    "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Put a web server online and everyone starts trying to hack it. Why? A basic rule of economics. Short supply, big demand - there arenât enough web servers for everyone. Letâs run a web server for every human on the planet, all 8 billion of them. I couldnât get funding, so weâre bootstrapping. The goal is to run 15 million web servers on one VM with 10GB of RAM and 1 CPU core. If we succeed,",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "title": "Unauthenticated remote code execution in Nginx",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Wiz Research, Ikotas Labs, Metnir, Rapid7, and Xint independently uncovered two critical remote code execution vulnerabilities in NGINX, software used to receive and route traffic to production applications and APIs. NGINX is a common default for the front door of modern web architectures, where it handles HTTPS and routes incoming traffic to the right application or API. As the world's most widel",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://colo.to/firstping.html",
+    "title": "The first ping from Tonga (1997)",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "In January 1997, we sent a ping from the Kingdom of Tonga and got a reply. The Kingdom finally had a permanent connection to the internet, 64 kb/s over a satellite link. Getting there had involved an assortment of secondhand hardware, improvised networks, a Crown Prince, and some unauthorized climbing on rooftops. When I began spending time in the Kingdom of Tonga in the early 90s, Cable & Wireles",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+    "title": "Multiple vulnerabilities in Regexp and String case conversion",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2861,
+      "source_preview": "Posted by mame on 18 Nov 2026 Seven vulnerabilities have been discovered in Ruby’s regular expression engine and in the case conversion of strings. We are aware of PoCs that prove some of them can be used to trigger remote code execution. We have released Ruby 4.0.10, 3.4.13 and 3.3.14 to fix them. We strongly recommend upgrading. CVE identifiers have been requested for these vulnerabilities but h",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+    "title": "The AI Hype Index: AI is everywhere",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1824,
+      "source_preview": "MIT Technology Review ’s highly subjective take on the latest buzz about AI Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and pe",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+    "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Microsoft CEO Satya Nadella explained Wednesday why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff. Short answer: AI, but not, he insists, in the way you might expect. He’s not saying he’s replacing employees with AI, especially software engineers. He’s saying he’s reorganizing Micro",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
+    "title": "Elon Musk says: ‘I’m not MAGA’",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Elon Musk, who spent $277 million to get Donald Trump reelected president in 2024 and who, during that campaign, declared himself “dark MAGA” and who, after the election, was subsequently photographed sporting a cartoonishly large MAGA hat while visiting the Oval Office, has some news for Americans: None of that necessarily makes him MAGA. “I’m not MAGA,” Musk declared Wednesday during a conversat",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+    "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "During his appearance at The New York Times’ DealBook Summit on Wednesday, Microsoft CEO Satya Nadella lamented the fact that a lot of America’s software systems — including those governing everyday hardware and transportation systems — suffer from unfixable software vulnerabilities that, in the age of AI-aided cyberattacks, are just waiting to be exploited. “Remember, there is a lot of stuff in o",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/palmer-luckey-doesnt-deny-that-hes-a-prepper/",
+    "title": "Palmer Luckey doesn’t deny that he’s a prepper",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Defense mogul Palmer Luckey — whose $90 billion drone and weapons startup Anduril is flush with government contracts — is still the kind of guy who prepares for the worst. During Luckey’s conversation with Andrew Ross Sorkin at The New York Times’ DealBook Summit on Wednesday, the billionaire implied that Americans should batten down the hatches in case there are rough times ahead. Luckey himself ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+    "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "During Nvidia’s quarterly call on Tuesday, CFO-turned-interim-CEO Colette Kress dropped this little oddity: She said Nvidia wouldn’t be immediately filing its quarterly results report, known as a 10-Q, with the SEC. “We plan to file our 10-Q in the coming weeks.” And she offered no reason why. The delay was widely noticed. Among the many comments on X about it , economic and investment analyst Edw",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+    "title": "The nation’s largest school districts consider ditching Google Search",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Google is trying to force Gemini on schools, and they’re not thrilled. Google is trying to force Gem",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
+    "title": "Democrats skip a vote on adding Brendan Carr’s adviser to the FCC",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Politics Trump is stacking the FCC with Republicans, even as the Democrats boycott. Trump is stacking",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
+    "title": "Absolute Batman can save DC Studios",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Comics Posts from this topic will be added to your daily email digest and your homepage feed. See All Film Skydance’s cinematic superhero universe could get back on track through DC’s progressive ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+    "title": "Trump’s latest land grab is an AI hub in the Philippines",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Facing opposition at home, Trump is eyeing the former US colony to build chip fabs and data cente",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
+    "title": "Sony’s impressive Bravia 8 II OLED hits a new low price ahead of Black Friday",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All TVs Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping This screen is one the best we’ve tested, and the lower price makes it more competitive ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
+    "title": "Instagram now lets you edit your stories after you post them",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2548,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apps You can edit the text, music, stickers, and drawings in your Stories for up to 15 minutes after shar",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
+    "title": "The leaked Lenovo Legion Go Beam could be the affordable handheld we need",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Lenovo It looks comparatively cheap — and that might be a good thing in this economy. It looks comparat",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+    "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Congress is scrambling to provide legal recourse for deepfakes and online grooming. Congress is sc",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/the-silent-consensus",
+    "title": "The Silent Consensus",
+    "outcome": "skipped_no_content",
     "stage0": {
       "scraped_chars": 0,
       "source_preview": "",
-      "scrape_error": "no readable body text found (possibly JS-rendered or empty page)",
-      "used_summary_fallback": true,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/the-silent-consensus"
+    }
   },
   {
-    "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-    "title": "ID.me terms required for IRS sign-in",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "title": "Research acceleration: The jagged frontier",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Taxpayers who sign in to Internal Revenue Service (IRS) online services with ID.me , a private-sector sign-in provider, [ 1 ] [ 2 ] use it under ID.me's own Terms of Service, which send disputes outside small claims court to a neutral arbitrator instead of a judge or jury unless the user opts out within 30 days of accepting them. [ 3 ] ID.me's Privacy Policy says it \"may use information for market",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/research-acceleration-jagged-frontier"
+    }
   },
   {
-    "url": "https://revscope.co/blog/search-seo-geo-2026/",
-    "title": "Google's AI answers reducing search traffic by 40%",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/business/customer-stories/sumitomo-life",
+    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Google's AI answers are taking clicks from websites in the search results. In a randomized experiment, researchers hid AI Overviews from some US desktop users. Comparing them with users who still saw Overviews shows that an Overview cuts clicks to outside websites by about 40%. Those Overviews now appear on more than half the US keywords DataForSEO tracks, up from 6% two years ago. The industry's ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/sumitomo-life"
+    }
   },
   {
-    "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-    "title": "Why is Gemini 4 Carbon taking so long?",
-    "outcome": "stage2_failed",
+    "url": "https://openai.com/index/inside-the-codex-sandbox",
+    "title": "Inside the Codex sandbox",
+    "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "November 2026 While benchmarking Gemini 4 Carbon on one of our private evals, we found something surprising: it spent close to an hour completing tasks that routinely took Opus and Astra only a few minutes: Left is faster; lower is cheaper. Turns out we weren't alone in noticing this. I don't really know how to properly emphasize this. Gemini 4 Carbon is unacceptably slow in real world usage. Gemi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.siderolabs.com/talos-linux",
-    "title": "Talos Linux",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Kubernetes · Talos Linux Talos Linux is the immutable, API-driven operating system purpose-built for Kubernetes. No SSH, no shell, no package manager. Just the binaries needed to run your fleet, from bare metal to the edge. Free & Enterprise Talos Linux is free and open source under MPL-2.0. Talos Enterprise Linux is the same OS. What the enterprise tier adds is proof, indemnity, and someone to ca",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://energy-based-reasoners.github.io/",
-    "title": "Energy-Based Reasoners: 385x more efficient inference",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "TL;DR – We introduce Energy-Based Reasoners (EBRs) , reasoning models that learn an energy function over latent reasoning states and formulate looped updates as gradient descent on this energy. Its value scores candidate predictions without requiring an external verifier, while its gradient guides refinement and provides a natural signal for stopping. With only 1.8M parameters, EBRs achieve 99.9% ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
-    "title": "Roundtables: Inside the Quest for Cognitive Immortality",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1383,
-      "source_preview": "Watch a subscriber-only conversation exploring possible paths to keep your mind going. Available only for MIT Technology Review subscribers. Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Griggs and senior editor for biomedicine Ant",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
-    "title": "Hydropower hit record lows in the US Southwest this summer",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Drought conditions and low reservoir levels are affecting the renewable power source. The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released through turbines, ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-    "title": "Research Reports",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1043,
-      "source_preview": "As a subscriber, you now have access to 4 in-depth research reports on AI, energy, and climate tech. Only available to MIT Technology Review subscribers. To access a report, click on the corresponding image below. Ten years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible. An exclusive interview with Nick Cammarata, ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-    "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billion on Tuesday , up from the $22 billion reported in January. The increase includes both new investments and significant markups of existing portfolio companies. The company invested $16 billion into equities in the past quarter alone, it said, and $58 billion in the past nine months of its fisca",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
-    "title": "Stripe backer Atomico calls for Europe to own its success stories",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Europe is home to many of the world’s fastest growing companies of all time, veteran VC firm Atomico highlighted in its latest annual State of European Tech report . The report, for instance, notes that the likes of Black Forest Labs and Microagi have reached $100 million in revenue in months, not years. “I think we can put to bed the idea that there’s a fundamental reason or constraint on the abi",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-    "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2741,
-      "source_preview": "Anthropic on Tuesday disclosed more details about the biggest investment agreements with major cloud providers Amazon and Google. While we already knew that Amazon stood to make a killing on its Anthropic investments from the IPO, Anthropic revealed that Amazon’s total stake will come in at just shy of 15% (14.7% to be exact). Even more interesting is that Amazon could have, if it wished, owned an",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
-    "title": "Google joins the tech outage trend by announcing it’s not having one",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Was Google feeling a little left out of the recent wave of tech outages? The company took to X on Tuesday to announce that its Gmail service is actually running just fine. In a post, the company said it was not currently seeing evidence of a broad Gmail service disruption and reminded users they could always check Gmail’s real-time status on its online dashboard . As it turns out, the company was ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
-    "title": "Waymo suspends freeway rides nationwide after California DMV order",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Waymo robotaxis are no longer allowed to operate on California freeways after the state’s Department of Motor Vehicles restricted the Alphabet-owned company’s operations following several incidents that raised safety concerns. California’s DMV, which regulates the testing and deployment of autonomous vehicles in the state, issued the operational restrictions on Waymo on November 11. However, the r",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-    "title": "Satya Nadella says he’s AGI-pilled now",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Microsoft But he doesn’t think Claude is conscious. But he doesn’t think Claude is conscious. Posts from th",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
-    "title": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Bezos said that he was immediately drawn to Robert Pattinson’s performance during scre",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
-    "title": "iFixit’s Apple HomeView teardown reveals a device that will be difficult to repair",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News Apple’s inroads on designing repairable devices seems to have been abandoned with the HomeView.﻿ ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-    "title": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2960,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Apple While $50 might not feel like much, it brings the laptop closer to its original launch price. Wh",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
-    "title": "Nike’s new air sole technology can mix soft and firm cushioning",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Design Posts from this topic will be added to your daily email digest and your homepage feed. See All News The first shoes with Nike’s new Tuned Air technology will be available for runners starting in lat",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-    "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Meta’s chief AI officer posted an AI video of a top competitor. It’s allowed under Meta’s AI policy.",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
-    "title": "Instagram is helping creators crack down on copycat videos",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2794,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Meta Meta will let creators decide to hide copies of their videos flagged by a new ‘content protection’ f",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/inside-the-codex-sandbox"
+    }
   },
   {
     "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
@@ -574,6 +641,16 @@
       "scraped_chars": 0,
       "source_preview": "",
       "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+    }
+  },
+  {
+    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "title": "Advancing chip design with OpenAI models",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/advancing-chip-design-with-our-models"
     }
   },
   {
@@ -587,62 +664,12 @@
     }
   },
   {
-    "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-    "title": "Introducing ChatGPT for Sales",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/introducing-chatgpt-for-sales"
-    }
-  },
-  {
-    "url": "https://openai.com/index/astra-law-6-2",
-    "title": "Astra for Law leads in legal intelligence",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/astra-law-6-2"
-    }
-  },
-  {
-    "url": "https://openai.com/index/introducing-openai-for-chile",
-    "title": "Introducing OpenAI for Chile",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/introducing-openai-for-chile"
-    }
-  },
-  {
-    "url": "https://openai.com/index/strengthening-online-child-safety",
-    "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/strengthening-online-child-safety"
-    }
-  },
-  {
-    "url": "https://openai.com/business/customer-stories/revolut",
-    "title": "How Revolut raises ambition without lowering the bar",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/revolut"
-    }
-  },
-  {
-    "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
-    "title": "TurtleReside/Gemini-Config-Checker-",
+    "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "title": "Genie 4 is now available",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) English · فارسی Find proxy configs that actually get you into Google AI Studio and Gemini , by testing each one the way a person would: in a signed-in browser, through the route you will really use. Version 0.1.0, early pre-release. It works end to",
+      "source_preview": "Nov 18, 2026 Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery. Diego Rivas Group Product Manager, Google DeepMind Pavan Kumar Group Product Manager, Google Labs We are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and interactive world generation. You can now ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -664,147 +691,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/boringmarketer/boring-marketing-skills",
-    "title": "boringmarketer/boring-marketing-skills",
+    "url": "https://github.com/ATLURI0001/NeuroMirror",
+    "title": "ATLURI0001/NeuroMirror",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 2261,
-      "source_preview": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. Free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep pack for local businesses and the people who market them. 32 skills for Claude Code, Codex, Cursor and other agen",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Tonephorepair/ai--manus2.0",
-    "title": "Tonephorepair/ai--manus2.0",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2820,
-      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Nihongo-editor/crypto-accumulation-scanner",
-    "title": "Nihongo-editor/crypto-accumulation-scanner",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Community-driven crypto accumulation scanner for Discord and Telegram rich Crypto Accumulation Scanner is a community-built tool that quietly watches market for coiling in long, flat bases before a breakout, then checks news, sector momentum, and futures positioning to send a ranked shortlist straight to your Telegram every four hours. It's driven by feedback and testing of everyone who uses it, b",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/yzsind/mydb",
-    "title": "yzsind/mydb",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "A high-performance MySQL-compatible database for HTAP and AI agents Mixed transactional and analytical workloads, with native AI retrieval. A high-performance MySQL-compatible database for HTAP and AI agents Mixed transactional and analytical workloads, with native AI retrieval. English · 简体中文 Download · Why MyDB · Performance evaluation · Testing · Quick Start · Built for AI Agents · Documentatio",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/Golden-66/agentic-rag-kb",
-    "title": "Golden-66/agentic-rag-kb",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1000,
-      "source_preview": "基于 Agentic RAG 的企业级智能知识库：混合检索 + Reranker + LangGraph Agent + SSE 流式问答 基于 Agentic RAG 的企业级智能知识库：文档解析 → 标题层级父子分块 → Dense + Sparse + BM25 混合检索 → Reranker 重排 → LangGraph 路由 Agent（意图识别 / 子问题拆解 / 迭代纠错 / HyDE）→ SSE 流式回答。 LangChain · LangGraph · FastAPI · Milvus · BGE-M3 · BGE-Reranker-v2-m3 · MinerU · Redis · SQLite · Streamlit · Docker 首次启动后端会下载 BGE-M3 与 BGE-Reranker 模型（数 GB），请耐心等待；国内网络可在 .env 中加 HF_END",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "de",
-      "translated_to_english": true
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/tejedabrayan024-ship-it/job-search-bot",
-    "title": "tejedabrayan024-ship-it/job-search-bot",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 3000,
-      "source_preview": "Job Search Bot: Community-Driven Job Alerts with Tailored Resumes and Cover Letters Job Search Bot watches DOU, Djinni, Jooble, RemoteOK, and Work.ua so you don't have to, pulling fresh listings and filtering them against your own profiles and keywords. New and reopened postings land in your Telegram chat as they appear, complete with resume and cover-letter tailoring so you can apply while the li",
+      "scraped_chars": 1823,
+      "source_preview": "Real-time webcam-driven anatomical visualization with interactive X-ray simulations of cranial, neural, and muscular structures. 🚀 Launch Live WebAR App • 🧪 Try #demo Mode (No Camera Required) • ✨ Explore Features • 📐 Architecture NeuroMirror turns any standard web browser and webcam into an interactive, high-precision augmented reality anatomical mirror . Look directly into your camera, and Neuro",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",

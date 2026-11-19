@@ -1,0 +1,12 @@
+{
+  "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+  "url": "https://verialabs.com/ruby2shell/",
+  "summary": "Ruby2Shell (GHSA-34m4-m9fh-gqp5): a one-byte heap overflow in Ruby's string case conversion, reachable without authentication in common Ruby web frameworks and self-hosted software.",
+  "image": "https://verialabs.com/og/ruby2shell.png",
+  "published": "Thu, 19 Nov 2026 05:09:11 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "7fa09e82e434",
+  "first_seen": "2026-11-19T10:33:29.598293+00:00"
+}
