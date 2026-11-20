@@ -1,0 +1,12 @@
+{
+  "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+  "url": "https://github.com/openssl/openssl/pull/33652",
+  "summary": "This fixes \"Buffer overflow in EVP_EncodeBlock()\" (CVE-2026-121481) by returning -1 for invalid inputs to EVP_EncodeBlock(): NULL input or output buffers, negative lengths, and lengths fo...",
+  "image": "https://opengraph.githubassets.com/0d0f95de2d0302fded681f2a6d34643f6b2491347718d7ab52647399c1aedece/openssl/openssl/pull/33652",
+  "published": "Fri, 20 Nov 2026 02:01:09 +0000",
+  "source": "rss",
+  "feed_name": "Hacker News",
+  "language": "hindi",
+  "id": "df98bcb7b8aa",
+  "first_seen": "2026-11-20T10:14:00.191904+00:00"
+}

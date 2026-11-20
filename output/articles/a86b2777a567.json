@@ -1,0 +1,10 @@
+{
+  "title": "mitdbg/pgvectorfast",
+  "url": "https://github.com/mitdbg/pgvectorfast",
+  "summary": "Postgres extension for vector search with performance enhancements built on Calico buffer pool.",
+  "image": "https://opengraph.githubassets.com/1/mitdbg/pgvectorfast",
+  "source": "github",
+  "language": "hindi",
+  "id": "a86b2777a567",
+  "first_seen": "2026-11-20T10:14:00.191904+00:00"
+}

@@ -1,38 +1,11 @@
 [
   {
-    "url": "https://verialabs.com/ruby2shell/",
-    "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1669,
-      "source_preview": "A one-byte heap overflow to remote code execution in Ruby's string case conversion. Reachable without authentication in the default configuration of common Ruby web frameworks and self-hosted software. The bug is reachable from the following frameworks in their default configuration. Other frameworks are not exposed by default, but application code that upcases strings received in a legacy encodin",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.php.net/releases/8.6/en.php",
-    "title": "What's New in PHP 8.6",
+    "url": "https://github.com/openssl/openssl/pull/33652",
+    "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "PHP 8.6 is a major update of the PHP language , with new features including Partial Function Application , a new Duration class, a Polling API , and a new clamp() function PHP 8.6 has not been released yet. It will be released on November 19, 2026. More expressive code , stronger types , and scalable I/O . Allows some of a function's arguments to be provided in advance, returning a Closure that ac",
+      "source_preview": "This fixes \"Buffer overflow in EVP_EncodeBlock()\" ( CVE-2026-121481 ) by returning -1 for invalid inputs to EVP_EncodeBlock() : NULL input or output buffers, negative lengths, and lengths for which the encoded size does not fit in an int . The OpenSSL SRT has asked for it to be fixed publicly; the advisory is still pending. Returning -1 for invalid inputs is the most straightforward fix, and match",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +27,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-    "title": "Distributed, high-performance blob storage on SQLite",
+    "url": "https://ffmpeg.org/download.html#release_9.1",
+    "title": "FFmpeg 9.1 'Gauss'",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "19 Nov 2026 TLDR; We built Blobasaur, a sharded, distributed, lightweight blob storage server on top of SQLite to solve our high-throughput blob read/write usecase. JSON blobs varying from a few KBs to MBs are now written and read thousands of times per second on commodity hardware while maintaining single-digit millisecond latency. On Kite , our trading platform with ~20 million customers, users ",
+      "source_preview": "FFmpeg only provides source code. Below are some links that provide it already compiled and ready to go. You can retrieve the source code through Git by using the command: FFmpeg has always been a very experimental and developer-driven project. It is a key component in many multimedia projects and has new features added constantly. Development branch snapshots work really well 99% of the time so p",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +54,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
-    "title": "SSD prices will start going down the second half of next year",
+    "url": "https://cpldcpu.com/2014/03/19/%c2%b5-wire-usb-on-an-attiny-10/",
+    "title": "µ-Wire – USB on an ATtiny 10",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Published September 17, 2026 • 11 min read • Forecasts and price data checked September 2026 Photo: Sandisk on Unsplash . It is the question we get asked more than any other right now, and it is the most searched phrase that brings people to this blog. So here is the straight answer: SSD prices should start to ease in the second half of 2027. Hard drives will take longer, probably into 2028, becau",
+      "source_preview": "Atmels AVR ATtiny10 are surprisingly powerful devices that come in an extremely tiny SOT23 package with only 6 pins. The have 1kb of flash, 32 bytes of SRAM and use the reduced AVR core which only supports 16 instead of 32 register. It seems like Atmels idea of these devices is to use them as an advanced blinker , and to replace tiny logic circuits. But other people have shown that much more is po",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,12 +81,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://kapteko.com/15-million-webservers/",
-    "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+    "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+    "title": "\"I can tell you wrote this yourself\"",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Put a web server online and everyone starts trying to hack it. Why? A basic rule of economics. Short supply, big demand - there arenât enough web servers for everyone. Letâs run a web server for every human on the planet, all 8 billion of them. I couldnât get funding, so weâre bootstrapping. The goal is to run 15 million web servers on one VM with 10GB of RAM and 1 CPU core. If we succeed,",
+      "source_preview": "19 Nov, 2026 Those were some of the first words my honours project supervisor said to me last week when we met to discuss a progress report I had written to mark the midway point of the project. It's a roughly 10-page report on the control of flapping-wing micro aerial vehicles - which is probably very boring unless you're particularly interested in that. I accidentally set the due date for the re",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,12 +108,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-    "title": "Unauthenticated remote code execution in Nginx",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "title": "Claude solves two open problems in the physics of black holes",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Wiz Research, Ikotas Labs, Metnir, Rapid7, and Xint independently uncovered two critical remote code execution vulnerabilities in NGINX, software used to receive and route traffic to production applications and APIs. NGINX is a common default for the front door of modern web architectures, where it handles HTTPS and routes incoming traffic to the right application or API. As the world's most widel",
+      "source_preview": "Science Nov 4, 2026 Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the f",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -162,12 +135,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://colo.to/firstping.html",
-    "title": "The first ping from Tonga (1997)",
+    "url": "https://blog.harrison.page/garage-door-spam/",
+    "title": "Garage Door Spam",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2220,
+      "source_preview": "16 Nov, 2026 In the beginning, my garage door opener worked fine. When the door opened or closed, I would get a notification. If I'm away from home and the door opens, something weird is going down. The \"myQ\" app generally worked although it was encrusted with ads: I continued using it because I trusted that notifications were meaningful... ...until recently (October 2026): This is un-fucking-acce",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+    "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "In January 1997, we sent a ping from the Kingdom of Tonga and got a reply. The Kingdom finally had a permanent connection to the internet, 64 kb/s over a satellite link. Getting there had involved an assortment of secondhand hardware, improvised networks, a Crown Prince, and some unauthorized climbing on rooftops. When I began spending time in the Kingdom of Tonga in the early 90s, Cable & Wireles",
+      "source_preview": "Plus: Anthropic has raised $81 billion in the biggest-ever IPO. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. Researchers in Australia claim they’ve kept a human liver alive on life support outside the body for seven weeks, smashing the previous record of about two weeks. They achieved the feat by connecti",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,66 +189,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-    "title": "Multiple vulnerabilities in Regexp and String case conversion",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2861,
-      "source_preview": "Posted by mame on 18 Nov 2026 Seven vulnerabilities have been discovered in Ruby’s regular expression engine and in the case conversion of strings. We are aware of PoCs that prove some of them can be used to trigger remote code execution. We have released Ruby 4.0.10, 3.4.13 and 3.3.14 to fix them. We strongly recommend upgrading. CVE identifiers have been requested for these vulnerabilities but h",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-    "title": "The AI Hype Index: AI is everywhere",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1824,
-      "source_preview": "MIT Technology Review ’s highly subjective take on the latest buzz about AI Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and pe",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-    "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+    "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+    "title": "A human liver has been kept alive outside the body for a record seven weeks",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Microsoft CEO Satya Nadella explained Wednesday why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff. Short answer: AI, but not, he insists, in the way you might expect. He’s not saying he’s replacing employees with AI, especially software engineers. He’s saying he’s reorganizing Micro",
+      "source_preview": "Technology called “machine perfusion” is creating the chance for more transplants—and daring new science. Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inv",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -270,12 +216,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
-    "title": "Elon Musk says: ‘I’m not MAGA’",
+    "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+    "title": "What a billion-dollar deal says about the US battery market",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Elon Musk, who spent $277 million to get Donald Trump reelected president in 2024 and who, during that campaign, declared himself “dark MAGA” and who, after the election, was subsequently photographed sporting a cartoonishly large MAGA hat while visiting the Oval Office, has some news for Americans: None of that necessarily makes him MAGA. “I’m not MAGA,” Musk declared Wednesday during a conversat",
+      "source_preview": "The deal between Sila and Panasonic Energy is a bright spot for the industry, and it shows how politics have shifted recently for batteries. After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -297,12 +243,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-    "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+    "url": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
+    "title": "The U.S. national cyber director is stepping down",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1999,
+      "source_preview": "Posted: White House national cyber director Sean Cairncross will be stepping down from his role, Axios reported. The news comes as Democrats prepare to take control of Congress and as businesses across the country report a flurry of technical outages whose cause remains unknown. Cairncross, the president’s principal adviser on national cybersecurity policy and strategy, took office in August 2025.",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+    "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "During his appearance at The New York Times’ DealBook Summit on Wednesday, Microsoft CEO Satya Nadella lamented the fact that a lot of America’s software systems — including those governing everyday hardware and transportation systems — suffer from unfixable software vulnerabilities that, in the age of AI-aided cyberattacks, are just waiting to be exploited. “Remember, there is a lot of stuff in o",
+      "source_preview": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders. As we previously reported, each of them ponied up about 3.4 million shares apiece to sell in the IPO. At the upgraded IPO price of $83 per share, that means they each pocketed about $280 million before underwriting fees and taxes. It looked like they had calculated the n",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +297,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/18/palmer-luckey-doesnt-deny-that-hes-a-prepper/",
-    "title": "Palmer Luckey doesn’t deny that he’s a prepper",
+    "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+    "title": "Anthropic rival says companies can (mostly) skip the pricey models",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Defense mogul Palmer Luckey — whose $90 billion drone and weapons startup Anduril is flush with government contracts — is still the kind of guy who prepares for the worst. During Luckey’s conversation with Andrew Ross Sorkin at The New York Times’ DealBook Summit on Wednesday, the billionaire implied that Americans should batten down the hatches in case there are rough times ahead. Luckey himself ",
+      "source_preview": "On the same day that Anthropic went public in the largest IPO on record, with investor enthusiasm for the AI lab through the roof, far away at the Slush startup conference in Helsinki, the topic du jour was open source everything. That’s the enormous opportunity being chased by companies like Fireworks AI , as enterprises seek ways to avoid paying frontier prices for their AI needs. Four-year-old ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,12 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-    "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+    "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+    "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "During Nvidia’s quarterly call on Tuesday, CFO-turned-interim-CEO Colette Kress dropped this little oddity: She said Nvidia wouldn’t be immediately filing its quarterly results report, known as a 10-Q, with the SEC. “We plan to file our 10-Q in the coming weeks.” And she offered no reason why. The delay was widely noticed. Among the many comments on X about it , economic and investment analyst Edw",
+      "source_preview": "CEO Elon Musk said SpaceX has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones inside buildings where signals from its Starlink satellites have trouble reaching. These mini cell towers are expected to go into production in 2027, Musk said, during an interview at the DealBook Summit this week. “We’ve got a plan that ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -378,12 +351,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-    "title": "The nation’s largest school districts consider ditching Google Search",
+    "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+    "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Google is trying to force Gemini on schools, and they’re not thrilled. Google is trying to force Gem",
+      "source_preview": "There’s a new way to keep an eye on your AI usage and when your limits reset: by using your Mac’s app icons. Yes, really! Designer Michael Flarup has just launched a new Mac utility called IconSwapper , which lets you replace any app’s official icon with one of your own creation. While you can use this tool to change your icons’ appearance, design, shading, and more, one of the more interesting wa",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -405,12 +378,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
-    "title": "Democrats skip a vote on adding Brendan Carr’s adviser to the FCC",
+    "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+    "title": "Meta’s new Muse Charm device may cost $300",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2348,
+      "source_preview": "Posted: Meta plans to charge $300 for Muse Charm, its upcoming Tamagotchi-like AI device that was teased at the company’s Connect event earlier this year, The Information has reported . When reached for comment by TechCrunch, a Meta spokesperson didn’t deny the claims, merely providing the following statement: “We’re charmed by the interest in our AI devices, and we’ll have more to share soon.” So",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+    "title": "These tech outages are giving Y2K, AI agent style",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Politics Trump is stacking the FCC with Republicans, even as the Democrats boycott. Trump is stacking",
+      "source_preview": "It’s going down, as the American rapper Yung Joc might say: the airline booking systems, banking platforms, and productivity platforms. In the past two weeks, the U.S.’s top businesses have faced technical outages that have disrupted the systems that run everyday life. Apple Pay went down. NASA’s internal communication network went down. The FAA had to ground all flights for hours (only the third ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -432,12 +432,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-    "title": "Absolute Batman can save DC Studios",
+    "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Comics Posts from this topic will be added to your daily email digest and your homepage feed. See All Film Skydance’s cinematic superhero universe could get back on track through DC’s progressive ",
+      "source_preview": "Nvidia co-founder and now former CEO Jensen Huang has never been as prone to controversy as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. But the 63-year-old industry kingpin recently admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond Huang’s personal life and U.S. national security. U.S. officials believe that one of Huang’s likely roma",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -459,12 +459,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-    "title": "Trump’s latest land grab is an AI hub in the Philippines",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+    "title": "A brief history of Nvidia’s recent stock fluctuations",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Science Facing opposition at home, Trump is eyeing the former US colony to build chip fabs and data cente",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Tracking the stock price amid Jensen Huang’s extramarital affairs and alleged spy scandal. Tracking the stock price amid Jensen Huang’s extramarital affairs and alleged spy scandal. Posts from this ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,12 +486,66 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
-    "title": "Sony’s impressive Bravia 8 II OLED hits a new low price ahead of Black Friday",
+    "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+    "title": "Meta now sells 3D movies on Quest VR headsets",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2451,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Use your Quest 3 to catch films like Avatar and Jurassic World Rebirth in 3D.﻿ Use your Que",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+    "title": "Google is putting AI chats right on the homepage",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2606,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News You can now view your recent AI searches by opening the sidebar on Google’s homepage. You can now view",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
+    "title": "FCC greenlights rule allowing prisons to jam cellphone signals",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All TVs Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping This screen is one the best we’ve tested, and the lower price makes it more competitive ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech The FCC passed the rule despite warnings that jammers could block lawful communications, like 911 ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -513,39 +567,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
-    "title": "Instagram now lets you edit your stories after you post them",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2548,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Apps You can edit the text, music, stickers, and drawings in your Stories for up to 15 minutes after shar",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
-    "title": "The leaked Lenovo Legion Go Beam could be the affordable handheld we need",
+    "url": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
+    "title": "Sony’s WH-1000XM5 are cheaper than ever for Black Friday",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Lenovo It looks comparatively cheap — and that might be a good thing in this economy. It looks comparat",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Headphones Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Last-generation noise-cancelling headphones are still a great option for travelin",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -567,12 +594,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-    "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+    "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+    "title": "You can now buy a Steam Machine without getting on a waitlist",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Congress is scrambling to provide legal recourse for deepfakes and online grooming. Congress is sc",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Valve’s 512GB Steam Machine is available to buy now, but the 2TB model is out of stock. V",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -592,6 +619,100 @@
     },
     "cache_updates": [],
     "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads",
+    "title": "Some creators are skeptical of Instagram’s new affiliate program",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Influencers are now able to link their Amazon and Instagram accounts to promote products. Some are",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale",
+    "title": "Sonos is taking up to 30 percent off speakers and soundbars right now",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday Whether you want a portable speaker or a new home theater setup, Sonos is offer",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+    }
+  },
+  {
+    "url": "https://openai.com/business/learn/deploying-daybreak-red",
+    "title": "Deploying Daybreak Red",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/learn/deploying-daybreak-red"
+    }
+  },
+  {
+    "url": "https://openai.com/business/learn/pr-scans-demo",
+    "title": "See PR scans in action",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/learn/pr-scans-demo"
+    }
+  },
+  {
+    "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+    "title": "Explore the Codex Security Plugin",
+    "outcome": "skipped_no_content",
+    "stage0": {
+      "scraped_chars": 0,
+      "source_preview": "",
+      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/learn/codex-security-plugin-demo"
+    }
   },
   {
     "url": "https://openai.com/index/the-silent-consensus",
@@ -634,42 +755,12 @@
     }
   },
   {
-    "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
-    }
-  },
-  {
-    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-    "title": "Advancing chip design with OpenAI models",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/advancing-chip-design-with-our-models"
-    }
-  },
-  {
-    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-    "title": "Introducing GPT-6.2 Astra and Sol",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/introducing-gpt-6-2-astra-sol"
-    }
-  },
-  {
-    "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-    "title": "Genie 4 is now available",
+    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nov 18, 2026 Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery. Diego Rivas Group Product Manager, Google DeepMind Pavan Kumar Group Product Manager, Google Labs We are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and interactive world generation. You can now ",
+      "source_preview": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -691,16 +782,151 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/ATLURI0001/NeuroMirror",
-    "title": "ATLURI0001/NeuroMirror",
+    "url": "https://github.com/hasan6969macho-bit/vectorbt-avoria-analysis",
+    "title": "hasan6969macho-bit/vectorbt-avoria-analysis",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1823,
-      "source_preview": "Real-time webcam-driven anatomical visualization with interactive X-ray simulations of cranial, neural, and muscular structures. 🚀 Launch Live WebAR App • 🧪 Try #demo Mode (No Camera Required) • ✨ Explore Features • 📐 Architecture NeuroMirror turns any standard web browser and webcam into an interactive, high-precision augmented reality anatomical mirror . Look directly into your camera, and Neuro",
+      "scraped_chars": 3000,
+      "source_preview": "Vectorbt research code for Avoria analysis, built for reproducible strategy experiments. TRON : TQoqmUahJsKbJxTX9GJ7CGwxtjQizNw6zz | ETH : 0x43D14D24967E29D89Ae314398d7aB0bbB2C93698 | BTC : 13TYYcs6cTdHed6Ri4cBVE3fG4Udmw38MS A vectorbt-based toolkit for running Avoria-style backtests and parameter sweeps over OHLCV data, built to keep strategy logic, sizing, and reporting in one composable layer. ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
       "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/hexsyro/kaggle-dress-rehearsal",
+    "title": "hexsyro/kaggle-dress-rehearsal",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2087,
+      "source_preview": "Validation discipline for Kaggle: stratified CV, Grid vs Random vs Optuna, and a public/private leaderboard simulation. Does your validation score actually predict your true held-out performance, or is it lying to you? This project runs a full, disciplined model-selection pipeline that mimics exactly what a real Kaggle competition demands: rigorous cross-validation (plain vs. stratified), three hy",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/di37/animated-machine-learning-algorithm",
+    "title": "di37/animated-machine-learning-algorithm",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Watch scikit-learn models learn and predict: live training and inference animations, narrated lessons and Manim videos for California Housing (regression) and Titanic (classification) Stop staring at loss curves. Watch the algorithm itself learn, then watch it explain every prediction it makes. 21 scikit-learn models · 2 classic datasets · 76 videos · every frame a real model state · every predict",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
+    "title": "kenzz-devv/open-webui-talora-ai-workspace",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Streamlined workspace for organizing and running AI workflows in one place. TRON : TGDt87muktcmmoVSZDQCUUZ1RTYBgKGLEM | ETH : 0x4a7c81C1576a786Bc16d64c51487ba15efB0D095 Open Webui Talora Ai Workspace is a refined, model-agnostic environment built for teams that expect their AI tooling to feel as considered as the products they ship. It brings conversational interfaces, workspace organization, and ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/mitdbg/pgvectorfast",
+    "title": "mitdbg/pgvectorfast",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Postgres extension for vector search with performance enhancements built on Calico buffer pool. pgvectorfast is a high-performance drop-in enhancement for pgvector that accelerates vector similarity search and analytical queries in PostgreSQL using a fast shared buffer pool. Based on pgvector , pgvectorfast is a standard PostgreSQL extension on unmodified PostgreSQL 18 and 19 servers for fast vect",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/arturomeneses100/deteccion-figuras-opencv",
+    "title": "arturomeneses100/deteccion-figuras-opencv",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1125,
+      "source_preview": "Detección en tiempo real de figuras geométricas por color (HSV) con Python y OpenCV, más calibrador de colores. Material del curso de Programación en Python. Proyecto didáctico del curso de Programación en Python (unidad de visión artificial). Detecta en tiempo real, con una cámara web, figuras geométricas de colores (triángulos, cuadrados, rectángulos y círculos) usando segmentación en el espacio",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "es",
+      "translated_to_english": true
     },
     "stage1": {},
     "cache": {
