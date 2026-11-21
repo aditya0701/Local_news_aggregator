@@ -1,0 +1,10 @@
+{
+  "title": "jackson-cmd/claude-multi-desktop",
+  "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+  "summary": "Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop",
+  "image": "https://opengraph.githubassets.com/1/jackson-cmd/claude-multi-desktop",
+  "source": "github",
+  "language": "hindi",
+  "id": "479bc4e0e5b1",
+  "first_seen": "2026-11-21T10:00:55.608268+00:00"
+}

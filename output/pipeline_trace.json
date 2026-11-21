@@ -1,11 +1,38 @@
 [
   {
-    "url": "https://github.com/openssl/openssl/pull/33652",
-    "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+    "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+    "title": "Hurried Announcement: Alessandro Masullo GRH",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1551,
+      "source_preview": "November 20, 2026 Hi everyone, I am at the American Mathematical Society Executive Committee and Board of Trustees meeting now, and about to chair an hours-long meeting, but this is urgent, so I will try to get this out quickly. Alessandro Maria Masullo has a proposed proof of GRH, and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, a",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "title": "Inkling 2 Mini",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "This fixes \"Buffer overflow in EVP_EncodeBlock()\" ( CVE-2026-121481 ) by returning -1 for invalid inputs to EVP_EncodeBlock() : NULL input or output buffers, negative lengths, and lengths for which the encoded size does not fit in an int . The OpenSSL SRT has asked for it to be fixed publicly; the advisory is still pending. Returning -1 for invalid inputs is the most straightforward fix, and match",
+      "source_preview": "Today we are releasing Inkling 2 Mini, a fast, powerful model that’s small enough to run on your laptop. Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality. Inkling 2 Mini lea",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -27,12 +54,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://ffmpeg.org/download.html#release_9.1",
-    "title": "FFmpeg 9.1 'Gauss'",
+    "url": "https://manidoraisamy.com/developer-to-architect.html",
+    "title": "We promoted developers into architects without informing them",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1489,
+      "source_preview": "15 hours ago 4 2 Yesterday, I was debugging a performance problem with our Google Forms addon. It turned out my colleague had vibe coded the logging part, so that he could monitor the new installs every week. Monitoring new customers is the most important part of running a business, so he is absolutely right in doing that. Except, he was logging the user’s email and Google has severely restricted ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+    "title": "Clojure will affect the way you think about programming (2017)",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "FFmpeg only provides source code. Below are some links that provide it already compiled and ready to go. You can retrieve the source code through Git by using the command: FFmpeg has always been a very experimental and developer-driven project. It is a key component in many multimedia projects and has new features added constantly. Development branch snapshots work really well 99% of the time so p",
+      "source_preview": "I sometimes get asked for recommendations of what programming language to \"learn\nnext\". It's great that folks appreciate the fact that being exposed to several\nsufficiently different programming languages is an important step on the path\nto programming enlightenment. But it's also true that, given limited free time,\nthe choice of which languages to learn is important. As the famous quote by Alan P",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -54,12 +108,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://cpldcpu.com/2014/03/19/%c2%b5-wire-usb-on-an-attiny-10/",
-    "title": "µ-Wire – USB on an ATtiny 10",
+    "url": "https://ninlive.com/",
+    "title": "NINLIVE: The Nine Inch Nails live archive",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2006,
+      "source_preview": "The Nine Inch Nails live archive Explore shows, download recordings, stream audio, and follow the tape trail across every era. Fan run, not affiliated with the band. Peel It Back Tour From the archive Besides a database driven site. The second most requested feature for ninlive is streaming capability. The future is now. TJ has been working hard behind the scenes to make it happen. You are now abl",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+    "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Atmels AVR ATtiny10 are surprisingly powerful devices that come in an extremely tiny SOT23 package with only 6 pins. The have 1kb of flash, 32 bytes of SRAM and use the reduced AVR core which only supports 16 instead of 32 register. It seems like Atmels idea of these devices is to use them as an advanced blinker , and to replace tiny logic circuits. But other people have shown that much more is po",
+      "source_preview": "Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao 20 November, 2026 in math.AP , math.NT | Tags: AI , incompressible Euler equations , Levent Alpöge , Matei Coiculescu , Navier-Stokes equations , Riemann hypothesis , Tristan Buckmaster | by Terence Tao Obviously these results will be reported widely in other outlets, but I wil",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -81,12 +162,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-    "title": "\"I can tell you wrote this yourself\"",
+    "url": "https://arxiv.org/abs/2611.21885",
+    "title": "Language Models Can Rewrite Their Own Weights",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 456,
+      "source_preview": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+    "title": "The most misunderstood graph in AI just got a major update",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "19 Nov, 2026 Those were some of the first words my honours project supervisor said to me last week when we met to discuss a progress report I had written to mark the midway point of the project. It's a roughly 10-page report on the control of flapping-wing micro aerial vehicles - which is probably very boring unless you're particularly interested in that. I accidentally set the due date for the re",
+      "source_preview": "METR’s latest report finds that AI models are still improving at a rapid clip, but they show some weaknesses in tasks that require judgment. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The repor",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -108,12 +216,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-    "title": "Claude solves two open problems in the physics of black holes",
+    "url": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
+    "title": "The Download: inside the quest to make our minds immortal",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Science Nov 4, 2026 Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the f",
+      "source_preview": "Plus: Trump has fired his cyber director after a wave of tech outages. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. To preserve our sense of self, some scientists are working on ways to keep our brains going—even beyond death. In their quest for cognitive immortality, these “mind savers” are exploring eve",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -135,39 +243,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://blog.harrison.page/garage-door-spam/",
-    "title": "Garage Door Spam",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2220,
-      "source_preview": "16 Nov, 2026 In the beginning, my garage door opener worked fine. When the door opened or closed, I would get a notification. If I'm away from home and the door opens, something weird is going down. The \"myQ\" app generally worked although it was encrusted with ads: I continued using it because I trusted that notifications were meaningful... ...until recently (October 2026): This is un-fucking-acce",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
-    "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+    "url": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
+    "title": "Startup sues Apple in India over tap-to-share contacts feature",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Plus: Anthropic has raised $81 billion in the biggest-ever IPO. This is today's edition of The Download , our weekday newsletter that provides a daily dose of what's going on in the world of technology. Researchers in Australia claim they’ve kept a human liver alive on life support outside the body for seven weeks, smashing the previous record of about two weeks. They achieved the feat by connecti",
+      "source_preview": "Apple is being sued in India by a U.S.-based startup that alleges the iPhone maker’s NameDrop feature, which lets users share contact information by bringing devices close together, infringes its patented technology. GG Technologies, the startup behind StayTouch , an app that lets users exchange contact details by bringing their phones close together, is seeking ₹15 billion (about $161.86 million)",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -189,12 +270,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
-    "title": "A human liver has been kept alive outside the body for a record seven weeks",
+    "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+    "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Technology called “machine perfusion” is creating the chance for more transplants—and daring new science. Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inv",
+      "source_preview": "Spotify founder Daniel Ek is backing Europa Fusion, a stealthy fusion power startup founded by an AI researcher who is taking a different approach to developing a fusion power plant. The U.K.-based startup was founded in February, though sources told TechCrunch that the founder, Nantas Nardelli, has been working on the idea for longer. The people asked not to be identified because the information ",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -216,12 +297,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
-    "title": "What a billion-dollar deal says about the US battery market",
+    "url": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+    "title": "Super-hot rock geothermal could end data center energy woes",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "The deal between Sila and Panasonic Energy is a bright spot for the industry, and it shows how politics have shifted recently for batteries. After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, ",
+      "source_preview": "Geothermal startups are in a race to see who can tap the deepest, hottest rocks. The winners could power the next phase of the grid, data centers and all. The broader markets got their first taste of enhanced geothermal earlier this year when Fervo Energy went public. But this week was all about super-hot rock geothermal. Geothermal has become a darling among investors, tech companies, and even th",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -243,39 +324,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
-    "title": "The U.S. national cyber director is stepping down",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 1999,
-      "source_preview": "Posted: White House national cyber director Sean Cairncross will be stepping down from his role, Axios reported. The news comes as Democrats prepare to take control of Congress and as businesses across the country report a flurry of technical outages whose cause remains unknown. Cairncross, the president’s principal adviser on national cybersecurity policy and strategy, took office in August 2025.",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-    "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+    "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+    "title": "Chips can survive the space environment — can their financing?",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders. As we previously reported, each of them ponied up about 3.4 million shares apiece to sell in the IPO. At the upgraded IPO price of $83 per share, that means they each pocketed about $280 million before underwriting fees and taxes. It looked like they had calculated the n",
+      "source_preview": "The push to build data centers in space faces plenty of obstacles, from tricky engineering to a dearth of rockets that could take chips to orbit. But what about paying for the chips? The data center ecosystem currently depends on debt financing, with cloud providers borrowing to build out data centers and then paying back the loans with a share of the revenue. Those deals typically use the chips a",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -297,12 +351,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-    "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+    "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+    "title": "Bending Spoons buys Mailchimp for $3.68B",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2733,
+      "source_preview": "Bending Spoons has bought up another distressed internet company. This time, it’s the email marketing firm Mailchimp, bought for $3.68 billion from the tax-preparation giant Intuit. Intuit acquired the company in 2021 for roughly $12 billion, so it’s taking quite a loss — and, perhaps, Bending Spoons is getting quite a bargain. At the time of the sale to Intuit, that acquisition caused headlines b",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
+    "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "On the same day that Anthropic went public in the largest IPO on record, with investor enthusiasm for the AI lab through the roof, far away at the Slush startup conference in Helsinki, the topic du jour was open source everything. That’s the enormous opportunity being chased by companies like Fireworks AI , as enterprises seek ways to avoid paying frontier prices for their AI needs. Four-year-old ",
+      "source_preview": "A transcription company that caters to law enforcement, government departments, and Silicon Valley tech giants has resolved a security lapse after leaving a large amount of internal data, including customer transcriptions and their source materials, exposed to the web. The data security lapse at San Francisco-based Tigerfish exposed transcriptions of police interviews, body-cam footage, and custom",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -324,12 +405,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
-    "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+    "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+    "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 1893,
+      "source_preview": "Posted: Earlier this week at the DealBook conference in New York, Elon Musk, beamed in from a trip to China with President Donald Trump, was asked about the ouster of his longtime friend, former Nvidia CEO Jensen Huang. Musk compared it to kicking Michael Jordan off the Chicago Bulls’ roster during his historic run. Of Nvidia’s employees, he said, “They love [Huang]. They love him.” Well, maybe no",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "CEO Elon Musk said SpaceX has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones inside buildings where signals from its Starlink satellites have trouble reaching. These mini cell towers are expected to go into production in 2027, Musk said, during an interview at the DealBook Summit this week. “We’ve got a plan that ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Streaming Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy The potential settlement would also require YouTube to introduce new safeguards for teens, Bl",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -351,12 +459,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
-    "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+    "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+    "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2144,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News GTA VI is finally here, and it’s already a huge hit. GTA VI is finally here, and it’s alr",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "There’s a new way to keep an eye on your AI usage and when your limits reset: by using your Mac’s app icons. Yes, really! Designer Michael Flarup has just launched a new Mac utility called IconSwapper , which lets you replace any app’s official icon with one of your own creation. While you can use this tool to change your icons’ appearance, design, shading, and more, one of the more interesting wa",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday The robot vacuum / mop hybrid is our top pick for smaller homes and apartments,",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -378,39 +513,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-    "title": "Meta’s new Muse Charm device may cost $300",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2348,
-      "source_preview": "Posted: Meta plans to charge $300 for Muse Charm, its upcoming Tamagotchi-like AI device that was teased at the company’s Connect event earlier this year, The Information has reported . When reached for comment by TechCrunch, a Meta spokesperson didn’t deny the claims, merely providing the following statement: “We’re charmed by the interest in our AI devices, and we’ll have more to share soon.” So",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-    "title": "These tech outages are giving Y2K, AI agent style",
+    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "It’s going down, as the American rapper Yung Joc might say: the airline booking systems, banking platforms, and productivity platforms. In the past two weeks, the U.S.’s top businesses have faced technical outages that have disrupted the systems that run everyday life. Apple Pay went down. NASA’s internal communication network went down. The FAA had to ground all flights for hours (only the third ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News While policymakers across the country are putting new restrictions on the data center buildout, Trum",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -432,12 +540,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+    "title": "Multiplying your Switch 2’s storage costs less than usual right now",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Nvidia co-founder and now former CEO Jensen Huang has never been as prone to controversy as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. But the 63-year-old industry kingpin recently admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond Huang’s personal life and U.S. national security. U.S. officials believe that one of Huang’s likely roma",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday SSD costs are still sky-high, but at least there are decent deals on microSD Ex",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -459,12 +567,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-    "title": "A brief history of Nvidia’s recent stock fluctuations",
+    "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+    "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2732,
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Google Posts from this topic will be added to your daily email digest and your homepage feed. See All Google Assistant Google is making some big changes to its smart home offerings, including killing the N",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+    "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All Business Tracking the stock price amid Jensen Huang’s extramarital affairs and alleged spy scandal. Tracking the stock price amid Jensen Huang’s extramarital affairs and alleged spy scandal. Posts from this ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday From AirPods to Apple Watches, many Apple devices are already seeing notable di",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -486,66 +621,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
-    "title": "Meta now sells 3D movies on Quest VR headsets",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2451,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Use your Quest 3 to catch films like Avatar and Jurassic World Rebirth in 3D.﻿ Use your Que",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-    "title": "Google is putting AI chats right on the homepage",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2606,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News You can now view your recent AI searches by opening the sidebar on Google’s homepage. You can now view",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
-    "title": "FCC greenlights rule allowing prisons to jam cellphone signals",
+    "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+    "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Policy Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech The FCC passed the rule despite warnings that jammers could block lawful communications, like 911 ",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All News The EP/BC–1 can wirelessly stream audio to Bluetooth headphones or multiple devices using Auracas",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -567,12 +648,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
-    "title": "Sony’s WH-1000XM5 are cheaper than ever for Black Friday",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+    "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Headphones Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Last-generation noise-cancelling headphones are still a great option for travelin",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All AI Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Science An Anthropic mathmetician’s latest breakthrough is another sign of how quickly AI is transforming m",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -594,12 +675,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
-    "title": "You can now buy a Steam Machine without getting on a waitlist",
+    "url": "https://www.theverge.com/entertainment/1038444/boys-noize-7llvsion-interview",
+    "title": "Boys Noize turns to the club (and an obscure Italian synth) for inspiration on 7LLVSION",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gaming Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All News Valve’s 512GB Steam Machine is available to buy now, but the 2TB model is out of stock. V",
+      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Interview ‘I always look for the newest machines.’ Posts from this author will be added to you",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -621,12 +702,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads",
-    "title": "Some creators are skeptical of Instagram’s new affiliate program",
+    "url": "https://openai.com/index/combatting-adversarial-distillation",
+    "title": "Combatting adversarial distillation",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All News Posts from this topic will be added to your daily email digest and your homepage feed. See All Report Posts from this topic will be added to your daily email digest and your homepage feed. See All Tech Influencers are now able to link their Amazon and Instagram accounts to promote products. Some are",
+      "source_preview": "November 20, 2026 How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry. As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly. Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards. An actor m",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -648,12 +729,39 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale",
-    "title": "Sonos is taking up to 30 percent off speakers and soundbars right now",
+    "url": "https://openai.com/business/customer-stories/hebbia",
+    "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Posts from this topic will be added to your daily email digest and your homepage feed. See All Gadgets Posts from this topic will be added to your daily email digest and your homepage feed. See All Verge Shopping Posts from this topic will be added to your daily email digest and your homepage feed. See All Black Friday Whether you want a portable speaker or a new home theater setup, Sonos is offer",
+      "source_preview": "November 20, 2026 Hebbia sees gains in financial research in tests of GPT‑6 Astra. Required source types cited 13.6 Percentage-point lead over the best alternative tested in Hebbia’s tests. Citation relevance 99.5 Percent of cited excerpts relevant to the question in Hebbia’s tests. Presentation requirements met 97.9 Percent of applicable presentation requirements met in Hebbia’s tests. Presentati",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://openai.com/index/introducing-medchembench",
+    "title": "Can AI help scientists identify promising drug candidates?",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "November 20, 2026 Introducing MedChemBench, a benchmark that tests how well AI models read molecular structures, interpret experimental results, and choose which compounds to test next. 00:00 We’re introducing MedChemBench, a benchmark that evaluates AI models on reasoning tasks drawn from medicinal chemistry research. It tests whether models can connect a molecule’s structure with experimental ev",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -677,90 +785,111 @@
   {
     "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
     "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-    "outcome": "skipped_no_content",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
-    }
+      "scraped_chars": 3000,
+      "source_preview": "November 19, 2026 Our Codex-powered system automates finding and fixing performance issues. By Okay Zed and Cyrus Forbes, Members of Technical Staff The staggering pace of agentic development has made traditional approaches to performance engineering unsustainable. To keep up, we built the Performance Factory, an autonomous system that uses the full capabilities of Codex and our models to find and",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://openai.com/business/learn/deploying-daybreak-red",
-    "title": "Deploying Daybreak Red",
-    "outcome": "skipped_no_content",
+    "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+    "title": "Explore the Codex Security Plugin",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/learn/deploying-daybreak-red"
-    }
+      "scraped_chars": 156,
+      "source_preview": "Product demo Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
     "url": "https://openai.com/business/learn/pr-scans-demo",
     "title": "See PR scans in action",
     "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/learn/pr-scans-demo"
+      "scraped_chars": 119,
+      "source_preview": "Product demo Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "scrape_error": null
     }
   },
   {
-    "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-    "title": "Explore the Codex Security Plugin",
+    "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+    "title": "Get started with Daybreak Blue",
     "outcome": "skipped_no_content",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/learn/codex-security-plugin-demo"
+      "scraped_chars": 131,
+      "source_preview": "Product demo Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "scrape_error": null
     }
   },
   {
     "url": "https://openai.com/index/the-silent-consensus",
     "title": "The Silent Consensus",
-    "outcome": "skipped_no_content",
+    "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/the-silent-consensus"
-    }
-  },
-  {
-    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-    "title": "Research acceleration: The jagged frontier",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/research-acceleration-jagged-frontier"
-    }
+      "scraped_chars": 3000,
+      "source_preview": "November 18, 2026 By Dean Ball Author’s note: Today’s essay is adapted from a lecture the author gave recently as part of the Vik-Bailey Lecture series at Harvard. This post reflects the author’s own views, and not necessarily the views of OpenAI or any of its other employees. Thank you for being here today. As we speak, one of the most significant sets of cybersecurity events in history is happen",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
   },
   {
     "url": "https://openai.com/business/customer-stories/sumitomo-life",
     "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/business/customer-stories/sumitomo-life"
-    }
-  },
-  {
-    "url": "https://openai.com/index/inside-the-codex-sandbox",
-    "title": "Inside the Codex sandbox",
-    "outcome": "skipped_no_content",
-    "stage0": {
-      "scraped_chars": 0,
-      "source_preview": "",
-      "scrape_error": "403 Client Error: Forbidden for url: https://openai.com/index/inside-the-codex-sandbox"
-    }
-  },
-  {
-    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in ",
+      "source_preview": "November 18, 2026 Planning teams use ChatGPT to research overseas insurers and prepare proposals. Investment teams use it to draft code for risk analysis. Results 80%+ Weekly usage rate for ChatGPT Enterprise Results 524% Average estimated ROI among employees using ChatGPT at least 101 times a month ROI estimates are based on employee-reported time savings; overall estimated ROI is 203%. When Sumi",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -782,12 +911,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/hasan6969macho-bit/vectorbt-avoria-analysis",
-    "title": "hasan6969macho-bit/vectorbt-avoria-analysis",
+    "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+    "title": "jackson-cmd/claude-multi-desktop",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Vectorbt research code for Avoria analysis, built for reproducible strategy experiments. TRON : TQoqmUahJsKbJxTX9GJ7CGwxtjQizNw6zz | ETH : 0x43D14D24967E29D89Ae314398d7aB0bbB2C93698 | BTC : 13TYYcs6cTdHed6Ri4cBVE3fG4Udmw38MS A vectorbt-based toolkit for running Avoria-style backtests and parameter sweeps over OHLCV data, built to keep strategy logic, sizing, and reporting in one composable layer. ",
+      "source_preview": "Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop Run multiple Claude Desktop accounts at the same time on one Mac. Each window has its own sign-in, and all of them share one Claude Code setup, so a session in one account",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -809,39 +938,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/hexsyro/kaggle-dress-rehearsal",
-    "title": "hexsyro/kaggle-dress-rehearsal",
-    "outcome": "stage2_failed",
-    "stage0": {
-      "scraped_chars": 2087,
-      "source_preview": "Validation discipline for Kaggle: stratified CV, Grid vs Random vs Optuna, and a public/private leaderboard simulation. Does your validation score actually predict your true held-out performance, or is it lying to you? This project runs a full, disciplined model-selection pipeline that mimics exactly what a real Kaggle competition demands: rigorous cross-validation (plain vs. stratified), three hy",
-      "scrape_error": null,
-      "used_summary_fallback": false,
-      "detected_language": "en",
-      "translated_to_english": false
-    },
-    "stage1": {},
-    "cache": {
-      "hits": [],
-      "misses": []
-    },
-    "search": {
-      "backend": "ddg",
-      "identity_queries": [],
-      "context_queries": [],
-      "context_queries_with_gap1_attached": [],
-      "results": {}
-    },
-    "cache_updates": [],
-    "entity_context_preview": "No additional context available."
-  },
-  {
-    "url": "https://github.com/di37/animated-machine-learning-algorithm",
-    "title": "di37/animated-machine-learning-algorithm",
+    "url": "https://github.com/Wilfriedbkt/interview-copilot-edtech-app",
+    "title": "Wilfriedbkt/interview-copilot-edtech-app",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Watch scikit-learn models learn and predict: live training and inference animations, narrated lessons and Manim videos for California Housing (regression) and Titanic (classification) Stop staring at loss curves. Watch the algorithm itself learn, then watch it explain every prediction it makes. 21 scikit-learn models · 2 classic datasets · 76 videos · every frame a real model state · every predict",
+      "source_preview": "Interview Copilot EdTech App: Bridge Learning and Your Dream Job Interview Copilot is an EdTech application built to close the distance between learning and landing the job you actually want. It pairs advanced AI with a real-time coaching experience, listening to interview questions as they happen and surfacing context-aware hints, talking points, and structured answers that teach you how to respo",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -863,12 +965,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
-    "title": "kenzz-devv/open-webui-talora-ai-workspace",
+    "url": "https://github.com/prajwaljeevan50-web/openclaw-personal-workspace",
+    "title": "prajwaljeevan50-web/openclaw-personal-workspace",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Streamlined workspace for organizing and running AI workflows in one place. TRON : TGDt87muktcmmoVSZDQCUUZ1RTYBgKGLEM | ETH : 0x4a7c81C1576a786Bc16d64c51487ba15efB0D095 Open Webui Talora Ai Workspace is a refined, model-agnostic environment built for teams that expect their AI tooling to feel as considered as the products they ship. It brings conversational interfaces, workspace organization, and ",
+      "source_preview": "A friendly, feature-rich workspace built with and for its community. ETH : 0x0ed36f0d73cEe4e0C0d134d726828b6E66A539A0 | BTC : 134PDxtKbDFHJqkyz7NFLk6rweNWt9gcuq | TRON : TUn7h7U73t1uXiBYzWCu8W7mDdy9FJjhbA Openclaw Personal Workspace is a fully automated bot built to handle the busywork so you can focus on what matters, from organizing your day to keeping your projects moving without constant manua",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -890,12 +992,12 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/mitdbg/pgvectorfast",
-    "title": "mitdbg/pgvectorfast",
+    "url": "https://github.com/chase1225/anythingllm-verona-document-chat",
+    "title": "chase1225/anythingllm-verona-document-chat",
     "outcome": "stage2_failed",
     "stage0": {
       "scraped_chars": 3000,
-      "source_preview": "Postgres extension for vector search with performance enhancements built on Calico buffer pool. pgvectorfast is a high-performance drop-in enhancement for pgvector that accelerates vector similarity search and analytical queries in PostgreSQL using a fast shared buffer pool. Based on pgvector , pgvectorfast is a standard PostgreSQL extension on unmodified PostgreSQL 18 and 19 servers for fast vect",
+      "source_preview": "Document-grounded chat for Verona - AnythingLLM workspace integration. ETH : 0x60530AE300323dE6d7D9313661bAcc24BB235C32 | BTC : 1Lvbg8BU27mLtXkQA2fyR9sawopoygiQ4Y | TRON : TQ16XXygPc6vSLLFgdwiTJmN4c1DGjHdLU Anythingllm Verona Document Chat is a desktop application for interacting with local document collections through a conversational interface. It indexes ingested files into a vector store and r",
       "scrape_error": null,
       "used_summary_fallback": false,
       "detected_language": "en",
@@ -917,16 +1019,124 @@
     "entity_context_preview": "No additional context available."
   },
   {
-    "url": "https://github.com/arturomeneses100/deteccion-figuras-opencv",
-    "title": "arturomeneses100/deteccion-figuras-opencv",
+    "url": "https://github.com/AI4XE/Parallax",
+    "title": "AI4XE/Parallax",
     "outcome": "stage2_failed",
     "stage0": {
-      "scraped_chars": 1125,
-      "source_preview": "Detección en tiempo real de figuras geométricas por color (HSV) con Python y OpenCV, más calibrador de colores. Material del curso de Programación en Python. Proyecto didáctico del curso de Programación en Python (unidad de visión artificial). Detecta en tiempo real, con una cámara web, figuras geométricas de colores (triángulos, cuadrados, rectángulos y círculos) usando segmentación en el espacio",
+      "scraped_chars": 2845,
+      "source_preview": "A lightweight workflow plugin for hands-off AI coding with DeepSeek Harness, Claude Code, GitHub Copilot, and more. Parallax is a lightweight workflow plugin for hands-off AI coding, on top of your agent harness. Just say what you want, make a few choices, hand it off — an agent team takes it from there. You own the goal; the agents own the work, independent audits, and context management. 中文文档 Pl",
       "scrape_error": null,
       "used_summary_fallback": false,
-      "detected_language": "es",
-      "translated_to_english": true
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/nestjs/agent-skills",
+    "title": "nestjs/agent-skills",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Agent skills for Nest framework (node.js) 🕵️‍♂️ Official Agent Skills for building and extending NestJS applications with coding agents. They give an agent what its training data lacks: Each skill is a folder with a SKILL.md that holds its rules, plus references/ with longer recipes. Every recipe was run on the released packages. The skills work with any agent that reads the Agent Skills format: C",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/mancommits/ai--manus2.0",
+    "title": "mancommits/ai--manus2.0",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 2820,
+      "source_preview": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/bluesky-social/diderot",
+    "title": "bluesky-social/diderot",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Search and ask across your organization's knowledge: Slack, coding-agent sessions, docs and tickets. Self-hosted. Diderot answers questions about what your organization has written down. It\ningests Slack, Discord, coding-agent sessions, Notion, Linear, Zendesk, and\nfolders of Markdown files into one Postgres event log, embeds everything into Qdrant, and runs an agent that\nsearches that corpus and ",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
+    },
+    "stage1": {},
+    "cache": {
+      "hits": [],
+      "misses": []
+    },
+    "search": {
+      "backend": "ddg",
+      "identity_queries": [],
+      "context_queries": [],
+      "context_queries_with_gap1_attached": [],
+      "results": {}
+    },
+    "cache_updates": [],
+    "entity_context_preview": "No additional context available."
+  },
+  {
+    "url": "https://github.com/dickoyudha-netizen/adobe-firefly-image-creator",
+    "title": "dickoyudha-netizen/adobe-firefly-image-creator",
+    "outcome": "stage2_failed",
+    "stage0": {
+      "scraped_chars": 3000,
+      "source_preview": "Generate images from text prompts with Adobe Firefly Image Creator. TRON : TLYerffbZh6So6VsffRHBEEMTuuKXHSPko Adobe Firefly Image Creator turns text prompts into striking, production-ready visuals in seconds, giving teams a fast and intuitive way to bring ideas to life. Built for creators, marketers, and product teams, it blends powerful generative image capabilities with a clean, responsive web e",
+      "scrape_error": null,
+      "used_summary_fallback": false,
+      "detected_language": "en",
+      "translated_to_english": false
     },
     "stage1": {},
     "cache": {
