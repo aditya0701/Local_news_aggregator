@@ -144,7 +144,24 @@ def _annotate_proper_nouns(original: str, translated: str, translator: GoogleTra
     return translated
 
 
-def translate_item(item: dict, language: str = "hindi") -> dict:
+_DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+
+
+def translate_item(item: dict, language: str = "hindi") -> dict | None:
+    """Machine-translate an item, or return None if the translation didn't happen.
+
+    _safe_translate returns the original English on any error (e.g. Google's
+    free endpoint rate-limiting with TooManyRequests), so a "translated" item
+    can silently be untranslated. For Hindi, require some Devanagari in the
+    result and return None otherwise so the caller can skip it, not publish it.
+    """
+    result = _translate_item(item, language)
+    if language == "hindi" and not _DEVANAGARI_RE.search(f"{result['title']} {result['summary']}"):
+        return None
+    return result
+
+
+def _translate_item(item: dict, language: str = "hindi") -> dict:
     lang_code = LANGUAGES.get(language, "hi")
     translator = GoogleTranslator(source="auto", target=lang_code)
 

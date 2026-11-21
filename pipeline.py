@@ -14,7 +14,7 @@ from translator.translate import translate_item
 from writer.cluster import group_by_topic
 from writer.entity_cache import load_cache
 from writer.github_gate import filter_notable_repos
-from writer.synthesize import SKIP, get_run_traces, synthesize_article
+from writer.synthesize import SKIP, SarvamOutage, get_run_traces, synthesize_article
 
 load_dotenv()
 
@@ -61,6 +61,19 @@ def _load_store(out_path: Path) -> list[dict]:
 
 
 def run(language: str = "hindi", limit: int | None = None) -> None:
+    """Run the pipeline; abort (exit 1, nothing written) if Sarvam is down.
+
+    The store is only written after every cluster is processed, so aborting here
+    leaves output/ untouched and the workflow's commit step is skipped.
+    """
+    try:
+        _run(language, limit)
+    except SarvamOutage as e:
+        print(f"\n[ABORT] {e}\nNo articles were written. Check the Sarvam balance/key, then re-run.")
+        raise SystemExit(1)
+
+
+def _run(language: str, limit: int | None) -> None:
     OUTPUT_DIR.mkdir(exist_ok=True)
     out_path = OUTPUT_DIR / f"articles_{language}.json"
     store = _load_store(out_path)
@@ -85,6 +98,7 @@ def run(language: str = "hindi", limit: int | None = None) -> None:
 
     now = datetime.now(timezone.utc).isoformat()
     translated = []
+    untranslated = 0
     for cluster in clusters:
         synthesized = synthesize_article(cluster, language)
         if synthesized is SKIP:
@@ -98,9 +112,17 @@ def run(language: str = "hindi", limit: int | None = None) -> None:
 
         for item in cluster:
             translated_item = translate_item(item, language)
+            if translated_item is None:
+                # Not translated (e.g. Google rate limit) -- don't publish English
+                # as Hindi. Not stored, so it is retried on the next run.
+                untranslated += 1
+                continue
             translated_item["id"] = _article_id(item["url"])
             translated_item["first_seen"] = now
             translated.append(translated_item)
+
+    if untranslated:
+        print(f"[translate] {untranslated} items skipped: machine translation returned no Hindi (will retry next run)")
 
     combined = translated + store
     out_path.write_text(json.dumps(combined, ensure_ascii=False, indent=2), encoding="utf-8")

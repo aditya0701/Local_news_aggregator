@@ -492,6 +492,22 @@ def _match_label(line: str) -> tuple[str, str] | None:
 _UNSET = object()
 
 
+class SarvamOutage(RuntimeError):
+    """Sarvam is unusable (out of credit, bad key, or repeatedly failing).
+
+    Deliberately NOT a RequestException so it propagates past the per-call
+    error handling to pipeline.run(), which aborts the run instead of
+    publishing degraded output. Before this existed, an empty wallet made
+    every call fail silently and ~1,000 untranslated English articles were
+    published between 2026-10-23 and 2026-11-21.
+    """
+
+
+_FATAL_STATUSES = {401, 402, 403}
+_OUTAGE_THRESHOLD = 5  # consecutive failed calls before the run is aborted
+_consecutive_failures = 0
+
+
 def _call_sarvam(
     prompt: str,
     api_key: str,
@@ -507,6 +523,7 @@ def _call_sarvam(
     payload = {"model": model, "messages": messages, "max_tokens": max_tokens}
     if reasoning_effort is not _UNSET:
         payload["reasoning_effort"] = reasoning_effort
+    global _consecutive_failures
     try:
         response = requests.post(
             SARVAM_URL,
@@ -522,9 +539,22 @@ def _call_sarvam(
         content = msg.get("content") or msg.get("reasoning_content") or None
         if not msg.get("content") and content:
             print(f"[sarvam:{model}] content=None, using reasoning_content fallback")
+        _consecutive_failures = 0
         return content
     except requests.RequestException as e:
-        print(f"[sarvam:{model}] request failed: {e}")
+        _consecutive_failures += 1
+        resp = getattr(e, "response", None)
+        status = getattr(resp, "status_code", None)
+        body = (getattr(resp, "text", "") or "")[:300]
+        print(f"[sarvam:{model}] request failed: HTTP {status} {e} {body}".rstrip())
+        # Auth/billing errors will not fix themselves mid-run; keep going and every
+        # remaining call just burns time and (on 429) a "successful" empty run.
+        if status in _FATAL_STATUSES:
+            raise SarvamOutage(f"Sarvam returned HTTP {status} (auth/billing problem): {body}") from e
+        if _consecutive_failures >= _OUTAGE_THRESHOLD:
+            raise SarvamOutage(
+                f"{_consecutive_failures} consecutive Sarvam calls failed (last: HTTP {status} {body})"
+            ) from e
         return None
 
 
